@@ -1,0 +1,72 @@
+# A province can only belong to one region!
+
+# random_new_world_region is used for RNW. Must be first in this list.
+random_new_world_region = {
+}
+
+########################################
+# AVEIA                                #
+########################################
+
+kyathia_region = {
+	areas = {
+		ylasemyva_area
+		oruinyal_area
+		lower_mytn_area
+		upper_mytn_area
+		old_kyath_area
+		elraithe_area
+		upper_indoranas_area
+		lower_indoranas_area
+		lesser_iwenlumy_area
+		greater_iwenlumy_area
+		kyatlasia_area
+		anores_area
+		liren_area
+		titar_area
+		matnolu_area
+		lurt_area
+	}
+}
+lentira_region = {
+	areas = {
+		ildahir_area
+		landir_area
+		ihadar_area
+		ihadar_lesser_area
+		elesilon_area
+		himlunelo_area
+		north_doninas_area
+		south_doninas_area
+		sellalra_area
+		iarion_area
+		olores_area
+		yransa_area
+		parian_area
+		kanzan_area
+		nilaur_area
+	}
+}
+parhaman_region = {
+	areas = {
+		oramarnona_area
+		upper_oramarnona_area
+		eastern_srandor_area
+		western_srandor_area
+	}
+}
+
+##Karnaiha
+
+karnaiha_region = {
+	areas = {
+		cerinia_area
+	}
+}
+
+ocean_region = {
+	areas = {
+		grand_sea_area
+		filler_sea
+	}
+}

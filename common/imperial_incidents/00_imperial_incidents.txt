@@ -1,0 +1,123 @@
+# default options are 0-based
+# In console, can use imperial_incident [key] to immediately begin an incident
+
+incident_pu_subject_joins_empire = {
+	event = incident_generic.2
+	default_option = 0
+	
+	can_stop = {
+		OR = {
+			NOT = {
+				any_country = {
+					has_country_flag = current_pu_incident_target_flag
+				}
+			}
+			any_country = {
+				has_country_flag = current_pu_incident_target_flag
+				OR = {
+					is_subject = no
+					overlord = {
+						is_part_of_hre = no
+					}
+				}
+			}
+		}
+	}
+	
+	0 = { # join
+		factor = 1
+		modifier = {
+			factor = 1000
+			any_subject_country = {
+				has_country_flag = current_pu_incident_target_flag
+			}
+		}
+	}
+	
+	1 = { # denied
+		factor = 1
+	}
+}
+
+incident_great_peasants_war = {
+	event = great_peasant_war.3
+	default_option = 0
+	
+	can_stop = {
+		always = no
+	}
+	
+	0 = { # crush peasants
+		factor = 1
+		modifier = {
+			factor = 10
+			estate_influence = {
+				estate = estate_nobles
+				influence = 60
+			}
+		}
+	}
+	
+	1 = { # concessions
+		factor = 1
+		modifier = {
+			factor = 1000
+			has_reform = peasants_republic
+		}
+		modifier = {
+			factor = 10
+			NOT = {
+				estate_influence = {
+					estate = estate_nobles
+					influence = 40
+				}
+			}
+		}
+		modifier = {
+			factor = 10
+			religion = reformed
+		}
+	}
+}
+
+incident_reformer_dissension = {
+	event = reformer_dissension.1
+	default_option = 1
+	
+	can_stop = {
+		always = no
+	}
+	
+	0 = { # stay protestant
+		factor = 1
+		modifier = {
+			factor = 50
+			religion = protestant
+		}
+	}
+	
+	1 = { # religion treaty
+		factor = 1
+		modifier = {
+			factor = 50
+			OR = {
+				religion = catholic
+				has_idea_group = humanist_ideas
+			}
+		}
+	}
+	
+	2 = { # change hre religion to reformed
+		factor = 1
+		modifier = {
+			factor = 100
+			religion = reformed
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				religion = reformed
+			}
+		}
+	}
+}

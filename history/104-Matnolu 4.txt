@@ -1,0 +1,16 @@
+#Matnolu 4
+
+add_core = MAT
+owner = MAT
+controller = MAT
+culture = kyathian
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+trade_goods = grain
+base_manpower = 1
+capital = "Matnolu 4"
+is_city = yes
+discovered_by = western
+extra_cost = 16

@@ -1,0 +1,21 @@
+# Special countries..
+REB = "countries/Rebels.txt"
+PIR = "countries/Pirates.txt"
+NAT = "countries/Natives.txt"
+
+#kingdom of Kyath
+KYA = "countries/Kyath.txt"
+IWE = "countries/Iwenlumy.txt"
+KYT = "countries/Kyatlasian Theocracy.txt"
+ANO = "countries/Anores.txt"
+TIT = "countries/Titar.txt"
+MAT = "countries/Matnolu.txt"
+LUR = "countries/Lurt.txt"
+IHA = "countries/Ihadar.txt"
+ELE = "countries/Elesilon.txt"
+LEL = "countries/Leleth.txt"
+NIL = "countries/Nilaurhalin.txt"
+PAR = "countries/Parhama.txt"
+YRA = "countries/Yransa.txt"
+
+PAP  = "countries/Yulikivian.txt"

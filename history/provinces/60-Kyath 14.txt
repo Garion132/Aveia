@@ -1,0 +1,16 @@
+#Kyath 14 - filler
+
+add_core = KYA
+owner = KYA
+controller = KYA
+culture = kyathian
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+trade_goods = grain
+base_manpower = 1
+capital = "Kyath 14"
+is_city = yes
+discovered_by = western
+extra_cost = 16

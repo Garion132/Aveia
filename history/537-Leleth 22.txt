@@ -1,0 +1,16 @@
+#Leleth 22
+
+add_core = LEL
+owner = LEL
+controller = LEL
+culture = edailian
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+trade_goods = grain
+base_manpower = 1
+capital = "Leleth 22"
+is_city = yes
+discovered_by = western
+extra_cost = 16

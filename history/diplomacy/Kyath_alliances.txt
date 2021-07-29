@@ -1,0 +1,44 @@
+## Kyath vassals
+
+# Kyath-Titar
+vassal = {
+	first = KYA
+	second = TIT
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+# Kyath-Iwenlumy
+vassal = {
+	first = KYA
+	second = IWE
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+# Kyath-Kyatlasian Theocracy
+vassal = {
+	first = KYA
+	second = KYT
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+# Kyath-Anores
+vassal = {
+	first = KYA
+	second = ANO
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+# Kyath-Matnolu
+vassal = {
+	first = KYA
+	second = MAT
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+# Kyath-Lurt
+vassal = {
+	first = KYA
+	second = LUR
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}

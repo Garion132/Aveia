@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = ellorhasian
+religion = catholic
+technology_group = western
+capital = 554 # Iwenlumy
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1380.9.16 = {
+	monarch = {
+		name = "Suran"
+		dynasty = "Lelitha"
+		birth_date = 1375.12.3
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}

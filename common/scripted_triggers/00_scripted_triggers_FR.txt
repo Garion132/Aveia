@@ -1,0 +1,643 @@
+##############################################
+###   French localization custom strings   ###
+###       Scripted by Nicolas Fouqué       ###
+##############################################
+
+
+#####################################################
+###   Nation Articles // Articles pour les pays   ###
+#####################################################
+
+# Ex.: LE Danemark / l'honneur DU Danemark / le trône DU Danemark / arriver AU Danemark / demander AU Danemark / NOUVEAU-Danemark
+frloc_tags_art_sg_masc_cons_au_01a = {
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	always = no
+}
+
+frloc_tags_art_sg_masc_cons_dansle_01b = {
+	# Ex.: LE Berry / l'honneur DU Berry / le trône DU Berry / arriver DANS LE Berry / demander AU Berry / NOUVEAU-Berry
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	OR = {
+		has_country_flag = is_kingdom_of_god_flag
+		has_country_flag = unified_islam
+	}
+}
+
+frloc_tags_art_sg_masc_cons_en_01c = {
+	# Ex.: LE Hanovre / l'honneur DU Hanovre / le trône DU Hanovre / arriver EN Hanovre / demander AU Hanovre / NOUVEAU-Hanovre
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+}
+
+frloc_tags_art_sg_masc_vow_en_02a = {
+	# Ex.: L'Épire / l'honneur DE L'Épire / le trône D'Épire / arriver EN Épire / demander À L'Épire / NOUVEL-Épire
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+}
+
+frloc_tags_art_sg_masc_vow_dansl_02b = {
+	# Ex.: L'Ordre de Livonie / l'honneur DE L'Ordre de Livonie / le trône DE L'Ordre de Livonie / arriver DANS L'Ordre de Livonie / demander À L'Ordre de Livonie / NOUVEL-Ordre de Livonie
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		has_country_flag = is_gurkani_flag
+		has_country_flag = is_revolutionary_gurkani_flag
+		### USUAL PRIORITY ###
+		# Colon
+	}
+}
+
+frloc_tags_art_sg_fem_cons_de_en_03a = {
+	# Ex.: LA Finlande / l'honneur DE LA Finlande / le trône DE Finlande / arriver EN Finlande / demander À LA Finlande / NOUVELLE-Finlande
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		has_country_flag = is_china_flag
+		has_country_flag = is_revolutionary_china_flag
+		has_country_flag = is_turkey_flag
+		has_country_flag = is_revolutionary_turkey_flag
+		### USUAL PRIORITY ###
+	}
+}
+
+frloc_tags_art_sg_fem_cons_dela_auseindela_03b = {
+	# Ex.: LA République des Deux Nations / l'honneur DE LA République des Deux Nations / le trône DE LA République des Deux Nations / arriver AU SEIN DE LA République des Deux Nations / demander À LA République des Deux Nations / NOUVELLE-République des Deux Nations
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		has_country_flag = is_hanseatic_league_flag
+		### USUAL PRIORITY ###
+		# Eastern Europe / Europe orientale
+
+	}
+}
+
+frloc_tags_art_sg_fem_vow_d_en_04a = {
+	# Ex.: L'Islande / l'honneur DE L'Islande / le trône D'Islande / arriver EN Islande / demander À L'Islande / NOUVELLE-Islande
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+
+	}
+}
+
+frloc_tags_art_pl_masc_cons_chezles_05a = {
+	# Ex.: LES Lappons / l'honneur DES Lappons / le trône DES Lappons / arriver CHEZ LES Lappons / demander AUX Lappons / NOUVEAUX-Lappons
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+	}
+}
+
+frloc_tags_art_pl_masc_cons_aux_05b = {
+	# Ex.: LES États-Unis / l'honneur DES États-Unis / le trône DES États-Unis / arriver AUX États-Unis / demander AUX États-Unis / NOUVEAUX-États-Unis
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+	}
+}
+
+frloc_tags_art_pl_masc_cons_dansles_05c = {
+	# Ex.: LES États pontificaux / l'honneur DES États pontificaux / le trône DES États pontificaux / arriver DANS LES États pontificaux / demander AUX États pontificaux / NOUVEAUX-États pontificaux
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+		# Italy / Italie
+		tag = PAP
+	}
+}
+
+#frloc_tags_art_pl_masc_vow_X_06a = {} # CURRENTLY UNUSED
+
+frloc_tags_art_pl_fem_cons_aux_07a = {
+	# Ex.: LES Maldives / l'honneur DES Maldives / le trône DES Maldives / arriver AUX Maldives / demander AUX Maldives / NOUVELLES-Maldives
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+	}
+}
+
+frloc_tags_art_pl_fem_cons_dansles_07b = {
+	# Ex.: LES Cornouailles / l'honneur DES Cornouailles / le trône DES Cornouailles / arriver DANS LES Cornouailles / demander AUX Cornouailles / NOUVELLES-Cornouailles
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+	}
+}
+
+#frloc_tags_art_pl_fem_vow_X_08a = {} # CURRENTLY UNUSED
+
+frloc_tags_noart_sg_masc_cons_en_a_09a = {
+	# Ex.: [ø] Novgorod / l'honneur DE Novgorod / le trône DE Novgorod / arriver EN Novgorod / demander À Novgorod / NOUVEAU-Novgorod
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+	}
+}
+
+frloc_tags_noart_sg_masc_cons_a_a_09b = {
+	# Ex.: [ø] Chypre / l'honneur DE Chypre / le trône DE Chypre / arriver À Chypre / demander À Chypre / NOUVEAU-Chypre
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+	}
+}
+
+# TODO : might be better if all were plural?
+frloc_tags_noart_sg_masc_cons_en_aux_09c = {
+	# Ex.: [ø] Ming / l'honneur DE Ming / le trône DE Ming / arriver EN Ming / demander AUX Ming / NOUVEAU-Ming
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+	}
+}
+
+frloc_tags_noart_sg_masc_vow_en_a_10a = {
+	# Ex.: [ø] Alençon / l'honneur D'Alençon / le trône D'Alençon / arriver EN Alençon / demander À Alençon / NOUVEL-Alençon
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+	}
+}
+
+frloc_tags_noart_sg_masc_vow_a_a_10b = {
+	# Ex.: [ø] Haïti / l'honneur D'Haïti / le trône D'Haïti / arriver À Haïti / demander À Haïti / NOUVEL-Haïti
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+	}
+}
+
+frloc_tags_noart_sg_fem_cons_de_en_11a = {
+	# Ex.: [ø] Tchernigov / l'honneur DE Tchernigov / le trône DE Tchernigov / arriver EN Tchernigov / demander À Tchernigov / NOUVELLE-Tchernigov
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+	}
+}
+
+frloc_tags_noart_sg_fem_cons_de_a_11b = {
+	# Ex.: [ø] Gotland / l'honneur DE Gotland / le trône DE Gotland / arriver À Gotland / demander À Gotland / NOUVELLE-Gotland
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+	}
+}
+
+# Special case because of the "La" that can't be erased
+frloc_tags_noart_sg_fem_cons_dela_en_11c = {
+	# Ex.: [ø] La Plata / l'honneur DE La Plata / le trône DE La Plata / arriver À La Plata / demander À La Plata / NOUVELLE-La Plata
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+	}
+}
+
+frloc_tags_noart_sg_fem_vow_d_en_12a = {
+	# Ex.: Odoïev / l'honneur D'Odoïev / le trône D'Odoïev / arriver EN Odoïev / demander À Odoïev / NOUVELLE-Odoïev
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+	}
+}
+
+frloc_tags_noart_sg_fem_vow_d_a_12b = {
+	# Ex.: [ø] Athènes / l'honneur D'Athènes / le trône D'Athènes / arriver À Athènes / demander À Athènes / NOUVELLE-Athènes
+	### HIGHER PRIORITY ###
+	# override_country_name
+	NOT = { has_country_flag = is_china_flag }
+	NOT = { has_country_flag = is_revolutionary_china_flag }
+	NOT = { has_country_flag = is_gurkani_flag }
+	NOT = { has_country_flag = is_revolutionary_gurkani_flag }
+	NOT = { has_country_flag = is_hanseatic_league_flag }
+	NOT = { has_country_flag = is_kingdom_of_god_flag }
+	NOT = { has_country_flag = is_turkey_flag }
+	NOT = { has_country_flag = is_revolutionary_turkey_flag }
+	NOT = { has_country_flag = unified_islam }
+	OR = {
+		### USUAL PRIORITY ###
+	}
+}
+
+#frloc_tags_noart_pl_masc_cons_X_13a = {} # CURRENTLY UNUSED
+#frloc_tags_noart_pl_masc_vow_X_14a = {} # CURRENTLY UNUSED
+#frloc_tags_noart_pl_fem_cons_X_15a = {} # CURRENTLY UNUSED
+#frloc_tags_noart_pl_fem_vow_X_16a = {} # CURRENTLY UNUSED
+
+
+
+###################################################
+###   Religion Groups // Familles religieuses   ###
+###################################################
+
+frloc_religion_group_cons = {
+	always = no
+}
+
+frloc_religion_group_vow = {
+	always = no
+}
+
+
+
+####################################################
+### Religion (Main) // Religions (principales)   ###
+####################################################
+
+frloc_religion_masc_cons = {
+	OR = {
+		religion = catholic
+		religion = hussite
+		religion = protestant
+		religion = coptic
+		religion = sunni
+		religion = shiite
+		religion = buddhism
+		religion = vajrayana
+		religion = mahayana
+		religion = confucianism
+		religion = shinto
+		religion = sikhism
+		religion = shamanism
+		religion = totemism
+		religion = nahuatl
+		religion = mesoamerican_religion
+		religion = norse_pagan_reformed
+		religion = tengri_pagan_reformed
+		religion = jewish
+		religion = zoroastrian
+	}
+}
+
+frloc_religion_fem_cons = {
+	religion = reformed
+}
+
+frloc_religion_masc_vow = {
+	OR = {
+		religion = anglican
+		religion = hinduism
+		religion = ibadi
+		religion = animism
+		religion = inti
+	}
+}
+
+frloc_religion_fem_vow = {
+	religion = orthodox
+}
+
+
+
+#####################################################
+### Secondary Religion // Religions secondaires   ###
+#####################################################
+
+frloc_secondary_religion_masc_cons = {
+	OR = {
+		secondary_religion = catholic
+		secondary_religion = hussite
+		secondary_religion = protestant
+		secondary_religion = coptic
+		secondary_religion = sunni
+		secondary_religion = shiite
+		secondary_religion = buddhism
+		secondary_religion = vajrayana
+		secondary_religion = mahayana
+		secondary_religion = confucianism
+		secondary_religion = shinto
+		secondary_religion = sikhism
+		secondary_religion = shamanism
+		secondary_religion = totemism
+		secondary_religion = nahuatl
+		secondary_religion = mesoamerican_religion
+		secondary_religion = norse_pagan_reformed
+		secondary_religion = tengri_pagan_reformed
+		secondary_religion = jewish
+		secondary_religion = zoroastrian
+	}
+}
+
+frloc_secondary_religion_fem_cons = {
+	secondary_religion = reformed
+}
+
+frloc_secondary_religion_masc_vow = {
+	OR = {
+		secondary_religion = anglican
+		secondary_religion = hinduism
+		secondary_religion = ibadi
+		secondary_religion = animism
+		secondary_religion = inti
+	}
+}
+
+frloc_secondary_religion_fem_vow = {
+		secondary_religion = orthodox
+}
+
+
+
+############################################
+###   Trade Goods // Biens commerciaux   ###
+############################################
+
+frloc_trade_goods_masc_sg_cons = {
+	OR = {
+		trade_goods = wine
+		trade_goods = fish
+		trade_goods = salt
+		trade_goods = copper
+		trade_goods = iron
+		trade_goods = tea
+		trade_goods = coffee
+		trade_goods = cotton
+		trade_goods = sugar
+		trade_goods = tobacco
+		trade_goods = cocoa
+		trade_goods = livestock
+		trade_goods = glass
+		trade_goods = paper
+		trade_goods = coal
+	}
+}
+
+frloc_trade_goods_fem_sg_cons = {
+	OR = {
+		trade_goods = wool
+		trade_goods = silk
+	}
+}
+
+frloc_trade_goods_sg_vow = {
+	OR = {
+		trade_goods = gold
+		trade_goods = ivory
+		trade_goods = incense
+	}
+}
+
+frloc_trade_goods_pl_cons = {
+	OR = {
+		trade_goods = tropical_wood
+		trade_goods = grain
+		trade_goods = fur
+		trade_goods = naval_supplies
+		trade_goods = chinaware
+		trade_goods = dyes
+		trade_goods = gems
+	}
+}
+
+frloc_trade_goods_pl_vow = {
+	OR = {
+		trade_goods = cloth
+		trade_goods = slaves
+		trade_goods = spices
+	}
+}
+
+
+
+#####################################
+###   Parliaments // Parlements   ###
+#####################################
+
+# Ex. : LE Grand conseil / AU Grand conseil / DU Grand conseil
+### Used for most cases, notably as fallback for default_parliament_name: "Parlement"
+frloc_parliament_masc_sg_cons = {
+	NOT = {
+		OR = {
+			always = no
+		}
+	}
+}
+
+# Ex. : L'Alting / À L'Alting / DE L'Alting
+frloc_parliament_masc_sg_vow = {
+	always = no
+}
+
+# Ex. : LA Douma / À LA Douma / DE LA Douma
+frloc_parliament_fem_sg_cons = {
+	OR = {
+		always = no
+	}
+}
+
+# Ex. : L'Assemblée nationale / À L'Assemblée nationale DE L'Assemblée nationale
+frloc_parliament_fem_sg_vow = {
+	OR = {
+		always = no
+	}
+}
+
+# Ex. : LES Cortes / AUX Cortes / DES Cortes
+frloc_parliament_masc_pl = {
+	OR = {
+		always = no
+	}
+}
+
+#frloc_parliament_fem_pl = {} # CURRENTLY UNUSED
+

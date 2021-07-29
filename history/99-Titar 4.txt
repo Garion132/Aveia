@@ -1,0 +1,16 @@
+#Titar 4
+
+add_core = TIT
+owner = TIT
+controller = TIT
+culture = kyathian
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+trade_goods = grain
+base_manpower = 1
+capital = "Titar 4"
+is_city = yes
+discovered_by = western
+extra_cost = 16

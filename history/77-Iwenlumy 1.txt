@@ -1,0 +1,16 @@
+#Iwenlumy 1 - filler
+
+add_core = IWE
+owner = IWE
+controller = IWE
+culture = kyathian
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+trade_goods = grain
+base_manpower = 1
+capital = "Iwenlumy 1"
+is_city = yes
+discovered_by = western
+extra_cost = 16

@@ -1,0 +1,10 @@
+aveia_superregion = { #the "west", around the great sea
+
+	restrict_charter		# harder to get TC here.
+
+	kyathia_region
+	lentira_region
+	parhaman_region
+	
+	karnaiha_region
+}
