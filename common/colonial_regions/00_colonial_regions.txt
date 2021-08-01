@@ -1,52 +1,52 @@
-# klaetia
-colonial_klaetia = {
-	color = { 225 225 225 }
+# # klaetia
+# colonial_klaetia = {
+	# color = { 225 225 225 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 8
-	native_ferocity = 1
-	native_hostileness = 4
+	# # Random New World
+	# tax_income = 0
+	# native_size = 8
+	# native_ferocity = 1
+	# native_hostileness = 4
 	
-	trade_goods = {
-		fur = 10
-		fish = 3
-		naval_supplies = 2
-		gold = 2
-	}
+	# trade_goods = {
+		# fur = 10
+		# fish = 3
+		# naval_supplies = 2
+		# gold = 2
+	# }
 	
-	culture = {
-		inuit = 10
-		aleutian = 8
-	}
+	# culture = {
+		# inuit = 10
+		# aleutian = 8
+	# }
 	
-	religion = {
-		shamanism = 10
-	}
+	# religion = {
+		# shamanism = 10
+	# }
 
-	provinces = {
-		576
-	}
+	# provinces = {
+		# 576
+	# }
 	
-	# Generic
-	names = {
-		trigger = {
-			any_owned_province = {
-				OR = {
-					area = alaska_area
-					area = east_alaska_area
-				}
-			}
-		}
-		name = "COLONIAL_ALASKA_Alaska"
-	}
-	names = {
-		name = "COLONIAL_CALIFORNIA_Cascadia"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_ALASKA_Aleutia"
-	}
-}
+	# # Generic
+	# names = {
+		# trigger = {
+			# any_owned_province = {
+				# OR = {
+					# area = alaska_area
+					# area = east_alaska_area
+				# }
+			# }
+		# }
+		# name = "COLONIAL_ALASKA_Alaska"
+	# }
+	# names = {
+		# name = "COLONIAL_CALIFORNIA_Cascadia"
+	# }
+	# names = {
+		# name = "COLONIAL_REGION_New_Root_GetName"
+	# }
+	# names = {
+		# name = "COLONIAL_ALASKA_Aleutia"
+	# }
+# }

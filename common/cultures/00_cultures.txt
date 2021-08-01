@@ -65,7 +65,7 @@ lake_elf = {
 		}
 	}
 	shemsele = {
-		#primary = PRU
+		primary = PAR
 		male_names = {
 			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
 			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
@@ -79,7 +79,7 @@ lake_elf = {
 		}
 	}
 	edailian = {
-		#primary = PRU
+		primary = ELE
 		male_names = {
 			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
 			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
@@ -93,7 +93,7 @@ lake_elf = {
 		}
 	}
 	ellorhasian = {
-		#primary = PRU
+		primary = NIL
 		male_names = {
 			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
 			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 

@@ -1,25 +1,25 @@
 province;red;green;blue;x;x
 1;128;34;64;Stockholm;x##wasteland prov
-2;0;36;128;Otergötland;x
-3;128;38;192;Smand;x
+2;0;36;128;Östergötland;x
+3;128;38;192;Småland;x
 4;0;40;255;Bergslagen;x
-5;128;42;0;Vinland;x
-6;0;44;64;Skane;x
-7;129;46;128;V?ergötland;x
+5;128;42;0;Värmland;x
+6;0;44;64;Skåne;x
+7;129;46;128;Västergötland;x
 8;1;48;192;Dalaskogen;x
-9;129;50;255;H?ingland;x
-10;1;52;0;J?land;x
-11;129;54;64;V?erbotten;x
-12;1;56;128;Sj?and;x
+9;129;50;255;Hälsingland;x
+10;1;52;0;Jämtland;x
+11;129;54;64;Västerbotten;x
+12;1;56;128;Sjælland;x
 13;129;58;192;Slesvig;x
 14;2;60;255;Fyn;x
 15;130;62;0;Midtjylland;x
-16;2;64;64;Bohusl;x
+16;2;64;64;Bohuslän;x
 17;130;66;128;Akershus;x
-18;2;68;192;Ume?;x
-19;130;70;255;?terbotten;x
+18;2;68;192;Umeå;x
+19;130;70;255;Österbotten;x
 20;2;72;0;Trøndelag;x
-21;131;74;64;H?galand;x
+21;131;74;64;Hålogaland;x
 22;3;76;128;Oplandene;x
 23;131;78;192;Bergenshus;x
 24;3;80;255;Stavanger;x
@@ -33,7 +33,7 @@ province;red;green;blue;x;x
 32;62;230;252;Kexholm;x#
 33;5;200;200;Neva;x
 34;62;218;252;Ingermanland;x
-35;9;200;200;?el;x
+35;9;200;200;osel;x
 36;6;200;250;Estland;x
 37;8;250;250;Livland;x
 38;4;250;250;Riga;x
@@ -126,7 +126,7 @@ province;red;green;blue;x;x
 125;145;154;0;Palermo;x
 126;18;156;64;Malta;x
 127;146;158;128;Sardinia;x
-128;18;32;192;K?ten;x
+128;18;32;192;Kasten;x
 129;146;34;255;Krain;x
 130;18;36;0;Istria;x
 131;146;38;64;Croatia;x
@@ -168,21 +168,21 @@ province;red;green;blue;x;x
 167;50;203;253;Caux;x
 168;52;253;253;Normandie;x
 169;53;203;203;Armor;x
-170;51;223;253;Finist?;x
+170;51;223;253;Finistas;x
 171;54;203;253;Morbihan;x
 172;55;223;253;Vend;x
 173;56;253;253;Labourd;x
 174;57;203;203;Gascogne;x
 175;81;203;203;Armagnac;x
-176;72;203;253;B?n;x
+176;72;203;253;Basn;x
 177;60;253;253;Maine;x
 178;111;223;253;Anjou;x
 179;69;253;253;Berry;x
 180;66;203;253;Poitou;x
 181;82;203;253;Valenciennes;x
 182;63;223;253;Vermandois;x
-183;61;203;203;?e-de-France;x
-184;104;203;203;Orl?nais;x
+183;61;203;203;Pase-de-France;x
+184;104;203;203;Orlasnais;x
 185;64;253;253;Nemours;x
 186;59;223;253;Champagne;x
 187;103;223;253;Barrois;x
@@ -192,7 +192,7 @@ province;red;green;blue;x;x
 191;97;203;253;Nevers;x
 192;97;253;253;Bourgogne;x
 193;44;224;224;Franche-Comt;x
-194;58;242;242;P?gord;x
+194;58;242;242;Pasgord;x
 195;28;206;206;Limousin;x
 196;20;213;229;Toulouse;x
 197;16;172;183;Roussillon;x
@@ -218,12 +218,12 @@ province;red;green;blue;x;x
 217;47;232;203;Madrid;x
 218;20;215;229;Badajoz;x
 219;159;86;255;Toledo;x##
-220;11;182;229;Val?ia;x
+220;11;182;229;Valasia;x
 221;45;198;221;Murcia;x
 222;35;174;255;Almer;x
 223;30;225;255;Granada;x
 224;12;158;255;Andaluc;x
-225;138;233;255;C??ba;x
+225;138;233;255;Casalba;x
 226;25;212;229;Gibraltar;x
 227;29;192;242;Lisboa;x
 228;38;233;255;Beira;x
@@ -825,7 +825,7 @@ province;red;green;blue;x;x
 824;117;144;255;Mariquita;x
 825;245;146;0;Bogota;x
 826;118;148;64;Choco;x
-827;246;150;128;Antioqu?x
+827;246;150;128;Antioquas;x
 828;118;152;192;Cartagena;x
 829;246;154;255;Magdalena;x
 830;118;156;0;Maracaibo;x
@@ -840,7 +840,7 @@ province;red;green;blue;x;x
 839;128;42;79;Pipil;x
 840;0;44;126;Honduras;x
 841;129;46;173;Guatemala;x
-842;1;48;32;Pet?x
+842;1;48;32;Petas;x
 843;129;50;79;Belize;x
 844;1;52;126;Zapotec;x
 845;129;54;173;Campeche;x
@@ -1248,17 +1248,17 @@ province;red;green;blue;x;x
 1247;187;90;79;Corsica;x
 1248;59;92;126;Maldives;x
 1249;187;94;173;Yola;x
-1250;1;200;205;V?rn;x
-1251;2;200;255;V?ern;x
+1250;1;200;205;Vasrn;x
+1251;2;200;255;Vasern;x
 1252;3;220;255;Gulf of Bothnia;x
 1253;255;250;255;Uands Hav;x
 1254;95;200;205;Gulf of Finland;x
 1255;255;200;255;Western Baltic Sea;x
 1256;7;220;255;Gulf of Riga;x
 1257;255;250;255;Southern Baltic Sea;x
-1258;9;200;255;?esund;x
+1258;9;200;255;osesund;x
 1259;10;200;250;Kattegat;x
-1260;11;220;250;Peipsi J?;x
+1260;11;220;250;Peipsi Jas;x
 1261;12;250;250;Ladoga;x
 1262;13;200;200;Onega;x
 1263;14;200;250;Barents Sea;x
@@ -1803,7 +1803,7 @@ province;red;green;blue;x;x
 1802;203;62;173;Northern Amazonas;x
 1803;75;64;32;Southern Amazonas;x
 1804;203;66;79;Greenland;x
-1805;75;68;126;Qu?c;x
+1805;75;68;126;Quasc;x
 1806;203;70;173;Weagamow;x
 1807;76;72;32;Baffin Island;x
 1808;204;74;79;Great Basin;x
@@ -1879,8 +1879,8 @@ province;red;green;blue;x;x
 1878;214;86;173;Aachen;x
 1879;86;88;32;Alencon;x
 1880;214;90;79;Sundgau;x
-1881;213;74;79;St. Barth?my;x
-1882;214;94;173;B??x
+1881;213;74;79;St. Barthamy;x
+1882;214;94;173;Bas;x
 1883;0;0;232;Western Finish lakes;x
 1884;1;0;236;East Finish lakes;x
 1885;2;0;245;Central finish lakes;x
@@ -1975,15 +1975,15 @@ province;red;green;blue;x;x
 1974;215;110;173;Yedishkul;x
 1975;105;225;255;Sea of Jutland;x
 1976;93;0;244;Dead Sea;x
-1977;94;0;248;M?ren;x
+1977;94;0;248;Masren;x
 1978;95;0;232;Shetlands;x
-1979;96;0;236;F?arnax;x
+1979;96;0;236;Fasarnax;x
 1980;136;253;253;Sea of Japan;x
 1981;98;0;244;Bornholm;x
 1982;99;0;248;Blekinge;x
 1983;100;0;232;Lolland;x
 1984;101;0;236;Nordjylland;x
-1985;102;240;0;N?e;x
+1985;102;240;0;Nase;x
 1986;103;0;244;New Caledonia;x
 1987;104;0;248;Society Islands;x
 1988;105;0;232;Rapa Nui;x
@@ -2000,11 +2000,11 @@ province;red;green;blue;x;x
 1999;116;0;236;Cocos Island;x
 2000;60;221;221;Qinghai Lake;x
 2001;95;200;200;Siling Lake;x
-2002;200;135;255;Gal?gos Islands;x
+2002;200;135;255;Galapagos Islands;x
 2003;120;2;232;Ktunaxa;X
 2004;125;4;236;Niitsitapi;x
 2005;130;8;240;Asinaan;x
-2006;135;16;244;Aps?ooke;x
+2006;135;16;244;Apsasooke;x
 2007;140;32;248;Arikara;x
 2008;145;64;232;Yankton;x
 2009;150;128;236;Teton;x
@@ -2651,7 +2651,7 @@ province;red;green;blue;x;x
 2650;25;31;246;Champutun;x
 2651;150;231;196;Ah Canul;x
 2652;87;31;145;Ecab;x
-2653;213;213;95;Iximch?;x
+2653;213;213;95;Iximchas;x
 2654;45;131;46;Baracoa;x
 2655;171;31;246;Bayamo;x
 2656;108;31;196;Camaguey;x
@@ -2664,7 +2664,7 @@ province;red;green;blue;x;x
 2663;153;31;95;Nicoya;x
 2664;90;31;46;Veraguas;x
 2665;216;31;246;Ais;x
-2666;48;31;196;Tuintsund?;x
+2666;48;31;196;Tuintsund;x
 2667;174;231;145;Cacaxtes;x
 2668;111;31;95;Borrado;x
 2669;237;31;46;Hasinai;x
@@ -2951,7 +2951,7 @@ province;red;green;blue;x;x
 2950;32;218;173;Buhera;x
 2951;236;57;116;Manikya;x
 2952;236;220;116;Madanda;x
-2953;236;222;116;Hj?aren;x
+2953;236;222;116;Hjasaren;x
 2954;29;59;159;Djerba;x
 2955;107;121;191;Ingolstadt;x
 2956;224;134;54;Straubing;x
@@ -4112,7 +4112,7 @@ province;red;green;blue;x;x
 4111;119;212;150;Saintonge;x
 4112;157;124;213;Aurilac;x
 4113;103;160;108;Uleaborg;x
-4114;145;85;134;Lule?;x
+4114;145;85;134;Luleas;x
 4115;156;39;189;Mazyr;x
 4116;119;162;166;Belyov;x
 4117;205;163;151;Bezhetsk;x
@@ -4137,18 +4137,18 @@ province;red;green;blue;x;x
 4136;45;225;227;Zaysan;x
 4137;79;222;224;Alakol;x
 4138;40;196;198;Issyk-Kul;x
-4139;54;54;236;Ouluj?i;x
+4139;54;54;236;Oulujasi;x
 4140;34;34;210;Saimaa;x
 4141;207;42;19;Ditmarschen;x
 4142;198;219;57;Aarhus;x
-4143;127;186;98;Sm?nene;x
+4143;127;186;98;Smasnene;x
 4144;222;69;44;Bratsberg;x
 4145;201;191;169;Agdesiden;x
 4146;225;223;19;Jotenheimen;x
 4147;74;217;74;Rostov;x
 4148;222;151;200;Luki;x
 4149;44;184;44;Kolding;x
-4150;145;151;212;?ora;x
+4150;145;151;212;Asora;x
 4151;208;10;168;Kuusamo;x
 4152;113;153;0;Enare;x
 4153;225;223;21;Scandes;x
@@ -4164,7 +4164,7 @@ province;red;green;blue;x;x
 4163;220;144;23;Elfsborg;x
 4164;150;213;76;Dalsland;x
 4165;220;78;202;Göinge;x
-4166;54;157;76;Tioh?d/V?nd;x
+4166;54;157;76;Tiohasd/Vasnd;x
 4167;195;207;97;High Atlas;x
 4168;135;142;79;High Atlas2;x
 4169;222;203;239;Aures;x

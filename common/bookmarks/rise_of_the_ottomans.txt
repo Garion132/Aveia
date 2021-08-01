@@ -8,6 +8,7 @@ bookmark =
 	default = yes
 	
 	easy_country = KYA
+	country = KYA
 	country = TIT
 	country = LEL
 }
