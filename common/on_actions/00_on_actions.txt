@@ -2,6 +2,15 @@
 
 # country
 on_startup = {
+	emperor = {
+		save_global_event_target_as = Emperor
+	}
+	if = {
+		limit = {
+			is_emperor_of_china = yes
+		}
+		save_global_event_target_as = EmperorOfChina
+	}
 }
 
 # country

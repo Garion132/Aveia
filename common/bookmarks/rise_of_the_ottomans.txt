@@ -4,7 +4,7 @@ bookmark =
 	desc = "RISE_OF_THE_OTTOMANS_DESC"
 	date = 1444.11.11
 	
-	center = 33
+	center = 46
 	default = yes
 	
 	easy_country = KYA
