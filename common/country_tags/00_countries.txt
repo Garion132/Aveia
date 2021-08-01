@@ -17,5 +17,8 @@ LEL = "countries/Leleth.txt"
 NIL = "countries/Nilaurhalin.txt"
 PAR = "countries/Parhama.txt"
 YRA = "countries/Yransa.txt"
+OAY = "countries/Oayvein.txt"
+OFL = "countries/Oflorhan.txt"
+ERI = "countries/Eritys.txt"
 
 PAP  = "countries/Yulikivian.txt"

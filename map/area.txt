@@ -123,3 +123,52 @@ upper_oramarnona_area = {
 cerinia_area={
 	576
 }
+zornazar_area={
+	581 582 583 584
+}
+lower_parhama={
+	577 578 579 580
+}
+upper_parhama={
+	585 586 587 588
+}
+vellitnarland={
+	589 590 591 592
+}
+ortvein_outlands={
+	 593 594 595 596
+}
+krashyrvil={
+	597 598 599
+}
+tanhurzel={
+	600 601 602 603 604 
+}
+lamnas_valley={
+	605 606 607
+}
+oayvein={
+	608 609 610
+}
+telsnien={
+	611 612 613
+}
+oflorhan={
+     614 615 616 617
+}
+lyllumana={
+	618 619 620 621 622
+}
+filsad={
+	623 624 625 626
+}
+insase={
+	627 628 629 630
+}
+enaleanlume={
+	631 632 633 634
+}
+eritys={
+    635 636 637
+}	
+	

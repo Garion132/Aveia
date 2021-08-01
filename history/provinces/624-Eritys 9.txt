@@ -1,0 +1,16 @@
+#Etitys 9
+
+add_core = ERI
+owner = ERI
+controller = ERI
+culture = shemsele
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+trade_goods = grain
+base_manpower = 1
+capital = "Eti 9"
+is_city = yes
+discovered_by = western
+extra_cost = 16

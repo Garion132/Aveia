@@ -575,67 +575,67 @@ province;red;green;blue;x;x
 574;82;156;255;The Andamans;x
 575;210;158;0;Eastern Makran;x##
 576;82;32;64;Indus;x
-577;210;34;128;Quetta;x
+577;210;34;128;Quetta;x##Parhama
 578;82;36;192;Khyber;x
 579;210;38;255;Arakan;x
-580;82;40;0;Chin;x
+580;82;40;0;Chin;x#
 581;211;42;64;Sagaing;x
 582;83;44;128;Kachin;x
 583;211;46;192;Hsenwi;x
-584;83;48;255;Kyuakse;x
+584;83;48;255;Kyuakse;x#
 585;211;50;0;Toungoo;x
 586;83;52;64;Pegu;x
 587;211;54;128;Keng Tung;x
-588;84;56;192;Mongnai;x
+588;84;56;192;Mongnai;x#
 589;212;58;255;Chiang Mai;x
 590;84;60;0;Moulmein;x
 591;212;62;64;Tenasserim;x
-592;84;64;128;Ratchaburi;x
+592;84;64;128;Ratchaburi;x##
 593;212;66;192;Ligore;x
 594;84;68;255;Pattani;x
 595;213;70;0;Perak;x
-596;85;72;64;Malacca;x
+596;85;72;64;Malacca;x#
 597;213;74;128;Johor;x
 598;85;76;192;Pahang;x
-599;213;78;255;Kelantan;x
+599;213;78;255;Kelantan;x#
 600;85;80;0;Ayutthaya;x
 601;213;82;64;Sukthothai;x
 602;86;84;128;Chian Rai;x
 603;214;86;192;Rayong;x
-604;86;88;255;Udong;x
+604;86;88;255;Udong;x#
 605;214;90;0;Prei Nokoi;x
 606;86;92;64;Panduranga;x
-607;214;94;128;Vijaya;x
+607;214;94;128;Vijaya;x#
 608;86;96;192;Champassak;x
 609;215;98;255;Siem Reap;x
-610;87;100;0;Binh Tri Thien;x
+610;87;100;0;Binh Tri Thien;x#
 611;215;102;64;Thakhek;x
 612;87;104;128;Khorat;x
-613;215;106;192;Thang Long;x
+613;215;106;192;Thang Long;x##
 614;87;108;255;Vientiane;x
 615;215;110;0;Luang Prabang;x
 616;88;112;64;Viet Bac;x
-617;216;114;128;Aceh;x
+617;216;114;128;Aceh;x##
 618;88;116;192;Aru;x
 619;216;118;255;Minangkabau;x
 620;88;120;0;Siak;x
 621;216;122;64;Benkulen;x
-622;88;124;128;Palembang;x
+622;88;124;128;Palembang;x#
 623;217;126;192;Lampung;x
 624;89;128;255;Banten;x
 625;217;130;0;Priangan;x
-626;89;132;64;Mataram;x
+626;89;132;64;Mataram;x#
 627;217;134;128;Blambangan;x
 628;89;136;192;Surabaya;x
 629;217;138;255;Demak;x
-630;90;140;0;Sunda;x
+630;90;140;0;Sunda;x#
 631;218;142;64;Bali-Lombok;x
 632;90;144;128;Sumbawa;x
 633;218;146;192;Flores;x
-634;90;148;255;Sumba;x
+634;90;148;255;Sumba;x#
 635;218;150;0;Timor;x
 636;90;152;64;Brunei;x
-637;219;154;128;Sabah;x
+637;219;154;128;Sabah;x##
 638;91;156;192;Kutei;x
 639;219;158;255;Banjarmasin;x
 640;91;32;0;Sukadane;x

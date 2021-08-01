@@ -53,8 +53,31 @@ parhaman_region = {
 		upper_oramarnona_area
 		eastern_srandor_area
 		western_srandor_area
+		zornazar_area
+		lower_parhama
+		upper_parhama
+		vellitnarland
+		
 	}
 }
+krashyrvil_midlands_region = {
+	areas = {
+		ortvein_outlands
+		krashyrvil
+		tanhurzel
+		lamnas_valley
+		oayvein
+		telsnien
+		oflorhan
+		lyllumana
+		filsad
+		insase
+		enaleanlume
+		eritys
+	}
+}
+
+
 
 ##Karnaiha
 
