@@ -112,7 +112,7 @@ eastern_srandor_area = {
 	560 561 562 563
 }
 western_srandor_area = {
-	564 565 567 568
+	564 565 566 567 568
 }
 oramarnona_area = {
 	573 574 575
