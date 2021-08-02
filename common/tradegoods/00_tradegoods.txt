@@ -1223,3 +1223,103 @@ bryrine = {
 unknown = {
 	color = { 0.5 0.5 0.5 }
 }
+
+#Required not to crash day 1. Eventually these can be removed
+gold = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+ivory = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+tea = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+chinaware = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+coffee = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+cotton = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+sugar = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+tobacco = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+cocoa = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+silk = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}
+
+tropical_wood = {
+	color = { 0 0 0 }
+	#no modifiers
+	
+	chance = {
+		factor = 0
+	}
+}

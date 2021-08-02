@@ -5,7 +5,7 @@ estate_jains = {
 	
 	trigger = {	
 		has_dlc = "Dharma"
-		always = no
+		technology_group = indian
 		NOT = { has_government_attribute = is_merchant_republic }
 		NOT = { has_reform = trading_city }
 		NOT = { is_revolutionary_republic_trigger = yes }
@@ -117,6 +117,10 @@ estate_jains = {
 		estate_jains_control_over_monetary_policy
 		estate_jains_exclusive_trade_rights
 		estate_jains_private_trade_fleets
+		estate_jains_monopoly_of_textiles
+		estate_jains_monopoly_of_dyes
+		estate_jains_monopoly_of_glass
+		estate_jains_monopoly_of_paper
 	}
 	
 	agendas = {

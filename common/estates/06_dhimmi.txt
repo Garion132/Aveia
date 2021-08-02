@@ -4,6 +4,10 @@ estate_dhimmi = {
 	province_independence_weight = {
 		factor = 1
 		modifier = {
+			factor = 0.1
+			religion_group = muslim
+		}
+		modifier = {
 			factor = 1.5
 			has_province_modifier = repression_of_influential_dhimmi
 		}

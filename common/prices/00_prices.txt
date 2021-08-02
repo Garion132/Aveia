@@ -157,3 +157,49 @@ bryrine = {
 unknown = {
 	base_price = 0
 }
+
+#Required not to crash day 1. Eventually these can be removed
+
+gold = {
+	base_price = 0
+}
+
+ivory = {
+	base_price = 0
+}
+
+tea = {
+	base_price = 0
+}
+
+chinaware = {
+	base_price = 0
+}
+
+coffee = {
+	base_price = 0
+}
+
+cotton = {
+	base_price = 0
+}
+
+sugar = {
+	base_price = 0
+}
+
+tobacco = {
+	base_price = 0
+}
+
+cocoa = {
+	base_price = 0
+}
+
+silk = {
+	base_price = 0
+}
+
+tropical_wood = {
+	base_price = 0
+}
