@@ -134,10 +134,6 @@ estate_church =
 		estate_church_inwards_perfection
 		estate_church_enforced_one_faith
 		estate_church_for_the_faith
-		estate_church_monopoly_of_incense
-		estate_church_monopoly_of_wool
-		estate_church_monopoly_of_wine
-		estate_church_monopoly_of_slaves
 		estate_church_statutory_rights
 	}
 

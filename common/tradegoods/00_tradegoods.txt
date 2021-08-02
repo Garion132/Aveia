@@ -72,7 +72,7 @@ grain = {
 }
 
 wine = {
-	color = { 0.36 0.13 0.28 }
+	color = { 0.36 0.13 1 }
 	modifier = {
 		global_unrest = -1
 	}
@@ -118,7 +118,7 @@ wine = {
 }
 
 wool = {
-	color = { 0.83 0.83 0.83  }
+	color = { 1.0 0.84 0.19 }
 	modifier = {
 		global_ship_cost = -0.05
 	}
@@ -209,7 +209,7 @@ fish = {
 	}
 }
 
-fur = {
+fur = { #Pademi Fur
 	color = { 0.54 0.40 0.31 }
 	modifier = {
 		prestige = 0.5
@@ -361,7 +361,7 @@ copper = {
 		regiment_recruit_speed = -0.2
 	}
 	chance = {
-		factor = 15
+		factor = 1
 		modifier = {
 			factor = 0
 			OR = {
@@ -379,7 +379,7 @@ copper = {
 			}
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.2
 			is_random_new_world = yes
 			OR = {
 				has_terrain = mountain
@@ -389,8 +389,45 @@ copper = {
 	}
 }
 
-gold = {
-	color = { 1.0 0.84 0.19 }
+tin = {
+	color = { 0.9 0.9 0.9 }
+	modifier = {
+		development_cost = -0.05
+	}
+	province = {
+		local_development_cost = -0.1
+	}
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = steppe
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = drylands
+				has_terrain = grasslands
+				has_terrain = savannah
+				has_terrain = coastline
+				has_terrain = glacier
+				has_terrain = jungle
+				has_terrain = farmlands
+				has_terrain = woods
+			}
+		}
+		modifier = {
+			factor = 1.2
+			is_random_new_world = yes
+			OR = {
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
+	}
+}
+
+silver = {
+	color = { 0.6 0.6 0.7 }
 	#no modifiers
 	
 	chance = {
@@ -463,7 +500,6 @@ iron = {
 				has_terrain = mountain
 				has_terrain = hills
 				has_terrain = highlands
-				province_id = 990
 			}
 		}
 		modifier = {
@@ -479,8 +515,46 @@ iron = {
 	}
 }
 
+plaulum = {
+	color = { 0.67 0.32 0.73 }
+	modifier = {
+		global_tax_modifier = 0.1
+	}
+	province = {
+		trade_goods_size_modifier = 1.75
+		trade_value_modifier = -0.25
+	}
+	chance = {
+		factor = 0.5
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = steppe
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = drylands
+				has_terrain = grasslands
+				has_terrain = savannah
+				has_terrain = coastline
+				has_terrain = glacier
+				has_terrain = jungle
+				has_terrain = farmlands
+				has_terrain = woods
+			}
+		}
+		modifier = {
+			factor = 1.2
+			is_random_new_world = yes
+			OR = {
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
+	}
+}
 
-#African Resources
+#Non-Metals
+
 slaves = {
 	color = { 0.0 0.0 0.0 }
 	modifier = {
@@ -498,7 +572,7 @@ slaves = {
 	}
 }
 
-ivory = {
+quedarma_horns = {
 	color = { 0.75 0.7 0.63 }
 	modifier = {
 		diplomatic_reputation = 2
@@ -519,9 +593,7 @@ ivory = {
 	}
 }
 
-
-#Eastern Resources
-tea = {
+black_eliph = {
 	color = { 0.07 0.33 0.09 }
 	modifier = {
 		advisor_cost = -0.10
@@ -552,25 +624,28 @@ tea = {
 	}
 }
 
-chinaware = {
-	color = { 0.18 0.57 0.8 }
+machinery = {
+	color = { 0.5 0.5 0.8 }
 	modifier = {
-		legitimacy = 0.25
-		devotion = 0.25
-		horde_unity = 0.25
-		republican_tradition = 0.12
-		meritocracy = 0.1
+		global_trade_goods_size_modifier = 0.2
+		development_cost = -0.1
+		build_cost = -0.1
 	}
 	province = {
-		local_autonomy = -0.1
-
+		production_efficiency = 0.05
+		local_production_efficiency = 0.5
+		local_development_cost = -0.1
 	}
 
 	chance = {
-		factor = 15
+		factor = 10
 		modifier = {
 			factor = 0
-			NOT = { development = 8 }
+			NOT = { development = 20 }
+		}
+		modifier = {
+			factor = 10
+			development = 30
 		}
 	}
 }
@@ -592,9 +667,7 @@ spices = {
 	}
 }
 
-
-#New World Resources
-coffee = {
+iresta = {
 	color = { 0.22 0.15 0.09 }
 	modifier = {
 		global_institution_spread = 0.05
@@ -625,7 +698,7 @@ coffee = {
 	}
 }
 
-cotton = {
+ecriamin = {
 	color = { 0.52 0.68 0.6 }
 	modifier = {
 		global_colonial_growth = 20
@@ -661,7 +734,7 @@ cotton = {
 	}
 }
 
-sugar = {
+sweetpowder = {
 	color = { 0.74 0.95 0.68 }
 	modifier = {
 		war_exhaustion_cost = -0.2
@@ -689,7 +762,7 @@ sugar = {
 	}
 }
 
-tobacco = {
+gold_knot = {
 	color = { 0.33 0.56 0.38 }
 	modifier = {
 		global_spy_defence = 0.25
@@ -722,7 +795,7 @@ tobacco = {
 	}
 }
 
-cocoa = {
+vecroth_fruit = {
 	color = { 0.45 0.21 0.09 }
 	modifier = {
 		manpower_recovery_speed = 0.05
@@ -756,7 +829,7 @@ cocoa = {
 	}
 }
 
-silk = {
+spirl = {
 	color = { 0.72 0.10 0.10 }
 	modifier = {
 		num_accepted_cultures = 1
@@ -827,7 +900,7 @@ dyes = {
 	}
 }
 
-tropical_wood = {
+udezer_wood = {
 	color = { 0.45 0.47 0.09 }
 	modifier = {
 		development_cost = -0.05
@@ -1018,6 +1091,132 @@ coal = {
 
 	chance = {
 		factor = 1
+	}
+}
+
+#Magical Mystical Materials
+guedina = {
+	color = { 0.84 0.28 0.48 }
+	modifier = {
+		global_regiment_cost = -0.05
+	}
+	province = {
+		local_build_time = -0.2
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 1.2
+			normal_or_historical_nations = no
+			OR = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 20
+			province_id = 990
+		}
+		modifier = {
+			factor = 1.5
+			is_random_new_world = yes
+			has_terrain = mountain
+			continent = new_world #Always in RNW
+		}
+	}
+}
+ankon = {
+	color = { 0.77 0.57 0.60 }
+	modifier = {
+		global_regiment_cost = -0.05
+	}
+	province = {
+		local_build_time = -0.2
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 1.2
+			normal_or_historical_nations = no
+			OR = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 20
+			province_id = 990
+		}
+		modifier = {
+			factor = 1.5
+			is_random_new_world = yes
+			has_terrain = mountain
+			continent = new_world #Always in RNW
+		}
+	}
+}
+vitaite = {
+	color = { 0.76 0.43 0.74 }
+	modifier = {
+		global_regiment_cost = -0.05
+	}
+	province = {
+		local_build_time = -0.2
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 1.2
+			normal_or_historical_nations = no
+			OR = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 20
+			province_id = 990
+		}
+		modifier = {
+			factor = 1.5
+			is_random_new_world = yes
+			has_terrain = mountain
+			continent = new_world #Always in RNW
+		}
+	}
+}
+bryrine = {
+	color = { 0.37 0.5 0.73 }
+	modifier = {
+		global_regiment_cost = -0.05
+	}
+	province = {
+		local_build_time = -0.2
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 1.2
+			normal_or_historical_nations = no
+			OR = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 20
+			province_id = 990
+		}
+		modifier = {
+			factor = 1.5
+			is_random_new_world = yes
+			has_terrain = mountain
+			continent = new_world #Always in RNW
+		}
 	}
 }
 

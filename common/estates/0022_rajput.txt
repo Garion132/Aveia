@@ -109,9 +109,6 @@ estate_rajput = {
 		estate_rajput_loyalty_privilege
 		estate_rajput_officer_corp
 		estate_rajput_look_up_purbias
-		estate_rajput_monopoly_of_metals
-		estate_rajput_monopoly_of_livestock
-		estate_rajput_monopoly_of_gems
 	}
 
 	agendas = {

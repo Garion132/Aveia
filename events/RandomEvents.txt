@@ -7609,239 +7609,239 @@ country_event = {
 }
 
 # Death of a Merchant
-country_event = {
-	id = 736
-	title = "EVTNAME736"
-	desc = {
-		trigger = {
-			NOT = {
-				any_owned_province = {
-					is_core = root
-					OR = {
-						trade_goods = gems
-						trade_goods = incense
-						trade_goods = spices
-						trade_goods = silk
-						trade_goods = cloth
-						trade_goods = ivory
-						trade_goods = tropical_wood
-						trade_goods = gold
-						trade_goods = glass					
-						trade_goods = paper					
-						trade_goods = chinaware	
-						trade_goods = slaves
-						trade_goods = tobacco
-						trade_goods = wine
-						trade_goods = salt
-						trade_goods = cotton
-						trade_goods = tea
-						trade_goods = dyes
-						trade_goods = cocoa
-						trade_goods = sugar
-						trade_goods = coffee
-					}
-				}
-			}
-		}
-		desc = "EVTDESC736"
-	}
-	desc = {
-		trigger = {
-			any_owned_province = {
-				is_core = root
-				OR = {
-					trade_goods = gems
-					trade_goods = incense
-					trade_goods = spices
-					trade_goods = silk
-					trade_goods = cloth
-					trade_goods = ivory
-					trade_goods = tropical_wood
-					trade_goods = gold
-					trade_goods = glass					
-					trade_goods = paper					
-					trade_goods = chinaware
-					trade_goods = slaves
-					trade_goods = tobacco
-					trade_goods = wine
-					trade_goods = salt
-					trade_goods = cotton
-					trade_goods = tea
-					trade_goods = dyes
-					trade_goods = cocoa
-					trade_goods = sugar
-					trade_goods = coffee
-				}
-			}
-		}
-		desc = event.736.desc
-	}
-	picture = MERCHANTS_TALKING_eventPicture
-
-	is_triggered_only = yes
-	
-	trigger = {
-		always = yes
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		hidden_effect = {
-			random_list = {
-				33 = { set_country_flag = theologian_flag }
-				33 = { set_country_flag = artist_flag }
-				33 = { set_country_flag = philosopher_flag }
-			}
-			set_saved_name = {
-				key = trader_name
-				type = advisor
-			}
-			random_owned_province = {
-				limit = {
-					is_core = root
-					OR = {
-						trade_goods = gems
-						trade_goods = incense
-						trade_goods = spices
-						trade_goods = silk
-						trade_goods = cloth
-						trade_goods = ivory
-						trade_goods = tropical_wood
-						trade_goods = gold
-						trade_goods = glass					
-						trade_goods = paper					
-						trade_goods = chinaware
-						trade_goods = slaves
-						trade_goods = tobacco
-						trade_goods = wine
-						trade_goods = salt
-						trade_goods = cotton
-						trade_goods = tea
-						trade_goods = dyes
-						trade_goods = cocoa
-						trade_goods = sugar
-						trade_goods = coffee
-					}
-				}
-				save_event_target_as = trade_province
-			}
-		}
-	}
-
-	option = {
-		name = "EVTOPTA736"
-		ai_chance = {
-			factor = 50
-		}
-		add_years_of_income = 0.25
-	}
-	option = {
-		name = "EVTOPTB736"
-		ai_chance = {
-			factor = 50
-		}
-		add_meritocracy_effect = yes
-		trigger_switch = {
-			on_trigger = has_country_flag
-			theologian_flag = {
-				generate_advisor_of_type_and_semi_random_religion_effect = {
-					advisor_type=theologian
-					advisor_type_if_not_state=natural_scientist
-					scaled_skill=yes
-					discount=yes
-				}
-			}
-			artist_flag = {
-				generate_advisor_of_type_and_semi_random_religion_effect = {
-					advisor_type=artist
-					advisor_type_if_not_state=artist
-					scaled_skill=yes
-					discount=yes
-				}
-			}
-			philosopher_flag = {
-				generate_advisor_of_type_and_semi_random_religion_effect = {
-					advisor_type=philosopher
-					advisor_type_if_not_state=philosopher
-					scaled_skill=yes
-					discount=yes
-				}
-			}
-		}
-		add_prestige = 15
-	}
-	option = {
-		name = "personality_options.736.a" #I know just who should recieve our patronage.
-		ai_chance = {
-			factor = 100
-		}
-		highlight = yes
-		trigger = {
-			OR = {
-				ruler_has_personality = zealot_personality
-				ruler_has_personality = tolerant_personality
-			}
-			hidden_trigger = {
-				NOT = {
-					has_country_flag = theologian_flag
-				}
-				monthly_income = 16
-			}
-		}
-		required_personality = zealot_personality
-		required_personality = tolerant_personality
-		add_prestige = 15
-		add_meritocracy_effect = yes
-		generate_advisor_of_type_and_semi_random_religion_effect = {
-			advisor_type=theologian
-			advisor_type_if_not_state=natural_scientist
-			scaled_skill = yes
-			discount=yes
-		}
-	}
-	option = {
-		name = "personality_options.736.b" #I know just who should recieve our patronage.
-		ai_chance = {
-			factor = 100
-		}
-		highlight = yes
-		trigger = {
-			OR = {
-				ruler_has_personality = free_thinker_personality
-				ruler_has_personality = well_advised_personality
-			}
-			hidden_trigger = {
-				NOT = {
-					has_country_flag = philosopher_flag
-				}
-				monthly_income = 16
-			}
-		}
-		required_personality = free_thinker_personality
-		required_personality = well_advised_personality
-		add_prestige = 15
-		add_meritocracy_effect = yes
-		generate_advisor_of_type_and_semi_random_religion_effect = {
-			advisor_type=philosopher
-			advisor_type_if_not_state=philosopher
-			scaled_skill = yes
-			discount=yes
-		}
-	}
-	after = {
-		clear_saved_name = trader_name
-		erase_advisor_flags_effect = yes
-		trigger_switch = {
-			on_trigger = has_country_flag
-			theologian_flag = { clr_country_flag = theologian_flag }
-			artist_flag = { clr_country_flag = artist_flag }
-			philosopher_flag = { clr_country_flag = philosopher_flag }
-		}
-	}
-}
+#country_event = {
+#	id = 736
+#	title = "EVTNAME736"
+#	desc = {
+#		trigger = {
+#			NOT = {
+#				any_owned_province = {
+#					is_core = root
+#					OR = {
+#						trade_goods = gems
+#						trade_goods = incense
+#						trade_goods = spices
+#						trade_goods = silk
+#						trade_goods = cloth
+#						trade_goods = ivory
+#						trade_goods = tropical_wood
+#						trade_goods = silver
+#						trade_goods = glass					
+#						trade_goods = paper					
+#						trade_goods = chinaware	
+#						trade_goods = slaves
+#						trade_goods = tobacco
+#						trade_goods = wine
+#						trade_goods = salt
+#						trade_goods = cotton
+#						trade_goods = tea
+#						trade_goods = dyes
+#						trade_goods = cocoa
+#						trade_goods = sugar
+#						trade_goods = coffee
+#					}
+#				}
+#			}
+#		}
+#		desc = "EVTDESC736"
+#	}
+#	desc = {
+#		trigger = {
+#			any_owned_province = {
+#				is_core = root
+#				OR = {
+#					trade_goods = gems
+#					trade_goods = incense
+#					trade_goods = spices
+#					trade_goods = silk
+#					trade_goods = cloth
+#					trade_goods = ivory
+#					trade_goods = tropical_wood
+#					trade_goods = silver
+#					trade_goods = glass					
+#					trade_goods = paper					
+#					trade_goods = chinaware
+#					trade_goods = slaves
+#					trade_goods = tobacco
+#					trade_goods = wine
+#					trade_goods = salt
+#					trade_goods = cotton
+#					trade_goods = tea
+#					trade_goods = dyes
+#					trade_goods = cocoa
+#					trade_goods = sugar
+#					trade_goods = coffee
+#				}
+#			}
+#		}
+#		desc = event.736.desc
+#	}
+#	picture = MERCHANTS_TALKING_eventPicture
+#
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		always = yes
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {
+#		hidden_effect = {
+#			random_list = {
+#				33 = { set_country_flag = theologian_flag }
+#				33 = { set_country_flag = artist_flag }
+#				33 = { set_country_flag = philosopher_flag }
+#			}
+#			set_saved_name = {
+#				key = trader_name
+#				type = advisor
+#			}
+#			random_owned_province = {
+#				limit = {
+#					is_core = root
+#					OR = {
+#						trade_goods = gems
+#						trade_goods = incense
+#						trade_goods = spices
+#						trade_goods = silk
+#						trade_goods = cloth
+#						trade_goods = ivory
+#						trade_goods = tropical_wood
+#						trade_goods = silver
+#						trade_goods = glass					
+#						trade_goods = paper					
+#						trade_goods = chinaware
+#						trade_goods = slaves
+#						trade_goods = tobacco
+#						trade_goods = wine
+#						trade_goods = salt
+#						trade_goods = cotton
+#						trade_goods = tea
+#						trade_goods = dyes
+#						trade_goods = cocoa
+#						trade_goods = sugar
+#						trade_goods = coffee
+#					}
+#				}
+#				save_event_target_as = trade_province
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "EVTOPTA736"
+#		ai_chance = {
+#			factor = 50
+#		}
+#		add_years_of_income = 0.25
+#	}
+#	option = {
+#		name = "EVTOPTB736"
+#		ai_chance = {
+#			factor = 50
+#		}
+#		add_meritocracy_effect = yes
+#		trigger_switch = {
+#			on_trigger = has_country_flag
+#			theologian_flag = {
+#				generate_advisor_of_type_and_semi_random_religion_effect = {
+#					advisor_type=theologian
+#					advisor_type_if_not_state=natural_scientist
+#					scaled_skill=yes
+#					discount=yes
+#				}
+#			}
+#			artist_flag = {
+#				generate_advisor_of_type_and_semi_random_religion_effect = {
+#					advisor_type=artist
+#					advisor_type_if_not_state=artist
+#					scaled_skill=yes
+#					discount=yes
+#				}
+#			}
+#			philosopher_flag = {
+#				generate_advisor_of_type_and_semi_random_religion_effect = {
+#					advisor_type=philosopher
+#					advisor_type_if_not_state=philosopher
+#					scaled_skill=yes
+#					discount=yes
+#				}
+#			}
+#		}
+#		add_prestige = 15
+#	}
+#	option = {
+#		name = "personality_options.736.a" #I know just who should recieve our patronage.
+#		ai_chance = {
+#			factor = 100
+#		}
+#		highlight = yes
+#		trigger = {
+#			OR = {
+#				ruler_has_personality = zealot_personality
+#				ruler_has_personality = tolerant_personality
+#			}
+#			hidden_trigger = {
+#				NOT = {
+#					has_country_flag = theologian_flag
+#				}
+#				monthly_income = 16
+#			}
+#		}
+#		required_personality = zealot_personality
+#		required_personality = tolerant_personality
+#		add_prestige = 15
+#		add_meritocracy_effect = yes
+#		generate_advisor_of_type_and_semi_random_religion_effect = {
+#			advisor_type=theologian
+#			advisor_type_if_not_state=natural_scientist
+#			scaled_skill = yes
+#			discount=yes
+#		}
+#	}
+#	option = {
+#		name = "personality_options.736.b" #I know just who should recieve our patronage.
+#		ai_chance = {
+#			factor = 100
+#		}
+#		highlight = yes
+#		trigger = {
+#			OR = {
+#				ruler_has_personality = free_thinker_personality
+#				ruler_has_personality = well_advised_personality
+#			}
+#			hidden_trigger = {
+#				NOT = {
+#					has_country_flag = philosopher_flag
+#				}
+#				monthly_income = 16
+#			}
+#		}
+#		required_personality = free_thinker_personality
+#		required_personality = well_advised_personality
+#		add_prestige = 15
+#		add_meritocracy_effect = yes
+#		generate_advisor_of_type_and_semi_random_religion_effect = {
+#			advisor_type=philosopher
+#			advisor_type_if_not_state=philosopher
+#			scaled_skill = yes
+#			discount=yes
+#		}
+#	}
+#	after = {
+#		clear_saved_name = trader_name
+#		erase_advisor_flags_effect = yes
+#		trigger_switch = {
+#			on_trigger = has_country_flag
+#			theologian_flag = { clr_country_flag = theologian_flag }
+#			artist_flag = { clr_country_flag = artist_flag }
+#			philosopher_flag = { clr_country_flag = philosopher_flag }
+#		}
+#	}
+#}
 
 # Local fortification expert discovered
 country_event = {
@@ -9744,7 +9744,7 @@ country_event = {
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 1
-				trade_goods = gold
+				trade_goods = silver
 				OR = {
 					is_overseas = yes
 					owner = {
@@ -9754,7 +9754,7 @@ country_event = {
 			}
 		}
 		NOT = {
-			gold = 1
+			silver = 1
 		}
 	}
 	
@@ -9772,7 +9772,7 @@ country_event = {
 					}
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						trade_goods = gold
+						trade_goods = silver
 						OR = {
 							is_overseas = yes
 							owner = {
@@ -11830,7 +11830,7 @@ country_event = {
 	}
 }
 
-# GOLD RUSH!
+# SILVER RUSH!
 country_event = {
 	id = 6428
 	title = "EVTNAME6428"
@@ -11838,7 +11838,7 @@ country_event = {
 	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
 
 	trigger = {
-		gold = 1
+		silver = 1
 		NOT = { religion_group = pagan }
 	}
 
@@ -11885,110 +11885,110 @@ country_event = {
 
 
 # Quality Ivory
-country_event = {
-	id = 6431
-	title = "EVTNAME6431"
-	desc = "EVTDESC6431"
-	picture = TRADEGOODS_eventPicture
-
-	trigger = {
-		ivory = 1
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVTOPTA6431"
-		add_prestige = 20
-	}
-}
+#country_event = {
+#	id = 6431
+#	title = "EVTNAME6431"
+#	desc = "EVTDESC6431"
+#	picture = TRADEGOODS_eventPicture
+#
+#	trigger = {
+#		ivory = 1
+#	}
+#
+#	is_triggered_only = yes
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "EVTOPTA6431"
+#		add_prestige = 20
+#	}
+#}
 
 # Tea Party
-country_event = {
-	id = 6432
-	title = "EVTNAME6432"
-	desc = "EVTDESC6432"
-	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
-	goto = tea_province
-
-	trigger = {
-		any_owned_province = {
-			trade_goods = tea 
-			is_overseas = yes
-			is_city = yes
-		}
-	}
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					trade_goods = tea 
-					is_overseas = yes
-					is_city = yes
-				}
-				save_event_target_as = tea_province
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA6432"
-		event_target:tea_province = {
-			add_unrest = 10
-		}
-		
-	}
-}
+#country_event = {
+#	id = 6432
+#	title = "EVTNAME6432"
+#	desc = "EVTDESC6432"
+#	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+#	goto = tea_province
+#
+#	trigger = {
+#		any_owned_province = {
+#			trade_goods = tea 
+#			is_overseas = yes
+#			is_city = yes
+#		}
+#	}
+#	is_triggered_only = yes
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			random_owned_province = {
+#				limit = {
+#					trade_goods = tea 
+#					is_overseas = yes
+#					is_city = yes
+#				}
+#				save_event_target_as = tea_province
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA6432"
+#		event_target:tea_province = {
+#			add_unrest = 10
+#		}
+#		
+#	}
+#}
 
 # Storms
-country_event = {
-	id = 6433
-	title = "EVTNAME6433N"
-	desc = "EVTDESC6433N"
-	picture = TRADEGOODS_eventPicture
-	goto = chinaware_province
-
-	trigger = {
-		chinaware = 1
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					trade_goods = chinaware
-				}
-				save_event_target_as = chinaware_province
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA6433N"
-		event_target:chinaware_province = {
-			add_province_modifier = {
-				name = "storms"
-				duration = 730
-			}			
-		}
-	}
-}
+#country_event = {
+#	id = 6433
+#	title = "EVTNAME6433N"
+#	desc = "EVTDESC6433N"
+#	picture = TRADEGOODS_eventPicture
+#	goto = chinaware_province
+#
+#	trigger = {
+#		chinaware = 1
+#	}
+#
+#	is_triggered_only = yes
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			random_owned_province = {
+#				limit = {
+#					trade_goods = chinaware
+#				}
+#				save_event_target_as = chinaware_province
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA6433N"
+#		event_target:chinaware_province = {
+#			add_province_modifier = {
+#				name = "storms"
+#				duration = 730
+#			}			
+#		}
+#	}
+#}
 
 
 # Harvest failure

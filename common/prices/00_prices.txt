@@ -24,11 +24,11 @@ fish = {
 }
 
 fur = {
-	base_price = 2
+	base_price =3
 }
 
 salt = {
-	base_price = 3
+	base_price = 4
 }
 
 naval_supplies = {
@@ -38,10 +38,14 @@ naval_supplies = {
 
 # Metals
 copper = {
-	base_price = 3
+	base_price = 6
 }
 
-gold = {
+tin = {
+	base_price = 2
+}
+
+silver = {
 	base_price = 0
 	goldtype = yes
 }
@@ -50,23 +54,25 @@ iron = {
 	base_price = 3
 }
 
+plaulum = {
+	base_price = 10 
+}
 
-# African Resources
+
 slaves = {
 	base_price = 2
 }
-ivory = {
-	base_price = 4 
+quedarma_horns = {
+	base_price = 3
 }
 
 
-# Eastern Resources
-tea = {
+black_eliph = {
 	base_price = 2
 }
 
-chinaware = {
-	base_price = 3
+machinery = {
+	base_price = 10
 }
 
 spices = {
@@ -75,38 +81,38 @@ spices = {
 
 
 # New World Resources
-coffee = {
+iresta = {
 	base_price = 3
 }
 
-cotton = {
-	base_price = 3
+ecriamin = {
+	base_price = 2
 }
 
-sugar = {
+sweetpowder = {
 	base_price = 3 
 }
 
-tobacco = {
+gold_knot = {
 	base_price = 3
 }
 
-cocoa = {
-	base_price = 4 
+vecroth_fruit = {
+	base_price = 2
 }
 
 # New Non-European Tradegoods
 
-silk = {
+spirl = {
 	base_price = 4
-}
-
-tropical_wood = {
-	base_price = 2
 }
 
 dyes = {
 	base_price = 4 
+}
+
+udezer_wood = {
+	base_price = 3
 }
 
 #Additional Trade Goods
@@ -123,16 +129,29 @@ glass = {
 	base_price = 3
 }
 
-gems = {
-	base_price = 4
-}
-
 paper = {
 	base_price = 3.5
 }
 
+gems = {
+	base_price = 4
+}
+
 coal = {
 	base_price = 10
+}
+
+guedina = {
+	base_price = 2
+}
+ankon = {
+	base_price = 4
+}
+vitaite = {
+	base_price = 2.5
+}
+bryrine = {
+	base_price = 3
 }
 
 unknown = {

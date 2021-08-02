@@ -166,10 +166,6 @@ estate_vaisyas = {
 		estate_vaisyas_control_over_monetary_policy
 		estate_vaisyas_exclusive_trade_rights
 		estate_vaisyas_private_trade_fleets
-		estate_vaisyas_monopoly_of_textiles
-		estate_vaisyas_monopoly_of_dyes
-		estate_vaisyas_monopoly_of_glass
-		estate_vaisyas_monopoly_of_paper
 	}
 
 	agendas = {
