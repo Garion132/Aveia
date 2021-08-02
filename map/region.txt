@@ -76,6 +76,69 @@ krashyrvil_midlands_region = {
 		eritys
 	}
 }
+otrcyueg_region ={
+	areas = {
+		eshyr
+		sahlune
+		anoruine
+		tlinhel
+		lyalolaluma
+		lamnelon
+		oramarnona
+		omora
+		onorasanyn
+		miloran
+		cyoloai
+		kilnelir
+		tarlon
+		maneloa
+		elinalm
+		witharl
+		taenir
+		nythond
+		mathei
+		kilrane
+		ilrazin_greater
+		ilrazin_lesser
+		hinnocrin
+		myranhasanar
+		erinheas
+		lylletvanas
+		ihaa
+		thamel
+		mashrina
+		nadarme
+	}
+}
+shemsele_region ={
+	areas = {
+		iydraf
+		drelnora
+		treivenia
+		shemsele
+		orionrahet
+		macreamsesa
+		ulilrana
+		west_wassad
+		east_wassad
+		north_jamlu
+		south_jamlu
+		elnore
+		olsyaren
+		enyalasha
+		umantien
+		ollumien
+		draumyesi
+		nynthin
+		nytheas
+		klinma
+		amnaselalone
+		loirona
+		nylka
+		aymnerinelie
+		temidal_temple
+	}
+}
 
 
 

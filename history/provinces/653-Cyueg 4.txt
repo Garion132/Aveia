@@ -1,0 +1,16 @@
+#Cyueg
+
+add_core = CYU
+owner = CYU
+controller = CYU
+culture = shemsele
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+trade_goods = grain
+base_manpower = 1
+capital = "Cyu 4"
+is_city = yes
+discovered_by = western
+extra_cost = 16

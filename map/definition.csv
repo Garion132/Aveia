@@ -639,189 +639,189 @@ province;red;green;blue;x;x
 638;91;156;192;Kutei;x
 639;219;158;255;Banjarmasin;x
 640;91;32;0;Sukadane;x
-641;219;34;64;Makassar;x
+641;219;34;64;Makassar;x#
 642;91;36;128;Bone;x
 643;219;38;192;Pose;x
-644;92;40;255;Menade;x
+644;92;40;255;Menade;x##
 645;220;42;0;Buru;x
-646;92;44;64;Ambom;x
+646;92;44;64;Ambom;x##
 647;220;46;128;Ceram;x
 648;92;48;192;Halmahera;x
-649;220;50;255;Ternate;x
+649;220;50;255;Ternate;x##
 650;92;52;0;Tidore;x
 651;221;54;64;Sulu;x
 652;93;56;128;Maguindanae;x
-653;221;58;192;Tagoloan;x
+653;221;58;192;Tagoloan;x#
 654;93;60;255;Samar;x
 655;221;62;0;Palawan;x
 656;93;64;64;Manila;x
-657;221;66;128;Samtoy;x
+657;221;66;128;Samtoy;x#
 658;94;68;192;Cagayan;x
 659;222;70;255;Riau;x
 660;94;72;0;Xishuan Banna;x
 661;222;74;64;Dali;x
-662;94;76;128;Yunnan;x
+662;94;76;128;Yunnan;x#
 663;222;78;192;Wenshan;x
 664;94;80;255;Guangxi;x
-665;223;82;0;XXX;x
+665;223;82;0;XXX;x#
 666;95;84;64;Hainan;x
 667;223;86;128;Guangzhou;x
 668;95;88;192;Macau;x
 669;223;90;255;Fuzhou;x
-670;95;92;0;Ganzhou;x
+670;95;92;0;Ganzhou;x#
 671;223;94;64;Changsha;x
 672;96;96;128;Chenzhou;x
 673;224;98;192;Bozhou;x
 674;96;100;255;Guiyang;x
-675;224;102;0;Liangshan;x
+675;224;102;0;Liangshan;x#
 676;96;104;64;U-Tsang;x
 677;224;106;128;Qamdo;x
-678;96;108;192;Kham;x
+678;96;108;192;Kham;x#
 679;225;110;255;Sichuan Pendi;x
 680;97;112;0;Shenquing;x
 681;225;114;64;Yichuan;x
-682;97;116;128;Hanyang;x
+682;97;116;128;Hanyang;x#
 683;225;118;192;Nanchang;x
 684;97;120;255;Hangzhou;x
 685;225;122;0;Huai'an;x
-686;98;124;64;Anqing;x
+686;98;124;64;Anqing;x#
 687;226;126;128;Running;x
 688;98;128;192;Kaifeng;x
 689;226;130;255;Fengyuan;x
 690;98;132;0;Shandong Bandao;x
-691;226;134;64;Jinan;x
+691;226;134;64;Jinan;x#
 692;98;136;128;Handan;x
 693;227;138;192;Sanguan;x
 694;99;140;255;Changzhi;x
-695;227;142;0;Beijing;x
+695;227;142;0;Beijing;x#
 696;99;144;64;Xuan Fu;x
 697;227;146;128;Datong;x
-698;99;148;192;Guyuan;x
+698;99;148;192;Guyuan;x#
 699;227;150;255;Lanzhou;x
 700;100;152;0;Shaanxi;x
 701;228;154;64;Ordos;x
 702;100;156;128;Ulaanchab;x
-703;228;158;192;Chengde;x
+703;228;158;192;Chengde;x#
 704;100;32;255;Liaoxi;x
 705;228;34;0;Dangla;x
-706;100;36;64;Amdo;x
+706;100;36;64;Amdo;x#
 707;229;38;128;Yumen;x
 708;101;40;192;Gansu;x
 709;229;42;255;Ningxia;x
-710;101;44;0;Hotan;x
+710;101;44;0;Hotan;x#
 711;229;46;64;Qarqan;x
 712;101;48;128;Uighuristan;x
 713;229;50;192;Kuruk Tag;x
 714;102;52;255;Dzungaria;x
 715;230;54;0;Urumqi;x
-716;102;56;64;Tannu Tuva;x
+716;102;56;64;Tannu Tuva;x#
 717;230;58;128;Selenge;x
 718;102;60;192;Govi Altay;x
 719;230;62;255;Khangai;x
-720;102;64;0;Dorno Govi;x
+720;102;64;0;Dorno Govi;x#
 721;231;66;64;Dornod;x
 722;103;68;128;Chahar;x
-723;231;70;192;Xilin Gol;x
+723;231;70;192;Xilin Gol;x#
 724;103;72;255;Yakesa;x
 725;231;74;0;Hinggan;x
 726;103;76;64;Liaodong;x
 727;231;78;128;Heilongjiang;x
-728;104;80;192;Sanxing;x
+728;104;80;192;Sanxing;x##
 729;232;82;255;Wusuli;x
-730;104;84;0;Haixi;x
+730;104;84;0;Haixi;x#
 731;232;86;64;Ninguta;x
 732;104;88;128;Hamheung;x
-733;232;90;192;Hwangju;x
+733;232;90;192;Hwangju;x#
 734;104;92;255;Gangwon;x
 735;153;134;173;Hanseong;x
-736;217;164;164;Sangju;x
+736;217;164;164;Sangju;x#
 737;233;98;128;Jeonju;x
 738;105;100;192;Taiwan;x
 739;233;102;255;Kashgar;x
-740;105;104;0;Chanderi;x
+740;105;104;0;Chanderi;x#
 741;233;106;64;Cumana;x
 742;106;108;128;Guayana;x
-743;234;110;192;Essequibo;x
+743;234;110;192;Essequibo;x#
 744;106;112;255;Demerara;x
 745;234;114;0;Paramaribo;x
 746;106;116;64;Cayenne;x
 747;234;118;128;Tucujulandia;x
-748;106;120;192;Grao Para;x
+748;106;120;192;Grao Para;x#
 749;235;122;255;Maranhao;x
 750;107;124;0;Crato;x
 751;235;126;64;Ceara;x
-752;107;128;128;Oeiras;x
+752;107;128;128;Oeiras;x#
 753;235;130;192;Rio Grande;x
 754;107;132;255;Itamaraca;x
-755;235;134;0;Pernambuco;x
+755;235;134;0;Pernambuco;x##
 756;108;136;64;Bahia;x
 757;236;138;128;Ilheus;x
 758;108;140;192;Goias;x
-759;236;142;255;Diamantina;x
+759;236;142;255;Diamantina;x#
 760;108;144;0;Porto Seguro;x
 761;236;146;64;Espirito Santo;x
-762;108;148;128;Sao Tome;x
+762;108;148;128;Sao Tome;x#
 763;237;150;192;Rio de Janeiro;x
 764;109;152;255;Santo Amaro;x
 765;237;154;0;Santa Luzia;x
-766;109;156;64;Sao Vicente;x
+766;109;156;64;Sao Vicente;x#
 767;237;158;128;Wystruc;x
 768;109;32;192;Guayra;x
-769;237;34;255;Curitiba;x
+769;237;34;255;Curitiba;x#
 770;110;36;0;Braslaw;x
 771;238;38;64;Vitebsk;x
 772;110;40;128;Uruguay;x
-773;238;42;192;Banda Oriente;x
+773;238;42;192;Banda Oriente;x#
 774;110;44;255;Al Junaynah;x
 775;238;46;0;Asuncion;x
 776;110;48;64;Itenines;x
 777;239;50;128;Parana;x
 778;111;52;192;Rio de la Plata;x
-779;239;54;255;Tandil;x
+779;239;54;255;Tandil;x#
 780;111;56;0;Candelaria Patagones;x
 781;239;58;64;Puerto Desaedo;x
 782;111;60;128;Tierra del Fuego;x
 783;239;62;192;Alacaluf;x
-784;112;64;255;Huillimapu;x
+784;112;64;255;Huillimapu;x#
 785;240;66;0;Pehuenmapu;x
 786;112;68;64;Carmen Patagones;x
 787;240;70;128;Pincunmapu;x
 788;112;72;192;Angoche;x
-789;240;74;255;Mtetwa;x
+789;240;74;255;Mtetwa;x#
 790;112;76;0;Chaco Austral;x
 791;241;78;64;Catamarca;x
 792;113;80;128;Copiapo;x
 793;241;82;192;Atacama;x
 794;113;84;255;Jujuy;x
-795;241;86;0;Potosi;x
+795;241;86;0;Potosi;x#
 796;113;88;64;Arica;x
 797;241;90;128;Oruro;x
 798;215;191;212;Mbwila;x
 799;242;94;255;Chaco Boreal;x
 800;114;96;0;Chiquitos;x
-801;242;98;64;Caranga;x
+801;242;98;64;Caranga;x#
 802;114;100;128;Chuquiabo;x
 803;242;102;192;Moxos;x
 804;114;104;255;Puno;x
 805;243;106;0;Arequipa;x
 806;115;108;64;Nazca;x
-807;243;110;128;Huamanga;x
+807;243;110;128;Huamanga;x#
 808;115;112;192;Cuzco;x
 809;243;114;255;Lima;x
 810;115;116;0;Huancavelica;x
 811;243;118;64;Tarma;x
 812;116;120;128;Chanchan;x
-813;244;122;192;Cajamarca;x
+813;244;122;192;Cajamarca;x#
 814;116;124;255;Huanuco;x
 815;244;126;0;Maynas;x
 816;116;128;64;Tumbes;x
 817;244;130;128;Cuenca;x
-818;116;132;192;Canelos;x
+818;116;132;192;Canelos;x#
 819;245;134;255;Guayaquil;x
 820;117;136;0;Quito;x
 821;245;138;64;Quijos;x
 822;117;140;128;Caqueta;x
-823;245;142;192;Cauca;x
+823;245;142;192;Cauca;x#
 824;117;144;255;Mariquita;x
 825;245;146;0;Bogota;x
 826;118;148;64;Choco;x
@@ -829,56 +829,56 @@ province;red;green;blue;x;x
 828;118;152;192;Cartagena;x
 829;246;154;255;Magdalena;x
 830;118;156;0;Maracaibo;x
-831;246;158;64;Caracas;x
+831;246;158;64;Caracas;x#
 832;118;32;128;Chiancon;x
 833;247;34;192;Graaff-Reinet;x
-834;119;36;255;Barinas;x
+834;119;36;255;Barinas;x#
 835;128;34;79;Panama;x
 836;0;36;126;Chorotega;x
 837;128;38;173;Nicaragua;x
 838;0;40;32;Mosquito;x
-839;128;42;79;Pipil;x
+839;128;42;79;Pipil;x#
 840;0;44;126;Honduras;x
 841;129;46;173;Guatemala;x
 842;1;48;32;Petas;x
-843;129;50;79;Belize;x
+843;129;50;79;Belize;x#
 844;1;52;126;Zapotec;x
 845;129;54;173;Campeche;x
 846;1;56;32;Yucatan;x
-847;129;58;79;Mixtec;x
+847;129;58;79;Mixtec;x#
 848;2;60;126;Tohancapan;x
 849;130;62;173;Tlapanec;x
 850;2;64;32;Tlaxcala;x
 851;130;66;79;Tarasco;x
-852;2;68;126;Mexico;x
+852;2;68;126;Mexico;x#
 853;130;70;173;Huastec;x
 854;2;72;32;Sayultecas;x
 855;131;74;79;Huichol;x
 856;3;76;126;Zacatecas;x
-857;131;78;173;Guachichil;x
+857;131;78;173;Guachichil;x#
 858;3;80;32;Tamaulipas;x
 859;131;82;79;Sinaloa;x
 860;3;84;126;Tepehuan;x
 861;131;86;173;Coahuila;x
 862;4;88;32;Yaqui;x
-863;132;90;79;Suma;x
+863;132;90;79;Suma;x#
 864;4;92;126;Concho;x
 865;132;94;173;Cochimi;x
 866;4;96;32;Guaycura;x
-867;132;98;79;Mojave;x
+867;132;98;79;Mojave;x#
 868;4;100;126;Chumash;x
 869;133;102;173;Salinan;x
 870;5;104;32;Yorkuts;x
 871;133;106;79;Pomo;x
-872;5;108;126;Kalapuya;x
+872;5;108;126;Kalapuya;x#
 873;133;110;173;Chinook;x
 874;5;112;32;Salish;x
-875;133;114;79;Canyon;x
+875;133;114;79;Canyon;x#
 876;6;116;126;Yavapai;x
 877;134;118;173;Pima;x
 878;6;120;32;Navajo;x
-879;134;122;79;Apache;x
-880;6;124;126;Pueblo;x
+879;134;122;79;Apache;x##
+880;6;124;126;Pueblo;x##
 881;134;126;173;Piro;x
 882;6;128;32;Mescalero;x
 883;135;130;79;Lipan;x

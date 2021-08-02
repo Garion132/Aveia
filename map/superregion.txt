@@ -6,6 +6,7 @@ aveia_superregion = { #the "west", around the great sea
 	lentira_region
 	parhaman_region
 	krashyrvil_midlands_region
+	otrcyueg_region
 	
 	karnaiha_region
 }
