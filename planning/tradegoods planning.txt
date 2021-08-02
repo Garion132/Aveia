@@ -1,0 +1,37 @@
+copper
+tin
+iron
+timber/naval supples
+grain
+fruit
+spices
+slaves
+salts
+gems
+glass
+dyes
+paper
+coal
+silver
+cloth
+livestock
+Pademi fur (This animal has dark green furred skin and a body shaped like a deer's.  Its face resembles that of a hamster and its eyes remind you of a goat's.  It has a frill around its neck.)
+Komule wool(This animal has mid-length vivid yellow fur and has a body shaped like a horse's.  Its face resembles that of a crane and its eyes remind you of a rat's.  It has a mid-length mane around its neck, and a pair of mid-length horns.)
+Wine (made from a light-blue berry)
+Plaulum (gold-like This metal is a light purplish-gray in color and does not oxidate.  It is quite soft when solid and melts at 3722 degrees Kelvin.  It is an excellent conductor of electricity and a good conductor of heat.  It is toxic in moderate quantities.)
+Udezer Wood (magical blue wood) lux
+Gold Knot (golden leaves, white five-petaled flowers. tobacco-like product)
+spirl (giant spider silk-like product)
+Guedina	(cesimum-like metal/ iridescent pale orange in color and produces royal purple oxide)
+Ankon (mythril-like/ pale rose in color)
+Vitaite	(transparent lilac bouyant crysal, increase bouyancy with extreme heat)
+Bryrine ( electric blue in color and produces indigo oxide, magic superconductor)
+machinery
+
+#east
+quedarma horn (megafauna, giant, greenish-gray, snake with horns and a frill)
+#new world
+Iresta (coffee-like, )
+Black Eliph (cocoa-like, crushed flowers, cluster of dark red six-petaled flowers)
+
+sweet-powder (sugar)
