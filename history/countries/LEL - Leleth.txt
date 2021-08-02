@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = edailian
 religion = catholic
 technology_group = western
-capital = 80 # Iwenlumy
+capital = 538 # Iwenlumy
 #national_focus = DIP
 #historical_rival = HAB
 

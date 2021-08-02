@@ -139,7 +139,30 @@ shemsele_region ={
 		temidal_temple
 	}
 }
-
+lildoresi_marches_region ={
+	areas = {
+		menatheas
+		ilfamenat
+		gafdorethe
+		naleenyafet
+		mythenaset
+		boraloris
+		y_mahilne
+		rauthyr_1
+		rauthyr_2
+		rauthyr_3
+		rauthyr_4
+	}
+}
+rauthyr_region ={
+	areas = {
+		rauthyr_5
+		rauthyr_6
+		rauthyr_7
+		rauthyr_8
+		rauthyr_9
+	}
+}
 
 
 ##Karnaiha

@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = shemsele
 religion = catholic
 technology_group = western
-capital = 789 # 
+capital = 771 # 
 #national_focus = DIP
 #historical_rival = HAB
 

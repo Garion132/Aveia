@@ -41,7 +41,7 @@ Coal
 Machinery
 
 
-#Western Continent, 1
+#Elteria (South-Western Continent), 1
 Ecriamin (Blue five leaf clover, Magical Healing Herbs)
 
 #Eastern Aveia, 2

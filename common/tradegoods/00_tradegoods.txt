@@ -521,8 +521,8 @@ plaulum = {
 		global_tax_modifier = 0.1
 	}
 	province = {
-		trade_goods_size_modifier = 1.75
-		trade_value_modifier = -0.25
+		local_production_efficiency = 2.25
+		trade_value_modifier = -0.50
 	}
 	chance = {
 		factor = 0.5

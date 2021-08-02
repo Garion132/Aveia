@@ -1,0 +1,16 @@
+#Nelsyari
+
+add_core = NEL
+owner = NEL
+controller = NEL
+culture = kyathian
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = grain
+capital = "Nel 3"
+is_city = yes
+discovered_by = western
+extra_cost = 16
