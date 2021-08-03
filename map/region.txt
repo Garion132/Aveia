@@ -161,6 +161,12 @@ rauthyr_region ={
 		rauthyr_7
 		rauthyr_8
 		rauthyr_9
+		rauthyr_10
+		rauthyr_11
+		rauthyr_12
+		rauthyr_13
+		rauthyr_14
+		rauthyr_15
 	}
 }
 
