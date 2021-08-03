@@ -13,3 +13,11 @@ asemont_fortress_complex = {
 	local_state_maintenance_modifier = 4
 	tax_income = -6
 }
+yhenil_bridge = {
+	tax_income = 6
+	trade_goods_size = 1
+	local_development_cost = -1
+	local_institution_spread = 0.5
+	province_trade_power_value = 15
+	allowed_num_of_buildings = 1
+}

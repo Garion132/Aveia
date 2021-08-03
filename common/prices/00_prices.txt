@@ -51,7 +51,7 @@ silver = {
 }
 
 iron = {
-	base_price = 3
+	base_price = 1
 }
 
 plaulum = {
