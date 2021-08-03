@@ -170,12 +170,20 @@ rauthyr_region ={
 	}
 }
 
+craine_islands={#includes kafethyr
+	areas = {
+		calendor_islands
+		west_demina_straights# move later
+	}
+}
+
 
 ##Karnaiha
 
 karnaiha_region = {
 	areas = {
 		cerinia_area
+		
 	}
 }
 
