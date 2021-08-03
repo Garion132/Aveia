@@ -1,0 +1,15 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+#Important Locations
+asemont_copper_mines = { #Aesemont Copper Mines (in the Cradle)
+	trade_goods_size = 5.0
+}
+asemont_fortress_complex = {
+	local_defensiveness = 1
+	max_attrition = 1
+	local_hostile_attrition = 2
+	local_state_maintenance_modifier = 4
+	tax_income = -6
+}

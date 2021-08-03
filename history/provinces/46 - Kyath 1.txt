@@ -1,4 +1,4 @@
-#Kyath 1 - fill
+#Kyath 1 - filler
 
 add_core = KYA
 owner = KYA
@@ -13,4 +13,4 @@ base_manpower = 3
 capital = "Kyath 1"
 is_city = yes
 discovered_by = western
-extra_cost = 16
+extra_cost = 0
