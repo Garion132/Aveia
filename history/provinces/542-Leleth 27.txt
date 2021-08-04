@@ -1,5 +1,9 @@
 #Leleth 27
 
+latent_trade_goods = {
+	iron
+}
+
 add_core = LEL
 owner = LEL
 controller = LEL
@@ -8,9 +12,10 @@ religion = catholic
 hre = no
 base_tax = 1
 base_production =1
-trade_goods = iron
+trade_goods = wool
 base_manpower = 2
 capital = "Leleth 27"
 is_city = yes
 discovered_by = western
 extra_cost = 0
+center_of_trade = 1

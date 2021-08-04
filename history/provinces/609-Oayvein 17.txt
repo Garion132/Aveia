@@ -1,5 +1,9 @@
 #Oayvein 17
 
+latent_trade_goods = {
+	iron
+}
+
 add_core = OAY
 owner = OAY
 controller = OAY
@@ -8,9 +12,9 @@ religion = catholic
 hre = no
 base_tax = 1
 base_production =1
-trade_goods = grain
+trade_goods = wool
 base_manpower = 1
 capital = "Oay 17"
 is_city = yes
 discovered_by = western
-extra_cost = 16
+extra_cost = 0

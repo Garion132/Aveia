@@ -1,5 +1,9 @@
 #Leleth 9
 
+latent_trade_goods = {
+	iron
+}
+
 add_core = LEL
 owner = LEL
 controller = LEL
@@ -9,7 +13,7 @@ hre = no
 base_tax = 2
 base_production =1
 trade_goods = naval_supplies
-base_manpower = 2
+base_manpower = 1
 capital = "Leleth 9"
 is_city = yes
 discovered_by = western

@@ -1,5 +1,9 @@
 #Ihadar 12
 
+latent_trade_goods = {
+	iron
+}
+
 add_core = IHA
 owner = IHA
 controller = IHA
@@ -8,9 +12,9 @@ religion = catholic
 hre = no
 base_tax = 6
 base_production =3
-trade_goods = iron
+trade_goods = wool
 base_manpower = 7
 capital = "Ihadar 12"
 is_city = yes
 discovered_by = western
-extra_cost = 16
+extra_cost = 0
