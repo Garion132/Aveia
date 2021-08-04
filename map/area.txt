@@ -4,7 +4,7 @@
 #No restriction on size.
 
 grand_sea_area = {
-	33 34 35 36 37 38 39 41
+	33 34 35 36 37 38 39 41 30 989
 }
 
 filler_sea = {
