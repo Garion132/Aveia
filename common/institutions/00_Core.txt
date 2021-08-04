@@ -711,6 +711,7 @@ global_trade = {
 	historical_start_province = 97 #Holland
 
 	history = {
+		always =  no
 	}
 	
 	can_start = {
@@ -949,6 +950,7 @@ manufactories = {
 	historical_start_province = 183 #Paris
 
 	history = {
+		always =  no
 	}
 	
 	can_start = {
@@ -1386,6 +1388,7 @@ enlightenment = {
 	historical_start_province = 236 #London
 
 	history = {
+		always =  no
 	}
 	
 	can_start = {
@@ -1715,6 +1718,7 @@ industrialization = {
 	historical_start_province = 244 #Lancashire
 
 	history = {
+		always =  no
 	}
 	
 	can_start = {

@@ -2,7 +2,7 @@ bookmark =
 {
 	name = "RISE_OF_THE_OTTOMANS"
 	desc = "RISE_OF_THE_OTTOMANS_DESC"
-	date = 1444.11.11
+	date = 1272.8.6
 	
 	center = 46
 	default = yes

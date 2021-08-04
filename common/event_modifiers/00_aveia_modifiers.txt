@@ -21,3 +21,10 @@ yhenil_bridge = {
 	province_trade_power_value = 15
 	allowed_num_of_buildings = 1
 }
+
+# Important river estuaries
+# If you add any be sure to update the has_river_estuary_trigger scripted trigger too.
+enheasrion_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "estuary_icon"
+}

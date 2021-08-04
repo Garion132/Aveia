@@ -194,6 +194,22 @@ rauthyr_region ={
 	}
 }
 
+dreghei_region={#
+	areas = {
+		nyhenat_1
+		nyhenat_2
+		nyhenat_3
+		nyhenat_4
+		olhoreireelu_1
+		olhoreireelu_2
+		keathene_1
+		keathene_2
+		unolad_1
+		unolad_2
+		unolad_3
+	}
+}
+
 craine_islands={#includes kafethyr
 	areas = {
 		calendor_islands

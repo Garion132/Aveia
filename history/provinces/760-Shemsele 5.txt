@@ -1,8 +1,8 @@
 #Shemsele
 
-add_core = SHE
-owner = SHE
-controller = SHE
+add_core = DRE
+owner = DRE
+controller = DRE
 culture = kyathian
 religion = catholic
 hre = no
