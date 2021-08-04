@@ -486,7 +486,9 @@ silver = {
 iron = {
 	color = { 0.2 0.2 0.2 }
 	is_latent = yes
+	is_valuable = yes
 
+	rnw_latent_chance = 7 # Kind of on average how many provinces we want to spawn with it
 	modifier = {
 		global_regiment_cost = -0.05
 	}
@@ -505,26 +507,7 @@ iron = {
 		owner = { has_institution = renaissance  }
 	}
 	chance = {
-		factor = 10
-		modifier = {
-			factor = 1.2
-			normal_or_historical_nations = no
-			OR = {
-				has_terrain = mountain
-				has_terrain = hills
-				has_terrain = highlands
-			}
-		}
-		modifier = {
-			factor = 20
-			province_id = 990
-		}
-		modifier = {
-			factor = 1.5
-			is_random_new_world = yes
-			has_terrain = mountain
-			continent = new_world #Always in RNW
-		}
+		factor = 1
 	}
 }
 
