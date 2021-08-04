@@ -30,5 +30,6 @@ SAL = "countries/Salor.txt"
 MNH = "countries/Menatheas.txt"
 RAU = "countries/Rauthyr.txt"
 NEL = "countries/Nelsyari.txt"
+KAF = "countries/Kafethyr.txt"
 
 PAP  = "countries/Yulikivian.txt"

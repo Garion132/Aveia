@@ -1177,27 +1177,27 @@ province;red;green;blue;x;x
 1176;48;76;126;Roggeveld;x
 1177;177;78;173;Cape;x
 1178;49;80;32;Great Karoo;x
-1179;177;82;79;Swellendam;x
+1179;177;82;79;Swellendam;x#
 1180;49;84;126;Transkei;x
 1181;177;86;173;Natal;x
 1182;49;88;32;Delagoa Bay;x
 1183;177;90;79;Inhambane;x
 1184;50;92;126;Zimbabwe;x
 1185;178;94;173;Uteve;x
-1186;50;96;32;Sofala;x
+1186;50;96;32;Sofala;x#
 1187;178;98;79;Urungwe;x
 1188;50;100;126;Tete;x
 1189;178;202;173;Barwe;x
 1190;50;104;32;Zumbo;x
-1191;179;106;79;Sena;x
+1191;179;106;79;Sena;x#
 1192;51;108;126;Quelimane;x
 1193;179;110;173;Menabe;x
 1194;51;212;32;Besalampy;x
-1195;179;114;79;Mozambique;x
+1195;179;114;79;Mozambique;x#
 1196;51;116;126;Kilwa;x
 1197;179;118;173;Ujiji;x
 1198;52;120;32;Tabora;x
-1199;180;122;79;Bagamoyo;x
+1199;180;122;79;Bagamoyo;x##
 1200;52;124;126;Tanga;x
 1201;180;126;173;Zanzibar;x
 1202;52;128;32;Mombasa;x

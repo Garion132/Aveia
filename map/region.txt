@@ -198,6 +198,11 @@ craine_islands={#includes kafethyr
 	areas = {
 		calendor_islands
 		west_demina_straights# move later
+		kafethyr_1
+		kafethyr_2
+		kafethyr_3
+		kafethyr_4
+		kafethyr_5
 	}
 }
 
