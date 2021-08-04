@@ -167,6 +167,30 @@ rauthyr_region ={
 		rauthyr_13
 		rauthyr_14
 		rauthyr_15
+		rauthyr_16
+		rauthyr_17
+		rauthyr_18
+		rauthyr_19
+		rauthyr_20
+		rauthyr_21
+		rauthyr_22
+		rauthyr_23
+		rauthyr_24
+		rauthyr_25
+		rauthyr_26
+		rauthyr_27
+		rauthyr_28
+		rauthyr_29
+		rauthyr_30
+		rauthyr_31
+		rauthyr_32
+		rauthyr_33
+		rauthyr_34
+		rauthyr_35
+		rauthyr_36
+		rauthyr_37
+		rauthyr_38
+		rauthyr_39
 	}
 }
 
