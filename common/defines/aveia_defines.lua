@@ -1,0 +1,1 @@
+NDefines.NCountry.ALLOW_ZERO_BASE_VALUES = 1
