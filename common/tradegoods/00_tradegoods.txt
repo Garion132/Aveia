@@ -1095,9 +1095,10 @@ guedina = {
 	color = { 0.84 0.28 0.48 }
 	modifier = {
 		global_regiment_cost = -0.05
+		artillery_cost = -0.1
 	}
 	province = {
-		local_build_time = -0.2
+		local_regiment_cost = -0.1
 	}
 	chance = {
 		factor = 10
@@ -1125,10 +1126,10 @@ guedina = {
 ankon = {
 	color = { 0.77 0.57 0.60 }
 	modifier = {
-		global_regiment_cost = -0.05
+		fire_damage_received = -0.10
 	}
 	province = {
-		local_build_time = -0.2
+		local_defensiveness = 0.2
 	}
 	chance = {
 		factor = 10
@@ -1156,10 +1157,12 @@ ankon = {
 vitaite = {
 	color = { 0.76 0.43 0.74 }
 	modifier = {
-		global_regiment_cost = -0.05
+		heavy_ship_cost = -0.1
+		cavalry_cost = -0.1
 	}
 	province = {
-		local_build_time = -0.2
+		heavy_ship_power = 0.025
+		cavalry_power = 0.025
 	}
 	chance = {
 		factor = 10
@@ -1187,10 +1190,10 @@ vitaite = {
 bryrine = {
 	color = { 0.37 0.5 0.73 }
 	modifier = {
-		global_regiment_cost = -0.05
+		global_tax_modifier = 0.15
 	}
 	province = {
-		local_build_time = -0.2
+		local_institution_spread = 0.25
 	}
 	chance = {
 		factor = 10

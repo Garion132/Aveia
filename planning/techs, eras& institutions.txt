@@ -1,20 +1,21 @@
-#eras
-High Bronze age (start-1367)
-Age of the Iron Calamity (1367-1440)
-Eastern Exodus Age (1440-1540)
-Era of the Golden Sun (1540 - 1638)
+#Eras
+High Bronze Age (start-1367)
+Iron Calamity (1367-1440)
+Eastern Exodus (1440-1540)
+The Golden Sun (1540 - 1638)
 Rosen Dawn (1638-1670)
 Solar Strife (1670-1712)
 Age of Progress (1712-)
-#institutions:
-1200/start - Organised state (start)
+#Institutions:
+1200/start - Organized State (start)
 1250/start - Bronze Working (west only)
+1300 - Crop Rotation
 1350 - Iron Working (lower orbury)
 1400 - Illumináre
 1450 - Colonialism
-1500 - Guedinan revolution
+1500 - Guedinan Revolution
 1550 - Printing Press
 1600 - Global Trade
 1650 - Air Shipping
-1700 - industrilisation
-1750 - Byrinifaction
+1700 - Industrialization
+1750 - Byrinifacation
