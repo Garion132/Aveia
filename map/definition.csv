@@ -1262,122 +1262,122 @@ province;red;green;blue;x;x
 1261;146;146;183;Ladoga;x
 1262;183;154;117;Onega;x
 1263;121;183;136;Barents Sea;x##
-1264;15;220;250;Lofoten Sea;x
-1265;16;250;250;Northern Norwegian Sea;x
-1266;17;200;200;Southern Norwegian Sea;x
-1267;255;200;250;Skagerrack;x
-1268;19;220;250;Helgoland Bight;x
-1269;20;250;250;Coast of Holland;x
-1270;21;200;200;Dogger Bank;x
-1271;22;200;250;Straits of Dover;x
-1272;23;220;250;The Channel;x
-1273;224;123;123;Taveta;x
-1274;25;200;205;Coast of Britanny;x
-1275;26;200;255;Quiberon Bay;x
-1276;27;220;255;Cote D'Argent;x
-1277;28;250;255;Bay of Biscay;x
-1278;29;200;205;Cantabrian Sea;x
-1279;30;200;255;Tyne;x
-1280;31;220;255;Firth of Forth;x
-1281;32;250;255;The North Sea;x
-1282;33;200;205;Moray Firth;x
-1283;34;200;255;North Channel;x
-1284;35;220;255;Irish Sea;x
-1285;36;250;255;St. George's Channel;x
-1286;37;200;205;Donegal Bay;x
-1287;38;200;255;Dingle Bay;x
-1288;39;220;255;Celtic Sea;x
-1289;40;250;255;Western Approaches;x
-1290;41;200;205;Finisterre Bay;x
-1291;42;200;255;Lusitanian Sea;x
-1292;43;220;255;Gulf of Cadiz;x
-1293;44;250;255;Straits of Gibraltar;x
-1294;45;200;205;Gulf of Almeira;x
-1295;46;200;255;Gulf of Valencia;x
-1296;47;220;255;Gulf of Lion;x
-1297;48;250;255;Cote D'Azur;x
-1298;49;200;205;Ligurian Sea;x
-1299;50;200;255;Shetland Straits;x
-1300;51;220;255;Western Mediterranean;x
-1301;52;250;255;Barbary Coast;x
-1302;53;200;205;Cape Bon;x
-1303;54;200;255;Tyrrenean Sea;x
-1304;55;220;255;Bay of Naples;x
-1305;56;250;255;Gulf of Gabes;x
+1264;181;112;72;Lofoten Sea;x
+1265;181;175;139;Northern Norwegian Sea;x
+1266;170;173;95;Southern Norwegian Sea;x
+1267;173;92;84;Skagerrack;x
+1268;119;173;169;Helgoland Bight;x#
+1269;149;173;107;Coast of Holland;x
+1270;121;173;149;Dogger Bank;x
+1271;164;159;173;Straits of Dover;x
+1272;173;90;82;The Channel;x
+1273;105;170;115;Taveta;x
+1274;161;170;114;Coast of Britanny;x
+1275;111;167;170;Quiberon Bay;x
+1276;131;140;170;Cote D'Argent;x#
+1277;170;92;117;Bay of Biscay;x
+1278;85;170;135;Cantabrian Sea;x
+1279;170;170;148;Tyne;x
+1280;30;149;170;Firth of Forth;x
+1281;170;159;75;The North Sea;x#
+1282;168;124;145;Moray Firth;x
+1283;168;80;58;North Channel;x
+1284;122;168;97;Irish Sea;x
+1285;168;134;25;St. George's Channel;x
+1286;168;10;10;Donegal Bay;x#
+1287;125;102;165;Dingle Bay;x
+1288;157;165;163;Celtic Sea;x
+1289;165;117;119;Western Approaches;x
+1290;157;165;104;Finisterre Bay;x#
+1291;97;163;122;Lusitanian Sea;x
+1292;150;163;99;Gulf of Cadiz;x
+1293;163;79;79;Straits of Gibraltar;x
+1294;130;158;163;Gulf of Almeira;x
+1295;163;110;129;Gulf of Valencia;x
+1296;110;126;163;Gulf of Lion;x#
+1297;163;86;106;Cote D'Azur;x
+1298;163;156;120;Ligurian Sea;x
+1299;115;163;96;Shetland Straits;x
+1300;163;143;66;Western Mediterranean;x
+1301;163;76;42;Barbary Coast;x#
+1302;163;129;75;Cape Bon;x
+1303;163;83;83;Tyrrenean Sea;x
+1304;146;163;37;Bay of Naples;x
+1305;163;143;133;Gulf of Gabes;x
 1306;181;48;132;Sao Tome;x
-1307;58;200;250;Straits of Messina;x
-1308;59;220;250;Gulf of Venice;x
-1309;60;250;250;Adriatic Sea;x
-1310;61;200;200;Straits of Otranto;x
-1311;62;200;250;Gulf of Taranto;x
-1312;63;220;250;Ionian Sea;x
-1313;64;250;250;Gulf of Sirte;x
-1314;65;200;200;Gulf of Tobruk;x
-1315;66;200;250;Bay of Alexandrian;x
-1316;67;220;250;Palestinian Coast;x
-1317;68;250;250;Gulf of Cyprus;x
+1307;160;138;64;Straits of Messina;x#
+1308;160;75;54;Gulf of Venice;x
+1309;119;160;53;Adriatic Sea;x
+1310;96;160;134;Straits of Otranto;x
+1311;157;146;160;Gulf of Taranto;x
+1312;129;101;158;Ionian Sea;x#
+1313;115;144;158;Gulf of Sirte;x
+1314;133;102;158;Gulf of Tobruk;x
+1315;155;113;133;Bay of Alexandrian;x##
+1316;127;113;76;Palestinian Coast;x
+1317;127;61;36;Gulf of Cyprus;x
 1318;209;246;4;Spis;x
-1319;70;200;250;Aegean Sea;x
-1320;71;220;250;Sea of Marmara;x
-1321;72;250;250;Gulf of Varna;x
-1322;73;200;200;Gulf of Odessa;x
-1323;74;200;250;Sea of Azov;x
-1324;75;220;250;Eastern Black Sea;x
-1325;76;250;250;Lake Balaton;x
-1326;77;200;200;Caspian Sea;x
-1327;78;200;250;Aral Sea;x
-1328;79;220;250;Gulf of Suez;x
-1329;80;250;250;Red Sea;x
-1330;81;200;200;Straits of Obokk;x
-1331;82;200;250;Bal el Mandeb;x
-1332;83;220;250;Coast of Mascate;x
-1333;84;250;250;Gulf of Masirah;x
-1334;85;200;200;Straits of Hormuz;x
-1335;86;200;250;Persian Gulf;x
-1336;87;220;250;Gulf of Indus;x
-1337;88;250;250;Gulf of Gujarat;x
-1338;89;200;200;Laquedive Islands;x
-1339;90;200;250;Coast of Malabar;x
-1340;91;220;250;Comorin Cape;x
-1341;92;250;250;Coast of Caramandel;x
-1342;93;200;200;Coast of Orissa;x
-1343;94;200;250;Ganges Delta;x
-1344;95;220;250;Akyab Bay;x
-1345;96;250;250;Irrawady Delta;x
-1346;97;200;200;Andaman Sea;x
-1347;98;200;250;Mergui Archipelago;x
-1348;99;220;250;Straits of Malacca;x
-1349;100;250;250;Nicobar Isles;x
-1350;101;200;200;Coast of Atjeh;x
-1351;102;200;250;Coast of Sumatra;x
-1352;103;220;250;Christmas Island;x
-1353;104;250;250;Coast of Java;x
-1354;105;200;200;Coast of Surabaya;x
-1355;106;200;250;Straits of Lombok;x
-1356;107;220;250;Timor Sea;x
-1357;108;250;250;The Moluccas;x
-1358;109;200;200;Java Sea;x
-1359;110;200;250;Straits of Makassar;x
-1360;111;220;250;Karimata Strait;x
-1361;112;250;250;Straits of Johore;x
-1362;113;200;200;Malayan Sea;x
-1363;114;200;250;Coast of Sarawk;x
-1364;115;220;250;Mekong Delta;x
-1365;116;250;250;Gulf of Siam;x
-1366;117;200;200;Cam Rah Bay;x
-1367;118;200;255;South China Sea;x
-1368;119;220;250;Coast of Brunei;x
-1369;120;250;250;Coast of Annam;x
-1370;121;200;200;Gulf of Tonkin;x
-1371;122;200;250;Guanghou Bay;x
-1372;123;220;250;Taiwan Strait;x
-1373;124;250;250;Yang Tse Delta;x
-1374;125;200;200;Western Yellow Sea;x
-1375;126;200;250;Korea Bay;x
-1376;127;220;250;South Korean Sea;x
-1377;0;251;251;North Korean Sea;x
-1378;1;201;201;Coast of Olga;x
-1379;2;201;251;Tatar Straits;x
+1319;62;124;52;Aegean Sea;x#
+1320;79;97;124;Sea of Marmara;x
+1321;115;57;124;Gulf of Varna;x
+1322;86;124;98;Gulf of Odessa;x
+1323;92;84;124;Sea of Azov;x#
+1324;124;48;74;Eastern Black Sea;x
+1325;124;96;39;Lake Balaton;x
+1326;63;124;88;Caspian Sea;x#
+1327;124;116;49;Aral Sea;x
+1328;124;56;73;Gulf of Suez;x
+1329;66;107;124;Red Sea;x
+1330;124;64;87;Straits of Obokk;x#
+1331;124;122;71;Bal el Mandeb;x
+1332;123;112;124;Coast of Mascate;x
+1333;124;34;64;Gulf of Masirah;x
+1334;82;118;124;Straits of Hormuz;x##
+1335;98;124;71;Persian Gulf;x
+1336;124;74;48;Gulf of Indus;x
+1337;124;27;76;Gulf of Gujarat;x
+1338;74;124;101;Laquedive Islands;x
+1339;124;95;71;Coast of Malabar;x#
+1340;64;124;87;Comorin Cape;x
+1341;122;107;35;Coast of Caramandel;x
+1342;69;122;96;Coast of Orissa;x
+1343;121;86;122;Ganges Delta;x#
+1344;106;114;119;Akyab Bay;x
+1345;119;95;67;Irrawady Delta;x
+1346;85;119;100;Andaman Sea;x
+1347;119;89;74;Mergui Archipelago;x#
+1348;65;119;69;Straits of Malacca;x
+1349;99;71;119;Nicobar Isles;x
+1350;92;119;111;Coast of Atjeh;x
+1351;76;119;118;Coast of Sumatra;x##
+1352;117;92;87;Christmas Island;x
+1353;98;117;69;Coast of Java;x
+1354;75;117;97;Coast of Surabaya;x
+1355;117;78;64;Straits of Lombok;x
+1356;66;117;76;Timor Sea;x#
+1357;102;80;114;The Moluccas;x
+1358;114;112;61;Java Sea;x
+1359;52;109;114;Straits of Makassar;x
+1360;114;72;60;Karimata Strait;x
+1361;44;114;110;Straits of Johore;x
+1362;69;114;69;Malayan Sea;x#
+1363;112;77;77;Coast of Sarawk;x
+1364;73;112;56;Mekong Delta;x
+1365;112;78;97;Gulf of Siam;x
+1366;87;112;111;Cam Rah Bay;x
+1367;112;69;59;South China Sea;x
+1368;63;112;92;Coast of Brunei;x#
+1369;112;87;69;Coast of Annam;x
+1370;97;109;83;Gulf of Tonkin;x
+1371;109;75;37;Guanghou Bay;x
+1372;109;24;38;Taiwan Strait;x
+1373;29;109;54;Yang Tse Delta;x
+1374;109;96;64;Western Yellow Sea;x#
+1375;42;109;104;Korea Bay;x
+1376;70;107;79;South Korean Sea;x
+1377;68;66;107;North Korean Sea;x
+1378;40;107;82;Coast of Olga;x
+1379;107;75;55;Tatar Straits;x##
 1380;3;221;251;Amur Delta;x
 1381;4;251;251;Baj of Ayan;x
 1382;5;201;201;Bay of Komenskoie;x

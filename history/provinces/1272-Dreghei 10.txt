@@ -1,0 +1,16 @@
+#Dreghei
+
+add_core = DRG
+owner = DRG
+controller = DRG
+culture = dregheian
+religion = catholic
+hre = no
+base_tax = 8
+base_production =14
+base_manpower = 9
+trade_goods = plaulum
+capital = "Alaritlu"
+is_city = yes
+discovered_by = western
+extra_cost = 16

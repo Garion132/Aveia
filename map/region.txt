@@ -210,6 +210,30 @@ dreghei_region={#
 		onebelho_1
 		onebelho_2
 		onebelho_3
+		dreghei_1
+		dreghei_2
+		dreghei_3
+		dreghei_4
+		dreghei_5
+		dreghei_6
+		dreghei_7
+		dreghei_8
+		dreghei_9
+		dreghei_10
+		ryamyueg_1
+		ryamyueg_2
+		ryamyueg_3
+		ryamyueg_4
+		ryamyueg_5
+		beriksarya_1
+		beriksarya_2
+		beriksarya_3
+		ertin_area
+		boluroya_1
+		boluroya_2
+		boluroya_3
+		boluroya_4
+		boluroya_5
 	}
 }
 
