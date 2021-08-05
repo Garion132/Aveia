@@ -4,6 +4,7 @@ primary_culture = shemsele
 religion = catholic
 technology_group = western
 capital = 949 # 
+government_rank = 3
 #national_focus = DIP
 #historical_rival = HAB
 
