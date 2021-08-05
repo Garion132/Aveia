@@ -14,4 +14,3 @@ capital = "Cyu 9"
 is_city = yes
 discovered_by = western
 extra_cost = 16
-fort_15th = yes
