@@ -1423,26 +1423,26 @@ province;red;green;blue;x;x
 1422;65;145;124;Southern Tasman Sea;x
 1423;145;97;39;Cook Strait;x
 1424;145;81;81;Northern Tasman Sea;x##
-1425;48;251;251;Cape Farwell;x
-1426;49;201;201;Coast of New Zealand;x
-1427;50;201;251;Cantebury Bight;x
-1428;51;221;251;Sea of Antarctica;x
-1429;52;251;251;New Caledonian Sea;x
-1430;53;201;201;Coral Sea;x
-1431;54;201;251;Gilbert Sea;x
-1432;55;221;251;Solomon Sea;x
-1433;56;251;251;Nauru Island;x
-1434;57;201;201;Melanesia Sea;x
-1435;58;201;251;Micronesia Sea;x
-1436;59;221;251;Yap Islands;x
-1437;60;251;251;Mariana Islands;x
-1438;61;201;201;Tinian Sea;x
-1439;62;201;251;Iwo Jima Sea;x
-1440;63;221;251;Sanriku Coast;x
-1441;64;251;251;The Kuriles;x
-1442;65;201;201;Bay of Uka;x
-1443;66;201;251;Bay of Oljut;x
-1444;67;221;251;Bay of Anadyr;x
+1425;160;151;134;Cape Farwell;x
+1426;100;160;89;Coast of New Zealand;x
+1427;160;118;94;Cantebury Bight;x
+1428;128;160;152;Sea of Antarctica;x
+1429;160;143;96;New Caledonian Sea;x#
+1430;140;158;148;Coral Sea;x
+1431;155;154;115;Gilbert Sea;x
+1432;155;115;108;Solomon Sea;x
+1433;107;155;150;Nauru Island;x
+1434;155;145;129;Melanesia Sea;x#
+1435;91;155;132;Micronesia Sea;x
+1436;155;117;60;Yap Islands;
+1437;155;80;120;Mariana Islands;x
+1438;133;155;107;Tinian Sea;x
+1439;155;104;134;Iwo Jima Sea;x#
+1440;51;155;56;Sanriku Coast;x
+1441;111;155;152;The Kuriles;x
+1442;155;73;141;Bay of Uka;x
+1443;155;120;91;Bay of Oljut;x##
+1444;57;155;80;Bay of Anadyr;x##
 1445;68;251;251;Bering Sea;x
 1446;69;201;201;Horn of Africa;x
 1447;70;201;251;Coast of Pepper;x

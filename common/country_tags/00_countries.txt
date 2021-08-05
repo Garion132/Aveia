@@ -43,5 +43,7 @@ BER = "countries/Beriksarya.txt"
 BOL = "countries/Boluroya.txt"
 BEY = "countries/Beycu.txt"
 ATH = "countries/Athanila.txt"
+INZ = "countries/Inzedia.txt"
+BAT = "countries/Batvin.txt"
 
 PAP  = "countries/Yulikivian.txt"

@@ -259,6 +259,16 @@ craine_islands={#includes kafethyr
 	}
 }
 
+chaunluma={#includes kafethyr
+	areas = {
+		inzedia_1
+		inzedia_2
+		inzedia_3
+		inzedia_4
+		lurlesy
+	}
+}
+
 
 ##Karnaiha
 

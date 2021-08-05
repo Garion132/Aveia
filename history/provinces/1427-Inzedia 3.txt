@@ -1,0 +1,16 @@
+#Inzedia
+
+add_core = INZ
+owner = INZ
+controller = INZ
+culture = kyathian
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = grain
+capital = "Inz 3"
+is_city = yes
+discovered_by = western
+extra_cost = 16
