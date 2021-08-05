@@ -1378,51 +1378,51 @@ province;red;green;blue;x;x
 1377;68;66;107;North Korean Sea;x
 1378;40;107;82;Coast of Olga;x
 1379;107;75;55;Tatar Straits;x##
-1380;3;221;251;Amur Delta;x
-1381;4;251;251;Baj of Ayan;x
-1382;5;201;201;Bay of Komenskoie;x
-1383;6;201;251;Coast of Kamchatska;x
-1384;7;221;251;Oktothsk Sea;x
-1385;8;251;251;Coast Sahkalin;x
-1386;9;201;201;Soya Strait;x
-1387;10;201;251;Tsugaru Strait;x
-1388;11;221;251;Yamato Basin;x
-1389;12;251;251;Amakusa Sea;x
-1390;13;201;201;Setto Inland Sea;x
-1391;14;201;251;Kii Channel;x
-1392;15;221;251;Ryukyu Islands;x
-1393;16;251;251;Luzon Strait;x
-1394;17;201;201;Paracel Islands;x
-1395;18;201;251;Manila Bay;x
-1396;19;221;251;Coast of Luzon;x
-1397;20;251;251;Gulf of Leyte;x
-1398;21;201;201;Sulu Sea;x
-1399;22;201;251;Sea of Celebes;x
-1400;23;221;251;Sea of Ternete;x
-1401;24;251;251;Sea of Banda;x
-1402;25;201;201;Philipine Sea;x
-1403;26;201;251;Palau Islands;x
-1404;27;221;251;Biak Bay;x
-1405;28;251;251;Vilian Strait;x
-1406;29;201;201;Trobrian Islands;x
-1407;30;201;251;Torres Strait;x
-1408;31;221;251;Arafuam Sea;x
-1409;32;251;251;Kolepom Bay;x
-1410;33;201;201;Gulf of Carpentaria;x
-1411;34;201;251;Great Barrier Reef;x
-1412;35;221;251;Capricorn Bay;x
-1413;36;251;251;Cape Howe;x
-1414;37;201;201;Bass Strait;x
-1415;38;201;251;Kangaroo Island;x
-1416;39;221;251;Great Australian Bight;x
-1417;40;251;251;Cape Leuwiin;x
-1418;41;201;201;Shark Bay;x
-1419;42;201;251;Northwest Cape;x
-1420;43;221;251;King Sound;x
-1421;44;251;251;Tasman Sea;x
-1422;45;201;201;Southern Tasman Sea;x
-1423;46;201;251;Cook Strait;x
-1424;47;221;251;Northern Tasman Sea;x
+1380;107;106;81;Amur Delta;x
+1381;56;107;97;Baj of Ayan;x
+1382;92;107;84;Bay of Komenskoie;x
+1383;107;87;34;Coast of Kamchatska;x
+1384;86;107;99;Oktothsk Sea;x#
+1385;107;96;40;Coast Sahkalin;x
+1386;86;83;107;Soya Strait;x
+1387;107;60;49;Tsugaru Strait;x
+1388;102;70;107;Yamato Basin;x
+1389;80;104;65;Amakusa Sea;x##
+1390;104;71;30;Setto Inland Sea;x
+1391;104;47;71;Kii Channel;x
+1392;43;97;104;Ryukyu Islands;x
+1393;104;77;42;Luzon Strait;x#
+1394;64;78;104;Paracel Islands;x
+1395;104;71;69;Manila Bay;x
+1396;53;104;103;Coast of Luzon;x
+1397;104;89;60;Gulf of Leyte;x
+1398;67;104;81;Sulu Sea;x#
+1399;85;81;104;Sea of Celebes;x
+1400;104;46;46;Sea of Ternete;x
+1401;90;104;87;Sea of Banda;x#
+1402;74;73;104;Philipine Sea;x
+1403;104;53;71;Palau Islands;x
+1404;73;102;93;Biak Bay;x
+1405;102;92;37;Vilian Strait;x#
+1406;102;69;92;Trobrian Islands;x
+1407;64;102;65;Torres Strait;x
+1408;102;39;47;Arafuam Sea;x
+1409;69;102;75;Kolepom Bay;x
+1410;102;69;0;Gulf of Carpentaria;x#
+1411;55;102;51;Great Barrier Reef;x
+1412;102;45;37;Capricorn Bay;x
+1413;37;102;52;Cape Howe;x
+1414;102;95;28;Bass Strait;x#
+1415;145;91;15;Kangaroo Island;x
+1416;114;145;90;Great Australian Bight;x
+1417;145;37;53;Cape Leuwiin;x
+1418;85;126;145;Shark Bay;x
+1419;130;145;47;Northwest Cape;x#
+1420;98;135;145;King Sound;x
+1421;139;145;74;Tasman Sea;x
+1422;65;145;124;Southern Tasman Sea;x
+1423;145;97;39;Cook Strait;x
+1424;145;81;81;Northern Tasman Sea;x##
 1425;48;251;251;Cape Farwell;x
 1426;49;201;201;Coast of New Zealand;x
 1427;50;201;251;Cantebury Bight;x

@@ -234,6 +234,16 @@ dreghei_region={#
 		boluroya_3
 		boluroya_4
 		boluroya_5
+		lower_beycu
+		upper_beycu
+		athanila_1
+		athanila_2
+		athanila_3
+		athanila_4
+		athanila_5
+		athanila_6
+		athanila_7
+		athanila_8
 	}
 }
 

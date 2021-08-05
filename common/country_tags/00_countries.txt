@@ -41,5 +41,7 @@ DRG = "countries/Dreghei.txt"
 RYA = "countries/Ryamyueg.txt"
 BER = "countries/Beriksarya.txt"
 BOL = "countries/Boluroya.txt"
+BEY = "countries/Beycu.txt"
+ATH = "countries/Athanila.txt"
 
 PAP  = "countries/Yulikivian.txt"
