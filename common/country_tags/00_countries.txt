@@ -36,5 +36,6 @@ OLH = "countries/Olhoreireelu.txt"
 KEA = "countries/Keathene.txt"
 UNO = "countries/Unolad.txt"
 DRE = "countries/Drelnora.txt"
+ONE = "countries/Onebelho.txt"
 
 PAP  = "countries/Yulikivian.txt"

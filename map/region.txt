@@ -207,6 +207,9 @@ dreghei_region={#
 		unolad_1
 		unolad_2
 		unolad_3
+		onebelho_1
+		onebelho_2
+		onebelho_3
 	}
 }
 

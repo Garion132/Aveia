@@ -1248,20 +1248,20 @@ province;red;green;blue;x;x
 1247;187;90;79;Corsica;x
 1248;59;92;126;Maldives;x##
 1249;187;94;173;Yola;x
-1250;1;200;205;Vasrn;x
-1251;2;200;255;Vasern;x
-1252;3;220;255;Gulf of Bothnia;x
-1253;255;250;255;Uands Hav;x
-1254;95;200;205;Gulf of Finland;x
-1255;255;200;255;Western Baltic Sea;x
-1256;7;220;255;Gulf of Riga;x
-1257;255;250;255;Southern Baltic Sea;x
-1258;9;200;255;osesund;x
-1259;10;200;250;Kattegat;x
-1260;11;220;250;Peipsi Jas;x
-1261;12;250;250;Ladoga;x
-1262;13;200;200;Onega;x
-1263;14;200;250;Barents Sea;x
+1250;133;186;76;Vasrn;x
+1251;186;137;91;Vasern;x
+1252;13;186;30;Gulf of Bothnia;x
+1253;124;186;184;Uands Hav;x#
+1254;176;143;183;Gulf of Finland;x
+1255;183;128;141;Western Baltic Sea;x
+1256;145;183;167;Gulf of Riga;x#
+1257;183;168;93;Southern Baltic Sea;x
+1258;183;123;162;osesund;x
+1259;164;183;148;Kattegat;x
+1260;183;146;139;Peipsi Jas;x
+1261;146;146;183;Ladoga;x
+1262;183;154;117;Onega;x
+1263;121;183;136;Barents Sea;x##
 1264;15;220;250;Lofoten Sea;x
 1265;16;250;250;Northern Norwegian Sea;x
 1266;17;200;200;Southern Norwegian Sea;x
