@@ -1,6 +1,6 @@
 #Etitys 19
 latent_trade_goods = {
-	latent_iron
+	iron
 }
 
 add_core = ERI

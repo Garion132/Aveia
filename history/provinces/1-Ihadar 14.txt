@@ -17,4 +17,4 @@ base_manpower = 6
 capital = "Ihadar"
 is_city = yes
 discovered_by = western
-extra_cost = 16
+extra_cost = 0

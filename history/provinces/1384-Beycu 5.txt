@@ -13,4 +13,4 @@ trade_goods = grain
 capital = "Bey 3"
 is_city = yes
 discovered_by = western
-extra_cost = 16
+extra_cost = 0

@@ -1,7 +1,7 @@
 #Ihadar 12
 
 latent_trade_goods = {
-	latent_iron
+	iron
 }
 
 add_core = IHA

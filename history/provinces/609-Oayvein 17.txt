@@ -1,7 +1,7 @@
 #Oayvein 17
 
 latent_trade_goods = {
-	latent_iron
+	iron
 }
 
 add_core = OAY

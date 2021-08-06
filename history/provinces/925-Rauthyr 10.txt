@@ -13,5 +13,5 @@ trade_goods = salt
 capital = "Rau 3"
 is_city = yes
 discovered_by = western
-extra_cost = 16
+extra_cost = 0
 fort_15th = yes
