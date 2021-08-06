@@ -20,11 +20,19 @@ yhenil_bridge = {
 	local_institution_spread = 0.5
 	province_trade_power_value = 15
 	allowed_num_of_buildings = 1
+	naval_forcelimit = 10
+	blockade_force_required = 4
+	hostile_fleet_attrition = 2
+	hostile_disembark_speed = -0.5
 }
 
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.
 enheasrion_estuary_modifier = {
 	province_trade_power_value = 15
+	picture = "estuary_icon"
+}
+anillelerien_strait_modifier = { #I know this technically isn't an estuary, but it's still an important point
+	province_trade_power_value = 25
 	picture = "estuary_icon"
 }

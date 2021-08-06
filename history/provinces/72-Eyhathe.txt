@@ -1,7 +1,7 @@
 #Eyhathe
 
 latent_trade_goods = {
-	iron
+	latent_iron
 }
 
 add_core = KYA
@@ -11,9 +11,9 @@ culture = kyathian
 religion = catholic
 hre = no
 base_tax = 3
-base_production =2
+base_production =4
 trade_goods = naval_supplies
-base_manpower = 3
+base_manpower = 4
 capital = "Eyhathe"
 is_city = yes
 discovered_by = western

@@ -50,7 +50,7 @@ silver = {
 	goldtype = yes
 }
 
-iron = {
+latent_iron = {
 	base_price = 3
 }
 
@@ -201,5 +201,9 @@ silk = {
 }
 
 tropical_wood = {
+	base_price = 0
+}
+
+iron = {
 	base_price = 0
 }

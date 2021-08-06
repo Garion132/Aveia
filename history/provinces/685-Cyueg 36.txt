@@ -1,6 +1,6 @@
 #Cyueg
 latent_trade_goods = {
-	iron
+	latent_iron
 }
 
 add_core = CYU

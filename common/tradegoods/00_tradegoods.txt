@@ -483,7 +483,7 @@ silver = {
 	}
 }
 
-iron = {
+latent_iron = {
 	color = { 0.2 0.2 0.2 }
 	is_latent = yes
 	is_valuable = yes
@@ -1318,6 +1318,15 @@ tropical_wood = {
 	color = { 0 0 0 }
 	#no modifiers
 	
+	chance = {
+		factor = 0
+	}
+}
+
+iron = {
+	color = { 0 0 0 }
+	#no modifiers
+
 	chance = {
 		factor = 0
 	}
