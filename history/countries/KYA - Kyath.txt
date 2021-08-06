@@ -26,8 +26,25 @@ change_estate_land_share = {
 		name = "Charles VI"
 		dynasty = "Kyathi"
 		birth_date = 1248.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 1
+		dip = 6
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = well_advised_personality 
+}
+1267.5.5 = {
+	heir = {
+		name = "Leille"
+		monarch_name = "Leille II"
+		dynasty = "Kyathi"
+		birth_date = 1267.5.5
+		death_date = 1320.5.4
+		claim = 95
+		adm = 5
+		dip = 2
+		mil = 2
 	}
 }

@@ -1,0 +1,53 @@
+
+###########################################
+# Elven Ruler
+###########################################
+elven_ruler = {
+	potential = {
+		OR = {
+            ruler_culture = kyathian
+            ruler_culture = shemsele
+            ruler_culture = edailian
+            ruler_culture = ellorhasian
+        }
+	}
+	trigger = {
+		OR = {
+            ruler_culture = kyathian
+            ruler_culture = shemsele
+            ruler_culture = edailian
+            ruler_culture = ellorhasian
+        }
+	}
+	monarch_lifespan = 3
+    heir_chance = -0.70
+}
+dunirrian_ruler = {
+	potential = {
+		OR = {
+            ruler_culture = dregheian
+        }
+	}
+	trigger = {
+		OR = {
+            ruler_culture = dregheian
+        }
+	}
+	monarch_lifespan = 2.5
+    heir_chance = -0.66
+}
+uglukish_ruler = {
+	potential = {
+		OR = {
+            ruler_culture = nfanathan
+        }
+	}
+	trigger = {
+		OR = {
+            ruler_culture = nfanathan
+        }
+	}
+	monarch_lifespan = 1.5
+    heir_chance = -0.25
+    global_manpower = 0.001
+}

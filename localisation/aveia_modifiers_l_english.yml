@@ -1,4 +1,8 @@
 ﻿l_english:
+ elven_ruler:0 "Elven Ruler"
+ dunirrian_ruler:0 "Dunirrian Ruler"
+ uglukish_ruler:0 "Uglukish Ruler"
+
  asemont_copper_mines:0 "Asemont Copper Mines"
  desc_asemont_copper_mines:0 "The Asemont Copper Mines are the largest among the few copper mines in the known world. These mines are the linchpin of the global economy and any disruption to production would be a catastrophe to the entirety of civilization."
  asemont_fortress_complex:0 "Asemont Fortress Complex"
