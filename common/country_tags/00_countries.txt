@@ -45,5 +45,6 @@ BEY = "countries/Beycu.txt"
 ATH = "countries/Athanila.txt"
 INZ = "countries/Inzedia.txt"
 BAT = "countries/Batvin.txt"
+NFA = "countries/Nfanatha.txt"
 
 PAP  = "countries/Yulikivian.txt"

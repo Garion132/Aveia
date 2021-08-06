@@ -1443,56 +1443,56 @@ province;red;green;blue;x;x
 1442;155;73;141;Bay of Uka;x
 1443;155;120;91;Bay of Oljut;x##
 1444;57;155;80;Bay of Anadyr;x##
-1445;68;251;251;Bering Sea;x
-1446;69;201;201;Horn of Africa;x
-1447;70;201;251;Coast of Pepper;x
-1448;71;221;251;Zanzibar Strait;x
-1449;72;251;251;Mozambique Channel;x
-1450;73;201;201;Diego Suarez Bay;x
-1451;74;201;251;Western Arabian Sea;x
-1452;75;221;251;Eastern Arabian Sea;x
-1453;76;251;251;The Seychelles;x
-1454;77;201;201;Coast of Tamatave;x
-1455;78;201;251;The Mascareignes;x
-1456;79;221;251;Gulf of Zambeze;x
-1457;80;251;251;Coast of Natal;x
-1458;81;201;201;Coast of Transkei;x
-1459;82;201;251;Coast of Ciskei;x
-1460;83;221;251;Cape of Good Hope;x
-1461;84;251;251;Coast of Namibia;x
-1462;85;201;201;Coast of Angola;x
-1463;86;201;251;Gulf of Kongo;x
-1464;87;221;251;Coast of Cameroon;x
-1465;88;251;251;Gulf of Nigeria;x
-1466;89;201;201;Ivory Coast;x
-1467;90;201;251;Gold Coast;x
-1468;91;221;251;Coast of Gamvia;x
-1469;92;251;251;Coast of Guinea;x
-1470;93;201;201;Maueretanian Coast;x
-1471;94;201;251;Canarian Sea;x
-1472;95;221;251;Coast of Morocco;x
-1473;96;251;251;Jan Mayen Sea;x
-1474;97;201;201;Spitzberg Sea;x
-1475;98;201;251;Icelandic Sea;x
-1476;99;221;251;Eastern Coast of Iceland;x
-1477;100;251;251;Western Coast of Iceland;x
-1478;101;201;201;Northeastern Atlantic;x
-1479;102;201;251;Rockall;x
-1480;103;221;251;Denmark Strait;x
-1481;104;251;251;Eastern Coast of Greenland;x
-1482;105;201;201;Western Coast of Greenland;x
-1483;106;201;251;Labrador Strait;x
-1484;107;221;251;Baffin Bay;x
-1485;108;251;251;Hudson Straits;x
-1486;109;201;201;James Bay;x
-1487;110;201;251;Western Hudson Bay;x
-1488;111;221;251;Eastern Hudson Bay;x
-1489;112;251;251;Foxe Bassin;x
-1490;113;201;201;Gulf of St. Lawrence;x
-1491;114;201;251;Cabot Strait;x
-1492;115;221;251;Bay of Fundy;x
-1493;116;251;251;Strait of Belle Isle;x
-1494;117;201;201;Fortune Bay;x
+1445;153;84;74;Bering Sea;x
+1446;140;153;113;Horn of Africa;x
+1447;74;153;100;Coast of Pepper;x
+1448;153;149;99;Zanzibar Strait;x
+1449;153;73;61;Mozambique Channel;x#
+1450;115;153;102;Diego Suarez Bay;x
+1451;136;84;153;Western Arabian Sea;x
+1452;153;30;77;Eastern Arabian Sea;x
+1453;91;153;131;The Seychelles;x#
+1454;74;112;153;Coast of Tamatave;x
+1455;153;100;48;The Mascareignes;x
+1456;111;153;144;Gulf of Zambeze;x#
+1457;153;98;71;Coast of Natal;x
+1458;120;153;137;Coast of Transkei;x
+1459;153;97;131;Coast of Ciskei;x
+1460;153;123;71;Cape of Good Hope;x#
+1461;92;153;58;Coast of Namibia;x
+1462;67;145;153;Coast of Angola;x
+1463;153;111;56;Gulf of Kongo;x#
+1464;85;153;120;Coast of Cameroon;x
+1465;103;87;153;Gulf of Nigeria;x
+1466;153;78;105;Ivory Coast;x
+1467;135;122;153;Gold Coast;x#
+1468;153;58;126;Coast of Gamvia;x
+1469;91;153;136;Coast of Guinea;x
+1470;153;134;82;Maueretanian Coast;x
+1471;76;153;117;Canarian Sea;x#
+1472;100;78;153;Coast of Morocco;x
+1473;153;79;55;Jan Mayen Sea;x
+1474;136;119;153;Spitzberg Sea;x
+1475;126;153;99;Icelandic Sea;x#
+1476;137;110;153;Eastern Coast of Iceland;x
+1477;102;153;106;Western Coast of Iceland;x
+1478;99;113;153;Northeastern Atlantic;x
+1479;153;39;64;Rockall;x#
+1480;153;149;82;Denmark Strait;x#
+1481;87;153;120;Eastern Coast of Greenland;x
+1482;144;122;153;Western Coast of Greenland;x
+1483;146;153;55;Labrador Strait;x#
+1484;64;153;145;Baffin Bay;x
+1485;153;102;133;Hudson Straits;x
+1486;153;120;32;James Bay;x
+1487;130;153;135;Western Hudson Bay;x#
+1488;153;83;30;Eastern Hudson Bay;x
+1489;100;153;93;Foxe Bassin;x
+1490;153;99;130;Gulf of St. Lawrence;x#
+1491;153;109;47;Cabot Strait;x
+1492;153;97;125;Bay of Fundy;x
+1493;97;128;153;Strait of Belle Isle;x
+1494;153;100;32;Fortune Bay;x##
 1495;118;201;251;Notre Dame Bay;x
 1496;119;221;251;Labrador Sea;x
 1497;120;251;251;Greenland Sea;x

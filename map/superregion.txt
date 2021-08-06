@@ -11,6 +11,7 @@ aveia_superregion = { #the "west", around the great sea
 	lildoresi_marches_region
 	craine_islands
 	dreghei_region
+	chaunluma_region
 	
 	karnaiha_region
 }

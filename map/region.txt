@@ -259,13 +259,25 @@ craine_islands={#includes kafethyr
 	}
 }
 
-chaunluma={#includes kafethyr
+chaunluma_region={#
 	areas = {
 		inzedia_1
 		inzedia_2
 		inzedia_3
 		inzedia_4
 		lurlesy
+		neanatha_1
+		neanatha_2
+		neanatha_3
+		neanatha_4
+		neanatha_5
+		neanatha_6
+		neanatha_7
+		neanatha_8
+		neanatha_9
+		neanatha_10
+		neanatha_11
+		neanatha_12
 	}
 }
 
