@@ -1,0 +1,14 @@
+bookmark =
+{
+	name = "dwarves_bookmark"
+	desc = "dwarves_bookmark_desc"
+	date = 1272.8.6
+	
+	center = 1267
+	
+	easy_country = DRG
+	country = DRG
+	country = BOL
+	country = ATH
+	country = NYH
+}

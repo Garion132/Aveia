@@ -1,0 +1,12 @@
+bookmark =
+{
+	name = "orks_bookmark"
+	desc = "orks_bookmark_desc"
+	date = 1272.8.6
+	
+	center = 1561
+	
+	country = ZIY
+	country = BAY
+	country = NFA
+}

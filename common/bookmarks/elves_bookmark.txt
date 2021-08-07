@@ -1,0 +1,22 @@
+bookmark =
+{
+	name = "elves_bookmark"
+	desc = "elves_bookmark_desc"
+	date = 1272.8.6
+	
+	center = 46
+	default = yes
+	
+	easy_country = KYA
+	easy_country = CYU
+	easy_country = LEL
+	country = KYA
+	country = CYU
+	country = LEL
+	country = KAF
+	country = SHE
+	country = RAU
+	country = IHA
+	country = ELE
+	country = INZ
+}
