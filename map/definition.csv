@@ -1493,98 +1493,98 @@ province;red;green;blue;x;x
 1492;153;97;125;Bay of Fundy;x
 1493;97;128;153;Strait of Belle Isle;x
 1494;153;100;32;Fortune Bay;x##
-1495;118;201;251;Notre Dame Bay;x
-1496;119;221;251;Labrador Sea;x
-1497;120;251;251;Greenland Sea;x
-1498;121;201;201;Northern Atlantic;x
-1499;122;201;251;Masschusetts Bay;x
-1500;123;221;251;Chesapaeake Bay;x
-1501;124;251;251;Cape Hatteras;x
-1502;125;201;201;Coast of Carolina;x
-1503;126;201;251;Coast of Florida;x
-1504;127;221;251;Sea of Sargassos;x
-1505;0;252;252;Florida Straits;x
-1506;1;202;202;Apalachee Bay;x
-1507;2;202;252;Mobile Bay;x
-1508;3;222;252;Galveston Bay;x
-1509;4;252;252;Tampico Bay;x
-1510;5;202;202;Yucatan Sea;x
-1511;6;202;252;Gulf of Mexico;x
-1512;7;222;252;Yucatan Channel;x
-1513;8;252;252;Belize Bay;x
-1514;9;202;202;Moscitos Coast;x
-1515;10;202;252;Gulf of Darien;x
-1516;11;222;252;Jamica Channel;x
-1517;12;252;252;Central Carribean;x
-1518;13;202;202;Northwestern Carribean;x
-1519;14;202;252;Venezualan Gulf;x
-1520;15;222;252;Venezuelan Sea;x
-1521;16;252;252;Eastern Carribean;x
-1522;17;202;202;Windward Islands;x
-1523;18;202;252;Lesser Antilles;x
-1524;19;222;252;Turks & Caicos Sea;x
-1525;20;252;252;Coast of Cuba;x
-1526;21;202;202;Coast of Hispaniola;x
-1527;22;202;252;Guyana Coast;x
-1528;23;222;252;Bay of Belem;x
-1529;24;252;252;Amazonas Gulf;x
-1530;25;202;202;Coast of Brazil;x
-1531;26;202;252;Coast of Recife;x
-1532;27;222;252;Coast of Pernambuc;x
-1533;28;252;252;Todos Santos Bay;x
-1534;29;202;202;Rio De Janeiro;x
-1535;30;202;252;Baia Parangua;x
-1536;31;222;252;Rio De La Plata;x
-1537;32;252;252;Bahia Blanca;x
-1538;33;202;202;Coast of Patagonia;x
-1539;34;202;252;Magellan Strait;x
-1540;35;222;252;South Chilean Coast;x
-1541;36;252;252;Coast of Chile;x
-1542;37;202;202;Atacama Coast;x
-1543;38;202;252;Arica Gulf;x
-1544;39;222;252;Arequipa Bay;x
-1545;40;252;252;Coast of Peru;x
-1546;41;202;202;Guayaguil Bay;x
-1547;42;202;252;Coast of Ecuador;x
-1548;43;222;252;Gulf of Panama;x
-1549;44;252;252;Bay of Costa Rica;x
-1550;45;202;202;Acapulco Bay;x
-1551;46;202;252;Manzazilla Bay;x
-1552;47;222;252;Mazatlan Bay;x
-1553;48;252;252;Gulf of California;x
-1554;49;202;202;Coast of Baja;x
-1555;50;202;252;Coast of California;x
-1556;51;222;252;Santa Catalina Islands;x
-1557;52;252;252;Coast of Oregon;x
-1558;53;202;202;Coast of Columbia;x
-1559;54;202;252;Hecate Strait;x
-1560;55;222;252;Gulf of Alaska;x
-1561;56;252;252;Coast of Alaska;x
-1562;57;202;202;Kuskowim Bay;x
-1563;58;202;252;Hatton Bank;x
-1564;59;222;252;Eastern Gibbs Fracture;x
-1565;60;252;252;Western Gibbs Fracture;x
-1566;61;202;202;Iberian Shelf;x
-1567;62;202;252;Sea of Azores;x
-1568;63;222;255;Corner Seamounts;x
-1569;64;252;255;New England Seamounts;x
-1570;65;202;205;Sable Island Bank;x
-1571;66;202;255;Blake Plataeu;x
-1572;67;222;255;West Bermuda Sea;x
-1573;68;252;255;East Bermuda Sea;x
-1574;69;202;205;Some Funny Seaname;x
-1575;70;202;255;Northern Guiana Basin;x
-1576;71;222;255;Guiana Basin;x
-1577;72;252;255;Southern Guiana Basin;x
-1578;73;202;205;Canary Approach;x
-1579;74;202;255;Cap Verde Approach;x
-1580;75;222;255;Central Atlantic #1;x
-1581;76;252;255;Central Atlantic #2;x
-1582;77;202;205;Central Atlantic #3;x
-1583;78;202;255;Central Atlantic #4;x
-1584;79;222;255;Romanche Gap;x
-1585;80;252;255;East Guinea Basin;x
-1586;81;202;205;West Guinea Basin;x
+1495;146;153;71;Notre Dame Bay;x
+1496;111;153;133;Labrador Sea;x
+1497;99;109;153;Greenland Sea;x
+1498;153;78;53;Northern Atlantic;x
+1499;76;153;80;Masschusetts Bay;x#
+1500;153;106;45;Chesapaeake Bay;x
+1501;108;134;153;Cape Hatteras;x
+1502;153;80;74;Coast of Carolina;x
+1503;153;76;123;Coast of Florida;x#
+1504;138;153;130;Sea of Sargassos;x
+1505;153;68;81;Florida Straits;x
+1506;104;94;153;Apalachee Bay;x
+1507;104;153;140;Mobile Bay;x
+1508;117;153;70;Galveston Bay;x#
+1509;153;35;45;Tampico Bay;x
+1510;116;151;153;Yucatan Sea;x
+1511;142;153;84;Gulf of Mexico;x
+1512;102;153;123;Yucatan Channel;x
+1513;153;88;48;Belize Bay;x#
+1514;64;126;153;Moscitos Coast;x
+1515;143;153;44;Gulf of Darien;x
+1516;153;88;133;Jamica Channel;x
+1517;123;153;100;Central Carribean;x#
+1518;153;52;53;Northwestern Carribean;x
+1519;61;153;56;Venezualan Gulf;x
+1520;153;146;70;Venezuelan Sea;x
+1521;153;97;122;Eastern Carribean;x#
+1522;110;123;153;Windward Islands;x
+1523;114;153;91;Lesser Antilles;x
+1524;153;62;59;Turks & Caicos Sea;x
+1525;108;124;153;Coast of Cuba;x
+1526;153;130;62;Coast of Hispaniola;x#
+1527;153;35;37;Guyana Coast;x
+1528;111;153;139;Bay of Belem;x
+1529;153;106;53;Amazonas Gulf;x
+1530;50;153;111;Coast of Brazil;x#
+1531;118;113;153;Coast of Recife;x
+1532;61;153;116;Coast of Pernambuc;x
+1533;129;119;153;Todos Santos Bay;x
+1534;153;65;21;Rio De Janeiro;x#
+1535;105;153;91;Baia Parangua;x
+1536;153;105;88;Rio De La Plata;x
+1537;120;153;151;Bahia Blanca;x
+1538;153;143;93;Coast of Patagonia;x#
+1539;78;121;153;Magellan Strait;x
+1540;147;153;113;South Chilean Coast;x
+1541;124;99;153;Coast of Chile;x
+1542;153;107;38;Atacama Coast;x#
+1543;151;149;153;Arica Gulf;x
+1544;153;147;47;Arequipa Bay;x
+1545;153;61;78;Coast of Peru;x
+1546;97;140;153;Guayaguil Bay;x#
+1547;153;71;85;Coast of Ecuador;x
+1548;104;153;104;Gulf of Panama;x
+1549;153;133;99;Bay of Costa Rica;x
+1550;58;153;134;Acapulco Bay;x
+1551;70;80;153;Manzazilla Bay;x#
+1552;153;90;118;Mazatlan Bay;x
+1553;81;109;153;Gulf of California;x
+1554;153;118;50;Coast of Baja;x
+1555;53;153;139;Coast of California;x
+1556;142;104;153;Santa Catalina Islands;x#
+1557;153;153;52;Coast of Oregon;x
+1558;153;84;128;Coast of Columbia;x
+1559;113;153;97;Hecate Strait;x
+1560;65;153;147;Gulf of Alaska;x#
+1561;144;153;99;Coast of Alaska;x
+1562;153;70;118;Kuskowim Bay;x
+1563;131;153;122;Hatton Bank;x##
+1564;145;153;116;Eastern Gibbs Fracture;x
+1565;153;58;77;Western Gibbs Fracture;x
+1566;105;136;153;Iberian Shelf;x
+1567;153;153;76;Sea of Azores;x
+1568;61;153;94;Corner Seamounts;x#
+1569;153;67;110;New England Seamounts;x
+1570;92;153;45;Sable Island Bank;x
+1571;153;67;94;Blake Plataeu;x
+1572;103;153;97;West Bermuda Sea;x#
+1573;153;104;71;East Bermuda Sea;x
+1574;91;153;118;Some Funny Seaname;x
+1575;153;84;95;Northern Guiana Basin;x
+1576;153;95;64;Guiana Basin;x#
+1577;76;153;76;Southern Guiana Basin;x
+1578;153;89;44;Canary Approach;x
+1579;101;153;81;Cap Verde Approach;x#
+1580;153;74;85;Central Atlantic;x
+1581;99;153;138;Central Atlantic;x
+1582;153;136;30;Central Atlantic;x
+1583;69;153;24;Central Atlantic;x#
+1584;153;64;42;Romanche Gap;x
+1585;61;153;81;East Guinea Basin;x
+1586;153;104;32;West Guinea Basin;x##
 1587;82;202;255;Coast of Falklands;x
 1588;83;222;255;New Georgia Islands;x
 1589;84;252;255;Western Atlantic #1;x

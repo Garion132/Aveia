@@ -1,0 +1,16 @@
+#Ziyalap
+
+add_core = ZIY
+owner = ZIY
+controller = ZIY
+culture = nfanathan
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = grain
+capital = "Ziy"
+is_city = yes
+discovered_by = western
+extra_cost = 0

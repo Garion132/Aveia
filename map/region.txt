@@ -278,6 +278,29 @@ chaunluma_region={#
 		neanatha_10
 		neanatha_11
 		neanatha_12
+		
+		ziyalap_1
+		ziyalap_2
+		ziyalap_3
+		ziyalap_4
+		ziyalap_5
+		ziyalap_6
+		ziyalap_7
+		ziyalap_8
+		ziyalap_9
+		ziyalap_10
+		ziyalap_11
+		ziyalap_12
+		ziyalap_13
+		ziyalap_14
+		ziyalap_15
+		ziyalap_16
+		bayparya_1
+		bayparya_2
+		bayparya_3
+		bayparya_4
+		bayparya_5
+		bayparya_6
 	}
 }
 
