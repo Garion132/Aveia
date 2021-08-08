@@ -236,11 +236,13 @@ no_adjacent_controlled = {
 
 provincial_tax_income = {
 	regiment_recruit_speed = -0.01
+	local_tax_modifier = 0.05
 }
 
 provincial_production_size = {
 	trade_goods_size = 0.2
 	ship_recruit_speed = -0.01
+	trade_goods_size_modifier = 0.05
 }
 
 knowledge_sharing = {
@@ -253,6 +255,8 @@ cardinals_spread_institution = {
 
 manpower = {
 	garrison_growth = 0.01					#1% increase from manpower.
+	local_manpower_modifier = 0.05
+	local_sailors_modifier = 0.05
 }
 
 sailors = {
@@ -325,28 +329,32 @@ native_aggressiveness = {
 }
 
 core = {
-	local_tax_modifier = 0.75				#90% more in a core
-	local_manpower_modifier = 0.75			#75% more in a core
-	local_sailors_modifier = 0.75
+	local_tax_modifier = 0.25				#90% more in a core
+	local_manpower_modifier = 0.25			#75% more in a core
+	local_sailors_modifier = 0.25
+	trade_goods_size_modifier = -0.5
 }
 
 non_core = {
 	local_missionary_strength = -0.02
+	trade_goods_size_modifier = -0.5
 }
 
 territory_core = {
-	local_tax_modifier = 0.75				#90% more in a core
-	local_manpower_modifier = 0.75			#75% more in a core
-	local_sailors_modifier = 0.75
+	local_tax_modifier = 0.25				#90% more in a core
+	local_manpower_modifier = 0.25			#75% more in a core
+	local_sailors_modifier = 0.25
 	local_missionary_strength = -0.02
 	min_local_autonomy = 90
 	local_governing_cost = -0.75
+	trade_goods_size_modifier = -0.5
 }
 
 territory_non_core = {
 	local_missionary_strength = -0.02
 	min_local_autonomy = 90
 	local_governing_cost = -0.75
+	trade_goods_size_modifier = -0.75
 }
 
 march_bonus = {
