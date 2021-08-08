@@ -1,0 +1,16 @@
+#Beshek
+
+add_core = BES
+owner = BES
+controller = BES
+culture = nfanathan
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = grain
+capital = "Bes"
+is_city = yes
+discovered_by = western
+extra_cost = 0

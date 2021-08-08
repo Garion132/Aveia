@@ -301,6 +301,21 @@ chaunluma_region={#
 		bayparya_4
 		bayparya_5
 		bayparya_6
+		douan_1
+		douan_2
+		douan_3
+		douan_4
+		douan_5
+		douan_6
+		douan_7
+		douan_8
+		beshek
+		reylanlya_1
+		reylanlya_2
+		reylanlya_3
+		reylanlya_4
+		reylanlya_5
+		reylanlya_6
 	}
 }
 

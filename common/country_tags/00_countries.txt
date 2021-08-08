@@ -48,5 +48,8 @@ BAT = "countries/Batvin.txt"
 NFA = "countries/Nfanatha.txt"
 ZIY = "countries/Ziyalap.txt"
 BAY = "countries/Bayparya.txt"
+DOU = "countries/Douan.txt"
+REY = "countries/Reylanlya.txt"
+BES = "countries/Beshek.txt"
 
 PAP  = "countries/Yulikivian.txt"
