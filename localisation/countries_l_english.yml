@@ -93,6 +93,17 @@
  REY_ADJ:0 "Reylanlya"
  BES:0 "Beshek"
  BES_ADJ:0 "Beshek"
- 
+ UMA:0 "Umalesy"
+ UMA_ADJ:0 "Umalesy"
+ MTN:0 "Matn"
+ MTN_ADJ:0 "Matn"
+ RAM:0 "Rauma"
+ RAM_ADJ:0 "Rauma"
+ ISE:0 "Isesiralne"
+ ISE_ADJ:0 "Isesiralne"
+ SOH:0 "Sohoremyfa"
+ SOH_ADJ:0 "Sohoremyfa"
+ GUL:0 "Gulba"
+ GUL_ADJ:0 "Gulba"
  
  

@@ -60,3 +60,18 @@ vassal = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
+##Matnese League
+# Matn-Rauma
+vassal = {
+	first = MTN
+	second = RAM
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+# Matn-Isesiralne
+vassal = {
+	first = MTN
+	second = ISE
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}

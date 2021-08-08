@@ -316,6 +316,36 @@ chaunluma_region={#
 		reylanlya_4
 		reylanlya_5
 		reylanlya_6
+		sohoremyfa_1
+		sohoremyfa_2
+		sohoremyfa_3
+		sohoremyfa_4
+		sohoremyfa_5
+		sohoremyfa_7
+		umalesy_1
+		umalesy_2
+		umalesy_3
+		umalesy_4
+		matn_1
+		matn_2
+		matn_3
+		rauma_1
+		rauma_2
+		isesiralne_1
+		isesiralne_2
+		isesiralne_3
+		elhera
+	}
+}
+morbin_region={
+	areas = {
+		gulba_1
+		gulba_2
+		gulba_3
+		gulba_4
+		gulba_5
+		gulba_6
+		gulba_7
 	}
 }
 
@@ -325,7 +355,8 @@ chaunluma_region={#
 karnaiha_region = {
 	areas = {
 		cerinia_area
-		
+		sohoremyfa_6
+		sohoremyfa_8
 	}
 }
 

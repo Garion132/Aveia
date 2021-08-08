@@ -1648,124 +1648,124 @@ province;red;green;blue;x;x
 1647;112;158;118;Indian Ocean #32;x
 1648;104;125;158;Lake Tchad;x
 1649;158;105;132;Lake Victoria;x##
-1650;17;203;203;Lake Tangayika;x
-1651;18;203;253;Lake Malawi;x
-1652;19;223;253;White Sea;x
-1653;20;253;253;Lake Balchasj;x
-1654;21;203;203;Lake Bajkal;x
-1655;22;203;253;Poyang Lake;x
-1656;23;223;253;Lake Titicaca;x
-1657;24;253;253;Lake Nicaragua;x
-1658;25;203;203;Everglades;x
-1659;26;203;253;Lake Ontario;x
-1660;27;223;253;Lake Erie;x
-1661;28;253;253;Lake Huron;x
-1662;29;203;203;Lake Michigan;x
-1663;30;203;253;Lake Superior;x
-1664;31;223;253;Lake Nipigon;x
-1665;32;253;253;Lake Winnipeg;x
-1666;33;203;203;Western Pacific #1;x
-1667;34;203;253;Western Pacific #2;x
-1668;35;223;253;Western Pacific #3;x
-1669;36;253;253;Western Pacific #4;x
-1670;37;203;205;Western Pacific #5;x
-1671;38;203;255;Western Pacific #6;x
-1672;39;223;255;Western Pacific #7;x
-1673;40;253;255;Western Pacific #8;x
-1674;41;203;205;Western Pacific #9;x
-1675;42;203;255;Western Pacific #10;x
-1676;43;223;255;Western Pacific #11;x
-1677;44;253;255;Northern Pacific #1;x
-1678;45;203;205;Northern Pacific #2;x
-1679;46;203;255;Northern Pacific #3;x
-1680;47;223;255;Northern Pacific #4;x
-1681;48;253;255;Northern Pacific #5;x
-1682;49;203;205;Northern Pacific #6;x
-1683;50;203;255;Northern Pacific #7;x
-1684;51;223;255;Northern Pacific #8;x
-1685;52;253;255;Northern Pacific #9;x
-1686;53;203;255;Northern Pacific #10;x
-1687;54;203;255;Central Pacific #1;x
-1688;55;223;255;Central Pacific #2;x
-1689;56;253;255;Central Pacific #3;x
-1690;57;203;205;Central Pacific #4;x
-1691;58;203;255;Central Pacific #5;x
-1692;59;223;255;Central Pacific #6;x
-1693;60;253;255;Central Pacific #7;x
-1694;61;203;205;Central Pacific #8;x
-1695;62;203;255;Central Pacific #9;x
-1696;63;223;255;Central Pacific #10;x
-1697;64;253;255;Coast of Hawaii;x
-1698;65;203;205;Central Pacific #11;x
-1699;66;203;255;Central Pacific #12;x
-1700;67;223;255;Eastern Pacific #1;x
-1701;68;253;255;Eastern Pacific #2;x
-1702;69;203;205;Eastern Pacific #3;x
-1703;70;203;255;Eastern Pacific #4;x
-1704;71;223;255;Eastern Pacific #5;x
-1705;72;253;255;Eastern Pacific #6;x
-1706;73;203;205;Eastern Pacific #7;x
-1707;74;203;255;Eastern Pacific #8;x
-1708;75;223;255;Eastern Pacific #9;x
-1709;76;253;255;Eastern Pacific #10;x
-1710;77;203;205;Eastern Pacific #11;x
-1711;78;203;255;Eastern Pacific #12;x
-1712;79;223;255;Eastern Pacific #13;x
-1713;80;253;255;Eastern Pacific #14;x
-1714;81;203;205;Eastern Pacific #15;x
-1715;82;203;255;Eastern Pacific #16;x
-1716;83;223;255;Eastern Pacific #17;x
-1717;85;203;205;Southern Pacifc #1;x
-1718;86;203;255;Southern Pacifc #2;x
-1719;87;223;255;Southern Pacifc #3;x
-1720;88;253;255;Southern Pacifc #4;x
-1721;89;203;205;Southern Pacifc #5;x
-1722;90;203;255;Southern Pacifc #6;x
-1723;91;223;255;Southern Pacifc #7;x
-1724;92;253;255;Southern Pacifc #8;x
-1725;93;203;205;Southern Pacifc #9;x
-1726;94;203;255;Southern Pacifc #10;x
-1727;95;223;255;Southern Pacifc #11;x
-1728;96;253;255;Southern Pacifc #12;x
-1729;97;203;205;Southern Pacifc #13;x
-1730;98;203;255;Southern Pacifc #14;x
-1731;99;223;255;Southern Pacifc #15;x
-1732;100;253;255;Southern Pacifc #16;x
-1733;101;203;205;Southern Pacifc #17;x
-1734;102;203;255;Southern Pacifc #18;x
-1735;103;223;255;Southern Pacifc #19;x
-1736;104;203;205;Southern Pacifc #20;x
-1737;106;203;255;Southern Pacifc #22;x
-1738;107;223;255;Southern Pacifc #23;x
-1739;108;253;255;Southern Pacifc #24;x
-1740;109;203;205;Southern Pacifc #25;x
-1741;110;203;255;Southern Pacifc #26;x
+1650;191;206;105;Lake Tangayika;x
+1651;206;156;161;Lake Malawi;x
+1652;163;206;163;White Sea;x
+1653;206;111;82;Lake Balchasj;x
+1654;66;206;61;Lake Bajkal;x#
+1655;126;123;206;Poyang Lake;x
+1656;206;170;152;Lake Titicaca;x
+1657;206;132;155;Lake Nicaragua;x
+1658;204;82;55;Everglades;x#
+1659;159;204;168;Lake Ontario;x
+1660;204;87;95;Lake Erie;x
+1661;122;204;157;Lake Huron;x
+1662;204;160;48;Lake Michigan;x#
+1663;156;204;128;Lake Superior;x
+1664;204;134;42;Lake Nipigon;x
+1665;99;204;141;Lake Winnipeg;x
+1666;204;154;124;Western Pacific;x##
+1667;157;191;86;Western Pacific 2;x
+1668;191;103;104;Western Pacific 3;x
+1669;153;191;189;Western Pacific 4;x
+1670;191;129;47;Western Pacific 5;x
+1671;99;191;110;Western Pacific 6;x#
+1672;135;189;191;Western Pacific 7;x
+1673;191;177;99;Western Pacific 8;x
+1674;191;126;105;Western Pacific 9;x#
+1675;96;191;91;Western Pacific 10;x
+1676;191;175;59;Western Pacific 11;x
+1677;124;191;148;Northern Pacific 1;x
+1678;191;97;15;Northern Pacific 2;x##
+1679;164;191;126;Northern Pacific 3;x
+1680;191;123;65;Northern Pacific 4;x
+1681;191;121;114;Northern Pacific 5;x
+1682;114;191;167;Northern Pacific 6;x
+1683;191;161;93;Northern Pacific 7;x#
+1684;32;191;85;Northern Pacific 8;x
+1685;109;191;148;Northern Pacific 9;x
+1686;191;124;91;Northern Pacific 10;x
+1687;97;191;116;Central Pacific 1;x
+1688;191;183;147;Central Pacific 2;x##
+1689;191;97;131;Central Pacific #3;x
+1690;145;191;114;Central Pacific #4;x
+1691;97;183;191;Central Pacific #5;x#
+1692;167;191;124;Central Pacific #6;x
+1693;191;93;140;Central Pacific #7;x
+1694;96;191;87;Central Pacific #8;x
+1695;139;162;191;Central Pacific #9;x#
+1696;191;164;89;Central Pacific #10;x
+1697;63;191;163;Coast of Hawaii;x
+1698;191;147;51;Central Pacific #11;x##
+1699;188;130;175;Central Pacific #12;x
+1700;94;188;108;Eastern Pacific #1;x
+1701;170;188;33;Eastern Pacific #2;x##
+1702;189;191;107;Eastern Pacific #3;x##
+1703;165;209;168;Eastern Pacific #4;x
+1704;209;113;94;Eastern Pacific #5;x
+1705;152;209;138;Eastern Pacific #6;x
+1706;209;164;75;Eastern Pacific #7;x#
+1707;121;209;135;Eastern Pacific #8;x
+1708;209;115;94;Eastern Pacific #9;x
+1709;96;209;120;Eastern Pacific #10;x#
+1710;152;182;209;Eastern Pacific #11;x
+1711;209;132;77;Eastern Pacific #12;x
+1712;209;132;104;Eastern Pacific #13;x
+1713;108;192;209;Eastern Pacific #14;x#
+1714;209;177;154;Eastern Pacific #15;x
+1715;112;209;124;Eastern Pacific #16;x
+1716;119;209;129;Eastern Pacific #17;x#
+1717;209;137;117;Southern Pacifc #1;x
+1718;142;209;66;Southern Pacifc #2;x
+1719;209;98;116;Southern Pacifc #3;x
+1720;58;189;209;Southern Pacifc #4;x
+1721;209;191;79;Southern Pacifc #5;x#
+1722;104;172;209;Southern Pacifc #6;x
+1723;209;185;100;Southern Pacifc #7;x#
+1724;209;148;201;Southern Pacifc #8;x
+1725;138;209;183;Southern Pacifc #9;x
+1726;209;120;85;Southern Pacifc #10;x#
+1727;129;209;152;Southern Pacifc #11;x
+1728;209;97;87;Southern Pacifc #12;x
+1729;129;209;83;Southern Pacifc #13;x
+1730;85;209;196;Southern Pacifc #14;x
+1731;186;209;60;Southern Pacifc #15;x#
+1732;81;209;138;Southern Pacifc #16;x
+1733;209;113;58;Southern Pacifc #17;x##
+1734;186;116;26;Southern Pacifc #18;x
+1735;93;186;107;Southern Pacifc #19;x
+1736;186;135;59;Southern Pacifc #20;x
+1737;137;186;161;Southern Pacifc #22;x#
+1738;183;80;56;Southern Pacifc #23;x
+1739;175;141;183;Southern Pacifc #24;x
+1740;75;183;93;Southern Pacifc #25;x
+1741;135;126;183;Southern Pacifc #26;x
 1742;66;68;126;Limburg;x
-1743;194;70;173;Cambray;x
+1743;194;70;173;Cambray;x#
 1744;66;72;32;Antwerpen;x
 1745;195;74;79;Cantabria;x
 1746;67;76;126;Burgos;x
 1747;195;78;173;Caceres;x
-1748;67;80;32;La Mancha;x
+1748;67;80;32;La Mancha;x#
 1749;195;82;79;Cadiz;x
 1750;67;84;126;Alicante;x
 1751;195;86;173;Ceuta;x
 1752;68;88;32;Rzhev;x
-1753;196;90;79;Kostroma;x
+1753;196;90;79;Kostroma;x#
 1754;68;92;126;Orel;x
 1755;196;94;173;Ustyug;x
 1756;68;96;32;Budjak;x
-1757;196;98;79;Oberpfalz;x
+1757;196;98;79;Oberpfalz;x#
 1758;68;100;126;Hannover;x
 1759;197;102;173;Potsdam;x
 1760;69;104;32;Koblenz;x
-1761;197;106;79;Alzey;x
+1761;197;106;79;Alzey;x#
 1762;69;108;126;Kassel;x
 1763;197;110;173;Niederlausitz;x
 1764;69;112;32;Burgas;x
 1765;197;114;79;Nis;x
 1766;70;116;126;Kosovo;x
-1767;198;118;173;Osijek;x
+1767;198;118;173;Osijek;x#
 1768;70;120;32;Lienz;x
 1769;198;122;79;Görz;x
 1770;70;124;126;Ostmarch;x

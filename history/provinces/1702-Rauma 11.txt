@@ -1,0 +1,16 @@
+#Ramua
+
+add_core = RAM
+owner = RAM
+controller = RAM
+culture = kyathian
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = grain
+capital = "Ram"
+is_city = yes
+discovered_by = western
+extra_cost = 0
