@@ -57,5 +57,6 @@ RAM = "countries/Rauma.txt"
 ISE = "countries/Isesiralne.txt"
 SOH = "countries/Sohoremyfa.txt"
 GUL = "countries/Gulba.txt"
+YER = "countries/Yerina.txt"
 
 PAP  = "countries/Yulikivian.txt"

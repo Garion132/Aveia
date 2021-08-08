@@ -1,0 +1,16 @@
+#Yerina
+
+add_core = YER
+owner = YER
+controller = YER
+culture = nfanathan
+religion = catholic
+hre = no
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = grain
+capital = "Yer"
+is_city = yes
+discovered_by = western
+extra_cost = 0

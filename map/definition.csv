@@ -1768,73 +1768,73 @@ province;red;green;blue;x;x
 1767;198;118;173;Osijek;x#
 1768;70;120;32;Lienz;x
 1769;198;122;79;Görz;x
-1770;70;124;126;Ostmarch;x
+1770;70;124;126;Ostmarch;x#
 1771;198;126;173;Erz;x
 1772;70;128;32;Presburg;x
 1773;199;130;79;Achaea;x
-1774;71;132;126;Treviso;x
+1774;71;132;126;Treviso;x#
 1775;199;134;173;Holstein;x
 1776;71;136;32;Karelia;x
 1777;199;138;79;Kola;x
 1778;71;140;126;Kasimov;x
-1779;199;142;173;Rub' al Khali;x
+1779;199;142;173;Rub' al Khali;x#
 1780;72;144;32;Komi;x
 1781;200;146;79;Western Siberia;x
 1782;72;148;126;Eastern Siberia;x
-1783;200;150;173;Koryak;x
+1783;200;150;173;Koryak;x#
 1784;72;152;32;Tiam Shan;x
 1785;200;154;79;Karakoram;x
 1786;72;156;126;Takla Makan;x
-1787;201;158;173;Himalaya;x
+1787;201;158;173;Himalaya;x#
 1788;73;32;32;Arunachal;x
 1789;201;34;79;Maoke;x
 1790;73;36;126;Western Australia;x
-1791;201;38;173;Central Australia;x
+1791;201;38;173;Central Australia;x#
 1792;201;42;79;Merina;x
 1793;74;44;126;El Djouf;x
 1794;202;46;173;Central Sahara;x
-1795;74;48;32;East Sahara;x
+1795;74;48;32;East Sahara;x#
 1796;202;50;79;Central Africa;x
 1797;74;52;126;Inner Kongo;x
 1798;202;54;173;Imatong;x
 1799;74;56;32;Urgoma;x
-1800;203;58;79;Limpopo;x
+1800;203;58;79;Limpopo;x#
 1801;75;60;126;Kalahari;x
 1802;203;62;173;Northern Amazonas;x
 1803;75;64;32;Southern Amazonas;x
-1804;203;66;79;Greenland;x
+1804;203;66;79;Greenland;x#
 1805;75;68;126;Quasc;x
 1806;203;70;173;Weagamow;x
 1807;76;72;32;Baffin Island;x
 1808;204;74;79;Great Basin;x
-1809;76;76;126;Great Plains;x
+1809;76;76;126;Great Plains;x#
 1810;204;78;173;Alaska;x
 1811;76;80;32;Nunavut;x
 1812;204;82;79;Northwest Territories;x
-1813;76;84;126;Saskatchewan;x
+1813;76;84;126;Saskatchewan;x#
 1814;205;86;173;Columbia;x
 1815;77;88;32;Ayeyarwady;x
 1816;205;90;79;Hejian;x
-1817;77;92;126;Nan;x
+1817;77;92;126;Nan;x#
 1818;205;94;173;Chikuzen;x
 1819;77;96;32;Tosa;x
-1820;205;98;79;Awa;x
+1820;205;98;79;Awa;x#
 1821;78;100;126;Nanjing;x
 1822;206;102;173;Shangai;x
 1823;78;104;32;Stung Treng;x
-1824;206;106;79;Wenzhou;x
+1824;206;106;79;Wenzhou;x##
 1825;78;108;126;Aki;x
 1826;206;110;173;Lika;x
 1827;78;112;32;Raska;x
 1828;207;114;79;Soli;x
-1829;79;116;126;Xiamen;x
+1829;79;116;126;Xiamen;x#
 1830;207;118;173;Tajima;x
 1831;79;120;32;Travunia;x
 1832;207;122;79;Yamato;x
-1833;79;124;126;Ji'an;x
+1833;79;124;126;Ji'an;x#
 1834;207;126;173;Dorpat;x
 1835;80;128;32;Mino;x
-1836;208;130;79;Nanyang;x
+1836;208;130;79;Nanyang;x#
 1837;80;132;126;Etchu;x
 1838;208;134;173;Hefei;x
 1839;80;136;32;Totomi;x
