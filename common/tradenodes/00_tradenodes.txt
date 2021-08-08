@@ -3,6 +3,7 @@ istancan={
 	color={
 		193 196 111 
 	}
+	inland=yes
 	outgoing={
 		name="gulbas"
 		path={
@@ -39,6 +40,7 @@ gulbas={
 	color={
 		216 189 91 
 	}
+	inland=yes
 	outgoing={
 		name="upper_dreghei"
 		path={
@@ -94,11 +96,12 @@ kizipru={
 		}
 	}
 	members={
-		1552 1553 1554 1555 1556 1580 1581 1582 1825 1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 1836 29 
+		1549 1551 1552 1553 1554 1555 1556 1580 1581 1582 1825 1826 1827 1828 1829 1830 1831 1832 1833 1834 1835 1836 29 
 	}
 }
 upper_ziyalap={
 	location=1558
+	inland=yes
 	color={
 		120 153 155 
 	}
@@ -121,7 +124,7 @@ upper_ziyalap={
 		}
 	}
 	members={
-		1495 1496 1497 1498 1499 1502 1504 1505 1506 1507 1508 1509 1510 1511 1512 1513 1514 1515 1537 1538 1539 1540 1541 1542 1543 1544 1545 1546 1547 1548 1549 1550 1551 1557 1558 1559 1560 1561 1562 1563 
+		1495 1496 1497 1498 1499 1502 1504 1505 1506 1507 1508 1509 1510 1511 1512 1513 1514 1515 1537 1538 1539 1540 1541 1542 1543 1544 1545 1546 1547 1548 1550 1557 1558 1559 1560 1561 1562 1563 
 	}
 }
 muthilo={
@@ -453,6 +456,7 @@ symnalon={
 	color={
 		128 42 79 
 	}
+	inland=yes
 	outgoing={
 		name="nylka"
 		path={
@@ -480,6 +484,7 @@ ollunen={
 	color={
 		215 140 219 
 	}
+	inland=yes
 	outgoing={
 		name="nylna"
 		path={
@@ -507,6 +512,7 @@ nylka={
 	color={
 		70 75 160 
 	}
+	inland=yes
 	outgoing={
 		name="the_cradle"
 		path={
@@ -543,6 +549,7 @@ nylna={
 	color={
 		137 188 141 
 	}
+	inland=yes
 	outgoing={
 		name="lindoremy"
 		path={
@@ -570,6 +577,7 @@ heth={
 	color={
 		179 211 124 
 	}
+	inland=yes
 	outgoing={
 		name="lindoremy"
 		path={
@@ -597,6 +605,7 @@ lindengor={
 	color={
 		244 235 230 
 	}
+	inland=yes
 	outgoing={
 		name="the_cradle"
 		path={
@@ -624,6 +633,7 @@ lindoremy={
 	color={
 		117 170 134 
 	}
+	inland=yes
 	outgoing={
 		name="ryridlerine"
 		path={
@@ -651,6 +661,7 @@ upper_dreghei={
 	color={
 		188 136 62 
 	}
+	inland=yes
 	outgoing={
 		name="srandesh"
 		path={
@@ -687,6 +698,7 @@ lower_dreghei={
 	color={
 		204 170 124 
 	}
+	inland=yes
 	outgoing={
 		name="unolad"
 		path={
@@ -885,6 +897,7 @@ krashyrvil={
 	color={
 		255 250 107 
 	}
+	inland=yes
 	outgoing={
 		name="irrilanra"
 		path={
@@ -903,6 +916,7 @@ west_shires={
 	color={
 		153 255 183 
 	}
+	inland=yes
 	outgoing={
 		name="irrilanra"
 		path={
@@ -984,6 +998,7 @@ kyatlas={
 	color={
 		170 124 126 
 	}
+	inland=yes
 	outgoing={
 		name="the_cradle"
 		path={

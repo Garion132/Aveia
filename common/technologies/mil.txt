@@ -36,7 +36,6 @@ technology = {
 	enable = indian_archers
 	enable = mesoamerican_spearmen
 	enable = halberd_infantry
-	enable = sailing_airship
 	enable = bardiche_infantry
 	enable = muslim_cavalry_archers
 	enable = western_medieval_infantry
@@ -183,6 +182,7 @@ technology = {
 
 	
 	regimental_camp = yes
+	enable = sailing_airship
 }
 
 technology = {
