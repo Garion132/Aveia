@@ -1,25 +1,25 @@
 province;red;green;blue;x;x
 1;128;34;64;Stockholm;x##wasteland prov
-2;0;36;128;Östergötland;x
-3;128;38;192;Småland;x
+2;0;36;128;ï¿½stergï¿½tland;x
+3;128;38;192;Smï¿½land;x
 4;0;40;255;Bergslagen;x
-5;128;42;0;Värmland;x
-6;0;44;64;Skåne;x
-7;129;46;128;Västergötland;x
+5;128;42;0;Vï¿½rmland;x
+6;0;44;64;Skï¿½ne;x
+7;129;46;128;Vï¿½stergï¿½tland;x
 8;1;48;192;Dalaskogen;x
-9;129;50;255;Hälsingland;x
-10;1;52;0;Jämtland;x
-11;129;54;64;Västerbotten;x
-12;1;56;128;Sjælland;x
+9;129;50;255;Hï¿½lsingland;x
+10;1;52;0;Jï¿½mtland;x
+11;129;54;64;Vï¿½sterbotten;x
+12;1;56;128;Sjï¿½lland;x
 13;129;58;192;Slesvig;x
 14;2;60;255;Fyn;x
 15;130;62;0;Midtjylland;x
-16;2;64;64;Bohuslän;x
+16;2;64;64;Bohuslï¿½n;x
 17;130;66;128;Akershus;x
-18;2;68;192;Umeå;x
-19;130;70;255;Österbotten;x
-20;2;72;0;Trøndelag;x
-21;131;74;64;Hålogaland;x
+18;2;68;192;Umeï¿½;x
+19;130;70;255;ï¿½sterbotten;x
+20;2;72;0;Trï¿½ndelag;x
+21;131;74;64;Hï¿½logaland;x
 22;3;76;128;Oplandene;x
 23;131;78;192;Bergenshus;x
 24;3;80;255;Stavanger;x
@@ -43,7 +43,7 @@ province;red;green;blue;x;x
 42;6;116;128;Warmia;x
 43;40;177;211;Danzig;x
 44;20;150;183;Hamburg;x
-45;80;199;229;Lübeck;x##
+45;80;199;229;Lï¿½beck;x##
 46;6;124;64;Kyath 1;x###start, Kyath Kingdom
 47;134;126;128;Kyath 2;x
 48;6;128;192;Kajhyrhei;x#ylasemyva end
@@ -315,12 +315,12 @@ province;red;green;blue;x;x
 314;82;227;248;Ustyug;x
 315;140;242;232;Finnmark;x
 316;57;239;218;Kocaeli;x
-317;81;226;239;Hüdavendigar;x
+317;81;226;239;Hï¿½davendigar;x
 318;110;239;226;Sugla;x
 319;43;239;226;Mentese;x
 320;70;209;216;Rhodes;x
 321;82;214;211;Cyprus;x
-322;131;202;211;Kütahya;x
+322;131;202;211;Kï¿½tahya;x
 323;57;211;228;Konya;x
 324;35;232;205;Karaman;x
 325;64;218;229;Kastamonu;x
@@ -1388,17 +1388,17 @@ province;red;green;blue;x;x
 1387;107;60;49;Tsugaru Strait;x
 1388;102;70;107;Yamato Basin;x
 1389;80;104;65;Amakusa Sea;x##
-1390;104;71;30;Setto Inland Sea;x
-1391;104;47;71;Kii Channel;x
-1392;43;97;104;Ryukyu Islands;x
-1393;104;77;42;Luzon Strait;x#
-1394;64;78;104;Paracel Islands;x
-1395;104;71;69;Manila Bay;x
-1396;53;104;103;Coast of Luzon;x
-1397;104;89;60;Gulf of Leyte;x
-1398;67;104;81;Sulu Sea;x#
-1399;85;81;104;Sea of Celebes;x
-1400;104;46;46;Sea of Ternete;x
+1390;104;71;30;Yimune;x
+1391;104;47;71;Garen;x
+1392;43;97;104;Eramune;x
+1393;104;77;42;Geyzra;x#
+1394;64;78;104;Wunra;x
+1395;104;71;69;Anthyr;x
+1396;53;104;103;Ran Ruk;x
+1397;104;89;60;Ran Ruk Forest;x
+1398;67;104;81;Aurun;x#
+1399;85;81;104;Anthyr Falls;x
+1400;104;46;46;Ran Ruk Peak;x
 1401;90;104;87;Sea of Banda;x#
 1402;74;73;104;Philipine Sea;x
 1403;104;53;71;Palau Islands;x
@@ -1767,7 +1767,7 @@ province;red;green;blue;x;x
 1766;70;116;126;Kosovo;x
 1767;198;118;173;Osijek;x#
 1768;70;120;32;Lienz;x
-1769;198;122;79;Görz;x
+1769;198;122;79;Gï¿½rz;x
 1770;70;124;126;Ostmarch;x#
 1771;198;126;173;Erz;x
 1772;70;128;32;Presburg;x
@@ -1867,7 +1867,7 @@ province;red;green;blue;x;x
 1866;212;62;173;Namur ;x
 1867;84;64;32;Freiburg;x
 1868;212;66;79;Augsburg;x
-1869;84;68;126;Zürich;x
+1869;84;68;126;Zï¿½rich;x
 1870;213;70;173;S:t Gallen;x
 1871;85;72;32;Wallis;x
 1872;86;84;126;Ulm;x
@@ -4126,7 +4126,7 @@ province;red;green;blue;x;x
 4125;210;205;68;Szolnok;x
 4126;229;71;55;Bacs;x
 4127;146;198;217;Turda;x
-4128;142;201;142;Kiralyföld;x
+4128;142;201;142;Kiralyfï¿½ld;x
 4129;53;164;53;Ust-Vym;x
 4130;222;47;96;Somerset;x
 4131;227;54;54;Nanbu;x
@@ -4163,7 +4163,7 @@ province;red;green;blue;x;x
 4162;231;224;22;Alps5;x
 4163;220;144;23;Elfsborg;x
 4164;150;213;76;Dalsland;x
-4165;220;78;202;Göinge;x
+4165;220;78;202;Gï¿½inge;x
 4166;54;157;76;Tiohasd/Vasnd;x
 4167;195;207;97;High Atlas;x
 4168;135;142;79;High Atlas2;x
@@ -4310,7 +4310,7 @@ province;red;green;blue;x;x
 4309;118;176;123;Aydin;x
 4310;135;155;105;Divrigi;x
 4311;67;121;108;Karahisar;x
-4312;105;195;57;Sultanönü;x
+4312;105;195;57;Sultanï¿½nï¿½;x
 4313;94;189;108;Kangiri;x
 4314;159;73;73;Kirshehir;x
 4315;124;60;86;Tokat;x
@@ -4709,7 +4709,7 @@ province;red;green;blue;x;x
 4708;136;148;128;Freising;x
 4709;71;104;32;Passau;x
 4710;48;231;108;Bregenz;x
-4711;226;210;106;Donauwörth;x
+4711;226;210;106;Donauwï¿½rth;x
 4712;27;146;0;Konstanz;x
 4713;185;110;79;Urach;x
 4714;139;150;128;Durlach;x
@@ -4743,7 +4743,7 @@ province;red;green;blue;x;x
 4742;24;36;126;Nordhausen;x
 4743;70;32;26;Weimar;x
 4744;35;63;199;Zwickau;x
-4745;86;194;97;Rügen;x
+4745;86;194;97;Rï¿½gen;x
 4746;213;132;0;Wolgast;x
 4747;111;118;8;Dramburg;x
 4748;170;79;248;Brandenburg;x
@@ -4771,12 +4771,12 @@ province;red;green;blue;x;x
 4770;181;160;75;s-Hertogenbosch;x
 4771;52;36;48;Verden;x
 4772;228;189;115;Celle;x
-4773;70;135;54;Göttingen;x
+4773;70;135;54;Gï¿½ttingen;x
 4774;175;138;37;Fulda;x
 4775;199;14;89;Bielefeld;x
 4776;177;186;20;Blois;x
 4777;202;126;16;Forez;x
-4778;32;31;94;Görlitz;x
+4778;32;31;94;Gï¿½rlitz;x
 4779;124;10;162;Gallipoli;x
 4780;25;224;138;Ohrid;x
 4781;197;9;45;Transvaal;x
