@@ -71,6 +71,52 @@ grain = {
 	}
 }
 
+fruit = {
+	color = { 0.80 0.80 0.1 }
+	modifier = {
+		global_autonomy = -0.02
+	}
+	province = {
+		local_tax_modifier = 0.05
+		tax_income = 1
+	}
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 0
+			OR = {
+				has_winter = severe_winter
+				has_climate = arctic
+				has_climate = arid
+				has_climate = tropical
+				has_terrain = jungle
+				has_terrain = drylands
+				has_terrain = steppe
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = marsh
+				has_terrain = savannah
+				has_terrain = glacier
+				religion_group = muslim
+			}
+		}
+		modifier = {
+			factor = 0.25
+			has_winter = normal_winter
+		}
+		modifier = {
+			factor = 1.25
+			has_terrain = farmlands
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+	}
+}
 wine = {
 	color = { 0.36 0.13 1 }
 	modifier = {
@@ -950,13 +996,13 @@ livestock = {
 	}
 }
 
-incense = {
+sunspot = {
 	color = { 0.89 0.79 0.47 }
 	modifier = {
-		tolerance_own = 0.5
+		innovativeness_gain = 0.25
 	}
 	province = {
-		trade_value_modifier = 0.1
+		supply_limit_modifier = 0.25
 	}
 	chance = {
 		factor = 25
@@ -1318,6 +1364,13 @@ tropical_wood = {
 	color = { 0 0 0 }
 	#no modifiers
 	
+	chance = {
+		factor = 0
+	}
+}
+
+incense = {
+	color = { 0 0 0 }
 	chance = {
 		factor = 0
 	}

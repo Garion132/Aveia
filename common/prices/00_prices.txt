@@ -7,6 +7,10 @@ grain = {
 	base_price = 2
 }
 
+fruit = {
+	base_price = 2
+}
+
 wine = {
 	base_price = 2.5
 }
@@ -121,7 +125,7 @@ livestock = {
 	base_price = 1.5
 }
 
-incense = {
+sunspot = {
 	base_price = 2.5
 }
 
@@ -201,5 +205,9 @@ silk = {
 }
 
 tropical_wood = {
+	base_price = 0
+}
+
+incense = {
 	base_price = 0
 }
