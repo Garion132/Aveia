@@ -25,6 +25,12 @@ yhenil_bridge = {
 	hostile_fleet_attrition = 2
 	hostile_disembark_speed = -0.5
 }
+kushedean_lighthouse = {
+	global_trade_power = 0.05
+	province_trade_power_value = 25
+	local_institution_spread = 0.5
+	naval_forcelimit = 3
+}
 
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.
