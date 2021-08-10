@@ -13,5 +13,9 @@ aveia_superregion = { #the "west", around the great sea
 	dreghei_region
 	chaunluma_region
 	
+	
+}
+elteria_superregion={
 	karnaiha_region
+	brightcoast_region
 }

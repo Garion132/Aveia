@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = shemsele
-religion = catholic
+religion = orthodox
 technology_group = western
 capital = 653 # 
 #national_focus = DIP

@@ -59,4 +59,4 @@ SOH = "countries/Sohoremyfa.txt"
 GUL = "countries/Gulba.txt"
 YER = "countries/Yerina.txt"
 
-PAP  = "countries/Yulikivian.txt"
+PAP = "countries/Yulikivian.txt"

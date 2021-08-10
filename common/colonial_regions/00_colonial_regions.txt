@@ -1,52 +1,133 @@
-# # klaetia
-# colonial_klaetia = {
-	# color = { 225 225 225 }
+# klaetia
+colonial_klaetia = {
+	color = { 69 157 208 }
 
-	# # Random New World
-	# tax_income = 0
-	# native_size = 8
-	# native_ferocity = 1
-	# native_hostileness = 4
+	provinces = {
+		1837 1838 1839 1840 1843 1845 1846 1847 1851 1854 1855 1856 1857 1858 1859 1860 1869 1868 1870 1871 1872 #1873 1874
+	}
 	
-	# trade_goods = {
-		# fur = 10
-		# fish = 3
-		# naval_supplies = 2
-		# gold = 2
-	# }
-	
-	# culture = {
-		# inuit = 10
-		# aleutian = 8
-	# }
-	
-	# religion = {
-		# shamanism = 10
-	# }
+	# established colonies
+	names = {
+		trigger = {
+			OR = {
+				tag = KEA
+			}
+		}
+		name = "COLONIAL_KLAETIA_freygmia"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = ATH
+			}
+		}
+		name = "COLONIAL_KLAETIA_Silobo"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = LEL
+			}
+		}
+		name = "COLONIAL_KLAETIA_Oagemins"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = KAF
+			}
+		}
+		name = "COLONIAL_KLAETIA_Cloudham"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = SAL
+			}
+		}
+		name = "COLONIAL_KLAETIA_Sringar"
+	}
+	#generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
 
-	# provinces = {
-		# 576
-	# }
-	
-	# # Generic
-	# names = {
-		# trigger = {
-			# any_owned_province = {
-				# OR = {
-					# area = alaska_area
-					# area = east_alaska_area
-				# }
-			# }
-		# }
-		# name = "COLONIAL_ALASKA_Alaska"
-	# }
-	# names = {
-		# name = "COLONIAL_CALIFORNIA_Cascadia"
-	# }
-	# names = {
-		# name = "COLONIAL_REGION_New_Root_GetName"
-	# }
-	# names = {
-		# name = "COLONIAL_ALASKA_Aleutia"
-	# }
-# }
+
+# Used for RNW
+colonial_placeholder_1 = {
+	color = { 211 108 45 }
+}
+
+colonial_placeholder_2 = {
+	color = { 152 148 183 }
+}
+
+colonial_placeholder_3 = {
+	color = { 247 158 146 }
+}
+
+colonial_placeholder_4 = {
+	color = { 20 107 142 }
+}
+
+colonial_placeholder_5 = {
+	color = { 228 168 201 }
+}
+
+colonial_placeholder_6 = {
+	color = { 13 81 174 }
+}
+
+colonial_placeholder_7 = {
+	color = { 64 54 203 }
+}
+
+colonial_placeholder_8 = {
+	color = { 171 41 160 }
+}
+
+colonial_placeholder_9 = {
+	color = { 113 23 68 }
+}
+
+colonial_placeholder_10 = {
+	color = { 95 125 183 }
+}
+
+# Used for RNW, added to support bigger tiles
+colonial_placeholder_11 = {
+	color = { 50 150 45 }
+}
+
+colonial_placeholder_12 = {
+	color = { 200 190 20 }
+}
+
+colonial_placeholder_13 = {
+	color = { 20 220 90 }
+}
+
+colonial_placeholder_14 = {
+	color = { 100 50 50 }
+}
+
+colonial_placeholder_15 = {
+	color = { 200 50 50 }
+}
+
+colonial_placeholder_16 = {
+	color = { 30 30 60 }
+}
+
+colonial_placeholder_17 = {
+	color = { 90 70 100 }
+}
+
+colonial_placeholder_18 = {
+	color = { 90 140 30 }
+}
+
+colonial_placeholder_19 = {
+	color = { 140 60 30 }
+}

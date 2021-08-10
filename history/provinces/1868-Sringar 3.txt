@@ -1,0 +1,25 @@
+#Sringar
+
+culture = kaletian
+religion = shamanism #Fetishism
+hre = no
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = unknown
+capital = "Sal"
+native_size = 25
+native_ferocity = 2
+native_hostileness = 9
+
+discovered_by = western
+
+1250.1.1={
+	add_core = SAL
+	owner = SAL
+	controller = SAL
+	is_city = yes
+	culture = kyathian
+	religion = orthodox
+	trade_goods = grain
+}

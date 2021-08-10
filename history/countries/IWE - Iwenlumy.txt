@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = kyathian
-religion = catholic
+religion = orthodox
 technology_group = western
 capital = 80 # Iwenlumy
 #national_focus = DIP

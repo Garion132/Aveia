@@ -18,7 +18,6 @@ estate_brahmins = {
 			has_dlc = "Mandate of Heaven"
 		}
 		OR = {
-			NOT = { tag = USA }
 			government = theocracy
 		}
 		is_nomad = no

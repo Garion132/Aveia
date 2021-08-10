@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "colonial_bookmark"
+	desc = "colonial_bookmark_desc"
+	date = 1272.8.6
+	
+	center = 46
+	default = yes
+	
+	easy_country = KAF
+	country = KAF
+	country = SOH
+	country = ATH
+	country = KEA
+	country = LEL
+	country = NYH
+	country = SAL
+}

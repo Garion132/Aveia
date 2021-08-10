@@ -1,6 +1,6 @@
 government = theocracy
 primary_culture = kyathian
-religion = catholic
+religion = orthodox
 technology_group = western
 capital = 85 # Kyatlas
 #national_focus = DIP

@@ -377,6 +377,22 @@ karnaiha_region = {
 	}
 }
 
+brightcoast_region={
+	areas = {
+		freygmia
+		silowbo
+		lower_oagemins
+		upper_oagemins
+		weslif
+		cloudham
+		sringar
+		grahear
+		ligwell
+		eagburya
+		chilton
+	}
+}
+
 ocean_region = {
 	areas = {
 		grand_sea_area
