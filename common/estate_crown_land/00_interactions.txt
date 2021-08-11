@@ -268,7 +268,7 @@ interaction = {
             short = yes
         }
 		custom_tooltip = seize_land_rebels_tt
-		else_if = { 
+		if = { 
 			limit = {
 				NOT = {
 					estate_loyalty = {

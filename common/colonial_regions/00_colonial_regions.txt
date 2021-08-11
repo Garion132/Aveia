@@ -9,6 +9,12 @@ colonial_klaetia = {
 	# established colonies
 	names = {
 		trigger = {
+			tag = SAL
+		}
+		name = "COLONIAL_KLAETIA_Sringar"
+	}
+	names = {
+		trigger = {
 			OR = {
 				tag = KEA
 			}
@@ -38,14 +44,6 @@ colonial_klaetia = {
 			}
 		}
 		name = "COLONIAL_KLAETIA_Cloudham"
-	}
-	names = {
-		trigger = {
-			OR = {
-				tag = SAL
-			}
-		}
-		name = "COLONIAL_KLAETIA_Sringar"
 	}
 	#generic
 	names = {

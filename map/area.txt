@@ -121,9 +121,6 @@ oramarnona_area = {
 upper_oramarnona_area = {
 	569 570 571 572
 }
-cerinia_area={
-	576
-}
 zornazar_area={
 	581 582 583 584
 }
@@ -357,7 +354,7 @@ y_mahilne={
 	904 905 906 907 908
 }
 menatheas={
-	908 909 910 911 912 913 914 915
+	909 910 911 912 913 914 915
 }
 rauthyr_1={
 	916 917 918 919 920
@@ -406,9 +403,6 @@ rauthyr_15={
 }
 calendor_islands={
 	19 20 462 461 1033 1882
-}
-west_demina_straights={
-	576 460
 }
 rauthyr_16={
 1034 1035 1036 1037 

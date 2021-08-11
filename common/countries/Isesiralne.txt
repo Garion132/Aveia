@@ -19,7 +19,7 @@ historical_idea_groups = {
 
 historical_units = {
 	western_medieval_infantry
-	western_medieval_knights
+	 
 	western_men_at_arms
 	swiss_landsknechten
 	dutch_maurician
