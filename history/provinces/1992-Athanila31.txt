@@ -1,0 +1,16 @@
+#Athanila
+
+add_core = ATH
+owner = ATH
+controller = ATH
+culture = dregheian
+religion = orthodox
+hre = no
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = grain
+capital = "Ath 31"
+is_city = yes
+discovered_by = western
+extra_cost = 0
