@@ -663,6 +663,10 @@ black_eliph = {
 			factor = 1.2
 			has_terrain = farmlands
 		}
+		modifier = {
+			factor = 0
+			NOT={continent = juluia}
+		}
 	}
 }
 
@@ -737,6 +741,10 @@ iresta = {
 			continent = new_world #Always in RNW
 			NOT = { has_climate = tropical }
 		}
+		modifier = {
+			factor = 0
+			NOT={continent = juluia}
+		}
 	}
 }
 
@@ -773,6 +781,10 @@ ecriamin = {
 				has_terrain = grasslands
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT={continent = elteria}
+		}
 	}
 }
 
@@ -800,6 +812,10 @@ sweetpowder = {
 				has_terrain = forest
 				has_terrain = steppe
 			}
+		}
+		modifier = {
+			factor = 0
+			NOT={continent = juluia}
 		}
 	}
 }
@@ -868,6 +884,10 @@ vecroth_fruit = {
 				has_winter = severe_winter
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT={continent = juluia}
+		}
 	}
 }
 
@@ -910,6 +930,10 @@ spirl = {
 			normal_or_historical_nations = no
 			FROM = { NOT = { religion_group = dharmic } }
 			FROM = { NOT = { religion_group = eastern } }
+		}
+		modifier = {
+			factor = 0
+			NOT={continent = aveia}
 		}
 	}
 }
@@ -1009,7 +1033,14 @@ sunspot = {
 		modifier = {
 			factor = 0
 			has_terrain = mountain
+			has_terrain = hills
+			has_terrain = jungle
 		}
+		modifier = {
+			factor = 0
+			NOT={continent = aveia}
+		}
+		
 	}
 }
 
@@ -1167,6 +1198,10 @@ guedina = {
 			has_terrain = mountain
 			continent = new_world #Always in RNW
 		}
+		modifier = {
+			factor = 0
+			continent = juluia
+		}
 	}
 }
 ankon = {
@@ -1197,6 +1232,10 @@ ankon = {
 			is_random_new_world = yes
 			has_terrain = mountain
 			continent = new_world #Always in RNW
+		}
+		modifier = {
+			factor = 0
+			NOT={continent = juluia}
 		}
 	}
 }
@@ -1231,6 +1270,10 @@ vitaite = {
 			has_terrain = mountain
 			continent = new_world #Always in RNW
 		}
+		modifier = {
+			factor = 0
+			NOT={continent = juluia}
+		}
 	}
 }
 bryrine = {
@@ -1261,6 +1304,10 @@ bryrine = {
 			is_random_new_world = yes
 			has_terrain = mountain
 			continent = new_world #Always in RNW
+		}
+		modifier = {
+			factor = 0
+			NOT={continent = juluia}
 		}
 	}
 }

@@ -1892,14 +1892,14 @@ province;red;green;blue;x;x
 1891;8;0;244;Tuz Gola;x
 1892;9;0;248;Lake Van;x
 1893;10;0;232;Lake Daryacheh;x
-1894;11;0;236;Sevan Lake;x
+1894;11;0;236;Sevan Lake;x#
 1895;12;0;240;Lake Taihu;x
 1896;13;0;244;Lake Hongze;x
 1897;14;0;248;Dongting;x
 1898;15;0;232;Tonie Sap Lake;x
 1899;16;0;236;Tana lake;x
-1900;17;0;240;Lake Turkana;x
-1901;81;104;191;Mpangu;x
+1900;17;0;240;Lake Turkana;x#
+1901;81;104;191;Mpangu;x#
 1902;19;0;248;Lake Poopo;x
 1903;20;0;232;Lake Champlain;x
 1904;21;0;236;Lac Saint Jean;x
@@ -1921,75 +1921,75 @@ province;red;green;blue;x;x
 1920;37;0;240;Wholdaia Lake;x
 1921;38;0;244;Peter Pond Lake;x
 1922;39;0;248;Great salt lake;x
-1923;40;0;232;Williston Lake;x
+1923;40;0;232;Williston Lake;x#
 1924;62;206;252;Greenland tip;x
 1925;225;191;200;Tana;x
-1926;62;230;255;Northern baltic sea;x
+1926;62;230;255;Northern baltic sea;x#
 1927;255;218;252;Eastern baltic sea;x
-1928;62;234;255;Western Alands sea;x
+1928;62;234;255;Western Alands sea;x#
 1929;62;210;252;Western Norwegian Sea;x
 1930;237;154;79;Uand;x
 1931;130;60;50;East Frisia;x
-1932;49;150;248;Gulf of Satalia;x
+1932;49;150;248;Gulf of Satalia;x#
 1933;50;0;232;Bari;x
 1934;251;0;36;Lucania;x
 1935;52;0;240;Semigallia;x
-1936;55;0;0;Kovno;x
+1936;55;0;0;Kovno;x#
 1937;65;0;250;Grodno;x
 1938;75;0;25;Wizna;x 
 1939;85;0;225;Leczyca;x
-1940;95;0;50;Belz;x
+1940;95;0;50;Belz;x#
 1941;105;0;200;Turov;x
 1942;110;0;75;Zhytomyr;x
 1943;115;0;175;Bratslav;x
-1944;120;0;100;Cherkasy;x
+1944;120;0;100;Cherkasy;x#
 1945;125;0;150;Novgorod-Seversky;x
 1946;63;0;244;Desh;x
 1947;64;0;248;Gingee;x
-1948;65;0;232;Bidar;x
+1948;65;0;232;Bidar;x#
 1949;66;0;236;Tirupati;x
 1950;67;0;240;Meghalaya;x
-1951;68;0;244;Hunyad;x
+1951;68;0;244;Hunyad;x##
 1952;69;0;248;Maramaros;x
 1953;70;0;232;Szabolcs;x
-1954;71;0;236;Torontal;x
+1954;71;0;236;Torontal;x##
 1955;172;146;192;Kholmogory;x
-1956;73;0;244;Suzdal;x
-1957;74;0;248;Galich;x
-1958;75;0;232;Kargopol;x
-1959;76;0;236;Torzhok;x
-1960;77;0;240;Ostrov;x
-1961;78;0;244;Ladoga;x
-1962;79;0;248;Kudymkar;x
-1963;80;0;232;Cherdyn;x
-1964;81;0;236;Ust-Sysolsk;x
+1956;119;191;114;Suzdal;x
+1957;191;141;158;Galich;x
+1958;93;191;191;Kargopol;x#
+1959;191;161;80;Torzhok;x
+1960;107;191;142;Ostrov;x
+1961;191;76;59;Ladoga;x#
+1962;112;191;165;Kudymkar;x
+1963;191;131;163;Cherdyn;x
+1964;137;177;191;Ust-Sysolsk;x#
 1965;88;116;126;Buzuluk;x
 1966;216;118;173;Chelyaba;x
 1967;217;126;173;Khujand;x
-1968;89;128;32;Kulob;x
+1968;89;128;32;Kulob;x#
 1969;216;122;79;Sozak;x
 1970;88;120;32;Syghnak;x
 1971;88;112;32;Tsaritsyn;x
-1972;216;114;79;Udmurtia;x
+1972;216;114;79;Udmurtia;x#
 1973;88;124;126;Urgench;x
 1974;215;110;173;Yedishkul;x
-1975;105;225;255;Sea of Jutland;x
-1976;93;0;244;Dead Sea;x
-1977;94;0;248;Masren;x
-1978;95;0;232;Shetlands;x
-1979;96;0;236;Fasarnax;x
-1980;136;253;253;Sea of Japan;x
-1981;98;0;244;Bornholm;x
-1982;99;0;248;Blekinge;x
-1983;100;0;232;Lolland;x
-1984;101;0;236;Nordjylland;x
+1975;105;225;255;Sea of Jutland;x#
+1976;255;209;104;Dead Sea;x
+1977;255;173;222;Masren;x#
+1978;175;227;255;Shetlands;x
+1979;183;255;124;Fasarnax;x
+1980;255;112;128;Sea of Japan;x
+1981;191;245;255;Bornholm;x#
+1982;255;217;204;Blekinge;x
+1983;160;255;204;Lolland;x
+1984;197;255;91;Nordjylland;x#
 1985;102;240;0;Nase;x
-1986;103;0;244;New Caledonia;x
-1987;104;0;248;Society Islands;x
-1988;105;0;232;Rapa Nui;x
-1989;106;0;236;Tonga;x
-1990;107;0;240;Tuvalu;x
-1991;108;0;244;Gilbert Islands;x
+1986;239;188;143;New Caledonia;x
+1987;186;239;220;Society Islands;x
+1988;239;167;95;Rapa Nui;x#
+1989;172;239;189;Tonga;x
+1990;207;201;239;Tuvalu;x
+1991;193;239;155;Gilbert Islands;x##
 1992;109;0;248;Nauru;x
 1993;110;0;232;Marshall Islands;x
 1994;111;0;236;Wake;x

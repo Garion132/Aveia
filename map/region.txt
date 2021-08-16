@@ -388,6 +388,31 @@ brightcoast_region={
 		ligwell
 		eagburya
 		chilton
+		brightcoast_1
+		brightcoast_2
+		brightcoast_3
+		brightcoast_4
+		brightcoast_5
+		brightcoast_6
+		brightcoast_7
+	}
+}
+
+greater_jalhorkan_region={
+	areas = {
+		laslesia
+		miwal
+		jalhorkan_1
+		jalhorkan_2
+		jalhorkan_3
+		jalhorkan_4
+		jalhorkan_5
+		jalhorkan_6
+		jalhorkan_7
+		jalhorkan_8
+		jalhorkan_9
+		jalhorkan_10
+		jalhorkan_11
 	}
 }
 

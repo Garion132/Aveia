@@ -3,7 +3,7 @@ colonial_klaetia = {
 	color = { 69 157 208 }
 
 	provinces = {
-		1837 1838 1839 1840 1843 1845 1846 1847 1851 1854 1855 1856 1857 1858 1859 1860 1869 1868 1870 1871 1872 #1873 1874
+		1837 1838 1839 1840 1843 1845 1846 1847 1851 1854 1855 1856 1857 1858 1859 1860 1869 1868 1870 1871 1872 1924 1925 1926 1927 1928 1929 1930 1931 1932 1933 1934 1935 1936 1937 1938 1939 1940 1941 1942 1943 1944 1945 1946 1947 1948 #1873 1874
 	}
 	
 	# established colonies
@@ -44,6 +44,42 @@ colonial_klaetia = {
 			}
 		}
 		name = "COLONIAL_KLAETIA_Cloudham"
+	}
+	#generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+# termina
+colonial_termina = {
+	color = { 75 168 152 }
+
+	provinces = {
+		1949 1950 1951 1952 1953 1954 1955 1956 1957 1958
+	}
+	
+	# established colonies
+	names = {
+		trigger = {
+			tag = KAF
+		}
+		name = "COLONIAL_TERMINA_Jalhorkan"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = NYH
+			}
+		}
+		name = "COLONIAL_TERMINA_Laslesia"
+	}
+	names = {
+		trigger = {
+			OR = {
+				tag = CYU
+			}
+		}
+		name = "COLONIAL_TERMINA_Miwal"
 	}
 	#generic
 	names = {

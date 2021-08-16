@@ -18,4 +18,5 @@ aveia_superregion = { #the "west", around the great sea
 elteria_superregion={
 	karnaiha_region
 	brightcoast_region
+	greater_jalhorkan_region
 }
