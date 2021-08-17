@@ -1990,30 +1990,30 @@ province;red;green;blue;x;x
 1989;172;239;189;Tonga;x
 1990;207;201;239;Tuvalu;x
 1991;193;239;155;Gilbert Islands;x##
-1992;109;0;248;Nauru;x
-1993;110;0;232;Marshall Islands;x
-1994;111;0;236;Wake;x
-1995;112;0;240;Micronesia;x
-1996;113;0;244;Palau;x
-1997;114;0;248;Midway;x
-1998;115;0;232;Christmas Island;x
+1992;187;255;145;Nauru;x
+1993;255;124;102;Marshall Islands;x
+1994;150;255;221;Wake;x
+1995;198;178;255;Micronesia;x#
+1996;188;255;160;Palau;x
+1997;255;206;242;Midway;x
+1998;255;232;160;Christmas Island;x
 1999;116;0;236;Cocos Island;x
-2000;60;221;221;Qinghai Lake;x
+2000;60;221;221;Qinghai Lake;x#
 2001;95;200;200;Siling Lake;x
 2002;200;135;255;Galapagos Islands;x
 2003;120;2;232;Ktunaxa;X
-2004;125;4;236;Niitsitapi;x
+2004;125;4;236;Niitsitapi;x#
 2005;130;8;240;Asinaan;x
 2006;135;16;244;Apsasooke;x
 2007;140;32;248;Arikara;x
-2008;145;64;232;Yankton;x
-2009;150;128;236;Teton;x
+2008;145;64;232;Yankton;x#
+2009;150;128;236;Teton;x#
 2010;55;1;80;Connecticut;x
 2011;155;2;120;Shenandoah;x
 2012;105;3;160;Arsigantegok;x
 2013;75;4;40;Kennebec;x
 2014;105;6;160;Natchitoches;x
-2015;65;7;40;Nipigon;x
+2015;65;7;40;Nipigon;x#
 2016;155;8;120;Bungi;x
 2017;105;9;160;Nehiyawewin;x
 2018;55;10;40;Tsuutina;x

@@ -413,6 +413,11 @@ greater_jalhorkan_region={
 		jalhorkan_9
 		jalhorkan_10
 		jalhorkan_11
+		brightcoast_8
+		brightcoast_9
+		brightcoast_10
+		brightcoast_11
+		brightcoast_12
 	}
 }
 
