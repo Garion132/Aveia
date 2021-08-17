@@ -1,4 +1,7 @@
 #Lurt 1
+latent_trade_goods = {
+	iron
+}
 
 add_core = MAT
 owner = MAT

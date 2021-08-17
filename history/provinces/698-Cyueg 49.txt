@@ -1,4 +1,7 @@
 #Cyueg
+latent_trade_goods = {
+	iron
+}
 
 add_core = CYU
 owner = CYU

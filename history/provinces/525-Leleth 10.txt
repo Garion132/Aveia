@@ -1,4 +1,7 @@
 #Leleth 10
+latent_trade_goods = {
+	iron
+}
 
 add_core = LEL
 owner = LEL

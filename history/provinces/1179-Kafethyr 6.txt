@@ -1,4 +1,7 @@
 #Kafethyr
+latent_trade_goods = {
+	iron
+}
 
 add_core = KAF
 owner = KAF

@@ -1,4 +1,7 @@
 #Parhama 13
+latent_trade_goods = {
+	iron
+}
 
 add_core = PAR
 owner = PAR

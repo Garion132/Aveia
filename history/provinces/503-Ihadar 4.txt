@@ -1,4 +1,7 @@
 #Ihadar 4
+latent_trade_goods = {
+	iron
+}
 
 add_core = IHA
 owner = IHA

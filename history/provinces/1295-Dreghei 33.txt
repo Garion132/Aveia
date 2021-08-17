@@ -1,4 +1,7 @@
 #Dreghei
+latent_trade_goods = {
+	iron
+}
 
 add_core = DRG
 owner = DRG
@@ -9,7 +12,7 @@ hre = no
 base_tax = 2
 base_production =3
 base_manpower = 2
-trade_goods = gold_knot
+trade_goods = naval_supplies
 capital = "Drg 3"
 is_city = yes
 discovered_by = western

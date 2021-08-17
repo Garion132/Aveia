@@ -1,4 +1,7 @@
 #Rauthyr
+latent_trade_goods = {
+	iron
+}
 
 add_core = RAU
 owner = RAU
@@ -9,7 +12,7 @@ hre = no
 base_tax = 0
 base_production =1
 base_manpower = 0
-trade_goods = naval_supplies
+trade_goods = gold_knot
 capital = "Rau 3"
 is_city = yes
 discovered_by = western

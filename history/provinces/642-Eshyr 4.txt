@@ -1,4 +1,7 @@
 #Eshyr 5
+latent_trade_goods = {
+	iron
+}
 
 add_core = ESH
 owner = ESH

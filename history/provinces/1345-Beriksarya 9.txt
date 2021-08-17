@@ -1,4 +1,7 @@
 #Beriksarya
+latent_trade_goods = {
+	iron
+}
 
 add_core = BER
 owner = BER

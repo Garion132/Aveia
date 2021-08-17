@@ -1,4 +1,7 @@
 #Oayvein 20
+latent_trade_goods = {
+	iron
+}
 
 add_core = OAY
 owner = OAY

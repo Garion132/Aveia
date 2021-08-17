@@ -1,4 +1,7 @@
 #Etitys 8
+latent_trade_goods = {
+	coal
+}
 
 add_core = ERI
 owner = ERI

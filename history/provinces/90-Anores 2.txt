@@ -1,4 +1,7 @@
 #Anores 2
+latent_trade_goods = {
+	iron
+}
 
 add_core = ANO
 owner = ANO

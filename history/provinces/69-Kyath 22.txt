@@ -1,4 +1,7 @@
 #Kyath 22 - filler
+latent_trade_goods = {
+	coal
+}
 
 add_core = KYA
 owner = KYA

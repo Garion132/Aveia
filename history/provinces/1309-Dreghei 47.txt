@@ -1,4 +1,7 @@
 #Dreghei
+latent_trade_goods = {
+	iron
+}
 
 add_core = DRG
 owner = DRG

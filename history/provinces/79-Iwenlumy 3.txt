@@ -1,4 +1,7 @@
 #Iwenlumy 3 - filler
+latent_trade_goods = {
+	coal
+}
 
 add_core = IWE
 owner = IWE

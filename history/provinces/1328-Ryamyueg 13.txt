@@ -1,4 +1,7 @@
 #Ryamyueg
+latent_trade_goods = {
+	iron
+}
 
 add_core = RYA
 owner = RYA

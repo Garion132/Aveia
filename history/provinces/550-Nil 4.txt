@@ -1,4 +1,7 @@
 #Nil 3
+latent_trade_goods = {
+	coal
+}
 
 add_core = NIL
 owner = NIL

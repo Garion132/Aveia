@@ -1,4 +1,7 @@
 #Keathene
+latent_trade_goods = {
+	iron
+}
 
 add_core = KEA
 owner = KEA
