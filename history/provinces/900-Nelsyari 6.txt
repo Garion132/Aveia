@@ -1,4 +1,7 @@
 #Nelsyari
+latent_trade_goods = {
+	coal
+}
 
 add_core = NEL
 owner = NEL

@@ -1,4 +1,7 @@
 #Shemsele
+latent_trade_goods = {
+	iron
+}
 
 add_core = SHE
 owner = SHE

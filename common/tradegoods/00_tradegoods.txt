@@ -534,7 +534,7 @@ iron = {
 	is_latent = yes
 	is_valuable = yes
 
-	rnw_latent_chance = 7 # Kind of on average how many provinces we want to spawn with it
+	rnw_latent_chance = 25 # Kind of on average how many provinces we want to spawn with it
 	modifier = {
 		global_regiment_cost = -0.05
 	}
@@ -543,8 +543,197 @@ iron = {
 	}
 	trigger = {
 		OR = {
-			development = 10
-			owner = { innovativeness = 10 }
+			if = {
+				limit = {
+					has_terrain = mountain
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_mountain_req_tt
+					has_terrain = mountain
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_mountain_dev_tt
+					OR = {
+						development = 3
+						AND = {
+							development = 2
+							owner = { innovativeness = 5 }
+						}
+						AND = {
+							development = 1
+							owner = { innovativeness = 10 }
+						}
+						owner = { innovativeness = 15 }
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_terrain = hills
+						has_terrain = highlands
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_hills_highlands_req_tt
+					OR = {
+						has_terrain = hills
+						has_terrain = highlands
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_hills_highlands_dev_tt
+					OR = {
+						development = 6
+						AND = {
+							development = 5
+							owner = { innovativeness = 5 }
+						}
+						AND = {
+							development = 4
+							owner = { innovativeness = 10 }
+						}
+						AND = {
+							development = 3
+							owner = { innovativeness = 15 }
+						}
+						AND = {
+							development = 2
+							owner = { innovativeness = 20 }
+						}
+						AND = {
+							development = 1
+							owner = { innovativeness = 25 }
+						}
+						owner = { innovativeness = 30 }
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_terrain = marsh }
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_flatlands_req_tt
+					NOT = { has_terrain = marsh }
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_flatlands_dev_tt
+					OR = {
+						development = 10
+						AND = {
+							development = 9
+							owner = { innovativeness = 5 }
+						}
+						AND = {
+							development = 8
+							owner = { innovativeness = 10 }
+						}
+						AND = {
+							development = 7
+							owner = { innovativeness = 15 }
+						}
+						AND = {
+							development = 6
+							owner = { innovativeness = 20 }
+						}
+						AND = {
+							development = 5
+							owner = { innovativeness = 25 }
+						}
+						AND = {
+							development = 4
+							owner = { innovativeness = 30 }
+						}
+						AND = {
+							development = 3
+							owner = { innovativeness = 35 }
+						}
+						AND = {
+							development = 2
+							owner = { innovativeness = 40 }
+						}
+						AND = {
+							development = 1
+							owner = { innovativeness = 45 }
+						}
+						owner = { innovativeness = 50 }
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_terrain = marsh
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_marsh_req_tt
+					has_terrain = marsh
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_marsh_dev_tt
+					OR = {
+						development = 15
+						AND = {
+							development = 14
+							owner = { innovativeness = 5 }
+						}
+						AND = {
+							development = 13
+							owner = { innovativeness = 10 }
+						}
+						AND = {
+							development = 12
+							owner = { innovativeness = 15 }
+						}
+						AND = {
+							development = 11
+							owner = { innovativeness = 20 }
+						}
+						AND = {
+							development = 10
+							owner = { innovativeness = 25 }
+						}
+						AND = {
+							development = 9
+							owner = { innovativeness = 30 }
+						}
+						AND = {
+							development = 8
+							owner = { innovativeness = 35 }
+						}
+						AND = {
+							development = 7
+							owner = { innovativeness = 40 }
+						}
+						AND = {
+							development = 6
+							owner = { innovativeness = 45 }
+						}
+						AND = {
+							development = 5
+							owner = { innovativeness = 50 }
+						}
+						AND = {
+							development = 4
+							owner = { innovativeness = 55 }
+						}
+						AND = {
+							development = 3
+							owner = { innovativeness = 60 }
+						}
+						AND = {
+							development = 2
+							owner = { innovativeness = 65 }
+						}
+						AND = {
+							development = 1
+							owner = { innovativeness = 70 }
+						}
+						owner = { innovativeness = 75 }
+					}
+				}
+			}
+			owner = { mil_tech = 19 }
 		}
 		provincial_institution_progress = {
 			which = renaissance 
@@ -1144,8 +1333,116 @@ coal = {
 	
 	trigger = {
 		OR = {
-			development = 20
-			owner = { innovativeness = 20 }
+			if = {
+				limit = {
+					has_terrain = mountain
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_mountain_req_tt
+					has_terrain = mountain
+				}
+				OR = {
+					development = 6
+					AND = {
+						development = 3
+						owner = { innovativeness = 15 }
+					}
+					owner = { innovativeness = 30 }
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_terrain = hills
+						has_terrain = highlands
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_hills_highlands_req_tt
+					OR = {
+						has_terrain = hills
+						has_terrain = highlands
+					}
+				}
+				OR = {
+					development = 12
+					AND = {
+						development = 9
+						owner = { innovativeness = 15 }
+					}
+					AND = {
+						development = 6
+						owner = { innovativeness = 30 }
+					}
+					AND = {
+						development = 3
+						owner = { innovativeness = 45 }
+					}
+					owner = { innovativeness = 60 }
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_terrain = marsh }
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_flatlands_req_tt
+					NOT = { has_terrain = marsh }
+				}
+				OR = {
+					development = 20
+					AND = {
+						development = 16
+						owner = { innovativeness = 15 }
+					}
+					AND = {
+						development = 12
+						owner = { innovativeness = 30 }
+					}
+					AND = {
+						development = 8
+						owner = { innovativeness = 45 }
+					}
+					AND = {
+						development = 4
+						owner = { innovativeness = 60 }
+					}
+					owner = { innovativeness = 75 }
+				}
+			}
+			else_if = {
+				limit = {
+					has_terrain = marsh
+				}
+				custom_trigger_tooltip = {
+					tooltip = iron_marsh_req_tt
+					has_terrain = marsh
+				}
+				OR = {
+					development = 30
+					AND = {
+						development = 25
+						owner = { innovativeness = 15 }
+					}
+					AND = {
+						development = 20
+						owner = { innovativeness = 30 }
+					}
+					AND = {
+						development = 15
+						owner = { innovativeness = 45 }
+					}
+					AND = {
+						development = 10
+						owner = { innovativeness = 60 }
+					}
+					AND = {
+						development = 5
+						owner = { innovativeness = 75 }
+					}
+					owner = { innovativeness = 90 }
+				}
+			}
 		}
 		provincial_institution_progress = {
 			which = enlightenment
