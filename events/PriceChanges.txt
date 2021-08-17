@@ -6,6 +6,131 @@
 
 namespace = prices
 
+# Rain of Ash
+country_event = {
+	id = prices.100
+	title = prices.100.t
+	desc = prices.100.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		owns = 949 #Lindoremy, capital of Rauthyr
+		is_year = 1368
+		not = { is_year = 1378 }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	
+	option = {
+		name = prices.100.a
+        set_global_flag = rain_of_ash
+        add_years_of_income = -0.5
+		change_price = {
+			trade_goods = grain #Agriculture is having a hard time coping.
+			key = RAIN_OF_ASH
+			value = -0.65
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = livestock #Agriculture is having a hard time coping.
+			key = RAIN_OF_ASH
+			value = -0.65
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = fruit #Agriculture is having a hard time coping.
+			key = RAIN_OF_ASH
+			value = -0.65
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = wine #Spoiled by the cold
+			key = RAIN_OF_ASH
+			value = -0.65
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = fish #Fishing fleets are having a hard time to coping.
+			key = RAIN_OF_ASH
+			value = -0.5
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = naval_supplies #Blocking out of the sun.
+			key = RAIN_OF_ASH
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = udezer_wood #Blocking out of the sun.
+			key = RAIN_OF_ASH
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = gold_knot #Blocking out of the sun.
+			key = RAIN_OF_ASH
+			value = -0.75
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = sunspot #World gets darker for a while, so a light source is helpful
+			key = RAIN_OF_ASH
+			value = 0.5
+			duration = 3650
+		}
+        
+		change_price = {
+			trade_goods = grain #Agriculture is having a hard time coping.
+			key = RAIN_OF_ASH_LONG
+			value = -0.25
+			duration = 18250
+		}
+		change_price = {
+			trade_goods = livestock #Agriculture is having a hard time coping.
+			key = RAIN_OF_ASH_LONG
+			value = -0.25
+			duration = 18250
+		}
+		change_price = {
+			trade_goods = fruit #Agriculture is having a hard time coping.
+			key = RAIN_OF_ASH_LONG
+			value = -0.25
+			duration = 18250
+		}
+		change_price = {
+			trade_goods = wine #Spoiled by the cold
+			key = RAIN_OF_ASH_LONG
+			value = -0.25
+			duration = 18250
+		}
+		change_price = {
+			trade_goods = fish #Fishing fleets are having a hard time to coping.
+			key = RAIN_OF_ASH_LONG
+			value = -0.25
+			duration = 18250
+		}
+		change_price = {
+			trade_goods = salt	#Food Preservation.
+			key = RAIN_OF_ASH_LONG
+			value = 0.25
+			duration = 18250
+		}
+		change_price = {
+			trade_goods = fur #Increased demand due to colder climate.
+			key = RAIN_OF_ASH_LONG
+			value = 0.25
+			duration = 18250
+		}
+	}
+}
+
 # Triangle Trade
 #country_event = {
 #	id = prices.1
