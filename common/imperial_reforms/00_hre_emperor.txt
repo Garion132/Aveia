@@ -91,6 +91,7 @@ emperor_perpetual_diet = {
 							owner = { is_elector = yes }
 							development = 20
 						}
+						development = 30
 					}
 				}
 				province_event = {
