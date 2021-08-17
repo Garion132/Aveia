@@ -365,6 +365,36 @@ morbin_region={
 	}
 }
 
+vulkivian_region={
+	areas={
+		vulkivian_1
+		vulkivian_2
+		vulkivian_3
+		vulkivian_4
+		vulkivian_5
+		vulkivian_6
+		vulkivian_7
+		vulkivian_8
+		vulkivian_9
+		vulkivian_10
+		vulkivian_11
+		vulkivian_12
+		vulkivian_13
+		vulkivian_14
+		vulkivian_15
+		vulkivian_16
+		vulkivian_17
+		vulkivian_18
+		vulkivian_19
+		vulkivian_20
+		vulkivian_21
+		vulkivian_22
+		vulkivian_23
+		vulkivian_24
+		vulkivian_25
+	}
+}
+
 
 ##Karnaiha
 

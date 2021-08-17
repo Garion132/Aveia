@@ -2013,44 +2013,44 @@ province;red;green;blue;x;x
 2012;105;3;160;Arsigantegok;x
 2013;75;4;40;Kennebec;x
 2014;105;6;160;Natchitoches;x
-2015;65;7;40;Nipigon;x#
+2015;65;7;40;Nipigon;x##
 2016;155;8;120;Bungi;x
 2017;105;9;160;Nehiyawewin;x
 2018;55;10;40;Tsuutina;x
-2019;105;11;120;Nimiipu;x
+2019;105;11;120;Nimiipu;x#paarhan
 2020;155;12;160;Bannock;x
 2021;25;13;70;Miwok;x
 2022;155;5;120;Haida;x
 2023;55;14;120;Munsee;x
-2024;255;15;160;Ajiraan;x
+2024;255;15;160;Ajiraan;x#khamar
 2025;255;16;40;South Georgia;x
-2026;255;17;120;Tanjore;x
+2026;255;17;120;Tanjore;x#kamor
 2027;230;18;160;Arcot;x
 2028;255;19;90;Mahur;x
-2029;255;20;120;South Kanara;x
+2029;255;20;120;South Kanara;x#pranax
 2030;255;21;160;Goa;x
 2031;16;134;155;Morasanadu;x
-2032;16;245;155;Malenadu;x
+2032;16;245;155;Malenadu;x#tsenla
 2033;188;164;69;Savanaur;x
 2034;255;120;0;Pune;x
 2035;81;148;103;Gulbarga;x
-2036;156;172;45;Baglana;x
+2036;156;172;45;Baglana;x#shamorgath
 2037;205;119;117;Warangal;x
 2038;213;157;165;Midnapore;x
-2039;213;242;165;Sunderbans;x
+2039;213;242;165;Sunderbans;x#esxar
 2040;84;237;87;Sadiya;x
 2041;64;189;3;Manipur;x
 2042;246;92;62;Koch Hajo;x
 2043;0;225;69;Balasore;x
 2044;181;16;160;Bhagalpur;x
 2045;53;124;86;Rangpur;x
-2046;193;131;23;Nasirabad;x
+2046;193;131;23;Nasirabad;x#vulikiv
 2047;85;160;133;Tirhut;x
-2048;198;203;170;Garjat;x
+2048;198;203;170;Garjat;x#kemor
 2049;73;18;169;Khurda;x
 2050;184;70;8;Chanda;x
 2051;215;241;160;Bhavnagar;x
-2052;122;234;32;Navanagar;x
+2052;122;234;32;Navanagar;x#susmemero
 2053;225;142;66;Patan;x
 2054;156;201;151;Ahmadabad;x
 2055;156;201;221;Gorakhpur;x
@@ -2058,54 +2058,54 @@ province;red;green;blue;x;x
 2057;75;190;64;Bhelsa;x
 2058;231;98;182;Mewar;x
 2059;237;96;10;Kalpi;x
-2060;255;192;227;Upper Doab;x
+2060;255;192;227;Upper Doab;x#viindararyn
 2061;255;192;0;Katehar;x
 2062;193;76;178;Panipat;x
-2063;152;160;243;Etawah;x
+2063;152;160;243;Etawah;x#xalor
 2064;202;218;255;Shekhawati;x
-2065;53;215;217;Batthiana;x
+2065;53;215;217;Batthiana;x#tenub
 2066;116;145;119;Nagaur;x
 2067;212;53;53;Gorwar;x
 2068;72;225;192;Siwistan;x
 2069;187;154;212;Kumaon;x
-2070;123;181;72;Chaubisi Rajas;x
+2070;123;181;72;Chaubisi Rajas;x#termina
 2071;234;189;93;Limbuwan;x
 2072;96;229;237;Bhakkar;x
-2073;154;192;44;Baltistan;x
+2073;154;192;44;Baltistan;x#wismo
 2074;151;175;205;Ladakh;x
 2075;0;18;255;Doaba;x
 2076;0;194;255;Sialkot;x
 2077;224;140;221;Margalla;x
-2078;32;140;221;Bannu;x
+2078;32;140;221;Bannu;x#saassano
 2079;132;140;221;Dera Ghazi Khan;x
 2080;219;108;9;Srikakulam;x
-2081;142;80;134;Lakhnor;x
+2081;142;80;134;Lakhnor;x#vulikiv
 2082;17;138;94;Raipur;x
 2083;205;86;82;Kosta;x
-2084;193;0;241;Konaseema;x
+2084;193;0;241;Konaseema;x#terisnor
 2085;161;165;225;Tiruchirapalli;x
-2086;197;225;191;Cholistan;x
+2086;197;225;191;Cholistan;x#perimia
 2087;224;213;178;Ajmer;x
 2088;66;156;186;Umarkot;x
 2089;81;142;66;Chaul;x
 2090;154;52;179;Rayalaseema;x
 2091;145;33;11;Tripura;x
 2092;170;185;212;Mahadeo;x
-2093;230;190;64;Mandsaur;x
+2093;230;190;64;Mandsaur;x#pulora
 2094;78;155;191;Bahreich;x
 2095;222;94;94;Varanasi;x
 2096;210;243;194;Damin;x
 2097;95;101;222;Baghelkhand;x
-2098;148;136;138;Surguja;x
+2098;148;136;138;Surguja;x#teris
 2099;193;207;44;Kandy;x
 2100;195;123;121;Vanni;x
 2101;186;239;22;Tirunelveli;x
-2102;215;191;26;Urkan;x
+2102;215;191;26;Urkan;x#kerandarayn
 2103;103;132;224;Udi;x
 2104;104;136;64;Birija;x
 2105;105;148;160;Kuru;x
 2106;105;162;80;Furdan;x
-2107;104;158;240;Ningguta;x
+2107;104;158;240;Ningguta;x#huras
 2108;100;98;144;Huncun;x
 2109;100;90;80;Boduna;x
 2110;99;86;240;Yehe;x
@@ -2113,7 +2113,7 @@ province;red;green;blue;x;x
 2112;115;210;143;Andong;x
 2113;193;133;132;Gaizhou;x
 2114;106;172;160;Ereen;x
-2115;107;180;224;Chahar;x
+2115;107;180;224;Chahar;x#kemonina
 2116;108;206;240;Ih Huree;x
 2117;219;224;124;Zasagt;x
 2118;116;102;240;Urzhar;x
@@ -2125,7 +2125,7 @@ province;red;green;blue;x;x
 2124;115;78;240;Yarkand;x
 2125;115;86;112;Kochkor;x
 2126;155;139;47;Chuy;x
-2127;115;82;80;Yashilkul;x
+2127;115;82;80;Yashilkul;x#semiol
 2128;123;184;128;Ngari;x
 2129;122;174;240;Changtang;x
 2130;121;152;64;Nyingchi;x
@@ -2133,7 +2133,7 @@ province;red;green;blue;x;x
 2132;119;138;144;Markam;x
 2133;118;126;240;Dege;x
 2134;119;120;192;Rebgong;x
-2135;118;130;80;Garze;x
+2135;118;130;80;Garze;x#lorla
 2136;124;210;144;Xuanhua;x
 2137;143;75;75;Daming;x
 2138;86;118;240;Wuding;x
@@ -2141,7 +2141,7 @@ province;red;green;blue;x;x
 2140;238;254;148;Yanzhou;x
 2141;107;218;111;Xuzhou;x
 2142;84;80;128;Huai'an;x
-2143;190;53;53;Fengyang;x
+2143;190;53;53;Fengyang;x#demina
 2144;82;62;176;Fuyang;x
 2145;185;51;51;Zhenjiang;x
 2146;185;197;39;Ningguo;x
@@ -2154,7 +2154,7 @@ province;red;green;blue;x;x
 2153;67;84;112;Tingzhou;x
 2154;233;216;92;Kelang;x
 2155;97;44;96;Middag;x
-2156;146;81;81;Chaochow;x
+2156;146;81;81;Chaochow;x#garumor
 2157;65;52;224;Waichow;x
 2158;65;46;176;Shiukwan;x
 2159;64;44;160;Leichow;x

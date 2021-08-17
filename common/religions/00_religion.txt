@@ -33,7 +33,7 @@ christian = {
 			advisor_pool = 1
 		}
 		
-		hre_religion = yes
+		
 		
 		on_convert = {
 			change_religion = catholic
@@ -656,6 +656,8 @@ christian = {
 		province = {
 			local_missionary_strength = -0.01
 		}
+		
+		hre_religion = yes
 		
 		
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }

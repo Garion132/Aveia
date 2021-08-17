@@ -19,3 +19,4 @@ NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.1
 
 NDefines.NAI.MIN_CAV_PERCENTAGE = 0
 NDefines.NAI.MAX_CAV_PERCENTAGE = 20
+NDefines.NCountry.MAX_PROVINCES_FOR_FREE_CITY = 2		-- A free city cannot have more provinces than this

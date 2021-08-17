@@ -1,0 +1,34 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = rake
+religion = orthodox
+technology_group = western
+capital = 2040 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1240.9.16 = {
+	monarch = {
+		name = "Vadalor"
+		dynasty = "Vulikiv"
+		birth_date = 336.5.9
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+}

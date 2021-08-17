@@ -187,7 +187,7 @@ is_possible_hre_province = {
 		potential = {
 		}
 		allow = {
-			always = no
+			continent = aveia
 		}
 	}
 }

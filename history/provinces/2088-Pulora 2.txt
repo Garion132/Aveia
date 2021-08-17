@@ -1,0 +1,16 @@
+#Pulora 
+
+add_core = PUL
+owner = PUL
+controller = PUL
+culture = aviean_gold_kolbold
+religion = orthodox
+hre = yes
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = grain
+capital = "Sal"
+is_city = yes
+discovered_by = western
+extra_cost = 0

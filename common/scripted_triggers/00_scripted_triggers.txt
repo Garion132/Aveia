@@ -507,6 +507,9 @@ was_never_end_game_tag_trigger = {	#Country Scope
 }
 
 
+was_never_german_regional_tag_trigger = {	#Country Scope
+	always = yes
+}
 has_manufactory_trigger = { #Province Scope
 	custom_trigger_tooltip = {
 		tooltip = has_manufactory_trigger_tooltip
@@ -961,6 +964,10 @@ will_leave_for_shadow_kingdom_trigger = {
 	always = no
 }
 
+is_germanic_but_not_swamp = {
+}
+is_germanic_but_not_mountains = {
+}
 #province scope; checks it is highest or joint highest supply limit in the area owned by you (useful for spawning rebels)
 highest_supply_limit_in_area = {
 	NOT = {

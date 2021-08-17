@@ -12,7 +12,7 @@ aveia_superregion = { #the "west", around the great sea
 	craine_islands
 	dreghei_region
 	chaunluma_region
-	
+	vulkivian_region
 	
 }
 elteria_superregion={

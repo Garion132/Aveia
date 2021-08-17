@@ -1,0 +1,4 @@
+# Holy Roman Empire
+HLR = {
+	always = no
+}
