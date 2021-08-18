@@ -21,11 +21,11 @@ country_event = {
 				RELIGION = essarania
 			}
 		}
-		is_year = 1668
+		is_year = 1660
 	}
 	
 	mean_time_to_happen = {
-		months = 6
+		months = 50
 	}
 
 	option = {
@@ -93,7 +93,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 6
+		months = 18
 		modifier = {
 			factor = 0.9
 			culture_group = ugluk
@@ -158,13 +158,14 @@ country_event = {
 			can_have_center_of_reformation_trigger = {
 				RELIGION = seriaralia
 			}
+			has_port = yes
 		}
 		is_religion_enabled = essarania
 		religion_years = { essarania = 3 }
 	}
 	
 	mean_time_to_happen = {
-		months = 6
+		months = 18
 		modifier = {
 			factor = 0.9
 			capital_scope={
@@ -186,6 +187,7 @@ country_event = {
 				can_have_center_of_reformation_trigger = {
 					RELIGION = seriaralia
 				}
+				has_port = yes
 			}
 			change_religion = seriaralia
 			add_reform_center = seriaralia
@@ -228,9 +230,12 @@ country_event = {
 				region = craine_islands
 				region = otrcyueg_region
 			}
+			can_have_center_of_reformation_trigger = {
+				RELIGION = umesedilism
+			}
 		}
 		is_religion_enabled = essarania
-		religion_years = { essarania = 15 }
+		religion_years = { essarania = 10 }
 	}
 	
 	mean_time_to_happen = {
@@ -242,9 +247,9 @@ country_event = {
 		enable_religion = umesedilism
 		random_owned_province = {
 			limit = {
-				# can_have_center_of_reformation_trigger = {
-					# RELIGION = umesedilism
-				# }
+				can_have_center_of_reformation_trigger = {
+					RELIGION = umesedilism
+				}
 				OR={
 					region = craine_islands
 					region = otrcyueg_region
@@ -306,7 +311,7 @@ country_event = {
 			}
 		}
 		is_religion_enabled = essarania
-		religion_years = { essarania = 3 }
+		religion_years = { essarania = 15 }
 	}
 	
 	mean_time_to_happen = {
@@ -377,6 +382,181 @@ country_event = {
 		988 = {
 			change_religion = cult_progress
 			add_reform_center = cult_progress
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+	}
+}
+
+# progress in gulba
+country_event = {
+	id = solar_crisis_event.7
+	title = solar_crisis_event.7.t
+	desc = solar_crisis_event.7.d
+	
+	
+	major = yes
+	
+	trigger = {
+		is_religion_enabled = cult_progress
+		# capital_scope = {#does not need to be in aveia
+			# continent = aveia
+		# }
+		owns = 1743
+		1743 = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = cult_progress
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+
+	option = {
+		name = solar_crisis_event.7.a
+		1743 = {
+			change_religion = cult_progress
+			add_reform_center = cult_progress
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+	}
+}
+# progress in ryamyueg
+country_event = {
+	id = solar_crisis_event.8
+	title = solar_crisis_event.8.t
+	desc = solar_crisis_event.8.d
+	
+	
+	major = yes
+	
+	trigger = {
+		is_religion_enabled = cult_progress
+		# capital_scope = {#does not need to be in aveia
+			# continent = aveia
+		# }
+		owns = 1320
+		1320 = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = cult_progress
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+
+	option = {
+		name = solar_crisis_event.8.a
+		1320 = {
+			change_religion = cult_progress
+			add_reform_center = cult_progress
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+	}
+}
+
+# SOH - plea of the sea
+country_event = {
+	id = solar_crisis_event.9
+	title = solar_crisis_event.9.t
+	desc = solar_crisis_event.9.d
+	
+	
+	major = yes
+	
+	trigger = {
+		is_religion_enabled = seriaralia
+		# capital_scope = {#does not need to be in aveia
+			# continent = aveia
+		# }
+		tag = SOH
+	}
+	
+	mean_time_to_happen = {
+		months = 22
+	}
+
+	option = {#back him
+		name = solar_crisis_event.9.a
+		change_religion = seriaralia
+		if={
+			limit = {
+				owns = 1715
+				1715 = {
+					can_have_center_of_reformation_trigger = {
+						RELIGION = seriaralia
+					}
+				}
+			}
+			1715 = {
+				change_religion = seriaralia
+				add_reform_center = seriaralia
+				add_permanent_province_modifier = {
+					name = "religious_zeal_at_conv"
+					duration = 9000
+				}
+			}
+			capital_scope = {
+				change_religion = seriaralia
+				add_permanent_province_modifier = {
+					name = "religious_zeal_at_conv"
+					duration = 9000
+				}
+			}
+		}
+		else={
+			if = {
+				limit = {
+					capital_scope = {
+						can_have_center_of_reformation_trigger = {
+							RELIGION = seriaralia
+						}
+					}
+				}
+				capital_scope = {
+					change_religion = seriaralia
+					add_reform_center = seriaralia
+					add_permanent_province_modifier = {
+						name = "religious_zeal_at_conv"
+						duration = 9000
+					}
+				}
+			}
+			else = {
+				random_owned_province = {
+					limit = {
+						can_have_center_of_reformation_trigger = {
+							RELIGION = seriaralia
+						}
+					}
+					change_religion = seriaralia
+					add_reform_center = seriaralia
+					add_permanent_province_modifier = {
+						name = "religious_zeal_at_conv"
+						duration = 9000
+					}
+				}
+			}
+		}
+		
+	}
+	option = {#stay loyal
+		name = solar_crisis_event.9.b
+		1715={
+			change_religion = seriaralia
+			add_reform_center = seriaralia
 			add_permanent_province_modifier = {
 				name = "religious_zeal_at_conv"
 				duration = 9000

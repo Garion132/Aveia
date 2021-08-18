@@ -1,0 +1,36 @@
+namespace = vulkiv_empire_events
+
+
+
+#########################################################
+#	        death of vadalor		#
+#########################################################
+country_event = {
+	id = vulkiv_empire_events.1
+	title = vulkiv_empire_events.1.t
+	desc = vulkiv_empire_events.1.d
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		tag = VUL
+		OR={
+			NOT={has_ruler = "Vadalor"}
+			is_year = 1458
+		}
+		NOT={has_global_flag = vadalor_dead}
+	}
+	immediate ={
+		set_global_flag = vadalor_dead
+		enable_religion = rethese
+	}
+	
+	option = {
+		name = "EVTOPTA9600" # the strongest is dead
+		if={
+			limit={
+				has_ruler = "Vadalor"
+			}
+			kill_ruler = yes
+		}
+	}
+}

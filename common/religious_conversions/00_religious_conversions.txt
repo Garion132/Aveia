@@ -88,7 +88,7 @@ essarania_center_of_reformation = {
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 2
+	base_conversion_speed = 3
 
 	target_province_weights = {
 		factor = 2
@@ -100,6 +100,10 @@ essarania_center_of_reformation = {
 		modifier = {
 			factor = 0
 			is_empty = yes
+		}
+		modifier = {
+			factor = 1.2
+			religion = tlaulunorist
 		}
 		modifier = {
 			factor = 0
@@ -147,7 +151,7 @@ umesedilism_center_of_reformation = {
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 200.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 2
+	base_conversion_speed = 3
 
 	target_province_weights = {
 		factor = 2
@@ -187,6 +191,10 @@ umesedilism_center_of_reformation = {
 			}
 		}
 		modifier = {
+			factor = 1.2
+			religion = tlaulunorist
+		}
+		modifier = {
 			factor = 1.5
 			culture_group = FROM
 		}
@@ -205,7 +213,7 @@ muthilian_center_of_reformation = {
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 2
+	base_conversion_speed = 3
 
 	target_province_weights = {
 		factor = 2
@@ -245,6 +253,10 @@ muthilian_center_of_reformation = {
 			}
 		}
 		modifier = {
+			factor = 1.2
+			religion = tlaulunorist
+		}
+		modifier = {
 			factor = 1.5
 			culture_group = FROM
 		}
@@ -264,7 +276,7 @@ seriaralia_center_of_reformation = {
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 2
+	base_conversion_speed = 3
 
 	target_province_weights = {
 		factor = 2
@@ -304,6 +316,10 @@ seriaralia_center_of_reformation = {
 			}
 		}
 		modifier = {
+			factor = 1.2
+			religion = tlaulunorist
+		}
+		modifier = {
 			factor = 1.5
 			culture_group = FROM
 		}
@@ -323,7 +339,7 @@ cult_progress_center_of_reformation = {
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 200.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 3
+	base_conversion_speed = 4
 
 	target_province_weights = {
 		factor = 2
@@ -350,7 +366,13 @@ cult_progress_center_of_reformation = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion_group = tlaulunorism }
+			OR={
+				NOT = { religion_group = tlaulunorism }
+				AND={
+					religion_group = rake_group
+					has_global_flag = vadalor_dead
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -361,6 +383,10 @@ cult_progress_center_of_reformation = {
 			owner = {
 				religion = cult_progress
 			}
+		}
+		modifier = {
+			factor = 1.2
+			religion = tlaulunorist
 		}
 		modifier = {
 			factor = 1.5
@@ -382,7 +408,7 @@ eternal_sun_center_of_reformation = {
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 3
+	base_conversion_speed = 4
 
 	target_province_weights = {
 		factor = 2
@@ -409,7 +435,13 @@ eternal_sun_center_of_reformation = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion_group = tlaulunorism }
+			OR={
+				NOT = { religion_group = tlaulunorism }
+				AND={
+					religion_group = rake_group
+					has_global_flag = vadalor_dead
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -420,6 +452,10 @@ eternal_sun_center_of_reformation = {
 			owner = {
 				religion = eternal_sun
 			}
+		}
+		modifier = {
+			factor = 1.2
+			religion = tlaulunorist
 		}
 		modifier = {
 			factor = 1.5

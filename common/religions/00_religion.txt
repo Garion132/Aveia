@@ -83,8 +83,6 @@ tlaulunorism = {
 			idea_cost = -0.1
 		}
 		
-		hre_heretic_religion = yes
-		
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
 				can_have_center_of_reformation_trigger = {
@@ -307,8 +305,11 @@ tlaulunorism = {
 		
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = seriaralia
+				OR={
+					can_have_center_of_reformation_trigger = {
+						RELIGION = seriaralia
+					}
+					province_id = 1715
 				}
 			}
 		}
@@ -639,7 +640,67 @@ tlaulunorism = {
 	crusade_name = CRUSADE
 }
 
+rake_group = {
 
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 58 80 }
+	
+	can_form_personal_unions = yes
+
+	vulikivite = { #
+		color = { 250 189 114 }
+		icon = 10
+		allowed_conversion = {
+			rethese
+		}
+		country = {
+			tolerance_heretic = 2
+			advisor_cost = -0.1
+		}
+		country_as_secondary = {
+			development_cost = -0.1
+			diplomats = 1
+		}
+		
+		hre_religion = yes
+		
+		heretic = { FOG_FATHER }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
+	
+	rethese = { #
+		color = { 213 185 128 }
+		icon = 9
+		country = {
+			tolerance_heretic = 2
+			advisor_cost = -0.1
+		}
+		country_as_secondary = {
+			development_cost = -0.1
+			diplomats = 1
+		}
+		on_convert = {
+			change_religion = rethese
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		hre_heretic_religion = yes
+		
+		heretic = { FOG_FATHER }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+		date = 1458.6.15
+		
+	}
+}
 
 
 
@@ -1315,8 +1376,6 @@ christian = {
 		province = {
 			local_missionary_strength = -0.01
 		}
-		
-		hre_religion = yes
 		
 		
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
