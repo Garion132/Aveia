@@ -6,7 +6,7 @@
 
 namespace = prices
 
-# Raining Ash
+# Raining Ash	
 country_event = {
 	id = prices.100
 	title = prices.100.t
