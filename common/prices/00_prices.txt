@@ -158,6 +158,13 @@ bryrine = {
 	base_price = 3
 }
 
+marble = {
+	base_price = 4
+}
+ceramics = {
+	base_price = 3
+}
+
 unknown = {
 	base_price = 0
 }

@@ -1609,6 +1609,71 @@ bryrine = {
 	}
 }
 
+#Marble/Ceramics
+
+ceramics = {
+	color = { 0.8 0.54 0.18 }
+	modifier = {
+		legitimacy = 0.25
+		devotion = 0.25
+		horde_unity = 0.25
+		republican_tradition = 0.12
+		meritocracy = 0.1
+	}
+	province = {
+		local_autonomy = -0.1
+	}
+
+	chance = {
+		factor = 15
+		modifier = {
+			factor = 0
+			NOT = { development = 8 }
+		}
+		modifier = {
+			factor = 2
+			development = 12
+		}
+	}
+}
+
+marble = {
+	color = { 0.18 0.57 0.8 }
+	modifier = {
+		development_cost = -0.05
+	}
+	province = {
+		local_development_cost = -0.1
+	}
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = steppe
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = drylands
+				has_terrain = grasslands
+				has_terrain = savannah
+				has_terrain = coastline
+				has_terrain = glacier
+				has_terrain = jungle
+				has_terrain = farmlands
+				has_terrain = woods
+			}
+		}
+		modifier = {
+			factor = 1.2
+			is_random_new_world = yes
+			OR = {
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
+	}
+}
+
 unknown = {
 	color = { 0.5 0.5 0.5 }
 }

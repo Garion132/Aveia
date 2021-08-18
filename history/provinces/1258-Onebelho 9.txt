@@ -1,4 +1,7 @@
 #Onebelho
+latent_trade_goods = {
+    coal
+}
 
 add_core = ONE
 owner = ONE
@@ -9,7 +12,7 @@ hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 3
-trade_goods = wool
+trade_goods = ceramics
 capital = "One 3"
 is_city = yes
 discovered_by = western

@@ -1,4 +1,7 @@
 #Ryamyueg
+latent_trade_goods = {
+	coal
+}
 
 add_core = RYA
 owner = RYA
@@ -7,9 +10,9 @@ culture = dregheian
 religion = tlaulunorist
 hre = no
 base_tax = 3
-base_production =4
-base_manpower = 4
-trade_goods = cloth
+base_production =5
+base_manpower = 5
+trade_goods = ceramics
 capital = "Rya 3"
 is_city = yes
 discovered_by = western

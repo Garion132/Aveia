@@ -1,4 +1,7 @@
 #Boluroya
+latent_trade_goods = {
+    coal
+}
 
 add_core = BOL
 owner = BOL

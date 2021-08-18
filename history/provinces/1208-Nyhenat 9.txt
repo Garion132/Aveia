@@ -1,4 +1,7 @@
 #Nyhenat
+latent_trade_goods = {
+    coal
+}
 
 add_core = NYH
 owner = NYH

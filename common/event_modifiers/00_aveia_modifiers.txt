@@ -31,6 +31,9 @@ kushedean_lighthouse = {
 	local_institution_spread = 0.5
 	naval_forcelimit = 3
 }
+dreghei_mines = {
+	trade_goods_size_modifier = 0.25
+}
 
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.
