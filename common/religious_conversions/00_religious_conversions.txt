@@ -37,14 +37,6 @@ propagate_religion_policy = {
 			has_province_modifier = religious_zeal_at_conv
 		}
 		modifier = {
-			factor = 0
-			OR = {
-				religion_group = muslim
-				religion_group = christian
-				religion_group = jewish_group
-			}
-		}
-		modifier = {
 			factor = 0.25
 			has_port = no
 		}
@@ -88,6 +80,377 @@ propagate_religion_policy = {
 # Centers of Reformation
 # From Scope is center of Reformation Province
 # Will only target provinces on same continent
+
+essarania_center_of_reformation = {
+
+	religion = essarania
+	
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 2
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 80 # Rome, seat of Papacy
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion_group = tlaulunorism }
+		}
+		modifier = {
+			factor = 0
+			NOT = { continent = FROM }
+		}
+		modifier = {
+			factor = 1.5
+			owner = {
+				religion = essarania
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+			development = 10
+			NOT = { num_of_centers_of_reformation = { religion = essarania count = 2 } }
+		}	
+	}
+}
+
+umesedilism_center_of_reformation = {
+
+	religion = umesedilism
+	
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 200.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 2
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 80 # Rome, seat of Papacy
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion_group = tlaulunorism }
+		}
+		modifier = {
+			factor = 0
+			NOT = { continent = FROM }
+		}
+		modifier = {
+			factor = 1.5
+			owner = {
+				religion = umesedilism
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+			development = 10
+			NOT = { num_of_centers_of_reformation = { religion = umesedilism count = 2 } }
+		}	
+	}
+}
+muthilian_center_of_reformation = {
+
+	religion = muthilian
+	
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 2
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 80 # Rome, seat of Papacy
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion_group = tlaulunorism }
+		}
+		modifier = {
+			factor = 0
+			NOT = { continent = FROM }
+		}
+		modifier = {
+			factor = 1.5
+			owner = {
+				religion = muthilian
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+			development = 10
+			NOT = { num_of_centers_of_reformation = { religion = muthilian count = 2 } }
+		}	
+	}
+}
+
+seriaralia_center_of_reformation = {
+
+	religion = seriaralia
+	
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 2
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 80 # Rome, seat of Papacy
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion_group = tlaulunorism }
+		}
+		modifier = {
+			factor = 0
+			NOT = { continent = FROM }
+		}
+		modifier = {
+			factor = 1.5
+			owner = {
+				religion = seriaralia
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+			development = 10
+			NOT = { num_of_centers_of_reformation = { religion = seriaralia count = 2 } }
+		}	
+	}
+}
+
+cult_progress_center_of_reformation = {
+
+	religion = cult_progress
+	
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 200.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 3
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 80 # Rome, seat of Papacy
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion_group = tlaulunorism }
+		}
+		modifier = {
+			factor = 0
+			NOT = { continent = FROM }
+		}
+		modifier = {
+			factor = 1.5
+			owner = {
+				religion = cult_progress
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+			development = 10
+			NOT = { num_of_centers_of_reformation = { religion = cult_progress count = 2 } }
+		}	
+	}
+}
+
+eternal_sun_center_of_reformation = {
+
+	religion = eternal_sun
+	
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 3
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 80 # Rome, seat of Papacy
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion_group = tlaulunorism }
+		}
+		modifier = {
+			factor = 0
+			NOT = { continent = FROM }
+		}
+		modifier = {
+			factor = 1.5
+			owner = {
+				religion = eternal_sun
+			}
+		}
+		modifier = {
+			factor = 1.5
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+			development = 10
+			NOT = { num_of_centers_of_reformation = { religion = eternal_sun count = 2 } }
+		}	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 hussite_center_of_reformation = {
 	

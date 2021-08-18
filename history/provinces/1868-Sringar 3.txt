@@ -20,6 +20,6 @@ discovered_by = western
 	controller = SAL
 	is_city = yes
 	culture = kyathian
-	religion = orthodox
+	religion = tlaulunorist
 	trade_goods = grain
 }

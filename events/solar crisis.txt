@@ -1,0 +1,386 @@
+namespace = solar_crisis_event
+
+# Tlaulunore is found dead
+country_event = {
+	id = solar_crisis_event.1
+	title = solar_crisis_event.1.t
+	desc = solar_crisis_event.1.d
+	
+	
+	major = yes
+	
+	trigger = {
+		NOT = { is_religion_enabled = essarania }
+		religion = tlaulunorist
+		is_defender_of_faith = no	
+		capital_scope = {
+			continent = aveia
+		}
+		any_owned_province = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = essarania
+			}
+		}
+		is_year = 1668
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = solar_crisis_event.1.a
+		enable_religion = essarania#the three main successors start fighting
+		random_owned_province = {
+			limit = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = essarania
+				}
+			}
+			change_religion = essarania
+			add_reform_center = essarania
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+			if = {
+				limit = {
+					NOT = { is_capital = yes }
+				}
+				root = {
+					capital_scope = {
+						change_religion = essarania
+						add_permanent_province_modifier = {
+							name = "religious_zeal_at_conv"
+							duration = 9000
+						}
+					}
+				}
+			}
+		}
+		set_country_flag = "death_of_tlaulunore" 
+	}
+}
+# muthilian splits
+country_event = {
+	id = solar_crisis_event.2
+	title = solar_crisis_event.2.t
+	desc = solar_crisis_event.2.d
+	
+	
+	major = yes
+	
+	trigger = {
+		NOT = { is_religion_enabled = muthilian }
+		OR={
+			religion = tlaulunorist
+			AND={
+				religion = essarania
+				has_friendly_reformation_center = no
+			}
+		}
+		is_defender_of_faith = no
+		capital_scope = {
+			continent = aveia
+		}
+		any_owned_province = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = muthilian
+			}
+		}
+		is_religion_enabled = essarania
+		religion_years = { essarania = 3 }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.9
+			culture_group = ugluk
+		}
+	}
+
+	option = {
+		name = solar_crisis_event.2.a
+		enable_religion = muthilian
+		random_owned_province = {
+			limit = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = muthilian
+				}
+			}
+			change_religion = muthilian
+			add_reform_center = muthilian
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+			if = {
+				limit = {
+					NOT = { is_capital = yes }
+				}
+				root = {
+					capital_scope = {
+						change_religion = muthilian
+						add_permanent_province_modifier = {
+							name = "religious_zeal_at_conv"
+							duration = 9000
+						}
+					}
+				}
+			}
+		}
+	}
+}
+# seriaralia splits
+country_event = {
+	id = solar_crisis_event.3
+	title = solar_crisis_event.3.t
+	desc = solar_crisis_event.3.d
+	
+	
+	major = yes
+	
+	trigger = {
+		NOT = { is_religion_enabled = seriaralia }
+		OR={
+			religion = tlaulunorist
+			AND={
+				religion = essarania
+				has_friendly_reformation_center = no
+			}
+		}
+		is_defender_of_faith = no
+		capital_scope = {
+			continent = aveia
+		}
+		any_owned_province = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = seriaralia
+			}
+		}
+		is_religion_enabled = essarania
+		religion_years = { essarania = 3 }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.9
+			capital_scope={
+				region = chaunluma_region
+			}
+			culture_group = lake_elf
+		}
+		modifier = {
+			factor = 0.9
+			tag = KAF
+		}
+	}
+
+	option = {
+		name = solar_crisis_event.3.a
+		enable_religion = seriaralia
+		random_owned_province = {
+			limit = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = seriaralia
+				}
+			}
+			change_religion = seriaralia
+			add_reform_center = seriaralia
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+			if = {
+				limit = {
+					NOT = { is_capital = yes }
+				}
+				root = {
+					capital_scope = {
+						change_religion = seriaralia
+						add_permanent_province_modifier = {
+							name = "religious_zeal_at_conv"
+							duration = 9000
+						}
+					}
+				}
+			}
+		}
+	}
+}
+# revert to umesedilism
+country_event = {
+	id = solar_crisis_event.4
+	title = solar_crisis_event.4.t
+	desc = solar_crisis_event.4.d
+	
+	
+	major = yes
+	
+	trigger = {
+		NOT = { is_religion_enabled = umesedilism }
+		religion_group = tlaulunorism
+		is_defender_of_faith = no
+		any_owned_province = {
+			OR={
+				region = craine_islands
+				region = otrcyueg_region
+			}
+		}
+		is_religion_enabled = essarania
+		religion_years = { essarania = 15 }
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+	}
+
+	option = {
+		name = solar_crisis_event.4.a
+		enable_religion = umesedilism
+		random_owned_province = {
+			limit = {
+				# can_have_center_of_reformation_trigger = {
+					# RELIGION = umesedilism
+				# }
+				OR={
+					region = craine_islands
+					region = otrcyueg_region
+				}
+			}
+			change_religion = umesedilism
+			add_reform_center = umesedilism
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+			if = {
+				limit = {
+					NOT = { is_capital = yes }
+				}
+				root = {
+					capital_scope = {
+						change_religion = umesedilism
+						add_permanent_province_modifier = {
+							name = "religious_zeal_at_conv"
+							duration = 9000
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = solar_crisis_event.4.a
+		add_prestige = 50
+	}
+}
+
+# god is dead, time for progress
+country_event = {
+	id = solar_crisis_event.5
+	title = solar_crisis_event.5.t
+	desc = solar_crisis_event.5.d
+	
+	
+	major = yes
+	
+	trigger = {
+		NOT = { is_religion_enabled = cult_progress }
+		OR={
+			religion = tlaulunorist
+			AND={
+				religion = essarania
+				has_friendly_reformation_center = no
+			}
+		}
+		is_defender_of_faith = no
+		# capital_scope = {#does not need to be in aveia
+			# continent = aveia
+		# }
+		any_owned_province = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = cult_progress
+			}
+		}
+		is_religion_enabled = essarania
+		religion_years = { essarania = 3 }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = solar_crisis_event.5.a
+		enable_religion = cult_progress
+		random_owned_province = {
+			limit = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = cult_progress
+				}
+			}
+			change_religion = cult_progress
+			add_reform_center = cult_progress
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+			if = {
+				limit = {
+					NOT = { is_capital = yes }
+				}
+				root = {
+					capital_scope = {
+						change_religion = cult_progress
+						add_permanent_province_modifier = {
+							name = "religious_zeal_at_conv"
+							duration = 9000
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# progress in elesilon
+country_event = {
+	id = solar_crisis_event.6
+	title = solar_crisis_event.6.t
+	desc = solar_crisis_event.6.d
+	
+	
+	major = yes
+	
+	trigger = {
+		is_religion_enabled = cult_progress
+		# capital_scope = {#does not need to be in aveia
+			# continent = aveia
+		# }
+		owns = 988
+		988 = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = cult_progress
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = solar_crisis_event.6.a
+		988 = {
+			change_religion = cult_progress
+			add_reform_center = cult_progress
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+	}
+}

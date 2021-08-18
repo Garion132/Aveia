@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = edailian
-religion = orthodox
+religion = tlaulunorist
 technology_group = western
 capital = 538 # Iwenlumy
 #national_focus = DIP

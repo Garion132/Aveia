@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = rake
-religion = orthodox
+religion = tlaulunorist
 technology_group = western
 capital = 2083 # 
 #national_focus = DIP

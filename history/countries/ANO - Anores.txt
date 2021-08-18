@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = kyathian
-religion = orthodox
+religion = tlaulunorist
 technology_group = western
 capital = 91 # Tlind
 #national_focus = DIP

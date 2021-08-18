@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = dregheian
-religion = orthodox
+religion = tlaulunorist
 technology_group = western
 capital = 1222 # 
 #national_focus = DIP
