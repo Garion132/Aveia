@@ -94,7 +94,7 @@ technology = {
 
 technology = {
 	# Tech 8
-	year = 1505
+	year = 1326
 	
 	#Logistics
 	supply_limit = 0.25
@@ -104,7 +104,7 @@ technology = {
 technology = {
 	# Tech 9
 	
-	year = 1352
+	year = 1339
 	
 	#Orbury Bow
 	infantry_fire = 0.2
@@ -114,7 +114,7 @@ technology = {
 
 technology = {
 	# Tech 10
-	year = 1365
+	year = 1352
 	
 	#Double-Handed Pike
 	maneuver_value = 0.25
