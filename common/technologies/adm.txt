@@ -9,7 +9,7 @@ ahead_of_time = {
 # Pre-era techs
 technology = { #Tribal Government
 	# Tech 0
-	year = 1250
+	year = 1222
 	
 	tribal_despotism_legacy = yes 	
 	tribal_federation_legacy = yes 
@@ -28,7 +28,7 @@ technology = { #Tribal Government
 
 technology = { #Advanced Tribes
 	# Tech 1
-	year = 1290
+	year = 1235
 	
 	tribal_democracy_legacy = yes
 	tribal_kingdom_legacy = yes
@@ -36,7 +36,7 @@ technology = { #Advanced Tribes
 
 technology = { #Feudal Monarchy
 	# Tech 2
-	year = 1320
+	year = 1248
 	
 
 	#Monarchies
@@ -49,7 +49,7 @@ technology = { #Feudal Monarchy
 
 technology = { #Medieval Administration
 	# Tech 3
-	year = 1340
+	year = 1261
 
 	production_efficiency	=	0.02
 	may_support_rebels = yes
@@ -57,7 +57,7 @@ technology = { #Medieval Administration
  
 technology = { #Temples
 	# Tech 4
-	year = 1353
+	year = 1274
 	# Temple
 	temple = yes
 	
@@ -65,7 +65,7 @@ technology = { #Temples
 
 technology = { #National Ideas
 	# Tech 5
-	year = 1366
+	year = 1287
 
 	allowed_idea_groups = 1
 	production_efficiency	 =	0.02
@@ -73,7 +73,7 @@ technology = { #National Ideas
 
 technology = { #Workshop
 	# Tech 6
-	year = 1379
+	year = 1300
 	
 	#Workshop
 	farm_estate = yes
@@ -83,7 +83,7 @@ technology = { #Workshop
 
 technology = { #Renaissance Thought
 	# Tech 7
-	year = 1392
+	year = 1313
 	
 	#Noble Republic
 	allowed_idea_groups = 2	
@@ -92,7 +92,7 @@ technology = { #Renaissance Thought
 technology = { #Courthouse
 	# Tech 8
 
-	year = 1405
+	year = 1326
 	courthouse = yes
 	governing_capacity = 100
 
@@ -100,7 +100,7 @@ technology = { #Courthouse
 
 technology = { #The Scythe
 	# Tech 9
-	year = 1418
+	year = 1339
 	
 	#The Scythe
 	production_efficiency 	=	0.02
@@ -110,7 +110,7 @@ technology = { #The Scythe
 
 technology = { #Modern Theocracy
 	# Tech 10
-	year = 1431
+	year = 1352
 	
 	allowed_idea_groups = 3
 	theocratic_government = yes
@@ -118,7 +118,7 @@ technology = { #Modern Theocracy
 
 technology = { #Textile Manufactory
 	# Tech 11
-	year = 1444
+	year = 1365
 	
 	#Textile Manufactory
 	textile = yes  
@@ -127,7 +127,7 @@ technology = { #Textile Manufactory
 
 technology = { #Early Modern Administration
 	# Tech 12
-	year = 1457
+	year = 1378
 	
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
@@ -137,7 +137,7 @@ technology = { #Early Modern Administration
 
 technology = { #Improved Drainage
 	# Tech 13
-	year = 1470
+	year = 1391
 	
 	#Improved Drainage
 	production_efficiency 	=	0.02
@@ -145,7 +145,7 @@ technology = { #Improved Drainage
 
 technology = { #Scientific Experimentation
 	# Tech 14
-	year = 1483
+	year = 1404
 	
 	plantations = yes
 	allowed_idea_groups	= 4
@@ -153,7 +153,7 @@ technology = { #Scientific Experimentation
 
 technology = { #Military Administration
 	# Tech 15
-	year = 1496
+	year = 1417
 	
 	may_force_march = yes
 	soldier_households = yes
@@ -161,7 +161,7 @@ technology = { #Military Administration
 
 technology = { #Metallurgy
 	# Tech 16
-	year = 1509
+	year = 1430
 	
 	mills = yes
 	production_efficiency 	=	0.02
@@ -171,7 +171,7 @@ technology = { #Metallurgy
 
 technology = { #University
 	# Tech 17
-	year = 1522
+	year = 1443
 	
 	university = yes	
 	governing_capacity = 250
@@ -182,14 +182,14 @@ technology = { #University
 
 technology = { #National Sovereignty
 	# Tech 18
-	year = 1535
+	year = 1456
 	
 	allowed_idea_groups	= 5
 }
 
 technology = { #Cathedral
 	# Tech 19
-	year = 1548	
+	year = 1469
 	
 	#Cathedral
 	cathedral = yes
@@ -197,7 +197,7 @@ technology = { #Cathedral
 
 technology = { #Absolute Rulership
 	# Tech 20
-	year = 1561
+	year = 1482
 	
 	republican_dictatorship = yes
 	governing_capacity = 250
@@ -205,7 +205,7 @@ technology = { #Absolute Rulership
 
 technology = { #Land Clearance
 	# Tech 21
-	year = 1574
+	year = 1495
 	
 	#Land Clearance
 	production_efficiency 	=	0.02
@@ -214,7 +214,7 @@ technology = { #Land Clearance
 
 technology = { #The Constitution
 	# Tech 22
-	year = 1587
+	year = 1508
 	
 	allowed_idea_groups = 6
 	constitutional_monarchy = yes
@@ -225,7 +225,7 @@ technology = { #The Constitution
 
 technology = { #Measuring the World
 	# Tech 23
-	year = 1600
+	year = 1521
 	
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1
@@ -233,7 +233,7 @@ technology = { #Measuring the World
 
 technology = { #Bonds and Tontines
 	# Tech 24
-	year = 1615
+	year = 1534
 	
 	counting_house = yes  
 	governing_capacity = 250
@@ -241,7 +241,7 @@ technology = { #Bonds and Tontines
 
 technology = { #Improved Production
 	# Tech 25
-	year = 1630
+	year = 1547
 	
 	#Improved Farm Animals
 	production_efficiency 	=	0.02
@@ -249,14 +249,14 @@ technology = { #Improved Production
 
 technology = { #Separation of Powers
 	# Tech 26
-	year = 1645
+	year = 1560
 	
 	allowed_idea_groups 	= 	7
 }
 
 technology = { #Modern Bureaucracy
 	# Tech 27
-	year = 1660
+	year = 1573
 
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1	
@@ -265,7 +265,7 @@ technology = { #Modern Bureaucracy
 
 technology = { #Rotherham Plough
 	# Tech 28
-	year = 1675
+	year = 1586
 	
 	#Rotherham Plough
 	production_efficiency 	=	0.02
@@ -273,7 +273,7 @@ technology = { #Rotherham Plough
 
 technology = { #Rights of Man
 	# Tech 29
-	year = 1690
+	year = 1599
 	
 	allowed_idea_groups = 8
 	enlightened_despotism = yes
@@ -282,7 +282,7 @@ technology = { #Rights of Man
 
 technology = { #Advanced Production
 	# Tech 30
-	year = 1705
+	year = 1612
 	
 	#Improved Draft Animals
 	production_efficiency 	=	0.02
@@ -290,7 +290,7 @@ technology = { #Advanced Production
 
 technology = { #Revolutionary Ideals
 	# Tech 31
-	year = 1720
+	year = 1625
 	
 	revolutionary_republic = yes
 	revolutionary_empire = yes
@@ -299,7 +299,7 @@ technology = { #Revolutionary Ideals
 
 technology = { #Four Field Rotation
 	# Tech 32
-	year = 1735
+	year = 1638
 	
 	#Four field rotation
 	production_efficiency 	=	0.02
