@@ -15,7 +15,7 @@ native_hostileness = 9
 discovered_by = western
 
 1200.1.1={
-	add_core = ILR
+	add_core = CYU
 	owner = CYU
 	controller = CYU
 	is_city = yes
