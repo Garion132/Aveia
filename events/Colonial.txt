@@ -767,11 +767,10 @@ province_event = {
 		OR = {
 			development = 15
 			has_building = marketplace
-			feudalism = 100
 		}
 		owner = {
 			stability = 1
-			has_institution = feudalism
+			has_institution = organized_state
 		}
 		OR = {
 			continent = new_world

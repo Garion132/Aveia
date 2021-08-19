@@ -368,6 +368,7 @@ tlaulunorism = {
 			umesedilism
 			essarania
 			muthilian
+			vulikivite
 		}
 		country = {
 			global_tax_modifier = 0.1
@@ -441,6 +442,7 @@ tlaulunorism = {
 			umesedilism
 			essarania
 			muthilian
+			vulikivite
 		}
 		country = {
 			global_tax_modifier = 0.1
@@ -681,6 +683,9 @@ rake_group = {
 			development_cost = -0.1
 			diplomats = 1
 		}
+		allowed_center_conversion = {
+			vulikivite
+		}
 		on_convert = {
 			change_religion = rethese
 			add_prestige = -100
@@ -689,7 +694,40 @@ rake_group = {
 				name = "conversion_zeal"
 				duration = 3650
 			}
+			if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = rethese
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = rethese
+							}
+						}
+						change_religion = rethese
+						add_reform_center = rethese
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
 		}
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = rethese
+				}
+			}
+		}
+		
 		
 		hre_heretic_religion = yes
 		

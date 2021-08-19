@@ -520,7 +520,7 @@ exploration_ideas = {
 		}
 		modifier = {
 			factor = 0.1
-			NOT = { has_institution = renaissance }
+			NOT = { has_institution = iron_working }
 		}
 		modifier = {
 			factor = 10

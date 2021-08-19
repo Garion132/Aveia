@@ -360,14 +360,12 @@ country_event = {
 				}
 				1 = {
 					trigger = {
-						NOT = { religion_group = muslim }
 						has_consort = yes
 					}
 					set_country_flag = court_scandal_4
 				}
 				1 = {
 					trigger = {
-						NOT = { religion_group = muslim }
 						NOT = { has_dlc = "Rights of Man" }
 					}
 					set_country_flag = court_scandal_5
@@ -1658,144 +1656,144 @@ country_event = {
 #########################################################
 #		Unhappiness among the clergy	 			 	#
 #########################################################
-country_event = {
-	id = 5050
-	title = "EVTNAME5050"
-	desc = "EVTDESC5050"
-	picture = DEBATE_REPUBLICAN_eventPicture
+# country_event = {
+	# id = 5050
+	# title = "EVTNAME5050"
+	# desc = "EVTDESC5050"
+	# picture = DEBATE_REPUBLICAN_eventPicture
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	trigger = {
-		has_estate = estate_church
-		OR = {
-			religion = catholic
-			religion = orthodox
-			religion_group = muslim
-		}
-		NOT = { tag = PAP }
-	}
+	# trigger = {
+		# has_estate = estate_church
+		# OR = {
+			# religion = catholic
+			# religion = orthodox
+			# religion_group = muslim
+		# }
+		# NOT = { tag = PAP }
+	# }
 
-	mean_time_to_happen = {
-		days = 1
+	# mean_time_to_happen = {
+		# days = 1
 		
-		modifier = {
-			factor = 2.0
-			NOT = { advisor = theologian }
-		}
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			theologian = 3
-		}
-	}
+		# modifier = {
+			# factor = 2.0
+			# NOT = { advisor = theologian }
+		# }
+		# modifier = {
+			# factor = 0.5
+			# luck = yes
+		# }
+		# modifier = {
+			# factor = 0.66
+			# theologian = 3
+		# }
+	# }
 
-	option = {
-		name = "EVTOPTA5050"		# Ignore their Demands.
-		ai_chance = {
-			factor = 55
-			modifier = {
-				factor = 0.5
-				prestige = 90
-			}
-			modifier = {
-				factor = 0
-				has_estate = estate_church
-				NOT = {
-					estate_loyalty = {
-						estate = estate_church
-						loyalty = 30
-					}
-				}
-			}
-		}
-		reduce_estate_church_loyalty_effect = yes
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			add_piety = -0.1
-		}
-		if = {
-			limit = {
-				religion = catholic
-			}
-			add_papal_influence = -10
-		}
-		if = {
-			limit = {
-				religion = orthodox
-			}
-			add_patriarch_authority = -0.1
-		}
-		add_prestige = 10
-	}
-	option = {
-		name = "EVTOPTB5050"		# Agree to their Demands.
-		ai_chance = {
-			factor = 45
-			modifier = {
-				factor = 0.5
-				NOT = { prestige = 0 }
-			}
-		}
-		add_estate_church_loyalty_effect = yes
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			add_piety = 0.2
-		}
-		if = {
-			limit = {
-				religion = catholic
-			}
-			add_papal_influence = 10
-		}
-		if = {
-			limit = {
-				religion = orthodox
-			}
-			add_patriarch_authority = 0.05
-		}
-		add_prestige = -15
-	}
-	option = {
-		name = "personality_options.5050.a"		# Attempt to lessen the impact
-		highlight = yes
-		trigger = { ruler_has_personality = zealot_personality }
-		required_personality = zealot_personality
-		add_estate_church_loyalty_effect = yes
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			add_piety = 0.1
-		}
-		if = {
-			limit = {
-				religion = catholic
-			}
-			add_papal_influence = 5
-		}
-		if = {
-			limit = {
-				religion = orthodox
-			}
-			add_patriarch_authority = 0.025
-		}
-	}
-	option = {
-		name = "personality_options.5050.b"		# Attempt to lessen the impact
-		highlight = yes
-		trigger = { ruler_has_personality = pious_personality }
-		required_personality = pious_personality
-		add_devotion = -5
-	}
-}
+	# option = {
+		# name = "EVTOPTA5050"		# Ignore their Demands.
+		# ai_chance = {
+			# factor = 55
+			# modifier = {
+				# factor = 0.5
+				# prestige = 90
+			# }
+			# modifier = {
+				# factor = 0
+				# has_estate = estate_church
+				# NOT = {
+					# estate_loyalty = {
+						# estate = estate_church
+						# loyalty = 30
+					# }
+				# }
+			# }
+		# }
+		# reduce_estate_church_loyalty_effect = yes
+		# if = {
+			# limit = {
+				# religion_group = muslim
+			# }
+			# add_piety = -0.1
+		# }
+		# if = {
+			# limit = {
+				# religion = catholic
+			# }
+			# add_papal_influence = -10
+		# }
+		# if = {
+			# limit = {
+				# religion = orthodox
+			# }
+			# add_patriarch_authority = -0.1
+		# }
+		# add_prestige = 10
+	# }
+	# option = {
+		# name = "EVTOPTB5050"		# Agree to their Demands.
+		# ai_chance = {
+			# factor = 45
+			# modifier = {
+				# factor = 0.5
+				# NOT = { prestige = 0 }
+			# }
+		# }
+		# add_estate_church_loyalty_effect = yes
+		# if = {
+			# limit = {
+				# religion_group = muslim
+			# }
+			# add_piety = 0.2
+		# }
+		# if = {
+			# limit = {
+				# religion = catholic
+			# }
+			# add_papal_influence = 10
+		# }
+		# if = {
+			# limit = {
+				# religion = orthodox
+			# }
+			# add_patriarch_authority = 0.05
+		# }
+		# add_prestige = -15
+	# }
+	# option = {
+		# name = "personality_options.5050.a"		# Attempt to lessen the impact
+		# highlight = yes
+		# trigger = { ruler_has_personality = zealot_personality }
+		# required_personality = zealot_personality
+		# add_estate_church_loyalty_effect = yes
+		# if = {
+			# limit = {
+				# religion_group = muslim
+			# }
+			# add_piety = 0.1
+		# }
+		# if = {
+			# limit = {
+				# religion = catholic
+			# }
+			# add_papal_influence = 5
+		# }
+		# if = {
+			# limit = {
+				# religion = orthodox
+			# }
+			# add_patriarch_authority = 0.025
+		# }
+	# }
+	# option = {
+		# name = "personality_options.5050.b"		# Attempt to lessen the impact
+		# highlight = yes
+		# trigger = { ruler_has_personality = pious_personality }
+		# required_personality = pious_personality
+		# add_devotion = -5
+	# }
+# }
 
 #########################################################
 #		Unhappiness among the artisans				  	#
@@ -2749,10 +2747,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTH5060"		# Oh comet, devil's kith and kin...
-		trigger = {
-			NOT = { religion_group = pagan }
-		}		
+		name = "EVTOPTH5060"		# Oh comet, devil's kith and kin...	
 		if = {
 			limit = { NOT = { stability = -2 } }
 			add_adm_power = -100
@@ -2762,65 +2757,6 @@ country_event = {
 			add_stability = -1
 		}
 	}		
-}
-
-#########################################################
-#		Saint performs miracle						  	#
-#########################################################
-country_event = {
-	id = 5061
-	title = "EVTNAME5061"
-	desc = "EVTDESC5061"
-	picture = POPE_PREACHING_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		NOT = { is_year = 1700 }
-		religion = catholic
-		NOT = { stability = 2 }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-		
-		modifier = {
-			factor = 2.0
-			NOT = { innovativeness_ideas = 2 }
-		}
-		modifier = {
-			factor = 2.0
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			innovativeness_ideas = 6
-		}
-	}
-
-	option = {
-		name = "EVTOPTA5061"		# We have truly been blessed
-		ai_chance = {
-			factor = 55
-		}
-		add_stability_or_adm_power = yes
-		add_reform_desire = 0.005
-	}
-	option = {
-		name = "EVTOPTB5061"		# Their actions have shown us the true path
-		ai_chance = { factor = 45 }
-		trigger = { NOT = { tag = PAP } }
-		add_papal_influence = 20
-	}
-	option = {
-		name = "personality_options.5061.a"		# Exploit the Pilgrims
-		highlight = yes
-		trigger = { ruler_has_personality = sinner_personality }
-		required_personality = sinner_personality
-		reduce_estate_church_loyalty_effect = yes
-		add_years_of_income = 0.5
-		add_reform_desire = 0.005
-	}
 }
 
 #########################################################
@@ -3025,118 +2961,6 @@ country_event = {
 		add_estate_nobles_loyalty_effect = yes
 	}
 }
-
-#########################################################
-#	Cessation of Church Functions to Nobility			#
-#########################################################
-country_event = {
-	id = 5066
-	title = "EVTNAME5066"
-	desc = "EVTDESC5066"
-	picture = POPE_PREACHING_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		religion = catholic
-		NOT = { has_country_modifier = church_functions }
-		NOT = { tag = PAP }
-		has_estate = estate_nobles
-		has_estate = estate_church
-		estate_territory = {
-			estate = estate_church
-			territory = 10
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-		
-		modifier = {
-			factor = 2.0
-			OR = {
-				num_of_loans = 2
-				is_bankrupt = yes
-			}
-		}
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			advisor = treasurer
-		}
-	}
-
-	option = {
-		name = "EVTOPTA5066"		# Accept
-		ai_chance = {
-			factor = 55
-			modifier = {
-				factor = 0.25
-				has_estate = estate_church
-				NOT = {
-					estate_loyalty = {
-						estate = estate_church
-						loyalty = 30
-					}
-				}
-			}
-		}
-		add_years_of_income = 0.50
-		add_country_modifier = {
-			name = "church_functions"
-			duration = 7300
-		}
-		reduce_estate_church_loyalty_effect = yes
-		add_estate_nobles_loyalty_effect = yes
-		
-		if = {
-			limit = {
-				has_estate = estate_nobles
-				has_estate = estate_church
-			}
-			change_estate_land_share = {
-				estate = estate_church
-				share = -5
-			}
-			change_estate_land_share = {
-				estate = estate_nobles
-				share = 5
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB5066"		# Decline
-		ai_chance = {
-			factor = 45
-			modifier = {
-				factor = 0.25
-				has_estate = estate_nobles
-				NOT = {
-					estate_loyalty = {
-						estate = estate_nobles
-						loyalty = 30
-					}
-				}
-			}
-		}
-		add_stability_or_adm_power = yes
-		add_estate_church_loyalty_effect = yes
-		reduce_estate_nobles_loyalty_effect = yes
-	}
-	option = {
-		name = "personality_options.5066.a"		# The only problem here is that our prices are too low.
-		highlight = yes
-		trigger = { ruler_has_personality = sinner_personality }
-		required_personality = sinner_personality
-		add_years_of_income = 0.65
-		reduce_estate_church_loyalty_effect = yes
-		add_estate_nobles_loyalty_effect = yes
-	}
-}
-
 
 #########################################################
 #		Sale of offices									#
@@ -4263,114 +4087,6 @@ country_event = {
 }
 
 #########################################################
-#		Uncooperative philosopher						#
-#########################################################
-country_event = {
-	id = 5086
-	title = "EVTNAME5086"
-	desc = "EVTDESC5086"
-	picture = ADVISOR_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		advisor = philosopher
-		religion = catholic
-	}
-
-	mean_time_to_happen = {
-		days = 1
-		
-		modifier = {
-			factor = 2.0
-			NOT = { innovativeness_ideas = 3 }
-		}
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			innovativeness_ideas = 4
-		}
-	}
-
-	option = {
-		name = "EVTOPTA5086"		# Imprison
-		ai_chance = {
-			factor = 60
-			modifier = {
-				factor = 0.5
-				NOT = { stability = 1 }
-			}
-		}
-		if = {
-			limit = { NOT = { stability = -2 } }
-			add_adm_power = -100
-		}		
-		if = {
-			limit = { stability = -2 }
-			add_stability = -1
-		}
-		add_estate_church_loyalty_effect = yes
-		remove_advisor_by_category = ADM
-	}
-	option = {
-		name = "EVTOPTB5086"		# Allow him to remain free
-		ai_chance = {
-			factor = 40
-			modifier = {
-				factor = 0.5
-				NOT = { prestige = 50 }
-			}
-			modifier = {
-				factor = 0
-				has_estate = estate_church
-				NOT = {
-					estate_loyalty = {
-						estate = estate_church
-						loyalty = 30
-					}
-				}
-			}
-		}
-		add_prestige = -10
-		reduce_estate_church_loyalty_effect = yes
-		if = {
-			limit = {
-				exists = PAP
-			}
-			PAP = {
-				add_opinion = {
-					who = root
-					modifier = opinion_heretical_philosopher
-				}
-			}
-		}
-	}
-	option = {
-		name = "personality_options.5086.a"		# 
-		highlight = yes
-		trigger = { ruler_has_personality = free_thinker_personality }
-		required_personality = free_thinker_personality
-		add_adm_power = 25
-		add_prestige = -10
-		reduce_estate_church_loyalty_effect = yes
-		if = {
-			limit = {
-				exists = PAP
-			}
-			PAP = {
-				add_opinion = {
-					who = root
-					modifier = opinion_heretical_philosopher
-				}
-			}
-		}
-	}
-}
-
-#########################################################
 #		Merchants harrased								#
 #########################################################
 country_event = {
@@ -4467,96 +4183,6 @@ country_event = {
 			add_opinion = { who = ROOT modifier = opinion_diplomatic_solution }
 		}
 		reduce_estate_burghers_loyalty_effect = yes
-	}
-}
-
-#########################################################
-#		Petition for redress							#
-#########################################################
-country_event = {
-	id = 5089
-	title = "EVTNAME5089"
-	desc = "EVTDESC5089"
-	picture = COURT_eventPicture
-	goto = uppity_peasants_province
-
-	is_triggered_only = yes
-
-	trigger = {
-		religion_group = christian
-		has_estate = estate_nobles
-		any_owned_province = {
-			NOT = { is_colony = yes }
-			NOT = { is_overseas = yes }
-			is_capital = no
-			is_state_core = root
-		}
-	}
-	mean_time_to_happen = {
-		days = 1
-		
-		modifier = {
-			factor = 2.0
-			NOT = { stability = 0 }
-		}
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			adm = 5
-		}
-	}
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					NOT = { is_colony = yes }
-					NOT = { is_overseas = yes }
-					is_capital = no
-					is_state_core = root
-				}
-				save_event_target_as = uppity_peasants_province
-			}
-		}
-	}
-
-	option = {
-		name = "EVTOPTA5089"		# Accept petition
-		ai_chance = {
-			factor = 70
-			modifier = {
-				factor = 0.5
-				NOT = { prestige = 30 }
-			}
-			modifier = {
-				factor = 0
-				has_estate = estate_nobles
-				NOT = {
-					estate_loyalty = {
-						estate = estate_nobles
-						loyalty = 30
-					}
-				}
-			}
-		}
-		add_prestige = -10
-		reduce_estate_nobles_loyalty_effect = yes
-	}
-	option = {
-		name = "EVTOPTB5089"		# Deny petition
-		ai_chance = {
-			factor = 30
-			modifier = {
-				factor = 1.5
-				is_at_war = no
-			}
-		}
-		event_target:uppity_peasants_province = {
-			anti_tax_rebels = 1
-		}
-		add_estate_nobles_loyalty_effect = yes
 	}
 }
 
@@ -5452,158 +5078,6 @@ country_event = {
 }
 
 #########################################################
-#		Vatican infiltration							#
-#########################################################
-country_event = {
-	id = 6004
-	title = "EVTNAME6004"
-	desc = "EVTDESC6004"
-	picture = POPE_PREACHING_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		religion = catholic
-		NOT = { has_reform = papacy_reform }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-		
-		modifier = {
-			factor = 2.0
-			has_idea_group = spy_ideas
-		}
-		modifier = {
-			factor = 2.0
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			prestige = 2
-		}
-	}
-
-	option = {
-		name = "EVTOPTA6004"		# Instruct him to go forward
-		ai_chance = { factor = 30 }
-		add_papal_influence = 5
-	}
-	option = {
-		name = "EVTOPTB6004"		# Let the matter drop
-		ai_chance = { factor = 70 }
-		add_prestige = 5
-	}
-	option = {
-		name = "personality_options.6004.a"		# Our [Root.Monarch.GetTitle] will know how to get the most for our money.
-		highlight = yes
-		trigger = { ruler_has_personality = intricate_web_weaver_personality }
-		required_personality = intricate_web_weaver_personality
-		add_papal_influence = 10
-	}
-}
-
-
-#########################################################
-#	City-state wants independence back					#
-#########################################################
-
-# Genoa
-country_event = {
-	id = 6005
-	title = "EVTNAME6005"
-	desc = "EVTDESC6005"
-	picture = ANGRY_MOB_eventPicture
-	goto = 101
-
-	is_triggered_only = yes
-
-	trigger = {
-		always = no
-		owns = 101
-		is_year = 1700
-	}
-
-	mean_time_to_happen = {
-		days = 1
-		
-		modifier = {
-			factor = 2.0
-			NOT = { stability = 0 }
-		}
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			stability = 3 
-		}
-	}
-
-	option = {
-		name = "EVTOPTA6005"		# Nah...
-		ai_chance = { factor = 60 }
-		101 = {
-			nationalist_rebels = 1
-		}
-	}
-	option = {
-		name = "EVTOPTB6005"		# We'll consider it
-		ai_chance = { factor = 40 }
-		remove_core = 101
-	}
-}
-
-# Venice
-country_event = {
-	id = 6006
-	title = "EVTNAME6006"
-	desc = "EVTDESC6006"
-	picture = ANGRY_MOB_eventPicture
-	goto = 112
-
-	is_triggered_only = yes
-
-	trigger = {
-		always = no
-		is_year = 1700
-		owns = 112
-	}
-
-	mean_time_to_happen = {
-		days = 1
-		
-		modifier = {
-			factor = 2.0
-			NOT = { stability = 0 }
-		}
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			stability = 3
-		}
-	}
-
-	option = {
-		name = "EVTOPTA6006"		# Nah...
-		ai_chance = { factor = 70 }
-		112 = {
-			nationalist_rebels = 1
-		}
-	}
-	option = {
-		name = "EVTOPTB6006"		# We'll consider it
-		ai_chance = { factor = 30 }
-		remove_core = 112
-	}
-}
-
-
-#########################################################
 #		Exceptional Court Painter						#
 #########################################################
 
@@ -5663,56 +5137,6 @@ country_event = {
 		add_years_of_income = -0.15
 		add_prestige = 10
 		add_stability_or_adm_power = yes
-	}
-}
-
-#########################################################
-#			Grand Ball									#
-#########################################################
-country_event = {
-	id = 6013
-	title = "EVTNAME6013"
-	desc = "EVTDESC6013"
-	picture = COURT_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		religion_group = christian
-		is_at_war = no
-	}
-
-	mean_time_to_happen = {
-		days = 1
-		
-		modifier = {
-			factor = 2.0
-			artist = 3
-		}
-		modifier = {
-			factor = 0.66
-			NOT = { advisor = artist }
-		}
-	}
-
-	option = {
-		name = "EVTOPTA6013"		# Arrange a ball
-		ai_chance = { factor = 60 }
-		add_prestige = 10
-		add_years_of_income = -0.10
-	}
-	option = {
-		name = "EVTOPTB6013"		# Don't arrange a ball
-		ai_chance = { factor = 40 }
-		add_prestige = -5
-	}
-	option = {
-		name = "personality_options.6013.a"		# Arrange a ball
-		highlight = yes
-		trigger = { ruler_has_personality = well_connected_personality }
-		required_personality = well_connected_personality
-		add_prestige = 15
-		add_years_of_income = -0.10
 	}
 }
 
@@ -5933,135 +5357,6 @@ country_event = {
 			spawn_small_scaled_rebels = {
 				type = anti_tax_rebels
 				no_defined_leader = yes
-			}
-		}
-	}
-}
-
-# Priests are preaching Heresy!
-country_event = {
-	id = 711
-	title = "EVTNAME711"
-	desc = "EVTDESC711"
-	picture = POPE_PREACHING_eventPicture
-
-	is_triggered_only = yes
-	goto = heresy_province
-	
-	trigger = {
-		stability = 0
-		religion = catholic
-		is_at_war = no
-		num_of_cities = 2
-		any_owned_province = {
-			religion = catholic
-			is_state_core = root
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					religion = catholic
-					is_state_core = root
-				}
-				save_event_target_as = heresy_province
-			}
-		}
-	}
-
-	option = {
-		name = "EVTOPTA711"
-		ai_chance = {
-			factor = 45
-			modifier = {
-				factor = 0
-				has_estate = estate_church
-				NOT = {
-					estate_loyalty = {
-						estate = estate_church
-						loyalty = 30
-					}
-				}
-			}
-		}
-		reduce_estate_church_loyalty_effect = yes
-		add_prestige = -5
-		event_target:heresy_province = {
-			if = {
-				limit = {
-					NOT = {
-						ROOT = { num_of_cities = 20 }
-					}
-				}
-				add_province_modifier = {
-					name = "heresy"
-					duration = 1825
-				}
-			}
-			else = {
-				area = {
-					limit = {
-						owned_by = root
-						is_city = yes
-						religion = catholic
-					}
-					add_province_modifier = {
-						name = "heresy"
-						duration = 1825
-					}
-				}
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB711"
-		ai_chance = {
-			factor = 65
-		}
-		add_dip_power = -30
-		add_estate_church_loyalty_effect = yes
-	}
-	option = {
-		name = "personality_options.711.a"
-		highlight = yes
-		trigger = { ruler_has_personality = tolerant_personality }
-		required_personality = tolerant_personality
-		add_prestige = 5
-		reduce_estate_church_loyalty_effect = yes
-		event_target:heresy_province = {
-			if = {
-				limit = {
-					NOT = {
-						ROOT = { num_of_cities = 20 }
-					}
-				}
-				add_province_modifier = {
-					name = "heresy"
-					duration = 1825
-				}
-			}
-			else = {
-				area = {
-					limit = {
-						owned_by = root
-						is_city = yes
-						religion = catholic
-					}
-					add_province_modifier = {
-						name = "heresy"
-						duration = 1825
-					}
-				}
 			}
 		}
 	}
@@ -6751,91 +6046,6 @@ country_event = {
 		if = {
 			limit = { stability = -2 }
 			add_stability = -1
-		}
-	}
-}
-
-# Clergy condemns philosopher as heretic!
-country_event = {
-	id = 724
-	title = "EVTNAME724"
-	desc = "EVTDESC724"
-	picture = POPE_PREACHING_eventPicture
-
-	is_triggered_only = yes
-	
-	trigger = {
-		religion = catholic
-		NOT = { has_country_modifier = narrowminded_modifier }
-		NOT = { has_country_modifier = innovative_modifier }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}		
-	}
-
-	option = {
-		name = "EVTOPTA724"
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.5
-				NOT = { religious_unity = 0.8 }
-			}
-		}
-		add_stability = -1
-		add_country_modifier = {
-			name = narrowminded_modifier
-			duration = 3650
-		}
-		add_estate_church_loyalty_effect = yes
-	}
-	option = {
-		name = "EVTOPTB724"
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.5
-				religious_unity = 1
-			}
-			modifier = {
-				factor = 0
-				has_estate = estate_church
-				NOT = {
-					estate_loyalty = {
-						estate = estate_church
-						loyalty = 30
-					}
-				}
-			}
-		}
-		add_stability = -1
-		add_country_modifier = {
-			name = innovative_modifier
-			duration = 3650
-		}
-		reduce_estate_church_loyalty_effect = yes
-	}
-	option = {
-		name = "personality_options.724.a"
-		highlight = yes
-		trigger = { ruler_has_personality = tolerant_personality }
-		required_personality = tolerant_personality
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.5
-				religious_unity = 1
-			}
-		}
-		
-		add_country_modifier = {
-			name = innovative_modifier
-			duration = 3650
 		}
 	}
 }
@@ -9000,44 +8210,6 @@ country_event = {
 	}
 }
 
-# Gain papal influence OR prestige
-country_event = {
-	id = 865
-	title = "EVTNAME865"
-	desc = "EVTDESC865"
-	picture = POPE_PREACHING_eventPicture
-
-	is_triggered_only = yes
-	
-	trigger = {
-		religion = catholic
-		NOT = { tag = PAP }
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = "EVTOPTA865"
-		add_papal_influence = 10
-	}
-	option = {
-		name = "EVTOPTB865"
-		add_prestige = 5
-	}
-	option = {
-		name = "personality_options.865.a"
-		highlight = yes
-		trigger = { ruler_has_personality = pious_personality }
-		required_personality = pious_personality
-		ai_chance = {
-			factor = 100
-		}
-		add_papal_influence = 15
-	}
-}
-
 # Add land tech (big for inflation)
 country_event = {
 	id = 866
@@ -9452,132 +8624,6 @@ country_event = {
 	}
 }
 
-# The Maid of $PROVINCE
-country_event = {
-	id = 875
-	title = "EVTNAME875"
-	desc = "EVTDESC875"
-	picture = COURT_eventPicture
-
-	is_triggered_only = yes
-	
-	trigger = {
-		religion = catholic
-		NOT = {
-			has_country_flag = maid_of_province
-		}
-		is_at_war = yes
-		war_exhaustion = 5
-		government = monarchy
-		NOT = { has_reform = celestial_empire }
-		is_lesser_in_union = no
-		NOT = { legitimacy_or_horde_unity = 80 }
-		any_owned_province = {
-			NOT = { controlled_by = owner }
-		}
-		NOT = { has_country_modifier = narrowminded_modifier }
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		hidden_effect = {
-			set_country_flag = maid_of_province
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA875"
-		ai_chance = { factor = 100 }
-		add_prestige = -5
-		add_legitimacy = -5
-		add_horde_unity = -5
-		create_general = { tradition = -50 }
-	}
-	option = {
-		name = "EVTOPTB875"
-		ai_chance = { factor = 0 }
-		trigger = { is_lesser_in_union = no }
-		add_legitimacy = 10
-		add_horde_unity = 10
-	}
-	option = {
-		name = "EVTOPTC875"
-		ai_chance = { factor = 0 }
-		add_country_modifier = {
-			name = narrowminded_modifier
-			duration = 3650
-		}
-		add_stability_or_adm_power = yes
-	}
-}
-
-# Bible printed!
-country_event = {
-	id = 876
-	title = "EVTNAME876"
-	desc = "EVTDESC876"
-	picture = POPE_PREACHING_eventPicture
-	goto = printing_bible_province
-
-	is_triggered_only = yes
-	
-	trigger = {
-		religion = catholic
-		is_institution_enabled = printing_press
-		NOT = { has_global_flag = bible_printed }
-		advisor = theologian
-		any_owned_province = {
-			OR = {
-				religion = catholic
-				religion = reformed
-				religion = protestant
-				religion = anglican
-				religion = hussite
-			}
-			printing_press = 1
-			NOT = { printing_press = 50 }
-		}
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					OR = {
-						religion = catholic
-						religion = reformed
-						religion = protestant
-						religion = anglican
-						religion = hussite
-					}
-					printing_press = 1
-					NOT = { printing_press = 50 }
-				}
-				save_event_target_as = printing_bible_province
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = "EVTOPTA876"
-		set_global_flag = bible_printed
-		add_prestige = 25
-		event_target:printing_bible_province = {
-			add_institution_embracement = {
-				value = 50
-				which = printing_press
-			}
-		}
-	}
-}
-
 # Sweating Sickness
 country_event = {
 	id = 877
@@ -9928,86 +8974,6 @@ country_event = {
 		}
 		create_explorer = {
 			tradition = 50
-		}
-	}
-}
-
-#Renaissance Prince
-country_event = {
-	id = 883
-	title = "EVTNAME883"
-	desc = "EVTDESC883"
-	picture = COURT_eventPicture
-	goto = renaissance_province
-
-	is_triggered_only = yes
-	
-	trigger = {
-		religion_group = christian
-		is_institution_enabled = renaissance
-		NOT = { has_institution = renaissance }
-		any_owned_province = {
-			renaissance = 1
-			NOT = { renaissance = 100 }
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					renaissance = 1
-					NOT = { renaissance = 100 }
-				}
-				save_event_target_as = renaissance_province
-			}
-		}
-	}
-
-	option = {
-		name = "EVTOPTA883"
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 0.5
-				NOT = { years_of_income = 0.2 }
-			}
-		}
-		add_years_of_income = -0.10
-		add_prestige = 10
-		event_target:renaissance_province = {
-			add_institution_embracement = {
-				which = renaissance
-				value = 25
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB883"
-		ai_chance = {
-			factor = 5
-		}
-		add_prestige = -5
-	}
-	option = {
-		name = "personality_options.883.a"
-		highlight = yes
-		trigger = { ruler_has_personality = free_thinker_personality }
-		required_personality = free_thinker_personality
-		ai_chance = {
-			factor = 100
-		}
-		add_years_of_income = -0.10
-		add_prestige = 10
-		event_target:renaissance_province = {
-			add_institution_embracement = {
-				which = renaissance
-				value = 50
-			}
 		}
 	}
 }
@@ -10622,20 +9588,12 @@ country_event = {
 		name = "random_event.EVTOPTA4"
 		if = {
 			limit = {
-				religion = catholic
-			}
-			add_papal_influence = 10
-		}
-		if = {
-			limit = {
-				NOT = { religion = catholic }
 				is_lesser_in_union = no
 			}
 			add_legitimacy = 10
 		}
 		if = {
 			limit = {
-				NOT = { religion = catholic }
 				is_lesser_in_union = no
 			}
 			add_horde_unity = 10
@@ -10719,57 +9677,6 @@ country_event = {
 	}
 }
 
-# A new champion of the joust
-country_event = {
-	id = random_event.6
-	title = "random_event.EVTNAME6"
-	desc = "random_event.EVTDESC6"
-	picture = THEATRE_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		NOT = {
-			is_year = 1500
-		}
-		OR = {
-			government = monarchy
-			has_reform = revolutionary_empire_reform
-		}
-		is_lesser_in_union = no
-		religion_group = christian
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = "random_event.EVTOPTA6"
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 0.5
-				NOT = { legitimacy = 70 }
-			}
-		}
-		create_general = { tradition = 100 }
-		add_prestige = -25
-		add_legitimacy = -25
-	}
-	option = {
-		name = "random_event.EVTOPTB6"
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 1.5
-				NOT = { legitimacy = 70 }
-			}
-		}
-		add_legitimacy = 25
-	}
-}
-
 # A new flagship!
 country_event = {
 	id = random_event.7
@@ -10850,144 +9757,6 @@ country_event = {
 			}
 			galley = ROOT
 		}
-	}
-}
-
-# Heresy!
-country_event = {
-	id = random_event.8
-	title = "random_event.EVTNAME8"
-	desc = "random_event.EVTDESC8"
-	picture = POPE_PREACHING_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		religion = catholic
-		NOT = { tag = PAP }
-		OR = {
-			advisor = natural_scientist
-			advisor = philosopher
-			advisor = artist
-			advisor = theologian
-		}
-		employed_advisor = {
-			category = ADM
-			religion = catholic
-		}
-		any_owned_province = {
-			has_owner_religion = yes
-		}
-	}
-	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = {
-					any_owned_province = {
-						has_owner_religion = yes
-						has_tax_building_trigger = yes
-					}
-				}
-				random_owned_province = {
-					limit = {
-						has_owner_religion = yes
-						has_tax_building_trigger = yes
-					}
-					save_event_target_as = origin_of_bishop
-				}
-			}
-			else = {
-				random_owned_province = {
-					limit = {
-						has_owner_religion = yes
-					}
-					save_event_target_as = origin_of_bishop
-				}
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = "random_event.EVTOPTA8"
-		ai_chance = {
-			factor = 50
-		}
-		if = {
-			limit = { has_saved_event_target = origin_of_bishop }
-			define_advisor = {
-				type = inquisitor
-				skill = 1
-				culture = event_target:origin_of_bishop
-			}
-		}
-		else = {
-			define_advisor = {
-				type = inquisitor
-				skill = 1
-			}
-		}
-		add_papal_influence = 10
-		add_estate_church_loyalty_effect = yes
-		reduce_meritocracy_effect = yes
-		if = {
-			limit = {
-				advisor = natural_scientist
-			}
-			kill_advisor = natural_scientist
-		}
-		if = {
-			limit = {
-				advisor = philosopher
-			}
-			kill_advisor = philosopher
-		}
-		if = {
-			limit = {
-				advisor = artist
-			}
-			kill_advisor = artist
-		}
-		if = {
-			limit = {
-				advisor = theologian
-			}
-			kill_advisor = theologian
-		}
-	}
-	option = {
-		name = "random_event.EVTOPTB8"
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				has_estate = estate_church
-				NOT = {
-					estate_loyalty = {
-						estate = estate_church
-						loyalty = 30
-					}
-				}
-			}
-		}
-		add_adm_power = 50
-		reduce_estate_church_loyalty_effect = yes
-		add_papal_influence = -20
-	}
-	option = {
-		name = "personality_options.random.8.a"
-		highlight = yes
-		trigger = { ruler_has_personality = pious_personality }
-		required_personality = pious_personality
-		ai_chance = {
-			factor = 100
-		}
-		add_adm_power = 50
-		add_papal_influence = -5
 	}
 }
 

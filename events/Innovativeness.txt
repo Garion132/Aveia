@@ -68,7 +68,7 @@ country_event = {
 			type = natural_scientist
 		}
 		adm_tech = 4
-		has_institution = renaissance
+		has_institution = iron_working
 		OR = {
 			natural_scientist = 3
 			AND = {
@@ -358,7 +358,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Rule Britannia"
 		innovativeness = 5
-		has_institution = renaissance
+		has_institution = iron_working
 	}
 	
 	is_triggered_only = yes
@@ -653,7 +653,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Rule Britannia"
 		innovativeness = 5
-		has_institution = renaissance
+		has_institution = iron_working
 	}
 	mean_time_to_happen = {
 		days = 1

@@ -1504,10 +1504,10 @@ country_event = {
 #
 #	trigger = {
 #		NOT = { has_global_flag = faceting_happened }
-#		has_institution = renaissance
+#		has_institution = iron_working
 #		prestige = 50
 #		any_owned_province = {
-#			renaissance = 100
+#			iron_working = 100
 #			OR = {
 #				trade_goods = glass
 #				trade_goods = gems
@@ -1528,7 +1528,7 @@ country_event = {
 #		hidden_effect = {
 #			random_owned_province = {
 #				limit = {
-#					renaissance = 100
+#					iron_working = 100
 #					OR = {
 #						trade_goods = glass
 #						trade_goods = gems

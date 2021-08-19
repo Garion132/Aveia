@@ -25,12 +25,58 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA9600" # the strongest is dead
+		name = vulkiv_empire_events.1.a # the strongest is dead
 		if={
 			limit={
 				has_ruler = "Vadalor"
 			}
 			kill_ruler = yes
+		}
+		random_country={
+			limit={
+				religion = vulikivite
+				NOT={tag = VUL}
+			}
+			country_event = {id = vulkiv_empire_events.2}
+		}
+	}
+}
+country_event = {
+	id = vulkiv_empire_events.2
+	title = vulkiv_empire_events.2.t
+	desc = vulkiv_empire_events.2.d
+	picture = REFORM_eventPicture
+	
+	is_triggered_only = yes	
+	
+	option = {
+		name = vulkiv_empire_events.2.a # the strongest is dead
+		random_owned_province = {
+			limit = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = rethese
+				}
+			}
+			change_religion = rethese
+			add_reform_center = rethese
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+			if = {
+				limit = {
+					NOT = { is_capital = yes }
+				}
+				root = {
+					capital_scope = {
+						change_religion = rethese
+						add_permanent_province_modifier = {
+							name = "religious_zeal_at_conv"
+							duration = 9000
+						}
+					}
+				}
+			}
 		}
 	}
 }

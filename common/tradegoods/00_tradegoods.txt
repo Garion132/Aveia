@@ -736,10 +736,10 @@ iron = {
 			owner = { mil_tech = 19 }
 		}
 		provincial_institution_progress = {
-			which = renaissance 
+			which = iron_working 
 			value = 100
 		}
-		owner = { has_institution = renaissance  }
+		owner = { has_institution = iron_working  }
 	}
 	chance = {
 		factor = 1

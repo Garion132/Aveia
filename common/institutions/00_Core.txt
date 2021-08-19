@@ -9,12 +9,12 @@
 # Friendly is defined as at positive relations or owned by the same country that owns the province.
 
 #######################################
-# Feudalism.  
+# organized_state.  
 # 
 # Most in the old world start with it.
 #######################################
 
-feudalism = {
+organized_state = {
 	penalty = 0.5
 	bonus = {
 		free_leader_pool = 1
@@ -43,7 +43,7 @@ feudalism = {
 			custom_trigger_tooltip = {
 				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED
 				any_friendly_coast_border_province = {
-					feudalism = 100
+					organized_state = 100
 				}
 			}
 		}
@@ -53,7 +53,7 @@ feudalism = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						feudalism = 100
+						organized_state = 100
 					}
 				}
 			}
@@ -61,7 +61,7 @@ feudalism = {
 				tooltip = NEIGHBOR_NOT_OWNED_IS_FEUDAL
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					feudalism = 100
+					organized_state = 100
 				}
 			}
 		}
@@ -73,9 +73,9 @@ feudalism = {
 				owner = { has_estate = estate_nobles }
 			}
 			custom_trigger_tooltip = {
-				tooltip = FEUDALISM_AND_NOBLES
+				tooltip = organized_state_AND_NOBLES
 				any_neighbor_province = {
-					feudalism = 100
+					organized_state = 100
 				}
 				owner = {
 					has_estate = estate_nobles
@@ -106,7 +106,7 @@ feudalism = {
 				}
 				owner = {
 					is_colonial_nation = yes
-					overlord = { has_institution = feudalism }
+					overlord = { has_institution = organized_state }
 				}
 			}
 		}
@@ -131,15 +131,15 @@ feudalism = {
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = feudalism
+					has_institution = organized_state
 				}
 			}
 			
 			custom_trigger_tooltip = {
-				tooltip = tooltip_feudalism_embraced
+				tooltip = tooltip_organized_state_embraced
 				is_owned_by_trade_company = no
 				owner = {
-					has_institution = feudalism
+					has_institution = organized_state
 				}
 			}
 		}
@@ -171,34 +171,34 @@ feudalism = {
 	}
 }
 
-#######################################
-# Renaissance
-# 
-# Flows from italy
-#######################################
 
-renaissance = {
+
+bronze_working = {
 	penalty = 0.5
 
 	bonus = {
-		development_cost = -0.05
-		build_cost = -0.05
+		land_morale = 0.10
+		global_regiment_cost = 0.30
 	}
 
 	trade_company_efficiency = 0.4
 
 
-	historical_start_date = 1450.1.1
-	historical_start_province = 116 # Florence
+	historical_start_date = 1250.1.1
+	historical_start_province = 82 # Florence
 
 	history = {
-		OR = {
-			is_year = 1780
+		OR={
+			culture_group = lake_elf
+			culture_group = dunirr
+			culture_group = ugluk
+			culture_group = drakonic
+			culture_group = kolbolds
 		}
 	}
 	
 	can_start = {
-		is_year = 1450
+		is_year = 1250
 		is_state = yes
 		is_island = no
 		OR = {
@@ -218,7 +218,7 @@ renaissance = {
 	
 	
 	can_embrace = {
-		owner = { has_institution = feudalism }
+		owner = { has_institution = organized_state }
 	}
 
 
@@ -228,9 +228,9 @@ renaissance = {
 			scale = yes
 			factor = 0.6
 			custom_trigger_tooltip = {
-				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_bronze_working
 				any_friendly_coast_border_province = {
-					renaissance = 100
+					bronze_working = 100
 				}
 			}
 		}
@@ -240,15 +240,15 @@ renaissance = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						renaissance = 100
+						bronze_working = 100
 					}
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_any_neighbor_has_embraced_renaissance
+				tooltip = tooltip_any_neighbor_has_embraced_bronze_working
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					renaissance = 100
+					bronze_working = 100
 				}
 			}
 		}
@@ -261,14 +261,14 @@ renaissance = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_renaissance
+				tooltip = tooltip_colonial_overlord_bronze_working
 				OR = {
 					has_port = yes
 					is_capital = yes
 				}
 				owner = {
 					is_colonial_nation = yes
-					overlord = { has_institution = renaissance }
+					overlord = { has_institution = bronze_working }
 				}
 			}
 		}
@@ -277,16 +277,347 @@ renaissance = {
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = renaissance
+					has_institution = bronze_working
 				}
 			}
 			
 			custom_trigger_tooltip = {
-				tooltip = tooltip_renaissance_embraced
+				tooltip = tooltip_bronze_working_embraced
 				is_owned_by_trade_company = no
 				owner = {
-					has_institution = renaissance
+					has_institution = bronze_working
 				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+
+
+crop_rotation = {
+	penalty = 0.5
+
+	bonus = {
+		development_cost = -0.05
+		global_trade_goods_size_modifier = 0.05
+	}
+
+	trade_company_efficiency = 0.4
+
+
+	historical_start_date = 1300.1.1
+	historical_start_province = 82 # Florence
+
+	history = {
+		OR={
+			culture_group = lake_elf
+			culture_group = dunirr
+			culture_group = ugluk
+			culture_group = drakonic
+			culture_group = kolbolds
+		}
+		is_year = 1300
+	}
+	
+	can_start = {
+		is_year = 1300
+		is_state = yes
+		is_island = no
+		OR={
+			bronze_working = 100
+			iron_working = 100
+		}
+		OR = {
+			development = 20
+			is_capital = yes
+			normal_or_historical_nations = no
+			trade_goods = grain
+		}
+		owner={
+			OR={
+				grain = 2
+				trading_part = {
+					trade_goods = grain
+					value = 0.05
+				}
+			}
+		}
+	}
+	start_chance = 5		#in 100 for when a province can_start
+	
+	
+	on_start = institution_events.2
+	
+	
+	
+
+	
+	
+	can_embrace = {
+		owner = { 
+			OR={
+				has_institution = bronze_working 
+				has_institution = iron_working 
+			}
+		}
+	}
+
+
+	
+	embracement_speed = {
+		modifier = {
+			scale = yes
+			factor = 0.6
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_crop_rotation
+				any_friendly_coast_border_province = {
+					crop_rotation = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.3
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						crop_rotation = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_crop_rotation
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					crop_rotation = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			scale = yes
+			potential = {
+				owner = {
+					is_colonial_nation = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_colonial_overlord_crop_rotation
+				OR = {
+					has_port = yes
+					is_capital = yes
+				}
+				owner = {
+					is_colonial_nation = yes
+					overlord = { has_institution = crop_rotation }
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = crop_rotation
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_crop_rotation_embraced
+				is_owned_by_trade_company = no
+				owner = {
+					has_institution = crop_rotation
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+#######################################
+# iron_working
+# 
+# Flows from italy
+#######################################
+
+iron_working = {
+	penalty = 0.5
+
+	bonus = {
+		shock_damage = 0.05
+		global_regiment_cost = -0.30
+	}
+
+	trade_company_efficiency = 0.4
+
+
+	historical_start_date = 1350.1.1
+	historical_start_province = 116 # Florence
+
+	history = {
+		OR = {
+			is_year = 1780
+		}
+	}
+	
+	can_start = {
+		is_year = 1350
+		is_state = yes
+		is_island = no
+		has_latent_trade_goods = iron
+		OR={
+			NOT={
+				OR={
+					culture_group = lake_elf
+					culture_group = dunirr
+					culture_group = ugluk
+					culture_group = drakonic
+					culture_group = kolbolds
+					culture_group = faun
+				}
+			}
+			year = 1365
+		}
+	}
+	start_chance = 5		#in 100 for when a province can_start
+	
+	
+	on_start = institution_events.2
+	
+	
+	
+
+	
+	
+	can_embrace = {
+		owner = { has_institution = organized_state }
+	}
+
+
+	
+	embracement_speed = {
+		modifier = {
+			scale = yes
+			factor = 0.6
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_iron_working
+				any_friendly_coast_border_province = {
+					iron_working = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.3
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						iron_working = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_iron_working
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					iron_working = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			scale = yes
+			potential = {
+				owner = {
+					is_colonial_nation = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_colonial_overlord_iron_working
+				OR = {
+					has_port = yes
+					is_capital = yes
+				}
+				owner = {
+					is_colonial_nation = yes
+					overlord = { has_institution = iron_working }
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = iron_working
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_iron_working_embraced
+				is_owned_by_trade_company = no
+				owner = {
+					has_institution = iron_working
+				}
+			}
+		}
+		modifier = {
+			factor = 0.3
+			scale = yes
+			potential = {
+				has_latent_trade_goods = iron
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_iron_working
+				has_latent_trade_goods = iron
 			}
 		}
 	}

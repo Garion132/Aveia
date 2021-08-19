@@ -76,7 +76,7 @@ country_event = {
 }
 
 #########################################################
-#	        Losing Renaissance Philosophy				#
+#	        Losing iron_working Philosophy				#
 #########################################################
 country_event = {
 	id = cleanup_events.2
@@ -85,7 +85,7 @@ country_event = {
 	picture = REFORM_eventPicture
 
 	trigger = {
-		has_country_modifier = blooming_renaissance
+		has_country_modifier = blooming_iron_working
 		num_of_cities = 6
 	}
 
@@ -108,7 +108,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA9610"
-		remove_country_modifier = "blooming_renaissance"
+		remove_country_modifier = "blooming_iron_working"
 	}
 }
 

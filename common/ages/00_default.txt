@@ -41,10 +41,10 @@ age_of_discovery = {
 				}
 			}
 		}
-		obj_renaissance = {
-	 		has_institution = renaissance
+		obj_iron_working = {
+	 		has_institution = crop_rotation
 	 		all_state_province = {
-	 			renaissance = 100
+	 			crop_rotation = 100
 	 		}
 		}
 		

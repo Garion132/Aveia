@@ -6,7 +6,7 @@ NDefines.NMilitary.INF_REGIMENT_MANPOWER_COST = 0.5 -- 500 Men in an infantry re
 NDefines.NMilitary.CAV_REGIMENT_MANPOWER_COST = 0.2 -- 200 Men in an airship regiment
 NDefines.NMilitary.ART_REGIMENT_MANPOWER_COST = 0.5 -- 500 Men in an arty regiment
 
-NDefines.NMilitary.CAVALRY_COST = 100.0 -- Airships are very expensive
+NDefines.NMilitary.CAVALRY_COST = 130.0 -- Airships are very expensive
 NDefines.NMilitary.CAVALRY_TIME = 730 -- and take a long time to build
 NDefines.NMilitary.CAV_LOOT = 0.1
 NDefines.NMilitary.CAV_SUPPRESSION = 0.1 -- but are less effective as supression b/c not as many men
