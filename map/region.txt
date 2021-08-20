@@ -414,6 +414,31 @@ vulkivian_region={
 		vulkivian_25
 	}
 }
+thilrana_region={
+	areas={
+		liretlet
+		fanilnemyel_1
+		fanilnemyel_2
+		shaumanyn_1
+		shaumanyn_2
+		shaumanyn_3
+		nathion_1
+		nathion_2
+		nathion_3
+		thilmaren_1
+		asfereth
+		celulil
+		sineri
+		bririon
+		thilrana_1
+		thilrana_2
+		thilrana_3
+		thilrana_4
+		thilrana_5
+		thilrana_6
+		thilrana_7
+	}
+}
 
 
 ##Karnaiha

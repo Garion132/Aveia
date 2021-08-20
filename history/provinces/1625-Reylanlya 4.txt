@@ -1,8 +1,8 @@
 #Reylanlya
 
-add_core = REY
-owner = REY
-controller = REY
+add_core = AKM
+owner = AKM
+controller = AKM
 culture = nfanathan
 religion = tlaulunorist
 hre = no

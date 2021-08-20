@@ -524,7 +524,7 @@ iron_working = {
 					culture_group = faun
 				}
 			}
-			year = 1365
+			is_year = 1365
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start

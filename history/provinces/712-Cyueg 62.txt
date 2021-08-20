@@ -4,6 +4,7 @@ latent_trade_goods = {
 }
 
 add_core = CYU
+add_core = MTE
 owner = CYU
 controller = CYU
 culture = shemsele

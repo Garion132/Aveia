@@ -1,8 +1,8 @@
 #Nfanatha
 
-add_core = NFA
-owner = NFA
-controller = NFA
+add_core = AKM
+owner = AKM
+controller = AKM
 culture = nfanathan
 religion = tlaulunorist
 hre = no

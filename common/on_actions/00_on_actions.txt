@@ -17,6 +17,25 @@ on_startup = {
 on_religion_change = {
 	on_religion_change_estate_privileges_effect = yes
 	###removes catholic modifiers
+if = {
+		limit = {
+			has_heir = yes
+		}
+		set_heir_religion = ROOT
+	}
+	if = {
+		limit = {
+			has_regency = no
+		}
+		set_ruler_religion = ROOT
+	}
+	if = {
+		limit = {
+			has_dlc = "Rights of Man"
+			has_consort = yes
+		}
+		set_consort_religion = ROOT
+	}
 }
 
 # country.

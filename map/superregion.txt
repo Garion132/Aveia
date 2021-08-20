@@ -1,22 +1,28 @@
-aveia_superregion = { #the "west", around the great sea
+#the "west", around the great sea
+aveia_superregion = { 
 
 	#restrict_charter	# harder to get TC here.
 
-	kyathia_region
-	lentira_region
-	parhaman_region
-	krashyrvil_midlands_region
-	otrcyueg_region
+	
 	shemsele_region
 	lildoresi_marches_region
-	craine_islands
 	dreghei_region
 	chaunluma_region
-	vulkivian_region
 	gugh_region
 	morbin_region
 	rauthyr_region
 	
+	
+}
+west_aveia_superregion={
+	thilrana_region
+	vulkivian_region
+	krashyrvil_midlands_region
+	parhaman_region
+	lentira_region
+	kyathia_region
+	otrcyueg_region
+	craine_islands
 }
 elteria_superregion={
 	karnaiha_region
