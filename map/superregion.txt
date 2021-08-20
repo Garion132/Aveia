@@ -23,6 +23,7 @@ west_aveia_superregion={
 	kyathia_region
 	otrcyueg_region
 	craine_islands
+	great_gulba_region
 }
 elteria_superregion={
 	karnaiha_region

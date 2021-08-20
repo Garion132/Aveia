@@ -2308,22 +2308,22 @@ province;red;green;blue;x;x
 2307;207;225;132;Van;x
 2308;0;153;75;Urfa;x
 2309;132;41;144;Sinjar;x
-2310;250;19;41;Tikrit;x
+2310;250;19;41;Tikrit;x#
 2311;51;130;63;Samawat;x
 2312;242;102;96;Wasit;x
 2313;181;181;52;Antioch;x
-2314;49;11;71;Rahba;x
+2314;49;11;71;Rahba;x#
 2315;139;22;59;Suez;x
 2316;4;24;61;Al Gharbia;x
 2317;149;201;61;Minya;x
-2318;157;215;209;Bahariya;x
+2318;157;215;209;Bahariya;x#
 2319;206;231;202;Manfalut;x
 2320;62;48;146;Ras Gharib;x
-2321;203;185;45;Queseer;x
+2321;203;185;45;Queseer;x#
 2322;212;227;131;Wadi Halfa;x
-2323;158;168;213;Sahra an Nubyah;x
+2323;158;168;213;Sahra an Nubyah;x#
 2324;239;69;139;Halaib;x
-2325;245;244;179;Tarrana;x
+2325;245;244;179;Tarrana;x##
 2326;178;31;114;Bardiyah;x
 2327;154;216;222;Maan;x
 2328;0;120;91;Tayma;x

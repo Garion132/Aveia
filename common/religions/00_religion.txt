@@ -503,6 +503,42 @@ tlaulunorism = {
 		date = 1668.10.31
 	}
 
+	godly_sect = {
+		color = { 244 104 75 }
+		icon = 11
+		allowed_conversion = {
+			tlaulunorist
+		}
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			advisor_pool = 1
+		}
+		
+		
+		
+		on_convert = {
+			change_religion = godly_sect
+			add_prestige = -100
+			
+			# remove_country_modifier = the_test_act
+			# remove_country_modifier = superintendent_office
+			# remove_country_modifier = the_popery_act
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		
+		}
+		
+		heretic = { LLAUGGAUST  }
+		
+	}
 	drethalumia = {
 		color = { 178 127 0 }
 		icon = 8
@@ -738,9 +774,202 @@ rake_group = {
 		date = 1458.6.15
 		
 	}
+
+	crusade_name = CRUSADE
 }
 
+roresism_group = {
 
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 58 80 }
+	
+	can_form_personal_unions = yes
+	
+	religious_schools = {
+			dhizdia_school = {
+				potential_invite_scholar = {
+					knows_of_scholar_country_capital_trigger = yes
+				}
+
+				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+				can_invite_scholar = {
+					adm_power_cost = 50
+					religion = roresist
+					reverse_has_opinion = { who = FROM value = 150 }
+					NOT = { has_country_modifier = dhizdia_scholar_modifier }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+
+				# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+				on_invite_scholar = {
+					adm_power_cost = 50
+					clear_religious_scholar_modifiers_effect = yes
+					custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+					add_country_modifier = { name = dhizdia_scholar_modifier duration = 7300 }
+				}
+
+				# If you don't set this it will expand on_invite_scholar effect which might be super big
+				invite_scholar_modifier_display = dhizdia_scholar_modifier
+
+				picture = "GFX_icon_muslim_school_hanafi"
+
+				# religion_sub_modifier = no is possible, will hide icon in religious screen
+				adm_tech_cost_modifier = -0.05
+			}
+			karnelia_school = {
+				potential_invite_scholar = {
+					knows_of_scholar_country_capital_trigger = yes
+				}
+
+				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+				can_invite_scholar = {
+					adm_power_cost = 50
+					religion = roresist
+					reverse_has_opinion = { who = FROM value = 150 }
+					NOT = { has_country_modifier = karnelia_scholar_modifier }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+
+				# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+				on_invite_scholar = {
+					adm_power_cost = 50
+					clear_religious_scholar_modifiers_effect = yes
+					custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+					add_country_modifier = { name = karnelia_scholar_modifier duration = 7300 }
+				}
+
+				# If you don't set this it will expand on_invite_scholar effect which might be super big
+				invite_scholar_modifier_display = karnelia_scholar_modifier
+
+				picture = "GFX_icon_muslim_school_hanbali"
+
+				# religion_sub_modifier = no is possible, will hide icon in religious screen
+				adm_tech_cost_modifier = -0.05
+			}
+			rorest_school = {
+				potential_invite_scholar = {
+					knows_of_scholar_country_capital_trigger = yes
+				}
+
+				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+				can_invite_scholar = {
+					adm_power_cost = 50
+					religion = roresist
+					reverse_has_opinion = { who = FROM value = 150 }
+					NOT = { has_country_modifier = rorest_scholar_modifier }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+
+				# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+				on_invite_scholar = {
+					adm_power_cost = 50
+					clear_religious_scholar_modifiers_effect = yes
+					custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+					add_country_modifier = { name = rorest_scholar_modifier duration = 7300 }
+				}
+
+				# If you don't set this it will expand on_invite_scholar effect which might be super big
+				invite_scholar_modifier_display = rorest_scholar_modifier
+
+				picture = "GFX_icon_muslim_school_maliki"
+
+				# religion_sub_modifier = no is possible, will hide icon in religious screen
+				adm_tech_cost_modifier = -0.05
+			}
+			pirrarthim_school = {
+				potential_invite_scholar = {
+					knows_of_scholar_country_capital_trigger = yes
+				}
+
+				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+				can_invite_scholar = {
+					adm_power_cost = 50
+					religion = roresist
+					reverse_has_opinion = { who = FROM value = 150 }
+					NOT = { has_country_modifier = pirrarthim_scholar_modifier }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+
+				# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+				on_invite_scholar = {
+					adm_power_cost = 50
+					clear_religious_scholar_modifiers_effect = yes
+					custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+					add_country_modifier = { name = pirrarthim_scholar_modifier duration = 7300 }
+				}
+
+				# If you don't set this it will expand on_invite_scholar effect which might be super big
+				invite_scholar_modifier_display = pirrarthim_scholar_modifier
+
+				picture = "GFX_icon_muslim_school_shafii"
+
+				# religion_sub_modifier = no is possible, will hide icon in religious screen
+				adm_tech_cost_modifier = -0.05
+			}
+		}
+
+	roresist = {
+		color = { 70 243 113 }
+		icon = 14
+		country = {
+			heir_chance = 1.0
+			land_morale = 0.05
+		}
+		country_as_secondary = {
+			trade_efficiency = 0.1
+			heir_chance = 1.0
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { SKOZJIGIAN }
+		
+	}
+
+	forebearist = { #
+		color = { 175 150 213 }
+		icon = 13
+		allowed_conversion = {
+			rethese
+		}
+		country = {
+			tolerance_heretic = 2
+			advisor_cost = -0.1
+		}
+		country_as_secondary = {
+			development_cost = -0.1
+			diplomats = 1
+		}
+		
+		heretic = { SKOZJIGIAN }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
+
+	crusade_name = CRUSADE
+}
 
 
 

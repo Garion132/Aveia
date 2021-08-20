@@ -26,12 +26,12 @@ kyathia_region = {
 		titar_area
 		matnolu_area
 		lurt_area
+		ildahir_area
+		landir_area
 	}
 }
 lentira_region = {
 	areas = {
-		ildahir_area
-		landir_area
 		ihadar_area
 		ihadar_lesser_area
 		elesilon_area
@@ -41,23 +41,24 @@ lentira_region = {
 		sellalra_area
 		iarion_area
 		olores_area
-		yransa_area
 		parian_area
 		kanzan_area
-		nilaur_area
+		eastern_srandor_area
 	}
 }
 parhaman_region = {
 	areas = {
 		oramarnona_area
-		upper_oramarnona_area
-		eastern_srandor_area
-		western_srandor_area
 		zornazar_area
 		lower_parhama
 		upper_parhama
 		vellitnarland
-		
+		shires_1
+		shires_2
+		shires_3
+		shires_4
+		shires_5
+		yransa_area
 	}
 }
 krashyrvil_midlands_region = {
@@ -74,6 +75,9 @@ krashyrvil_midlands_region = {
 		insase
 		enaleanlume
 		eritys
+		upper_oramarnona_area
+		western_srandor_area
+		nilaur_area
 	}
 }
 otrcyueg_region ={
@@ -176,8 +180,6 @@ rauthyr_region ={
 		rauthyr_22
 		rauthyr_23
 		rauthyr_24
-		rauthyr_25
-		rauthyr_26
 		rauthyr_27
 		rauthyr_28
 		rauthyr_29
@@ -338,17 +340,6 @@ chaunluma_region={#
 }
 morbin_region={
 	areas = {
-		gulba_1
-		gulba_2
-		gulba_3
-		gulba_4
-		gulba_5
-		gulba_6
-		gulba_7
-		gulba_8
-		gulba_9
-		gulba_10
-		gulba_11
 		gulba_12
 		gulba_13
 		gulba_14
@@ -361,15 +352,28 @@ morbin_region={
 		gulba_21
 		yerina_1
 		yerina_2
-		yerina_3
 		yerina_4
 		yerina_5
 		yerina_6
-		yerina_7
-		yerina_8
 		yerina_9
 		yerina_10
-		kizipru
+	}
+}
+great_gulba_region={
+	areas = {
+		gulba_1
+		gulba_2
+		gulba_3
+		gulba_4
+		gulba_5
+		gulba_6
+		gulba_7
+		gulba_8
+		gulba_9
+		gulba_10
+		gulba_11
+		rauthyr_25
+		rauthyr_26
 	}
 }
 gugh_region={
@@ -382,6 +386,10 @@ gugh_region={
 		grur_6
 		bozred_1
 		bozred_2
+		kizipru
+		yerina_7
+		yerina_8
+		yerina_3
 	}
 }
 

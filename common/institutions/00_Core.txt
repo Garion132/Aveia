@@ -171,8 +171,6 @@ organized_state = {
 	}
 }
 
-
-
 bronze_working = {
 	penalty = 0.5
 
@@ -316,8 +314,6 @@ bronze_working = {
 		}
 	}
 }
-
-
 
 crop_rotation = {
 	penalty = 0.5

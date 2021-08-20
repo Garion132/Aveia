@@ -1,11 +1,13 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = nfanathan
-religion = tlaulunorist
+religion = roresist
+religious_school = dhizdia_school
 technology_group = western
 capital = 2206 # 
 #national_focus = DIP
 #historical_rival = HAB
+
 
 change_estate_land_share = {
 	estate = estate_nobles
