@@ -362,6 +362,26 @@ morbin_region={
 		yerina_1
 		yerina_2
 		yerina_3
+		yerina_4
+		yerina_5
+		yerina_6
+		yerina_7
+		yerina_8
+		yerina_9
+		yerina_10
+		kizipru
+	}
+}
+gugh_region={
+	areas = {
+		grur_1
+		grur_2
+		grur_3
+		grur_4
+		grur_5
+		grur_6
+		bozred_1
+		bozred_2
 	}
 }
 

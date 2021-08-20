@@ -485,7 +485,7 @@ crop_rotation = {
 #######################################
 # iron_working
 # 
-# Flows from italy
+# Flows from the humans
 #######################################
 
 iron_working = {

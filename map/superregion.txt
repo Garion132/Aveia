@@ -13,6 +13,9 @@ aveia_superregion = { #the "west", around the great sea
 	dreghei_region
 	chaunluma_region
 	vulkivian_region
+	gugh_region
+	morbin_region
+	rauthyr_region
 	
 }
 elteria_superregion={
