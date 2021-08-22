@@ -6,11 +6,18 @@ controller = ATH
 culture = dregheian
 religion = tlaulunorist
 hre = no
-base_tax = 1
-base_production =1
-base_manpower = 1
-trade_goods = grain
+base_tax = 2
+base_production =5
+base_manpower = 4
+trade_goods = marble
 capital = "Ath 3"
 is_city = yes
 discovered_by = western
 extra_cost = 0
+center_of_trade = 2
+fort_15th = yes
+
+add_permanent_province_modifier = {
+	name = dreghei_mines
+	duration = -1
+}

@@ -1,4 +1,7 @@
 #Athanila
+latent_trade_goods = {
+	iron
+}
 
 add_core = ATH
 owner = ATH
@@ -7,9 +10,9 @@ culture = dregheian
 religion = tlaulunorist
 hre = no
 base_tax = 1
-base_production =1
+base_production =2
 base_manpower = 1
-trade_goods = grain
+trade_goods = livestock
 capital = "Ath 3"
 is_city = yes
 discovered_by = western

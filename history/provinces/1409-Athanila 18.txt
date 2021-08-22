@@ -1,4 +1,7 @@
 #Athanila
+latent_trade_goods = {
+	coal
+}
 
 add_core = ATH
 owner = ATH
@@ -6,11 +9,16 @@ controller = ATH
 culture = dregheian
 religion = tlaulunorist
 hre = no
-base_tax = 1
+base_tax = 2
 base_production =1
-base_manpower = 1
-trade_goods = grain
+base_manpower = 2
+trade_goods = gems
 capital = "Ath 3"
 is_city = yes
 discovered_by = western
 extra_cost = 0
+
+add_permanent_province_modifier = {
+	name = dreghei_mines
+	duration = -1
+}

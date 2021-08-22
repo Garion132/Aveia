@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = dregheian
 religion = tlaulunorist
 technology_group = western
-capital = 1410 # 
+capital = 1424 # Athanalia
 #national_focus = DIP
 #historical_rival = HAB
 
