@@ -18,12 +18,11 @@ country_event = {
 	major = yes
 
 	trigger = {
+		has_global_flag = iron_age_calamity_eruption
 		owns = 949 #Lindoremy, capital of Rauthyr
-		is_year = 1368
-		not = { is_year = 1378 }
 	}
 	mean_time_to_happen = {
-		months = 1
+		months = 6
 	}
 	
 	
