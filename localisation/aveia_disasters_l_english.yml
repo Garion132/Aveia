@@ -1,0 +1,27 @@
+﻿l_english:
+ iron_age_calamity:0 "Iron Age Calamity"
+ desc_iron_age_calamity:0 "Rocks are falling from the sky. Earthquakes tremble the earth. Ash blots out the sun. Plague. Famine. Starvation."
+
+ 3_random_prov_3_dev_loss_tt:0 "Lose §R3§! Development across §Y3§! Provinces"
+ 3_random_prov_6_dev_loss_tt:0 "Lose §R6§! Development across §Y3§! Provinces"
+ 5_random_prov_15_dev_loss_tt:0 "Lose §R15§! Development across §Y5§! Provinces"
+ orbury_volcano_damage_tt:0 "Provinces near the §YOrbury Supervolcano§! lose up to §R6§! Development."
+
+ iron_age_calamity.1.t:0 "Comet Sighted"
+ iron_age_calamity.1.d:0 "Every now and again, a peasant makes an observation of the night sky and spots a streak of light moving across the sky. They follow up by spreading rumors and causing a ruckus across the country. However, the most recent sighting hasn't dissappeared unlike previous sightings. INstead, the perturbation in the sky has grown larger and brighter than any other of the stars that dot the sky.\nRumors have spread that this is the end times. Our spiritual and political leaders have tried their best to dispell these rumors and ensure calm. However, some of them are starting to believe in the end times themselves."
+ iron_age_calamity.1.opt.a:0 "The End is Nigh!"
+ iron_age_calamity.1.opt.b:0 "The Economy, Fools!"
+ iron_age_calamity.1.opt.c:0 "We can weather any storm."
+ #iron_age_calamity.2 doesn't have loc as it uses the same loc as 1
+ iron_age_calamity.3.t:0 "THE END TIMES"
+ iron_age_calamity.3.d:0 "The streak in the sky disappeared like any other comet that has disturbed our realm into the horizon. Worries subsided and it seemed like reason triumphed over baseless superstition. Until the ground shook and rocks started falling from the skies." #TODO - finish
+ iron_age_calamity.3.opt.a:0 "Aveia Trembles"
+ iron_age_calamity.3.opt.b:0 "The Heavens are Falling"
+
+ iron_age_calamity.100.t:0 "Beginning of an End"
+ iron_age_calamity.100.d:0 "We have created a great civilization. It may not be perfect, but it is well and above better than any other. Yet now, circumstances beyond our explanation are now testing us more than any other time in history. We shall persevere or perish."
+ iron_age_calamity.100.opt.a:0 "O Gods, what have we done to suffer such a fate?"
+ iron_age_calamity.100.opt.b:0 "Ye mighty and faithful... Follow me! Through the darkness and into the light!"
+ iron_age_calamity.101.t:0 "End of a New Beginning"
+ iron_age_calamity.101.d:0 "The time of trial is over. We are victorious, yet are severely weakened. Some say we merely survived. Whatever it may be, we can finally look towards future affairs."
+ iron_age_calamity.101.opt.a:0 "Huzzah!"

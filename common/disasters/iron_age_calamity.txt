@@ -1,0 +1,97 @@
+iron_age_calamity = {
+	potential = {
+		has_global_flag = iron_age_calamity
+		NOT = {
+			has_country_flag = had_iron_age_calamity
+		}
+	}
+
+
+	can_start = {
+		NOT = { stability = 2 }
+	}
+	
+	can_stop = {
+        stability = 3
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 2
+			always = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { stability = 1 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 2
+			total_development = 100
+		}
+		modifier = {
+			factor = 3
+			total_development = 250
+		}
+		modifier = {
+			factor = 5
+			total_development = 500
+		}
+		modifier = { #Basically anti-Rauthyr
+			factor = 10
+			total_development = 1000
+		}
+	}
+	
+	can_end = {
+        stability = 1
+		custom_trigger_tooltip = {
+			tooltip = disaster_active_for_10_years_tooltip
+			had_country_flag = { flag = had_iron_age_calamity days = 3650 }
+		}
+	}
+	
+
+	
+
+	modifier = {
+		stability_cost_modifier = 1
+        global_tax_modifier = -0.10
+        all_power_cost = 0.1
+        monthly_splendor = -2
+        trade_efficiency = -0.25
+        diplomatic_reputation = -2
+	}	
+	
+	
+	on_start = iron_age_calamity.100
+	on_end = iron_age_calamity.101
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			#1000 = 0
+			#100 = internal_conflicts.2
+			#100 = internal_conflicts.3
+			#100 = internal_conflicts.4
+			#100 = internal_conflicts.5
+			#100 = internal_conflicts.6
+			#100 = internal_conflicts.7
+		
+		}
+	}
+}
+
