@@ -672,6 +672,42 @@ tlaulunorism = {
 			}
 		}
 	}
+	orionrahetia = {
+		color = { 166 174 165 }
+		icon = 15
+		allowed_conversion = {
+			tlaulunorist
+		}
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			advisor_pool = 1
+		}
+		
+		
+		
+		on_convert = {
+			change_religion = orionrahetia
+			add_prestige = -100
+			
+			# remove_country_modifier = the_test_act
+			# remove_country_modifier = superintendent_office
+			# remove_country_modifier = the_popery_act
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		
+		}
+		
+		heretic = { LLAUGGAUST  }
+		
+	}
 	
 	harmonized_modifier = harmonized_christian
 	

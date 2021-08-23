@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = kyathian
 religion = tlaulunorist
 technology_group = western
-capital = 1440 # 
+capital = 1431 # 
 #national_focus = DIP
 #historical_rival = HAB
 

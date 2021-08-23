@@ -18,7 +18,7 @@ west_aveia_superregion={
 	thilrana_region
 	vulkivian_region
 	krashyrvil_midlands_region
-	parhaman_region
+	greater_shires_region
 	lentira_region
 	kyathia_region
 	otrcyueg_region

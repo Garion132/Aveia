@@ -23,8 +23,8 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
-		dynasty = "Bolrin"
+		name = "Vedim"
+		dynasty = "Athanas"
 		birth_date = 1240.12.3
 		adm = 0
 		dip = 0

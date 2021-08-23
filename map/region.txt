@@ -46,7 +46,7 @@ lentira_region = {
 		eastern_srandor_area
 	}
 }
-parhaman_region = {
+greater_shires_region = {
 	areas = {
 		oramarnona_area
 		zornazar_area
@@ -59,6 +59,23 @@ parhaman_region = {
 		shires_4
 		shires_5
 		yransa_area
+		chaun_1
+		chaun_2
+		chaun_3
+		chaun_4
+		chaun_5
+		chaun_6
+		chaun_7
+		chaun_8
+		chaun_9
+		east_shires_1
+		east_shires_2
+		east_shires_3
+		east_shires_4
+		east_shires_5
+		east_shires_6
+		east_shires_7
+		east_shires_8
 	}
 }
 krashyrvil_midlands_region = {

@@ -64,6 +64,7 @@ BOZ = "countries/Bozred.txt"
 AKM = "countries/Akmaka.txt"
 MTE = "countries/Mathei.txt"
 MYH = "countries/Mythar.txt"
+CHA = "countries/Chaun.txt"
 
 LIR = "countries/Liretlet.txt"
 FAN = "countries/Fanilnemyel.txt"
