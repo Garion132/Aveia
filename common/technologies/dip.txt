@@ -44,7 +44,6 @@ technology = { #Writing
 	# Tech 3
 	year = 1261
 
-	range					= 	20
 	trade_efficiency 		= 	0.02
 
 }
@@ -61,7 +60,7 @@ technology = { #Star Mapping
 	year = 1287
 	
 	naval_maintenance		=	0.1	
-	trade_range				=	20
+	trade_range				=	30
 	range = 40
 	
 	
@@ -73,7 +72,7 @@ technology = { #Wind Spirits
 	
 	naval_morale = 0.3
 	trade_range = 20
-	range = 20
+	range = 30
 
 }
 
@@ -92,7 +91,7 @@ technology  = { #Optics
 
 	naval_maintenance = 0.1
 	trade_range				=	30
-	range					= 	30
+	range					= 	50
 
 	#New transport (Hulk)
 }
@@ -102,7 +101,7 @@ technology = { #Lateen Sails
 	year = 1339
 	
 	naval_maintenance		= 	0.1
-	range					=	50
+	range					=	30
 	
 	#New light ship (Lenee)
 	#New galley (Galley)
@@ -157,7 +156,6 @@ technology = { #Compass
 	# Tech 15
 	year = 1417
 	
-	range = 60
 	trade_efficiency = 0.02
 	may_steal_maps = yes
 
@@ -189,7 +187,6 @@ technology = { #Trading Companies
 	
 	tradecompany = yes
 	trade_range = 20
-	global_colonial_growth = 5
 	trade_efficiency = 0.02
 }
 
@@ -199,7 +196,7 @@ technology = { #Naval Ambitions
 
 	impressment_offices 	= yes
 	
-	range = 115
+	global_colonial_growth = 5
 	naval_maintenance = 0.1
 }
 
@@ -220,7 +217,6 @@ technology = { #Caravelling
 
 	naval_maintenance = 0.1
 	trade_range = 30
-	range = 30
 	trade_efficiency = 0.02
 
 	#New light ship (Caravel)
@@ -239,7 +235,6 @@ technology = { #Wharf
 
 	num_accepted_cultures = 1
 	wharf = yes
-	range = 20
 }
 
 technology = { #Steamers
@@ -247,6 +242,7 @@ technology = { #Steamers
 	year = 1534
 	
 	
+	range = 200
 	naval_maintenance = 0.2
 	naval_morale = 0.25
 
@@ -260,6 +256,7 @@ technology = { #Colonial Charters
 	# Tech 25
 	year = 1547
 
+	range = 150
 	trade_depot = yes 
 	global_colonial_growth = 25
 	may_agitate_for_liberty = yes
@@ -271,7 +268,7 @@ technology = { #Maritime Law
 	
 	
 	trade_efficiency 		= 	0.02
-	trade_range				=	40
+	trade_range				=	50
 }
 
 technology = { #Lineships
@@ -289,7 +286,7 @@ technology = { #Screw Propeller
 	year = 1586
 
 	naval_maintenance = 0.2
-	range = 40
+	range = 125
 
 	#New Light Ship (Frigate)
 	#New galley (Archipeligo Frigate)
@@ -303,6 +300,7 @@ technology = { #Merchantman
 	global_colonial_growth = 10
 	trade_range = 30
 	trade_efficiency = 0.02
+	range = 125
 
 	#New transport (Merchantman)
 }
@@ -313,6 +311,7 @@ technology = { #Vercroths
 	
 	naval_maintenance = 0.1
 	naval_morale			=	0.5
+	range = 50
 
 	reduced_naval_attrition = yes
 }
@@ -321,7 +320,6 @@ technology = { #Ironclads
 	# Tech 31
 	year = 1625
 	
-	range  = 50
 	trade_efficiency = 0.02
 	allow_client_states = yes	
 
@@ -354,7 +352,7 @@ technology = { #Steam Turbine
 
 	global_colonial_growth = 10
 	naval_maintenance = 0.2
-	range = 100
+	range = 250
 	may_sabotage_reputation = yes
 
 	#New light ship (Ironclad)
@@ -376,7 +374,6 @@ technology = { #All-or-Nothing Armor Scheme
 	year = 1690
 	
 
-	range = 50
 	naval_maintenance = 0.2
 	#New Heavy Ship (Floating Fortress)
 }
@@ -423,7 +420,7 @@ technology = { #Transport Ships
 	year = 1755
 	
 	global_colonial_growth = 25
-	range = 100
+	range = 250
 	trade_efficiency = 0.04
 	#New Transport (Transport Ship)
 }
@@ -463,7 +460,7 @@ technology = { #Market Regulation
 	year = 1807
 	
 	num_accepted_cultures = 1
-	trade_efficiency = 0.10
+	trade_efficiency = 0.05
 
 }
 

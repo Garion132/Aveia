@@ -261,7 +261,7 @@ technology = {
 	
 	#Pike and Shot
 	military_tactics = 0.25
-	infantry_fire = 0.25
+	infantry_fire = 0.35
 
 	#TODO New Inf
 }
@@ -282,8 +282,8 @@ technology = {
 	#Guedinalock Muskets
 	sprite_level = 2
 
-	infantry_fire = 0.2
-	combat_width = 3
+	infantry_fire = 0.5
+	combat_width = 4
 }
 
 technology = {
@@ -292,7 +292,7 @@ technology = {
 	
 	#Square Tactics
 	military_tactics = 0.25
-	infantry_fire = 0.2	
+	infantry_fire = 0.4	
 }
 
 technology = {
@@ -300,7 +300,7 @@ technology = {
 	year = 1586
 	
 	#Trunnions
-	artillery_fire = 0.4
+	artillery_fire = 0.5
 	artillery_shock = 0.05
 
 	#TODO new art
@@ -313,8 +313,8 @@ technology = {
 	#Volley Fire
 
 	land_morale = 0.5
-	infantry_fire = 0.1
-	combat_width = 3
+	infantry_fire = 0.4
+	combat_width = 5
 
 	#TODO new inf 
 }
@@ -324,6 +324,7 @@ technology = {
 	year = 1805
 	
 	#Star Bastions
+	military_tactics = 0.25
 	fort_16th = yes
 }
 
@@ -340,8 +341,9 @@ technology = {
 	year = 1638
 	
 	#Standardization
-	artillery_fire = 1.0
+	artillery_fire = 1.5
 	artillery_shock = 0.1
+	supply_limit = 0.25
 
 	#TODO new arty
 
@@ -353,11 +355,9 @@ technology = {
 	year = 1651
 	
 	#Airships
-	cavalry_fire = 1.0
-	cavalry_shock = 5.0
+	cavalry_fire = 2.0
+	cavalry_shock = 10.0
 	enable = sailing_airship
-
-	combat_width = 2
 }
 
 technology = {
@@ -368,6 +368,8 @@ technology = {
 	infantry_fire = 0.5
 	maneuver_value = 0.25
 
+	combat_width = 4
+
 	#TODO new Inf
 }
 
@@ -375,12 +377,11 @@ technology = {
 	# Tech 35
 	year = 1677
 	
-	#Airships
-	cavalry_shock = 2.0
+	#Steam Airships
+	cavalry_shock = 5.0
 
 	#TODO new cav, 50% cav flanking
 
-	combat_width = 2
 }
 
 technology = {
@@ -388,9 +389,10 @@ technology = {
 	year = 1690
 	
 	#Ankon Armor
-	military_tactics = 0.5
+	military_tactics = 2.0
 	land_morale = 0.5
-	infantry_shock = 0.2
+	infantry_shock = 0.5
+	combat_width = -4
 
 	#TODO -20% fire damage recieved
 
@@ -402,8 +404,10 @@ technology = {
 	year = 1703
 	
 	#Specialized Regiments
-	infantry_fire = 0.1
-	infantry_shock = 0.5
+	military_tactics = 0.5
+	infantry_fire = 0.2
+	infantry_shock = 1.5
+	combat_width = -4
 
 	conscription_center = yes
 }
@@ -413,8 +417,9 @@ technology = {
 	year = 1716
 	
 	#Breech-Loading
-	artillery_fire = 1.0
-	cavalry_fire = 1.0
+	artillery_fire = 2.0
+	artillery_shock = 0.10
+	cavalry_fire = 4.0
 
 	#TODO new arty
 }
@@ -424,7 +429,9 @@ technology = {
 	year = 1729
 	
 	#Protected Airships
-	cavalry_shock = 2.0
+	military_tactics = 0.25
+	cavalry_shock = 4.0
+	cavalry_fire = 1.0
 
 	#TODO new cav
 }
@@ -434,9 +441,10 @@ technology = {
 	year = 1742
 	
 	#Blastpowder
-	infantry_fire = 0.5
-	artillery_fire = 1.0
-	cavalry_fire = 0.5
+	military_tactics = 0.25
+	infantry_fire = 1.5
+	artillery_fire = 4.0
+	cavalry_fire = 8.0
 
 	#TODO new inf, 10% fire damage
 }
@@ -456,8 +464,8 @@ technology = {
 	year = 1768
 	
 	#Dreadnoughts
-	cavalry_fire = 2
-	cavalry_shock = 4
+	cavalry_fire = 10.0
+	cavalry_shock = 4.0
 
 	#TODO new cav
 }
@@ -469,16 +477,15 @@ technology = {
 	#Line Infantry
 	military_tactics = 0.25
 	land_morale = 1.0
-
-	combat_width = 6
+	combat_width = -4
 }
 
 technology = {
 	# Tech 44
 	year = 1794
 	
-	#Rifled Artillery
-	infantry_fire = 0.5
+	#Lile Rifles
+	infantry_fire = 1.0
 	supply_limit = 0.5
 	maneuver_value = 0.25
 
@@ -490,8 +497,11 @@ technology = {
 	year = 1807
 	
 	#Rifled Artillery
-	artillery_fire = 2
-	cavalry_fire = 1
+	military_tactics = 0.25
+	artillery_fire = 4.0
+	artillery_shock = 0.15
+	cavalry_fire = 10.0
+	combat_width = -4
 
 	#TODO new art
 }
@@ -501,8 +511,9 @@ technology = {
 	year = 1820
 	
 	#Gatling Guns
-	military_tactics = 0.25
-	infantry_fire = 0.5
-	cavalry_fire = 0.5
-	cavalry_shock = 1.0
+	military_tactics = 0.5
+	infantry_fire = 1.0
+	cavalry_fire = 5.0
+	cavalry_shock = 2.0
+	combat_width = -4
 }
