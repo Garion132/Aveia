@@ -91,7 +91,7 @@ technology  = { #Optics
 	
 
 	naval_maintenance = 0.1
-	trade_range				=	25
+	trade_range				=	30
 	range					= 	30
 
 	#New transport (Hulk)
@@ -171,7 +171,7 @@ technology = { #Ties to the Homeland
 	
 	num_accepted_cultures = 1
 	naval_morale = 0.5
-	global_colonial_growth  = 	15
+	global_colonial_growth  = 	10
 	may_sow_discontent = yes
 }
 
@@ -179,7 +179,7 @@ technology = { #Dockyards
 	# Tech 17
 	year = 1443
 	
-	trade_range = 15
+	trade_range = 20
 	dock = yes	
 }
 
@@ -188,6 +188,7 @@ technology = { #Trading Companies
 	year = 1456
 	
 	tradecompany = yes
+	trade_range = 20
 	global_colonial_growth = 5
 	trade_efficiency = 0.02
 }
@@ -218,6 +219,7 @@ technology = { #Caravelling
 	year = 1495
 
 	naval_maintenance = 0.1
+	trade_range = 30
 	range = 30
 	trade_efficiency = 0.02
 
@@ -237,6 +239,7 @@ technology = { #Wharf
 
 	num_accepted_cultures = 1
 	wharf = yes
+	range = 20
 }
 
 technology = { #Steamers
@@ -247,7 +250,7 @@ technology = { #Steamers
 	naval_maintenance = 0.2
 	naval_morale = 0.25
 
-	global_colonial_growth = 15
+	global_colonial_growth = 10
 	trade_efficiency = 0.02
 
 	#New transport (Steamer)
@@ -258,7 +261,7 @@ technology = { #Colonial Charters
 	year = 1547
 
 	trade_depot = yes 
-	global_colonial_growth = 50
+	global_colonial_growth = 25
 	may_agitate_for_liberty = yes
 }
 
@@ -268,7 +271,7 @@ technology = { #Maritime Law
 	
 	
 	trade_efficiency 		= 	0.02
-	trade_range				=	20
+	trade_range				=	40
 }
 
 technology = { #Lineships
@@ -297,6 +300,7 @@ technology = { #Merchantman
 	year = 1599
 	
 
+	global_colonial_growth = 10
 	trade_range = 30
 	trade_efficiency = 0.02
 
@@ -309,7 +313,6 @@ technology = { #Vercroths
 	
 	naval_maintenance = 0.1
 	naval_morale			=	0.5
-	global_colonial_growth = 10
 
 	reduced_naval_attrition = yes
 }
@@ -349,6 +352,7 @@ technology = { #Steam Turbine
 	year = 1664
 	
 
+	global_colonial_growth = 10
 	naval_maintenance = 0.2
 	range = 100
 	may_sabotage_reputation = yes
@@ -361,7 +365,7 @@ technology = { #Clippers
 	# Tech 35
 	year = 1677
 	
-	trade_range = 100
+	trade_range = 50
 	trade_efficiency = 0.02
 
 	#New Transport (Clipper)
@@ -372,6 +376,7 @@ technology = { #All-or-Nothing Armor Scheme
 	year = 1690
 	
 
+	range = 50
 	naval_maintenance = 0.2
 	#New Heavy Ship (Floating Fortress)
 }
@@ -381,7 +386,7 @@ technology = { #Joint Stock Companies
 	year = 1703
 	
 	stock_exchange = yes
-	global_colonial_growth = 20
+	global_colonial_growth = 30
 	trade_efficiency = 0.05
 }
 
@@ -398,7 +403,8 @@ technology = { #Bonds
 	# Tech 39
 	year = 1729
 	
-	trade_range = 25
+	global_colonial_growth = 25
+	trade_range = 30
 	trade_efficiency = 0.02
 	may_infiltrate_administration = yes
 }
@@ -407,16 +413,18 @@ technology = { #Advertisements
 	# Tech 40
 	year = 1742
 	
+	range = 100
 	num_accepted_cultures = 1
-	global_colonial_growth = 50
-	trade_efficiency = 0.02
+	trade_efficiency = 0.05
 }
 
 technology = { #Transport Ships
 	# Tech 41
 	year = 1755
 	
-	trade_efficiency = 0.02
+	global_colonial_growth = 25
+	range = 100
+	trade_efficiency = 0.04
 	#New Transport (Transport Ship)
 }
 
@@ -425,7 +433,7 @@ technology = { #Cruisers
 	year = 1768
 	
 
-	trade_range = 100
+	trade_range = 50
 	naval_maintenance = 0.2
 
 	#New Light Ship (Protected Cruiser)
@@ -446,8 +454,8 @@ technology = { #Silver Standard
 	# Tech 44
 	year = 1794
 	
+	global_colonial_growth = 50
 	trade_efficiency = 0.05
-
 }
 
 technology = { #Market Regulation
