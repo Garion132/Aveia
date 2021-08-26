@@ -34,6 +34,12 @@ kushedean_lighthouse = {
 dreghei_mines = {
 	trade_goods_size_modifier = 0.25
 }
+doninas_city = {
+	trade_goods_size = 5.0
+	trade_goods_size_modifier = 0.25
+	local_defensiveness = 0.25
+	province_trade_power_value = 10
+}
 
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.

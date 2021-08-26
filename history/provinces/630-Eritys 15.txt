@@ -14,3 +14,4 @@ capital = "Eti 15"
 is_city = yes
 discovered_by = western
 extra_cost = 0
+center_of_trade = 1

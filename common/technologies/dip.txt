@@ -22,8 +22,9 @@ technology = { #Shipbuilding
 	
 	merchants = yes
 	trade_range				=	100
-	enable = cog
-	enable = galley
+	range					= 	50
+	enable = cog #Bireme
+	enable = galley #Trireme
 }
 
 technology = { #Sailing
@@ -33,9 +34,9 @@ technology = { #Sailing
 	
 	naval_morale			=	0.1
 	naval_maintenance		= 	0.1
-	enable = barque
-	trade_range				=	100
-	range					= 	40
+	enable = barque #Trade Ship
+	trade_range				=	50
+	range					= 	50
 
 }
 
@@ -52,7 +53,6 @@ technology = { #Poetry
 	# Tech 4
 	year = 1274
 		
-	trade_range	= 10
 	num_accepted_cultures = 1
 }
 
@@ -71,9 +71,9 @@ technology = { #Wind Spirits
 	# Tech 6
 	year = 1300
 	
-	naval_morale			= 0.3
+	naval_morale = 0.3
 	trade_range = 20
-	range = 30
+	range = 20
 
 }
 
@@ -81,9 +81,8 @@ technology = { #Drama
 	# Tech 7
 	year = 1313
 	
-	naval_morale			= 0.3
-	num_accepted_cultures = 1
-	impressment_offices 	= yes
+	naval_morale			= 0.1
+	may_study_technology = yes
 }
 
 technology  = { #Optics
@@ -92,23 +91,21 @@ technology  = { #Optics
 	
 
 	naval_maintenance = 0.1
-	trade_range				=	10
-	range					= 	40
-	naval_morale			=	0.2
+	trade_range				=	25
+	range					= 	30
 
+	#New transport (Hulk)
 }
 
 technology = { #Lateen Sails
 	# Tech 9
 	year = 1339
 	
-	naval_maintenance		= 	0.2
-	range					=	100
+	naval_maintenance		= 	0.1
+	range					=	50
 	
-	enable = carrack
-	enable = caravel
-	may_study_technology = yes
-	
+	#New light ship (Lenee)
+	#New galley (Galley)
 }
 
 technology = { #Edailian Epics
@@ -116,17 +113,16 @@ technology = { #Edailian Epics
 	year = 1352
 	
 	num_accepted_cultures = 1
-	trade_efficiency		= 	0.02
-	
-	may_steal_maps = yes
+	trade_efficiency = 0.02
+	may_sabotage_recruitment = yes	
 }
 
 technology = { #Naval Tactics
 	# Tech 11
 	year = 1365
 	
-	range					= 	100
 
+	naval_morale = 0.5
 	coastal_defence = yes
 
 }
@@ -134,147 +130,113 @@ technology = { #Naval Tactics
 technology = { #Merchant Guilds
 	# Tech 12
 	year = 1378
-	naval_morale			=	0.4
-	may_slander_merchants = yes
 
 	#guild = yes
 	#Provides a goods produced modifier bonus
-	
+	may_corrupt_officials = yes
 }
 
 technology = { #Square Rigging
 	# Tech 13
 	year = 1391
 	
-	trade_efficiency 		= 	0.02
-	enable = brig
+	naval_maintenance = 0.2
 	enable = early_carrack
-
+	#New transport (Cog)
 }
 
 technology = { #Marketplaces
 	# Tech 14
 	year = 1404
 	
-	tradecompany = yes
-	num_accepted_cultures = 1
-	marketplace = yes 
-
-	
-	enable = galleass
+	marketplace = yes
+	trade_efficiency = 0.02
 }
  
 technology = { #Compass
 	# Tech 15
 	year = 1417
 	
-	naval_maintenance		= 	0.1
-	range					=	50
-	global_colonial_growth  = 	15
-	
-	enable = galleon
-	enable = early_frigate
-	may_sabotage_recruitment = yes
+	range = 60
+	trade_efficiency = 0.02
+	may_steal_maps = yes
 
+	#New light ship (Barque)
+	#New galley (War Galley)
 }
 
 technology = { #Ties to the Homeland
 	# Tech 16
 	year = 1430
 	
-	trade_efficiency 		= 	0.02
-	trade_range				=	20
-
+	num_accepted_cultures = 1
+	naval_morale = 0.5
+	global_colonial_growth  = 	15
+	may_sow_discontent = yes
 }
 
 technology = { #Dockyards
 	# Tech 17
 	year = 1443
 	
-	trade_range				=	20
-	range					=	50
-	
+	trade_range = 15
 	dock = yes	
-	
-	trade_depot = yes 
-
-
-	enable = merchantman
 }
 
 technology = { #Trading Companies
 	# Tech 18
 	year = 1456
 	
-	enable = galiot
-	naval_morale			=	0.5
-	may_sow_discontent = yes
-
-	
+	tradecompany = yes
+	global_colonial_growth = 5
+	trade_efficiency = 0.02
 }
 
 technology = { #Naval Ambitions
 	# Tech 19
 	year = 1469
-	
-	naval_maintenance		= 	0.1	
-	range					=	50
 
-	shipyard = yes
-	drydock = yes 
+	impressment_offices 	= yes
 	
-	
-	enable = wargalleon
-	enable = frigate
+	range = 115
+	naval_maintenance = 0.1
 }
 
 technology = { #Carracks
 	# Tech 20
 	year = 1482
 
-	trade_efficiency 		= 	0.02
-	trade_range				=	20
-	num_accepted_cultures = 1
-	
+	shipyard = yes
+	naval_morale = 0.25
+
+	#New Heavy Ship (Carrack)
+	#New galley (Galiot)
 }
 
 technology = { #Caravelling
 	# Tech 21
 	year = 1495
-	
 
-	enable = chebeck
-	may_sabotage_reputation = yes
+	naval_maintenance = 0.1
+	range = 30
+	trade_efficiency = 0.02
 
+	#New light ship (Caravel)
 }
 
 technology = { #Coastal Batteries
 	# Tech 22
 	year = 1508
 	
-	naval_morale			=	0.5
-	naval_maintenance		= 	0.1
 	naval_battery = yes
-
-	stock_exchange = yes
-
-	reduced_naval_attrition = yes
-	enable = twodecker
-	enable = trabakul
 }
 
 technology = { #Wharf
 	# Tech 23
 	year = 1521
-	
-	wharf = yes
-	
-	global_colonial_growth  = 	25	
-	range					=	150
-	allow_client_states = yes		
 
-	
-	enable = heavy_frigate
+	num_accepted_cultures = 1
+	wharf = yes
 }
 
 technology = { #Steamers
@@ -282,96 +244,104 @@ technology = { #Steamers
 	year = 1534
 	
 	
-	grand_shipyard = yes 
+	naval_maintenance = 0.2
+	naval_morale = 0.25
 
-	
-	trade_efficiency 		= 	0.02
-	trade_range				=	20
-	enable = archipelago_frigate
-	may_corrupt_officials = yes
+	global_colonial_growth = 15
+	trade_efficiency = 0.02
 
+	#New transport (Steamer)
 }
 
 technology = { #Colonial Charters
 	# Tech 25
 	year = 1547
-	
-	naval_morale			=	0.5
-	naval_maintenance		= 	0.1
-	
-	enable = threedecker
+
+	trade_depot = yes 
+	global_colonial_growth = 50
+	may_agitate_for_liberty = yes
 }
 
 technology = { #Maritime Law
 	# Tech 26
 	year = 1560
 	
-	range					=	200
-	global_colonial_growth  = 	25
-	num_accepted_cultures = 1
 	
-	enable = eastindiaman
-	enable = great_frigate
+	trade_efficiency 		= 	0.02
+	trade_range				=	20
 }
 
 technology = { #Lineships
 	# Tech 27
 	year = 1573
 	
-	naval_morale			=	0.5
-	naval_maintenance		= 	0.1
-	may_agitate_for_liberty = yes
+	naval_morale = 0.5
+	may_slander_merchants = yes
 
+	#New Heavy Ship (Twodecker)
 }
 
 technology = { #Screw Propeller
 	# Tech 28
 	year = 1586
-	
-	trade_efficiency 		= 	0.02
-	trade_range				=	20
+
+	naval_maintenance = 0.2
+	range = 40
+
+	#New Light Ship (Frigate)
+	#New galley (Archipeligo Frigate)
 }
 
 technology = { #Merchantman
 	# Tech 29
 	year = 1599
 	
-	naval_morale			=	0.5
-	naval_maintenance		= 	0.1
+
+	trade_range = 30
+	trade_efficiency = 0.02
+
+	#New transport (Merchantman)
 }
 
 technology = { #Vercroths
 	# Tech 30
 	year = 1612
 	
-	trade_efficiency 		= 	0.02
-	trade_range				=	20
-	may_infiltrate_administration = yes
+	naval_maintenance = 0.1
+	naval_morale			=	0.5
+	global_colonial_growth = 10
+
+	reduced_naval_attrition = yes
 }
 
 technology = { #Ironclads
 	# Tech 31
 	year = 1625
 	
-	naval_morale			=	0.5
-	naval_maintenance		= 	0.1	
-	num_accepted_cultures = 1
+	range  = 50
+	trade_efficiency = 0.02
+	allow_client_states = yes	
+
+	#New Light Ship (Heavy Frigate)
+	#New galley	(Monitor)
 }
 
 technology = { #Threedeckers
 	# Tech 32
 	year = 1638
-	
-	trade_efficiency 		= 	0.02
-	trade_range				=	20
-	global_colonial_growth  = 	50
+
+	grand_shipyard = yes 
+	#New Heavy Ship (Threedecker)
+
 }
 
 technology = { #Naval Professionalism
 	# Tech 33
 	year = 1651
 	
-
+	num_accepted_cultures = 1
+	drydock = yes 
+	trade_efficiency 		= 	0.02
 }
 
 technology = { #Steam Turbine
@@ -379,13 +349,22 @@ technology = { #Steam Turbine
 	year = 1664
 	
 
+	naval_maintenance = 0.2
+	range = 100
+	may_sabotage_reputation = yes
+
+	#New light ship (Ironclad)
+	#New galley (gunboat)
 }
 
 technology = { #Clippers
 	# Tech 35
 	year = 1677
 	
+	trade_range = 100
+	trade_efficiency = 0.02
 
+	#New Transport (Clipper)
 }
 
 technology = { #All-or-Nothing Armor Scheme
@@ -393,13 +372,17 @@ technology = { #All-or-Nothing Armor Scheme
 	year = 1690
 	
 
+	naval_maintenance = 0.2
+	#New Heavy Ship (Floating Fortress)
 }
 
 technology = { #Joint Stock Companies
 	# Tech 37
 	year = 1703
 	
-
+	stock_exchange = yes
+	global_colonial_growth = 20
+	trade_efficiency = 0.05
 }
 
 technology = { #Public Punishments
@@ -407,27 +390,34 @@ technology = { #Public Punishments
 	year = 1716
 	
 
+	naval_maintenance = 0.1
+	naval_morale = 0.5
 }
 
 technology = { #Bonds
 	# Tech 39
 	year = 1729
 	
-
+	trade_range = 25
+	trade_efficiency = 0.02
+	may_infiltrate_administration = yes
 }
 
 technology = { #Advertisements
 	# Tech 40
 	year = 1742
 	
-
+	num_accepted_cultures = 1
+	global_colonial_growth = 50
+	trade_efficiency = 0.02
 }
 
 technology = { #Transport Ships
 	# Tech 41
 	year = 1755
 	
-
+	trade_efficiency = 0.02
+	#New Transport (Transport Ship)
 }
 
 technology = { #Cruisers
@@ -435,19 +425,28 @@ technology = { #Cruisers
 	year = 1768
 	
 
+	trade_range = 100
+	naval_maintenance = 0.2
+
+	#New Light Ship (Protected Cruiser)
 }
 
 technology = { #Battleships
 	# Tech 43
 	year = 1781
 	
+	#industrial_shipyard = yes
+	#Bigger Shipyard which provides more naval cap, less construction time
 
+	naval_maintenance = 0.3
+	#New Heavy Ship (Early Battleship)
 }
 
 technology = { #Silver Standard
 	# Tech 44
 	year = 1794
 	
+	trade_efficiency = 0.05
 
 }
 
@@ -455,6 +454,8 @@ technology = { #Market Regulation
 	# Tech 45
 	year = 1807
 	
+	num_accepted_cultures = 1
+	trade_efficiency = 0.10
 
 }
 
@@ -462,5 +463,7 @@ technology = { #Superfiring Armaments
 	# Tech 46
 	year = 1820
 	
-
+	naval_maintenance = 0.2
+	#New Light Ship (Armored Cruiser)
+	#New Heavy Ship (Battleship)
 }
