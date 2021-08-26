@@ -29,4 +29,6 @@ elteria_superregion={
 	karnaiha_region
 	brightcoast_region
 	greater_jalhorkan_region
+	windsweaps_region
+	palentai_bay_region
 }

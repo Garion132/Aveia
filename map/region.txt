@@ -520,6 +520,43 @@ greater_jalhorkan_region={
 		brightcoast_12
 	}
 }
+windsweaps_region={
+	areas = {
+		windsweaps_1
+		windsweaps_2
+		windsweaps_3
+		windsweaps_4
+		windsweaps_5
+		windsweaps_6
+		windsweaps_7
+		windsweaps_8
+		windsweaps_9
+		windsweaps_10
+		windsweaps_11
+		windsweaps_12
+		windsweaps_13
+		windsweaps_14
+		windsweaps_15
+		windsweaps_16
+		windsweaps_17
+		windsweaps_18
+		windsweaps_19
+	}
+}
+palentai_bay_region={
+	areas = {
+		palentai_bay_1
+		palentai_bay_2
+		palentai_bay_3
+		palentai_bay_4
+		palentai_bay_5
+		palentai_bay_6
+		palentai_bay_7
+		palentai_bay_8
+		palentai_bay_9
+		palentai_bay_10
+	}
+}
 
 ocean_region = {
 	areas = {
