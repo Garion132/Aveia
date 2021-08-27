@@ -166,7 +166,7 @@ technology = {
 
 technology = {
 	# Tech 15
-	year = 1417
+	year = 1596
 	
 	#Triple Line
 	military_tactics = 0.25
@@ -277,7 +277,7 @@ technology = {
 
 technology = {
 	# Tech 26
-	year = 1745
+	year = 1560
 	
 	#Guedinalock Muskets
 	sprite_level = 2
