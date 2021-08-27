@@ -4,6 +4,7 @@ primary_culture = shemsele
 religion = tlaulunorist
 technology_group = western
 capital = 771 # 
+add_accepted_culture = kyathian
 #national_focus = DIP
 #historical_rival = HAB
 
