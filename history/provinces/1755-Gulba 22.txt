@@ -1,4 +1,7 @@
 #Gulba
+latent_trade_goods = {
+	coal
+}
 
 add_core = GUL
 owner = GUL
@@ -6,9 +9,9 @@ controller = GUL
 culture = nfanathan
 religion = tlaulunorist
 hre = no
-base_tax = 1
-base_production =1
-base_manpower = 1
+base_tax = 3
+base_production =2
+base_manpower = 2
 trade_goods = grain
 capital = "Gul"
 is_city = yes

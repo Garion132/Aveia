@@ -166,7 +166,7 @@ technology = {
 
 technology = {
 	# Tech 15
-	year = 1596
+	year = 1417
 	
 	#Triple Line
 	military_tactics = 0.25
