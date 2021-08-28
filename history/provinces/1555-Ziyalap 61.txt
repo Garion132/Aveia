@@ -1,8 +1,8 @@
 #Ziyalap
 
-add_core = ZIY
-owner = ZIY
-controller = ZIY
+add_core = TOP
+owner = TOP
+controller = TOP
 culture = nfanathan
 religion = tlaulunorist
 hre = no

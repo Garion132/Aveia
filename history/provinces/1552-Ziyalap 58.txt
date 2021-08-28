@@ -1,10 +1,10 @@
 #Ziyalap
 
-add_core = ZIY
-owner = ZIY
-controller = ZIY
+add_core = TOP
+owner = TOP
+controller = TOP
 culture = nfanathan
-religion = tlaulunorist
+religion = forebearist
 hre = no
 base_tax = 1
 base_production =1
