@@ -1,4 +1,7 @@
 #Ziyalap
+latent_trade_goods = {
+	iron
+}
 
 add_core = ZIY
 owner = ZIY
@@ -6,10 +9,10 @@ controller = ZIY
 culture = nfanathan
 religion = tlaulunorist
 hre = no
-base_tax = 1
-base_production =1
-base_manpower = 1
-trade_goods = grain
+base_tax = 3
+base_production =4
+base_manpower = 5
+trade_goods = livestock
 capital = "Ziy"
 is_city = yes
 discovered_by = western
