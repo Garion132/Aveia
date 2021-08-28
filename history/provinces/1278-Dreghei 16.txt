@@ -15,5 +15,5 @@ base_manpower = 3
 trade_goods = fruit
 capital = "Drg 3"
 is_city = yes
-discovered_by = western
+discovered_by = lake_elves_group
 extra_cost = 0

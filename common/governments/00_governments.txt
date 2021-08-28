@@ -736,3 +736,12 @@ pre_dharma_mapping = {
 		legacy_government = despotic_monarchy
 	}
 }
+
+mannish_tribal = {
+	basic_reform = mannish_tribal_reform
+
+	legacy_government = {
+		native_council_legacy
+	}
+	color = { 195 175 95 }
+}

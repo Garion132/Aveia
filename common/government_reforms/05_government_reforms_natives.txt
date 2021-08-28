@@ -30,3 +30,24 @@ native_basic_reform = {
 		}
 	}
 }
+
+mannish_tribal_reform = {
+	basic_reform = yes
+	allow_migration = yes
+	heir = yes
+	#native_mechanic = yes
+	monarchy = yes
+	valid_for_new_country = no
+	allow_convert = yes
+	republican_name = yes
+	modifiers = {
+		stability_cost_modifier = -0.33
+		land_maintenance_modifier = -0.50
+		diplomatic_upkeep = -1
+		global_institution_spread = -0.025
+		land_forcelimit = 10
+		discipline = -0.1
+		global_manpower_modifier = 0.75
+	}
+	valid_for_nation_designer = no
+}

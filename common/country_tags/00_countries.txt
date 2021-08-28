@@ -111,4 +111,9 @@ TRN = "countries/Terisnor.txt"
 KER = "countries/Kerandarayn.txt"
 TSE = "countries/Tsenla.txt"
 
+CAL = "countries/Calgorwic.txt"
+GHA = "countries/Ghand.txt"
+MAL = "countries/Malricandadros.txt" 
+ACH = "countries/Achtendenvaldoch.txt" 
+
 PAP = "countries/Yulikivian.txt"

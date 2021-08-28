@@ -507,6 +507,15 @@ donamenz_region={
 		donamenz_39
 		donamenz_40	
 		donamenz_41	
+		donamenz_42
+		donamenz_43	
+		donamenz_44	
+		donamenz_45	
+		donamenz_46	
+		donamenz_47	
+		donamenz_48	
+		donamenz_49	
+		donamenz_50	
 	}
 }
 

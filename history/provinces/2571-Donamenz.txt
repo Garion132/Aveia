@@ -1,4 +1,7 @@
 #Windsweaps
+add_core = CAL
+owner = CAL
+controller = CAL
 culture = donamenz
 religion = uzvazism
 capital = "Accra"
@@ -10,5 +13,5 @@ base_manpower = 1
 native_size = 90
 native_ferocity = 6
 native_hostileness = 11
-discovered_by = western
+discovered_by = northern_men_group
 extra_cost = 8

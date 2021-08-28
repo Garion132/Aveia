@@ -7,6 +7,24 @@
 #Nation Designer Cost is set to match triggers for starting institutions.
 
 groups = {
+	lake_elves_group = {
+		start_level = 3
+		start_cost_modifier = 0
+	}
+	sea_elves_group = {
+		start_level = 3
+		start_cost_modifier = 0.20
+	}
+	northern_drake_group= {
+		start_level = 3
+		start_cost_modifier = 0.20
+	}
+	northern_men_group = {
+		start_level = 2
+		start_cost_modifier = 0.5
+	}
+	
+
 	western = {
 		start_level = 3
 		start_cost_modifier = 0
@@ -74,7 +92,6 @@ groups = {
 		is_primitive = yes
 	}	
 	
-	
 	high_american = {
 		start_level = 3
 		start_cost_modifier = 0
@@ -83,6 +100,8 @@ groups = {
 			value = 75
 		}
 	}
+	
+	
 }
 
 tables = {

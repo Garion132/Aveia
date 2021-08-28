@@ -13,7 +13,7 @@ trade_goods = copper
 base_manpower = 5
 capital = "Asemont"
 is_city = yes
-discovered_by = western
+discovered_by = lake_elves_group
 extra_cost = 0
 fort_15th = yes
 

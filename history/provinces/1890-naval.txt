@@ -1,2 +1,2 @@
 #Ihadar
-discovered_by = western
+discovered_by = lake_elves_group

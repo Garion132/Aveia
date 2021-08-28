@@ -15,5 +15,5 @@ trade_goods = wool
 base_manpower = 1
 capital = "Nil 3"
 is_city = yes
-discovered_by = western
+discovered_by = lake_elves_group
 extra_cost = 0

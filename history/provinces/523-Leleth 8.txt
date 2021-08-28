@@ -12,5 +12,5 @@ trade_goods = naval_supplies
 base_manpower = 4
 capital = "Leleth 8"
 is_city = yes
-discovered_by = western
+discovered_by = lake_elves_group
 extra_cost = 0

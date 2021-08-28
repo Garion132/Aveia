@@ -12,5 +12,5 @@ trade_goods = cloth
 base_manpower = 4
 capital = "Cyu 2"
 is_city = yes
-discovered_by = western
+discovered_by = lake_elves_group
 extra_cost = 0

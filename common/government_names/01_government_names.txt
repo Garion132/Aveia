@@ -1094,3 +1094,39 @@ gov_religious_order = {
 		has_reform = monastic_order_reform
 	}
 }
+
+gov_mannish_tribal = {
+	rank = {
+		1 = PETTY_KINGDOM 
+		2 = KINGDOM
+		3 = HIGH_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = PETTY_KING
+		2 = KING
+		3 = HIGH_KING
+	}
+	
+	ruler_female = {
+		1 = PETTY_QUEEN
+		2 = QUEEN
+		3 = HIGH_QUEEN
+	}
+	
+	heir_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+
+	heir_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+	
+	trigger = {
+		has_reform = mannish_tribal_reform
+	}
+}

@@ -1,0 +1,33 @@
+government = mannish_tribal
+add_government_reform = mannish_tribal_reform
+primary_culture = donamenz
+religion = uzvazism
+technology_group = northern_men_group
+capital = 2556 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1268.9.16 = {
+	monarch = {
+		name = "Filler"
+		dynasty = "Ghandrim"
+		birth_date = 1238.12.3
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}

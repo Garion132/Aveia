@@ -12,5 +12,5 @@ base_manpower = 4
 trade_goods = salt
 capital = "Soh"
 is_city = yes
-discovered_by = western
+discovered_by = lake_elves_group
 extra_cost = 0

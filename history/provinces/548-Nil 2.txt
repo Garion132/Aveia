@@ -12,5 +12,5 @@ trade_goods = wine
 base_manpower = 2
 capital = "Nil 2"
 is_city = yes
-discovered_by = western
+discovered_by = lake_elves_group
 extra_cost = 0

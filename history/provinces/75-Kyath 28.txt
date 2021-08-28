@@ -12,4 +12,4 @@ trade_goods = ceramics
 base_manpower = 2
 capital = "Kyath 28"
 is_city = yes
-discovered_by = western
+discovered_by = lake_elves_group
