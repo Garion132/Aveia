@@ -1,4 +1,7 @@
 #Reylanlya
+latent_trade_goods = {
+    iron
+}
 
 add_core = REY
 owner = REY
@@ -9,7 +12,7 @@ hre = no
 base_tax = 1
 base_production =1
 base_manpower = 1
-trade_goods = grain
+trade_goods = wool
 capital = "Rey"
 is_city = yes
 discovered_by = lake_elves_group

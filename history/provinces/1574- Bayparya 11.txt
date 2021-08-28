@@ -1,4 +1,7 @@
 #Bayparya
+latent_trade_goods = {
+    iron
+}
 
 add_core = BAY
 owner = BAY
@@ -6,10 +9,10 @@ controller = BAY
 culture = nfanathan
 religion = tlaulunorist
 hre = no
-base_tax = 1
+base_tax = 2
 base_production =1
-base_manpower = 1
-trade_goods = grain
+base_manpower = 2
+trade_goods = wool
 capital = "Bay"
 is_city = yes
 discovered_by = lake_elves_group

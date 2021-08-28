@@ -1,4 +1,7 @@
 #Inzedia
+latent_trade_goods = {
+    iron
+}
 
 add_core = INZ
 owner = INZ
@@ -6,11 +9,12 @@ controller = INZ
 culture = kyathian
 religion = tlaulunorist
 hre = no
-base_tax = 1
-base_production =1
-base_manpower = 1
-trade_goods = grain
+base_tax = 2
+base_production =4
+base_manpower = 3
+trade_goods = wine
 capital = "Inz 3"
 is_city = yes
 discovered_by = lake_elves_group
 extra_cost = 0
+fort_15th = yes
