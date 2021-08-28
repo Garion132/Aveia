@@ -475,13 +475,14 @@ country_event = {
 	
 	
 	major = yes
+	fire_only_once = yes
 	
 	trigger = {
 		is_religion_enabled = seriaralia
 		# capital_scope = {#does not need to be in aveia
 			# continent = aveia
 		# }
-		tag = SOH
+		owns = 1715
 	}
 	
 	mean_time_to_happen = {

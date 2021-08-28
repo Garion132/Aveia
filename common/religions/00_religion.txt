@@ -1007,7 +1007,33 @@ roresism_group = {
 	crusade_name = CRUSADE
 }
 
+uzvazism_group = {
 
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 58 80 }
+	
+	can_form_personal_unions = yes
+
+	uzvazism = { #
+		color = { 175 150 213 }
+		icon = 15
+		country = {
+			tolerance_heretic = 2
+			advisor_cost = -0.1
+		}
+		country_as_secondary = {
+			development_cost = -0.1
+			diplomats = 1
+		}
+		
+		heretic = { SKOZJIGIAN }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
+
+	crusade_name = CRUSADE
+}
 
 
 

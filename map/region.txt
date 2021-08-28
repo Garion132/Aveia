@@ -464,6 +464,51 @@ thilrana_region={
 		thilrana_7
 	}
 }
+donamenz_region={
+	areas={
+		donamenz_1
+		donamenz_2
+		donamenz_3
+		donamenz_4
+		donamenz_5
+		donamenz_6
+		donamenz_7
+		donamenz_8
+		donamenz_9
+		donamenz_10
+		donamenz_11
+		donamenz_12
+		donamenz_13
+		donamenz_14
+		donamenz_15
+		donamenz_16
+		donamenz_17
+		donamenz_18
+		donamenz_19
+		donamenz_20
+		donamenz_21
+		donamenz_22
+		donamenz_23
+		donamenz_24
+		donamenz_25
+		donamenz_26
+		donamenz_27	
+		donamenz_28	
+		donamenz_29	
+		donamenz_30
+		donamenz_31
+		donamenz_32	
+		donamenz_33
+		donamenz_34	
+		donamenz_35	
+		donamenz_36	
+		donamenz_37	
+		donamenz_38	
+		donamenz_39
+		donamenz_40	
+		donamenz_41	
+	}
+}
 
 
 ##Karnaiha
