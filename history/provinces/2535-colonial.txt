@@ -1,4 +1,7 @@
 #Windsweaps
+add_core = BEC
+owner = BEC
+controller = BEC
 culture = donamenz
 religion = uzvazism
 capital = "Accra"

@@ -1,4 +1,7 @@
 #Windsweaps
+add_core = ULR
+owner = ULR
+controller = ULR
 culture = donamenz
 religion = uzvazism
 capital = "Accra"

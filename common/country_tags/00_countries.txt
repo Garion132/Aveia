@@ -119,5 +119,11 @@ VAR = "countries/Varchsenwind.txt"
 DUD = "countries/Dukkikkukdid.txt"
 LAU = "countries/Laughei.txt"
 EHT = "countries/Eshdenhettentarloct.txt"
+BEC = "countries/Bechshartnecargen.txt"
+ULR = "countries/Ulracctrancrarlot.txt"
+VRT = "countries/Vartenlotch.txt"
+TOR = "countries/Torluok.txt"
+AHN = "countries/Achnirvachthrch.txt"
+
 
 PAP = "countries/Yulikivian.txt"

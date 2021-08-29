@@ -1,4 +1,7 @@
 #Windsweaps
+add_core = AHN
+owner = AHN
+controller = AHN
 culture = donamenz
 religion = uzvazism
 capital = "Accra"
