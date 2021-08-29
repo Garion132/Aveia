@@ -11,5 +11,6 @@ native_size = 90
 native_ferocity = 6
 native_hostileness = 11
 discovered_by = lake_elves_group
+discovered_by = northern_men_group
 extra_cost = 8
 

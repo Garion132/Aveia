@@ -1,4 +1,7 @@
 #Windsweaps
+add_core = VAR
+owner = VAR
+controller = VAR
 culture = donamenz
 religion = uzvazism
 capital = "Accra"

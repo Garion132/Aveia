@@ -113,7 +113,11 @@ TSE = "countries/Tsenla.txt"
 
 CAL = "countries/Calgorwic.txt"
 GHA = "countries/Ghand.txt"
-MAL = "countries/Malricandadros.txt" 
-ACH = "countries/Achtendenvaldoch.txt" 
+MAL = "countries/Malricandadros.txt"
+ACH = "countries/Achtendenvaldoch.txt"
+VAR = "countries/Varchsenwind.txt"
+DUD = "countries/Dukkikkukdid.txt"
+LAU = "countries/Laughei.txt"
+EHT = "countries/Eshdenhettentarloct.txt"
 
 PAP = "countries/Yulikivian.txt"

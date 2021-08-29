@@ -1,4 +1,7 @@
 #Windsweaps
+add_core = EHT
+owner = EHT
+controller = EHT
 culture = donamenz
 religion = uzvazism
 capital = "Accra"

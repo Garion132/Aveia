@@ -1,4 +1,7 @@
 #Windsweaps
+add_core = DUD
+owner = DUD
+controller = DUD
 culture = donamenz
 religion = uzvazism
 capital = "Accra"

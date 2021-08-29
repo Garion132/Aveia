@@ -1,9 +1,10 @@
 #Rauthyr
 
 add_core = RAU
+add_core = LAU
 owner = RAU
 controller = RAU
-culture = kyathian
+culture = donamenz
 religion = tlaulunorist
 hre = no
 base_tax = 0
