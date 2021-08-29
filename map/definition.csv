@@ -2715,161 +2715,161 @@ province;red;green;blue;x;x
 2714;255;89;185;Palu;x
 2715;127;150;255;Palopo;x
 2716;137;255;124;Buton;x#
-2717;201;219;43;Sula;x
+2717;201;219;43;Sula;x##east shires additon
 2718;241;207;129;Fak-Fak;x
 2719;119;128;17;Madang;x
-2720;82;206;171;Lae;x
+2720;82;206;171;Lae;x#
 2721;131;198;119;Kerema;x
 2722;178;198;73;Daru;x
-2723;33;198;152;Yos Sudarso;x
+2723;33;198;152;Yos Sudarso;x##east shires end
 2724;221;212;104;Asmat;x
 2725;124;63;62;Aru;x
 2726;147;120;31;Malgana;x
 2727;255;141;71;Minang;x
-2728;93;107;37;Tiwi;x
+2728;93;107;37;Tiwi;x#
 2729;255;102;79;Yolngu;x
 2730;38;104;109;Awngthim;x
 2731;53;255;77;Guugu Yimithirr;x
-2732;45;107;40;Wulgurukaba;x
+2732;45;107;40;Wulgurukaba;x#
 2733;255;101;63;Baiali;x
 2734;170;83;124;Yuin;x
-2735;32;82;163;Gunditjmara;x
+2735;32;82;163;Gunditjmara;x#
 2736;253;255;158;Nukunu;x
 2737;124;56;0;Ahuriri;x
 2738;186;139;0;Waitaha;x
-2739;152;83;186;Kirikiriroa;x
+2739;152;83;186;Kirikiriroa;x#
 2740;249;177;179;Borneo;x
 2741;138;58;45;Jeju;x
-2742;162;64;128;Yukjin;x
+2742;162;64;128;Yukjin;x#
 2743;209;139;185;Gyeongseong;x
 2744;122;48;97;Nyeongbyeon;x
 2745;134;53;105;West Gyeongsang;x
-2746;213;38;84;Vidin;x
+2746;213;38;84;Vidin;x#
 2747;106;186;80;Khara Narin Ula;x
 2748;80;32;128;Jianchang;x
 2749;37;208;234;Tikhvin;x
 2750;234;227;107;Plovdiv;x
-2751;68;230;179;Cuenca;x
+2751;68;230;179;Cuenca;x#
 2752;3;196;128;Romsdal;x
 2753;188;67;67;Narbonne;x
 2754;231;35;179;La Mancha;x
 2755;68;8;179;Soria;x
-2756;166;56;206;Welayta;x
+2756;166;56;206;Welayta;x#
 2757;86;116;66;Kaffa;x
 2758;46;186;146;Illubabor;x
 2759;116;166;116;Gambela;x
 2760;126;216;46;Hadiya;x
-2761;134;44;124;Arsi;x
+2761;134;44;124;Arsi;x#
 2762;120;55;111;Damot;x
 2763;48;148;218;Asosa;x
-2764;26;216;116;Ausa;x
+2764;26;216;116;Ausa;x#
 2765;146;66;126;Assab;x
 2766;186;46;176;Mendefera;x
 2767;82;128;128;Enderta;x
-2768;198;74;105;Angot;x
+2768;198;74;105;Angot;x#
 2769;193;91;31;Lasta;x
 2770;58;147;124;Agew;x
 2771;71;100;145;Semien;x
 2772;145;101;5;Dembiya;x
-2773;151;190;194;Mora;x
+2773;151;190;194;Mora;x#
 2774;93;188;84;Kismayo;x
 2775;204;79;98;Merca;x
 2776;89;155;254;Afgooye;x
-2777;89;124;82;Bardera;x
+2777;89;124;82;Bardera;x#
 2778;178;66;140;Warder;x
 2779;183;255;142;Afder;x
 2780;219;174;92;Beledweyne;x
-2781;89;138;43;Gedo;x
+2781;89;138;43;Gedo;x#
 2782;206;152;45;Warsheikh;x
 2783;155;170;68;Hobyo;x
 2784;142;151;215;Galkayo;x
-2785;255;153;153;El Buur;x
+2785;255;153;153;El Buur;x#
 2786;86;100;255;Bosaso;x
 2787;201;151;89;Hamasien;x
 2788;201;201;89;Hafun;x
-2789;194;170;163;Las Khorey;x
+2789;194;170;163;Las Khorey;x#
 2790;194;89;105;Sanaag;x
 2791;126;107;255;Ankober;x
 2792;211;163;46;Togdheer;x
-2793;97;209;85;Hargeisa;x
+2793;97;209;85;Hargeisa;x#
 2794;206;145;88;Barawa;x
 2795;206;101;70;Meregh;x
 2796;183;132;255;Pate;x
-2797;200;122;110;Shendy;x
+2797;200;122;110;Shendy;x#
 2798;160;160;88;Soba;x
 2799;48;97;59;Sennar;x
 2800;167;174;136;Kosti;x
-2801;47;174;78;Medwa;x
+2801;47;174;78;Medwa;x#
 2802;137;75;113;Kobbe;x
 2803;194;235;0;Delta;x
-2804;114;125;229;Guasipati;x
+2804;114;125;229;Guasipati;x#
 2805;27;143;57;Uyapari;x
 2806;208;224;161;Riohacha;x
 2807;31;196;124;Altagracia;x
-2808;212;203;165;Coro;x
+2808;212;203;165;Coro;x#
 2809;193;104;146;Llanos;x
 2810;184;224;133;Apure;x
-2811;196;122;203;Atabapo;x
+2811;196;122;203;Atabapo;x#
 2812;39;189;75;Pore;x
 2813;68;93;174;Merida;x
 2814;66;225;110;Meta;x
-2815;147;198;249;Puerto Carreno;x
+2815;147;198;249;Puerto Carreno;x#
 2816;232;144;132;Guavire;x
 2817;215;227;10;Nieva;x
-2818;215;34;10;Popayan;x
+2818;215;34;10;Popayan;x#
 2819;205;227;166;Darien;x
 2820;210;55;24;Esmeraldas;x
 2821;203;13;178;Piwra;x
-2822;203;230;178;Tucume;x
+2822;203;230;178;Tucume;x#
 2823;162;29;132;Moyomba;x
 2824;26;229;50;Wankapampa;x
 2825;208;231;17;Pisqupampa;x
 2826;227;10;66;Chimbote;x
-2827;234;182;195;Huaraz;x
+2827;234;182;195;Huaraz;x#
 2828;155;76;12;Camana;x
 2829;212;200;121;Ayaviri;x
 2830;212;54;121;Quero;x
-2831;129;170;176;Tiahuanaco;x
+2831;129;170;176;Tiahuanaco;x#
 2832;53;203;7;Exaltacion;x
-2833;203;28;28;Madre de Dios;x
+2833;203;28;28;Madre de Dios;x#
 2834;229;187;219;Santa Cruz de la Sierra;x
 2835;227;205;162;Sucre;x
 2836;121;191;224;Tucuman;x
 2837;164;195;139;Santa Catalina;x
-2838;203;49;78;Tarija;x
+2838;203;49;78;Tarija;x#
 2839;223;236;112;Puna de Atacama;x
 2840;192;102;234;Calama;x
 2841;87;166;169;Antofagasta;x
-2842;74;6;176;Santiago del Estero;x
+2842;74;6;176;Santiago del Estero;x#
 2843;115;227;215;La Rioja;x
 2844;207;88;96;Chepes;x
-2845;220;218;83;San Juan;x
+2845;220;218;83;San Juan;x#
 2846;201;29;167;Quisquisacate;x
 2847;61;225;80;San Luis;x
 2848;112;183;0;Santa Fe;x
 2849;195;231;140;Rosario;x
 2850;238;42;55;Montevideo;x
-2851;217;40;128;Colonia;x
+2851;217;40;128;Colonia;x#
 2852;102;64;154;Salto;x
 2853;239;193;128;Yareyu;x
-2854;39;54;255;Chaco Central;x
+2854;39;54;255;Chaco Central;x#
 2855;175;213;219;Misiones;x
 2856;80;211;231;Highveld;x
-2857;131;154;204;Rio Grande do Sul;x
+2857;131;154;204;Rio Grande do Sul;x#
 2858;138;169;13;Santiago (Misiones);x
 2859;243;235;206;Itapua;x
 2860;179;64;89;Querandi;x
-2861;130;104;224;Sauce;x
+2861;130;104;224;Sauce;x#
 2862;28;77;217;Coquimbo;x
 2863;220;131;82;Rio Negro;x
-2864;16;91;52;Senqu;x
+2864;16;91;52;Senqu;x#
 2865;196;165;91;Puelches;x
 2866;234;27;27;Olavarria;x
-2867;154;92;25;Chanar;x
+2867;154;92;25;Chanar;x#
 2868;201;74;24;Bahia Blanca;x
 2869;225;248;32;Florida Blanca;x
 2870;198;12;148;Tehuelmapu;x
-2871;162;91;52;Poya;x
+2871;162;91;52;Poya;x#
 2872;94;52;213;Chiquiyami;x
 2873;141;225;31;Chiloe;x
 2874;27;159;129;Aysen;x

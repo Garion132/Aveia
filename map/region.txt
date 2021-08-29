@@ -76,6 +76,8 @@ greater_shires_region = {
 		east_shires_6
 		east_shires_7
 		east_shires_8
+		north_shires_1
+		north_shires_2
 	}
 }
 krashyrvil_midlands_region = {
@@ -407,6 +409,40 @@ gugh_region={
 		yerina_7
 		yerina_8
 		yerina_3
+		gugh_1
+		gugh_2
+		gugh_3
+		gugh_4
+		gugh_5
+		gugh_6
+		gugh_7
+		gugh_8
+		gugh_9
+		gugh_10
+		gugh_11
+		gugh_12
+		gugh_13
+		gugh_14
+		gugh_15
+		gugh_16
+		gugh_17
+		gugh_18
+		gugh_19
+		gugh_20
+		gugh_21
+		gugh_22
+		gugh_23
+		gugh_24
+		gugh_25
+		gugh_26
+		gugh_27
+		gugh_28
+		gugh_29
+		gugh_30
+		gugh_31
+		gugh_32
+		gugh_33
+		gugh_34
 	}
 }
 
@@ -518,7 +554,14 @@ donamenz_region={
 		donamenz_50	
 	}
 }
-
+qirdud_region={
+	areas={
+		qirdud_1
+		qirdud_2
+		qirdud_3
+		qirdud_4
+	}
+}
 
 ##Karnaiha
 
