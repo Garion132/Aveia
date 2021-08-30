@@ -2875,102 +2875,102 @@ province;red;green;blue;x;x
 2874;27;159;129;Aysen;x
 2875;179;101;229;Chubut;x
 2876;58;117;171;Teush;x
-2877;97;56;208;Mendoza;x
+2877;97;56;208;Mendoza;x#
 2878;191;40;143;Matara;x
 2879;9;140;159;Santa Tecla;x
-2880;164;234;53;Griqualand;x
+2880;164;234;53;Griqualand;x#
 2881;124;22;150;Corumba;x
 2882;140;215;23;Fuerte Borbon;x
-2883;73;105;12;Melodia;x
+2883;73;105;12;Melodia;x#
 2884;239;33;57;Povos das Missoes;x
 2885;237;42;10;Barra;x
 2886;219;26;16;Parnaiba;x
-2887;13;172;47;Santa Catarina;x
+2887;13;172;47;Santa Catarina;x#
 2888;60;68;219;Cuiaba;x
 2889;101;200;35;Rio Branco;x
 2890;184;44;219;Marajo;x
 2891;177;115;49;Santa Ana das Minas;x
-2892;108;80;213;Araxas;x
+2892;108;80;213;Araxas;x#
 2893;108;140;23;Ofaie;x
 2894;51;88;196;Sao Joao del Rei;x
 2895;50;191;200;Castro;x
-2896;234;61;69;Campinas;x
+2896;234;61;69;Campinas;x#
 2897;116;224;158;Araraquara;x
 2898;237;44;0;Serro;x
 2899;232;197;34;Vila Rica;x
-2900;213;84;63;Guapore;x
+2900;213;84;63;Guapore;x#
 2901;219;210;106;Cerejeiras;x
 2902;30;80;222;Vila Bela;x
 2903;225;47;5;Caceres Mato Grosso;x
-2904;198;166;54;Diamantino;x
+2904;198;166;54;Diamantino;x#
 2905;227;31;59;Rio Das Mortes;x
 2906;219;44;97;Ipora;x
 2907;31;236;55;Vila Boa;x
-2908;231;147;101;Formosa;x
+2908;231;147;101;Formosa;x#
 2909;56;203;20;Conceicao;x
 2910;220;138;41;Pontal;x
 2911;83;46;201;Natividad;x
-2912;232;205;202;Sergipe;x
+2912;232;205;202;Sergipe;x#
 2913;208;20;175;Jeremoabo;x
 2914;62;16;191;Inhambupe;x
-2915;133;105;215;Pambu;x
+2915;133;105;215;Pambu;x#
 2916;200;153;63;Rio Contas;x
 2917;81;145;18;Paratinga;x
-2918;239;221;25;Campo Largo;x
+2918;239;221;25;Campo Largo;x#
 2919;128;188;22;Luziana;x
 2920;241;204;106;Coxim;x
-2921;217;232;114;Alegoas;x
+2921;217;232;114;Alegoas;x#
 2922;21;102;201;Borborema;x
 2923;218;229;92;Pastos Bons;x
 2924;94;145;166;Timon;x
-2925;49;196;123;Parnagua;x
+2925;49;196;123;Parnagua;x#
 2926;52;123;87;Grajau;x
 2927;200;160;82;Alcantara;x
 2928;229;22;80;Tucurui;x
-2929;166;19;60;Para;x
+2929;166;19;60;Para;x#
 2930;239;225;105;Santarem;x
 2931;44;225;91;Pirara;x
-2932;44;72;166;Waddai;x
+2932;44;72;166;Waddai;x#
 2933;43;143;201;Faro;x
 2934;222;176;35;Manaus;x
 2935;239;49;105;Muturu;x
 2936;72;80;35;Guyana;x
-2937;225;45;45;Suriname;x
+2937;225;45;45;Suriname;x#
 2938;236;171;15;Oiapoque;x
 2939;236;78;0;Zaraza;x
-2940;167;186;36;Chichas (Tupiza);x
+2940;167;186;36;Chichas (Tupiza);x#
 2941;12;149;188;Choquechaca (Caracaras);x
 2942;31;124;26;Charcas;x
 2943;45;116;57;Chachapoyas;x
 2944;219;84;58;Ucayali;x
-2945;121;162;208;Yurimaguas;x
+2945;121;162;208;Yurimaguas;x#
 2946;42;72;201;Quillacas;x
 2947;68;225;26;Macaya;x
-2948;196;104;191;Matamba;x
+2948;196;104;191;Matamba;x#
 2949;72;198;51;Mbata;x
 2950;32;218;173;Buhera;x
 2951;236;57;116;Manikya;x
-2952;236;220;116;Madanda;x
+2952;236;220;116;Madanda;x#
 2953;236;222;116;Hjasaren;x
 2954;29;59;159;Djerba;x
 2955;107;121;191;Ingolstadt;x
-2956;224;134;54;Straubing;x
+2956;224;134;54;Straubing;x#
 2957;70;224;54;Regensburg;x
 2958;239;33;81;Osterode;x
-2959;255;133;59;Tarnow;x
+2959;255;133;59;Tarnow;x#
 2960;61;201;123;Sadecki;x
 2961;241;249;20;Lwow;x
 2962;208;213;71;Rowne;x
-2963;85;232;161;Notec/Bydgoszcz;x
+2963;85;232;161;Notec/Bydgoszcz;x#
 2964;75;169;217;Altmark;x
 2965;52;253;37;Vogtland;x
-2966;243;1;69;Glogau;x
+2966;243;1;69;Glogau;x#
 2967;32;251;212;Eger;x
 2968;88;163;215;Budejovice;x
-2969;121;225;101;Sternberg;x
+2969;121;225;101;Sternberg;x#
 2970;255;239;163;Hradekco;x
 2971;231;154;5;Hoya;x
-2972;249;240;1;Paderborn;x
+2972;249;240;1;Paderborn;x#
 2973;255;162;53;Meppen;x
 2974;248;19;19;Loon;x
 2975;42;231;108;Kleves;x

@@ -8,6 +8,7 @@ SOH_ideas = {
 	start = {
 		naval_morale = 0.20
 		merchants = 1
+		trade_range_modifier = 1.0
 	}
 
 	bonus = {

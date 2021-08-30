@@ -341,7 +341,6 @@ chaunluma_region={#
 		sohoremyfa_3
 		sohoremyfa_4
 		sohoremyfa_5
-		sohoremyfa_7
 		umalesy_1
 		umalesy_2
 		umalesy_3
@@ -569,6 +568,18 @@ karnaiha_region = {
 	areas = {
 		sohoremyfa_6
 		sohoremyfa_8
+		karnaiha_2
+		karnaiha_3
+		karnaiha_4
+		karnaiha_5
+		karnaiha_6
+		karnaiha_7
+		karnaiha_8
+		karnaiha_9
+		karnaiha_10
+		karnaiha_11
+		karnaiha_14
+		karnaiha_15
 	}
 }
 
@@ -638,6 +649,8 @@ windsweaps_region={
 		windsweaps_17
 		windsweaps_18
 		windsweaps_19
+		karnaiha_12
+		karnaiha_13
 	}
 }
 palentai_bay_region={
@@ -652,6 +665,24 @@ palentai_bay_region={
 		palentai_bay_8
 		palentai_bay_9
 		palentai_bay_10
+	}
+}
+
+bulkir_region={
+	areas = {
+		bulkir_1
+		bulkir_2
+		bulkir_3
+		bulkir_4
+		bulkir_5
+		bulkir_6
+		bulkir_7
+		bulkir_8
+		bulkir_9
+		bulkir_10
+		bulkir_11
+		bulkir_12
+		sohoremyfa_7
 	}
 }
 
