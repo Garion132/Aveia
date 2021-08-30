@@ -65,8 +65,16 @@ grain = {
 			has_winter = normal_winter
 		}
 		modifier = {
-			factor = 1.5
+			factor = 2
 			has_terrain = farmlands
+		}
+		modifier = {
+			factor = 1.5
+			has_terrain = grasslands
+		}
+		modifier = {
+			factor = 0
+			region = donamenz_region
 		}
 	}
 }
@@ -81,7 +89,7 @@ fruit = {
 		tax_income = 1
 	}
 	chance = {
-		factor = 5
+		factor = 20
 		modifier = {
 			factor = 0
 			OR = {
@@ -97,7 +105,6 @@ fruit = {
 				has_terrain = marsh
 				has_terrain = savannah
 				has_terrain = glacier
-				religion_group = muslim
 			}
 		}
 		modifier = {
@@ -142,7 +149,6 @@ wine = {
 				has_terrain = marsh
 				has_terrain = savannah
 				has_terrain = glacier
-				religion_group = muslim
 			}
 		}
 		modifier = {
@@ -310,6 +316,11 @@ fur = { #Pademi Fur
 			has_winter = severe_winter
 			NOT = { has_terrain = glacier }
 		}
+		modifier = {
+			factor = 2
+			region = donamenz_region
+			has_terrain = forest
+		}
 	}
 }
 
@@ -387,11 +398,14 @@ naval_supplies = {
 		modifier = {
 			factor = 1.5
 			OR = {
-				has_terrain = forest
 				has_terrain = woods
 				has_terrain = hills
 				has_terrain = jungle
 			}
+		}
+		modifier = {
+			factor = 3
+			has_terrain = forest
 		}
 	}
 }
@@ -427,6 +441,13 @@ copper = {
 		modifier = {
 			factor = 1.2
 			is_random_new_world = yes
+			OR = {
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 2
 			OR = {
 				has_terrain = mountain
 				has_terrain = highlands
@@ -469,6 +490,13 @@ tin = {
 				has_terrain = highlands
 			}
 		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
 	}
 }
 
@@ -506,16 +534,9 @@ silver = {
 			normal_or_historical_nations = no
 		}
 		modifier = {
-			factor = 4.0
-			OR = {
-				province_id = 852		# Mexico
-				province_id = 853		# Huastec
-				province_id = 854		# Sayultecas
-				province_id = 2617		# Huichol
-				province_id = 856		# Zacatecas
-				province_id = 857		# Guichichil
-				province_id = 858		# Tamaulipas
-			}
+			factor = 5
+			region = donamenz_region
+			has_terrain = mountain
 		}
 		modifier = {
 			factor = 2
@@ -821,6 +842,15 @@ quedarma_horns = {
 				has_terrain = savannah
 			}
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_climate = arctic
+				has_winter = severe_winter
+				has_winter = normal_winter
+				NOT = { continent = aveia }
+			}
+		}
 	}
 }
 
@@ -896,8 +926,38 @@ spices = {
 	chance = {
 		factor = 25
 		modifier = {
+			factor = 2
+			OR = {
+				has_climate = tropical
+				has_terrain = jungle
+			}
+		}
+		modifier = {
 			factor = 0
-			has_terrain = mountain
+			OR = {
+				has_winter = severe_winter
+				has_winter = normal_winter
+				has_winter = mild_winter
+				has_climate = arctic
+				has_climate = arid
+				has_terrain = drylands
+				has_terrain = steppe
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = marsh
+				has_terrain = glacier
+			}
+		}
+		modifier = {
+			factor = 1.25
+			has_terrain = farmlands
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_terrain = hills
+				has_terrain = highlands
+			}
 		}
 	}
 }
@@ -953,13 +1013,11 @@ ecriamin = {
 				has_terrain = mountain
 				has_terrain = highlands
 				has_terrain = forest
-				has_terrain = jungle
 				has_climate = arctic
 				has_climate = arid
 				has_terrain = glacier
 				has_winter = severe_winter
 				has_winter = normal_winter
-				has_winter = mild_winter
 				has_terrain = desert
 			}
 		}
@@ -968,6 +1026,13 @@ ecriamin = {
 			OR = {
 				has_terrain = farmlands
 				has_terrain = grasslands
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_terrain = jungle
+				has_climate = tropical
 			}
 		}
 		modifier = {
@@ -1021,22 +1086,20 @@ gold_knot = {
 		factor = 15
 		modifier = {
 			factor = 0
-			is_random_new_world = yes
-			NOT = { continent = new_world } #Always in RNW
-		}
-		modifier = {
-			factor = 0
 			OR = {
-				AND = {
-					has_climate = arid
-					NOT = { has_terrain = grasslands }
-					NOT = { has_terrain = farmlands }
-				}
 				has_winter = severe_winter
 				has_terrain = glacier
 				has_terrain = mountain
-				has_terrain = drylands
+				has_terrain = forest
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_climate = arid
+				has_terrain = steppe
 				has_terrain = desert
+				has_terrain = drylands
 			}
 		}
 	}
@@ -1055,22 +1118,28 @@ vecroth_fruit = {
 		factor = 15
 		modifier = {
 			factor = 0
-			is_random_new_world = yes
-			NOT = { continent = new_world } #Always in RNW
-		}
-		modifier = {
-			factor = 0
 			OR = {
 				has_terrain = glacier
 				has_terrain = steppe
-				has_terrain = forest
-				has_terrain = woods
 				has_terrain = marsh
 				has_climate = arid
 				has_climate = arctic
-				has_winter = mild_winter
 				has_winter = normal_winter
 				has_winter = severe_winter
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_terrain = woods
+				has_terrain = forest
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_terrain = grasslands
+				has_terrain = farmlands
 			}
 		}
 		modifier = {
@@ -1113,12 +1182,6 @@ spirl = {
 				has_winter = normal_winter
 				has_winter = severe_winter
 			}
-		}
-		modifier = {
-			factor = 0.5
-			normal_or_historical_nations = no
-			FROM = { NOT = { religion_group = dharmic } }
-			FROM = { NOT = { religion_group = eastern } }
 		}
 		modifier = {
 			factor = 0
@@ -1167,9 +1230,17 @@ udezer_wood = {
 		factor = 25
 		modifier = {
 			factor = 0
-			NOT = { has_terrain = jungle }
+			NOT = {
+				OR = {
+					has_terrain = jungle 
+					has_terrain = forest 
+				}
+			}
 			NOT = { has_climate = tropical }
-			NOT = { province_id = 1240 }
+		}
+		modifier = {
+			factor = 2
+			has_climate = tropical
 		}
 	}
 }
@@ -1221,13 +1292,7 @@ sunspot = {
 		factor = 25
 		modifier = {
 			factor = 0
-			has_terrain = mountain
-			has_terrain = hills
-			has_terrain = jungle
-		}
-		modifier = {
-			factor = 0
-			NOT={continent = aveia}
+			NOT = { has_terrain = desert }
 		}
 		
 	}
