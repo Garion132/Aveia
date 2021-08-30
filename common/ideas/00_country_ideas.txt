@@ -4,3 +4,85 @@
 
 ### Nation specific idea groups
 
+SOH_ideas = {
+	start = {
+		naval_morale = 0.20
+		merchants = 1
+	}
+
+	bonus = {
+		navy_tradition = 1
+	}
+	
+	trigger = {
+		tag = SOH
+	}
+	free = yes		#will be added at load.
+
+	scions_of_the_sea = {
+		ship_power_propagation = 0.1
+		light_ship_power = 0.25
+	}
+	patroler_of_demina= {
+		trade_steering = 0.1
+	}
+	colonial_primacy = {
+		global_colonial_growth = 15
+	}
+	soh_marine_tradition = {
+		allowed_marine_fraction = 0.15
+		land_morale = 0.10
+	}
+	reform_of_comission_buying = {
+		discipline = 0.05
+	}
+	soh_gateway_to_the_east = {
+		free_dip_policy = 1
+		global_foreign_trade_power = 0.075
+	}
+	sohoremyfa_industrialization = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	
+}
+
+KAF_ideas = {
+	start = {
+		naval_morale = 0.20
+		global_colonial_growth = 20
+	}
+
+	bonus = {
+		navy_tradition = 1
+	}
+	
+	trigger = {
+		tag = KAF
+	}
+	free = yes		#will be added at load.
+
+	kaf_act_of_representation = {
+		reduced_liberty_desire = 125
+		reduced_liberty_desire_on_same_continent = 12
+	}
+	city_upon_a_hill = {
+		heavy_ship_power = 0.15
+	}
+	kafethyr_merchant_navy = {
+		global_tariffs = 0.15
+	}
+	kaf_the_royal_society = {
+		technology_cost = -0.05
+	}
+	reform_of_comission_buying = {
+		discipline = 0.05
+	}
+	kafethyr_industrialization = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	kafethyr_rules_the_waves = {
+		leader_naval_manuever = 1
+		blockade_efficiency = 0.33
+		allowed_marine_fraction = 0.10
+	}
+}

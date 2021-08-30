@@ -41,6 +41,14 @@ doninas_city = {
 	province_trade_power_value = 10
 }
 
+temple_of_the_sea_god = {
+	prestige_from_naval = 0.1
+	naval_morale = 0.1
+	prestige = 0.25
+	dip_tech_cost_modifier = -0.1
+	province_trade_power_value = 10
+}
+
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.
 enheasrion_estuary_modifier = {
