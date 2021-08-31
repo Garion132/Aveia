@@ -9,6 +9,9 @@
  sailing_airship:0 "Sailing Airship"
  sailing_airshipDESCR:0 "Plz do description"
 
+ building_fort_14th:0 "Fortification"
+ building_fort_14th_desc:0 "Plz do description."
+
  RAIN_OF_ASH:0 "Eruption of the Orbury Supervolcano"
  RAIN_OF_ASH_LONG:0 "Lasting Effects of the Orbury Supervolcano Eruption"
  mannish_tribal:0 "Donamenz Tribe"

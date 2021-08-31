@@ -14,7 +14,7 @@ capital = "Drg 3"
 is_city = yes
 discovered_by = lake_elves_group
 extra_cost = 0
-fort_15th = yes
+fort_14th = yes
 
 add_permanent_province_modifier = {
 	name = dreghei_mines

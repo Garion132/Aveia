@@ -18,5 +18,5 @@ capital = "Eyhathe"
 is_city = yes
 discovered_by = lake_elves_group
 extra_cost = 0
-fort_15th = yes
+fort_14th = yes
 center_of_trade = 1

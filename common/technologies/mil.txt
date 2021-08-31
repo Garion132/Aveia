@@ -26,7 +26,7 @@ technology = {
 
 	#Fortification
 	
-	fort_15th = yes #TODO - Change to fort_14th
+	fort_14th = yes
 }
 
 technology = {
@@ -130,18 +130,14 @@ technology = {
 	infantry_shock		= 	0.30
 	
 	#TODO new inf for non-humans
-
-	# weapons = yes
 }
 	
 technology = {
 	# Tech 12
 	year = 1378
 	
-	#Castles
-	# sprite_level = 2
-	
-	# fort_15th = yes TODO add fort_15th
+	#Castles	
+	fort_15th = yes
 	military_tactics = 0.25
 }
 

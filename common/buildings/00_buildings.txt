@@ -23,6 +23,23 @@
 # AI will consider each building to be worth 0.01 ducats per year as a base, so making ai_will_do above cost will have them build it at some point.
 # It will still check whether it can afford a building before doing so though, but may save up to it.
 
+################################################
+# Tier 0, pre-Modern Era Buildings
+################################################
+fort_14th = {
+	cost = 100
+	time = 30
+	modifier = {
+		fort_level = 1
+	}
+
+	onmap = yes
+	influencing_fort = yes
+
+	ai_will_do = {
+		factor = 1 #Lots of logic in code instead, that multiplies with this value
+	}
+}
 
 ################################################
 # Tier 1, 15th Century Buildings
@@ -129,6 +146,7 @@ shipyard = {
 fort_15th = {
 	cost = 200
 	time = 30
+	make_obsolete = fort_14th
 	modifier = {
 		fort_level = 2
 	}
