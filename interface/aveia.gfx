@@ -2,7 +2,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_fort_14th"
-		texturefile = "gfx//interface//buildings//latin_fort.tga"
+		texturefile = "gfx//interface//buildings//latin_fort00.tga"
 		loadType = "INGAME"
 	}
 }
