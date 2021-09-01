@@ -1,0 +1,13 @@
+#Agaruz
+culture = kaletian
+religion = shamanism
+capital = "Accra"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 50
+native_ferocity = 6
+native_hostileness = 4
+discovered_by = lake_elves_grouextra_cost = 8

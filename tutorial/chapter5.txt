@@ -1,0 +1,835 @@
+tutorial = {
+	index = 5
+	title = "TUT_ADV_CHAPTER01_TITLE"
+	desc = "TUT_ADV_CHAPTER01_DESC"
+	buttonText = "TUT_ADV_CHAPTER01_BUTTON"
+	country = KYT
+	window = "hints_window"	# default window
+	moveable = yes
+	save_game = "eu4_tutorial_chapter5.eu4"
+	category = 2
+	
+	page = {
+		index = 1
+		title = "TUT_ADV_CHAPTER01_PAGE01_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE01_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE01_OBJECTIVES"
+		
+		effect = {
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	
+	page = {
+		index = 2
+		title = "TUT_ADV_CHAPTER01_PAGE02_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE02_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE02_OBJECTIVES"
+		
+		effect = {
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = 120
+				y = 50
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	
+	page = {
+		index = 3
+		title = "TUT_ADV_CHAPTER01_PAGE03_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE03_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE03_OBJECTIVES"
+			
+		effect = {
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = 200
+				y = 50
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 4
+		title = "TUT_ADV_CHAPTER01_PAGE04_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE04_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE04_OBJECTIVES"
+			
+		effect = {
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = 370 # 285
+				y = 50
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 5
+		title = "TUT_ADV_CHAPTER01_PAGE05_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE05_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE05_OBJECTIVES"
+			
+		effect = {
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}		
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = 500 #350
+				y = 50
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 6
+		title = "TUT_ADV_CHAPTER01_PAGE06_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE06_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE06_OBJECTIVES"
+	
+		effect = {
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+				
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = 560 #415
+				y = 50
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 7
+		title = "TUT_ADV_CHAPTER01_PAGE07_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE07_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE07_OBJECTIVES"
+			
+		effect = {
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+				
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = 640 #485
+				y = 50
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	#ADD POWER PROJECTION HERE
+	page = {
+		index = 8
+		title = "TUT_ADV_CHAPTER01_PAGE08_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE08_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE08_OBJECTIVES"
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_right"
+			position = {
+				x = 640 #505
+				y = -15
+			}
+		}
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_left"
+			position = {
+				x = 890 #760
+				y = -15
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 9
+		title = "TUT_ADV_CHAPTER01_PAGE09_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE09_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE09_OBJECTIVES"
+				
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_right"
+			position = {
+				x = 410 #330
+				y = 23
+			}
+		}
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_left"
+			position = {
+				x = 660 #585
+				y = 23
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 10
+		title = "TUT_ADV_CHAPTER01_PAGE10_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE10_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE10_OBJECTIVES"
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_right"
+			position = {
+				x = 60
+				y = 70
+			}
+		}
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_left"
+			position = {
+				x = 425
+				y = 70
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 11
+		title = "TUT_ADV_CHAPTER01_PAGE11_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE11_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE11_OBJECTIVES"
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-ul"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = -10
+				y = 165
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	#ADD FACTIONS HERE
+	page = {
+		index = 12
+		title = "TUT_ADV_CHAPTER01_PAGE12_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE12_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE12_OBJECTIVES"
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-br"
+			sprite = "GFX_uiarrow_down"
+			position = {
+				x = -425
+				y = -150
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 13
+		title = "TUT_ADV_CHAPTER01_PAGE13_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE13_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE13_OBJECTIVES"
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-br"
+			sprite = "GFX_uiarrow_down"
+			position = {
+				x = -380
+				y = -150
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 14
+		title = "TUT_ADV_CHAPTER01_PAGE14_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE14_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE14_OBJECTIVES"
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-ur"
+			sprite = "GFX_uiarrow_right"
+			position = {
+				x = -100
+				y = 38
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	
+	page = {
+		index = 15
+		title = "TUT_ADV_CHAPTER01_PAGE15_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE15_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE15_OBJECTIVES"
+		
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}		
+		
+		extra_window = {
+			window = "dummy-ur"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = -180
+				y = 85
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 16
+		title = "TUT_ADV_CHAPTER01_PAGE16_TITLE"
+		text = "TUT_ADV_CHAPTER01_PAGE16_TEXT"
+		object = "TUT_ADV_CHAPTER01_PAGE16_OBJECTIVES"
+			
+		effect = {
+			pauseable = no
+			pause = yes
+			ai = no			
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		
+		extra_window = {
+			window = "dummy-br"
+			sprite = "GFX_uiarrow_right"
+			position = {
+				x = -365
+				y = -220 #205
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+}

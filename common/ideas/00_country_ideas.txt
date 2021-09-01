@@ -63,8 +63,8 @@ KAF_ideas = {
 	free = yes		#will be added at load.
 
 	kaf_act_of_representation = {
-		reduced_liberty_desire = 125
-		reduced_liberty_desire_on_same_continent = 12
+		reduced_liberty_desire = 12.5
+		reduced_liberty_desire_on_same_continent = -12
 	}
 	city_upon_a_hill = {
 		heavy_ship_power = 0.15

@@ -22,3 +22,5 @@ NDefines.NAI.MAX_CAV_PERCENTAGE = 20
 NDefines.NCountry.MAX_PROVINCES_FOR_FREE_CITY = 2		-- A free city cannot have more provinces than this
 NDefines.NReligion.MAX_CHRISTIAN_RELIGIOUS_CENTERS = 5	
 NDefines.NDiplomacy.HRE_PRINCE_AUTHORITY_THRESHOLD = 17
+
+NDefines.NGame.MAX_COLONIAL_NATIONS = 90				-- Max is 100

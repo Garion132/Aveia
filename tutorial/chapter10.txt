@@ -1,0 +1,468 @@
+tutorial = {
+	index = 10
+	title = "TUT_CAM_CHAPTER03_TITLE"
+	desc = "TUT_CAM_CHAPTER03_DESC"
+	buttonText = "TUT_CAM_CHAPTER03_BUTTON"
+	country = KYT
+	window = "hints_window"	# default window
+	moveable = yes
+	save_game = "eu4_tutorial_chapter10.eu4"
+	#pauseable = no
+	category = 3
+	
+	page = {
+		index = 1
+		title = "TUT_CAM_CHAPTER03_PAGE01_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE01_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE01_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			ai = no
+			add_country_modifier = {
+				name = tutorial_modifier
+				duration = -1
+			}
+			goto = 224
+			pauseable = no
+			pause = yes
+			speed = 4
+		}
+		trigger = {
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}	
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 2
+		title = "TUT_CAM_CHAPTER03_PAGE02_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE02_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE02_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			ai = no
+			pause = yes
+			direction_pointer = {
+				enable = yes
+				target = 224
+			}
+			province_highlight = {
+				enable = yes
+				target = 224
+			}
+		}
+		leave_page_effect = {
+			direction_pointer = { enable = no }
+			province_highlight = { enable = no }
+		}
+		
+		trigger = {
+			select_navy = "Armada Real"
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 3
+		title = "TUT_CAM_CHAPTER03_PAGE03_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE03_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE03_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			ai = no
+			pause = yes
+			country_event = { id = tutorial.4 }
+			direction_pointer = {
+				enable = yes
+				target = 1580
+			}
+		}
+		
+		trigger = {
+			has_discovered = 1580
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 4
+		title = "TUT_CAM_CHAPTER03_PAGE04_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE04_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			ai = no
+			direction_pointer = {
+				enable = yes
+				target = 1583
+			}
+			pause = no
+		}
+		
+		trigger = {
+			has_discovered = 1583
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 5
+		title = "TUT_CAM_CHAPTER03_PAGE04_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE04_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			ai = no
+			direction_pointer = {
+				enable = yes
+				target = 1575
+			}
+			pause = no
+		}
+		
+		trigger = {
+			has_discovered = 1575
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 6
+		title = "TUT_CAM_CHAPTER03_PAGE04_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE04_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			ai = no
+			direction_pointer = {
+				enable = yes
+				target = 1574
+			}
+			pause = no
+		}
+		
+		trigger = {
+			has_discovered = 1574
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 7
+		title = "TUT_CAM_CHAPTER03_PAGE04_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE04_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE04_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			ai = no
+			direction_pointer = {
+				enable = yes
+				target = 1524
+			}
+			pause = no
+		}
+		
+		trigger = {
+			has_discovered = 1524
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 8
+		title = "TUT_CAM_CHAPTER03_PAGE05_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE05_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE05_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			ai = no
+			country_event = { id = tutorial.5 } # flavor about land discovered	
+			instant_colony = yes
+			direction_pointer = {
+				enable = yes
+				target = 489
+			}
+			province_highlight = {
+				enable = yes
+				target = 489
+			}
+		}
+		leave_page_effect = {
+			direction_pointer = { enable = no }
+			province_highlight = { enable = no }
+		}
+		
+		trigger = {
+			select_province = 489 # Tortuga
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 9
+		title = "TUT_CAM_CHAPTER03_PAGE06_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE06_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE06_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			ai = no
+			instant_colony = yes
+		}
+		
+		trigger = {
+			489 = {
+				is_colony = yes
+			}
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 10
+		title = "TUT_CAM_CHAPTER03_PAGE07_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE07_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE07_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			close_window = "all"
+			ai = no
+		}
+				
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+	page = {
+		index = 11
+		title = "TUT_CAM_CHAPTER03_PAGE08_TITLE"
+		text = "TUT_CAM_CHAPTER03_PAGE08_TEXT"
+		object = "TUT_CAM_CHAPTER03_PAGE08_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { unitpanel disbandbutton }
+				
+		effect = {
+			close_window = "all"
+			ai = no
+		}
+		
+		trigger = { #prevent tutorial from automatically skipping to next page
+			always = no
+		}
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+	}
+}

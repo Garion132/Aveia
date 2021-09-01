@@ -3,7 +3,7 @@
 add_core = MTN
 owner = MTN
 controller = MTN
-culture = kyathian
+culture = sohor
 religion = tlaulunorist
 hre = no
 base_tax = 2

@@ -346,7 +346,7 @@ crop_rotation = {
 		is_island = no
 		OR={
 			bronze_working = 100
-			iron_working = 100
+			#iron_working = 100
 		}
 		OR = {
 			development = 20

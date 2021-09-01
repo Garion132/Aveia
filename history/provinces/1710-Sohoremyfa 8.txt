@@ -3,7 +3,7 @@
 add_core = SOH
 owner = SOH
 controller = SOH
-culture = kyathian
+culture = sohor
 religion = tlaulunorist
 hre = no
 base_tax = 3

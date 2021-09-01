@@ -1534,7 +1534,7 @@ donamenz_50={
 north_shires_1={
 2717 2718 2719 2720 
 }
-north_shires_1={
+north_shires_2={
 2721 2722 2723
 }
 gugh_1={

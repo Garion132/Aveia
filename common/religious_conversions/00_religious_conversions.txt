@@ -435,12 +435,10 @@ eternal_sun_center_of_reformation = {
 		}
 		modifier = {
 			factor = 0
-			OR={
-				NOT = { religion_group = tlaulunorism }
-				AND={
-					religion_group = rake_group
-					has_global_flag = vadalor_dead
-				}
+			NOT = { religion_group = tlaulunorism }
+			AND={
+				religion_group = rake_group
+				NOT={has_global_flag = vadalor_dead}
 			}
 		}
 		modifier = {
@@ -665,13 +663,6 @@ hussite_center_of_reformation = {
 			has_state_edict = edict_religion_enforced
 		}
 		# HRE is more resistant to reformation when the Pope is an Imperial Prince
-		modifier = {
-			factor = 0.75
-			is_part_of_hre = yes
-			PAP = {
-				is_part_of_hre = yes
-			}
-		}
 	}
 }
 
@@ -790,13 +781,6 @@ anglican_center_of_reformation = {
 			has_state_edict = edict_religion_enforced
 		}
 		# HRE is more resistant to reformation when the Pope is an Imperial Prince
-		modifier = {
-			factor = 0.75
-			is_part_of_hre = yes
-			PAP = {
-				is_part_of_hre = yes
-			}
-		}
 	}
 }
 
@@ -911,13 +895,6 @@ protestant_center_of_reformation = {
 			has_state_edict = edict_religion_enforced
 		}
 		# HRE is more resistant to reformation when the Pope is an Imperial Prince
-		modifier = {
-			factor = 0.75
-			is_part_of_hre = yes
-			PAP = {
-				is_part_of_hre = yes
-			}
-		}
 	}
 }
 
@@ -1032,12 +1009,5 @@ reformed_center_of_reformation = {
 			has_state_edict = edict_religion_enforced
 		}
 		# HRE is more resistant to reformation when the Pope is an Imperial Prince
-		modifier = {
-			factor = 0.75
-			is_part_of_hre = yes
-			PAP = {
-				is_part_of_hre = yes
-			}
-		}
 	}
 }

@@ -1,2 +1,0 @@
-#Ihadar
-discovered_by = lake_elves_group

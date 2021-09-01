@@ -747,6 +747,7 @@ rake_group = {
 	rethese = { #
 		color = { 213 185 128 }
 		icon = 9
+		
 		country = {
 			tolerance_heretic = 2
 			advisor_cost = -0.1
@@ -754,6 +755,9 @@ rake_group = {
 		country_as_secondary = {
 			development_cost = -0.1
 			diplomats = 1
+		}
+		allowed_conversion = {
+			vulikivite
 		}
 		allowed_center_conversion = {
 			vulikivite

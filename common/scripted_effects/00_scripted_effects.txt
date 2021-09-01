@@ -788,9 +788,7 @@ restore_old_nation_on_formation_effect = {
 			every_province = {
 				limit = {
 					is_core = ROOT
-					OR = {
-						continent = aveia
-					}
+					continent = aveia
 				}
 				add_core = event_target:old_tag_target
 				remove_core = ROOT
@@ -801,9 +799,7 @@ restore_old_nation_on_formation_effect = {
 			every_subject_country = {
 				limit = {
 					capital_scope = { 
-						OR = {
-							continent = aveia
-						}
+						continent = aveia
 					}
 				}
 				grant_independence = yes
