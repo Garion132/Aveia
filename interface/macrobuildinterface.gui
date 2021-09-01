@@ -466,7 +466,7 @@ guiTypes = {
 		name = "new_buildings_entry"
 		backGround=""
 		position = { x=0 y =0}	
-		size = { x=400 y = 320}
+		size = { x=400 y = 620}
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -956,7 +956,7 @@ guiTypes = {
 		iconType = {
 			name = "defense_banner"
 			position = { x = 4 y = 291 }
-			spriteType = "GFX_banner_left_5"
+			spriteType = "GFX_banner_left_5S"
 		}
 
 		instantTextBoxType={

@@ -5,4 +5,9 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//latin_fort0.tga"
 		loadType = "INGAME"
 	}
+
+	spriteType = {
+		name = "GFX_banner_left_5S"
+		texturefile = "gfx//interface//banner_left_5s.dds"
+	}
 }
