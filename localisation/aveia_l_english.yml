@@ -11,6 +11,7 @@
 
  building_fort_14th:0 "Fortification"
  building_fort_14th_desc:0 "Plz do description."
+ UNORGANIZED_BUILDINGS:0 "Unorganized"
 
  RAIN_OF_ASH:0 "Eruption of the Orbury Supervolcano"
  RAIN_OF_ASH_LONG:0 "Lasting Effects of the Orbury Supervolcano Eruption"
