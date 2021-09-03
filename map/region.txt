@@ -578,8 +578,6 @@ karnaiha_region = {
 		karnaiha_9
 		karnaiha_10
 		karnaiha_11
-		karnaiha_14
-		karnaiha_15
 	}
 }
 
@@ -665,6 +663,26 @@ palentai_bay_region={
 		palentai_bay_8
 		palentai_bay_9
 		palentai_bay_10
+		palentai_bay_11
+		palentai_bay_12
+		palentai_bay_13
+		palentai_bay_14
+		palentai_bay_15
+		
+	}
+}
+
+catecalde_region={
+	areas = {
+		karnaiha_16
+		karnaiha_17
+		karnaiha_18
+		karnaiha_19
+		karnaiha_20
+		karnaiha_21
+		karnaiha_22
+		karnaiha_14
+		karnaiha_15
 	}
 }
 

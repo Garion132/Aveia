@@ -33,4 +33,5 @@ elteria_superregion={
 	greater_jalhorkan_region
 	windsweaps_region
 	palentai_bay_region
+	catecalde_region
 }
