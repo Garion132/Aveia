@@ -5426,7 +5426,7 @@ guiTypes = {
 		name = "new_buildings_entry2"
 		backGround=""
 		position = { x=0 y =0}
-		size = { x=400 y = 320}
+		size = { x=500 y = 320}
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -5438,49 +5438,132 @@ guiTypes = {
 			position = { x = 4 y = 0 }
 			spriteType = "GFX_banner_left_3"
 		}
-
+		
 		instantTextBoxType={
 			name = "title_trade"
 			position = {x = 44 y = 9 }
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 0 y = 0}	
 			maxWidth = 120
 			maxHeight = 18
-			text = "TRADE"
+			text = "TRADE"	
 		}
-
+		
 		iconType ={
 			name ="trade_icon"
 			spriteType = "GFX_macro_buildings_category_strip"
 			position = { x = 15 y = 3}
 			frame = 1
 		}
-
+		
 		checkboxType = {
 			name = "build_marketplace"
 			position = { x = 9 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
-
+		
 		instantTextBoxType={
 			name = "marketplace_cost"
 			position = {x = 9 y = 82 }
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000¤"
+			text = "2000¤"	
 		}
-
+		
 		checkboxType = {
 			name = "build_trade_depot"
 			position = { x = 61 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
-
+		
 		instantTextBoxType={
 			name = "trade_depot_cost"
 			position = {x = 61 y = 82 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"	
+		}
+		
+		iconType = {
+			name = "marketplace_to_trade_depot_arrow"
+			position = { x = 53 y = 41 }
+			spriteType = "GFX_building_upgrade_icon"
+		}			
+		
+		checkboxType = {
+			name = "build_merchants_quarter"
+			position = { x = 113 y = 32 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+		
+		instantTextBoxType={
+			name = "merchants_quarter_cost"
+			position = {x = 113 y = 82 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"	
+		}
+		
+		iconType = {
+			name = "trade_depot_to_merchants_quarter_arrow"
+			position = { x = 105 y = 41 }
+			spriteType = "GFX_building_upgrade_icon"
+		}		
+		
+		checkboxType = {
+			name = "build_customs_house"
+			position = { x = 165 y = 32 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+		
+		instantTextBoxType={
+			name = "customs_house_cost"
+			position = {x = 165 y = 82 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"	
+		}
+		
+		iconType = {
+			name = "trade_depot_to_customs_house_arrow"
+			position = { x = 157 y = 41 }
+			spriteType = "GFX_building_upgrade_icon"
+		}		
+
+
+		checkboxType = {
+			name = "build_mint"
+			position = { x = 372 y = 32 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "mint_cost"
+			position = {x = 372 y = 82 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_bank"
+			position = { x = 424 y = 32 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "bank_cost"
+			position = {x = 424 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
@@ -5489,20 +5572,20 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "marketplace_to_trade_depot_arrow"
-			position = { x = 53 y = 41 }
+			name = "mint_to_bank_arrow"
+			position = { x = 416 y = 41 }
 			spriteType = "GFX_building_upgrade_icon"
 		}
 
 		checkboxType = {
 			name = "build_stock_exchange"
-			position = { x = 113 y = 32 }
+			position = { x = 476 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
 			name = "stock_exchange_cost"
-			position = {x = 113 y = 82 }
+			position = {x = 476 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
@@ -5511,8 +5594,8 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "trade_depot_to_stock_exchange_arrow"
-			position = { x = 105 y = 41 }
+			name = "bank_to_stock_exchange_arrow"
+			position = { x = 468 y = 41 }
 			spriteType = "GFX_building_upgrade_icon"
 		}
 

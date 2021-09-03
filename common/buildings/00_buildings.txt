@@ -23,6 +23,262 @@
 # AI will consider each building to be worth 0.01 ducats per year as a base, so making ai_will_do above cost will have them build it at some point.
 # It will still check whether it can afford a building before doing so though, but may save up to it.
 
+
+################################################
+# FULL BUILDING LIST
+################################################
+
+# Max of 8 buildings across the macrobuilder, scrollbar makes that 7
+
+
+##########
+## IDEAS for buildings
+##########
+
+### Trade ###
+# Marketplace, +0.25 Local Trade Power, +15% Trade Power, -5% Dev Cost
+# Trade Depot, +0.5 Local Trade Power, +25% Trade Power, -10% Dev Cost
+# Merchant's Quarter, +1.0 Local Trade Power, +40% Trade Power, -15% Dev Cost
+# Customs House, +2.0 Local Trade Power, +60% Trade Power, -20% Dev Cost
+#
+# Mint, +10% Local Trade Power, +1.0 Yearly Tax, +0.5 Trade Value, -5% Dev Cost
+# Bank, +20% Local Trade Power, +2.0 Yearly Tax, +1.0 Trade Value, -10% Dev Cost
+# Stock Exchange, +40% Local Trade Power, +4.0 Yearly Tax, +2.0 Trade Value, -20% Dev Cost
+
+### Religion ###
+# Shrine, +5% Yearly Tax, -1.0 Local Unrest, +1.0% Local Missionary Strength, -5% Dev Cost
+# Temple, +10% Yearly Tax, -2.0 Local Unrest, +2.0% Local Missionary Strength, -10% Dev Cost
+# Cathedral, +15% Yearly Tax, -3.0 Local Unrest, +3.0% Local Missionary Strength, -15% Dev Cost
+
+### Govt ###
+# Forum, -0.025 Autonomy Change, -5% Governing Cost, -2.5% Dev Cost
+# Courthouse, -0.05 Autonomy Change, -10% Governing Cost, -5% Dev Cost
+# Town Hall, -0.075 Autonomy Change, -15% Governing Cost, -7.5% Dev Cost
+# City Hall, -0.1 Autonomy Change, -20% Governing Cost, -10% Dev Cost
+# Government Palace, -0.15 Autonomy Change, -25% Governing Cost, -15% Dev Cost
+
+### Navy ###
+# Port, +0.5 Local Trade Power, +1.0 Naval Forcelimit, +25% Sailors, +20% Local Supply Limit, -2.5% Dev Cost
+# Dockland, +1 Local Trade Power, +2.0 Naval Forcelimit, +50% Sailors, +45% Local Supply Limit, -5% Dev Cost
+# Wharf, +2 Local Trade Power, +3.0 Naval Forcelimit, +75% Sailors, +60% Local Supply Limit, -7.5% Dev Cost
+# Harbor District, +5 Local Trade Power, +4.0 Naval Forcelimit, +100% Sailors, +75% Local Supply Limit, -15% Dev Cost
+# 
+# Shipwright, +3.0 Naval Forcelimit, -40% Shipbuilding Time, +40% Ship Repair
+# Drydock, +5.0 Naval Forcelimit, -60% Shipbuilding Time, +80% Ship Repair
+# Naval Arsenal, +10.0 Naval Forcelimit, -65% Shipbuilding Time, +100% Ship Repair
+# Naval Base, +20.0 Naval Forcelimit, -70% Shipbuilding Time, +125% Ship Repair
+
+### Production ###
+# Workshop, +10% Production Efficiency, -5% Dev Cost
+# Artisan's Guild, +20% Production Efficiency, -10% Dev Cost
+# Craftsman's District, +30% Production Efficiency, -20% Dev Cost
+# Industrial Zone, +50% Production Efficiency, -40% Dev Cost
+
+### Army ###
+# Barracks - +25% Manpower
+# Training Fields - +50% Manpower
+# Military Academy - +75% Manpower
+#
+# Regimental Camp - +1 Land Force Limit, -10% Recruit Time, -1 Yearly Tax
+# Conscription Center - +2 Land Force Limit, -20% Recruit Time, -2 Yearly Tax
+# Mobilization System - +3 Land Force Limit, -30% Recruit Time, -3 Yearly Tax
+
+### Taxation ###
+# Taxman, +1 Yearly Tax, +20% Tax, +5% Dev Cost
+# Tax Office, +2 Yearly Tax, +33% Tax, +10% Dev Cost
+# Counting House, +3 Yearly Tax, +50% Tax, +20% Dev Cost
+# Tax Agency, +4 Yearly Tax, +75% Tax, +30% Dev Cost
+
+### Defense ###
+# Fortification - 13th, lvl 1
+# Citadel - 14th, lvl 2
+# Castle - 15th, lvl 3
+# Bastion - 16th, lvl 4
+# Star Fort - 17th, lvl 6
+# Fortress - 18th, lvl 8
+# Point Defense - 19th, lvl 10
+
+### Coastal ###
+# Coastal Defense, +50% Blockade Force Required, +100% Hostile Disembark Time, Blocks Coastal Raids
+# Naval Battery, +100% Blockade Force Required, +200% Hostile Disembark Time, +3% Hostile Fleet Attrition, Blocks Coastal Raids
+# Naval Fortifications, +200% Blockade Force Required, +300% Hostile Disembark Time, +6% Hostile Fleet Attrition, Blocks Coastal Raids
+
+### Infrastructure ###
+# Gravel Roads - +33% Mvmt Speed (All), +15% Institution Spread, +1.0 Supply Limit, +0.1 Trade Power, +5% Local Trade Power, -5% Dev Cost, +1 Building Slot
+# Paved Roads - +66% Mvmt Speed (All), +25% Institution Spread, +2.0 Supply Limit, +0.2 Trade Power, +10% Local Trade Power, -10% Dev Cost, +1 Building Slot
+# Highways - +100% Mvmt Speed (All), +33% Institution Spread, +4.0 Supply Limit, +0.5 Trade Power, +15% Local Trade Power, -15% Dev Cost, +1 Building Slot
+#
+# Canals - +2.0 Supply Limit, -10% Dev Cost, +2 Building Slots
+# Railroads - +50% Friendly Mvmt Speed, +25% Enemy Mvmt Speed, +15% Institution Spread, +5.0 Supply Limit, +0.5 Trade Power, +10% Local Trade Power, -15% Dev Cost, +2 Building Slots
+# Railway Network - +100% Friendly Mvmt Speed, +50% Enemy Mvmt Speed, +30% Institution Spread, +10.0 Supply Limit, +1 Trade Power, +20% Local Trade Power, -30% Dev Cost, +2 Building Slots
+
+### Academies ###
+# School, +25% Institution Spread, -5% Dev Cost
+# University, -6 Yearly Tax, -2.5% Tech Cost, +66% Institution Spread, -10% Dev Cost, only in Base Tax 6+ provinces
+# Research Center, -12 Yearly Tax, -5% Tech Cost, +100% Institution Spread, -15% Dev Cost, only in Base Tax 12+ provinces
+
+### Manufactories ###
+# Irrigation, +0.2 Goods Produced, (Grain, Fruit, Wine, Wool, Vecroth Fruit, Livestock, Fish)
+# Farm Estate, +0.5 Goods Produced
+# Mechanized Farm, +1.0 Goods Produced, +20% Goods Produced
+#
+# Gatherer's Hut, +0.33 Goods Produced, (Fur, Quedarma Horns, Slaves, Black Eliph, Spices, Iresta, Ecriamin, Sweetpowder, Gold Knot, Spirl, Sunspot, Dyes, Udezer Wood)
+# Plantation, +0.66 Goods Produced
+# Trade Station, +1.0 Goods Produced
+#
+# Craftsman, +0.2 Goods Produced (Naval Supplies, Cloth, Machinery, Glass, Paper, Ceramics)
+# Manufactory, +0.5 Goods Produced
+# Factory, +1.0 Goods Produced, +50% Goods Produced
+#
+# Mine, +0.2 Goods Produced (Salt, Copper, Tin, Silver, Iron, Plaulum, Gems, Coal, Guedina, Ankon, Vitaite, Bryrine, Marble)
+# Mining Complex, +0.5 Goods Produced
+# Mechanized Mine, +1.0 Goods Produced, +20% Goods Produced
+
+################################################
+# Trade Buildings
+################################################
+
+marketplace = { 
+	cost = 50
+	time = 12
+
+	build_trigger = {
+		development = 3
+	}
+
+	modifier = {
+		province_trade_power_value = 0.5
+		province_trade_power_modifier = 0.15
+		local_development_cost = -0.05
+	}
+
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+trade_depot = {
+	cost = 100
+	time = 18
+
+	make_obsolete = marketplace
+
+	build_trigger = {
+		development = 6
+	}
+
+	modifier = {
+		province_trade_power_value = 1.0
+		province_trade_power_modifier = 0.25
+		local_development_cost = -0.10
+	}
+
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+merchants_quarter = {
+	cost = 200
+	time = 24
+
+	make_obsolete = trade_depot
+
+	build_trigger = {
+		development = 12
+	}
+
+	modifier = {
+		province_trade_power_value = 2.0
+		province_trade_power_modifier = 0.40
+		local_development_cost = -0.15
+	}
+
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+customs_house = {
+	cost = 300
+	time = 36
+
+	make_obsolete = merchants_quarter
+
+	build_trigger = {
+		development = 21
+	}
+
+	modifier = {
+		province_trade_power_value = 4.0
+		province_trade_power_modifier = 0.60
+		local_development_cost = -0.20
+	}
+
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+mint = {
+	cost = 50
+	time = 18
+
+	build_trigger = {
+		development = 9
+	}
+
+	modifier = {
+		tax_income = 1.0
+		province_trade_power_modifier = 0.1
+		trade_value = 0.5
+		local_development_cost = -0.05
+	}
+
+	ai_will_do = {
+		factor = 1.2 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+bank = {
+	cost = 100
+	time = 30
+
+	make_obsolete = mint
+
+	build_trigger = {
+		development = 15
+	}
+
+	modifier = {
+		tax_income = 2.0
+		province_trade_power_modifier = 0.2
+		trade_value = 1.0
+		local_development_cost = -0.1
+	}
+
+	ai_will_do = {
+		factor = 1.2 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+stock_exchange = {
+	cost = 200
+	time = 36
+
+	make_obsolete = bank
+
+	build_trigger = {
+		development = 21
+	}
+
+	modifier = {
+		tax_income = 4.0
+		province_trade_power_modifier = 0.4
+		trade_value = 2.0
+		local_development_cost = -0.2
+	}
+
+	ai_will_do = {
+		factor = 1.2 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
 ################################################
 # Tier 0, pre-Modern Era Buildings
 ################################################
@@ -44,18 +300,6 @@ fort_14th = {
 ################################################
 # Tier 1, 15th Century Buildings
 ################################################
-marketplace = {
-	cost = 100
-	time = 12
-
-	modifier = {
-		province_trade_power_modifier = 0.5
-	}
-
-	ai_will_do = {
-		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
-	}
-}
 
 workshop = {
 	cost = 100
@@ -398,21 +642,6 @@ university = {
 	}
 }
 
-trade_depot = {
-	cost = 300
-	time = 12
-
-	make_obsolete = marketplace
-
-	modifier = {
-		province_trade_power_modifier = 1
-	}
-
-	ai_will_do = {
-		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
-	}
-}
-
 grand_shipyard = {
 	cost = 300
 	time = 12
@@ -527,20 +756,6 @@ fort_17th = {
 ################################################
 # Tier 4, 18th Century Buildings
 ################################################
-stock_exchange = {
-	cost = 400
-	time = 12
-
-	make_obsolete = trade_depot
-
-	modifier = {
-		province_trade_power_modifier = 1.25
-	}
-
-	ai_will_do = {
-		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
-	}
-}
 
 counting_house = {
 	cost = 400

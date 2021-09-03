@@ -51,8 +51,7 @@ technology = { #Minting
 	# Tech 3
 	year = 1261
 
-	#mint = yes
-	# - Like a manufactory: Provides 1 yearly tax
+	mint = yes
 }
  
 technology = { #Artisanship
@@ -143,6 +142,7 @@ technology = { #Feudal Society
 	# Tech 14
 	year = 1404
 	
+	bank = yes
 	governing_capacity = 50
 	feudal_monarchy = yes
 	administrative_efficiency = 0.05
@@ -352,6 +352,7 @@ technology = { #Economic Theory
 	# Tech 39
 	year = 1729
 
+	stock_exchange = yes
 	development_efficiency = 0.1
 	counting_house = yes  
 }

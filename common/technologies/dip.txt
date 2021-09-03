@@ -52,6 +52,7 @@ technology = { #Poetry
 	# Tech 4
 	year = 1274
 		
+	marketplace = yes
 	num_accepted_cultures = 1
 }
 
@@ -148,7 +149,7 @@ technology = { #Marketplaces
 	# Tech 14
 	year = 1404
 	
-	marketplace = yes
+	trade_depot = yes
 	trade_efficiency = 0.02
 }
  
@@ -257,7 +258,7 @@ technology = { #Colonial Charters
 	year = 1547
 
 	range = 150
-	trade_depot = yes 
+	merchants_quarter = yes 
 	global_colonial_growth = 25
 	may_agitate_for_liberty = yes
 }
@@ -363,6 +364,7 @@ technology = { #Clippers
 	# Tech 35
 	year = 1677
 	
+	customs_house = yes
 	trade_range = 50
 	trade_efficiency = 0.02
 
@@ -382,7 +384,6 @@ technology = { #Joint Stock Companies
 	# Tech 37
 	year = 1703
 	
-	stock_exchange = yes
 	global_colonial_growth = 30
 	trade_efficiency = 0.05
 }

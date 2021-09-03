@@ -535,13 +535,13 @@ guiTypes = {
 		}			
 		
 		checkboxType = {
-			name = "build_stock_exchange"
+			name = "build_merchants_quarter"
 			position = { x = 113 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "stock_exchange_cost"
+			name = "merchants_quarter_cost"
 			position = {x = 113 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -551,10 +551,93 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name = "trade_depot_to_stock_exchange_arrow"
+			name = "trade_depot_to_merchants_quarter_arrow"
 			position = { x = 105 y = 41 }
 			spriteType = "GFX_building_upgrade_icon"
 		}		
+		
+		checkboxType = {
+			name = "build_customs_house"
+			position = { x = 165 y = 32 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+		
+		instantTextBoxType={
+			name = "customs_house_cost"
+			position = {x = 165 y = 82 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"	
+		}
+		
+		iconType = {
+			name = "trade_depot_to_customs_house_arrow"
+			position = { x = 157 y = 41 }
+			spriteType = "GFX_building_upgrade_icon"
+		}		
+
+
+		checkboxType = {
+			name = "build_mint"
+			position = { x = 9 y = 533 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "mint_cost"
+			position = {x = 9 y = 583 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_bank"
+			position = { x = 61 y = 533 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "bank_cost"
+			position = {x = 61 y = 583 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		iconType = {
+			name = "mint_to_bank_arrow"
+			position = { x = 53 y = 544 }
+			spriteType = "GFX_building_upgrade_icon"
+		}
+
+		checkboxType = {
+			name = "build_stock_exchange"
+			position = { x = 113 y = 533 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "stock_exchange_cost"
+			position = {x = 113 y = 583 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		iconType = {
+			name = "bank_to_stock_exchange_arrow"
+			position = { x = 105 y = 544 }
+			spriteType = "GFX_building_upgrade_icon"
+		}
 		
 		iconType = {
 			name = "government_banner"

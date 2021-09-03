@@ -8,9 +8,20 @@
 
  sailing_airship:0 "Sailing Airship"
  sailing_airshipDESCR:0 "Plz do description"
-
+ 
+ building_marketplace_desc:0 "Development at least §Y3§!\n"
+ building_trade_depot_desc:0 "Development at least §Y6§!\n"
+ building_merchants_quarter:0 "Merchant's Quarter"
+ building_merchants_quarter_desc:0 "Development at least §Y12§!\n"
+ building_customs_house:0 "Custom's House"
+ building_customs_house_desc:0 "Development at least §Y21§!\n"
+ building_mint:0 "Mint"
+ building_mint_desc:0 "Development at least §Y9§!\n"
+ building_bank:0 "Bank"
+ building_bank_desc:0 "Development at least §Y15§!\n"
+ building_stock_exchange_desc:0 "Development at least §Y21§!\n"
  building_fort_14th:0 "Fortification"
- building_fort_14th_desc:0 "Plz do description."
+ building_fort_14th_desc:0 ""
  UNORGANIZED_BUILDINGS:0 "Unorganized"
 
  RAIN_OF_ASH:0 "Eruption of the Orbury Supervolcano"

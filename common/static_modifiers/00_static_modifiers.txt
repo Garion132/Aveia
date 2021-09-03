@@ -107,7 +107,7 @@ city = {
 }
 
 port = {
-	local_institution_spread = 0.10
+	local_institution_spread = 0.25
 }
 
 in_state = {
@@ -164,6 +164,7 @@ arid = {
 	local_colonial_growth = -10
 	supply_limit_modifier = -0.2
 	local_hostile_attrition = 1
+	max_attrition = 1
 
 	local_development_cost = 0.1
 
@@ -181,6 +182,7 @@ land_province = {
 
 mild_winter = {
 	local_hostile_attrition = 1
+	max_attrition = 1
 	supply_limit_modifier = -0.1
 
 	picture = "winter_mild"
@@ -188,6 +190,7 @@ mild_winter = {
 
 normal_winter = {
 	local_hostile_attrition = 2
+	max_attrition = 2
 	supply_limit_modifier = -0.2
 
 	picture = "winter_normal"
@@ -195,13 +198,17 @@ normal_winter = {
 
 severe_winter = {
 	local_hostile_attrition = 3
+	max_attrition = 3
 	supply_limit_modifier = -0.3
+	local_hostile_movement_speed = -0.20
+	local_friendly_movement_speed = -0.20
 
 	picture = "winter_severe"
 }
 
 mild_monsoon = {
 	local_hostile_attrition = 0.5
+	max_attrition = 0.5
 	local_hostile_movement_speed = -0.20
 	local_friendly_movement_speed = -0.20
 
@@ -210,6 +217,7 @@ mild_monsoon = {
 
 normal_monsoon = {
 	local_hostile_attrition = 1
+	max_attrition = 1
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
 
@@ -218,6 +226,7 @@ normal_monsoon = {
 
 severe_monsoon = {
 	local_hostile_attrition = 1.5
+	max_attrition = 1.5
 	local_hostile_movement_speed = -0.50
 	local_friendly_movement_speed = -0.50
 
@@ -272,7 +281,7 @@ province_razed = {
 }
 
 development = {
-	allowed_num_of_buildings = 0.1
+	allowed_num_of_buildings = 0.2
 	supply_limit_modifier = 0.02
 	local_missionary_strength = -0.001
 	land_forcelimit	= 0.1			# special case, affected by autonomy
@@ -280,6 +289,7 @@ development = {
 	local_sailors = 30			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.066
+	local_build_cost = 0.02
 }
 
 development_scaled = {
@@ -287,6 +297,7 @@ development_scaled = {
 }
 
 capital_city = {
+	local_tax_modifier = 0.25
 	fort_level = 1
 }
 
@@ -396,11 +407,10 @@ non_accepted_culture_republic = {
 
 occupied = {
 	local_tax_modifier = -0.5
-	trade_goods_size_modifier = -0.5
+	local_production_efficiency = -0.5
 	province_trade_power_modifier = -0.5
 	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.5
-	local_institution_spread = -0.1
 
 	local_monthly_devastation = 0.2
 }
@@ -532,7 +542,7 @@ scorched_earth = {
 
 base_values = {
 	max_absolutism = 65
-	merchants = 2							#Start with 2 merchants
+	merchants = 3							#Start with 3 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
 	army_tradition_decay = 0.05				#lose 5% yearly
@@ -543,7 +553,7 @@ base_values = {
 	tolerance_heathen = -3
 	tolerance_heretic = -2
 	global_missionary_strength = 0.02
-	global_manpower = 10.0
+	global_manpower = 5.0
 	advisor_pool = 3
 	colonist_placement_chance = 0.05
 	free_leader_pool = 1
@@ -554,10 +564,10 @@ base_values = {
 	devotion = -0.5
 	meritocracy = -2
 	governing_capacity = 200
-	num_accepted_cultures = 2
+	num_accepted_cultures = 1
 	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
-	cav_to_inf_ratio = 0.5
+	cav_to_inf_ratio = 0.2
 	merc_maintenance_modifier = 0.5
 }
 

@@ -1,6 +1,28 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_merchants_quarter"
+		texturefile = "gfx//interface//buildings//latin_treasury.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_customs_house"
+		texturefile = "gfx//interface//buildings//latin_customs_house.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_mint"
+		texturefile = "gfx//interface//buildings//latin_mint.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bank"
+		texturefile = "gfx//interface//buildings//latin_treasury.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
 		name = "GFX_fort_14th"
 		texturefile = "gfx//interface//buildings//latin_fort0.tga"
 		loadType = "INGAME"
