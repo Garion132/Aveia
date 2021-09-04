@@ -354,6 +354,8 @@ technology = {
 	cavalry_fire = 2.0
 	cavalry_shock = 10.0
 	enable = sailing_airship
+
+	airdock = yes
 }
 
 technology = {
@@ -430,6 +432,7 @@ technology = {
 	cavalry_fire = 1.0
 
 	#TODO new cav
+	airship_maintenance_bay = yes
 }
 
 technology = {
@@ -464,6 +467,7 @@ technology = {
 	cavalry_shock = 4.0
 
 	#TODO new cav
+	airship_terminal = yes
 }
 
 technology = {

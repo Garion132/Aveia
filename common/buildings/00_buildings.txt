@@ -67,6 +67,9 @@
 # Drydock, +5.0 Naval Forcelimit, -60% Shipbuilding Time, +80% Ship Repair
 # Naval Arsenal, +10.0 Naval Forcelimit, -65% Shipbuilding Time, +100% Ship Repair
 # Naval Base, +20.0 Naval Forcelimit, -70% Shipbuilding Time, +125% Ship Repair
+#
+# Airdock, 2.5% Cav Combat Ability
+# Airship Maintenance Bay, -20% Local Regiment Cost, 5% Cav Combat Ability
 
 ### Production ###
 # Workshop, +10% Production Efficiency, -5% Dev Cost
@@ -130,9 +133,12 @@
 # Manufactory, +0.5 Goods Produced
 # Factory, +1.0 Goods Produced, +50% Goods Produced
 #
-# Mine, +0.2 Goods Produced (Salt, Copper, Tin, Silver, Iron, Plaulum, Gems, Coal, Guedina, Ankon, Vitaite, Bryrine, Marble)
+# Mine, +0.2 Goods Produced (Salt, Copper, Tin, Silver, Iron, Plaulum, Ankon, Gems, Coal, Marble)
 # Mining Complex, +0.5 Goods Produced
 # Mechanized Mine, +1.0 Goods Produced, +20% Goods Produced
+#
+# Refinery, +0.5 Goods Produced, +25% Trade Value, (Guedina, Bryrine, Vitaite)
+# Processing Plant, +1.0 Goods Produced, +50% Trade Value 
 
 ################################################
 # Trade Buildings
@@ -158,7 +164,7 @@ marketplace = {
 }
 trade_depot = {
 	cost = 100
-	time = 18
+	time = 12
 
 	make_obsolete = marketplace
 
@@ -178,7 +184,7 @@ trade_depot = {
 }
 merchants_quarter = {
 	cost = 200
-	time = 24
+	time = 18
 
 	make_obsolete = trade_depot
 
@@ -198,7 +204,7 @@ merchants_quarter = {
 }
 customs_house = {
 	cost = 300
-	time = 36
+	time = 24
 
 	make_obsolete = merchants_quarter
 
@@ -219,7 +225,7 @@ customs_house = {
 
 mint = {
 	cost = 50
-	time = 18
+	time = 12
 
 	build_trigger = {
 		development = 9
@@ -238,7 +244,7 @@ mint = {
 }
 bank = {
 	cost = 100
-	time = 30
+	time = 18
 
 	make_obsolete = mint
 
@@ -259,7 +265,7 @@ bank = {
 }
 stock_exchange = {
 	cost = 200
-	time = 36
+	time = 24
 
 	make_obsolete = bank
 
@@ -276,6 +282,70 @@ stock_exchange = {
 
 	ai_will_do = {
 		factor = 1.2 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}
+
+################################################
+# Army
+################################################
+
+
+airdock = {
+	cost = 200
+	time = 12
+	build_trigger = {
+		development = 15
+	}
+	modifier = {
+		global_tax_income = -2
+		cavalry_power = 0.025
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+airship_maintenance_bay = {
+	cost = 500
+	time = 18
+	make_obsolete = airdock
+	build_trigger = {
+		development = 21
+	}
+	modifier = {
+		global_tax_income = -6
+		cavalry_power = 0.05
+		local_development_cost = -0.1
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+airship_terminal = {
+	cost = 1000
+	time = 24
+	make_obsolete = airship_maintenance_bay
+	build_trigger = {
+		development = 30
+	}
+	modifier = {
+		global_tax_income = -24
+		cavalry_power = 0.1
+		local_development_cost = -0.33
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+		}
 	}
 }
 

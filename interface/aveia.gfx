@@ -23,6 +23,22 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_airdock"
+		texturefile = "gfx//interface//buildings//latin_airship_port.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_airship_maintenance_bay"
+		texturefile = "gfx//interface//buildings//latin_airship_maintenance_bay.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_airship_terminal"
+		texturefile = "gfx//interface//buildings//latin_airship_harbor.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
 		name = "GFX_fort_14th"
 		texturefile = "gfx//interface//buildings//latin_fort0.tga"
 		loadType = "INGAME"
