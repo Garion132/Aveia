@@ -1,0 +1,17 @@
+#Athanila
+
+add_core = ATH
+owner = ATH
+controller = ATH
+culture = dregheian
+religion = tlaulunorist
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 3
+trade_goods = dyes
+capital = "Ath 3"
+is_city = yes
+discovered_by = lake_elves_group
+extra_cost = 0
+fort_14th = yes

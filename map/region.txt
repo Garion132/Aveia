@@ -265,6 +265,7 @@ dreghei_region={#
 		athanila_6
 		athanila_7
 		athanila_8
+		athanila_9
 	}
 }
 

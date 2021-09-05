@@ -1,5 +1,4 @@
-bookmark =
-{
+bookmark = {
 	name = "colonial_bookmark"
 	desc = "colonial_bookmark_desc"
 	date = 1272.8.6

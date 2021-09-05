@@ -115,6 +115,8 @@ categories =  {
 		terrain_override = {
 			#Rauthyr
 			976
+			# Dreghei
+			3025 1420 3028 1419 3026 3022 1421
 		}
 	}
 
@@ -164,6 +166,9 @@ categories =  {
 
 			#Lildoresi Marches
 			913
+
+			# Dreghei
+			3023
 		}
 	}
 
