@@ -26,8 +26,8 @@ change_estate_land_share = {
 		name = "Murentin"
 		dynasty = "Thyr"
 		birth_date = 1240.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 2
+		dip = 5
+		mil = 2
 	}
 }

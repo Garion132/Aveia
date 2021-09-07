@@ -704,6 +704,57 @@ bulkir_region={
 		sohoremyfa_7
 	}
 }
+shield_isles_region={
+	areas = {
+		juluia_1
+		juluia_2
+		juluia_3
+		juluia_4
+		juluia_5
+		juluia_6
+		juluia_7
+		juluia_8
+		juluia_9
+		juluia_10
+		juluia_11
+		juluia_12
+		juluia_13
+		juluia_14
+		juluia_15
+		juluia_16
+		juluia_17
+		juluia_18
+		juluia_19
+		juluia_20
+		juluia_21
+	}
+}
+strivian_region={
+	areas = {
+		juluia_22
+		juluia_23
+		juluia_24
+		juluia_25
+		juluia_26
+		juluia_27
+		juluia_28
+		juluia_29
+		juluia_31
+		juluia_32
+		juluia_33
+		juluia_34
+		juluia_35
+		juluia_36
+		juluia_37
+		juluia_38
+		juluia_39
+	}
+}
+golden_bay_region={
+	areas = {
+		juluia_30
+	}
+}
 
 ocean_region = {
 	areas = {

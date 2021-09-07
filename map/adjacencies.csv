@@ -2,4 +2,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 988;515;sea;989;-1;-1;-1;-1;yhenil strait
 988;514;sea;989;-1;-1;-1;-1;yhenil strait
 576;1723;sea;196;-1;-1;-1;-1;yhenil strait
+3032;3031;sea;3033;-1;-1;-1;-1;chain islands
+3031;3030;sea;3033;-1;-1;-1;-1;chain islands
+3030;3029;sea;3033;-1;-1;-1;-1;chain islands
+3029;3036;sea;3033;-1;-1;-1;-1;chain islands
+3045;1031;sea;1914;-1;-1;-1;-1;chain islands
+3061;3060;sea;3034;-1;-1;-1;-1;chain islands
+3032;3047;sea;3033;-1;-1;-1;-1;chain islands
+3051;1032;sea;279;-1;-1;-1;-1;chain islands
+3110;3062;sea;1913;-1;-1;-1;-1;chain islands
 -1;-1;;-1;-1;-1;-1;-1;-1;

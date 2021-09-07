@@ -35,3 +35,8 @@ elteria_superregion={
 	palentai_bay_region
 	catecalde_region
 }
+juluia_superregion={
+	shield_isles_region
+	strivian_region
+	golden_bay_region
+}

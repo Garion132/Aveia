@@ -1,0 +1,35 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = nfanathan
+religion = roresist
+religious_school = pirrarthim_school
+technology_group = lake_elves_group
+capital = 2731 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1240.9.16 = {
+	monarch = {
+		name = "Filler"
+		dynasty = "Gugh"
+		birth_date = 1240.12.3
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}

@@ -23,11 +23,11 @@ change_estate_land_share = {
 
 1270.9.16 = {
 	monarch = {
-		name = "Suran"
-		dynasty = "Lelitha"
+		name = "Hasara"
+		dynasty = "Nilaur"
 		birth_date = 1245.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 3
+		dip = 2
+		mil = 4
 	}
 }
