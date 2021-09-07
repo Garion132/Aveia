@@ -859,7 +859,7 @@ roresism_group = {
 				picture = "GFX_icon_muslim_school_hanafi"
 
 				# religion_sub_modifier = no is possible, will hide icon in religious screen
-				adm_tech_cost_modifier = -0.05
+				land_morale = 0.075
 			}
 			karnelia_school = {
 				potential_invite_scholar = {
@@ -894,7 +894,7 @@ roresism_group = {
 				picture = "GFX_icon_muslim_school_hanbali"
 
 				# religion_sub_modifier = no is possible, will hide icon in religious screen
-				adm_tech_cost_modifier = -0.05
+				discipline = 0.025
 			}
 			rorest_school = {
 				potential_invite_scholar = {
@@ -929,7 +929,7 @@ roresism_group = {
 				picture = "GFX_icon_muslim_school_maliki"
 
 				# religion_sub_modifier = no is possible, will hide icon in religious screen
-				adm_tech_cost_modifier = -0.05
+				global_trade_goods_size_modifier = 0.05
 			}
 			pirrarthim_school = {
 				potential_invite_scholar = {
