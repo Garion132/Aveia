@@ -24,6 +24,12 @@
 
  sailing_airship:0 "Sailing Airship"
  sailing_airshipDESCR:0 "Plz do description"
+ steam_airship:0 "Steam Airship"
+ steam_airshipDESCR:0 "Airships powered by steam. Steamships!"
+ protected_airship:0 "Protected Airship"
+ protected_airshipDESCR:0 "Steam Airships but with armor."
+ dreadnought:0 "Dreadnought"
+ dreadnoughtDESCR:0 "Dread the nought"
 
  mangonel:0 "Mangonel"
  mangonelDESCR:0 "Mangonel Catapults are siege engines that use manpower to launch a projectile towards a target."

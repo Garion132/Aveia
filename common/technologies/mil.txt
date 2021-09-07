@@ -384,6 +384,7 @@ technology = {
 	cavalry_shock = 5.0
 
 	#TODO new cav, 50% cav flanking
+	enable = steam_airship
 
 }
 
@@ -438,6 +439,7 @@ technology = {
 
 	#TODO new cav
 	airship_maintenance_bay = yes
+	enable = protected_airship
 }
 
 technology = {
@@ -471,8 +473,8 @@ technology = {
 	cavalry_fire = 10.0
 	cavalry_shock = 4.0
 
-	#TODO new cav
 	airship_terminal = yes
+	enable = dreadnought
 }
 
 technology = {
