@@ -16,8 +16,7 @@ technology = {
 	infantry_shock 		= 	0.20
 	land_morale 		= 	2.0
 
-	enable = halberd_infantry
-	enable = western_medieval_infantry
+	enable = warrior_infantry
 }
 
 technology = {
@@ -38,6 +37,8 @@ technology = {
 	infantry_shock		= 	0.1
 	
 	#TODO - new inf type
+	enable = heavy_infantry
+	enable = elven_bowmen
 }
 
 technology = {
@@ -49,6 +50,8 @@ technology = {
 	land_morale = 0.25
 	military_tactics = 0.25
 	combat_width = 3
+
+	enable = elven_phalanx
 }
 
 technology = {
@@ -58,6 +61,7 @@ technology = {
 	#Barracks
 	
 	barracks = yes
+	enable = human_warriors
 }
 
 technology = {
@@ -68,9 +72,8 @@ technology = {
 	artillery_shock = 0.05
 	artillery_fire = 0.25
 
-	#TODO new art
-	enable = large_cast_bronze_mortar 
-	enable = houfnice
+	enable = ballista
+	enable = mangonel
 }
 
 technology = {
@@ -80,7 +83,8 @@ technology = {
 	#Elven Fletching
 	infantry_fire 		= 	0.10
 	
-	#TODO new inf
+	enable = thyrian_archers
+	enable = cyeugite_heroes
 }
 
 technology = {
@@ -109,7 +113,8 @@ technology = {
 	#Orbury Bow
 	infantry_fire = 0.2
 
-	#TODO new inf for humans
+	enable = orbury_bowmen
+	enable = valley_warriors
 }
 
 technology = {

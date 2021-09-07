@@ -6,8 +6,29 @@
  orks_bookmark:0 "Ugluks"
  orks_bookmark_desc:0 "Vanadium plz do description."
 
+ warrior_infantry:0 "Warrior Infantry"
+ heavy_infantry:0 "Heavy Infantry"
+ elven_bowmen:0 "Elven Bowmen"
+ elven_phalanx:0 "Elven Phalanx"
+ thyrian_archers:0 "Thyrian Archers"
+ thyrian_archersDESCR:0 "Most utilized by Kafethyr and Rauthyr against foes with inferior bows, these archers had extreme long range capabilities with the most skilled archers being able to assassinate enemy leaders in the midst of battle."
+ cyeugite_heroes:0 "Cyeugite Heroes"
+ cyeugite_heroesDESCR:0 "Cyeugite Phalanx regiments get their 'hero' nickname from their willingness to employ aggressive tactics on the battlefield outmanuervering and overpowering older phalanx formations that rely upon simple defensive tactics."
+ elven_phalanx:0 "The staple army formation for most Bronze-Age Elven militaries."
+
+ human_warriors:0 "Human Warriors"
+ orbury_bowmen:0 "Orbury Bowmen"
+ orbury_bowmenDESCR:0 "Rugged, well-adapted to changing weather, and using a new bow which was easier to use that used new iron-tipped arrows - these are excellent hardened warriors from the Orbury foothills. Their ferocity is unmatched in any battle."
+ valley_warriors:0 "Valley Warriors"
+ valley_warriorsDESCR:0 "Rugged, well-adapted to changing weather, and covered in iron tools and armor, they will bash their way through any civilization."
+
  sailing_airship:0 "Sailing Airship"
  sailing_airshipDESCR:0 "Plz do description"
+
+ mangonel:0 "Mangonel"
+ mangonelDESCR:0 "Mangonel Catapults are siege engines that use manpower to launch a projectile towards a target."
+ ballista:0 "Ballista"
+ ballistaDESCR:0 "Ballistas use torsion to launch a projectile, usually a large bolt, towards a target."
  
  building_marketplace_desc:0 "Development at least §Y3§!\n"
  building_trade_depot_desc:0 "Development at least §Y6§!\n"
