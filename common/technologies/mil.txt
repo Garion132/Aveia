@@ -263,6 +263,7 @@ technology = {
 	artillery_shock = 0.05
 
 	enable = bombard
+	enable = basilisk
 }
 
 technology = {

@@ -49,6 +49,7 @@
  ballistaDESCR:0 "Ballistas use torsion to launch a projectile, usually a large bolt, towards a target."
  trebuchet:0 "Trebuchet"
  bombard:0 "Bombard"
+ basilisk:0 "Basilisk"
  
  building_marketplace_desc:0 "Development at least §Y3§!\n"
  building_trade_depot_desc:0 "Development at least §Y6§!\n"
