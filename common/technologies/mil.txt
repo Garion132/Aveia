@@ -226,7 +226,6 @@ technology = {
 	
 	#Pike Square
 	land_morale = 0.5
-	#TODO New Inf
 
 	combat_width = 4
 }
@@ -238,6 +237,8 @@ technology = {
 	#Steel Working
 	military_tactics 	= 	0.25
 	infantry_shock 		=	0.2
+
+	enable = late_medieval_infantry #Humans
 }
 
 technology = {
@@ -249,6 +250,8 @@ technology = {
 	infantry_shock = 0.1
 	
 	# conscription_center = yes
+
+	enable = arquebusiers #Elves
 }
 
 technology = {
@@ -259,7 +262,7 @@ technology = {
 	artillery_fire = 0.5
 	artillery_shock = 0.05
 
-	#TODO new art
+	enable = bombard
 }
 
 technology = {

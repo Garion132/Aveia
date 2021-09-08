@@ -23,6 +23,7 @@
  strongbowmenDESCR:0 "New, larger, bows require stronger men to fire them. These have given these regiments the name 'strongbowmen.'"
  elven_pikemen:0 "Elven Pikemen"
  crossbowmen:0 "Crossbowmen"
+ arquebusiers:0 "Arquebusiers"
 
  human_warriors:0 "Human Warriors"
  orbury_bowmen:0 "Orbury Bowmen"
@@ -31,6 +32,7 @@
  valley_warriorsDESCR:0 "Rugged, well-adapted to changing weather, and covered in iron tools and armor, they will bash their way through any civilization."
  men_at_arms:0 "Men at Arms"
  halberd_infantry:0 "Halberd Infantry"
+ late_medieval_infantry:0 "Late Medieval Infantry"
 
  sailing_airship:0 "Sailing Airship"
  sailing_airshipDESCR:0 "Plz do description"
@@ -45,6 +47,8 @@
  mangonelDESCR:0 "Mangonel Catapults are siege engines that use manpower to launch a projectile towards a target."
  ballista:0 "Ballista"
  ballistaDESCR:0 "Ballistas use torsion to launch a projectile, usually a large bolt, towards a target."
+ trebuchet:0 "Trebuchet"
+ bombard:0 "Bombard"
  
  building_marketplace_desc:0 "Development at least §Y3§!\n"
  building_trade_depot_desc:0 "Development at least §Y6§!\n"
