@@ -16,7 +16,7 @@ technology = {
 	infantry_shock 		= 	0.20
 	land_morale 		= 	2.0
 
-	enable = warrior_infantry
+	enable = warrior_infantry #All
 }
 
 technology = {
@@ -37,8 +37,8 @@ technology = {
 	infantry_shock		= 	0.1
 	
 	#TODO - new inf type
-	enable = heavy_infantry
-	enable = elven_bowmen
+	enable = heavy_infantry #All
+	enable = elven_bowmen #Elves
 }
 
 technology = {
@@ -51,7 +51,7 @@ technology = {
 	military_tactics = 0.25
 	combat_width = 3
 
-	enable = elven_phalanx
+	enable = elven_phalanx #Elves
 }
 
 technology = {
@@ -61,7 +61,7 @@ technology = {
 	#Barracks
 	
 	barracks = yes
-	enable = human_warriors
+	enable = human_warriors #Humans
 }
 
 technology = {
@@ -83,7 +83,7 @@ technology = {
 	#Elven Fletching
 	infantry_fire 		= 	0.10
 	
-	enable = thyrian_archers
+	enable = thyrian_archers #Elves
 	enable = cyeugite_heroes
 }
 
@@ -113,7 +113,7 @@ technology = {
 	#Orbury Bow
 	infantry_fire = 0.2
 
-	enable = orbury_bowmen
+	enable = orbury_bowmen #Humans
 	enable = valley_warriors
 }
 
@@ -134,7 +134,9 @@ technology = {
 	#Metallurgy
 	infantry_shock		= 	0.30
 	
-	#TODO new inf for non-humans
+	enable = shemseler_pikemen #Elves
+	enable = kyathian_old_guard
+	enable = strongbowmen
 }
 	
 technology = {
@@ -153,7 +155,7 @@ technology = {
 	#Trebuchet
 	artillery_fire 		= 	0.25
 
-	#TODO add art
+	enable = trebuchet
 }
 
 technology = {
@@ -163,6 +165,8 @@ technology = {
 	#Alloying
 	infantry_shock = 0.15
 	infantry_fire = 0.1
+
+	enable = men_at_arms #Human
 }
 
 technology = {
@@ -180,9 +184,8 @@ technology = {
 	
 	#Iron-Age Pikes
 	infantry_shock = 0.15
-	#TODO new inf
 
-	# training_fields = yes
+	enable = elven_pikemen #Elves
 }
 
 technology = {
@@ -203,6 +206,7 @@ technology = {
 	infantry_shock = 0.2
 	supply_limit = 0.25
 	
+	enable = halberd_infantry #Humans
 }
 
 technology = {
@@ -211,7 +215,9 @@ technology = {
 	
 	#Crossbows
 	land_morale = 0.25
-	infantry_fire = 0.3
+	infantry_fire = 0.2
+
+	enable = crossbowmen #Elves
 }
 
 technology = {
@@ -262,7 +268,7 @@ technology = {
 	
 	#Pike and Shot
 	military_tactics = 0.25
-	infantry_fire = 0.35
+	infantry_fire = 0.45
 
 	#TODO New Inf
 }
