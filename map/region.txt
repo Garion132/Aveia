@@ -28,6 +28,9 @@ kyathia_region = {
 		lurt_area
 		ildahir_area
 		landir_area
+		iydraf
+		drelnora
+		treivenia
 	}
 }
 lentira_region = {
@@ -135,9 +138,6 @@ otrcyueg_region ={
 }
 shemsele_region ={
 	areas = {
-		iydraf
-		drelnora
-		treivenia
 		shemsele
 		orionrahet
 		macreamsesa
@@ -175,6 +175,9 @@ lildoresi_marches_region ={
 		rauthyr_2
 		rauthyr_3
 		rauthyr_4
+		rauthyr_11
+		rauthyr_13
+		rauthyr_14
 	}
 }
 rauthyr_region ={
@@ -185,10 +188,7 @@ rauthyr_region ={
 		rauthyr_8
 		rauthyr_9
 		rauthyr_10
-		rauthyr_11
 		rauthyr_12
-		rauthyr_13
-		rauthyr_14
 		rauthyr_15
 		rauthyr_16
 		rauthyr_17
@@ -560,6 +560,32 @@ qirdud_region={
 		qirdud_2
 		qirdud_3
 		qirdud_4
+		keril_1
+		keril_2
+		keril_3
+		keril_4
+		keril_5
+		keril_6
+		keril_7
+		keril_8
+		keril_9
+		keril_10
+		keril_11
+		keril_12
+		keril_13
+		keril_14
+		keril_15
+		keril_16
+		keril_17
+		keril_18
+		keril_19
+		keril_20
+		keril_21
+		keril_22
+		keril_23
+		keril_24
+		keril_25
+		keril_26
 	}
 }
 
