@@ -3,7 +3,7 @@
 add_core = CYU
 owner = CYU
 controller = CYU
-culture = shemsele
+culture = cyuean
 religion = tlaulunorist
 hre = no
 base_tax = 2

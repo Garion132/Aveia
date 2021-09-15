@@ -199,7 +199,7 @@ rauthyr_region ={
 		rauthyr_22
 		rauthyr_23
 		rauthyr_24
-		rauthyr_27
+		
 		rauthyr_28
 		rauthyr_29
 		rauthyr_30
@@ -207,11 +207,19 @@ rauthyr_region ={
 		rauthyr_32
 		rauthyr_33
 		rauthyr_34
+	}
+}
+krorri_region={
+	areas = {
+		rauthyr_27
 		rauthyr_35
 		rauthyr_36
 		rauthyr_37
 		rauthyr_38
 		rauthyr_39
+		donamenz_1
+		donamenz_49
+		donamenz_50
 	}
 }
 
@@ -299,7 +307,36 @@ chaunluma_region={#
 		neanatha_10
 		neanatha_11
 		neanatha_12
-		
+		beshek
+		reylanlya_1
+		reylanlya_2
+		reylanlya_3
+		reylanlya_4
+		reylanlya_5
+		reylanlya_6
+		sohoremyfa_1
+		sohoremyfa_2
+		sohoremyfa_3
+		sohoremyfa_4
+		sohoremyfa_5
+		umalesy_1
+		umalesy_2
+		umalesy_3
+		umalesy_4
+		matn_1
+		matn_2
+		matn_3
+		rauma_1
+		rauma_2
+		isesiralne_1
+		isesiralne_2
+		isesiralne_3
+		elhera
+	}
+}
+
+great_ziyalap_region={
+	areas = {
 		ziyalap_1
 		ziyalap_2
 		ziyalap_3
@@ -330,31 +367,6 @@ chaunluma_region={#
 		douan_6
 		douan_7
 		douan_8
-		beshek
-		reylanlya_1
-		reylanlya_2
-		reylanlya_3
-		reylanlya_4
-		reylanlya_5
-		reylanlya_6
-		sohoremyfa_1
-		sohoremyfa_2
-		sohoremyfa_3
-		sohoremyfa_4
-		sohoremyfa_5
-		umalesy_1
-		umalesy_2
-		umalesy_3
-		umalesy_4
-		matn_1
-		matn_2
-		matn_3
-		rauma_1
-		rauma_2
-		isesiralne_1
-		isesiralne_2
-		isesiralne_3
-		elhera
 	}
 }
 morbin_region={
@@ -502,7 +514,6 @@ thilrana_region={
 }
 donamenz_region={
 	areas={
-		donamenz_1
 		donamenz_2
 		donamenz_3
 		donamenz_4
@@ -550,8 +561,6 @@ donamenz_region={
 		donamenz_46	
 		donamenz_47	
 		donamenz_48	
-		donamenz_49	
-		donamenz_50	
 	}
 }
 qirdud_region={
@@ -583,9 +592,36 @@ qirdud_region={
 		keril_21
 		keril_22
 		keril_23
+		keril_26
+		keril_29
+		keril_30
+		keril_31
+		
+	}
+}
+
+anoric_region={
+	areas={
 		keril_24
 		keril_25
-		keril_26
+		keril_27
+		keril_28
+		keril_32
+		keril_33
+		keril_34
+		keril_35
+		keril_36
+		keril_37
+		keril_38
+		keril_39
+		keril_40
+		keril_41
+		keril_42
+		keril_43
+		keril_44
+		keril_45
+		keril_46
+		keril_47
 	}
 }
 

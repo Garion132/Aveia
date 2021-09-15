@@ -3,7 +3,7 @@
 add_core = ADR
 owner = ADR
 controller = ADR
-culture = shemsele
+culture = cyuean
 religion = tlaulunorist
 hre = no
 base_tax = 6

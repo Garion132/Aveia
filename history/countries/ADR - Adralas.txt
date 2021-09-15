@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = shemsele
+primary_culture = cyuean
 religion = tlaulunorist
 technology_group = lake_elves_group
 capital = 648 # 

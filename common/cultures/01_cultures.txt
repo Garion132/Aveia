@@ -132,6 +132,164 @@ lake_elf = {
 	}
 }
 
+penisular_elf = {
+	graphical_culture = westerngfx
+
+	male_names = { Gunther Rolf }
+	mythaian = {
+		primary = MYT
+		male_names = {
+			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
+			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
+			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
+			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
+			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
+			Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+	}
+	nadarian = {
+		primary = NAD
+		male_names = {
+			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
+			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
+			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
+			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
+			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
+			Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+	}
+	ilrazi = {
+		primary = ILR
+		male_names = {
+			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
+			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
+			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
+			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
+			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
+			Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+	}
+	omoran = {
+		#primary = MYT
+		male_names = {
+			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
+			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
+			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
+			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
+			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
+			Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+	}
+	cyuean = {
+		#primary = MYT
+		male_names = {
+			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
+			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
+			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
+			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
+			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
+			Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+	}
+	tarloni = {
+		male_names = {
+			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
+			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
+			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
+			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
+			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
+			Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+	}
+	cyoloai = {
+		male_names = {
+			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
+			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
+			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
+			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
+			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
+			Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+	}
+}
+
 sea_elf = {
 	graphical_culture = westerngfx
 

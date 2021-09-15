@@ -3,7 +3,7 @@
 add_core = MEN
 owner = MEN
 controller = MEN
-culture = shemsele
+culture = cyuean
 religion = tlaulunorist
 hre = no
 base_tax = 7

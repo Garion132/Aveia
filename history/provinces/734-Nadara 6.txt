@@ -3,7 +3,7 @@
 add_core = NAD
 owner = NAD
 controller = NAD
-culture = shemsele
+culture = nadarian
 religion = tlaulunorist
 hre = no
 base_tax = 7
