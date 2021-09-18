@@ -3,7 +3,7 @@
 add_core = ISE
 owner = ISE
 controller = ISE
-culture = kyathian
+culture = matn
 religion = tlaulunorist
 hre = no
 base_tax = 2

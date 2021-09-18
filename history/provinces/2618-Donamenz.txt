@@ -1,4 +1,7 @@
 #Windsweaps
+latent_trade_goods = {
+	iron
+}
 add_core = TOR
 owner = TOR
 controller = TOR

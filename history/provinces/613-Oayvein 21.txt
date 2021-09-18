@@ -3,7 +3,7 @@
 add_core = OAY
 owner = OAY
 controller = OAY
-culture = shemsele
+culture = cyanscale_kolbold
 religion = tlaulunorist
 hre = no
 base_tax = 3

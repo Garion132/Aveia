@@ -9,6 +9,16 @@ elven_ruler = {
             ruler_culture = shemsele
             ruler_culture = edailian
             ruler_culture = ellorhasian
+			ruler_culture = sohor
+			ruler_culture = matn
+			ruler_culture = inzedian
+			ruler_culture = tarloni
+			ruler_culture = ilrazi
+			ruler_culture = mythaian
+			ruler_culture = nadarian
+			ruler_culture = cyoloai
+			ruler_culture = omoran
+			ruler_culture = cyuean
         }
 	}
 	trigger = {
@@ -17,6 +27,16 @@ elven_ruler = {
             ruler_culture = shemsele
             ruler_culture = edailian
             ruler_culture = ellorhasian
+			ruler_culture = sohor
+			ruler_culture = matn
+			ruler_culture = inzedian
+			ruler_culture = tarloni
+			ruler_culture = ilrazi
+			ruler_culture = mythaian
+			ruler_culture = nadarian
+			ruler_culture = cyoloai
+			ruler_culture = omoran
+			ruler_culture = cyuean
         }
 	}
 	monarch_lifespan = 3

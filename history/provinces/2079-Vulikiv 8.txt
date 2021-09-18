@@ -3,7 +3,7 @@
 add_core = VUL
 owner = VUL
 controller = VUL
-culture = aviean_gold_kolbold
+culture = aviean_blue_kolbold
 religion = vulikivite
 hre = yes
 base_tax = 1

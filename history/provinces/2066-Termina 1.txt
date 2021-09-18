@@ -3,7 +3,7 @@
 add_core = TER
 owner = TER
 controller = TER
-culture = aviean_gold_kolbold
+culture = aviean_blue_kolbold
 religion = vulikivite
 hre = yes
 base_tax = 1

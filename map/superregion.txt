@@ -6,13 +6,14 @@ aveia_superregion = {
 	
 	shemsele_region
 	donamenz_region
-	
-	gugh_region
+	nylka_region
+	nilenor_region
 }
 kirloi_superregion = { 
 	morbin_region
 	chaunluma_region
 	great_ziyalap_region
+	gugh_region
 }
 enheasrion_basin_superregion={
 	lildoresi_marches_region
@@ -20,6 +21,7 @@ enheasrion_basin_superregion={
 	rauthyr_region
 	great_gulba_region
 	krorri_region
+	
 }
 #"europe"
 west_aveia_superregion={
@@ -35,6 +37,7 @@ west_aveia_superregion={
 kaltros_superregion={
 	qirdud_region
 	anoric_region
+	kepjar_region
 }
 #new world-1st colonial target
 elteria_superregion={

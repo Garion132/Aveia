@@ -64,8 +64,6 @@ greater_shires_region = {
 		yransa_area
 		chaun_1
 		chaun_2
-		chaun_3
-		chaun_4
 		chaun_5
 		chaun_6
 		chaun_7
@@ -81,6 +79,11 @@ greater_shires_region = {
 		east_shires_8
 		north_shires_1
 		north_shires_2
+		donamenz_44	
+		donamenz_45	
+		donamenz_46	
+		donamenz_47	
+		donamenz_48
 	}
 }
 krashyrvil_midlands_region = {
@@ -100,6 +103,10 @@ krashyrvil_midlands_region = {
 		upper_oramarnona_area
 		western_srandor_area
 		nilaur_area
+		vulkivian_1
+		vulkivian_2
+		vulkivian_7
+		vulkivian_24
 	}
 }
 otrcyueg_region ={
@@ -148,18 +155,24 @@ shemsele_region ={
 		south_jamlu
 		elnore
 		olsyaren
+	}
+}
+nylka_region={
+	areas = {
 		enyalasha
 		umantien
 		ollumien
 		draumyesi
-		nynthin
-		nytheas
-		klinma
-		amnaselalone
-		loirona
 		nylka
-		aymnerinelie
 		temidal_temple
+		donamenz_13
+		donamenz_18
+		donamenz_19
+		donamenz_20
+		donamenz_21
+		donamenz_33
+		chaun_3
+		chaun_4
 	}
 }
 lildoresi_marches_region ={
@@ -196,17 +209,28 @@ rauthyr_region ={
 		rauthyr_19
 		rauthyr_20
 		rauthyr_21
-		rauthyr_22
-		rauthyr_23
+		
 		rauthyr_24
 		
 		rauthyr_28
 		rauthyr_29
+	}
+}
+nilenor_region={
+	areas = {
+		rauthyr_22
+		rauthyr_23
 		rauthyr_30
 		rauthyr_31
 		rauthyr_32
 		rauthyr_33
 		rauthyr_34
+		nynthin
+		nytheas
+		klinma
+		amnaselalone
+		loirona
+		aymnerinelie
 	}
 }
 krorri_region={
@@ -427,6 +451,15 @@ gugh_region={
 		gugh_4
 		gugh_5
 		gugh_6
+		gugh_30
+		gugh_31
+		gugh_32
+		gugh_33
+		gugh_34
+	}
+}
+kepjar_region={
+	areas={
 		gugh_7
 		gugh_8
 		gugh_9
@@ -450,23 +483,16 @@ gugh_region={
 		gugh_27
 		gugh_28
 		gugh_29
-		gugh_30
-		gugh_31
-		gugh_32
-		gugh_33
-		gugh_34
 	}
 }
 
+
 vulkivian_region={
 	areas={
-		vulkivian_1
-		vulkivian_2
 		vulkivian_3
 		vulkivian_4
 		vulkivian_5
 		vulkivian_6
-		vulkivian_7
 		vulkivian_8
 		vulkivian_9
 		vulkivian_10
@@ -483,7 +509,6 @@ vulkivian_region={
 		vulkivian_21
 		vulkivian_22
 		vulkivian_23
-		vulkivian_24
 		vulkivian_25
 	}
 }
@@ -525,15 +550,10 @@ donamenz_region={
 		donamenz_10
 		donamenz_11
 		donamenz_12
-		donamenz_13
 		donamenz_14
 		donamenz_15
 		donamenz_16
 		donamenz_17
-		donamenz_18
-		donamenz_19
-		donamenz_20
-		donamenz_21
 		donamenz_22
 		donamenz_23
 		donamenz_24
@@ -545,7 +565,6 @@ donamenz_region={
 		donamenz_30
 		donamenz_31
 		donamenz_32	
-		donamenz_33
 		donamenz_34	
 		donamenz_35	
 		donamenz_36	
@@ -555,12 +574,7 @@ donamenz_region={
 		donamenz_40	
 		donamenz_41	
 		donamenz_42
-		donamenz_43	
-		donamenz_44	
-		donamenz_45	
-		donamenz_46	
-		donamenz_47	
-		donamenz_48	
+		donamenz_43		
 	}
 }
 qirdud_region={
@@ -622,6 +636,11 @@ anoric_region={
 		keril_45
 		keril_46
 		keril_47
+		keril_48
+		keril_49
+		keril_50
+		keril_51
+		keril_52
 	}
 }
 

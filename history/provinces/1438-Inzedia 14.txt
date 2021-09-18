@@ -3,7 +3,7 @@
 add_core = INZ
 owner = INZ
 controller = INZ
-culture = kyathian
+culture = matn
 religion = tlaulunorist
 hre = no
 base_tax = 2

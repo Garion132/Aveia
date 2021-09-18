@@ -3,7 +3,7 @@
 add_core = RAM
 owner = RAM
 controller = RAM
-culture = kyathian
+culture = matn
 religion = tlaulunorist
 hre = no
 base_tax = 1
