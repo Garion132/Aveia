@@ -720,6 +720,8 @@ rake_group = {
 	flag_emblem_index_range = { 58 80 }
 	
 	can_form_personal_unions = yes
+	
+	center_of_religion = 2040 # Iwenlumy
 
 	vulikivite = { #
 		color = { 250 189 114 }

@@ -51,6 +51,7 @@ KAF_ideas = {
 	start = {
 		naval_morale = 0.20
 		global_colonial_growth = 20
+		sea_repair = yes
 	}
 
 	bonus = {
@@ -68,9 +69,11 @@ KAF_ideas = {
 	}
 	city_upon_a_hill = {
 		heavy_ship_power = 0.15
+		global_ship_trade_power = 0.1
 	}
 	kafethyr_merchant_navy = {
 		global_tariffs = 0.15
+		global_own_trade_power = 0.15
 	}
 	kaf_the_royal_society = {
 		technology_cost = -0.05
@@ -85,5 +88,48 @@ KAF_ideas = {
 		leader_naval_manuever = 1
 		blockade_efficiency = 0.33
 		allowed_marine_fraction = 0.10
+	}
+}
+FRY_ideas = {
+	start = {
+		colonists = 1
+		global_colonial_growth = 10
+		range = -0.8
+		global_tax_income = 18
+	}
+
+	bonus = {
+		navy_tradition = 1
+	}
+	
+	trigger = {
+		tag = FRY
+	}
+	free = yes		#will be added at load.
+
+	FRY_star_of_the_west = {
+		trade_steering = 0.25
+	}
+	loyal_solders = {
+		land_morale = 0.10
+	}
+	FRY_exspanding_horisions = {
+		range = 0.8
+	}
+	fry_mercanry_armys = {
+		merc_maintenance_modifier = -0.10
+		mercenary_discipline = 0.05
+	}
+	city_and_state = {
+		development_cost = -0.1
+		global_tax_modifier = 0.05
+	}
+	freyglen_rights_bill = {
+		global_unrest = -2
+		liberty_desire = 15
+	}
+	center_of_lights = {
+		same_culture_advisor_cost = -0.5
+		global_institution_spread = 0.1
 	}
 }

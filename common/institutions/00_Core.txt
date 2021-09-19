@@ -187,7 +187,9 @@ bronze_working = {
 
 	history = {
 		OR={
+			culture_group = penisular_elf
 			culture_group = lake_elf
+			culture_group = sea_elf
 			culture_group = dunirr
 			culture_group = ugluk
 			culture_group = drakonic
@@ -331,6 +333,8 @@ crop_rotation = {
 
 	history = {
 		OR={
+			culture_group = penisular_elf
+			culture_group = sea_elf
 			culture_group = lake_elf
 			culture_group = dunirr
 			culture_group = ugluk
@@ -386,6 +390,32 @@ crop_rotation = {
 
 	
 	embracement_speed = {
+		modifier = {
+			scale = yes
+			factor = 0.4
+			trade_goods = grain
+			bronze_working = 100
+			development = 7
+		}
+		modifier = {
+			scale = yes
+			factor = 0.7
+			trade_goods = grain
+			bronze_working = 100
+			development = 10
+		}
+		modifier = {
+			scale = yes
+			factor = 0.4
+			owner={
+				trading_part = {
+					trade_goods = grain
+					value = 0.10
+				}
+			}
+			bronze_working = 100
+			development = 12
+		}
 		modifier = {
 			scale = yes
 			factor = 0.6
@@ -512,6 +542,8 @@ iron_working = {
 		OR={
 			NOT={
 				OR={
+					culture_group = penisular_elf
+					culture_group = sea_elf
 					culture_group = lake_elf
 					culture_group = dunirr
 					culture_group = ugluk

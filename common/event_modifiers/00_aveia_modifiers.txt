@@ -40,6 +40,14 @@ doninas_city = {
 	local_defensiveness = 0.25
 	province_trade_power_value = 10
 }
+eiheilaurt_grand_dockyards = {
+	province_trade_power_value = 10
+	ship_recruit_speed = -0.25
+	local_ship_repair = 0.1
+	local_ship_cost = -0.15
+	local_sailors_modifier = 0.15
+	naval_forcelimit = 10
+}
 
 temple_of_the_sea_god = {
 	prestige_from_naval = 0.1
@@ -47,6 +55,10 @@ temple_of_the_sea_god = {
 	prestige = 0.25
 	dip_tech_cost_modifier = -0.1
 	province_trade_power_value = 10
+}
+
+kafethyrian_soil = {
+	trade_goods_size = 0.75
 }
 
 # Important river estuaries
@@ -57,5 +69,9 @@ enheasrion_estuary_modifier = {
 }
 anillelerien_strait_modifier = { #I know this technically isn't an estuary, but it's still an important point
 	province_trade_power_value = 25
+	picture = "estuary_icon"
+}
+moraler_estuary_modifier = {
+	province_trade_power_value = 10
 	picture = "estuary_icon"
 }

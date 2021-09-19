@@ -526,7 +526,7 @@ succession_culture_religion_effect = {
 			}
 		}
 		set_country_flag = had_culture_religion_reaction_event_flag #Note: Cleared in the event below, all future effects from ruler culture/religion are gated behind this flag being cleared.
-		country_event = { id = culture_religion_events.2 days = 75 random = 7 }
+		#country_event = { id = culture_religion_events.2 days = 75 random = 7 }
 	}
 }
 

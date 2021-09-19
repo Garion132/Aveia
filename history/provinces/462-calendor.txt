@@ -9,4 +9,5 @@ native_size = 0
 native_ferocity = 0
 native_hostileness = 0
 discovered_by = lake_elves_group
+center_of_trade = 1
 extra_cost = 8

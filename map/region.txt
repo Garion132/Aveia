@@ -309,6 +309,7 @@ craine_islands={#includes kafethyr
 		kafethyr_3
 		kafethyr_4
 		kafethyr_5
+		kafethyr_6
 	}
 }
 
@@ -706,6 +707,7 @@ greater_jalhorkan_region={
 		brightcoast_10
 		brightcoast_11
 		brightcoast_12
+		ventoral_islands
 	}
 }
 windsweaps_region={

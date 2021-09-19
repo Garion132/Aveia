@@ -1,7 +1,7 @@
 #cloudham
 
-culture = kaletian
-religion = shamanism #Fetishism
+culture = kyathian
+religion = tlaulunorist 
 hre = no
 base_tax = 1
 base_production =1
