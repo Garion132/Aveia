@@ -3,6 +3,7 @@
 add_core = RYA
 owner = RYA
 controller = RYA
+add_core = VER
 culture = dregheian
 religion = tlaulunorist
 hre = no

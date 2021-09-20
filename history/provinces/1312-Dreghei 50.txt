@@ -3,6 +3,7 @@
 add_core = DRG
 owner = DRG
 controller = DRG
+add_core = VER
 culture = dregheian
 religion = tlaulunorist
 hre = no

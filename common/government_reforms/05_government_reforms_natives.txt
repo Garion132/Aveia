@@ -43,11 +43,13 @@ mannish_tribal_reform = {
 	modifiers = {
 		stability_cost_modifier = -0.33
 		land_maintenance_modifier = -0.50
+		infantry_cost = -0.20
 		diplomatic_upkeep = -1
 		global_institution_spread = -0.025
 		land_forcelimit = 10
 		discipline = -0.1
 		global_manpower_modifier = 0.75
+		land_morale = 0.30
 	}
 	valid_for_nation_designer = no
 }

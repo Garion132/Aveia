@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = ellorhasian
 religion = tlaulunorist
 technology_group = lake_elves_group
-capital = 546 # Iwenlumy
+capital = 584 #
 #national_focus = DIP
 #historical_rival = HAB
 
@@ -23,11 +23,11 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Suran"
-		dynasty = "Lelitha"
+		name = "Kaenir"
+		dynasty = "Pramei"
 		birth_date = 1245.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 4
+		dip = 1
+		mil = 3
 	}
 }

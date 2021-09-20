@@ -39,7 +39,7 @@ elven_ruler = {
 			ruler_culture = cyuean
         }
 	}
-	monarch_lifespan = 3
+	monarch_lifespan = 30
     heir_chance = -0.70
 }
 dunirrian_ruler = {
@@ -53,7 +53,7 @@ dunirrian_ruler = {
             ruler_culture = dregheian
         }
 	}
-	monarch_lifespan = 2.5
+	monarch_lifespan = 25
     heir_chance = -0.66
 }
 uglukish_ruler = {
@@ -67,7 +67,7 @@ uglukish_ruler = {
             ruler_culture = nfanathan
         }
 	}
-	monarch_lifespan = 1.5
+	monarch_lifespan = 20
     heir_chance = -0.25
     global_manpower = 0.001
 }

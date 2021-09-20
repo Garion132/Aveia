@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = oligarchy_reform
 primary_culture = cyuean
 religion = tlaulunorist
 technology_group = lake_elves_group

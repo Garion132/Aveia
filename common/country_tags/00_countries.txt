@@ -68,6 +68,7 @@ CHA = "countries/Chaun.txt"
 FRY = "countries/Freyglen.txt"
 TOP = "countries/Topika.txt"
 GUG = "countries/Gugh.txt"
+VER = "countries/Veririk.txt"
 
 LIR = "countries/Liretlet.txt"
 FAN = "countries/Fanilnemyel.txt"

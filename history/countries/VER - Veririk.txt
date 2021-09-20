@@ -1,9 +1,9 @@
-government = republic
-add_government_reform = oligarchy_reform
-primary_culture = kyathian
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = dregheian
 religion = tlaulunorist
 technology_group = lake_elves_group
-capital = 2212 # 
+capital = 1300 # 
 #national_focus = DIP
 #historical_rival = HAB
 
@@ -23,8 +23,8 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
-		dynasty = "Nfana"
+		name = "Verrik"
+		dynasty = "Thyrin"
 		birth_date = 1240.12.3
 		adm = 0
 		dip = 0
