@@ -92,7 +92,7 @@ technology = {
 	year = 1313
 	
 	#Deep-Rank Phalanx
-	military_tactics 	= 	0.2
+	military_tactics 	= 	0.15
 	combat_width = 3
 }
 
@@ -124,7 +124,6 @@ technology = {
 	#Double-Handed Pike
 	maneuver_value = 0.25
 	infantry_shock = 0.2
-	military_tactics = 0.1
 }
 
 technology = {
@@ -145,7 +144,7 @@ technology = {
 	
 	#Castles	
 	fort_15th = yes
-	military_tactics = 0.25
+	military_tactics = 0.15
 }
 
 technology = {
@@ -174,7 +173,7 @@ technology = {
 	year = 1417
 	
 	#Triple Line
-	military_tactics = 0.25
+	military_tactics = 0.15
 	combat_width = 2
 }
 
@@ -235,7 +234,7 @@ technology = {
 	year = 1495
 	
 	#Steel Working
-	military_tactics 	= 	0.25
+	military_tactics 	= 	0.1
 	infantry_shock 		=	0.2
 
 	enable = late_medieval_infantry #Humans
@@ -271,7 +270,7 @@ technology = {
 	year = 1534
 	
 	#Pike and Shot
-	military_tactics = 0.25
+	military_tactics = 0.15
 	infantry_fire = 0.45
 
 	#TODO New Inf
@@ -403,7 +402,7 @@ technology = {
 	year = 1690
 	
 	#Ankon Armor
-	military_tactics = 2.0
+	military_tactics = 1.0
 	land_morale = 0.5
 	infantry_shock = 0.5
 	combat_width = -4
@@ -418,7 +417,7 @@ technology = {
 	year = 1703
 	
 	#Specialized Regiments
-	military_tactics = 0.5
+	military_tactics = 0.25
 	infantry_fire = 0.2
 	infantry_shock = 1.5
 	combat_width = -4
@@ -443,7 +442,6 @@ technology = {
 	year = 1729
 	
 	#Protected Airships
-	military_tactics = 0.25
 	cavalry_shock = 4.0
 	cavalry_fire = 1.0
 
