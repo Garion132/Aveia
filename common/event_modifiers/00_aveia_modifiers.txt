@@ -45,8 +45,9 @@ eiheilaurt_grand_dockyards = {
 	local_ship_repair = 0.1
 	local_ship_cost = -0.15
 	local_sailors_modifier = 0.50
+	local_manpower_modifier = -0.50
 	sailors_recovery_speed = 0.1
-	naval_forcelimit = 10
+	naval_forcelimit = 5
 }
 
 temple_of_the_sea_god = {
