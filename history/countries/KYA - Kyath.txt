@@ -5,7 +5,8 @@ religion = tlaulunorist
 technology_group = lake_elves_group
 capital = 53 # Oruinyal
 #national_focus = DIP
-#historical_rival = HAB
+historical_rival = RAU
+historical_rival = SHE
 
 change_estate_land_share = {
 	estate = estate_nobles

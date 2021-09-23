@@ -6,7 +6,8 @@ technology_group = lake_elves_group
 capital = 771 # 
 add_accepted_culture = kyathian
 #national_focus = DIP
-#historical_rival = HAB
+historical_rival = KYA
+historical_rival = RAU
 
 change_estate_land_share = {
 	estate = estate_nobles
