@@ -1,4 +1,7 @@
 #Windsweaps
+add_core = TAE
+owner = TAE
+controller = TAE
 culture = donamenz
 religion = uzvazism
 capital = "Accra"

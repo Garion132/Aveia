@@ -35,6 +35,9 @@ country_event = {
 					days = 365
 				}
 			}
+			2686={
+				add_base_tax = 1
+			}
 		}
 	}
 

@@ -126,6 +126,10 @@ ULR = "countries/Ulracctrancrarlot.txt"
 VRT = "countries/Vartenlotch.txt"
 TOR = "countries/Torluok.txt"
 AHN = "countries/Achnirvachthrch.txt"
+MAR = "countries/Marvorvincalintir.txt"
+FAE = "countries/Faelochlor.txt"
+TAE = "countries/Taelautchtin.txt"
+
 
 
 PAP = "countries/Yulikivian.txt"

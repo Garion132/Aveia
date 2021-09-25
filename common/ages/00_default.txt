@@ -10,9 +10,8 @@ age_of_discovery = {
 	
 
 	objectives = {
-		obj_100_development = {
-			total_development = 100
-
+		obj_300_development = {
+			total_development = 300
 		}
 		
 		
@@ -41,7 +40,7 @@ age_of_discovery = {
 				}
 			}
 		}
-		obj_iron_working = {
+		obj_crop_rotation = {
 	 		has_institution = crop_rotation
 	 		all_state_province = {
 	 			crop_rotation = 100
@@ -140,6 +139,160 @@ age_of_discovery = {
 			}
 		}
 	}
+}
+
+
+age_of_calamity  = {
+	start = 1367
+	
+	can_start = {
+		has_global_flag = iron_age_calamity_eruption
+	}
+	
+	
+	religious_conflicts = yes
+	papacy = 1.25
+	
+	objectives = {
+		
+		obj_many_many_vassals = {
+			vassal = 5
+		}	
+		
+		obj_convert_10_provinces = {
+			custom_trigger_tooltip = {
+				tooltip = obj_convert_10_provinces_tooltip
+				check_variable = { which = num_converted_religion value = 10 }
+			}
+		}
+		
+		obj_iron_working = {
+	 		has_institution = iron_working
+	 		all_state_province = {
+	 			iron_working = 100
+	 		}
+		}
+		
+		obj_force_converted = {
+			custom_trigger_tooltip = {
+				tooltip = obj_force_converted_tooltip
+				has_country_flag = force_converted
+			}
+		}
+		
+		obj_stable_state={
+			stability = 2
+			has_any_disaster = no
+		}
+		
+		obj_asian_trade = {
+			OR = {
+				trading_bonus = {
+					trade_goods = spices
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = chinaware
+					value = yes
+				}
+				trading_bonus = {
+					trade_goods = silk
+					value = yes
+				}
+			
+			}
+		
+		
+		}
+		
+		obj_unify_culture = {	
+			is_subject = no
+			has_unified_culture_group = yes
+		}
+	}	
+	
+	
+	abilities = {
+	
+		ab_allow_religion_enforced = {
+			effect = {
+				custom_tooltip = religion_enforced_edict
+				set_country_flag = religion_enforced_edict
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+
+		ab_siege_blockades = {
+			modifier = {
+				siege_blockade_progress = 1
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = {
+							num_of_ports = 5
+					}
+				}
+
+			}
+		}
+
+		
+		ab_warscore_vs_religion = {
+			modifier = {
+				warscore_cost_vs_other_religion = -0.25
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		
+		ab_mercenary_discipline = {
+			modifier = {
+				mercenary_discipline = 0.05
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_ship_power_propagation = {
+			modifier = {
+				ship_power_propagation = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		
+		
+		ab_institution_spread_from_true_faith = {
+			modifier = {
+				institution_spread_from_true_faith = 0.5
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ab_prestige_per_development_from_conversion = {
+			modifier = {
+				prestige_per_development_from_conversion = 0.3
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	
+	}
+	
+	
+	
+
+	
 }
 
 age_of_reformation = {

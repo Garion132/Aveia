@@ -1,11 +1,14 @@
 #Windsweaps
+add_core = FAE
+owner = FAE
+controller = FAE
 culture = donamenz
 religion = uzvazism
 capital = "Accra"
-trade_goods = unknown
+trade_goods = grain
 hre = no
-base_tax = 0
-base_production = 0
+base_tax = 1
+base_production = 1
 base_manpower = 1
 native_size = 90
 native_ferocity = 6
