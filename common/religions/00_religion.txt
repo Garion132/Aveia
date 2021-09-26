@@ -1024,7 +1024,7 @@ uzvazism_group = {
 		color = { 175 150 213 }
 		icon = 15
 		country = {
-			tolerance_heretic = 2
+			tolerance_heathen = 2
 			advisor_cost = -0.1
 		}
 		country_as_secondary = {

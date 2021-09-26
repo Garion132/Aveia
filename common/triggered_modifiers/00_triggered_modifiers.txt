@@ -865,3 +865,15 @@
 	# }
 	# war_taxes_cost_modifier = -1.0
 # }
+
+iron_smithing_modifier = {
+	potential = {
+		has_institution = iron_working
+	}
+	trigger = {
+		has_institution = iron_working
+		NOT={has_institution = bronze_working}
+		culture_group = humans
+	}
+	technology_cost = -0.5
+}

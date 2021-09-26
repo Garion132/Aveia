@@ -278,12 +278,16 @@ age_of_calamity  = {
 			}
 		}
 
-		ab_prestige_per_development_from_conversion = {
-			modifier = {
-				prestige_per_development_from_conversion = 0.3
+		ab_colony_boost_development = {
+			rule = {
+				can_colony_boost_development = yes
 			}
 			ai_will_do = {
 				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { num_of_colonists = 1 }
+				}
 			}
 		}
 	

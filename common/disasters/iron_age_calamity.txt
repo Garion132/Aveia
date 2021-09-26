@@ -3,6 +3,7 @@ iron_age_calamity = {
 		has_global_flag = iron_age_calamity
 		NOT = {
 			has_country_flag = had_iron_age_calamity
+			religion = uzvazism
 		}
 	}
 
@@ -57,6 +58,8 @@ iron_age_calamity = {
 	
 	can_end = {
         stability = 1
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		is_at_war = no
 		custom_trigger_tooltip = {
 			tooltip = disaster_active_for_10_years_tooltip
 			had_country_flag = { flag = had_iron_age_calamity days = 3650 }
@@ -73,6 +76,7 @@ iron_age_calamity = {
         monthly_splendor = -2
         trade_efficiency = -0.25
         diplomatic_reputation = -2
+		global_unrest = 8 #temp
 	}	
 	
 	

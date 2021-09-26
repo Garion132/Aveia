@@ -1729,3 +1729,32 @@ superiority_reichskrieg = {
 	
 	war_name = REICHSKRIEG_WAR_NAME	
 }
+
+mannish_raids = {
+	type = superiority
+	
+	attacker = {
+		allowed_provinces = {
+			always = no
+		}
+		peace_options = {
+			po_gold
+			po_concede_defeat
+			po_trade_power
+			po_steer_trade
+		}
+	}
+	defender = {
+		allowed_provinces = {
+			always = no
+		}
+		peace_options = {
+			po_gold
+			po_concede_defeat
+			po_trade_power
+			po_steer_trade
+		}
+	}
+	
+	transfer_trade_cost_factor = 0.5	
+}

@@ -214,12 +214,12 @@ north_mannish_ideas = {
 		stability_cost_to_declare_war = -1
 		province_warscore_cost = -0.2
 	}
+	forge_masters = {
+		production_efficiency = 0.05
+	}
 	basin_wars = {
 		possible_condottieri = 1
 		land_forcelimit_modifier = 0.10
-	}
-	forge_masters = {
-		production_efficiency = 0.05
 	}
 	mother_of_invention = {
 		innovativeness_gain = 0.2
