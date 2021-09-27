@@ -111,18 +111,18 @@ FRY_ideas = {
 		trade_steering = 0.25
 	}
 	loyal_solders = {
-		land_morale = 0.10
+		land_morale = 0.125
 	}
 	FRY_exspanding_horisions = {
-		range = 0.8
+		range = 0.9
 	}
 	fry_mercanry_armys = {
-		merc_maintenance_modifier = -0.10
-		mercenary_discipline = 0.05
+		merc_maintenance_modifier = -0.33
+		mercenary_discipline = 0.25
 	}
 	city_and_state = {
 		development_cost = -0.1
-		global_tax_modifier = 0.05
+		global_tax_modifier = 0.1
 	}
 	freyglen_rights_bill = {
 		global_unrest = -2

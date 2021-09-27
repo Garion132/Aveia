@@ -75,3 +75,11 @@ vassal = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MEN
+	second = FRY
+	start_date = 1257.1.1
+	end_date = 1370.4.22
+}
