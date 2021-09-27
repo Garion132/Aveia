@@ -7,3 +7,12 @@
  prices.101.a:0 "Perhaps I could use some."
  prices.102.t:0 "End of the Bronze Age"
  prices.102.d:0 "The Iron Age Calamity has resulted in most armies abandoning their risky and expensive trade routes for copper to turn into bronze and instead swapping over to the inferior but much cheaper and more accessible iron. Thus, prices for copper and tin have both dropped. Additionally, with better and more efficient kilns and workshops, ceramics, a staple of urban Bronze-Age economies, has become cheaper to make."
+ prices.102.a:0 "End of an Era"
+
+ prices.103.t:0 "The Razing of Asemont"
+ prices.103.d:0 "The Razing of Asemont"
+ prices.103.a:0 "Loot the mines!"
+ prices.104.t:0 "The Fading of Asemont"
+ prices.104.d:0 "The Fading of Asemont"
+ prices.104.a:0 "A City of Bronze turned to Dust"
+ 
