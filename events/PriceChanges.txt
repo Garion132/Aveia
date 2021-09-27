@@ -75,7 +75,19 @@ country_event = {
 		change_price = {
 			trade_goods = gold_knot #Blocking out of the sun.
 			key = RAIN_OF_ASH
-			value = -0.75
+			value = -0.85
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = spices #Blocking out of the sun.
+			key = RAIN_OF_ASH
+			value = -0.85
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = ecriamin #Blocking out of the sun.
+			key = RAIN_OF_ASH
+			value = -0.5 #Only 1/3, not 1/2 of price at this point.
 			duration = 3650
 		}
 		change_price = {
@@ -127,6 +139,157 @@ country_event = {
 			value = 0.25
 			duration = 18250
 		}
+	}
+}
+
+# Herbalist Shops
+country_event = {
+	id = prices.101
+	title = prices.101.t
+	desc = prices.101.d
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		NOT = { has_global_flag = ecriamin_happened }
+		OR = {
+			AND = {
+				colony = 1
+				any_subject_country = {
+					is_colonial_nation = yes
+					OR = {
+						capital_scope = { continent = elteria }
+					}
+					ecriamin = 3
+				}
+			}
+			AND = {
+				is_colonial_nation = no
+				capital_scope = { continent = elteria }
+				ecriamin = 3
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = prices.101.a
+		change_price = {
+			trade_goods = ecriamin
+			key = HERBALIST_SHOPS
+			value = 0.5
+			duration = -1
+		}
+		change_price = {
+			trade_goods = sunspot
+			key = HERBALIST_SHOPS
+			value = 0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = gold_knot
+			key = HERBALIST_SHOPS
+			value = 0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = spices
+			key = HERBALIST_SHOPS
+			value = 0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = ecriamin
+			key = CLOVER_MANIA #Like tulip-mania but better
+			value = 0.5
+			duration = 3650
+		}
+		if = { #Basically for Freyglen OR independent colonies
+			limit = {
+				capital_scope = { continent = elteria }
+			}
+			add_years_of_income = 1.00
+			add_prestige = 40
+			add_country_modifier = {
+				name = colonial_enthusiasm
+				duration = 3650
+			}
+		}
+		else = {
+			add_years_of_income = 0.25
+			add_prestige = 25
+			add_country_modifier = {
+				name = colonial_enthusiasm
+				duration = 1825
+			}
+			random_subject_country = {
+				limit = {
+					is_colonial_nation = yes
+					OR = {
+						capital_scope = { continent = elteria }
+					}
+					ecriamin = 4
+				}
+				add_years_of_income = 0.5
+				add_prestige = 15
+				add_country_modifier = {
+					name = colonial_enthusiasm
+					duration = 1825
+				}
+			}
+		}
+		set_global_flag = ecriamin_happened
+	}
+}
+
+#End of the Bronze Age
+country_event = {
+	id = prices.102
+	title = prices.102.t
+	desc = prices.102.d
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		NOT = { has_global_flag = end_of_bronze_age_happened }
+		has_institution = bronze_working
+		has_institution = iron_working
+		iron = 1
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = prices.102.a
+		change_price = {
+			trade_goods = copper
+			key = END_OF_BRONZE_AGE
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = tin
+			key = END_OF_BRONZE_AGE
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = ceramics
+			key = END_OF_BRONZE_AGE
+			value = -0.20
+			duration = -1
+		}
+
+		set_global_flag = end_of_bronze_age_happened
 	}
 }
 

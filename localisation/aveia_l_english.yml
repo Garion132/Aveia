@@ -74,6 +74,10 @@
 
  RAIN_OF_ASH:0 "Eruption of the Orbury Supervolcano"
  RAIN_OF_ASH_LONG:0 "Lasting Effects of the Orbury Supervolcano Eruption"
+ HERBALIST_SHOPS:0 "Herbalist Shops"
+ CLOVER_MANIA:0 "Clover Mania"
+ END_OF_BRONZE_AGE:0 "End of the Bronze Age"
+
  mannish_tribal:0 "Donamenz Tribe"
  mannish_tribal_desc:0 "ToDo"
  PETTY_KINGDOM:0 "Petty Kingdom"
