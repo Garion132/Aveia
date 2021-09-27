@@ -4,16 +4,29 @@ iron_age_calamity = {
 		NOT = {
 			has_country_flag = had_iron_age_calamity
 			religion = uzvazism
+			is_year = 1400
 		}
 	}
 
 
 	can_start = {
-		NOT = { stability = 2 }
+		OR = {
+			NOT = { stability = 2 }
+			development = 500
+			AND = {
+				is_at_war = yes
+				is_in_deficit = yes
+			}
+		}
+		NOT = { stability = 3 }
 	}
 	
 	can_stop = {
         stability = 3
+		OR = {
+			is_at_war = no
+			is_in_deficit = no
+		}
 	}
 	
 	
@@ -60,6 +73,10 @@ iron_age_calamity = {
         stability = 1
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		is_at_war = no
+		is_in_deficit = no
+		manpower_percentage = 0.5
+		NOT = { corruption = 1 }
+		NOT = { num_of_loans = 1 }
 		custom_trigger_tooltip = {
 			tooltip = disaster_active_for_10_years_tooltip
 			had_country_flag = { flag = had_iron_age_calamity days = 3650 }
@@ -71,9 +88,9 @@ iron_age_calamity = {
 
 	modifier = {
 		stability_cost_modifier = 1
-        global_tax_modifier = -0.10
-        all_power_cost = 0.1
-        monthly_splendor = -2
+        global_tax_modifier = -0.15
+        all_power_cost = 0.2
+        monthly_splendor = -4
         trade_efficiency = -0.25
         diplomatic_reputation = -2
 		global_unrest = 8 #temp
