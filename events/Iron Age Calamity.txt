@@ -497,9 +497,7 @@ country_event = {
 	title = "iron_age_calamity.102.t"
 	desc = "iron_age_calamity.102.d"
 	picture = ANGRY_MOB_eventPicture
-	
-	#major = yes #Everyone gets this, so that's a few notifs to sift through
-	
+		
 	is_triggered_only = yes
 	
 	mean_time_to_happen = {
@@ -615,9 +613,69 @@ country_event = {
 				manpower_percentage = 0.25
 			}
 			modifier = {
+				factor = 0.25
+				num_of_loans = 1
+			}
+			modifier = {
+				factor = 0
+				num_of_loans = 3
+			}
+			modifier = {
 				factor = 5
 				NOT = { manpower_percentage = 0.10 }
+				NOT = { num_of_loans = 1 }
 			}
+		}
+	}
+}
+
+#Nationalists Revolt!
+country_event = {
+	id = iron_age_calamity.103
+	title = "iron_age_calamity.103.t"
+	desc = "iron_age_calamity.103.d"
+	picture = ANGRY_MOB_eventPicture
+		
+	trigger = {
+		any_owned_province = {
+			is_capital = no
+			NOT = { ROOT = { culture_group = PREV } }
+			is_city = yes
+		}
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_capital = no
+					NOT = { ROOT = { culture_group = PREV } }
+					is_city = yes
+				}
+				save_event_target_as = cultural_unrest_province
+			}
+		}
+	}
+	
+	option = {	# Crush Them!
+		name = "iron_age_calamity.103.opt.a"
+
+		event_target:cultural_unrest_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 4
+				unrest = 10
+				culture = THIS
+			}
+		}
+		ai_chance = {
+			factor = 100
 		}
 	}
 }

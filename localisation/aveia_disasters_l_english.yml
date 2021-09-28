@@ -6,7 +6,7 @@
  3_random_prov_6_dev_loss_tt:0 "Lose §R6§! Development across §Y3§! Provinces"
  5_random_prov_15_dev_loss_tt:0 "Lose §R15§! Development across §Y5§! Provinces"
  orbury_volcano_damage_tt:0 "Provinces near the §YOrbury Supervolcano§! lose up to §R6§! Development."
- add_country_autonomy_10_tt:0 "Gain §R+10.00%§! Autonomy in every province in §Y[THIS.GetName]§!"
+ add_country_autonomy_10_tt:0 "Gain §R+10.00%§! Autonomy in every province in §Y[ROOT.GetName]§!"
 
  iron_age_calamity.1.t:0 "Comet Sighted"
  iron_age_calamity.1.d:0 "Every now and again, a peasant makes an observation of the night sky and spots a streak of light moving across the sky. They follow up by spreading rumors and causing a ruckus across the country. However, the most recent sighting hasn't dissappeared unlike previous sightings. INstead, the perturbation in the sky has grown larger and brighter than any other of the stars that dot the sky.\nRumors have spread that this is the end times. Our spiritual and political leaders have tried their best to dispell these rumors and ensure calm. However, some of them are starting to believe in the end times themselves."
@@ -31,3 +31,6 @@
  iron_age_calamity.102.d:0 "The famine caused by the darkening of the sky and cooling of the world has caused many uppity peasants to threaten to revolt against our rule. They demand food aid and lower taxes to alleviate their dire situation, ignoring our own desperate situation.\n\nWhat shall we do?"
  iron_age_calamity.102.opt.a:0 "Crush them!"
  iron_age_calamity.102.opt.b:0 "Spare what we can"
+ iron_age_calamity.103.t:0 "Nationalists Revolt!"
+ iron_age_calamity.103.d:0 "Nationalists Revolt"
+ iron_age_calamity.103.opt.a:0 "Crush them!"
