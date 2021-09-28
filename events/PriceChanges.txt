@@ -326,7 +326,7 @@ country_event = {
 			value = 0.25
 			duration = -1
 		}
-		prestige = 75
+		add_prestige = 75
 		82 = {
 			add_devastation = 100
 			add_base_tax = -2
@@ -347,7 +347,7 @@ country_event = {
 			}
 
 			owner = {
-				prestige = -40
+				add_prestige = -40
 			}
 
 			remove_province_modifier = asemont_copper_mines
@@ -396,7 +396,7 @@ country_event = {
 			value = 0.25
 			duration = -1
 		}
-		prestige = -20
+		add_prestige = -20
 
 		82 = {
 			add_base_tax = -1
