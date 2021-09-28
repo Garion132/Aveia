@@ -340,9 +340,6 @@ salt = {
 			NOT = { has_terrain = marsh }
 			NOT = { has_terrain = mountain }
 			NOT = { has_terrain = highlands }
-			NOT = { any_neighbor_province = { province_id = 1649 } } #Lake Victoria
-			NOT = { any_neighbor_province = { province_id = 1650 } } #Lake Tangyanika
-			NOT = { any_neighbor_province = { province_id = 1651 } } #Lake Malawi
 		}
 		modifier = {
 			factor = 2
@@ -981,7 +978,6 @@ iresta = {
 				has_winter = severe_winter
 				has_winter = normal_winter
 				has_winter = mild_winter
-				province_id = 481
 			}
 		}
 		modifier = {
@@ -1255,10 +1251,6 @@ livestock = {
 	}
 	chance = {
 		factor = 30
-		modifier = { 
-			factor = 0.05
-			province_id = 2002
-		}
 		modifier = {
 			factor = 0.75
 			has_winter = severe_winter
@@ -1551,10 +1543,6 @@ guedina = {
 			}
 		}
 		modifier = {
-			factor = 20
-			province_id = 990
-		}
-		modifier = {
 			factor = 1.5
 			is_random_new_world = yes
 			has_terrain = mountain
@@ -1584,10 +1572,6 @@ ankon = {
 				has_terrain = hills
 				has_terrain = highlands
 			}
-		}
-		modifier = {
-			factor = 20
-			province_id = 990
 		}
 		modifier = {
 			factor = 1.5
@@ -1623,10 +1607,6 @@ vitaite = {
 			}
 		}
 		modifier = {
-			factor = 20
-			province_id = 990
-		}
-		modifier = {
 			factor = 1.5
 			is_random_new_world = yes
 			has_terrain = mountain
@@ -1656,10 +1636,6 @@ bryrine = {
 				has_terrain = hills
 				has_terrain = highlands
 			}
-		}
-		modifier = {
-			factor = 20
-			province_id = 990
 		}
 		modifier = {
 			factor = 1.5

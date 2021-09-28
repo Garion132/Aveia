@@ -684,6 +684,9 @@ brightcoast_region={
 		brightcoast_5
 		brightcoast_6
 		brightcoast_7
+		karnaiha_25
+		karnaiha_26
+		karnaiha_27
 	}
 }
 
@@ -733,6 +736,10 @@ windsweaps_region={
 		windsweaps_19
 		karnaiha_12
 		karnaiha_13
+		karnaiha_32
+		karnaiha_33
+		karnaiha_34
+		karnaiha_35
 	}
 }
 palentai_bay_region={
@@ -767,6 +774,12 @@ catecalde_region={
 		karnaiha_22
 		karnaiha_14
 		karnaiha_15
+		karnaiha_23
+		karnaiha_24
+		karnaiha_28
+		karnaiha_29
+		karnaiha_30
+		karnaiha_31
 	}
 }
 

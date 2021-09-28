@@ -108,3 +108,7 @@ army_names = {
          "Arm�e de Reims"       "Arm�e de Troyes"
 	 "Arm�e de $PROVINCE$" 
 }
+
+fleet_names = {
+	"Armada Real"	"Flota de $PROVINCE$"
+}

@@ -23,6 +23,10 @@ groups = {
 		start_level = 2
 		start_cost_modifier = 0.5
 	}
+	free_fauns_group = {
+		start_level = 2
+		start_cost_modifier = 0.5
+	}
 	
 
 	western = {

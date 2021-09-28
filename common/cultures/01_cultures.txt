@@ -9,8 +9,6 @@
 
 lake_elf = {
 	graphical_culture = westerngfx
-
-	male_names = { Gunther Rolf }
 	
 	kyathian = {
 		primary = KYA
@@ -135,9 +133,8 @@ lake_elf = {
 penisular_elf = {
 	graphical_culture = westerngfx
 
-	male_names = { Gunther Rolf }
 	mythaian = {
-		primary = MYT
+		primary = MYH
 		male_names = {
 			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
 			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
@@ -292,8 +289,6 @@ penisular_elf = {
 
 sea_elf = {
 	graphical_culture = westerngfx
-
-	male_names = { Gunther Rolf }
 	
 	sohor = {
 		primary = SOH
@@ -455,8 +450,6 @@ sea_elf = {
 
 dunirr = {
 	graphical_culture = westerngfx
-
-	male_names = { Gunther Rolf }
 	
 	dregheian = {
 		primary = NYH

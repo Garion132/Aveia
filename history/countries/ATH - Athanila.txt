@@ -21,7 +21,7 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1241.9.16 = {
 	monarch = {
 		name = "Vedim"
 		dynasty = "Athanas"

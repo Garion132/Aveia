@@ -341,17 +341,6 @@ cb_independence_war = {
 		OR = {
 			AND = {
 				NOT = { has_reform = daimyo }
-				NOT = {
-					AND = {
-						tag = SOO
-						OR = {
-							has_reform = pirate_republic_reform
-							has_reform = pirate_king_reform
-							has_reform = war_against_the_world_doctrine_reform
-							has_reform = black_market_consortium_reform
-						}
-					}
-				}
 			}
 			NOT = { from = { has_reform = shogunate } }
 		}
@@ -444,15 +433,6 @@ cb_daimyo_annex = {
 		}
 		OR = {
 			has_reform = daimyo
-			AND = {
-				tag = SOO
-				OR = {
-					has_reform = pirate_republic_reform
-					has_reform = pirate_king_reform
-					has_reform = war_against_the_world_doctrine_reform
-					has_reform = black_market_consortium_reform
-				}
-			}
 		}
 		from = { has_reform = shogunate }
 		is_revolutionary = no
@@ -473,15 +453,6 @@ cb_independent_daimyo_annex = {
 		}
 		OR = {
 			has_reform = indep_daimyo
-			AND = {
-				tag = SOO
-				OR = {
-					has_reform = pirate_republic_reform
-					has_reform = pirate_king_reform
-					has_reform = war_against_the_world_doctrine_reform
-					has_reform = black_market_consortium_reform
-				}
-			}
 		}
 		from = { has_reform = shogunate }
 		is_revolutionary = no
@@ -526,15 +497,6 @@ cb_sengoku = {
 	prerequisites = {
 		OR = {
 			has_reform = daimyo
-			AND = {
-				tag = SOO
-				OR = {
-					has_reform = pirate_republic_reform
-					has_reform = pirate_king_reform
-					has_reform = war_against_the_world_doctrine_reform
-					has_reform = black_market_consortium_reform
-				}
-			}
 		}
 		is_neighbor_of = FROM
 		is_subject = yes
@@ -1003,7 +965,7 @@ cb_crush_the_revolution = {
 
 	prerequisites = {
 		OR = {
-			capital_scope = { continent = europe }
+			capital_scope = { continent = aveia }
 			is_neighbor_of = FROM
 		}
 		is_revolutionary = no
@@ -1024,7 +986,7 @@ cb_spread_the_revolution = {
 		is_revolutionary = yes
 		OR = {
 			ai = no
-			capital_scope = { continent = europe }
+			capital_scope = { continent = aveia }
 			is_revolution_target = yes
 		}
 		FROM = {
@@ -1122,49 +1084,6 @@ cb_humiliate_rotw = {
 	war_goal = humiliate_rotw
 }
 
-# Reunification of China
-cb_chinese_unification = {
-	valid_for_subject = no
-
-	prerequisites = {
-		is_free_or_tributary_trigger = yes
-		OR = {
-			AND = {
-				has_dlc = "Mandate of Heaven"
-				is_emperor_of_china = yes
-			}
-			AND = {
-				NOT = { has_dlc = "Mandate of Heaven" }
-				culture_group = east_asian #Chinese
-				OR = {	#Manchus won't get this unless they unify
-					tag = MCH
-					tag = QNG
-					NOT = { primary_culture = manchu }
-				}
-			}
-		}
-		
-		FROM = { #Applies against other powers in China unless they have the Mandate of Heaven
-			NOT = { is_subject_of = ROOT }
-			OR = {
-				has_dlc = "Mandate of Heaven"
-				culture_group = east_asian #Chinese
-			}
-			any_owned_province = {
-				OR = {
-					region = north_china_region
-					region = xinan_region
-					region = south_china_region
-				}
-			}
-			NOT = { has_country_modifier = the_mandate_of_heaven }
-		}
-		is_neighbor_of = FROM
-	}
-
-	war_goal = superiority_chinese_unification
-}
-
 # Take the Mandate of Heaven
 cb_take_mandate = {
 	valid_for_subject = no
@@ -1225,22 +1144,6 @@ cb_force_tributary = {
 	}
 	
 	war_goal = take_capital_force_tributary
-}
-
-cb_hundred_years_union = {
-	valid_for_subject = no
-
-	is_triggered_only = yes
-	months = 360
-	
-	prerequisites = {
-		OR = {
-			tag = ENG
-			tag = GBR
-		}
-	}
-
-	war_goal = take_capital_personal_union
 }
 
 cb_force_join_hre = {
