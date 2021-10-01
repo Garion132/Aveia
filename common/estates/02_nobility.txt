@@ -16,6 +16,7 @@ estate_nobles =
 		NOT = { has_reform = peasants_republic }
 		NOT = { has_reform = american_republic }
 		NOT = { has_reform = federal_republic }
+		NOT = { tag = RAU }
 		OR = {
 			NOT = { has_reform = celestial_empire }
 			has_dlc = "Mandate of Heaven"

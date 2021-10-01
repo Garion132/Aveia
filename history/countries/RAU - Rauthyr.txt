@@ -10,26 +10,34 @@ historical_rival = KYA
 historical_rival = SHE
 
 change_estate_land_share = {
-	estate = estate_nobles
+	estate = estate_house_lidori
 	share = 10
+}
+change_estate_land_share = {
+	estate = estate_house_etailia
+	share = 5
+}
+change_estate_land_share = {
+	estate = estate_house_kethai
+	share = 7
 }
 change_estate_land_share = {
 	estate = estate_church
 	share = -5
 }
 change_estate_land_share = {
-	estate = estate_burghers
+	estate = estate_house_celola
 	share = -5
 }
 
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
-		dynasty = "Rauthyr"
+		name = "Ralior II"
+		dynasty = "Lidori"
 		birth_date = 1240.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 3
+		dip = 4
+		mil = 1
 	}
 }

@@ -246,3 +246,105 @@ estate_rajput = {
 		}
 	}
 }
+estate_house_kethai = {
+	modifier_definition = {
+		type = loyalty
+		key = house_kethai_loyalty_modifier
+		trigger = {
+			has_estate = estate_house_kethai
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = house_kethai_influence_modifier
+		trigger = {
+			has_estate = estate_house_kethai
+		}
+	}
+}
+estate_house_etailia = {
+	modifier_definition = {
+		type = loyalty
+		key = house_etailia_loyalty_modifier
+		trigger = {
+			has_estate = estate_house_etailia
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = house_etailia_influence_modifier
+		trigger = {
+			has_estate = estate_house_etailia
+		}
+	}
+}
+estate_house_nyletmi = {
+	modifier_definition = {
+		type = loyalty
+		key = house_nyletmi_loyalty_modifier
+		trigger = {
+			has_estate = estate_house_nyletmi
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = house_nyletmi_influence_modifier
+		trigger = {
+			has_estate = estate_house_nyletmi
+		}
+	}
+}
+estate_house_draumi = {
+	modifier_definition = {
+		type = loyalty
+		key = house_nyletmi_loyalty_modifier
+		trigger = {
+			has_estate = estate_house_nyletmi
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = house_nyletmi_influence_modifier
+		trigger = {
+			has_estate = estate_house_nyletmi
+		}
+	}
+}
+estate_house_lidori = {
+	modifier_definition = {
+		type = loyalty
+		key = house_lidori_loyalty_modifier
+		trigger = {
+			has_estate = estate_house_lidori
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = house_lidori_influence_modifier
+		trigger = {
+			has_estate = estate_house_lidori
+		}
+	}
+}
+estate_house_celola = {
+	modifier_definition = {
+		type = loyalty
+		key = house_celola_loyalty_modifier
+		trigger = {
+			has_estate = estate_house_celola
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = house_celola_influence_modifier
+		trigger = {
+			has_estate = estate_house_celola
+		}
+	}
+}

@@ -555,7 +555,7 @@ iron_working = {
 			is_year = 1365
 		}
 	}
-	start_chance = 5		#in 100 for when a province can_start
+	start_chance = 25		#in 100 for when a province can_start
 	
 	
 	on_start = institution_events.2
