@@ -5,7 +5,8 @@ religion = tlaulunorist
 technology_group = lake_elves_group
 capital = 1424 # Athanalia
 #national_focus = DIP
-#historical_rival = HAB
+historical_rival = DRG
+
 
 change_estate_land_share = {
 	estate = estate_nobles
@@ -20,14 +21,27 @@ change_estate_land_share = {
 	share = -5
 }
 
-
 1241.9.16 = {
 	monarch = {
-		name = "Vedim"
+		name = "Vedim I"
 		dynasty = "Athanas"
 		birth_date = 1240.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 2
+		dip = 6
+		mil = 1
+	}
+	add_ruler_personality = well_advised_personality
+}
+1267.5.5 = {
+	heir = {
+		name = "Gane"
+		monarch_name = "Gane I"
+		dynasty = "Athanas"
+		birth_date = 1267.5.5
+		death_date = 1320.5.4
+		claim = 90
+		adm = 5
+		dip = 2
+		mil = 3
 	}
 }

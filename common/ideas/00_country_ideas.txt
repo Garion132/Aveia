@@ -173,3 +173,57 @@ MTN_ideas = {
 		production_efficiency = 0.1
 	}
 }
+
+ATH_ideas = {
+	trigger = {
+		tag = ATH
+	}
+	start = {
+		num_accepted_cultures = 3
+		promote_culture_cost = -0.15
+	}
+	bonus = {
+		heavy_ship_power = 0.30
+	}
+
+	ATH_idea_1 = {
+		global_trade_power = 0.15
+		galley_power = 0.1
+		navy_tradition = 0.075
+	}
+	ATH_idea_2 = {
+		garrison_size = 0.20
+		fort_maintenance_modifier = -0.025
+		rival_border_fort_maintenance = -0.3
+	}
+	ATH_idea_3 = {
+		drill_gain_modifier = 0.05
+		land_morale = 0.05
+	}
+	ATH_ideas_4 = {
+		naval_tradition_from_trade = 0.05
+		global_ship_recruit_speed = 0.1
+		sailors_recovery_speed = 0.1
+	}
+	ATH_ideas_4 = {
+		blockade_efficiency = 0.05
+		allowed_marine_fraction = 0.075
+	}
+	ATH_ideas_5 = {
+		merchants = 1
+		trade_efficiency = 0.05
+		center_of_trade_upgrade_cost = -0.15
+	}
+	ATH_ideas_6 = {
+		expel_minorities_cost = -0.25
+		years_of_nationalism = -5
+	}
+	ATH_ideas_7 = {
+		trade_steering = 0.20
+	}
+
+	bonus = {
+		own_coast_naval_combat_bonus = 0.2
+	}
+
+}

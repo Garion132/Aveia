@@ -34,7 +34,7 @@ change_estate_land_share = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = benevolent_personality
 	add_ruler_personality = charismatic_negotiator_personality
-	add_ruler_personality = well_advised_personality 
+	add_ruler_personality = well_advised_personality
 }
 1267.5.5 = {
 	heir = {
