@@ -4,6 +4,7 @@ iron_age_calamity = {
 		NOT = {
 			has_country_flag = had_iron_age_calamity
 			religion = uzvazism
+			religion = drethalumia
 			is_year = 1400
 		}
 	}
