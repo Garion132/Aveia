@@ -182,9 +182,8 @@ ATH_ideas = {
 		num_accepted_cultures = 3
 		promote_culture_cost = -0.15
 	}
-	bonus = {
-		heavy_ship_power = 0.30
-	}
+	
+	free = yes		#will be added at load.
 
 	ATH_idea_1 = {
 		global_trade_power = 0.15
@@ -201,17 +200,11 @@ ATH_ideas = {
 		land_morale = 0.05
 	}
 	ATH_ideas_4 = {
-		naval_tradition_from_trade = 0.05
-		global_ship_recruit_speed = 0.1
-		sailors_recovery_speed = 0.1
-	}
-	ATH_ideas_4 = {
 		blockade_efficiency = 0.05
 		allowed_marine_fraction = 0.075
 	}
 	ATH_ideas_5 = {
 		merchants = 1
-		trade_efficiency = 0.05
 		center_of_trade_upgrade_cost = -0.15
 	}
 	ATH_ideas_6 = {

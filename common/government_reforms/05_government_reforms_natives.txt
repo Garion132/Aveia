@@ -47,7 +47,7 @@ mannish_tribal_reform = {
 		diplomatic_upkeep = -1
 		global_institution_spread = -0.025
 		land_forcelimit = 10
-		discipline = -0.1
+		discipline = -0.05
 		global_manpower_modifier = 0.75
 		land_morale = 0.30
 	}
