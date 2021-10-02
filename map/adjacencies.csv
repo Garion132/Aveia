@@ -14,4 +14,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2875;2876;sea;239;-1;-1;-1;-1;chain islands
 2874;2876;sea;239;-1;-1;-1;-1;chain islands
 2873;2872;sea;210;-1;-1;-1;-1;chain islands
+3490;3481;sea;3501;-1;-1;-1;-1;chain islands#
+3495;3481;sea;3501;-1;-1;-1;-1;chain islands
+3483;3492;sea;3501;-1;-1;-1;-1;chain islands#
 -1;-1;;-1;-1;-1;-1;-1;-1;

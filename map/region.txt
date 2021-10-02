@@ -849,6 +849,44 @@ strivian_region={
 golden_bay_region={
 	areas = {
 		juluia_30
+		juluia_40
+		juluia_41
+		juluia_42
+		juluia_43
+		juluia_44
+	}
+}
+vitaite_hills_region={
+	areas = {
+		juluia_45
+		juluia_46
+		juluia_47
+		juluia_49
+	}
+}
+tilvena_sea_region={
+	areas = {
+		juluia_48
+		juluia_50
+		juluia_51
+		juluia_52
+		juluia_53
+		juluia_54
+		juluia_55
+		juluia_56
+		juluia_57
+	}
+}
+saciril_region={
+	areas = {
+		juluia_58
+		juluia_59
+		juluia_60
+		juluia_61
+		juluia_62
+		juluia_63
+		juluia_64
+		juluia_65
 	}
 }
 

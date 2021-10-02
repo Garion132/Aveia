@@ -52,4 +52,10 @@ juluia_superregion={
 	shield_isles_region
 	strivian_region
 	golden_bay_region
+	vitaite_hills_region
+	tilvena_sea_region
+	saciril_region
+}
+
+new_world_superregion = {
 }
