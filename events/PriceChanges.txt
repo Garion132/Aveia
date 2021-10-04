@@ -424,14 +424,15 @@ country_event = {
 
 	trigger = {
 		NOT = { has_global_flag = calamity_recovery_happened }
-		has_global_flag = { flag = end_of_bronze_age_happened days = 7300 }
-		has_country_flag = { flag = had_iron_age_calamity days = 7300 }
+		had_global_flag = { flag = end_of_bronze_age_happened days = 7300 }
+		had_country_flag = { flag = had_iron_age_calamity days = 7300 }
 		NOT = { has_disaster = iron_age_calamity }
 		OR = {
-			grain = 3
-			fish = 3
-			fruit = 3
-			wine = 3
+			grain = 5
+			livestock = 5
+			fish = 4
+			fruit = 4
+			wine = 4
 		}
 	}
 	mean_time_to_happen = {
@@ -440,8 +441,15 @@ country_event = {
 
 	option = {
 		name = prices.105.a
+
 		change_price = {
 			trade_goods = grain
+			key = CALAMITY_RECOVERY
+			value = 0.33
+			duration = 36500
+		}
+		change_price = {
+			trade_goods = livestock
 			key = CALAMITY_RECOVERY
 			value = 0.33
 			duration = 36500
@@ -494,8 +502,6 @@ country_event = {
 
 			country_event = { id = prices.106 days = 5 }
 		}
-
-		set_global_flag = calamity_recovery_happened
 	}
 }
 
@@ -507,7 +513,12 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	fire_only_once = yes
+
+	is_triggered_only = yes
 	
+	trigger = {
+		
+	}
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -533,6 +544,7 @@ country_event = {
 		}
 	}
 }
+
 
 # Triangle Trade
 #country_event = {

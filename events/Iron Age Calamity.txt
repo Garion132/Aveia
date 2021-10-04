@@ -707,8 +707,6 @@ country_event = {
 	option = {	# They'll just have to suffer for now
 		name = "iron_age_calamity.104.opt.a"
 
-		custom_tooltip = calamity_no_land_reform_tt
-
 		if = {
 			limit = {
 				total_development = 600
@@ -981,8 +979,14 @@ country_event = {
 			}
 		}
 		
+		custom_tooltip = calamity_no_land_reform_tt
+
 		ai_chance = {
 			factor = 1
+			modifier = {
+				factor = 0
+				mercantilism = 5
+			}
 		}
 	}
 	option = {	# Conduct Land Reform
@@ -998,13 +1002,38 @@ country_event = {
 		add_stability = -1
 		add_estate_loyalty = {
 			estate = estate_nobles
-			loyalty = -10
+			loyalty = -5
 		}
 		change_estate_land_share = {
 			estate = estate_nobles
 			share = -5
 		}
-		custom_tooltip = calamity_land_reform_tt
+		if = {
+			limit = {
+				has_estate = estate_burghers
+			}
+			add_estate_loyalty = {
+				estate = estate_burghers
+				loyalty = 3
+			}
+			change_estate_land_share = {
+				estate = estate_burghers
+				share = 2
+			}
+		}
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 2
+			}
+			change_estate_land_share = {
+				estate = estate_church
+				share = 1
+			}
+		}
 
 
 		if = {
@@ -1279,8 +1308,10 @@ country_event = {
 			}
 		}
 
+		custom_tooltip = calamity_land_reform_tt
+
 		ai_chance = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 0.5
 				NOT = { stability = 0 }
@@ -1290,7 +1321,7 @@ country_event = {
 				NOT = { stability = -1 }
 			}
 			modifier = {
-				factor = 0
+				factor = 0.5
 				NOT = { adm_power = 100 }
 			}
 		}
@@ -1303,18 +1334,19 @@ country_event = {
 				estate = estate_nobles
 				territory = 20
 			}
+			mil_power = 100
+			adm_power = 15
 		}
 		add_adm_power = -15
 		add_mil_power = -100
 		add_estate_loyalty = {
 			estate = estate_nobles
-			loyalty = -15
+			loyalty = -10
 		}
 		change_estate_land_share = {
 			estate = estate_nobles
 			share = -5
 		}
-		custom_tooltip = calamity_land_reform_tt
 
 		if = {
 			limit = {
@@ -1588,14 +1620,16 @@ country_event = {
 			}
 		}
 
+		custom_tooltip = calamity_land_reform_tt
+
 		ai_chance = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 0.5
 				NOT = { mil_power = 150 }
 			}
 			modifier = {
-				factor = 0
+				factor = 0.5
 				NOT = { mil_power = 100 }
 			}
 		}
@@ -1603,6 +1637,7 @@ country_event = {
 	option = { #Conduct Widespread Land Reform so this never happens again!
 		name = "iron_age_calamity.104.opt.d"
 		trigger = {
+			stability = -1
 			OR = {
 				NOT = { has_estate = estate_nobles }
 				NOT = {
@@ -1624,8 +1659,6 @@ country_event = {
 			add_stability = -1
 		}
 
-		custom_tooltip = calamity_final_land_reform_tt
-
 		set_country_flag = calamity_land_reform
 		if = {
 			limit = {
@@ -1639,7 +1672,42 @@ country_event = {
 				estate = estate_nobles
 				territory = -5
 			}
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = estate_nobles_land_reform
+				influence = -10
+				duration = 7300
+			}
+			if = {
+				limit = {
+					has_estate = estate_burghers
+				}
+				add_estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 3
+				}
+				change_estate_land_share = {
+					estate = estate_burghers
+					share = 2
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_church
+				}
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 2
+				}
+				change_estate_land_share = {
+					estate = estate_church
+					share = 1
+				}
+			}
 		}
+
+		custom_tooltip = calamity_final_land_reform_tt
+
 		ai_chance = {
 			factor = 500
 		}
@@ -1647,12 +1715,12 @@ country_event = {
 	option = { #Lower Trade Barriers to Alleviate the Suffering
 		name = "iron_age_calamity.104.opt.e"
 		trigger = {
-			mercantilism = 3
+			mercantilism = 5
 		}
-		add_mercantilism = -3
+		add_mercantilism = -5
 		add_estate_loyalty = {
 			estate = estate_burghers
-			loyalty = -10
+			loyalty = -5
 		}
 
 		custom_tooltip = calamity_no_land_reform_tt
