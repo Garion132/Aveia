@@ -79,6 +79,7 @@
  END_OF_BRONZE_AGE:0 "End of the Bronze Age"
  RAZING_ASEMONT:0 "Razing of Asemont"
  FADING_ASEMONT:0 "Fading of Asemont"
+ CALAMITY_RECOVERY:0 "Calamity Recovery"
 
  mannish_tribal:0 "Donamenz Tribe"
  mannish_tribal_desc:0 "ToDo"

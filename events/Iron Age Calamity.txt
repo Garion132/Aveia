@@ -551,6 +551,7 @@ country_event = {
 		}
 		if = {
 			limit = {
+				NOT = { has_country_flag = calamity_land_reform }
 				total_development = 200
 			}
 			random_owned_province = {
@@ -562,12 +563,17 @@ country_event = {
 				}
 			}
 		}
-		random_owned_province = {
-			spawn_rebels = {
-				type = anti_tax_rebels
-				size = 2
-				win = yes
-				unrest = 10
+		if = {
+			limit = {
+				NOT = { has_country_flag = calamity_land_reform }
+			}
+			random_owned_province = {
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 2
+					win = yes
+					unrest = 10
+				}
 			}
 		}
 		random_owned_province = {
@@ -635,11 +641,12 @@ country_event = {
 	title = "iron_age_calamity.103.t"
 	desc = "iron_age_calamity.103.d"
 	picture = ANGRY_MOB_eventPicture
+	goto = cultural_unrest_province
 		
 	trigger = {
 		any_owned_province = {
 			is_capital = no
-			NOT = { ROOT = { culture_group = PREV } }
+			can_spawn_rebels = nationalist_rebels
 			is_city = yes
 		}
 	}
@@ -655,7 +662,7 @@ country_event = {
 			random_owned_province = {
 				limit = {
 					is_capital = no
-					NOT = { ROOT = { culture_group = PREV } }
+					can_spawn_rebels = nationalist_rebels
 					is_city = yes
 				}
 				save_event_target_as = cultural_unrest_province
@@ -676,6 +683,982 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 100
+		}
+	}
+}
+
+#Famine
+country_event = {
+	id = iron_age_calamity.104
+	title = "iron_age_calamity.104.t"
+	desc = "iron_age_calamity.104.d"
+	picture = FAMINE_eventPicture
+		
+	trigger = {
+		NOT = { has_country_flag = calamity_land_reform }
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {	# They'll just have to suffer for now
+		name = "iron_age_calamity.104.opt.a"
+
+		custom_tooltip = calamity_no_land_reform_tt
+
+		if = {
+			limit = {
+				total_development = 600
+			}
+			custom_tooltip = 21_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				total_development = 450
+			}
+			custom_tooltip = 15_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				total_development = 300
+			}
+			custom_tooltip = 9_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				total_development = 150
+			}
+			custom_tooltip = 6_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+			}
+		}
+		else = {
+			custom_tooltip = 3_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {	# Conduct Land Reform
+		name = "iron_age_calamity.104.opt.b"
+		trigger = {
+			has_estate = estate_nobles
+			estate_territory = {
+				estate = estate_nobles
+				territory = 20
+			}
+			stability = -2
+		}
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -10
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -5
+		}
+		custom_tooltip = calamity_land_reform_tt
+
+
+		if = {
+			limit = {
+				total_development = 600
+			}
+			custom_tooltip = 21_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				total_development = 450
+			}
+			custom_tooltip = 15_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				total_development = 300
+			}
+			custom_tooltip = 9_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				total_development = 150
+			}
+			custom_tooltip = 6_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+			}
+		}
+		else = {
+			custom_tooltip = 3_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 0.5
+				NOT = { stability = 0 }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { stability = -1 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { adm_power = 100 }
+			}
+		}
+	}
+	option = {	# Confiscate Land for Reform
+		name = "iron_age_calamity.104.opt.c"
+		trigger = {
+			has_estate = estate_nobles
+			estate_territory = {
+				estate = estate_nobles
+				territory = 20
+			}
+		}
+		add_adm_power = -15
+		add_mil_power = -100
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -15
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -5
+		}
+		custom_tooltip = calamity_land_reform_tt
+
+		if = {
+			limit = {
+				total_development = 600
+			}
+			custom_tooltip = 21_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				total_development = 450
+			}
+			custom_tooltip = 15_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				total_development = 300
+			}
+			custom_tooltip = 9_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				total_development = 150
+			}
+			custom_tooltip = 6_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 3
+					}
+					add_base_tax = -2
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 3
+					}
+					add_base_production = -2
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 3
+					}
+					add_base_manpower = -2
+				}
+			}
+		}
+		else = {
+			custom_tooltip = 3_dev_loss_tt
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						base_tax = 2
+					}
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						base_production = 2
+					}
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						add_base_manpower = 2
+					}
+					add_base_manpower = -1
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 0.5
+				NOT = { mil_power = 150 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { mil_power = 100 }
+			}
+		}
+	}
+	option = { #Conduct Widespread Land Reform so this never happens again!
+		name = "iron_age_calamity.104.opt.d"
+		trigger = {
+			OR = {
+				NOT = { has_estate = estate_nobles }
+				NOT = {
+					estate_territory = {
+						estate = estate_nobles
+						territory = 20
+					}
+				}
+			}
+		}
+		highlight = yes
+		if = {
+			limit = {
+				NOT = { has_estate = estate_nobles }
+			}
+			add_stability = -2
+		}
+		else = {
+			add_stability = -1
+		}
+
+		custom_tooltip = calamity_final_land_reform_tt
+
+		set_country_flag = calamity_land_reform
+		if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -30
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				territory = -5
+			}
+		}
+		ai_chance = {
+			factor = 500
+		}
+	}
+	option = { #Lower Trade Barriers to Alleviate the Suffering
+		name = "iron_age_calamity.104.opt.e"
+		trigger = {
+			mercantilism = 3
+		}
+		add_mercantilism = -3
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = -10
+		}
+
+		custom_tooltip = calamity_no_land_reform_tt
+
+		ai_chance = {
+			factor = 2
 		}
 	}
 }

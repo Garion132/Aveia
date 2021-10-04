@@ -410,6 +410,130 @@ country_event = {
 		set_global_flag = end_of_asemont_happened
 	}
 }
+
+#Recovering from the Calamity
+country_event = {
+	id = prices.105
+	title = prices.105.t
+	desc = prices.105.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		NOT = { has_global_flag = calamity_recovery_happened }
+		has_global_flag = { flag = end_of_bronze_age_happened days = 7300 }
+		has_country_flag = { flag = had_iron_age_calamity days = 7300 }
+		NOT = { has_disaster = iron_age_calamity }
+		OR = {
+			grain = 3
+			fish = 3
+			fruit = 3
+			wine = 3
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = prices.105.a
+		change_price = {
+			trade_goods = grain
+			key = CALAMITY_RECOVERY
+			value = 0.33
+			duration = 36500
+		}
+		change_price = {
+			trade_goods = fruit
+			key = CALAMITY_RECOVERY
+			value = 0.25
+			duration = 36500
+		}
+		change_price = {
+			trade_goods = fish
+			key = CALAMITY_RECOVERY
+			value = 0.25
+			duration = 36500
+		}
+		change_price = {
+			trade_goods = wine
+			key = CALAMITY_RECOVERY
+			value = 0.25
+			duration = 36500
+		}
+		add_country_modifier = { 
+			name = iron_age_calamity_recovery
+			duration = 36500
+		}
+		if = {
+			limit = {
+				has_country_flag = calamity_land_reform
+			}
+			custom_tooltip = calamity_recovery_land_reform_bonus_tt
+			add_adm_power = 100
+			capital_scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		every_country = {
+			limit = {
+				NOT = { tag = THIS }
+				NOT = { 
+					OR = {
+						#People who couldn't get the disaster don't get this
+						technology_group = northern_men_group
+						technology_group = free_fauns_group
+					}
+				}
+			}
+
+			country_event = { id = prices.106 days = 5 }
+		}
+
+		set_global_flag = calamity_recovery_happened
+	}
+}
+
+#Recovering from the Disaster
+country_event = {
+	id = prices.106
+	title = prices.106.t
+	desc = prices.106.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = prices.106.a
+
+		add_country_modifier = { 
+			name = iron_age_calamity_recovery
+			duration = 36500
+		}
+		if = {
+			limit = {
+				has_country_flag = calamity_land_reform
+			}
+			custom_tooltip = calamity_recovery_land_reform_bonus_tt
+			add_adm_power = 100
+			capital_scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+	}
+}
+
 # Triangle Trade
 #country_event = {
 #	id = prices.1

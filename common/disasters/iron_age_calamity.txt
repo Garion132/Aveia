@@ -105,10 +105,10 @@ iron_age_calamity = {
 		events = {
 		}
 		random_events = { 
-			1000 = 0
+			900 = 0
 			100 = iron_age_calamity.102
 			100 = iron_age_calamity.103
-			#100 = internal_conflicts.4
+			100 = iron_age_calamity.104
 			#100 = internal_conflicts.5
 			#100 = internal_conflicts.6
 			#100 = internal_conflicts.7
