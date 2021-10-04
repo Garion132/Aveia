@@ -55,6 +55,9 @@ juluia_superregion={
 	vitaite_hills_region
 	tilvena_sea_region
 	saciril_region
+	alromita_region
+	velima_plains_region
+	kaminda_region
 }
 
 new_world_superregion = {

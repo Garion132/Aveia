@@ -854,6 +854,31 @@ golden_bay_region={
 		juluia_42
 		juluia_43
 		juluia_44
+		juluia_66
+		juluia_67
+		juluia_68
+		juluia_69
+		juluia_70
+		juluia_71
+		juluia_72
+		juluia_73
+		juluia_76
+		juluia_77
+		juluia_78
+	}
+}
+velima_plains_region={
+	areas = {
+		juluia_74
+		juluia_75
+		juluia_79
+		juluia_80
+		juluia_81
+		juluia_82
+		juluia_83
+		juluia_84
+		juluia_85
+		juluia_86
 	}
 }
 vitaite_hills_region={
@@ -862,6 +887,26 @@ vitaite_hills_region={
 		juluia_46
 		juluia_47
 		juluia_49
+		juluia_87
+		juluia_88
+	}
+}
+alromita_region={
+	areas = {
+		juluia_90
+		juluia_91
+		juluia_92
+		juluia_93
+		juluia_94
+		juluia_95
+		juluia_96
+		juluia_97
+		juluia_98
+	}
+}
+kaminda_region={
+	areas = {
+		juluia_89
 	}
 }
 tilvena_sea_region={
