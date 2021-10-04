@@ -1,6 +1,6 @@
 #cloudham
 
-culture = kyathian
+culture = kafathi
 religion = tlaulunorist #
 hre = no
 base_tax = 2

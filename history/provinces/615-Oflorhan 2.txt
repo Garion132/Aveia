@@ -3,7 +3,7 @@
 add_core = OFL
 owner = OFL
 controller = OFL
-culture = shemsele
+culture = erityian
 religion = tlaulunorist
 hre = no
 base_tax = 3

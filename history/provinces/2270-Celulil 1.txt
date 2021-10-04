@@ -3,7 +3,7 @@
 add_core = CEL
 owner = CEL
 controller = CEL
-culture = kyathian
+culture = siniersi
 religion = tlaulunorist
 hre = no
 base_tax = 1

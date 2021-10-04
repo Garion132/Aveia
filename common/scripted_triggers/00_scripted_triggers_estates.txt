@@ -15,13 +15,14 @@ has_any_estates = {
 		has_estate = estate_brahmins
 		has_estate = estate_burghers
 		has_estate = estate_church
-		has_estate = estate_cossacks
-		has_estate = estate_dhimmi
-		has_estate = estate_jains
-		has_estate = estate_maratha
 		has_estate = estate_nobles
 		has_estate = estate_nomadic_tribes
-		has_estate = estate_rajput
-		has_estate = estate_vaisyas
+		has_estate = estate_house_etailia
+		has_estate = estate_house_nyletmi
+		has_estate = estate_house_draumi
+		has_estate = estate_house_kethai
+		has_estate = estate_house_lidori
+		has_estate = estate_house_celola
+		
 	}
 }

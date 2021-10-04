@@ -1,6 +1,6 @@
 #Jalhorkan
 
-culture = kaletian
+culture = kafathi
 religion = shamanism #Fetishism
 hre = no
 base_tax = 1

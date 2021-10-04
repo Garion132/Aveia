@@ -3,7 +3,7 @@
 add_core = DRE
 owner = DRE
 controller = DRE
-culture = kyathian
+culture = indorran
 religion = tlaulunorist
 hre = no
 base_tax = 6

@@ -3,7 +3,7 @@
 add_core = ERI
 owner = ERI
 controller = ERI
-culture = shemsele
+culture = erityian
 religion = tlaulunorist
 hre = no
 base_tax = 1

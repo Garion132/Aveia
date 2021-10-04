@@ -220,3 +220,42 @@ ATH_ideas = {
 	}
 
 }
+
+THL_ideas = {
+	trigger = {
+		tag = THL
+	}
+	start = {
+		may_establish_frontier = yes
+		no_religion_penalty = yes
+	}
+	
+	free = yes		#will be added at load.
+
+	increase_discipline = {
+		discipline = 0.05
+	}
+	increase_taxation = {
+		global_tax_modifier = 0.1
+	}	
+	cheaper_mercenaries = {
+		merc_maintenance_modifier = -0.2
+	}
+	increased_trade_power = {
+		global_trade_power = 0.1
+	}
+	increased_manpower = {
+		global_manpower_modifier = 0.2
+	}
+	increased_trade_steering = {
+		trade_steering = 0.1
+	}
+	increased_production_income = {
+		production_efficiency = 0.1
+	}
+
+	bonus = {
+		own_coast_naval_combat_bonus = 0.2
+	}
+
+}

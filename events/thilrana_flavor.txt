@@ -1,0 +1,52 @@
+namespace = thilrana_rises
+
+# Thilrana is founded
+country_event = {
+	id = thilrana_rises.1
+	title = thilrana_rises.1.t
+	desc = thilrana_rises.1.d
+	
+	trigger = {
+		THL={exists = no}	
+		capital_scope = {
+			region = thilrana_region
+		}
+		is_year = 1300
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	immediate={
+		hidden_effect={
+			2297={
+				cede_province = THL
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+			}
+			thilrana_region={
+				add_core = THL
+			}
+			THL={
+				add_treasury = 300
+				add_dip_power = 300
+			}
+		}
+	}
+
+	option = {
+		name = thilrana_rises.1.a
+		#ok
+	}
+	option = {
+		name = thilrana_rises.1.b
+		#tag switch
+		switch_tag = THL
+	}
+}

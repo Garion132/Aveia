@@ -3,7 +3,7 @@
 add_core = BRI
 owner = BRI
 controller = BRI
-culture = kyathian
+culture = siniersi
 religion = tlaulunorist
 hre = no
 base_tax = 1

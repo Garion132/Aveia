@@ -33,7 +33,7 @@ old_kyath_area = {
 	60 61 62 63
 }
 elraithe_area = {
-	64 65 66 67 68
+	65 66 67 68
 }
 upper_indoranas_area = {
 	69 70 71 72 73
@@ -48,7 +48,7 @@ greater_iwenlumy_area = {
 	80 81 82 83
 }
 kyatlasia_area = {
-	84 85 86 87 88
+	64 84 85 86 87 88
 }
 anores_area = {
 	 89 90 91 92

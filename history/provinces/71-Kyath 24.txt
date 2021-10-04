@@ -3,7 +3,8 @@
 add_core = KYA
 owner = KYA
 controller = KYA
-culture = kyathian
+add_core = IND
+culture = indorran
 religion = tlaulunorist
 hre = no
 base_tax = 2

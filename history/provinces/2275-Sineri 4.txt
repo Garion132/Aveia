@@ -3,7 +3,7 @@
 add_core = SIN
 owner = SIN
 controller = SIN
-culture = kyathian
+culture = siniersi
 religion = tlaulunorist
 hre = no
 base_tax = 3

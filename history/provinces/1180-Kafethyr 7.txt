@@ -3,7 +3,7 @@
 add_core = KAF
 owner = KAF
 controller = KAF
-culture = kyathian
+culture = kafathi
 religion = tlaulunorist
 hre = no
 base_tax = 2

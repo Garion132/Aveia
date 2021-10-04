@@ -3,7 +3,7 @@
 add_core = THI
 owner = THI
 controller = THI
-culture = kyathian
+culture = siniersi
 religion = tlaulunorist
 hre = no
 base_tax = 1

@@ -1,7 +1,7 @@
 #Jalhorkan
 
 culture = kaletian
-religion = shamanism #Fetishism
+religion = tlaulunorist #Fetishism
 hre = no
 base_tax = 1
 base_production =1
