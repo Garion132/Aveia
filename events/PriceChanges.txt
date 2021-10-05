@@ -490,7 +490,7 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				NOT = { tag = THIS }
+				NOT = { tag = ROOT }
 				NOT = { 
 					OR = {
 						#People who couldn't get the disaster don't get this
