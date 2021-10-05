@@ -74,9 +74,8 @@ iron_age_calamity = {
         stability = 1
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		is_at_war = no
-		is_in_deficit = no
-		manpower_percentage = 0.5
-		NOT = { corruption = 1 }
+		manpower_percentage = 0.25
+		NOT = { corruption = 5 }
 		NOT = { num_of_loans = 1 }
 		custom_trigger_tooltip = {
 			tooltip = disaster_active_for_10_years_tooltip
