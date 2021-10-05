@@ -545,6 +545,45 @@ country_event = {
 	}
 }
 
+#Improvements in Iron Working
+country_event = {
+	id = prices.107
+	title = prices.107.t
+	desc = prices.107.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		has_institution = iron_working
+		mil_tech = 21
+		any_owned_province = {
+			trade_goods = iron
+			base_production = 5
+		}
+		NOT = { has_global_flag = improvements_in_iron_working_happened }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = prices.105.a
+
+		change_price = {
+			trade_goods = iron
+			key = IMPROVEMENTS_IN_IRON_WORKING
+			value = 0.25
+			duration = -1
+		}
+		add_prestige = 15
+		add_years_of_income = 0.5
+
+		set_global_flag = improvements_in_iron_working_happened
+	}
+}
 
 # Triangle Trade
 #country_event = {
