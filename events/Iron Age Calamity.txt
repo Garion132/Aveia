@@ -1666,7 +1666,7 @@ country_event = {
 			}
 			add_estate_loyalty = {
 				estate = estate_nobles
-				loyalty = -30
+				loyalty = -10
 			}
 			change_estate_land_share = {
 				estate = estate_nobles
