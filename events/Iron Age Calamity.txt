@@ -646,7 +646,10 @@ country_event = {
 	trigger = {
 		any_owned_province = {
 			is_capital = no
-			can_spawn_rebels = nationalist_rebels
+			OR = {
+				NOT = { culture = ROOT }
+				can_spawn_rebels = nationalist_rebels
+			}
 			is_city = yes
 		}
 	}
@@ -662,7 +665,10 @@ country_event = {
 			random_owned_province = {
 				limit = {
 					is_capital = no
-					can_spawn_rebels = nationalist_rebels
+					OR = {
+						NOT = { culture = ROOT }
+						can_spawn_rebels = nationalist_rebels
+					}
 					is_city = yes
 				}
 				save_event_target_as = cultural_unrest_province
