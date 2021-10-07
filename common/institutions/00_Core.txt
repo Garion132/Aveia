@@ -194,6 +194,9 @@ bronze_working = {
 			culture_group = ugluk
 			culture_group = drakonic
 			culture_group = kolbolds
+			culture_group = plains_elf
+			culture_group = basin_elf
+			culture_group = snow_elf
 		}
 	}
 	
