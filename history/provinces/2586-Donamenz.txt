@@ -1,5 +1,5 @@
 #Windsweaps
-culture = donamenz
+culture = umanti
 religion = uzvazism
 capital = "Accra"
 trade_goods = unknown

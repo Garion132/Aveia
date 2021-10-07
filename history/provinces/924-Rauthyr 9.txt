@@ -3,7 +3,7 @@
 add_core = RAU
 owner = RAU
 controller = RAU
-culture = kyathian
+culture = lidoran
 religion = orionrahetia
 hre = no
 base_tax = 3

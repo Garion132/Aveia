@@ -1,6 +1,6 @@
 #Sringar
 
-culture = kaletian
+culture = salorian
 religion = shamanism #Fetishism
 hre = no
 base_tax = 1
@@ -20,7 +20,7 @@ discovered_by = free_fauns_group
 	owner = SAL
 	controller = SAL
 	is_city = yes
-	culture = kyathian
+	culture = salorian
 	religion = tlaulunorist
 	trade_goods = grain
 }

@@ -1812,6 +1812,13 @@ on_five_year_pulse_2 = {
 		150 = tribal_estate_events.12 #Demands
 		150 = tribal_estate_events.13 #Demands
 		150 = tribal_estate_events.14 #Demands
+		#rauthyr estates
+		400 = rauthyr_estate_events.1 #Disloyal
+		400 = rauthyr_estate_events.2 #Disloyal
+		400 = rauthyr_estate_events.3 #Disloyal
+		400 = rauthyr_estate_events.4 #Disloyal
+		400 = rauthyr_estate_events.5 #Disloyal
+		400 = rauthyr_estate_events.6 #Disloyal
 		# Random
 		1000 = 0
 	}

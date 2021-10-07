@@ -1,0 +1,743 @@
+namespace = rauthyr_estate_events
+##low loyalty concequences
+#Low loyalty - etailia
+country_event = {
+	id = rauthyr_estate_events.1
+	title = rauthyr_estate_events.1.t
+	desc = rauthyr_estate_events.1.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	trigger = {
+		NOT={dynasty = "Etailia"}
+		has_estate = estate_house_etailia
+		NOT = {
+			estate_loyalty = {
+				estate = estate_house_etailia
+				loyalty = 30
+			}
+		}
+		estate_territory = { 
+			estate = estate_house_etailia
+			territory = 7
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_etailia
+				modifier = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_etailia
+				modifier = EST_VAL_NOBLES_DENIED_RIGHTS
+			}
+		}
+		any_owned_province = {
+			is_territory = no
+			is_capital = no
+			is_city = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_etailia_estate_revolt
+							value = estate
+							estate = estate_house_etailia
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_etailia_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_etailia_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_etailia_estate_revolt }
+					}
+					set_province_flag = house_etailia_estate_revolt
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.1.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_etailia
+			desc = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			influence = 10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_etailia_estate_revolt }
+			add_local_autonomy = 33
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_flag = house_etailia_estate_revolt }
+				clr_province_flag = house_etailia_estate_revolt
+			}
+		}
+	}
+	option = {
+		name = rauthyr_estate_events.1.b #
+		ai_chance = {
+			factor = 0
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_etailia
+			desc = EST_VAL_NOBLES_DENIED_RIGHTS
+			influence = -10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_etailia_estate_revolt }
+			clr_province_flag = house_etailia_estate_revolt
+			spawn_rebels = { #Always possible in noble province.
+				type = etailia_pretender_rebels
+				size = 1
+				leader_dynasty = "Etailia"
+			}
+		}
+	}
+}
+#Low loyalty - kethai
+country_event = {
+	id = rauthyr_estate_events.2
+	title = rauthyr_estate_events.2.t
+	desc = rauthyr_estate_events.2.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	trigger = {
+		NOT={dynasty = "Kethai"}
+		has_estate = estate_house_kethai
+		NOT = {
+			estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = 30
+			}
+		}
+		estate_territory = { 
+			estate = estate_house_kethai
+			territory = 7
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_kethai
+				modifier = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_kethai
+				modifier = EST_VAL_NOBLES_DENIED_RIGHTS
+			}
+		}
+		any_owned_province = {
+			is_territory = no
+			is_capital = no
+			is_city = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_kethai_estate_revolt
+							value = estate
+							estate = estate_house_kethai
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_kethai_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_kethai_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_kethai_estate_revolt }
+					}
+					set_province_flag = house_kethai_estate_revolt
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.1.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_kethai
+			desc = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			influence = 10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_kethai_estate_revolt }
+			add_local_autonomy = 33
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_flag = house_kethai_estate_revolt }
+				clr_province_flag = house_kethai_estate_revolt
+			}
+		}
+	}
+	option = {
+		name = rauthyr_estate_events.1.b #
+		ai_chance = {
+			factor = 0
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_kethai
+			desc = EST_VAL_NOBLES_DENIED_RIGHTS
+			influence = -10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_kethai_estate_revolt }
+			clr_province_flag = house_kethai_estate_revolt
+			spawn_rebels = { #Always possible in noble province.
+				type = kethai_pretender_rebels
+				size = 1
+				leader_dynasty = "Kethai"
+			}
+		}
+	}
+}
+#Low loyalty - nyletmi
+country_event = {
+	id = rauthyr_estate_events.3
+	title = rauthyr_estate_events.3.t
+	desc = rauthyr_estate_events.3.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	trigger = {
+		NOT={dynasty = "Nyletmi"}
+		has_estate = estate_house_nyletmi
+		NOT = {
+			estate_loyalty = {
+				estate = estate_house_nyletmi
+				loyalty = 30
+			}
+		}
+		estate_territory = { 
+			estate = estate_house_nyletmi
+			territory = 7
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_nyletmi
+				modifier = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_nyletmi
+				modifier = EST_VAL_NOBLES_DENIED_RIGHTS
+			}
+		}
+		any_owned_province = {
+			is_territory = no
+			is_capital = no
+			is_city = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_nyletmi_estate_revolt
+							value = estate
+							estate = estate_house_nyletmi
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_nyletmi_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_nyletmi_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_nyletmi_estate_revolt }
+					}
+					set_province_flag = house_nyletmi_estate_revolt
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.1.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_nyletmi
+			desc = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			influence = 10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_nyletmi_estate_revolt }
+			add_local_autonomy = 33
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_flag = house_nyletmi_estate_revolt }
+				clr_province_flag = house_nyletmi_estate_revolt
+			}
+		}
+	}
+	option = {
+		name = rauthyr_estate_events.1.b #
+		ai_chance = {
+			factor = 0
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_nyletmi
+			desc = EST_VAL_NOBLES_DENIED_RIGHTS
+			influence = -10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_nyletmi_estate_revolt }
+			clr_province_flag = house_nyletmi_estate_revolt
+			spawn_rebels = { #Always possible in noble province.
+				type = myletmi_pretender_rebels
+				size = 1
+				leader_dynasty = "Nyletmi"
+			}
+		}
+	}
+}
+#Low loyalty - draumi
+country_event = {
+	id = rauthyr_estate_events.4
+	title = rauthyr_estate_events.4.t
+	desc = rauthyr_estate_events.4.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	trigger = {
+		NOT={dynasty = "Draumi"}
+		has_estate = estate_house_draumi
+		NOT = {
+			estate_loyalty = {
+				estate = estate_house_draumi
+				loyalty = 30
+			}
+		}
+		estate_territory = { 
+			estate = estate_house_draumi
+			territory = 7
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_draumi
+				modifier = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_draumi
+				modifier = EST_VAL_NOBLES_DENIED_RIGHTS
+			}
+		}
+		any_owned_province = {
+			is_territory = no
+			is_capital = no
+			is_city = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_draumi_estate_revolt
+							value = estate
+							estate = estate_house_draumi
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_draumi_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_draumi_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_draumi_estate_revolt }
+					}
+					set_province_flag = house_draumi_estate_revolt
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.1.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_draumi
+			desc = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			influence = 10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_draumi_estate_revolt }
+			add_local_autonomy = 33
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_flag = house_draumi_estate_revolt }
+				clr_province_flag = house_draumi_estate_revolt
+			}
+		}
+	}
+	option = {
+		name = rauthyr_estate_events.1.b #
+		ai_chance = {
+			factor = 0
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_draumi
+			desc = EST_VAL_NOBLES_DENIED_RIGHTS
+			influence = -10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_draumi_estate_revolt }
+			clr_province_flag = house_draumi_estate_revolt
+			spawn_rebels = { #Always possible in noble province.
+				type = draumi_pretender_rebels
+				size = 1
+				leader_dynasty = "Draumi"
+			}
+		}
+	}
+}
+#Low loyalty - lidori
+country_event = {
+	id = rauthyr_estate_events.5
+	title = rauthyr_estate_events.5.t
+	desc = rauthyr_estate_events.5.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	trigger = {
+		NOT={dynasty = "Lidori"}
+		has_estate = estate_house_lidori
+		NOT = {
+			estate_loyalty = {
+				estate = estate_house_lidori
+				loyalty = 30
+			}
+		}
+		estate_territory = { 
+			estate = estate_house_lidori
+			territory = 7
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_lidori
+				modifier = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_lidori
+				modifier = EST_VAL_NOBLES_DENIED_RIGHTS
+			}
+		}
+		any_owned_province = {
+			is_territory = no
+			is_capital = no
+			is_city = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_lidori_estate_revolt
+							value = estate
+							estate = estate_house_lidori
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_lidori_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_lidori_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_lidori_estate_revolt }
+					}
+					set_province_flag = house_lidori_estate_revolt
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.1.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_lidori
+			desc = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			influence = 10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_lidori_estate_revolt }
+			add_local_autonomy = 33
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_flag = house_lidori_estate_revolt }
+				clr_province_flag = house_lidori_estate_revolt
+			}
+		}
+	}
+	option = {
+		name = rauthyr_estate_events.1.b #
+		ai_chance = {
+			factor = 0
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_lidori
+			desc = EST_VAL_NOBLES_DENIED_RIGHTS
+			influence = -10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_lidori_estate_revolt }
+			clr_province_flag = house_lidori_estate_revolt
+			spawn_rebels = { #Always possible in noble province.
+				type = myletmi_pretender_rebels
+				size = 1
+				leader_dynasty = "Lidori"
+			}
+		}
+	}
+}
+#Low loyalty - celola
+country_event = {
+	id = rauthyr_estate_events.6
+	title = rauthyr_estate_events.6.t
+	desc = rauthyr_estate_events.6.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	trigger = {
+		NOT={dynasty = "Celola"}
+		has_estate = estate_house_celola
+		NOT = {
+			estate_loyalty = {
+				estate = estate_house_celola
+				loyalty = 30
+			}
+		}
+		estate_territory = { 
+			estate = estate_house_celola
+			territory = 7
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_celola
+				modifier = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_house_celola
+				modifier = EST_VAL_NOBLES_DENIED_RIGHTS
+			}
+		}
+		any_owned_province = {
+			is_territory = no
+			is_capital = no
+			is_city = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_celola_estate_revolt
+							value = estate
+							estate = estate_house_celola
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_celola_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_celola_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_celola_estate_revolt }
+					}
+					set_province_flag = house_celola_estate_revolt
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.1.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_celola
+			desc = EST_VAL_NOBLES_EXTORTED_RIGHTS
+			influence = 10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_celola_estate_revolt }
+			add_local_autonomy = 33
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_flag = house_celola_estate_revolt }
+				clr_province_flag = house_celola_estate_revolt
+			}
+		}
+	}
+	option = {
+		name = rauthyr_estate_events.1.b #
+		ai_chance = {
+			factor = 0
+		}
+		add_estate_influence_modifier = {
+			estate = estate_house_celola
+			desc = EST_VAL_NOBLES_DENIED_RIGHTS
+			influence = -10
+			duration = 5475
+		}
+		every_owned_province = {
+			limit = { has_province_flag = house_celola_estate_revolt }
+			clr_province_flag = house_celola_estate_revolt
+			spawn_rebels = { #Always possible in noble province.
+				type = celola_pretender_rebels
+				size = 1
+				leader_dynasty = "Celola"
+			}
+		}
+	}
+}
+
+
+

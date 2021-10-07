@@ -3,7 +3,7 @@
 add_core = SHE
 owner = SHE
 controller = SHE
-culture = kyathian
+culture = ulilran
 religion = tlaulunorist
 hre = no
 base_tax = 3

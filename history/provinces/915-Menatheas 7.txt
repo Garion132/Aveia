@@ -3,7 +3,7 @@
 add_core = MNH
 owner = MNH
 controller = MNH
-culture = kyathian
+culture = menathean
 religion = tlaulunorist
 hre = no
 base_tax = 2

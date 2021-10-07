@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = shemsele
+primary_culture = salorian
 religion = tlaulunorist
 technology_group = lake_elves_group
 capital = 885 # 

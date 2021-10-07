@@ -3,7 +3,7 @@
 add_core = NEL
 owner = NEL
 controller = NEL
-culture = kyathian
+culture = menathean
 religion = tlaulunorist
 hre = no
 base_tax = 2

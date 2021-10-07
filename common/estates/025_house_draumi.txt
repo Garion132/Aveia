@@ -41,6 +41,10 @@ estate_house_draumi =
 			development = 20
 		}
 		modifier = {
+			factor = 10.0
+			culture = draumi
+		}
+		modifier = {
 			factor = 0.5
 			NOT = { is_state_core = owner }
 		}

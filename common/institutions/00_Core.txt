@@ -545,6 +545,7 @@ iron_working = {
 					culture_group = penisular_elf
 					culture_group = sea_elf
 					culture_group = lake_elf
+					culture_group = plains_elf
 					culture_group = dunirr
 					culture_group = ugluk
 					culture_group = drakonic

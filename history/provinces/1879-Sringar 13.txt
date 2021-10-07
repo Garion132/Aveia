@@ -1,7 +1,7 @@
 #Sringar
 
-culture = kaletian
-religion = shamanism #Fetishism
+culture = salorian
+religion = tlaulunorist #Fetishism
 hre = no
 base_tax = 1
 base_production =1
