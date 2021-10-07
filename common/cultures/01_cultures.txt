@@ -1297,58 +1297,6 @@ plains_elf = {
 			"Gniewosz"
 		}
 	}
-	jamlu = {
-		#primary = SOH
-		male_names = {
-			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
-			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
-			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
-			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
-			Bartosz Bartolomeus Bedrich 
-			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
-			Boriwoj Borijov Bozydar Theodat Branimir Branislav
-			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
-			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
-			Janusz John Jaromar
-			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph 
-			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
-			Koloman Kornel Cornelius Kresimir Krzeslaw
-			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
-			Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw 
-			Mscislaw Mstislav Msciwoj
-			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
-			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
-			Stanislaw
-			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
-			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw 
-			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
-			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw 
-			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
-		}
-		female_names = {
-			Gabriela Helena Janina
-			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
-			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
-			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
-			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
-			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna 
-			Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
-			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava 
-			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
-		}
-		dynasty_names = {
-			"von Klinckow" "von Puttkamer" "von Barnekow" "von Strantz" "Gryf" "Wizlawid"
-			"von Krassow" "von der Lancken" "von Schlieffen" "von Schwerin"
-			"von Schöning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
-			"von Buggenhagen" "von Manteuffel" "von Corswant" "von Stralenheim" "von Dewitz" "von Preen" "von Podewils"
-			"von Flemming" "von Platen" "von Neuenkirchen" "von Gottberg" "von Hackewitz" "von Hennigs" "Trampe" "von Hertzberg" "von Heyden" "von Kameke" "von Kleist" "Natzmer" 
-			"von Zepelin" "von Gostowski" "von Wakenitz"
-			"von Usedom" "Thun" "von Thadden"
-			#CKII
-			"Gryfita" "z Pomorza" "Grzymala" "Jastrzebiec" "Lubicz" "Nalecz" "Slaweka" "ze Slupska"
-			"Gniewosz"
-		}
-	}
 	draumi = {
 		primary = DRA
 		male_names = {
@@ -1401,7 +1349,11 @@ plains_elf = {
 			"Gniewosz"
 		}
 	}
-	lidoran = {
+}
+snow_elf = {
+	graphical_culture = westerngfx
+
+	jamlu = {
 		#primary = SOH
 		male_names = {
 			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
@@ -1454,110 +1406,6 @@ plains_elf = {
 		}
 	}
 	galen = {
-		#primary = SOH
-		male_names = {
-			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
-			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
-			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
-			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
-			Bartosz Bartolomeus Bedrich 
-			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
-			Boriwoj Borijov Bozydar Theodat Branimir Branislav
-			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
-			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
-			Janusz John Jaromar
-			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph 
-			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
-			Koloman Kornel Cornelius Kresimir Krzeslaw
-			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
-			Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw 
-			Mscislaw Mstislav Msciwoj
-			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
-			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
-			Stanislaw
-			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
-			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw 
-			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
-			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw 
-			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
-		}
-		female_names = {
-			Gabriela Helena Janina
-			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
-			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
-			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
-			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
-			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna 
-			Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
-			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava 
-			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
-		}
-		dynasty_names = {
-			"von Klinckow" "von Puttkamer" "von Barnekow" "von Strantz" "Gryf" "Wizlawid"
-			"von Krassow" "von der Lancken" "von Schlieffen" "von Schwerin"
-			"von Schöning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
-			"von Buggenhagen" "von Manteuffel" "von Corswant" "von Stralenheim" "von Dewitz" "von Preen" "von Podewils"
-			"von Flemming" "von Platen" "von Neuenkirchen" "von Gottberg" "von Hackewitz" "von Hennigs" "Trampe" "von Hertzberg" "von Heyden" "von Kameke" "von Kleist" "Natzmer" 
-			"von Zepelin" "von Gostowski" "von Wakenitz"
-			"von Usedom" "Thun" "von Thadden"
-			#CKII
-			"Gryfita" "z Pomorza" "Grzymala" "Jastrzebiec" "Lubicz" "Nalecz" "Slaweka" "ze Slupska"
-			"Gniewosz"
-		}
-	}
-	maren = {
-		#primary = SOH
-		male_names = {
-			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
-			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
-			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
-			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
-			Bartosz Bartolomeus Bedrich 
-			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
-			Boriwoj Borijov Bozydar Theodat Branimir Branislav
-			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
-			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
-			Janusz John Jaromar
-			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph 
-			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
-			Koloman Kornel Cornelius Kresimir Krzeslaw
-			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
-			Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw 
-			Mscislaw Mstislav Msciwoj
-			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
-			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
-			Stanislaw
-			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
-			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw 
-			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
-			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw 
-			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
-		}
-		female_names = {
-			Gabriela Helena Janina
-			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
-			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
-			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
-			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
-			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna 
-			Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
-			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava 
-			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
-		}
-		dynasty_names = {
-			"von Klinckow" "von Puttkamer" "von Barnekow" "von Strantz" "Gryf" "Wizlawid"
-			"von Krassow" "von der Lancken" "von Schlieffen" "von Schwerin"
-			"von Schöning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
-			"von Buggenhagen" "von Manteuffel" "von Corswant" "von Stralenheim" "von Dewitz" "von Preen" "von Podewils"
-			"von Flemming" "von Platen" "von Neuenkirchen" "von Gottberg" "von Hackewitz" "von Hennigs" "Trampe" "von Hertzberg" "von Heyden" "von Kameke" "von Kleist" "Natzmer" 
-			"von Zepelin" "von Gostowski" "von Wakenitz"
-			"von Usedom" "Thun" "von Thadden"
-			#CKII
-			"Gryfita" "z Pomorza" "Grzymala" "Jastrzebiec" "Lubicz" "Nalecz" "Slaweka" "ze Slupska"
-			"Gniewosz"
-		}
-	}
-	omyse = {
 		#primary = SOH
 		male_names = {
 			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
@@ -1765,58 +1613,6 @@ plains_elf = {
 			"Gniewosz"
 		}
 	}
-	celolian = {
-		#primary = SOH
-		male_names = {
-			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
-			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
-			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
-			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
-			Bartosz Bartolomeus Bedrich 
-			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
-			Boriwoj Borijov Bozydar Theodat Branimir Branislav
-			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
-			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
-			Janusz John Jaromar
-			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph 
-			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
-			Koloman Kornel Cornelius Kresimir Krzeslaw
-			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
-			Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw 
-			Mscislaw Mstislav Msciwoj
-			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
-			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
-			Stanislaw
-			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
-			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw 
-			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
-			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw 
-			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
-		}
-		female_names = {
-			Gabriela Helena Janina
-			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
-			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
-			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
-			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
-			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna 
-			Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
-			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava 
-			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
-		}
-		dynasty_names = {
-			"von Klinckow" "von Puttkamer" "von Barnekow" "von Strantz" "Gryf" "Wizlawid"
-			"von Krassow" "von der Lancken" "von Schlieffen" "von Schwerin"
-			"von Schöning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
-			"von Buggenhagen" "von Manteuffel" "von Corswant" "von Stralenheim" "von Dewitz" "von Preen" "von Podewils"
-			"von Flemming" "von Platen" "von Neuenkirchen" "von Gottberg" "von Hackewitz" "von Hennigs" "Trampe" "von Hertzberg" "von Heyden" "von Kameke" "von Kleist" "Natzmer" 
-			"von Zepelin" "von Gostowski" "von Wakenitz"
-			"von Usedom" "Thun" "von Thadden"
-			#CKII
-			"Gryfita" "z Pomorza" "Grzymala" "Jastrzebiec" "Lubicz" "Nalecz" "Slaweka" "ze Slupska"
-			"Gniewosz"
-		}
-	}
 	ulilran = {
 		#primary = SOH
 		male_names = {
@@ -1870,6 +1666,114 @@ plains_elf = {
 		}
 	}
 	loironan = {
+		#primary = SOH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw 
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw 
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			"von Klinckow" "von Puttkamer" "von Barnekow" "von Strantz" "Gryf" "Wizlawid"
+			"von Krassow" "von der Lancken" "von Schlieffen" "von Schwerin"
+			"von Schöning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
+			"von Buggenhagen" "von Manteuffel" "von Corswant" "von Stralenheim" "von Dewitz" "von Preen" "von Podewils"
+			"von Flemming" "von Platen" "von Neuenkirchen" "von Gottberg" "von Hackewitz" "von Hennigs" "Trampe" "von Hertzberg" "von Heyden" "von Kameke" "von Kleist" "Natzmer" 
+			"von Zepelin" "von Gostowski" "von Wakenitz"
+			"von Usedom" "Thun" "von Thadden"
+			#CKII
+			"Gryfita" "z Pomorza" "Grzymala" "Jastrzebiec" "Lubicz" "Nalecz" "Slaweka" "ze Slupska"
+			"Gniewosz"
+		}
+	}
+}
+
+basin_elf = {
+	graphical_culture = westerngfx
+	lidoran = {
+		#primary = SOH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw 
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw 
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			"von Klinckow" "von Puttkamer" "von Barnekow" "von Strantz" "Gryf" "Wizlawid"
+			"von Krassow" "von der Lancken" "von Schlieffen" "von Schwerin"
+			"von Schöning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
+			"von Buggenhagen" "von Manteuffel" "von Corswant" "von Stralenheim" "von Dewitz" "von Preen" "von Podewils"
+			"von Flemming" "von Platen" "von Neuenkirchen" "von Gottberg" "von Hackewitz" "von Hennigs" "Trampe" "von Hertzberg" "von Heyden" "von Kameke" "von Kleist" "Natzmer" 
+			"von Zepelin" "von Gostowski" "von Wakenitz"
+			"von Usedom" "Thun" "von Thadden"
+			#CKII
+			"Gryfita" "z Pomorza" "Grzymala" "Jastrzebiec" "Lubicz" "Nalecz" "Slaweka" "ze Slupska"
+			"Gniewosz"
+		}
+	}
+	omyse = {
 		#primary = SOH
 		male_names = {
 			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
@@ -2077,8 +1981,112 @@ plains_elf = {
 			"Gniewosz"
 		}
 	}
-}
+	celolian = {
+		#primary = SOH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw 
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw 
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			"von Klinckow" "von Puttkamer" "von Barnekow" "von Strantz" "Gryf" "Wizlawid"
+			"von Krassow" "von der Lancken" "von Schlieffen" "von Schwerin"
+			"von Schöning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
+			"von Buggenhagen" "von Manteuffel" "von Corswant" "von Stralenheim" "von Dewitz" "von Preen" "von Podewils"
+			"von Flemming" "von Platen" "von Neuenkirchen" "von Gottberg" "von Hackewitz" "von Hennigs" "Trampe" "von Hertzberg" "von Heyden" "von Kameke" "von Kleist" "Natzmer" 
+			"von Zepelin" "von Gostowski" "von Wakenitz"
+			"von Usedom" "Thun" "von Thadden"
+			#CKII
+			"Gryfita" "z Pomorza" "Grzymala" "Jastrzebiec" "Lubicz" "Nalecz" "Slaweka" "ze Slupska"
+			"Gniewosz"
+		}
+	}	
+	maren = {
+		#primary = SOH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jirí George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikolás Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw 
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw 
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Markéta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula Václava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			"von Klinckow" "von Puttkamer" "von Barnekow" "von Strantz" "Gryf" "Wizlawid"
+			"von Krassow" "von der Lancken" "von Schlieffen" "von Schwerin"
+			"von Schöning" "von Suhm" "von Maltzahn" "von Below" "von Blixen" "von Borcke"
+			"von Buggenhagen" "von Manteuffel" "von Corswant" "von Stralenheim" "von Dewitz" "von Preen" "von Podewils"
+			"von Flemming" "von Platen" "von Neuenkirchen" "von Gottberg" "von Hackewitz" "von Hennigs" "Trampe" "von Hertzberg" "von Heyden" "von Kameke" "von Kleist" "Natzmer" 
+			"von Zepelin" "von Gostowski" "von Wakenitz"
+			"von Usedom" "Thun" "von Thadden"
+			#CKII
+			"Gryfita" "z Pomorza" "Grzymala" "Jastrzebiec" "Lubicz" "Nalecz" "Slaweka" "ze Slupska"
+			"Gniewosz"
+		}
+	}
 
+}
 #to remove bugs, temp
 southeastasian_group = {
 	graphical_culture = westerngfx

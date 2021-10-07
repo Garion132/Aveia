@@ -77,6 +77,30 @@ estate_house_draumi =
 		}
 		loyalty = 5
 	}
+	loyalty_modifier = {
+		desc = EST_ETA_THRONE_PU
+		trigger = {
+			is_lesser_in_union = yes
+		}
+		loyalty = -10
+	}
+	loyalty_modifier = {
+		desc = EST_ETA_UNNOBLE_THRONE
+		trigger = {
+			NOT={
+				OR={
+					dynasty = "Celola"
+					dynasty = "Lidori"
+					dynasty = "Draumi"
+					dynasty = "Nyletmi"
+					dynasty = "Etailia"
+					dynasty = "Kethai"
+					
+				}
+			}
+		}
+		loyalty = -10
+	}
 	
 	#Alternative naming of estates
 	

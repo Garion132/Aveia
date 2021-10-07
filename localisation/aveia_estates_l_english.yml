@@ -19,5 +19,7 @@
  celola_pretender_rebels_name:0 "Celola Pretender Rebels"
  EST_ETA_ON_THRONE_lOYAL:0 "House on Imperial Throne: "
  EST_ETA_ON_THRONE:0 "House on Imperial Throne: §Y10.0%§!"
+ EST_ETA_THRONE_PU:0 "The Emperor is under a Foreign House: "
+ EST_ETA_UNNOBLE_THRONE:0 "Unnoble Emperor: "
  rauthyr_estate_events.1.a:0 "Leave them be"
  rauthyr_estate_events.1.b:0 "Force them to accept imperial authority"
