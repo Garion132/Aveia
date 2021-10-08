@@ -1,4 +1,7 @@
 #Tsenla
+latent_trade_goods = {
+    coal
+}
 
 add_core = TSE
 owner = TSE
@@ -6,10 +9,10 @@ controller = TSE
 culture = aviean_gold_kolbold
 religion = vulikivite
 hre = yes
-base_tax = 1
-base_production =1
-base_manpower = 1
-trade_goods = grain
+base_tax = 2
+base_production =3
+base_manpower = 2
+trade_goods = wool
 capital = "Sal"
 is_city = yes
 discovered_by = lake_elves_group
