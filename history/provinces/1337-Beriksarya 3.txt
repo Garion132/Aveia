@@ -3,7 +3,7 @@
 add_core = BER
 owner = BER
 controller = BER
-culture = dregheian
+culture = onebelan
 religion = tlaulunorist
 hre = no
 base_tax = 3

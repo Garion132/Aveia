@@ -3,7 +3,7 @@
 add_core = ATH
 owner = ATH
 controller = ATH
-culture = dregheian
+culture = anthyrian
 religion = tlaulunorist
 hre = no
 base_tax = 4

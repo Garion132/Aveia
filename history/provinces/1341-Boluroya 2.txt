@@ -3,7 +3,7 @@
 add_core = BOL
 owner = BOL
 controller = BOL
-culture = dregheian
+culture = bolur
 religion = tlaulunorist
 hre = no
 base_tax = 6

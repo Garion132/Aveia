@@ -3,7 +3,7 @@
 add_core = KEA
 owner = KEA
 controller = KEA
-culture = dregheian
+culture = keatha
 religion = tlaulunorist
 hre = no
 base_tax = 4

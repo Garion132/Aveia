@@ -3,7 +3,7 @@
 add_core = DRG
 owner = DRG
 controller = DRG
-culture = dregheian
+culture = anthyrian
 religion = tlaulunorist
 hre = no
 base_tax = 3

@@ -3,7 +3,7 @@
 add_core = BEY
 owner = BEY
 controller = BEY
-culture = dregheian
+culture = becyuan
 religion = tlaulunorist
 hre = no
 base_tax = 2

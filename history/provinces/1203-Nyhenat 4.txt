@@ -3,7 +3,7 @@
 add_core = NYH
 owner = NYH
 controller = NYH
-culture = dregheian
+culture = nyhenat
 religion = orionrahetia
 hre = no
 base_tax = 1

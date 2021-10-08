@@ -3,7 +3,7 @@
 add_core = RYA
 owner = RYA
 controller = RYA
-culture = dregheian
+culture = ryamyuan
 religion = tlaulunorist
 hre = no
 base_tax = 4

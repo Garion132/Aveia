@@ -3,7 +3,7 @@
 add_core = GUL
 owner = GUL
 controller = GUL
-culture = nfanathan
+culture = gulban
 religion = tlaulunorist
 hre = no
 base_tax = 6

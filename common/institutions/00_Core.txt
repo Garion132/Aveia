@@ -191,7 +191,9 @@ bronze_working = {
 			culture_group = lake_elf
 			culture_group = sea_elf
 			culture_group = dunirr
-			culture_group = ugluk
+			culture_group = bolirr
+			culture_group = chaun_ugluk
+			culture_group = desert_ugluk
 			culture_group = drakonic
 			culture_group = kolbolds
 			culture_group = plains_elf
@@ -340,9 +342,12 @@ crop_rotation = {
 			culture_group = sea_elf
 			culture_group = lake_elf
 			culture_group = dunirr
-			culture_group = ugluk
+			culture_group = bolirr
+			culture_group = chaun_ugluk
+			culture_group = desert_ugluk
 			culture_group = drakonic
 			culture_group = kolbolds
+			
 		}
 		is_year = 1300
 	}
