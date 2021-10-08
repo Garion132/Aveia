@@ -93,6 +93,17 @@ country_event = {
 
     immediate = {
 		set_global_flag = iron_age_calamity_eruption
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						technology_group = northern_men_group
+						technology_group = free_fauns_group
+					}
+				}
+			}
+			set_country_flag = iron_age_calamity_possible
+		}
 	}
 
 	option = {

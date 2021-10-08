@@ -1,10 +1,9 @@
 iron_age_calamity = {
 	potential = {
 		has_global_flag = iron_age_calamity
+		has_country_flag = iron_age_calamity_possible #Set in iron_age_calamity.3 country event
 		NOT = {
 			has_country_flag = had_iron_age_calamity
-			technology_group = northern_men_group
-			technology_group = free_fauns_group
 			is_year = 1400
 		}
 	}
