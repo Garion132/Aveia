@@ -3,6 +3,7 @@
 add_core = KYA
 owner = KYA
 controller = KYA
+add_core = IND
 culture = indorran
 religion = tlaulunorist
 hre = no

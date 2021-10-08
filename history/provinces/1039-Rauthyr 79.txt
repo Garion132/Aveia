@@ -3,6 +3,7 @@
 add_core = RAU
 owner = RAU
 controller = RAU
+add_core = DRA
 culture = draumi
 religion = tlaulunorist
 hre = no

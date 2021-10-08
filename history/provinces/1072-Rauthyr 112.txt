@@ -2,7 +2,7 @@
 
 add_core = RAU
 owner = RAU
-controller = RAU
+controller = RAU'add_core = HET
 culture = nilenorian
 religion = tlaulunorist
 hre = no
