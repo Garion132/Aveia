@@ -971,7 +971,6 @@ country_event = {
 		num_of_cities = 4
 		any_neighbor_country = {
 			has_institution = new_world_i
-			has_institution = feudalism
 			NOT = { war_with = ROOT }
 			NOT = { is_rival = ROOT }
 			NOT = { is_enemy = ROOT }
@@ -995,7 +994,6 @@ country_event = {
 			random_neighbor_country = {
 				limit = {
 					has_institution = new_world_i
-					has_institution = feudalism
 					NOT = { war_with = ROOT }
 					NOT = { is_rival = ROOT }
 					NOT = { is_enemy = ROOT }

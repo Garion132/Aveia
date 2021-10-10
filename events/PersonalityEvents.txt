@@ -2185,7 +2185,7 @@ country_event = {
 			ai = no
 			years_of_income = 1
 		}
-		has_institution = feudalism
+		has_institution = centralised_state
 		NOT = {
 			any_owned_province = {
 				has_province_modifier = monumental_architecture

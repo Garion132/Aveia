@@ -96,7 +96,7 @@ country_event = {
 		months = 18
 		modifier = {
 			factor = 0.9
-			culture_group = ugluk
+				culture_group = chaun_ugluk
 		}
 	}
 

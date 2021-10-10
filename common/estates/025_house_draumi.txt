@@ -99,7 +99,7 @@ estate_house_draumi =
 				}
 			}
 		}
-		loyalty = -10
+		loyalty = -15
 	}
 	
 	#Alternative naming of estates

@@ -362,7 +362,7 @@ country_event = {
 			limit = { has_province_flag = house_nyletmi_estate_revolt }
 			clr_province_flag = house_nyletmi_estate_revolt
 			spawn_rebels = { #Always possible in noble province.
-				type = myletmi_pretender_rebels
+				type = nyletmi_pretender_rebels
 				size = 1
 				leader_dynasty = "Nyletmi"
 			}
@@ -608,7 +608,7 @@ country_event = {
 			limit = { has_province_flag = house_lidori_estate_revolt }
 			clr_province_flag = house_lidori_estate_revolt
 			spawn_rebels = { #Always possible in noble province.
-				type = myletmi_pretender_rebels
+				type = lidori_pretender_rebels
 				size = 1
 				leader_dynasty = "Lidori"
 			}

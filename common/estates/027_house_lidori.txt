@@ -95,7 +95,7 @@ estate_house_lidori =
 				}
 			}
 		}
-		loyalty = -10
+		loyalty = -15
 	}
 	
 	#Alternative naming of estates

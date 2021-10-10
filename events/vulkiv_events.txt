@@ -36,6 +36,11 @@ country_event = {
 			limit={
 				religion = vulikivite
 				NOT={tag = VUL}
+				any_owned_province = {
+					can_have_center_of_reformation_trigger = {
+						RELIGION = rethese
+					}
+				}
 			}
 			country_event = {id = vulkiv_empire_events.2}
 		}

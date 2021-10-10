@@ -96,7 +96,7 @@ estate_house_celola =
 				}
 			}
 		}
-		loyalty = -10
+		loyalty = -15
 	}
 	
 	#Alternative naming of estates
