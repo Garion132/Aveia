@@ -1,7 +1,7 @@
 #Sringar
 
-culture = kaletian
-religion = shamanism #Fetishism
+culture = salorian
+religion = tlaulunorist
 hre = no
 base_tax = 1
 base_production =1
@@ -16,8 +16,8 @@ discovered_by = lake_elves_group
 discovered_by = free_fauns_group
 
 1200.1.1={
-	add_core = SAL
-	owner = SAL
-	controller = SAL
+	add_core = SRI
+	owner = SRI
+	controller = SRI
 	is_city = yes
 }

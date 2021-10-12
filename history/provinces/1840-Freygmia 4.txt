@@ -1,11 +1,11 @@
 #Keathene
 
-culture = kaletian
-religion = shamanism #Fetishism
+culture = keatha
+religion = tlaulunorist
 hre = no
 base_tax = 1
-base_production =1
-base_manpower = 1
+base_production =2
+base_manpower = 2
 trade_goods = unknown
 capital = "Sal"
 native_size = 25
@@ -17,8 +17,8 @@ discovered_by = lake_elves_group
 discovered_by = free_fauns_group
 
 1200.1.1={
-	add_core = KEA
-	owner = KEA
-	controller = KEA
+	add_core = FYG
+	owner = FYG
+	controller = FYG
 	is_city = yes
 }

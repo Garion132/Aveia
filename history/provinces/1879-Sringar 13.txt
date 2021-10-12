@@ -1,7 +1,7 @@
 #Sringar
 
 culture = salorian
-religion = tlaulunorist #Fetishism
+religion = tlaulunorist
 hre = no
 base_tax = 1
 base_production =1
@@ -15,8 +15,8 @@ native_hostileness = 9
 discovered_by = lake_elves_group
 
 1200.1.1={
-	add_core = SAL
-	owner = SAL
-	controller = SAL
+	add_core = SRI
+	owner = SRI
+	controller = SRI
 	is_city = yes
 }

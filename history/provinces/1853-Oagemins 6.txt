@@ -1,7 +1,7 @@
 #Oagemins
 
-culture = kaletian
-religion = shamanism #Fetishism
+culture = edailian
+religion = tlaulunorist
 hre = no
 base_tax = 1
 base_production =1
@@ -15,8 +15,8 @@ native_hostileness = 9
 discovered_by = lake_elves_group
 
 1200.1.1={
-	add_core = LEL
-	owner = LEL
-	controller = LEL
+	add_core = OAG
+	owner = OAG
+	controller = OAG
 	is_city = yes
 }

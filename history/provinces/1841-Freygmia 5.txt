@@ -1,7 +1,7 @@
 #Keathene
 
-culture = kaletian
-religion = shamanism #Fetishism
+culture = keatha
+religion = tlaulunorist
 hre = no
 base_tax = 1
 base_production =1
@@ -16,8 +16,8 @@ discovered_by = lake_elves_group
 discovered_by = free_fauns_group
 
 1200.1.1={
-	add_core = KEA
-	owner = KEA
-	controller = KEA
+	add_core = FYG
+	owner = FYG
+	controller = FYG
 	is_city = yes
 }

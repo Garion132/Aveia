@@ -16,9 +16,9 @@ discovered_by = lake_elves_group
 discovered_by = free_fauns_group
 
 1250.1.1={
-	add_core = SAL
-	owner = SAL
-	controller = SAL
+	add_core = SRI
+	owner = SRI
+	controller = SRI
 	is_city = yes
 	culture = salorian
 	religion = tlaulunorist

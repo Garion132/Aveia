@@ -11,6 +11,36 @@ on_startup = {
 		}
 		save_global_event_target_as = EmperorOfChina
 	}
+	if={
+		limit={
+			tag = KAF
+		}
+		inherit = CLO
+	}
+	if={
+		limit={
+			tag = ATH
+		}
+		inherit = SIL
+	}
+	if={
+		limit={
+			tag = LEL
+		}
+		inherit = OAG
+	}
+	if={
+		limit={
+			tag = KEA
+		}
+		inherit = FYG
+	}
+	if={
+		limit={
+			tag = SAL
+		}
+		inherit = SRI
+	}
 }
 
 # country
