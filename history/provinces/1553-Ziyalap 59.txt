@@ -3,7 +3,7 @@
 add_core = TOP
 owner = TOP
 controller = TOP
-culture = nfanathan
+culture = topika
 religion = tlaulunorist
 hre = no
 base_tax = 1

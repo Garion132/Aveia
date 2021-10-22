@@ -3,7 +3,7 @@
 add_core = REY
 owner = REY
 controller = REY
-culture = nfanathan
+culture = reylanian
 religion = tlaulunorist
 hre = no
 base_tax = 2

@@ -3,7 +3,7 @@
 add_core = NFA
 owner = NFA
 controller = NFA
-culture = nfanathan
+culture = douan
 religion = tlaulunorist
 hre = no
 base_tax = 5

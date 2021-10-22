@@ -3,7 +3,7 @@
 add_core = AKM
 owner = AKM
 controller = AKM
-culture = nfanathan
+culture = beskhin
 religion = tlaulunorist
 hre = no
 base_tax = 3

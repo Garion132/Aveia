@@ -3,7 +3,7 @@
 add_core = ZIY
 owner = ZIY
 controller = ZIY
-culture = nfanathan
+culture = esmilba
 religion = tlaulunorist
 hre = no
 base_tax = 4

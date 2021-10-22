@@ -3,7 +3,7 @@
 add_core = FRY
 owner = FRY
 controller = FRY
-culture = shemsele
+culture = cyuean
 religion = tlaulunorist
 hre = no
 base_tax = 7

@@ -3,7 +3,7 @@
 add_core = UMA
 owner = UMA
 controller = UMA
-culture = nfanathan
+culture = terbi
 religion = tlaulunorist
 hre = no
 base_tax = 4
