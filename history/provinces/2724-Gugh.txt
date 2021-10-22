@@ -2,7 +2,7 @@
 add_core = GUG
 owner = GUG
 controller = GUG
-culture = nfanathan
+culture = gugh
 religion = roresist
 hre = no
 base_tax = 1

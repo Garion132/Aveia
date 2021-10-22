@@ -3,7 +3,7 @@
 add_core = GRU
 owner = GRU
 controller = GRU
-culture = nfanathan
+culture = grur
 religion = roresist
 hre = no
 base_tax = 1

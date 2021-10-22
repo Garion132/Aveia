@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = nfanathan
+primary_culture = yerinite
 religion = roresist
 religious_school = karnelia_school
 technology_group = lake_elves_group

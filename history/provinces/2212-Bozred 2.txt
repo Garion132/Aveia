@@ -3,7 +3,7 @@
 add_core = BOZ
 owner = BOZ
 controller = BOZ
-culture = nfanathan
+culture = bozr
 religion = roresist
 hre = no
 base_tax = 1

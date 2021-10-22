@@ -16,30 +16,60 @@ on_startup = {
 			tag = KAF
 		}
 		inherit = CLO
+		every_owned_province = {
+			limit={
+				is_core = CLO
+			}
+			remove_core = CLO
+		}
 	}
 	if={
 		limit={
 			tag = ATH
 		}
 		inherit = SIL
+		every_owned_province = {
+			limit={
+				is_core = SIL
+			}
+			remove_core = SIL
+		}
 	}
 	if={
 		limit={
 			tag = LEL
 		}
 		inherit = OAG
+		every_owned_province = {
+			limit={
+				is_core = OAG
+			}
+			remove_core = OAG
+		}
 	}
 	if={
 		limit={
 			tag = KEA
 		}
 		inherit = FYG
+		every_owned_province = {
+			limit={
+				is_core = FYG
+			}
+			remove_core = FYG
+		}
 	}
 	if={
 		limit={
 			tag = SAL
 		}
 		inherit = SRI
+		every_owned_province = {
+			limit={
+				is_core = SRI
+			}
+			remove_core = SRI
+		}
 	}
 }
 

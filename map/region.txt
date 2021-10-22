@@ -711,11 +711,16 @@ greater_jalhorkan_region={
 		brightcoast_11
 		brightcoast_12
 		ventoral_islands
+		brightcoast_13
+		brightcoast_14
+		brightcoast_15
+		brightcoast_16
+		brightcoast_17
+		windsweaps_1
 	}
 }
 windsweaps_region={
 	areas = {
-		windsweaps_1
 		windsweaps_2
 		windsweaps_3
 		windsweaps_4
@@ -734,12 +739,12 @@ windsweaps_region={
 		windsweaps_17
 		windsweaps_18
 		windsweaps_19
+		windsweaps_20
+		windsweaps_21
+		windsweaps_22
+		windsweaps_23
 		karnaiha_12
-		karnaiha_13
-		karnaiha_32
-		karnaiha_33
 		karnaiha_34
-		karnaiha_35
 	}
 }
 palentai_bay_region={
@@ -780,6 +785,10 @@ catecalde_region={
 		karnaiha_29
 		karnaiha_30
 		karnaiha_31
+		karnaiha_13
+		karnaiha_32
+		karnaiha_33
+		karnaiha_35
 	}
 }
 

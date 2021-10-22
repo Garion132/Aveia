@@ -3,7 +3,7 @@
 add_core = YER
 owner = YER
 controller = YER
-culture = nfanathan
+culture = yerinite
 religion = forebearist
 hre = no
 base_tax = 1
