@@ -10,5 +10,4 @@ base_manpower = 1
 native_size = 50
 native_ferocity = 2
 native_hostileness = 8
-discovered_by = lake_elves_group
 extra_cost = 8

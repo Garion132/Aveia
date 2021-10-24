@@ -84,6 +84,8 @@ greater_shires_region = {
 		donamenz_46	
 		donamenz_47	
 		donamenz_48
+		shires_6
+		shires_7
 	}
 }
 krashyrvil_midlands_region = {
@@ -511,6 +513,9 @@ vulkivian_region={
 		vulkivian_22
 		vulkivian_23
 		vulkivian_25
+		shires_8
+		shires_9
+		shires_10
 	}
 }
 thilrana_region={

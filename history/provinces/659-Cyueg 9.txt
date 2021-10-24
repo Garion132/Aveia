@@ -1,6 +1,7 @@
 #Cyueg
 
 add_core = CYU
+add_core = OMO
 owner = CYU
 controller = CYU
 culture = omoran

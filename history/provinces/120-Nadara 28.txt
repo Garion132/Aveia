@@ -1,6 +1,7 @@
 #Nadara
 
 add_core = NAD
+add_core = CYO
 owner = NAD
 controller = NAD
 culture = nadarian

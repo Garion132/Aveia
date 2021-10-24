@@ -1,6 +1,7 @@
 #Rauthyr
 
 add_core = RAU
+add_core = GAL
 owner = RAU
 controller = RAU
 culture = galen

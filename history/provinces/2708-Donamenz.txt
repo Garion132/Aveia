@@ -1,6 +1,6 @@
 #Windsweaps
-culture = donamenz
-religion = uzvazism
+culture = shireate
+religion = tlaulunorist
 capital = "Accra"
 trade_goods = unknown
 hre = no

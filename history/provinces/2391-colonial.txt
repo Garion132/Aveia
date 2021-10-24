@@ -1,6 +1,6 @@
 #shires
 culture = shireate
-religion = tlaulunorist
+religion = drethalumia
 capital = "colonial"
 trade_goods = unknown
 hre = no

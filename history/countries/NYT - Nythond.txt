@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = tarloni
+religion = tlaulunorist
+technology_group = lake_elves_group
+capital = 688 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1240.9.16 = {
+	monarch = {
+		name = "Tainer"
+		dynasty = "Cyueo"
+		birth_date = 1240.12.3
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

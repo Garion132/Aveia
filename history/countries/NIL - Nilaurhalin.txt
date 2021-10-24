@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = ellorhasian
 religion = tlaulunorist
 technology_group = lake_elves_group
-capital = 554 # Iwenlumy
+capital = 571 # Iwenlumy
 #national_focus = DIP
 #historical_rival = HAB
 

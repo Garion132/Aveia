@@ -1,6 +1,7 @@
 #Cyueg
 
 add_core = CYU
+add_core = CYO
 owner = CYU
 controller = CYU
 culture = mythaian

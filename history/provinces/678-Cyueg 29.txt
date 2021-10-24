@@ -1,6 +1,7 @@
 #Cyueg
 
 add_core = CYU
+add_core = MLO
 owner = CYU
 controller = CYU
 culture = tarloni

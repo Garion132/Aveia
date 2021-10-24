@@ -4,6 +4,7 @@ latent_trade_goods = {
 }
 
 add_core = CYU
+add_core = CYO
 owner = CYU
 controller = CYU
 culture = nadarian
