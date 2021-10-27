@@ -79,13 +79,12 @@ greater_shires_region = {
 		east_shires_8
 		north_shires_1
 		north_shires_2
-		donamenz_44	
-		donamenz_45	
 		donamenz_46	
 		donamenz_47	
 		donamenz_48
 		shires_6
 		shires_7
+		shires_11
 	}
 }
 krashyrvil_midlands_region = {
@@ -173,6 +172,8 @@ nylka_region={
 		donamenz_20
 		donamenz_21
 		donamenz_33
+		donamenz_44	
+		donamenz_45	
 		chaun_3
 		chaun_4
 	}
@@ -666,6 +667,8 @@ karnaiha_region = {
 		karnaiha_9
 		karnaiha_10
 		karnaiha_11
+		feltdon_1
+		deerok_1
 	}
 }
 
@@ -750,6 +753,8 @@ windsweaps_region={
 		windsweaps_23
 		karnaiha_12
 		karnaiha_34
+		deerok_13
+		deerok_14
 	}
 }
 palentai_bay_region={
@@ -814,6 +819,50 @@ bulkir_region={
 		sohoremyfa_7
 	}
 }
+feltdon_region={
+	areas = {
+		feltdon_2
+		feltdon_3
+		feltdon_4
+		feltdon_5
+		feltdon_6
+		feltdon_7
+		feltdon_8
+		feltdon_9
+		feltdon_10
+		feltdon_11
+		feltdon_12
+		feltdon_13
+		feltdon_14
+		feltdon_15
+		feltdon_16
+		feltdon_17
+		feltdon_18
+		feltdon_19
+		feltdon_20
+		feltdon_21
+		feltdon_22
+		feltdon_23
+		feltdon_24
+	}
+}
+deerok_region={
+	areas = {
+		deerok_2
+		deerok_3
+		deerok_4
+		deerok_5
+		deerok_6
+		deerok_7
+		deerok_8
+		deerok_9
+		deerok_10
+		deerok_11
+		deerok_12
+	}
+}
+
+
 shield_isles_region={
 	areas = {
 		juluia_1

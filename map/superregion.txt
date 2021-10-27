@@ -47,6 +47,7 @@ elteria_superregion={
 	windsweaps_region
 	palentai_bay_region
 	catecalde_region
+	feltdon_region
 }
 juluia_superregion={
 	shield_isles_region
