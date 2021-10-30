@@ -21,13 +21,23 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1210.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Achedros"
 		dynasty = "Thyrin"
-		birth_date = 1240.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		birth_date = 1210.10.5
+		adm = 5
+		dip = 5
+		mil = 6
+		leader = {
+			name = "Achedros"
+			type = general
+			fire = 7
+			shock = 6
+			manuever = 3
+			siege = 0
+		}
 	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = tactical_genius_personality
 }

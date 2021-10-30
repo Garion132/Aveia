@@ -21,7 +21,7 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1197.12.3 = {
 	monarch = {
 		name = "Actriao"
 		dynasty = "Thyrin"
@@ -30,10 +30,14 @@ change_estate_land_share = {
 		dip = 4
 		mil = 2
 	}
+}
+1231.12.3={
 	heir = {
 		name = "Veanir"
+		monarch_name = "Veanir I"
 		dynasty = "Thyrin"
 		birth_date = 1231.12.3
+		claim = 95
 		adm = 2
 		dip = 4
 		mil = 1

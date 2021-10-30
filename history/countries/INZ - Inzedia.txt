@@ -23,11 +23,25 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
-		dynasty = "Bolrin"
+		name = "Illua"
+		dynasty = "Inze"
+		female = yes
 		birth_date = 1240.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+1270.3.9 = {
+	heir = {
+		name = "Unlian"
+		monarch_name = "Unlian II"
+		dynasty = "Inze"
+		birth_date = 1270.3.9
+		death_date = 1434.6.8
+		claim = 79
+		adm = 4
+		dip = 3
+		mil = 4
 	}
 }

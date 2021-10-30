@@ -80,12 +80,12 @@ iron_age_calamity = {
 				NOT = { num_of_loans = 1 }
 				is_bankrupt = no
 				custom_trigger_tooltip = {
-					tooltip = disaster_active_for_10_years_tooltip
-					had_country_flag = { flag = had_iron_age_calamity days = 3650 }
+					tooltip = disaster_active_for_20_years_tooltip
+					had_country_flag = { flag = had_iron_age_calamity days = 7300 }
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = disaster_active_for_10_years_tooltip
+				tooltip = disaster_active_for_50_years_tooltip
 				had_country_flag = { flag = had_iron_age_calamity days = 18250 }
 			}
 		}

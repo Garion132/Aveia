@@ -109,6 +109,7 @@ OMY = "countries/Omyse.txt"
 DGT = "countries/Dregroth.txt"
 IFR = "countries/Ifranhil.txt"
 NYL = "countries/Nylnashas.txt"
+JAM = "countries/Jamlu.txt"
 
 HLR = "countries/Vulikivian Empire.txt"
 VUL = "countries/Vulikiv.txt"
