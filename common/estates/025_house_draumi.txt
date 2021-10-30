@@ -99,7 +99,17 @@ estate_house_draumi =
 				}
 			}
 		}
-		loyalty = -15
+		loyalty = -25
+	}
+	loyalty_modifier = {
+		desc = EST_ETA_IND_DRA
+		trigger = {
+			DRA = {
+				exists = yes
+				is_subject_of = RAU
+			}
+		}
+		loyalty = -10
 	}
 	
 	#Alternative naming of estates

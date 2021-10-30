@@ -96,7 +96,7 @@ estate_house_kethai =
 				}
 			}
 		}
-		loyalty = -15
+		loyalty = -25
 	}
 	
 	#Alternative naming of estates

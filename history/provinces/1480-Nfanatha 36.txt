@@ -1,6 +1,7 @@
 #Nfanatha
 
 add_core = NFA
+add_core = KUS
 owner = NFA
 controller = NFA
 culture = nfanathan

@@ -96,7 +96,7 @@ estate_house_nyletmi =
 				}
 			}
 		}
-		loyalty = -15
+		loyalty = -25
 	}
 	
 	#Alternative naming of estates

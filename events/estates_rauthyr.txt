@@ -739,5 +739,3 @@ country_event = {
 	}
 }
 
-
-

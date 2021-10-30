@@ -4,6 +4,7 @@ latent_trade_goods = {
 }
 
 add_core = RAU
+add_core = OMY
 owner = RAU
 controller = RAU
 culture = omyse

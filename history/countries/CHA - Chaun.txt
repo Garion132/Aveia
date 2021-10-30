@@ -6,6 +6,7 @@ technology_group = lake_elves_group
 capital = 2326 # 
 #national_focus = DIP
 #historical_rival = HAB
+historical_friend = SHE
 
 change_estate_land_share = {
 	estate = estate_nobles

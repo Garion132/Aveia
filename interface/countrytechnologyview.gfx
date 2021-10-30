@@ -213,7 +213,7 @@ spriteTypes = {
 	}	
  	spriteType = {
 		name = "GFX_icon_institution_new_world_i"
-		texturefile = "gfx//interface//institutions//new_world_i.dds"
+		texturefile = "gfx//interface//institutions//a_new_world.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
 	}	
@@ -237,7 +237,25 @@ spriteTypes = {
 	}	
  	spriteType = {
 		name = "GFX_icon_institution_enlightenment"
-		texturefile = "gfx//interface//institutions//enlightenment.dds"
+		texturefile = "gfx//interface//institutions//byrinifaction.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_icon_institution_illuminare"
+		texturefile = "gfx//interface//institutions//illuminare.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_icon_institution_guedinan_revolution"
+		texturefile = "gfx//interface//institutions//guedinan_revolution.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_icon_institution_air_shipping"
+		texturefile = "gfx//interface//institutions//air_shipping.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
@@ -365,6 +383,24 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_institution_tab_crop_rotation"
 		texturefile = "gfx/interface/institutions//institution_tab_crop_rotation.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_institution_tab_illuminare"
+		texturefile = "gfx/interface/institutions//institution_tab_illuminare.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_institution_tab_guedinan_revolution"
+		texturefile = "gfx/interface/institutions//institution_tab_guedinan_revolution.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_institution_tab_air_shipping"
+		texturefile = "gfx/interface/institutions//institution_tab_air_shipping.dds"
 		noOfFrames = 2
 		transparencecheck = yes
 	}

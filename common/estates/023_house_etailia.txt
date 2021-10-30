@@ -98,7 +98,7 @@ estate_house_etailia =
 				}
 			}
 		}
-		loyalty = -15
+		loyalty = -25
 	}
 	
 	#Alternative naming of estates

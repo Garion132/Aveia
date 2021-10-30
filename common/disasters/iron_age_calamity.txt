@@ -70,15 +70,24 @@ iron_age_calamity = {
 	}
 	
 	can_end = {
-        stability = 1
-		NOT = { num_of_rebel_controlled_provinces = 1 }
-		is_at_war = no
-		manpower_percentage = 0.25
-		NOT = { corruption = 5 }
-		NOT = { num_of_loans = 1 }
-		custom_trigger_tooltip = {
-			tooltip = disaster_active_for_10_years_tooltip
-			had_country_flag = { flag = had_iron_age_calamity days = 3650 }
+		OR={
+			AND={
+				stability = 1
+				NOT = { num_of_rebel_controlled_provinces = 1 }
+				is_at_war = no
+				manpower_percentage = 0.25
+				NOT = { corruption = 5 }
+				NOT = { num_of_loans = 1 }
+				is_bankrupt = no
+				custom_trigger_tooltip = {
+					tooltip = disaster_active_for_10_years_tooltip
+					had_country_flag = { flag = had_iron_age_calamity days = 3650 }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = disaster_active_for_10_years_tooltip
+				had_country_flag = { flag = had_iron_age_calamity days = 18250 }
+			}
 		}
 	}
 	
@@ -92,7 +101,8 @@ iron_age_calamity = {
         monthly_splendor = -4
         trade_efficiency = -0.25
         diplomatic_reputation = -2
-		global_unrest = 8 #temp
+		global_unrest = 12 #temp
+		reduced_liberty_desire = -75
 	}	
 	
 	

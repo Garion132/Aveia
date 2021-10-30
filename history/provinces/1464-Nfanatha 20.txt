@@ -1,6 +1,7 @@
 #Nfanatha
 
 add_core = NFA
+add_core = CHE
 owner = NFA
 controller = NFA
 culture = neanathan
