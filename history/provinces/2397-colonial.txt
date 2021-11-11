@@ -1,4 +1,7 @@
 #shires
+add_core = SAE
+owner = SAE
+controller = SAE
 culture = shireate
 religion = drethalumia
 capital = "colonial"

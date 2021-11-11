@@ -1,4 +1,7 @@
 #shires
+add_core = TEL
+owner = TEL
+controller = TEL
 culture = shireate
 religion = drethalumia
 capital = "colonial"

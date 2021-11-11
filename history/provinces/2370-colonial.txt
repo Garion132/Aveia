@@ -1,4 +1,7 @@
 #shires
+add_core = XAQ
+owner = XAQ
+controller = XAQ
 culture = shireate
 religion = tlaulunorist
 capital = "colonial"

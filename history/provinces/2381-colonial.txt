@@ -1,4 +1,7 @@
 #shires
+add_core = XUR
+owner = XUR
+controller = XUR
 culture = shireate
 religion = drethalumia
 capital = "colonial"

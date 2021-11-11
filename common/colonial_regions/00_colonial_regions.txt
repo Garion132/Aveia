@@ -95,7 +95,6 @@ colonial_termina = {
 	}
 }
 
-# termina
 colonial_green_coast = {
 	color = { 32 86 37 }
 
@@ -141,6 +140,7 @@ colonial_morredh = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 }
+
 colonial_deerok= {
 	color = { 193 120 175 }
 
@@ -154,7 +154,6 @@ colonial_deerok= {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 }
-
 
 colonial_feltdon = {
 	color = { 62 43 145 }

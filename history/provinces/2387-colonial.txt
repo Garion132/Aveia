@@ -1,4 +1,7 @@
 #shires
+add_core = VAI
+owner = VAI
+controller = VAI
 culture = shireate
 religion = drethalumia
 capital = "colonial"
