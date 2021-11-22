@@ -2137,7 +2137,7 @@ desert_ugluk = {
 		}
 	}
 	serinite = {
-		#primary = NYH
+		primary = SER
 		male_names = {
 			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
 			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
