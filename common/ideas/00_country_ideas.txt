@@ -259,3 +259,47 @@ THL_ideas = {
 	}
 
 }
+
+IWE_ideas = {
+	trigger = {
+		tag = IWE
+	}
+	start = {
+		development_cost = -0.2
+		governing_capacity_modifier = -0.5
+	}
+	
+	free = yes		#will be added at load.
+
+	expansion_of_asemont = {
+		global_trade_goods_size_modifier = 0.25
+	}
+	gleaming_armor = {
+		land_morale = 0.5
+	}	
+	city_of_the_cradle = {
+		diplomatic_reputation = 1.0
+		prestige_decay = -0.02
+		monthly_splendor = 4
+	}
+	iwen_textiles = {
+		production_efficiency = 0.1
+	}
+	expanded_horizons = {
+		governing_capacity_modifier = 0.25
+	}
+	academy_of_the_cradle = {
+		adm_tech_cost_modifier = -0.05
+		dip_tech_cost_modifier = -0.05
+		idea_cost = -0.1
+	}
+	airship_trade = {
+		placed_merchant_power = 25
+		trade_range_modifier = 0.5
+	}
+
+	bonus = {
+		center_of_trade_upgrade_cost = -0.5
+	}
+
+}
