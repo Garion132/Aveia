@@ -3,7 +3,7 @@
 add_core = LOR
 owner = LOR
 controller = LOR
-culture = aviean_gold_kolbold
+culture = rake
 religion = vulikivite
 hre = yes
 base_tax = 5
