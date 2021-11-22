@@ -74,6 +74,11 @@ kafethyrian_soil = {
 	trade_goods_size = 0.75
 }
 
+shirea_slave_port = {
+	province_trade_power_value = 15
+	trade_goods_size = 5
+}
+
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.
 enheasrion_estuary_modifier = {
