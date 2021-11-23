@@ -3,7 +3,7 @@
 add_core = PUL
 owner = PUL
 controller = PUL
-culture = aviean_blue_kolbold
+culture = cosel
 religion = vulikivite
 hre = yes
 base_tax = 3

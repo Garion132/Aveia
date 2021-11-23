@@ -3,7 +3,7 @@
 add_core = TEI
 owner = TEI
 controller = TEI
-culture = aviean_blue_kolbold
+culture = cosel
 religion = vulikivite
 hre = yes
 base_tax = 2

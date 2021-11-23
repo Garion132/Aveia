@@ -3,7 +3,7 @@
 add_core = PAA
 owner = PAA
 controller = PAA
-culture = aviean_gold_kolbold
+culture = tealclaw
 religion = vulikivite
 hre = yes
 base_tax = 1

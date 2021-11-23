@@ -3,7 +3,7 @@
 add_core = NTH
 owner = NTH
 controller = NTH
-culture = aviean_red_kolbold
+culture = nathioan
 religion = vulikivite
 hre = yes
 base_tax = 1

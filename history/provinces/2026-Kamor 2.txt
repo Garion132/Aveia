@@ -3,7 +3,7 @@
 add_core = KAM
 owner = KAM
 controller = KAM
-culture = aviean_gold_kolbold
+culture = vulikivian
 religion = vulikivite
 hre = yes
 base_tax = 2

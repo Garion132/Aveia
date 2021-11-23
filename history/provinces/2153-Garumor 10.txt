@@ -3,7 +3,7 @@
 add_core = GAR
 owner = GAR
 controller = GAR
-culture = aviean_gold_kolbold
+culture = garumok
 religion = vulikivite
 hre = yes
 base_tax = 2

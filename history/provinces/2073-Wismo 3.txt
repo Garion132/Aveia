@@ -3,7 +3,7 @@
 add_core = WIS
 owner = WIS
 controller = WIS
-culture = aviean_blue_kolbold
+culture = wisma
 religion = vulikivite
 hre = yes
 base_tax = 2

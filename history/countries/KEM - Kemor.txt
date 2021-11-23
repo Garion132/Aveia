@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = rake
+add_accepted_culture = vulikivian
 religion = vulikivite
 technology_group = lake_elves_group
 capital = 2047 # 

@@ -3,7 +3,7 @@
 add_core = KER
 owner = KER
 controller = KER
-culture = aviean_blue_kolbold
+culture = kerandarayn
 religion = vulikivite
 hre = yes
 base_tax = 1

@@ -3,7 +3,7 @@
 add_core = SAA
 owner = SAA
 controller = SAA
-culture = aviean_blue_kolbold
+culture = vealam
 religion = vulikivite
 hre = yes
 base_tax = 2

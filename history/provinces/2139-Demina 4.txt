@@ -3,7 +3,7 @@
 add_core = DEM
 owner = DEM
 controller = DEM
-culture = aviean_gold_kolbold
+culture = tesmon
 religion = vulikivite
 hre = yes
 base_tax = 3

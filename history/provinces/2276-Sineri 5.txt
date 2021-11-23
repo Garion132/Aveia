@@ -3,7 +3,7 @@
 add_core = SIN
 owner = SIN
 controller = SIN
-culture = aviean_red_kolbold
+culture = belfos
 religion = tlaulunorist
 hre = no
 base_tax = 1

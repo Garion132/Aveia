@@ -1,5 +1,5 @@
 #shires
-culture = aviean_blue_kolbold
+culture = karilos
 religion = vulikivite
 capital = "colonial"
 trade_goods = unknown

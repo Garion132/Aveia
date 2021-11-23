@@ -3,7 +3,7 @@
 add_core = XAL
 owner = XAL
 controller = XAL
-culture = aviean_gold_kolbold
+culture = loroik
 religion = vulikivite
 hre = yes
 base_tax = 3

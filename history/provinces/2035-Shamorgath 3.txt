@@ -3,7 +3,7 @@
 add_core = SHA
 owner = SHA
 controller = SHA
-culture = aviean_gold_kolbold
+culture = krasolik
 religion = vulikivite
 hre = yes
 base_tax = 6

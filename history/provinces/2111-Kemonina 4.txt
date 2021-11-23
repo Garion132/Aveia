@@ -3,7 +3,7 @@
 add_core = KMO
 owner = KMO
 controller = KMO
-culture = aviean_blue_kolbold
+culture = karilos
 religion = vulikivite
 hre = yes
 base_tax = 4

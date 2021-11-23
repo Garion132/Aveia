@@ -3,7 +3,7 @@
 add_core = SUS
 owner = SUS
 controller = SUS
-culture = aviean_gold_kolbold
+culture = tealclaw
 religion = vulikivite
 hre = yes
 base_tax = 2

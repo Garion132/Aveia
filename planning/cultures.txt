@@ -1,48 +1,45 @@
 humans, basically germans, rediculously long compound city/country names
 native culture, gibberish language
 
-ugluk:
-
-desert
-	morbinite
-	serinite
-	yerinite
-	
-chaun
-	nfanathan
-	neanathan
-	reylanian
-	akama
-	beskhin
-	terbi
-	doneri
-	douan
-	muthil
-	
-ziya
-	ziyala
-	bayparya
-	topika
-	
-	
 	
 kolbolds:
 
 aviean blue
 	kerandarayn
 	terismao
+	karilos
+	cosel
+	vealam
+	wisma
 aviean gold
 	tesmon
 	garumok
 	viindarik
 	loroik
-cyanscale
-	
+	krasolik
+	tmiik
 aviean red
 	thilranan
 	liret
 	nathioan
-kalteian purple
-
-jullian gold
 	
+imperial purples
+	vulikivian
+	
+kalteian purple
+	
+jullian gold
+
+eastern bronze
+	
+cyanscale
+
+goldscale
+
+bluescale
+
+redscale
+
+purplescale
+
+bronzescale

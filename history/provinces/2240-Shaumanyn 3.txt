@@ -3,7 +3,7 @@
 add_core = SHU
 owner = SHU
 controller = SHU
-culture = aviean_red_kolbold
+culture = liret
 religion = vulikivite
 hre = yes
 base_tax = 1

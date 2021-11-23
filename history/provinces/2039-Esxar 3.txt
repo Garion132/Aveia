@@ -3,7 +3,7 @@
 add_core = ESX
 owner = ESX
 controller = ESX
-culture = aviean_gold_kolbold
+culture = krasolik
 religion = vulikivite
 hre = yes
 base_tax = 4

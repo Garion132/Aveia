@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
-primary_culture = aviean_red_kolbold
+primary_culture = thilranan
 accepted_culture = siniersi
 religion = tlaulunorist
 technology_group = lake_elves_group

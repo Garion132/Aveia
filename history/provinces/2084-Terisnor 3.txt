@@ -3,7 +3,7 @@
 add_core = TRN
 owner = TRN
 controller = TRN
-culture = aviean_blue_kolbold
+culture = terismao
 religion = vulikivite
 hre = yes
 base_tax = 1

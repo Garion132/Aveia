@@ -3,7 +3,7 @@
 add_core = VII
 owner = VII
 controller = VII
-culture = aviean_gold_kolbold
+culture = viindarik
 religion = vulikivite
 hre = yes
 base_tax = 3

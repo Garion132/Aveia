@@ -3,7 +3,7 @@
 add_core = OAY
 owner = OAY
 controller = OAY
-culture = cyanscale_kolbold
+culture = soilseeders
 religion = tlaulunorist
 hre = no
 base_tax = 1

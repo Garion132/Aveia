@@ -3,7 +3,7 @@
 add_core = KEM
 owner = KEM
 controller = KEM
-culture = aviean_gold_kolbold
+culture = vulikivian
 religion = vulikivite
 hre = yes
 base_tax = 5

@@ -1,5 +1,5 @@
 #Brightcoast
-culture = aviean_red_kolbold
+culture = thilranan
 religion = shamanism #Fetishism
 capital = "colonial"
 trade_goods = unknown

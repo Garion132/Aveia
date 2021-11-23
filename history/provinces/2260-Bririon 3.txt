@@ -3,7 +3,7 @@
 add_core = BRI
 owner = BRI
 controller = BRI
-culture = aviean_red_kolbold
+culture = belfos
 religion = tlaulunorist
 hre = no
 base_tax = 1

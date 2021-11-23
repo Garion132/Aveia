@@ -3,7 +3,7 @@
 add_core = SEM
 owner = SEM
 controller = SEM
-culture = aviean_blue_kolbold
+culture = wisma
 religion = vulikivite
 hre = yes
 base_tax = 2

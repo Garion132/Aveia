@@ -3,7 +3,7 @@
 add_core = THI
 owner = THI
 controller = THI
-culture = aviean_red_kolbold
+culture = belfos
 religion = tlaulunorist
 hre = no
 base_tax = 1

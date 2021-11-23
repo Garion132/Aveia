@@ -3,7 +3,7 @@
 add_core = FAN
 owner = FAN
 controller = FAN
-culture = aviean_red_kolbold
+culture = liret
 religion = vulikivite
 hre = yes
 base_tax = 1
