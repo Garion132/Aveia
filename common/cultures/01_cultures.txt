@@ -244,7 +244,7 @@ penisular_elf = {
 		}
 	}
 	omoran = {
-		#primary = MYT
+		primary = OMO
 		male_names = {
 			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
 			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
@@ -266,7 +266,7 @@ penisular_elf = {
 		}
 	}
 	cyuean = {
-		#primary = CYU
+		primary = CYU
 		male_names = {
 			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
 			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
@@ -288,6 +288,7 @@ penisular_elf = {
 		}
 	}
 	tarloni = {
+		primary = NYT
 		male_names = {
 			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
 			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
@@ -309,6 +310,7 @@ penisular_elf = {
 		}
 	}
 	cyoloai = {
+		primary = CYO
 		male_names = {
 			Albrecht Friedrich August Emil Ferdinand Karl Ludwig Karl Wilhelm Adolf Alfred Anton Benedikt 
 			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
@@ -1125,7 +1127,7 @@ aviean_gold_kolbold = {
 aviean_red_kolbold = {
 	graphical_culture = westerngfx
 	thilranan={
-		#primary = NYH
+		primary = THL
 		male_names = {
 			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
 			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
@@ -1177,7 +1179,7 @@ aviean_red_kolbold = {
 		}
 	}
 	liret={
-		#primary = NYH
+		primary = LIR
 		male_names = {
 			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
 			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
@@ -1229,7 +1231,7 @@ aviean_red_kolbold = {
 		}
 	}
 	nathioan={
-		#primary = NYH
+		primary = NTH
 		male_names = {
 			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
 			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 

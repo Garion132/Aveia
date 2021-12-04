@@ -28,8 +28,9 @@ tlaulunorism = {
 			eternal_sun
 		}
 		country = {
-			tolerance_own = 1
-			tolerance_heretic = -1
+			tolerance_heathen = 1
+			improve_relation_modifier = 0.10
+			build_cost = -0.1
 		}
 		
 		country_as_secondary = {

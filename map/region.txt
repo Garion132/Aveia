@@ -997,6 +997,24 @@ saciril_region={
 		juluia_65
 	}
 }
+cemnia_region={
+	areas={
+		cemnia_1
+		cemnia_2
+		cemnia_3
+		cemnia_4
+		cemnia_5
+		cemnia_6
+		cemnia_7
+		cemnia_8
+		cemnia_9
+		cemnia_10
+		cemnia_11
+		cemnia_12
+		cemnia_13
+		cemnia_14
+	}
+}
 
 ocean_region = {
 	areas = {
