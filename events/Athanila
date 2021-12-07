@@ -1,0 +1,67 @@
+namespace = athanila
+
+country_event = {
+	id = athanila.1
+	title = athanila.1.t
+	desc = athanila.1.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = athanila.1.a
+		add_dip_power = 5
+
+		hidden_effect = {
+			country_event = { id = athanila.2 days = 20 random_days = 80 }
+		}
+	}
+}
+# Dwarven Revolt
+country_event = {
+	id = athanila.2
+	title = athanila.2.t
+	desc = athanila.2.d
+
+	is_triggered_only = yes
+
+	goto = capital
+
+	immediate = {
+		random_owned_province = {
+			limit = { is_capital = yes }
+			spawn_rebels = {
+				size = 3
+			}
+		}
+	}
+
+	option = {
+		name = athanila.2.a
+		set_country_flag = ATH_dwarven_concession
+		add_legitimacy = -10
+		custom_tooltip = add_country_autonomy_10_tt
+		hidden_effect = {
+			every_owned_province = {
+				add_local_autonomy = 10
+			}
+		}
+	}
+	option = {
+		name = athanila.2.b
+		set_country_flag = ATH_dwarven_suppression
+		add_legitimacy = -10
+		random_owned_province = {
+			limit = { is_core_of = ATH base_manpower = 3 }
+			spawn_rebels = {
+				size = 2
+			}
+		}
+		random_owned_province = {
+			limit = { is_core_of = ATH base_manpower = 3 }
+			spawn_rebels = {
+				size = 2
+			}
+		}
+	}		
+}
+
