@@ -1016,9 +1016,43 @@ cemnia_region={
 	}
 }
 
-ocean_region = {
+mallitors_region = {
 	areas = {
 		grand_sea_area
+		elseois_fracture_area
+		palentals_area
+		kafethyr_sea_area
+		salioc_bay_area
+		cradle_cresant_area
+	}
+}
+western_divide_region={
+	areas={
+		vulkivite_sea_area
+		tervimos_sea_area
+		dividing_sea
+		shielding_waters
+		yellowtide_sea
+		chilcreast_sea
+	}
+}
+barking_winds_region={
+	areas={
+		felton_sea
+		scalie_sea
+		kollori_flow
+		omathos_current
+		windsweaps_sea_area
+	}
+}
+tailwinds_region={
+	areas={
+		tundasta_bay
+		salrtonis
+	}
+}
+ocean_region = {
+	areas = {
 		filler_sea
 	}
 }

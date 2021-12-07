@@ -816,7 +816,7 @@ country_event = {
 		}
 		add_treasury = -100
 	}
-	option = { 
+	option = { #administrator
 		name = rauthyr_estate_events.7.c #adminstrator
 		ai_chance = {
 			factor = 1
@@ -977,7 +977,7 @@ country_event = {
 		
 		
 	}
-	option = { 
+	option = { #diplomat
 		name = rauthyr_estate_events.7.f #diplomat
 		ai_chance = {
 			factor = 1
@@ -1136,7 +1136,7 @@ country_event = {
 			}
 		}
 	}
-	option = { 
+	option = { #general
 		name = rauthyr_estate_events.7.e #general
 		ai_chance = {
 			factor = 1
