@@ -18,7 +18,7 @@ country_event = {
 		}
 		estate_territory = { 
 			estate = estate_house_etailia
-			territory = 7
+			territory = 5
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -141,7 +141,7 @@ country_event = {
 		}
 		estate_territory = { 
 			estate = estate_house_kethai
-			territory = 7
+			territory = 5
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -264,7 +264,7 @@ country_event = {
 		}
 		estate_territory = { 
 			estate = estate_house_nyletmi
-			territory = 7
+			territory = 5
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -387,7 +387,7 @@ country_event = {
 		}
 		estate_territory = { 
 			estate = estate_house_draumi
-			territory = 7
+			territory = 5
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -510,7 +510,7 @@ country_event = {
 		}
 		estate_territory = { 
 			estate = estate_house_lidori
-			territory = 7
+			territory = 5
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -633,7 +633,7 @@ country_event = {
 		}
 		estate_territory = { 
 			estate = estate_house_celola
-			territory = 7
+			territory = 5
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -734,6 +734,522 @@ country_event = {
 				type = celola_pretender_rebels
 				size = 1
 				leader_dynasty = "Celola"
+			}
+		}
+	}
+}
+
+#no heir, female heir, external dynast heir or >15 legitimacy triggers a election
+country_event = {
+	id = rauthyr_estate_events.7
+	title = rauthyr_estate_events.7.t
+	desc = rauthyr_estate_events.7.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	trigger = {
+		tag = RAU
+		OR={
+			has_heir = no
+			has_female_heir = yes
+			has_foreign_heir = yes
+			NOT={legitimacy_equivalent = 50}
+		}
+		ruler_age = 35
+		#NOT={has_ruler_flag = RAU_heir_confirmed}
+		NOT={has_heir_flag = RAU_heir_confirmed}
+	}
+	
+	mean_time_to_happen = {
+		days = 720
+	}
+	
+	option = { #if heir is female, and has legitimacy, can burn legitimacy and house loyalty to keep
+		name = rauthyr_estate_events.7.a #Let it be.
+		trigger={
+			has_heir = yes
+			legitimacy_equivalent = 80
+		}
+		ai_chance = {
+			factor = 1
+		}
+		set_heir_flag = RAU_heir_confirmed
+		add_estate_loyalty = {
+			estate = estate_house_kethai
+			loyalty = -5
+		}
+		add_estate_loyalty = {
+			estate = estate_house_etailia
+			loyalty = -5
+		}
+		add_estate_loyalty = {
+			estate = estate_house_nyletmi
+			loyalty = -5
+		}
+		add_estate_loyalty = {
+			estate = estate_house_draumi
+			loyalty = -5
+		}
+		add_estate_loyalty = {
+			estate = estate_house_lidori
+			loyalty = -5
+		}
+		add_estate_loyalty = {
+			estate = estate_house_celola
+			loyalty = -5
+		}
+		add_legitimacy = -25
+	}
+	#otherwise pick new heir
+	option = { #bribe for dynast
+		name = rauthyr_estate_events.7.b
+		trigger = {
+			treasury = 100
+		}
+		ai_chance = {
+			factor = 1
+		}
+		define_heir = {
+			dynasty = ROOT
+			age = 25
+			claim = 75
+			no_consort_with_heir = yes
+		}
+		add_treasury = -100
+	}
+	option = { 
+		name = rauthyr_estate_events.7.c #adminstrator
+		ai_chance = {
+			factor = 1
+		}
+		random_list = {
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_kethai
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_kethai
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Kethai"
+					age = 25
+					max_random_dip = 4
+					max_random_mil = 4
+					adm = 3
+					claim = 80
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_etailia
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_etailia
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Etailia"
+					age = 25
+					claim = 80
+					max_random_dip = 4
+					max_random_mil = 4
+					adm = 3
+					max_random_dip = 4
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_nyletmi
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_nyletmi
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Nyletmi"
+					age = 25
+					claim = 80
+					max_random_dip = 4
+					max_random_mil = 4
+					adm = 3
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_draumi
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_draumi
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Draumi"
+					age = 25
+					claim = 80
+					max_random_dip = 4
+					max_random_mil = 4
+					adm = 3
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_lidori
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_lidori
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Lidori"
+					age = 25
+					claim = 80
+					max_random_dip = 4
+					max_random_mil = 4
+					adm = 3
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_celola
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_celola
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Celola"
+					age = 25
+					claim = 80
+					max_random_dip = 4
+					max_random_mil = 4
+					adm = 3
+					no_consort_with_heir = yes
+				}
+			}
+		}
+		
+		
+	}
+	option = { 
+		name = rauthyr_estate_events.7.f #diplomat
+		ai_chance = {
+			factor = 1
+		}
+		random_list = {
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_kethai
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_kethai
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Kethai"
+					age = 25
+					max_random_adm = 4
+					max_random_mil = 4
+					dip = 3
+					claim = 80
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_etailia
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_etailia
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Etailia"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_mil = 4
+					dip = 3
+					max_random_dip = 4
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_nyletmi
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_nyletmi
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Nyletmi"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_mil = 4
+					dip = 3
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_draumi
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_draumi
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Draumi"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_mil = 4
+					dip = 3
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_lidori
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_lidori
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Lidori"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_mil = 4
+					dip = 3
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_celola
+						territory = 10
+					}
+				}
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_celola
+						territory = 15
+					}
+				}
+				define_heir = {
+					dynasty = "Celola"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_mil = 4
+					dip = 3
+					no_consort_with_heir = yes
+				}
+			}
+		}
+	}
+	option = { 
+		name = rauthyr_estate_events.7.e #general
+		ai_chance = {
+			factor = 1
+		}
+		random_list = {
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_kethai
+						territory = 10
+					}
+				}
+				define_heir = {
+					dynasty = "Kethai"
+					age = 25
+					max_random_adm = 4
+					max_random_dip = 4
+					mil = 3
+					claim = 80
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_etailia
+						territory = 10
+					}
+				}
+				define_heir = {
+					dynasty = "Etailia"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_dip = 4
+					mil = 3
+					max_random_dip = 4
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_nyletmi
+						territory = 10
+					}
+				}
+				define_heir = {
+					dynasty = "Nyletmi"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_dip = 4
+					mil = 3
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_draumi
+						territory = 10
+					}
+				}
+				define_heir = {
+					dynasty = "Draumi"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_dip = 4
+					mil = 3
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_lidori
+						territory = 10
+					}
+				}
+				define_heir = {
+					dynasty = "Lidori"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_dip = 4
+					mil = 3
+					no_consort_with_heir = yes
+				}
+			}
+			16 = {
+				modifier = {
+					factor = 2
+					estate_territory = {
+						estate = estate_house_celola
+						territory = 10
+					}
+				}
+				define_heir = {
+					dynasty = "Celola"
+					age = 25
+					claim = 80
+					max_random_adm = 4
+					max_random_dip = 4
+					mil = 3
+					no_consort_with_heir = yes
+				}
 			}
 		}
 	}

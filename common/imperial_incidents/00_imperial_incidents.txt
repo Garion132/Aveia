@@ -92,7 +92,7 @@ incident_reformer_dissension = {
 		factor = 1
 		modifier = {
 			factor = 50
-			religion = protestant
+			religion = rethese
 		}
 	}
 	
@@ -101,7 +101,7 @@ incident_reformer_dissension = {
 		modifier = {
 			factor = 50
 			OR = {
-				religion = catholic
+				religion = vulikivite
 				has_idea_group = humanist_ideas
 			}
 		}
@@ -111,13 +111,33 @@ incident_reformer_dissension = {
 		factor = 1
 		modifier = {
 			factor = 100
-			religion = reformed
+			religion = godly_sect
 		}
 		modifier = {
 			factor = 0
 			NOT = {
-				religion = reformed
+				religion = godly_sect
 			}
 		}
+	}
+}
+
+incident_rise_thilmaren = {
+	event = thilrana_rises.2
+	default_option = 0
+	
+	can_stop = {
+		THL = {exists = no}
+	}
+	
+	0 = { # rein them in
+		factor = 1
+	}
+	
+	1 = { # let them go
+		factor = 2
+	}
+	2 = { # attempt to bring thilmaren into the empire
+		factor = 1
 	}
 }

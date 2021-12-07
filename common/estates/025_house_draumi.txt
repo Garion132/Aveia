@@ -5,6 +5,12 @@ estate_house_draumi =
 	# If true, country will get estate
 	trigger = {
 		tag = RAU
+		# DRA = {
+			# OR={
+				# exists = no
+				# is_subject_of = RAU
+			# }
+		# }
 	}
 	color = { 200 80 60 }
 
@@ -95,7 +101,6 @@ estate_house_draumi =
 					dynasty = "Nyletmi"
 					dynasty = "Etailia"
 					dynasty = "Kethai"
-					
 				}
 			}
 		}
@@ -106,7 +111,6 @@ estate_house_draumi =
 		trigger = {
 			DRA = {
 				exists = yes
-				is_subject_of = RAU
 			}
 		}
 		loyalty = -10
@@ -119,6 +123,7 @@ estate_house_draumi =
 		estate_nobles_nobility_primacy
 		estate_nobles_officer_corp
 		estate_nobles_right_of_counsel
+		estate_draumi_grant_principlaity_rights
 	}
 
 	agendas = {

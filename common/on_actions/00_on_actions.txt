@@ -542,6 +542,10 @@ on_queen_death = {
 
 # country
 on_new_heir = {
+	if={
+		limit = {heir_culture = rake}
+		add_heir_personality = immortal_personality
+	}
 }
 
 # country

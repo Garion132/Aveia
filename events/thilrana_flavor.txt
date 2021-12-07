@@ -29,7 +29,25 @@ country_event = {
 					value = 100
 				}
 			}
-			thilrana_region={
+			thilrana_6={
+				add_core = THL
+			}
+			thilrana_7={
+				add_core = THL
+			}
+			thilrana_5={
+				add_core = THL
+			}
+			thilrana_3={
+				add_core = THL
+			}
+			thilrana_4={
+				add_core = THL
+			}
+			thilrana_2={
+				add_core = THL
+			}
+			thilrana_1={
 				add_core = THL
 			}
 			THL={
@@ -47,5 +65,240 @@ country_event = {
 		name = thilrana_rises.1.b
 		#tag switch
 		switch_tag = THL
+	}
+}
+
+# red kolbolds attempt to revolt to Thilrana 
+country_event = {
+	id = thilrana_rises.2
+	title = thilrana_rises.2.t
+	desc = thilrana_rises.2.d
+	
+	is_triggered_only = yes
+	
+	immediate={
+		
+	}
+
+	option = {#rein them in
+		name = thilrana_rises.2.a
+		#ok
+		thilrana_region={
+			type = every
+			limit={
+				is_part_of_hre = yes
+				NOT={controlled_by = THL}
+			}
+			random_list = {
+				50 = {
+					spawn_rebels = {
+						type = red_scale_nationalist_rebels
+						culture = thilranan
+						size = 0.5
+						unrest = 25
+						friend = THL
+					}
+				}
+				25 = {
+					spawn_rebels = {
+						type = red_scale_nationalist_rebels
+						culture = thilranan
+						size = 0.33
+						unrest = 25
+						friend = THL
+					}
+				}
+				25={
+				
+				}
+			}
+			
+		}
+	}
+	option = {#let them go
+		name = thilrana_rises.2.b
+		every_country={
+			limit={
+				is_part_of_hre = yes
+				capital_scope = {region = thilrana_region}
+			}
+			country_event = {id = thilrana_rises.4}
+		}
+	}
+	option = {
+		name = thilrana_rises.2.c
+		THL={country_event = {id = thilrana_rises.6}}
+	}
+}
+# imperial response
+country_event = {
+	id = thilrana_rises.3
+	title = thilrana_rises.3.t
+	desc = thilrana_rises.3.d
+	
+	is_triggered_only = yes
+	
+	immediate={
+		
+	}
+
+	option = {
+		name = thilrana_rises.3.a
+		#ok
+	}
+	option = {
+		name = thilrana_rises.3.b
+		#tag switch
+		
+	}
+}
+country_event = {
+	id = thilrana_rises.4
+	title = thilrana_rises.4.t
+	desc = thilrana_rises.4.d
+	
+	is_triggered_only = yes
+	
+	immediate={
+		set_in_empire = no
+	}
+
+	option = {
+		name = thilrana_rises.4.a
+		THL={inherit = ROOT}
+	}
+	option = {
+		name = thilrana_rises.4.b
+		THL={
+			declare_war_with_cb = {
+				who = ROOT
+				casus_belli = cb_defection
+			}
+		}
+	}
+
+}
+# imperial response
+country_event = {
+	id = thilrana_rises.5
+	title = thilrana_rises.5.t
+	desc = thilrana_rises.5.d
+	
+	is_triggered_only = yes
+	immediate={
+		liretlet = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			fanilnemyel_1 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			fanilnemyel_2 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			shaumanyn_1 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			shaumanyn_2 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			shaumanyn_3 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			nathion_1 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			nathion_2 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			nathion_3 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+	}
+
+	option = {#inspire the kolbolds
+		name = thilrana_rises.5.a
+		#ok
+		set_imperial_incident = incident_rise_thilmaren
+	}
+	# option = {
+		# name = thilrana_rises.3.b
+		# #tag switch
+		
+	# }
+}
+
+country_event = {
+	id = thilrana_rises.6
+	title = thilrana_rises.6.t
+	desc = thilrana_rises.6.d
+	
+	is_triggered_only = yes
+	
+	immediate={
+		
+	}
+
+	option = {
+		name = thilrana_rises.6.a
+		#ok
+	}
+	option = {
+		name = thilrana_rises.6.b
+		#tag switch
+		
 	}
 }

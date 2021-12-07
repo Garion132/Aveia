@@ -85,3 +85,19 @@ country_event = {
 		}
 	}
 }
+country_event = {#dragons are biologically immortal, but can still die, but this will be handled via event
+	id = vulkiv_empire_events.3
+	title = vulkiv_empire_events.3.t
+	desc = vulkiv_empire_events.3.d
+	picture = REFORM_eventPicture
+	
+	trigger={
+		ruler_culture = rake
+		NOT={ruler_has_personality = immortal_personality }
+	}
+	
+	option = {
+		name = vulkiv_empire_events.3.a # give a dragon ruler immortal
+		add_ruler_personality = immortal_personality
+	}
+}

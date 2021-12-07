@@ -3907,3 +3907,42 @@ estate_brahmins_statutory_rights = {
 	}
 	cooldown_years = 20
 }
+
+estate_draumi_grant_principlaity_rights = {
+	icon = privilege_grant_autonomy
+	max_absolutism = -10
+	land_share = -5
+	influence = -0.1
+	loyalty = 0.2
+	is_valid = {
+		OR={
+			owns_all_provinces = {
+				is_core = DRA
+			}
+			AND={
+				DRA={vassal_of = ROOT}
+				has_estate_privilege = estate_draumi_grant_principlaity_rights
+			}
+		}
+	}
+	can_select = {
+		DRA = {exists = no}
+	}
+	on_granted = {
+		create_vassal = DRA
+	}
+	on_revoked = {
+		inherit = DRA
+		add_estate_loyalty = {
+			estate = estate_house_draumi
+			loyalty = -5
+		}
+		change_estate_land_share = {
+			estate = estate_house_draumi
+			share = 5
+		}
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}

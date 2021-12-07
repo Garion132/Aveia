@@ -1,0 +1,371 @@
+#These are Generic missions, available to all tags that don't have an override.
+
+#Below are mission series, within them are the actual missions.
+
+THL_military_missions = { #Series name is displayed over the slot?
+	slot = 1 #ie, second upper left column
+	has_country_shield = yes
+	ai = no #Can exist under the series itself or within individual missions.
+	potential = {
+		tag = THL
+	} #These are triggers for the entire series
+	
+	#missions
+	#1st tier: (they appear in the order scripted here in the interface, all missions within one "series" has an arrow going down to the next one scripted)
+	THL_build_army_mission = { #Localized as reclaim_maine_title and reclaim_maine_desc
+		icon = mission_build_up_to_force_limit
+		required_missions = {  } #None
+		trigger = {
+			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	#2nd tier: (second because it is the second mission to be listed)
+	THL_expand_country_mission = {
+		icon = mission_conquer_50_development
+		required_missions = { THL_build_army_mission }
+		provinces_to_highlight = {
+			area_for_scope_province = {
+				is_capital_of = ROOT
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			capital_scope = {
+				area_for_scope_province = {
+					type = all
+					owned_by = ROOT #Subjects won't count, empty provinces will need to be colonized.
+					is_city = yes
+				}
+			}
+		}
+		effect = {
+			capital_scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				area = {
+					limit = { owned_by = ROOT }
+					add_province_modifier = {
+						name = "growth_of_capital"
+						duration = 9125 #25 years
+					}
+				}
+			}
+		}
+	}
+
+}
+
+THL_unifaction = { #Series name is displayed over the slot?
+	slot = 2 #ie, second upper left column
+	has_country_shield = yes
+	ai = no #Can exist under the series itself or within individual missions.
+	potential = {
+		tag = THL
+	} #These are triggers for the entire series
+	
+	#missions
+	#1st tier: (they appear in the order scripted here in the interface, all missions within one "series" has an arrow going down to the next one scripted)
+	relclaim_west = { #Localized as reclaim_maine_title and reclaim_maine_desc
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = {THL_expand_country_mission THL_return_celulil} #None
+		trigger = { 
+			thilmaren_1={
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			asfereth={
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			bririon={
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		provinces_to_highlight = {
+			OR={
+				area_for_scope_province={
+					province_id = 2266
+				}
+				area_for_scope_province={
+					province_id = 2265
+				}
+				area_for_scope_province={
+					province_id = 2259
+				}
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
+		effect = {
+			country_event = {id = thilrana_rises.5}
+		}
+	}
+	relclaim_east = { #Localized as reclaim_maine_title and reclaim_maine_desc
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { relclaim_west } #None
+		provinces_to_highlight = {
+			OR={
+				area_for_scope_province={
+					province_id = 2229
+				}
+				area_for_scope_province={
+					province_id = 2235
+				}
+				area_for_scope_province={
+					province_id = 2233
+				}
+				area_for_scope_province={
+					province_id = 2238
+				}
+				area_for_scope_province={
+					province_id = 2242
+				}
+				area_for_scope_province={
+					province_id = 2244
+				}
+				area_for_scope_province={
+					province_id = 2250
+				}
+				area_for_scope_province={
+					province_id = 2253
+				}
+				area_for_scope_province={
+					province_id = 2257
+				}
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
+		trigger = {
+			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+		}
+		effect = { #This is what you get after you finished your mission.
+			
+		}
+	}
+	unite_THL_island = { #Localized as reclaim_maine_title and reclaim_maine_desc
+		icon = mission_build_up_to_force_limit
+		required_missions = { relclaim_east } #None
+		provinces_to_highlight = {
+			OR={
+				region_for_scope_province={
+					province_id = 2297
+				}
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
+		trigger = {
+			2297={
+				region_for_scope_province={
+					country_or_non_sovereign_subject_holds = ROOT
+					type = all
+				}
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+			add_country_modifier = {
+				name = "hegemonic_ambition"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	
+
+}
+
+#2nd mission series:
+THL_diplomatic_missions = {
+	slot = 3
+	
+	has_country_shield = yes
+	
+	potential = {
+		tag = THL
+	} #These are triggers for the entire series
+	THL_establish_high_seas_navy = {
+		icon = mission_establish_high_seas_navy
+		trigger = { 
+			OR={
+				num_of_galley = 5
+				num_of_light_ship = 5
+			}
+		}
+		effect = {
+			celulil = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			sineri = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+		}
+	}
+	THL_return_celulil = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { THL_establish_high_seas_navy }
+		provinces_to_highlight = {
+			OR={
+				area_for_scope_province={
+					province_id = 2274
+				}
+				area_for_scope_province={
+					province_id = 2275
+				}
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
+		trigger = { 
+			celulil={
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			sineri={
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			thilmaren_1 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			asfereth = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+			bririon = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_core = root
+				}
+			}
+		}
+	}
+	
+}
+
+ #3nd mission series:
+THL_administrative_missions = {
+	slot = 4
+	
+	has_country_shield = yes
+	
+	potential = {
+		tag = THL
+	} #These are triggers for the entire series
+	high_income_mission = {
+		icon = mission_high_income
+		required_missions = {  } #None
+		trigger = { share_of_starting_income = 1.5 }
+		effect = {
+			add_country_modifier = {
+				name = "growing_economy"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	build_temples = {
+		icon = mission_early_game_buildings
+		required_missions = { high_income_mission }
+		trigger = {
+			temple = 5
+			workshop = 5
+		}
+		effect = {
+			add_adm_power = 50
+			add_country_modifier = {
+				name = "building_spree"
+				duration = 9125
+			}
+		}
+	}
+	build_treasury = {
+		icon = mission_war_chest
+		required_missions = { build_temples }
+		trigger = { treasury = 2000 }
+		effect = {
+			add_country_modifier = {
+				name = "strong_treasury"
+				duration = 9125
+			}
+		}
+	}
+	build_manufactories = {
+		icon = mission_have_manufactories
+		required_missions = { build_treasury }
+		trigger = {
+			calc_true_if = {
+				desc = build_manufactories_mission_tooltip
+				all_owned_province = {
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				amount = 20
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "proto_industrialization"
+				duration = 9125
+			}
+			add_years_of_income = 1.5
+		}
+	}
+	imperial_ambition_mission = {
+		icon = mission_empire
+		required_missions = { build_manufactories }
+		trigger = {
+			total_development = 1000
+		}
+		effect = {
+			add_prestige = 30
+			add_country_modifier = {
+				name = "imperial_ambition"
+				duration = 9125
+			}
+		}
+	}
+}
