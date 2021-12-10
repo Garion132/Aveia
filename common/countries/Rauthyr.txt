@@ -22,44 +22,14 @@ historical_units = {
 }
 
 monarch_names = {
-	"Jean #0" = 40
-	"Charles #0" = 40
-	"Fran�ois #0" = 20
-	"Pierre #0" = 5
-	"Hubert #0" = 5
-	"�tienne #0" = 5
-	"Hughes #0" = 5
-	"Robert #0" = 5
-	"Henri #0" = 5
-	"Abel #0" = 0	
-	"Adrien #0" = 0
-	"Alexandre #0" = 0
-	"Christian #0" = 0
-	"Claude #0" = 0
-	"Conrad #0" = 0
-	"Denis #0" = 0
-	"Eudes #0" = 0
-	"Eug�ne #0" = 0
-	"Fr�d�ric #0" = 0
-	"Gaspard #0" = 0
-	"Georges #0" = 0
-	"Germain #0" = 0
-	"Gustave #0" = 0
-	"Jules #0" = 0
-	"L�opold #0" = 0
-	"Louis #0" = 0
-	"Maurice #0" = 0
-	"Michel #0" = 0
-	"Odet #0" = 0
-	"Philippe #0" = 0
-	"Raoul #0" = 0
-	"Ren� #0" = 0
-	"Rodolphe #0" = 0
-	"Samuel #0" = 0
-	"S�verin #0" = 0
-	"Tristan #0" = 0
-	"Valentin #0" = 0
-	"Victor #0" = 0
+	      
+	"Ralior #0" = 40
+	"Veinir #0" = 40
+	"Taliros #0" = 20
+	"Ulimr #0" = 5
+	"Oliras #0" = 5
+	"Krasir #0" = 5
+	"Ralira #0" = 5
 	
 	"Jeanne #0" = -15
 	"Margaret #0" = -1
@@ -102,7 +72,6 @@ leader_names = {
 }
 
 army_names = {
-         "Arm�e du Pays d'Othe" "Arm�e de la Marne" "Arm�e de Ch�lons"
-         "Arm�e de Reims"       "Arm�e de Troyes"
-	 "Arm�e de $PROVINCE$" 
+         "Army of Lidori" "Army of Draumyuer" "Army of Kethia"
+	 "Army de $PROVINCE$" 
 }

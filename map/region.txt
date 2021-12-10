@@ -970,6 +970,7 @@ alromita_region={
 kaminda_region={
 	areas = {
 		juluia_89
+		kellitos
 	}
 }
 tilvena_sea_region={

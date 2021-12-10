@@ -4,6 +4,7 @@ latent_trade_goods = {
 }
 
 add_core = NIL
+add_core = RYN
 owner = NIL
 controller = NIL
 culture = edailian

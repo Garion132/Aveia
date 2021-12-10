@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = cyuean
+government_rank = 1
 religion = tlaulunorist
 technology_group = lake_elves_group
 capital = 2416 # 
@@ -23,11 +24,11 @@ change_estate_land_share = {
 
 1268.9.16 = {
 	monarch = {
-		name = "Filler"
-		dynasty = "Eritier"
+		name = "Vildar"
+		dynasty = "Freyer"
 		birth_date = 1238.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 5
+		dip = 2
+		mil = 3
 	}
 }

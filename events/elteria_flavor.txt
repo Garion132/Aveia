@@ -1,0 +1,354 @@
+namespace = elteria_event
+
+# villou settled
+country_event = {
+	id = elteria_event.1
+	title = elteria_event.1.t
+	desc = elteria_event.1.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1280
+		tag = FRY
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	immediate = {
+		hidden_effect={
+			2437={
+				cede_province = VIL
+				add_core = VIL
+				change_religion = tlaulunorist
+				change_culture = cyuean
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+			}
+			VIL={
+				add_treasury = 300
+				define_ruler ={
+					name = "Creni"
+					dynasty = "Villis"
+					age = 94
+					adm = 2
+					dip = 7
+					mil = 2
+				}
+			}
+		}
+	}
+
+	option = {
+		name = elteria_event.1.a
+		
+	}
+}
+# Camilor settled
+country_event = {
+	id = elteria_event.2
+	title = elteria_event.2.t
+	desc = elteria_event.2.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1279
+		owns = 1839
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	immediate = {
+		hidden_effect={
+			3400={
+				cede_province = CAM
+				add_core = CAM
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+			}
+			3399={
+				cede_province = CAM
+				add_core = CAM
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+			}
+			3403={
+				cede_province = CAM
+				add_core = CAM
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+			}
+			3401={
+				cede_province = CAM
+				add_core = CAM
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+			}
+			CAM={
+				add_treasury = 300
+				define_ruler ={
+					name = "Xiven"
+					dynasty = "Camilor"
+					age = 48
+					adm = 4
+					dip = 2
+					mil = 3
+				}
+			}
+		}
+	}
+
+	option = {
+		name = elteria_event.2.a
+		
+	}
+}
+# Newtower settled
+country_event = {
+	id = elteria_event.3
+	title = elteria_event.3.t
+	desc = elteria_event.3.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1274
+		owns = 3378
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	immediate = {
+		hidden_effect={
+			3398={
+				cede_province = NET
+				add_core = NET
+				add_base_tax = 1
+				add_base_production = 2
+				add_base_manpower = 1
+				change_religion = drethalumia
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				
+			}
+			NET={
+				add_treasury = 300
+				define_ruler ={
+					name = "Coame"
+					dynasty = "Vilo"
+					age = 30
+					adm = 5
+					dip = 4
+					mil = 2
+				}
+			}
+		}
+	}
+
+	option = {
+		name = elteria_event.3.a
+		
+	}
+}
+country_event = {
+	id = elteria_event.4
+	title = elteria_event.4.t
+	desc = elteria_event.4.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1294
+		tag = NYH
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	
+	fire_only_once = yes
+
+	option = {#fund the colonists
+		name = elteria_event.4.a
+		add_treasury = -100
+		3657={
+			add_siberian_construction = 400
+		}
+		1992={
+			add_siberian_construction = 400
+		}
+		1993={
+			add_siberian_construction = 400
+		}
+	}
+	option = {#let them go
+		name = elteria_event.4.a
+		3657={
+			add_siberian_construction = 10
+		}
+		1992={
+			add_siberian_construction = 10
+		}
+		1993={
+			add_siberian_construction = 10
+		}
+	}
+}
+province_event = {
+	id = elteria_event.5
+	title = elteria_event.5.t
+	desc = elteria_event.5.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1280
+		culture = cyuean
+		region = windsweaps_region
+	}
+	#fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+
+	option = {
+		name = elteria_event.5.a
+		change_culture = villwinder 
+		ai_chance = { factor = 5 }
+	}
+	option = {#embrace it
+		name = elteria_event.5.a
+		trigger = {
+			is_capital = yes
+		}
+		ai_chance = { factor = 95 }
+		change_culture = villwinder
+		owner = {change_primary_culture = villwinder }
+	}
+}
+country_event = {
+	id = elteria_event.6
+	title = elteria_event.6.t
+	desc = elteria_event.6.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1310
+		tag = CYU
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	fire_only_once = yes
+
+	option = {#fund the colonists
+		name = elteria_event.6.a
+		add_treasury= -100
+		1996={
+			add_siberian_construction = 400
+		}
+		3659={
+			add_siberian_construction = 400
+		}
+		1995={
+			add_siberian_construction = 400
+		}
+	}
+	option = {#let them go
+		name = elteria_event.6.a
+		1996={
+			add_siberian_construction = 10
+		}
+		3659={
+			add_siberian_construction = 10
+		}
+	}
+}
+country_event = {
+	id = elteria_event.7
+	title = elteria_event.7.t
+	desc = elteria_event.7.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1279
+		owns = 1431
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	fire_only_once = yes
+
+	option = {#fund the colonists
+		name = elteria_event.7.a
+		add_treasury= -100
+		2939={
+			add_siberian_construction = 400
+		}
+		2940={
+			add_siberian_construction = 400
+		}
+		2938={
+			add_siberian_construction = 400
+		}
+		2944={
+			add_siberian_construction = 10
+		}
+		3792={
+			add_siberian_construction = 10
+		}
+	}
+	option = {#let them go
+		name = elteria_event.7.a
+		2939={
+			add_siberian_construction = 10
+		}
+		2940={
+			add_siberian_construction = 10
+		}
+		2938={
+			add_siberian_construction = 10
+		}
+		2944={
+			add_siberian_construction = 1
+		}
+		3792={
+			add_siberian_construction = 1
+		}
+	}
+}

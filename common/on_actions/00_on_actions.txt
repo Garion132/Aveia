@@ -1179,6 +1179,8 @@ on_bi_yearly_pulse_2 = {
 		200 = corruption_event.13
 		200 = corruption_event.14
 		200 = corruption_event.15
+		
+		
 
 		4000 = 0
 	}
@@ -1197,6 +1199,14 @@ on_bi_yearly_pulse_3 = {
 		100 = new_court_flavour_events.21 #religious resignation
 		100 = new_court_flavour_events.25 #blood is thicker than water
 		200 = 0
+		
+		#rauthyr estates
+		200 = rauthyr_estate_events.1 #Disloyal
+		200 = rauthyr_estate_events.2 #Disloyal
+		200 = rauthyr_estate_events.3 #Disloyal
+		200 = rauthyr_estate_events.4 #Disloyal
+		200 = rauthyr_estate_events.5 #Disloyal
+		200 = rauthyr_estate_events.6 #Disloyal
 	}
 }
 
@@ -1503,14 +1513,6 @@ on_four_year_pulse = {
 		50 = tribal_federation_events.7
 		50 = tribal_federation_events.8
 		50 = tribal_federation_events.10
-		
-		#rauthyr estates
-		200 = rauthyr_estate_events.1 #Disloyal
-		200 = rauthyr_estate_events.2 #Disloyal
-		200 = rauthyr_estate_events.3 #Disloyal
-		200 = rauthyr_estate_events.4 #Disloyal
-		200 = rauthyr_estate_events.5 #Disloyal
-		200 = rauthyr_estate_events.6 #Disloyal
 
 		1000 = 0
 	}

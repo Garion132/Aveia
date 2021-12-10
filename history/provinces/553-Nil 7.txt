@@ -1,6 +1,7 @@
 #Nil 7
 
 add_core = NIL
+add_core = RYN
 owner = NIL
 controller = NIL
 culture = edailian

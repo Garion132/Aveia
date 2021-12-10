@@ -44,7 +44,7 @@ red_scale_nationalist_rebels = {
 		}
 		modifier = {
 			factor = 5
-			culture_group = thlranan
+			culture_group = aviean_red_kolbold
 			THL = {exists = yes}
 		}
 	}

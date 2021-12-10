@@ -1,6 +1,6 @@
 #Miwal
 
-culture = kaletian
+culture = cyuean
 religion = shamanism #Fetishism
 hre = no
 base_tax = 1

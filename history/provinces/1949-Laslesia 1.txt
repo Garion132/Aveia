@@ -1,6 +1,6 @@
 #Laslesia
 
-culture = kaletian
+culture = nyhenat
 religion = shamanism #Fetishism
 hre = no
 base_tax = 1

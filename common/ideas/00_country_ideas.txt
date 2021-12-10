@@ -303,3 +303,45 @@ IWE_ideas = {
 	}
 
 }
+VIL_ideas = {
+	start = {
+		colonists = 1
+		global_colonial_growth = 10
+		range = -0.8
+		global_tax_income = 18
+	}
+
+	bonus = {
+		navy_tradition = 1
+	}
+	
+	trigger = {
+		tag = VIL
+	}
+	free = yes		#will be added at load.
+
+	VIL_military_code = {
+		infantry_power = 0.25
+	}
+	loyal_solders = {
+		land_morale = 0.125
+	}
+	FRY_exspanding_horisions = {
+		range = 0.9
+	}
+	fry_mercanry_armys = {
+		merc_maintenance_modifier = -0.33
+		mercenary_discipline = 0.25
+	}
+	city_and_state = {
+		development_cost = -0.1
+		global_tax_modifier = 0.1
+	}
+	tlauor_and_his_people = {
+		tolerance_own = 2
+	}
+	center_of_lights = {
+		same_culture_advisor_cost = -0.5
+		global_institution_spread = 0.1
+	}
+}

@@ -198,7 +198,11 @@ bronze_working = {
 			culture_group = basin_ugluk
 			culture_group = gughite_ugluk
 			culture_group = drakonic
-			culture_group = kolbolds
+			culture_group = cyanscale_kolbold
+			culture_group = aviean_gold_kolbold
+			culture_group = aviean_blue_kolbold
+			culture_group = aviean_red_kolbold
+			culture_group = imperial_purple_kolbold
 			culture_group = plains_elf
 			culture_group = basin_elf
 			culture_group = snow_elf
@@ -352,7 +356,11 @@ crop_rotation = {
 			culture_group = basin_ugluk
 			culture_group = gughite_ugluk
 			culture_group = drakonic
-			culture_group = kolbolds
+			culture_group = cyanscale_kolbold
+			culture_group = aviean_gold_kolbold
+			culture_group = aviean_blue_kolbold
+			culture_group = aviean_red_kolbold
+			culture_group = imperial_purple_kolbold
 			
 		}
 		is_year = 1300
@@ -571,7 +579,11 @@ iron_working = {
 					culture_group = basin_ugluk
 					culture_group = gughite_ugluk
 					culture_group = drakonic
-					culture_group = kolbolds
+					culture_group = cyanscale_kolbold
+					culture_group = aviean_gold_kolbold
+					culture_group = aviean_blue_kolbold
+					culture_group = aviean_red_kolbold
+					culture_group = imperial_purple_kolbold
 					culture_group = faun
 				}
 			}
@@ -1076,7 +1088,11 @@ guedinan_revolution = {
 			culture_group = basin_ugluk
 			culture_group = gughite_ugluk
 			culture_group = drakonic
-			culture_group = kolbolds
+			culture_group = cyanscale_kolbold
+			culture_group = aviean_gold_kolbold
+			culture_group = aviean_blue_kolbold
+			culture_group = aviean_red_kolbold
+			culture_group = imperial_purple_kolbold
 			
 		}
 		is_year = 1300

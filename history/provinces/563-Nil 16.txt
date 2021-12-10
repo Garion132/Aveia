@@ -1,6 +1,7 @@
 #Nil 16
 
 add_core = NIL
+add_core = SRA
 owner = NIL
 controller = NIL
 culture = ellorhasian
