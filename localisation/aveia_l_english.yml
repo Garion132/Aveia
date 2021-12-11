@@ -6,6 +6,23 @@
  orks_bookmark:0 "Ugluks"
  orks_bookmark_desc:0 "Vanadium plz do description."
 
+ economist:0 "Economist"
+ economist_desc:0 "An advisor who analyzes, models, and predicts economic realities."
+ politician:0 "Politician."
+ politician_desc:0 "An advisor dedicated towards smooth internal management in any realm or state."
+ industrialist:0 "Industrialist"
+ industrialist_desc:0 "An advisor who maximizes the productive capacity of our farms, mines, workshops, and every other industry in our realm."
+ colonialist:0 "Colonialist"
+ colonialist_desc:0 "An advisor dedicated towards colonial expansion and management."
+ siege_specialist:0 "Siege Specialist"
+ siege_specialist_desc:0 "An advisor who focuses on finding new ways to get inside the walls of any enemy fortification."
+ tactician:0 "Tactician"
+ tactician_desc:0 "Militaries constantly create new or update old tactics to use and combat new equipment and to fight other militaries. And there is no better way to defeat another military than by crushing it on the field of battle."
+ electromancer:0 "The Electromancer"
+ electromancer_desc:0 "The Electromancer is... LANCER DO DESCRIPTION"
+
+
+
  warrior_infantry:0 "Warrior Infantry"
  heavy_infantry:0 "Heavy Infantry"
  elven_bowmen:0 "Elven Bowmen"
