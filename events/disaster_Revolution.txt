@@ -249,7 +249,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -265,15 +264,8 @@ country_event = {
 		set_country_flag = religious_revolution
 		if = {
 			limit = {
-				religion = catholic
-			}
-			reverse_add_opinion = { who = PAP modifier = opinion_too_tolerate }
-		}
-		if = {
-			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -321,7 +313,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -343,7 +334,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -398,7 +388,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -456,7 +445,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -473,7 +461,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -527,7 +514,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -546,7 +532,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -591,7 +576,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -608,7 +592,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -653,7 +636,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -670,7 +652,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_disaster = revolution
-					has_disaster = french_revolution
 				}
 			}
 			add_country_modifier = {
@@ -859,18 +840,7 @@ country_event = {
 country_event = {
 	id = revolution.10
 	title = "EVTNAME6601"
-	desc = {
-		desc = "EVTDESC6601"
-		trigger = {
-			NOT = { religion = nahuatl }
-		}
-	}
-	desc = {
-		desc = revolution.10.desc.nahuatl
-		trigger = {
-			religion = nahuatl
-		}
-	}
+	desc = "EVTDESC6601"
 	picture = REVOLUTION_eventPicture
 	
 	major = yes
@@ -889,17 +859,6 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA6601"
-		trigger = {
-			NOT = { religion = nahuatl }
-		}
-		enact_revolution_effect = yes
-
-	}
-	option = {
-		name = "revolution.10.opt.nahuatl"
-		trigger = {
-			religion = nahuatl
-		}
 		enact_revolution_effect = yes
 
 	}
@@ -939,38 +898,6 @@ country_event = {
 			#set_legacy_government = constitutional_monarchy
 		}
 		kill_ruler = yes
-		if = {
-			limit = {
-				has_country_flag = ruler_of_france_exiled
-				NOT = {
-					had_country_flag = {
-						flag = ruler_of_france_exiled
-						days = 7300
-					}
-				}
-			}
-			set_ruler = ruler_of_france
-		}
-		if = {
-			limit = {
-				has_country_flag = heir_of_france_exiled
-				NOT = {
-					had_country_flag = {
-						flag = heir_of_france_exiled
-						days = 10950
-					}
-				}
-			}
-			set_heir = heir_of_france
-		}
-		if = {
-			limit = { #you can't get rid of them that easily...
-				has_country_flag = habsburgs_exiled_flag
-			}
-			define_ruler = {
-				dynasty = "von Habsburg"
-			}
-		}
 		if = {
 			limit = {
 				has_country_modifier = the_reign_of_terror

@@ -72,7 +72,7 @@ THL_unifaction = { #Series name is displayed over the slot?
 	
 	#missions
 	#1st tier: (they appear in the order scripted here in the interface, all missions within one "series" has an arrow going down to the next one scripted)
-	relclaim_west = { #Localized as reclaim_maine_title and reclaim_maine_desc
+	THL_relclaim_west = { #Localized as reclaim_maine_title and reclaim_maine_desc
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = {THL_expand_country_mission THL_return_celulil} #None
@@ -108,10 +108,10 @@ THL_unifaction = { #Series name is displayed over the slot?
 			country_event = {id = thilrana_rises.5}
 		}
 	}
-	relclaim_east = { #Localized as reclaim_maine_title and reclaim_maine_desc
+	THL_relclaim_east = { #Localized as reclaim_maine_title and reclaim_maine_desc
 		icon = mission_build_up_to_force_limit
 		position = 3
-		required_missions = { relclaim_west } #None
+		required_missions = { THL_relclaim_west } #None
 		provinces_to_highlight = {
 			OR={
 				area_for_scope_province={
@@ -153,7 +153,7 @@ THL_unifaction = { #Series name is displayed over the slot?
 	}
 	unite_THL_island = { #Localized as reclaim_maine_title and reclaim_maine_desc
 		icon = mission_build_up_to_force_limit
-		required_missions = { relclaim_east } #None
+		required_missions = { THL_relclaim_east } #None
 		provinces_to_highlight = {
 			OR={
 				region_for_scope_province={
@@ -280,92 +280,38 @@ THL_diplomatic_missions = {
 }
 
  #3nd mission series:
-THL_administrative_missions = {
-	slot = 4
+# THL_administrative_missions = {
+	# slot = 4
 	
-	has_country_shield = yes
+	# has_country_shield = yes
 	
-	potential = {
-		tag = THL
-	} #These are triggers for the entire series
-	high_income_mission = {
-		icon = mission_high_income
-		required_missions = {  } #None
-		trigger = { share_of_starting_income = 1.5 }
-		effect = {
-			add_country_modifier = {
-				name = "growing_economy"
-				duration = 9125 #25 years
-			}
-		}
-	}
-	build_temples = {
-		icon = mission_early_game_buildings
-		required_missions = { high_income_mission }
-		trigger = {
-			temple = 5
-			workshop = 5
-		}
-		effect = {
-			add_adm_power = 50
-			add_country_modifier = {
-				name = "building_spree"
-				duration = 9125
-			}
-		}
-	}
-	build_treasury = {
-		icon = mission_war_chest
-		required_missions = { build_temples }
-		trigger = { treasury = 2000 }
-		effect = {
-			add_country_modifier = {
-				name = "strong_treasury"
-				duration = 9125
-			}
-		}
-	}
-	build_manufactories = {
-		icon = mission_have_manufactories
-		required_missions = { build_treasury }
-		trigger = {
-			calc_true_if = {
-				desc = build_manufactories_mission_tooltip
-				all_owned_province = {
-					OR = {
-						has_building = mills
-						has_building = farm_estate
-						has_building = tradecompany
-						has_building = plantations
-						has_building = textile
-						has_building = weapons
-						has_building = wharf
-						has_building = furnace
-					}
-				}
-				amount = 20
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "proto_industrialization"
-				duration = 9125
-			}
-			add_years_of_income = 1.5
-		}
-	}
-	imperial_ambition_mission = {
-		icon = mission_empire
-		required_missions = { build_manufactories }
-		trigger = {
-			total_development = 1000
-		}
-		effect = {
-			add_prestige = 30
-			add_country_modifier = {
-				name = "imperial_ambition"
-				duration = 9125
-			}
-		}
-	}
-}
+	# potential = {
+		# tag = THL
+	# } #These are triggers for the entire series
+	# THL_high_income_mission = {
+		# icon = mission_high_income
+		# required_missions = {  } #None
+		# trigger = { share_of_starting_income = 1.5 }
+		# effect = {
+			# add_country_modifier = {
+				# name = "growing_economy"
+				# duration = 9125 #25 years
+			# }
+		# }
+	# }
+	# build_temples = {
+		# icon = mission_early_game_buildings
+		# required_missions = { high_income_mission }
+		# trigger = {
+			# temple = 5
+			# workshop = 5
+		# }
+		# effect = {
+			# add_adm_power = 50
+			# add_country_modifier = {
+				# name = "building_spree"
+				# duration = 9125
+			# }
+		# }
+	# }
+# }

@@ -125,13 +125,8 @@ country_event = {
 				government = theocracy
 				has_estate = estate_church
 			}
-			AND = {
-				religion = hinduism
-				has_estate = estate_brahmins
-			}
 		}
 		NOT = {
-            has_estate_privilege = estate_brahmins_statutory_rights
             has_estate_privilege = estate_nobles_statutory_rights
             has_estate_privilege = estate_burghers_statutory_rights
             has_estate_privilege = estate_church_statutory_rights
@@ -161,13 +156,6 @@ country_event = {
 	option = { # Accept the Bail Out
 		name = estate_privileges_and_agendas_events.2.a
 		custom_tooltip = seize_land_unavailable_from_privilege
-		if = {
-			limit = {
-				religion = hinduism
-				has_estate = estate_brahmins
-			}
-			set_estate_privilege = estate_brahmins_statutory_rights
-		}
 		else_if = {
 			limit = {
 				government = monarchy
@@ -222,52 +210,6 @@ country_event = {
 		clr_country_flag = estate_jains_present_agenda
 		clr_country_flag = estate_rajput_present_agenda
 		clear_estate_agenda_cache = ROOT
-	}
-
-	option = {
-		name = estate_privileges_and_agendas_events.3.a
-		trigger = { has_country_flag = estate_brahmins_present_agenda }
-		start_estate_agenda = estate_brahmins
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 1.5
-				NOT = {
-					estate_loyalty = {
-						loyalty = 30
-						estate = estate_brahmins
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				NOT = {
-					estate_loyalty = {
-						loyalty = 20
-						estate = estate_brahmins
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				estate_influence = {
-					influence = 70
-					estate = estate_brahmins
-				}
-			}
-			modifier = {
-				factor = 2
-				is_absolutism_active = yes
-				num_of_estate_privileges = {
-					estate = estate_brahmins
-					value = 1
-				}
-				estate_loyalty = {
-					estate = estate_brahmins
-					higher_than_influence = no
-				}
-			}
-		}
 	}
 
 	option = {

@@ -4422,8 +4422,7 @@ snow_elf = {
 			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
-	}
-	dynasty_names = {
+		dynasty_names = {
 			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
 			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
 			"Enxisys" "Leopeiros" "Ravalynn" "Oladi" "Neristina" "Elisen" "Perhorn" "Oladi" 
@@ -4472,8 +4471,7 @@ snow_elf = {
 			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
-	}
-	dynasty_names = {
+		dynasty_names = {
 			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
 			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
 			"Enxisys" "Leopeiros" "Ravalynn" "Oladi" "Neristina" "Elisen" "Perhorn" "Oladi" 
@@ -4522,8 +4520,7 @@ snow_elf = {
 			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
-	}
-	dynasty_names = {
+		dynasty_names = {
 			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
 			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
 			"Enxisys" "Leopeiros" "Ravalynn" "Oladi" "Neristina" "Elisen" "Perhorn" "Oladi" 
@@ -4572,7 +4569,6 @@ snow_elf = {
 			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
-	}
 	dynasty_names = {
 			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
 			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
@@ -4622,8 +4618,7 @@ snow_elf = {
 			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
-	}
-	dynasty_names = {
+		dynasty_names = {
 			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
 			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
 			"Enxisys" "Leopeiros" "Ravalynn" "Oladi" "Neristina" "Elisen" "Perhorn" "Oladi" 
@@ -4672,8 +4667,7 @@ snow_elf = {
 			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
-	}
-	dynasty_names = {
+		dynasty_names = {
 			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
 			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
 			"Enxisys" "Leopeiros" "Ravalynn" "Oladi" "Neristina" "Elisen" "Perhorn" "Oladi" 
@@ -4722,14 +4716,14 @@ snow_elf = {
 			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
-	}
-	dynasty_names = {
+		dynasty_names = {
 			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
 			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
 			"Enxisys" "Leopeiros" "Ravalynn" "Oladi" "Neristina" "Elisen" "Perhorn" "Oladi" 
 			"Roshia" "Dasyria" "Quilar" "Cithrel" "Beilamin" "Yesric" "Xilfaren" "Dazumin" 
 			"Faedove" "Edea" "Shakas" "Phisys" "Trisralei"
 		}
+	}
 }
 
 basin_elf = {

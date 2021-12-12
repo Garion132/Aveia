@@ -103,28 +103,6 @@ country_event = {
 					save_event_target_as = noble_province
 				}
 			}
-			else_if = {
-				limit = {
-					OR = {
-						has_estate = estate_maratha
-						has_estate = estate_rajput
-					}
-					any_owned_province = {
-						is_capital = no
-						is_state = yes
-						religion = hinduism
-					}
-					religion = hinduism
-				}
-				random_owned_province = {
-					limit = { 
-						is_capital = no
-						is_state = yes
-						religion = hinduism
-					}
-					save_event_target_as = noble_province
-				}
-			}
 			if = {
 				limit = {
 					has_estate = estate_burghers
@@ -141,25 +119,6 @@ country_event = {
 					save_event_target_as = burgher_province
 				}
 			}
-			else_if = {
-				limit = {
-					has_estate = estate_vaisyas
-					religion = hinduism
-					any_owned_province = {
-						is_capital = no
-						is_state = yes
-						religion = hinduism
-					}
-				}
-				random_owned_province = {
-					limit = { 
-						is_capital = no
-						is_state = yes
-						religion = hinduism
-					}
-					save_event_target_as = burgher_province
-				}
-			}
 			if = {
 				limit = {
 					has_estate = estate_church
@@ -172,25 +131,6 @@ country_event = {
 					limit = { 
 						is_capital = no
 						is_state = yes
-					}
-					save_event_target_as = church_province
-				}
-			}
-			else_if = {
-				limit = {
-					has_estate = estate_brahmins
-					religion = hinduism
-					any_owned_province = {
-						is_capital = no
-						is_state = yes
-						religion = hinduism
-					}
-				}
-				random_owned_province = {
-					limit = { 
-						is_capital = no
-						is_state = yes
-						religion = hinduism
 					}
 					save_event_target_as = church_province
 				}
@@ -212,42 +152,12 @@ country_event = {
 				loyalty = 15
 			}
 		}
-		else_if = {
-			limit = {
-				has_estate = estate_maratha
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_maratha
-				loyalty = 15
-			}
-		}
-		else_if = {
-			limit = {
-				has_estate = estate_rajput
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_rajput
-				loyalty = 15
-			}
-		}
 		if = {
 			limit = {
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
 				estate = estate_church
-				loyalty = -15
-			}
-		}
-		else_if = {
-			limit = {
-				has_estate = estate_brahmins
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_brahmins
 				loyalty = -15
 			}
 		}
@@ -293,42 +203,12 @@ country_event = {
 				loyalty = 10
 			}
 		}
-		else_if = {
-			limit = {
-				has_estate = estate_maratha
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_maratha
-				loyalty = 10
-			}
-		}
-		else_if = {
-			limit = {
-				has_estate = estate_rajput
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_rajput
-				loyalty = 10
-			}
-		}
 		if = {
 			limit = {
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
 				estate = estate_church
-				loyalty = -10
-			}
-		}
-		else_if = {
-			limit = {
-				has_estate = estate_brahmins
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_brahmins
 				loyalty = -10
 			}
 		}		
@@ -365,32 +245,12 @@ country_event = {
 				loyalty = 15
 			}
 		}
-		else_if = {
-			limit = {
-				has_estate = estate_vaisyas
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_vaisyas
-				loyalty = 15
-			}
-		}
 		if = {
 			limit = {
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
 				estate = estate_church
-				loyalty = -15
-			}
-		}
-		else_if = {
-			limit = {
-				has_estate = estate_brahmins
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_brahmins
 				loyalty = -15
 			}
 		}
@@ -430,32 +290,13 @@ country_event = {
 				loyalty = 15
 			}
 		}
-		else_if = {
-			limit = {
-				has_estate = estate_brahmins
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_brahmins
-				loyalty = 15
-			}
-		}
+	
 		if = {
 			limit = {
 				has_estate = estate_burghers
 			}
 			add_estate_loyalty = {
 				estate = estate_burghers
-				loyalty = -15
-			}
-		}
-		else_if = {
-			limit = {
-				has_estate = estate_vaisyas
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_vaisyas
 				loyalty = -15
 			}
 		}
@@ -484,9 +325,6 @@ country_event = {
 		name = theocracy.1.f		# A Local Preacher
 		trigger = {
 			NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
-			NOT = {
-				religion_group = muslim
-			}
 		}
 		if = {
 			limit = {
@@ -497,42 +335,12 @@ country_event = {
 				loyalty = 15
 			}
 		}
-		else_if = {
-			limit = {
-				has_estate = estate_brahmins
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_brahmins
-				loyalty = 15
-			}
-		}
 		if = {
 			limit = {
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
 				estate = estate_nobles
-				loyalty = -15
-			}
-		}
-		else_if = {
-			limit = {
-				has_estate = estate_maratha
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_maratha
-				loyalty = -15
-			}
-		}
-		else_if = {
-			limit = {
-				has_estate = estate_rajput
-				religion = hinduism
-			}
-			add_estate_loyalty = {
-				estate = estate_rajput
 				loyalty = -15
 			}
 		}
@@ -555,126 +363,6 @@ country_event = {
 		}
 		add_devotion = 10
 		add_prestige = -5
-		clr_country_flag = in_theocracy_heir_selection
-		custom_tooltip = theocracy.1.tt
-	}
-	option = {
-		name = theocracy.1.d		# A Papal Protege
-		trigger = {
-			NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
-			religion = catholic
-		}
-		if = {
-			limit = {
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
-		set_country_flag = theo_papal_protege_flag # USED IN DEVOTION.TXT
-			define_heir = {
-				age = 35
-				hidden = yes
-			}
-		add_papal_influence = 10
-		clr_country_flag = in_theocracy_heir_selection
-		custom_tooltip = theocracy.1.tt
-	}
-	option = {
-		name = theocracy.1.g		# A Local Imam Khatib
-		trigger = {
-			NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
-			religion_group = muslim
-		}
-		set_country_flag = theo_imam_khatib_flag # USED IN DEVOTION.TXT
-		if = {
-			limit = {
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -15
-			}
-		}		
-		define_heir = {
-			age = 35
-			hidden = yes
-		}
-		add_devotion = 10
-		add_prestige = -10
-		clr_country_flag = in_theocracy_heir_selection
-		custom_tooltip = theocracy.1.tt
-	}
-	option = {
-		name = theocracy.1.h		# An Influential Reformer
-		trigger = {
-			NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
-			OR = {
-				religion = reformed
-				religion = protestant
-			}
-		}
-		set_country_flag = theo_influential_reformer_flag # USED IN DEVOTION.TXT
-		if = {
-			limit = {
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}		
-		if = {
-			limit = {
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
-		define_heir = {
-			age = 35
-			hidden = yes
-		}
-		if = { 
-			limit = { religion = reformed }
-			add_fervor = 10
-		}
-		if = { 
-			limit = { religion = protestant }
-			add_church_power = 10
-		}
-		add_prestige = -10
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
@@ -746,15 +434,6 @@ country_event = {
 				loyalty = 10
 			}
 		}
-		if = {
-			limit = {
-				has_estate = estate_dhimmi
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = -10
-			}
-		}
 		set_country_flag = religious_restrictions
 		add_country_modifier = {
 			name = "religious_restriction"
@@ -768,20 +447,10 @@ country_event = {
 		if = {
 			limit = {
 				has_estate = estate_church
-				has_estate = estate_dhimmi
 			}
 			add_estate_loyalty = {
 				estate = estate_church
 				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_dhimmi
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = 10
 			}
 		}
 		random = {

@@ -153,11 +153,14 @@ country_event = {
 		name = "EVTOPTA900"
 		add_imperial_influence = 10
 		if = {
-			limit = { has_dlc = "Common Sense" }
+			limit = { 
+				has_dlc = "Common Sense" 
+				always = no
+			}
 			random_country = {
 				limit = {
 					has_reform = free_city 
-					religion = catholic
+					#religion = catholic
 					is_at_war = no
 				}
 				country_event = {

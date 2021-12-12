@@ -111,8 +111,8 @@ country_event = {
 
 	trigger = {
 		NOT = { has_country_flag = religious_revolt }
-		religion = catholic
-		is_religion_enabled = protestant		
+		religion = vulikivite
+		is_religion_enabled = rethese		
 		NOT = { religious_unity = 1.0 }
 	}
 
@@ -150,7 +150,7 @@ country_event = {
 		name = "EVTOPTB3023" # Let them chose their own faith
 		ai_chance = { factor = 40 }
 		add_dip_power = -50
-		reverse_add_opinion = { who = PAP modifier = opinion_pope_religious_tolerance }
+		reverse_add_opinion = { who = VUL modifier = opinion_pope_religious_tolerance }
 		add_papal_influence = -10
 		add_devotion = -25
 		if = {
