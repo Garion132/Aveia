@@ -673,6 +673,43 @@ penisular_elf = {
 			"Faedove" "Edea" "Shakas" "Phisys" "Trisralei"
 		}
 	}
+	villwinder = {
+		#primary = CYO
+		male_names = {
+			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
+			Bathron Bregedaer Bragoldor Beremben Beinor Bregon Boldor Beinalph Bruion Biron Badhroc Bathrion Belthon Barahon
+			Cumna Cidinnanc Celegon Celebren Caewon Crabramen Caeldir Cottion Cophen Castor Celairdir Cairdor Callon Cothor
+			Dagnir Daenor Daenir Delebor Deleban Dornion Dagor Dringor Dolcholn Dinemben Dunir Dogon Donir Duvain Duvaon
+			Edwethor Eddie Ellion Estaro Eithoron Estelben Emlimben Eregnir Erdaer Estennion Ephelion Ename Essereg Erinco 
+			Fenben Fimon  Filignil Fuinor Fangnir Forto Feruihil Fondaer Filechon Fuinion Fineo Finwo Fardor Forben Falasdil
+			Gwachenir Glanir Grotophen Gorotphen Gellind Glasdir Guldir Guldukat Gul Galadon Glindaer Gemmon Gollon Gaear Garth
+			Halvon Helvon Helco Herenya Helchanar Hyarna Halion Heleth Haenaer Hundil Hwinioron Helcphen Himelben Halcyon Hank
+			Iarchanar Ithildil Isaac Idhron Iannon Ioristor Iaben Iaedor Inuaer Iothor Iotar Iota Iador Io Ingemmion Iochin Ivo
+			Lamaenion Lungon Luger Lex Lhindir Laica Lelya Limmion Ladion Lhindaer Lavandir Lahtar Laitaro Letho Lehto Liher Lonir
+			Minion Miniador Mulher Mellonion Moron Minianir Molion Maito Mellondil Malunaer Macron Morfin Morphin Meldo Mornion Mako
+			Nirdor Neldaer Neithor Nasar Netyar Nordir Nindaer Norrion Nirdaer Nwalca Nasarion Nidor Nurdor Nindo Nethanar Norm
+			Onodil Ordaer Oldaer Orcondil Oronngo Orange Orelon Ornion Onion Oldor Oialeo Orhallion Onision Orphin Orphen Orphan 
+			Penyo Parcion Peldor Padion Patphen Parcphen Puignir Pannor Pelilas Peldir Pandor Pandoro Paben Pigendir Parven Paranion
+			Quetindo Quilda Quildo Quanto Quentaro Quantion Quingatan Quacendur Quildolos Quildion Quildosse Quildil Quentar Quelindo
+			Rochon Ruinedur Ranyaro Rirosdir Randy Randaer Redhrion Raitaro Regon Rivalchan Ruinion Rindion Roben Rirosson Roino Reinor
+			Sorondil Saewion Silindo Sammy Sulher Suldil Salaman Salabon Sercecet Senya Sidhon Saindaer Sanwendil Sarnie Sarndir Solchon
+			Tronango Tornango Tathardor Taurion Toriadoormat Tauca Taura Tuvindo Telioron Tiuyar Thiaben Tinnunir Tecindo Tonto Tulca 
+			Ulunion Ungoldil Uthaesben Uirebion Uidir Urcoyar Urgonomics Uialion Urchin Uamen Ulunnor Ulund Ululion Ululu Uamben Uilospen
+			Valda Vistar Vista Vindows Vanyo Vinya Vony Vercion Vahtaro Vat Vanwion Vilindo Vildo Valyarion Valerian Voreo Voronwo Vercian 
+			Wenion Wandil Waldo Wanwo Wiryaro Walda Wenyo Walyarion Winima Winzip Wahtar Winya Wanwion Wenya Wailimo Winyaro Wilwa Wistandir
+		}
+		female_names = {
+			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		dynasty_names = {
+			"de Trast�mara" "de Guzm�n" "�lvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			T�llez-Gir�n "Manrique de Lara" "de �valos" Enr�quez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcal�"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Z��iga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+	}
 }
 
 sea_elf = {
