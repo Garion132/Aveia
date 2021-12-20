@@ -19,4 +19,5 @@ discovered_by = lake_elves_group
 	owner = KAF
 	controller = KAF
 	is_city = yes
+	port = yes
 }

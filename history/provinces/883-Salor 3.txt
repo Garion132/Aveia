@@ -14,3 +14,5 @@ capital = "Sal 3"
 is_city = yes
 discovered_by = lake_elves_group
 extra_cost = 0
+port = yes
+shipwright = yes

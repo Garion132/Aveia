@@ -16,3 +16,4 @@ discovered_by = lake_elves_group
 extra_cost = 0
 center_of_trade = 2
 fort_14th = yes
+port = yes
