@@ -61,6 +61,7 @@ technology = { #Artisanship
 	year = 1274
 
 	#artisans_workshop = yes 
+	workshop = yes
 	# - Proto-manufactory: provides 0.2 goods produced
 	# - Can be placed on manufactured goods (Ceramics, Cloth, etc.)
 }
@@ -77,7 +78,7 @@ technology = { #Alchemy
 	year = 1300
 	
 	production_efficiency = 0.02
-	#alchemist_shop = yes
+	alchemist_shop = yes
 }
 
 technology = { #Shrines
@@ -186,7 +187,7 @@ technology = { #Workshops
 	year = 1469
 	
 	#Workshop
-	workshop = yes
+	artisans_guild = yes
 	ramparts = yes
 
 }
@@ -289,6 +290,7 @@ technology = { #Viatite Engineering
 	
 	development_efficiency = 0.05
 	production_efficiency = 0.02
+	craftsmans_district = yes
 }
 
 technology = { #University
@@ -357,7 +359,7 @@ technology = { #Economic Theory
 
 	stock_exchange = yes
 	development_efficiency = 0.1
-	counting_house = yes  
+	industrial_zone = yes  
 }
 
 technology = { #Empiricism
@@ -374,7 +376,7 @@ technology = { #Measurements and Weights
 	year = 1755
 
 	administrative_efficiency = 0.1
-	#transfumatory = yes
+	transfumatory = yes
 }
 
 technology = { #Bessemer Process

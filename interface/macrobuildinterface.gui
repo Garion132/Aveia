@@ -976,14 +976,78 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_counting_house"
+			name = "build_artisans_guild"
 			position = { x = 57 y = 629 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "counting_house_cost"
+			name = "artisans_guild_cost"
 			position = {x = 57 y = 679 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_craftsmans_district"
+			position = { x = 105 y = 629 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "craftsmans_district_cost"
+			position = {x = 105 y = 679 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_industrial_zone"
+			position = { x = 153 y = 629 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "industrial_zone_cost"
+			position = {x = 153 y = 679 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_alchemist_shop"
+			position = { x = 217 y = 629 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "alchemist_shop_cost"
+			position = {x = 217 y = 679 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_transfumatory"
+			position = { x = 265 y = 629 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "transfumatory_cost"
+			position = {x = 265 y = 679 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128

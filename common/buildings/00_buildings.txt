@@ -738,6 +738,117 @@ naval_base = {
 }
 
 ################################################
+# Production
+################################################
+
+workshop = {
+	cost = 50
+	time = 12
+	build_trigger = {
+		development = 9
+	}
+	modifier = {
+		local_production_efficiency = 0.15
+		local_development_cost = -0.05
+	}
+
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+artisans_guild = {
+	cost = 100
+	time = 18
+	make_obsolete = workshop
+	build_trigger = {
+		development = 12
+	}
+	modifier = {
+		local_production_efficiency = 0.35
+		local_development_cost = -0.1
+	}
+
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+craftsmans_district = {
+	cost = 200
+	time = 24
+	make_obsolete = artisans_guild
+	build_trigger = {
+		development = 15
+	}
+	modifier = {
+		local_production_efficiency = 0.6
+		local_development_cost = -0.2
+	}
+
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+industrial_zone = {
+	cost = 400
+	time = 36
+	make_obsolete = craftsmans_district
+	build_trigger = {
+		development = 21
+	}
+	modifier = {
+		local_production_efficiency = 1
+		local_development_cost = -0.4
+	}
+
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+alchemist_shop = {
+	cost = 100
+	time = 12
+	build_trigger = {
+		development = 9
+	}
+	modifier = {
+		trade_value_modifier = 0.2
+		local_development_cost = -0.025
+	}
+
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+transfumatory = {
+	cost = 300
+	time = 36
+	make_obsolete = alchemist_shop
+	build_trigger = {
+		development = 21
+	}
+	modifier = {
+		trade_value_modifier = 0.66
+		local_development_cost = -0.05
+	}
+
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+################################################
 # Tier 0, pre-Modern Era Buildings
 ################################################
 fort_14th = {
@@ -758,20 +869,6 @@ fort_14th = {
 ################################################
 # Tier 1, 15th Century Buildings
 ################################################
-
-workshop = {
-	cost = 100
-	time = 12
-	modifier = {
-		local_production_efficiency = 0.5
-	}
-
-	allow_in_gold_provinces = no
-
-	ai_will_do = {
-		factor = 1
-	}
-}
 
 barracks = {
 	cost = 100
@@ -1104,22 +1201,6 @@ fort_17th = {
 ################################################
 # Tier 4, 18th Century Buildings
 ################################################
-
-counting_house = {
-	cost = 400
-	time = 12
-
-	make_obsolete = workshop
-	modifier = {
-		local_production_efficiency = 1
-	}
-
-	allow_in_gold_provinces = no
-
-	ai_will_do = {
-		factor = 1
-	}
-}
 
 conscription_center = {
 	cost = 400

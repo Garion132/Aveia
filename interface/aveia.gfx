@@ -98,6 +98,33 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_artisans_guild"
+		texturefile = "gfx//interface//buildings//latin_guild.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_craftsmans_district"
+		texturefile = "gfx//interface//buildings//latin_counting_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_industrial_zone"
+		texturefile = "gfx//interface//buildings//latin_factory.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_alchemist_shop"
+		texturefile = "gfx//interface//buildings//latin_alchemist.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_transfumatory"
+		texturefile = "gfx//interface//buildings//latin_laboratory.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
 		name = "GFX_fort_14th"
 		texturefile = "gfx//interface//buildings//latin_fort0.tga"
 		loadType = "INGAME"
