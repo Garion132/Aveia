@@ -540,6 +540,7 @@ port = {
 dockland = {
 	cost = 100
 	time = 12
+	make_obsolete = port
 	build_trigger = {
 		has_port = yes
 		development = 9
@@ -563,6 +564,7 @@ dockland = {
 wharf = {
 	cost = 200
 	time = 24
+	make_obsolete = dockland
 	build_trigger = {
 		has_port = yes
 		development = 12
@@ -586,6 +588,7 @@ wharf = {
 harbor_district = {
 	cost = 300
 	time = 36
+	make_obsolete = wharf
 	build_trigger = {
 		has_port = yes
 		development = 21
@@ -610,8 +613,6 @@ harbor_district = {
 shipwright = {
 	cost = 50
 	time = 6
-
-	make_obsolete = dock
 
 	build_trigger = {
 		has_port = yes
@@ -644,7 +645,7 @@ drydock = {
 	cost = 100
 	time = 12
 
-	make_obsolete = dock
+	make_obsolete = shipwright
 
 	build_trigger = {
 		has_port = yes
@@ -676,6 +677,7 @@ drydock = {
 naval_arsenal = {
 	cost = 200
 	time = 24
+	make_obsolete = drydock
 	build_trigger = {
 		has_port = yes
 		development = 18
@@ -706,7 +708,7 @@ naval_base = {
 	cost = 400
 	time = 48
 
-	make_obsolete = shipyard
+	make_obsolete = naval_arsenal
 
 	build_trigger = {
 		has_port = yes
