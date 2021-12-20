@@ -42,6 +42,8 @@ technology = { #Basic Administration
 	# Tech 2
 	year = 1248	
 
+	town_square = yes
+
 	#Monarchies
 	despotic_monarchy = yes	
 	oligarchic_republic = yes
@@ -75,14 +77,14 @@ technology = { #Alchemy
 	year = 1300
 	
 	production_efficiency = 0.02
+	#alchemist_shop = yes
 }
 
 technology = { #Shrines
 	# Tech 7
 	year = 1313
 
-	#shrine = yes
-	# - Proto temple
+	shrine = yes
 }
 
 technology = { #Sickles
@@ -246,6 +248,7 @@ technology = { #Early Modern Administration
 	governing_capacity = 100
 	administrative_efficiency = 0.05
 	state_house = yes
+	town_hall = yes
 }
 
 technology = { #Modern Metallurgy
@@ -336,7 +339,7 @@ technology = { #Rights of Mortals
 	allowed_idea_groups = 8
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
-	town_hall = yes
+	post_office = yes
 }
 
 technology = { #Industrial Production
@@ -371,6 +374,7 @@ technology = { #Measurements and Weights
 	year = 1755
 
 	administrative_efficiency = 0.1
+	#transfumatory = yes
 }
 
 technology = { #Bessemer Process
@@ -397,6 +401,7 @@ technology = { #State and Government
 	revolutionary_republic = yes
 	revolutionary_empire = yes
 	administrative_efficiency = 0.1
+	city_hall = yes
 }
 
 technology = { #Urbanization

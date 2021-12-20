@@ -170,7 +170,7 @@
  building_university:0 "University"
  war_college:0 "War College"
  building_weapons:0 "Weapons Manufactory"
- building_wharf:0 "Naval Equipment Manufactory"
+ #building_wharf:0 "Naval Equipment Manufactory"
  workshop:0 "Workshop"
  ---:0 " "
  dan:0 "Denmark"

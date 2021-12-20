@@ -5,14 +5,19 @@ estate_church_build_temple_in_y = {
 		adm_tech = 4
 		any_owned_province = {
 			is_state_core = root
-			NOT = { has_building = cathedral }
 			OR = {
 				AND = {
+					ROOT = { adm_tech = 7 }
 					NOT = { has_building = temple }
+					NOT = { has_building = cathedral }
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { adm_tech = 19 }
+					ROOT = { adm_tech = 13 }
+					has_building = shrine
+				}
+				AND = {
+					ROOT = { adm_tech = 33 }
 					has_building = temple
 				}
 			}
@@ -29,11 +34,17 @@ estate_church_build_temple_in_y = {
 					NOT = { has_building = cathedral }
 					OR = {
 						AND = {
+							ROOT = { adm_tech = 7 }
+							NOT = { has_building = cathedral }
 							NOT = { has_building = temple }
 							num_free_building_slots = 1
 						}
 						AND = {
-							ROOT = { adm_tech = 19 }
+							ROOT = { adm_tech = 13 }
+							has_building = shrine
+						}
+						AND = {
+							ROOT = { adm_tech = 33 }
 							has_building = temple
 						}
 					}
@@ -48,11 +59,17 @@ estate_church_build_temple_in_y = {
 				NOT = { has_building = cathedral }
 				OR = {
 					AND = {
+						ROOT = { adm_tech = 7 }
+						NOT = { has_building = cathedral }
 						NOT = { has_building = temple }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { adm_tech = 19 }
+						ROOT = { adm_tech = 13 }
+						has_building = shrine
+					}
+					AND = {
+						ROOT = { adm_tech = 33 }
 						has_building = temple
 					}
 				}
@@ -76,11 +93,17 @@ estate_church_build_temple_in_y = {
 				NOT = { has_building = cathedral }
 				OR = {
 					AND = {
+						ROOT = { adm_tech = 7 }
 						NOT = { has_building = temple }
+						NOT = { has_building = cathedral }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { adm_tech = 19 }
+						ROOT = { adm_tech = 13 }
+						has_building = shrine
+					}
+					AND = {
+						ROOT = { adm_tech = 33 }
 						has_building = temple
 					}
 				}
@@ -94,11 +117,17 @@ estate_church_build_temple_in_y = {
 				NOT = { has_building = cathedral }
 				OR = {
 					AND = {
+						ROOT = { adm_tech = 7 }
 						NOT = { has_building = temple }
+						NOT = { has_building = cathedral }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { adm_tech = 19 }
+						ROOT = { adm_tech = 13 }
+						has_building = shrine
+					}
+					AND = {
+						ROOT = { adm_tech = 33 }
 						has_building = temple
 					}
 				}
@@ -112,11 +141,17 @@ estate_church_build_temple_in_y = {
 				NOT = { has_building = cathedral }
 				OR = {
 					AND = {
+						ROOT = { adm_tech = 7 }
 						NOT = { has_building = temple }
+						NOT = { has_building = cathedral }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { adm_tech = 19 }
+						ROOT = { adm_tech = 13 }
+						has_building = shrine
+					}
+					AND = {
+						ROOT = { adm_tech = 33 }
 						has_building = temple
 					}
 				}
@@ -126,7 +161,7 @@ estate_church_build_temple_in_y = {
 		event_target:agenda_province = {
 			if = {
 				limit = {
-					NOT = { has_building = temple }
+					NOT = { has_building = shrine }
 				}
 				ROOT = {
 					set_variable = {
@@ -135,11 +170,22 @@ estate_church_build_temple_in_y = {
 					}
 				}
 			}
-			else = {
+			else_if = {
+				limit = {
+					NOT = { has_building = temple }
+				}
 				ROOT = {
 					set_variable = {
 						which = estate_church_build_temple_in_y_var
 						value = 2
+					}
+				}
+			}
+			else = {
+				ROOT = {
+					set_variable = {
+						which = estate_church_build_temple_in_y_var
+						value = 3
 					}
 				}
 			}
@@ -158,11 +204,25 @@ estate_church_build_temple_in_y = {
 			limit = {
 				check_variable = {
 					which = estate_church_build_temple_in_y_var
-					value = 2
+					value = 3
 				}
 			}
 			event_target:agenda_province = {
 				has_building = cathedral
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = estate_church_build_temple_in_y_var
+					value = 2
+				}
+			}
+			event_target:agenda_province = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
 			}
 		}
 		else = {
@@ -170,6 +230,7 @@ estate_church_build_temple_in_y = {
 				OR = {
 					has_building = temple
 					has_building = cathedral
+					has_building = shrine
 				}
 			}
 		}

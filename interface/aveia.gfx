@@ -39,6 +39,65 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_shrine"
+		texturefile = "gfx//interface//buildings//latin_glorious_monument.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_town_square"
+		texturefile = "gfx//interface//buildings//latin_town_square.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_post_office"
+		texturefile = "gfx//interface//buildings//latin_customs_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_city_hall"
+		texturefile = "gfx//interface//buildings//latin_city_hall.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_port"
+		texturefile = "gfx//interface//buildings//latin_canal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_dockland"
+		texturefile = "gfx//interface//buildings//latin_dock.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_wharf"
+		texturefile = "gfx//interface//buildings//manufactory_wharf.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_harbor_district"
+		texturefile = "gfx//interface//buildings//latin_grand_shipyard.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_shipwright"
+		texturefile = "gfx//interface//buildings//latin_shipyard.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_arsenal"
+		texturefile = "gfx//interface//buildings//latin_naval_arsenal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_base"
+		texturefile = "gfx//interface//buildings//latin_naval_base.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
 		name = "GFX_fort_14th"
 		texturefile = "gfx//interface//buildings//latin_fort0.tga"
 		loadType = "INGAME"

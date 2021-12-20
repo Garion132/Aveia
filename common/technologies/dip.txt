@@ -25,6 +25,7 @@ technology = { #Shipbuilding
 	range					= 	50
 	enable = cog #Bireme
 	enable = galley #Trireme
+	shipwright = yes
 }
 
 technology = { #Sailing
@@ -37,6 +38,7 @@ technology = { #Sailing
 	enable = barque #Trade Ship
 	trade_range				=	50
 	range					= 	50
+	port = yes
 
 }
 
@@ -124,6 +126,7 @@ technology = { #Naval Tactics
 
 	naval_morale = 0.5
 	coastal_defence = yes
+	dockland = yes
 
 }
 
@@ -143,6 +146,7 @@ technology = { #Square Rigging
 	naval_maintenance = 0.2
 	enable = early_carrack
 	#New transport (Cog)
+	drydock = yes
 }
 
 technology = { #Marketplaces
@@ -278,6 +282,7 @@ technology = { #Lineships
 	
 	naval_morale = 0.5
 	may_slander_merchants = yes
+	naval_arsenal = yes
 
 	#New Heavy Ship (Twodecker)
 }
@@ -386,6 +391,7 @@ technology = { #Joint Stock Companies
 	
 	global_colonial_growth = 30
 	trade_efficiency = 0.05
+	harbor_district = yes
 }
 
 technology = { #Public Punishments
@@ -433,6 +439,7 @@ technology = { #Cruisers
 
 	trade_range = 50
 	naval_maintenance = 0.2
+	naval_base = yes
 
 	#New Light Ship (Protected Cruiser)
 }

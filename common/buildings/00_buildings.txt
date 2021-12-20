@@ -51,11 +51,11 @@
 # Cathedral, +15% Yearly Tax, -3.0 Local Unrest, +3.0% Local Missionary Strength, -15% Dev Cost
 
 ### Govt ###
-# Forum, -0.025 Autonomy Change, -5% Governing Cost, -2.5% Dev Cost
+# Town Square, -0.025 Autonomy Change, -5% Governing Cost, -2.5% Dev Cost
 # Courthouse, -0.05 Autonomy Change, -10% Governing Cost, -5% Dev Cost
 # Town Hall, -0.075 Autonomy Change, -15% Governing Cost, -7.5% Dev Cost
-# City Hall, -0.1 Autonomy Change, -20% Governing Cost, -10% Dev Cost
-# Government Palace, -0.15 Autonomy Change, -25% Governing Cost, -15% Dev Cost
+# Post Office, -0.1 Autonomy Change, -20% Governing Cost, -10% Dev Cost
+# City Hall, -0.15 Autonomy Change, -25% Governing Cost, -15% Dev Cost
 
 ### Navy ###
 # Port, +0.5 Local Trade Power, +1.0 Naval Forcelimit, +25% Sailors, +20% Local Supply Limit, -2.5% Dev Cost
@@ -76,6 +76,9 @@
 # Artisan's Guild, +20% Production Efficiency, -10% Dev Cost
 # Craftsman's District, +30% Production Efficiency, -20% Dev Cost
 # Industrial Zone, +50% Production Efficiency, -40% Dev Cost
+#
+# Alchemist Shop, +10% Trade Value, -2.5% Dev Cost
+# Transfumatory, +33% Trade Value, -5% Dev Cost
 
 ### Army ###
 # Barracks - +25% Manpower
@@ -232,7 +235,7 @@ mint = {
 	}
 
 	modifier = {
-		tax_income = 1.0
+		tax_income = 0.5
 		province_trade_power_modifier = 0.1
 		trade_value = 0.5
 		local_development_cost = -0.05
@@ -253,7 +256,7 @@ bank = {
 	}
 
 	modifier = {
-		tax_income = 2.0
+		tax_income = 1.0
 		province_trade_power_modifier = 0.2
 		trade_value = 1.0
 		local_development_cost = -0.1
@@ -274,14 +277,14 @@ stock_exchange = {
 	}
 
 	modifier = {
-		tax_income = 4.0
+		tax_income = 1.5
 		province_trade_power_modifier = 0.4
 		trade_value = 2.0
 		local_development_cost = -0.2
 	}
 
 	ai_will_do = {
-		factor = 1.2 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		factor = 1.4 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
 	}
 }
 
@@ -303,9 +306,6 @@ airdock = {
 
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 0.5
-		}
 	}
 }
 airship_maintenance_bay = {
@@ -323,9 +323,6 @@ airship_maintenance_bay = {
 
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 0.5
-		}
 	}
 }
 airship_terminal = {
@@ -343,8 +340,397 @@ airship_terminal = {
 
 	ai_will_do = {
 		factor = 1
+	}
+}
+
+################################################
+# Religion
+################################################
+
+shrine = {
+	cost = 50
+	time = 8
+	build_trigger = {
+		development = 3
+	}
+	modifier = {
+		local_unrest = -0.5
+		local_missionary_strength = 0.01
+		local_tax_modifier = 0.05
+		local_development_cost = -0.025
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+temple = {
+	make_obsolete = shrine
+
+	cost = 100
+	time = 12
+	build_trigger = {
+		development = 6
+	}
+	modifier = {
+		local_unrest = -1
+		local_missionary_strength = 0.02
+		local_tax_modifier = 0.10
+		local_development_cost = -0.05
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+cathedral = {
+	make_obsolete = temple
+
+	cost = 200
+	time = 16
+	build_trigger = {
+		development = 12
+	}
+	modifier = {
+		local_unrest = -1.5
+		local_missionary_strength = 0.03
+		local_tax_modifier = 0.15
+		local_development_cost = -0.075
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+################################################
+# Government
+################################################
+
+town_square = {
+	cost = 25
+	time = 6
+	build_trigger = {
+		development = 6
+	}
+	modifier = {
+		#local_autonomy = -0.025
+		local_state_maintenance_modifier = -0.1
+		local_governing_cost = -0.1
+		local_development_cost = -0.025
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+courthouse = {
+	cost = 50
+	time = 12
+
+	make_obsolete = town_square
+
+	build_trigger = {
+		development = 9
+	}
+	modifier = {
+		local_state_maintenance_modifier = -0.15
+		local_autonomy = -0.025
+		local_governing_cost = -0.15
+		local_development_cost = -0.025
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+town_hall = {
+	cost = 100
+	time = 18
+
+	make_obsolete = courthouse
+
+	build_trigger = {
+		development = 12
+	}
+	modifier = {
+		local_state_maintenance_modifier = -0.25
+		local_autonomy = -0.05
+		local_governing_cost = -0.25
+		local_development_cost = -0.05
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+post_office = {
+	cost = 125
+	time = 18
+
+	make_obsolete = town_hall
+
+	build_trigger = {
+		development = 15
+	}
+	modifier = {
+		local_state_maintenance_modifier = -0.3
+		local_autonomy = -0.05
+		local_governing_cost = -0.3
+		local_development_cost = -0.075
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+city_hall = {
+	cost = 200
+	time = 24
+
+	make_obsolete = post_office
+
+	build_trigger = {
+		development = 21
+	}
+	modifier = {
+		local_state_maintenance_modifier = -0.5
+		local_autonomy = -0.1
+		local_governing_cost = -0.5
+		local_development_cost = -0.1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+################################################
+# Navy
+################################################
+
+port = {
+	cost = 50
+	time = 6
+	build_trigger = {
+		has_port = yes
+		development = 6
+	}
+	modifier = {
+		province_trade_power_value = 0.5
+		naval_forcelimit = 1
+		local_sailors_modifier = 0.25
+		supply_limit_modifier = 0.20
+		local_development_cost = -0.025
+	}
+
+	ai_will_do = {
+		factor = 1
 		modifier = {
-			factor = 0.5
+			factor = 3
+			FROM = { navy_size_percentage = 0.95 }
+		}
+	}
+}
+dockland = {
+	cost = 100
+	time = 12
+	build_trigger = {
+		has_port = yes
+		development = 9
+	}
+	modifier = {
+		province_trade_power_value = 1
+		naval_forcelimit = 2
+		local_sailors_modifier = 0.5
+		supply_limit_modifier = 0.45
+		local_development_cost = -0.05
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			FROM = { navy_size_percentage = 0.95 }
+		}
+	}
+}
+wharf = {
+	cost = 200
+	time = 24
+	build_trigger = {
+		has_port = yes
+		development = 12
+	}
+	modifier = {
+		province_trade_power_value = 2
+		naval_forcelimit = 3
+		local_sailors_modifier = 0.75
+		supply_limit_modifier = 0.6
+		local_development_cost = -0.075
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			FROM = { navy_size_percentage = 0.95 }
+		}
+	}
+}
+harbor_district = {
+	cost = 300
+	time = 36
+	build_trigger = {
+		has_port = yes
+		development = 21
+	}
+	modifier = {
+		province_trade_power_value = 5
+		naval_forcelimit = 4
+		local_sailors_modifier = 1
+		supply_limit_modifier = 0.75
+		local_development_cost = -0.15
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 5
+			FROM = { navy_size_percentage = 0.95 }
+		}
+	}
+}
+
+shipwright = {
+	cost = 50
+	time = 6
+
+	make_obsolete = dock
+
+	build_trigger = {
+		has_port = yes
+		development = 9
+	}
+
+	modifier = {
+		naval_forcelimit = 3
+		ship_recruit_speed = -0.4
+		local_ship_repair = 0.4
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 53 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
+		}
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 53
+			province_id = 1188 #Eiheilaurt with its insane dockyards
+		}
+	}
+}
+drydock = {
+	cost = 100
+	time = 12
+
+	make_obsolete = dock
+
+	build_trigger = {
+		has_port = yes
+		development = 12
+	}
+
+	modifier = {
+		naval_forcelimit = 5
+		ship_recruit_speed = -0.6
+		local_ship_repair = 0.8
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 105 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
+		}
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 105
+			province_id = 1188 #Eiheilaurt with its insane dockyards
+		}
+	}
+}
+naval_arsenal = {
+	cost = 200
+	time = 24
+	build_trigger = {
+		has_port = yes
+		development = 18
+	}
+	modifier = {
+		naval_forcelimit = 10
+		ship_recruit_speed = -0.65
+		local_ship_repair = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 210 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
+		}
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 210
+			province_id = 1188 #Eiheilaurt with its insane dockyards
+		}
+	}
+}
+naval_base = {
+	cost = 400
+	time = 48
+
+	make_obsolete = shipyard
+
+	build_trigger = {
+		has_port = yes
+		development = 21
+	}
+	modifier = {
+		naval_forcelimit = 20
+		ship_recruit_speed = -0.7
+		local_ship_repair = 1.25
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 420 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
+		}
+		modifier = {
+			factor = 1.1
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 420
+			province_id = 1188 #Eiheilaurt with its insane dockyards
 		}
 	}
 }
@@ -385,18 +771,6 @@ workshop = {
 	}
 }
 
-temple = {
-	cost = 100
-	time = 12
-	modifier = {
-		local_tax_modifier = 0.4
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
 barracks = {
 	cost = 100
 	time = 12
@@ -429,31 +803,6 @@ barracks = {
 
 	ai_will_do = {
 		factor = 1
-	}
-}
-
-shipyard = {
-	cost = 100
-	time = 12
-	build_trigger = {
-		has_port = yes
-	}
-	modifier = {
-		naval_forcelimit = 2
-		ship_recruit_speed = -0.25
-		local_ship_repair = 0.25
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 105 # Little above build cost
-			FROM = { navy_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
-		}
 	}
 }
 
@@ -517,37 +866,6 @@ coastal_defence = {
 ################################################
 # Tier 2, 16th Century Buildings
 ################################################
-courthouse = {
-	cost = 100
-	time = 12
-	modifier = {
-		local_state_maintenance_modifier = -0.25
-		local_autonomy = -0.1
-		local_governing_cost = -0.25
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-dock = {
-	cost = 100
-	time = 12
-	build_trigger = {
-		has_port = yes
-	}
-	modifier = {
-		local_sailors_modifier = 0.5
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-		}
-	}
-}
 
 regimental_camp = {
 	cost = 200
@@ -654,20 +972,6 @@ naval_battery = {
 ################################################
 # Tier 3, 17th Century Buildings
 ################################################
-cathedral = {
-	make_obsolete = temple
-
-	cost = 300
-	time = 12
-	modifier = {
-		local_missionary_strength = 0.03
-		local_tax_modifier = 0.6
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
 
 
 university = {
@@ -708,34 +1012,6 @@ university = {
 		modifier = {
 			factor = 3
 			has_terrain = farmlands
-		}
-	}
-}
-
-grand_shipyard = {
-	cost = 300
-	time = 12
-
-	make_obsolete = shipyard
-
-	build_trigger = {
-		has_port = yes
-	}
-	modifier = {
-		naval_forcelimit = 4
-		ship_recruit_speed = -0.50
-		local_ship_repair = 0.50
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 320 # Little above build cost
-			FROM = { navy_size_percentage = 0.95 }
-		}
-		modifier = {
-			factor = 1.1
-			local_autonomy = 50
 		}
 	}
 }
@@ -837,45 +1113,6 @@ counting_house = {
 	}
 
 	allow_in_gold_provinces = no
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-
-
-
-town_hall = {
-	cost = 200
-	time = 12
-
-	make_obsolete = courthouse
-
-	modifier = {
-		local_state_maintenance_modifier = -0.5
-		local_autonomy = -0.2
-		local_governing_cost = -0.5
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-drydock = {
-	cost = 300
-	time = 12
-
-	make_obsolete = dock
-
-	build_trigger = {
-		has_port = yes
-	}
-
-	modifier = {
-		local_sailors_modifier = 1.0
-	}
 
 	ai_will_do = {
 		factor = 1
@@ -987,44 +1224,6 @@ manufactory = {
 }
 
 #If trade good assignment changes, also update scripted trigger "has_manufactory trigger"!
-
-wharf = {
-	manufactory = {
-		naval_supplies
-		fish
-		salt
-	}
-	onmap = yes
-
-	ai_will_do = {
-		factor = 1750
-
-		modifier = {
-			factor = 0.4
-			NOT = { base_production = 6 }
-		}
-		modifier = {
-			factor = 1.5
-			base_production = 10
-		}
-		modifier = {
-			factor = 1.5
-			base_production = 15
-		}
-		modifier = {
-			factor = 5
-			OR = {
-				has_province_modifier = skanemarket
-				has_province_modifier = comet_ore_modifier
-				has_province_modifier = paradise_modifier
-			}
-		}
-		modifier = {
-			NOT = { num_free_building_slots = 3 }
-			factor = 1.5
-		}
-	}
-}
 
 weapons = {
 	manufactory = {
