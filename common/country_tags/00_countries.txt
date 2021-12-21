@@ -173,6 +173,7 @@ ZHI = "countries/Zhifan.txt"
 SAE = "countries/Salae.txt"
 VLL = "countries/Vullat.txt"
 CEN = "countries/C_enan.txt"
+VEL = "countries/Veluae.txt"
 
 SIL = "countries/Silowbo_colony.txt"
 OAG = "countries/Oagemins_colony.txt"

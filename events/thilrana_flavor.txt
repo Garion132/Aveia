@@ -84,7 +84,6 @@ country_event = {
 		name = thilrana_rises.2.a
 		#ok
 		thilrana_region={
-			type = every
 			limit={
 				is_part_of_hre = yes
 				NOT={controlled_by = THL}

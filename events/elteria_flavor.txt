@@ -352,3 +352,66 @@ country_event = {
 		}
 	}
 }
+# Veluae settled
+country_event = {
+	id = elteria_event.8
+	title = elteria_event.8.t
+	desc = elteria_event.8.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1291
+		owns = 3410
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	immediate = {
+		hidden_effect={
+			2966={
+				cede_province = VEL
+				add_core = VEL
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+			}
+			121={
+				cede_province = VEL
+				add_core = VEL
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+			}
+			2967={
+				cede_province = VEL
+				add_core = VEL
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+			}
+			VEL={
+				add_treasury = 300
+				define_ruler ={
+					name = "Veluae"
+					dynasty = "Yilorik"
+					age = 48
+					adm = 2
+					dip = 5
+					mil = 4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = elteria_event.8.a
+		
+	}
+}
