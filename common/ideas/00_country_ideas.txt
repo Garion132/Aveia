@@ -28,7 +28,7 @@ SOH_ideas = {
 		trade_steering = 0.1
 	}
 	colonial_primacy = {
-		global_colonial_growth = 15
+		global_colonial_growth = 25
 	}
 	soh_marine_tradition = {
 		allowed_marine_fraction = 0.15
@@ -50,7 +50,7 @@ SOH_ideas = {
 KAF_ideas = {
 	start = {
 		naval_morale = 0.20
-		global_colonial_growth = 20
+		global_colonial_growth = 30
 		sea_repair = yes
 	}
 
@@ -93,7 +93,7 @@ KAF_ideas = {
 FRY_ideas = {
 	start = {
 		colonists = 1
-		global_colonial_growth = 10
+		global_colonial_growth = 15
 		range = -0.8
 		global_tax_income = 18
 	}
@@ -306,7 +306,7 @@ IWE_ideas = {
 VIL_ideas = {
 	start = {
 		colonists = 1
-		global_colonial_growth = 10
+		global_colonial_growth = 15
 		range = -0.8
 		global_tax_income = 18
 	}

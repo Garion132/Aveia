@@ -47,6 +47,7 @@ technology = { #Writing
 	year = 1261
 
 	trade_efficiency 		= 	0.02
+	global_colonial_growth = 10
 
 }
 
@@ -65,6 +66,7 @@ technology = { #Star Mapping
 	naval_maintenance		=	0.1	
 	trade_range				=	30
 	range = 40
+	global_colonial_growth = 10
 	
 	
 }
@@ -76,6 +78,7 @@ technology = { #Wind Spirits
 	naval_morale = 0.3
 	trade_range = 20
 	range = 30
+	global_colonial_growth = 10
 
 }
 
@@ -83,8 +86,9 @@ technology = { #Drama
 	# Tech 7
 	year = 1313
 	
-	naval_morale			= 0.1
+	naval_morale = 0.1
 	may_study_technology = yes
+	global_colonial_growth = 5
 }
 
 technology  = { #Optics
@@ -137,6 +141,7 @@ technology = { #Merchant Guilds
 	#guild = yes
 	#Provides a goods produced modifier bonus
 	may_corrupt_officials = yes
+	global_colonial_growth = 10
 }
 
 technology = { #Square Rigging
@@ -201,7 +206,7 @@ technology = { #Naval Ambitions
 
 	impressment_offices 	= yes
 	
-	global_colonial_growth = 5
+	global_colonial_growth = 10
 	naval_maintenance = 0.1
 }
 

@@ -44,7 +44,7 @@ kushedean_lighthouse = {
 	naval_forcelimit = 3
 }
 dreghei_mines = {
-	trade_goods_size_modifier = 0.25
+	trade_goods_size_modifier = 0.05
 }
 doninas_city = {
 	trade_goods_size = 5.0
@@ -63,7 +63,7 @@ eiheilaurt_grand_dockyards = {
 }
 
 temple_of_the_sea_god = {
-	prestige_from_naval = 0.1
+	prestige_from_naval = 0.25
 	naval_morale = 0.1
 	prestige = 0.25
 	dip_tech_cost_modifier = -0.1
