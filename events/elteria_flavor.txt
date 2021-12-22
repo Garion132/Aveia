@@ -671,6 +671,7 @@ country_event ={
 								is_subject = no
 								technology_group = lake_elves_group
 							}
+							tag = SOH
 						}
 					}
 				}

@@ -171,6 +171,57 @@ country_event = {
 				capital_scope = { continent = elteria }
 				ecriamin = 5
 			}
+			AND = {
+				is_year = 1285
+				colony = 1
+				any_subject_country = {
+					is_colonial_nation = yes
+					OR = {
+						capital_scope = { continent = elteria }
+					}
+					ecriamin = 4
+				}
+			}
+			AND = {
+				is_year = 1285
+				is_colonial_nation = no
+				capital_scope = { continent = elteria }
+				ecriamin = 4
+			}
+			AND = {
+				is_year = 1300
+				colony = 1
+				any_subject_country = {
+					is_colonial_nation = yes
+					OR = {
+						capital_scope = { continent = elteria }
+					}
+					ecriamin = 3
+				}
+			}
+			AND = {
+				is_year = 1300
+				is_colonial_nation = no
+				capital_scope = { continent = elteria }
+				ecriamin = 3
+			}
+			AND = {
+				is_year = 1315
+				colony = 1
+				any_subject_country = {
+					is_colonial_nation = yes
+					OR = {
+						capital_scope = { continent = elteria }
+					}
+					ecriamin = 2
+				}
+			}
+			AND = {
+				is_year = 1315
+				is_colonial_nation = no
+				capital_scope = { continent = elteria }
+				ecriamin = 2
+			}
 		}
 	}
 	mean_time_to_happen = {
@@ -178,19 +229,21 @@ country_event = {
 	}
 
 	immediate = {
-		random_country = {
-			limit = {
-				OR = {
-					colony = 1
-					AND = {
-						num_of_colonists = 1
-						is_subject = no
+		hidden_effect = {
+			random_country = {
+				limit = {
+					OR = {
+						colony = 1
+						AND = {
+							num_of_colonists = 1
+							is_subject = no
+						}
 					}
 				}
-			}
-			country_event = {
-				id = elteria_event.12
-				days = 365
+				country_event = {
+					id = elteria_event.12
+					days = 365
+				}
 			}
 		}
 	}
