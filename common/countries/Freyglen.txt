@@ -22,48 +22,60 @@ historical_units = {
 }
 
 monarch_names = {
-	"Jean #0" = 40
-	"Charles #0" = 40
-	"Fran�ois #0" = 20
+	"Vanir #0" = 40
+	"Halcyon #0" = 40
+	"Halvon #0" = 20
 	"Pierre #0" = 5
 	"Hubert #0" = 5
-	"�tienne #0" = 5
-	"Hughes #0" = 5
-	"Robert #0" = 5
+	"Annuiven #0" = 5
+	"Minion #0" = 5
+	"Nasar #0" = 5
 	"Henri #0" = 5
-	"Abel #0" = 0	
-	"Adrien #0" = 0
-	"Alexandre #0" = 0
-	"Christian #0" = 0
-	"Claude #0" = 0
-	"Conrad #0" = 0
-	"Denis #0" = 0
-	"Eudes #0" = 0
-	"Eug�ne #0" = 0
-	"Fr�d�ric #0" = 0
-	"Gaspard #0" = 0
-	"Georges #0" = 0
-	"Germain #0" = 0
-	"Gustave #0" = 0
-	"Jules #0" = 0
-	"L�opold #0" = 0
-	"Louis #0" = 0
-	"Maurice #0" = 0
-	"Michel #0" = 0
-	"Odet #0" = 0
-	"Philippe #0" = 0
-	"Raoul #0" = 0
-	"Ren� #0" = 0
-	"Rodolphe #0" = 0
-	"Samuel #0" = 0
-	"S�verin #0" = 0
-	"Tristan #0" = 0
-	"Valentin #0" = 0
-	"Victor #0" = 0
+	"Abel #0" = 5	
+	"Waldo #0" = 5
+	"Parcion #0" = 10
+	"Lex #0" = 2
+	"Suldil #0" = 5
+	"Conrad #0" = 4
+	"Netyar #0" = 10
+	"Eudes #0" = 5
+	"Eugene #0" = 10
+	"Frederick #0" = 15
+	"Taurion #0" = 5
+	"Taura #0" = 5
+	"Norrion #0" = 2
+	"Maito #0" = 2
+	"Caewon #0" = 5
+	"Isaac #0" = 5
+	"Garion #0" = 5
+	"Molion #0" = 10
+	"Valda #0" = 5
+	"Guldukat #0" = 5
+	"Orelon #0" = 5
+	"Beinor #0" = 10
+	"Dagor #0" = 7
+	"Biron #0" = 5
+	"Fimon #0" = 5
+	"Cumna #0" = 5
+	"Bregon #0" =5
+	"Fenben #0" =5
+	"Uidir #0" = 5
 	
-	"Jeanne #0" = -15
-	"Margaret #0" = -1
-	"Marie #0" = -1
+	"Lorelai #0" = -25
+	"Ariel #0" = -10
+	"Matilda #0" = -5
+	"Amath #0" = -5
+	"Hanna #0" = -10
+	"Yoko #0" = -25
+	"Hilda #0" = -10
+	"Heidi #0" = -5
+	"Lina #0" = -5
+	"Berit #0" = -20
+	"Lorea #0" = -20
+	"Misrae #0" = -10
+	"Anna #0" = -5
+	"Thalia #0" = -5
+	"Sonora #0" = -5
 }
 
 ship_names = {
@@ -73,36 +85,36 @@ ship_names = {
         Fontenelle
         Gizaucourt
         Isse
-        J�lons Jipp� Jonchery
-        "La Cheppe" "La Crois�e" "Lagery" "La Grande Romanie" "La Presle" "La Salle" "Laval-sur-Tourbe" "La Grossemasse" "La Veuve" "Le Breuil" "Le Grand-Essart" "Le Moncet" "Les Cruzis" Livry-Louvercy Louvois
+        Jelons Jippo Jonchery
+        "La Cheppe" "La Croisie" "Lagery" "La Grande Romanie" "La Presle" "La Salle" "Laval-sur-Tourbe" "La Grossemasse" "La Veuve" "Le Breuil" "Le Grand-Essart" "Le Moncet" "Les Cruzis" Livry-Louvercy Louvois
         Minaucourt-le-Mesnil Montflambert Montigny Moussy
-        Neuville-en-Ch�lois
+        Neuville-en-Chilois
         Passy-Grigny 
         Raday
         "Saint Hilaire" "Saint Imoges" "Saint Jean sur Tourbe" Seigneur-Klou Souain-Perthes Suippes
-        Tauxi�res-Mutry Toubiotte
+        Tauxieres-Mutry Toubiotte
         Vadenay Valmy Vaudemange Vraux 
         Wargemoulin
 }
 
 leader_names = {
-        d'Alenduy d'Artigoity d'Arzilli�res
-        "de Balatier" "de Balayne" "de Baleine" "Beaufort de Pothemont" "de Beaurepaire" "Bellot de Ferreux" "de Brancourt" "de Brienne" "de Broye" "de Bruce"
-        "Cauchon de Vercinay" "de Charbogne" "de Chassy" "du Ch�telet" "de Ch�tillon" Clausse "de Coucy" "de Courtenay" "de Cr�cy" "de Croy"
-        d'Espinoy
-        "de Failly"
-        "de Grandpr�" "de Grignon"
-        "du Hamel" "de Houx"
+        Lidori Draumi Edea
+        "Zinyra" "Shakas" "Faedove" "Phisys" "Oladi" "Amine" "Vi Carmi" "Vi Broye" "Vi Roshia"
+        "Cauchon Vi Fakalyn" "Vi yesric" "Vi Caewon" "Trisralei" "vi Cithrel" Kethai "Celola" "Vi Dazumin" "Nyana" "Omys"
+        d'Fukalyn
+        "Lirkan"
+        "Phrogie" "Pirona"
+        "Etailia" "Vi Lidori"
         "de Joigny" "de Joinville"
-        "de La Fontaine" "de Lalaing" "de Lantages" "de Lavis�" "de Lezines" "de Lom�nie"
-        P�rignon "de Plancy" "du Prat"
+        "de La Fontaine" "de Lalaing" "de Lantages" "de Lavisa" "de Lezines" "de Lomenie"
+        Porignon "de Plancy" "du Prat"
         "de Rethel" "de Roucy" "de Rumigny"
         "de Saint Belin" "de Saint Cheron" "de Sergine"
-        "de Vauclerois" "de Vergy" "de Verri�res" "de Villeprouv�e"
+        "de Vauclerois" "de Vergy" "de Verrieres" "de Villeprouvee"
 }
 
 army_names = {
-         "Arm�e du Pays d'Othe" "Arm�e de la Marne" "Arm�e de Ch�lons"
-         "Arm�e de Reims"       "Arm�e de Troyes"
-	 "Arm�e de $PROVINCE$" 
+         "Armee du Pays d'Othe" "Armee de la Marne" "Armee de Chalons"
+         "Armee de Reims"       "Armee de Troyes"
+	 "Armee de $PROVINCE$" 
 }
