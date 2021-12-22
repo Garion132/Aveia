@@ -278,7 +278,7 @@ age_of_calamity  = {
 			}
 		}
 
-		ab_colony_boost_development = {
+		ab_colony_boost_development_2 = {
 			rule = {
 				can_colony_boost_development = yes
 			}

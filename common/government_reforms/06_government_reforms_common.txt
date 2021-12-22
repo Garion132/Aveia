@@ -99,8 +99,7 @@ permanent_marathas_council_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Dharma"
-		has_estate = estate_maratha
-		technology_group = indian
+		always=no
 	}
 	modifiers = {
 		leader_land_shock = 1
@@ -128,8 +127,7 @@ governmental_purbias_register_reform = {
 	icon = "rajput_kingdom"
 	potential = {
 		has_dlc = "Dharma"
-		has_estate = estate_rajput
-		technology_group = indian
+		always=no
 	}
 	modifiers = {
 		recover_army_morale_speed = 0.05
@@ -232,7 +230,7 @@ holy_state_reform = {
 	icon = "holy_state_reform"
 	valid_for_nation_designer = yes
 	nation_designer_trigger = {
-		religion = catholic
+		always=no
 	}
 	potential = {
 		OR = {
@@ -246,7 +244,7 @@ holy_state_reform = {
 		}
 	}
 	trigger = {
-		religion = catholic
+		always=no
 	}
 	nation_designer_cost = 50
 	modifiers = {

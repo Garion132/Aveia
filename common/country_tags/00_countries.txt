@@ -174,6 +174,9 @@ SAE = "countries/Salae.txt"
 VLL = "countries/Vullat.txt"
 CEN = "countries/C_enan.txt"
 VEL = "countries/Veluae.txt"
+LAW = "countries/Ladowia.txt" 
+BIH = "countries/Brihal.txt" 
+
 
 SIL = "countries/Silowbo_colony.txt"
 OAG = "countries/Oagemins_colony.txt"
@@ -182,5 +185,6 @@ FYG = "countries/Freygmia_colony.txt"
 SRI = "countries/Sringar_colony.txt"
 #JAL = "countries/Jalorkan.txt"
 VIL = "countries/Villou.txt"
+FLA = "countries/Flaven.txt"
 
 PAP = "countries/Yulikivian.txt"

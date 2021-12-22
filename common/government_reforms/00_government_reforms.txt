@@ -460,8 +460,7 @@ prussian_republic = {
 	trigger = {
 		OR = {
 			is_playing_custom_nation = yes
-			religion = protestant
-			religion = reformed
+			always = no
 		}
 	}
 	
@@ -534,10 +533,7 @@ pirate_republic = {
 				province_is_on_an_island = yes
 			}
 		}
-		NOT = { technology_group = andean }
-		NOT = { technology_group = north_american }
-		NOT = { technology_group = south_american }
-		NOT = { technology_group = mesoamerican }
+		
 	}
 	
 	potential = {	
@@ -1201,7 +1197,7 @@ steppe_horde_legacy = {
 
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		technology_group = nomad_group
+		always=no
 	}
 
 	monarchy = yes
@@ -1234,7 +1230,7 @@ great_mongol_state_legacy = {
 
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		technology_group = nomad_group
+		always=no
 	}
 
 	monarchy = yes
@@ -1371,15 +1367,7 @@ native_council_legacy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		OR = {
-			technology_group = north_american
-			technology_group = south_american
-		}
-		capital_scope = {
-			OR = {
-				continent = new_world
-			}
-		}
+		always=no
 	}
 
     fixed_rank = 1
@@ -1852,11 +1840,7 @@ prussian_monarchy_legacy = {
 	allow_convert = no
 
 	potential = {
-		OR = {
-			is_playing_custom_nation = yes
-			religion = protestant
-			religion = reformed
-		}
+		is_playing_custom_nation = yes
 	}
 
 	valid_for_nation_designer = yes
@@ -1894,7 +1878,7 @@ iqta_legacy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
 	nation_designer_trigger = {
-		religion_group = muslim
+		always=no
 	}
 
 	monarchy = yes

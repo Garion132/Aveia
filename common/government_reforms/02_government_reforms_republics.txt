@@ -117,8 +117,7 @@ prussian_republic_reform = {
 	trigger = {
 		OR = {
 			is_playing_custom_nation = yes
-			religion = protestant
-			religion = reformed
+			always=no
 		}
 	}
 	valid_for_nation_designer = yes
@@ -321,10 +320,7 @@ pirate_republic_reform = {
 				province_is_on_an_island = yes
 			}
 		}
-		NOT = { technology_group = andean }
-		NOT = { technology_group = north_american }
-		NOT = { technology_group = south_american }
-		NOT = { technology_group = mesoamerican }
+		
 	}
 
 	removed_effect = {

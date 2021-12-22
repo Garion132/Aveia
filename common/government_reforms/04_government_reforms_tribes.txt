@@ -22,7 +22,7 @@ steppe_horde = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		technology_group = nomad_group
+		always=no
 	}
 
 	lock_level_when_selected = yes
@@ -282,39 +282,6 @@ tribe_becomes_monarchy_reform = {
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 4
-		if = {
-			limit = {
-				technology_group = nomad_group
-				OR = {
-					religion_group = muslim
-					secondary_religion = sunni
-					secondary_religion = shiite
-					secondary_religion = ibadi
-				}
-			}
-			change_technology_group = muslim
-			change_unit_type = muslim
-		}
-		if = {
-			limit = {
-				technology_group = nomad_group
-				religion_group = christian
-			}
-			change_technology_group = eastern
-			change_unit_type = eastern
-		}
-		if = {
-			limit = {
-				technology_group = nomad_group
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = christian }
-				NOT = { secondary_religion = sunni }
-				NOT = { secondary_religion = shiite }
-				NOT = { secondary_religion = ibadi }
-			}
-			change_technology_group = chinese
-			change_unit_type = chinese
-		}
 		change_government = monarchy
 	}
 	ai = {
@@ -331,39 +298,6 @@ tribe_becomes_republic_reform = {
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 4
-		if = {
-			limit = {
-				technology_group = nomad_group
-				OR = {
-					religion_group = muslim
-					secondary_religion = sunni
-					secondary_religion = shiite
-					secondary_religion = ibadi
-				}
-			}
-			change_technology_group = muslim
-			change_unit_type = muslim
-		}
-		if = {
-			limit = {
-				technology_group = nomad_group
-				religion_group = christian
-			}
-			change_technology_group = eastern
-			change_unit_type = eastern
-		}
-		if = {
-			limit = {
-				technology_group = nomad_group
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = christian }
-				NOT = { secondary_religion = sunni }
-				NOT = { secondary_religion = shiite }
-				NOT = { secondary_religion = ibadi }
-			}
-			change_technology_group = chinese
-			change_unit_type = chinese
-		}
 		change_government = republic
 	}
 	ai = {
@@ -395,39 +329,6 @@ tribe_becomes_theocracy_reform = {
 	effect = {
 		set_country_flag = populists_in_government
 		lose_reforms = 4
-		if = {
-			limit = {
-				technology_group = nomad_group
-				OR = {
-					religion_group = muslim
-					secondary_religion = sunni
-					secondary_religion = shiite
-					secondary_religion = ibadi
-				}
-			}
-			change_technology_group = muslim
-			change_unit_type = muslim
-		}
-		else_if = {
-			limit = {
-				technology_group = nomad_group
-				religion_group = christian
-			}
-			change_technology_group = eastern
-			change_unit_type = eastern
-		}
-		else_if = {
-			limit = {
-				technology_group = nomad_group
-				NOT = { religion_group = muslim }
-				NOT = { religion_group = christian }
-				NOT = { secondary_religion = sunni }
-				NOT = { secondary_religion = shiite }
-				NOT = { secondary_religion = ibadi }
-			}
-			change_technology_group = chinese
-			change_unit_type = chinese
-		}
 		change_government = theocracy
 	}
 	ai = {

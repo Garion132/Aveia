@@ -33,7 +33,7 @@ leading_clergy_reform = {
 
 monastic_order_reform = {
 	potential = {
-		NOT = { tag = PAP }
+		
 	}
 	modifiers = {
 		fort_maintenance_modifier = -0.2
@@ -51,7 +51,7 @@ monastic_order_reform = {
 
 papacy_reform = {
 	potential = {
-		tag = PAP
+		always=no
 	}
 
 	modifiers = {
@@ -296,10 +296,10 @@ warrior_monks_reform = {
 
 guru_advisors_reform = {
 	potential = {
-		religion = sikhism
+		always=no
 	}
 	trigger = {
-		religion = sikhism
+		always=no
 	}
 	icon = "nayankara_system"
 	allow_normal_conversion = yes
@@ -350,7 +350,7 @@ conciliarism_reform = {
 	icon = "conciliarism_reform"
 	allow_normal_conversion = yes
 	potential = {
-		tag = PAP
+		always=no
 	}
 	modifiers = {
 		appoint_cardinal_cost = -0.5
@@ -362,7 +362,7 @@ conciliarism_reform = {
 
 hereditary_religious_leadership_reform = {
 	potential = {
-		religion_group = muslim
+		always=no
 	}
 	icon = "muslim_highlighted"
 	allow_normal_conversion = yes
@@ -685,9 +685,7 @@ admiral_king_reform = {
 
 church_and_state_reform = {
 	potential = {
-		NOT = {
-			religion_group = pagan
-		}
+		
 	}
 	icon = "church_and_state_reform"
 	allow_normal_conversion = yes
@@ -701,9 +699,7 @@ church_and_state_reform = {
 
 god_and_man_reform = {
 	potential = {
-		NOT = {
-			religion_group = pagan
-		}
+		
 	}
 	icon = "religious_leader"
 	allow_normal_conversion = yes
@@ -720,10 +716,7 @@ religious_harmony_reform = {
 	icon = "religious_harmony_reform"
 	allow_normal_conversion = yes
 	trigger = {
-		OR = {
-			religion_group = pagan
-			has_idea_group = humanist_ideas
-		}
+		always=no
 	}
 	modifiers = {
 		num_accepted_cultures = 2
@@ -737,10 +730,10 @@ organising_our_religion_reform = {
 	icon = "organising_our_religion_reform"
 	allow_normal_conversion = yes
 	potential = {
-		religion_group = pagan
+		always=no
 	}
 	trigger = {
-		religion_group = pagan
+		always=no
 	}
 	
 	modifiers = {
@@ -758,14 +751,10 @@ religion_in_one_country_reform = {
 	icon = "rioting_burning_2"
 	allow_normal_conversion = yes
 	potential = {
-		NOT = {
-			religion_group = pagan
-		}
+		always=no
 	}
 	trigger = {
-		NOT = {
-			religion_group = pagan
-		}
+		always=no
 	}
 	modifiers = {
 		warscore_cost_vs_other_religion = -0.3
@@ -779,16 +768,10 @@ religious_permanent_revolution_reform = {
 	icon = "religious_permanent_revolution_reform"
 	allow_normal_conversion = yes
 	potential = {
-		NOT = {
-			religion = confucianism
-			religion_group = pagan
-		}
+		
 	}
 	trigger = {
-		NOT = {
-			religion = confucianism
-			religion_group = pagan
-		}
+		
 	}
 	effect = {
 		custom_tooltip = world_crusade_tt
@@ -838,10 +821,10 @@ proclaim_religious_head_reform = {
 	icon = "shaman"
 	allow_normal_conversion = yes
 	potential = {
-		religion_group = pagan
+		always=no
 	}
 	trigger = {
-		religion_group = pagan
+		always=no
 		custom_trigger_tooltip = {
 			tooltip = no_other_head_tt
 			NOT = {
@@ -866,10 +849,10 @@ all_under_tengri_reform = {
 	icon = "all_under_tengri_reform"
 	allow_normal_conversion = yes
 	potential = {
-		religion = tengri_pagan_reformed
+		always=no
 	}
 	trigger = {
-		religion = tengri_pagan_reformed
+		always=no
 	}
 	modifiers = {
 		cavalry_power = 0.15

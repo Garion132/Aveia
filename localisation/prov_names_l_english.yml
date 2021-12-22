@@ -11,7 +11,7 @@
  PROV10:0 "Unnamed 10"
  PROV11:0 "Unnamed 11"
  PROV12:0 "Unnamed 12"
- PROV13:0 "Unnamed 13"
+ PROV13:0 "Hope of Oasia"
  PROV14:0 "Unnamed 14"
  PROV15:1 "Unnamed 15"
  PROV16:0 "Etatin Ridge"
@@ -67,6 +67,8 @@
  PROV120:0 "Hinnocrin"
 
  PROV147:0 "Ifranhil"
+ 
+ PROV156:0 "Piceden"
 
  PROV165:0 "Massege Coast"
  
@@ -79,6 +81,8 @@
  PROV285:0 "Yhenil Sea"
 
  PROV308:0 "Sonhud Bay"
+ 
+ PROV377:0 "Wester Bay"
 
  PROV450:0 "Grurite Peaks"
 
@@ -593,12 +597,42 @@
 
  PROV2404:0 "Whithil"
  
+ PROV2409:0 "Sandplain"
  PROV2410:0 "Redsands"
- 
+ PROV2411:0 "Grania"
+ PROV2412:0 "Falbeach"
+ PROV2413:0 "Splintercoast"
+ PROV2414:0 "Varengard"
  PROV2415:0 "Shatercoast"
  PROV2416:0 "Freyglen"
  
+ PROV2418:0 "Wester"
+ 
+ PROV2423:0 "Soria"
+ PROV2424:0 "Star Coast"
+ PROV2425:0 "Del Marva"
+ PROV2426:0 "Soria"
+ PROV2427:0 "Locha"
+ PROV2428:0 "Guerra Coast"
+ 
+ PROV2430:0 "Krita"
+ PROV2431:0 "Larkha"
+ 
+ PROV2433:0 "Lona"
+ 
  PROV2437:0 "Villou"
+ PROV2438:0 "Lasho"
+ PROV2439:0 "Kyania"
+ 
+ PROV2441:0 "Fayard"
+ 
+ PROV2450:0 "Gurguard"
+ 
+ PROV2463:0 "Scorc"
+ 
+ PROV2467:0 "Salkeeple"
+ 
+ PROV2471:0 "Grater"
  
  PROV2482:0 "Shimberme"
  
@@ -621,7 +655,19 @@
  
  PROV2939:0 "Agaruz"
  
+ PROV2961:0 "Oadowbay"
+ 
+ PROV2967:0 "Shaven"
+ 
+ PROV2969:0 "Grimburn"
+ 
+ PROV2974:0 "Clirost"
+ 
  PROV2983:0 "Kilder"
+ 
+ PROV2987:0 "Brineverf"
+ 
+ PROV3000:0 "Nemond"
  
  PROV3013:0 "Dawd"
  
@@ -647,8 +693,17 @@
  PROV3414:0 "Vaultis"
  PROV3415:0 "Cimor"
  PROV3416:0 "Bluegrass"
+ PROV3675:0 "Silverhar"
  PROV3684:0 "Dheub"
  PROV3685:0 "Imiustam"
+ 
+ PROV3795:0 "Olreach"
+ 
+ PROV3833:0 "Wiltarde"
+ PROV2834:0 "Roresle"
+ PROV3835:0 "Holbelow"
+ 
+ PROV3837:0 "Brihal"
 
  
  test_province_name:0 "Test Province Name"

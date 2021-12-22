@@ -317,12 +317,12 @@ iqta = {
 	icon = "muslim"
 	allow_normal_conversion = yes
 	potential = {
-		religion_group = muslim
+		always=no
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
 	nation_designer_trigger = {
-		religion_group = muslim
+		always=no
 	}
 
 	legacy_equivalent = iqta_legacy
@@ -874,7 +874,7 @@ khalsa_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Dharma"
-		religion = sikhism
+		always=no
 	}
 	modifiers = {
 		tolerance_heathen = 1
@@ -1074,20 +1074,6 @@ of_noble_bearing_reform = {
 		OR = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
-		}
-		NOT = {
-			AND = {
-				has_estate = estate_maratha
-				technology_group = indian
-				NOT = { has_estate = estate_nobles }
-			}
-		}
-		NOT = {
-			AND = {
-				has_estate = estate_rajput
-				technology_group = indian
-				NOT = { has_estate = estate_nobles }
-			}
 		}
 	}
 	modifiers = {
