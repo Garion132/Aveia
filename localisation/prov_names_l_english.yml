@@ -33,6 +33,8 @@
  PROV33:0 "Great Cradle"
  PROV34:0 "Kyath Coast"
 
+ PROV40:0 "Kilfawn Lake"
+
  PROV43:0 "Mistworm Lake"
 
  PROV46:0 "Kalhyrhei"
@@ -71,7 +73,11 @@
  PROV156:0 "Piceden"
 
  PROV165:0 "Massege Coast"
+
+ PROV167:0 "Noster Bay"
  
+ PROV190:0 "Starlight Coast"
+
  PROV196:0 "Sevilor Straits"
 
  PROV207:0 "Kushedean Bay"
@@ -85,6 +91,8 @@
  PROV377:0 "Wester Bay"
 
  PROV450:0 "Grurite Peaks"
+
+ PROV452:0 "Faungrave Lake"
 
  PROV457:0 "Ventoral"
  
@@ -607,7 +615,10 @@
  PROV2416:0 "Freyglen"
  
  PROV2418:0 "Wester"
- 
+ PROV2419:0 "Del Karto"
+ PROV2420:0 "Briar Ridge"
+ PROV2421:0 "Kanta"
+ PROV2422:0 "Kalash"
  PROV2423:0 "Soria"
  PROV2424:0 "Star Coast"
  PROV2425:0 "Del Marva"
@@ -617,7 +628,7 @@
  
  PROV2430:0 "Krita"
  PROV2431:0 "Larkha"
- 
+ PROV2432:0 "Panthia Beach"
  PROV2433:0 "Lona"
  
  PROV2437:0 "Villou"
