@@ -31,4 +31,14 @@ change_estate_land_share = {
 		dip = 2
 		mil = 3
 	}
+	heir = {
+    	name = "Lorelai"
+    	dynasty = "Freyer"
+    	birth_date = 1260.3.10
+    	claim = 80
+    	adm = 6
+    	dip = 4
+    	mil = 0
+    	female = yes
+	}
 }
