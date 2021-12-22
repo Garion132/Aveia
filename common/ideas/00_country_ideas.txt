@@ -360,6 +360,8 @@ vilwinder_ideas = {
 	trigger = {
 		OR={
 			tag = FLA
+			tag = DAW
+			tag = SKP
 		}
 	}
 	free = yes		#will be added at load.

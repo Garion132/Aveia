@@ -186,5 +186,7 @@ SRI = "countries/Sringar_colony.txt"
 #JAL = "countries/Jalorkan.txt"
 VIL = "countries/Villou.txt"
 FLA = "countries/Flaven.txt"
+DAW = "countries/Dawnmond.txt" 
+SKP = "countries/Salkeeple.txt"
 
 PAP = "countries/Yulikivian.txt"
