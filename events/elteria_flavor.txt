@@ -647,11 +647,10 @@ country_event ={
 	major = yes
 	
 	is_triggered_only = yes
-	#fire_only_once = yes
+	fire_only_once = yes
 	
 	immediate = {
 		hidden_effect={
-			set_global_flag = scramble_for_elteria
 			every_province = {
 				limit = {
 					continent = elteria
@@ -660,10 +659,6 @@ country_event ={
 					name = elteria_colonial_rush
 					duration = 18250
 				}
-			}
-			country_event = {
-				id = elteria_event.14
-				days = 18250
 			}
 			every_country = { #Everyone gets a bit of fun!
 				limit = {
@@ -683,16 +678,13 @@ country_event ={
 					id = elteria_event.13
 					days = 30
 				}
-				country_event = {
-					id = elteria_event.14
-					days = 18250
-				}
 			}
 		}
 	}
 
 	option = {
 		name = elteria_event.12.a #Time for a Scramble
+		set_global_flag = scramble_for_elteria
 		add_country_modifier = { 
 			name = scramble_for_elteria
 			duration = 18250
@@ -727,17 +719,8 @@ country_event ={
 	#major = yes
 	
 	trigger = {
-		OR = {
-			is_year = 1400
-			NOT = { has_global_flag = scramble_for_elteria }
-			if = {
-				limit = {
-					is_colonial_nation = yes
-				}
-				colonial_parent = {
-					NOT = { has_country_modifier = scramble_for_elteria }
-				}
-			}
+		1993 = { #Province in Elteria
+			NOT = { has_province_modifier = elteria_colonial_rush }
 		}
 		OR = {
 			has_country_modifier = scramble_for_elteria
@@ -755,59 +738,6 @@ country_event ={
 		remove_country_modifier = scramble_for_elteria
 		remove_country_modifier = scramble_for_elteria_colony
 		clr_global_flag = scramble_for_elteria
-	}
-}
-# Dawnmond settled
-country_event = {
-	id = elteria_event.15
-	title = elteria_event.15.t
-	desc = elteria_event.15.d
-	
-	
-	#major = yes
-	
-	trigger = {
-		is_year = 1288
-		tag = FRY
-	}
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-	immediate = {
-		hidden_effect={
-			2471={
-				cede_province = DAW
-				add_core = DAW
-				change_religion = tlaulunorist
-				change_culture = cyuean
-				add_institution_embracement = {
-					which = organized_state
-					value = 100
-				}
-				add_institution_embracement = {
-					which = bronze_working
-					value = 100
-				}
-				add_base_tax = 3
-				add_base_production = 1
-				add_base_manpower = 2
-			}
-			DAW={
-				add_treasury = 300
-				define_ruler ={
-					name = "Dawn"
-					dynasty = "Pelnic"
-					age = 29
-				}
-			}
-		}
-	}
-
-	option = {
-		name = elteria_event.15.a
-		
 	}
 }
 # Salkeeple settled
