@@ -626,7 +626,7 @@ country_event = {
 				define_ruler ={
 					name = "Penac"
 					dynasty = "Flaven"
-					age = 94
+					age = 34
 				}
 			}
 		}
