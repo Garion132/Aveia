@@ -10,7 +10,7 @@ capital = 2416 #
 
 change_estate_land_share = {
 	estate = estate_nobles
-	share = 10
+	share = 5
 }
 change_estate_land_share = {
 	estate = estate_church
