@@ -76,6 +76,15 @@ on_startup = {
 			remove_core = SRI
 		}
 	}
+	every_province = {
+		limit = {
+			continent = juluia
+		}
+		add_permanent_province_modifier = {
+			name = remote_lands_of_juluia
+			duration = -1
+		}
+	}
 }
 
 # country

@@ -163,18 +163,36 @@ country_event = {
 					OR = {
 						capital_scope = { continent = elteria }
 					}
-					ecriamin = 3
+					ecriamin = 5
 				}
 			}
 			AND = {
 				is_colonial_nation = no
 				capital_scope = { continent = elteria }
-				ecriamin = 3
+				ecriamin = 5
 			}
 		}
 	}
 	mean_time_to_happen = {
 		months = 1
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				OR = {
+					colony = 1
+					AND = {
+						num_of_colonists = 1
+						is_subject = no
+					}
+				}
+			}
+			country_event = {
+				id = elteria_event.12
+				days = 365
+			}
+		}
 	}
 
 	option = {

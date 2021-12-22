@@ -1,0 +1,71 @@
+country_decisions = {
+
+	enter_scramble_for_elteria = {
+		major = yes
+		potential = {
+			has_global_flag = scramble_for_elteria
+            NOT = {
+                has_country_modifier = scramble_for_elteria
+            }
+            is_subject = no
+			is_colonial_nation = no
+            technology_group = lake_elves_group
+		}
+		allow = {
+			adm_power = 100
+			treasury = 200
+		}
+		effect = {
+			add_adm_power = -100
+			add_treasury = -200
+            add_country_modifier = { 
+                name = scramble_for_elteria
+                duration = 18220
+            }
+		}
+		ai_will_do = {
+			factor = 5
+            modifier = {
+                modifier = {
+                    factor = 0.2
+                    NOT = { current_income_balance = 4 }
+                }
+                modifier = {
+                    factor = 0
+                    NOT = { current_income_balance = 2 }
+                }
+                modifier = {
+                    factor = 0
+                    NOT = { navy_size = 1 } #coastal
+                }
+                modifier = {
+                    factor = 0
+                    NOT = { adm_power = 700 }
+                }
+            }
+		}
+	}
+	enter_scramble_for_elteria_colony = {
+		major = yes
+		potential = {
+			is_colonial_nation = yes
+            has_global_flag = scramble_for_elteria
+            NOT = {
+                has_country_modifier = scramble_for_elteria_colony
+            }
+            technology_group = lake_elves_group
+		}
+		allow = {
+
+		}
+		effect = {
+            add_country_modifier = { 
+                name = scramble_for_elteria_colony
+                duration = 18220
+            }
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

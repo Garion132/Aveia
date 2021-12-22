@@ -26,5 +26,20 @@
  prices.107.t:0 "Improvements in Iron Working"
  prices.107.d:0 "Improvements in Iron Working"
  prices.107.a:0 "Strike while the metal is hot"
+
+ elteria_event.12.t:0 "Scramble for Elteria"
+ elteria_event.12.d:0 "Elteria, long a land rife with rebel Fauns and dense Jungle, has a miracle herb in its densest forests: Ecriamin. This, along with new discoveries of silver deposits and great growing locations have led to a shocking realization amongst our merchants, our nobles, and our peasants alike: \n\nWhoever controls Elteria will control Aveia, for whoever controls Elteria controls the Ecriamin trade, and whoever controls the Ecriamin trade controls the health of kings."
+ elteria_event.12.a:0 "Time for a Scramble"
+ elteria_event.13.t:0 "Elterian Colonial Rush"
+ elteria_event.13.d:0 "Elteria, long a land rife with rebel Fauns and dense Jungle, has a miracle herb in its densest forests: Ecriamin. This, along with new discoveries of silver deposits and great growing locations have led to a shocking realization amongst our merchants, our nobles, and our peasants alike: \n\nWhoever controls Elteria will control Aveia, for whoever controls Elteria controls the Ecriamin trade, and whoever controls the Ecriamin trade controls the health of kings."
+ elteria_event.13.a:0 "Time for a Scramble"
+ elteria_event.14.t:0 "End of the Scramble"
+ elteria_event.14.d:0 "The Scramble for Elteria is over. People are no longer clamoring to go to the continent like they had previously."
+ elteria_event.14.a:0 "We did all that we could"
+ elteria_event.15.t:0 "Elterian Colonial Rush"
+ elteria_event.15.d:0 "Elteria, long a land rife with rebel Fauns and dense Jungle, has a miracle herb in its densest forests: Ecriamin. This, along with new discoveries of silver deposits and great growing locations have led to a shocking realization amongst our merchants, our nobles, and our peasants alike: \n\nWhoever controls Elteria will control Aveia, for whoever controls Elteria controls the Ecriamin trade, and whoever controls the Ecriamin trade controls the health of kings."
+ elteria_event.15.a:0 "Time for a Scramble"
+ 
+ 
  
  

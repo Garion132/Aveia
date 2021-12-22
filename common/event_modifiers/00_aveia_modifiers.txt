@@ -79,6 +79,25 @@ shirea_slave_port = {
 	trade_goods_size = 5
 }
 
+elteria_colonial_rush = { #For colonizing Elteria in a reasonable amount of time
+	local_colonial_growth = 50
+	local_colonist_placement_chance = 0.33
+}
+scramble_for_elteria = { #For colonial overlords
+	global_tax_income = -6
+	colonists = 1
+	colonist_placement_chance = 0.10
+	global_colonial_growth = 20
+	range = 0.25
+}
+scramble_for_elteria_colony = { #For colonies
+	colonists = 1
+}
+remote_lands_of_juluia = { #Colonizing Juluia is difficult
+	local_colonial_growth = -50
+	local_colonist_placement_chance = -0.10
+}
+
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.
 enheasrion_estuary_modifier = {

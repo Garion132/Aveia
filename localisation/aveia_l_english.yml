@@ -139,6 +139,11 @@
  CALAMITY_RECOVERY:0 "Calamity Recovery"
  IMPROVEMENTS_IN_IRON_WORKING:0 "Improvements in Iron Working"
 
+ enter_scramble_for_elteria_title:0 "Enter the Scramble for Elteria"
+ enter_scramble_for_elteria_desc:0 "Everyone is rushing to Elteria for miracle herbs and rumors of silver."
+ enter_scramble_for_elteria_colony_title:0 "Enter the Scramble for Elteria"
+ enter_scramble_for_elteria_colony_desc:0 "Everyone, including our mother country, is rushing to Elteria for miracle herbs and rumors of silver."
+
  mannish_tribal:0 "Donamenz Tribe"
  mannish_tribal_desc:0 "ToDo"
  PETTY_KINGDOM:0 "Petty Kingdom"
