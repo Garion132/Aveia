@@ -176,6 +176,7 @@ CEN = "countries/C_enan.txt"
 VEL = "countries/Veluae.txt"
 LAW = "countries/Ladowia.txt" 
 BIH = "countries/Brihal.txt" 
+SWA = "countries/Swania.txt"  
 
 
 SIL = "countries/Silowbo_colony.txt"

@@ -1,10 +1,8 @@
 Elsa
 Kamele
 Ora
-Swania
 Smotia
 Lurtros
-Tinora
 Selk
 Cymana
 Todta
@@ -18,3 +16,4 @@ Kudg
 Char
 Zrul
 Agid
+Tinora

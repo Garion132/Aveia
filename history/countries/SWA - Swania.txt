@@ -1,10 +1,10 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = kaletian
-religion = drethalumia
-technology_group = free_fauns_group
-capital = 3398 # 
+primary_culture = vilwinder
+religion = tlaulunorist
+technology_group = lake_elves_group
+capital = 2425 # 
 #national_focus = DIP
 #historical_rival = HAB
 
@@ -24,11 +24,11 @@ change_estate_land_share = {
 
 1268.9.16 = {
 	monarch = {
-		name = "Coame"
-		dynasty = "Vilo"
-		birth_date = 1251.12.3
-		adm = 5
-		dip = 4
-		mil = 2
+		name = "Teimor"
+		dynasty = "Ryndos"
+		birth_date = 1258.12.3
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }

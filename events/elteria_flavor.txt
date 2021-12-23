@@ -794,3 +794,59 @@ country_event = {
 		
 	}
 }
+# Swania settled
+country_event = {
+	id = elteria_event.17
+	title = elteria_event.17.t
+	desc = elteria_event.17.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1280
+		tag = FRY
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	immediate = {
+		hidden_effect={
+			2437={
+				cede_province = SWA
+				add_core = SWA
+				change_religion = tlaulunorist
+				change_culture = cyuean
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_base_tax = 2
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+			SWA={
+				add_treasury = 300
+				define_ruler ={
+					name = "Talmis"
+					dynasty = "Swania"
+					age = 39
+					adm = 2
+					dip = 2
+					mil = 2
+				}
+			}
+		}
+	}
+
+	option = {
+		name = elteria_event.17.a
+		
+	}
+}
