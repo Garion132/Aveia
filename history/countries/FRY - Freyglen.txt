@@ -31,6 +31,8 @@ change_estate_land_share = {
 		dip = 2
 		mil = 3
 	}
+}
+1268.9.16 = {
 	heir = {
     	name = "Lorelai"
     	dynasty = "Freyer"
