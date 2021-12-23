@@ -362,6 +362,7 @@ vilwinder_ideas = {
 			tag = FLA
 			tag = DAW
 			tag = SKP
+			tag = SWA
 		}
 	}
 	free = yes		#will be added at load.
