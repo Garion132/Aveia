@@ -10,6 +10,9 @@ country_decisions = {
             is_subject = no
 			is_colonial_nation = no
             technology_group = lake_elves_group
+            any_owned_province = {
+                has_port = yes
+            }
 		}
 		allow = {
 			adm_power = 100
@@ -33,10 +36,6 @@ country_decisions = {
                 modifier = {
                     factor = 0
                     NOT = { current_income_balance = 2 }
-                }
-                modifier = {
-                    factor = 0
-                    NOT = { navy_size = 1 } #coastal
                 }
                 modifier = {
                     factor = 0
