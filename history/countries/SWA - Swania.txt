@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = vilwinder
+primary_culture = villwinder
 religion = tlaulunorist
 technology_group = lake_elves_group
 capital = 2425 # 
