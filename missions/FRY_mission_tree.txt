@@ -17,13 +17,22 @@ FRYADM2 = {
 		}
 		position = 2
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			mint = 4
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = { 
+    			name = FRY_mission_4a
+   				duration = 
+    			hidden = yes
+			}
+			add_country_modifier = { 
+    			name = FRY_mission_4b
+   				duration = 
+    			hidden = yes
+			}
 		}
 	}
 	##Mission End
@@ -35,13 +44,22 @@ FRYADM2 = {
 		}
 		position = 3
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			workshop = 6
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = { 
+    			name = FRY_mission_9a
+   				duration = 
+    			hidden = yes
+			}
+			add_country_modifier = { 
+    			name = FRY_mission_9b
+   				duration = 
+    			hidden = yes
+			}
 		}
 	}
 	##Mission End
@@ -53,13 +71,22 @@ FRYADM2 = {
 		}
 		position = 4
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			share_of_starting_income = 2.5
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = { 
+    			name = FRY_mission_13a
+   				duration = 
+    			hidden = yes
+			}
+			add_country_modifier = { 
+    			name = FRY_mission_13b
+   				duration = 
+    			hidden = yes
+			}
 		}
 	}
 	##Mission End
@@ -72,10 +99,10 @@ FRYADM2 = {
 		}
 		position = 5
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			has_colonist = yes
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -90,10 +117,10 @@ FRYADM2 = {
 		}
 		position = 6
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2430
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			controls = 2430
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -108,10 +135,10 @@ FRYADM2 = {
 		}
 		position = 7
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2402
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			controls = 2402
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -126,10 +153,10 @@ FRYADM2 = {
 		}
 		position = 8
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 13
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			controls = 13
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -159,7 +186,7 @@ FRYADM = {
 		}
 		position = 1
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
 			##MISSIONTRIGGER
@@ -177,7 +204,7 @@ FRYADM = {
 		}
 		position = 2
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
 			##MISSIONTRIGGER
@@ -195,7 +222,7 @@ FRYADM = {
 		}
 		position = 3
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
 			##MISSIONTRIGGER
@@ -213,7 +240,7 @@ FRYADM = {
 		}
 		position = 4
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
 			##MISSIONTRIGGER
@@ -231,10 +258,10 @@ FRYADM = {
 		}
 		position = 6
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2454
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			controls = 2454
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -249,10 +276,10 @@ FRYADM = {
 		}
 		position = 7
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2449
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			controls = 2449
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -267,10 +294,10 @@ FRYADM = {
 		}
 		position = 8
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 3837
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			controls = 3837
 		}
 		effect = {
 			##MISSIONEFFECT

@@ -12,6 +12,25 @@
 		land_forcelimit_modifier = 0.20
 	}
 
+	#Freyglen
+	FRY_mission_4b = {
+		global_tax_income = 0.1
+	}
+	FRY_mission_9a = {
+		build_cost = -0.25
+	}
+	FRY_mission_9b = {
+		build_time = -0.1
+	}
+	FRY_mission_13a = {
+		global_trade_power = 0.25
+	}
+	FRY_mission_13b = {
+		country_diplomatic_power = 1
+	}
+	
+
+
 #Events
 iron_age_calamity_recovery = {
 	stability_cost_modifier = -0.25
