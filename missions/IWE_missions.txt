@@ -309,3 +309,25 @@ IWE_administrative_missions = {
 		}
 	}
 }
+
+IWE_colonial_missions = {
+	slot = 5
+	
+	potential = {
+		tag = IWE
+	}
+	join_the_scramble_mission = {
+		icon = mission_colonial
+		required_missions = { independence_mission  } #None
+		position = 5
+		trigger = {
+			has_country_modifier = scramble_for_elteria
+		}
+		effect = {
+			add_country_modifier = {
+				name = "colonial_enthusiasm"
+				duration = 3650 #10 years
+			}
+		}
+	}
+}
