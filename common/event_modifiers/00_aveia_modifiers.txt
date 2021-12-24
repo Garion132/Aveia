@@ -28,6 +28,9 @@
 	FRY_mission_13b = {
 		country_diplomatic_power = 1
 	}
+	FRY_mission_18 = {
+		global_colonial_growth = 15
+	}
 	
 
 
