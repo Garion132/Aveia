@@ -126,7 +126,8 @@ FRYADM2 = {
 			controls = 2430
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_adm_power = 100
+			add_treasury = 100
 		}
 	}
 	##Mission End
@@ -144,7 +145,8 @@ FRYADM2 = {
 			controls = 2402
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_adm_power = 100
+			add_treasury = 100
 		}
 	}
 	##Mission End
@@ -162,7 +164,8 @@ FRYADM2 = {
 			controls = 13
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_adm_power = 100
+			add_treasury = 100
 		}
 	}
 	##Mission End
@@ -192,7 +195,7 @@ FRYADM = {
 			province_id = 2416
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			share_of_starting_income = 1.5
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -210,7 +213,7 @@ FRYADM = {
 			province_id = 2416
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			current_income_balance = 4
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -228,7 +231,7 @@ FRYADM = {
 			province_id = 2416
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			total_base_tax = 10
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -246,7 +249,8 @@ FRYADM = {
 			province_id = 2416
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			current_income_balance = 6
+			production_income_percentage = 0.25
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -549,7 +553,7 @@ FRYMIL = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			army_size_percentage = 1
 		}
 		effect = {
 			##MISSIONEFFECT
