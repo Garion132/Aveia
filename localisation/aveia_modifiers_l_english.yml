@@ -3,6 +3,11 @@
  dunirrian_ruler:0 "Dunirrian Ruler"
  uglukish_ruler:0 "Uglukish Ruler"
 
+ expanded_production:0 "Expanded Production"
+ desc_expanded_production:0 "The production in this province has been expanded recently, allowing for the manufacturing and export of more goods."
+ military_expansion:0 "Military Expansion"
+ desc_military_expansion:0 "The country has recently gone on a campaign of military expansion. Thus, we can field a much larger army."
+
  iron_age_calamity_recovery:0 "Iron Age Calamity Recovery"
  desc_iron_age_calamity_recovery:0 "We are in the midst of recovering from the Iron Age Calamity and its world-wide consequences."
  

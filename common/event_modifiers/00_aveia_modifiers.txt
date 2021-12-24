@@ -2,6 +2,16 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+#Missions
+
+	#Iwenlumy
+	expanded_production = {
+		trade_goods_size_modifier = 0.10 #In a province
+	}
+	military_expansion = {
+		land_forcelimit_modifier = 0.20
+	}
+
 #Events
 iron_age_calamity_recovery = {
 	stability_cost_modifier = -0.25
@@ -12,6 +22,20 @@ iron_age_calamity_recovery = {
 	embracement_cost = -0.25
 	global_institution_spread = 0.25
 	center_of_trade_upgrade_cost = -0.25
+}
+
+elteria_colonial_rush = { #For colonizing Elteria in a reasonable amount of time
+	local_colonial_growth = 50
+	local_colonist_placement_chance = 0.10
+}
+scramble_for_elteria = { #For colonial overlords
+	global_tax_income = -6
+	colonists = 1
+	global_colonial_growth = 20
+	range = 0.25
+}
+scramble_for_elteria_colony = { #For colonies
+	colonists = 1
 }
 
 #Important Locations
@@ -74,27 +98,14 @@ kafethyrian_soil = {
 	trade_goods_size = 0.75
 }
 
-shirea_slave_port = {
-	province_trade_power_value = 15
-	trade_goods_size = 5
-}
-
-elteria_colonial_rush = { #For colonizing Elteria in a reasonable amount of time
-	local_colonial_growth = 50
-	local_colonist_placement_chance = 0.10
-}
-scramble_for_elteria = { #For colonial overlords
-	global_tax_income = -6
-	colonists = 1
-	global_colonial_growth = 20
-	range = 0.25
-}
-scramble_for_elteria_colony = { #For colonies
-	colonists = 1
-}
 remote_lands_of_juluia = { #Colonizing Juluia is difficult
 	local_colonial_growth = -75
 	local_colonist_placement_chance = -0.10
+}
+
+shirea_slave_port = {
+	province_trade_power_value = 15
+	trade_goods_size = 5
 }
 
 # Important river estuaries

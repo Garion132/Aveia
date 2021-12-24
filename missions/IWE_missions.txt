@@ -1,0 +1,311 @@
+# Iwenlumy Mission Tree
+# By Strat
+#Below are mission series, within them are the actual missions.
+
+IWE_economic_missions = {
+	slot = 1
+	potential = {
+		tag = IWE
+	}
+
+	expand_asemont_mission = {
+		icon = mission_eastern_european_city
+		required_missions = { }
+		trigger = {
+			owns_core_province = 82
+			82 = { #Asemont
+				base_production = 12
+			}
+		}
+		effect = {
+			82 = {
+				add_base_production = 1
+				add_province_modifier = {
+					name = "expanded_production"
+					duration = 9215 #25 Years
+				}
+			}
+		}
+	}
+
+	iwen_workshops_mission = {
+		icon = mission_early_game_buildings
+		required_missions = { expand_asemont_mission }
+		trigger = {
+			owns_core_province = 80
+			owns_core_province = 78
+			80 = { #Iwenlumy (Cloth)
+				has_building = workshop
+			}
+			78 = { #Serranil (Ceramics)
+				has_building = workshop
+			}
+		}
+		effect = {
+			80 = {
+				add_base_production = 1
+				add_province_modifier = {
+					name = "expanded_production"
+					duration = 9215 #25 Years
+				}
+			}
+			78 = {
+				add_base_production = 1
+				add_province_modifier = {
+					name = "expanded_production"
+					duration = 9215 #25 Years
+				}
+			}
+		}
+	}
+
+	asemont_recovery_mission = {
+		icon = mission_eastern_european_city
+		required_missions = { iwen_workshops_mission }
+		position = 4
+		trigger = {
+			owns_core_province = 82
+			years_of_income = 0.5
+			custom_trigger_tooltip = {
+				tooltip = end_of_asemont_happened_tt
+				has_global_flag = end_of_asemont_happened
+			}
+			82 = {
+				base_production = 8
+			}
+		}
+		effect = {
+			add_years_of_income = -0.5
+			82 = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		}
+	}
+}
+
+IWE_military_missions = {
+	slot = 2
+	ai = no
+	potential = {
+		tag = IWE
+	} #These are triggers for the entire series
+	
+	#missions
+	#1st tier: (they appear in the order scripted here in the interface, all missions within one "series" has an arrow going down to the next one scripted)
+	build_army_mission = { #Localized as reclaim_maine_title and reclaim_maine_desc
+		icon = mission_build_up_to_force_limit
+		required_missions = {  } #None
+		trigger = {
+			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+		}
+	}
+
+	prepare_for_independence_mission = {
+		icon = mission_italian_condottiere
+		required_missions = { build_army_mission expand_asemont_mission }
+		trigger = {
+			share_of_starting_income = 1.5
+		}
+		effect = {
+			add_country_modifier = {
+				name = "military_expansion"
+				duration = 9125 #25 years
+			}
+		}
+	}
+}
+
+
+#2nd mission series:
+IWE_diplomatic_missions = {
+	slot = 3
+	
+	potential = {
+		tag = IWE
+	}
+	
+	acquire_benefactor_mission = {
+		icon = mission_alliances
+		required_missions = {  } #none
+		trigger = {
+			SHE = {
+				is_supporting_independence_of = ROOT
+			}
+		}
+		effect = {
+			create_general = { 
+				tradition = 50
+				add_shock = 3
+			}
+		}
+	}
+
+	befriend_other_duchies_mission = {
+		icon = mission_alliances
+		required_missions = { acquire_benefactor_mission }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = befriend_other_duchies_trigger_tt
+				
+				OR = {
+					KYT = {
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}
+					}
+					ANO = {
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}
+					}
+					TIT = {
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}
+					}
+					MAT = {
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}
+					}
+					LUR = {
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = befriend_other_duchies_tt
+			hidden_effect = {
+				KYT = {
+					if = {
+						limit = {
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+						}
+						add_liberty_desire = 15
+					}
+				}
+				ANO = {
+					if = {
+						limit = {
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+						}
+						add_liberty_desire = 15
+					}
+				}
+				MAT = {
+					if = {
+						limit = {
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+						}
+						add_liberty_desire = 15
+					}
+				}
+				LUR = {
+					if = {
+						limit = {
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+						}
+						add_liberty_desire = 15
+					}
+				}
+				TIT = {
+					if = {
+						limit = {
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+						}
+						add_liberty_desire = 15
+					}
+				}
+			}
+		}
+	}
+
+	independence_war_mission = {
+		icon = mission_cannons_firing
+		position = 3
+		required_missions = { prepare_for_independence_mission befriend_other_duchies_mission } #none
+		trigger = {
+			OR = {
+				war_with = KYA
+				is_subject = no
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "full_elan"
+				duration = 1825 #5 Years
+			}
+		}
+	}
+
+	independence_mission = {
+		icon = mission_empire
+		position = 4
+		required_missions = { } #none
+		trigger = {
+			NOT = {
+				war_with = KYA
+			}
+			is_subject = no
+		}
+		effect = {
+			add_prestige = 30
+		}
+	}
+}
+
+ #3nd mission series:
+IWE_administrative_missions = {
+	slot = 4
+	
+	potential = {
+		tag = IWE
+	}
+	cradle_trade_mission = {
+		icon = mission_hanseatic_city
+		required_missions = {  } #None
+		trigger = {
+			80 = {
+				has_building = marketplace
+			}
+			num_of_light_ship = 10
+		}
+		effect = {
+			add_country_modifier = {
+				name = "trade_income_increase"
+				duration = 9125 #25 years
+			}
+		}
+	}
+}

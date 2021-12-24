@@ -19,6 +19,7 @@ change_estate_land_share = {
 	estate = estate_burghers
 	share = -5
 }
+add_liberty_desire = -10
 
 
 1240.9.16 = {

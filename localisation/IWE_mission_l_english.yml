@@ -1,0 +1,26 @@
+﻿l_english:
+ expand_asemont_mission_title:0 "Expand Asemont"
+ expand_asemont_mission_desc:0 "Asemont is the largest copper mine in the world, yet many known veins of the orange silver still remain unexplored. We could expand the production there and reap massive benefits."
+ iwen_workshops_mission_title:0 "Iwen Workshops"
+ iwen_workshops_mission_desc:0 "Expanding upon Iwenlumy's industrial potential would be a great source of wealth."
+ asemont_recovery_mission_title:0 "Asemont Recovery"
+ asemont_recovery_mission_desc:0 "Asemont has been humbled. Working towards restoring Asemont would be a good way to revitalizing our economy."
+ end_of_asemont_happened_tt:0 "Razing or Fading of Asemont Occurred"
+
+ prepare_for_independence_mission_title:0 "Prepare for Independence"
+ prepare_for_independence_mission_desc:0 "Iwenlumy has long been the richest duchy under Kyathi rule. We have long had our own military, navy, and even economy. Our ports face directly towards the Cradle while the Kyathi's do not. We are on the opposite side of a mountain range. We deserve independence and we will devote our efforts towards it."
+ 
+ acquire_benefactor_mission_title:0 "Acquire Benefactor"
+ acquire_benefactor_mission_desc:0 "With clamors for independence circling about, we need a benefactor to aid us when the time is needed. Shemsele, a country long rivaled to Kyath, would be a great ally in any fight against our overlords."
+ befriend_other_duchies_mission_title:0 "Befriend other Duchies"
+ befriend_other_duchies_mission_desc:0 "Other Duchies under Kyathi rule may not be so inclined to support Kyath either. If we manage to woo them, then they may join our cause."
+ befriend_other_duchies_trigger_tt:0 "Any Kyathi Subject has over 100 relations with Iwenlumy"
+ befriend_other_duchies_tt:0 "Every Kyathi duchy you have over 100 relations with will gain 15 liberty desire."
+ independence_war_mission_title:0 "Independence War"
+ independence_war_mission_desc:0 "To War!"
+
+ independence_mission_title:0 "Independence!"
+ independence_mission_desc:0 "We can now choose our own destiny"
+
+ cradle_trade_mission_title:0 "Cradle Trade"
+ cradle_trade_mission_desc:0 "Trade in the Cradle is among the most lucrative in the world. If we can exploit it, then our coffers will most certainly not complain."
