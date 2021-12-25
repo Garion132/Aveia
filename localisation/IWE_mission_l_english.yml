@@ -9,10 +9,11 @@
  
  acquire_benefactor_mission_title:0 "Acquire Benefactor"
  acquire_benefactor_mission_desc:0 "With clamors for independence circling about, we need a benefactor to aid us when the time is needed. Shemsele, a country long rivaled to Kyath, would be a great ally in any fight against our overlords."
+ acquire_benefactor_tt:0 "Every Kyathi Subject gains 5 liberty desire."
  befriend_other_duchies_mission_title:0 "Befriend other Duchies"
  befriend_other_duchies_mission_desc:0 "Other Duchies under Kyathi rule may not be so inclined to support Kyath either. If we manage to woo them, then they may join our cause."
- befriend_other_duchies_trigger_tt:0 "Any Kyathi Subject has over 100 relations with Iwenlumy"
- befriend_other_duchies_tt:0 "Every Kyathi duchy you have over 100 relations with will gain 15 liberty desire."
+ befriend_other_duchies_trigger_tt:0 "Any Kyathi Subject has over 125 relations with Iwenlumy"
+ befriend_other_duchies_tt:0 "Every Kyathi duchy you have over 125 relations with will gain 25 liberty desire."
  independence_war_mission_title:0 "Independence War"
  independence_war_mission_desc:0 "To War!"
 

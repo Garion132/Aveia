@@ -22,7 +22,7 @@ IWE_economic_missions = {
 				add_base_production = 1
 				add_province_modifier = {
 					name = "expanded_production"
-					duration = 9215 #25 Years
+					duration = 9125 #25 Years
 				}
 			}
 		}
@@ -46,14 +46,14 @@ IWE_economic_missions = {
 				add_base_production = 1
 				add_province_modifier = {
 					name = "expanded_production"
-					duration = 9215 #25 Years
+					duration = 9125 #25 Years
 				}
 			}
 			78 = {
 				add_base_production = 1
 				add_province_modifier = {
 					name = "expanded_production"
-					duration = 9215 #25 Years
+					duration = 9125 #25 Years
 				}
 			}
 		}
@@ -184,6 +184,7 @@ IWE_military_missions = {
 			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
 		}
 		effect = { #This is what you get after you finished your mission.
+			add_liberty_desire = 5
 			add_country_modifier = {
 				name = "thriving_arms_industry"
 				duration = 9125 #25 years
@@ -195,9 +196,10 @@ IWE_military_missions = {
 		icon = mission_italian_condottiere
 		required_missions = { build_army_mission expand_asemont_mission }
 		trigger = {
-			share_of_starting_income = 1.5
+			share_of_starting_income = 0.9
 		}
 		effect = {
+			add_liberty_desire = 10
 			add_country_modifier = {
 				name = "military_expansion"
 				duration = 9125 #25 years
@@ -250,9 +252,28 @@ IWE_diplomatic_missions = {
 			}
 		}
 		effect = {
+			custom_tooltip = acquire_benefactor_tt
 			create_general = { 
 				tradition = 50
 				add_shock = 3
+			}
+			hidden_effect = {
+				add_liberty_desire = 5
+				KYT = {
+					add_liberty_desire = 5
+				}
+				ANO = {
+					add_liberty_desire = 5
+				}
+				TIT = {
+					add_liberty_desire = 5
+				}
+				MAT = {
+					add_liberty_desire = 5
+				}
+				LUR = {
+					add_liberty_desire = 5
+				}
 			}
 		}
 	}
@@ -268,31 +289,31 @@ IWE_diplomatic_missions = {
 					KYT = {
 						has_opinion = {
 							who = ROOT
-							value = 100
+							value = 125
 						}
 					}
 					ANO = {
 						has_opinion = {
 							who = ROOT
-							value = 100
+							value = 125
 						}
 					}
 					TIT = {
 						has_opinion = {
 							who = ROOT
-							value = 100
+							value = 125
 						}
 					}
 					MAT = {
 						has_opinion = {
 							who = ROOT
-							value = 100
+							value = 125
 						}
 					}
 					LUR = {
 						has_opinion = {
 							who = ROOT
-							value = 100
+							value = 125
 						}
 					}
 				}
@@ -306,10 +327,10 @@ IWE_diplomatic_missions = {
 						limit = {
 							has_opinion = {
 								who = ROOT
-								value = 100
+								value = 125
 							}
 						}
-						add_liberty_desire = 15
+						add_liberty_desire = 25
 					}
 				}
 				ANO = {
@@ -317,10 +338,10 @@ IWE_diplomatic_missions = {
 						limit = {
 							has_opinion = {
 								who = ROOT
-								value = 100
+								value = 125
 							}
 						}
-						add_liberty_desire = 15
+						add_liberty_desire = 25
 					}
 				}
 				MAT = {
@@ -328,10 +349,10 @@ IWE_diplomatic_missions = {
 						limit = {
 							has_opinion = {
 								who = ROOT
-								value = 100
+								value = 125
 							}
 						}
-						add_liberty_desire = 15
+						add_liberty_desire = 25
 					}
 				}
 				LUR = {
@@ -339,10 +360,10 @@ IWE_diplomatic_missions = {
 						limit = {
 							has_opinion = {
 								who = ROOT
-								value = 100
+								value = 125
 							}
 						}
-						add_liberty_desire = 15
+						add_liberty_desire = 25
 					}
 				}
 				TIT = {
@@ -350,10 +371,10 @@ IWE_diplomatic_missions = {
 						limit = {
 							has_opinion = {
 								who = ROOT
-								value = 100
+								value = 125
 							}
 						}
-						add_liberty_desire = 15
+						add_liberty_desire = 25
 					}
 				}
 			}
