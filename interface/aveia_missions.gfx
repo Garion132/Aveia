@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	#Iwenlumy
+	spriteType = {
+		name = "mission_iron_mining"
+		texturefile = "gfx//interface//missions//mission_iron_mining.tga"
+	}
+	spriteType = {
+		name = "mission_iwenlumy_world_power"
+		texturefile = "gfx//interface//missions//mission_iwenlumy_world_power.dds"
+	}
+
+}

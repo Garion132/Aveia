@@ -3,9 +3,6 @@
  expand_asemont_mission_desc:0 "Asemont is the largest copper mine in the world, yet many known veins of the orange silver still remain unexplored. We could expand the production there and reap massive benefits."
  iwen_workshops_mission_title:0 "Iwen Workshops"
  iwen_workshops_mission_desc:0 "Expanding upon Iwenlumy's industrial potential would be a great source of wealth."
- asemont_recovery_mission_title:0 "Asemont Recovery"
- asemont_recovery_mission_desc:0 "Asemont has been humbled. Working towards restoring Asemont would be a good way to revitalizing our economy."
- end_of_asemont_happened_tt:0 "Razing or Fading of Asemont Occurred"
 
  prepare_for_independence_mission_title:0 "Prepare for Independence"
  prepare_for_independence_mission_desc:0 "Iwenlumy has long been the richest duchy under Kyathi rule. We have long had our own military, navy, and even economy. Our ports face directly towards the Cradle while the Kyathi's do not. We are on the opposite side of a mountain range. We deserve independence and we will devote our efforts towards it."
@@ -19,11 +16,32 @@
  independence_war_mission_title:0 "Independence War"
  independence_war_mission_desc:0 "To War!"
 
+ cradle_trade_mission_title:0 "Cradle Trade"
+ cradle_trade_mission_desc:0 "Trade in the Cradle is among the most lucrative in the world. If we can exploit it, then our coffers will most certainly not complain."
+ monopolize_the_cradle_mission_title:0 "Monopolize the Cradle"
+ monopolize_the_cradle_mission_desc:0 "Exploiting the trade in the Cradle is not enough. Monopolizing it would benefit us immmensely."
+ heart_of_the_world_mission_title:0 "Heart of the World"
+ heart_of_the_world_mission_desc:0 "The Cradle is the center of the globe and global trade. Its wealth shall be our wealth. Its future our future. And the pulse of our nation shall be the pulse of the world."
+
+
  independence_mission_title:0 "Independence!"
  independence_mission_desc:0 "We can now choose our own destiny"
 
- cradle_trade_mission_title:0 "Cradle Trade"
- cradle_trade_mission_desc:0 "Trade in the Cradle is among the most lucrative in the world. If we can exploit it, then our coffers will most certainly not complain."
+ iron_mining_mission_title:0 "Iron Mining"
+ iron_mining_mission_desc:0 "The Iron Calamity has taught us one thing: Iron is the future of warfare. Thus, we should prospect into the hills outside of the capital for iron."
+ smiths_of_iron_mission_title:0 "Smiths of Iron"
+ smiths_of_iron_mission_desc:0 "We should encourage a domestic iron industry so to guarantee our safety in the future."
+ steelmaking_mission_title:0 "Steelmaking"
+ steelmaking_mission_desc:0 "The prospects of iron glow brighter as a new method of purposely infusing iron with charcoal or some other substance has been discovered that greatly strengthens the metal."
+ new_asemont_mission_title:0 "New Asemont"
+ new_asemont_mission_desc:0 "Asemont was once the center of the Bronze-Age world. Now, in the times of iron, Arrel shall be the center of the world of metals."
+
+ asemont_recovery_mission_title:0 "Asemont Recovery"
+ asemont_recovery_mission_desc:0 "Asemont has been humbled. Working towards restoring Asemont would be a good way to revitalizing our economy."
+ end_of_asemont_happened_tt:0 "Razing or Fading of Asemont Occurred"
+
+
+ 
 
  join_the_scramble_mission_title:0 "Join the Scramble"
  join_the_scramble_mission_desc:0 "Everyone is scrambling to colonize Elteria. If we join, then we may obtain part of the land and wealth of the continent."

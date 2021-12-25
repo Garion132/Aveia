@@ -59,27 +59,110 @@ IWE_economic_missions = {
 		}
 	}
 
-	asemont_recovery_mission = {
-		icon = mission_eastern_european_city
-		required_missions = { iwen_workshops_mission }
-		position = 4
+	iron_mining_mission = {
+		icon = mission_iron_mining
+		required_missions = { independence_mission iwen_workshops_mission }
+		position = 5
 		trigger = {
-			owns_core_province = 82
+			owns_core_province = 81
 			years_of_income = 0.5
-			custom_trigger_tooltip = {
-				tooltip = end_of_asemont_happened_tt
-				has_global_flag = end_of_asemont_happened
-			}
-			82 = {
-				base_production = 8
+			mil_tech = 11
+			81 = {
+				trade_goods = iron
 			}
 		}
 		effect = {
 			add_years_of_income = -0.5
-			82 = {
-				add_base_tax = 1
-				add_base_production = 3
-				add_base_manpower = 1
+			81 = {
+				add_province_modifier = {
+					name = "iwen_iron_mines_1"
+					duration = -1
+				}
+				add_province_modifier = {
+					name = "expanded_production"
+					duration = 3650 #10 Years
+				}
+			}
+		}
+	}
+
+	smiths_of_iron_mission = {
+		icon = mission_iron_mining
+		required_missions = { iron_mining_mission }
+		position = 6
+		trigger = {
+			owns_core_province = 81
+			years_of_income = 0.5
+			mil_tech = 14
+		}
+		effect = {
+			add_years_of_income = -0.5
+			81 = {
+				hidden_effect = {
+					remove_province_modifier = iwen_iron_mines_1
+				}
+				add_province_modifier = {
+					name = "iwen_iron_mines_2"
+					duration = -1
+				}
+				add_province_modifier = {
+					name = "expanded_production"
+					duration = 3650 #10 Years
+				}
+			}
+		}
+	}
+
+	steelmaking_mission = {
+		icon = mission_rb_build_furnaces
+		required_missions = { smiths_of_iron_mission }
+		position = 7
+		trigger = {
+			owns_core_province = 81
+			years_of_income = 0.5
+			mil_tech = 21
+		}
+		effect = {
+			add_years_of_income = -0.5
+			81 = {
+				hidden_effect = {
+					remove_province_modifier = iwen_iron_mines_2
+				}
+				add_province_modifier = {
+					name = "iwen_iron_mines_3"
+					duration = -1
+				}
+				add_province_modifier = {
+					name = "expanded_production"
+					duration = 3650 #10 Years
+				}
+			}
+		}
+	}
+
+	new_asemont_mission = {
+		icon = mission_pacify_the_berbers
+		required_missions = { steelmaking_mission }
+		position = 8
+		trigger = {
+			owns_core_province = 81
+			years_of_income = 0.5
+			adm_tech = 26
+		}
+		effect = {
+			add_years_of_income = -0.5
+			81 = {
+				hidden_effect = {
+					remove_province_modifier = iwen_iron_mines_3
+				}
+				add_province_modifier = {
+					name = "iwen_iron_mines_4"
+					duration = -1
+				}
+				add_province_modifier = {
+					name = "expanded_production"
+					duration = 3650 #10 Years
+				}
 			}
 		}
 	}
@@ -118,6 +201,32 @@ IWE_military_missions = {
 			add_country_modifier = {
 				name = "military_expansion"
 				duration = 9125 #25 years
+			}
+		}
+	}
+
+	#Not military, but it's here anyway
+	asemont_recovery_mission = {
+		icon = mission_eastern_european_city
+		required_missions = { iwen_workshops_mission }
+		position = 3
+		trigger = {
+			owns_core_province = 82
+			years_of_income = 0.5
+			custom_trigger_tooltip = {
+				tooltip = end_of_asemont_happened_tt
+				has_global_flag = end_of_asemont_happened
+			}
+			82 = {
+				base_production = 8
+			}
+		}
+		effect = {
+			add_years_of_income = -0.5
+			82 = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -296,7 +405,7 @@ IWE_administrative_missions = {
 		icon = mission_hanseatic_city
 		required_missions = {  } #None
 		trigger = {
-			80 = {
+			capital_scope = {
 				has_building = marketplace
 			}
 			num_of_light_ship = 10
@@ -305,6 +414,44 @@ IWE_administrative_missions = {
 			add_country_modifier = {
 				name = "trade_income_increase"
 				duration = 9125 #25 years
+			}
+		}
+	}
+	monopolize_the_cradle_mission = {
+		icon = mission_rb_grow_the_channel
+		required_missions = { cradle_trade_mission } #None
+		trigger = {
+			33 = { #Great Cradle
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "monopolized_the_cradle"
+				duration = -1
+			}
+		}
+	}
+	heart_of_the_world_mission = {
+		icon = mission_iwenlumy_world_power
+		required_missions = { monopolize_the_cradle_mission } #None
+		trigger = {
+			33 = { #Great Cradle
+				trade_share = {
+					country = ROOT
+					share = 90
+				}
+				highest_value_trade_node = yes
+			}
+		}
+		effect = {
+			remove_country_modifier = monopolized_the_cradle
+			add_country_modifier = {
+				name = "heart_of_the_world"
+				duration = -1
 			}
 		}
 	}

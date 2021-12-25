@@ -8,8 +8,31 @@
 	expanded_production = {
 		trade_goods_size_modifier = 0.10 #In a province
 	}
+	iwen_iron_mines_1 = {
+		trade_goods_size = 0.25 #In a province
+		trade_value_modifier = -0.1
+	}
+	iwen_iron_mines_2 = {
+		trade_goods_size = 0.33 #In a province
+	}
+	iwen_iron_mines_3 = {
+		trade_goods_size = 0.4 #In a province
+		trade_value_modifier = 0.1
+	}
+	iwen_iron_mines_4 = {
+		trade_goods_size = 0.5 #In a province
+		trade_value_modifier = 0.2
+	}
 	military_expansion = {
 		land_forcelimit_modifier = 0.20
+	}
+	monopolized_the_cradle = {
+		trade_efficiency = 0.15
+	}
+	heart_of_the_world = {
+		trade_efficiency = 0.25
+		trade_steering = 0.33
+		all_power_cost = -0.05
 	}
 
 	#Freyglen
