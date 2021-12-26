@@ -1,0 +1,15 @@
+#tradewind_islands
+capital = "Accra"
+trade_goods = unknown
+hre = no
+add_core = ALM
+owner = ALM
+controller = ALM
+culture = yelioan
+religion = tlaulunorist
+base_tax = 6
+base_production = 3
+base_manpower = 2
+trade_goods = cloth
+discovered_by = lake_elves_group
+extra_cost = 8

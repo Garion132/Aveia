@@ -194,6 +194,12 @@ lildoresi_marches_region ={
 		rauthyr_11
 		rauthyr_13
 		rauthyr_14
+		cradle_islands_1
+		cradle_islands_2
+		cradle_islands_3
+		cradle_islands_4
+		cradle_islands_5
+		cradle_islands_6
 	}
 }
 rauthyr_region ={
@@ -952,6 +958,16 @@ vitaite_hills_region={
 		juluia_49
 		juluia_87
 		juluia_88
+	}
+}
+haqsili_region={
+	areas = {
+		haqsili_1
+		haqsili_2
+		haqsili_3
+		haqsili_4
+		haqsili_5
+		haqsili_6
 	}
 }
 alromita_region={

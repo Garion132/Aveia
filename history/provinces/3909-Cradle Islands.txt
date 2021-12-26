@@ -1,0 +1,15 @@
+#tradewind_islands
+capital = "Accra"
+trade_goods = unknown
+hre = no
+add_core = IDI
+owner = IDI
+controller = IDI
+culture = yelioan
+religion = tlaulunorist
+base_tax = 4
+base_production = 3
+base_manpower = 3
+trade_goods = marble
+discovered_by = lake_elves_group
+extra_cost = 8

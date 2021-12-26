@@ -1,0 +1,14 @@
+add_core = LEL
+owner = LEL
+controller = LEL
+culture = edailian
+religion = tlaulunorist
+hre = no
+base_tax = 1
+base_production =1
+base_manpower = 1
+trade_goods = fish
+capital = "Sal 3"
+is_city = yes
+discovered_by = lake_elves_group
+extra_cost = 0

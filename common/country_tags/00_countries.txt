@@ -178,6 +178,17 @@ LAW = "countries/Ladowia.txt"
 BIH = "countries/Brihal.txt" 
 SWA = "countries/Swania.txt"  
 
+SLK = "countries/Selk.txt"
+SYM = "countries/Symana.txt"
+KML = "countries/Kamele.txt"
+ELS = "countries/Elsa.txt"
+ULS = "countries/Ulsin.txt"
+SMO = "countries/Smotia.txt"
+IDI = "countries/Idiel.txt"
+ORA = "countries/Ora.txt" 
+ALM = "countries/Almet.txt" 
+
+
 
 SIL = "countries/Silowbo_colony.txt"
 OAG = "countries/Oagemins_colony.txt"

@@ -1,0 +1,19 @@
+#tradewind_islands
+capital = "Accra"
+trade_goods = unknown
+hre = no
+add_core = SYM
+owner = SYM
+controller = SYM
+culture = yelioan
+religion = tlaulunorist
+base_tax = 7
+base_production = 4
+base_manpower = 5
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0
+trade_goods = glass
+discovered_by = lake_elves_group
+center_of_trade = 2
+extra_cost = 8

@@ -728,6 +728,10 @@
  PROV3835:0 "Holbelow"
  
  PROV3837:0 "Brihal"
+ 
+ PROV3929:0 "Shizhokno"
+ 
+ PROV3934:0 "Colla"
 
  
  test_province_name:0 "Test Province Name"
