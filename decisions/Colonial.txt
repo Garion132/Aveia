@@ -13,6 +13,11 @@ country_decisions = {
             any_owned_province = {
                 has_port = yes
             }
+			NOT={#thilrana and the empire should not be interested in the scramble - garion132
+				culture = siniersi
+				culture = rake
+				culture_group = aviean_red_kolbold
+			}
 		}
 		allow = {
 			adm_power = 100

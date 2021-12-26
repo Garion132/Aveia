@@ -194,12 +194,6 @@ lildoresi_marches_region ={
 		rauthyr_11
 		rauthyr_13
 		rauthyr_14
-		cradle_islands_1
-		cradle_islands_2
-		cradle_islands_3
-		cradle_islands_4
-		cradle_islands_5
-		cradle_islands_6
 	}
 }
 rauthyr_region ={
@@ -1030,6 +1024,16 @@ cemnia_region={
 		cemnia_12
 		cemnia_13
 		cemnia_14
+	}
+}
+cradle_islands={
+	areas={
+		cradle_islands_1
+		cradle_islands_2
+		cradle_islands_3
+		cradle_islands_4
+		cradle_islands_5
+		cradle_islands_6
 	}
 }
 

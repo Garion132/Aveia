@@ -1,5 +1,5 @@
 #Gugh
-culture = nfanathan
+culture = zsorji
 religion = roresist
 capital = "Accra"
 trade_goods = unknown

@@ -1,6 +1,8 @@
 #haqsili
 capital = "Haqsili"
 trade_goods = unknown
+culture = shizhon
+religion = roresist
 hre = no
 base_tax = 1
 base_production = 1

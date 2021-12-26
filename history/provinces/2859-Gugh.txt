@@ -1,6 +1,5 @@
 #Gugh
-culture = nfanathan
-religion = roresist
+
 capital = "Accra"
 trade_goods = unknown
 hre = no
