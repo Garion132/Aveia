@@ -18,6 +18,9 @@ country_decisions = {
 				culture = rake
 				culture_group = aviean_red_kolbold
 			}
+			NOT={
+				tag = SHE #shemsele should not get colonists
+			}
 		}
 		allow = {
 			adm_power = 100
