@@ -9,5 +9,25 @@ spriteTypes = {
 		name = "mission_iwenlumy_world_power"
 		texturefile = "gfx//interface//missions//mission_iwenlumy_world_power.dds"
 	}
-
+	###FRY MISSION TREE
+	spriteType = {
+		name = "FRY_mission_4_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_4_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_9_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_9_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_18_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_18_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_30_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_30_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_32_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_32_gfx.dds"
+	}
 }
