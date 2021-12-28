@@ -962,6 +962,21 @@ haqsili_region={
 		haqsili_4
 		haqsili_5
 		haqsili_6
+		haqsili_7
+		haqsili_8
+		haqsili_9
+		haqsili_10
+		haqsili_11
+		haqsili_12
+		haqsili_13
+		haqsili_14
+		haqsili_15
+		haqsili_16
+		haqsili_17
+		haqsili_18
+		haqsili_19
+		haqsili_20
+		haqsili_21
 	}
 }
 alromita_region={
