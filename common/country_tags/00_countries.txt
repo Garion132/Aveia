@@ -188,7 +188,8 @@ IDI = "countries/Idiel.txt"
 ORA = "countries/Ora.txt" 
 ALM = "countries/Almet.txt" 
 
-
+SHZ = "countries/Shizho.txt" 
+CAS = "countries/Castry.txt" 
 
 SIL = "countries/Silowbo_colony.txt"
 OAG = "countries/Oagemins_colony.txt"

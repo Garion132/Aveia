@@ -979,6 +979,15 @@ haqsili_region={
 		haqsili_21
 	}
 }
+carenil_region={
+	areas = {
+		carenil_1
+		carenil_2
+		carenil_3
+		carenil_4
+		carenil_5
+	}
+}
 alromita_region={
 	areas = {
 		juluia_90
