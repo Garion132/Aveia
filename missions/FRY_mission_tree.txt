@@ -357,13 +357,13 @@ FRYSOC = {
 		trigger = {
 			NOT = {
    				 estate_influence = {
-        			estate = estate_nobility
+        			estate = estate_nobles
         			influence = 20
     			}
 			}
 			NOT = {
    				 estate_territory = {
-        			estate = estate_nobility
+        			estate = estate_nobles
         			territory = 20
     			}
 			}
