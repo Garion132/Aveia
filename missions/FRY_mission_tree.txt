@@ -334,7 +334,7 @@ FRYSOC = {
 		}
 		position = 1
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
 			##MISSIONTRIGGER
@@ -352,10 +352,21 @@ FRYSOC = {
 		}
 		position = 2
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			NOT = {
+   				 estate_influence = {
+        			estate = estate_nobility
+        			influence = 20
+    			}
+			}
+			NOT = {
+   				 estate_territory = {
+        			estate = estate_nobility
+        			territory = 20
+    			}
+			}
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -370,7 +381,7 @@ FRYSOC = {
 		}
 		position = 4
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
 			##MISSIONTRIGGER
