@@ -369,7 +369,10 @@ FRYSOC = {
 			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = { 
+    			name = FRY_mission_6
+    			hidden = yes
+			}
 		}
 	}
 	##Mission End

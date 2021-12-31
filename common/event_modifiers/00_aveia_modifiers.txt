@@ -48,6 +48,10 @@
 	FRY_mission_4b = {
 		global_tax_income = 0.1
 	}
+	FRY_mission_6 = {
+		noble_influence_modifier = -0.5
+		burghers_influence_modifier = 0.5
+	}
 	FRY_mission_9a = {
 		build_cost = -0.25
 	}
