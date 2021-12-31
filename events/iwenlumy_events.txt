@@ -1,0 +1,276 @@
+namespace = iwenlumy
+
+#A Most Rowdy Duchy
+country_event = {
+	id = iwenlumy.1
+	title = iwenlumy.1.t
+	desc = iwenlumy.1.d
+	
+	is_triggered_only = yes
+
+	option = { #Make Vague Threats 
+		name = iwenlumy.1.a
+		add_prestige = 5
+		IWE = {
+			add_liberty_desire = -10
+			country_event = { id = iwenlumy.4 days = 3 }
+		}
+
+		ai_chance = {
+			factor = 35
+			modifier = {
+				factor = 2
+				has_estate_privilege = estate_nobles_strong_duchies
+			}
+		}
+	}
+	option = { #Push on our Claim
+		name = iwenlumy.1.b
+		custom_tooltip = iwenlumy.1.b.tt
+		add_country_modifier = {
+			name = "unjustified_actions"
+			duration = 1825 #5 years
+		}
+		add_prestige = -5
+		79 = {
+			add_claim = KYA
+		}
+		reverse_add_opinion  = {
+			who = IWE
+			modifier = opinion_iwe_broke_compromise
+		}
+		IWE = {
+			add_liberty_desire = 10
+			country_event = { id = iwenlumy.2 days = 3 }
+		}
+		if = {
+			limit = {
+				has_estate_privilege = estate_nobles_strong_duchies
+			}
+			custom_tooltip = iwenlumy.1.b.tt2
+			hidden_effect = {
+				KYT = {
+					add_liberty_desire = 10
+				}
+				ANO = {
+					add_liberty_desire = 10
+				}
+				TIT = {
+					add_liberty_desire = 10
+				}
+				MAT = {
+					add_liberty_desire = 10
+				}
+				LUR = {
+					add_liberty_desire = 10
+				}
+			}
+		}
+		else = {
+			custom_tooltip = iwenlumy.1.b.tt3
+			hidden_effect = {
+				KYT = {
+					add_liberty_desire = 5
+				}
+				ANO = {
+					add_liberty_desire = 5
+				}
+				TIT = {
+					add_liberty_desire = 5
+				}
+				MAT = {
+					add_liberty_desire = 5
+				}
+				LUR = {
+					add_liberty_desire = 5
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 25
+		}
+	}
+	option = { #Demand they cease their treason!
+		name = iwenlumy.1.c
+		custom_tooltip = iwenlumy.1.c.tt
+		add_prestige = -15
+		add_country_modifier = {
+			name = "unjustified_actions"
+			duration = 1825 #5 years
+		}
+		IWE = {
+			add_liberty_desire = 10
+			country_event = { id = iwenlumy.3 days = 3 }
+		}
+		if = {
+			limit = {
+				has_estate_privilege = estate_nobles_strong_duchies
+			}
+			custom_tooltip = iwenlumy.1.c.tt2
+			hidden_effect = {
+				KYT = {
+					add_liberty_desire = 15
+				}
+				ANO = {
+					add_liberty_desire = 15
+				}
+				TIT = {
+					add_liberty_desire = 15
+				}
+				MAT = {
+					add_liberty_desire = 15
+				}
+				LUR = {
+					add_liberty_desire = 15
+				}
+			}
+		}
+		else = {
+			custom_tooltip = iwenlumy.1.c.tt3
+			hidden_effect = {
+				KYT = {
+					add_liberty_desire = 10
+				}
+				ANO = {
+					add_liberty_desire = 10
+				}
+				TIT = {
+					add_liberty_desire = 10
+				}
+				MAT = {
+					add_liberty_desire = 10
+				}
+				LUR = {
+					add_liberty_desire = 10
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Kyath Siezes Nennli!
+country_event = {
+	id = iwenlumy.2
+	title = iwenlumy.2.t
+	desc = iwenlumy.2.d
+	
+	is_triggered_only = yes
+
+	option = { #Give it up
+		name = iwenlumy.2.a
+		add_prestige = -25
+		79 = {
+			remove_claim = KYA
+			cede_province = KYA
+			add_core = KYA
+		}
+		KYA = {
+			add_prestige = 5
+		}
+
+		ai_chance = {
+			factor = 90
+		}
+	}
+	option = { #Fight Back!
+		name = iwenlumy.2.b
+		declare_war_with_cb = {
+			who = KYA
+			casus_belli = cb_independence_war
+		}
+		
+		custom_tooltip = iwenlumy.2.b.tt
+		hidden_effect = {
+			KYT = {
+				add_liberty_desire = 10
+			}
+			ANO = {
+				add_liberty_desire = 10
+			}
+			TIT = {
+				add_liberty_desire = 10
+			}
+			MAT = {
+				add_liberty_desire = 10
+			}
+			LUR = {
+				add_liberty_desire = 10
+			}
+		}
+
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+
+#Our Liege Demands we Cease our Treason!
+country_event = {
+	id = iwenlumy.3
+	title = iwenlumy.3.t
+	desc = iwenlumy.3.d
+	
+	is_triggered_only = yes
+
+	option = { #Fine!
+		name = iwenlumy.3.a
+		add_prestige = -50
+		add_liberty_desire = -75
+		custom_tooltip = iwenlumy.3.c.tt
+		add_country_flag = iwe_gave_up_independence
+
+		ai_chance = {
+			factor = 50
+		}
+	}
+	option = { #Fight Back!
+		name = iwenlumy.3.b
+		declare_war_with_cb = {
+			who = KYA
+			casus_belli = cb_independence_war
+		}
+		
+		custom_tooltip = iwenlumy.3.b.tt
+		hidden_effect = {
+			KYT = {
+				add_liberty_desire = 15
+			}
+			ANO = {
+				add_liberty_desire = 15
+			}
+			TIT = {
+				add_liberty_desire = 15
+			}
+			MAT = {
+				add_liberty_desire = 15
+			}
+			LUR = {
+				add_liberty_desire = 15
+			}
+		}
+
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#Our Liege Threatens our Nobles.
+country_event = {
+	id = iwenlumy.4
+	title = iwenlumy.4.t
+	desc = iwenlumy.4.d
+	
+	is_triggered_only = yes
+
+	option = { #Whatever
+		name = iwenlumy.4.a
+		add_prestige = -5
+	}
+}

@@ -4,16 +4,19 @@
  iwen_workshops_mission_title:0 "Iwen Workshops"
  iwen_workshops_mission_desc:0 "Expanding upon Iwenlumy's industrial potential would be a great source of wealth."
 
+ gave_up_independence_tt:0 "Has NOT Given Up Independence"
+
  prepare_for_independence_mission_title:0 "Prepare for Independence"
  prepare_for_independence_mission_desc:0 "Iwenlumy has long been the richest duchy under Kyathi rule. We have long had our own military, navy, and even economy. Our ports face directly towards the Cradle while the Kyathi's do not. We are on the opposite side of a mountain range. We deserve independence and we will devote our efforts towards it."
- 
+ prepare_for_independence_tt:0 "Our Liege will not like this"
+
  acquire_benefactor_mission_title:0 "Acquire Benefactor"
- acquire_benefactor_mission_desc:0 "With clamors for independence circling about, we need a benefactor to aid us when the time is needed. Shemsele, a country long rivaled to Kyath, would be a great ally in any fight against our overlords."
- acquire_benefactor_tt:0 "Every Kyathi Subject gains 5 liberty desire."
+ acquire_benefactor_mission_desc:0 "With clamors for independence circling about, we need a benefactor to aid us when the time is needed. Shemsele, a country long rivaled to Kyath, would be a great ally in any fight against our overlords. Other countries may help as well."
+ acquire_benefactor_tt:0 "Our Liege will not like this\nEvery Kyathi Subject gains §R+5.0%§! Liberty Desire."
  befriend_other_duchies_mission_title:0 "Befriend other Duchies"
  befriend_other_duchies_mission_desc:0 "Other Duchies under Kyathi rule may not be so inclined to support Kyath either. If we manage to woo them, then they may join our cause."
- befriend_other_duchies_trigger_tt:0 "Any Kyathi Subject has over 125 relations with Iwenlumy"
- befriend_other_duchies_tt:0 "Every Kyathi duchy you have over 125 relations with will gain 25 liberty desire."
+ befriend_other_duchies_trigger_tt:0 "Any §YKyathi Subject§! has over §Y125§! opinion of §YIwenlumy§!"
+ befriend_other_duchies_tt:0 "Our Liege will not like this\nEvery §YKyathi Duchy§! you have over §Y125§! relations with will gain §R+25.0%§! Liberty Desire."
  independence_war_mission_title:0 "Independence War"
  independence_war_mission_desc:0 "To War!"
 
@@ -23,7 +26,9 @@
  monopolize_the_cradle_mission_desc:0 "Exploiting the trade in the Cradle is not enough. Monopolizing it would benefit us immmensely."
  heart_of_the_world_mission_title:0 "Heart of the World"
  heart_of_the_world_mission_desc:0 "The Cradle is the center of the globe and global trade. Its wealth shall be our wealth. Its future our future. And the pulse of our nation shall be the pulse of the world."
-
+ 
+ fortify_kaleere_mission_title:0 "Fortify Kaleere"
+ fortify_kaleere_mission_desc:0 "We ought to fortify the island of Kaleere to offer a better defense against outside invaders."
 
  independence_mission_title:0 "Independence!"
  independence_mission_desc:0 "We can now choose our own destiny"

@@ -196,9 +196,45 @@ IWE_military_missions = {
 		icon = mission_italian_condottiere
 		required_missions = { build_army_mission expand_asemont_mission }
 		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = gave_up_independence_tt
+				NOT = { has_country_flag = iwe_gave_up_independence }
+			}
 			share_of_starting_income = 0.9
 		}
 		effect = {
+			hidden_effect = {
+				if = {
+					limit = {
+						mission_completed = befriend_other_duchies_mission
+					}
+					KYA = {
+						country_event = { id = iwenlumy.1 days = 4 }
+					}
+				}
+				else_if = {
+					limit = {
+						mission_completed = acquire_benefactor_mission
+					}
+					random = { 
+						chance = 50
+
+						KYA = {
+							country_event = { id = iwenlumy.1 days = 9 }
+						}
+					}
+				}
+				else = {
+					random = { 
+						chance = 10
+
+						KYA = {
+							country_event = { id = iwenlumy.1 days = 15 }
+						}
+					}
+				}
+			}
+			custom_tooltip = prepare_for_independence_tt
 			add_liberty_desire = 10
 			add_country_modifier = {
 				name = "military_expansion"
@@ -247,7 +283,11 @@ IWE_diplomatic_missions = {
 		icon = mission_alliances
 		required_missions = {  } #none
 		trigger = {
-			SHE = {
+			custom_trigger_tooltip = {
+				tooltip = gave_up_independence_tt
+				NOT = { has_country_flag = iwe_gave_up_independence }
+			}
+			any_country = {
 				is_supporting_independence_of = ROOT
 			}
 		}
@@ -258,6 +298,27 @@ IWE_diplomatic_missions = {
 				add_shock = 3
 			}
 			hidden_effect = {
+				if = {
+					limit = {
+						mission_completed = prepare_for_independence_mission
+					}
+					random = { 
+						chance = 50
+
+						KYA = {
+							country_event = { id = iwenlumy.1 days = 9 }
+						}
+					}
+				}
+				else = {
+					random = { 
+						chance = 10
+
+						KYA = {
+							country_event = { id = iwenlumy.1 days = 15 }
+						}
+					}
+				}
 				add_liberty_desire = 5
 				KYT = {
 					add_liberty_desire = 5
@@ -282,6 +343,10 @@ IWE_diplomatic_missions = {
 		icon = mission_alliances
 		required_missions = { acquire_benefactor_mission }
 		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = gave_up_independence_tt
+				NOT = { has_country_flag = iwe_gave_up_independence }
+			}
 			custom_trigger_tooltip = {
 				tooltip = befriend_other_duchies_trigger_tt
 				
@@ -322,6 +387,23 @@ IWE_diplomatic_missions = {
 		effect = {
 			custom_tooltip = befriend_other_duchies_tt
 			hidden_effect = {
+				if = {
+					limit = {
+						mission_completed = prepare_for_independence_mission
+					}
+					KYA = {
+						country_event = { id = iwenlumy.1 days = 4 }
+					}
+				}
+				else = {
+					random = { 
+						chance = 50
+
+						KYA = {
+							country_event = { id = iwenlumy.1 days = 9 }
+						}
+					}
+				}
 				KYT = {
 					if = {
 						limit = {
@@ -386,6 +468,10 @@ IWE_diplomatic_missions = {
 		position = 3
 		required_missions = { prepare_for_independence_mission befriend_other_duchies_mission } #none
 		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = gave_up_independence_tt
+				NOT = { has_country_flag = iwe_gave_up_independence }
+			}
 			OR = {
 				war_with = KYA
 				is_subject = no
@@ -484,6 +570,28 @@ IWE_colonial_missions = {
 	potential = {
 		tag = IWE
 	}
+	fortify_kaleere_mission = {
+		icon = mission_retake_ceuta
+		required_missions = { cradle_trade_mission  } #None
+		position = 2
+		trigger = {
+			treasury = 200
+			3912 = { #Kaleere
+				has_building = coastal_defence
+				has_building = fort_15th
+			}
+		}
+		effect = {
+			add_treasury = -200
+			add_prestige = 10
+			3912 = {
+				add_province_modifier = {
+					name = "island_fortress"
+					duration = -1
+				}
+			}
+		}
+	}
 	join_the_scramble_mission = {
 		icon = mission_colonial
 		required_missions = { independence_mission  } #None
@@ -492,6 +600,7 @@ IWE_colonial_missions = {
 			has_country_modifier = scramble_for_elteria
 		}
 		effect = {
+			add_prestige = 10
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
 				duration = 3650 #10 years

@@ -23,6 +23,12 @@
 		trade_goods_size = 0.5 #In a province
 		trade_value_modifier = 0.2
 	}
+	island_fortress = {
+		blockade_force_required = 2.0
+		hostile_disembark_speed = 1.0
+		local_defensiveness = 0.25
+		hostile_fleet_attrition = 1
+	}
 	military_expansion = {
 		land_forcelimit_modifier = 0.20
 	}
@@ -33,6 +39,9 @@
 		trade_efficiency = 0.25
 		trade_steering = 0.33
 		all_power_cost = -0.05
+	}
+	unjustified_actions = {
+		diplomatic_reputation = -2.0
 	}
 
 	#Freyglen
