@@ -26,12 +26,12 @@ FRYADM2 = {
 			add_country_modifier = { 
     			name = FRY_mission_4a
    				duration = 9125
-    			hidden = yes
+    			hidden = no
 			}
 			add_country_modifier = { 
     			name = FRY_mission_4b
    				duration = 9125
-    			hidden = yes
+    			hidden = no
 			}
 		}
 	}
@@ -53,12 +53,12 @@ FRYADM2 = {
 			add_country_modifier = { 
     			name = FRY_mission_9a
    				duration = 9125
-    			hidden = yes
+    			hidden = no
 			}
 			add_country_modifier = { 
     			name = FRY_mission_9b
    				duration = 9125
-    			hidden = yes
+    			hidden = no
 			}
 		}
 	}
@@ -80,12 +80,12 @@ FRYADM2 = {
 			add_country_modifier = { 
     			name = FRY_mission_13a
    				duration = 9125
-    			hidden = yes
+    			hidden = no
 			}
 			add_country_modifier = { 
     			name = FRY_mission_13b
    				duration = 9125
-    			hidden = yes
+    			hidden = no
 			}
 		}
 	}
@@ -107,7 +107,7 @@ FRYADM2 = {
 		effect = {
 			add_country_modifier = { 
     			name = FRY_mission_18
-    			hidden = yes
+    			hidden = no
 			}
 		}
 	}
@@ -371,7 +371,7 @@ FRYSOC = {
 		effect = {
 			add_country_modifier = { 
     			name = FRY_mission_6
-    			hidden = yes
+    			hidden = no
 			}
 		}
 	}
@@ -402,13 +402,16 @@ FRYSOC = {
 		}
 		position = 5
 		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
+			province_id = 2416
 		}
 		trigger = {
 			##MISSIONTRIGGER
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_country_modifier = { 
+    			name = FRY_mission_19
+    			hidden = no
+			}
 		}
 	}
 	##Mission End

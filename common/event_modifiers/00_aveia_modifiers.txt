@@ -67,6 +67,10 @@
 	FRY_mission_18 = {
 		global_colonial_growth = 15
 	}
+	FRY_mission_19 = {
+		global_colonial_growth = 20
+		range = 0.5
+	}
 	
 
 
