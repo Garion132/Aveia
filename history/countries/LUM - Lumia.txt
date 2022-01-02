@@ -1,0 +1,23 @@
+government = merchant_republic
+add_government_reform = merchants_reform
+mercantilism = 25
+primary_culture = vilwinder
+government_rank = 1
+religion = tlaulunorist
+technology_group = lake_elves_group
+capital = 2416 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -100
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 45
+}

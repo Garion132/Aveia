@@ -134,6 +134,50 @@ FRY_ideas = {
 	}
 }
 
+LUM_ideas = {
+	start = {
+		colonists = 2
+		global_colonial_growth = 30
+		range = 0.9
+		global_tax_income = 25
+	}
+
+	bonus = {
+		navy_tradition = 1
+	}
+	
+	trigger = {
+		tag = LUM
+	}
+	free = yes		#will be added at load.
+
+	LUM_idea_1 = {
+		trade_steering = 0.25
+	}
+	LUM_idea_2 = {
+		land_morale = 0.125
+	}
+	LUM_idea_3 = {
+		range = 0.9
+	}
+	LUM_idea_4 = {
+		merc_maintenance_modifier = -0.33
+		mercenary_discipline = 0.25
+	}
+	LUM_idea_5 = {
+		development_cost = -0.1
+		global_tax_modifier = 0.1
+	}
+	LUM_idea_6 = {
+		global_unrest = -2
+		liberty_desire = 15
+	}
+	LUM_idea_7 = {
+		same_culture_advisor_cost = -0.5
+		global_institution_spread = 0.1
+	}
+}
+
 MTN_ideas = {
 	start = {
 		reduced_liberty_desire = 7.5
