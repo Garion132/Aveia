@@ -1,7 +1,7 @@
-government = merchant_republic
+government = republic
 add_government_reform = merchants_reform
 mercantilism = 25
-primary_culture = vilwinder
+primary_culture = villwinder
 government_rank = 1
 religion = tlaulunorist
 technology_group = lake_elves_group
