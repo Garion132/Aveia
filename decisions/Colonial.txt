@@ -14,9 +14,11 @@ country_decisions = {
                 has_port = yes
             }
 			NOT={#thilrana and the empire should not be interested in the scramble - garion132
-				culture = siniersi
-				culture = rake
-				culture_group = aviean_red_kolbold
+				OR={
+					culture = siniersi
+					culture = rake
+					culture_group = aviean_red_kolbold
+				}
 			}
 			NOT={
 				tag = SHE #shemsele should not get colonists
