@@ -468,7 +468,10 @@ FRYSOC = {
 			##MISSIONTRIGGER
 		}
 		effect = {
-			##MISSIONEFFECT
+			country_event = { 
+   				 id = lumia_event.1
+   				 days = 15
+			}
 		}
 	}
 	##Mission End

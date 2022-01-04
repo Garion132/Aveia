@@ -1,0 +1,29 @@
+namespace = lumia_event
+
+country_event = {
+	id = lumia_event.1
+	title = lumia_event.1.t
+	desc = lumia_event1.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = lumia_event.1.a
+
+		hidden_effect = {
+            change_government = republic
+            swap_free_idea_group = yes
+            change_tag = LUM
+			2416 = {
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working 
+					value = 5
+				}
+			}
+		}
+	}
+}
