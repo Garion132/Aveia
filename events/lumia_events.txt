@@ -12,8 +12,8 @@ country_event = {
 
 		hidden_effect = {
             change_government = republic
+            change_tag = LUM			
             swap_free_idea_group = yes
-            change_tag = LUM
 			2416 = {
 				add_institution_embracement = {
 					which = crop_rotation
