@@ -143,6 +143,9 @@ LUM_ideas = {
 	}
 
 	bonus = {
+		country_admin_power = 1
+		country_diplomatic_power = 1
+		cavalry_cost = -0.10
 		navy_tradition = 1
 	}
 	
@@ -155,7 +158,7 @@ LUM_ideas = {
 		trade_steering = 0.25
 	}
 	LUM_idea_2 = {
-		land_morale = 0.125
+		native_assimilation = 0.125
 	}
 	LUM_idea_3 = {
 		range = 0.9
@@ -167,10 +170,12 @@ LUM_ideas = {
 	LUM_idea_5 = {
 		development_cost = -0.1
 		global_tax_modifier = 0.1
+		monthly_gold_inflation_modifier = 0.1
 	}
 	LUM_idea_6 = {
 		global_unrest = -2
-		liberty_desire = 15
+		development_cost = -0.25
+		build_time = 0.10
 	}
 	LUM_idea_7 = {
 		same_culture_advisor_cost = -0.5

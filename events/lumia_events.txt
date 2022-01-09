@@ -3,7 +3,7 @@ namespace = lumia_event
 country_event = {
 	id = lumia_event.1
 	title = lumia_event.1.t
-	desc = lumia_event1.d
+	desc = lumia_event.1.d
 	
 	is_triggered_only = yes
 
