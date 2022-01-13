@@ -161,7 +161,7 @@ LUM_ideas = {
 		native_assimilation = 0.125
 	}
 	LUM_idea_3 = {
-		range = 0.9
+		production_efficiency = 0.25
 	}
 	LUM_idea_4 = {
 		merc_maintenance_modifier = -0.33
