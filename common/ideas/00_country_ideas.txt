@@ -144,9 +144,7 @@ LUM_ideas = {
 
 	bonus = {
 		country_admin_power = 1
-		country_diplomatic_power = 1
 		cavalry_cost = -0.10
-		navy_tradition = 1
 	}
 	
 	trigger = {
@@ -170,10 +168,8 @@ LUM_ideas = {
 	LUM_idea_5 = {
 		development_cost = -0.1
 		global_tax_modifier = 0.1
-		monthly_gold_inflation_modifier = 0.1
 	}
 	LUM_idea_6 = {
-		global_unrest = -2
 		development_cost = -0.25
 		build_time = 0.10
 	}
