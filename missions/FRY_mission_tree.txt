@@ -213,7 +213,7 @@ FRYADM = {
 			province_id = 2416
 		}
 		trigger = {
-			current_income_balance = 4
+
 		}
 		effect = {
 			##MISSIONEFFECT
@@ -231,7 +231,7 @@ FRYADM = {
 			province_id = 2416
 		}
 		trigger = {
-			total_base_tax = 10
+			total_base_tax = 5
 		}
 		effect = {
 			##MISSIONEFFECT
