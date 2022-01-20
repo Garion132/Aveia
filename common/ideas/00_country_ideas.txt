@@ -160,18 +160,15 @@ LUM_ideas = {
 	}
 	LUM_idea_4 = {
 		merc_maintenance_modifier = -0.33
-		mercenary_discipline = 0.25
 	}
 	LUM_idea_5 = {
-		development_cost = -0.1
 		global_tax_modifier = 0.1
 	}
 	LUM_idea_6 = {
 		development_cost = -0.25
-		build_time = 0.10
+		build_time = 0.25
 	}
 	LUM_idea_7 = {
-		same_culture_advisor_cost = -0.5
 		global_institution_spread = 0.1
 	}
 }
