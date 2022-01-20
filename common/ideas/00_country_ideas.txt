@@ -137,9 +137,6 @@ FRY_ideas = {
 LUM_ideas = {
 	start = {
 		colonists = 2
-		global_colonial_growth = 30
-		range = 0.9
-		global_tax_income = 25
 	}
 
 	bonus = {
