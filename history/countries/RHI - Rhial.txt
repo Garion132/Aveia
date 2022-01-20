@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = shizhon
 religion = roresist
 technology_group = great_spiders_group
-capital = 3929 # 
+capital = 3955 # 
 #national_focus = DIP
 #historical_rival = HAB
 
@@ -24,8 +24,8 @@ change_estate_land_share = {
 
 1268.9.16 = {
 	monarch = {
-		name = "Abraka XXIV"
-		dynasty = "Shizhou"
+		name = "Veltok XCII"
+		dynasty = "Rhial"
 		birth_date = 1258.12.3
 		adm = 3
 		dip = 3

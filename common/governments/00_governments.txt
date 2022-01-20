@@ -743,5 +743,12 @@ mannish_tribal = {
 	legacy_government = {
 		native_council_legacy
 	}
+	reform_levels = {
+		feudalism_vs_autocracy = {
+			reforms = {
+				feudalism_reform
+			}
+		}
+	}
 	color = { 195 175 95 }
 }

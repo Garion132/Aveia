@@ -1257,4 +1257,295 @@ country_event = {
 		}
 	}
 }
-
+#12th century crisis - start
+country_event = {
+	id = rauthyr_estate_events.8
+	title = rauthyr_estate_events.8.t
+	desc = rauthyr_estate_events.8.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_kethai_estate_revolt
+							value = estate
+							estate = estate_house_kethai
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_kethai_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_kethai_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_kethai_estate_revolt }
+					}
+					set_province_flag = house_kethai_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_kethai_estate_revolt }
+				clr_province_flag = house_kethai_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = etailia_pretender_rebels
+					size = 1
+					leader_dynasty = "Kethai"
+				}
+			}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_etailia_estate_revolt
+							value = estate
+							estate = estate_house_etailia
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_etailia_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_etailia_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_etailia_estate_revolt }
+					}
+					set_province_flag = house_etailia_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_etailia_estate_revolt }
+				clr_province_flag = house_etailia_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = etailia_pretender_rebels
+					size = 1
+					leader_dynasty = "Etailia"
+				}
+			}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_nyletmi_estate_revolt
+							value = estate
+							estate = estate_house_nyletmi
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_nyletmi_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_nyletmi_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_nyletmi_estate_revolt }
+					}
+					set_province_flag = house_nyletmi_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_nyletmi_estate_revolt }
+				clr_province_flag = house_nyletmi_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = nyletmi_pretender_rebels
+					size = 1
+					leader_dynasty = "Nyletmi"
+				}
+			}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_nyletmi_estate_revolt
+							value = estate
+							estate = estate_house_nyletmi
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_nyletmi_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_nyletmi_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_nyletmi_estate_revolt }
+					}
+					set_province_flag = house_nyletmi_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_nyletmi_estate_revolt }
+				clr_province_flag = house_nyletmi_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = celola_pretender_rebels
+					size = 1
+					leader_dynasty = "Nyletmi"
+				}
+			}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_draumi_estate_revolt
+							value = estate
+							estate = estate_house_draumi
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_draumi_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_draumi_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_draumi_estate_revolt }
+					}
+					set_province_flag = house_draumi_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_draumi_estate_revolt }
+				clr_province_flag = house_draumi_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = draumi_pretender_rebels
+					size = 1
+					leader_dynasty = "Draumi"
+				}
+			}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_lidori_estate_revolt
+							value = estate
+							estate = estate_house_lidori
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_lidori_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_lidori_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_lidori_estate_revolt }
+					}
+					set_province_flag = house_lidori_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_lidori_estate_revolt }
+				clr_province_flag = house_lidori_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = celola_pretender_rebels
+					size = 1
+					leader_dynasty = "Lidori"
+				}
+			}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_celola_estate_revolt
+							value = estate
+							estate = estate_house_celola
+						}
+					}
+					any_owned_province = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_celola_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_celola_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_territory = no
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_celola_estate_revolt }
+					}
+					set_province_flag = house_celola_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_celola_estate_revolt }
+				clr_province_flag = house_celola_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = celola_pretender_rebels
+					size = 1
+					leader_dynasty = "Celola"
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.1.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		
+	}
+}

@@ -1,0 +1,118 @@
+crisis_of_the_12th_century = {
+	potential = {
+		tag = RAU
+		NOT = {
+			has_country_flag = RAU_crisis_12th
+		}
+		NOT={is_year = 1500}
+	}
+
+
+	can_start = {
+		has_any_disaster = no
+		OR={
+			unrest = 1
+			NOT = { stability = 0 }
+			calc_true_if = {
+				NOT = {
+					estate_loyalty = {
+						estate = estate_house_etailia
+						loyalty = 30
+					}
+				}
+				NOT = {
+					estate_loyalty = {
+						estate = estate_house_ketahi
+						loyalty = 30
+					}
+				}
+				NOT = {
+					estate_loyalty = {
+						estate = estate_house_nyletmi
+						loyalty = 30
+					}
+				}
+				NOT = {
+					estate_loyalty = {
+						estate = estate_house_draumi
+						loyalty = 30
+					}
+				}
+				NOT = {
+					estate_loyalty = {
+						estate = estate_house_lidori
+						loyalty = 30
+					}
+				}
+				NOT = {
+					estate_loyalty = {
+						estate = estate_house_celola
+						loyalty = 30
+					}
+				}
+				amount = 3
+			}
+		}
+	}
+	
+	can_stop = {
+		OR = {
+			has_any_disaster = yes
+			NOT = { unrest = 0 }
+		}
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 1
+			NOT = { religious_unity = 1 }
+		}		
+		modifier = {
+			factor = 1
+			revolt_percentage = 0.1
+		}		
+		modifier = {
+			factor = 1
+			NOT = { stability = 0 }
+		}		
+		modifier = {
+			factor = 0.5
+			NOT = { land_maintenance = 1.0 }
+		}
+	}
+
+
+
+
+	
+	can_end = {
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		NOT = { num_of_rebel_armies = 1 }
+		NOT = { unrest = 1 }
+		stability = 1
+	}
+	
+
+	
+
+	modifier = {
+		stability_cost_modifier = 0.5
+		global_trade_goods_size_modifier = -0.33
+	}	
+	
+	
+	on_start = rauthyr_estate_events.8
+	on_end = rauthyr_estate_events.11
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			1000 = 0
+			100 = rauthyr_estate_events.9
+			100 = rauthyr_estate_events.10
+		}
+	}
+}
+

@@ -191,6 +191,12 @@ ALM = "countries/Almet.txt"
 
 SHZ = "countries/Shizho.txt" 
 CAS = "countries/Castry.txt" 
+COL = "countries/Colshan.txt" 
+XAC = "countries/Xacak.txt" 
+YOR = "countries/Yorrok.txt" 
+RHI = "countries/Rhial.txt" 
+AIV = "countries/Aivash.txt" 
+
 
 SIL = "countries/Silowbo_colony.txt"
 OAG = "countries/Oagemins_colony.txt"

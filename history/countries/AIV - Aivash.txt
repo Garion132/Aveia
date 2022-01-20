@@ -1,10 +1,10 @@
-government = mannish_tribal
-add_government_reform = mannish_tribal_reform
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = donamenz
-religion = uzvazism
-technology_group = northern_men_group
-capital = 1137 # 
+primary_culture = shizhon
+religion = roresist
+technology_group = great_spiders_group
+capital = 3957 # 
 #national_focus = DIP
 #historical_rival = HAB
 
@@ -24,11 +24,11 @@ change_estate_land_share = {
 
 1268.9.16 = {
 	monarch = {
-		name = "Kalrien"
-		dynasty = "Laughei"
-		birth_date = 1248.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		name = "Maoliq XXIX"
+		dynasty = "Aivash'qol"
+		birth_date = 1258.12.3
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }
