@@ -1278,7 +1278,6 @@ country_event = {
 						}
 					}
 					any_owned_province = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_kethai_estate_revolt }
@@ -1289,7 +1288,6 @@ country_event = {
 				}
 				random_owned_province = {
 					limit = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_kethai_estate_revolt }
@@ -1301,7 +1299,7 @@ country_event = {
 				limit = { has_province_flag = house_kethai_estate_revolt }
 				clr_province_flag = house_kethai_estate_revolt
 				spawn_rebels = { #Always possible in noble province.
-					type = etailia_pretender_rebels
+					type = kethai_pretender_rebels
 					size = 1
 					leader_dynasty = "Kethai"
 				}
@@ -1316,7 +1314,6 @@ country_event = {
 						}
 					}
 					any_owned_province = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_etailia_estate_revolt }
@@ -1327,7 +1324,6 @@ country_event = {
 				}
 				random_owned_province = {
 					limit = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_etailia_estate_revolt }
@@ -1354,7 +1350,6 @@ country_event = {
 						}
 					}
 					any_owned_province = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_nyletmi_estate_revolt }
@@ -1365,7 +1360,6 @@ country_event = {
 				}
 				random_owned_province = {
 					limit = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_nyletmi_estate_revolt }
@@ -1386,51 +1380,12 @@ country_event = {
 				limit = {
 					NOT = { 
 						development_in_provinces = {
-							has_province_flag = house_nyletmi_estate_revolt
-							value = estate
-							estate = estate_house_nyletmi
-						}
-					}
-					any_owned_province = {
-						is_territory = no
-						is_capital = no
-						is_city = yes
-						NOT = { has_province_flag = house_nyletmi_estate_revolt }
-					}
-					check_reducing_estate_revolt_size_trigger = {
-						FLAG = house_nyletmi_estate_revolt
-					}
-				}
-				random_owned_province = {
-					limit = {
-						is_territory = no
-						is_capital = no
-						is_city = yes
-						NOT = { has_province_flag = house_nyletmi_estate_revolt }
-					}
-					set_province_flag = house_nyletmi_estate_revolt
-				}
-			}
-			every_owned_province = {
-				limit = { has_province_flag = house_nyletmi_estate_revolt }
-				clr_province_flag = house_nyletmi_estate_revolt
-				spawn_rebels = { #Always possible in noble province.
-					type = celola_pretender_rebels
-					size = 1
-					leader_dynasty = "Nyletmi"
-				}
-			}
-			while = {
-				limit = {
-					NOT = { 
-						development_in_provinces = {
 							has_province_flag = house_draumi_estate_revolt
 							value = estate
 							estate = estate_house_draumi
 						}
 					}
 					any_owned_province = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_draumi_estate_revolt }
@@ -1441,7 +1396,6 @@ country_event = {
 				}
 				random_owned_province = {
 					limit = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_draumi_estate_revolt }
@@ -1468,7 +1422,6 @@ country_event = {
 						}
 					}
 					any_owned_province = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_lidori_estate_revolt }
@@ -1479,7 +1432,6 @@ country_event = {
 				}
 				random_owned_province = {
 					limit = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_lidori_estate_revolt }
@@ -1491,7 +1443,7 @@ country_event = {
 				limit = { has_province_flag = house_lidori_estate_revolt }
 				clr_province_flag = house_lidori_estate_revolt
 				spawn_rebels = { #Always possible in noble province.
-					type = celola_pretender_rebels
+					type = lidori_pretender_rebels
 					size = 1
 					leader_dynasty = "Lidori"
 				}
@@ -1506,7 +1458,6 @@ country_event = {
 						}
 					}
 					any_owned_province = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_celola_estate_revolt }
@@ -1517,7 +1468,6 @@ country_event = {
 				}
 				random_owned_province = {
 					limit = {
-						is_territory = no
 						is_capital = no
 						is_city = yes
 						NOT = { has_province_flag = house_celola_estate_revolt }

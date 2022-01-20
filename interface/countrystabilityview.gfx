@@ -9,7 +9,7 @@ spriteTypes = {
 			loadType = "INGAME"
 		}
 		spriteType = {
-			name = "GFX_crisis_of_the_12th_century"
+			name = "GFX_disaster_crisis_of_the_12th_century"
 			texturefile = "gfx//interface//disasters//pol_struggle_for_royal_power_disaster.dds"
 			noOfFrames = 3
 			loadType = "INGAME"

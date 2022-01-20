@@ -4,7 +4,7 @@ crisis_of_the_12th_century = {
 		NOT = {
 			has_country_flag = RAU_crisis_12th
 		}
-		NOT={is_year = 1500}
+		NOT={is_year = 1400}
 	}
 
 
@@ -22,7 +22,7 @@ crisis_of_the_12th_century = {
 				}
 				NOT = {
 					estate_loyalty = {
-						estate = estate_house_ketahi
+						estate = estate_house_kethai
 						loyalty = 30
 					}
 				}
@@ -80,6 +80,60 @@ crisis_of_the_12th_century = {
 			factor = 0.5
 			NOT = { land_maintenance = 1.0 }
 		}
+		modifier = {
+			factor = 1
+			NOT = { 
+				estate_loyalty = {
+					estate = estate_house_etailia
+					loyalty = 30
+				} 
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = { 
+				estate_loyalty = {
+					estate = estate_house_keathi
+					loyalty = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = { 
+				estate_loyalty = {
+					estate = estate_house_nyletmi
+					loyalty = 30
+				} 
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = { 
+				estate_loyalty = {
+					estate = estate_house_draumi
+					loyalty = 30
+				} 
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = { 
+				estate_loyalty = {
+					estate = estate_house_lidori
+					loyalty = 30
+				} 
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = { 
+				estate_loyalty = {
+					estate = estate_house_celola
+					loyalty = 30
+				} 
+			}
+		}
 	}
 
 
@@ -91,6 +145,30 @@ crisis_of_the_12th_century = {
 		NOT = { num_of_rebel_armies = 1 }
 		NOT = { unrest = 1 }
 		stability = 1
+		estate_loyalty = {
+			estate = estate_house_etailia
+			loyalty = 25
+		}
+		estate_loyalty = {
+			estate = estate_house_keathi
+			loyalty = 25
+		}
+		estate_loyalty = {
+			estate = estate_house_nyletmi
+			loyalty = 25
+		}
+		estate_loyalty = {
+			estate = estate_house_draumi
+			loyalty = 25
+		}
+		estate_loyalty = {
+			estate = estate_house_lidori
+			loyalty = 25
+		}
+		estate_loyalty = {
+			estate = estate_house_celola
+			loyalty = 25
+		}
 	}
 	
 

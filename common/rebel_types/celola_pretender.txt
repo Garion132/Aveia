@@ -34,7 +34,13 @@ celola_pretender_rebels = {
 	handle_action_send_missionary = yes		
 	
 	spawn_chance = {
-		factor = 0
+		factor = 1
+		modifier = {
+			factor = 0
+			owner = {
+				NOT={tag = RAU}
+			}
+		}
 	}
  
  	# This is checked for EACH province in the Area of Operations
