@@ -1,6 +1,7 @@
 NDefines.NGame.START_DATE = "1272.8.6"
 
 NDefines.NCountry.ALLOW_ZERO_BASE_VALUES = 1
+NDefines.NCountry.FREE_IDEA_GROUP_COST = 7
 
 NDefines.NMilitary.INF_REGIMENT_MANPOWER_COST = 0.5 -- 500 Men in an infantry regiment
 NDefines.NMilitary.CAV_REGIMENT_MANPOWER_COST = 0.2 -- 200 Men in an airship regiment
