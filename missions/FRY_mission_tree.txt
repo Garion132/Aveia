@@ -213,7 +213,7 @@ FRYADM = {
 			province_id = 2416
 		}
 		trigger = {
-
+			
 		}
 		effect = {
 			##MISSIONEFFECT
