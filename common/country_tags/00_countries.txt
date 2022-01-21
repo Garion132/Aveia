@@ -200,6 +200,8 @@ KRA = "countries/Kratic.txt"
 FLK = "countries/Flaukn.txt"
 YIR = "countries/Yirouk.txt"
 HZO = "countries/Hizorc.txt"
+SUL = "countries/Sulzis.txt"
+ZTE = "countries/Ztenat.txt"
 
 SIL = "countries/Silowbo_colony.txt"
 OAG = "countries/Oagemins_colony.txt"
