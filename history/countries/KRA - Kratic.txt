@@ -1,10 +1,10 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 2
+government_rank = 1
 primary_culture = shizhon
 religion = roresist
 technology_group = great_spiders_group
-capital = 3963 # 
+capital = 3962 # 
 #national_focus = DIP
 #historical_rival = HAB
 
@@ -24,8 +24,8 @@ change_estate_land_share = {
 
 1268.9.16 = {
 	monarch = {
-		name = "Meiloak XVII"
-		dynasty = "Xacak'su"
+		name = "Vikodar XVI"
+		dynasty = "Kratic"
 		birth_date = 1258.12.3
 		adm = 3
 		dip = 3

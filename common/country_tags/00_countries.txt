@@ -195,8 +195,11 @@ COL = "countries/Colshan.txt"
 XAC = "countries/Xacak.txt" 
 YOR = "countries/Yorrok.txt" 
 RHI = "countries/Rhial.txt" 
-AIV = "countries/Aivash.txt" 
-
+AIV = "countries/Aivash.txt"
+KRA = "countries/Kratic.txt"
+FLK = "countries/Flaukn.txt"
+YIR = "countries/Yirouk.txt"
+HZO = "countries/Hizorc.txt"
 
 SIL = "countries/Silowbo_colony.txt"
 OAG = "countries/Oagemins_colony.txt"
