@@ -1,8 +1,11 @@
 #haqsili
 capital = "Haqsili"
-trade_goods = unknown
+trade_goods = fish
 culture = shizhon
 religion = roresist
+add_core = ZAR
+owner = ZAR
+controller = ZAR
 hre = no
 base_tax = 1
 base_production = 1

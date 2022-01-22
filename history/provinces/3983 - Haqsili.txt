@@ -1,6 +1,6 @@
 #haqsili
 capital = "Haqsili"
-trade_goods = unknown
+trade_goods = copper
 culture = shizhon
 religion = roresist
 hre = no

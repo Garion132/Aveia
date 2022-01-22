@@ -202,6 +202,7 @@ YIR = "countries/Yirouk.txt"
 HZO = "countries/Hizorc.txt"
 SUL = "countries/Sulzis.txt"
 ZTE = "countries/Ztenat.txt"
+ZAR = "countries/Zartoc.txt"
 
 SIL = "countries/Silowbo_colony.txt"
 OAG = "countries/Oagemins_colony.txt"
