@@ -761,7 +761,6 @@ mercantilism = {
 	global_prov_trade_power_modifier = 2.0
 	embargo_efficiency = 0.5
 	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
 }
 
 army_tradition = {
@@ -774,8 +773,6 @@ army_tradition = {
 	rr_girondists_influence = 0.1
 	monthly_militarized_society = 0.1
 	nobles_loyalty_modifier = 0.05
-	maratha_loyalty_modifier = 0.05
-	rajput_loyalty_modifier = 0.05
 }
 
 navy_tradition = {
@@ -788,7 +785,6 @@ navy_tradition = {
 	blockade_efficiency = 1
 	sailors_recovery_speed = 0.2
 	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
 }
 
 positive_piety = { #As of 1.23 Legalism
@@ -796,7 +792,6 @@ positive_piety = { #As of 1.23 Legalism
 	global_manpower_modifier = 0.20
 	global_tax_modifier = 0.20
 	church_loyalty_modifier = 0.1
-	dhimmi_loyalty_modifier = -0.1
 }
 
 #For convenience, its multiplied by negative piety in code.
@@ -805,7 +800,6 @@ negative_piety = { #As of 1.23 Mysticism
 	global_missionary_strength = 0.03
 	defensiveness = 0.20
 	church_loyalty_modifier = -0.1
-	dhimmi_loyalty_modifier = 0.1
 }
 
 defender_of_faith = {
@@ -932,15 +926,9 @@ corruption = {
 	global_unrest = -20
 	imperial_mandate = -1
 	church_loyalty_modifier = 0.1
-	maratha_loyalty_modifier = 0.1
 	nobles_loyalty_modifier = 0.1
 	burghers_loyalty_modifier = 0.1
-	vaisyas_loyalty_modifier = 0.1
-	cossacks_loyalty_modifier = 0.1
 	nomadic_tribes_loyalty_modifier = 0.1
-	dhimmi_loyalty_modifier = 0.1
-	jains_loyalty_modifier = 0.1
-	rajput_loyalty_modifier = 0.1
 
 }
 
@@ -1023,15 +1011,9 @@ prestige = {
 	embracement_cost = -0.1
 
 	church_loyalty_modifier = 0.05
-	maratha_loyalty_modifier = 0.05
 	nobles_loyalty_modifier = 0.05
 	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
-	cossacks_loyalty_modifier = 0.05
 	nomadic_tribes_loyalty_modifier = 0.05
-	dhimmi_loyalty_modifier = 0.05
-	jains_loyalty_modifier = 0.05
-	rajput_loyalty_modifier = 0.05
 
 }
 
@@ -1045,7 +1027,6 @@ republican_tradition = {
 	rr_jacobins_influence = 0.1
 	reform_progress_growth = 1.0
 	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
 }
 
 inverse_republican_tradition = {

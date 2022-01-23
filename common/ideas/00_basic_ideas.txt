@@ -67,7 +67,6 @@ plutocracy_ideas = {
 	bonus = {
 		global_institution_spread = 0.10
 		burghers_loyalty_modifier = 0.1
-		vaisyas_loyalty_modifier = 0.1
 	}
 
 	trigger = {
@@ -788,7 +787,6 @@ humanist_ideas = {
 	bonus = {
 		idea_cost = -0.1
 		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
-		dhimmi_loyalty_modifier = 0.1
 	}
 
 	tolerance_idea = {

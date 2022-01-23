@@ -151,7 +151,6 @@ technology = { #Square Rigging
 	naval_maintenance = 0.2
 	enable = early_carrack
 	#New transport (Cog)
-	drydock = yes
 }
 
 technology = { #Marketplaces
@@ -188,7 +187,6 @@ technology = { #Dockyards
 	year = 1443
 	
 	trade_range = 20
-	dock = yes	
 }
 
 technology = { #Trading Companies

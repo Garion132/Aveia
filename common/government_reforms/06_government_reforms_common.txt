@@ -103,8 +103,6 @@ permanent_marathas_council_reform = {
 	}
 	modifiers = {
 		leader_land_shock = 1
-		maratha_influence_modifier = 0.1
-		maratha_loyalty_modifier = 0.05
 		nobles_influence_modifier = -0.1
 		nobles_loyalty_modifier = -0.05
 	}
@@ -131,8 +129,6 @@ governmental_purbias_register_reform = {
 	}
 	modifiers = {
 		recover_army_morale_speed = 0.05
-		rajput_influence_modifier = 0.1
-		rajput_loyalty_modifier = 0.05
 		nobles_influence_modifier = -0.1
 		nobles_loyalty_modifier = -0.05
 	}

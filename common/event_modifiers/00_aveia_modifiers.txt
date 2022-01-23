@@ -49,7 +49,7 @@
 		global_tax_income = 0.1
 	}
 	FRY_mission_6 = {
-		noble_influence_modifier = -0.5
+		nobles_influence_modifier = -0.5
 		burghers_influence_modifier = 0.5
 	}
 	FRY_mission_9a = {

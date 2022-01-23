@@ -24,8 +24,6 @@ feudalism_reform = {
 	modifiers = {
 		vassal_income = 0.25
 		nobles_influence_modifier = 0.05
-		maratha_exclusive_influence_modifier = 0.05
-		rajput_exclusive_influence_modifier = 0.05
 	}
 	ai = {
 		factor = 0.5 #generic
@@ -62,7 +60,6 @@ plutocratic_reform = {
 		merchants = 1
 		nobles_influence_modifier = -0.05
 		burghers_influence_modifier = 0.05
-		vaisyas_influence_modifier = 0.05
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -89,8 +86,6 @@ austrian_archduchy_reform = {
 	modifiers = {
 		liberty_desire_from_subject_development = -0.33
 		nobles_influence_modifier = 0.05
-		maratha_exclusive_influence_modifier = 0.05
-		rajput_exclusive_influence_modifier = 0.05
 	}
 }
 
@@ -780,8 +775,6 @@ quash_noble_power_reform = {
 	modifiers = {
 		global_tax_modifier = 0.1
 		nobles_influence_modifier = -0.1
-		maratha_exclusive_influence_modifier = -0.1
-		rajput_exclusive_influence_modifier = -0.1
 	}
 	ai = {
 		factor = 1
@@ -946,8 +939,6 @@ imperial_nobility_reform = {
 	modifiers = {
 		advisor_cost = -0.1
 		nobles_influence_modifier = -0.2
-		maratha_exclusive_influence_modifier = -0.2
-		rajput_exclusive_influence_modifier = -0.2
 	}
 	ai = {
 		factor = 2.5
@@ -1079,11 +1070,7 @@ of_noble_bearing_reform = {
 	modifiers = {
 		leader_cost = -0.1
 		nobles_influence_modifier = 0.1
-		maratha_exclusive_influence_modifier = 0.1
-		rajput_exclusive_influence_modifier = 0.1
 		nobles_loyalty_modifier = 0.05
-		maratha_exclusive_loyalty_modifier = 0.05
-		rajput_exclusive_loyalty_modifier = 0.05
 	}
 	ai = {
 		factor = 1
