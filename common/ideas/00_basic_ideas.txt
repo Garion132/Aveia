@@ -15,29 +15,29 @@
 		# Basically reduces the Admin cost of a lot of different things
 
 		bonus = {
-			governing_capacity_modifier = 0.25
+			governing_capacity_modifier = 0.15
 		}
 
-		organised_mercenary_payment = {
-			mercenary_cost = -0.10
+		expanding_administrative_capabilities = {
+			expand_administration_cost = -0.25
 		}
 		adaptability = {
-			core_creation = -0.25
+			administrative_efficiency = 0.03
 		}
-		benefits_for_mercenaries = {
-			merc_maintenance_modifier = -0.15
+		stable_governance = {
+			stability_cost_modifier = -0.1
 		}
 		bookkeeping = {
 			interest = -0.5
 		}
-		organised_mercenary_recruitment = {
-			mercenary_manpower = 0.25
+		incorporation = {
+			min_autonomy_in_territories = -0.05
 		}
 		administrative_efficiency_idea = {
 			advisor_pool = 1
 		}
 		civil_servants = {
-			adm_tech_cost_modifier = -0.1
+			governing_capacity = 100
 		}
 
 		ai_will_do = {
@@ -50,10 +50,33 @@
 	}
 	philosophical_ideas = {
 		category = ADM
-		#Like an early Innovative focused on tech, ideas, extra policies, and institutions
+		#Like an early Innovative focused on tech, ideas, and institutions
 
 		bonus = {
+			idea_cost = -0.15
+		}
 
+		
+		scientific_principle = {
+			adm_tech_cost_modifier = -0.05 
+		}
+		establishment_of_schools = {
+			global_institution_spread = 0.15
+		}
+		marketplace_of_ideas = {
+			dip_tech_cost_modifier = -0.05 
+		}
+		role_of_the_citizen = {
+			promote_culture_cost = -0.25
+		}
+		critical_thinking = {
+			advisor_pool = 1
+		}
+		theory_of_war = {
+			mil_tech_cost_modifier = -0.05 
+		}
+		notion_of_rights = {
+			global_unrest = -1
 		}
 
 		ai_will_do = {
@@ -65,8 +88,31 @@
 		#Focused on construction & buildings
 
 		bonus = {
-
+			artillery_bonus_vs_fort = 1
 		}
+
+		construction_techiques = {
+			build_time = -0.15
+		}
+		trigonometry = {
+			build_cost = -0.1
+		}
+		siege_engines = {
+			siege_ability = 0.10
+		}
+		pontoon_bridges = {
+			leader_land_manuever = 1
+		}
+		masonry = {
+			defensiveness = 0.10
+		}
+		aqueducts_and_canals = {
+			development_cost = -0.06
+		}
+		college_of_engineering = {
+			adm_tech_cost_modifier = -0.05 
+		}
+		
 
 		ai_will_do = {
 			factor = 0
@@ -123,10 +169,33 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
+			state_maintenance_modifier = -0.25
+		}
 
+		department_of_justice = {
+			stability_cost_modifier = -0.15
+		}
+		administrative_office = {
+			adm_advisor_cost = -0.25
+		}
+		bureaucratic_process = {
+			administrative_efficiency = 0.03
+		}
+		diplomatic_office = {
+			dip_advisor_cost = -0.25
+		}
+		dispersed_administration = {
+			state_governing_cost = -0.1
+		}
+		military_office = {
+			mil_advisor_cost = -0.25
+		}
+		oversight_council = {
+			yearly_corruption = -0.1
 		}
 		
 		ai_will_do = {
@@ -139,10 +208,11 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
-			idea_cost = -0.1
+			promote_culture_cost = -0.15
 			yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
 		}
 
@@ -182,10 +252,11 @@
 		
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
-			advisor_cost = -0.25
+			possible_adm_policy = 1
 		}
 
 		patron_of_art  = {
@@ -233,17 +304,18 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
-			development_cost = -0.2
+			global_tax_income = 12
 		}
 
 		bureaucracy = {
-			global_tax_modifier = 0.10
+			global_tax_modifier = 0.15
 		}
 		organised_construction = {
-			build_cost = -0.1
+			build_time = -0.1
 		}
 		national_bank = {
 			inflation_reduction = 0.1
@@ -255,7 +327,7 @@
 			global_autonomy = -0.05
 		}
 		nationalistic_enthusiasm = {
-			land_maintenance_modifier = -0.05
+			war_taxes_cost_modifier = -0.50
 		}
 		smithian_economics = {
 			production_efficiency = 0.1
@@ -292,6 +364,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -351,10 +424,34 @@
 
 		trigger = {
 			has_middle_idea = yes
+			adm_tech = 37
 		}
 
 		bonus = {
-			
+			global_trade_goods_size_modifier = 0.1
+		}
+
+		urbanization = {
+			build_cost = -0.1
+		}
+		industrialization = {
+			global_trade_goods_size_modifier = 0.15
+		}
+		centralization_idea = {
+			max_absolutism = 5
+			max_revolutionary_zeal = 5
+		}
+		efficiency = {
+			build_time = -0.15
+		}
+		quantity = {
+			global_manpower_modifier = 0.15
+		}
+		speed = {
+			movement_speed = 0.05
+		}
+		economic_growth = {
+			development_cost = -0.20
 		}
 		
 		ai_will_do = {
@@ -367,10 +464,35 @@
 
 		trigger = {
 			has_middle_idea = yes
+			adm_tech = 37
 		}
 
 		bonus = {
-			
+			all_power_cost = -0.05
+		}
+
+		
+		magical_theory = {
+			idea_cost = -0.15
+		}
+		guedina_working = {
+			artillery_fire = 0.5
+		}
+		alchemy = {
+			global_trade_goods_size_modifier = 0.05
+		}
+		magical_science = {
+			technology_cost = -0.15
+		}
+		byrinification = {
+			development_cost = -0.05
+		}
+		knowledgable_advisors = {
+			advisor_cost = -0.10
+		}
+		airship_optimization = {
+			cavalry_cost = -0.10
+			cavalry_power = 0.10
 		}
 		
 		ai_will_do = {
@@ -395,7 +517,31 @@
 		}
 
 		bonus = {
-			
+			possible_adm_policy = 1
+			max_absolutism = -15
+		}
+
+		advertising = {
+			global_trade_power = 0.15
+		}
+		privatization = {
+			global_tax_modifier = 0.1
+			max_absolutism = -10
+		}
+		invisible_hand = {
+			trade_efficiency = 0.15
+		}
+		free_enterprise = {
+			global_trade_goods_size_modifier = 0.2
+		}
+		protectionism = {
+			mercantilism_cost = -0.5
+		}
+		union_busting = {
+			harsh_treatment_cost = -0.25
+		}
+		laissez_faire_economics = {
+			development_cost = -0.2
 		}
 		
 		ai_will_do = {
@@ -585,6 +731,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -637,6 +784,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -684,6 +832,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -780,6 +929,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -796,6 +946,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -814,6 +965,7 @@
 
 		trigger = {
 			has_middle_idea = yes
+			adm_tech = 37
 		}
 
 		bonus = {
@@ -830,6 +982,7 @@
 
 		trigger = {
 			has_middle_idea = yes
+			adm_tech = 37
 		}
 
 		bonus = {
@@ -1005,6 +1158,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -1042,6 +1196,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -1080,6 +1235,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -1117,6 +1273,7 @@
 
 		trigger = {
 			has_early_idea = yes
+			adm_tech = 16
 		}
 
 		bonus = {
@@ -1153,9 +1310,7 @@
 
 		trigger = {
 			has_early_idea = yes
-		}
-
-		trigger = {
+			adm_tech = 16
 			primitives = no
 		}
 
@@ -1223,12 +1378,14 @@
 			}
 		}
 	}
+
 	#Late (1700+)
 	combined_arms_ideas = {
 		category = MIL
 
 		trigger = {
 			has_middle_idea = yes
+			adm_tech = 37
 		}
 
 		bonus = {
@@ -1244,6 +1401,7 @@
 
 		trigger = {
 			has_middle_idea = yes
+			adm_tech = 37
 		}
 
 		bonus = {

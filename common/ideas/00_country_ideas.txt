@@ -314,7 +314,7 @@ IWE_ideas = {
 		global_trade_goods_size_modifier = 0.25
 	}
 	gleaming_armor = {
-		land_morale = 0.2
+		land_morale = 0.1
 	}	
 	city_of_the_cradle = {
 		diplomatic_reputation = 1.0
