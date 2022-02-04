@@ -58,7 +58,7 @@ ADM:
 DIP:
     Early:
         Trade
-        Colonial
+        Colonial (colonialism)
         Maritime
         Diplomatic
 
@@ -78,7 +78,7 @@ DIP:
     
 MIL:
     Early:
-        Aristocratic, Plutocratic, Tribal, Horde, Native 
+        Aristocratic, Plutocratic, Holy, Horde, Native 
         Leadership
         Logistic
         Mercenary

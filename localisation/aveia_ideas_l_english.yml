@@ -18,3 +18,14 @@
  academy_of_the_cradle_desc:0 ""
  airship_trade:0 "Airship Trade"
  airship_trade_desc:0 ""
+
+ #Generics
+ has_early_idea_tooltip:0 "Has a Bronze-Age Idea Group"
+ has_middle_idea_tooltip:0 "Has an Iron-Age Idea Group"
+ has_late_idea_tooltip:0 "Has a Modern Idea Group"
+
+ philosophical_ideas:0 "Philisophical Ideas"
+ philosophical_ideas_bonus:0 "Philisophical Bonus"
+
+ engineering_ideas:0 "Engineering Ideas"
+ engineering_ideas_bonus:0 "Engineering Bonus"

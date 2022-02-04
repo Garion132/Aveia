@@ -1,0 +1,90 @@
+# SOME META SCRIPT EXAMPLES
+# This also works for Scripted effects the same. Provided arguments will be pasted in
+# wherever the key occurs. If it fails to compile you should get a proper error message
+# and the source generated in the error log. There is no added overhead during runtime but
+# if used extensivley it might make loading time longer.
+#
+# my_test_trigger = {
+#	OR = {
+#		has_country_modifier = $ARG1$_modifier
+#		AND = {
+#			has_country_modifier = $ARG2$_modifier
+#			$CONTEXT$ = {
+#				NOT = { has_country_modifier = $ARG1$_modifier }
+#			}
+#		}
+#	}
+# }
+# Usage:
+# my_test_trigger = { ARG1=foo ARG2=bar CONTEXT=FROM }
+
+#GENERAL TRIGGERS
+has_early_idea = {
+	custom_trigger_tooltip = {
+		tooltip = has_early_idea_tooltip
+		OR = {
+			has_idea_group = administrative_ideas
+			has_idea_group = philosophical_ideas
+			has_idea_group = engineering_ideas
+			has_idea_group = religious_ideas
+
+			has_idea_group = trade_ideas
+			has_idea_group = colonialism_ideas
+			has_idea_group = maritime_ideas
+			has_idea_group = diplomatic_ideas
+
+			has_idea_group = aristocracy_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = horde_ideas
+			has_idea_group = theocracy_ideas
+			has_idea_group = native_ideas
+			has_idea_group = leadership_ideas
+			has_idea_group = logistic_ideas
+			has_idea_group = mercenary_ideas
+		}
+	}
+}
+
+has_middle_idea = {
+	custom_trigger_tooltip = {
+		tooltip = has_middle_idea_tooltip
+		OR = {
+			has_idea_group = bureaucratic_ideas
+			has_idea_group = humanist_ideas
+			has_idea_group = innovativeness_ideas
+			has_idea_group = expansion_ideas
+			has_idea_group = economic_ideas
+
+			has_idea_group = influence_ideas
+			has_idea_group = exploration_ideas
+			has_idea_group = spy_ideas
+			has_idea_group = propaganda_ideas
+			has_idea_group = business_ideas
+
+			has_idea_group = offensive_ideas
+			has_idea_group = defensive_ideas
+			has_idea_group = quality_ideas
+			has_idea_group = quantity_ideas
+			has_idea_group = naval_ideas
+		}
+	}
+}
+
+has_late_idea = {
+	custom_trigger_tooltip = {
+		tooltip = has_late_idea_tooltip
+		OR = {
+			has_idea_group = industrial_ideas
+			has_idea_group = magical_ideas
+			has_idea_group = capitalist_ideas
+
+			has_idea_group = imperialist_ideas
+			has_idea_group = nationalist_ideas
+			has_idea_group = geopolitical_ideas
+
+			has_idea_group = combined_arms_ideas
+			has_idea_group = mass_production_ideas
+			has_idea_group = procurement_ideas
+		}
+	}
+}
