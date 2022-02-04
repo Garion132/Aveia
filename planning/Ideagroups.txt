@@ -1,0 +1,98 @@
+
+
+Idea Groups
+
+OLD
+ADM:
+    Innovative
+    Religious
+    Economic
+    Expansion
+    Administrative
+    Humanist
+
+
+DIP:
+    Espionage
+    Diplomatic
+    Trade
+    Exploration
+    Maritime
+    Influence
+
+
+MIL:
+    Aristocratic
+    Offensive
+    Defensive
+    Quality
+    Quantity
+    Naval
+
+
+
+
+NEW
+ADM:
+    Early: (1250-1450)
+        Administrative
+        Philosophical
+        Engineering
+        Religious
+        
+    Mid: (1450-1700 - Requires 1 Early Idea)
+        Bureaucratic
+        Humanist
+        Innovative
+        Expansion
+        Economic
+    
+    Late: (1700+ - Requires 1 Middle Idea)
+        Industrial
+        Magical
+
+    Combinations:
+        Capitalist - Economic/Industrial & Business/Trade
+
+
+DIP:
+    Early:
+        Trade
+        Colonial
+        Maritime
+        Diplomatic
+
+    Mid:
+        Influence
+        Exploration
+        Espionage
+        Propaganda
+        Business
+    
+    Late:
+        Imperialist
+        Nationalist
+
+    Combinations:
+        Geopolitical - Diplomatic/Influence & Offensive/Naval
+    
+MIL:
+    Early:
+        Aristocratic, Plutocratic, Tribal, Horde, Native 
+        Leadership
+        Logistic
+        Mercenary
+    
+    Mid:
+        Offensive
+        Defensive
+        Quality
+        Quantity
+        Naval
+
+    Late:
+        Combined Arms
+        Mass Production
+
+    Combinations:
+        Procurement - Logistic/Mass Production & Economic/Innovative
