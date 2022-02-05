@@ -1,7 +1,7 @@
 #haqsili
 capital = "Haqsili"
 trade_goods = fish
-culture = shizhon
+culture = ztenin
 religion = roresist
 add_core = ZAR
 owner = ZAR

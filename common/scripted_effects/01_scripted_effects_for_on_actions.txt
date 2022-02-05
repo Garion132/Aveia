@@ -1,7 +1,30 @@
 #Estate Privilege on_action effects are in 01_scripted_effects_for_estates.txt
 
 initialize_schools_effect = { #Used in on_startup on_action
-	
+	if = {
+		limit = { NOT = { has_global_flag = schools_initiated } }
+		set_global_flag = schools_initiated
+		random_country = { #arago courts hate each other
+			limit = {
+				religious_school = {
+					group = roresism_group
+					school = keldic_court
+				}
+			}
+			random_country = {
+				limit = {
+					religious_school = {
+						group = roresism_group
+						school = meanic_court
+					}
+				}
+				set_school_opinion = {
+					who = PREV
+					opinion = -1
+				}
+			}
+		}
+	}
 }
 
 battle_cult_spreading_effect = {

@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = bronze_monarchy
+add_government_reform = palace_economy
 government_rank = 1
 primary_culture = villwinder
 religion = tlaulunorist

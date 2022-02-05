@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = bronze_monarchy
+add_government_reform = palace_economy
 primary_culture = erityian
 religion = tlaulunorist
 technology_group = lake_elves_group

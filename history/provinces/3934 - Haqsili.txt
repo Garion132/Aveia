@@ -1,7 +1,7 @@
 #haqsili
 capital = "Haqsili"
 trade_goods = ceramics
-culture = shizhon
+culture = colshan
 religion = roresist
 add_core = COL
 owner = COL

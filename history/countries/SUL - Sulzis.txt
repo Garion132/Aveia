@@ -1,8 +1,9 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = eximiu_colony
+add_government_reform = eximiu_reform
 government_rank = 1
-primary_culture = shizhon
+primary_culture = ztenin
 religion = roresist
+religious_school = meanic_court
 technology_group = great_spiders_group
 capital = 3992 # 
 #national_focus = DIP

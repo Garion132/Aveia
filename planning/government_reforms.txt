@@ -1,0 +1,37 @@
+Bronze age monarcy:
+	tier 1: Power structure
+		palace economy
+	tier 2: Temple rights
+	
+	tier 3: rights to the forge
+	
+	tier 4: Trade Practices
+	
+	tier 5: Military structure
+	
+	tier 6: switch to next age
+	
+Bronze age League:
+	tier 1: Power structure
+	
+	tier 2: city rights
+	
+	tier 3: rights to the forge
+	
+	tier 4: Trade Practices
+	
+	tier 5: switch to next age
+	
+Iron age monarcy:
+	tier 1: Power structure
+	
+	tier 2: Societal ties
+		family groups
+		
+	tier 3: 
+	
+	tier 4: administrative class
+	
+	tier 5: 
+	
+Eximiu

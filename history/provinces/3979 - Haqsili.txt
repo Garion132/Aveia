@@ -1,7 +1,7 @@
 #haqsili
 capital = "Haqsili"
 trade_goods = spirl
-culture = shizhon
+culture = ztenin
 religion = roresist
 add_core = SUL
 owner = SUL

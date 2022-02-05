@@ -1,7 +1,7 @@
 #haqsili
 capital = "Haqsili"
 trade_goods = tin
-culture = shizhon
+culture = castrine
 religion = roresist
 hre = no
 add_core = CAS

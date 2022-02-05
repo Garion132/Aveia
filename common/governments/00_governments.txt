@@ -752,3 +752,71 @@ mannish_tribal = {
 	}
 	color = { 195 175 95 }
 }
+
+bronze_monarchy = {
+	reform_levels = {
+		feudalism_vs_autocracy = {
+			reforms = {
+				palace_economy
+				dragonic_throne_reform
+				kyathian_council_reform
+				rauosuan_hegemony_reform
+			}
+		}
+		temple_rights = {
+			reforms = {
+				holy_clerks_reform
+				divine_petitions_reform
+			}
+		}
+		rights_to_forge = {
+			reforms = {
+				holy_smiths_reform
+				right_to_forge_reform
+			}
+		}
+	}
+
+	basic_reform = bronze_monarchy_mechanic
+
+	legacy_government = {
+		palace_economy
+		dragonic_throne
+		kyathian_council
+		rauosuan_hegemony
+	}
+
+	# Each group of exclusive reforms are mutually exclusive to each other
+
+	#for any reforms that should be exclusive
+	exclusive_reforms = {
+		kyathian_council_reform
+		dragonic_throne_reform
+		rauosuan_hegemony_reform
+	}
+
+	color = { 130 26 84 }
+}
+eximiu_colony = {
+	reform_levels = {
+		feudalism_vs_autocracy = {
+			reforms = {
+				eximiu_reform
+			}
+		}
+	}
+
+	basic_reform = eximiu_mechanic
+
+	legacy_government = {
+		eximiu
+	}
+
+	# Each group of exclusive reforms are mutually exclusive to each other
+
+	#for any reforms that should be exclusive
+	# exclusive_reforms = {
+	# }
+
+	color = { 226 113 155 }
+}

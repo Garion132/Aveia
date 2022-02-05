@@ -107,6 +107,7 @@ on_startup = {
 		remove_idea_group = logistic_ideas
 		remove_idea_group = mercenary_ideas
 	}
+	initialize_schools_effect = yes
 }
 
 # country

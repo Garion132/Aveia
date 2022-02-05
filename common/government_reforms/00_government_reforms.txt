@@ -112,6 +112,245 @@ feudal_monarchy = {
 
 ####################################
 #
+#bronze age governments
+#
+####################################
+
+palace_economy = {
+	# government mechanics flags go here
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	monarchy = yes
+	modifiers = {
+    	governing_capacity = 150
+		production_efficiency = 0.1
+		global_tax_modifier = 0.05
+		global_autonomy = -0.025
+		development_cost = 0.2
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}
+
+dragonic_throne = {
+	# government mechanics flags go here
+	icon = "parliament_hall"
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	modifiers = {
+    	governing_capacity = 60
+		global_autonomy = -0.05
+		num_accepted_cultures = 2
+	}
+	# potential = {
+		# primary_culture = rake
+	# }
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}
+dragonic_throne_reform = {
+	potential = {
+		primary_culture = rake
+	}
+
+	modifiers = {
+		governing_capacity = 60
+		global_autonomy = -0.05
+		num_accepted_cultures = 2
+	}
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "parliament_hall"
+	allow_normal_conversion = yes
+	legacy_equivalent = dragonic_throne
+	allow_convert = no
+}
+
+kyathian_council = {
+	# government mechanics flags go here
+	icon = "castle"
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	modifiers = {
+		global_manpower_modifier = 0.1
+		diplomatic_upkeep = 2
+		vassal_income = 0.25
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+kyathian_council_reform = {
+	potential = {
+		tag = KYA
+	}
+
+	modifiers = {
+		global_manpower_modifier = 0.1
+		diplomatic_upkeep = 2
+		vassal_income = 0.25
+	}
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "castle"
+	allow_normal_conversion = yes
+	legacy_equivalent = kyathian_council
+	allow_convert = yes
+	lock_level_when_selected = yes
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+rauosuan_hegemony = {
+	# government mechanics flags go here
+	icon = "castle"
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	modifiers = {
+		prestige = 0.5
+		church_influence_modifier = -0.1
+		nobles_influence_modifier = -0.1
+		burghers_influence_modifier = -0.1
+		governing_capacity = 300
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+rauosuan_hegemony_reform = {
+	potential = {
+		tag = RAU
+	}
+	
+	lock_level_when_selected = yes
+	fixed_rank = 3
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "castle"
+	allow_normal_conversion = yes
+	legacy_equivalent = rauosuan_hegemony
+	allow_convert = yes
+	modifiers = {
+		prestige = 0.5
+		church_influence_modifier = -0.1
+		nobles_influence_modifier = -0.1
+		burghers_influence_modifier = -0.1
+		governing_capacity = 300
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+eximiu = {
+	# government mechanics flags go here
+	icon = "parliament_hall"
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	modifiers = {
+    	land_morale = 0.10
+		global_unrest = -1
+		unjustified_demands = -0.1
+		max_absolutism = 5
+	}
+	# potential = {
+		# primary_culture = rake
+	# }
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}
+eximiu_reform = {
+	potential = {
+		primary_culture_group = arago
+	}
+
+	modifiers = {
+		land_morale = 0.10
+		global_unrest = -1
+		unjustified_demands = -0.1
+		max_absolutism = 5
+	}
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "parliament_hall"
+	allow_normal_conversion = yes
+	legacy_equivalent = eximiu
+	allow_convert = no
+}
+
+####################################
+#
 #Monarchies
 #
 ####################################

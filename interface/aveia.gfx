@@ -6,6 +6,16 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
+		name = "GFX_school_meanic_court"
+		texturefile = "gfx//interface//icon_muslim_school_meanic_court.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_school_keldic_court"
+		texturefile = "gfx//interface//icon_muslim_school_keldic_court.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
 		name = "GFX_customs_house"
 		texturefile = "gfx//interface//buildings//latin_customs_house.tga"
 		loadType = "INGAME"

@@ -145,6 +145,7 @@
  enter_scramble_for_elteria_colony_desc:0 "Everyone, including our mother country, is rushing to Elteria for miracle herbs and rumors of silver."
 
  mannish_tribal:0 "Donamenz Tribe"
+ mannish_tribal_reform:0 "Donamenz Tribe"
  mannish_tribal_desc:0 "ToDo"
  PETTY_KINGDOM:0 "Petty Kingdom"
  PETTY_KINGDOM_DESC:0 "ToDo"
@@ -159,6 +160,27 @@
  HIGH_QUEEN:0 "High Queen"
  HIGH_QUEEN_DESC:0 "ToDo"
  
+ palace_economy:0 "Palace Economy"
+ bronze_monarchy_name:0 "Bronze-age Monarchy"
+ holy_clerks_reform:0 "Divine Clerks"
+ bronze_monarchy_mechanic:0 "Bronze-age Monarchy"
+ temple_rights:0 "Temple Rights"
+ divine_petitions_reform:0 "Divine Petitions"
+ rights_to_forge:0 "Rights to Forge"
+ holy_smiths_reforms:0 "Holy Smiths"
+ right_to_forge_reform:0 "Right to Forge"
+ dragonic_throne:0 "Drakonic Throne"
+ ANNEXINVALID_KYA:0 "As Kyath, you may only annex a nation once the Contract of Nalean has expired.\nThe Contract of Nalean will expire on §Y1 January, 1360§!"
+ kyathian_council:0 "Kyathian Council"
+ kyathian_council_reform:0 "Kyathian Council"
+ rauosuan_hegemony:0 "Rauosuan Hegemony"
+ eximiu_colony_name:0 "Anelos Euxate"
+ eximiu_reform:0 "Eximiu"
+ EUXATE:0 "Euxate"
+ ANELATE:0 "Anelate"
+ ANILIU:0 "Aniliu"
+ EUXARCH:0 "Euxarch"
+ 
  northern_men_group:0 "North Manish"
  lake_elves_group:0 "Lake Elves"
  red_scale_nationalist_rebels_name:0 "Red Scale Nationalists"
@@ -167,3 +189,7 @@
  thilrana_rises.2.a:0 "Reign them in"
  thilrana_rises.2.b:0 "Leave the island"
  thilrana_rises.2.c:0 "Invite them to join the empire"
+ 
+ meanic_court:0 "Meanic Court"
+ keldic_court:0 "Keldic Court"
+ 

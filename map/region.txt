@@ -986,6 +986,8 @@ carenil_region={
 		carenil_3
 		carenil_4
 		carenil_5
+		carenil_6
+		carenil_7
 	}
 }
 alromita_region={

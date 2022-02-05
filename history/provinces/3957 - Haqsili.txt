@@ -1,7 +1,7 @@
 #haqsili
 capital = "Haqsili"
 trade_goods = copper
-culture = shizhon
+culture = caltric
 religion = roresist
 add_core = AIV
 owner = AIV

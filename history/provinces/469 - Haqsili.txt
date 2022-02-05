@@ -1,7 +1,7 @@
 #haqsili
 capital = "Haqsili"
 trade_goods = livestock
-culture = shizhon
+culture = ztenin
 religion = roresist
 add_core = ZTE
 owner = ZTE

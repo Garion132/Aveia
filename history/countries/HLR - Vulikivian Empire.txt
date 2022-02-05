@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = bronze_monarchy
+add_government_reform = dragonic_throne_reform
 primary_culture = rake
 religion = vulikivite
 technology_group = lake_elves_group
