@@ -43,6 +43,7 @@ technology = { #Basic Administration
 	year = 1248	
 
 	town_square = yes
+	allowed_idea_groups = 1
 
 	#Monarchies
 	despotic_monarchy = yes	
@@ -70,7 +71,7 @@ technology = { #Recordkeeping
 	# Tech 5
 	year = 1287
 
-	allowed_idea_groups = 1
+	allowed_idea_groups = 2
 }
 
 technology = { #Alchemy
@@ -102,7 +103,7 @@ technology = { #Bronze-Era Administration
 	year = 1339
 	
 	governing_capacity = 50
-	allowed_idea_groups = 2
+	allowed_idea_groups = 3
 	administrative_efficiency = 0.05
 }
 
@@ -139,6 +140,8 @@ technology = { #Religious Revival
 	
 	temple = yes
 	theocratic_government = yes
+	
+	allowed_idea_groups = 4
 }
 
 technology = { #Feudal Society
@@ -163,7 +166,7 @@ technology = { #Expedition Theory
 	# Tech 16
 	year = 1430
 	
-	allowed_idea_groups = 3
+	allowed_idea_groups = 5
 }
 
 technology = { #Courthouse
@@ -204,7 +207,7 @@ technology = { #National Identity
 	# Tech 21
 	year = 1495
 	
-	allowed_idea_groups = 4
+	allowed_idea_groups = 6
 
 	may_support_rebels = yes
 }
@@ -237,7 +240,7 @@ technology = { #Colonial Thought
 	# Tech 25
 	year = 1547
 	
-	allowed_idea_groups = 5
+	allowed_idea_groups = 7
 }
 
 technology = { #Early Modern Administration
@@ -265,6 +268,7 @@ technology = { #Scientific Enquiry
 	year = 1586
 	
 	plantations = yes
+	allowed_idea_groups = 8
 }
 
 technology = { #Military Administration
@@ -281,7 +285,7 @@ technology = { #National Sovereignty
 	# Tech 30
 	year = 1612
 	
-	allowed_idea_groups = 6
+	allowed_idea_groups = 9
 }
 
 technology = { #Viatite Engineering
@@ -297,6 +301,7 @@ technology = { #University
 	# Tech 32
 	year = 1638
 	
+	allowed_idea_groups = 10
 	university = yes	
 	governing_capacity = 250
 	administrative_efficiency = 0.1
@@ -314,7 +319,7 @@ technology = { #Rights of Nations
 	# Tech 34
 	year = 1664
 
-	allowed_idea_groups = 7
+	allowed_idea_groups = 11
 }
 
 technology = { #New Thought
@@ -338,7 +343,7 @@ technology = { #Rights of Mortals
 	year = 1703
 
 
-	allowed_idea_groups = 8
+	allowed_idea_groups = 12
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 	post_office = yes
@@ -366,7 +371,7 @@ technology = { #Empiricism
 	# Tech 40
 	year = 1742
 
-	allowed_idea_groups = 9
+	allowed_idea_groups = 13
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
 }
@@ -399,7 +404,7 @@ technology = { #State and Government
 	# Tech 44
 	year = 1794
 
-	allowed_idea_groups = 10
+	allowed_idea_groups = 14
 	revolutionary_republic = yes
 	revolutionary_empire = yes
 	administrative_efficiency = 0.1

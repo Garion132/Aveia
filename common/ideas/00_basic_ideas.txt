@@ -22,7 +22,7 @@
 			expand_administration_cost = -0.25
 		}
 		adaptability = {
-			administrative_efficiency = 0.03
+			core_creation = -0.10
 		}
 		stable_governance = {
 			stability_cost_modifier = -0.1
@@ -561,8 +561,8 @@
 			merchants = 1
 		}
 
-		shrewd_commerce_practise = {
-			global_trade_power = 0.2
+		powerful_merchants = {
+			placed_merchant_power = 6
 		}
 		free_trade = {
 			merchants = 1
@@ -574,13 +574,13 @@
 			trade_efficiency = 0.1
 		}
 		overseas_merchants = {
-			merchants = 1
+			global_foreign_trade_power = 0.1
 		}
 		trade_manipulation = {
-			trade_steering = 0.25
+			trade_steering = 0.2
 		}
-		fast_negotiations = {
-			caravan_power = 0.25
+		powerful_ships = {
+			global_ship_trade_power = 0.2
 		}
 
 		ai_will_do = {
@@ -598,11 +598,34 @@
 	}
 	colonialism_ideas = {
 		category = DIP
-		#2 colonists & various colonial bonuses
+		#some colonists & various colonial bonuses
 
 		bonus = {
-			
+			global_foreign_trade_power = 0.1
 		}
+
+		colonial_endeavors = {
+			colonists = 1
+		}
+		indentured_servitude = {
+			colonist_placement_chance = 0.05
+		}
+		encourage_families = {
+			global_colonial_growth = 25
+		}
+		colonial_forts = {
+			native_uprising_chance = -0.25
+		}
+		expand_colonies = {
+			colonists = 1
+		}
+		colonial_trade = {
+			merchants = 1
+		}
+		colonial_control = {
+			liberty_desire_from_subject_development = -0.25
+		}
+
 		
 		ai_will_do = {
 			factor = 0
@@ -628,7 +651,7 @@
 		}
 		sheltered_ports = {
 			global_ship_repair = 0.1
-			sailor_maintenance_modifer = -0.1
+			sailor_maintenance_modifer = -0.15
 		}
 		grand_navy = {
 			naval_forcelimit_modifier = 0.5
@@ -933,7 +956,29 @@
 		}
 
 		bonus = {
+			merchants = 1
+		}
 
+		country_of_laws = {
+			global_own_trade_power = 0.1
+		}
+		shrewd_commerce_practise = {
+			global_trade_power = 0.1
+		}
+		corporations = {
+			trade_efficiency = 0.1
+		}
+		free_market = {
+			merchants = 1
+		}
+		fast_negotiations = {
+			caravan_power = 0.2
+		}
+		monopolization = {
+			global_prov_trade_power_modifier = 0.1
+		}
+		center_of_business = {
+			center_of_trade_upgrade_cost = -0.25
 		}
 		
 		ai_will_do = {
@@ -950,7 +995,29 @@
 		}
 
 		bonus = {
+			ae_impact = -0.2
+		}
 
+		war_propaganda = {
+			war_exhaustion = -0.05
+		}
+		encourage_obedience = {
+			global_unrest = -1
+		}
+		infiltrate_foreign_courts = {
+			spy_offence = 0.10
+		}
+		influence_foreigners = {
+			improve_relation_modifier = 0.2
+		}
+		credibility = {
+			diplomatic_reputation = 0.5
+		}
+		flexible_strategies = {
+			unjustified_demands = -0.2
+		}
+		has_always_been_ours = {
+			fabricate_claims_cost = -0.33
 		}
 		
 		ai_will_do = {
@@ -969,7 +1036,33 @@
 		}
 
 		bonus = {
-
+			prestige = 1.0
+		}
+		
+		convoys = {
+			sailor_maintenance_modifer = -0.1
+		}
+		imperial_administration = {
+			governing_cost = -0.05
+			trade_company_governing_cost = -0.25
+		}
+		global_trade = {
+			trade_range_modifier = 0.25
+		}
+		global_navy = {
+			global_sailors_modifier = 0.25
+			naval_forcelimit_modifier = 0.25
+		}
+		global_military = {
+			transport_cost = -0.25
+			free_leader_pool = 1
+		}
+		global_empire_idea = {
+			global_colonial_growth = 50
+			range = 0.5
+		}
+		direct_rule = {
+			max_absolutism = 10
 		}
 		
 		ai_will_do = {
@@ -986,7 +1079,35 @@
 		}
 
 		bonus = {
+			manpower_recovery_speed = 0.2
+			num_accepted_cultures = -1
+		}
 
+		one_nation_one_people = {
+			culture_conversion_cost = -0.25
+			num_accepted_cultures = -1
+			promote_culture_cost = 1
+		}
+		national_pride = {
+			war_exhaustion = -0.05
+		}
+		volunteering = {
+			infantry_power = 0.10
+			global_regiment_cost = -0.10
+		}
+		partisan_raids = {
+			hostile_attrition = 2
+		}
+		for_gods_and_country = {
+			land_morale = 0.10
+		}
+		chauvinism = {
+			enemy_core_creation = 0.33
+		}
+		for_jingo = {
+			recover_army_morale_speed = 0.05
+			land_forcelimit_modifier = 0.20
+			diplomatic_reputation = -1
 		}
 		
 		ai_will_do = {
@@ -1011,7 +1132,38 @@
 		}
 
 		bonus = {
+			possible_dip_policy = 1
+		}
 
+
+		diplomat_in_every_corner = {
+			diplomats = 1
+			envoy_travel_time = -0.2
+		}
+		covert_operations = {
+			spy_offence = 0.2
+		}
+		pragmatism_idea = {
+			improve_relation_modifier = 0.33
+			diplomatic_upkeep = 1
+			rival_change_cost = -0.5
+		}
+		airship_diplomacy = {
+			transfer_trade_power_reasons = 40
+			global_ship_trade_power = 0.25
+		}
+		full_leverage = {
+			accept_vassalization_reasons = 40
+			diplomatic_annexation_cost = -0.2
+		}
+		balance_of_power = {
+			diplomatic_reputation = 2
+			rebel_support_efficiency = 0.5
+		}
+		interventionism = {
+			reduced_stab_impacts = yes
+			ae_impact = -0.1
+			stability_cost_to_declare_war = -1
 		}
 		
 		ai_will_do = {
