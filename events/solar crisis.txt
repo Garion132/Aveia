@@ -11,7 +11,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { is_religion_enabled = essarania }
-		religion = tlaulunorist
+		religion = tlaunorist
 		is_defender_of_faith = no	
 		capital_scope = {
 			continent = aveia
@@ -73,7 +73,7 @@ country_event = {
 	trigger = {
 		NOT = { is_religion_enabled = muthilian }
 		OR={
-			religion = tlaulunorist
+			religion = tlaunorist
 			AND={
 				religion = essarania
 				has_friendly_reformation_center = no
@@ -144,7 +144,7 @@ country_event = {
 	trigger = {
 		NOT = { is_religion_enabled = seriaralia }
 		OR={
-			religion = tlaulunorist
+			religion = tlaunorist
 			AND={
 				religion = essarania
 				has_friendly_reformation_center = no
@@ -295,7 +295,7 @@ country_event = {
 	trigger = {
 		NOT = { is_religion_enabled = cult_progress }
 		OR={
-			religion = tlaulunorist
+			religion = tlaunorist
 			AND={
 				religion = essarania
 				has_friendly_reformation_center = no

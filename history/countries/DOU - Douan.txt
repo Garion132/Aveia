@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = douan
-religion = tlaulunorist
+religion = tlaunorist
 technology_group = lake_elves_group
 capital = 1595 # 
 #national_focus = DIP

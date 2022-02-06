@@ -7207,7 +7207,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		religion = tlaulunorist
+		religion = tlaunorist
 		NOT = {
 			stability = 3
 		}

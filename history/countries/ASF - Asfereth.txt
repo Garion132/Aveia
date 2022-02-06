@@ -1,7 +1,7 @@
 government = republic
 add_government_reform = oligarchy_reform
 primary_culture = siniersi
-religion = tlaulunorist
+religion = tlaunorist
 technology_group = lake_elves_group
 capital = 2266 # 
 #national_focus = DIP

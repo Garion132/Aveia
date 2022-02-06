@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 government_rank = 1
-primary_culture = indorran
-religion = tlaulunorist
 technology_group = lake_elves_group
+primary_culture = indorran
+religion = catholic
 capital = 73 # 

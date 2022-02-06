@@ -12,7 +12,7 @@ iron_age_calamity = {
 	can_start = {
 		OR = {
 			NOT = { stability = 2 }
-			development = 500
+			total_development = 500
 			AND = {
 				is_at_war = yes
 				is_in_deficit = yes

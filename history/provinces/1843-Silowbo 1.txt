@@ -20,6 +20,6 @@ discovered_by = free_fauns_group
 	owner = SIL
 	controller = SIL
 	is_city = yes
-	religion = tlaulunorist
+	religion = tlaunorist
 	culture = athanilan
 }

@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = kyathian
-religion = tlaulunorist
+religion = tlaunorist
 technology_group = lake_elves_group
 capital = 102 # Nionerin
 #national_focus = DIP

@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = rauosuan_hegemony_reform
 primary_culture = lidoran
-religion = tlaulunorist
+religion = tlaunorist
 technology_group = lake_elves_group
 capital = 949 # 
 government_rank = 3

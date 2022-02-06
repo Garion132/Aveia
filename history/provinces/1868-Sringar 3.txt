@@ -21,6 +21,6 @@ discovered_by = free_fauns_group
 	controller = SRI
 	is_city = yes
 	culture = salorian
-	religion = tlaulunorist
+	religion = tlaunorist
 	trade_goods = grain
 }

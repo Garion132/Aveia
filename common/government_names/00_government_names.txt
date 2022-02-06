@@ -3776,7 +3776,7 @@ rake_bronze_monarchy = {
 		3 = HEIR_fem
 	}
 
-	government_reform = bronze_monarchy
+	government_reform = bronze_monarchy_mechanic
 
 	trigger = {
 		has_reform = dragonic_throne_reform
@@ -3825,7 +3825,7 @@ kyath_bronze_monarchy = {
 		3 = HEIR_fem
 	}
 
-	government_reform = bronze_monarchy
+	government_reform = bronze_monarchy_mechanic
 
 	trigger = {
 		has_reform = kyathian_council_reform
@@ -3874,7 +3874,7 @@ rauthyr_bronze_monarchy = {
 		3 = HEIR_fem
 	}
 
-	government_reform = bronze_monarchy
+	government_reform = bronze_monarchy_mechanic
 
 	trigger = {
 		has_reform = rauosuan_hegemony_reform

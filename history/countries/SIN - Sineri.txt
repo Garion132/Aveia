@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = siniersi
-religion = tlaulunorist
+religion = tlaunorist
 technology_group = lake_elves_group
 capital = 2275 # 
 #national_focus = DIP

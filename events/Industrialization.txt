@@ -1246,7 +1246,6 @@ country_event = {
 					}
 					OR = {
 						has_building = workshop
-						has_building = counting_house
 					}
 					province_without_special_goods_produced_trigger = yes
 					base_manpower = 2
@@ -1346,7 +1345,6 @@ country_event = {
 			base_manpower = 2
 			OR = {
 				has_building = workshop
-				has_building = counting_house
 			}
 			OR = {
 				trade_goods = cotton
@@ -1480,8 +1478,6 @@ country_event = {
 				has_building = textile
 				has_building = mills
 				has_building = workshop
-				has_building = counting_house
-				has_building = grand_shipyard
 				trade_goods = coal
 				any_neighbor_province = {
 					owned_by = ROOT
@@ -1669,7 +1665,6 @@ country_event = {
 			}
 			OR = {
 				has_building = weapons
-				has_building = counting_house
 				any_neighbor_province = {
 					owned_by = ROOT
 					trade_goods = coal
@@ -1696,7 +1691,6 @@ country_event = {
 					}
 					OR = {
 						has_building = weapons
-						has_building = counting_house
 						any_neighbor_province = {
 							owned_by = ROOT
 							trade_goods = coal
@@ -1862,7 +1856,6 @@ country_event = {
 			}
 			OR = {
 				has_building = textile
-				has_building = counting_house
 				any_neighbor_province = {
 					owned_by = ROOT
 					trade_goods = coal
@@ -2050,7 +2043,6 @@ country_event = {
 			trade_goods = naval_supplies
 			OR = {
 				has_building = wharf
-				has_building = counting_house
 				any_neighbor_province = {
 					owned_by = ROOT
 					trade_goods = coal

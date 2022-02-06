@@ -39,18 +39,16 @@ country_decisions = {
 		ai_will_do = {
 			factor = 5
             modifier = {
-                modifier = {
-                    factor = 0.2
-                    NOT = { current_income_balance = 4 }
-                }
-                modifier = {
-                    factor = 0
-                    NOT = { current_income_balance = 2 }
-                }
-                modifier = {
-                    factor = 0
-                    NOT = { adm_power = 700 }
-                }
+                factor = 0.2
+                NOT = { current_income_balance = 4 }
+            }
+            modifier = {
+                factor = 0
+                NOT = { current_income_balance = 2 }
+            }
+            modifier = {
+                factor = 0
+                NOT = { adm_power = 700 }
             }
 		}
 	}

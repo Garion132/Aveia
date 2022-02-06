@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = ellorhasian
-religion = tlaulunorist
+religion = tlaunorist
 technology_group = lake_elves_group
 government_rank = 1
 capital = 80 # Iwenlumy

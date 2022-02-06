@@ -2,6 +2,6 @@ government = bronze_monarchy
 add_government_reform = palace_economy
 government_rank = 1
 primary_culture = draumi
-religion = tlaulunorist
+religion = catholic
 technology_group = lake_elves_group
 capital = 1118 # 

@@ -637,7 +637,6 @@ country_event = {
 					has_building = trade_depot
 					has_building = stock_exchange
 					has_building = workshop
-					has_building = counting_house
 				}
 				OR = {
 					trade_goods = gems
@@ -675,7 +674,6 @@ country_event = {
 							has_building = trade_depot
 							has_building = stock_exchange
 							has_building = workshop
-							has_building = counting_house
 						}
 						OR = {
 							trade_goods = gems
@@ -702,7 +700,6 @@ country_event = {
 							has_building = trade_depot
 							has_building = stock_exchange
 							has_building = workshop
-							has_building = counting_house
 						}
 						OR = {
 							trade_goods = gems
@@ -957,7 +954,6 @@ country_event = {
 					has_building = trade_depot
 					has_building = stock_exchange
 					has_building = workshop
-					has_building = counting_house
 				}
 				OR = {
 					trade_goods = gems
@@ -998,7 +994,6 @@ country_event = {
 							has_building = trade_depot
 							has_building = stock_exchange
 							has_building = workshop
-							has_building = counting_house
 						}
 						OR = {
 							trade_goods = gems
@@ -1026,7 +1021,6 @@ country_event = {
 							has_building = trade_depot
 							has_building = stock_exchange
 							has_building = workshop
-							has_building = counting_house
 						}
 						OR = {
 							trade_goods = gems
@@ -1230,7 +1224,6 @@ country_event = {
 					has_building = trade_depot
 					has_building = stock_exchange
 					has_building = workshop
-					has_building = counting_house
 				}
 				NOT = { has_province_modifier = influx_of_foreign_ideas }
 				NOT = { has_province_modifier = traditional_values_supported }
@@ -1258,7 +1251,6 @@ country_event = {
 							has_building = trade_depot
 							has_building = stock_exchange
 							has_building = workshop
-							has_building = counting_house
 						}
 						NOT = { has_province_modifier = influx_of_foreign_ideas }
 						NOT = { has_province_modifier = traditional_values_supported }
@@ -1275,7 +1267,6 @@ country_event = {
 							has_building = trade_depot
 							has_building = stock_exchange
 							has_building = workshop
-							has_building = counting_house
 						}
 						NOT = { has_province_modifier = influx_of_foreign_ideas }
 						NOT = { has_province_modifier = traditional_values_supported }

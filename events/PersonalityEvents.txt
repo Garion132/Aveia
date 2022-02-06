@@ -756,7 +756,6 @@ country_event = {
 		}
 		reduce_estate_church_loyalty_effect = yes
 		reduce_estate_nobles_loyalty_effect = yes
-		add_estate_dhimmi_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_events.13.b" #How could I have been so blind!?
@@ -810,7 +809,6 @@ country_event = {
 		}
 		add_estate_church_loyalty_effect = yes
 		add_estate_nobles_loyalty_effect = yes
-		reduce_estate_dhimmi_loyalty_effect = yes
 	}
 
 }
@@ -1837,12 +1835,10 @@ country_event = {
 			}
 		}
 		add_estate_church_loyalty_effect = yes
-		reduce_estate_dhimmi_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_events.26.b"
 		add_prestige = 10
-		add_estate_dhimmi_loyalty_effect = yes
 	}
 }
 
@@ -2352,7 +2348,6 @@ country_event = {
 						is_capital = yes
 						base_production = 4
 						has_building = workshop
-						has_building = counting_house
 						has_building = tradecompany
 						has_building = plantations
 						has_building = textile

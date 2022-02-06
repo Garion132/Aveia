@@ -363,9 +363,6 @@ province_event = {
 		OR = {
 			has_port = yes
 			has_building = wharf
-			has_building = dock
-			has_building = shipyard
-			has_building = grand_shipyard
 			has_building = marketplace
 			has_building = trade_depot
 			has_building = stock_exchange
@@ -503,7 +500,6 @@ province_event = {
 			has_building = plantations
 			has_building = tradecompany
 			has_building = workshop
-			has_building = counting_house
 			base_production = 8
 		}
 		owner = { has_active_debate = yes }
@@ -987,7 +983,6 @@ province_event = {
 			has_building = plantations
 			has_building = tradecompany
 			has_building = workshop
-			has_building = counting_house
 			base_production = 8
 		}
 		owner = { has_active_debate = yes }
@@ -1113,9 +1108,6 @@ province_event = {
 		has_seat_in_parliament = yes
 		OR = {
 			has_building = wharf
-			has_building = dock
-			has_building = shipyard
-			has_building = grand_shipyard
 			has_port = yes
 		}
 		owner = { has_active_debate = yes }

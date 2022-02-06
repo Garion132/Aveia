@@ -1,7 +1,7 @@
 #Silowbo
 
 culture = kaletian
-religion = tlaulunorist
+religion = tlaunorist
 hre = no
 base_tax = 2
 base_production =2
@@ -20,6 +20,6 @@ discovered_by = free_fauns_group
 	owner = SIL
 	controller = SIL
 	is_city = yes
-	religion = tlaulunorist
+	religion = tlaunorist
 	culture = athanilan
 }

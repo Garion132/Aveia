@@ -103,7 +103,7 @@ essarania_center_of_reformation = {
 		}
 		modifier = {
 			factor = 1.2
-			religion = tlaulunorist
+			religion = tlaunorist
 		}
 		modifier = {
 			factor = 0
@@ -192,7 +192,7 @@ umesedilism_center_of_reformation = {
 		}
 		modifier = {
 			factor = 1.2
-			religion = tlaulunorist
+			religion = tlaunorist
 		}
 		modifier = {
 			factor = 1.5
@@ -254,7 +254,7 @@ muthilian_center_of_reformation = {
 		}
 		modifier = {
 			factor = 1.2
-			religion = tlaulunorist
+			religion = tlaunorist
 		}
 		modifier = {
 			factor = 1.5
@@ -317,7 +317,7 @@ seriaralia_center_of_reformation = {
 		}
 		modifier = {
 			factor = 1.2
-			religion = tlaulunorist
+			religion = tlaunorist
 		}
 		modifier = {
 			factor = 1.5
@@ -386,7 +386,7 @@ cult_progress_center_of_reformation = {
 		}
 		modifier = {
 			factor = 1.2
-			religion = tlaulunorist
+			religion = tlaunorist
 		}
 		modifier = {
 			factor = 1.5
@@ -453,7 +453,7 @@ eternal_sun_center_of_reformation = {
 		}
 		modifier = {
 			factor = 1.2
-			religion = tlaulunorist
+			religion = tlaunorist
 		}
 		modifier = {
 			factor = 1.5

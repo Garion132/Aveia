@@ -1,5 +1,4 @@
-estate_house_etailia =
-{
+estate_house_etailia ={
 	icon = 2
 
 	# If true, country will get estate

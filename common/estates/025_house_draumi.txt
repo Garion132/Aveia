@@ -1,5 +1,4 @@
-estate_house_draumi =
-{
+estate_house_draumi ={
 	icon = 2
 
 	# If true, country will get estate

@@ -12,7 +12,7 @@ FRYADM2 = {
 	##Mission Start
 	FRY_mission_4 = {
 		icon = FRY_mission_4_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_1
 		}
 		position = 2
@@ -39,7 +39,7 @@ FRYADM2 = {
 	##Mission Start
 	FRY_mission_9 = {
 		icon = FRY_mission_9_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_4
 		}
 		position = 3
@@ -66,7 +66,7 @@ FRYADM2 = {
 	##Mission Start
 	FRY_mission_13 = {
 		icon = FRY_mission_13_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_9
 		}
 		position = 4
@@ -93,7 +93,7 @@ FRYADM2 = {
 	##Mission Start
 	FRY_mission_18 = {
 		icon = FRY_mission_18_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_13
 			FRY_mission_14
 		}
@@ -115,7 +115,7 @@ FRYADM2 = {
 	##Mission Start
 	FRY_mission_22 = {
 		icon = FRY_mission_22_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_18
 		}
 		position = 6
@@ -134,7 +134,7 @@ FRYADM2 = {
 	##Mission Start
 	FRY_mission_25 = {
 		icon = FRY_mission_25_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_22
 		}
 		position = 7
@@ -153,7 +153,7 @@ FRYADM2 = {
 	##Mission Start
 	FRY_mission_29 = {
 		icon = FRY_mission_29_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_25
 		}
 		position = 8
@@ -187,7 +187,7 @@ FRYADM = {
 	##Mission Start
 	FRY_mission_1 = {
 		icon = FRY_mission_1_gfx
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -205,7 +205,7 @@ FRYADM = {
 	##Mission Start
 	FRY_mission_5 = {
 		icon = FRY_mission_5_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_1
 		}
 		position = 2
@@ -223,7 +223,7 @@ FRYADM = {
 	##Mission Start
 	FRY_mission_10 = {
 		icon = FRY_mission_10_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_5
 		}
 		position = 3
@@ -241,7 +241,7 @@ FRYADM = {
 	##Mission Start
 	FRY_mission_14 = {
 		icon = FRY_mission_14_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_10
 		}
 		position = 4
@@ -260,7 +260,7 @@ FRYADM = {
 	##Mission Start
 	FRY_mission_23 = {
 		icon = FRY_mission_23_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_18
 		}
 		position = 6
@@ -278,7 +278,7 @@ FRYADM = {
 	##Mission Start
 	FRY_mission_26 = {
 		icon = FRY_mission_26_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_23
 		}
 		position = 7
@@ -296,7 +296,7 @@ FRYADM = {
 	##Mission Start
 	FRY_mission_30 = {
 		icon = FRY_mission_30_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_26
 		}
 		position = 8
@@ -329,7 +329,7 @@ FRYSOC = {
 	##Mission Start
 	FRY_mission_2 = {
 		icon = FRY_mission_2_gfx
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -347,7 +347,7 @@ FRYSOC = {
 	##Mission Start
 	FRY_mission_6 = {
 		icon = FRY_mission_6_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_2
 		}
 		position = 2
@@ -379,7 +379,7 @@ FRYSOC = {
 	##Mission Start
 	FRY_mission_15 = {
 		icon = FRY_mission_15_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_6
 		}
 		position = 4
@@ -397,7 +397,7 @@ FRYSOC = {
 	##Mission Start
 	FRY_mission_19 = {
 		icon = FRY_mission_19_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_15
 		}
 		position = 5
@@ -418,7 +418,7 @@ FRYSOC = {
 	##Mission Start
 	FRY_mission_27 = {
 		icon = FRY_mission_27_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_19
 		}
 		position = 7
@@ -436,7 +436,7 @@ FRYSOC = {
 	##Mission Start
 	FRY_mission_31 = {
 		icon = FRY_mission_31_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_27
 		}
 		position = 8
@@ -454,7 +454,7 @@ FRYSOC = {
 	##Mission Start
 	FRY_mission_32 = {
 		icon = FRY_mission_32_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_28
 			FRY_mission_29
 			FRY_mission_30
@@ -493,7 +493,7 @@ FRYMIL = {
 	##Mission Start
 	FRY_mission_3 = {
 		icon = FRY_mission_3_gfx
-		required_missions {
+		required_missions = {
 			
 		}
 		position = 1
@@ -511,7 +511,7 @@ FRYMIL = {
 	##Mission Start
 	FRY_mission_7 = {
 		icon = FRY_mission_7_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_3
 		}
 		position = 2
@@ -529,7 +529,7 @@ FRYMIL = {
 	##Mission Start
 	FRY_mission_11 = {
 		icon = FRY_mission_11_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_7
 		}
 		position = 3
@@ -547,7 +547,7 @@ FRYMIL = {
 	##Mission Start
 	FRY_mission_16 = {
 		icon = FRY_mission_16_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_11
 		}
 		position = 4
@@ -565,7 +565,7 @@ FRYMIL = {
 	##Mission Start
 	FRY_mission_20 = {
 		icon = FRY_mission_20_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_16
 		}
 		position = 5
@@ -598,7 +598,7 @@ FRYMIL2 = {
 	##Mission Start
 	FRY_mission_8 = {
 		icon = FRY_mission_8_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_3
 		}
 		position = 2
@@ -616,7 +616,7 @@ FRYMIL2 = {
 	##Mission Start
 	FRY_mission_12 = {
 		icon = FRY_mission_12_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_8
 		}
 		position = 3
@@ -634,7 +634,7 @@ FRYMIL2 = {
 	##Mission Start
 	FRY_mission_17 = {
 		icon = FRY_mission_17_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_12
 		}
 		position = 4
@@ -652,7 +652,7 @@ FRYMIL2 = {
 	##Mission Start
 	FRY_mission_21 = {
 		icon = FRY_mission_21_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_17
 		}
 		position = 5
@@ -670,7 +670,7 @@ FRYMIL2 = {
 	##Mission Start
 	FRY_mission_24 = {
 		icon = FRY_mission_28_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_21
 			FRY_mission_20
 		}
@@ -689,7 +689,7 @@ FRYMIL2 = {
 	##Mission Start
 	FRY_mission_28 = {
 		icon = FRY_mission_28_gfx
-		required_missions {
+		required_missions = {
 			FRY_mission_24
 		}
 		position = 7

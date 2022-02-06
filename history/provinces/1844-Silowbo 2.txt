@@ -20,6 +20,6 @@ discovered_by = lake_elves_group
 	owner = SIL
 	controller = SIL
 	is_city = yes
-	religion = tlaulunorist
+	religion = tlaunorist
 	culture = athanilan
 }

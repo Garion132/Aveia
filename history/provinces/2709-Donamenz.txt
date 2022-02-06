@@ -1,6 +1,6 @@
 #Windsweaps
 culture = shireate
-religion = tlaulunorist
+religion = tlaunorist
 capital = "Accra"
 trade_goods = unknown
 hre = no

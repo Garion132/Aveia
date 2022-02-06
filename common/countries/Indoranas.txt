@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 49 101 165 }
 
-revolutionary_colors = { 5 8 13 }
-
 historical_idea_groups = {
 	defensive_ideas
 	trade_ideas
@@ -18,7 +16,7 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	western_medieval_infantry
+	elven_phalanx
 }
 
 monarch_names = {

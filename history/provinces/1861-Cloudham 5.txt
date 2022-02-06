@@ -1,7 +1,7 @@
 #cloudham
 
 culture = kafathi
-religion = tlaulunorist #
+religion = tlaunorist #
 hre = no
 base_tax = 2
 base_production =3

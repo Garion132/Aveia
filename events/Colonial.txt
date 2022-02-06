@@ -801,10 +801,6 @@ province_event = {
 			has_building = trade_depot
 		}
 		modifier = {
-			factor = 0.9
-			has_building = dock
-		}
-		modifier = {
 			factor = 0.5
 			development = 30
 		}

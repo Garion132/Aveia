@@ -885,10 +885,7 @@ has_trade_building_trigger = {
 }
 
 has_production_building_trigger = {
-	OR = {
-		has_building = workshop
-		has_building = counting_house
-	}
+	has_building = workshop
 }
 
 has_manpower_building_trigger = {
@@ -899,10 +896,7 @@ has_manpower_building_trigger = {
 }
 
 has_shipyard_building_trigger = {
-	OR = {
-		has_building = shipyard
-		has_building = grand_shipyard
-	}
+	always = no
 }
 
 has_dock_building_trigger = {

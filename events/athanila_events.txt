@@ -51,13 +51,13 @@ country_event = {
 		set_country_flag = ATH_dwarven_suppression
 		add_legitimacy = -10
 		random_owned_province = {
-			limit = { is_core_of = ATH base_manpower = 3 }
+			limit = { is_core = ATH base_manpower = 3 }
 			spawn_rebels = {
 				size = 2
 			}
 		}
 		random_owned_province = {
-			limit = { is_core_of = ATH base_manpower = 3 }
+			limit = { is_core = ATH base_manpower = 3 }
 			spawn_rebels = {
 				size = 2
 			}

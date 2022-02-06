@@ -97,12 +97,6 @@ insult_bookkeeping = {
 	}
 }
 
-insult_rome = {
-	trigger = {
-		capital_scope = { province_id = 118 } #Rome
-	}
-}
-
 insult_heir_hunter = {
 	trigger = {
 		has_regency = no
