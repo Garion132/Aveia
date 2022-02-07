@@ -35,6 +35,7 @@ technology = {
 	#Bronze Weaponry
 	
 	infantry_shock		= 	0.1
+	military_tactics = 0.1
 	
 	#TODO - new inf type
 	enable = heavy_infantry #All
@@ -49,7 +50,7 @@ technology = {
 	#Phalanx
 	
 	land_morale = 0.25
-	military_tactics = 0.25
+	military_tactics = 0.15
 	combat_width = 3
 
 	enable = elven_phalanx #Elves
@@ -98,9 +99,8 @@ technology = {
 	military_tactics 	= 	0.15
 	combat_width = 3
 
-	enable = ork_verditap_infantry
+	enable = ork_verditap_infantry #Orks
 	enable = ork_desert_rangers
-	#enable = ork_expedetiors
 }
 
 technology = {
@@ -132,7 +132,7 @@ technology = {
 	maneuver_value = 0.25
 	infantry_shock = 0.2
 	
-	enable = ork_late_verditap_infantry
+	enable = ork_late_verditap_infantry #Orks
 }
 
 technology = {
@@ -188,6 +188,7 @@ technology = {
 	combat_width = 2
 	
 	enable = ork_triple_line_pikes #Orks
+	enable = ork_expedetiors
 }
 
 technology = {
@@ -244,6 +245,8 @@ technology = {
 	combat_width = 4
 	
 	enable = spider_transitory_infantry #Spiders
+	enable = ork_western_pike_infantry #Orks
+	enable = ork_eastern_pike_infantry
 }
 
 technology = {

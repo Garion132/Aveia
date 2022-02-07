@@ -1,4 +1,4 @@
-# Triple Line Pikes
+# Expedetiors
 
 type = infantry
 unit_type = ork_group
@@ -6,7 +6,7 @@ unit_type = ork_group
 maneuver = 1
 offensive_morale = 3
 defensive_morale = 2
-offensive_fire = 0
+offensive_fire = 3
 defensive_fire = 1
-offensive_shock = 4
+offensive_shock = 1
 defensive_shock = 3
