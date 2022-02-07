@@ -102,7 +102,7 @@ FRYADM2 = {
 			province_id = 2416
 		}
 		trigger = {
-			has_colonist = yes
+			
 		}
 		effect = {
 			add_country_modifier = { 
@@ -198,7 +198,7 @@ FRYADM = {
 			share_of_starting_income = 1.5
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_adm_power = 100
 		}
 	}
 	##Mission End
@@ -216,7 +216,7 @@ FRYADM = {
 			
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_mil_power = 100
 		}
 	}
 	##Mission End
