@@ -1,3 +1,4 @@
+EAST - 50
 977 -  - Celolian,talunorist
 2133 -  -tmiik,rusite
 1793 -  -Deresunite,Tlaunorist
@@ -5,3 +6,7 @@
 666 -  -omoran,tlaunorist
 
 Ve'nara company
+
+
+JULILA - 
+    -quest for the golden sun

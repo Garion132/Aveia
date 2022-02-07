@@ -772,7 +772,10 @@ bronze_monarchy = {
 		rights_to_forge = {
 			reforms = {
 				holy_smiths_reform
+				military_forging_reform
+				aristocratic_smiths_reform
 				right_to_forge_reform
+				
 			}
 		}
 	}

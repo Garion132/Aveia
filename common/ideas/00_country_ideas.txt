@@ -19,16 +19,16 @@ SOH_ideas = {
 		tag = SOH
 	}
 	free = yes		#will be added at load.
-
+	
+	colonial_primacy = {
+		global_colonial_growth = 25
+	}
 	scions_of_the_sea = {
 		ship_power_propagation = 0.1
-		light_ship_power = 0.25
+		light_ship_power = 0.33
 	}
 	patroler_of_demina= {
 		trade_steering = 0.1
-	}
-	colonial_primacy = {
-		global_colonial_growth = 25
 	}
 	soh_marine_tradition = {
 		allowed_marine_fraction = 0.15

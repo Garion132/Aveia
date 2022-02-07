@@ -62,6 +62,39 @@ holy_smiths_reform = {
 		factor = 0.5 #generic
 	}
 }
+military_forging_reform = {
+	icon = "clergyman"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		church_loyalty_modifier = -0.05
+		development_cost = 0.1
+		discipline = 0.03
+		max_absolutism = -10
+		#military revolt diaster
+	}
+	
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+aristocratic_smiths_reform = {
+	icon = "clergyman"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		nobles_influence_modifier = 0.05
+		house_kethai_loyalty_modifier = 0.05
+		house_kethai_influence_modifier = 0.05
+		land_maintenance_modifier = -0.10
+	}
+	
+	ai = {
+		factor = 0.5 #generic
+	}
+}
 right_to_forge_reform = {
 	icon = "clergyman"
 	allow_normal_conversion = yes

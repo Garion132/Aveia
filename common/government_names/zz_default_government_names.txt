@@ -94,10 +94,10 @@ default_bronze_monarchy = {
 		3 = HEIR_fem
 	}
 
-	government_reform = bronze_monarchy
+	government_reform = bronze_monarchy_mechanic
 
 	trigger = {
-		government = bronze_monarchy
+		has_reform = bronze_monarchy_mechanic
 	}
 }
 default_eximiu_colony = {
@@ -146,7 +146,7 @@ default_eximiu_colony = {
 	government_reform = eximiu_mechanic
 
 	trigger = {
-		government = eximiu_colony
+		has_reform = eximiu_mechanic
 	}
 }
 
