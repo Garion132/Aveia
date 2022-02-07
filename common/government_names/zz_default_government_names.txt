@@ -97,7 +97,7 @@ default_bronze_monarchy = {
 	government_reform = bronze_monarchy
 
 	trigger = {
-		has_reform = palace_economy
+		government = bronze_monarchy
 	}
 }
 default_eximiu_colony = {

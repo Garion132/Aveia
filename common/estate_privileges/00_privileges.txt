@@ -823,6 +823,9 @@ estate_nobles_nobility_primacy = {
 	benefits = {
 		country_military_power = 1
 	}
+	is_valid = {
+		NOT={has_government = bronze_monarchy}
+	}
 	ai_will_do = {
 		factor = 12
 		modifier = {
@@ -1037,6 +1040,9 @@ estate_church_religious_state = {
 	}
 	benefits = {
 		country_admin_power = 1
+	}
+	is_valid = {
+		NOT={has_government = bronze_monarchy}
 	}
 	ai_will_do = {
 		factor = 10
@@ -1373,6 +1379,9 @@ estate_burghers_land_of_commerce = {
 	}
 	penalties = {
 	}
+	is_valid = {
+		NOT={has_government = bronze_monarchy}
+	}
 	benefits = {
 		country_diplomatic_power = 1
 	}
@@ -1496,6 +1505,9 @@ estate_burghers_indebted_to_burghers = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	is_valid = {
+		NOT={has_government = bronze_monarchy}
+	}
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
 		add_mercantilism = -1

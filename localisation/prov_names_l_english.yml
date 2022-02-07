@@ -69,16 +69,22 @@
  PROV102:0 "Nionerin"
 
  PROV106:0 "Himlumyese"
+ 
+ PROV110:0 "Tylort Strait"
 
  PROV120:0 "Hinnocrin"
 
  PROV147:0 "Ifranhil"
  
  PROV156:0 "Piceden"
+ 
+ PROV159:0 "Vulikiv Coast"
 
  PROV165:0 "Massege Coast"
 
  PROV167:0 "Noster Bay"
+ 
+ PROV183:0 "Ilrazin Tides"
  
  PROV190:0 "Starlight Coast"
 
@@ -456,6 +462,8 @@
  PROV1718:0 "Cyhnor"
  
  PROV1718:0 "Tolos Point"
+ 
+ PROV1721:0 "Rosci Point"
 
  PROV1732:0 "Symlar"
 
@@ -498,6 +506,9 @@
  PROV1886:0 "Lesman Svrea"
  
  PROV1890:0 "Vinika Sea"
+ PROV1891:0 "Nadarite Coast"
+ 
+ PROV1903:0 "Enoarth Cresant"
 
  PROV1929:0 "Elivor"
  PROV1930:0 "Grimchall"
