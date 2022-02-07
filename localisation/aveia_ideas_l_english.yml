@@ -116,7 +116,7 @@
  flexible_strategies:0 "Flexible Strategies"
  has_always_been_ours:0 "Has Always Been Ours"
 
- imperialist_ideas:0 "Imperialist Ideas"
+ imperialist_ideas:0 "§G***§!Imperialist Ideas§G***§!"
  convoys:0 "Convoys"
  imperial_administration:0 "Imperial Administration"
  global_trade:0 "Global Trade"
@@ -125,7 +125,7 @@
  global_empire_idea:0 "Global Empire"
  direct_rule:0 "Direct Rule"
 
- nationalist_ideas:0 "Nationalist Ideas"
+ nationalist_ideas:0 "§G***§!Nationalist Ideas§G***§!"
  one_nation_one_people:0 "One Nation, One People"
  national_pride:0 "National Pride"
  volunteering:0 "Volunteering"
@@ -143,3 +143,33 @@
  balance_of_power:0 "Balance of Power"
  interventionism:0 "Interventionism"
 
+ leadership_ideas:0 "Leadership Ideas"
+ school_of_shock:0 "School of Shock"
+ school_of_fire:0 "School of Fire"
+ school_of_manuever:0 "School of Manuever"
+ school_of_siege:0 "School of Siege"
+ naval_warfare:0 "Naval Warfare"
+ army_college:0 "Army College"
+ naval_college:0 "Naval College"
+
+ logistic_ideas:0 "Logistic Ideas"
+ field_hospitals:0 "Field Hospitals"
+ supply_depots:0 "Supply Depots"
+ stocked_voyages:0 "Stocked Voyages"
+ rest_and_recreation:0 "Rest and Recreation"
+ maintenance_crews:0 "Maintenance Crews"
+
+ mercenary_ideas:0 "Mercenary Ideas"
+ hired_leaders:0 "Hired Leaders"
+ elite_mercenaries:0 "Elite Mercenaries"
+ hired_garrision:0 "Hired Garrison"
+ mercenary_integration:0 "Mercenary Integration"
+
+ to_the_end:0 "To the End"
+ foreign_assistance:0 "Foreign Assistance"
+
+ army_drill:0 "Army Drill"
+
+ combined_arms_ideas:0 "§Y***§!Combined Arms§Y***§!"
+
+ mass_production_ideas:0 "§Y***§!Mass Production§Y***§!"
