@@ -17,5 +17,6 @@ trade_goods = fur
 capital = "She 3"
 is_city = yes
 discovered_by = lake_elves_group
+discovered_by = ork_group
 discovered_by = northern_men_group
 extra_cost = 0

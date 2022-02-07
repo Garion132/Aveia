@@ -1,2 +1,3 @@
 #Ihadar
 discovered_by = lake_elves_group
+discovered_by = ork_group

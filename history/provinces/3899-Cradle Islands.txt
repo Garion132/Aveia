@@ -15,4 +15,5 @@ native_ferocity = 0
 native_hostileness = 0
 trade_goods = silver
 discovered_by = lake_elves_group
+discovered_by = ork_group
 extra_cost = 8

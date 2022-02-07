@@ -7,7 +7,7 @@
 
 #Which to be TECH_GROUP_1 and TECH_GROUP_2
 TECH_GROUP_1 = "lake_elves_group"
-TECH_GROUP_2 = "foo"
+TECH_GROUP_2 = "ork_group"
 
 
 
@@ -24,7 +24,7 @@ for f in files:
     with open(mypath + f, 'r+') as fd:
         contents = fd.readlines()
         if "discovered_by" in contents[-1] and TECH_GROUP_1 in contents[-1]:  # Handle last line to prevent IndexError
-            contents.append(TECH_GROUP_2)
+            contents.append("\ndiscovered_by = " + TECH_GROUP_2)
         else:
             for index, line in enumerate(contents):
                 if "discovered_by" in line and TECH_GROUP_1 in line and TECH_GROUP_2 not in contents[index + 1]:

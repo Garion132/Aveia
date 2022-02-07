@@ -13,6 +13,7 @@ base_manpower = 9
 capital = "Yhenil"
 is_city = yes
 discovered_by = lake_elves_group
+discovered_by = ork_group
 extra_cost = 0
 center_of_trade = 3
 fort_14th = yes

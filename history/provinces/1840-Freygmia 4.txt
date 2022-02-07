@@ -14,6 +14,7 @@ native_hostileness = 9
 center_of_trade = 1
 
 discovered_by = lake_elves_group
+discovered_by = ork_group
 discovered_by = free_fauns_group
 
 1200.1.1={

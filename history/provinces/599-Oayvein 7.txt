@@ -13,4 +13,5 @@ base_manpower = 1
 capital = "Oay 7"
 is_city = yes
 discovered_by = lake_elves_group
+discovered_by = ork_group
 extra_cost = 0
