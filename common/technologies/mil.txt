@@ -176,7 +176,7 @@ technology = {
 	infantry_fire = 0.1
 
 	enable = men_at_arms #Settled Human
-	enable = greatest_raiders #Tribal Human
+	enable = greatest_warriors #Tribal Human
 }
 
 technology = {
