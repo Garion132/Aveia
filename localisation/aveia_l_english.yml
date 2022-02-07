@@ -22,9 +22,11 @@
  electromancer_desc:0 "The Electromancer is... LANCER DO DESCRIPTION"
 
 
-
+ #All
  warrior_infantry:0 "Warrior Infantry"
  heavy_infantry:0 "Heavy Infantry"
+
+ #Elves
  elven_bowmen:0 "Elven Bowmen"
  elven_phalanx:0 "Elven Phalanx"
  thyrian_archers:0 "Thyrian Archers"
@@ -38,18 +40,54 @@
  kyathian_old_guardDESCR:0 "Still use old techniques with new technology."
  strongbowmen:0 "Strongbowmen"
  strongbowmenDESCR:0 "New, larger, bows require stronger men to fire them. These have given these regiments the name 'strongbowmen.'"
+ nelsedar_guard:0 "Nelsedar Guard"
+ nelsedar_guardDESCR:0 "The Nelsedar Guard were the personal regiment of troops personally responsible to the Serene Monarch himself. This band of elite Elesillon soldiers stopped the westward advance of human raiders from reaching Leleth and the other Lake Elven Kingdoms."
  elven_pikemen:0 "Elven Pikemen"
+ elven_pikemenDESCR:0 "Temporary Unit Type"
  crossbowmen:0 "Crossbowmen"
+ crossbowmenDESCR:0 "Temporary Unit Type"
  arquebusiers:0 "Arquebusiers"
+ arquebusiersDESCR:0 "Temporary Unit Type"
+ mixed_ranged_infantry:0 "Mixed Ranged Infantry"
+ mixed_ranged_infantryDESCR:0 "An invention of the Lake Elves, Mixed Ranged Infantry combines both the best of Elven Archery with the modern firepower of musket infantry."
 
+ #Orks
+ ork_gulban_phalanx:0 "Gulban Phalanx"
+ ork_ziyalap_phalanx:0 "Ziyalap Phalanx"
+ ork_verditap_infantry:0 "Verditap Infantry"
+ ork_verditap_infantryDESCR:0 "Verditap Infantry were Phalanx formations armed with long-tipped spears. Uglukish strength allowed for such an arrangement, making them a fierce fighting force on the field."
+ ork_desert_rangers:0 "Desert Rangers"
+ ork_desert_rangersDESCR:0 "Many Ugluks live in deserts or in desert like conditions. Thus, the light-weight desert rangers are perfect in such a climate. While relatively unarmored, they are able to move quickly on the battlefield, allowing for great flexibility."
+ ork_late_verditap_infantry:0 "Late Verditap Infantry"
+ ork_triple_line_pikes:0 "Triple Line Pikes"
+ ork_triple_line_pikes:0 "The Ugluks adapted their military tactics to new forms of warfare. The Triple Line is an advanced form of phalanx where formations are based off of rank. This includes the adoption of new tactics with iron-age weapons."
+
+ #Human Tribal
  human_warriors:0 "Human Warriors"
  orbury_bowmen:0 "Orbury Bowmen"
  orbury_bowmenDESCR:0 "Rugged, well-adapted to changing weather, and using a new bow which was easier to use that used new iron-tipped arrows - these are excellent hardened warriors from the Orbury foothills. Their ferocity is unmatched in any battle."
  valley_warriors:0 "Valley Warriors"
  valley_warriorsDESCR:0 "Rugged, well-adapted to changing weather, and covered in iron tools and armor, they will bash their way through any civilization."
+ greatest_warriors:0 "Greatest Warriors"
+ greatest_warriorsDESCR:0 "The final conquerers, these heroes would be the last of the tribal humans to do battle with the Elven kingdoms. They would reach the gates of Elesilon before being driven back by the Elesillion Guard."
+
+ #Human Settled
  men_at_arms:0 "Men at Arms"
+ men_at_armsDESCR:0 "Todo."
  halberd_infantry:0 "Halberd Infantry"
+ halberd_infantryDESCR:0 "Todo"
  late_medieval_infantry:0 "Late Medieval Infantry"
+ late_medieval_infantryDESCR:0 "Todo"
+ pike_and_shot:0 "Pike and Shot"
+ pike_and_shotDESCR:0 "Temporary Unit Type."
+
+ #Great Spider
+ spider_late_bronze_age_infantry:0 "Late Bronze-Age Infantry"
+ spider_late_bronze_age_infantryDESCR:0 "Sentient Spiders. They're great at tearing each other apart. What else do you expect? (do desc at some point)"
+ spider_armored_pikers:0 "Armored Pikers"
+ spider_armored_pikers_DESCR:0 "During this time, the Spider peoples still used Bronze, not iron, as they had a distinct abundance of copper and lack of iron. Unable to develop Iron-Working, they continued to use bronze weaponry and armor."
+ spider_transitory_infantry:0 "Transitory Infantry"
+ spider_transitory_infantryDESCR:0 "During the Age of Expeditions, Spider Civilization was opened to the wider world through Sohoremphyan expeditionors. Thus, this unit represents the transition in that period."
 
  sailing_airship:0 "Sailing Airship"
  sailing_airshipDESCR:0 "Plz do description"
@@ -183,6 +221,10 @@
  
  northern_men_group:0 "North Manish"
  lake_elves_group:0 "Lake Elves"
+ ork_group:0 "Ugluk"
+ northern_drake_group:0 "Drake/Kobold"
+ free_fauns_group:0 "Faun"
+ great_spiders_group:0 "Great Spider"
  red_scale_nationalist_rebels_name:0 "Red Scale Nationalists"
  red_scale_nationalist_rebels_army:0 "Red Scale Nationalists"
  incident_rise_thilmaren:0 "Rise of Thilmaren"

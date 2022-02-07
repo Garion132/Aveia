@@ -38,6 +38,7 @@ technology = {
 	
 	#TODO - new inf type
 	enable = heavy_infantry #All
+	enable = spider_late_bronze_age_infantry #Spiders
 	enable = elven_bowmen #Elves
 }
 
@@ -52,6 +53,8 @@ technology = {
 	combat_width = 3
 
 	enable = elven_phalanx #Elves
+	enable = ork_gulban_phalanx
+	enable = ork_ziyalap_phalanx
 }
 
 technology = {
@@ -94,6 +97,10 @@ technology = {
 	#Deep-Rank Phalanx
 	military_tactics 	= 	0.15
 	combat_width = 3
+
+	enable = ork_verditap_infantry
+	enable = ork_desert_rangers
+	#enable = ork_expedetiors
 }
 
 technology = {
@@ -124,6 +131,8 @@ technology = {
 	#Double-Handed Pike
 	maneuver_value = 0.25
 	infantry_shock = 0.2
+	
+	enable = ork_late_verditap_infantry
 }
 
 technology = {
@@ -136,6 +145,7 @@ technology = {
 	enable = shemseler_pikemen #Elves
 	enable = kyathian_old_guard
 	enable = strongbowmen
+	enable = nelsedar_guard
 }
 	
 technology = {
@@ -165,7 +175,8 @@ technology = {
 	infantry_shock = 0.15
 	infantry_fire = 0.1
 
-	enable = men_at_arms #Human
+	enable = men_at_arms #Settled Human
+	enable = greatest_raiders #Tribal Human
 }
 
 technology = {
@@ -175,6 +186,8 @@ technology = {
 	#Triple Line
 	military_tactics = 0.15
 	combat_width = 2
+	
+	enable = ork_triple_line_pikes #Orks
 }
 
 technology = {
@@ -185,6 +198,8 @@ technology = {
 	infantry_shock = 0.15
 
 	enable = elven_pikemen #Elves
+
+	enable = spider_armored_pikers #Spiders
 }
 
 technology = {
@@ -205,7 +220,7 @@ technology = {
 	infantry_shock = 0.2
 	supply_limit = 0.25
 	
-	enable = halberd_infantry #Humans
+	enable = halberd_infantry #(From now on, settled) Humans
 }
 
 technology = {
@@ -227,6 +242,8 @@ technology = {
 	land_morale = 0.5
 
 	combat_width = 4
+	
+	enable = spider_transitory_infantry #Spiders
 }
 
 technology = {
@@ -274,6 +291,7 @@ technology = {
 	infantry_fire = 0.45
 
 	#TODO New Inf
+	enable = pike_and_shot #Humans
 }
 
 technology = {
@@ -294,6 +312,8 @@ technology = {
 
 	infantry_fire = 0.5
 	combat_width = 4
+
+	enable = mixed_ranged_infantry #Elves
 }
 
 technology = {
@@ -326,7 +346,7 @@ technology = {
 	infantry_fire = 0.4
 	combat_width = 5
 
-	#TODO new inf 
+	#TODO new inf for Humans/Elves/Orks (Pips line up at this point)
 }
 
 technology = {
@@ -357,7 +377,7 @@ technology = {
 
 	#TODO new arty
 
-	training_fields = yes	
+	training_fields = yes
 }
 
 technology = {
