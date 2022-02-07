@@ -815,6 +815,7 @@ estate_nobles_nobility_primacy = {
 			NOT = { has_estate_privilege = estate_rajput_military }
 			NOT = { has_estate_privilege = estate_maratha_military }
 		}
+		NOT={has_government = bronze_monarchy}
 	}
 	on_granted = {
 	}
@@ -1033,6 +1034,7 @@ estate_church_religious_state = {
 	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
+		NOT={has_government = bronze_monarchy}
 	}
 	on_granted = {
 	}
@@ -1374,6 +1376,7 @@ estate_burghers_land_of_commerce = {
 	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
+		NOT={has_government = bronze_monarchy}
 	}
 	on_granted = {
 	}
@@ -1505,6 +1508,9 @@ estate_burghers_indebted_to_burghers = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select={
+		NOT={has_government = bronze_monarchy}
+	}
 	is_valid = {
 		NOT={has_government = bronze_monarchy}
 	}
