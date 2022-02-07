@@ -52,6 +52,7 @@ crisis_of_the_12th_century = {
 				}
 				amount = 3
 			}
+			has_country_flag = RAU_crisis_12th_ongoing
 		}
 	}
 	

@@ -1268,6 +1268,7 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
+			set_country_flag = RAU_crisis_12th_ongoing
 			while = {
 				limit = {
 					NOT = { 
@@ -1491,6 +1492,27 @@ country_event = {
 		days = 1
 	}
 	
+	option = { 
+		name = rauthyr_estate_events.1.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		
+	}
+}
+#12th century crisis - start
+country_event = {
+	id = rauthyr_estate_events.9
+	title = rauthyr_estate_events.9.t
+	desc = rauthyr_estate_events.9.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_country_flag = RAU_crisis_12th_ongoing
+		set_country_flag = RAU_crisis_12th
+	}
 	option = { 
 		name = rauthyr_estate_events.1.a #Let it be.
 		ai_chance = {

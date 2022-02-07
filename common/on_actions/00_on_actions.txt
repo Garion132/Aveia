@@ -2462,6 +2462,22 @@ on_rebels_break_country = {
 		duration = 10
 		hidden = yes
 	}
+	if={
+		limit={
+			has_country_flag = RAU_crisis_12th_ongoing
+		}
+		add_disaster_progress = {
+			disaster = crisis_of_the_12th_century
+			value = 100
+		}
+	}
+	if={
+		limit={
+			has_country_flag = iron_age_calamity_possible
+		}
+		collapse_nation = yes
+	}
+	
 }
 
 # this = country
