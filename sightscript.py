@@ -1,5 +1,5 @@
 
-# Runs through the prov histories and duplicates discovered_by = TECH_GROUP_1, adding discovered_by = TECH_GROUP_2 to the file under it. 
+# Runs through the prov histories and duplicates discovered_by = TECH_GROUP_1, adding discovered_by = TECH_GROUP_2 to the line under it. 
 # This is so Garion doesn't have to break his fingers.
 # 
 # Coded by Strat.
