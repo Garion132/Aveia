@@ -78,16 +78,16 @@ DIP:
     
 MIL:
     Early:
-        Aristocratic, Plutocratic, Holy, Horde, Native 
-        Leadership
-        Logistic
-        Mercenary
-    
-    Mid:
         Offensive
         Defensive
+        Leadership
+        Logistic
+    
+    Mid:
+        Aristocratic, Plutocratic
         Quality
         Quantity
+        Mercenary
         Naval
 
     Late:

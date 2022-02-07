@@ -643,25 +643,32 @@
 		ai_will_do = {
 			factor = 0.75
 			modifier = {
-				factor = 0
-				is_colonial_nation = yes
+				factor = 20
+				OR = {
+					tag = SOH
+					tag = KAF
+				}
 			}
 			modifier = {
-				factor = 0
-				is_tribal = yes
+				factor = 2
+				OR = {
+					tag = SAL
+					tag = LEL
+					tag = ATH
+					tag = KEA
+				}
 			}
 			modifier = {
-				factor = 0
-				is_subject = yes
-			}		
-			modifier = {
-				factor = 0
-				primitives = yes
+				factor = 10
+				OR = {
+					has_idea_group = exploration_ideas
+					is_colonial_nation = yes
+				}
 			}
-			modifier = {
-				factor = 0
-				current_age = age_of_revolutions #too late
-			}
+			# modifier = {
+			# 	factor = 0
+			# 	current_age = age_of_revolutions #too late
+			# }
 			modifier = {
 				factor = 0.1
 				NOT = { num_of_ports = 3 }
@@ -671,14 +678,6 @@
 						has_empty_adjacent_province = yes
 					}
 				}
-			}
-			modifier = {
-				factor = 0.1
-				NOT = { has_institution = iron_working }
-			}
-			modifier = {
-				factor = 10
-				technology_group = high_american
 			}
 			modifier = {
 				factor = 2.0
@@ -1252,97 +1251,79 @@
 
 #MIL
 	#Early (1250-1450)
-	aristocracy_ideas = {
+	offensive_ideas = {
 		category = MIL
-		#Monarchy ideas
-
-		bonus = {
-			leader_siege = 1
-			nobles_loyalty_modifier = 0.1
-		}
 
 		trigger = {
-			OR = {
-				has_government_attribute = enables_aristocratic_idea_group
-				government = theocracy
-				government = tribal
-			}
+			NOT = { has_idea_group = defensive_ideas }
 		}
-		
-		noble_knights = {
-			cavalry_power = 0.10
-			cavalry_cost = -0.10
+
+		bonus = {
+			recover_army_morale_speed = 0.05
 		}
-		military_traditions = {
-			mil_tech_cost_modifier  = -0.1
+
+		bayonet_leaders = {
+			shock_damage = 0.06
 		}
-		local_nobility = {
-			global_autonomy = -0.025
-			yearly_absolutism = 0.5
+		national_conscripts = {
+			global_regiment_recruit_speed = -0.1
 		}
-		serfdom = {
-			global_manpower_modifier = 0.33
+		superior_firepower = {
+			fire_damage = 0.06
 		}
-		noble_officers = {
-			army_tradition_decay = -0.01
-			navy_tradition_decay = -0.01
+		glorious_arms = {
+			prestige_from_land = 1.0
 		}
-		international_nobility = {
-			diplomats = 1
-			free_leader_pool = 1
+		engineer_corps = {
+			siege_ability = 0.15
 		}
-		noble_resilience = {
-			mercenary_manpower = 0.20
+		grand_army = {
+			land_forcelimit_modifier = 0.2
 		}
-		
+		napoleonic_warfare = {
+			discipline = 0.03
+		}
 
 		ai_will_do = {
-			factor = 0.45
-			
-			modifier = {
-				factor = 0.5
-				is_subject = yes
-			}	
+			factor = 0.94
 		}
 	}
-	plutocracy_ideas = {
+	defensive_ideas = {
 		category = MIL
-		#Republic ideas
-
-		bonus = {
-			global_institution_spread = 0.10
-			burghers_loyalty_modifier = 0.1
-		}
 
 		trigger = {
-			has_government_attribute = enables_plutocratic_idea_group
+			NOT = { has_idea_group = offensive_ideas }
 		}
 
-		tradition_of_payment = {
-			mercenary_manpower = 0.10
-			mercenary_discipline = 0.025
+		bonus = {
+			hostile_attrition = 1
 		}
-		abolished_serfdom = {
-			land_morale = 0.10
+
+		battlefield_commisions = {
+			army_tradition_from_battle = 1.0
 		}
-		bill_of_rights = {
-			global_unrest = -2
+		military_drill = {
+			land_morale = 0.15
 		}
-		free_merchants = {
-			merchants = 1
+		improved_manuever = {
+			leader_land_manuever = 1
 		}
-		free_subjects = {
-			global_trade_goods_size_modifier = 0.1
+		regimental_system = {
+			land_maintenance_modifier = -0.05
 		}
-		free_cities = {
-			caravan_power = 0.25
+		defensive_mentality = {
+			defensiveness = 0.2
 		}
-		emancipation = {
-			manpower_recovery_speed = 0.2
+		to_the_end = {
+			war_exhaustion = -0.05
+		}
+		foreign_assistance = {
+			fort_maintenance_modifier = -0.1
+			rival_border_fort_maintenance = -0.25
 		}
 
 		ai_will_do = {
-			factor = 0.4
+			factor = 0.77
 		}
 	}
 	leadership_ideas = {
@@ -1416,121 +1397,103 @@
 			factor = 1
 		}
 	}
-	mercenary_ideas = {
-		category = MIL
-		#Cheapening Mercs & making them better
-
-		bonus = {
-			possible_condottieri = 1
-		}
-
-		
-		organised_mercenary_payment = {
-			mercenary_cost = -0.10
-			imperial_mercenary_cost = -0.05
-		}
-		hired_leaders = {
-			free_leader_pool = 1
-		}
-		benefits_for_mercenaries = {
-			merc_maintenance_modifier = -0.15
-		}
-		organised_mercenary_recruitment = {
-			mercenary_manpower = 0.25
-		}
-		elite_mercenaries = {
-			mercenary_discipline = 0.05
-		}
-		hired_garrision = {
-			garrison_size = 0.10
-		}
-		mercenary_integration = {
-			land_forcelimit_modifier = 0.10
-		}
-		
-		ai_will_do = {
-			factor = 0.9
-		}
-	}
 
 	#Middle (1450-1700)
-	offensive_ideas = {
+	aristocracy_ideas = {
 		category = MIL
+		#Monarchy ideas
+
+		bonus = {
+			leader_siege = 1
+			nobles_loyalty_modifier = 0.1
+		}
 
 		trigger = {
 			has_early_idea = yes
 			adm_tech = 16
-			NOT = { has_idea_group = defensive_ideas }
+			OR = {
+				has_government_attribute = enables_aristocratic_idea_group
+				government = theocracy
+				government = tribal
+			}
 		}
-
-		bonus = {
-			recover_army_morale_speed = 0.05
+		
+		noble_knights = {
+			cavalry_power = 0.10
+			cavalry_cost = -0.10
 		}
-
-		bayonet_leaders = {
-			shock_damage = 0.06
+		military_traditions = {
+			mil_tech_cost_modifier  = -0.1
 		}
-		national_conscripts = {
-			global_regiment_recruit_speed = -0.1
+		local_nobility = {
+			global_autonomy = -0.025
+			yearly_absolutism = 0.5
 		}
-		superior_firepower = {
-			fire_damage = 0.06
+		serfdom = {
+			global_manpower_modifier = 0.33
 		}
-		glorious_arms = {
-			prestige_from_land = 1.0
+		noble_officers = {
+			army_tradition_decay = -0.01
+			navy_tradition_decay = -0.01
 		}
-		engineer_corps = {
-			siege_ability = 0.15
+		international_nobility = {
+			diplomats = 1
+			free_leader_pool = 1
 		}
-		grand_army = {
-			land_forcelimit_modifier = 0.2
+		noble_resilience = {
+			mercenary_manpower = 0.20
 		}
-		napoleonic_warfare = {
-			discipline = 0.03
-		}
+		
 
 		ai_will_do = {
-			factor = 0.94
+			factor = 0.45
+			
+			modifier = {
+				factor = 0.5
+				is_subject = yes
+			}	
 		}
 	}
-	defensive_ideas = {
+	plutocracy_ideas = {
 		category = MIL
+		#Republic ideas
+
+		bonus = {
+			global_institution_spread = 0.10
+			burghers_loyalty_modifier = 0.1
+		}
 
 		trigger = {
 			has_early_idea = yes
 			adm_tech = 16
-			NOT = { has_idea_group = offensive_ideas }
+			has_government_attribute = enables_plutocratic_idea_group
 		}
 
-		bonus = {
-			hostile_attrition = 1
+		tradition_of_payment = {
+			mercenary_manpower = 0.10
+			mercenary_discipline = 0.025
 		}
-
-		battlefield_commisions = {
-			army_tradition_from_battle = 1.0
+		abolished_serfdom = {
+			land_morale = 0.10
 		}
-		military_drill = {
-			land_morale = 0.15
+		bill_of_rights = {
+			global_unrest = -2
 		}
-		improved_manuever = {
-			leader_land_manuever = 1
+		free_merchants = {
+			merchants = 1
 		}
-		regimental_system = {
-			land_maintenance_modifier = -0.05
+		free_subjects = {
+			global_trade_goods_size_modifier = 0.1
 		}
-		defensive_mentality = {
-			defensiveness = 0.2
+		free_cities = {
+			caravan_power = 0.25
 		}
-		to_the_end = {
-			war_exhaustion = -0.05
-		}
-		foreign_assistance = {
-			fort_maintenance_modifier = -0.1
-			rival_border_fort_maintenance = -0.25
+		emancipation = {
+			manpower_recovery_speed = 0.2
 		}
 
 		ai_will_do = {
-			factor = 0.77
+			factor = 0.4
 		}
 	}
 	quality_ideas = {
@@ -1608,6 +1571,46 @@
 
 		ai_will_do = {
 			factor = 1.0
+		}
+	}
+	mercenary_ideas = {
+		category = MIL
+		#Cheapening Mercs & making them better
+
+		bonus = {
+			possible_condottieri = 1
+		}
+
+		trigger = {
+			has_early_idea = yes
+			adm_tech = 16
+		}
+		
+		organised_mercenary_payment = {
+			mercenary_cost = -0.10
+			imperial_mercenary_cost = -0.05
+		}
+		hired_leaders = {
+			free_leader_pool = 1
+		}
+		benefits_for_mercenaries = {
+			merc_maintenance_modifier = -0.15
+		}
+		organised_mercenary_recruitment = {
+			mercenary_manpower = 0.25
+		}
+		elite_mercenaries = {
+			mercenary_discipline = 0.05
+		}
+		hired_garrision = {
+			garrison_size = 0.10
+		}
+		mercenary_integration = {
+			land_forcelimit_modifier = 0.10
+		}
+		
+		ai_will_do = {
+			factor = 0.9
 		}
 	}
 	naval_ideas = {

@@ -100,10 +100,11 @@ on_startup = {
 			remove_idea_group = maritime_ideas
 			remove_idea_group = diplomatic_ideas
 			
-			remove_idea_group = offensive_ideas
-			remove_idea_group = defensive_ideas
+			remove_idea_group = aristocracy_ideas
+			remove_idea_group = plutocracy_ideas
 			remove_idea_group = leadership_ideas
 			remove_idea_group = logistic_ideas
+			remove_idea_group = mercenary_ideas
 		}
 	}
 	initialize_schools_effect = yes
