@@ -1,5 +1,5 @@
 government = mannish_tribal
-add_government_reform = mannish_tribal_reform
+add_government_reform = donamenz_chiefdom_reform
 government_rank = 1
 primary_culture = donamenz
 religion = uzvazism
@@ -27,8 +27,8 @@ change_estate_land_share = {
 		name = "Filler"
 		dynasty = "Varten"
 		birth_date = 1248.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }

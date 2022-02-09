@@ -130,3 +130,17 @@ eximiu_mechanic = {
 		female_advisor_chance = 0.8
 	}
 }
+
+taking_donamenz_reform = {
+	icon = "clergyman"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		idea_cost = -0.1
+	}
+	
+	ai = {
+		factor = 2 #generic
+	}
+}

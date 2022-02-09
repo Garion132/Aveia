@@ -1,5 +1,5 @@
 government = mannish_tribal
-add_government_reform = mannish_tribal_reform
+add_government_reform = donamenz_chiefdom_reform
 primary_culture = donamenz
 religion = uzvazism
 technology_group = northern_men_group

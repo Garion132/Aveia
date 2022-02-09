@@ -746,7 +746,12 @@ mannish_tribal = {
 	reform_levels = {
 		feudalism_vs_autocracy = {
 			reforms = {
-				feudalism_reform
+				donamenz_chiefdom_reform
+			}
+		}
+		expansion_path={
+			reforms = {
+				taking_donamenz_reform
 			}
 		}
 	}
