@@ -624,6 +624,7 @@
 					NOT = { num_of_cities = 10 }
 					num_of_ports = 2
 				}
+				has_idea_group = colonialism_ideas
 			}
 		}
 
