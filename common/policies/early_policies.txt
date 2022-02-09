@@ -328,31 +328,6 @@
             factor = 0.8
             modifier = {
                 factor = 0
-                NOT = { has_subject_of_type = colony }
-            }
-        }
-    }
-    philosophical_colonial = {
-        monarch_power = DIP
-
-
-        potential = {
-            has_idea_group = philosophical_ideas
-            has_idea_group = colonialism_ideas
-        }
-        
-        allow = {
-            full_idea_group = philosophical_ideas
-            full_idea_group = colonialism_ideas
-        }
-
-        reduced_liberty_desire = 10
-        reduced_liberty_desire_on_same_continent = -10
-        
-        ai_will_do = {
-            factor = 0.8
-            modifier = {
-                factor = 0
                 NOT = { colony = 1 }
             }
             modifier = {
