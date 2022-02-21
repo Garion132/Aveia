@@ -1,4 +1,7 @@
 #Yerina 
+latent_trade_goods = {
+	iron
+}
 
 add_core = SIN
 owner = SIN
@@ -7,11 +10,12 @@ culture = siniersi
 religion = tlaunorist
 hre = no
 base_tax = 1
-base_production =1
-base_manpower = 1
+base_production =3
+base_manpower = 2
 trade_goods = grain
 capital = "Sal"
 is_city = yes
 discovered_by = lake_elves_group
 discovered_by = ork_group
 extra_cost = 0
+center_of_trade = 1

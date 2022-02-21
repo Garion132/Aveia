@@ -3,7 +3,6 @@ Todta
 Alchwid
 Uloc
 
-Vrur
 Eldhe
 Ever
 Depia
@@ -13,3 +12,7 @@ Char
 Zrul
 Agid
 Tinora
+
+Empire of the first choice
+	religion revolving around the first choice the creator made in creation
+	

@@ -1,4 +1,6 @@
 #Gugh
+culture = zsorji
+religion = forebearist
 capital = "Accra"
 trade_goods = unknown
 hre = no

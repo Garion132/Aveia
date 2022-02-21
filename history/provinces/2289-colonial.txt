@@ -1,4 +1,7 @@
 #Brightcoast
+latent_trade_goods = {
+	coal
+}
 culture = thilranan
 religion = shamanism #Fetishism
 capital = "colonial"

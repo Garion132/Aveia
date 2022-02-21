@@ -474,3 +474,47 @@ VUL_ideas = {
 		land_morale = 0.10
 	}
 }
+expiditionary_state_ideas = {
+	start = {
+		colonists = 1
+		global_colonial_growth = 15
+		global_tax_income = 18
+	}
+
+	bonus = {
+		navy_tradition = 1
+	}
+	
+	trigger = {
+		OR={
+			tag = HIR
+		}
+	}
+	free = yes		#will be added at load.
+
+	exp_trading_guilds = {
+		production_efficiency = 0.05
+		global_own_trade_power = 0.1
+	}
+	exp_loyal_solders = {
+		land_morale = 0.125
+	}
+	exp_exspanding_horisions = {
+		range = 0.9
+	}
+	exp_mercanry_armys = {
+		merc_maintenance_modifier = -0.33
+		mercenary_discipline = 0.25
+	}
+	exp_city_and_state = {
+		development_cost = -0.1
+		global_tax_modifier = 0.1
+	}
+	exp_tlauor_and_his_people = {
+		tolerance_own = 2
+	}
+	exp_center_of_lights = {
+		same_culture_advisor_cost = -0.5
+		global_institution_spread = 0.1
+	}
+}

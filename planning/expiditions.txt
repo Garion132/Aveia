@@ -5,7 +5,36 @@ EAST - 50
 1244 -  -unolaan,tlaunorist
 666 -  -omoran,tlaunorist
 
-Ve'nara company
+Ve'nara Company
+Cradle Trade company - 988,53,80,760,3913,3898,3905,896,885,771 - Indorran
+Gulta
+Telafell
+Quanil
+Telairn
+Tidrea
+Zelfea
+Calharn
+Alvedi
+Velnoi
+Linar
+Entir
+Culinvale
+Terinsa
+Daltsland
+Nytlen
+Kelrau
+Oltos
+Welltron
+Redrun
+Vrur
+Delcarva
+Serar
+Lrocra
+
+
+Formables:
+	Rogos
+	Ligrim
 
 
 JULILA - 

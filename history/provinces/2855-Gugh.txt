@@ -1,6 +1,6 @@
 #Gugh
 capital = "Accra"
-trade_goods = unknown
+trade_goods =forebearist
 hre = no
 base_tax = 0
 base_production = 0

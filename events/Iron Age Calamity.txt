@@ -30,13 +30,15 @@ country_event = {
 				}
 			}
 			every_country = {
+				limit={
+					NOT = {tag = REB}
+					NOT = {tag = NAT}
+					NOT = {tag = PIR}
+				}
 				country_event = { #Supervolcano Eruption
 					id = iron_age_calamity.3
 					days = 365
 				}
-			}
-			2686={
-				add_base_tax = 1
 			}
 		}
 	}

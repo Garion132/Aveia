@@ -1,6 +1,6 @@
 #Gugh
 culture = gugh
-religion = roresist
+religion = forebearist
 capital = "Accra"
 trade_goods = unknown
 hre = no

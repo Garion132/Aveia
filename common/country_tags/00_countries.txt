@@ -188,7 +188,7 @@ SMO = "countries/Smotia.txt"
 IDI = "countries/Idiel.txt"
 ORA = "countries/Ora.txt" 
 ALM = "countries/Almet.txt" 
-
+##spiders
 SHZ = "countries/Shizho.txt" 
 CAS = "countries/Castry.txt" 
 COL = "countries/Colshan.txt" 
@@ -204,6 +204,7 @@ SUL = "countries/Sulzis.txt"
 ZTE = "countries/Ztenat.txt"
 ZAR = "countries/Zartoc.txt"
 
+#Eliteria colonial ventures
 SIL = "countries/Silowbo_colony.txt"
 OAG = "countries/Oagemins_colony.txt"
 CLO = "countries/Cloudham_colony.txt"
@@ -214,5 +215,10 @@ VIL = "countries/Villou.txt"
 FLA = "countries/Flaven.txt"
 DAW = "countries/Dawnmond.txt" 
 SKP = "countries/Salkeeple.txt"
+
+##eastern expiditions
+HIR = "countries/Hirdam Order.txt"
+
+##eastern formables
 
 PAP = "countries/Yulikivian.txt"

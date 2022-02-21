@@ -514,8 +514,9 @@ tlaulunorism = {
 			diplomatic_reputation = 1
 			advisor_pool = 1
 		}
-		
-		
+		province = {
+			local_missionary_strength = -0.02
+		}
 		
 		on_convert = {
 			change_religion = godly_sect
@@ -740,7 +741,7 @@ roresism_group = {
 				# If you don't set this it will expand on_invite_scholar effect which might be super big
 				invite_scholar_modifier_display = dhizdia_scholar_modifier
 
-				picture = "GFX_icon_muslim_school_hanafi"
+				picture = "GFX_school_dhizdian_church"
 
 				# religion_sub_modifier = no is possible, will hide icon in religious screen
 				land_morale = 0.075
@@ -775,7 +776,7 @@ roresism_group = {
 				# If you don't set this it will expand on_invite_scholar effect which might be super big
 				invite_scholar_modifier_display = karnelia_scholar_modifier
 
-				picture = "GFX_icon_muslim_school_hanbali"
+				picture = "GFX_school_karnelian_church"
 
 				# religion_sub_modifier = no is possible, will hide icon in religious screen
 				discipline = 0.025
@@ -810,7 +811,7 @@ roresism_group = {
 				# If you don't set this it will expand on_invite_scholar effect which might be super big
 				invite_scholar_modifier_display = rorest_scholar_modifier
 
-				picture = "GFX_icon_muslim_school_maliki"
+				picture = "GFX_school_rorest_church"
 
 				# religion_sub_modifier = no is possible, will hide icon in religious screen
 				global_trade_goods_size_modifier = 0.05
@@ -845,7 +846,7 @@ roresism_group = {
 				# If you don't set this it will expand on_invite_scholar effect which might be super big
 				invite_scholar_modifier_display = pirrarthim_scholar_modifier
 
-				picture = "GFX_icon_muslim_school_shafii"
+				picture = "GFX_school_pirrar_thism_church"
 
 				# religion_sub_modifier = no is possible, will hide icon in religious screen
 				adm_tech_cost_modifier = -0.05

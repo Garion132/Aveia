@@ -237,4 +237,6 @@
  
  meanic_court:0 "Meanic Court"
  keldic_court:0 "Keldic Court"
+ COLONIAL_EAST_LOCKED:0 "This area is currently under Glacial Ice"
+ COLONIAL_THILRANA_BLOCKED:0 "Thilrana is too hostile to colonise"
  

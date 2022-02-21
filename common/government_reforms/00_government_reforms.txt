@@ -121,6 +121,7 @@ donamenz_chiefdom_reform = {
 	modifiers = {
     	governing_capacity = 150
 		development_cost = 0.7
+		land_forcelimit = 10
 	}
 	ai = {
 		factor = 1
