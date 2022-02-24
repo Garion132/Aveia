@@ -111,17 +111,17 @@
                 navy_size = 100
             }			
             modifier = {
-                factor = 1.5
+                factor = 1.25
                 navy_size = 150
             }
             modifier = {
-                factor = 1.5
+                factor = 1.25
                 navy_size = 200
             }	
         }
     }
     administrative_diplomatic = {
-        monarch_power = DIP
+        monarch_power = ADM
 
 
         potential = {
@@ -156,7 +156,7 @@
         }
 
         diplomats = 1
-        diplomatic_upkeep = 2
+        diplomatic_upkeep = 3
         
         ai_will_do = {
             factor = 1.2
@@ -176,7 +176,7 @@
             full_idea_group = offensive_ideas
         }
 
-        vassal_income = 0.5
+        vassal_income = 0.4
 
         ai_will_do = {
             factor = 1
@@ -277,7 +277,7 @@
             full_idea_group = procurement_ideas
         }
 
-        governing_capacity_modifier = 0.25
+        governing_capacity_modifier = 0.2
 
         ai_will_do = {
             factor = 1.0
@@ -362,7 +362,7 @@
             full_idea_group = maritime_ideas
         }
 
-        navy_tradition = 1
+        navy_tradition = 0.75
 
         ai_will_do = {
             factor = 1
@@ -386,7 +386,7 @@
             full_idea_group = diplomatic_ideas
         }
 
-        diplomatic_reputation = 2
+        diplomatic_reputation = 1.5
 
         ai_will_do = {
             factor = 1.1
@@ -452,7 +452,7 @@
             full_idea_group = defensive_ideas
         }
 
-        war_exhaustion = -0.05
+        war_exhaustion = -0.03
         defensiveness = 0.1
 
         ai_will_do = {
@@ -546,7 +546,7 @@
             full_idea_group = trade_ideas
         }
 
-        center_of_trade_upgrade_cost = -0.25
+        center_of_trade_upgrade_cost = -0.33
 
         ai_will_do = {
             factor = 0.5
@@ -582,7 +582,7 @@
             full_idea_group = colonialism_ideas
         }
 
-        trade_company_investment_cost = -0.25
+        trade_company_investment_cost = -0.33
 
         ai_will_do = {
             factor = 0.5
@@ -614,6 +614,7 @@
             full_idea_group = maritime_ideas
         }
 
+        build_cost = -0.05
         global_ship_cost = -0.1
 
         ai_will_do = {
@@ -816,7 +817,7 @@
         }
 
         build_cost = -0.10
-        artillery_power = 0.10
+        artillery_power = 0.05
 
         ai_will_do = {
             factor = 1.5
@@ -855,7 +856,7 @@
             full_idea_group = trade_ideas
         }
 
-        global_trade_power = 0.05
+        global_trade_power = 0.1
         global_missionary_strength = 0.01
 
         ai_will_do = {
@@ -1019,10 +1020,31 @@
         }
 
         improve_relation_modifier = 0.33
-        diplomatic_reputation = 1
+        religious_unity = 0.2
+        global_missionary_strength = 0.03
 
         ai_will_do = {
             factor = 0.9	
+            modifier = {
+                factor = 0
+                religious_unity = 1
+            }
+            modifier = {
+                factor = 1.5
+                NOT = { religious_unity = 0.8 }
+            }
+            modifier = {
+                factor = 1.5
+                NOT = { religious_unity = 0.6 }
+            }			
+            modifier = {
+                factor = 1.5
+                NOT = { religious_unity = 0.4 }
+            }
+            modifier = {
+                factor = 1.5
+                NOT = { religious_unity = 0.2 }
+            }
         }
     }
     religious_offensive = {
@@ -1063,7 +1085,7 @@
             modifier = {
                 factor = 1.5
                 NOT = { religious_unity = 0.2 }
-            }			
+            }
         }
     }
     religious_defensive = {
@@ -1122,7 +1144,7 @@
             full_idea_group = logistic_ideas
         }
 
-        land_attrition = -0.25
+        land_attrition = -0.33
         missionary_maintenance_cost = -0.15
 
         ai_will_do = {
@@ -1433,7 +1455,7 @@
         army_tradition = 0.75
 
         ai_will_do = {
-            factor = 0.6
+            factor = 0.8
         }
     }
     leadership_maritime = {
@@ -1454,7 +1476,11 @@
         naval_morale = 0.1
 
         ai_will_do = {
-            factor = 0.6
+            factor = 1.1
+            modifier = {
+                factor = 2
+                is_at_war = yes
+            }
         }
     }
     leadership_diplomatic = {
@@ -1471,14 +1497,157 @@
             full_idea_group = diplomatic_ideas
         }
 
-        trade_steering = 0.2
+        merchants = 1
 
         ai_will_do = {
             factor = 0.6
+            modifier = {
+                factor = 0
+                NOT = { trade_income_percentage = 0.1 }
+            }			
+            modifier = {
+                factor = 1.3
+                trade_income_percentage = 0.2
+            }
+            modifier = {
+                factor = 1.3
+                trade_income_percentage = 0.3
+            }
+            modifier = {
+                factor = 1.5
+                trade_income_percentage = 0.4
+            }
+            modifier = {
+                factor = 1.5
+                trade_income_percentage = 0.5
+            }
         }
     }
 #
 
 #Rest of Logistic
     
+    logistic_trade = {
+        monarch_power = DIP
+
+
+        potential = {
+            has_idea_group = logistic_ideas
+            has_idea_group = trade_ideas
+        }
+        
+        allow = {
+            full_idea_group = logistic_ideas
+            full_idea_group = trade_ideas
+        }
+
+        caravan_power = 0.2
+
+        ai_will_do = {
+            factor = 0.6
+            modifier = {
+                factor = 0
+                NOT = { trade_income_percentage = 0.1 }
+            }			
+            modifier = {
+                factor = 1.3
+                trade_income_percentage = 0.2
+            }
+            modifier = {
+                factor = 1.3
+                trade_income_percentage = 0.3
+            }
+            modifier = {
+                factor = 1.3
+                trade_income_percentage = 0.4
+            }
+            modifier = {
+                factor = 1.3
+                trade_income_percentage = 0.5
+            }
+        }
+    }
+    logistic_colonial = {
+        monarch_power = DIP
+
+
+        potential = {
+            has_idea_group = logistic_ideas
+            has_idea_group = colonialism_ideas
+        }
+        
+        allow = {
+            full_idea_group = logistic_ideas
+            full_idea_group = colonialism_ideas
+        }
+
+        colonist_placement_chance = 0.05
+        global_supply_limit_modifier = 0.25
+
+        ai_will_do = {
+            factor = 0.6
+        }
+    }
+    logistic_maritime = {
+        monarch_power = DIP
+
+
+        potential = {
+            has_idea_group = logistic_ideas
+            has_idea_group = maritime_ideas
+        }
+        
+        allow = {
+            full_idea_group = logistic_ideas
+            full_idea_group = maritime_ideas
+        }
+
+        sailor_maintenance_modifer = -0.1
+        global_ship_repair = 0.2
+
+        ai_will_do = {
+            factor = 0.7
+            modifier = {
+                factor = 0
+                NOT = { navy_size = 20 }
+            }
+            modifier = {
+                factor = 1.5
+                navy_size = 50
+            }
+            modifier = {
+                factor = 1.5
+                navy_size = 100
+            }			
+            modifier = {
+                factor = 1.25
+                navy_size = 150
+            }
+            modifier = {
+                factor = 1.25
+                navy_size = 200
+            }
+        }
+    }
+    logistic_diplomatic = {
+        monarch_power = MIL
+
+
+        potential = {
+            has_idea_group = logistic_ideas
+            has_idea_group = diplomatic_ideas
+        }
+        
+        allow = {
+            full_idea_group = logistic_ideas
+            full_idea_group = diplomatic_ideas
+        }
+
+        diplomatic_reputation = 0.5
+        land_forcelimit_modifier = 0.1
+
+        ai_will_do = {
+            factor = 0.6
+        }
+    }
 #
