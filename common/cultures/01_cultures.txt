@@ -3250,7 +3250,7 @@ desert_ugluk = {
 	male_names = { Gunther Rolf }
 	
 	morbinite = {
-		#primary = NYH
+		primary = MOR
 		male_names = {
 			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
 			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
@@ -3397,7 +3397,7 @@ desert_ugluk = {
 		}
 	}
 	deresunite = {
-		#primary = NYH
+		primary = DER
 		male_names = {
 			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
 			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
@@ -3756,7 +3756,7 @@ basin_ugluk = {
 	male_names = { Gunther Rolf }
 	
 	gulban = {
-		#primary = NYH
+		primary = GUL
 		male_names = {
 			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
 			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
@@ -3805,7 +3805,7 @@ basin_ugluk = {
 		}
 	}
 	himben = {
-		#primary = NYH
+		primary = HIM
 		male_names = {
 			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
 			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
@@ -3854,7 +3854,7 @@ basin_ugluk = {
 		}
 	}
 	talbin = {
-		#primary = NYH
+		primary = TAL
 		male_names = {
 			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
 			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 

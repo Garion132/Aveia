@@ -3,14 +3,15 @@ REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
-#kingdom of Kyath
-KYA = "countries/Kyath.txt"
-IWE = "countries/Iwenlumy.txt"
-KYT = "countries/Kyatlasian Theocracy.txt"
-ANO = "countries/Anores.txt"
-TIT = "countries/Titar.txt"
-MAT = "countries/Matnolu.txt"
-LUR = "countries/Lurt.txt"
+# Kingdom of Kyath
+    KYA = "countries/Kyath.txt"
+    IWE = "countries/Iwenlumy.txt"
+    KYT = "countries/Kyatlasian Theocracy.txt"
+    ANO = "countries/Anores.txt"
+    TIT = "countries/Titar.txt"
+    MAT = "countries/Matnolu.txt"
+    LUR = "countries/Lurt.txt"
+
 IHA = "countries/Ihadar.txt"
 ELE = "countries/Elesilon.txt"
 LEL = "countries/Leleth.txt"
@@ -108,7 +109,6 @@ ANT = "countries/Anthyr.txt"
 CHE = "countries/Cherga.txt"
 KUS = "countries/Kusedean.txt"
 KAB = "countries/Kabuk.txt"
-DER = "countries/Deresunga.txt"
 OMY = "countries/Omyse.txt"
 DGT = "countries/Dregroth.txt"
 IFR = "countries/Ifranhil.txt"
@@ -188,37 +188,58 @@ SMO = "countries/Smotia.txt"
 IDI = "countries/Idiel.txt"
 ORA = "countries/Ora.txt" 
 ALM = "countries/Almet.txt" 
-##spiders
-SHZ = "countries/Shizho.txt" 
-CAS = "countries/Castry.txt" 
-COL = "countries/Colshan.txt" 
-XAC = "countries/Xacak.txt" 
-YOR = "countries/Yorrok.txt" 
-RHI = "countries/Rhial.txt" 
-AIV = "countries/Aivash.txt"
-KRA = "countries/Kratic.txt"
-FLK = "countries/Flaukn.txt"
-YIR = "countries/Yirouk.txt"
-HZO = "countries/Hizorc.txt"
-SUL = "countries/Sulzis.txt"
-ZTE = "countries/Ztenat.txt"
-ZAR = "countries/Zartoc.txt"
 
-#Eliteria colonial ventures
-SIL = "countries/Silowbo_colony.txt"
-OAG = "countries/Oagemins_colony.txt"
-CLO = "countries/Cloudham_colony.txt"
-FYG = "countries/Freygmia_colony.txt"
-SRI = "countries/Sringar_colony.txt"
-#JAL = "countries/Jalorkan.txt"
-VIL = "countries/Villou.txt"
-FLA = "countries/Flaven.txt"
-DAW = "countries/Dawnmond.txt" 
-SKP = "countries/Salkeeple.txt"
+## Spiders
+    SHZ = "countries/Shizho.txt" 
+    CAS = "countries/Castry.txt" 
+    COL = "countries/Colshan.txt" 
+    XAC = "countries/Xacak.txt" 
+    YOR = "countries/Yorrok.txt" 
+    RHI = "countries/Rhial.txt" 
+    AIV = "countries/Aivash.txt"
+    KRA = "countries/Kratic.txt"
+    FLK = "countries/Flaukn.txt"
+    YIR = "countries/Yirouk.txt"
+    HZO = "countries/Hizorc.txt"
+    SUL = "countries/Sulzis.txt"
+    ZTE = "countries/Ztenat.txt"
+    ZAR = "countries/Zartoc.txt"
 
-##eastern expiditions
-HIR = "countries/Hirdam Order.txt"
+## Eliteria colonial ventures
+    SIL = "countries/Silowbo_colony.txt"
+    OAG = "countries/Oagemins_colony.txt"
+    CLO = "countries/Cloudham_colony.txt"
+    FYG = "countries/Freygmia_colony.txt"
+    SRI = "countries/Sringar_colony.txt"
+    #JAL = "countries/Jalorkan.txt"
+    VIL = "countries/Villou.txt"
+    FLA = "countries/Flaven.txt"
+    DAW = "countries/Dawnmond.txt" 
+    SKP = "countries/Salkeeple.txt"
 
-##eastern formables
+## Eastern expeditions
+    HIR = "countries/Hirdam Order.txt"
 
+## Eastern formables
+
+## Iron Calamity Breakaways
+    #Desert Ugluk
+    MOR = "countries/Morbir.txt"
+    EHA = "countries/Ehay.txt"
+    POZ = "countries/Pozu.txt"
+    BOD = "countries/Bodrerika.txt"
+    ISA = "countries/Istancan.txt"
+    DER = "countries/Deresunga.txt"
+    GHD = "countries/Ghadh.txt"
+
+    #Basin Ugluk
+    TOL = "countries/Tolat.txt"
+    TAL = "countries/Talb.txt"
+    HIM = "countries/Himbe.txt"
+    BRU = "countries/Brur.txt"
+    ORK = "countries/Orkodh.txt"
+    UGR = "countries/Ugru.txt"
+
+
+#Crashes if this doesn't exist
 PAP = "countries/Yulikivian.txt"

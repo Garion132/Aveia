@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = morbinite
+religion = catholic
+technology_group = ork_group
+capital = 1806 #Pozu 
+#national_focus = DIP
+#historical_rival = HAB

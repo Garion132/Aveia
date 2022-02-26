@@ -12,8 +12,8 @@ technology = {
 	
 	sprite_level = 1
 
-	infantry_fire		= 	0.25
-	infantry_shock 		= 	0.20
+	infantry_fire		= 	0.3
+	infantry_shock 		= 	0.35
 	land_morale 		= 	2.0
 
 	enable = warrior_infantry #All
@@ -34,7 +34,7 @@ technology = {
 
 	#Bronze Weaponry
 	
-	infantry_shock		= 	0.1
+	infantry_shock		= 	0.15
 	military_tactics = 0.1
 	
 	#TODO - new inf type
@@ -118,7 +118,7 @@ technology = {
 	year = 1339
 	
 	#Orbury Bow
-	infantry_fire = 0.2
+	infantry_fire = 0.15
 
 	enable = orbury_bowmen #Humans
 	enable = valley_warriors
@@ -130,7 +130,7 @@ technology = {
 	
 	#Double-Handed Pike
 	maneuver_value = 0.25
-	infantry_shock = 0.2
+	infantry_shock = 0.1
 	
 	enable = ork_late_verditap_infantry #Orks
 }
@@ -140,7 +140,7 @@ technology = {
 	year = 1365
 	
 	#Metallurgy
-	infantry_shock		= 	0.30
+	infantry_shock		= 	0.2
 	
 	enable = shemseler_pikemen #Elves
 	enable = kyathian_old_guard

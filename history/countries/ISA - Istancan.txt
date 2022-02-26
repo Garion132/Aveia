@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = deresunite
+religion = catholic
+technology_group = ork_group
+capital = 1788 #Istancan 
+#national_focus = DIP
+#historical_rival = HAB
