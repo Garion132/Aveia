@@ -102,7 +102,6 @@ estate_house_kethai ={
 	
 	privileges = {
 		estate_nobles_land_rights
-		estate_nobles_nobility_primacy
 		estate_nobles_officer_corp
 		estate_nobles_right_of_counsel
 	}

@@ -1,0 +1,81 @@
+country_decisions = {
+
+	aragos_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_aragos_flag }
+			NOT = { tag = ARA }
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = ARA }
+					num_of_cities = 3 #Carnage
+				}
+			}
+			culture_group = arago
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			region = haqsili_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ARA }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			religion = roresist
+			is_nomad = no
+			owns_core_province = 3948	# Aniliti
+			num_of_owned_provinces_with = {
+				value = 33
+				has_owner_accepted_culture = yes
+				region = haqsili_region
+				is_core = ROOT
+			}
+		}
+		effect = {
+			set_capital = 3948
+			change_tag = ARA
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			haqsili_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ARA
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = ARA_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_aragos_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
+}

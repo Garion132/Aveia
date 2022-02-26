@@ -807,6 +807,59 @@ pick_random_estate_if_present = {
 	}
 }
 
+RAU_pick_random_house_if_present = {
+	random_list = {
+		1 = { 
+			trigger = {
+				has_estate = estate_house_kethai
+				NOT = { has_country_flag = estate_house_kethai_$flag$ }
+				NOT={dynasty = "Kethai"}
+			}
+			set_country_flag = estate_house_kethai_$flag$
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_house_etailia
+				NOT = { has_country_flag =estate_house_etailia_$flag$ }
+				NOT={dynasty = "Etailia"}
+			}
+			set_country_flag = estate_house_etailia_$flag$
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_house_nyletmi
+				NOT = { has_country_flag = estate_house_nyletmi_$flag$ }
+				NOT={dynasty = "Nyletmi"}
+			}
+			set_country_flag = estate_house_nyletmi_$flag$ 
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_house_draumi
+				NOT = { has_country_flag = estate_house_draumi_$flag$ }
+				NOT={dynasty = "Draumi"}
+			}
+			set_country_flag = estate_house_draumi_$flag$
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_house_lidori
+				NOT = { has_country_flag = estate_house_lidori_$flag$ }
+				NOT={dynasty = "Lidori"}
+			}
+			set_country_flag = estate_house_lidori_$flag$
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_house_celola
+				NOT = { has_country_flag = estate_house_celola_$flag$ }
+				NOT={dynasty = "Celola"}
+			}
+			set_country_flag = estate_house_celola_$flag$
+		}
+	}
+}
+
 # estate = what estate
 # Will give the estate 1% land
 give_estate_land_share_small = {

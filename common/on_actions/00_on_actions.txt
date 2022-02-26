@@ -2477,7 +2477,6 @@ on_rebels_break_country = {
 		}
 		collapse_nation = yes
 	}
-	
 }
 
 # this = country

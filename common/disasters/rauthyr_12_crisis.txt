@@ -67,7 +67,7 @@ crisis_of_the_12th_century = {
 	progress = {
 		modifier = {
 			factor = 1
-			NOT = { religious_unity = 1 }
+			NOT = { religious_unity = 1.0 }
 		}		
 		modifier = {
 			factor = 1
@@ -79,7 +79,7 @@ crisis_of_the_12th_century = {
 		}		
 		modifier = {
 			factor = 0.5
-			NOT = { land_maintenance = 1.0 }
+			NOT = { land_maintenance = 0.95 }
 		}
 		modifier = {
 			factor = 1
@@ -94,7 +94,7 @@ crisis_of_the_12th_century = {
 			factor = 1
 			NOT = { 
 				estate_loyalty = {
-					estate = estate_house_keathi
+					estate = estate_house_kethai
 					loyalty = 30
 				}
 			}
@@ -151,7 +151,7 @@ crisis_of_the_12th_century = {
 			loyalty = 25
 		}
 		estate_loyalty = {
-			estate = estate_house_keathi
+			estate = estate_house_kethai
 			loyalty = 25
 		}
 		estate_loyalty = {
@@ -182,14 +182,14 @@ crisis_of_the_12th_century = {
 	
 	
 	on_start = rauthyr_estate_events.8
-	on_end = rauthyr_estate_events.11
+	on_end = rauthyr_estate_events.9
 	
 	on_monthly = {
 		events = {
 		}
 		random_events = { 
 			1000 = 0
-			100 = rauthyr_estate_events.9
+			#100 = rauthyr_estate_events.11
 			100 = rauthyr_estate_events.10
 		}
 	}

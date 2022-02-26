@@ -1500,7 +1500,7 @@ country_event = {
 		
 	}
 }
-#12th century crisis - start
+#12th century crisis - end
 country_event = {
 	id = rauthyr_estate_events.9
 	title = rauthyr_estate_events.9.t
@@ -1520,4 +1520,582 @@ country_event = {
 		}
 		
 	}
+}
+
+#12th century crisis - house disloyal
+country_event = {
+	id = rauthyr_estate_events.10
+	title = rauthyr_estate_events.10.t
+	desc = rauthyr_estate_events.10.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect={
+			RAU_pick_random_house_if_present = {flag = pissed}
+		}
+	}
+	after = {
+		clr_country_flag = estate_house_kethai_pissed
+		clr_country_flag = estate_house_etailia_pissed
+		clr_country_flag = estate_house_nyletmi_pissed
+		clr_country_flag = estate_house_draumi_pissed
+		clr_country_flag = estate_house_lidori_pissed
+		clr_country_flag = estate_house_celola_pissed
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.10.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		if={
+			limit = {has_country_flag = estate_house_kethai_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_etailia_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_etailia
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_nyletmi_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_nyletmi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_draumi_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_draumi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_lidori_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_lidori
+				loyalty = -10
+			}
+		}
+		else={
+			add_estate_loyalty = {
+				estate = estate_house_celola
+				loyalty = -10
+			}
+		}
+	}
+	option = { 
+		name = rauthyr_estate_events.10.b #placate
+		ai_chance = {
+			factor =1
+		}
+		trigger={
+			prestige = -20
+		}
+		add_prestige = -15
+	}
+}
+
+#12th century crisis - house demands land
+country_event = {
+	id = rauthyr_estate_events.11
+	title = rauthyr_estate_events.11.t
+	desc = rauthyr_estate_events.11.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect={
+			RAU_pick_random_house_if_present = {flag = pissed}
+		}
+	}
+	after = {
+		clr_country_flag = estate_house_kethai_pissed
+		clr_country_flag = estate_house_etailia_pissed
+		clr_country_flag = estate_house_nyletmi_pissed
+		clr_country_flag = estate_house_draumi_pissed
+		clr_country_flag = estate_house_lidori_pissed
+		clr_country_flag = estate_house_celola_pissed
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.11.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		if={
+			limit = {has_country_flag = estate_house_kethai_pissed}
+			change_estate_land_share = {
+				estate = estate_house_kethai
+				share = 5
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_etailia_pissed}
+			change_estate_land_share = {
+				estate = estate_house_etailia
+				share = 5
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_nyletmi_pissed}
+			change_estate_land_share = {
+				estate = estate_house_nyletmi
+				share = 5
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_draumi_pissed}
+			change_estate_land_share = {
+				estate = estate_house_draumi
+				share = 5
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_lidori_pissed}
+			change_estate_land_share = {
+				estate = estate_house_lidori
+				share = 5
+			}
+		}
+		else={
+			change_estate_land_share = {
+				estate = estate_house_celola
+				share = 5
+			}
+		}
+	}
+	option = { 
+		name = rauthyr_estate_events.11.b #refuse
+		ai_chance = {
+			factor =1
+		}
+		if={
+			limit = {has_country_flag = estate_house_kethai_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_etailia_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_etailia
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_nyletmi_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_nyletmi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_draumi_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_draumi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_lidori_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_lidori
+				loyalty = -10
+			}
+		}
+		else={
+			add_estate_loyalty = {
+				estate = estate_house_celola
+				loyalty = -10
+			}
+		}
+	}
+}
+
+#bickering houses
+country_event = {
+	id = rauthyr_estate_events.13
+	title = rauthyr_estate_events.13.t
+	desc = rauthyr_estate_events.13.desc
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	#is_triggered_only = yes
+	trigger={
+		tag = RAU
+	}
+	mean_time_to_happen = {
+		days = 360
+	}
+	
+	immediate = {
+		hidden_effect={
+			RAU_pick_random_house_if_present = {flag = bickering_house}
+			RAU_pick_random_house_if_present = {flag = bickering_house}
+		}
+	}
+	
+	after = {
+		clr_country_flag = estate_house_kethai_bickering_house
+		clr_country_flag = estate_house_etailia_bickering_house
+		clr_country_flag = estate_house_nyletmi_bickering_house
+		clr_country_flag = estate_house_draumi_bickering_house
+		clr_country_flag = estate_house_lidori_bickering_house
+		clr_country_flag = estate_house_celola_bickering_house
+	}
+	
+	option = { #kethai
+		name = rauthyr_estate_events.11.a 
+		trigger= { has_country_flag = estate_house_kethai_bickering_house }
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_loyalty = {
+			estate = estate_house_kethai
+			loyalty = 10
+		}
+		if={
+			limit = {has_country_flag = estate_house_etailia_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_etailia
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_nyletmi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_nyletmi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_draumi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_draumi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_lidori_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_lidori
+				loyalty = -10
+			}
+		}
+		else={
+			limit = {has_country_flag = estate_house_celola_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_celola
+				loyalty = -10
+			}
+		}
+	}
+	option = { #etailia
+		name = rauthyr_estate_events.11.b
+		trigger= { has_country_flag = estate_house_etailia_bickering_house }
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_loyalty = {
+			estate = estate_house_etailia
+			loyalty = 10
+		}
+		if={
+			limit = {has_country_flag = estate_house_kethai_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_nyletmi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_nyletmi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_draumi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_draumi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_lidori_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_lidori
+				loyalty = -10
+			}
+		}
+		else={
+			limit = {has_country_flag = estate_house_celola_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_celola
+				loyalty = -10
+			}
+		}
+	}
+	option = { #nyletmi
+		name = rauthyr_estate_events.11.c
+		trigger= { has_country_flag = estate_house_nyletmi_bickering_house }
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_loyalty = {
+			estate = estate_house_nyletmi
+			loyalty = 10
+		}
+		if={
+			limit = {has_country_flag = estate_house_kethai_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_etailia_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_etailia
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_draumi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_draumi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_lidori_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_lidori
+				loyalty = -10
+			}
+		}
+		else={
+			limit = {has_country_flag = estate_house_celola_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_celola
+				loyalty = -10
+			}
+		}
+	}
+	option = { #draumi
+		name = rauthyr_estate_events.11.d
+		trigger= { has_country_flag = estate_house_draumi_bickering_house }
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_loyalty = {
+			estate = estate_house_draumi
+			loyalty = 10
+		}
+		if={
+			limit = {has_country_flag = estate_house_kethai_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_etailia_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_etailia
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_nyletmi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_nyletmi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_lidori_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_lidori
+				loyalty = -10
+			}
+		}
+		else={
+			limit = {has_country_flag = estate_house_celola_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_celola
+				loyalty = -10
+			}
+		}
+	}
+	option = { #lidori
+		name = rauthyr_estate_events.11.e
+		trigger= { has_country_flag = estate_house_lidori_bickering_house }
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_loyalty = {
+			estate = estate_house_lidori
+			loyalty = 10
+		}
+		if={
+			limit = {has_country_flag = estate_house_kethai_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_etailia_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_etailia
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_nyletmi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_nyletmi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_draumi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_draumi
+				loyalty = -10
+			}
+		}
+		else={
+			limit = {has_country_flag = estate_house_celola_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_celola
+				loyalty = -10
+			}
+		}
+	}
+	option = { #celola
+		name = rauthyr_estate_events.11.f
+		trigger= { has_country_flag = estate_house_celola_bickering_house }
+		ai_chance = {
+			factor = 1
+		}
+		add_estate_loyalty = {
+			estate = estate_house_celola
+			loyalty = 10
+		}
+		if={
+			limit = {has_country_flag = estate_house_kethai_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_etailia_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_etailia
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_nyletmi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_nyletmi
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_draumi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_draumi
+				loyalty = -10
+			}
+		}
+		else={
+			limit = {has_country_flag = estate_house_lidori_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_lidori
+				loyalty = -10
+			}
+		}
+	}
+	option = { #neither
+		name = rauthyr_estate_events.11.g
+		ai_chance = {
+			factor = 1
+		}
+		
+		if={
+			limit = {has_country_flag = estate_house_kethai_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = -10
+			}
+		}
+		if={
+			limit = {has_country_flag = estate_house_etailia_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_etailia
+				loyalty = -10
+			}
+		}
+		if={
+			limit = {has_country_flag = estate_house_nyletmi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_nyletmi
+				loyalty = -10
+			}
+		}
+		if={
+			limit = {has_country_flag = estate_house_draumi_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_draumi
+				loyalty = -10
+			}
+		}
+		if={
+			limit = {has_country_flag = estate_house_lidori_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_lidori
+				loyalty = -10
+			}
+		}
+		if={
+			limit = {has_country_flag = estate_house_celola_bickering_house}
+			add_estate_loyalty = {
+				estate = estate_house_celola
+				loyalty = -10
+			}
+		}
+		add_years_of_income = 0.25
+	}
+}
+
+#TEST
+country_event = {
+	id = rauthyr_estate_events.14
+	title = rauthyr_estate_events.14.t
+	desc = rauthyr_estate_events.14.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	is_triggered_only = yes
+	option = { 
+		name = rauthyr_estate_events.14.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		collapse_nation = yes
+	}
+
 }

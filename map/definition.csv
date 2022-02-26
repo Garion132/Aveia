@@ -4022,9 +4022,9 @@ province;red;green;blue;x;x
 4021;244;97;32;Antankara;x#
 4022;217;166;43;Iboina;x#
 4023;53;184;224;Tsimihety;x#
-4024;100;201;61;Maroantsetra;x
-4025;38;83;21;Vatomandry;x
-4026;169;74;32;Antemoro;x
+4024;100;201;61;Maroantsetra;x#lake
+4025;38;83;21;Vatomandry;x#lake
+4026;169;74;32;Antemoro;x#lake
 4027;215;80;147;Betsileo;x
 4028;79;160;47;Mahafaly;x
 4029;139;53;205;Antanosy;x

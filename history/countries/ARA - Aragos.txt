@@ -1,0 +1,8 @@
+government = eximiu_colony
+add_government_reform = eximiu_reform
+government_rank = 3
+primary_culture = caltric
+religion = roresist
+religious_school = keldic_court
+technology_group = great_spiders_group
+capital = 3948 # 

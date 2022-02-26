@@ -1798,6 +1798,7 @@ country_event = {
 					MOR = {
 						set_country_flag = rebel_country_flag
 						set_capital = 1820
+						change_religion = tlaunorist
 					}
 				}
 			}
@@ -1944,6 +1945,7 @@ country_event = {
 					DER = {
 						set_country_flag = rebel_country_flag
 						set_capital = 1794
+						change_religion = tlaunorist
 					}
 				}
 			}
@@ -2081,6 +2083,7 @@ country_event = {
 					TAL = {
 						set_country_flag = rebel_country_flag
 						set_capital = 1751
+						change_religion = tlaunorist
 					}
 				}
 			}
@@ -2227,6 +2230,7 @@ country_event = {
 					HIM = {
 						set_country_flag = rebel_country_flag
 						set_capital = 1092
+						change_religion = tlaunorist
 					}
 				}
 			}
@@ -2329,7 +2333,7 @@ country_event = {
 				}
 			}
 		}
-		#The Gulban State Collapses!
+#The Gulban State Collapses!
 		country_event = {
 			id = iron_age_calamity.1004
 			title = "iron_age_calamity.1004.t"
@@ -2424,6 +2428,7 @@ country_event = {
 							}
 							set_capital = 1764
 						}
+						change_religion = tlaunorist
 					}
 					ORK = {
 						if = {
@@ -2432,6 +2437,7 @@ country_event = {
 							}
 							set_capital = 1740
 						}
+						change_religion = tlaunorist
 					}
 					TOL = {
 						if = {
@@ -2440,6 +2446,7 @@ country_event = {
 							}
 							set_capital = 1745
 						}
+						change_religion = tlaunorist
 					}
 					every_province = {
 						limit = {
