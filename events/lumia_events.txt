@@ -27,3 +27,33 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = lumia_event.2
+	title = lumia_event.2.t
+	desc = lumia_event.2.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = lumia_event.2.a
+
+		hidden_effect = {
+
+		}
+	}
+}
+country_event = {
+	id = lumia_event.3
+	title = lumia_event.3.t
+	desc = lumia_event.3.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = lumia_event.3.a
+
+		hidden_effect = {
+
+		}
+	}
+}
