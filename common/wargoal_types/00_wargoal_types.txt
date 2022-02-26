@@ -1758,3 +1758,33 @@ mannish_raids = {
 	
 	transfer_trade_cost_factor = 0.5	
 }
+
+restore_order = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0
+		prestige_factor = 0.25
+		peace_cost_factor = 0.2
+		
+		allowed_provinces_are_eligible = yes
+		allowed_provinces = {
+			is_core = ROOT
+		}
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	defender = {
+		prestige_factor = 2
+		allowed_provinces = {
+			always = no
+		}
+		peace_options = {
+			po_gold
+			po_concede_defeat
+			po_trade_power
+			po_steer_trade
+		}
+	}
+}

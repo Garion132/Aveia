@@ -13,6 +13,22 @@
 # TRIGGERED - Triggered from within the code or by event effects
 # --------------------------------------------------------------
 
+#Restore Order on rebel countries
+cb_restore_order = {
+	valid_for_subject = no
+
+	prerequisites = {
+		FROM = {
+			has_country_flag = rebel_country_flag
+			any_owned_province = {
+				is_core = ROOT
+			}
+		}
+	}
+
+	war_goal = restore_order
+}
+
 # Restoration of recently broken PU
 cb_restore_personal_union = {
 	valid_for_subject = no

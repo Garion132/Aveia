@@ -239,4 +239,7 @@
  keldic_court:0 "Keldic Court"
  COLONIAL_EAST_LOCKED:0 "This area is currently under Glacial Ice"
  COLONIAL_THILRANA_BLOCKED:0 "Thilrana is too hostile to colonise"
+
+ cb_restore_order:0 "Restore Order"
+ restore_order:0 "Restore Order"
  

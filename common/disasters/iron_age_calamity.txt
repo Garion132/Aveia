@@ -113,14 +113,21 @@ iron_age_calamity = {
 		events = {
 		}
 		random_events = { 
-			950 = 0
-			50 = iron_age_calamity.102
-			100 = iron_age_calamity.103
-			100 = iron_age_calamity.104
+			1000 = 0
+			40 = iron_age_calamity.102
+			50 = iron_age_calamity.103
+			60 = iron_age_calamity.104
 			#100 = internal_conflicts.5
 			#100 = internal_conflicts.6
 			#100 = internal_conflicts.7
-		
+
+
+			#Breakaways
+			50 = iron_age_calamity.1000
+			50 = iron_age_calamity.1001
+			50 = iron_age_calamity.1002
+			50 = iron_age_calamity.1003
+			50 = iron_age_calamity.1004
 		}
 	}
 }

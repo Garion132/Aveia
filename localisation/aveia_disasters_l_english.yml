@@ -53,6 +53,24 @@
  iron_age_calamity.104.opt.c:0 "Confiscate land for reform"
  iron_age_calamity.104.opt.d:0 "Conduct widespread Land Reform so this never happens again!"
  iron_age_calamity.104.opt.e:0 "Lower trade barriers to alleviate the suffering"
+
+ #Iron Age Calamity Breakaways
+ iron_age_calamity.breakaway.op1:0 "We must crush them now!"
+ iron_age_calamity.breakaway.op2:0 "We'll get to them later..."
+ iron_age_calamity.breakaway.op3:0 "Abandon the territory"
+ iron_age_calamity.breakaway.op4:0 "Sounds interesting..."
+
+ iron_age_calamity.1000.t:0 "Morbir Breaks Free!"
+ iron_age_calamity.1000.d:0 "Morbir has broken free! What shall we do?"
+ iron_age_calamity.1001.t:0 "Deresunga Breaks Free!"
+ iron_age_calamity.1001.d:0 "Deresunga has broken free! What shall we do?"
+ iron_age_calamity.1002.t:0 "Talb Breaks Free!"
+ iron_age_calamity.1002.d:0 "Talb has broken free! What shall we do?"
+ iron_age_calamity.1003.t:0 "Himbe Breaks Free!"
+ iron_age_calamity.1003.d:0 "Himbe has broken free! What shall we do?"
+ iron_age_calamity.1004.t:0 "The Gulban State Collapses!"
+ iron_age_calamity.1004.d:0 "It appears these are the final days of Gulba. Infighting and rebellion has led the once proud Kingdom to deteriorate into nothing. The old state has been overthrown with anew. Perhaps it is finally time to rebuild..."
+ iron_age_calamity.1004.a:0 "The old Kingdom is gone"
  
  crisis_of_the_12th_century:0 "Crisis of the 12th Century"
  

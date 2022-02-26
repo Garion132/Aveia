@@ -511,6 +511,10 @@ country_event = {
 	desc = "iron_age_calamity.102.d"
 	picture = ANGRY_MOB_eventPicture
 		
+	trigger = {
+		NOT = { has_country_flag = calamity_peasants_revolt }
+	}
+
 	is_triggered_only = yes
 	
 	mean_time_to_happen = {
@@ -519,6 +523,7 @@ country_event = {
 	
 	option = {	# Crush Them!
 		name = "iron_age_calamity.102.opt.a"
+		set_country_flag = calamity_peasants_revolt
 
 		if = {
 			limit = {
@@ -527,7 +532,7 @@ country_event = {
 			random_owned_province = { 
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 4
+					size = 5
 					win = yes
 					unrest = 20
 				}
@@ -535,7 +540,7 @@ country_event = {
 			random_owned_province = { 
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 2
+					size = 3
 					win = yes
 					unrest = 10
 				}
@@ -548,7 +553,7 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 3
+					size = 4
 					win = yes
 					unrest = 15
 				}
@@ -556,7 +561,7 @@ country_event = {
 			random_owned_province = { 
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 1
+					size = 2
 					win = yes
 					unrest = 5
 				}
@@ -570,7 +575,7 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 3
+					size = 4
 					win = yes
 					unrest = 15
 				}
@@ -583,7 +588,7 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 2
+					size = 3
 					win = yes
 					unrest = 10
 				}
@@ -592,7 +597,7 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = anti_tax_rebels
-				size = 1
+				size = 2
 				win = yes
 				unrest = 5
 			}
@@ -600,7 +605,7 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = anti_tax_rebels
-				size = 1
+				size = 2
 				win = yes
 				unrest = 5
 			}
@@ -1749,3 +1754,760 @@ country_event = {
 		}
 	}
 }
+
+#######################
+
+#Country Release Events
+	
+	#Gulba
+		#Morbir Breaks Free!
+		country_event = {
+			id = iron_age_calamity.1000
+			title = "iron_age_calamity.1000.t"
+			desc = "iron_age_calamity.1000.d"
+			picture = ANGRY_MOB_eventPicture
+			
+			#major = yes
+			
+			is_triggered_only = yes
+
+			trigger = {
+				NOT = {
+					has_global_flag = morbir_rebellion
+					tag = MOR
+				}
+				any_owned_province = {
+					culture = morbinite
+				}
+			}
+			
+			immediate = {
+				hidden_effect = {
+					set_global_flag = morbir_rebellion
+					every_province = {
+						limit = {
+							culture = morbinite
+							NOT = { owned_by = MOR }
+						}
+						add_core = MOR
+						cede_province = MOR
+					}
+					1811 = {
+						if = {
+							limit = {
+								owned_by = GUL
+							}
+							add_core = MOR
+							cede_province = MOR
+						}
+					}
+					MOR = {
+						set_country_flag = rebel_country_flag
+						set_capital = 1820
+					}
+				}
+			}
+			
+			mean_time_to_happen = {
+				days = 1
+			}
+			
+			option = {	# We must crush them now!
+				name = "iron_age_calamity.breakaway.op1"
+				trigger = {
+					MOR = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+				add_prestige = 5
+				declare_war_with_cb = {
+					who = MOR
+					casus_belli = cb_restore_order
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0
+						NOT = {
+							culture_group_claim = MOR
+						}
+					}
+					modifier = {
+						factor = 0
+						is_at_war = yes
+					}
+				}
+			}
+			option = {	# We'll get to them later...
+				name = "iron_age_calamity.breakaway.op2"
+				trigger = {
+					MOR = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						NOT = {
+							culture_group_claim = MOR
+						}
+					}
+				}
+			}
+			option = { #Abandon the territory
+				name = "iron_age_calamity.breakaway.op3"
+				if = {
+					limit = {
+						MOR = {
+							any_owned_province = {
+								is_core = ROOT
+							}
+						}
+					}
+					MOR = {
+						every_owned_province = {
+							limit = {
+								is_core = ROOT
+							}
+							remove_core = ROOT
+						}
+					}
+					add_prestige = -5
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						culture_group_claim = MOR
+					}
+					modifier = {
+						factor = 0
+						culture = morbinite
+					}
+				}
+			}
+			option = { #Sounds interesting...
+				name = "iron_age_calamity.breakaway.op4"
+				trigger = {
+					ai = no
+					MOR = {
+						ai = yes
+					}
+				}
+				switch_tag = MOR
+				ai_chance = {
+					factor = 0
+				}
+			}
+		}
+		#Deresunga Breaks Free!
+		country_event = {
+			id = iron_age_calamity.1001
+			title = "iron_age_calamity.1001.t"
+			desc = "iron_age_calamity.1001.d"
+			picture = ANGRY_MOB_eventPicture
+			
+			#major = yes
+			
+			is_triggered_only = yes
+
+			trigger = {
+				NOT = {
+					has_global_flag = deresunga_rebellion
+					tag = DER
+				}
+				any_owned_province = {
+					culture = deresunite
+				}
+			}
+			
+			immediate = {
+				hidden_effect = {
+					set_global_flag = deresunga_rebellion
+					every_province = {
+						limit = {
+							culture = deresunite
+							NOT = { owned_by = DER }
+							# OR = {
+							# 	area = gulba_19
+							# 	area = gulba_18
+							# 	area = gulba_17
+							# 	area = gulba_20
+							# 	area = gulba_16
+							# }
+							# NOT = { province = 1802 }
+							# NOT = { province = 1801 }
+						}
+						add_core = DER
+						cede_province = DER
+					}
+					DER = {
+						set_country_flag = rebel_country_flag
+						set_capital = 1794
+					}
+				}
+			}
+			
+			mean_time_to_happen = {
+				days = 1
+			}
+			
+			option = {	# We must crush them now!
+				name = "iron_age_calamity.breakaway.op1"
+				trigger = {
+					DER = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+				add_prestige = 5
+				declare_war_with_cb = {
+					who = DER
+					casus_belli = cb_restore_order
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0
+						NOT = {
+							culture_group_claim = DER
+						}
+					}
+					modifier = {
+						factor = 0
+						is_at_war = yes
+					}
+				}
+			}
+			option = {	# We'll get to them later...
+				name = "iron_age_calamity.breakaway.op2"
+				trigger = {
+					DER = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						NOT = {
+							culture_group_claim = DER
+						}
+					}
+				}
+			}
+			option = { #Abandon the territory
+				name = "iron_age_calamity.breakaway.op3"
+				if = {
+					limit = {
+						DER = {
+							any_owned_province = {
+								is_core = ROOT
+							}
+						}
+					}
+					DER = {
+						every_owned_province = {
+							limit = {
+								is_core = ROOT
+							}
+							remove_core = ROOT
+						}
+					}
+					add_prestige = -5
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						culture_group_claim = DER
+					}
+					modifier = {
+						factor = 0
+						culture = deresunite
+					}
+				}
+			}
+			option = { #Sounds interesting...
+				name = "iron_age_calamity.breakaway.op4"
+				trigger = {
+					ai = no
+					DER = {
+						ai = yes
+					}
+				}
+				switch_tag = DER
+				ai_chance = {
+					factor = 0
+				}
+			}
+		}
+		#Talb Breaks Free!
+		country_event = {
+			id = iron_age_calamity.1002
+			title = "iron_age_calamity.1002.t"
+			desc = "iron_age_calamity.1002.d"
+			picture = ANGRY_MOB_eventPicture
+			
+			#major = yes
+			
+			is_triggered_only = yes
+
+			trigger = {
+				NOT = {
+					has_global_flag = talb_rebellion
+					tag = TAL
+				}
+				any_owned_province = {
+					culture = talbin
+				}
+			}
+			
+			immediate = {
+				hidden_effect = {
+					set_global_flag = talb_rebellion
+					every_province = {
+						limit = {
+							culture = talbin
+							NOT = { owned_by = TAL }
+						}
+						add_core = TAL
+						cede_province = TAL
+					}
+					TAL = {
+						set_country_flag = rebel_country_flag
+						set_capital = 1751
+					}
+				}
+			}
+			
+			mean_time_to_happen = {
+				days = 1
+			}
+			
+			option = {	# We must crush them now!
+				name = "iron_age_calamity.breakaway.op1"
+				trigger = {
+					TAL = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+				add_prestige = 5
+				declare_war_with_cb = {
+					who = TAL
+					casus_belli = cb_restore_order
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0
+						NOT = {
+							culture_group_claim = TAL
+						}
+					}
+					modifier = {
+						factor = 0
+						is_at_war = yes
+					}
+				}
+			}
+			option = {	# We'll get to them later...
+				name = "iron_age_calamity.breakaway.op2"
+				trigger = {
+					TAL = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						NOT = {
+							culture_group_claim = TAL
+						}
+					}
+				}
+			}
+			option = { #Abandon the territory
+				name = "iron_age_calamity.breakaway.op3"
+				if = {
+					limit = {
+						TAL = {
+							any_owned_province = {
+								is_core = ROOT
+							}
+						}
+					}
+					TAL = {
+						every_owned_province = {
+							limit = {
+								is_core = ROOT
+							}
+							remove_core = ROOT
+						}
+					}
+					add_prestige = -5
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						culture_group_claim = TAL
+					}
+					modifier = {
+						factor = 0
+						culture = talbin
+					}
+				}
+			}
+			option = { #Sounds interesting...
+				name = "iron_age_calamity.breakaway.op4"
+				trigger = {
+					ai = no
+					TAL = {
+						ai = yes
+					}
+				}
+				switch_tag = TAL
+				ai_chance = {
+					factor = 0
+				}
+			}
+		}
+		#Himbe Breaks Free!
+		country_event = {
+			id = iron_age_calamity.1003
+			title = "iron_age_calamity.1003.t"
+			desc = "iron_age_calamity.1003.d"
+			picture = ANGRY_MOB_eventPicture
+			
+			#major = yes
+			
+			is_triggered_only = yes
+
+			trigger = {
+				NOT = {
+					has_global_flag = himbe_rebellion
+					tag = HIM
+				}
+				any_owned_province = {
+					culture = himben
+				}
+			}
+			
+			immediate = {
+				hidden_effect = {
+					set_global_flag = himbe_rebellion
+					every_province = {
+						limit = {
+							culture = himben
+							NOT = { owned_by = HIM }
+							# OR = {
+							# 	area = gulba_19
+							# 	area = gulba_18
+							# 	area = gulba_17
+							# 	area = gulba_20
+							# 	area = gulba_16
+							# }
+							# NOT = { province = 1802 }
+							# NOT = { province = 1801 }
+						}
+						add_core = HIM
+						cede_province = HIM
+					}
+					HIM = {
+						set_country_flag = rebel_country_flag
+						set_capital = 1092
+					}
+				}
+			}
+			
+			mean_time_to_happen = {
+				days = 1
+			}
+			
+			option = {	# We must crush them now!
+				name = "iron_age_calamity.breakaway.op1"
+				trigger = {
+					HIM = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+				add_prestige = 5
+				declare_war_with_cb = {
+					who = HIM
+					casus_belli = cb_restore_order
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0
+						NOT = {
+							culture_group_claim = HIM
+						}
+					}
+					modifier = {
+						factor = 0
+						is_at_war = yes
+					}
+				}
+			}
+			option = {	# We'll get to them later...
+				name = "iron_age_calamity.breakaway.op2"
+				trigger = {
+					HIM = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						NOT = {
+							culture_group_claim = HIM
+						}
+					}
+				}
+			}
+			option = { #Abandon the territory
+				name = "iron_age_calamity.breakaway.op3"
+				if = {
+					limit = {
+						HIM = {
+							any_owned_province = {
+								is_core = ROOT
+							}
+						}
+					}
+					HIM = {
+						every_owned_province = {
+							limit = {
+								is_core = ROOT
+							}
+							remove_core = ROOT
+						}
+					}
+					add_prestige = -5
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						culture_group_claim = HIM
+					}
+					modifier = {
+						factor = 0
+						culture = himben
+					}
+				}
+			}
+			option = { #Sounds interesting...
+				name = "iron_age_calamity.breakaway.op4"
+				trigger = {
+					ai = no
+					HIM = {
+						ai = yes
+					}
+				}
+				switch_tag = HIM
+				ai_chance = {
+					factor = 0
+				}
+			}
+		}
+		#The Gulban State Collapses!
+		country_event = {
+			id = iron_age_calamity.1004
+			title = "iron_age_calamity.1004.t"
+			desc = "iron_age_calamity.1004.d"
+			picture = ANGRY_MOB_eventPicture
+			
+			major = yes
+			
+			is_triggered_only = yes
+
+			trigger = {
+				has_global_flag = morbir_rebellion
+				has_global_flag = deresunga_rebellion
+				has_global_flag = talb_rebellion
+				has_global_flag = himbe_rebellion
+				OR = {
+					exists = HIM
+					exists = TAL
+				}
+				NOT = { war_with = HIM }
+				NOT = { war_with = TAL }
+				tag = GUL
+			}
+			
+			immediate = {
+				hidden_effect = {
+					set_global_flag = gulban_collapse
+					every_owned_province = {
+						limit = {
+							OR = {
+								AND = {
+									area = gulba_1
+									NOT = { province_id = 1734 }
+									NOT = { province_id = 1735 }
+								}
+								area = gulba_7
+								area = gulba_14
+								area = boluroya_3
+								area = boluroya_4
+							}
+						}
+						add_core = BRU
+						cede_province = BRU
+					}
+					every_owned_province = {
+						limit = {
+							OR = {
+								area = gulba_2
+								area = rauthyr_7
+								area = rauthyr_6
+								area = rauthyr_8
+								province_id = 1734
+								province_id = 1735
+							}
+							NOT = { province_id = 1742 }
+							NOT = { province_id = 1743 }
+							NOT = { province_id = 1739 }
+							NOT = { province_id = 1741 }
+						}
+						add_core = ORK
+						cede_province = ORK
+					}
+					every_owned_province = {
+						limit = {
+							OR = {
+								area = gulba_3
+								area = gulba_6
+								area = rauthyr_25
+								province_id = 1739
+								province_id = 1741
+							}
+						}
+						add_core = TOL
+						cede_province = TOL
+					}
+					1760 = {
+						if = {
+							limit = {
+								OR = { 
+									owned_by = GUL
+									owned_by = TAL
+								}
+							}
+							add_core = TOL
+							cede_province = TOL
+						}
+					}
+					BRU = {
+						if = {
+							limit = {
+								owns = 1764
+							}
+							set_capital = 1764
+						}
+					}
+					ORK = {
+						if = {
+							limit = {
+								owns = 1740
+							}
+							set_capital = 1740
+						}
+					}
+					TOL = {
+						if = {
+							limit = {
+								owns = 1745
+							}
+							set_capital = 1745
+						}
+					}
+					every_province = {
+						limit = {
+							NOT = {
+								owned_by = GUL
+							}
+						}
+						remove_core = GUL
+					}
+				}
+			}
+			
+			mean_time_to_happen = {
+				days = 1
+			}
+			
+			option = {	# The old Kingdom is gone
+				name = "iron_age_calamity.1004.a"
+
+				end_disaster = iron_age_calamity
+				change_tag = UGR
+				
+				add_prestige = -50
+				add_stability = 1
+				add_adm_power = 100
+				add_dip_power = 100
+				add_mil_power = 100
+
+				1749 = {
+					if = {
+						limit = {
+							has_building = fort_14th
+						}
+						remove_building = fort_14th
+					}
+					add_base_tax = -2
+					add_base_production = -2
+					add_base_tax = -2
+					change_trade_goods = glass
+					add_center_of_trade_level = -1
+				}
+
+				set_capital = 1743
+				1743 = {
+					if = {
+						limit = {
+							NOT = { has_building = fort_14th }
+						}
+						add_building = fort_14th
+					}
+					else_if = {
+						limit = {
+							has_building = fort_14th
+						}
+						remove_building = fort_14th
+						add_building = fort_15th
+					}
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_tax = 1
+					add_center_of_trade_level = 1
+				}
+			}
+		}
+	#
