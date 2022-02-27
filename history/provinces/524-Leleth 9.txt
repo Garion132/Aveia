@@ -5,6 +5,7 @@ latent_trade_goods = {
 }
 
 add_core = LEL
+add_core = DON
 owner = LEL
 controller = LEL
 culture = edailian
@@ -17,5 +18,7 @@ base_manpower = 1
 capital = "Leleth 9"
 is_city = yes
 discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = sea_elves_group
 discovered_by = ork_group
 extra_cost = 0

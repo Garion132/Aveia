@@ -12,5 +12,7 @@ base_production = 5
 base_manpower = 4
 trade_goods = marble
 discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = sea_elves_group
 discovered_by = ork_group
 extra_cost = 8

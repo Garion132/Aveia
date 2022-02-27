@@ -23,11 +23,11 @@ change_estate_land_share = {
 
 1268.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Uliorc"
 		dynasty = "Eritier"
 		birth_date = 1238.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 6
+		dip = 4
+		mil = 3
 	}
 }

@@ -26,8 +26,8 @@ change_estate_land_share = {
 		name = "Suran"
 		dynasty = "Lelitha"
 		birth_date = 1245.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 3
+		dip = 3
+		mil = 5
 	}
 }

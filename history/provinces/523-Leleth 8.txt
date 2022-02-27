@@ -1,6 +1,7 @@
 #Leleth 8
 
 add_core = LEL
+add_core = DON
 owner = LEL
 controller = LEL
 culture = edailian
@@ -13,5 +14,7 @@ base_manpower = 4
 capital = "Leleth 8"
 is_city = yes
 discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = sea_elves_group
 discovered_by = ork_group
 extra_cost = 0

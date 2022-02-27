@@ -1,6 +1,7 @@
 #Leleth 11
 
 add_core = LEL
+add_core = ORL
 owner = LEL
 controller = LEL
 culture = edailian
@@ -13,5 +14,7 @@ base_manpower = 2
 capital = "Leleth 11"
 is_city = yes
 discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = sea_elves_group
 discovered_by = ork_group
 extra_cost = 0

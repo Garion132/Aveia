@@ -7,7 +7,7 @@
 
 #Which to be TECH_GROUP_1 and TECH_GROUP_2
 TECH_GROUP_1 = "lake_elves_group"
-TECH_GROUP_2 = "ork_group"
+TECH_GROUP_2 = "northern_drake_group"
 
 
 

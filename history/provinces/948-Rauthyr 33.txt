@@ -16,5 +16,7 @@ trade_goods = fruit
 capital = "Rau 3"
 is_city = yes
 discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = sea_elves_group
 discovered_by = ork_group
 extra_cost = 0

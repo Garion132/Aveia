@@ -32,10 +32,33 @@ groups = {
 		start_cost_modifier = 0.5
 	}
 	great_spiders_group = {
-		start_level = 2
+		start_level = 3
 		start_cost_modifier = 0.5
 	}
-	
+	naga_group = {
+		start_level = 3
+		start_cost_modifier = 0.20
+	}
+	sun_elves_group = {
+		start_level = 3
+		start_cost_modifier = 0.20
+	}
+	dunirr_group = {
+		start_level = 3
+		start_cost_modifier = 0.20
+	}
+	moon_elves_group = {#expidition elves
+		start_level = 3
+		start_cost_modifier = 0.20
+	}
+	free_kolbolds_group = {#expidition kolbolds
+		start_level = 3
+		start_cost_modifier = 0.20
+	}
+	ulguir_group = {#expidition orcs
+		start_level = 3
+		start_cost_modifier = 0.20
+	}
 
 	western = {
 		start_level = 3
