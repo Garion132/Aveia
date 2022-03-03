@@ -141,5 +141,20 @@ country_decisions = {
                 duration = 18220
             }
 		}
+		ai_will_do = {
+			factor = 5
+            modifier = {
+                factor = 0.2
+                NOT = { current_income_balance = 5 }
+            }
+            modifier = {
+                factor = 0
+                NOT = { current_income_balance = 3 }
+            }
+            modifier = {
+                factor = 0
+                NOT = { adm_power = 500 }
+            }
+		}
 	}
 }
