@@ -181,6 +181,7 @@
  IMPROVEMENTS_IN_IRON_WORKING:0 "Improvements in Iron Working"
  RAUTHYR_STOPS_EXPORTS:0 "Rauthyr Stops Grain Exports"
  RAUTHYR_IN_CRISIS:0 "Rauthyr in Crisis"
+ METAL_DEMAND_DROP:0 "Drop in Metal Demand"
 
  enter_scramble_for_elteria_title:0 "Enter the Scramble for Elteria"
  enter_scramble_for_elteria_desc:0 "Everyone is rushing to Elteria for miracle herbs and rumors of silver."
