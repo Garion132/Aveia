@@ -5577,10 +5577,6 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			luck = yes
-		}	
-		modifier = {
-			factor = 0.25
-			has_active_policy = noble_loyalty_act
 		}
 	}
 

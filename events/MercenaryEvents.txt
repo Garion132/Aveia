@@ -287,29 +287,29 @@ country_event = {
 }
 	
 # Amazons
-country_event = {
-	id = mercs.6
-	title = mercs.6.t
-	desc = mercs.6.d
-	picture = GENERALS_DISCUSSING_eventPicture
+# country_event = {
+# 	id = mercs.6
+# 	title = mercs.6.t
+# 	desc = mercs.6.d
+# 	picture = GENERALS_DISCUSSING_eventPicture
 	
-	trigger = {
-		NOT = {
-			has_country_flag = female_mercs
-		}
-		has_active_policy = mandatory_service
-	}
+# 	trigger = {
+# 		NOT = {
+# 			has_country_flag = female_mercs
+# 		}
+# 		has_active_policy = mandatory_service
+# 	}
 	
-	mean_time_to_happen = {
-		months = 36
-	}
+# 	mean_time_to_happen = {
+# 		months = 36
+# 	}
 	
-	option = {
-		name = mercs.6.a
-		set_country_flag = female_mercs
-		custom_tooltip = female_mercs_tt
-	}
-}
+# 	option = {
+# 		name = mercs.6.a
+# 		set_country_flag = female_mercs
+# 		custom_tooltip = female_mercs_tt
+# 	}
+# }
 
 # Mercenary company in demand
 country_event = {

@@ -85,6 +85,10 @@ country_decisions = {
 				has_province_modifier = elteria_colonial_rush
 				has_port = yes
 				is_empty = yes
+				NOT = { region = windsweaps_region }
+				NOT = { region = bulkir_region }
+				NOT = { region = bulkir_region }
+				NOT = { area = salrton_chain }
 			}
 		}
 		allow = {
@@ -101,6 +105,10 @@ country_decisions = {
 					has_province_modifier = elteria_colonial_rush
 					has_port = yes
 					is_empty = yes
+					NOT = { region = windsweaps_region }
+					NOT = { region = bulkir_region }
+					NOT = { region = bulkir_region }
+					NOT = { area = salrton_chain }
 				}
 				add_siberian_construction = 100
 			}
