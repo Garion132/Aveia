@@ -184,6 +184,10 @@
  enter_scramble_for_elteria_desc:0 "Everyone is rushing to Elteria for miracle herbs and rumors of silver."
  enter_scramble_for_elteria_colony_title:0 "Enter the Scramble for Elteria"
  enter_scramble_for_elteria_colony_desc:0 "Everyone, including our mother country, is rushing to Elteria for miracle herbs and rumors of silver."
+ fund_colony:0 "Fund Colony in Elteria"
+ fund_colony_desc:0 ""
+ open_colonial_office:0 "Open Colonial Office"
+ open_colonial_office_desc:0 ""
 
  mannish_tribal:0 "Donamenz Tribe"
  mannish_tribal_reform:0 "Donamenz Tribe"

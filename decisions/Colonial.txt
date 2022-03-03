@@ -40,15 +40,15 @@ country_decisions = {
 			factor = 5
             modifier = {
                 factor = 0.2
-                NOT = { current_income_balance = 4 }
+                NOT = { current_income_balance = 5 }
             }
             modifier = {
                 factor = 0
-                NOT = { current_income_balance = 2 }
+                NOT = { current_income_balance = 3 }
             }
             modifier = {
                 factor = 0
-                NOT = { adm_power = 700 }
+                NOT = { adm_power = 500 }
             }
 		}
 	}
@@ -73,6 +73,73 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 100
+		}
+	}
+
+	fund_colony = {
+		potential = {
+			NOT = { has_country_flag = funded_colony }
+			has_country_modifier = scramble_for_elteria
+			navy_size = 1
+			any_province = {
+				has_province_modifier = elteria_colonial_rush
+				has_port = yes
+				is_empty = yes
+			}
+		}
+		allow = {
+			adm_power = 100
+			treasury = 300
+		}
+		effect = {
+			add_adm_power = -100
+			add_treasury = -300
+			set_country_flag = funded_colony
+			
+			random_province = {
+				limit = {
+					has_province_modifier = elteria_colonial_rush
+					has_port = yes
+					is_empty = yes
+				}
+				add_siberian_construction = 100
+			}
+		}
+
+		ai_will_do = {
+			factor = 5
+            modifier = {
+                factor = 0.2
+                NOT = { current_income_balance = 8 }
+            }
+            modifier = {
+                factor = 0
+                NOT = { current_income_balance = 4 }
+            }
+            modifier = {
+                factor = 0
+                NOT = { adm_power = 500 }
+            }
+		}
+	}
+
+	open_colonial_office = {
+		potential = {
+			has_country_modifier = scramble_for_elteria
+			NOT = { has_country_modifier = elteria_colonial_office }
+			navy_size = 1
+		}
+		allow = {
+			adm_power = 100
+			treasury = 300
+		}
+		effect = {
+			add_adm_power = -100
+			add_treasury = -300
+            add_country_modifier = { 
+                name = elteria_colonial_office
+                duration = 18220
+            }
 		}
 	}
 }

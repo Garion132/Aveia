@@ -726,6 +726,7 @@ country_event ={
 		OR = {
 			has_country_modifier = scramble_for_elteria
 			has_country_modifier = scramble_for_elteria_colony
+			has_country_modifier = elteria_colonial_office
 		}
 	}
 	fire_only_once = yes
@@ -738,6 +739,7 @@ country_event ={
 		name = elteria_event.14.a #We did all we could
 		remove_country_modifier = scramble_for_elteria
 		remove_country_modifier = scramble_for_elteria_colony
+		remove_country_modifier = elteria_colonial_office
 		clr_global_flag = scramble_for_elteria
 	}
 }

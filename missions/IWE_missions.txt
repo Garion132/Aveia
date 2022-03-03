@@ -594,17 +594,14 @@ IWE_colonial_missions = {
 	}
 	join_the_scramble_mission = {
 		icon = mission_colonial
-		required_missions = { independence_mission  } #None
+		required_missions = { independence_mission  }
 		position = 5
 		trigger = {
 			has_country_modifier = scramble_for_elteria
 		}
 		effect = {
 			add_prestige = 10
-			add_country_modifier = {
-				name = "colonial_enthusiasm"
-				duration = 3650 #10 years
-			}
+			country_event = iwenlumy.5
 		}
 	}
 }

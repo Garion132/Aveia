@@ -55,12 +55,15 @@
  desc_anillelerien_strait_modifier:0 "The Anillerlerien Strait serves as an important chokepoint for both trade and travel. Its widest point, at the opening to the sea, is 25 miles wide. Some say it's actually just a really large river, but they're crazy. It's a strait."
  moraler_estuary_modifier:0 "Moraler Estuary"
  age_of_calamity:0 "Age of Calamity"
+ 
  elteria_colonial_rush:0 "Elteria Colonial Rush"
  desc_elteria_colonial_rush:0 "Everyone is rushing to Elteria for miracle herbs and rumors of silver."
  scramble_for_elteria:0 "Scramble for Elteria"
  desc_scramble_for_elteria:0 "Everyone is rushing to Elteria for miracle herbs and rumors of silver."
  scramble_for_elteria_colony:0 "Scramble for Elteria"
  desc_scramble_for_elteria_colony:0 "Everyone is rushing to Elteria for miracle herbs and rumors of silver."
+ elteria_colonial_office:0 "Colonial Office"
+ desc_elteria_colonial_office:0 "We have opened a colonial office to allow settlers in our homeland to more easily access funds for a voyage to Elteria/"
  remote_lands_of_juluia:0 "Remote Lands of Juluia"
  desc_remote_lands_of_juluia:0 "Juluia's remoteness on the other side of the globe from civilization makes it remarkably difficult to colonize."
 
