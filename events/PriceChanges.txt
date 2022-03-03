@@ -656,6 +656,103 @@ country_event = {
 	}
 }
 
+#Cessation of Grain Exports
+country_event = {
+	id = prices.108
+	title = prices.108.t
+	desc = prices.108.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		tag = RAU
+		OR = {
+			has_global_flag = rain_of_ash
+			has_country_flag = RAU_crisis_12th
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = { #Stop the exports!
+		name = prices.108.a
+		add_stability = 1
+		add_mercantilism = 5
+		add_years_of_income = -0.25
+		change_price = {
+			trade_goods = grain
+			key = RAUTHYR_STOPS_EXPORTS
+			value = 0.5
+			duration = 3650
+		}
+	}
+	option = { #They must continue
+		name = prices.108.b
+		trigger = {
+			stability = -2
+		}
+		add_stability = -1
+		add_years_of_income = 1
+		change_price = {
+			trade_goods = grain
+			key = RAUTHYR_IN_CRISIS
+			value = 0.25
+			duration = 3650
+		}
+	}
+}
+
+#Demand for Metals Drop
+country_event = {
+	id = prices.109
+	title = prices.109.t
+	desc = prices.109.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		has_global_flag = rain_of_ash
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #All has become affected
+		name = prices.109.a
+		change_price = {
+			trade_goods = copper
+			key = METAL_DEMAND_DROP
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = tin
+			key = METAL_DEMAND_DROP
+			value = -0.5
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = iron
+			key = METAL_DEMAND_DROP
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = plaulum
+			key = METAL_DEMAND_DROP
+			value = -0.5
+			duration = 3650
+		}
+	}
+}
+
 # Triangle Trade
 #country_event = {
 #	id = prices.1

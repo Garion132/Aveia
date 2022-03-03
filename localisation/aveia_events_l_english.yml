@@ -26,6 +26,15 @@
  prices.107.t:0 "Improvements in Iron Working"
  prices.107.d:0 "Improvements in Iron Working"
  prices.107.a:0 "Strike while the metal is hot"
+ 
+ prices.108.t:0 "Cessation of Grain Exports"
+ prices.108.d:0 "With Rauthyr facing crisis, and potential famine from destruction, we must decide whether or not we should stop the ever present grain exports. If we stop our grain export, we can help our own population, though handicap our income. If we continue, we can continue to make a lot of money, though risking further instability."
+ prices.108.a:0 "Stop the exports!"
+ prices.108.b:0 "Let them continue"
+
+ prices.109.t:0 "Demand for Metal Drops"
+ prices.109.d:0 "As most other commodities have fallen, Metals, predictably, have fallen too. While production has not been as hard hit, the demand for such are quickly drying up. For the short-term, at least, metals will be less valuable."
+ prices.109.a:0 "All has become affected"
 
  elteria_event.12.t:0 "Scramble for Elteria"
  elteria_event.12.d:0 "Elteria, long a land rife with rebel Fauns and dense Jungle, has a miracle herb in its densest forests: Ecriamin. This, along with new discoveries of silver deposits and great growing locations have led to a shocking realization amongst our merchants, our nobles, and our peasants alike: \n\nWhoever controls Elteria will control Aveia, for whoever controls Elteria controls the Ecriamin trade, and whoever controls the Ecriamin trade controls the health of kings."

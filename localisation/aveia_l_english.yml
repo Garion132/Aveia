@@ -179,6 +179,8 @@
  FADING_ASEMONT:0 "Fading of Asemont"
  CALAMITY_RECOVERY:0 "Calamity Recovery"
  IMPROVEMENTS_IN_IRON_WORKING:0 "Improvements in Iron Working"
+ RAUTHYR_STOPS_EXPORTS:0 "Rauthyr Stops Grain Exports"
+ RAUTHYR_IN_CRISIS:0 "Rauthyr in Crisis"
 
  enter_scramble_for_elteria_title:0 "Enter the Scramble for Elteria"
  enter_scramble_for_elteria_desc:0 "Everyone is rushing to Elteria for miracle herbs and rumors of silver."
