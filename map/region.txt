@@ -1203,7 +1203,6 @@ mallitors_region = {
 }
 western_divide_region={
 	areas={
-		vulkivite_sea_area
 		dividing_sea
 		shielding_waters
 		yellowtide_sea
@@ -1215,13 +1214,9 @@ eastern_divide_region={
 	areas={
 		tervimos_sea_area
 		dredging_tides_sea_area
-	}
-}
-barking_winds_region={
-	areas={
-		felton_sea
-		scalie_sea
 		windsweaps_sea_area
+		felton_sea
+		vulkivite_sea_area
 	}
 }
 laeite_cape_region={
@@ -1231,10 +1226,11 @@ laeite_cape_region={
 		omathos_current
 	}
 }
-tailwinds_region={
+barking_winds_region={
 	areas={
 		tundasta_bay
 		salrtonis
+		scalie_sea
 	}
 }
 ocean_region = {

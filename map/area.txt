@@ -4,7 +4,7 @@
 #No restriction on size.
 
 grand_sea_area = {
-	35 36 37 38 39 41 222 223 224 225
+	35 36 37 38 39 222 223 224 225
 	1893 226
 }
 elseois_fracture_area={

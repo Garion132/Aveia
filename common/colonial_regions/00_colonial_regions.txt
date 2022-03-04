@@ -227,7 +227,7 @@ colonial_tilvena = {
 	}
 }
 
-colonial_valkmora = {
+colonial_laei = {
 	color = { 85 160 125 }
 
 	provinces = {
