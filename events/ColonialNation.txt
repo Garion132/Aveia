@@ -3064,7 +3064,7 @@ country_event = {
 	trigger = {
 		is_colonial_nation = yes
 		has_country_flag = tariffs_on_sweetpowder
-		NOT = { has_country_modifier = smuggling_of_sweetpowder }
+		NOT = { has_country_modifier = smuggling_of_sugar }
 		tariff_value = 0.01
 		any_owned_province = {
 			trade_goods = sweetpowder
