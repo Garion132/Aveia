@@ -49,5 +49,18 @@
  lumia_event.1.t:0 "EXT. The Patrician Square - Twilight"
  lumia_event.1.d:0 "We open on the newest republic, Lumia. From the ashes of burnt Freyglenite madness and noble insanity, rises the immortal city of a thousand lights, a thousand dreams, a thousands panes of stained glass making up the skyline. From the new Patricianate we have the ideal of a republic where merit talks and nobility walks. If there are few things Lumia does well, it is trade, industry, and putting on one hell of a show. \n\nStrike up the band... "
  lumia_event.1.a:0 "It's Showtime"
+
+ ### Idea Group Events ###
+  #Philosophical Ideas
+   ideagroups.2000.t:0 "Our Rule has been Questioned!"
+   ideagroups.2000.d:0 "A bunch of philosphers have been going around and have been questioning the legitimacy of our rule! They say we ought to have a more republican government because of some lecture on rights. They say that the state should not rely upon a single person."
+   ideagroups.2000.a:0 "Can't they just be quiet?"
+   ideagroups.2000.b:0 "Well I am the state!"
+   ideagroups.2000.c:0 "Spin this into a positive direction"
+   
+   ideagroups.2001.t:0 "Philosophers Advance Political Science"
+   ideagroups.2001.d:0 "Some of our more competent philosophers have published a new work detailing new ideas of efficient government."
+   ideagroups.2001.a:0 "Excellent"
+   ideagroups.2001.b:0 "We can go further"
  
  

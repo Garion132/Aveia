@@ -689,6 +689,10 @@ country_event = {
 			value = 0.5
 			duration = 3650
 		}
+
+		ai_chance = {
+			factor = 10
+		}
 	}
 	option = { #They must continue
 		name = prices.108.b
@@ -702,6 +706,30 @@ country_event = {
 			key = RAUTHYR_IN_CRISIS
 			value = 0.25
 			duration = 3650
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				num_of_loans = 1
+			}
+			modifier = {
+				factor = 2
+				num_of_loans = 2
+			}
+			modifier = {
+				factor = 2
+				num_of_loans = 3
+			}
+			modifier = {
+				factor = 2
+				num_of_loans = 4
+			}
+			modifier = {
+				factor = 2
+				num_of_loans = 5
+			}
 		}
 	}
 }
@@ -718,10 +746,13 @@ country_event = {
 	major = yes
 
 	trigger = {
-		has_global_flag = rain_of_ash
+		had_global_flag = {
+			flag = rain_of_ash
+			days = 720
+		}
 	}
 	mean_time_to_happen = {
-		months = 24
+		months = 6
 	}
 	
 	option = { #All has become affected
