@@ -4025,385 +4025,385 @@ province;red;green;blue;x;x
 4024;100;201;61;Maroantsetra;x#lake
 4025;38;83;21;Vatomandry;x#lake
 4026;169;74;32;Antemoro;x#lake
-4027;215;80;147;Betsileo;x
+4027;215;80;147;Betsileo;x##more juluilia basin
 4028;79;160;47;Mahafaly;x
 4029;139;53;205;Antanosy;x
 4030;185;135;224;Bara;x
-4031;201;54;85;Antsalova;x
+4031;201;54;85;Antsalova;x#
 4032;222;145;161;Fiherana;x
 4033;217;108;129;Al Qadirif;x
 4034;155;61;79;Makua;x
-4035;227;164;55;Ngindo;x
+4035;227;164;55;Ngindo;x#
 4036;234;204;150;Wayao;x
 4037;200;19;117;Katsekera;x
 4038;49;155;99;Lolo;x
-4039;38;234;130;Lundu;x
+4039;38;234;130;Lundu;x#
 4040;44;52;201;Kalonga;x
 4041;145;165;177;Kinga;x
-4042;220;30;106;Makonde;x
+4042;220;30;106;Makonde;x#
 4043;171;67;109;Phangwa;x
 4044;219;159;183;Ngonde;x
 4045;44;123;42;Tumbuka;x
-4046;106;189;104;Lala;x
+4046;106;189;104;Lala;x#
 4047;33;220;28;Nsenga;x
 4048;225;80;159;Lomwe;x
 4049;123;127;208;Ibo;x
-4050;210;164;53;Luangwa;x
+4050;210;164;53;Luangwa;x#
 4051;46;174;176;Ewaso Ngiro;x
 4052;28;134;135;Dawa;x
 4053;208;113;137;Turkana;x
-4054;57;112;35;Kuria;x
+4054;57;112;35;Kuria;x#
 4055;169;127;77;Shamba;x
 4056;234;32;70;Gogo;x
 4057;78;126;60;Nyatura;x
 4058;30;188;53;Zigua;x
-4059;215;196;132;Shaga;x
+4059;215;196;132;Shaga;x#
 4060;215;17;73;Kikuyu;x
 4061;141;193;135;Buzinza;x
-4062;57;208;42;Basoga;x
+4062;57;208;42;Basoga;x#
 4063;203;160;93;Karagwe;x
 4064;172;118;32;Buganda;x
-4065;220;52;0;Bunyoro;x
+4065;220;52;0;Bunyoro;x#
 4066;187;203;173;Ndorwe;x
 4067;133;213;62;Nduga;x
 4068;97;177;26;Buzozo;x
-4069;28;191;70;Bushubi;x
+4069;28;191;70;Bushubi;x#
 4070;219;44;196;Nkoma;x
 4071;207;205;37;Buyogoma;x
 4072;181;113;48;Ruguru;x
-4073;227;125;26;Hehe;x
+4073;227;125;26;Hehe;x#
 4074;239;192;146;Pubungo;x
 4075;191;117;46;Lango;x
 4076;53;152;36;Muhambwe;x
 4077;145;76;136;Rukwa;x
-4078;219;94;40;Mayumba;x
+4078;219;94;40;Mayumba;x#
 4079;220;158;209;Ngoyo;x
 4080;120;115;207;Soyo;x
 4081;82;225;176;Tyo;x
-4082;217;90;204;Kasanje;x
+4082;217;90;204;Kasanje;x#
 4083;217;173;199;Shinje;x
 4084;32;114;111;Malem;x
 4085;87;220;115;Yaka;x
-4086;219;217;53;Nunu;x
+4086;219;217;53;Nunu;x#
 4087;52;121;25;Kumbana;x
 4088;213;60;93;Munene;x
 4089;96;201;25;Kuba;x
-4090;219;217;76;Songye;x
+4090;219;217;76;Songye;x#
 4091;101;224;33;Mpasu;x
 4092;140;15;150;Rund;x
 4093;150;15;175;Lwena;x
-4094;160;15;200;Chokwe;x
+4094;160;15;200;Chokwe;x#
 4095;170;15;100;Ishindi;x
 4096;180;15;150;Kalundwe;x
-4097;190;15;175;Luba;x
+4097;190;15;175;Luba;x#
 4098;200;15;200;Upemba;x
 4099;210;15;100;Hemba;x
-4100;220;15;150;Luapala;x
+4100;220;15;150;Luapala;x#
 4101;230;15;175;Lualaba;x
 4102;240;15;200;Bemba;x
 4103;250;15;100;Tabwa;x
-4104;207;15;150;Lamba;x
+4104;207;15;150;Lamba;x#
 4105;207;15;175;Kusu;x
 4106;207;15;200;Lenje;x
-4107;197;15;100;Kanongesha;x
+4107;197;15;100;Kanongesha;x#
 4108;207;15;100;Kaonde;x
 4109;197;15;150;Lega;x
-4110;231;127;43;Sutherland;x
+4110;231;127;43;Sutherland;x#
 4111;119;212;150;Saintonge;x
 4112;157;124;213;Aurilac;x
-4113;103;160;108;Uleaborg;x
+4113;103;160;108;Uleaborg;x#
 4114;145;85;134;Luleas;x
 4115;156;39;189;Mazyr;x
 4116;119;162;166;Belyov;x
 4117;205;163;151;Bezhetsk;x
 4118;180;212;180;Desmond;x
-4119;177;112;53;Sligo;x
+4119;177;112;53;Sligo;x#
 4120;160;91;132;Kildare;x
 4121;185;241;202;Ulster;x
-4122;43;136;207;Shenkursk;x
+4122;43;136;207;Shenkursk;x#
 4123;43;106;43;Birkaland;x
 4124;109;195;109;Kexholm;x
 4125;210;205;68;Szolnok;x
 4126;229;71;55;Bacs;x
-4127;146;198;217;Turda;x
+4127;146;198;217;Turda;x#
 4128;142;201;142;Kiralyf�ld;x
 4129;53;164;53;Ust-Vym;x
 4130;222;47;96;Somerset;x
 4131;227;54;54;Nanbu;x
-4132;70;229;231;Mweru;x
+4132;70;229;231;Mweru;x#Veltoc Cities
 4133;88;239;241;Kivu;x
 4134;103;216;217;Rutanzige;x
-4135;139;230;231;Lake Albert;x
+4135;139;230;231;Lake Albert;x#
 4136;45;225;227;Zaysan;x
 4137;79;222;224;Alakol;x
 4138;40;196;198;Issyk-Kul;x
-4139;54;54;236;Oulujasi;x
+4139;54;54;236;Oulujasi;x#
 4140;34;34;210;Saimaa;x
 4141;207;42;19;Ditmarschen;x
-4142;198;219;57;Aarhus;x
+4142;198;219;57;Aarhus;x#
 4143;127;186;98;Smasnene;x
 4144;222;69;44;Bratsberg;x
 4145;201;191;169;Agdesiden;x
-4146;225;223;19;Jotenheimen;x
+4146;225;223;19;Jotenheimen;x#
 4147;74;217;74;Rostov;x
 4148;222;151;200;Luki;x
 4149;44;184;44;Kolding;x
 4150;145;151;212;Asora;x
-4151;208;10;168;Kuusamo;x
+4151;208;10;168;Kuusamo;x#
 4152;113;153;0;Enare;x
 4153;225;223;21;Scandes;x
-4154;225;223;23;Pyrenees;x
-4155;225;223;25;Carpathians;x
-4156;225;223;27;Caucasus;x
+4154;224;224;186;Pyrenees;x
+4155;153;221;174;Carpathians;x
+4156;225;223;27;Caucasus;x#
 4157;225;223;29;The Alps;x
 4158;117;150;26;Janjero;x
 4159;237;230;38;Alps2;x
-4160;224;220;117;Alps3;x
+4160;224;220;117;Alps3;x#
 4161;208;202;39;Alps4;x
 4162;231;224;22;Alps5;x
-4163;220;144;23;Elfsborg;x
+4163;220;144;23;Elfsborg;x#
 4164;150;213;76;Dalsland;x
 4165;220;78;202;G�inge;x
-4166;54;157;76;Tiohasd/Vasnd;x
+4166;54;157;76;Tiohasd/Vasnd;x#
 4167;195;207;97;High Atlas;x
 4168;135;142;79;High Atlas2;x
 4169;222;203;239;Aures;x
 4170;111;33;184;Zagros;x
-4171;176;122;149;Abarquh;x
+4171;176;122;149;Abarquh;x#
 4172;22;236;239;Zagros2;x
 4173;106;34;172;Syrmia;x
-4174;200;147;147;Durres;x
+4174;200;147;147;Durres;x#
 4175;15;161;198;Lezhe;x
 4176;81;63;217;Branicevo;x
-4177;222;79;239;Elburz;x
+4177;222;79;239;Elburz;x#
 4178;16;119;24;Pontic Mountains;x
 4179;24;212;37;Armenian Highlands;x
 4180;224;105;71;Hyuga;x
-4181;171;64;58;Higo;x
+4181;171;64;58;Higo;x#
 4182;222;162;158;Hizen;x
 4183;148;243;182;Iwami;x
 4184;29;167;101;Bizen;x
 4185;136;40;113;Tango;x
-4186;164;211;156;Iyo;x
+4186;164;211;156;Iyo;x#
 4187;137;170;36;Kii;x
 4188;219;191;83;Shinano;x
 4189;183;128;213;Sagami;x
 4190;74;53;198;Shimousa;x
-4191;150;104;225;Shimotsuke;x
+4191;150;104;225;Shimotsuke;x#
 4192;207;150;214;Ugo;x
 4193;102;179;145;Oshima;x
 4194;94;52;48;Yongping;x
-4195;151;185;125;Zhending;x
+4195;151;185;125;Zhending;x#
 4196;104;143;106;Haizhou;x
 4197;148;197;227;Huangzhou;x
 4198;56;144;141;Fengxiang;x
-4199;45;117;59;Tongren;x
+4199;45;117;59;Tongren;x#
 4200;29;161;216;Hulan;x
 4201;44;97;35;Jianzhou;x
-4202;186;143;58;Taining;x
+4202;186;143;58;Taining;x#
 4203;89;66;107;Ju Ud;x
 4204;44;45;128;Anding;x
 4205;35;68;112;Nagchu;x
-4206;38;129;72;Balikul;x
+4206;38;129;72;Balikul;x#
 4207;129;51;84;Turpan;x
 4208;196;198;53;Qurqara-usu;x
 4209;129;112;172;Maralbexi;x
-4210;101;69;107;Yangi Hissar;x
+4210;101;69;107;Yangi Hissar;x#
 4211;72;32;16;Dazhou;x
 4212;122;61;105;Jiazhou;x
-4213;40;46;10;Luzhou;x
+4213;40;46;10;Luzhou;x#
 4214;26;53;83;Kalar;x
 4215;22;100;123;Fudali;x
-4216;74;143;77;Ulch;x
+4216;74;143;77;Ulch;x#
 4217;52;80;119;Pijin;x
 4218;69;105;171;Buteha;x
-4219;117;42;41;Bayan Tumen;x
+4219;117;42;41;Bayan Tumen;x#
 4220;44;113;137;Khiagt;x
 4221;148;144;46;Dundgovi;x
-4222;50;81;144;Ulaangom;x
+4222;50;81;144;Ulaangom;x#
 4223;209;115;2;Hetao;x
 4224;36;150;179;Tokai Sea;x
-4225;64;173;200;Coast of Hokkaido;x
+4225;64;173;200;Coast of Hokkaido;x#
 4226;29;124;148;North Japan Basin;x
 4227;105;96;64;Daegu;x
-4228;195;44;140;Naju;x
+4228;195;44;140;Naju;x#
 4229;188;200;56;Chungju;x
 4230;158;186;44;Suwon;x
 4231;231;184;20;Haeju;x
 4232;145;81;35;Ganggye;x
-4233;31;182;184;Bahai Sea;x
+4233;31;182;184;Bahai Sea;x#
 4234;45;117;167;Eastern Yellow Sea;x
 4235;144;225;232;Vistula Lagoon;x
 4236;255;0;0;Trencin;x
-4237;48;237;244;Olomouc;x
+4237;48;237;244;Olomouc;x#
 4238;37;208;93;Liegnitz;x
 4239;239;10;10;Belgrade;x
-4240;89;225;36;Fejer;x
+4240;89;225;36;Fejer;x#
 4241;203;127;53;Wenden;x
 4242;35;224;48;Ula;x
 4243;239;225;69;Toropets;x
-4244;170;114;128;Starodub;x
+4244;170;114;128;Starodub;x#
 4245;69;133;239;Vyazma;x
 4246;152;182;201;Mstislav;x
-4247;34;217;219;Owrucz;x
+4247;34;217;219;Owrucz;x#
 4248;215;30;112;Kashin;x
 4249;141;220;172;Zubtsov;x
-4250;153;30;210;Mologa;x
+4250;153;30;210;Mologa;x#
 4251;46;39;195;Mozhaisk;x
 4252;83;167;188;Kolomna;x
 4253;15;241;244;Yuriev;x
 4254;222;17;17;Starodub;x
-4255;215;103;103;Pronsk;x
+4255;215;103;103;Pronsk;x#
 4256;44;142;46;Solvychegodsk;x
 4257;44;152;95;Mezen;x
-4258;9;169;133;Onega;x
+4258;9;169;133;Onega;x#
 4259;201;146;58;Velsk;x
 4260;79;181;81;Vyshny Volochyok;x
 4261;166;50;94;Ustyuzhna;x
-4262;31;227;36;Totma;x
+4262;31;227;36;Totma;x#
 4263;171;13;54;Sol Galitskaya;x
 4264;159;200;147;Tetyushi;x
-4265;39;208;178;Ar-Chally;x
+4265;39;208;178;Ar-Chally;x#
 4266;191;107;198;Izhkar;x
 4267;198;197;95;Bolgar;x
-4268;213;56;56;Aqabah;x
+4268;213;56;56;Aqabah;x#
 4269;214;231;24;Al Wajh;x
 4270;209;227;59;Azraq;x
-4271;91;196;33;Suwayda;x
+4271;91;196;33;Suwayda;x#
 4272;255;14;59;Al Jawf;x
 4273;127;84;164;Al-Kariatan;x
 4274;31;210;90;Sudayr;x
 4275;53;200;195;Al-Yamamah;x
-4276;188;102;18;Jabal Tubaiq;x
+4276;188;102;18;Jabal Tubaiq;x#
 4277;219;23;88;Taifa;x
 4278;69;59;200;Qunfudhah;x
-4279;67;107;179;Zabid;x
+4279;67;107;179;Zabid;x#
 4280;215;128;24;Taiz;x
 4281;67;191;24;Dhamar;x
 4282;210;179;54;Sahda;x;
-4283;224;24;38;Shihr;x
+4283;224;24;38;Shihr;x#
 4284;99;150;71;Al Ghayda;x
 4285;181;124;124;Baraimi Oasis;x
 4286;187;208;10;Sur;x
 4287;200;92;20;Ibra;x
-4288;83;203;86;Shatt;x
+4288;83;203;86;Shatt;x#
 4289;17;195;138;Shushtar;x
 4290;79;184;27;Hoveyzeh;x
 4291;168;219;32;Qazaniya;x
-4292;53;76;176;Mardin;x
+4292;53;76;176;Mardin;x#
 4293;212;79;154;Arbil;x
 4294;150;146;41;Sulimaniyeh;x
 4295;48;167;51;Hisn Kayfa;x
-4296;116;62;183;Bitlis;x
+4296;116;62;183;Bitlis;x#
 4297;99;32;200;Homs;x
 4298;231;78;10;Ayntab;x
 4299;70;198;70;Shamakhi;x
-4300;225;205;36;Mianeh;x
+4300;225;205;36;Mianeh;x#
 4301;232;184;55;Gori;x
 4302;13;94;109;Bayazid;x
 4303;213;197;16;Oltu;x
-4304;184;111;111;Khoy;x
+4304;184;111;111;Khoy;x#
 4305;210;42;42;Shaki;x
 4306;117;109;201;Khumuk;x
-4307;134;177;141;Aksaray;x
+4307;134;177;141;Aksaray;x#
 4308;69;25;75;Denizli;x
 4309;118;176;123;Aydin;x
-4310;135;155;105;Divrigi;x
+4310;135;155;105;Divrigi;x#
 4311;67;121;108;Karahisar;x
 4312;105;195;57;Sultan�n�;x
 4313;94;189;108;Kangiri;x
 4314;159;73;73;Kirshehir;x
-4315;124;60;86;Tokat;x
+4315;124;60;86;Tokat;x#
 4316;51;172;108;Mansura;x
 4317;99;77;195;Buhaira;x
 4318;63;128;27;Atfih;x
 4319;163;183;82;Isna;x
 4320;195;83;191;Girga;x
-4321;121;21;154;Eastern Desert;x
+4321;121;21;154;Eastern Desert;x#
 4322;184;65;29;Eastern Desert;x
 4323;224;40;15;Farafreh;x
 4324;149;186;149;Ghuriyan;x
-4325;222;47;29;Sarakhs;x
+4325;222;47;29;Sarakhs;x#
 4326;134;196;131;Nishapur;x
 4327;244;221;131;Jask;x
 4328;143;34;255;Chagai;x
-4329;96;128;136;Fasa;x
+4329;96;128;136;Fasa;x#
 4330;54;193;106;Darab;x
 4331;212;14;89;Kazarun;x
 4332;112;120;148;Siraf;x
-4333;104;180;181;Dahlak Archipelago;x
+4333;104;180;181;Dahlak Archipelago;x#
 4334;224;12;72;Tabas;x
 4335;236;112;20;Kashan;x
 4336;215;155;85;Tus;x
 4337;73;158;166;Savah;x
-4338;201;70;30;Soltanieh;x
+4338;201;70;30;Soltanieh;x#
 4339;208;71;200;Rasht;x
 4340;88;224;142;Astara;x
-4341;191;220;33;Sari;x
+4341;191;220;33;Sari;x#
 4342;208;198;117;Malamir;x
 4343;208;26;73;Termez;x
 4344;178;231;94;Kish;x
 4345;155;155;198;Saidabad;x
 4346;149;226;227;Qamr Bay;x
-4347;144;206;207;Pirate Coast;x
+4347;144;206;207;Pirate Coast;x#
 4348;198;47;101;Ifuago;x
-4349;105;219;142;Laguna;x
+4349;105;219;142;Laguna;x#
 4350;154;86;212;Mindoro;x
 4351;104;196;152;Buglas;x
 4352;219;168;88;Cebu;x
 4353;89;35;145;Leyte;x
-4354;135;77;125;Zamboanga;x
+4354;135;77;125;Zamboanga;x#
 4355;248;245;172;Caraga;x
 4356;201;167;29;Taytay;x
-4357;125;226;241;Visayan Sea;x
+4357;125;226;241;Visayan Sea;x#
 4358;112;219;220;Cuyo Archipelago;x
 4359;185;227;40;Ise;x
 4360;235;159;33;Mikawa;x
-4361;203;124;124;East March;x
+4361;203;124;124;East March;x#
 4362;220;22;22;West March;x
 4363;212;118;56;Argyll;x
 4364;236;203;22;Inner Hebrides;x
 4365;177;171;135;Mann;x
-4366;196;128;0;Montgomery;x
+4366;196;128;0;Montgomery;x#
 4367;219;150;147;Hull;x
 4368;231;51;43;Scarborough;x
 4369;221;244;212;Carmarthen;x
-4370;115;143;176;Cambridgeshire;x
+4370;115;143;176;Cambridgeshire;x#
 4371;146;207;152;Sussex;x
 4372;207;182;116;Coventry;x
 4373;161;114;192;Devon;x
-4374;155;153;90;Dorset;x
+4374;155;153;90;Dorset;x#
 4375;229;133;39;Chester;x
 4376;160;66;61;Leicester;x
 4377;91;132;207;Ormond;x
-4378;207;145;145;Kinsale;x
+4378;207;145;145;Kinsale;x#
 4379;181;38;38;Middlands;x
 4380;186;74;52;Donegal;x
-4381;24;57;119;Oversticht;x
+4381;24;57;119;Oversticht;x#
 4382;213;194;38;Ommeland;x
 4383;220;189;139;Haag;x
-4384;234;156;30;Rennes;x
+4384;234;156;30;Rennes;x#
 4385;206;210;106;Cotentin;x
 4386;153;88;207;Vendee;x
 4387;227;104;55;Angouleme;x
-4388;90;50;219;Chartres;x
+4388;90;50;219;Chartres;x#
 4389;212;131;52;Touraine;x
 4390;154;146;0;Troyes;x
 4391;208;37;117;Vivarais;x
 4392;227;148;148;Auxerrois;x
 4393;181;227;89;Tabayin;x
-4394;223;76;249;Salin;x
+4394;223;76;249;Salin;x#
 4395;7;183;221;Yamethin;x
 4396;38;227;36;Prome;x
-4397;87;141;35;Yawnghwe;x
+4397;87;141;35;Yawnghwe;x#
 4398;145;54;67;Mawkmai;x
 4399;209;206;232;Dagon;x
 4400;4;138;139;Naga Hills;x
 4401;99;2;220;Arakan Mountains;x
 4402;8;19;70;Gaoligong Mountains;x
-4403;174;133;74;Hengduan Mountains;x
-4404;186;179;78;Minsin;x
-4405;135;83;198;Katha;x
+4403;174;133;74;Hengduan Mountains;x#
+4404;186;179;78;Minsin;x#
+4405;135;83;198;Katha;x#
 4406;131;123;246;Mong Kung;x
 4407;231;58;53;Ruhunu;x
 4408;227;170;169;Salavata;x

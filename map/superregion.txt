@@ -40,6 +40,12 @@ kaltros_superregion={
 	anoric_region
 	kepjar_region
 }
+haqsili_chain_superregion={
+	haqsili_region
+	tailwind_islands_region
+	carenil_region
+	bulkir_region
+}
 #new world-1st colonial target
 elteria_superregion={
 	karnaiha_region
@@ -61,6 +67,13 @@ juluia_superregion={
 	alromita_region
 	velima_plains_region
 	kaminda_region
+	altiron_reach_region
+	valkmora_region
+	kandi_region
+	markford_plains_region
+	yulanir_region
+	broken_bays_region
+	cemnia_region
 }
 
 new_world_superregion = {

@@ -307,6 +307,8 @@ dreghei_region={#
 craine_islands={#includes kafethyr
 	areas = {
 		calendor_islands
+		malkros_islands
+		cryspimes_area
 		kafethyr_1
 		kafethyr_2
 		kafethyr_3
@@ -433,6 +435,12 @@ great_gulba_region={
 		gulba_11
 		rauthyr_25
 		rauthyr_26
+	}
+}
+tailwind_islands_region={
+	areas = {
+		salrton_chain
+		trailing_islands
 	}
 }
 gugh_region={
@@ -928,6 +936,98 @@ golden_bay_region={
 		juluia_76
 		juluia_77
 		juluia_78
+		golden_basin_18
+	}
+}
+valkmora_region={
+	areas = {
+		veltoc_cities
+		valkmora_1
+		valkmora_2
+		valkmora_3
+		valkmora_4
+		valkmora_5
+		valkmora_6
+		valkmora_7
+		valkmora_8
+		valkmora_9
+		valkmora_10
+		valkmora_11
+		valkmora_12
+	}
+}
+markford_plains_region={
+	areas = {
+		valkmora_17
+		valkmora_14
+		valkmora_15
+		valkmora_16
+		valkmora_19
+		valkmora_20
+		valkmora_34
+		valkmora_35
+		valkmora_36
+		valkmora_37
+		valkmora_38
+		valkmora_21
+	}
+}
+kandi_region={
+	areas = {
+		valkmora_22
+		valkmora_23
+		valkmora_24
+		valkmora_25
+		valkmora_26
+		valkmora_27
+		valkmora_28
+		valkmora_29
+		valkmora_30
+		valkmora_31
+		valkmora_32
+		valkmora_33
+		valkmora_39
+		valkmora_40
+		valkmora_41
+		valkmora_42
+		valkmora_43
+		yulanir_17
+	}
+}
+yulanir_region={
+	areas = {
+		valkmora_39
+		yulanir_1
+		yulanir_2
+		yulanir_3
+		yulanir_4
+		yulanir_5
+		yulanir_6
+		yulanir_7
+		yulanir_8
+		yulanir_9
+		yulanir_10
+		yulanir_11
+		yulanir_12
+		yulanir_13
+		yulanir_14
+		yulanir_15
+		yulanir_16
+	}
+}
+broken_bays_region={
+	areas = {
+		epirauna_1
+		epirauna_2
+		epirauna_3
+		epirauna_4
+		epirauna_7
+		epirauna_8
+		epirauna_9
+		epirauna_10
+		epirauna_11
+		epirauna_12
+		yulanir_18
 	}
 }
 velima_plains_region={
@@ -942,6 +1042,30 @@ velima_plains_region={
 		juluia_84
 		juluia_85
 		juluia_86
+		golden_basin_1
+		golden_basin_2
+		golden_basin_3
+		golden_basin_4
+		golden_basin_5
+		golden_basin_6
+		golden_basin_7
+		golden_basin_8
+		golden_basin_9
+	}
+}
+altiron_reach_region={
+	areas = {
+		golden_basin_10
+		golden_basin_11
+		golden_basin_12
+		golden_basin_13
+		golden_basin_14
+		golden_basin_15
+		golden_basin_16
+		golden_basin_17
+		golden_basin_19
+		golden_basin_20
+		golden_basin_21
 	}
 }
 vitaite_hills_region={
@@ -1007,6 +1131,10 @@ kaminda_region={
 	areas = {
 		juluia_89
 		kellitos
+		epirauna_5
+		epirauna_6
+		epirauna_13
+		epirauna_14
 	}
 }
 tilvena_sea_region={
@@ -1076,20 +1204,31 @@ mallitors_region = {
 western_divide_region={
 	areas={
 		vulkivite_sea_area
-		tervimos_sea_area
 		dividing_sea
 		shielding_waters
 		yellowtide_sea
 		chilcreast_sea
+		kollori_flow
+	}
+}
+eastern_divide_region={
+	areas={
+		tervimos_sea_area
+		dredging_tides_sea_area
 	}
 }
 barking_winds_region={
 	areas={
 		felton_sea
 		scalie_sea
-		kollori_flow
-		omathos_current
 		windsweaps_sea_area
+	}
+}
+laeite_cape_region={
+	areas={
+		yulmortron_sea
+		salitore
+		omathos_current
 	}
 }
 tailwinds_region={
