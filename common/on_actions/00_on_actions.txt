@@ -1835,6 +1835,9 @@ on_five_year_pulse = {
 		# Philosophical
 		100 = ideagroups.2000
 		100 = ideagroups.2001
+		100 = ideagroups.2002
+		100 = ideagroups.2003
+		100 = ideagroups.2004
 
 		1000 = 0
 	}

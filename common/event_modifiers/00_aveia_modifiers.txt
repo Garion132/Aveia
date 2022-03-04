@@ -105,6 +105,16 @@ elteria_colonial_office = {
 	local_colonist_placement_chance = 0.10
 }
 
+wonderous_spark = {
+	idea_cost = -0.1
+}
+divine_spark = {
+	idea_cost = -0.15
+}
+philosophers_school = {
+	technology_cost = -0.05
+}
+
 #Important Locations
 asemont_copper_mines = { #Asemont Copper Mines (in the Cradle)
 	trade_goods_size = 5.0

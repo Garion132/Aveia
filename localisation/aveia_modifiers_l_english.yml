@@ -67,4 +67,12 @@
  remote_lands_of_juluia:0 "Remote Lands of Juluia"
  desc_remote_lands_of_juluia:0 "Juluia's remoteness on the other side of the globe from civilization makes it remarkably difficult to colonize."
 
+ #Events
+ wonderous_spark:0 "Wonderous Spark"
+ desc_wonderous_spark:0 "One of our philosophers had a brilliant spark of imagination, and have aided us immensely."
+ divine_spark:0 "Divine Spark"
+ desc_divine_spark:0 "One of our philosophers had a brilliant spark of imagination, and we have embraced it."
+ philosophers_school:0 "Philosophers School"
+ desc_philosophers_school:0 "A recent street-philosopher has found himself endowed with money to start a school."
+
  

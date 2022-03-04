@@ -7795,12 +7795,11 @@ namespace = ideagroups
 			add_horde_unity = -10
 			add_meritocracy = -10
 			add_revolutionary_zeal = -10
-			add_tribal_allegiance = -10
 			ai_chance = {
 				factor = 1
 				modifier = {
 					factor = 0
-					full_idea_group = aristocracy_ideas
+					absolutism = 80
 				}
 				modifier = {
 					factor = 0
@@ -7812,7 +7811,7 @@ namespace = ideagroups
 			name = ideagroups.2000.b
 			highlight = yes
 			trigger = {
-				full_idea_group = aristocracy_ideas
+				absolutism = 80
 			}
 			add_legitimacy = -5
 			add_republican_tradition = -2
@@ -7820,7 +7819,6 @@ namespace = ideagroups
 			add_horde_unity = -5
 			add_meritocracy = -5
 			add_revolutionary_zeal = -5
-			add_tribal_allegiance = -5
 			add_prestige = 5
 
 			ai_chance = {
@@ -7872,10 +7870,14 @@ namespace = ideagroups
 		}
 
 		option = { #We can go further
-			name = ideagroups.2001.a
+			name = ideagroups.2001.b
 			highlight = yes
+			trigger = {
+				full_idea_group = innovativeness_ideas
+			}
 			
-			change_government_reform_progress = 30
+			change_government_reform_progress = 25
+			add_adm_power = 50
 			change_innovativeness = 3
 
 			ai_chance = {
@@ -7883,6 +7885,231 @@ namespace = ideagroups
 			}
 		}
 	}
+
+	#What is the Meaning of Life?
+	country_event = {
+		id = ideagroups.2002
+		title = ideagroups.2002.t
+		desc = ideagroups.2002.d
+		picture = DEBATE_REPUBLICAN_eventPicture
+		
+		is_triggered_only = yes
+		
+		trigger = {
+			has_idea_group = philosophical_ideas	
+		}		
+		
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = { #What a waste of time
+			name = ideagroups.2002.a
+			add_adm_power = -25
+			add_dip_power = -25
+			add_mil_power = -25
+
+			ai_chance = {
+				factor = 1
+				modifier = {
+					factor = 0
+					full_idea_group = magical_ideas
+				}
+			}
+		}
+
+		option = { #Is it 42?
+			name = ideagroups.2002.b
+			highlight = yes
+			trigger = {
+				full_idea_group = magical_ideas
+			}
+
+			add_prestige = 1
+
+			ai_chance = {
+				factor = 100
+			}
+		}
+	}
+
+	#Spark of Inspiration
+	country_event = {
+		id = ideagroups.2003
+		title = ideagroups.2003.t
+		desc = ideagroups.2003.d
+		picture = INVENTION_eventPicture
+		
+		is_triggered_only = yes
+		
+		trigger = {
+			has_idea_group = philosophical_ideas
+			NOT = {
+				OR = {
+					has_country_modifier = wonderous_spark
+					has_country_modifier = divine_spark
+				}
+			}
+		}		
+		
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = { #What a wonderous idea!
+			name = ideagroups.2003.a
+			add_country_modifier = {
+				name = wonderous_spark
+				duration = 3650
+			}
+
+			ai_chance = {
+				factor = 1
+				modifier = {
+					factor = 0
+					full_idea_group = religious_ideas
+				}
+			}
+		}
+
+		option = { #Truly a gift from the heavens!
+			name = ideagroups.2003.b
+			highlight = yes
+			trigger = {
+				full_idea_group = religious_ideas
+			}
+
+			add_country_modifier = {
+				name = divine_spark
+				duration = 7300
+			}
+
+			ai_chance = {
+				factor = 100
+			}
+		}
+	}
+
+	#A Philosopher Offers His Services
+	country_event = {
+		id = ideagroups.2004
+		title = ideagroups.2004.t
+		desc = ideagroups.2004.d
+		picture = INVENTION_eventPicture
+		
+		is_triggered_only = yes
+		
+		trigger = {
+			has_idea_group = philosophical_ideas
+			NOT = {
+				OR = {
+					has_country_modifier = wonderous_spark
+					has_country_modifier = divine_spark
+				}
+			}
+		}		
+		
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = { #He will be useful in our court
+			name = ideagroups.2004.a
+			if = {
+				limit = {
+					monthly_income = 80
+				}
+				define_advisor = {
+					type = philosopher
+					skill = 5
+					discount = yes
+					culture = variable:new_ruler_culture
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 40
+				}
+				define_advisor = {
+					type = philosopher
+					skill = 4
+					discount = yes
+					culture = variable:new_ruler_culture
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 20
+				}
+				define_advisor = {
+					type = philosopher
+					skill = 3
+					discount = yes
+					culture = variable:new_ruler_culture
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 10
+				}
+				define_advisor = {
+					type = philosopher
+					skill = 2
+					discount = yes
+					culture = variable:new_ruler_culture
+				}
+			}
+			else = {
+				define_advisor = {
+					type = philosopher
+					skill = 1
+					discount = yes
+					culture = variable:new_ruler_culture
+				}
+			}
+
+			
+			ai_chance = {
+				factor = 5
+				modifier = {
+					factor = 3
+					NOT = { employed_advisor = { category = ADM } }
+				}
+				modifier = {
+					factor = 0
+					NOT = { monthly_income = 3 }
+				}
+			}
+		}
+
+		option = { #An endowment for a school should suffice
+			name = ideagroups.2004.b
+
+			add_years_of_income = -0.1
+			add_country_modifier = {
+				name = philosophers_school
+				duration = 3650
+			}
+
+			ai_chance = {
+				factor = 5
+			}
+		}
+
+		option = { #Tell him off
+			name = ideagroups.2004.c
+
+			add_prestige = 5
+
+			ai_chance = {
+				factor = 3
+			}
+		}
+	}
+
+
+
+	
 	
 #######################################
 # Engineering Ideas: 2100s

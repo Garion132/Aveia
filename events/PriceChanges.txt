@@ -559,19 +559,21 @@ country_event = {
 				add_base_manpower = 1
 			}
 		}
-		every_country = {
-			limit = {
-				NOT = { tag = ROOT }
-				NOT = { 
-					OR = {
-						#People who couldn't get the disaster don't get this, and released countries get this
-						technology_group = northern_men_group
-						technology_group = free_fauns_group
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { tag = ROOT }
+					NOT = { 
+						OR = {
+							#People who couldn't get the disaster don't get this, and released countries get this
+							technology_group = northern_men_group
+							technology_group = free_fauns_group
+						}
 					}
 				}
-			}
 
-			country_event = { id = prices.106 days = 5 }
+				country_event = { id = prices.106 days = 5 }
+			}
 		}
 	}
 }
