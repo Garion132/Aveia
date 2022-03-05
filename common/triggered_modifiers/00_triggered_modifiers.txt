@@ -5,6 +5,63 @@
 
 
 ###########################################
+# Holding Holy Sites for relevant religions
+###########################################
+tlaunorist_iwenlumy = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 80	# Iwenlumy
+		religion_group = tlaulunorism
+		NOT = { religion = cult_progress }
+	}
+
+	trigger = {	
+		owns_or_vassal_of = 80 # Iwenlumy
+	}
+
+	tolerance_own = 1
+	monthly_splendor = 4
+	prestige_decay = -0.01
+	diplomatic_reputation = 2
+	#icon = 9
+}
+rake_group_vulkiv = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 94	# Vulkiva
+		religion_group = rake_group
+	}
+
+	trigger = {	
+		owns_or_vassal_of = 94 # Vulkiva
+	}
+
+	imperial_authority_value = 0.01
+	legitimate_subject_elector = 50
+	prestige_decay = -0.01
+	diplomatic_reputation = 1
+	#icon = 9
+}
+eternal_sun_golden_sun = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 1006	# Golden Sun
+		religion = eternal_sun
+	}
+
+	trigger = {	
+		owns_or_vassal_of = 1006 # Golden Sun
+	}
+
+	land_morale = 0.1
+	global_missionary_strength = 0.02
+	prestige_decay = -0.01
+	diplomatic_reputation = 1
+	#icon = 9
+}
+
+
+###########################################
 # Discovery of the East Indian trade route.
 ###########################################
 # east_indian_trade_route = {
