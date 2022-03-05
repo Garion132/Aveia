@@ -39,6 +39,8 @@ kaltros_superregion={
 	qirdud_region
 	anoric_region
 	kepjar_region
+	vortingrad_region
+	rogosian_heights_region
 }
 haqsili_chain_superregion={
 	haqsili_region

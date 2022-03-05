@@ -647,19 +647,47 @@ anoric_region={
 		keril_40
 		keril_41
 		keril_42
-		keril_43
 		keril_44
-		keril_45
-		keril_46
-		keril_47
 		keril_48
 		keril_49
 		keril_50
 		keril_51
 		keril_52
+		keril_59
+		keril_60
+		keril_61
 	}
 }
 
+rogosian_heights_region={
+	areas={
+		keril_62
+	}
+}
+vortingrad_region={
+	areas={
+		vortingrad_1
+		vortingrad_2
+		vortingrad_3
+		vortingrad_4
+		vortingrad_5
+		vortingrad_6
+		vortingrad_7
+		vortingrad_8
+		vortingrad_9
+		keril_43
+		keril_58
+		keril_46
+		keril_45
+		keril_47
+		keril_53
+		keril_63
+		keril_54
+		keril_55
+		keril_56
+		keril_57
+	}
+}
 ##Karnaiha
 
 karnaiha_region = {
