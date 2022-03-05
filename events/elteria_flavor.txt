@@ -905,3 +905,191 @@ country_event = {
 		
 	}
 }
+
+# The Voyage of Saltera
+country_event = {
+	id = elteria_event.18
+	title = elteria_event.18.t
+	desc = elteria_event.18.d
+	picture = NAVAL_MILITARY_eventPicture
+	
+	
+	major = yes
+	
+	trigger = {
+		is_year = 1318
+		OR = {
+			AND = {
+				NOT = { exists = KAF }
+				any_owned_province = {
+					is_port = yes
+				}
+				OR = {
+					technology_group = lake_elves_group
+					technology_group = sea_elves_group
+					technology_group = ork_group
+					technology_group = dunirr_group
+				}
+			}
+			tag = KAF
+		}
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	immediate = {
+	}
+
+	option = {
+		name = elteria_event.18.a
+
+		add_prestige = 20
+		
+		hidden_effect={
+			every_country = {
+				limit = {
+					OR = {
+						technology_group = lake_elves_group
+						technology_group = sea_elves_group
+						technology_group = ork_group
+						technology_group = dunirr_group
+					}
+				}
+				190 = {
+					discover_country = PREV
+				}
+				192 = {
+					discover_country = PREV
+				}
+				191 = {
+					discover_country = PREV
+				}
+				197 = {
+					discover_country = PREV
+				}
+				200 = {
+					discover_country = PREV
+				}
+				203 = {
+					discover_country = PREV
+				}
+				202 = {
+					discover_country = PREV
+				}
+				201 = {
+					discover_country = PREV
+				}
+				205 = {
+					discover_country = PREV
+				}
+				212 = {
+					discover_country = PREV
+				}
+				298 = {
+					discover_country = PREV
+				}
+				windsweaps_region = {
+					limit = {
+						has_port = yes
+					}
+					discover_country = PREV
+				}
+				catecalde_region = {
+					limit = {
+						has_port = yes
+					}
+					discover_country = PREV
+				}
+				palentai_bay_region = {
+					limit = {
+						has_port = yes
+					}
+					discover_country = PREV
+				}
+				deerok_region = {
+					limit = {
+						has_port = yes
+					}
+					discover_country = PREV
+				}
+				feltdon_region = {
+					limit = {
+						has_port = yes
+					}
+					discover_country = PREV
+				}
+				bulkir_region = {
+					limit = {
+						has_port = yes
+					}
+					discover_country = PREV
+				}
+			}
+		}
+	}
+}
+# Elterian Expedition
+country_event = {
+	id = elteria_event.19
+	title = elteria_event.19.t
+	desc = elteria_event.19.d
+	picture = CONQUISTADORS_eventPicture
+	
+	
+	major = yes
+	
+	trigger = {
+		is_year = 1334
+		has_country_modifier = scramble_for_elteria
+		any_owned_province = {
+			is_port = yes
+		}
+		OR = {
+			any_owned_province = {
+				continent = elteria
+			}
+			any_subject_country = {
+				capital_scope = {
+					continent = elteria
+				}
+			}
+		}
+		OR = {
+			technology_group = lake_elves_group
+			technology_group = sea_elves_group
+			technology_group = ork_group
+			technology_group = dunirr_group
+		}
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	immediate = {
+	}
+
+	option = {
+		name = elteria_event.19.a
+
+		add_prestige = 20
+		
+		hidden_effect={
+			every_country = {
+				limit = {
+					OR = {
+						technology_group = lake_elves_group
+						technology_group = sea_elves_group
+						technology_group = ork_group
+						technology_group = dunirr_group
+					}
+				}
+				elteria = {
+					discover_country = PREV
+				}
+			}
+		}
+	}
+}
