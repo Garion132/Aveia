@@ -3,9 +3,9 @@
 culture = kafathi
 religion = shamanism #Fetishism
 hre = no
-base_tax = 1
-base_production =1
-base_manpower = 1
+base_tax = 5
+base_production =5
+base_manpower = 4
 trade_goods = unknown
 capital = "KAF"
 native_size = 25
@@ -24,3 +24,5 @@ discovered_by = ork_group
 	is_city = yes
 	port = yes
 }
+
+center_of_trade = 2

@@ -3,9 +3,9 @@
 culture = cyuean
 religion = shamanism #Fetishism
 hre = no
-base_tax = 1
-base_production =1
-base_manpower = 1
+base_tax = 3
+base_production =4
+base_manpower = 3
 trade_goods = unknown
 capital = "Cyu"
 native_size = 25
@@ -23,3 +23,5 @@ discovered_by = ork_group
 	controller = CYU
 	is_city = yes
 }
+
+center_of_trade = 1
