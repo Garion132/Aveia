@@ -32,7 +32,6 @@ change_estate_land_share = {
 		dip = 4
 		mil = 2
 		culture = edailian
-		country_of_origin = LEL
 	}
 }
 1261.2.9 ={

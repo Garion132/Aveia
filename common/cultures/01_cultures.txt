@@ -4138,7 +4138,7 @@ humans = {
 			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
 			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin Wratislaw 
 			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
-			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Wratislaw 
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw 
 			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
 		}
 		female_names = {
@@ -4147,7 +4147,7 @@ humans = {
 			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
 			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
 			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
-			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Mark�ta Martyna 
+			Ludmila Magda Magdalena Malgorzata Marcelina Maria Mark�ta Martyna 
 			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
 			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
 			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
@@ -4166,7 +4166,7 @@ humans = {
 			Bartosz Bartolomeus Bedrich 
 			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
 			Boriwoj Borijov Bozydar Theodat Branimir Branislav
-			Bretislav Bretislaus Casimir Ctibor Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Bretislav Bretislaus Casimir Ctibor Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
 			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
 			Janusz John Jaromar
 			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jir� George Jozef Joseph 
@@ -4190,7 +4190,7 @@ humans = {
 			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
 			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
 			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
-			Ludmila Magda Magdalena Magdalena Magdalena Malgorzata Marcelina Maria Mark�ta Martyna 
+			Ludmila Magda Magdalena Malgorzata Marcelina Maria Mark�ta Martyna 
 			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
 			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
 			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa

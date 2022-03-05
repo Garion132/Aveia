@@ -46,7 +46,7 @@ defined_text = {
 }
 
 
-# Ex: "[he/she] is" => "[él/ella] es"
+# Ex: "[he/she] is" => "[ï¿½l/ella] es"
 defined_text = {
 	name = GetelellaDir
 	text = {
@@ -62,7 +62,7 @@ defined_text = {
 		}
 	}
 }
-# Ex. "[He/She] is" => "[Él/Ella] es"
+# Ex. "[He/She] is" => "[ï¿½l/Ella] es"
 defined_text = {
 	name = GetElEllaDir
 	text = {
@@ -148,7 +148,7 @@ defined_text = {
 }
 
 
-# Ex: "magnificient" => "magnífic[o]/magnífic[a]"
+# Ex: "magnificient" => "magnï¿½fic[o]/magnï¿½fic[a]"
 defined_text = {
 	name = GetoaDir
 	text = {
@@ -184,7 +184,7 @@ defined_text = {
 }
 
 
-# Ex: "Spanish" => "español[ø]/español[a]"
+# Ex: "Spanish" => "espaï¿½ol[ï¿½]/espaï¿½ol[a]"
 defined_text = {
 	name = GetXaDir
 	text = {
@@ -202,7 +202,7 @@ defined_text = {
 }
 
 
-# Ex: "stubborn" => "cabez[ón]/cabez[ona]
+# Ex: "stubborn" => "cabez[ï¿½n]/cabez[ona]
 defined_text = {
 	name = GetononaDir
 	text = {
@@ -220,7 +220,7 @@ defined_text = {
 }
 
 
-# Ex: "drunkard" => "borrach[ín]/borrach[ina]"
+# Ex: "drunkard" => "borrach[ï¿½n]/borrach[ina]"
 defined_text = {
 	name = GetininaDir
 	text = {
@@ -288,7 +288,7 @@ defined_text = {
 		}
 	}
 }
-# Ex: "Kill [him/her]" => "[Le/La] mató"
+# Ex: "Kill [him/her]" => "[Le/La] matï¿½"
 defined_text = {
 	name = GetLeLaDir
 	text = {
@@ -306,7 +306,7 @@ defined_text = {
 }
 
 
-# Ex: "French" => "franc[és/esa]"
+# Ex: "French" => "franc[ï¿½s/esa]"
 defined_text = {
 	name = GetesesaDir
 	text = {
@@ -329,7 +329,7 @@ defined_text = {
 ###   Heirs // Herederos   ###
 ##############################
 
-# Ex: "[the] prince(ss)" => "[el] príncipe/[la] princessa"
+# Ex: "[the] prince(ss)" => "[el] prï¿½ncipe/[la] princessa"
 defined_text = {
 	name = GetellaHer
 	text = {
@@ -345,7 +345,7 @@ defined_text = {
 		}
 	}
 }
-# Ex: "[The] prince(ss)" => "[El] príncipe/[La] princessa"
+# Ex: "[The] prince(ss)" => "[El] prï¿½ncipe/[La] princessa"
 defined_text = {
 	name = GetElLaHer
 	text = {
@@ -363,7 +363,7 @@ defined_text = {
 }
 
 
-# Ex: "[he/she] is" => "[él/ella] es"
+# Ex: "[he/she] is" => "[ï¿½l/ella] es"
 defined_text = {
 	name = GetelellaHer
 	text = {
@@ -379,7 +379,7 @@ defined_text = {
 		}
 	}
 }
-# Ex. "[He/She] is" => "[Él/Ella] es"
+# Ex. "[He/She] is" => "[ï¿½l/Ella] es"
 defined_text = {
 	name = GetElEllaHer
 	text = {
@@ -397,7 +397,7 @@ defined_text = {
 }
 
 
-# Ex: "[of the] prince(ss)" => "[del] príncipe/[de la] princessa"
+# Ex: "[of the] prince(ss)" => "[del] prï¿½ncipe/[de la] princessa"
 defined_text = {
 	name = GetdeldelaHer
 	text = {
@@ -413,7 +413,7 @@ defined_text = {
 		}
 	}
 }
-# Ex: "[Of the] prince" => "[Del] príncipe/[De la] princessa"
+# Ex: "[Of the] prince" => "[Del] prï¿½ncipe/[De la] princessa"
 defined_text = {
 	name = GetDelDelaHer
 	text = {
@@ -431,7 +431,7 @@ defined_text = {
 }
 
 
-# Ex: "[for the] prince(ss)" => "[al] príncipe/[a la] princessa"
+# Ex: "[for the] prince(ss)" => "[al] prï¿½ncipe/[a la] princessa"
 defined_text = {
 	name = GetalalaHer
 	text = {
@@ -447,7 +447,7 @@ defined_text = {
 		}
 	}
 }
-# Ex: "[For the] prince(ss)" => "[Al] príncipe/[A la] princessa"
+# Ex: "[For the] prince(ss)" => "[Al] prï¿½ncipe/[A la] princessa"
 defined_text = {
 	name = GetAlAlaHer
 	text = {
@@ -465,7 +465,7 @@ defined_text = {
 }
 
 
-# Ex: "magnificient" => "magnífic[o]/magnífic[a]"
+# Ex: "magnificient" => "magnï¿½fic[o]/magnï¿½fic[a]"
 defined_text = {
 	name = GetoaHer
 	text = {
@@ -501,7 +501,7 @@ defined_text = {
 }
 
 
-# Ex: "Spanish" => "español[ø]/español[a]"
+# Ex: "Spanish" => "espaï¿½ol[ï¿½]/espaï¿½ol[a]"
 defined_text = {
 	name = GetXaHer
 	text = {
@@ -519,7 +519,7 @@ defined_text = {
 }
 
 
-# Ex: "stubborn" => "cabez[ón]/cabez[ona]
+# Ex: "stubborn" => "cabez[ï¿½n]/cabez[ona]
 defined_text = {
 	name = GetononaHer
 	text = {
@@ -537,7 +537,7 @@ defined_text = {
 }
 
 
-# Ex: "drunkard" => "borrach[ín]/borrach[ina]"
+# Ex: "drunkard" => "borrach[ï¿½n]/borrach[ina]"
 defined_text = {
 	name = GetininaHer
 	text = {
@@ -623,7 +623,7 @@ defined_text = {
 }
 
 
-# Ex: "French" => "franc[és/esa]"
+# Ex: "French" => "franc[ï¿½s/esa]"
 defined_text = {
 	name = GetesesaHer
 	text = {
@@ -680,7 +680,7 @@ defined_text = {
 }
 
 
-# Ex: "[he/she] is" => "[él/ella] es"
+# Ex: "[he/she] is" => "[ï¿½l/ella] es"
 defined_text = {
 	name = GetelellaCons
 	text = {
@@ -696,7 +696,7 @@ defined_text = {
 		}
 	}
 }
-# Ex. "[He/She] is" => "[Él/Ella] es"
+# Ex. "[He/She] is" => "[ï¿½l/Ella] es"
 defined_text = {
 	name = GetElEllaCons
 	text = {
@@ -782,7 +782,7 @@ defined_text = {
 }
 
 
-# Ex: "magnificient" => "magnífic[o]/magnífic[a]"
+# Ex: "magnificient" => "magnï¿½fic[o]/magnï¿½fic[a]"
 defined_text = {
 	name = GetoaCons
 	text = {
@@ -818,7 +818,7 @@ defined_text = {
 }
 
 
-# Ex: "Spanish" => "español[ø]/español[a]"
+# Ex: "Spanish" => "espaï¿½ol[ï¿½]/espaï¿½ol[a]"
 defined_text = {
 	name = GetXaCons
 	text = {
@@ -836,7 +836,7 @@ defined_text = {
 }
 
 
-# Ex: "stubborn" => "cabez[ón]/cabez[ona]
+# Ex: "stubborn" => "cabez[ï¿½n]/cabez[ona]
 defined_text = {
 	name = GetononaCons
 	text = {
@@ -854,7 +854,7 @@ defined_text = {
 }
 
 
-# Ex: "drunkard" => "borrach[ín]/borrach[ina]"
+# Ex: "drunkard" => "borrach[ï¿½n]/borrach[ina]"
 defined_text = {
 	name = GetininaCons
 	text = {
@@ -940,7 +940,7 @@ defined_text = {
 }
 
 
-# Ex: "French" => "franc[és/esa]"
+# Ex: "French" => "franc[ï¿½s/esa]"
 defined_text = {
 	name = GetesesaCons
 	text = {
@@ -1009,7 +1009,7 @@ defined_text = {
 }
 
 
-# Ex: "[he/she] is" => "[él/ella] es"
+# Ex: "[he/she] is" => "[ï¿½l/ella] es"
 defined_text = {
 	name = GetelellaCnjAdm
 	text = {
@@ -1031,7 +1031,7 @@ defined_text = {
 		}
 	}
 }
-# Ex. "[He/She] is" => "[Él/Ella] es"
+# Ex. "[He/She] is" => "[ï¿½l/Ella] es"
 defined_text = {
 	name = GetElEllaCnjAdm
 	text = {
@@ -1147,7 +1147,7 @@ defined_text = {
 }
 
 
-# Ex: "magnificient" => "magnífic[o]/magnífic[a]"
+# Ex: "magnificient" => "magnï¿½fic[o]/magnï¿½fic[a]"
 defined_text = {
 	name = GetoaCnjAdm
 	text = {
@@ -1195,7 +1195,7 @@ defined_text = {
 }
 
 
-# Ex: "Spanish" => "español[ø]/español[a]"
+# Ex: "Spanish" => "espaï¿½ol[ï¿½]/espaï¿½ol[a]"
 defined_text = {
 	name = GetXaCnjAdm
 	text = {
@@ -1219,7 +1219,7 @@ defined_text = {
 }
 
 
-# Ex: "stubborn" => "cabez[ón]/cabez[ona]
+# Ex: "stubborn" => "cabez[ï¿½n]/cabez[ona]
 defined_text = {
 	name = GetononaCnjAdm
 	text = {
@@ -1243,7 +1243,7 @@ defined_text = {
 }
 
 
-# Ex: "drunkard" => "borrach[ín]/borrach[ina]"
+# Ex: "drunkard" => "borrach[ï¿½n]/borrach[ina]"
 defined_text = {
 	name = GetininaCnjAdm
 	text = {
@@ -1477,7 +1477,7 @@ defined_text = {
 }
 
 
-# Ex: "French" => "franc[és/esa]"
+# Ex: "French" => "franc[ï¿½s/esa]"
 defined_text = {
 	name = GetesesaCnjAdm
 	text = {
@@ -1503,7 +1503,7 @@ defined_text = {
 
 
 ##########################################################
-###   Diplomatic Advisors // Consejeros diplomáticos   ###
+###   Diplomatic Advisors // Consejeros diplomï¿½ticos   ###
 ##########################################################
 
 # Ex: "[the] advisor" => "[el] consejero/[la] consejera"
@@ -1552,7 +1552,7 @@ defined_text = {
 }
 
 
-# Ex: "[he/she] is" => "[él/ella] es"
+# Ex: "[he/she] is" => "[ï¿½l/ella] es"
 defined_text = {
 	name = GetelellaCnjDip
 	text = {
@@ -1574,7 +1574,7 @@ defined_text = {
 		}
 	}
 }
-# Ex. "[He/She] is" => "[Él/Ella] es"
+# Ex. "[He/She] is" => "[ï¿½l/Ella] es"
 defined_text = {
 	name = GetElEllaCnjDip
 	text = {
@@ -1690,7 +1690,7 @@ defined_text = {
 }
 
 
-# Ex: "magnificient" => "magnífic[o]/magnífic[a]"
+# Ex: "magnificient" => "magnï¿½fic[o]/magnï¿½fic[a]"
 defined_text = {
 	name = GetoaCnjDip
 	text = {
@@ -1738,7 +1738,7 @@ defined_text = {
 }
 
 
-# Ex: "Spanish" => "español[ø]/español[a]"
+# Ex: "Spanish" => "espaï¿½ol[ï¿½]/espaï¿½ol[a]"
 defined_text = {
 	name = GetXaCnjDip
 	text = {
@@ -1762,7 +1762,7 @@ defined_text = {
 }
 
 
-# Ex: "stubborn" => "cabez[ón]/cabez[ona]
+# Ex: "stubborn" => "cabez[ï¿½n]/cabez[ona]
 defined_text = {
 	name = GetononaCnjDip
 	text = {
@@ -1786,7 +1786,7 @@ defined_text = {
 }
 
 
-# Ex: "drunkard" => "borrach[ín]/borrach[ina]
+# Ex: "drunkard" => "borrach[ï¿½n]/borrach[ina]
 defined_text = {
 	name = GetininaCnjDip
 	text = {
@@ -2007,7 +2007,7 @@ defined_text = {
 }
 
 
-# Ex: "French" => "franc[és/esa]"
+# Ex: "French" => "franc[ï¿½s/esa]"
 defined_text = {
 	name = GetesesaCnjDip
 	text = {
@@ -2082,7 +2082,7 @@ defined_text = {
 }
 
 
-# Ex: "[he/she] is" => "[él/ella] es"
+# Ex: "[he/she] is" => "[ï¿½l/ella] es"
 defined_text = {
 	name = GetelellaCnjMil
 	text = {
@@ -2104,7 +2104,7 @@ defined_text = {
 		}
 	}
 }
-# Ex. "[He/She] is" => "[Él/Ella] es"
+# Ex. "[He/She] is" => "[ï¿½l/Ella] es"
 defined_text = {
 	name = GetElEllaCnjMil
 	text = {
@@ -2220,7 +2220,7 @@ defined_text = {
 }
 
 
-# Ex: "magnificient" => "magnífic[o]/magnífic[a]"
+# Ex: "magnificient" => "magnï¿½fic[o]/magnï¿½fic[a]"
 defined_text = {
 	name = GetoaCnjMil
 	text = {
@@ -2268,7 +2268,7 @@ defined_text = {
 }
 
 
-# Ex: "Spanish" => "español[ø]/español[a]"
+# Ex: "Spanish" => "espaï¿½ol[ï¿½]/espaï¿½ol[a]"
 defined_text = {
 	name = GetXaCnjMil
 	text = {
@@ -2292,7 +2292,7 @@ defined_text = {
 }
 
 
-# Ex: "stubborn" => "cabez[ón]/cabez[ona]
+# Ex: "stubborn" => "cabez[ï¿½n]/cabez[ona]
 defined_text = {
 	name = GetononaCnjMil
 	text = {
@@ -2316,7 +2316,7 @@ defined_text = {
 }
 
 
-# Ex: "drunkard" => "borrach[ín]/borrach[ina] 
+# Ex: "drunkard" => "borrach[ï¿½n]/borrach[ina] 
 defined_text = {
 	name = GetininaCnjMil
 	text = {
@@ -2550,7 +2550,7 @@ defined_text = {
 }
 
 
-# Ex: "French" => "franc[és/esa]"
+# Ex: "French" => "franc[ï¿½s/esa]"
 defined_text = {
 	name = GetesesaCnjMil
 	text = {
@@ -2908,7 +2908,7 @@ defined_text = {
 
 
 ######################################################
-### Religion & Heresies // Religiones y herejías   ###
+### Religion & Heresies // Religiones y herejï¿½as   ###
 ######################################################
 
 ### Ex: "[Catholicism]" => "[catolicismo]"
@@ -3013,7 +3013,7 @@ defined_text = {
 }
 
 
-### Ex: "[Catholic]" => "[católico]" (singular masculine / masculino singular)
+### Ex: "[Catholic]" => "[catï¿½lico]" (singular masculine / masculino singular)
 defined_text = {
 	name = GetReligionMS
 	text = {
@@ -3115,7 +3115,7 @@ defined_text = {
 }
 
 
-### Ex: "[Catholic]" => "[católica]" (singular feminine / feminino singular)
+### Ex: "[Catholic]" => "[catï¿½lica]" (singular feminine / feminino singular)
 defined_text = {
 	name = GetReligionFS
 	text = {
@@ -3217,7 +3217,7 @@ defined_text = {
 }
 
 
-### Ex: "[Catholic]" => "[católicos]" (plural masculine / masculino plural)
+### Ex: "[Catholic]" => "[catï¿½licos]" (plural masculine / masculino plural)
 defined_text = {
 	name = GetReligionMP
 	text = {
@@ -3319,7 +3319,7 @@ defined_text = {
 }
 
 
-### Ex: "[Catholic]" => "[católicas]" (plural feminine / feminino plural)
+### Ex: "[Catholic]" => "[catï¿½licas]" (plural feminine / feminino plural)
 defined_text = {
 	name = GetReligionFP
 	text = {
@@ -3413,10 +3413,6 @@ defined_text = {
 	text = {
 		localisation_key = string_tengri_pagan_reformed_fp_SP
 		trigger = { religion = tengri_pagan_reformed }
-	}
-	text = {
-		localisation_key = string_jewish_fp_SP
-		trigger = { religion = jewish }
 	}
 }
 
@@ -3611,7 +3607,7 @@ defined_text = {
 }
 
 
-# Ex: "[he/she] is" => "[él/ella] es"
+# Ex: "[he/she] is" => "[ï¿½l/ella] es"
 defined_text = {
 	name = GetelellaCnjEvent
 	text = {
@@ -3633,7 +3629,7 @@ defined_text = {
 		}
 	}
 }
-# Ex. "[He/She] is" => "[Él/Ella] es"
+# Ex. "[He/She] is" => "[ï¿½l/Ella] es"
 defined_text = {
 	name = GetElEllaCnjEvent
 	text = {
@@ -3748,7 +3744,7 @@ defined_text = {
 }
 
 
-# Ex: "magnificient" => "magnífic[o]/magnífic[a]"
+# Ex: "magnificient" => "magnï¿½fic[o]/magnï¿½fic[a]"
 defined_text = {
 	name = GetoaCnjEvent
 	text = {
@@ -3795,7 +3791,7 @@ defined_text = {
 }
 
 
-# Ex: "Spanish" => "español[ø]/español[a]"
+# Ex: "Spanish" => "espaï¿½ol[ï¿½]/espaï¿½ol[a]"
 defined_text = {
 	name = GetXaCnjEvent
 	text = {
@@ -3819,7 +3815,7 @@ defined_text = {
 }
 
 
-# Ex: "stubborn" => "cabez[ón]/cabez[ona]
+# Ex: "stubborn" => "cabez[ï¿½n]/cabez[ona]
 defined_text = {
 	name = GetononaCnjEvent
 	text = {
@@ -3842,7 +3838,7 @@ defined_text = {
 	}
 }
 
-# Ex: "drunkard" => "borrach[ín]/borrach[ina]"			
+# Ex: "drunkard" => "borrach[ï¿½n]/borrach[ina]"			
 defined_text = {			
 	name = GetininaCnjEvent		
 	text = {		
@@ -3982,7 +3978,7 @@ defined_text = {
 }
 
 
-# Ex: "French" => "franc[és/esa]"
+# Ex: "French" => "franc[ï¿½s/esa]"
 defined_text = {
 	name = GetesesaCnjEvent
 	text = {

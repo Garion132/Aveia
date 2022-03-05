@@ -15,9 +15,13 @@ country_decisions = {
             }
 			NOT={#thilrana and the empire should not be interested in the scramble - garion132
 				OR={
-					culture = siniersi
-					culture = rake
-					culture_group = aviean_red_kolbold
+					is_part_of_hre = yes
+					primary_culture = siniersi
+					primary_culture = rake
+					primary_culture = thilranan
+					primary_culture = liret
+					primary_culture = nathioan
+					primary_culture = belfos
 				}
 			}
 			NOT={

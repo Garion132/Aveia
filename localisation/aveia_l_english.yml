@@ -109,6 +109,7 @@
  bombard:0 "Bombard"
  basilisk:0 "Basilisk"
  
+ #Buildings
  building_marketplace_desc:0 "Development at least §Y3§!\n"
  building_trade_depot_desc:0 "Development at least §Y6§!\n"
  building_merchants_quarter:0 "Merchant's Quarter"
@@ -169,7 +170,8 @@
  building_fort_14th:0 "Fortification"
  building_fort_14th_desc:0 ""
  UNORGANIZED_BUILDINGS:0 "Unorganized"
-
+ 
+ #Price Changes
  RAIN_OF_ASH:0 "Eruption of the Orbury Supervolcano"
  RAIN_OF_ASH_LONG:0 "Lasting Effects of the Orbury Supervolcano Eruption"
  HERBALIST_SHOPS:0 "Herbalist Shops"
@@ -183,15 +185,20 @@
  RAUTHYR_IN_CRISIS:0 "Rauthyr in Crisis"
  METAL_DEMAND_DROP:0 "Drop in Metal Demand"
 
+ #Decisons
  enter_scramble_for_elteria_title:0 "Enter the Scramble for Elteria"
  enter_scramble_for_elteria_desc:0 "Everyone is rushing to Elteria for miracle herbs and rumors of silver."
  enter_scramble_for_elteria_colony_title:0 "Enter the Scramble for Elteria"
  enter_scramble_for_elteria_colony_desc:0 "Everyone, including our mother country, is rushing to Elteria for miracle herbs and rumors of silver."
- fund_colony:0 "Fund Colony in Elteria"
+ fund_colony_title:0 "Fund Colony in Elteria"
  fund_colony_desc:0 ""
- open_colonial_office:0 "Open Colonial Office"
+ open_colonial_office_title:0 "Open Colonial Office"
  open_colonial_office_desc:0 ""
 
+ aragos_nation_title:0 "Form Aragos"
+ aragos_nation_desc:0 "The spiders have been united!"
+
+ #Government
  mannish_tribal:0 "Donamenz Tribe"
  mannish_tribal_reform:0 "Donamenz Tribe"
  mannish_tribal_desc:0 "ToDo"
@@ -247,6 +254,9 @@
  COLONIAL_EAST_LOCKED:0 "This area is currently under Glacial Ice"
  COLONIAL_THILRANA_BLOCKED:0 "Thilrana is too hostile to colonise"
 
+ cub_mannish_raid:0 "Mannish Raid"
+ cb_mannish_raid_desc:0 "Conduct a raid on a non-human neighbor to easily acquire money and resources. You cannot take or lose provinces."
  cb_restore_order:0 "Restore Order"
+ cb_restore_order_desc:0 "Retake any core province from a rebel state. You can only take core provinces."
  restore_order:0 "Restore Order"
  

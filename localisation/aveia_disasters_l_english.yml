@@ -1,6 +1,8 @@
 ﻿l_english:
  iron_age_calamity:0 "Iron Age Calamity"
  desc_iron_age_calamity:0 "Rocks are falling from the sky. Earthquakes tremble the earth. Ash blots out the sun. Plague. Famine. Starvation."
+ 
+ disaster_active_for_50_years_tooltip:0 "Disaster active for 50 years."
 
  3_random_prov_3_dev_loss_tt:0 "Lose §R3§! Development across §Y3§! Provinces"
  3_random_prov_6_dev_loss_tt:0 "Lose §R6§! Development across §Y3§! Provinces"

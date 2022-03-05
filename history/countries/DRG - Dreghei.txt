@@ -37,6 +37,7 @@ change_estate_land_share = {
 		monarch_name = "Veanir I"
 		dynasty = "Thyrin"
 		birth_date = 1231.12.3
+		death_date = 1300.1.1
 		claim = 95
 		adm = 2
 		dip = 4

@@ -12,7 +12,7 @@ country_event = {
 		add_dip_power = 5
 
 		hidden_effect = {
-			country_event = { id = athanila.2 days = 20 random_days = 80 }
+			country_event = { id = athanila.2 days = 20 random = 80 }
 		}
 	}
 }
@@ -53,12 +53,14 @@ country_event = {
 		random_owned_province = {
 			limit = { is_core = ATH base_manpower = 3 }
 			spawn_rebels = {
+				type = particularist_rebels
 				size = 2
 			}
 		}
 		random_owned_province = {
 			limit = { is_core = ATH base_manpower = 3 }
 			spawn_rebels = {
+				type = particularist_rebels
 				size = 2
 			}
 		}

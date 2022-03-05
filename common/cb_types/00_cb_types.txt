@@ -355,9 +355,7 @@ cb_independence_war = {
 		is_subject_of = FROM
 		NOT = { is_colonial_nation_of = FROM }
 		OR = {
-			AND = {
-				NOT = { has_reform = daimyo }
-			}
+			NOT = { has_reform = daimyo }
 			NOT = { from = { has_reform = shogunate } }
 		}
 	}
@@ -447,9 +445,7 @@ cb_daimyo_annex = {
 			vassal_of = FROM
 			junior_union_with = FROM
 		}
-		OR = {
-			has_reform = daimyo
-		}
+		has_reform = indep_daimyo
 		from = { has_reform = shogunate }
 		is_revolutionary = no
 	}
@@ -467,9 +463,7 @@ cb_independent_daimyo_annex = {
 			vassal_of = FROM
 			junior_union_with = FROM
 		}
-		OR = {
-			has_reform = indep_daimyo
-		}
+		has_reform = indep_daimyo
 		from = { has_reform = shogunate }
 		is_revolutionary = no
 	}
@@ -486,7 +480,8 @@ cb_shogun_annex = {
 			OR = {
 				has_reform = daimyo
 				AND = {
-					tag = SOO
+					always = no
+					#tag = SOO
 					OR = {
 						has_reform = pirate_republic_reform
 						has_reform = pirate_king_reform
@@ -511,16 +506,15 @@ cb_sengoku = {
 	valid_for_subject = no
 
 	prerequisites = {
-		OR = {
-			has_reform = daimyo
-		}
+		has_reform = daimyo
 		is_neighbor_of = FROM
 		is_subject = yes
 		from = {
 			OR = {
 				has_reform = daimyo
 				AND = {
-					tag = SOO
+					always = no
+					#tag = SOO
 					OR = {
 						has_reform = pirate_republic_reform
 						has_reform = pirate_king_reform

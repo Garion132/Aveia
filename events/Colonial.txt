@@ -546,7 +546,7 @@ province_event = {
 	# }
 # }
 
-### Scripted by Sara Wendel-Örtqvist ###
+### Scripted by Sara Wendel-ï¿½rtqvist ###
 
 # Rival Settlements
 province_event = {
@@ -773,7 +773,8 @@ province_event = {
 			has_institution = organized_state
 		}
 		OR = {
-			continent = new_world
+			continent = elteria
+			continent = juluia
 		}
 	}
 	
