@@ -1,8 +1,12 @@
 #Brightcoast
+latent_trade_goods = {
+	iron
+}
+
 culture = thilranan
 religion = shamanism #Fetishism
 capital = "colonial"
-trade_goods = unknown
+trade_goods = tin
 hre = no
 base_tax = 1
 base_production = 1

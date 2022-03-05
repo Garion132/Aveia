@@ -76,6 +76,10 @@ grain = {
 			factor = 0
 			region = donamenz_region
 		}
+		modifier = {
+			factor = 2
+			region = thilrana_region
+		}
 	}
 }
 
@@ -209,6 +213,10 @@ wool = {
 				has_climate = arid
 			}
 		}
+		modifier = {
+			factor = 0.5
+			region = thilrana_region
+		}
 	}
 }
 
@@ -320,6 +328,10 @@ fur = { #Pademi Fur
 			factor = 2
 			region = donamenz_region
 			has_terrain = forest
+		}
+		modifier = {
+			factor = 0
+			region = thilrana_region
 		}
 	}
 }
@@ -817,6 +829,13 @@ slaves = {
 		modifier = {
 			factor = 0
 			island = yes
+		}		
+	}
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 0
+			region = thilrana_region
 		}		
 	}
 }
@@ -1561,6 +1580,14 @@ guedina = {
 		modifier = {
 			factor = 0
 			continent = juluia
+		}
+		modifier = {
+			factor = 0.05
+			continent = elteria
+		}
+		modifier = {
+			factor = 0
+			region = thilrana_region
 		}
 	}
 }

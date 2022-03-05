@@ -1,4 +1,8 @@
 #Yerina 
+latent_trade_goods = {
+	coal
+}
+
 
 add_core = FAN
 owner = FAN
@@ -6,10 +10,10 @@ controller = FAN
 culture = liret
 religion = vulikivite
 hre = yes
-base_tax = 1
-base_production =1
-base_manpower = 1
-trade_goods = grain
+base_tax = 4
+base_production =5
+base_manpower = 4
+trade_goods = cloth
 capital = "Sal"
 is_city = yes
 discovered_by = lake_elves_group
@@ -17,4 +21,4 @@ discovered_by = northern_drake_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 extra_cost = 0
-center_of_trade = 1
+center_of_trade = 2

@@ -2,7 +2,7 @@
 culture = thilranan
 religion = shamanism #Fetishism
 capital = "colonial"
-trade_goods = unknown
+trade_goods = cloth
 hre = no
 base_tax = 1
 base_production = 1
@@ -15,3 +15,5 @@ discovered_by = northern_drake_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 extra_cost = 8
+
+center_of_trade = 1
