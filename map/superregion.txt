@@ -46,6 +46,11 @@ haqsili_chain_superregion={
 	carenil_region
 	bulkir_region
 }
+valkator_superregion={
+	rarlone_region
+	lostmoth_region
+	foundersland_region
+}
 #new world-1st colonial target
 elteria_superregion={
 	karnaiha_region

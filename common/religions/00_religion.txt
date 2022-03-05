@@ -604,7 +604,7 @@ rake_group = {
 	
 	can_form_personal_unions = yes
 	
-	center_of_religion = 2040 # Iwenlumy
+	center_of_religion = 2040 # Vulikiv
 
 	vulikivite = { #
 		color = { 250 189 114 }

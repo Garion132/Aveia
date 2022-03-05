@@ -441,6 +441,7 @@ tailwind_islands_region={
 	areas = {
 		salrton_chain
 		trailing_islands
+		forlorn_islands
 	}
 }
 gugh_region={
@@ -1013,6 +1014,7 @@ yulanir_region={
 		yulanir_14
 		yulanir_15
 		yulanir_16
+		yulanir_19
 	}
 }
 broken_bays_region={
@@ -1160,24 +1162,41 @@ saciril_region={
 		juluia_63
 		juluia_64
 		juluia_65
-	}
-}
-cemnia_region={
-	areas={
 		cemnia_1
 		cemnia_2
 		cemnia_3
 		cemnia_4
 		cemnia_5
+		cemnia_11
+		cemnia_12
+		cemnia_14
+		cemnia_26
+		cemnia_27
+		cemnia_28
+		cemnia_29
+		cemnia_30
+		cemnia_31
+		cemnia_32
+	}
+}
+cemnia_region={
+	areas={
 		cemnia_6
 		cemnia_7
 		cemnia_8
 		cemnia_9
 		cemnia_10
-		cemnia_11
-		cemnia_12
 		cemnia_13
-		cemnia_14
+		cemnia_16
+		cemnia_17
+		cemnia_18
+		cemnia_19
+		cemnia_20
+		cemnia_21
+		cemnia_22
+		cemnia_23
+		cemnia_24
+		cemnia_25
 	}
 }
 cradle_islands={
@@ -1188,6 +1207,35 @@ cradle_islands={
 		cradle_islands_4
 		cradle_islands_5
 		cradle_islands_6
+	}
+}
+foundersland_region={
+	areas={
+		foundersland_1
+		foundersland_2
+		foundersland_3
+		foundersland_4
+		foundersland_5
+		foundersland_6
+	}
+}
+lostmoth_region={
+	areas={
+		lostmoth_1
+		lostmoth_2
+		lostmoth_3
+		lostmoth_4
+	}
+}
+rarlone_region={
+	areas={
+		rarlone_1
+		rarlone_2
+		rarlone_3
+		rarlone_4
+		rarlone_5
+		rarlone_6
+		rarlone_7
 	}
 }
 
