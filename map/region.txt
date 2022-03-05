@@ -662,6 +662,16 @@ anoric_region={
 rogosian_heights_region={
 	areas={
 		keril_62
+		rogosian_1
+		rogosian_2
+		rogosian_3
+		rogosian_4
+		rogosian_5
+		rogosian_6
+		rogosian_7
+		rogosian_8
+		rogosian_9
+		rogosian_10
 	}
 }
 vortingrad_region={
@@ -686,6 +696,34 @@ vortingrad_region={
 		keril_55
 		keril_56
 		keril_57
+		vortingrad_10
+		vortingrad_11
+		vortingrad_12
+		vortingrad_13
+		vortingrad_14
+		borestia_13
+	}
+}
+
+borestia_region={
+	areas={
+		borestia_1
+		borestia_2
+		borestia_3
+		borestia_4
+		borestia_5
+		borestia_6
+		borestia_7
+		borestia_8
+		borestia_9
+		borestia_10
+		borestia_11
+		borestia_12
+		borestia_14
+		borestia_15
+		borestia_16
+		borestia_17
+		borestia_18
 	}
 }
 ##Karnaiha
