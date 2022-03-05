@@ -917,7 +917,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		is_year = 1318
+		is_year = 1304
 		OR = {
 			AND = {
 				NOT = { exists = KAF }
