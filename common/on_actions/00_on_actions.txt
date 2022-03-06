@@ -1043,24 +1043,6 @@ on_bi_yearly_pulse = {
 		100 = reforms.3
 		100 = reforms.4
 
-		100 = randomeventsstapehordes.1
-		100 = randomeventsstapehordes.2
-		100 = randomeventsstapehordes.3
-		100 = randomeventsstapehordes.4
-		100 = randomeventsstapehordes.5
-		100 = randomeventsstapehordes.6
-		100 = randomeventsstapehordes.7
-		100 = randomeventsstapehordes.8
-		100 = randomeventsstapehordes.13
-		100 = randomeventsstapehordes.14
-		100 = randomeventsstapehordes.17
-		100 = randomeventsstapehordes.19
-		100 = randomeventsstapehordes.20
-		100 = randomeventsstapehordes.21
-		100 = randomeventsstapehordes.22
-		100 = randomeventsstapehordes.23
-		100 = randomeventsstapehordes.24
-
 		# Sailor events
 		100 = sailor_event.1
 		100 = sailor_event.2
@@ -1087,7 +1069,6 @@ on_bi_yearly_pulse = {
 		100 = trade_league.11
 		100 = trade_league.12
 		100 = trade_league.13
-		100 = trade_league.14
 
 		# Institution Events
 		#Global Trade Spread Events:
@@ -1324,7 +1305,6 @@ on_bi_yearly_pulse_4 = {
 
 		# Espionage
 		100 = espionage_events.1
-		100 = espionage_events.4
 		100 = espionage_events.8
 		80 = espionage_events.9
 
@@ -1426,14 +1406,8 @@ on_four_year_pulse = {
 		100 = colonial_nation.114
 		100 = colonial_nation.116
 		100 = colonial_nation.118
-		100 = colonial_nation.120
-		100 = colonial_nation.122
-		100 = colonial_nation.124
 		100 = colonial_nation.126
-		100 = colonial_nation.128
-		100 = colonial_nation.130
 		100 = colonial_nation.132
-		100 = colonial_nation.134
 		10 = colonial_nation.140
 		10 = colonial_nation.142
 		10 = colonial_nation.144
@@ -1444,15 +1418,8 @@ on_four_year_pulse = {
 		10 = colonial_nation.154
 		10 = colonial_nation.156
 		10 = colonial_nation.158
-		10 = colonial_nation.160
-		10 = colonial_nation.162
-		10 = colonial_nation.164
 		10 = colonial_nation.166
-		10 = colonial_nation.168
-		10 = colonial_nation.170
 		10 = colonial_nation.172
-		10 = colonial_nation.174
-		10 = colonial_nation.176
 
 		# Republic Factions
 		100 = republic_factions.2
@@ -1880,13 +1847,9 @@ on_five_year_pulse_2 = {
 		50 = nobles_estate_events.10
 		100 = nobles_estate_events.11 #Bonus
 		# Clergy
-		100 = church_estate_events.1
-			#Regional Variations:
-			100 = church_estate_events.101
-			100 = church_estate_events.102
-			100 = church_estate_events.103
-			100 = church_estate_events.104
-			100 = church_estate_events.105
+		#Regional Variations:
+		100 = church_estate_events.104
+		
 		100 = church_estate_events.2
 		100 = church_estate_events.3
 		100 = church_estate_events.4

@@ -1,0 +1,23 @@
+grant_consessions_to_the_marathas = {
+
+	category = 3
+
+	allow = {
+		always = no
+	}
+	
+	effect = {
+		add_estate_loyalty = {
+			estate = estate_maratha
+			loyalty = 20
+		}
+	}
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}

@@ -260,3 +260,6 @@
  cb_restore_order_desc:0 "Retake any core province from a rebel state. You can only take core provinces."
  restore_order:0 "Restore Order"
  
+ dominion_vassal_title:0 "Dominion"
+ dominion_vassal_title_plural:0 "Dominions"
+ 

@@ -4740,21 +4740,21 @@ province;red;green;blue;x;x
 4739;255;193;31;Bergamo;x#
 4740;123;111;79;Como;x
 4741;206;82;89;Halle;x
-4742;24;36;126;Nordhausen;x
+4742;24;36;126;Nordhausen;x#
 4743;70;32;26;Weimar;x
-4744;35;63;199;Zwickau;x
+4744;35;63;199;Zwickau;x#
 4745;86;194;97;R�gen;x
 4746;213;132;0;Wolgast;x
 4747;111;118;8;Dramburg;x
-4748;170;79;248;Brandenburg;x
+4748;170;79;248;Brandenburg;x#
 4749;39;120;238;Stargardland;x
 4750;167;101;106;Kruje;x
-4751;162;186;147;Cilli;x
+4751;162;186;147;Cilli;x#
 4752;232;189;231;Rijeka;x
 4753;144;219;143;Zadar;x
 4754;177;229;130;Kotor;x
-4755;224;202;77;Podrinje;x
-4756;163;165;183;Bjelovar;x
+4755;224;202;77;Podrinje;x#
+4756;163;165;183;Bjelovar;x#
 4757;133;229;130;Kolubara;x
 4758;186;81;38;Etsch;x
 4759;220;54;163;Upper Carinthia;x

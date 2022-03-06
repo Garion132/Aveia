@@ -315,6 +315,9 @@ craine_islands={#includes kafethyr
 		kafethyr_4
 		kafethyr_5
 		kafethyr_6
+		craine_islands_2
+		craine_islands_3
+		craine_islands_4
 	}
 }
 

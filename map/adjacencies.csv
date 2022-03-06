@@ -28,4 +28,22 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4381;4382;sea;387;-1;-1;-1;-1;broken bays#
 4391;4355;sea;387;-1;-1;-1;-1;broken bays#
 4380;4352;sea;1909;-1;-1;-1;-1;broken bays#
+462;4740;sea;189;-1;-1;-1;-1;calendor islands#
+4742;4741;sea;189;-1;-1;-1;-1;calendor islands#
+4742;4743;sea;189;-1;-1;-1;-1;calendor islands#
+4741;4743;sea;189;-1;-1;-1;-1;calendor islands#
+4743;3923;sea;189;-1;-1;-1;-1;calendor islands#
+3921;4745;sea;189;-1;-1;-1;-1;calendor islands#
+4754;20;sea;39;-1;-1;-1;-1;calendor islands#
+20;4753;sea;39;-1;-1;-1;-1;calendor islands#
+4749;4750;sea;225;-1;-1;-1;-1;calendor islands#
+19;4749;sea;225;-1;-1;-1;-1;calendor islands#
+4750;4751;sea;225;-1;-1;-1;-1;calendor islands#
+19;4750;sea;225;-1;-1;-1;-1;calendor islands#
+3923;4744;sea;225;-1;-1;-1;-1;calendor islands#
+4748;4752;sea;39;-1;-1;-1;-1;calendor islands#
+4747;4748;sea;224;-1;-1;-1;-1;calendor islands#
+4752;3922;sea;39;-1;-1;-1;-1;calendor islands#
+4745;4748;sea;224;-1;-1;-1;-1;calendor islands#
+4745;4747;sea;224;-1;-1;-1;-1;calendor islands#
 -1;-1;;-1;-1;-1;-1;-1;-1;

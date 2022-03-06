@@ -1,0 +1,14 @@
+pay_pa = {
+	trigger = {
+		always = no
+		patriarch_authority = 0.05
+	}
+	
+	effect = {
+		add_patriarch_authority = -0.05
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

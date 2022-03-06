@@ -1,0 +1,14 @@
+pay_papal_influence = {
+	trigger = {
+		always = no
+		papal_influence = 20
+	}
+	
+	effect = {
+		add_papal_influence = -2
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}	
+}
