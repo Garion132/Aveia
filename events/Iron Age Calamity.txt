@@ -2361,6 +2361,7 @@ country_event = {
 			immediate = {
 				hidden_effect = {
 					set_global_flag = gulban_collapse
+					collapse_nation = yes
 					every_owned_province = {
 						limit = {
 							OR = {
@@ -2455,6 +2456,13 @@ country_event = {
 							}
 						}
 						remove_core = GUL
+					}
+					every_province = {
+						limit = {
+							owned_by = GUL
+							NOT = { is_core = GUL }
+						}
+						add_core = GUL
 					}
 				}
 			}

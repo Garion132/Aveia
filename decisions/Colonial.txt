@@ -44,11 +44,11 @@ country_decisions = {
 			factor = 5
             modifier = {
                 factor = 0.2
-                NOT = { current_income_balance = 5 }
+                NOT = { current_income_balance = 10 }
             }
             modifier = {
                 factor = 0
-                NOT = { current_income_balance = 3 }
+                NOT = { current_income_balance = 6 }
             }
             modifier = {
                 factor = 0
@@ -122,11 +122,11 @@ country_decisions = {
 			factor = 5
             modifier = {
                 factor = 0.2
-                NOT = { current_income_balance = 8 }
+                NOT = { current_income_balance = 10 }
             }
             modifier = {
                 factor = 0
-                NOT = { current_income_balance = 4 }
+                NOT = { current_income_balance = 6 }
             }
             modifier = {
                 factor = 0
@@ -157,11 +157,11 @@ country_decisions = {
 			factor = 5
             modifier = {
                 factor = 0.2
-                NOT = { current_income_balance = 5 }
+                NOT = { current_income_balance = 10 }
             }
             modifier = {
                 factor = 0
-                NOT = { current_income_balance = 3 }
+                NOT = { current_income_balance = 6 }
             }
             modifier = {
                 factor = 0
