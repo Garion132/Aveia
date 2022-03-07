@@ -689,6 +689,7 @@
 				OR = {
 					has_idea_group = exploration_ideas
 					is_colonial_nation = yes
+					is_subject_of_type = colony_elteria_start
 				}
 			}
 			# modifier = {

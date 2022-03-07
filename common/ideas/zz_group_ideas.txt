@@ -50,7 +50,10 @@ colonial_ideas = {
 	}
 	
 	trigger = {
-		is_colonial_nation = yes
+		OR={
+			is_colonial_nation = yes
+			is_subject_of_type = colony_elteria_start
+		}
 	}
 	free = yes
 	

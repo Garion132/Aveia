@@ -108,7 +108,7 @@ dependency = {
 	end_date = 1370.4.22
 }
 dependency = {
-	subject_type = "colony_elteria_start"
+	subject_type = "dominion_vassal"
 	first = KAF
 	second = CLO
 	start_date = 1257.1.1

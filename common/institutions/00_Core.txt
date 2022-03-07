@@ -548,7 +548,7 @@ iron_working = {
 
 
 	historical_start_date = 1350.1.1
-	historical_start_province = 116 # Florence
+	historical_start_province = 2556 # Florence
 
 	history = {
 		OR = {
@@ -743,7 +743,7 @@ illuminare = {
 
 
 	historical_start_date = 1400.1.1
-	historical_start_province = 82 # Florence
+	historical_start_province = 988 # Florence
 
 	history = {
 		is_year = 1800
@@ -895,7 +895,7 @@ new_world_i = {
 
 
 	historical_start_date = 1450.1.1
-	historical_start_province = 224 #Sevilla
+	historical_start_province = 1188 #Sevilla
 
 	history = {
 		OR = {
@@ -1073,7 +1073,7 @@ guedinan_revolution = {
 
 
 	historical_start_date = 1300.1.1
-	historical_start_province = 82 # Florence
+	historical_start_province = 2120 # Florence
 
 	history = {
 		OR={
@@ -1467,7 +1467,7 @@ global_trade = {
 	trade_company_efficiency = 1.0
 
 	historical_start_date = 1600.1.1
-	historical_start_province = 97 #Holland
+	historical_start_province = 988 #Holland
 
 	history = {
 		always =  no
@@ -1708,7 +1708,7 @@ air_shipping = {
 	trade_company_efficiency = 1.25
 
 	historical_start_date = 1650.1.1
-	historical_start_province = 183 #Paris
+	historical_start_province = 3454 #Paris
 
 	history = {
 		always =  no
@@ -2146,7 +2146,7 @@ industrialization = {
 	}
 
 	historical_start_date = 1750.1.1
-	historical_start_province = 244 #Lancashire
+	historical_start_province = 1272 #Lancashire
 
 	history = {
 		always =  no
@@ -2788,7 +2788,7 @@ enlightenment = {
 	trade_company_efficiency = 1.5
 
 	historical_start_date = 1700.1.1
-	historical_start_province = 236 #London
+	historical_start_province = 1006 #London
 
 	history = {
 		always =  no

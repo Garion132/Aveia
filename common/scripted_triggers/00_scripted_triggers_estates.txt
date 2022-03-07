@@ -12,7 +12,6 @@ crown_stronger_than_estate = {
 
 has_any_estates = {
 	OR = {
-		has_estate = estate_brahmins
 		has_estate = estate_burghers
 		has_estate = estate_church
 		has_estate = estate_nobles

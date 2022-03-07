@@ -858,7 +858,6 @@ palentai_bay_region={
 
 catecalde_region={
 	areas = {
-		karnaiha_16
 		karnaiha_17
 		karnaiha_18
 		karnaiha_19
