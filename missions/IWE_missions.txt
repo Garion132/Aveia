@@ -177,7 +177,7 @@ IWE_military_missions = {
 	
 	#missions
 	#1st tier: (they appear in the order scripted here in the interface, all missions within one "series" has an arrow going down to the next one scripted)
-	build_army_mission = { #Localized as reclaim_maine_title and reclaim_maine_desc
+	IWE_build_army_mission = { #Localized as reclaim_maine_title and reclaim_maine_desc
 		icon = mission_build_up_to_force_limit
 		required_missions = {  } #None
 		trigger = {
@@ -194,7 +194,7 @@ IWE_military_missions = {
 
 	prepare_for_independence_mission = {
 		icon = mission_italian_condottiere
-		required_missions = { build_army_mission expand_asemont_mission }
+		required_missions = { IWE_build_army_mission expand_asemont_mission }
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = gave_up_independence_tt
