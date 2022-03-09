@@ -212,7 +212,6 @@ technology = { #Carracks
 	# Tech 20
 	year = 1482
 
-	shipyard = yes
 	naval_morale = 0.25
 
 	#New Heavy Ship (Carrack)
@@ -340,7 +339,7 @@ technology = { #Threedeckers
 	# Tech 32
 	year = 1638
 
-	grand_shipyard = yes 
+	#grand_shipyard = yes 
 	#New Heavy Ship (Threedecker)
 
 }

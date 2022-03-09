@@ -1752,9 +1752,9 @@ province_event = {
 	goto = root
 	
 	trigger = {
-		is_institution_enabled = manufactories
-		owner = { NOT = { has_institution = manufactories } }
-		NOT = { manufactories = 100 }
+		is_institution_enabled = air_shipping
+		owner = { NOT = { has_institution = air_shipping } }
+		NOT = { air_shipping = 100 }
 		base_production = 8
 		is_state = yes
 		OR = {

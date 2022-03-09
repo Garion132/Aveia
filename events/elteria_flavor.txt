@@ -922,7 +922,7 @@ country_event = {
 			AND = {
 				NOT = { exists = KAF }
 				any_owned_province = {
-					is_port = yes
+					has_port = yes
 				}
 				OR = {
 					technology_group = lake_elves_group
@@ -1044,7 +1044,7 @@ country_event = {
 		is_year = 1334
 		has_country_modifier = scramble_for_elteria
 		any_owned_province = {
-			is_port = yes
+			has_port = yes
 		}
 		OR = {
 			any_owned_province = {

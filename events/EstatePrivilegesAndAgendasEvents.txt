@@ -156,7 +156,7 @@ country_event = {
 	option = { # Accept the Bail Out
 		name = estate_privileges_and_agendas_events.2.a
 		custom_tooltip = seize_land_unavailable_from_privilege
-		else_if = {
+		if = {
 			limit = {
 				government = monarchy
 			}

@@ -245,20 +245,11 @@ country_event = {
 	
 	trigger = {
 		has_estate = estate_church
-		OR = {
-			AND = {
-				has_estate = estate_burghers
-				estate_territory = {
-					estate = estate_burghers
-					territory = 1
-				}
-			}
-			AND = {
-				has_estate = estate_vaisyas
-				estate_territory = {
-					estate = estate_vaisyas
-					territory = 1
-				}
+		AND = {
+			has_estate = estate_burghers
+			estate_territory = {
+				estate = estate_burghers
+				territory = 1
 			}
 		}
 		NOT = {
@@ -314,24 +305,6 @@ country_event = {
 				has_estate = estate_burghers
 				estate_influence = {
 					estate = estate_burghers
-					influence = 60
-				}
-			}
-			modifier = {
-				factor = 0.5
-				has_estate = estate_vaisyas
-				NOT = {
-					estate_loyalty = {
-						estate = estate_vaisyas
-						loyalty = 40
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				has_estate = estate_vaisyas
-				estate_influence = {
-					estate = estate_vaisyas
 					influence = 60
 				}
 			}
@@ -398,15 +371,6 @@ country_event = {
 				loyalty = -15
 			}
 		}
-		if = {
-			limit = {
-				has_estate = estate_vaisyas
-			}
-			add_estate_loyalty = {
-				estate = estate_vaisyas
-				loyalty = -15
-			}
-		}
 		add_estate_influence_modifier = {
 			estate = estate_church
 			desc = EST_VAL_TITHES_DEFENDED
@@ -419,17 +383,6 @@ country_event = {
 			}
 			add_estate_influence_modifier = {
 				estate = estate_burghers
-				desc = EST_VAL_TITHES_DEFENDED
-				influence = -10
-				duration = 5475
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_vaisyas
-			}
-			add_estate_influence_modifier = {
-				estate = estate_vaisyas
 				desc = EST_VAL_TITHES_DEFENDED
 				influence = -10
 				duration = 5475
@@ -982,7 +935,6 @@ country_event = {
 			influence = 10
 			duration = 5475
 		}
-		add_estate_dhimmi_loyalty_effect = yes
 	}
 	option = {
 		name = church_estate_events.9.b #
@@ -1019,7 +971,6 @@ country_event = {
 			influence = -10
 			duration = 5475
 		}
-		reduce_estate_dhimmi_loyalty_effect = yes
 	}
 }
 

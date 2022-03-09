@@ -589,12 +589,12 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	trigger = {
+	# trigger = {
 		
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
+	# }
+	# mean_time_to_happen = {
+		# months = 1
+	# }
 
 	option = {
 		name = prices.106.a

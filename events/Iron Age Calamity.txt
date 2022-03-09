@@ -1688,7 +1688,7 @@ country_event = {
 			}
 			change_estate_land_share = {
 				estate = estate_nobles
-				territory = -5
+				share = -5
 			}
 			add_estate_influence_modifier = {
 				estate = estate_nobles
