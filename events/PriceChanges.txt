@@ -786,6 +786,419 @@ country_event = {
 	}
 }
 
+#Introduction of Machinery: +Machinery
+country_event = {
+	id = prices.110
+	title = prices.110.t
+	desc = prices.110.d
+	picture = ATMOSPHERIC_ENGINE_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		adm_tech = 22
+		any_owned_province = {
+			development = 30
+			base_production = 10
+			NOT = {
+				OR = {
+					trade_goods = machinery
+					trade_goods = copper
+					trade_goods = salt
+					trade_goods = plaulum
+					trade_goods = coal
+					has_latent_trade_goods = coal
+					has_latent_trade_goods = iron
+					trade_goods = bryrine
+					trade_goods = ankon
+					trade_goods = guedina
+					trade_goods = vitaite
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #While lucrative, certainly not revolutionary
+		name = prices.110.a
+		random_owned_province = {
+			limit = {
+				development = 30
+				base_production = 10
+				NOT = {
+					OR = {
+						trade_goods = machinery
+						trade_goods = copper
+						trade_goods = salt
+						trade_goods = plaulum
+						trade_goods = coal
+						has_latent_trade_goods = coal
+						has_latent_trade_goods = iron
+						trade_goods = bryrine
+						trade_goods = ankon
+						trade_goods = guedina
+						trade_goods = vitaite
+						province_id = 527 #Doninas City
+						province_id = 1749 #Gulbas
+					}
+				}
+			}
+			change_trade_goods = machinery
+			add_base_production = 2
+			change_innovativeness = 3
+		}
+		change_price = {
+			trade_goods = machinery
+			key = MACHINERY_INTRODUCTION
+			value = 0.1
+			duration = 3650
+		}
+	}
+}
+
+#Mechanized Production: ++Machinery, ++Cloth
+country_event = {
+	id = prices.111
+	title = prices.111.t
+	desc = prices.111.d
+	picture = TEXTILE_INDUSTRY_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		adm_tech = 38
+		any_owned_province = {
+			development = 30
+			base_production = 10
+			NOT = {
+				OR = {
+					trade_goods = machinery
+					trade_goods = copper
+					trade_goods = salt
+					trade_goods = plaulum
+					trade_goods = coal
+					has_latent_trade_goods = coal
+					has_latent_trade_goods = iron
+					trade_goods = bryrine
+					trade_goods = ankon
+					trade_goods = guedina
+					trade_goods = vitaite
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #The Industrial Revolution is here
+		name = prices.111.a
+		random_owned_province = {
+			limit = {
+				development = 30
+				base_production = 10
+				NOT = {
+					OR = {
+						trade_goods = machinery
+						trade_goods = copper
+						trade_goods = salt
+						trade_goods = plaulum
+						trade_goods = coal
+						has_latent_trade_goods = coal
+						has_latent_trade_goods = iron
+						trade_goods = bryrine
+						trade_goods = ankon
+						trade_goods = guedina
+						trade_goods = vitaite
+						province_id = 527 #Doninas City
+						province_id = 1749 #Gulbas
+					}
+				}
+			}
+			change_trade_goods = machinery
+			add_base_production = 2
+		}
+		change_price = {
+			trade_goods = machinery
+			key = MECHANIZED_PRODUCTION
+			value = 0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = cloth
+			key = MECHANIZED_PRODUCTION
+			value = 0.25
+			duration = -1
+		}
+	}
+}
+
+#Steam Locomotives: ++Machinery, +Coal
+country_event = {
+	id = prices.112
+	title = prices.112.t
+	desc = prices.112.d
+	picture = ATMOSPHERIC_ENGINE_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		adm_tech = 43
+		any_owned_province = {
+			development = 30
+			base_production = 10
+			NOT = {
+				OR = {
+					trade_goods = machinery
+					trade_goods = copper
+					trade_goods = salt
+					trade_goods = plaulum
+					trade_goods = coal
+					has_latent_trade_goods = coal
+					has_latent_trade_goods = iron
+					trade_goods = bryrine
+					trade_goods = ankon
+					trade_goods = guedina
+					trade_goods = vitaite
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #The world is getting smaller
+		name = prices.112.a
+		random_owned_province = {
+			limit = {
+				development = 30
+				base_production = 10
+				NOT = {
+					OR = {
+						trade_goods = machinery
+						trade_goods = copper
+						trade_goods = salt
+						trade_goods = plaulum
+						trade_goods = coal
+						has_latent_trade_goods = coal
+						has_latent_trade_goods = iron
+						trade_goods = bryrine
+						trade_goods = ankon
+						trade_goods = guedina
+						trade_goods = vitaite
+						province_id = 527 #Doninas City
+						province_id = 1749 #Gulbas
+					}
+				}
+			}
+			change_trade_goods = machinery
+			add_base_production = 2
+		}
+		change_price = {
+			trade_goods = machinery
+			key = STEAM_LOCOMOTIVES
+			value = 0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = coal
+			key = STEAM_LOCOMOTIVES
+			value = 0.1
+			duration = -1
+		}
+	}
+}
+
+#Mass Production: --Machinery, +Coal, --Cloth
+country_event = {
+	id = prices.113
+	title = prices.113.t
+	desc = prices.113.d
+	picture = INDUSTRIALIZATION_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		adm_tech = 38
+		any_owned_province = {
+			development = 40
+			base_production = 15
+			trade_goods = machinery
+		}
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #There's a lot more things around
+		name = prices.113.a
+		random_owned_province = {
+			limit = {
+				development = 40
+				base_production = 15
+				trade_goods = machinery
+			}
+			add_base_production = 3
+		}
+		add_years_of_income = 0.25
+		change_price = {
+			trade_goods = machinery
+			key = MASS_PRODUCTION
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = cloth
+			key = MASS_PRODUCTION
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = coal
+			key = MASS_PRODUCTION
+			value = 0.10
+			duration = -1
+		}
+	}
+}
+
+#Steamer Ships: ++Machinery, -Every Bulk/Heavy Good
+country_event = {
+	id = prices.114
+	title = prices.114.t
+	desc = prices.114.d
+	picture = LARGE_SHIPYARD_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		navy_size = 50
+		OR = {
+			AND = {
+				dip_tech = 24
+				innovativeness = 50
+			}
+			AND = {
+				dip_tech = 28
+				innovativeness = 25
+			}
+			dip_tech = 31
+		}
+
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #Ships are getting faster
+		name = prices.114.a
+		change_price = {
+			trade_goods = machinery
+			key = STEAMER_SHIPS
+			value = 0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = naval_supplies
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = copper
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = tin
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = iron
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = slaves
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = black_eliph
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = spices
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = iresta
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = ecriamin
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = sweetpowder
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = gold_knot
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = udezer_wood
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = marble
+			key = STEAMER_SHIPS
+			value = -0.10
+			duration = -1
+		}
+	}
+}
+
+#Steam-Powered Airships: +Machinery, -Every 'small' good
+
+#Machine Tools: --Machinery
+
+#Railroad Mania: ++Machinery, ++++Iron, +++Coal (20 yrs), -Every 'small' good, --Every bulk/heavy good (permenant, includes iron/coal/machinery)
+
+
 # Triangle Trade
 #country_event = {
 #	id = prices.1

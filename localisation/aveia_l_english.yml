@@ -184,6 +184,12 @@
  RAUTHYR_STOPS_EXPORTS:0 "Rauthyr Stops Grain Exports"
  RAUTHYR_IN_CRISIS:0 "Rauthyr in Crisis"
  METAL_DEMAND_DROP:0 "Drop in Metal Demand"
+ MACHINERY_INTRODUCTION:0 "Introduction of Machinery"
+ MECHANIZED_PRODUCTION:0 "Mechanized Production"
+ STEAM_LOCOMOTIVES:0 "Steam Locomotives"
+ MACHINE_TOOLS:0 "Machine Tools"
+ MASS_PRODUCTION:0 "Mass Production"
+ STEAMER_SHIPS:0 "Steamers"
 
  #Decisons
  enter_scramble_for_elteria_title:0 "Enter the Scramble for Elteria"

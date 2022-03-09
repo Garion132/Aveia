@@ -76,7 +76,7 @@ black_eliph = {
 }
 
 machinery = {
-	base_price = 10
+	base_price = 5
 }
 
 spices = {

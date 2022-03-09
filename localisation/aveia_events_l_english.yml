@@ -36,6 +36,35 @@
  prices.109.d:0 "As most other commodities have fallen, Metals, predictably, have fallen too. While production has not been as hard hit, the demand for such are quickly drying up. For the short-term, at least, metals will be less valuable."
  prices.109.a:0 "All has become affected"
 
+ prices.110.t:0 "Introduction of Machinery"
+ prices.110.d:0 "One of our large production centers have divulged into the production of a recent technological development: machinery. These large mechansims can do the work of many men and, while being remarkably expensive, are effective at the tasks that they are put out to do."
+ prices.110.a:0 "While lucrative, certainly not revolutionary"
+
+ prices.111.t:0 "Mechanized Production"
+ prices.111.d:0 ""
+ prices.111.a:0 "Is this the beginning of a new era?"
+
+ prices.112.t:0 "Steam Locomotives"
+ prices.112.d:0 ""
+ prices.112.a:0 "Our world is getting smaller"
+
+ prices.113.t:0 "Mechanized Production"
+ prices.113.d:0 ""
+ prices.113.a:0 "There's a lot more things around"
+ 
+ prices.114.t:0 "Steamer Ships"
+ prices.114.d:0 ""
+ prices.114.a:0 "Ships are getting faster"
+
+ prices.115.t:0 "Steam-Powered Airships"
+ prices.115.a:0 ""
+
+ prices.116.t:0 "Machine Tools"
+ prices.116.a:0 ""
+
+ prices.117.t:0 "Railroad Mania"
+ prices.117.a:0 ""
+
  elteria_event.12.t:0 "Scramble for Elteria"
  elteria_event.12.d:0 "Elteria, long a land rife with rebel Fauns and dense Jungle, has a miracle herb in its densest forests: Ecriamin. This, along with new discoveries of silver deposits and great growing locations have led to a shocking realization amongst our merchants, our nobles, and our peasants alike: \n\nWhoever controls Elteria will control Aveia, for whoever controls Elteria controls the Ecriamin trade, and whoever controls the Ecriamin trade controls the health of kings."
  elteria_event.12.a:0 "Time for a Scramble"
