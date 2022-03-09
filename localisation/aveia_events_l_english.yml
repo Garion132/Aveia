@@ -57,13 +57,16 @@
  prices.114.a:0 "Ships are getting faster"
 
  prices.115.t:0 "Steam-Powered Airships"
- prices.115.a:0 ""
+ prices.115.d:0 ""
+ prices.115.a:0 "When will my Edailian Wine arrive?"
 
  prices.116.t:0 "Machine Tools"
- prices.116.a:0 ""
+ prices.116.d:0 ""
+ prices.116.a:0 "Interesting"
 
  prices.117.t:0 "Railroad Mania"
- prices.117.a:0 ""
+ prices.117.d:0 ""
+ prices.117.a:0 "We need more!"
 
  elteria_event.12.t:0 "Scramble for Elteria"
  elteria_event.12.d:0 "Elteria, long a land rife with rebel Fauns and dense Jungle, has a miracle herb in its densest forests: Ecriamin. This, along with new discoveries of silver deposits and great growing locations have led to a shocking realization amongst our merchants, our nobles, and our peasants alike: \n\nWhoever controls Elteria will control Aveia, for whoever controls Elteria controls the Ecriamin trade, and whoever controls the Ecriamin trade controls the health of kings."

@@ -190,6 +190,10 @@
  MACHINE_TOOLS:0 "Machine Tools"
  MASS_PRODUCTION:0 "Mass Production"
  STEAMER_SHIPS:0 "Steamers"
+ STEAM_AIRSHIPS:0 "Steam-Powered Airships"
+ MACHINE_TOOLS:0 "Machine Tools"
+ RAILROAD_MANIA:0 "Railroad Mania"
+ IMPACT_OF_RAIL:0 "Impact of Rail"
 
  #Decisons
  enter_scramble_for_elteria_title:0 "Enter the Scramble for Elteria"

@@ -857,6 +857,8 @@ country_event = {
 			value = 0.1
 			duration = 3650
 		}
+
+		set_global_flag = industrialization_start
 	}
 }
 
@@ -936,6 +938,8 @@ country_event = {
 			value = 0.25
 			duration = -1
 		}
+
+		set_global_flag = industrialization_factories
 	}
 }
 
@@ -1015,6 +1019,8 @@ country_event = {
 			value = 0.1
 			duration = -1
 		}
+
+		set_global_flag = industrialization_steam_locomotives
 	}
 }
 
@@ -1070,6 +1076,8 @@ country_event = {
 			value = 0.10
 			duration = -1
 		}
+
+		set_global_flag = industrialization_mass_production
 	}
 }
 
@@ -1105,6 +1113,7 @@ country_event = {
 	
 	option = { #Ships are getting faster
 		name = prices.114.a
+		add_dip_power = 100
 		change_price = {
 			trade_goods = machinery
 			key = STEAMER_SHIPS
@@ -1189,15 +1198,346 @@ country_event = {
 			value = -0.10
 			duration = -1
 		}
+
+		set_global_flag = industrialization_steamers
 	}
 }
 
 #Steam-Powered Airships: +Machinery, -Every 'small' good
+country_event = {
+	id = prices.115
+	title = prices.115.t
+	desc = prices.115.d
+	picture = LARGE_SHIPYARD_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		OR = {
+			num_of_cavalry = 5
+			innovativeness = 50
+		}
+		mil_tech = 35
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #When will my Edailian Wine arrive?
+		name = prices.115.a
+		add_mil_power = 100
+		change_price = {
+			trade_goods = machinery
+			key = STEAM_AIRSHIPS
+			value = 0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = cloth
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = fur
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = plaulum
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = spirl
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = dyes
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = sunspot
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = glass
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = paper
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = ceramics
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+
+		set_global_flag = industrialization_steam_airships
+	}
+}
 
 #Machine Tools: --Machinery
+country_event = {
+	id = prices.116
+	title = prices.116.t
+	desc = prices.116.d
+	picture = LARGE_SHIPYARD_eventPicture
 
-#Railroad Mania: ++Machinery, ++++Iron, +++Coal (20 yrs), -Every 'small' good, --Every bulk/heavy good (permenant, includes iron/coal/machinery)
+	fire_only_once = yes
+	
+	major = yes
 
+	trigger = {
+		adm_tech = 41
+		any_owned_province = {
+			base_production = 15
+			trade_goods = machinery
+		}
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #Interesting
+		name = prices.116.a
+		add_adm_power = 100
+		add_dip_power = 50
+		add_mil_power = 50
+		add_years_of_income = 0.5
+		change_price = {
+			trade_goods = machinery
+			key = MACHINE_TOOLS
+			value = -0.25
+			duration = -1
+		}
+
+		set_global_flag = industrialization_machine_tools
+	}
+}
+
+#Railroad Mania: +++Machinery, ++++Iron, +++Coal (20 yrs), -Every 'small' good, --Every bulk/heavy good (permenant, includes iron/coal/machinery)
+country_event = {
+	id = prices.117
+	title = prices.117.t
+	desc = prices.117.d
+	picture = LARGE_SHIPYARD_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		has_global_flag = industrialization_steam_locomotives
+		has_global_flag = industrialization_machine_tools
+		has_global_flag = industrialization_mass_production
+		adm_tech = 43
+		#Has a province with a railroad
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #We need more!
+		name = prices.117.a
+		#Add railroad construction
+		change_price = {
+			trade_goods = machinery
+			key = RAILROAD_MANIA
+			value = 0.35
+			duration = 7300
+		}
+		change_price = {
+			trade_goods = iron
+			key = RAILROAD_MANIA
+			value = 0.5
+			duration = 7300
+		}
+		change_price = {
+			trade_goods = coal
+			key = RAILROAD_MANIA
+			value = 0.35
+			duration = 7300
+		}
+
+		
+		change_price = {
+			trade_goods = machinery
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = coal
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = naval_supplies
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = copper
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = tin
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = iron
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = slaves
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = black_eliph
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = spices
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = iresta
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = ecriamin
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = sweetpowder
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = gold_knot
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = udezer_wood
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = marble
+			key = IMPACT_OF_RAIL
+			value = -0.25
+			duration = -1
+		}
+
+		change_price = {
+			trade_goods = cloth
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = fur
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = plaulum
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = spirl
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = dyes
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = sunspot
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = glass
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = paper
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = ceramics
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+
+		set_global_flag = industrialization_machine_tools
+	}
+}
+
+#Irrigation, +Grain, ++Wine, +Fruit
+
+#Crop Rotation, ++Grain
+
+#Selective Breeding, ++Livestock, ++Wool
+
+#Canning, ++Fruit, ++Fish 
+
+#Ice Boxes, ++Fruit, ++Livestock
+
+#Mechanized Agriculture, +++Grain, +++Livestock, +++Fish, ++Machinery
 
 # Triangle Trade
 #country_event = {
