@@ -2138,7 +2138,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 			estate = estate_house_kethai
-			loyalty = 7.5
+			loyalty = 7
 		}
 		add_stability = -1
 	}
@@ -2150,7 +2150,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 			estate = estate_house_etailia
-			loyalty = 7.5
+			loyalty = 7
 		}
 		add_stability = -1
 	}
@@ -2162,7 +2162,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 			estate = estate_house_nyletmi
-			loyalty = 7.5
+			loyalty = 7
 		}
 		add_stability = -1
 	}
@@ -2174,7 +2174,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 			estate = estate_house_draumi
-			loyalty = 7.5
+			loyalty = 7
 		}
 		add_stability = -1
 	}
@@ -2186,7 +2186,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 			estate = estate_house_lidori
-			loyalty = 7.5
+			loyalty = 7
 		}
 		add_stability = -1
 	}
@@ -2198,7 +2198,7 @@ country_event = {
 		}
 		add_estate_loyalty = {
 			estate = estate_house_celola
-			loyalty = 7.5
+			loyalty = 7
 		}
 		add_stability = -1
 	}

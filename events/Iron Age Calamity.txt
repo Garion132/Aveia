@@ -2490,9 +2490,9 @@ country_event = {
 						}
 						remove_building = fort_14th
 					}
-					add_base_tax = -2
+					add_base_tax = -4 #not supposed to have 2 add_base_tax in the same effect apperantly
 					add_base_production = -2
-					add_base_tax = -2
+					#add_base_tax = -2
 					change_trade_goods = glass
 					add_center_of_trade_level = -1
 				}

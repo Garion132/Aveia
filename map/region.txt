@@ -1055,7 +1055,6 @@ kandi_region={
 		valkmora_31
 		valkmora_32
 		valkmora_33
-		valkmora_39
 		valkmora_40
 		valkmora_41
 		valkmora_42

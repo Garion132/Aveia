@@ -17,11 +17,11 @@ discovered_by = northern_drake_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 
+center_of_trade = 1
+
 1200.1.1={
 	add_core = KAF
 	owner = KAF
 	controller = KAF
 	is_city = yes
 }
-
-center_of_trade = 1

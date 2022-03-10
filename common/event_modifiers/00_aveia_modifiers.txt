@@ -184,6 +184,16 @@ shirea_slave_port = {
 	province_trade_power_value = 15
 	trade_goods_size = 5
 }
+#new instituions
+birthplace_of_crop_rotation = {
+	trade_goods_size = 0.5
+}
+birthplace_of_iron_working = {
+	local_development_cost = -0.05
+}
+birthplace_of_illuminare = {
+	idea_cost = -0.05
+}
 
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.

@@ -2,9 +2,7 @@ revolution = {
 	ended_by_country_breaking_to_rebels = no
 	potential = {
 		NOT = { has_country_flag = had_revolution }
-		OR = {
-			NOT = { government = monarchy }
-		}
+		NOT = { government = monarchy }
 		NOT = { has_reform = celestial_empire }
 		is_free_or_tributary_trigger = yes
 		uses_doom = no
@@ -18,9 +16,7 @@ revolution = {
 			is_great_power = yes
 			revolution_spread = 0.2
 			capital_scope = {
-				OR = {
-					has_revolution_in_province = yes
-				}
+				has_revolution_in_province = yes
 			}
 		}
 		else = {

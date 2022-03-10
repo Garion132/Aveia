@@ -1,8 +1,6 @@
 #juilia
 culture = kaletian
 religion = shamanism #Fetishism
-culture = kaletian
-religion = shamanism #Fetishism
 capital = "Accra"
 trade_goods = unknown
 hre = no

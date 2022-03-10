@@ -26,7 +26,6 @@ change_estate_land_share = {
 		name = "Kalorin"
 		dynasty = "Vulikiv"
 		birth_date = 336.5.9
-		death_date = 1458.6.8
 		adm = 4
 		dip = 6
 		mil = 6

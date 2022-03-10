@@ -190,53 +190,53 @@ country_event = {
 }
 
 # The Cossacks break free!
-country_event = {
-	id = estate_disasters.10
-	title = estate_disasters.10.t
-	desc = estate_disasters.10.d
-	picture = COSSACK_ESTATE_UPSET_eventPicture
+# country_event = {
+	# id = estate_disasters.10
+	# title = estate_disasters.10.t
+	# desc = estate_disasters.10.d
+	# picture = COSSACK_ESTATE_UPSET_eventPicture
 	
-	major = yes
-	is_triggered_only = yes
+	# major = yes
+	# is_triggered_only = yes
 	
-	immediate = {
-		set_country_flag = cossack_estate_triggered
-	}
+	# immediate = {
+		# set_country_flag = cossack_estate_triggered
+	# }
 	
-	option = {
-		name = estate_disasters.10.a	
-		add_country_modifier = {
-			name = "serf_desertion"
-			duration = 5475
-		}
-		create_independent_estate = {
-			estate = estate_cossacks
-			government = republic
-			government_reform = cossacks_reform
-			custom_national_ideas = cossack_ideas
-			play_as = no
-		}
-	}
+	# option = {
+		# name = estate_disasters.10.a	
+		# add_country_modifier = {
+			# name = "serf_desertion"
+			# duration = 5475
+		# }
+		# create_independent_estate = {
+			# estate = estate_cossacks
+			# government = republic
+			# government_reform = cossacks_reform
+			# custom_national_ideas = cossack_ideas
+			# play_as = no
+		# }
+	# }
 	
-	option = {
-		name = estate_disasters.10.b
-		trigger = { 
-			ai = no 
-			has_dlc = "The Cossacks"
-		}
-		add_country_modifier = {
-			name = "serf_desertion"
-			duration = 5475
-		}
-		create_independent_estate = {
-			estate = estate_cossacks
-			government = republic
-			government_reform = cossacks_reform
-			custom_national_ideas = cossack_ideas
-			play_as = yes
-		}
-	}
-}
+	# option = {
+		# name = estate_disasters.10.b
+		# trigger = { 
+			# ai = no 
+			# has_dlc = "The Cossacks"
+		# }
+		# add_country_modifier = {
+			# name = "serf_desertion"
+			# duration = 5475
+		# }
+		# create_independent_estate = {
+			# estate = estate_cossacks
+			# government = republic
+			# government_reform = cossacks_reform
+			# custom_national_ideas = cossack_ideas
+			# play_as = yes
+		# }
+	# }
+# }
 
 ###########################################################
 # Disaster Events for Indian Estates

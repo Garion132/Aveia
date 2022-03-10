@@ -382,6 +382,7 @@ province_event = {
 		colonysize = 600
 		NOT = { has_province_modifier = religious_migration }
 		OR = {
+			continent = juluia
 			continent = new_world
 		}
 		owner = {

@@ -662,17 +662,15 @@ country_event ={
 			}
 			every_country = { #Everyone gets a bit of fun!
 				limit = {
-					AND = {
-						NOT = { tag = PREV }
-						OR = {
-							colony = 1
-							AND = {
-								num_of_colonists = 1
-								is_subject = no
-								technology_group = lake_elves_group
-							}
-							tag = SOH
+					NOT = { tag = PREV }
+					OR = {
+						colony = 1
+						AND = {
+							num_of_colonists = 1
+							is_subject = no
+							technology_group = lake_elves_group
 						}
+						tag = SOH
 					}
 				}
 				country_event = {

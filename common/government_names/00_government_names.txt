@@ -226,7 +226,6 @@ gov_german_empire = {
 	trigger = {
 		always = no
 		government_rank = 3
-		always = no
 		government = monarchy
 	}
 }

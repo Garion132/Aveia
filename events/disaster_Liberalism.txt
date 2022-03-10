@@ -99,29 +99,29 @@ country_event = {
 	option = {
 		name = "EVTOPTA1063" # The treasury isn't even close to empty.
 		random_ally = { add_opinion = { who = ROOT modifier = opinion_munificent_ally } }
-		if = {
-			limit = {
-				has_disaster = aspiration_for_liberty
-			}
-			add_country_modifier = {
-				name = "decreased_morale"
-				duration = -1
-				desc = "END_OF_LIBERALISM"
-			}
-		}
+		# if = {
+			# limit = {
+				# has_disaster = aspiration_for_liberty
+			# }
+			# add_country_modifier = {
+				# name = "decreased_morale"
+				# duration = -1
+				# desc = "END_OF_LIBERALISM"
+			# }
+		# }
 	}
 	option = {
 		name = "EVTOPTB1063" # Cut down on war expenditures.
-		if = {
-			limit = {
-				has_disaster = aspiration_for_liberty
-			}
-			add_country_modifier = {
-				name = reduceed_war_expenditures
-				duration = -1
-				desc = "END_OF_LIBERALISM"
-			}
-		}
+		# if = {
+			# limit = {
+				# has_disaster = aspiration_for_liberty
+			# }
+			# add_country_modifier = {
+				# name = reduceed_war_expenditures
+				# duration = -1
+				# desc = "END_OF_LIBERALISM"
+			# }
+		# }
 		random_ally = {
 			add_opinion = { who = ROOT modifier = opinion_reduced_war_expenditures }
 		}

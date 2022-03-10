@@ -379,27 +379,6 @@ province_event = {
 	}
 }
 
-#Germany/Italy Formed - Leaving Empire
-country_event = {
-	id = hre_event.5
-	title = "hre_event.5.t"
-	desc = "hre_event.5.d"
-	picture = HRE_eventPicture
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "hre_event.5.a" #Ok.
-		add_imperial_influence = -75
-		add_prestige = -10
-		tooltip = {
-			add_opinion = {
-				who = FROM
-				modifier = opinion_left_empire
-			}
-		}
-	}
-}
 
 # Perpetual Diet
 province_event = {

@@ -14,6 +14,9 @@ country_event = {#ash and ice
 		is_year = 1440
 		owns = 1060
 	}
+	mean_time_to_happen = {
+		months = 5
+	}
 	
 	immediate = {
 		hidden_effect={

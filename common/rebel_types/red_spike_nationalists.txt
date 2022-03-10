@@ -7,8 +7,8 @@ red_scale_nationalist_rebels = {
 
 	area = nation_rebel_tag 			# Stays within provinces of their rebel tag
 	government = any				# No special preference
-	defection = THL			# If the country seeks independence, defection specifies what type of provinces it wants.
-	independence = THL 		# Seeks independence for spawn province culture. Will not spawn at all if there is no suitable tag.
+	defection = nation_rebel_tag			# If the country seeks independence, defection specifies what type of provinces it wants.
+	independence = nation_rebel_tag 		# Seeks independence for spawn province culture. Will not spawn at all if there is no suitable tag.
 	defect_delay = 60				# Can spontaneously declare independence after 60 months (earliest)
 	unit_transfer = yes				# Units switch allegiance after enforcing demands.
 	gfx_type = culture_province	

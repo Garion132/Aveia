@@ -1225,7 +1225,9 @@ country_event = {
 			}
 			OR = {
 				has_building = workshop
-				has_building = counting_house
+				has_building = artisans_guild
+				has_building = craftsmans_district
+				has_building = industrial_zone
 			}
 			province_without_special_goods_produced_trigger = yes
 			base_manpower = 2
@@ -1369,7 +1371,9 @@ country_event = {
 					}
 					OR = {
 						has_building = workshop
-						has_building = counting_house
+						has_building = artisans_guild
+						has_building = craftsmans_district
+						has_building = industrial_zone
 					}
 					NOT = { has_latent_trade_goods = coal }
 					province_without_special_goods_produced_trigger = yes
@@ -1505,7 +1509,9 @@ country_event = {
 						has_building = mills
 						has_building = furnace
 						has_building = workshop
-						has_building = counting_house
+						has_building = artisans_guild
+						has_building = craftsmans_district
+						has_building = industrial_zone
 						has_building = grand_shipyard
 					}
 					NOT = { has_province_flag = industrial_urbanization }
@@ -1882,7 +1888,7 @@ country_event = {
 					}
 					OR = {
 						has_building = textile
-						has_building = counting_house
+						has_building = artisans_guild
 						any_neighbor_province = {
 							owned_by = ROOT
 							trade_goods = coal
@@ -2066,7 +2072,7 @@ country_event = {
 					trade_goods = naval_supplies
 					OR = {
 						has_building = wharf
-						has_building = counting_house
+						has_building = artisans_guild
 						any_neighbor_province = {
 							owned_by = ROOT
 							trade_goods = coal

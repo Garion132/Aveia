@@ -2961,17 +2961,17 @@ country_event = {
 		has_government_attribute = heir
 		government = monarchy
 		is_lesser_in_union = no
-		religion_group = christian
+		religion_group = tlaunorist
 		has_dlc = "Rights of Man"
 		OR = {
 			any_country = {
 				marriage_with = ROOT
 				reverse_has_opinion = { who = ROOT value = 15 }
-				religion_group = christian
+				religion_group = tlaunorist
 			}
 			any_neighbor_country = {
 				reverse_has_opinion = { who = ROOT value = 15 }
-				religion_group = christian
+				religion_group = tlaunorist
 			}
 		}
 		
@@ -2985,7 +2985,7 @@ country_event = {
 				limit = { 
 					marriage_with = ROOT
 					reverse_has_opinion = { who = ROOT value = 15 }
-					religion_group = christian
+					religion_group = tlaunorist
 				}
 				save_event_target_as = adoptive_country_1
 			}
@@ -2994,7 +2994,7 @@ country_event = {
 				limit = { NOT = { has_saved_event_target = adoptive_country_1 } }
 
 				random_neighbor_country = {
-					limit = { reverse_has_opinion = { who = ROOT value = 15 } religion_group = christian }
+					limit = { reverse_has_opinion = { who = ROOT value = 15 } religion_group = tlaunorist }
 					save_event_target_as = adoptive_country_1
 
 				}
@@ -3005,7 +3005,7 @@ country_event = {
 				limit = { 
 					marriage_with = ROOT
 					reverse_has_opinion = { who = ROOT value = 15 }
-					religion_group = christian
+					religion_group = tlaunorist
 					NOT = { event_target:adoptive_country_1 = { TAG = PREV } }
 				}
 				save_event_target_as = adoptive_country_2
@@ -3017,7 +3017,7 @@ country_event = {
 				random_neighbor_country = {
 					limit = { 
 						reverse_has_opinion = { who = ROOT value = 15 } 
-						religion_group = christian
+						religion_group = tlaunorist
 						NOT = { event_target:adoptive_country_1 = { TAG = PREV } }
 					}
 					save_event_target_as = adoptive_country_2
@@ -3029,7 +3029,7 @@ country_event = {
 				limit = { 
 					marriage_with = ROOT
 					reverse_has_opinion = { who = ROOT value = 15 }
-					religion_group = christian
+					religion_group = tlaunorist
 					NOT = { event_target:adoptive_country_1 = { TAG = PREV } }
 					NOT = { event_target:adoptive_country_2 = { TAG = PREV } }
 				}
@@ -3042,7 +3042,7 @@ country_event = {
 				random_neighbor_country = {
 					limit = { 
 						reverse_has_opinion = { who = ROOT value = 15 } 
-						religion_group = christian
+						religion_group = tlaunorist
 						NOT = { event_target:adoptive_country_1 = { TAG = PREV } }
 						NOT = { event_target:adoptive_country_2 = { TAG = PREV } }
 					}

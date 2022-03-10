@@ -370,10 +370,10 @@ crop_rotation = {
 		is_year = 1300
 		is_state = yes
 		is_island = no
-		OR={
+		#OR={
 			bronze_working = 100
 			#iron_working = 100
-		}
+		#}
 		OR = {
 			development = 20
 			is_capital = yes
@@ -393,7 +393,7 @@ crop_rotation = {
 	start_chance = 5		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.2
+	on_start = institution_events.1
 	
 	
 	
@@ -551,9 +551,7 @@ iron_working = {
 	historical_start_province = 2556 # Florence
 
 	history = {
-		OR = {
-			is_year = 1780
-		}
+		is_year = 1780
 	}
 	
 	can_start = {
@@ -898,9 +896,7 @@ new_world_i = {
 	historical_start_province = 1188 #Sevilla
 
 	history = {
-		OR = {
-			is_year = 1800
-		}
+		is_year = 1800
 	}
 	
 	can_start = {
@@ -919,6 +915,7 @@ new_world_i = {
 			has_idea = quest_for_the_new_world 
 			OR = {
 				new_world = { has_discovered = PREV }
+				juluia = { has_discovered = PREV }
 			}
 		}
 	}
@@ -1104,7 +1101,7 @@ guedinan_revolution = {
 		is_island = no
 		OR={
 			bronze_working = 100
-			#iron_working = 100
+			iron_working = 100
 		}
 		OR = {
 			development = 20

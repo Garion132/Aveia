@@ -30,6 +30,7 @@ country_event = {
 		random_owned_province = {
 			limit = { is_capital = yes }
 			spawn_rebels = {
+				type = particularist_rebels#type no defined, assuming particularist for now
 				size = 3
 			}
 		}

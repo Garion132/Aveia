@@ -1,6 +1,5 @@
 #tradewind_islands
 capital = "Accra"
-trade_goods = unknown
 hre = no
 add_core = ELS
 owner = ELS

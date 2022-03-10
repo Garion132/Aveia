@@ -1,6 +1,5 @@
 #tradewind_islands
 capital = "Accra"
-trade_goods = unknown
 add_core = SLK
 owner = SLK
 controller = SLK

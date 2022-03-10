@@ -72,12 +72,6 @@ revolutionary_rebels = {
 		}
 		modifier = {
 			factor = 5.0
-			owner = {
-				has_disaster = aspiration_for_liberty
-			}
-		}
-		modifier = {
-			factor = 5.0
 			owner = { has_disaster = revolution }
 		}		
 		
@@ -174,22 +168,7 @@ revolutionary_rebels = {
 			}
 			hidden_effect = {
 				country_event = { id = revolution.10 } #Generic
-				country_event = { id = revolution.15 } #France (non-monarchy)
-				country_event = { id = flavor_rus.2000 } #Russia
-				country_event = { id = revolution.31 } #Spain
-				country_event = { id = revolution.32 } #Scandinavia
-				country_event = { id = revolution.33 } #UK
-				country_event = { id = revolution.34 } #Ottomans
-				country_event = { id = revolution.37 } #Germans
-				country_event = { id = revolution.38 } #Austria and HRE
-				country_event = { id = revolution.39 } #Netherlands
-				country_event = { id = revolution.40 } #China
-				country_event = { id = revolution.41 } #Indians
 			}
-		}
-		else_if = {
-			limit = { has_disaster = french_revolution }
-			country_event = { id = french_revolution.2 }
 		}
 		else = {
 			if = {
@@ -237,13 +216,13 @@ revolutionary_rebels = {
 				rebel = yes
 			}
 		}
-		if = {
-			limit = { has_disaster = aspiration_for_liberty }
-			end_disaster = aspiration_for_liberty
-			clr_country_flag = liberalism
-			remove_country_modifier = reduceed_war_expenditures
-			remove_country_modifier = decreased_morale
-		}
+		# if = {
+			# limit = { has_disaster = aspiration_for_liberty }
+			# end_disaster = aspiration_for_liberty
+			# clr_country_flag = liberalism
+			# remove_country_modifier = reduceed_war_expenditures
+			# remove_country_modifier = decreased_morale
+		# }
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"

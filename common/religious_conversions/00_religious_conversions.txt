@@ -435,11 +435,15 @@ eternal_sun_center_of_reformation = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion_group = tlaulunorism }
-			AND={
+			NOT = { 
+				religion_group = tlaulunorism 
 				religion_group = rake_group
-				NOT={has_global_flag = vadalor_dead}
 			}
+		}
+		modifier = {
+			factor = 0
+			religion_group = rake_group
+			NOT={has_global_flag = vadalor_dead}
 		}
 		modifier = {
 			factor = 0

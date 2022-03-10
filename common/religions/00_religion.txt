@@ -360,7 +360,6 @@ tlaulunorism = {
 		allowed_center_conversion = {
 			tlaunorist
 			seriaralia
-			tlaunorist
 			umesedilism
 			essarania
 			muthilian
@@ -434,7 +433,6 @@ tlaulunorism = {
 		allowed_center_conversion = {
 			tlaunorist
 			seriaralia
-			tlaunorist
 			umesedilism
 			essarania
 			muthilian

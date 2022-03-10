@@ -16,7 +16,6 @@ base_manpower = 4
 capital = "Lurt 1"
 is_city = yes
 discovered_by = lake_elves_group
-discovered_by = northern_drake_group
 discovered_by = sea_elves_group
 discovered_by = northern_drake_group
 discovered_by = ork_group

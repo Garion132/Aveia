@@ -11,7 +11,6 @@ anti_tax_rebels = {
 	independence = none				# Does not strive for independence
 	defect_delay = 120
 	gfx_type = culture_province
-	will_relocate = yes	
 	
 	resilient = no					# Disbands on retreat
 	reinforcing = no				# Does not receive reinforcements
@@ -45,15 +44,6 @@ anti_tax_rebels = {
 		modifier = {
 			factor = 0.5
 			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.05
-			owner = {
-				OR = {
-					has_country_modifier = the_mandate_of_heaven_lost
-					has_country_modifier = lost_mandate_of_heaven
-				}
-			}
 		}
 		modifier = {
 			factor = 2.0

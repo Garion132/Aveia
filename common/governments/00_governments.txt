@@ -28,7 +28,6 @@ monarchy = {
 				english_monarchy
 				mandala_reform
 				revolutionary_empire_reform
-				holy_state_reform
 				austrian_archduchy_reform
 			}
 		}
@@ -131,7 +130,6 @@ monarchy = {
 		indep_daimyo_legacy
 		principality_legacy
 		tsardom_legacy
-		holy_state_legacy
 	}
 
 	# Each group of exclusive reforms are mutually exclusive to each other

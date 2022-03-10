@@ -592,54 +592,54 @@ country_event = {
 # Terra Australis
 
 # Coffee Houses
-country_event = {
-	id = innovativeness_events.12
-	title = "innovativeness_events.12.t"
-	desc = "innovativeness_events.12.d"
-	picture = ROYAL_SOCIETY_eventPicture
+# country_event = {
+	# id = innovativeness_events.12
+	# title = "innovativeness_events.12.t"
+	# desc = "innovativeness_events.12.d"
+	# picture = ROYAL_SOCIETY_eventPicture
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	trigger = {
-		has_dlc = "Rule Britannia"
-		innovativeness = 5
-		has_institution = manufactories
-		any_country = {
-			capital_scope = {
-				continent = ROOT
-			}
-			OR = {
-				any_owned_province = {
-					trade_goods = coffee
-				}
-				any_subject_country = {
-					is_colonial_nation = yes
-					any_owned_province = {
-						trade_goods = coffee
-					}
-				}
-			}
-		}
-	}
-	mean_time_to_happen = {
-		days = 1
-	}
-	option = { # encourage them
-		name = "innovativeness_events.12.a"
-		add_innovativeness_small_effect = yes
-		add_country_modifier = {
-			name = "coffee_houses"
-			duration = 3650
-		}
-	}
-	option = { # dangerous ideas
-		name = "innovativeness_events.12.b"
-		add_country_modifier = {
-			name = "coffee_houses_banned"
-			duration = 3650
-		}
-	}
-}
+	# trigger = {
+		# has_dlc = "Rule Britannia"
+		# innovativeness = 5
+		# has_institution = manufactories
+		# any_country = {
+			# capital_scope = {
+				# continent = ROOT
+			# }
+			# OR = {
+				# any_owned_province = {
+					# trade_goods = coffee
+				# }
+				# any_subject_country = {
+					# is_colonial_nation = yes
+					# any_owned_province = {
+						# trade_goods = coffee
+					# }
+				# }
+			# }
+		# }
+	# }
+	# mean_time_to_happen = {
+		# days = 1
+	# }
+	# option = { # encourage them
+		# name = "innovativeness_events.12.a"
+		# add_innovativeness_small_effect = yes
+		# add_country_modifier = {
+			# name = "coffee_houses"
+			# duration = 3650
+		# }
+	# }
+	# option = { # dangerous ideas
+		# name = "innovativeness_events.12.b"
+		# add_country_modifier = {
+			# name = "coffee_houses_banned"
+			# duration = 3650
+		# }
+	# }
+# }
 
 # New Scientific Instruments
 country_event = {

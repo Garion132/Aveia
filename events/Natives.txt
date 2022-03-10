@@ -13,6 +13,7 @@ province_event = {
 		}
 		OR = {
 			continent = new_world
+			continent = elteria
 		}
 		is_colony = yes
 	}
