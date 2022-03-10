@@ -1,12 +1,12 @@
 #Jalhorkan
 
-culture = kaletian
+culture = kafathi
 religion = tlaunorist #Fetishism
 hre = no
 base_tax = 2
-base_production =3
-base_manpower = 2
-trade_goods = unknown
+base_production =4
+base_manpower = 3
+trade_goods = spices
 capital = "KAF"
 native_size = 25
 native_ferocity = 2

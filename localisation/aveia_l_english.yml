@@ -263,6 +263,7 @@
  keldic_court:0 "Keldic Court"
  COLONIAL_EAST_LOCKED:0 "This area is currently under Glacial Ice"
  COLONIAL_THILRANA_BLOCKED:0 "Thilrana is too hostile to colonise"
+ COLONIAL_ELTERIA_NO_DIRECT_COLONISATION_JULUIA:0 "Elterian Nations can't directly colonise Juluia"
 
  cub_mannish_raid:0 "Mannish Raid"
  cb_mannish_raid_desc:0 "Conduct a raid on a non-human neighbor to easily acquire money and resources. You cannot take or lose provinces."

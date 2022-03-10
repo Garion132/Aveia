@@ -153,6 +153,20 @@ can_colonize_province = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = "COLONIAL_ELTERIA_NO_DIRECT_COLONISATION_JULUIA"
+		potential = {
+			ROOT={
+				capital_scope = { 
+					continent = elteria
+				}
+			}
+			continent = juluia
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_colonize_province_siberian_frontier = {

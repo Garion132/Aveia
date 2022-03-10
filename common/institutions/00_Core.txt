@@ -911,18 +911,17 @@ new_world_i = {
 		}
 		is_in_capital_area = yes
 		2686={development = 1}
-		owner = { 
-			has_idea = quest_for_the_new_world 
-			OR = {
-				new_world = { has_discovered = PREV }
-				juluia = { has_discovered = PREV }
-			}
-		}
+		# owner = { 
+			# has_idea = quest_for_the_new_world 
+			# OR = {
+				# new_world = { has_discovered = PREV }
+				# juluia = { has_discovered = PREV }
+			# }
+		# }
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	
-
-	
+	on_start = institution_events.2
 	
 	
 

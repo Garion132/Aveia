@@ -208,7 +208,7 @@ THL_diplomatic_missions = {
 						NOT = { is_permanent_claim = root }
 						NOT = { is_core = root }
 					}
-					add_core = root
+					add_permanent_claim = root
 				}
 			}
 			sineri = {
@@ -217,7 +217,7 @@ THL_diplomatic_missions = {
 						NOT = { is_permanent_claim = root }
 						NOT = { is_core = root }
 					}
-					add_core = root
+					add_permanent_claim = root
 				}
 			}
 		}
@@ -253,7 +253,7 @@ THL_diplomatic_missions = {
 						NOT = { is_permanent_claim = root }
 						NOT = { is_core = root }
 					}
-					add_core = root
+					add_permanent_claim = root
 				}
 			}
 			asfereth = {
@@ -262,7 +262,7 @@ THL_diplomatic_missions = {
 						NOT = { is_permanent_claim = root }
 						NOT = { is_core = root }
 					}
-					add_core = root
+					add_permanent_claim = root
 				}
 			}
 			bririon = {
@@ -271,7 +271,7 @@ THL_diplomatic_missions = {
 						NOT = { is_permanent_claim = root }
 						NOT = { is_core = root }
 					}
-					add_core = root
+					add_permanent_claim = root
 				}
 			}
 		}
