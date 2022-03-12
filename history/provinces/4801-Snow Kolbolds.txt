@@ -1,5 +1,5 @@
 #shires
-culture = vendram
+culture = wisdram
 religion = godly_sect
 capital = "colonial"
 trade_goods = unknown

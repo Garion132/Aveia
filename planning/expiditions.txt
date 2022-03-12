@@ -1,4 +1,4 @@
-EAST - 50
+EAST - 53
 977 -  - Celolian,talunorist
 2133 -  -tmiik,rusite
 1793 -  -Deresunite,Tlaunorist
@@ -30,6 +30,7 @@ Vrur
 Delcarva
 Serar
 Lrocra
+Arkhonia -  - Grand republic
 
 
 Formables:

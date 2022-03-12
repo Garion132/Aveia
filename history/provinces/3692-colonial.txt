@@ -1,6 +1,6 @@
 #shires
-culture = karilos
-religion = vulikivite
+culture = shireate
+religion = drethalumia
 capital = "colonial"
 trade_goods = unknown
 hre = no

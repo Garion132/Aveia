@@ -2,7 +2,7 @@
 add_core = MOG
 owner = MOG
 controller = MOG
-culture = vendram
+culture = tarlander
 religion = godly_sect
 capital = "colonial"
 trade_goods = unknown

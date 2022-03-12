@@ -2,7 +2,7 @@
 add_core = OLC
 owner = OLC
 controller = OLC
-culture = vendram
+culture = wisdram
 religion = godly_sect
 capital = "colonial"
 trade_goods = unknown

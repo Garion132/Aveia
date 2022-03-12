@@ -2,7 +2,7 @@
 add_core = WAR
 owner = WAR
 controller = WAR
-culture = vendram
+culture = wisdram
 religion = godly_sect
 capital = "colonial"
 trade_goods = unknown

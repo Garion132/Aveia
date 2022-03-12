@@ -3,7 +3,7 @@ add_government_reform = palace_economy
 primary_culture = vendram
 religion = godly_sect
 technology_group = lake_elves_group
-capital = 4758 # 
+capital = 4759 # 
 government_rank = 2
 #national_focus = DIP
 #historical_rival = HAB
@@ -23,11 +23,11 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Adreul"
 		dynasty = "Vendre"
 		birth_date = 1240.12.3
-		adm = 3
+		adm = 5
 		dip = 3
-		mil = 3
+		mil = 4
 	}
 }

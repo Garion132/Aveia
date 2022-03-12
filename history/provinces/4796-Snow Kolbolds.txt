@@ -2,7 +2,7 @@
 add_core = WSC
 owner = WSC
 controller = WSC
-culture = vendram
+culture = wisdram
 religion = godly_sect
 capital = "colonial"
 trade_goods = unknown
