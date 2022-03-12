@@ -526,9 +526,6 @@ vulkivian_region={
 		vulkivian_22
 		vulkivian_23
 		vulkivian_25
-		shires_8
-		shires_9
-		shires_10
 	}
 }
 thilrana_region={
@@ -938,7 +935,22 @@ deerok_region={
 		deerok_12
 	}
 }
-
+suirx_cresant_region={
+	areas = {
+		suirx_cresant_1
+		suirx_cresant_2
+		suirx_cresant_3
+		suirx_cresant_4
+		suirx_cresant_5
+		suirx_cresant_6
+		suirx_cresant_7
+		suirx_cresant_8
+		suirx_cresant_9
+		suirx_cresant_10
+		shires_9
+		shires_10
+	}
+}
 
 shield_isles_region={
 	areas = {

@@ -1957,23 +1957,11 @@ There were 2 duplicates.
 	[I4290|L209|C6]: culture = REB
 	[I4340|L211|C6]: culture = REB
 
-At <mod>\common\rebel_types\noble.txt [noble_rebels\spawn_chance\modifier\owner\has_disaster] (Line 65, column 5):
-"counts_feud" is not a valid Disaster.
-
-At <mod>\common\rebel_types\noble.txt [noble_rebels\spawn_chance\modifier\owner\OR\has_country_modifier] (Line 57, column 6):
-"the_mandate_of_heaven_lost" is not a valid EventModifier, StaticModifier, or TriggeredModifier.
-
 At <mod>\common\rebel_types\noble.txt [noble_rebels\siege_won_effect\owner\if\change_estate_land_share\province] (Line 156, column 6):
 Invalid node "province" in scope <anon> (value is: ROOT)
 
 At <mod>\common\rebel_types\noble.txt [noble_rebels\siege_won_effect\owner\else\change_estate_land_share\province] (Line 163, column 6):
 Invalid node "province" in scope <anon> (value is: ROOT)
-
-At <mod>\common\rebel_types\noble.txt [noble_rebels\demands_enforced_effect\if\limit\has_disaster] (Line 218, column 14):
-"counts_feud" is not a valid Disaster.
-
-At <mod>\common\rebel_types\noble.txt [noble_rebels\demands_enforced_effect\if\end_disaster] (Line 219, column 4):
-"counts_feud" is not a valid Disaster.
 
 At <mod>\common\rebel_types\nyletmi_pretender.txt [nyletmi_pretender_rebels\demands_enforced_effect\if\kill_heir] (Line 117, column 4):
 "yes" is not a valid <anon>.
@@ -2017,45 +2005,6 @@ Invalid node "tag" in scope RebelOtherModifier (value is: THL)
 At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\spawn_chance\modifier\owner\has_disaster] (Line 76, column 5):
 "aspiration_for_liberty" is not a valid Disaster.
 
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 177, column 23):
-"revolution.15" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 178, column 23):
-"flavor_rus.2000" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 179, column 23):
-"revolution.31" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 180, column 23):
-"revolution.32" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 181, column 23):
-"revolution.33" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 182, column 23):
-"revolution.34" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 183, column 23):
-"revolution.37" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 184, column 23):
-"revolution.38" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 185, column 23):
-"revolution.39" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 186, column 23):
-"revolution.40" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\hidden_effect\country_event\id] (Line 187, column 23):
-"revolution.41" is not a valid CountryEventId or ProvinceEventId.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\limit\has_disaster] (Line 241, column 14):
-"aspiration_for_liberty" is not a valid Disaster.
-
-At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\if\end_disaster] (Line 242, column 4):
-"aspiration_for_liberty" is not a valid Disaster.
-
 At <mod>\common\rebel_types\revolutionary.txt [revolutionary_rebels\demands_enforced_effect\else_if\limit\has_disaster] (Line 191, column 14):
 "french_revolution" is not a valid Disaster.
 
@@ -2083,14 +2032,8 @@ Invalid node "num_of_centers_of_reformation" in scope ProvinceTrigger (value is:
 At <mod>\common\religious_conversions\00_religious_conversions.txt [protestant_center_of_reformation\target_province_weights\modifier\NOT\num_of_centers_of_reformation] (Line 883, column 12):
 Invalid node "num_of_centers_of_reformation" in scope ProvinceTrigger (value is: <a complex type>)
 
-At <mod>\common\religious_conversions\00_religious_conversions.txt [rethese_center_of_reformation] (Line 471, column 1):
-The string rethese_center_of_reformation was not found in localization.
-
 At <mod>\common\religious_conversions\00_religious_conversions.txt [rethese_center_of_reformation\target_province_weights\modifier\NOT\num_of_centers_of_reformation] (Line 529, column 12):
 Invalid node "num_of_centers_of_reformation" in scope ProvinceTrigger (value is: <a complex type>)
-
-At <mod>\common\religious_conversions\00_religious_conversions.txt [eternal_sun_center_of_reformation] (Line 404, column 1):
-The string eternal_sun_center_of_reformation was not found in localization.
 
 At <mod>\common\religious_conversions\00_religious_conversions.txt [eternal_sun_center_of_reformation\target_province_weights\modifier\NOT\num_of_centers_of_reformation] (Line 466, column 12):
 Invalid node "num_of_centers_of_reformation" in scope ProvinceTrigger (value is: <a complex type>)
@@ -2118,12 +2061,6 @@ At <mod>\common\religions\00_religion.txt [muslim\center_of_religion] (Line 1910
 
 At <mod>\common\religions\00_religion.txt [muslim\sunni] (Line 1917, column 2):
 The string sunni_demand_desc was not found in localization.
-
-At <mod>\common\religions\00_religion.txt [christian\coptic\holy_sites\419] (Line 1891, column 37):
-"419" is not a valid LandProvince.
-
-At <mod>\common\religions\00_religion.txt [christian\coptic\holy_sites\358] (Line 1891, column 18):
-"358" is not a valid LandProvince.
 
 At <mod>\common\religions\00_religion.txt [christian\hussite\uses_hussite_power] (Line 1456, column 3):
 Invalid node "uses_hussite_power" in scope ReligionDef (value is: yes)

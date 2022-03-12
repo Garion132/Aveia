@@ -1,0 +1,122 @@
+country_decisions = {
+
+	lumia_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_aragos_flag }
+			NOT = { tag = LUM }
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = LUM }
+					num_of_cities = 3 #Carnage
+				}
+			}
+			OR={
+				tag = FRY
+				tag = SWA
+				tag = VIL
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR={
+				area = windsweaps_2
+				area = windsweaps_3
+				area = windsweaps_4
+				area = windsweaps_5
+				area = windsweaps_6
+				area = windsweaps_7
+				area = windsweaps_8
+				area = windsweaps_9
+				area = windsweaps_10
+				area = windsweaps_11
+				area = windsweaps_12
+				area = windsweaps_13
+				area = deerok_14
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = LUM }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			religion = tlaunorist
+			is_nomad = no
+			owns_core_province = 2416	# Freyglen
+			owns_core_province = 2430   # Krita
+			owns_core_province = 2454   #
+			owns_core_province = 2449   # 
+			owns_core_province = 2437   # Villou
+			owns_core_province = 2425   # Del Marva
+			owns_core_province = 2402   # Whitemarsh
+			deerok_14={
+				owned_by = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 24
+				OR={
+					area = windsweaps_2
+					area = windsweaps_3
+					area = windsweaps_4
+					area = windsweaps_5
+					area = windsweaps_6
+					area = windsweaps_7
+					area = windsweaps_8
+					area = windsweaps_9
+					area = windsweaps_10
+					area = windsweaps_11
+					area = windsweaps_12
+					area = windsweaps_13
+				}
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			is_month = 12 #flavour says december, so december it is
+		}
+		effect = {
+			#set_capital = 3948
+			change_tag = LUM
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			haqsili_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = LUM
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = LUM_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_aragos_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
+}

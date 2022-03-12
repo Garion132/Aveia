@@ -79,6 +79,7 @@
  PROV156:0 "Piceden"
  
  PROV159:0 "Vulikiv Coast"
+ PROV160:0 "Suirx Bay"
 
  PROV165:0 "Massege Coast"
 
@@ -773,6 +774,32 @@
  PROV3948:0 "Aniliti"
  
  PROV3984:0 "Castronos"
+ 
+ PROV4758:0 "Rathau"
+ PROV4759:0 "Vendre"
+ 
+ PROV4762:0 "Vohzit"
+ 
+ PROV4771:0 "Slutiarm"
+ PROV4772:0 "Moggan"
+ PROV4773:0 "Suirx"
+ PROV4773:0 "Suirx"
+ PROV4774:0 "Bres"
+ PROV4775:0 "Malton"
+ PROV4776:0 "Pelorarum"
+ PROV4777:0 "Felmond"
+ PROV4778:0 "Fordge"
+ 
+ PROV4785:0 "Hesxea"
+ 
+ PROV4790:0 "Torkburgh"
+ 
+ PROV4793:0 "Olcested"
+ PROV4794:0 "Degeso"
+ 
+ PROV4796:0 "Wiscombe"
+ 
+ PROV4799:0 "Warglegore"
 
  
  test_province_name:0 "Test Province Name"

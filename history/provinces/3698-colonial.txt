@@ -1,6 +1,9 @@
 #shires
+add_core = VEN
+owner = VEN
+controller = VEN
 culture = karilos
-religion = vulikivite
+religion = godly_sect
 capital = "colonial"
 trade_goods = unknown
 hre = no

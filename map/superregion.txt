@@ -34,6 +34,7 @@ west_aveia_superregion={
 	otrcyueg_region
 	craine_islands
 	cradle_islands
+	suirx_cresant_region
 }
 kaltros_superregion={
 	qirdud_region
