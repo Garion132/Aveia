@@ -1,0 +1,9 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = maren
+religion = catholic
+technology_group = lake_elves_group
+capital = 1161 # 
+government_rank = 1
+#national_focus = DIP
+#historical_rival = HAB

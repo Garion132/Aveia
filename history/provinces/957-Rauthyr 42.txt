@@ -1,6 +1,7 @@
 #Rauthyr
 
 add_core = RAU
+add_core = TVE
 owner = RAU
 controller = RAU
 culture = etailian

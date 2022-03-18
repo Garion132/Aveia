@@ -1,0 +1,34 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = ollunian
+religion = catholic
+technology_group = lake_elves_group
+capital = 1143 # 
+government_rank = 1
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1268.9.16 = {
+	monarch = {
+		name = "Thria"
+		dynasty = "Kethai"
+		birth_date = 1258.12.3
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

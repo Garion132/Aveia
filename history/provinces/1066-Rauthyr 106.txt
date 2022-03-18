@@ -1,6 +1,7 @@
 #Rauthyr
 
 add_core = RAU
+add_core = MET
 owner = RAU
 controller = RAU
 culture = aymnian

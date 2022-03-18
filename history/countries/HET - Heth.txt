@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = nilenorian
 religion = catholic
 technology_group = lake_elves_group
-capital = 1038 #
+capital = 1076 #
 #national_focus = DIP
 #historical_rival = HAB
 
