@@ -24,7 +24,7 @@ Guedina	(cesimum-like metal/ iridescent pale orange in color and produces royal 
 Ankon (mythril-like/ pale rose in color)
 Vitaite	(transparent lilac bouyant crysal, increase bouyancy with extreme heat)
 Bryrine ( electric blue in color and produces indigo oxide, magic superconductor)
-
+-Icorine (Ichor, the Blood of the gods; enchances the potancy of anything added to)
 
 
 #Luxuries, 11
@@ -39,14 +39,18 @@ Gold Knot (golden leaves, white five-petaled flowers. tobacco-like product)
 spirl (giant spider silk-like product)
 Coal
 Machinery
+-Manufactured Goods
 
 
 #Elteria (South-Western Continent), 1
 Ecriamin (Blue five leaf clover, Magical Healing Herbs)
 
-#Eastern Aveia, 2
+#Eastern Aveia, 4
 Quedarma Horn (megafauna, giant, greenish-gray, snake with horns and a frill)
 Spices
+-Kurrak (Tall Tree, bright red leaves and seeds, bone white bark. each part of the tree can be used for something, seeds act similar like sweetpowder, bark like cinamon, wood is often used akin to Udezer Wood)
+-Chiming tree (Purple bell flowers that act like jingle bells in the wind, has a mast year every 3 years where the flowers and seeds are increased in size making the sound much louder, the interal "clapper" is a seed covered in mother of pearl, highly prized for its luster and rumored to extend life, in acually it, when crushed it weakens magic near to it for a time)
+
 
 #New World, 4
 Iresta (coffee-like, )

@@ -31,11 +31,20 @@ Delcarva
 Serar
 Lrocra
 Arkhonia -  - Grand republic
-
+Shempeak
+Selehei
 
 Formables:
 	Rogos
 	Ligrim
+	Vulich
+	Manitel
+	Vaogh
+	Zurion
+	Mowindia
+	Arakan
+	Borestia
+	Earh
 
 
 JULILA - 

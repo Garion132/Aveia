@@ -43,6 +43,7 @@ kaltros_superregion={
 	vortingrad_region
 	rogosian_heights_region
 	borestia_region
+	earh_region
 }
 haqsili_chain_superregion={
 	haqsili_region

@@ -551,6 +551,7 @@ thilrana_region={
 		thilrana_5
 		thilrana_6
 		thilrana_7
+		lonely_isles
 	}
 }
 donamenz_region={
@@ -826,6 +827,7 @@ windsweaps_region={
 		windsweaps_21
 		windsweaps_22
 		windsweaps_23
+		windsweaps_24
 		karnaiha_12
 		karnaiha_34
 		deerok_13
@@ -1317,6 +1319,34 @@ rarlone_region={
 		rarlone_7
 	}
 }
+earh_region={
+	areas={
+		earh_1
+		earh_2
+		earh_3
+		earh_4
+		earh_5
+		earh_6
+		earh_7
+		earh_8
+		earh_9
+		earh_10
+		earh_11
+		earh_12
+		earh_13
+		earh_14
+		earh_15
+	}
+}
+crystalia_region={
+	areas={
+		crystalia_1
+		crystalia_2
+		earh_16
+		earh_17
+		earh_18
+	}
+}
 
 mallitors_region = {
 	areas = {
@@ -1358,6 +1388,31 @@ barking_winds_region={
 		tundasta_bay
 		salrtonis
 		scalie_sea
+		lost_hope_sea
+	}
+}
+greatide_region={
+	areas={
+		palmoric_tides
+		redwater_sea
+		valkian_ridge
+		saltways_sea
+		foliura_breach
+	}
+}
+ulidin_ocean={
+	areas={
+		lietite_bay
+		moltoc_sea
+		kepmora_sea
+	}
+}
+juluious_ocean={
+	areas={
+		loswath_coast
+		gurvian_flow
+		icebreaks
+		alromita_bays
 	}
 }
 ocean_region = {
