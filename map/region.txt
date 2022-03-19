@@ -673,6 +673,20 @@ rogosian_heights_region={
 		rogosian_8
 		rogosian_9
 		rogosian_10
+		rogosian_11
+		rogosian_12
+		rogosian_13
+		rogosian_14
+		rogosian_15
+		rogosian_16
+		rogosian_17
+		rogosian_18
+		rogosian_19
+		rogosian_20
+		rogosian_21
+		rogosian_22
+		rogosian_23
+		rogosian_24
 	}
 }
 vortingrad_region={
@@ -1345,6 +1359,59 @@ crystalia_region={
 		earh_16
 		earh_17
 		earh_18
+		crystalia_3
+		crystalia_4
+		crystalia_5
+		crystalia_6
+		crystalia_7
+		crystalia_8
+		crystalia_9
+		crystalia_10
+		crystalia_11
+		crystalia_12
+		crystalia_14
+		crystalia_15
+		crystalia_16
+		crystalia_17
+		crystalia_18
+		
+	}
+}
+wuloric_region={
+	areas={
+		crystalia_19
+		crystalia_20
+		crystalia_21
+		crystalia_22
+		crystalia_23
+		crystalia_24
+		wuloric_1
+		wuloric_2
+		wuloric_3
+		wuloric_4
+		wuloric_5
+		wuloric_6
+		wuloric_7
+		wuloric_8
+		wuloric_9
+		wuloric_10
+		wuloric_11
+		wuloric_12
+		crystalia_13
+	}
+}
+folyur_region={
+	areas={
+		folyur_1
+		folyur_2
+		folyur_3
+		folyur_4
+		folyur_5
+		folyur_6
+		folyur_7
+		folyur_8
+		folyur_9
+		folyur_10
 	}
 }
 

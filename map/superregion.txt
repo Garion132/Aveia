@@ -44,6 +44,9 @@ kaltros_superregion={
 	rogosian_heights_region
 	borestia_region
 	earh_region
+	crystalia_region
+	wuloric_region
+	folyur_region
 }
 haqsili_chain_superregion={
 	haqsili_region

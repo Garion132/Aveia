@@ -164,6 +164,12 @@ marble = {
 ceramics = {
 	base_price = 3
 }
+icorine = {
+	base_price = 4.5
+}
+chiming_tree = {
+	base_price = 3
+}
 
 unknown = {
 	base_price = 0

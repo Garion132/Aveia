@@ -866,6 +866,8 @@ quedarma_horns = {
 				NOT = { 
 					region = qirdud_region
 					region = anoric_region
+					region = vortingrad_region
+					region = borestia_region
 				}
 			}
 		}
@@ -1751,6 +1753,47 @@ marble = {
 				has_terrain = mountain
 				has_terrain = highlands
 			}
+		}
+	}
+}
+icorine = {
+	color = { 0.67 0.73 0.25 }
+	modifier = {
+		all_power_cost = -0.05
+	}
+	province = {
+		local_development_cost = -0.1
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			NOT={	
+				OR={
+					province_id = 4844
+					province_id = 4841
+					province_id = 4815
+					province_id = 4814
+					province_id = 4820
+					province_id = 4818
+				}
+			}
+		}
+	}
+}
+chiming_tree = {
+	color = { 0.86 0.69 0.89 }
+	modifier = {
+		defensiveness = 0.1
+	}
+	province = {
+		local_development_cost = -0.1
+	}
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 0
+			
 		}
 	}
 }
