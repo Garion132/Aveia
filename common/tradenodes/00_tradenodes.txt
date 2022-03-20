@@ -228,6 +228,7 @@ velious_heights={
 	color={
 		220 160 55 
 	}
+	inland=yes
 	outgoing={
 		name="golden_sun"
 		path={
@@ -264,6 +265,7 @@ kalimund={
 	color={
 		198 196 30 
 	}
+	inland=yes
 	outgoing={
 		name="golden_sun"
 		path={
@@ -291,6 +293,7 @@ grandfell_plain={
 	color={
 		140 170 117 
 	}
+	inland=yes
 	outgoing={
 		name="falxin_falls"
 		path={
@@ -336,6 +339,7 @@ rakithon={
 	color={
 		160 188 122 
 	}
+	inland=yes
 	outgoing={
 		name="golden_sun"
 		path={
@@ -363,6 +367,7 @@ excrion_pass={
 	color={
 		135 130 210 
 	}
+	inland=yes
 	outgoing={
 		name="golden_sun"
 		path={
@@ -534,6 +539,7 @@ velima_plains={
 	color={
 		185 190 130 
 	}
+	inland=yes
 	outgoing={
 		name="golden_sun"
 		path={
@@ -615,6 +621,7 @@ falxin_falls={
 	color={
 		155 220 175 
 	}
+	inland=yes
 	outgoing={
 		name="olurean"
 		path={
@@ -1788,6 +1795,7 @@ rogram={
 	color={
 		182 35 130 
 	}
+	inland=yes
 	outgoing={
 		name="liglen"
 		path={
@@ -1907,6 +1915,7 @@ curunpass={
 	color={
 		146 158 128 
 	}
+	inland=yes
 	outgoing={
 		name="dawmire"
 		path={
@@ -1925,6 +1934,7 @@ dawmire={
 	color={
 		127 14 200 
 	}
+	inland=yes
 	outgoing={
 		name="rilaor"
 		path={
@@ -1998,7 +2008,6 @@ great_fingers={
 	color={
 		102 144 204 
 	}
-	inland=yes
 	outgoing={
 		name="eraitae"
 		path={
@@ -2054,6 +2063,7 @@ crowsleap={
 	color={
 		236 135 78 
 	}
+	inland=yes
 	outgoing={
 		name="rilaor"
 		path={

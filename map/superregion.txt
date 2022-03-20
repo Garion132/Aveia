@@ -60,15 +60,17 @@ valkator_superregion={
 	foundersland_region
 }
 #new world-1st colonial target
-elteria_superregion={
-	karnaiha_region
+north_elteria_superregion={
 	brightcoast_region
 	greater_jalhorkan_region
 	windsweaps_region
-	palentai_bay_region
 	catecalde_region
+}
+south_elteria_superregion={
+	karnaiha_region
 	feltdon_region
 	deerok_region
+	palentai_bay_region
 }
 juluia_superregion={
 	shield_isles_region
