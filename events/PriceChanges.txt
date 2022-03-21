@@ -1,12 +1,59 @@
 ####################################################
 # Price Change Events
-#
-# written by Johan Andersson & Henrik Lohmander
 ####################################################
+
+
+# PRICES:		START	~1400	~1600	~1700	END
+# Grain 		2		+40%	+15%	+40%	-10%
+# Fruit			2
+# Fish			2
+# Livestock 	1.5
+# N. Supplies	2
+# Salt			4
+# P. Fur		3
+# K. Wool		2
+# Cloth 		3
+# Ceramics		3
+#
+# Copper 		6
+# Tin 			2
+# Iron 			3
+# Plaulum 		10
+# Marble		4
+#
+# Guedina 		2		+0%		+50%	+175%	+25%
+# Ankon 		4
+# Vitaite 		2.5
+# Bryrine 		3
+#
+# Slaves 		2
+# Gold Knot		3
+# Gems 			4
+# Glass 		3.5
+# Dyes 			4
+# Paper 		4.25
+# Wine			2.5
+# U. Wood		3
+# Spirl			4
+# Coal			5
+# Machinery		5
+# Man. Goods	6
+#
+# Ecriamin		2
+#
+# Que. Horn		3
+# Spices		3
+# Ch. Tree		3
+#
+# Iresta		3
+# Black Eliph	2
+# Sweetpowder	3
+# Ver. Fruit	2.5
+# Icorine		4.5
 
 namespace = prices
 
-# Raining Ash	
+# Raining Ash (1367), -A lot of things (10 Yrs), -A lot of things (50 Yrs), +25% Fur (50 Yrs), +25% Salt (50 Yrs) 
 country_event = {
 	id = prices.100
 	title = prices.100.t
@@ -142,7 +189,7 @@ country_event = {
 	}
 }
 
-# Herbalist Shops
+# Herbalist Shops (1300), +50% Ecriamin (10 Yrs), +50% Ecriamin, +25% Sunspot, +10% Spices
 country_event = {
 	id = prices.101
 	title = prices.101.t
@@ -318,7 +365,7 @@ country_event = {
 	}
 }
 
-#End of the Bronze Age
+#End of the Bronze Age (~1360s), -50% Copper, -10% Tin, -20% Ceramics
 country_event = {
 	id = prices.102
 	title = prices.102.t
@@ -364,7 +411,7 @@ country_event = {
 	}
 }
 
-#Razing of Asemont
+#Razing of Asemont (1370s), +25% Copper
 country_event = {
 	id = prices.103
 	title = prices.103.t
@@ -429,7 +476,7 @@ country_event = {
 	}
 }
 
-#Fade of Asemont - Alternative to razing of Asemont
+#Fade of Asemont (1380s) - Alternative to razing of Asemont, +25% Copper
 country_event = {
 	id = prices.104
 	title = prices.104.t
@@ -482,7 +529,7 @@ country_event = {
 	}
 }
 
-#Recovering from the Calamity
+#Recovering from the Calamity (1410), +25% Grain, Livestock, Fish, Fruit, Wine (100 Yrs)
 country_event = {
 	id = prices.105
 	title = prices.105.t
@@ -618,7 +665,7 @@ country_event = {
 	}
 }
 
-#Improvements in Iron Working
+#Improvements in Iron Working (1495), +25% Iron
 country_event = {
 	id = prices.107
 	title = prices.107.t
@@ -658,7 +705,7 @@ country_event = {
 	}
 }
 
-#Cessation of Grain Exports
+#Cessation of Grain Exports (1280-1370), +50% Grain (10 Yrs) OR +25% Grain (10 Yrs)
 country_event = {
 	id = prices.108
 	title = prices.108.t
@@ -736,7 +783,7 @@ country_event = {
 	}
 }
 
-#Demand for Metals Drop
+#Demand for Metals Drop (~1368), -25% Copper (10 Yrs), -50% Tin (10 Yrs), -25% Iron (10 Yrs), -50% Plaulum (10 Yrs)
 country_event = {
 	id = prices.109
 	title = prices.109.t
@@ -786,7 +833,7 @@ country_event = {
 	}
 }
 
-#Introduction of Machinery: +Machinery
+#Introduction of Machinery (1508): +10% Machinery (10 Yrs)
 country_event = {
 	id = prices.110
 	title = prices.110.t
@@ -862,7 +909,7 @@ country_event = {
 	}
 }
 
-#Mechanized Production: ++Machinery, ++Cloth
+#Mechanized Production (1716): +25% Machinery, +25% Cloth
 country_event = {
 	id = prices.111
 	title = prices.111.t
@@ -943,7 +990,7 @@ country_event = {
 	}
 }
 
-#Steam Locomotives: ++Machinery, +Coal
+#Steam Locomotives (1781): +25% Machinery, +10% Coal
 country_event = {
 	id = prices.112
 	title = prices.112.t
@@ -1024,7 +1071,7 @@ country_event = {
 	}
 }
 
-#Mass Production: --Machinery, +Coal, --Cloth
+#Mass Production (1716+): -25% Machinery, +10% Coal, -25% Cloth
 country_event = {
 	id = prices.113
 	title = prices.113.t
@@ -1081,7 +1128,7 @@ country_event = {
 	}
 }
 
-#Steamer Ships: ++Machinery, -Every Bulk/Heavy Good
+#Steamer Ships (1534-1625): +25% Machinery, -10% Every Bulk/Heavy Good
 country_event = {
 	id = prices.114
 	title = prices.114.t
@@ -1203,7 +1250,7 @@ country_event = {
 	}
 }
 
-#Steam-Powered Airships: +Machinery, -Every 'small' good
+#Steam-Powered Airships (1677): +25% Machinery, -10% Every 'small' good
 country_event = {
 	id = prices.115
 	title = prices.115.t
@@ -1293,7 +1340,7 @@ country_event = {
 	}
 }
 
-#Machine Tools: --Machinery
+#Machine Tools (1755): -25% Machinery
 country_event = {
 	id = prices.116
 	title = prices.116.t
@@ -1332,7 +1379,7 @@ country_event = {
 	}
 }
 
-#Railroad Mania: +++Machinery, ++++Iron, +++Coal (20 yrs), -Every 'small' good, --Every bulk/heavy good (permenant, includes iron/coal/machinery)
+#Railroad Mania (1781+): +35% Machinery, +50% Iron, +35% Coal (20 yrs), -10% Every 'small' good, -25% Every bulk/heavy good (permenant, includes iron/coal/machinery)
 country_event = {
 	id = prices.117
 	title = prices.117.t
@@ -1527,161 +1574,88 @@ country_event = {
 	}
 }
 
-#Irrigation, +Grain, ++Wine, +Fruit
+#Irrigation (1378), +15% Grain, +20% Wine, +20% Fruit
 
-#Crop Rotation, ++Grain
+#Modern Crop Rotation (1690), +25% Grain
 
-#Selective Breeding, ++Livestock, ++Wool
+#Selective Breeding (1690), +35% Livestock, +35% Wool
 
-#Canning, ++Fruit, ++Fish 
+#Canning (1760s), +30% Fruit, +30% Vercroth Fruit, +20% Fish 
 
-#Ice Boxes, ++Fruit, ++Livestock
+#Ice Boxes (1780s), +40% Fruit, +40% Vercroth Fruit, +25% Livestock
 
-#Mechanized Agriculture, +++Grain, +++Livestock, +++Fish, ++Machinery
+#Mechanized Agriculture (1820), -50% Grain, -50% Livestock, -25% Fish, -25% Fruit, -25% Vercroth Fruit, +20% Machinery
 
-# Triangle Trade
-#country_event = {
-#	id = prices.1
-#	title = prices.1.t
-#	desc = prices.1.d
-#	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
-#
-#	fire_only_once = yes
-#	
-#	major = yes
-#
-#	trigger = {
-#		colony = 1
-#		NOT = { has_global_flag = triangle_happened }
-#		any_subject_country = {
-#			is_colonial_nation = yes
-#			OR = {
-#				capital_scope = { continent = new_world }
-#			}
-#			OR = {
-#				tobacco = 4
-#				sugar = 4
-#				cotton = 4
-#			}
-#		}
-#		
-#	}
-#	mean_time_to_happen = {
-#		months = 1
-#	}
-#	
-#	
-#	option = {
-#		name = prices.1.a
-#		change_price = {
-#			trade_goods = slaves
-#			key = TRIANGLE_TRADE
-#			value = 0.5
-#			duration = -1
-#		}
-#		add_years_of_income  = 0.25
-#		add_prestige = 20
-#		set_global_flag = triangle_happened
-#	}
-#}
-#
-##Johann Friedrich B�ttger
-#country_event = {
-#	id = prices.3
-#	title = prices.3.t
-#	desc = prices.3.d
-#	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
-#	goto = 61
-#
-#	fire_only_once = yes
-#	
-#	major = yes
-#
-#	trigger = {
-#		owns = 61
-#		OR = {
-#			mission_completed = emp_sax_meissen_porcelain
-#			AND = {
-#				adm_tech = 24
-#				has_global_flag = europeans_in_china_happened
-#			}
-#		}
-#		NOT = { has_global_flag = bottger_happened }
-#	}
-#	
-#	mean_time_to_happen = {
-#		months = 1
-#	}
-#
-#	immediate = {
-#		hidden_effect = { set_global_flag = bottger_happened }
-#	}
-#	
-#	option = {
-#		name = prices.3.a
-#		61 = {
-#			add_base_production = 4
-#			change_trade_goods = chinaware
-#			if = {
-#				limit = {
-#					has_building = weapons
-#				}
-#				hidden_effect = { remove_building = weapons }
-#				add_building = mills
-#			}
-#		}
-#		change_price = {
-#			trade_goods = chinaware
-#			key = JOHAN_FRIEDRICH_BOTTGER
-#			value = -0.5
-#			duration = -1
-#		}
-#		add_prestige = 20
-#	}
-#}
-#
-##Lots of Protestants, less demand for fish
-#country_event = {
-#	id = prices.4
-#	title = prices.4.t
-#	desc = prices.4.d
-#	picture = TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture
-#
-#	fire_only_once = yes
-#	
-#	major = yes
-#
-#	trigger = {
-#		religion = catholic
-#		is_religion_enabled = protestant
-#		is_papal_controller = yes
-#		
-#		calc_true_if = {
-#			all_country = {
-#				religion = protestant
-#			}
-#			amount = 5
-#		}
-#		NOT = { has_global_flag = protestant_fish_happened }
-#	}
-#	
-#	mean_time_to_happen = {
-#		months = 1
-#	}
-#	
-#	option = {
-#		name = prices.4.a
-#		change_price = {
-#			trade_goods = fish
-#			key = PROTESTANT_DONT_EAT_FISH
-#			value = -0.1
-#			duration = -1
-#		}
-#	}
-#}
-#
-#
-#
+#Colonization of Elteria (1350), -25% Slaves, -25% Ecriamin, -25% Udezer Wood
+
+#Colonization of Julia (1700), +50% Slaves, -25% Guedina, -25% Ankon, -25% Vitaite
+
+#Colonization of Kaltros (1600), +25% Slaves, ...
+
+#Abolitionism (1703-1800), -75% Slaves
+
+#Cork Bottle Stoppers (1661), +25% Wine, +15% Glass
+
+#New Draperies (1544), +20% Cloth, +20% Wool
+
+#Uniform Regulations (1664), +15% Cloth, +10% Wool, +25% Dyes
+
+#Synthetic Dyes (1800), -40% Dyes
+	#1856 OTL, creates a dyes province with more production 
+
+#Permanent Navies (1612), +50% Naval Supplies, +15% Glass, +10% Livestock
+
+#Bronze Cannons (1521), +50% Copper
+
+#Popularization of Spirl Fabrics (1635), ++Spirl
+
+#Development of Veneering (1557), ++Udezer Wood, ++Kurrak
+
+#Explosion of Early Modern Printing, ++Paper
+
+#Dunirr Presses, ----Paper
+	#Same as the Dutch event
+
+#Administering an Empire, ++Paper
+
+#Lending Libraries and Book Clubs, +35% Paper
+
+#Faceting (1350), ++Gems
+
+#Forest Glass (1404), ++Glass
+	#Type of medieval glass made in Europe
+
+#Industrial Glass (1521), +Machinery, --Glass
+	#Brits started to industrialize the finishing process
+
+#Flint Glass & Lead Crystal (1635), ---Glass
+
+#Improvements in Lensmaking (1635), ++Glass
+
+#Glass Roofs (1807), +++Glass
+	# James Hartley introduced the Rolled Plate method in 1847. This allowed a ribbed finish and was often used for extensive glass roofs such as within railway stations.
+
+#Valei Khabaravor (1482), +50% Guedina
+	# Dude who figures out the properties of Guedina & invents the steam pump
+	
+#Airships (1651), +100% Guedina, +100% Vitaite, +25% Naval Supplies, +20% Cloth
+
+#Guedina Demand Peaks (1700), +75% Guedina (25 yrs), -50% Guedina, +30% Naval Supplies (25 yrs), +20% Coal
+	#People realize there's other products
+
+#Aveia Runs out of Trees, +30% Coal, +20% Naval Supplies
+	#All provinces in West Aveia that produce Naval supplies lose 50% output
+
+#Greater Availability of Coal, -30% Coal
+
+#Useage of Blastpowder, -20% All Minerals, -50% Guedina
+
+#Mechanized Mining, --All Minerals, ++Machinery
+
+#Bessemer Process (1768), -50% Iron, +20% Coal
+
+#Skyscrapers (1807), +25% Iron, +25% Glass, +25% Vitaite
+
 ## Coffee Boom
 #country_event = {
 #	id = prices.5
@@ -1724,192 +1698,6 @@ country_event = {
 #	}
 #}
 #
-#
-## Cotton Imports
-#country_event = {
-#	id = prices.6
-#	title = prices.6.t
-#	desc = prices.6.d
-#	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
-#
-#	
-#	major = yes
-#
-#	trigger = {
-#		is_great_power = yes
-#		any_owned_province = {
-#			trade_goods = wool
-#		} 
-#		OR = {
-#			504 = { #Indus
-#				trade_share = {
-#					country = ROOT
-#					share = 10
-#				}
-#			}
-#			524 = { #Deccan
-#				trade_share = {
-#					country = ROOT
-#					share = 10
-#				}
-#			}
-#			1340 = { #Ceylon
-#				trade_share = {
-#					country = ROOT
-#					share = 10
-#				}
-#			}
-#			1343 = { #Bengal
-#				trade_share = {
-#					country = ROOT
-#					share = 10
-#				}
-#			}
-#		}
-#		NOT = { has_country_flag = cotton_imports }
-#		NOT = { has_global_flag = cotton_imports_global }
-#	}
-#	
-#	mean_time_to_happen = {
-#		months = 1
-#	}
-#
-#	immediate = {
-#		set_global_flag = cotton_imports_global
-#	}
-#	
-#	option = {
-#		name = prices.6.a
-#		ai_chance = {
-#			factor = 50
-#			modifier = {
-#				factor = 1.5
-#				wool = 6
-#			}
-#			modifier = {
-#				factor = 1.5
-#				cotton = 12
-#			}
-#			modifier = {
-#				factor = 1.5
-#				cotton = 18
-#			}
-#		}
-#		change_price = {
-#			trade_goods = wool
-#			key = COTTON_IMPORTS
-#			value = -0.10
-#			duration = -1
-#		}
-#		change_price = {
-#			trade_goods = cotton
-#			key = COTTON_IMPORTS
-#			value = 0.20
-#			duration = -1
-#		}
-#		add_mercantilism = -2
-#	}
-#	option = {
-#		name = prices.6.b
-#		ai_chance = {
-#			factor = 50
-#			modifier = {
-#				factor = 1.5
-#				wool = 6
-#			}
-#			modifier = {
-#				factor = 1.5
-#				wool = 12
-#			}
-#			modifier = {
-#				factor = 1.5
-#				wool = 18
-#			}
-#		}
-#		set_country_flag = cotton_imports
-#		504 = { #Indus
-#			add_trade_modifier = {
-#				who = root
-#				duration = -1
-#				power = -10
-#				key = COTTON_IMPORTS_BANNED
-#			}
-#		}
-#		524 = { #Deccan
-#			add_trade_modifier = {
-#				who = root
-#				duration = -1
-#				power = -10
-#				key = COTTON_IMPORTS_BANNED
-#			}
-#		}
-#		1340 = { #Ceylon
-#			add_trade_modifier = {
-#				who = root
-#				duration = -1
-#				power = -10
-#				key = COTTON_IMPORTS_BANNED
-#			}
-#		}
-#		1343 = { #Bengal
-#			add_trade_modifier = {
-#				who = root
-#				duration = -1
-#				power = -10
-#				key = COTTON_IMPORTS_BANNED
-#			}
-#		}
-#	}
-#}
-#
-#
-## Spice Trade
-#country_event = {
-#	id = prices.8
-#	title = prices.8.t
-#	desc = prices.8.d
-#	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
-#
-#	fire_only_once = yes
-#	
-#	major = yes
-#
-#	trigger = {
-#		has_idea = quest_for_the_new_world
-#		num_of_ports = 4
-#		has_discovered = 1460 # Cape of Good Hope
-#		technology_group = western
-#		any_active_trade_node = {
-#			has_merchant = PREV
-#			OR = {
-#				province_id = 1361 # Straits of Johor
-#				province_id = 1343 # Ganges Delta
-#				province_id = 504 # Thatta
-#				province_id = 1340 # Comorin Cape
-#			}
-#		}
-#		NOT = { has_global_flag = spice_trade_happened }
-#	}
-#	
-#	mean_time_to_happen = {
-#		months = 1
-#	}
-#
-#	
-#	option = {
-#		name = prices.8.a
-#		change_price = {
-#			trade_goods = spices
-#			key = SPICE_TRADE
-#			value = 0.5
-#			duration = -1
-#		}
-#		add_years_of_income  = 0.25
-#		add_prestige = 20
-#	}
-#}
-#
-#
 ## Abolitionism
 #country_event = {
 #	id = prices.9
@@ -1941,116 +1729,6 @@ country_event = {
 #		add_prestige = 10
 #	}
 #}
-#
-#
-#
-## Eruption of Huaynaputina
-#country_event = {
-#	id = prices.10
-#	title = prices.10.t
-#	desc = prices.10.d
-#	picture = TRADEGOODS_eventPicture
-#
-#	fire_only_once = yes
-#	
-#	major = yes
-#
-#	trigger = {
-#		OR = {
-#			owns = 805 
-#			owns = 2828 
-#			owns = 804   #Provinces next to volcano location in Peru
-#		}
-#		is_year = 1600
-#		not = { is_year = 1610 }
-#	}
-#	mean_time_to_happen = {
-#		months = 3
-#	}
-#	
-#	
-#	option = {
-#		name = prices.10.a
-#		change_price = {
-#			trade_goods = grain
-#			key = HUAYNAPUTINA
-#			value = -0.75
-#			duration = 730
-#		}
-#		change_price = {
-#			trade_goods = wine
-#			key = HUAYNAPUTINA
-#			value = -0.75
-#			duration = 730
-#		}
-#	}
-#}
-#
-## Coldest Period of the  Little Ice Age 
-#country_event = {
-#	id = prices.11
-#	title = prices.11.t
-#	desc = prices.11.d
-#	picture = TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture
-#
-#	fire_only_once = yes
-#	
-#	major = yes
-#
-#	trigger = {
-#		OR = {
-#			owns = 371 #Iceland was hit badly by the Little Ice Age
-#			owns = 370 #Iceland was hit badly by the Little Ice Age
-#		}
-#		is_year = 1650
-#		not = { is_year = 1660 }
-#	}
-#	mean_time_to_happen = {
-#		months = 3
-#	}
-#	
-#	
-#	option = {
-#		name = prices.11.a
-#		change_price = {
-#			trade_goods = grain #Agriculture is having a hard time coping.
-#			key = LITTLE_ICE_AGE
-#			value = -0.25
-#			duration = 3650
-#		}
-#		change_price = {
-#			trade_goods = livestock #Agriculture is having a hard time coping.
-#			key = LITTLE_ICE_AGE
-#			value = -0.25
-#			duration = 3650
-#		}
-#		change_price = {
-#			trade_goods = wine #Spoiled by the cold
-#			key = LITTLE_ICE_AGE
-#			value = -0.25
-#			duration = 3650
-#		}
-#		change_price = {
-#			trade_goods = fish #Fishing fleets are having a hard time to coping.
-#			key = LITTLE_ICE_AGE
-#			value = -0.25
-#			duration = 3650
-#		}
-#		change_price = {
-#			trade_goods = salt	#Food Preservation.
-#			key = LITTLE_ICE_AGE
-#			value = 0.25
-#			duration = 3650
-#		}
-#		change_price = {
-#			trade_goods = fur #Increased demand due to colder climate.
-#			key = LITTLE_ICE_AGE
-#			value = 0.25
-#			duration = 3650
-#		}
-#	}
-#}
-#
 ## Cork Bottle Stoppers
 #country_event = {
 #	id = prices.12
@@ -2480,31 +2158,6 @@ country_event = {
 #		}
 #	}
 #}
-#
-## Decline of Mocha
-#country_event = {
-#	id = prices.32
-#	title = prices.32.t
-#	desc = prices.32.d
-#	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
-#	goto = 387
-#
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = prices.32.a
-#		387 = {
-#			remove_province_modifier = coffea_arabica_modifier
-#		}
-#		FROM = { 
-#			add_opinion = {
-#				who = ROOT
-#				modifier = coffee_plant_spread #We will both dislike eachother
-#			}
-#		}
-#	}
-#}
-#
 #
 ## Explosion of Early Modern Printing
 #country_event = {
