@@ -5,11 +5,11 @@
 
 # PRICES:		START	~1400	~1600	~1700	END
 # Grain 		2		+40%	+15%	+40%	-10%
-# Fruit			2
-# Fish			2
-# Livestock 	1.5
-# N. Supplies	2
-# Salt			4
+# Fruit			2		+20%	+20%	+20%	+45%
+# Fish			2		+25%	0%		0%		-5%
+# Livestock 	1.5		+25%	+10%	+45%	-5%
+# N. Supplies	2		+0%		+60%	+115%	+15%
+# Salt			4		+25%	0%		-10%	-45%
 # P. Fur		3
 # K. Wool		2
 # Cloth 		3
@@ -1288,6 +1288,12 @@ country_event = {
 			duration = -1
 		}
 		change_price = {
+			trade_goods = salt
+			key = STEAM_AIRSHIPS
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
 			trade_goods = fur
 			key = STEAM_AIRSHIPS
 			value = -0.10
@@ -1522,6 +1528,12 @@ country_event = {
 			duration = -1
 		}
 		change_price = {
+			trade_goods = salt
+			key = IMPACT_OF_RAIL
+			value = -0.10
+			duration = -1
+		}
+		change_price = {
 			trade_goods = fur
 			key = IMPACT_OF_RAIL
 			value = -0.10
@@ -1582,7 +1594,7 @@ country_event = {
 
 #Canning (1760s), +30% Fruit, +30% Vercroth Fruit, +20% Fish 
 
-#Ice Boxes (1780s), +40% Fruit, +40% Vercroth Fruit, +25% Livestock
+#Ice Boxes (1780s), +40% Fruit, +40% Vercroth Fruit, +25% Livestock, -25% Salt
 
 #Mechanized Agriculture (1820), -50% Grain, -50% Livestock, -25% Fish, -25% Fruit, -25% Vercroth Fruit, +20% Machinery
 
@@ -1604,6 +1616,8 @@ country_event = {
 	#1856 OTL, creates a dyes province with more production 
 
 #Permanent Navies (1612), +50% Naval Supplies, +15% Glass, +10% Livestock
+
+#Steel Ships (1690), -75% Naval Supplies, +50% Iron
 
 #Bronze Cannons (1521), +50% Copper
 
@@ -1643,7 +1657,7 @@ country_event = {
 #Guedina Demand Peaks (1700), +75% Guedina (25 yrs), -50% Guedina, +30% Naval Supplies (25 yrs), +20% Coal
 	#People realize there's other products
 
-#Aveia Runs out of Trees, +30% Coal, +20% Naval Supplies
+#Aveia Runs out of Trees (1600s), +30% Coal, +20% Naval Supplies
 	#All provinces in West Aveia that produce Naval supplies lose 50% output
 
 #Greater Availability of Coal, -30% Coal
