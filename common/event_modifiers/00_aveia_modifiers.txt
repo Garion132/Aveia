@@ -32,6 +32,10 @@
 	military_expansion = {
 		land_forcelimit_modifier = 0.20
 	}
+	bronze_clad_warriors = {
+		fire_damage_received = -0.10
+		shock_damage_received = -0.10
+	}
 	monopolized_the_cradle = {
 		trade_efficiency = 0.15
 	}
@@ -94,7 +98,7 @@ scramble_for_elteria = { #For colonial overlords
 	global_tax_income = -6
 	colonists = 1
 	global_colonial_growth = 20
-	range = 2
+	range = 1
 }
 scramble_for_elteria_colony = { #For colonies
 	colonists = 1

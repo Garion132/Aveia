@@ -6,6 +6,8 @@
 
  gave_up_independence_tt:0 "Has NOT Given Up Independence"
 
+ IWE_build_army_mission_title:0 "Build to Force Limit"
+ IWE_build_army_mission_desc:0 "Any growing country must maintain a reasonably sized army. By expanding our forces we can both further our political interests abroad and stimulate our domestic economy."
  prepare_for_independence_mission_title:0 "Prepare for Independence"
  prepare_for_independence_mission_desc:0 "Iwenlumy has long been the richest duchy under Kyathi rule. We have long had our own military, navy, and even economy. Our ports face directly towards the Cradle while the Kyathi's do not. We are on the opposite side of a mountain range. We deserve independence and we will devote our efforts towards it."
  prepare_for_independence_tt:0 "Our Liege will not like this"
@@ -19,6 +21,15 @@
  befriend_other_duchies_tt:0 "Our Liege will not like this\nEvery §YKyathi Duchy§! you have over §Y125§! relations with will gain §R+25.0%§! Liberty Desire."
  independence_war_mission_title:0 "Independence War"
  independence_war_mission_desc:0 "To War!"
+ 
+ bronze_clad_warriors_title:0 "Bronze Clad Warriors"
+ bronze_clad_warriors_desc:0 "Our warriors, clad in Bronze, shall fight for victory!"
+ bronze_clad_warriors:0 "Bronze Clad Warriors`"
+ strangle_kyath_title:0 "Strangle Kyath"
+ strangle_kyath_desc:0 "While we may not be able to beat Kyath in open battle, we can win through trade connections. By leveraging our business ties, we can isolate Kyath from Cradle markets for a short time."
+ IWE_SANCTIONS:0 "Iwenlumy Merchant Sanctions"
+ bribe_kyathian_vassals_title:0 "Bribe Kyathian Vassals"
+ bribe_kyathian_vassals_desc:0 "By offering lucrative amounts of gifts to Kyath's vassals, we may be able to dissuade them from Kyath's cause."
 
  cradle_trade_mission_title:0 "Cradle Trade"
  cradle_trade_mission_desc:0 "Trade in the Cradle is among the most lucrative in the world. If we can exploit it, then our coffers will most certainly not complain."

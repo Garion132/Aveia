@@ -1,0 +1,139 @@
+country_decisions = {
+
+	bronze_clad_warriors = {
+		major = no
+		potential = {
+			war_with = KYA
+            is_subject = no
+			tag = IWE
+			owns_core_province = 82
+			NOT = { has_country_flag = bronze_clad_warriors_happened }
+		}
+		allow = {
+			controls = 82
+			years_of_income = 0.5
+			mil_power = 200
+		}
+		effect = {
+			set_country_flag = bronze_clad_warriors_happened
+			add_years_of_income = -0.5
+			add_mil_power = -200
+			add_country_modifier = {
+				name = "bronze_clad_warriors"
+				duration = 1825 #5 Years
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	strangle_kyath = {
+		major = no
+		potential = {
+			war_with = KYA
+            is_subject = no
+			tag = IWE
+			NOT = { has_country_flag = strangle_kyath_happened }
+		}
+		allow = {
+			dip_power = 200
+		}
+		effect = {
+			set_country_flag = strangle_kyath_happened
+			add_dip_power = -200
+			tooltip = {
+				80 = {
+					add_trade_modifier = {
+						who = KYA
+						duration = 730 #2 Years
+						power = -30
+						key = IWE_SANCTIONS
+					}
+				}
+			}
+			hidden_effect = {
+				KYA = {
+					country_event = { id = iwenlumy.6 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	bribe_kyathian_vassals = {
+		major = no
+		potential = {
+			war_with = KYA
+            is_subject = no
+			tag = IWE
+			NOT = { has_country_flag = bribe_kyathian_vassals_happened }
+			OR = {
+				AND = {
+					exists = KYT
+					KYT = { vassal_of = KYA }
+				}
+				AND = {
+					exists = TIT
+					TIT = { vassal_of = KYA }
+				}
+				AND = {
+					exists = ANO
+					ANO = { vassal_of = KYA }
+				}
+				AND = {
+					exists = LUR
+					LUR = { vassal_of = KYA }
+				}
+				AND = {
+					exists = MAT
+					MAT = { vassal_of = KYA }
+				}
+			}
+		}
+		allow = {
+			treasury = 500
+		}
+		effect = {
+			set_country_flag = bribe_kyathian_vassals_happened
+			add_treasury = -500
+			tooltip = {
+				KYT = {
+					add_liberty_desire = 50
+				}
+				TIT = {
+					add_liberty_desire = 50
+				}
+				ANO = {
+					add_liberty_desire = 50
+				}
+				LUR = {
+					add_liberty_desire = 50
+				}
+				MAT = {
+					add_liberty_desire = 50
+				}
+			}
+			hidden_effect = {
+				KYT = {
+					country_event = { id = iwenlumy.7 }
+				}
+				TIT = {
+					country_event = { id = iwenlumy.7 }
+				}
+				ANO = {
+					country_event = { id = iwenlumy.7 }
+				}
+				LUR = {
+					country_event = { id = iwenlumy.7 }
+				}
+				MAT = {
+					country_event = { id = iwenlumy.7 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

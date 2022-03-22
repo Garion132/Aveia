@@ -35,10 +35,20 @@ IWE_economic_missions = {
 			owns_core_province = 80
 			owns_core_province = 78
 			80 = { #Iwenlumy (Cloth)
-				has_building = workshop
+				OR = {
+					has_building = workshop
+					has_building = artisans_guild
+					has_building = craftsmans_district
+					has_building = industrial_zone
+				}
 			}
 			78 = { #Serranil (Ceramics)
-				has_building = workshop
+				OR = {
+					has_building = workshop
+					has_building = artisans_guild
+					has_building = craftsmans_district
+					has_building = industrial_zone
+				}
 			}
 		}
 		effect = {
@@ -577,8 +587,14 @@ IWE_colonial_missions = {
 		trigger = {
 			treasury = 200
 			3912 = { #Kaleere
-				has_building = coastal_defence
-				has_building = fort_15th
+				OR = {
+					has_building = coastal_defence
+					has_building = naval_battery
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
 			}
 		}
 		effect = {

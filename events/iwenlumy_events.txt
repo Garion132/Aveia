@@ -533,3 +533,54 @@ country_event = {
 		}
 	}
 }
+
+#Iwenlumy Sanctions Us!
+country_event = {
+	id = iwenlumy.6
+	title = iwenlumy.6.t
+	desc = iwenlumy.6.d
+
+	immediate = {
+		hidden_effect = {
+			80 = {
+				add_trade_modifier = {
+					who = KYA
+					duration = 730 #2 Years
+					power = -30
+					key = IWE_SANCTIONS
+				}
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+
+	option = { #Damn It!
+		name = iwenlumy.6.a
+		tooltip = {
+			80 = {
+				add_trade_modifier = {
+					who = KYA
+					duration = 730 #2 Years
+					power = -30
+					key = IWE_SANCTIONS
+				}
+			}
+		}
+	}
+}
+
+#Iwenlumy Gives a Gift!
+country_event = {
+	id = iwenlumy.7
+	title = iwenlumy.7.t
+	desc = iwenlumy.7.d
+	
+	is_triggered_only = yes
+
+	option = { #Ooh! Shiny...
+		name = iwenlumy.7.a
+		add_treasury = 100
+		add_liberty_desire = 50
+	}
+}
