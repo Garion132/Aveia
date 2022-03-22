@@ -1,0 +1,148 @@
+#Scripted effects relating to China, with or without DLC.
+
+CTC_next_location_effect = {
+	3272={
+		if={
+			limit={
+				check_variable = {
+					which = CTC_funding_progress
+					value = 10
+				}
+			}
+			cede_province = CTC
+			add_core = CTC
+			change_religion = tlaunorist
+			change_culture = omyse
+			add_institution_embracement = {
+				which = organized_state
+				value = 100
+			}
+			add_institution_embracement = {
+				which = bronze_working
+				value = 100
+			}
+			add_institution_embracement = {
+				which = crop_rotation
+				value = 100
+			}
+			add_institution_embracement = {
+				which = iron_working
+				value = 100
+			}
+			add_institution_embracement = {
+				which = illuminare
+				value = 100
+			}
+			if={
+				limit={
+					has_global_flag = CTC_sponsor_found
+				}
+				event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
+			}
+			else={
+				CTC={
+					#change_religion = tlaunorist
+					#change_primary_culture = omyse
+					#add_treasury = 300
+					define_ruler ={
+						name = "Coltoc"
+						dynasty = "Vilker"
+						age = 106
+						adm = 5
+						dip = 6
+						mil = 4
+						fixed = yes
+					}
+				}
+			}
+			while = {
+				limit = {
+					check_variable = {
+						which = CTC_funding_level
+						value = 1
+					}
+				}
+				CTC={add_treasury = 25}
+				subtract_variable={
+					which = CTC_funding_level
+					value = 1
+				}
+			}
+		}
+		else_if={
+			limit={
+				check_variable = {
+					which = CTC_funding_progress
+					value = 9
+				}
+			}
+			771={owner={country_event = {id = eastern_scramble.4}}}
+		}
+		else_if={
+			limit={
+				check_variable = {
+					which = CTC_funding_progress
+					value = 8
+				}
+			}
+			885={owner={country_event = {id = eastern_scramble.4}}}
+		}
+		else_if={
+			limit={
+				check_variable = {
+					which = CTC_funding_progress
+					value = 7
+				}
+			}
+			896={owner={country_event = {id = eastern_scramble.4}}}
+		}
+		else_if={
+			limit={
+				check_variable = {
+					which = CTC_funding_progress
+					value = 6
+				}
+			}
+			3905={owner={country_event = {id = eastern_scramble.4}}}
+		}
+		else_if={
+			limit={
+				check_variable = {
+					which = CTC_funding_progress
+					value = 5
+				}
+			}
+			3898={owner={country_event = {id = eastern_scramble.4}}}
+		}
+		else_if={
+			limit={
+				check_variable = {
+					which = CTC_funding_progress
+					value = 4
+				}
+			}
+			3913={owner={country_event = {id = eastern_scramble.4}}}
+		}
+		else_if={
+			limit={
+				check_variable = {
+					which = CTC_funding_progress
+					value = 3
+				}
+			}
+			760={owner={country_event = {id = eastern_scramble.4}}}
+		}
+		else_if={
+			limit={
+				check_variable = {
+					which = CTC_funding_progress
+					value = 2
+				}
+			}
+			80={owner={country_event = {id = eastern_scramble.4}}}
+		}
+		else={
+			53={owner={country_event = {id = eastern_scramble.4}}}
+		}
+	}
+}

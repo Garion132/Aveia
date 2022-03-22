@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = ollunian
-religion = catholic
+religion = tlaunorist
 technology_group = lake_elves_group
 capital = 1143 # 
 government_rank = 1

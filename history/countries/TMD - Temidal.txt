@@ -1,0 +1,8 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = umanti
+religion = tlaunorist
+technology_group = lake_elves_group
+capital = 876 # 
+#national_focus = DIP
+#historical_rival = HAB

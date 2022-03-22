@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = nilenorian
+religion = tlaunorist
+technology_group = lake_elves_group
+capital = 849 # 
+#national_focus = DIP
+#historical_rival = HAB

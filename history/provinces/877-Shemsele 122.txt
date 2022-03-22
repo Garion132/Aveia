@@ -1,6 +1,7 @@
 #Shemsele
 
 add_core = SHE
+add_core = NYK
 owner = SHE
 controller = SHE
 culture = umanti

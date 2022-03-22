@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = gulban
-religion = catholic
+religion = tlaunorist
 technology_group = ork_group
 capital = 1764 #Brur
 #national_focus = DIP

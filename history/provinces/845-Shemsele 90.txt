@@ -1,6 +1,7 @@
 #Shemsele
 
 add_core = SHE
+add_core = NYN
 owner = SHE
 controller = SHE
 culture = nilenorian

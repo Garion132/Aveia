@@ -4,6 +4,7 @@ latent_trade_goods = {
 }
 
 add_core = SHE
+add_core = ENY
 owner = SHE
 controller = SHE
 culture = umanti

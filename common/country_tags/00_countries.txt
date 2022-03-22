@@ -217,6 +217,7 @@ THL = "countries/Thilrana.txt"
 
 ## Eastern expeditions
     HIR = "countries/Hirdam Order.txt"
+	CTC = "countries/Cradle Trade Company.txt"
 
 ## Eastern formables
 
@@ -276,6 +277,25 @@ THL = "countries/Thilrana.txt"
 	#shemsele
 	JAM = "countries/Jamlu.txt"
 	WAS = "countries/Wassad.txt"
+	NYN = "countries/Nynth.txt"
+	KLI = "countries/Klinma.txt"
+	SEI = "countries/Semitan.txt"
+	OLU = "countries/Ollumi.txt"
+	TMD = "countries/Temidal.txt"
+	AYN = "countries/Aymner.txt"
+	NYK = "countries/Nylka.txt"
+	UNT = "countries/Umantien.txt"
+	DRY = "countries/Draumyesi.txt"
+	BLF = "countries/Belfune.txt"
+	ENY = "countries/Enyalasha.txt"
+	ELN = "countries/Elnore.txt"
+	AMN = "countries/Amnase.txt"
+	OLS = "countries/Olsyaren.txt"
+	ULI = "countries/Ulilrana.txt"
+	AMS = "countries/Amsesa.txt"
+	RAH = "countries/Rahet.txt"
+	TRI = "countries/Treivenia.txt"
+	OLO = "countries/Olosa.txt"
 	
 ILR = "countries/Ilrazin.txt"
 ANT = "countries/Anthyr.txt"

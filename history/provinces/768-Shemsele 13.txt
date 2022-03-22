@@ -1,6 +1,7 @@
 #Shemsele
 
 add_core = SHE
+add_core = TRI
 owner = SHE
 controller = SHE
 culture = shemsele

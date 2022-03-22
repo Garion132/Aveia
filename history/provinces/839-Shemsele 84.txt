@@ -1,6 +1,7 @@
 #Shemsele
 
 add_core = SHE
+add_core = SEI
 add_core = OLL
 owner = SHE
 controller = SHE

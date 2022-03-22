@@ -5,6 +5,7 @@ latent_trade_goods = {
 
 add_core = SHE
 add_core = OLL
+add_core = SEI
 owner = SHE
 controller = SHE
 culture = loironan

@@ -63,6 +63,11 @@ country_event = {#ash and ice
 				}
 			}
 			country_event = {id = eastern_scramble.2 days = 7}
+			988={#wealthy merchant of elision starts the CTC
+				owner = {
+					country_event = {id = eastern_scramble.3 days = 38}
+				}
+			}
 			set_global_flag = EASTERN_SCRAMBLE
 		}
 	}
@@ -72,7 +77,7 @@ country_event = {#ash and ice
 
 	}
 	option = {
-		name = eastern_scramble.1.a
+		name = eastern_scramble.1.b
 		switch_tag = HIR
 	}
 }
@@ -95,5 +100,166 @@ country_event = {#opening of the east
 	option = {
 		name = eastern_scramble.2.a
 
+	}
+}
+
+country_event = {#start of the CTC chain 988
+	id = eastern_scramble.3
+	title = eastern_scramble.3.t
+	desc = eastern_scramble.3.d
+	
+	is_triggered_only = yes
+	
+	#fire_only_once = yes
+	
+	# trigger={
+		# has_global_flag = iron_age_calamity
+		# is_year = 1440
+		# owns = 1060
+	# }
+	# mean_time_to_happen = {
+		# months = 5
+	# }
+	immediate={
+		3272={
+			set_variable = {
+				which = CTC_funding_level
+				value = 0
+			}
+			set_variable = {
+				which = CTC_funding_progress
+				value = 1
+			}
+		}
+	}
+
+	option = {#ignore this
+		name = eastern_scramble.3.a
+		CTC_next_location_effect = yes
+	}
+	option = {#support it
+		name = eastern_scramble.3.b
+		add_treasury = -25
+		3272={
+			change_variable = {
+				which = CTC_funding_level
+				value = 1
+			}
+		}
+		CTC_next_location_effect = yes
+	}
+	option = {#embead a noble (tag switch)
+		name = eastern_scramble.3.c
+		3272={
+			change_variable = {
+				which = CTC_funding_level
+				value = 2
+			}
+		}
+		add_treasury = -50
+		ROOT={save_global_event_target_as = CTC_tag_switch_nation}
+		set_global_flag = CTC_sponsor_found
+		CTC_next_location_effect = yes
+	}
+}
+
+country_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,3905,896,885,771
+	id = eastern_scramble.4
+	title = eastern_scramble.4.t
+	desc = eastern_scramble.4.d
+	
+	is_triggered_only = yes
+	
+	#fire_only_once = yes
+	
+	# trigger={
+		# has_global_flag = iron_age_calamity
+		# is_year = 1440
+		# owns = 1060
+	# }
+	# mean_time_to_happen = {
+		# months = 5
+	# }
+	immediate={
+		3272={
+			change_variable = {
+				which = CTC_funding_progress
+				value = 1
+			}
+		}
+	}
+
+	option = {#ignore this
+		name = eastern_scramble.4.a
+		CTC_next_location_effect = yes
+	}
+	option = {#support it
+		name = eastern_scramble.4.b
+		3272={
+			change_variable = {
+				which = CTC_funding_level
+				value = 1
+			}
+		}
+		CTC_next_location_effect = yes
+		add_treasury = -25
+	}
+	option = {#embead a noble (tag switch)
+		name = eastern_scramble.4.c
+		trigger={
+			NOT={
+				has_global_flag = CTC_sponsor_found
+			}
+		}
+		3272={
+			change_variable = {
+				which = CTC_funding_level
+				value = 2
+			}
+		}
+		CTC_next_location_effect = yes
+		add_treasury = -50
+		
+		save_global_event_target_as = CTC_tag_switch_nation
+	}
+}
+
+country_event = {#switching tag to CTC
+	id = eastern_scramble.5
+	title = eastern_scramble.5.t
+	desc = eastern_scramble.5.d
+	
+	is_triggered_only = yes
+	
+	#major = yes
+	
+	immediate = {
+		# hidden_effect={
+			# country_event = {id = eastern_scramble.2}
+		# }
+	}
+
+	option = {
+		name = eastern_scramble.5.a
+		3272={
+			change_religion = event_target:CTC_tag_switch_nation
+			change_culture = event_target:CTC_tag_switch_nation
+		}
+		CTC={
+			change_religion = event_target:CTC_tag_switch_nation
+			change_primary_culture = event_target:CTC_tag_switch_nation
+			#add_treasury = 300
+			define_ruler ={
+				#name = "Hilbart"
+				#dynasty = "Omyite"
+				adm = 4
+				dip = 5
+				mil = 2
+				fixed = yes
+			}
+		}
+		switch_tag = CTC
+		clr_global_flag = CTC_sponsor_found
+		clear_global_event_target = CTC_tag_switch_nation
 	}
 }

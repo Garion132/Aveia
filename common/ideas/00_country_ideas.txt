@@ -488,6 +488,7 @@ expiditionary_state_ideas = {
 	trigger = {
 		OR={
 			tag = HIR
+			tag = CTC
 		}
 	}
 	free = yes		#will be added at load.

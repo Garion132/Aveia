@@ -1,6 +1,7 @@
 #Shemsele
 
 add_core = SHE
+add_core = TMD
 owner = SHE
 controller = SHE
 culture = umanti

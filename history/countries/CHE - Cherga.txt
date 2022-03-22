@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = neanathan
-religion = catholic
+religion = tlaunorist
 technology_group = ork_group
 capital = 1464 # 
 #national_focus = DIP
