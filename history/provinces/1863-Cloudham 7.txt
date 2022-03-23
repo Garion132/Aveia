@@ -19,8 +19,8 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 
 1200.1.1={
-	add_core = CLO
-	owner = CLO
-	controller = CLO
+	add_core = KAF
+	owner = KAF
+	controller = KAF
 	is_city = yes
 }

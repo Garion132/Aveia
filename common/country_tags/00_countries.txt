@@ -218,6 +218,8 @@ THL = "countries/Thilrana.txt"
 ## Eastern expeditions
     HIR = "countries/Hirdam Order.txt"
 	CTC = "countries/Cradle Trade Company.txt"
+	LRO = "countries/Lrocra.txt"
+	
 
 ## Eastern formables
 

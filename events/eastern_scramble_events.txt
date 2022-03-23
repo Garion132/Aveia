@@ -68,6 +68,11 @@ country_event = {#ash and ice
 					country_event = {id = eastern_scramble.3 days = 38}
 				}
 			}
+			748={#Nobel from nadara
+				owner = {
+					country_event = {id = eastern_scramble.6 days = 72}
+				}
+			}
 			set_global_flag = EASTERN_SCRAMBLE
 		}
 	}
@@ -163,7 +168,7 @@ country_event = {#start of the CTC chain 988
 	}
 }
 
-country_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,3905,896,885,771
+province_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,3905,896,885,771
 	id = eastern_scramble.4
 	title = eastern_scramble.4.t
 	desc = eastern_scramble.4.d
@@ -189,9 +194,21 @@ country_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,39
 		}
 	}
 
-	option = {#ignore this
+	option = {#prevent them
 		name = eastern_scramble.4.a
 		CTC_next_location_effect = yes
+		add_unrest = 5
+	}
+	option = {#ignore this
+		name = eastern_scramble.4.e
+		CTC_next_location_effect = yes
+		3272={
+			change_variable = {
+				which = CTC_funding_level
+				value = 1
+			}
+		}
+		add_base_production = -1
 	}
 	option = {#support it
 		name = eastern_scramble.4.b
@@ -263,3 +280,67 @@ country_event = {#switching tag to CTC
 		clear_global_event_target = CTC_tag_switch_nation
 	}
 }
+
+country_event = {#Lrocra
+	id = eastern_scramble.6
+	title = eastern_scramble.6.t
+	desc = eastern_scramble.6.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			4564={
+				cede_province = LRO
+				add_core = LRO
+				change_religion = tlaunorist
+				change_culture = omyse
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+			}
+			LRO={
+				change_religion = tlaunorist
+				change_primary_culture = nadarian
+				add_treasury = 50
+				define_ruler ={
+					name = "Folria"
+					dynasty = "Nadari"
+					age = 43
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.6.a
+
+	}
+	option = {
+		name = eastern_scramble.6.b
+		switch_tag = LRO
+	}
+}
+
+

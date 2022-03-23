@@ -19,9 +19,9 @@ discovered_by = ork_group
 discovered_by = free_fauns_group
 
 1250.1.1={
-	add_core = SRI
-	owner = SRI
-	controller = SRI
+	add_core = SAL
+	owner = SAL
+	controller = SAL
 	is_city = yes
 	culture = salorian
 	religion = tlaunorist

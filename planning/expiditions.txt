@@ -6,7 +6,7 @@ EAST - 53
 666 -  -omoran,tlaunorist
 
 Ve'nara Company
-Cradle Trade company - 988,53,80,760,3913,3898,3905,896,885,771 - Indorran
+=Cradle Trade company - 988,53,80,760,3913,3898,3905,896,885,771 - Indorran
 Gulta
 Telafell
 Quanil
@@ -29,7 +29,7 @@ Redrun
 Vrur
 Delcarva
 Serar
-Lrocra
+=Lrocra
 Arkhonia -  - Grand republic
 Shempeak
 Selehei

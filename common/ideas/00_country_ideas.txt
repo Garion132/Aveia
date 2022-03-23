@@ -482,41 +482,38 @@ expiditionary_state_ideas = {
 	}
 
 	bonus = {
-		navy_tradition = 1
+		global_tax_modifier = 0.2
 	}
 	
 	trigger = {
 		OR={
 			tag = HIR
 			tag = CTC
+			tag = LRO
 		}
 	}
 	free = yes		#will be added at load.
 
 	exp_trading_guilds = {
 		production_efficiency = 0.05
-		global_own_trade_power = 0.1
 	}
 	exp_loyal_solders = {
-		land_morale = 0.125
+		land_morale = 0.1
 	}
-	exp_exspanding_horisions = {
-		range = 0.9
-	}
-	exp_mercanry_armys = {
-		merc_maintenance_modifier = -0.33
-		mercenary_discipline = 0.25
-	}
-	exp_city_and_state = {
-		development_cost = -0.1
+	increase_taxation = {
 		global_tax_modifier = 0.1
+	}	
+	cheaper_mercenaries = {
+		merc_maintenance_modifier = -0.2
 	}
-	exp_tlauor_and_his_people = {
-		tolerance_own = 2
+	increased_trade_power = {
+		global_trade_power = 0.1
 	}
-	exp_center_of_lights = {
-		same_culture_advisor_cost = -0.5
-		global_institution_spread = 0.1
+	increased_manpower = {
+		global_manpower_modifier = 0.2
+	}
+	increased_trade_steering = {
+		trade_steering = 0.1
 	}
 }
 

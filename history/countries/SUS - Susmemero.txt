@@ -4,7 +4,7 @@ primary_culture = rake
 add_accepted_culture = tmiik
 religion = vulikivite
 technology_group = lake_elves_group
-capital = 2053 # 
+capital = 2051 # 
 #national_focus = DIP
 #historical_rival = HAB
 
