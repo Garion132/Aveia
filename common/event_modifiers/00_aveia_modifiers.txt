@@ -109,6 +109,11 @@ elteria_colonial_office = {
 	local_colonist_placement_chance = 0.10
 }
 
+tinflation = {
+	inflation_reduction = -0.02
+	global_tax_income = 4
+}
+
 wonderous_spark = {
 	idea_cost = -0.1
 }

@@ -194,6 +194,8 @@
  MACHINE_TOOLS:0 "Machine Tools"
  RAILROAD_MANIA:0 "Railroad Mania"
  IMPACT_OF_RAIL:0 "Impact of Rail"
+ ALCHEMY_TRANSMUTATION:0 "Transmutation of Tin into Silver"
+ TRANSMUTATION_IMPURITIES:0 "Impurities in Transmutations"
 
  #Decisons
  enter_scramble_for_elteria_title:0 "Enter the Scramble for Elteria"

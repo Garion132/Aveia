@@ -68,6 +68,14 @@
  prices.117.d:0 ""
  prices.117.a:0 "We need more!"
 
+ prices.118.t:0 "Transmutation of Tin into Silver"
+ prices.118.d:0 "An alchemist studying transmutation has come across a remarkable discovery. While experimenting with different metal transmutations, he stumbled upon a way to transmutate Tin into Silver! He has tried to keep the secret squirreled away, but word has gotten out and now everyone is attempting at creating silver from tin."
+ prices.118.a:0 "We will be rich!"
+
+ prices.119.t:0 "Impurities in Transmutations"
+ prices.119.d:0 "During the height of the tin to silver transmutation craze, a skeptical alchemist by the name of Naler Taketal has found distinct impurities in the silver produced by tin. These impurities are easily distinguishable from anything else and can even be observed by the common person. This, coinciding with more recent skepticism of transmutations, has led to the outright rejection of impure coins minted by would-be alchemists. Experienced alchemists can still transmutate tin into silver with few impurities, not noticable to the naked eye, but given the rarity of such people, they have a negligible impact."
+ prices.119.a:0 "Well, it was great while it lasted"
+
  elteria_event.12.t:0 "Scramble for Elteria"
  elteria_event.12.d:0 "Elteria, long a land rife with rebel Fauns and dense Jungle, has a miracle herb in its densest forests: Ecriamin. This, along with new discoveries of silver deposits and great growing locations have led to a shocking realization amongst our merchants, our nobles, and our peasants alike: \n\nWhoever controls Elteria will control Aveia, for whoever controls Elteria controls the Ecriamin trade, and whoever controls the Ecriamin trade controls the health of kings."
  elteria_event.12.a:0 "Time for a Scramble"

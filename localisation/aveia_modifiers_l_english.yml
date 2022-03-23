@@ -72,6 +72,9 @@
  desc_remote_lands_of_juluia:0 "Juluia's remoteness on the other side of the globe from civilization makes it remarkably difficult to colonize."
 
  #Events
+ tinflation:0 "Tinflation"
+ desc_tinflation:0 "A world of alchemists are turning near-worthless tin into valuable silver. It is beneficial to those involved but is causing prices to soar."
+
  wonderous_spark:0 "Wonderous Spark"
  desc_wonderous_spark:0 "One of our philosophers had a brilliant spark of imagination, and have aided us immensely."
  divine_spark:0 "Divine Spark"
