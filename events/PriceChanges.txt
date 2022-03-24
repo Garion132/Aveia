@@ -15,13 +15,13 @@
 # Cloth 		3
 # Ceramics		3
 #
-# Copper 		6		-25%	+25%	-20%	-20%	-85%
+# Copper 		6		-15%	+35%	+15%	+15%	-40%
 # Tin 			2		
 # Iron 			3
 # Plaulum 		10
 # Marble		4
 #
-# Guedina 		2		+0%				+50%	+175%	+25%
+# Guedina 		2		+0%				+100%	+225%	+55%
 # Ankon 		4
 # Vitaite 		2.5
 # Bryrine 		3
@@ -1056,7 +1056,7 @@ country_event = {
 	}
 }
 
-#Mass Production (1716+): -25% Machinery, +10% Coal, -25% Cloth
+#Mass Production (1716+): -25% Machinery, +10% Coal, -25% Cloth, +25% Wool
 country_event = {
 	id = prices.113
 	title = prices.113.t
@@ -1100,6 +1100,12 @@ country_event = {
 			trade_goods = cloth
 			key = MASS_PRODUCTION
 			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = wool
+			key = MASS_PRODUCTION
+			value = 0.25
 			duration = -1
 		}
 		change_price = {
@@ -1596,13 +1602,15 @@ country_event = {
 	
 	option = { #We will be rich!
 		name = prices.118.a
-		every_province = {
-			limit = {
-				trade_goods = tin
-			}
-			add_permanent_province_modifier = {
-				name = tinflation
-				duration = -1
+		hidden_effect = {
+			every_province = {
+				limit = {
+					trade_goods = tin
+				}
+				add_permanent_province_modifier = {
+					name = tinflation
+					duration = -1
+				}
 			}
 		}
 		add_years_of_income = 2
@@ -1671,14 +1679,16 @@ country_event = {
 	
 	option = { #Well, it was great while it lasted
 		name = prices.119.a
-		every_province = {
-			limit = {
-				has_province_modifier = tinflation
-			}
-			remove_province_modifier = tinflation
-			owner = {
-				add_inflation = 0.1
-				add_years_of_income = 0.05
+		hidden_effect = {
+			every_province = {
+				limit = {
+					has_province_modifier = tinflation
+				}
+				remove_province_modifier = tinflation
+				owner = {
+					add_inflation = 0.1
+					add_years_of_income = 0.05
+				}
 			}
 		}
 		add_prestige = 10
@@ -1728,6 +1738,11 @@ country_event = {
 
 #Iron Cannons (1586), -35% Copper, +25% Iron
 
+#Speltering (1573), +25% Copper
+	#1657, discovered you can allow zinc and copper
+
+#Discovery of Hasqili (1450s), -25% Spirl
+
 #Popularization of Spirl Fabrics (1635), +25% Spirl
 
 #Development of Veneering (1557), +50% Udezer Wood, +25% Kurrak
@@ -1761,6 +1776,8 @@ country_event = {
 	
 #Airships (1651), +100% Guedina, +100% Vitaite, +25% Naval Supplies, +20% Cloth
 
+#Guedina-Powered Weapons (1560), +50% Guedina
+
 #Guedina Demand Peaks (1700), +75% Guedina (25 yrs), -50% Guedina, +30% Naval Supplies (25 yrs), +20% Coal
 	#People realize there's other products
 
@@ -1769,7 +1786,7 @@ country_event = {
 
 #Greater Availability of Coal (1750s), -30% Coal
 
-#Useage of Blastpowder (1742), -20% All Minerals, -50% Guedina
+#Useage of Blastpowder (1742), -10% All Minerals, -50% Guedina
 
 #Mechanized Mining (1820), -20% All Minerals, +15% Machinery
 
@@ -1780,6 +1797,20 @@ country_event = {
 #Growth of Advertising (1742), +25% Manufactured Goods, +25% Ceramics, +25% Cloth
 
 #New-Age Hunting Practices (1560), -25% Pademi Fur
+
+#Sunspot Lamps (1404), +50% Sunspot
+
+#Whaling (1677), -50% Sunspot, +10% Glass
+
+#Marble & Bronze Sculptures (1400), +25% Marble, +10% Copper, +10% Tin
+
+#Golden Age of the Spice Trade (1600s), +50% Spices (50 yrs)
+
+#Expansion of Yhenil Bridge (??), +25% Marble, +10% Naval Supplies, +10% Glass (10 yrs)
+
+#Collapse of Gulba (Not in this file, 1370s), +50% Plaulum
+
+#A New Source of Plaulum Found (1600s), -20% Plaulum
 
 ## Coffee Boom
 #country_event = {

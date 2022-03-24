@@ -2489,7 +2489,7 @@ country_event = {
 				}
 			}
 		}
-#The Gulban State Collapses!
+		#The Gulban State Collapses!
 		country_event = {
 			id = iron_age_calamity.1004
 			title = "iron_age_calamity.1004.t"
@@ -2672,6 +2672,13 @@ country_event = {
 					add_base_production = 1
 					add_base_tax = 1
 					add_center_of_trade_level = 1
+				}
+
+				change_price = {
+					trade_goods = plaulum
+					key = COLLAPSE_OF_GULBA
+					value = 0.5
+					duration = -1
 				}
 			}
 		}
