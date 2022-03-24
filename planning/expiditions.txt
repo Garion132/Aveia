@@ -6,28 +6,29 @@ EAST - 53
 666 -  -omoran,tlaunorist
 
 Ve'nara Company
-=Cradle Trade company - 988,53,80,760,3913,3898,3905,896,885,771 - Indorran
-Gulta
+=Cradle Trade Company - 988,53,80,760,3913,3898,3905,896,885,771 - Indorran
+=Imperial Kaltros Company
+=Gulta
 Telafell
 Quanil
 Telairn
 Tidrea
-Zelfea
+=Zelfea
 Calharn
 Alvedi
 Velnoi
-Linar
+=Linar
 Entir
 Culinvale
 Terinsa
-Daltsland
+=Daltsland
 Nytlen
 Kelrau
 Oltos
 Welltron
-Redrun
+=Redrun
 Vrur
-Delcarva
+=Delcarva
 Serar
 =Lrocra
 Arkhonia -  - Grand republic

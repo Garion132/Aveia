@@ -55,6 +55,11 @@ CTC_next_location_effect = {
 					}
 				}
 			}
+			HIR={add_treasury = 25}#pay the toll
+			subtract_variable={
+				which = CTC_funding_level
+				value = 1
+			}
 			while = {
 				limit = {
 					check_variable = {
@@ -70,6 +75,7 @@ CTC_next_location_effect = {
 			}
 			add_base_tax = 1
 			add_base_manpower = 1
+			
 		}
 		else_if={
 			limit={

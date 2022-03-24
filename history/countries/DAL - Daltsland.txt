@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = garumok
+religion = vulikivite
+technology_group = lake_elves_group
+capital = 3370 # 
+#national_focus = DIP
+#historical_rival = HAB

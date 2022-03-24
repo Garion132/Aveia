@@ -62,7 +62,7 @@ country_event = {#ash and ice
 					mil = 2
 				}
 			}
-			country_event = {id = eastern_scramble.2 days = 7}
+			country_event = {id = eastern_scramble.2 days = 7}#news of the pass hits the rest of aveia
 			988={#wealthy merchant of elision starts the CTC
 				owner = {
 					country_event = {id = eastern_scramble.3 days = 38}
@@ -70,7 +70,37 @@ country_event = {#ash and ice
 			}
 			748={#Nobel from nadara
 				owner = {
-					country_event = {id = eastern_scramble.6 days = 72}
+					country_event = {id = eastern_scramble.6 days = 122}
+				}
+			}
+			2308={#fauns leave the shires
+				owner = {
+					country_event = {id = eastern_scramble.7 days = 80}
+				}
+			}
+			1384={#beycu natives flee east
+				owner = {
+					country_event = {id = eastern_scramble.8 days = 79}
+				}
+			}
+			2227={#thilranan vulikists flee east
+				owner = {
+					country_event = {id = eastern_scramble.9 days = 241}
+				}
+			}
+			2152={#Garumok vulikists flee east
+				owner = {
+					country_event = {id = eastern_scramble.10 days = 278}
+				}
+			}
+			1557={#Chivgans trek east
+				owner = {
+					country_event = {id = eastern_scramble.13 days = 415}
+				}
+			}
+			1742={#Gulbans seek new lands
+				owner = {
+					country_event = {id = eastern_scramble.14 days = 293}
 				}
 			}
 			set_global_flag = EASTERN_SCRAMBLE
@@ -330,6 +360,7 @@ country_event = {#Lrocra
 					mil = 1
 				}
 			}
+			HIR={add_treasury = 25}
 		}
 	}
 
@@ -343,4 +374,523 @@ country_event = {#Lrocra
 	}
 }
 
+country_event = {#Delcarva
+	id = eastern_scramble.7
+	title = eastern_scramble.7.t
+	desc = eastern_scramble.7.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3267={
+				cede_province = DEL
+				add_core = DEL
+				change_religion = tlaunorist
+				change_culture = shireate
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+			}
+			DEL={
+				change_religion = tlaunorist
+				change_primary_culture = shireate
+				add_treasury = 50
+				define_ruler ={
+					age = 43
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
 
+	option = {
+		name = eastern_scramble.7.a
+
+	}
+	option = {
+		name = eastern_scramble.7.b
+		switch_tag = DEL
+	}
+}
+
+country_event = {#Redrun
+	id = eastern_scramble.8
+	title = eastern_scramble.8.t
+	desc = eastern_scramble.8.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			4713={
+				cede_province = RDR
+				add_core = RDR
+				change_religion = tlaunorist
+				change_culture = becyuan
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			RDR={
+				change_religion = tlaunorist
+				change_primary_culture = becyuan
+				add_treasury = 50
+				define_ruler ={
+					age = 43
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.8.a
+
+	}
+	option = {
+		name = eastern_scramble.8.b
+		switch_tag = RDR
+	}
+}
+
+country_event = {#Linar
+	id = eastern_scramble.9
+	title = eastern_scramble.9.t
+	desc = eastern_scramble.9.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3329={
+				cede_province = LNA
+				add_core = LNA
+				change_religion = vulikivite
+				change_culture = liret
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			LNA={
+				change_religion = vulikivite
+				change_primary_culture = liret
+				add_treasury = 50
+				define_ruler ={
+					age = 43
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.9.a
+
+	}
+	option = {
+		name = eastern_scramble.9.b
+		switch_tag = LNA
+	}
+}
+
+country_event = {#Daltsland
+	id = eastern_scramble.10
+	title = eastern_scramble.10.t
+	desc = eastern_scramble.10.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3370={
+				cede_province = DAL
+				add_core = DAL
+				change_religion = vulikivite
+				change_culture = garumok
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			DAL={
+				change_religion = vulikivite
+				change_primary_culture = garumok
+				add_treasury = 50
+				define_ruler ={
+					age = 43
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.10.a
+
+	}
+	option = {
+		name = eastern_scramble.10.b
+		switch_tag = DAL
+	}
+}
+
+country_event = {#IKC petions for funding
+	id = eastern_scramble.11
+	title = eastern_scramble.11.t
+	desc = eastern_scramble.11.d
+	
+	fire_only_once = yes
+	
+	trigger={
+		has_global_flag = EASTERN_SCRAMBLE
+		is_emperor = yes
+	}
+	mean_time_to_happen = {
+		months = 25
+	}
+
+	option = {#aprove it
+		name = eastern_scramble.11.a
+		hidden_effect={
+			3259={set_in_empire = yes}
+		}
+		country_event = {id = eastern_scramble.12 days = 25}
+	}
+	option = {#reject it
+		name = eastern_scramble.11.b
+		country_event = {id = eastern_scramble.12 days = 25}
+	}
+}
+country_event = {#IKC founded
+	id = eastern_scramble.12
+	title = eastern_scramble.12.t
+	desc = eastern_scramble.12.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect={
+			3259={
+				cede_province = IKC
+				add_core = IKC
+				change_religion = vulikivite
+				change_culture = kralitic
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			IKC={
+				add_treasury = 200
+				define_ruler ={
+					culture = rake
+					age = 129
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+				add_ruler_personality = immortal_personality
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.12.a
+
+	}
+	option = {
+		name = eastern_scramble.12.b
+		switch_tag = IKC
+	}
+}
+country_event = {#Zelfea
+	id = eastern_scramble.13
+	title = eastern_scramble.13.t
+	desc = eastern_scramble.13.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3237={
+				cede_province = ZEL
+				add_core = ZEL
+				change_religion = tlaunorist
+				change_culture = chivga
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			ZEL={
+				add_treasury = 50
+				define_ruler ={
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.13.a
+
+	}
+	option = {
+		name = eastern_scramble.13.b
+		switch_tag = ZEL
+	}
+}
+country_event = {#Gultea
+	id = eastern_scramble.14
+	title = eastern_scramble.14.t
+	desc = eastern_scramble.14.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3248={
+				cede_province = GLT
+				add_core = GLT
+				change_religion = tlaunorist
+				change_culture = gulban
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			GLT={
+				add_treasury = 50
+				define_ruler ={
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.14.a
+
+	}
+	option = {
+		name = eastern_scramble.14.b
+		switch_tag = GLT
+	}
+}
+country_event = {#Vrur
+	id = eastern_scramble.15
+	title = eastern_scramble.15.t
+	desc = eastern_scramble.15.d
+	
+	fire_only_once = yes
+	
+	trigger={
+		has_global_flag = EASTERN_SCRAMBLE
+		primary_culture = shireate
+	}
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 0.3
+			ai = no
+		}
+	}
+	
+	
+	immediate = {
+		hidden_effect={
+			3314={
+				cede_province = VRU
+				add_core = VRU
+				change_religion = drethalumia
+				change_culture = shireate
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			VRU={
+				add_treasury = 50
+				define_ruler ={
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.15.a
+
+	}
+	option = {
+		name = eastern_scramble.15.b
+		switch_tag = VRU
+	}
+}

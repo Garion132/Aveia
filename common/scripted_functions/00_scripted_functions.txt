@@ -156,7 +156,7 @@ can_colonize_province = {
 	condition = {
 		tooltip = "COLONIAL_ELTERIA_NO_DIRECT_COLONISATION_JULUIA"
 		potential = {
-			ROOT={
+			FROM={
 				capital_scope = { 
 					continent = elteria
 				}

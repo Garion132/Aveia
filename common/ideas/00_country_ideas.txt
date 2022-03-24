@@ -384,54 +384,6 @@ VIL_ideas = {
 		global_institution_spread = 0.1
 	}
 }
-vilwinder_ideas = {
-	start = {
-		colonists = 1
-		global_colonial_growth = 15
-		range = -0.8
-		global_tax_income = 18
-	}
-
-	bonus = {
-		navy_tradition = 1
-	}
-	
-	trigger = {
-		OR={
-			tag = FLA
-			tag = DAW
-			tag = SKP
-			tag = SWA
-		}
-	}
-	free = yes		#will be added at load.
-
-	VIL_trading_guilds = {
-		production_efficiency = 0.05
-		global_own_trade_power = 0.1
-	}
-	loyal_solders = {
-		land_morale = 0.125
-	}
-	FRY_exspanding_horisions = {
-		range = 0.9
-	}
-	fry_mercanry_armys = {
-		merc_maintenance_modifier = -0.33
-		mercenary_discipline = 0.25
-	}
-	city_and_state = {
-		development_cost = -0.1
-		global_tax_modifier = 0.1
-	}
-	tlauor_and_his_people = {
-		tolerance_own = 2
-	}
-	center_of_lights = {
-		same_culture_advisor_cost = -0.5
-		global_institution_spread = 0.1
-	}
-}
 VUL_ideas = {
 	start = {
 		imperial_authority = 0.175
@@ -472,48 +424,6 @@ VUL_ideas = {
 	}
 	loyal_solders = {
 		land_morale = 0.10
-	}
-}
-expiditionary_state_ideas = {
-	start = {
-		colonists = 1
-		global_colonial_growth = 15
-		global_tax_income = 18
-	}
-
-	bonus = {
-		global_tax_modifier = 0.2
-	}
-	
-	trigger = {
-		OR={
-			tag = HIR
-			tag = CTC
-			tag = LRO
-		}
-	}
-	free = yes		#will be added at load.
-
-	exp_trading_guilds = {
-		production_efficiency = 0.05
-	}
-	exp_loyal_solders = {
-		land_morale = 0.1
-	}
-	increase_taxation = {
-		global_tax_modifier = 0.1
-	}	
-	cheaper_mercenaries = {
-		merc_maintenance_modifier = -0.2
-	}
-	increased_trade_power = {
-		global_trade_power = 0.1
-	}
-	increased_manpower = {
-		global_manpower_modifier = 0.2
-	}
-	increased_trade_steering = {
-		trade_steering = 0.1
 	}
 }
 

@@ -219,7 +219,14 @@ THL = "countries/Thilrana.txt"
     HIR = "countries/Hirdam Order.txt"
 	CTC = "countries/Cradle Trade Company.txt"
 	LRO = "countries/Lrocra.txt"
-	
+	DEL = "countries/Delcarva.txt"
+	RDR = "countries/Redrun.txt"
+	LNA = "countries/Linar.txt"
+	DAL = "countries/Daltsland.txt"
+	IKC = "countries/Imperial Kaltros Company.txt"
+	ZEL = "countries/Zelfea.txt" 
+	GLT = "countries/Gulta.txt" 
+	VRU = "countries/Vrur.txt"
 
 ## Eastern formables
 
