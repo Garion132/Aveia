@@ -38,6 +38,61 @@ client_ideas = {
 	}
 }
 
+expiditionary_state_ideas = {
+	start = {
+		colonists = 1
+		global_colonial_growth = 15
+		global_tax_income = 18
+	}
+
+	bonus = {
+		global_tax_modifier = 0.2
+	}
+	
+	trigger = {
+		OR={
+			tag = HIR
+			tag = CTC
+			tag = LRO
+			tag = DEL
+			tag = RDR
+			tag = LNA
+			tag = DAL
+			tag = IKC
+			tag = ZEL
+			tag = GLT
+			tag = VRU
+			tag = ARK
+			tag = ALV
+			tag = CLH
+			tag = WLT
+			tag = MOT
+		}
+	}
+	free = yes		#will be added at load.
+
+	exp_trading_guilds = {
+		production_efficiency = 0.05
+	}
+	exp_loyal_solders = {
+		land_morale = 0.1
+	}
+	increase_taxation = {
+		global_tax_modifier = 0.1
+	}	
+	cheaper_mercenaries = {
+		merc_maintenance_modifier = -0.2
+	}
+	increased_trade_power = {
+		global_trade_power = 0.1
+	}
+	increased_manpower = {
+		global_manpower_modifier = 0.2
+	}
+	increased_trade_steering = {
+		trade_steering = 0.1
+	}
+}
 
 colonial_ideas = {
 	start = {
@@ -316,57 +371,6 @@ native_ideas = {
 	}
 	great_winter_hunts = {
 		global_colonial_growth = 25
-	}
-}
-
-expiditionary_state_ideas = {
-	start = {
-		colonists = 1
-		global_colonial_growth = 15
-		global_tax_income = 18
-	}
-
-	bonus = {
-		global_tax_modifier = 0.2
-	}
-	
-	trigger = {
-		OR={
-			tag = HIR
-			tag = CTC
-			tag = LRO
-			tag = DEL
-			tag = RDR
-			tag = LNA
-			tag = DAL
-			tag = IKC
-			tag = ZEL
-			tag = GLT
-			tag = VRU
-		}
-	}
-	free = yes		#will be added at load.
-
-	exp_trading_guilds = {
-		production_efficiency = 0.05
-	}
-	exp_loyal_solders = {
-		land_morale = 0.1
-	}
-	increase_taxation = {
-		global_tax_modifier = 0.1
-	}	
-	cheaper_mercenaries = {
-		merc_maintenance_modifier = -0.2
-	}
-	increased_trade_power = {
-		global_trade_power = 0.1
-	}
-	increased_manpower = {
-		global_manpower_modifier = 0.2
-	}
-	increased_trade_steering = {
-		trade_steering = 0.1
 	}
 }
 

@@ -14,8 +14,9 @@ Quanil
 Telairn
 Tidrea
 =Zelfea
-Calharn
-Alvedi
+=Calharn
+=Alvedi
+=Welltron
 Velnoi
 =Linar
 Entir
@@ -25,13 +26,12 @@ Terinsa
 Nytlen
 Kelrau
 Oltos
-Welltron
 =Redrun
-Vrur
+=Vrur
 =Delcarva
 Serar
 =Lrocra
-Arkhonia -  - Grand republic
+=Arkhonia -  - Grand republic #ormr's
 Shempeak
 Selehei
 

@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = donamenz
+religion = uzvazism
+technology_group = lake_elves_group
+capital = 3350 # 
+#national_focus = DIP
+#historical_rival = HAB

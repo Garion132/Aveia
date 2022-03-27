@@ -5474,6 +5474,7 @@ aj_snaga={#naga
 
 arago={#giant spiders
 	graphical_culture = westerngfx
+	union = ARA
 	shizhon = {
 		#primary = SOH
 		male_names = {

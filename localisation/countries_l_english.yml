@@ -553,6 +553,17 @@
  GLT_ADJ:0 "Gulta"
  VRU:0 "Vrur"
  VRU_ADJ:0 "Vrur"
+ ARK:0 "Arkhonia"
+ ARK_ADJ:0 "Arkhonia"
+ ALV:0 "Alvedi"
+ ALV_ADJ:0 "Alvedi"
+ CLH:0 "Calharn"
+ CLH_ADJ:0 "Calharn"
+ WLT:0 "Welltron"
+ WLT_ADJ:0 "Welltron"
+ MOT:0 "Montlira"
+ MOT_ADJ:0 "Montlira"
+ 
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"
  COLONIAL_KLAETIA_freygmia_ADJ:0 "Freygmian"

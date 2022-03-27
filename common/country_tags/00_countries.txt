@@ -227,6 +227,11 @@ THL = "countries/Thilrana.txt"
 	ZEL = "countries/Zelfea.txt" 
 	GLT = "countries/Gulta.txt" 
 	VRU = "countries/Vrur.txt"
+	ARK = "countries/Arkhonia.txt"
+	ALV = "countries/Alvedi.txt"
+	CLH = "countries/Calharn.txt"
+	WLT = "countries/Welltron.txt"
+	MOT = "countries/Montlira.txt"
 
 ## Eastern formables
 
