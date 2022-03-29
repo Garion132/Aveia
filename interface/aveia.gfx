@@ -16,6 +16,11 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
+		name = "GFX_school_hulric_court"
+		texturefile = "gfx//interface//icon_muslim_school_hulric_court.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
 		name = "GFX_school_dhizdian_church"
 		texturefile = "gfx//interface//icon_muslim_school_dhizdian_church.dds"
 		loadType = "INGAME"

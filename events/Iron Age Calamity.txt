@@ -1846,7 +1846,16 @@ country_event = {
 	
 	option = {	# submit
 		name = "iron_age_calamity.202.opt.b"
-		GGD = {inherit = PREV}
+		every_owned_province={
+			limit={
+				is_colony = yes
+			}
+			add_colonysize = 1000
+		}
+		GGD = {
+			inherit = PREV
+		}
+		
 	}
 	option = {	# become a underking
 		name = "iron_age_calamity.202.opt.c"

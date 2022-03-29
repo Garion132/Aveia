@@ -563,7 +563,10 @@
  WLT_ADJ:0 "Welltron"
  MOT:0 "Montlira"
  MOT_ADJ:0 "Montlira"
- 
+ VLN:0 "Velnoi"
+ VLN_ADJ:0 "Velnoi"
+ QUA:0 "Quanil"
+ QUA_ADJ:0 "Quanil"
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"
  COLONIAL_KLAETIA_freygmia_ADJ:0 "Freygmian"

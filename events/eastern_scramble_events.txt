@@ -123,6 +123,11 @@ country_event = {#ash and ice
 					country_event = {id = eastern_scramble.20 days = 305}
 				}
 			}
+			1237={#cultists of a new religion
+				owner = {
+					country_event = {id = eastern_scramble.21 days = 287}
+				}
+			}
 			set_global_flag = EASTERN_SCRAMBLE
 		}
 	}
@@ -1216,5 +1221,123 @@ country_event = {#Montlira
 	option = {
 		name = eastern_scramble.20.b
 		switch_tag = MOT
+	}
+}
+country_event = {#Velnoi
+	id = eastern_scramble.21
+	title = eastern_scramble.21.t
+	desc = eastern_scramble.21.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			4559={
+				cede_province = VLN
+				add_core = VLN
+				change_religion = kharian
+				change_culture = unolaan
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			VLN={
+				add_treasury = 50
+				define_ruler ={
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+				hidden_effect={
+					country_event={id = eastern_scramble.22}
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.21.a
+
+	}
+	option = {
+		name = eastern_scramble.21.b
+		switch_tag = VLN
+	}
+}
+country_event = {#Quanil
+	id = eastern_scramble.22
+	title = eastern_scramble.22.t
+	desc = eastern_scramble.22.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			4555={
+				cede_province = QUA
+				add_core = QUA
+				change_religion = kharian
+				change_culture = unolaan
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			QUA={
+				add_treasury = 25
+				define_ruler ={
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.22.a
+
+	}
+	option = {
+		name = eastern_scramble.22.b
+		switch_tag = QUA
 	}
 }

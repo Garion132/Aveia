@@ -23,7 +23,38 @@ initialize_schools_effect = { #Used in on_startup on_action
 					opinion = -1
 				}
 			}
+			random_country = {
+				limit = {
+					religious_school = {
+						group = roresism_group
+						school = hulric_court
+					}
+				}
+				set_school_opinion = {
+					who = PREV
+					opinion = -1
+				}
+			}
 		}
+		random_country = { #arago courts hate each other
+			limit = {
+				religious_school = {
+					group = roresism_group
+					school = hulric_court
+				}
+			}
+			random_country = {
+				limit = {
+					religious_school = {
+						group = roresism_group
+						school = meanic_court
+					}
+				}
+				set_school_opinion = {
+					who = PREV
+					opinion = -1
+				}
+			}
 	}
 }
 

@@ -67,6 +67,8 @@ expiditionary_state_ideas = {
 			tag = CLH
 			tag = WLT
 			tag = MOT
+			tag = VLN
+			tag = QUA
 		}
 	}
 	free = yes		#will be added at load.

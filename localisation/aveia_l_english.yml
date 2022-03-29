@@ -265,6 +265,7 @@
  
  meanic_court:0 "Meanic Court"
  keldic_court:0 "Keldic Court"
+ hulric_court:0 "Hulric Court"
  COLONIAL_EAST_LOCKED:0 "This area is currently under Glacial Ice"
  COLONIAL_THILRANA_BLOCKED:0 "Thilrana is too hostile to colonise"
  COLONIAL_ELTERIA_NO_DIRECT_COLONISATION_JULUIA:0 "Elterian Nations can't directly colonise Juluia"
@@ -280,3 +281,4 @@
  colony_elteria_start_title:0 "Colony"
  colony_elteria_start_title_plural:0 "Colonies"
  
+ aniliti_heart:0 "Aniliti's Heart"

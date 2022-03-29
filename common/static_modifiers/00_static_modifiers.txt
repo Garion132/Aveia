@@ -1592,6 +1592,13 @@ keldic_court_scholar_modifier= {
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
 	production_efficiency = 0.05
 }
+hulric_court_scholar_modifier= {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	diplomatic_reputation = 1
+}
 
 #vanillia ones
 hanafi_scholar_modifier = {

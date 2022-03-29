@@ -1,4 +1,4 @@
-#Scripted effects relating to China, with or without DLC.
+#Scripted effects relating to the east.
 
 CTC_next_location_effect = {
 	3272={

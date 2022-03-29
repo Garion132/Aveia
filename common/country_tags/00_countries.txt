@@ -232,6 +232,8 @@ THL = "countries/Thilrana.txt"
 	CLH = "countries/Calharn.txt"
 	WLT = "countries/Welltron.txt"
 	MOT = "countries/Montlira.txt"
+	VLN = "countries/Velnoi.txt"
+	QUA = "countries/Quanil.txt"
 
 ## Eastern formables
 
