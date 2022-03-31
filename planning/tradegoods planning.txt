@@ -38,8 +38,11 @@ Coal
 Machinery
 -Manufactured Goods
 
-#Elteria (South-Western Continent), 1
+#Elteria (South-Western Continent), 4
 Ecriamin (Blue five leaf clover, Magical Healing Herbs)
+-Theiss (Root vegatable)
+-Erysim (fruit)
+-Atyle Sap ()
 
 #Eastern Aveia, 4
 Quedarma Horn (megafauna, giant, greenish-gray, snake with horns and a frill)
