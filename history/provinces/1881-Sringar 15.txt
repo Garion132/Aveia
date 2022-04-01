@@ -1,8 +1,8 @@
 #Sringar
 
-add_core = SAL
-owner = SAL
-controller = SAL
+add_core = SRI
+owner = SRI
+controller = SRI
 culture = salorian
 religion = tlaunorist
 hre = no

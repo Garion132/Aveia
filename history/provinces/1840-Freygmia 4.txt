@@ -20,8 +20,8 @@ discovered_by = ork_group
 discovered_by = free_fauns_group
 
 1200.1.1={
-	add_core = KEA
-	owner = KEA
-	controller = KEA
+	add_core = FYG
+	owner = FYG
+	controller = FYG
 	is_city = yes
 }

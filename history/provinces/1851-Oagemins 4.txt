@@ -18,8 +18,8 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 
 1200.1.1={
-	add_core = LEL
-	owner = LEL
-	controller = LEL
+	add_core = OAG
+	owner = OAG
+	controller = OAG
 	is_city = yes
 }
