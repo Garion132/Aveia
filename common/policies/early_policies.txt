@@ -332,10 +332,6 @@
             }
             modifier = {
                 factor = 1.25
-                colony = 2
-            }
-            modifier = {
-                factor = 1.25
                 colony = 3
             }			
             modifier = {
