@@ -765,7 +765,7 @@ illuminare = {
 	start_chance = 5		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.2
+	on_start = institution_events.3
 	
 	
 	
@@ -921,7 +921,7 @@ new_world_i = {
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	
-	on_start = institution_events.2
+	on_start = institution_events.4
 	
 	
 
