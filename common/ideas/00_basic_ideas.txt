@@ -7,34 +7,38 @@
 # ROOT = country picking the idea
 # groups set to colonial=yes will be higher prioritized by the AI when spending power
 
+# Meh Modifiers (x1) / Noticable Modifiers (x2) / Good Modifiers (x3) / Great Modifiers (x4) / (+Custom) = NET
+
 #ADM
 	#Early (1250-1450)
-	administrative_ideas = {
+	administrative_ideas = { # +3 / +6 / +0 / +1 = 19
 		category = ADM
 		#Governing Capacity, Governing Cost, Autonomy in territories, Adm Tech Cost
 		# Basically reduces the Admin cost of a lot of different things
 
 		bonus = {
-			governing_capacity_modifier = 0.15
+			country_admin_power = 1
 		}
 
 		expanding_administrative_capabilities = {
 			expand_administration_cost = -0.25
+			governing_capacity_modifier = 0.15
 		}
 		adaptability = {
-			core_creation = -0.10
+			core_creation = -0.1
 		}
 		stable_governance = {
 			stability_cost_modifier = -0.1
 		}
 		bookkeeping = {
 			interest = -0.5
+			inflation_action_cost = -0.5
 		}
 		incorporation = {
 			min_autonomy_in_territories = -0.05
 		}
 		administrative_efficiency_idea = {
-			advisor_pool = 1
+			adm_tech_cost_modifier = -0.05
 		}
 		civil_servants = {
 			governing_capacity = 100
@@ -48,7 +52,7 @@
 			}
 		}
 	}
-	philosophical_ideas = {
+	philosophical_ideas = { # +2 / +4 / +1 / +1 = 17
 		category = ADM
 		#Like an early Innovative focused on tech, ideas, and institutions
 
@@ -83,7 +87,7 @@
 			factor = 1
 		}
 	}
-	engineering_ideas = {
+	engineering_ideas = { # +2 / +6 / +0 / +0 = 14 
 		category = ADM
 		#Focused on construction & buildings
 
@@ -107,7 +111,7 @@
 			defensiveness = 0.10
 		}
 		aqueducts_and_canals = {
-			development_cost = -0.06
+			development_cost = -0.05
 		}
 		college_of_engineering = {
 			adm_tech_cost_modifier = -0.05 
@@ -126,7 +130,7 @@
 			}
 		}
 	}
-	religious_ideas = {
+	religious_ideas = { # +0 / +3 / +5 / +0 = 21
 		category = ADM
 		#All things religion
 
@@ -175,7 +179,7 @@
 	}
 
 	#Middle (1450-1700)
-	bureaucratic_ideas = {
+	bureaucratic_ideas = { # +0 / +3 / +5 / +0 = 21
 		category = ADM
 		#Reduces all advisor costs by 25% (in 3 different ideas), corruption reduction, more gov capacity, stab cost
 
@@ -195,7 +199,7 @@
 			adm_advisor_cost = -0.25
 		}
 		bureaucratic_process = {
-			administrative_efficiency = 0.03
+			administrative_efficiency = 0.05
 		}
 		diplomatic_office = {
 			dip_advisor_cost = -0.25
@@ -214,7 +218,7 @@
 			factor = 1
 		}
 	}
-	humanist_ideas = {
+	humanist_ideas = { # +1 / +3 / +3 / +1 = 20
 		category = ADM
 		#Making rebels less frequent
 
@@ -259,12 +263,12 @@
 			}
 		}
 	}
-	innovativeness_ideas = {
+	innovativeness_ideas = { # +0 / +5 / +4 / +0 = 22
 		category = ADM
 		#Tech cost, innovativeness, institutions, and various other bonuses (/w good late-game policies)
 		
 		trigger = {
-			has_early_idea = yes
+			has_early_idea = yesx
 			adm_tech = 16
 		}
 
@@ -279,7 +283,7 @@
 			innovativeness_gain = 0.5
 		}
 		scientific_revolution = {
-			technology_cost = -0.1
+			technology_cost = -0.05
 			embracement_cost = -0.1
 		}
 		dynamic_court = {
@@ -289,7 +293,7 @@
 			global_institution_spread = 0.25
 		}
 		optimism = {
-			war_exhaustion = -0.05
+			war_exhaustion = -0.03
 		}
 		formalized_officer_corps = {
 			free_leader_pool = 1
@@ -311,7 +315,7 @@
 			}
 		}
 	}
-	economic_ideas = {
+	economic_ideas = { # +1 / +2 / +4 / +1 = 21
 		category = ADM
 		#Just about increasing your direct income
 
@@ -370,7 +374,7 @@
 			}
 		}
 	}
-	expansion_ideas = {
+	expansion_ideas = { # +3 / +2 / +2 / +3 = 25
 		category = ADM
 		important = yes
 		#Maintaining & expanding a large country
@@ -431,7 +435,7 @@
 	}
 
 	#Late (1700+)
-	industrial_ideas = {
+	industrial_ideas = { # 24
 		category = ADM
 		#Goods Produced, Dev Cost, Construction Time, all things Industrial Revolution
 
@@ -441,37 +445,37 @@
 		}
 
 		bonus = {
-			global_trade_goods_size_modifier = 0.1
+			production_efficiency = 0.1 # +3
 		}
 
 		urbanization = {
-			build_cost = -0.1
+			build_cost = -0.1 # +2
 		}
 		industrialization = {
-			global_trade_goods_size_modifier = 0.15
+			global_trade_goods_size_modifier = 0.15 # +4
 		}
 		centralization_idea = {
-			max_absolutism = 5
+			max_absolutism = 5 # +1
 			max_revolutionary_zeal = 5
 		}
 		efficiency = {
-			build_time = -0.15
+			build_time = -0.15 # +1
 		}
 		quantity = {
-			global_manpower_modifier = 0.15
+			global_manpower_modifier = 0.15 # +2
 		}
 		speed = {
-			movement_speed = 0.05
+			movement_speed = 0.05 # +1
 		}
 		economic_growth = {
-			development_cost = -0.20
+			development_cost = -0.2 # +10
 		}
 		
 		ai_will_do = {
 			factor = 1.1
 		}
 	}
-	magical_ideas = {
+	magical_ideas = { # 31
 		category = ADM
 		#Mana cost, tech cost, advisors, & more
 
@@ -481,31 +485,31 @@
 		}
 
 		bonus = {
-			all_power_cost = -0.05
+			all_power_cost = -0.05 # +10
 		}
 
 		
 		magical_theory = {
-			idea_cost = -0.15
+			idea_cost = -0.15 # +3
 		}
 		guedina_working = {
-			artillery_fire = 0.5
+			artillery_fire = 0.5 # +3
 		}
 		alchemy = {
-			global_trade_goods_size_modifier = 0.05
+			global_trade_goods_size_modifier = 0.05 # +2
 		}
 		magical_science = {
-			technology_cost = -0.15
+			technology_cost = -0.2 # +4
 		}
 		byrinification = {
-			development_cost = -0.05
+			development_cost = -0.05 # +2
 		}
 		knowledgable_advisors = {
-			advisor_cost = -0.10
+			advisor_cost = -0.10 # +3
 		}
 		airship_optimization = {
-			cavalry_cost = -0.10
-			cavalry_power = 0.10
+			cavalry_cost = -0.10 # +2
+			cavalry_power = 0.10 # +2
 		}
 		
 		ai_will_do = {
@@ -514,7 +518,7 @@
 	}
 
 	#Combinations
-	capitalist_ideas = {
+	capitalist_ideas = { # 28
 		category = ADM
 		#Money & Development (Basically tall player's dream)
 		
@@ -530,31 +534,31 @@
 		}
 
 		bonus = {
-			possible_adm_policy = 1
-			max_absolutism = -15
+			possible_adm_policy = 1 # +4
+			max_absolutism = -15 # -3
 		}
 
 		advertising = {
-			global_trade_power = 0.15
+			global_trade_power = 0.15 # +3
 		}
 		privatization = {
-			global_tax_modifier = 0.1
-			max_absolutism = -10
+			global_tax_modifier = 0.1 # +3
+			max_absolutism = -10 # -2
 		}
 		invisible_hand = {
-			trade_efficiency = 0.15
+			trade_efficiency = 0.15 # +4
 		}
 		free_enterprise = {
-			global_trade_goods_size_modifier = 0.2
+			global_trade_goods_size_modifier = 0.2 # +6
 		}
 		protectionism = {
-			mercantilism_cost = -0.5
+			mercantilism_cost = -0.5 # +2
 		}
 		union_busting = {
-			harsh_treatment_cost = -0.25
+			harsh_treatment_cost = -0.25 # +1
 		}
 		laissez_faire_economics = {
-			development_cost = -0.2
+			development_cost = -0.2 # +10
 		}
 		
 		ai_will_do = {
@@ -566,7 +570,7 @@
 
 #DIP
 	#Early (1250-1450)
-	trade_ideas = {
+	trade_ideas = { # +1 / +4 / +3 / +0 = 18
 		category = DIP
 		#2 merchants & some various trade bonuses
 
@@ -617,7 +621,7 @@
 			}
 		}
 	}
-	colonialism_ideas = {
+	colonialism_ideas = { # +2 / +2 / +2 / +2 = 20
 		category = DIP
 		#some colonists & various colonial bonuses
 
@@ -724,7 +728,7 @@
 			}
 		}
 	}
-	maritime_ideas = {
+	maritime_ideas = { # +3 / +1 / +6 / +1 = 27
 		category = DIP
 		#Getting & supporting a bigger navy
 
@@ -796,7 +800,7 @@
 			}
 		}
 	}
-	diplomatic_ideas = {
+	diplomatic_ideas = { # +1 / +5 / +2 / +0 = 17
 		category = DIP
 		#2 Diplomats & various diplomatic bonuses
 
@@ -841,7 +845,7 @@
 	}
 
 	#Middle (1450-1700)
-	influence_ideas = {
+	influence_ideas = { # 21
 		category = DIP
 		#Bonuses relating to subjects
 
@@ -851,31 +855,31 @@
 		}
 
 		bonus = {
-			unjustified_demands = -0.5
+			unjustified_demands = -0.5 # +2
 		}
 
 		tribute_system = {
-			vassal_income = 0.25
+			vassal_income = 0.25 # +2
 		}
 		
 		additional_loyalist_recruitment = {
-			reduced_liberty_desire = 15
+			reduced_liberty_desire = 20 # +6
 		}
 		
 		integrated_elites = {
-			diplomatic_annexation_cost = -0.25
+			diplomatic_annexation_cost = -0.25 # +4
 		}
 		buffer_states = {
-			diplomatic_upkeep = 1
+			diplomatic_upkeep = 2 # +2
 		}
 		diplomatic_influence = {
-			diplomatic_reputation = 2
+			diplomatic_reputation = 2 # +2
 		}
 		postal_service = {
-			envoy_travel_time = -0.25
+			envoy_travel_time = -0.25 # +1
 		}
 		marcher_lords = {
-			vassal_forcelimit_bonus = 1
+			vassal_forcelimit_bonus = 1 # +3
 		}
 
 		ai_will_do = {
@@ -894,7 +898,7 @@
 			}
 		}
 	}
-	spy_ideas = {
+	spy_ideas = { # 20
 		category = DIP
 		#Bonuses related to covert actions
 
@@ -904,44 +908,44 @@
 		}
 
 		bonus = {
-			rebel_support_efficiency = 0.50
+			rebel_support_efficiency = 0.50 # +2
 		}
 
 		efficient_spies = {
-			spy_offence = 0.5
-			advisor_cost = -0.10
+			spy_offence = 0.75 # +3
+			advisor_cost = -0.10 # +3
 		}	
 		
 		agent_training = {
-			diplomats = 1		
+			diplomats = 1 # +2
 		}
 
 		vetting = {
-			global_spy_defence = 0.33
+			global_spy_defence = 0.33 # +1
 		}
 
 		state_propaganda = {
-			ae_impact = -0.2
+			ae_impact = -0.2 # +3
 		}
 		
 		claim_fabrication = {
-			fabricate_claims_cost = -0.25
-			can_fabricate_for_vassals = yes
+			fabricate_claims_cost = -0.25 # +1
+			can_fabricate_for_vassals = yes # +1
 		}
 		
 		privateers = {
-			embargo_efficiency = 0.25
-			privateer_efficiency = 0.33
+			embargo_efficiency = 0.25 # +1
+			privateer_efficiency = 0.33 # +1
 		}
 		audit_checks = {
-			yearly_corruption = -0.1
+			yearly_corruption = -0.1 # +2
 		}
 
 		ai_will_do = {
 			factor = 0.75
 		}
 	}
-	exploration_ideas = {
+	exploration_ideas = { # 24
 		category = DIP
 		important = yes
 		#A bit of colonization but mostly the explore part
@@ -952,33 +956,33 @@
 		}
 
 		bonus = {
-			cb_on_primitives = yes
+			cb_on_primitives = yes # +1
 		}
 
 		quest_for_the_new_world	= {
-			may_explore = yes
+			may_explore = yes # +4
 		}
 
 		colonial_ventures = {
-			colonists = 1
+			colonists = 1 # +4
 		}
 		
 		overseas_exploration = {
-			range = 0.5
+			range = 0.5 # +3
 		}
 		land_of_opportunity = {
-			global_colonial_growth = 20
-			colonist_placement_chance = 0.1
+			global_colonial_growth = 20  # +3
+			colonist_placement_chance = 0.1 # +3
 		}
 		vice_roys  = {
-			global_tariffs = 0.10
-			envoy_travel_time = -0.20
+			global_tariffs = 0.10 # +1
+			envoy_travel_time = -0.20 # +1
 		}
 		free_colonies = {
-			expel_minorities_cost = -1.0
+			expel_minorities_cost = -1.0 # +1
 		}
 		global_empire = {
-			naval_forcelimit_modifier = 0.25
+			naval_forcelimit_modifier = 0.25 # +2
 		}
 
 		ai_will_do = {
@@ -1039,7 +1043,7 @@
 			}
 		}
 	}
-	business_ideas = {
+	business_ideas = { # 19
 		category = DIP
 		#Like trade ideas but more focused on local than global
 
@@ -1049,29 +1053,29 @@
 		}
 
 		bonus = {
-			merchants = 1
+			merchants = 1 # +3
 		}
 
 		country_of_laws = {
-			global_own_trade_power = 0.1
+			global_own_trade_power = 0.1 # +2
 		}
 		shrewd_commerce_practise = {
-			global_trade_power = 0.1
+			global_trade_power = 0.1 # +3
 		}
 		corporations = {
-			trade_efficiency = 0.1
+			trade_efficiency = 0.1 # +3
 		}
 		free_market = {
-			merchants = 1
+			merchants = 1 # +3
 		}
 		fast_negotiations = {
-			caravan_power = 0.2
+			caravan_power = 0.2 # +2
 		}
 		monopolization = {
-			global_prov_trade_power_modifier = 0.1
+			global_prov_trade_power_modifier = 0.1 # +2
 		}
 		center_of_business = {
-			center_of_trade_upgrade_cost = -0.25
+			center_of_trade_upgrade_cost = -0.25 # +1
 		}
 		
 		ai_will_do = {
@@ -1091,7 +1095,7 @@
 			}
 		}
 	}
-	propaganda_ideas = {
+	propaganda_ideas = { # 19
 		category = DIP
 		#It's about making your life easier (less rebels, less coalitions)
 
@@ -1101,29 +1105,30 @@
 		}
 
 		bonus = {
-			ae_impact = -0.2
+			ae_impact = -0.25 # +5
 		}
 
 		war_propaganda = {
-			war_exhaustion = -0.05
+			war_exhaustion = -0.03 # +2
 		}
 		encourage_obedience = {
-			global_unrest = -1
+			global_unrest = -2 # +4
 		}
 		infiltrate_foreign_courts = {
-			spy_offence = 0.10
+			spy_offence = 0.5 # +2
 		}
 		influence_foreigners = {
-			improve_relation_modifier = 0.2
+			improve_relation_modifier = 0.25 # +1
 		}
 		credibility = {
-			diplomatic_reputation = 0.5
+			diplomatic_reputation = 1 # +2
 		}
 		flexible_strategies = {
-			unjustified_demands = -0.2
+			unjustified_demands = -0.5 # +2
 		}
 		has_always_been_ours = {
-			fabricate_claims_cost = -0.33
+			fabricate_claims_cost = -0.5 # +1
+			core_creation = -0.1 # +2
 		}
 		
 		ai_will_do = {
@@ -1132,7 +1137,7 @@
 	}
 
 	#Late (1700+)
-	imperialist_ideas = {
+	imperialist_ideas = { # 27
 		category = DIP
 		#Global Empire stuff
 
@@ -1143,40 +1148,40 @@
 		}
 
 		bonus = {
-			prestige = 1.0
+			prestige = 1.0 # +3
 		}
 		
 		convoys = {
-			sailor_maintenance_modifer = -0.1
+			sailor_maintenance_modifer = -0.1 # +2
 		}
 		imperial_administration = {
-			governing_cost = -0.05
-			trade_company_governing_cost = -0.25
+			governing_cost = -0.2 # +3
+			trade_company_governing_cost = -0.25 # +1
 		}
 		global_trade = {
-			trade_range_modifier = 0.25
+			trade_range_modifier = 0.5 # +2
 		}
 		global_navy = {
-			global_sailors_modifier = 0.25
-			naval_forcelimit_modifier = 0.25
+			global_sailors_modifier = 0.25 # +1
+			naval_forcelimit_modifier = 0.25 # +2
 		}
 		global_military = {
-			transport_cost = -0.25
-			free_leader_pool = 1
+			transport_cost = -0.25 # +1
+			free_leader_pool = 1 # +3
 		}
 		global_empire_idea = {
-			global_colonial_growth = 50
-			range = 0.5
+			global_colonial_growth = 50 # +3
+			range = 0.5 # +2
 		}
 		direct_rule = {
-			max_absolutism = 10
+			max_absolutism = 20 # +4
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	nationalist_ideas = {
+	nationalist_ideas = { # 23
 		category = DIP
 		#Making tall play more tall
 
@@ -1187,35 +1192,35 @@
 		}
 
 		bonus = {
-			manpower_recovery_speed = 0.2
-			num_accepted_cultures = -1
+			manpower_recovery_speed = 0.15 # +2
+			num_accepted_cultures = -1 # -1
 		}
 
 		one_nation_one_people = {
-			culture_conversion_cost = -0.25
-			num_accepted_cultures = -1
-			promote_culture_cost = 1
+			culture_conversion_cost = -0.25 # +4
+			num_accepted_cultures = -1 # -1
+			promote_culture_cost = 1 # -2
 		}
 		national_pride = {
-			war_exhaustion = -0.05
+			war_exhaustion = -0.06 # +3
 		}
 		volunteering = {
-			infantry_power = 0.10
-			global_regiment_cost = -0.10
+			infantry_power = 0.10 # +3
+			global_regiment_cost = -0.10 # +3 
 		}
 		partisan_raids = {
-			hostile_attrition = 2
+			hostile_attrition = 2 # +4
 		}
 		for_gods_and_country = {
-			land_morale = 0.10
+			land_morale = 0.10 # +3
 		}
 		chauvinism = {
-			enemy_core_creation = 0.33
+			enemy_core_creation = 0.33 # +1
 		}
 		for_jingo = {
-			recover_army_morale_speed = 0.05
-			land_forcelimit_modifier = 0.20
-			diplomatic_reputation = -1
+			recover_army_morale_speed = 0.05 # +2
+			land_forcelimit_modifier = 0.1 # +3
+			diplomatic_reputation = -1 # -1
 		}
 		
 		ai_will_do = {
@@ -1224,7 +1229,7 @@
 	}
 
 	#Combinations
-	geopolitical_ideas = {
+	geopolitical_ideas = { # 29
 		category = DIP
 		#Meddling in other people's affairs more easily
 
@@ -1240,38 +1245,38 @@
 		}
 
 		bonus = {
-			possible_dip_policy = 1
+			possible_dip_policy = 1 # +4
 		}
 
 
 		diplomat_in_every_corner = {
-			diplomats = 1
-			envoy_travel_time = -0.2
+			diplomats = 1 # +2
+			envoy_travel_time = -0.2 # +1
 		}
 		covert_operations = {
-			spy_offence = 0.2
+			spy_offence = 0.33 # +2
 		}
 		pragmatism_idea = {
-			improve_relation_modifier = 0.33
-			diplomatic_upkeep = 1
-			rival_change_cost = -0.5
+			improve_relation_modifier = 0.33 # +2
+			diplomatic_upkeep = 1 # +1
+			rival_change_cost = -0.5 # +1
 		}
 		airship_diplomacy = {
-			transfer_trade_power_reasons = 40
-			global_ship_trade_power = 0.25
+			transfer_trade_power_reasons = 40 # +2
+			global_ship_trade_power = 0.25 # +2
 		}
 		full_leverage = {
-			accept_vassalization_reasons = 40
-			diplomatic_annexation_cost = -0.2
+			accept_vassalization_reasons = 40 # +2
+			diplomatic_annexation_cost = -0.2 # +2
 		}
 		balance_of_power = {
-			diplomatic_reputation = 2
-			rebel_support_efficiency = 0.5
+			diplomatic_reputation = 2 # +2
+			rebel_support_efficiency = 0.5 # +1
 		}
 		interventionism = {
-			reduced_stab_impacts = yes
-			ae_impact = -0.1
-			stability_cost_to_declare_war = -1
+			reduced_stab_impacts = yes # +2
+			ae_impact = -0.1 # +2
+			stability_cost_to_declare_war = -1 # +1
 		}
 		
 		ai_will_do = {
@@ -1282,7 +1287,7 @@
 
 #MIL
 	#Early (1250-1450)
-	offensive_ideas = {
+	offensive_ideas = { # +1 / +4 / +3 / +0 = 18
 		category = MIL
 
 		trigger = {
@@ -1294,13 +1299,13 @@
 		}
 
 		bayonet_leaders = {
-			shock_damage = 0.06
+			shock_damage = 0.1
 		}
 		national_conscripts = {
 			global_regiment_recruit_speed = -0.1
 		}
 		superior_firepower = {
-			fire_damage = 0.06
+			fire_damage = 0.1
 		}
 		glorious_arms = {
 			prestige_from_land = 1.0
@@ -1309,7 +1314,7 @@
 			siege_ability = 0.15
 		}
 		grand_army = {
-			land_forcelimit_modifier = 0.2
+			land_forcelimit_modifier = 0.1
 		}
 		napoleonic_warfare = {
 			discipline = 0.03
@@ -1319,7 +1324,7 @@
 			factor = 0.94
 		}
 	}
-	defensive_ideas = {
+	defensive_ideas = { # +4 / +1 / +4 / +0 = 18
 		category = MIL
 
 		trigger = {
@@ -1334,7 +1339,7 @@
 			army_tradition_from_battle = 1.0
 		}
 		military_drill = {
-			land_morale = 0.15
+			land_morale = 0.1
 		}
 		improved_manuever = {
 			leader_land_manuever = 1
@@ -1343,10 +1348,10 @@
 			land_maintenance_modifier = -0.05
 		}
 		defensive_mentality = {
-			defensiveness = 0.2
+			defensiveness = 0.15
 		}
 		to_the_end = {
-			war_exhaustion = -0.05
+			war_exhaustion = -0.03
 		}
 		foreign_assistance = {
 			fort_maintenance_modifier = -0.1
@@ -1357,7 +1362,7 @@
 			factor = 0.77
 		}
 	}
-	leadership_ideas = {
+	leadership_ideas = { # +5|+3 / +1|+3 / +3 / +0 = 16|18
 		category = MIL
 		#Making your leaders better
 
@@ -1392,7 +1397,7 @@
 			factor = 0.8
 		}
 	}
-	logistic_ideas = {
+	logistic_ideas = { # +3 / +6 / +0 / +0 = 15	
 		category = MIL
 		#Less attrition & faster movement
 
@@ -1430,7 +1435,7 @@
 	}
 
 	#Middle (1450-1700)
-	aristocracy_ideas = {
+	aristocracy_ideas = { # +0 / +0 / +0 / +0 = 0
 		category = MIL
 		#Monarchy ideas
 
@@ -1485,7 +1490,7 @@
 			}	
 		}
 	}
-	plutocracy_ideas = {
+	plutocracy_ideas = { # +0 / +0 / +0 / +0 = 0
 		category = MIL
 		#Republic ideas
 
@@ -1527,7 +1532,7 @@
 			factor = 0.4
 		}
 	}
-	quality_ideas = {
+	quality_ideas = { # +0 / +0 / +0 / +0 = 0
 		category = MIL
 
 		trigger = {
@@ -1537,7 +1542,7 @@
 		}
 
 		bonus = {
-			discipline = 0.03
+			discipline = 0.06
 		}
 
 		private_to_marshal = {
@@ -1547,7 +1552,8 @@
 			army_tradition = 0.5
 		}
 		army_drill = {
-			drill_gain_modifier = 0.50
+			drill_gain_modifier = 1
+			drill_decay_modifier = -0.50
 		}
 		escort_ships = {
 			ship_durability = 0.05
@@ -1566,7 +1572,7 @@
 			factor = 0.49
 		}
 	}
-	quantity_ideas = {
+	quantity_ideas = { # +0 / +0 / +0 / +0 = 0
 		category = MIL
 
 		trigger = {
@@ -1576,13 +1582,13 @@
 		}
 
 		bonus = {
-			land_forcelimit_modifier  = 0.33
+			land_forcelimit_modifier  = 0.25
 		}
 		mass_army = {
 			global_manpower_modifier = 0.33
 		}
 		the_young_can_serve = {
-			manpower_recovery_speed = 0.15
+			manpower_recovery_speed = 0.1
 		}
 		enforced_service = {
 			global_regiment_cost = -0.1
@@ -1604,7 +1610,7 @@
 			factor = 1.0
 		}
 	}
-	mercenary_ideas = {
+	mercenary_ideas = { # +0 / +0 / +0 / +0 = 0
 		category = MIL
 		#Cheapening Mercs & making them better
 
@@ -1618,8 +1624,7 @@
 		}
 		
 		organised_mercenary_payment = {
-			mercenary_cost = -0.10
-			imperial_mercenary_cost = -0.05
+			mercenary_cost = -0.15
 		}
 		hired_leaders = {
 			free_leader_pool = 1
@@ -1644,7 +1649,7 @@
 			factor = 0.6
 		}
 	}
-	naval_ideas = {
+	naval_ideas = { # +0 / +0 / +0 / +0 = 0
 		category = MIL
 
 		trigger = {
@@ -1719,7 +1724,7 @@
 	}
 
 	#Late (1700+)
-	combined_arms_ideas = {
+	combined_arms_ideas = { # 24
 		category = MIL
 
 		trigger = {
@@ -1729,37 +1734,37 @@
 		}
 
 		bonus = {
-			infantry_power = 0.10
+			infantry_power = 0.10 # +3
 		}
 		
 		concentration_of_force = {
-			cavalry_power = 0.15
-			cavalry_flanking = 0.25
+			cavalry_power = 0.15 # +4
+			cavalry_flanking = 0.25 # +1
 		}
 		modern_military = {
-			discipline = 0.03
+			discipline = 0.03 # +2
 		}
 		lightning_war = {
-			movement_speed = 0.1
+			movement_speed = 0.1 # +2
 		}
 		shock_and_awe = {
-			artillery_power = 0.10
+			artillery_power = 0.10 # +3
 		}
 		professional_army = {
-			yearly_army_professionalism = 0.01
+			yearly_army_professionalism = 0.01 # +3
 		}
 		general_staff = {
-			army_tradition = 0.5
+			army_tradition = 0.5 # +3
 		}
 		military_readiness = {
-			land_morale = 0.10
+			land_morale = 0.10 # +3
 		}
 		
 		ai_will_do = {
 			factor = 1.1
 		}
 	}
-	mass_production_ideas = {
+	mass_production_ideas = { # 25
 		category = MIL
 
 		trigger = {
@@ -1769,33 +1774,33 @@
 		}
 
 		bonus = {
-			land_forcelimit_modifier = 0.5
-			naval_forcelimit_modifier = 0.2
+			land_forcelimit_modifier = 0.25 # +4
+			naval_forcelimit_modifier = 0.2 # +3
 		}
 
 		integrate_trains = {
-			reinforce_speed = 0.33
+			reinforce_speed = 0.33 # +3
 		}
 		time_tables = {
-			global_regiment_recruit_speed = -0.10
+			global_regiment_recruit_speed = -0.10 # +1
 		}
 		assembly_lines = {
-			global_trade_goods_size_modifier = 0.1
+			global_trade_goods_size_modifier = 0.1 # +3
 		}
 		industrial_shipbuilding = {
-			global_ship_recruit_speed = -0.1
-			global_ship_repair = 0.2
+			global_ship_recruit_speed = -0.1 # +1
+			global_ship_repair = 0.2 # +1
 		}
 		standardized_training = {
-			global_regiment_cost = -0.05
+			global_regiment_cost = -0.05 # +2
 		}
 		general_conscription = {
-			global_manpower_modifier = 0.5
-			global_sailors_modifier = 0.2
+			global_manpower_modifier = 0.33 # +3
+			global_sailors_modifier = 0.2 # +1
 		}
 		servicemen_readjustment = {
-			manpower_recovery_speed = 0.2
-			sailors_recovery_speed = 0.1
+			manpower_recovery_speed = 0.1 # +2
+			sailors_recovery_speed = 0.1 # +1
 		}
 		
 		ai_will_do = {
@@ -1804,7 +1809,7 @@
 	}
 
 	#Combinations
-	procurement_ideas = {
+	procurement_ideas = { # 22
 		category = MIL
 
 		trigger = {
@@ -1819,40 +1824,39 @@
 		}
 
 		bonus = {
-			fire_damage_received = -0.05
-			shock_damage_received = -0.05
-			land_maintenance_modifier = 0.10
+			discipline = 0.05 # +5
+			land_maintenance_modifier = 0.10 # -2
 		}
 
 		replaceable_parts = {
-			reinforce_cost_modifier = -0.15
+			reinforce_cost_modifier = -0.2 # +2
 		}
 		military_industrial_complex = {
-			army_tradition_decay = -0.01
-			navy_tradition_decay = -0.01
-			global_regiment_cost = 0.10
+			army_tradition_decay = -0.01 # +3
+			navy_tradition_decay = -0.01 # +1
+			global_regiment_cost = 0.10 # -3
 		}
 		war_profiteering = {
-			war_taxes_cost_modifier = -0.50
+			war_taxes_cost_modifier = -0.50 # +2
 		}
 		better_small_arms = {
-			infantry_power = 0.05
-			cavalry_power = 0.05
+			infantry_power = 0.1 # +3
+			cavalry_power = 0.05 # +1
 		}
 		better_artillery = {
-			artillery_power = 0.05
-			cavalry_power = 0.05
+			artillery_power = 0.1 # +3
+			cavalry_power = 0.05 # +1
 		}
 		better_ships = {
-			heavy_ship_power = 0.05
-			light_ship_power = 0.05
-			galley_power = 0.05
-			global_ship_cost = 0.1
+			heavy_ship_power = 0.1 # +2
+			light_ship_power = 0.1 # +1
+			galley_power = 0.1 # +1
+			global_ship_cost = 0.1 # -1
 		}
 		quality_assurance = {
-			fire_damage = 0.05
-			shock_damage = 0.05
-			global_regiment_cost = 0.05
+			fire_damage = 0.1 # +3
+			shock_damage = 0.1 # +2
+			global_regiment_cost = 0.05 # -2
 		}
 
 		
