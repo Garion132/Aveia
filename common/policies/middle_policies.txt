@@ -1092,7 +1092,7 @@
             full_idea_group = aristocracy_ideas
         }
 
-        trade_efficiency = 0.1
+        min_autonomy_in_territories = -0.1
         
         ai_will_do = {
             factor = 0.8
@@ -1113,7 +1113,7 @@
         }
     }
     expansion_plutocracy = {
-        monarch_power = MIL
+        monarch_power = ADM
 
 
         potential = {
@@ -1126,10 +1126,11 @@
             full_idea_group = plutocracy_ideas
         }
 
-        trade_efficiency = 0.1
+        production_efficiency = 0.1
+        global_manpower_modifier = 0.1
         
         ai_will_do = {
-            factor = 0.6
+            factor = 0.9
         }
     }
     expansion_quality = {
@@ -1146,10 +1147,10 @@
             full_idea_group = quality_ideas
         }
 
-        trade_efficiency = 0.1
+        leader_land_fire = 1
         
         ai_will_do = {
-            factor = 0.6
+            factor = 0.8
         }
     }
     expansion_quantity = {
@@ -1166,14 +1167,19 @@
             full_idea_group = quantity_ideas
         }
 
-        trade_efficiency = 0.1
+        land_forcelimit_modifier = 0.1
+        global_colonial_growth = 15
         
         ai_will_do = {
-            factor = 0.6
+            factor = 1
+            modifier = {
+                factor = 0.6
+                NOT = { colonies = 1 }
+            }
         }
     }
     expansion_mercenary = {
-        monarch_power = MIL
+        monarch_power = ADM
 
 
         potential = {
@@ -1186,14 +1192,19 @@
             full_idea_group = mercenary_ideas
         }
 
-        trade_efficiency = 0.1
+        auto_explore_adjacent_to_colony = yes
+        colonist_placement_chance = 0.05
         
         ai_will_do = {
-            factor = 0.6
+            factor = 0.7
+            modifier = {
+                factor = 0
+                NOT = { colonies = 1 }
+            }
         }
     }
     expansion_naval = {
-        monarch_power = MIL
+        monarch_power = ADM
 
 
         potential = {
@@ -1206,16 +1217,21 @@
             full_idea_group = naval_ideas
         }
 
-        trade_efficiency = 0.1
+        state_maintenance_modifier = -0.2
+        liberty_desire_from_subject_development = -0.2
         
         ai_will_do = {
-            factor = 0.6
+            factor = 0.7
+            modifier = {
+                factor = 1.2
+                num_of_subjects = 1
+            }
         }
     }
 #
 #Economic
     economic_aristocracy = {
-        monarch_power = MIL
+        monarch_power = ADM
 
 
         potential = {
@@ -1228,14 +1244,23 @@
             full_idea_group = aristocracy_ideas
         }
 
-        trade_efficiency = 0.1
+        global_tax_modifier = 0.2
+        infantry_cost = -0.1
         
         ai_will_do = {
-            factor = 0.6
+            factor = 1
+            modifier = {
+                factor = 1.5
+                tax_income_percentage = 30
+            }
+            modifier = {
+                factor = 1.5
+                tax_income_percentage = 40
+            }
         }
     }
     economic_plutocracy = {
-        monarch_power = MIL
+        monarch_power = ADM
 
 
         potential = {
@@ -1248,10 +1273,19 @@
             full_idea_group = plutocracy_ideas
         }
 
-        trade_efficiency = 0.1
+        global_tax_modifier = 0.2
+        republican_tradition = 0.2
         
         ai_will_do = {
-            factor = 0.6
+            factor = 0.9
+            modifier = {
+                factor = 1.5
+                tax_income_percentage = 30
+            }
+            modifier = {
+                factor = 1.5
+                tax_income_percentage = 40
+            }
         }
     }
     economic_quality = {
@@ -1268,10 +1302,15 @@
             full_idea_group = quality_ideas
         }
 
-        trade_efficiency = 0.1
+        shock_damage_received = -0.08
+        fire_damage_received = -0.08
         
         ai_will_do = {
-            factor = 0.6
+            factor = 1
+            modifier = {
+                factor = 1.5
+                is_at_war = yes
+            }
         }
     }
     economic_quantity = {
@@ -1288,14 +1327,19 @@
             full_idea_group = quantity_ideas
         }
 
-        trade_efficiency = 0.1
+        land_forcelimit_modifier = 0.1
+        development_cost = -0.05
         
         ai_will_do = {
-            factor = 0.6
+            factor = 0.9
+            modifier = {
+                factor = 1.5
+                is_at_war = yes
+            }
         }
     }
     economic_mercenary = {
-        monarch_power = MIL
+        monarch_power = ADM
 
 
         potential = {
@@ -1308,14 +1352,14 @@
             full_idea_group = mercenary_ideas
         }
 
-        trade_efficiency = 0.1
+        build_cost = -0.15
         
         ai_will_do = {
-            factor = 0.6
+            factor = 0.9
         }
     }
     economic_naval = {
-        monarch_power = MIL
+        monarch_power = ADM
 
 
         potential = {
@@ -1328,622 +1372,623 @@
             full_idea_group = naval_ideas
         }
 
-        trade_efficiency = 0.1
+        trade_goods_size_modifier = 0.1
+        production_efficiency = 0.1
         
         ai_will_do = {
-            factor = 0.6
+            factor = 1.5
         }
     }
 #
 
 #DIP-MIL
-#Influence
-    influence_aristocracy = {
-        monarch_power = MIL
+# #Influence
+#     influence_aristocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = influence_ideas
-            has_idea_group = aristocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = influence_ideas
+#             has_idea_group = aristocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = influence_ideas
-            full_idea_group = aristocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = influence_ideas
+#             full_idea_group = aristocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    influence_plutocracy = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     influence_plutocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = influence_ideas
-            has_idea_group = plutocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = influence_ideas
+#             has_idea_group = plutocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = influence_ideas
-            full_idea_group = plutocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = influence_ideas
+#             full_idea_group = plutocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    influence_quality = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     influence_quality = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = influence_ideas
-            has_idea_group = quality_ideas
-        }
+#         potential = {
+#             has_idea_group = influence_ideas
+#             has_idea_group = quality_ideas
+#         }
         
-        allow = {
-            full_idea_group = influence_ideas
-            full_idea_group = quality_ideas
-        }
+#         allow = {
+#             full_idea_group = influence_ideas
+#             full_idea_group = quality_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    influence_quantity = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     influence_quantity = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = influence_ideas
-            has_idea_group = quantity_ideas
-        }
+#         potential = {
+#             has_idea_group = influence_ideas
+#             has_idea_group = quantity_ideas
+#         }
         
-        allow = {
-            full_idea_group = influence_ideas
-            full_idea_group = quantity_ideas
-        }
+#         allow = {
+#             full_idea_group = influence_ideas
+#             full_idea_group = quantity_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    influence_mercenary = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     influence_mercenary = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = influence_ideas
-            has_idea_group = mercenary_ideas
-        }
+#         potential = {
+#             has_idea_group = influence_ideas
+#             has_idea_group = mercenary_ideas
+#         }
         
-        allow = {
-            full_idea_group = influence_ideas
-            full_idea_group = mercenary_ideas
-        }
+#         allow = {
+#             full_idea_group = influence_ideas
+#             full_idea_group = mercenary_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    influence_naval = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     influence_naval = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = influence_ideas
-            has_idea_group = naval_ideas
-        }
+#         potential = {
+#             has_idea_group = influence_ideas
+#             has_idea_group = naval_ideas
+#         }
         
-        allow = {
-            full_idea_group = influence_ideas
-            full_idea_group = naval_ideas
-        }
+#         allow = {
+#             full_idea_group = influence_ideas
+#             full_idea_group = naval_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-#
-#Exploration
-    exploration_aristocracy = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+# #
+# #Exploration
+#     exploration_aristocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = exploration_ideas
-            has_idea_group = aristocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = exploration_ideas
+#             has_idea_group = aristocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = exploration_ideas
-            full_idea_group = aristocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = exploration_ideas
+#             full_idea_group = aristocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    exploration_plutocracy = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     exploration_plutocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = exploration_ideas
-            has_idea_group = plutocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = exploration_ideas
+#             has_idea_group = plutocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = exploration_ideas
-            full_idea_group = plutocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = exploration_ideas
+#             full_idea_group = plutocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    exploration_quality = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     exploration_quality = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = exploration_ideas
-            has_idea_group = quality_ideas
-        }
+#         potential = {
+#             has_idea_group = exploration_ideas
+#             has_idea_group = quality_ideas
+#         }
         
-        allow = {
-            full_idea_group = exploration_ideas
-            full_idea_group = quality_ideas
-        }
+#         allow = {
+#             full_idea_group = exploration_ideas
+#             full_idea_group = quality_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    exploration_quantity = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     exploration_quantity = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = exploration_ideas
-            has_idea_group = quantity_ideas
-        }
+#         potential = {
+#             has_idea_group = exploration_ideas
+#             has_idea_group = quantity_ideas
+#         }
         
-        allow = {
-            full_idea_group = exploration_ideas
-            full_idea_group = quantity_ideas
-        }
+#         allow = {
+#             full_idea_group = exploration_ideas
+#             full_idea_group = quantity_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    exploration_mercenary = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     exploration_mercenary = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = exploration_ideas
-            has_idea_group = mercenary_ideas
-        }
+#         potential = {
+#             has_idea_group = exploration_ideas
+#             has_idea_group = mercenary_ideas
+#         }
         
-        allow = {
-            full_idea_group = exploration_ideas
-            full_idea_group = mercenary_ideas
-        }
+#         allow = {
+#             full_idea_group = exploration_ideas
+#             full_idea_group = mercenary_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    exploration_naval = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     exploration_naval = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = exploration_ideas
-            has_idea_group = naval_ideas
-        }
+#         potential = {
+#             has_idea_group = exploration_ideas
+#             has_idea_group = naval_ideas
+#         }
         
-        allow = {
-            full_idea_group = exploration_ideas
-            full_idea_group = naval_ideas
-        }
+#         allow = {
+#             full_idea_group = exploration_ideas
+#             full_idea_group = naval_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-#
-#Espionage
-    espionage_aristocracy = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+# #
+# #Espionage
+#     espionage_aristocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = spy_ideas
-            has_idea_group = aristocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = spy_ideas
+#             has_idea_group = aristocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = spy_ideas
-            full_idea_group = aristocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = spy_ideas
+#             full_idea_group = aristocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    espionage_plutocracy = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     espionage_plutocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = spy_ideas
-            has_idea_group = plutocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = spy_ideas
+#             has_idea_group = plutocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = spy_ideas
-            full_idea_group = plutocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = spy_ideas
+#             full_idea_group = plutocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    espionage_quality = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     espionage_quality = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = spy_ideas
-            has_idea_group = quality_ideas
-        }
+#         potential = {
+#             has_idea_group = spy_ideas
+#             has_idea_group = quality_ideas
+#         }
         
-        allow = {
-            full_idea_group = spy_ideas
-            full_idea_group = quality_ideas
-        }
+#         allow = {
+#             full_idea_group = spy_ideas
+#             full_idea_group = quality_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    espionage_quantity = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     espionage_quantity = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = spy_ideas
-            has_idea_group = quantity_ideas
-        }
+#         potential = {
+#             has_idea_group = spy_ideas
+#             has_idea_group = quantity_ideas
+#         }
         
-        allow = {
-            full_idea_group = spy_ideas
-            full_idea_group = quantity_ideas
-        }
+#         allow = {
+#             full_idea_group = spy_ideas
+#             full_idea_group = quantity_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    espionage_mercenary = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     espionage_mercenary = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = spy_ideas
-            has_idea_group = mercenary_ideas
-        }
+#         potential = {
+#             has_idea_group = spy_ideas
+#             has_idea_group = mercenary_ideas
+#         }
         
-        allow = {
-            full_idea_group = spy_ideas
-            full_idea_group = mercenary_ideas
-        }
+#         allow = {
+#             full_idea_group = spy_ideas
+#             full_idea_group = mercenary_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    espionage_naval = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     espionage_naval = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = spy_ideas
-            has_idea_group = naval_ideas
-        }
+#         potential = {
+#             has_idea_group = spy_ideas
+#             has_idea_group = naval_ideas
+#         }
         
-        allow = {
-            full_idea_group = spy_ideas
-            full_idea_group = naval_ideas
-        }
+#         allow = {
+#             full_idea_group = spy_ideas
+#             full_idea_group = naval_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-#
-#Propaganda
-    propaganda_aristocracy = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+# #
+# #Propaganda
+#     propaganda_aristocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = propaganda_ideas
-            has_idea_group = aristocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = propaganda_ideas
+#             has_idea_group = aristocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = propaganda_ideas
-            full_idea_group = aristocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = propaganda_ideas
+#             full_idea_group = aristocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    propaganda_plutocracy = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     propaganda_plutocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = propaganda_ideas
-            has_idea_group = plutocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = propaganda_ideas
+#             has_idea_group = plutocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = propaganda_ideas
-            full_idea_group = plutocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = propaganda_ideas
+#             full_idea_group = plutocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    propaganda_quality = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     propaganda_quality = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = propaganda_ideas
-            has_idea_group = quality_ideas
-        }
+#         potential = {
+#             has_idea_group = propaganda_ideas
+#             has_idea_group = quality_ideas
+#         }
         
-        allow = {
-            full_idea_group = propaganda_ideas
-            full_idea_group = quality_ideas
-        }
+#         allow = {
+#             full_idea_group = propaganda_ideas
+#             full_idea_group = quality_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    propaganda_quantity = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     propaganda_quantity = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = propaganda_ideas
-            has_idea_group = quantity_ideas
-        }
+#         potential = {
+#             has_idea_group = propaganda_ideas
+#             has_idea_group = quantity_ideas
+#         }
         
-        allow = {
-            full_idea_group = propaganda_ideas
-            full_idea_group = quantity_ideas
-        }
+#         allow = {
+#             full_idea_group = propaganda_ideas
+#             full_idea_group = quantity_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    propaganda_mercenary = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     propaganda_mercenary = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = propaganda_ideas
-            has_idea_group = mercenary_ideas
-        }
+#         potential = {
+#             has_idea_group = propaganda_ideas
+#             has_idea_group = mercenary_ideas
+#         }
         
-        allow = {
-            full_idea_group = propaganda_ideas
-            full_idea_group = mercenary_ideas
-        }
+#         allow = {
+#             full_idea_group = propaganda_ideas
+#             full_idea_group = mercenary_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    propaganda_naval = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     propaganda_naval = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = propaganda_ideas
-            has_idea_group = naval_ideas
-        }
+#         potential = {
+#             has_idea_group = propaganda_ideas
+#             has_idea_group = naval_ideas
+#         }
         
-        allow = {
-            full_idea_group = propaganda_ideas
-            full_idea_group = naval_ideas
-        }
+#         allow = {
+#             full_idea_group = propaganda_ideas
+#             full_idea_group = naval_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-#
-#Business
-    business_aristocracy = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+# #
+# #Business
+#     business_aristocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = business_ideas
-            has_idea_group = aristocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = business_ideas
+#             has_idea_group = aristocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = business_ideas
-            full_idea_group = aristocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = business_ideas
+#             full_idea_group = aristocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    business_plutocracy = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     business_plutocracy = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = business_ideas
-            has_idea_group = plutocracy_ideas
-        }
+#         potential = {
+#             has_idea_group = business_ideas
+#             has_idea_group = plutocracy_ideas
+#         }
         
-        allow = {
-            full_idea_group = business_ideas
-            full_idea_group = plutocracy_ideas
-        }
+#         allow = {
+#             full_idea_group = business_ideas
+#             full_idea_group = plutocracy_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    business_quality = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     business_quality = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = business_ideas
-            has_idea_group = quality_ideas
-        }
+#         potential = {
+#             has_idea_group = business_ideas
+#             has_idea_group = quality_ideas
+#         }
         
-        allow = {
-            full_idea_group = business_ideas
-            full_idea_group = quality_ideas
-        }
+#         allow = {
+#             full_idea_group = business_ideas
+#             full_idea_group = quality_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    business_quantity = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     business_quantity = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = business_ideas
-            has_idea_group = quantity_ideas
-        }
+#         potential = {
+#             has_idea_group = business_ideas
+#             has_idea_group = quantity_ideas
+#         }
         
-        allow = {
-            full_idea_group = business_ideas
-            full_idea_group = quantity_ideas
-        }
+#         allow = {
+#             full_idea_group = business_ideas
+#             full_idea_group = quantity_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    business_mercenary = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     business_mercenary = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = business_ideas
-            has_idea_group = mercenary_ideas
-        }
+#         potential = {
+#             has_idea_group = business_ideas
+#             has_idea_group = mercenary_ideas
+#         }
         
-        allow = {
-            full_idea_group = business_ideas
-            full_idea_group = mercenary_ideas
-        }
+#         allow = {
+#             full_idea_group = business_ideas
+#             full_idea_group = mercenary_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-    business_naval = {
-        monarch_power = MIL
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+#     business_naval = {
+#         monarch_power = MIL
 
 
-        potential = {
-            has_idea_group = business_ideas
-            has_idea_group = naval_ideas
-        }
+#         potential = {
+#             has_idea_group = business_ideas
+#             has_idea_group = naval_ideas
+#         }
         
-        allow = {
-            full_idea_group = business_ideas
-            full_idea_group = naval_ideas
-        }
+#         allow = {
+#             full_idea_group = business_ideas
+#             full_idea_group = naval_ideas
+#         }
 
-        trade_efficiency = 0.1
+#         trade_efficiency = 0.1
         
-        ai_will_do = {
-            factor = 0.6
-        }
-    }
-#
+#         ai_will_do = {
+#             factor = 0.6
+#         }
+#     }
+# #
