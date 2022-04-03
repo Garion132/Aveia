@@ -521,6 +521,7 @@ estate_church_religious_state = {
 	loyalty = -0.05
 	can_select = {
 		NOT={has_government = bronze_monarchy}
+		always = no
 	}
 	on_granted = {
 	}
@@ -863,6 +864,7 @@ estate_burghers_land_of_commerce = {
 	loyalty = -0.05
 	can_select = {
 		NOT={has_government = bronze_monarchy}
+		always = no
 	}
 	on_granted = {
 	}

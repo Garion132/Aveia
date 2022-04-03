@@ -14,4 +14,5 @@ bookmark = {
 	country = LEL
 	country = NYH
 	country = SAL
+	country = FRS
 }

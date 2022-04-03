@@ -291,7 +291,7 @@ province_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,3
 		}
 		CTC_next_location_effect = yes
 		add_treasury = -50
-		
+		set_global_flag = CTC_sponsor_found
 		save_global_event_target_as = CTC_tag_switch_nation
 	}
 }
