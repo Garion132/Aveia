@@ -894,147 +894,147 @@ country_event = {
 	}
 }
 
-# Fear and Loathing 1/3
-province_event = {
-	id = 9481
-	title = "EVTNAME9481"
-	desc = "EVTDESC9481"
-	picture = ASSASSINATION_eventPicture
+# # Fear and Loathing 1/3
+# province_event = {
+	# id = 9481
+	# title = "EVTNAME9481"
+	# desc = "EVTDESC9481"
+	# picture = ASSASSINATION_eventPicture
 	
-	trigger = {
-		papacy_active = yes
-		is_capital = yes
-		owner = {
-			has_regency = no
-			has_heir = yes
-			religion_group = christian
-			NOT = { has_reform = elective_monarchy }
-			NOT = { has_reform = ottoman_government }
-			is_lesser_in_union = no
-			NOT = { has_country_flag = murdering_bastard }
-			NOT = { has_country_flag = contained_insanity }
-			NOT = { heir_age = 3 }
-		}
-	}
+	# trigger = {
+		# papacy_active = yes
+		# is_capital = yes
+		# owner = {
+			# has_regency = no
+			# has_heir = yes
+			# religion_group = christian
+			# NOT = { has_reform = elective_monarchy }
+			# NOT = { has_reform = ottoman_government }
+			# is_lesser_in_union = no
+			# NOT = { has_country_flag = murdering_bastard }
+			# NOT = { has_country_flag = contained_insanity }
+			# NOT = { heir_age = 3 }
+		# }
+	# }
 	
-	mean_time_to_happen = {
-		months = 4000
-		modifier = {
-			factor = 0.75
-			owner = { ruler_has_personality = malevolent_personality }
-		}
-	}
+	# mean_time_to_happen = {
+		# months = 4000
+		# modifier = {
+			# factor = 0.75
+			# owner = { ruler_has_personality = malevolent_personality }
+		# }
+	# }
 	
-	option = {
-		name = "EVTOPTA9481"
-		owner = {
-			kill_heir = yes
-			set_country_flag = murdering_bastard
-		}
-	}
+	# option = {
+		# name = "EVTOPTA9481"
+		# owner = {
+			# kill_heir = yes
+			# set_country_flag = murdering_bastard
+		# }
+	# }
 	
-	option = {
-		name = "EVTOPTB9481"
-		owner = {
-			add_papal_influence = 5
-			set_country_flag = contained_insanity
-		}
-	}
-}
+	# option = {
+		# name = "EVTOPTB9481"
+		# owner = {
+			# add_papal_influence = 5
+			# set_country_flag = contained_insanity
+		# }
+	# }
+# }
 
-# Fear and Loathing 2/3
-country_event = {
-	id = 9482
-	title = "EVTNAME9482"
-	desc = "EVTDESC9482"
-	picture = DEATH_OF_HEIR_eventPicture
+# # Fear and Loathing 2/3
+# country_event = {
+	# id = 9482
+	# title = "EVTNAME9482"
+	# desc = "EVTDESC9482"
+	# picture = DEATH_OF_HEIR_eventPicture
 	
-	trigger = {
-		has_country_flag = murdering_bastard
-		NOT = { has_country_flag = contained_insanity }
-		has_regency = no
-		is_lesser_in_union = no
-	}
+	# trigger = {
+		# has_country_flag = murdering_bastard
+		# NOT = { has_country_flag = contained_insanity }
+		# has_regency = no
+		# is_lesser_in_union = no
+	# }
 	
-	mean_time_to_happen = {
-		months = 12
-	}
+	# mean_time_to_happen = {
+		# months = 12
+	# }
 	
-	option = {
-		name = "EVTOPTA9482"
-		kill_ruler = yes
-		clr_country_flag = murdering_bastard
-	}
+	# option = {
+		# name = "EVTOPTA9482"
+		# kill_ruler = yes
+		# clr_country_flag = murdering_bastard
+	# }
 	
-	option = {
-		name = "EVTOPTB9482"
-		add_prestige = -5
-		add_treasury = -100
-		set_country_flag = contained_insanity
-	}
-}
+	# option = {
+		# name = "EVTOPTB9482"
+		# add_prestige = -5
+		# add_treasury = -100
+		# set_country_flag = contained_insanity
+	# }
+# }
 
-# Fear and Loathing 3/3
-country_event = {
-	id = 9483
-	title = "EVTNAME9483"
-	desc = "EVTDESC9483"
-	picture = DEATH_OF_HEIR_eventPicture
+# # Fear and Loathing 3/3
+# country_event = {
+	# id = 9483
+	# title = "EVTNAME9483"
+	# desc = "EVTDESC9483"
+	# picture = DEATH_OF_HEIR_eventPicture
 
-	trigger = {
-		has_country_flag = contained_insanity
-		has_regency = no
-		is_lesser_in_union = no
-	}
+	# trigger = {
+		# has_country_flag = contained_insanity
+		# has_regency = no
+		# is_lesser_in_union = no
+	# }
 	
-	mean_time_to_happen = {
-		months = 300
-	}
+	# mean_time_to_happen = {
+		# months = 300
+	# }
 	
-	option = {
-		name = "EVTOPTA9483"
-		add_stability = -3
-		add_prestige = -20
-		clr_country_flag = contained_insanity
-	}
+	# option = {
+		# name = "EVTOPTA9483"
+		# add_stability = -3
+		# add_prestige = -20
+		# clr_country_flag = contained_insanity
+	# }
 	
-	option = {
-		name = "EVTOPTB9483"
-		kill_ruler = yes
-		add_country_modifier = {
-			name = "relief_from"
-			duration = 3650
-		}
-		clr_country_flag = contained_insanity
-	}
-}
+	# option = {
+		# name = "EVTOPTB9483"
+		# kill_ruler = yes
+		# add_country_modifier = {
+			# name = "relief_from"
+			# duration = 3650
+		# }
+		# clr_country_flag = contained_insanity
+	# }
+# }
 
-# Fear and Loathing removal on ruler death, ontriggered
-country_event = {
-	id = 9492
-	title = "EVTNAME9492"
-	desc = "EVTDESC9492"
-	picture = DEATH_OF_HEIR_eventPicture
+# # Fear and Loathing removal on ruler death, ontriggered
+# country_event = {
+	# id = 9492
+	# title = "EVTNAME9492"
+	# desc = "EVTDESC9492"
+	# picture = DEATH_OF_HEIR_eventPicture
 	
-	trigger = {
-		OR = {
-			has_country_flag = contained_insanity
-			has_country_flag = murdering_bastard
-		}
-	}
+	# trigger = {
+		# OR = {
+			# has_country_flag = contained_insanity
+			# has_country_flag = murdering_bastard
+		# }
+	# }
 	
-	is_triggered_only = yes
+	# is_triggered_only = yes
 	
-	option = {
-		name = "EVTOPTA9492"
-		add_country_modifier = {
-			name = "relief_from"
-			duration = 3650
-		}
-		clr_country_flag = contained_insanity
-		clr_country_flag = murdering_bastard
-	}
-}
+	# option = {
+		# name = "EVTOPTA9492"
+		# add_country_modifier = {
+			# name = "relief_from"
+			# duration = 3650
+		# }
+		# clr_country_flag = contained_insanity
+		# clr_country_flag = murdering_bastard
+	# }
+# }
 
 # Wedding bells
 country_event = {

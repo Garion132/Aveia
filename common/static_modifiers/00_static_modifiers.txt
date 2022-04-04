@@ -104,7 +104,7 @@ city = {
 	allowed_num_of_buildings = 2
 	local_sailors_modifier = 0.25
 	garrison_growth = 0.05
-}
+	allowed_num_of_manufactories = 1}
 
 port = {
 	local_institution_spread = 0.25
@@ -136,7 +136,7 @@ non_coastal = {
 }
 
 coastal_sea = {
-	local_naval_engagement_modifier = 0.10
+	local_naval_engagement_modifier = -0.20
 }
 
 tropical = {
@@ -164,7 +164,6 @@ arid = {
 	local_colonial_growth = -10
 	supply_limit_modifier = -0.2
 	local_hostile_attrition = 1
-	max_attrition = 1
 
 	local_development_cost = 0.1
 
@@ -182,7 +181,6 @@ land_province = {
 
 mild_winter = {
 	local_hostile_attrition = 1
-	max_attrition = 1
 	supply_limit_modifier = -0.1
 
 	picture = "winter_mild"
@@ -190,25 +188,21 @@ mild_winter = {
 
 normal_winter = {
 	local_hostile_attrition = 2
-	max_attrition = 2
 	supply_limit_modifier = -0.2
-
+	migration_cost = 0.1
 	picture = "winter_normal"
 }
 
 severe_winter = {
 	local_hostile_attrition = 3
-	max_attrition = 3
 	supply_limit_modifier = -0.3
-	local_hostile_movement_speed = -0.20
-	local_friendly_movement_speed = -0.20
+	migration_cost = 0.2
 
 	picture = "winter_severe"
 }
 
 mild_monsoon = {
 	local_hostile_attrition = 0.5
-	max_attrition = 0.5
 	local_hostile_movement_speed = -0.20
 	local_friendly_movement_speed = -0.20
 
@@ -217,7 +211,6 @@ mild_monsoon = {
 
 normal_monsoon = {
 	local_hostile_attrition = 1
-	max_attrition = 1
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
 
@@ -226,7 +219,6 @@ normal_monsoon = {
 
 severe_monsoon = {
 	local_hostile_attrition = 1.5
-	max_attrition = 1.5
 	local_hostile_movement_speed = -0.50
 	local_friendly_movement_speed = -0.50
 
@@ -245,13 +237,11 @@ no_adjacent_controlled = {
 
 provincial_tax_income = {
 	regiment_recruit_speed = -0.01
-	local_tax_modifier = 0.025
 }
 
 provincial_production_size = {
 	trade_goods_size = 0.2
 	ship_recruit_speed = -0.01
-	trade_goods_size_modifier = 0.025
 }
 
 knowledge_sharing = {
@@ -264,12 +254,8 @@ cardinals_spread_institution = {
 
 manpower = {
 	garrison_growth = 0.01					#1% increase from manpower.
-	local_manpower_modifier = 0.025
-	local_sailors_modifier = 0.025
 }
 
-sailors = {
-}
 
 # Caps at 600
 horde_development = {
@@ -351,6 +337,14 @@ non_core = {
 	trade_goods_size_modifier = -0.5
 }
 
+colonial_core = {
+	local_tax_modifier = 0.75				#90% more in a core
+	local_manpower_modifier = 0.75			#75% more in a core
+	local_sailors_modifier = 0.75
+	local_missionary_strength = -0.02
+	min_local_autonomy = 50
+	local_governing_cost = -0.5
+}
 territory_core = {
 	local_tax_modifier = 0.25				#90% more in a core
 	local_manpower_modifier = 0.25			#75% more in a core
@@ -497,7 +491,7 @@ local_autonomy_trade_company = {
 
 recent_uprising = {
 	local_unrest = -100
-}
+	picture = "recent_uprising"}
 
 
 friendly_regiments = {
@@ -569,6 +563,9 @@ base_values = {
 	artillery_bonus_vs_fort = 5
 	cav_to_inf_ratio = 0.2
 	merc_maintenance_modifier = 0.5
+	monthly_heir_claim_increase = 0.208
+	tolerance_of_heretics_capacity = 3
+	tolerance_of_heathens_capacity = 3
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -614,7 +611,7 @@ negative_stability = {
 	global_unrest = -2					#-1% EXTRA revolt risk each step
 	legitimacy = 1
 	interest = -1
-	migration_cooldown = 0.1
+	migration_cost = 0.1
 	devotion = 1
 	caravan_power = 0.05
 }
@@ -689,7 +686,7 @@ bankruptcy = {
 	technology_cost = 0.5
 	idea_cost = 0.5
 	imperial_mandate = -0.1
-}
+	great_project_upgrade_cost = 0.5}
 
 
 war = {
@@ -743,7 +740,7 @@ authority = {
 }
 
 regency_council = {
-	legitimacy = -2
+	stability_cost_modifier = 0.25
 }
 
 trade_efficiency = {
@@ -930,6 +927,7 @@ corruption = {
 	burghers_loyalty_modifier = 0.1
 	nomadic_tribes_loyalty_modifier = 0.1
 
+	monthly_heir_claim_increase = 0.025
 }
 
 root_out_corruption = {
@@ -984,7 +982,7 @@ luck = {
 	republican_tradition = 0.5
 	legitimacy = 1
 	ae_impact = -0.25
-
+	governing_capacity_modifier = 0.25
 }
 
 over_extension = {
@@ -1010,7 +1008,7 @@ prestige = {
 	ae_impact = -0.10
 	embracement_cost = -0.1
 
-	church_loyalty_modifier = 0.05
+	monthly_heir_claim_increase = 0.05	church_loyalty_modifier = 0.05
 	nobles_loyalty_modifier = 0.05
 	burghers_loyalty_modifier = 0.05
 	nomadic_tribes_loyalty_modifier = 0.05
@@ -1181,6 +1179,16 @@ power_projection_25 = {
 	free_leader_pool = 1
 }
 
+#100 Land Forcelimit = 1
+land_forcelimit = {
+    free_land_leader_pool = 1.25 #80 Army forcelimit -> +1 free leader
+}
+
+#100 Naval Forcelimit = 1
+naval_forcelimit = {
+    free_navy_leader_pool = 1.25 #80 Naval Forcelimit -> +1 Free Leader
+}
+
 trade_company_strong = {
 	merchants = 1
 }
@@ -1196,6 +1204,40 @@ large_colonial_nation = {
 	land_forcelimit = 5
 }
 
+crown_colony_overlord = {
+	merchants = 1
+	global_trade_power = 0.05
+}
+
+private_enterprise_overlord = {
+	merchants = 1
+	global_trade_power = 0.05
+	global_tariffs = -0.05
+}
+
+self_governing_colony_overlord = {
+	merchants = 1
+	global_trade_power = 0.05
+	global_tariffs = -0.10
+}
+
+crown_colony_subject = {
+	global_autonomy = -0.1
+	global_colonial_growth = 10
+}
+
+private_enterprise_subject = {
+	global_ship_trade_power = 0.2
+	global_trade_goods_size_modifier = 0.2
+	naval_tradition_from_trade = 0.1
+	ship_power_propagation = 0.1
+}
+
+self_governing_colony_subject = {
+	colonists = 1
+	development_cost = -0.15
+	liberty_desire = 25
+}
 march_subject = {
 	land_forcelimit = 1
 }
@@ -1270,6 +1312,7 @@ gov_rank_10 = {
 # For autonomy mechanics
 autonomy_increased = {
 	local_unrest = -10
+	picture="autonomy_increased"
 }
 
 autonomy_decreased = {
@@ -1279,12 +1322,12 @@ autonomy_decreased = {
 revolution_target = {
 	global_manpower_modifier = 0.10
 	land_morale = 0.10
-	war_exhaustion = -0.15
+	naval_morale = 0.1	war_exhaustion = -0.15
 	unjustified_demands = -0.5
 	land_maintenance_modifier = -0.15
 	naval_maintenance_modifier = -0.15
-	land_forcelimit_modifier = 0.4
-	naval_forcelimit_modifier = 0.4
+	manpower_recovery_speed = 0.25
+	sailors_recovery_speed = 0.25
 	papal_influence = -100
 }
 
@@ -1683,11 +1726,17 @@ janissary_regiment = {
 	drill_gain_modifier = 1.0
 }
 
+cawa_regiment = {
+	shock_damage_received = -0.15
+	land_attrition = -0.25
+	reinforce_cost_modifier = 0.25
+	reinforce_speed = -0.25
+}
 revolutionary_guard_regiment = {
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1
 	drill_gain_modifier = 1.0
-}
+	drill_decay_modifier = -0.5}
 
 innovativeness = {
 	all_power_cost	= -0.1
@@ -1741,4 +1790,38 @@ lost_hegemony = {
 
 at_peace_revolutionary = { # Applied if at peace while reactionaries are bordering you
 	yearly_revolutionary_zeal = -4
+}
+expanded_infrastructure = {
+	allowed_num_of_buildings = 1
+	allowed_num_of_manufactories = 1
+	regiment_recruit_speed = -0.15
+	ship_recruit_speed = -0.15
+	local_defensiveness = 0.05
+	garrison_growth = 0.05
+	local_development_cost = -0.05
+	local_production_efficiency = 0.05
+	local_tax_modifier = 0.1
+	local_manpower_modifier = 0.05
+	local_sailors_modifier = 0.05
+	local_ship_repair = 0.05
+	local_autonomy = -0.005
+	local_build_cost = -0.05
+	local_build_time = -0.05
+	province_trade_power_modifier = 0.05
+	trade_goods_size_modifier = 0.05
+	local_governing_cost_increase = 15
+	local_governing_cost = 0.1
+	local_great_project_upgrade_cost = -0.05
+}
+
+centralize_state = {
+	statewide_governing_cost = -0.25
+	local_prosperity_growth = 0.1
+	local_state_maintenance_modifier = -0.2
+	picture = "centralize_state"
+}
+
+# Applied once for each guru teaching
+guru_teaching = {
+	global_missionary_strength = -0.01
 }

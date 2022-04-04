@@ -29,6 +29,9 @@ technology = { #Basic Tech
 technology = { #Domestication
 	# Tech 1
 	year = 1235
+	expects_institution = {
+		organized_state = 0.25
+	}
 	
 	tribal_democracy_legacy = yes
 	tribal_kingdom_legacy = yes
@@ -41,6 +44,9 @@ technology = { #Domestication
 technology = { #Basic Administration
 	# Tech 2
 	year = 1248	
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	town_square = yes
 	allowed_idea_groups = 1
@@ -53,6 +59,10 @@ technology = { #Basic Administration
 technology = { #Minting
 	# Tech 3
 	year = 1261
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.25
+	}
 
 	mint = yes
 }
@@ -60,6 +70,10 @@ technology = { #Minting
 technology = { #Artisanship
 	# Tech 4
 	year = 1274
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 
 	#artisans_workshop = yes 
 	workshop = yes
@@ -70,6 +84,10 @@ technology = { #Artisanship
 technology = { #Recordkeeping
 	# Tech 5
 	year = 1287
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 
 	allowed_idea_groups = 2
 }
@@ -77,6 +95,10 @@ technology = { #Recordkeeping
 technology = { #Alchemy
 	# Tech 6
 	year = 1300
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 	
 	production_efficiency = 0.02
 	alchemist_shop = yes
@@ -85,6 +107,10 @@ technology = { #Alchemy
 technology = { #Shrines
 	# Tech 7
 	year = 1313
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 
 	shrine = yes
 }
@@ -93,6 +119,10 @@ technology = { #Sickles
 	# Tech 8
 
 	year = 1326
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 
 	production_efficiency = 0.02
 	development_efficiency = 0.05
@@ -101,6 +131,10 @@ technology = { #Sickles
 technology = { #Bronze-Era Administration
 	# Tech 9
 	year = 1339
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 	
 	governing_capacity = 50
 	allowed_idea_groups = 3
@@ -110,6 +144,10 @@ technology = { #Bronze-Era Administration
 technology = { #Craftsmanship
 	# Tech 10
 	year = 1352
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 	
 	#forge = yes
 	# - Proto-manufactory: provides 0.2 goods produced
@@ -119,6 +157,10 @@ technology = { #Craftsmanship
 technology = { #Simple Mechanisms
 	# Tech 11
 	year = 1365
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 	
 	production_efficiency = 0.02
 }
@@ -126,6 +168,10 @@ technology = { #Simple Mechanisms
 technology = { #Irrigation
 	# Tech 12
 	year = 1378
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 	
 	development_efficiency = 0.05
 	#irrigated_fields = yes
@@ -137,6 +183,10 @@ technology = { #Irrigation
 technology = { #Religious Revival
 	# Tech 13
 	year = 1391
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 	
 	temple = yes
 	theocratic_government = yes
@@ -147,6 +197,10 @@ technology = { #Religious Revival
 technology = { #Feudal Society
 	# Tech 14
 	year = 1404
+	expects_institution = {
+		organized_state = 0.50
+		bronze_working = 0.50
+	}
 	
 	bank = yes
 	governing_capacity = 50
@@ -157,6 +211,9 @@ technology = { #Feudal Society
 technology = { #Scythes
 	# Tech 15
 	year = 1417
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	farm_estate = yes
 	production_efficiency = 0.03
@@ -165,6 +222,9 @@ technology = { #Scythes
 technology = { #Expedition Theory
 	# Tech 16
 	year = 1430
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	allowed_idea_groups = 5
 }
@@ -172,6 +232,9 @@ technology = { #Expedition Theory
 technology = { #Courthouse
 	# Tech 17
 	year = 1443
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	courthouse = yes
 	governing_capacity = 100
@@ -180,6 +243,9 @@ technology = { #Courthouse
 technology = { #Plantations
 	# Tech 18
 	year = 1456
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	plantations = yes
 	production_efficiency = 0.02
@@ -188,6 +254,9 @@ technology = { #Plantations
 technology = { #Workshops
 	# Tech 19
 	year = 1469
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	#Workshop
 	artisans_guild = yes
@@ -198,6 +267,9 @@ technology = { #Workshops
 technology = { #Steam Pumps
 	# Tech 20
 	year = 1482
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	production_efficiency = 0.02
 	development_efficiency = 0.05
@@ -206,6 +278,9 @@ technology = { #Steam Pumps
 technology = { #National Identity
 	# Tech 21
 	year = 1495
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	allowed_idea_groups = 6
 
@@ -215,6 +290,9 @@ technology = { #National Identity
 technology = { #Machinery
 	# Tech 22
 	year = 1508
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	#Textile Manufactory
 	textile = yes  
@@ -224,6 +302,9 @@ technology = { #Machinery
 technology = { #Atmospheric Steam Engines
 	# Tech 23
 	year = 1521
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	development_efficiency = 0.1
 }
@@ -231,6 +312,9 @@ technology = { #Atmospheric Steam Engines
 technology = { #Improved Drainage
 	# Tech 24
 	year = 1534
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	production_efficiency = 0.03
 	
@@ -239,6 +323,9 @@ technology = { #Improved Drainage
 technology = { #Colonial Thought
 	# Tech 25
 	year = 1547
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	allowed_idea_groups = 7
 }
@@ -246,6 +333,9 @@ technology = { #Colonial Thought
 technology = { #Early Modern Administration
 	# Tech 26
 	year = 1560
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
@@ -258,6 +348,9 @@ technology = { #Early Modern Administration
 technology = { #Modern Metallurgy
 	# Tech 27
 	year = 1573
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	mills = yes
 	production_efficiency = 0.02
@@ -266,6 +359,9 @@ technology = { #Modern Metallurgy
 technology = { #Scientific Enquiry
 	# Tech 28
 	year = 1586
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	plantations = yes
 	allowed_idea_groups = 8
@@ -274,6 +370,9 @@ technology = { #Scientific Enquiry
 technology = { #Military Administration
 	# Tech 29
 	year = 1599
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	administrative_efficiency = 0.05
 
@@ -284,6 +383,9 @@ technology = { #Military Administration
 technology = { #National Sovereignty
 	# Tech 30
 	year = 1612
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	allowed_idea_groups = 9
 }
@@ -291,6 +393,9 @@ technology = { #National Sovereignty
 technology = { #Viatite Engineering
 	# Tech 31
 	year = 1625
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	development_efficiency = 0.05
 	production_efficiency = 0.02
@@ -300,6 +405,9 @@ technology = { #Viatite Engineering
 technology = { #University
 	# Tech 32
 	year = 1638
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	allowed_idea_groups = 10
 	university = yes	
@@ -310,6 +418,9 @@ technology = { #University
 technology = { #Religious Edifice
 	# Tech 33
 	year = 1651
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	#Cathedral
 	cathedral = yes
@@ -318,6 +429,9 @@ technology = { #Religious Edifice
 technology = { #Rights of Nations
 	# Tech 34
 	year = 1664
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	allowed_idea_groups = 11
 }
@@ -325,6 +439,9 @@ technology = { #Rights of Nations
 technology = { #New Thought
 	# Tech 35
 	year = 1677
+	expects_institution = {
+		organized_state = 0.50
+	}
 	
 	republican_dictatorship = yes
 	governing_capacity = 250
@@ -333,6 +450,9 @@ technology = { #New Thought
 technology = { #Land Clearance
 	# Tech 36
 	year = 1690
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	production_efficiency 	=	0.03
 	furnace = yes
@@ -341,6 +461,9 @@ technology = { #Land Clearance
 technology = { #Rights of Mortals
 	# Tech 37
 	year = 1703
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 
 	allowed_idea_groups = 12
@@ -352,6 +475,9 @@ technology = { #Rights of Mortals
 technology = { #Industrial Production
 	# Tech 38
 	year = 1716
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	production_efficiency 	=	0.05
 	#factory = yes
@@ -361,6 +487,9 @@ technology = { #Industrial Production
 technology = { #Economic Theory
 	# Tech 39
 	year = 1729
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	stock_exchange = yes
 	development_efficiency = 0.1
@@ -370,6 +499,9 @@ technology = { #Economic Theory
 technology = { #Empiricism
 	# Tech 40
 	year = 1742
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	allowed_idea_groups = 13
 	enlightened_despotism = yes
@@ -379,6 +511,9 @@ technology = { #Empiricism
 technology = { #Measurements and Weights
 	# Tech 41
 	year = 1755
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	administrative_efficiency = 0.1
 	transfumatory = yes
@@ -387,6 +522,9 @@ technology = { #Measurements and Weights
 technology = { #Bessemer Process
 	# Tech 42
 	year = 1768
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	production_efficiency 	=	0.05
 }
@@ -394,6 +532,9 @@ technology = { #Bessemer Process
 technology = { #Railroads
 	# Tech 43
 	year = 1781
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	#railroad = yes
 	# - like a better uni, +building slot, -dev cost, +instit spread, ++mvmt speed
@@ -403,6 +544,9 @@ technology = { #Railroads
 technology = { #State and Government
 	# Tech 44
 	year = 1794
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	allowed_idea_groups = 14
 	revolutionary_republic = yes
@@ -414,6 +558,9 @@ technology = { #State and Government
 technology = { #Urbanization
 	# Tech 45
 	year = 1807
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	#research_center = yes
 	# - upgrade to uni, +2 building slots, -40% dev cost
@@ -424,6 +571,9 @@ technology = { #Urbanization
 technology = { #Tractors
 	# Tech 46
 	year = 1820
+	expects_institution = {
+		organized_state = 0.50
+	}
 
 	development_efficiency = 0.1
 	production_efficiency 	=	0.05

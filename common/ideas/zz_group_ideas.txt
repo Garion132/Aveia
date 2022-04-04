@@ -110,6 +110,7 @@ colonial_ideas = {
 		OR={
 			is_colonial_nation = yes
 			is_subject_of_type = colony_elteria_start
+			is_subject_of_type = dominion_vassal
 		}
 	}
 	free = yes

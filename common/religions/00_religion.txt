@@ -555,7 +555,7 @@ tlaulunorism = {
 	}
 	orionrahetia = {
 		color = { 166 174 165 }
-		icon = 16
+		icon = 17
 		allowed_conversion = {
 			tlaunorist
 		}
