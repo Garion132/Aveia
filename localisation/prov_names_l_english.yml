@@ -33,7 +33,7 @@
  PROV33:0 "Great Cradle"
  PROV34:0 "Kyath Coast"
 
- PROV40:0 "Kilfawn Lake"
+ PROV40:0 "Norgulh Lake"
 
  PROV43:0 "Mistworm Lake"
 
@@ -98,6 +98,8 @@
  PROV285:0 "Yhenil Sea"
 
  PROV308:0 "Sonhud Bay"
+ 
+ PROV345:0 "Tilvena"
  
  PROV377:0 "Wester Bay"
  
@@ -504,14 +506,21 @@
 
  PROV1871:0 "Grahear"
  PROV1872:0 "Ligwell"
+ 
+ PROV1879:0 "Eagbur"
 
  PROV1882:0 "Western Cryspimes"
  PROV1884:0 "Garen Gulf"
  PROV1885:0 "Cinderbyr Bay"
  PROV1886:0 "Lesman Svrea"
  
+ PROV1889:0 "Palentai"
  PROV1890:0 "Vinika Sea"
  PROV1891:0 "Nadarite Coast"
+ 
+ PROV1897:0 "Faveligt"
+ 
+ PROV1899:0 "Wesle"
  
  PROV1902:0 "Aetarens Eye"
  PROV1903:0 "Enoarth Cresant"
@@ -728,15 +737,31 @@
  
  PROV3272:0 "Liglen"
  
- PROV3355:0 "Fearow"
  PROV3361:0 "Kailo"
+ 
  PROV3372:0 "Afseno"
+ 
  PROV3376:0 "Cliront"
+ PROV3377:0 "Moonlight"
+ 
+ PROV3379:0 "Grashearde"
+ 
  PROV3405:0 "Drakew"
+ 
  PROV3414:0 "Vaultis"
  PROV3415:0 "Cimor"
  PROV3416:0 "Bluegrass"
+ 
+ PROV3418:0 "Stormit"
+ 
+ PROV3422:0 "Mostale"
+ 
+ PROV3655:0 "Fearow"
+ 
+ PROV3666:0 "Srinfo"
+ 
  PROV3675:0 "Silverhar"
+ 
  PROV3684:0 "Dheub"
  PROV3685:0 "Imiustam"
  
@@ -747,6 +772,7 @@
  PROV3835:0 "Holbelow"
  
  PROV3837:0 "Brihal"
+ PROV3838:0 "Clihiel"
  
  PROV3897:0 "Selk"
  PROV3898:0 "Symant"

@@ -224,3 +224,39 @@ moraler_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
+changurdur_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+antyr_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+tavhe_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+selehilfa_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+efholumelion_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+llauggarwin_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+manoserora_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+eagburyard_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+deadwich_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}

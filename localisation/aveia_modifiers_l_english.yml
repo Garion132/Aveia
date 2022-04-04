@@ -71,6 +71,16 @@
  remote_lands_of_juluia:0 "Remote Lands of Juluia"
  desc_remote_lands_of_juluia:0 "Juluia's remoteness on the other side of the globe from civilization makes it remarkably difficult to colonize."
 
+
+ changurdur_estuary_modifier:0 "Changurdur Estuary"
+ antyr_estuary_modifier:0 "Antyr Estuary"
+ tavhe_estuary_modifier:0 "Tavhe Estuary"
+ selehilfa_estuary_modifier:0 "Selehilfa Estuary"
+ efholumelion_estuary_modifier:0 "Efholumelion Estuary"
+ llauggarwin_estuary_modifier:0 "Llauggarwin Estuary"
+ manoserora_estuary_modifier:0 "Ma'no'serora Estuary"
+ eagburyard_estuary_modifier:0 "Eagburyard Estuary"
+ deadwich_estuary_modifier:0 "Deadwich Estuary"
  #Events
  tinflation:0 "Tinflation"
  desc_tinflation:0 "A world of alchemists are turning near-worthless tin into valuable silver. It is beneficial to those involved but is causing prices to soar."
