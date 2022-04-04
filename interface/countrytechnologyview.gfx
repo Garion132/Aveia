@@ -322,7 +322,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_institution_tab_enlightenment"
-		texturefile = "gfx/interface/institutions//institution_tab_enlightenment.dds"
+		texturefile = "gfx/interface/institutions//institution_tab_byrinifacation.dds"
 		noOfFrames = 2
 		transparencecheck = yes
 	}
@@ -350,7 +350,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_institution_tab_new_world_i"
-		texturefile = "gfx/interface/institutions//institution_tab_new_world_i.dds"
+		texturefile = "gfx/interface/institutions//institution_tab_a_new_world.dds"
 		noOfFrames = 2
 		transparencecheck = yes
 	}
@@ -437,6 +437,81 @@ spriteTypes = {
 		textureFile2 = "gfx//interface//institutions//institution_progress_transparent.dds"
 		size = { x = 300 y = 20 }
 		effectFile = "gfx//FX//progress.lua"
+	}
+	
+	## TECH INSTITUTIONS FRAMES
+
+	spriteType = {
+		name = "GFX_tech_institution_organized_state"
+		texturefile = "gfx/interface/institutions/tech_institution_organized_state.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_bronze_working"
+		texturefile = "gfx/interface/institutions/tech_institution_bronze_working.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_crop_rotation"
+		texturefile = "gfx/interface/institutions/tech_institution_crop_rotation.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_iron_working"
+		texturefile = "gfx/interface/institutions/tech_institution_iron_working.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_colonialism"
+		texturefile = "gfx/interface/institutions/tech_institution_colonialism.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_illuminare"
+		texturefile = "gfx/interface/institutions/tech_institution_illuminare.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_guedinan_revolution"
+		texturefile = "gfx/interface/institutions/tech_institution_guedinan_revolution.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_printing_press"
+		texturefile = "gfx/interface/institutions/tech_institution_printing_press.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_global_trade"
+		texturefile = "gfx/interface/institutions/tech_institution_global_trade.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_air_shipping"
+		texturefile = "gfx/interface/institutions/tech_institution_air_shipping.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_industrialization"
+		texturefile = "gfx/interface/institutions/tech_institution_industrialization.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_enlightenment"
+		texturefile = "gfx/interface/institutions/tech_institution_byrinifacation.dds"
+		noOfFrames = 5
+		transparencecheck = yes
 	}
 	
 }
