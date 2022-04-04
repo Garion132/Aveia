@@ -466,7 +466,7 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
-		name = "GFX_tech_institution_colonialism"
+		name = "GFX_tech_institution_new_world_i"
 		texturefile = "gfx/interface/institutions/tech_institution_colonialism.dds"
 		noOfFrames = 5
 		transparencecheck = yes

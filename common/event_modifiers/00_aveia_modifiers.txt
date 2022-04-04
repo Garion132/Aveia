@@ -180,7 +180,7 @@ temple_of_the_sea_god = {
 	province_trade_power_value = 10
 }
 aniliti_heart = {
-	#gold_depletion_chance_modifier = -1.0 #add later
+	gold_depletion_chance_modifier = -1.0 #add later
 	development_cost = -0.1
 	legitimacy = 1
 	diplomatic_upkeep = 1
