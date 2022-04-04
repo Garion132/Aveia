@@ -19,6 +19,9 @@ technology = { #Basic Tech
 technology = { #Shipbuilding
 	# Tech 1
 	year = 1235
+	expects_institution = {
+		organized_state = 0.1
+	}
 	
 	merchants = yes
 	trade_range				=	100
@@ -31,7 +34,9 @@ technology = { #Shipbuilding
 technology = { #Sailing
 	# Tech 2
 	year = 1248
-	
+	expects_institution = {
+		organized_state = 0.25
+	}
 	
 	naval_morale			=	0.1
 	naval_maintenance		= 	0.1
@@ -45,6 +50,9 @@ technology = { #Sailing
 technology = { #Writing
 	# Tech 3
 	year = 1261
+	expects_institution = {
+		organized_state = 0.5
+	}
 
 	trade_efficiency 		= 	0.02
 	global_colonial_growth = 10
@@ -54,6 +62,10 @@ technology = { #Writing
 technology = { #Poetry
 	# Tech 4
 	year = 1274
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.1
+	}
 		
 	marketplace = yes
 	num_accepted_cultures = 1
@@ -62,6 +74,10 @@ technology = { #Poetry
 technology = { #Star Mapping
 	# Tech 5
 	year = 1287
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.25
+	}
 	
 	naval_maintenance		=	0.1	
 	trade_range				=	30
@@ -74,6 +90,10 @@ technology = { #Star Mapping
 technology = { #Wind Spirits
 	# Tech 6
 	year = 1300
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.35
+	}
 	
 	naval_morale = 0.3
 	trade_range = 20
@@ -85,6 +105,11 @@ technology = { #Wind Spirits
 technology = { #Drama
 	# Tech 7
 	year = 1313
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.1
+	}
 	
 	naval_morale = 0.1
 	may_study_technology = yes
@@ -94,6 +119,11 @@ technology = { #Drama
 technology  = { #Optics
 	# Tech 8
 	year = 1326
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.25
+	}
 	
 
 	naval_maintenance = 0.1
@@ -106,6 +136,11 @@ technology  = { #Optics
 technology = { #Lateen Sails
 	# Tech 9
 	year = 1339
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.35
+	}
 	
 	naval_maintenance		= 	0.1
 	range					=	30
@@ -117,6 +152,11 @@ technology = { #Lateen Sails
 technology = { #Edailian Epics
 	# Tech 10
 	year = 1352
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+	}
 	
 	num_accepted_cultures = 1
 	trade_efficiency = 0.02
@@ -126,6 +166,12 @@ technology = { #Edailian Epics
 technology = { #Naval Tactics
 	# Tech 11
 	year = 1365
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.1
+	}
 	
 
 	naval_morale = 0.5
@@ -137,6 +183,12 @@ technology = { #Naval Tactics
 technology = { #Merchant Guilds
 	# Tech 12
 	year = 1378
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.25
+	}
 
 	#guild = yes
 	#Provides a goods produced modifier bonus
@@ -147,6 +199,12 @@ technology = { #Merchant Guilds
 technology = { #Square Rigging
 	# Tech 13
 	year = 1391
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.4
+	}
 	
 	naval_maintenance = 0.2
 	enable = early_carrack
@@ -156,6 +214,12 @@ technology = { #Square Rigging
 technology = { #Marketplaces
 	# Tech 14
 	year = 1404
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+	}
 	
 	trade_depot = yes
 	trade_efficiency = 0.02
@@ -164,6 +228,13 @@ technology = { #Marketplaces
 technology = { #Compass
 	# Tech 15
 	year = 1417
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.1
+	}
 	
 	trade_efficiency = 0.02
 	may_steal_maps = yes
@@ -175,6 +246,13 @@ technology = { #Compass
 technology = { #Ties to the Homeland
 	# Tech 16
 	year = 1430
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.4
+	}
 	
 	num_accepted_cultures = 1
 	naval_morale = 0.5
@@ -185,6 +263,13 @@ technology = { #Ties to the Homeland
 technology = { #Dockyards
 	# Tech 17
 	year = 1443
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+	}
 	
 	trade_range = 20
 }
@@ -192,6 +277,14 @@ technology = { #Dockyards
 technology = { #Trading Companies
 	# Tech 18
 	year = 1456
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.2
+	}
 	
 	tradecompany = yes
 	trade_range = 20
@@ -201,6 +294,14 @@ technology = { #Trading Companies
 technology = { #Naval Ambitions
 	# Tech 19
 	year = 1469
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.4
+	}
 
 	impressment_offices 	= yes
 	
@@ -211,6 +312,14 @@ technology = { #Naval Ambitions
 technology = { #Carracks
 	# Tech 20
 	year = 1482
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+	}
 
 	naval_morale = 0.25
 
@@ -221,6 +330,14 @@ technology = { #Carracks
 technology = { #Caravelling
 	# Tech 21
 	year = 1495
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+	}
 
 	naval_maintenance = 0.1
 	trade_range = 30
@@ -232,6 +349,14 @@ technology = { #Caravelling
 technology = { #Coastal Batteries
 	# Tech 22
 	year = 1508
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+	}
 	
 	naval_battery = yes
 }
@@ -239,6 +364,15 @@ technology = { #Coastal Batteries
 technology = { #Wharf
 	# Tech 23
 	year = 1521
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.1
+	}
 
 	num_accepted_cultures = 1
 	wharf = yes
@@ -247,6 +381,15 @@ technology = { #Wharf
 technology = { #Steamers
 	# Tech 24
 	year = 1534
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+	}
 	
 	
 	range = 200
@@ -262,6 +405,15 @@ technology = { #Steamers
 technology = { #Colonial Charters
 	# Tech 25
 	year = 1547
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+	}
 
 	range = 150
 	merchants_quarter = yes 
@@ -272,6 +424,16 @@ technology = { #Colonial Charters
 technology = { #Maritime Law
 	# Tech 26
 	year = 1560
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.15
+	}
 	
 	
 	trade_efficiency 		= 	0.02
@@ -281,6 +443,16 @@ technology = { #Maritime Law
 technology = { #Lineships
 	# Tech 27
 	year = 1573
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.2
+	}
 	
 	naval_morale = 0.5
 	may_slander_merchants = yes
@@ -292,6 +464,16 @@ technology = { #Lineships
 technology = { #Screw Propeller
 	# Tech 28
 	year = 1586
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.3
+	}
 
 	naval_maintenance = 0.2
 	range = 125
@@ -303,6 +485,16 @@ technology = { #Screw Propeller
 technology = { #Merchantman
 	# Tech 29
 	year = 1599
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.4
+	}
 	
 
 	global_colonial_growth = 10
@@ -316,6 +508,17 @@ technology = { #Merchantman
 technology = { #Vercroths
 	# Tech 30
 	year = 1612
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.25
+	}
 	
 	naval_maintenance = 0.1
 	naval_morale			=	0.5
@@ -327,6 +530,17 @@ technology = { #Vercroths
 technology = { #Ironclads
 	# Tech 31
 	year = 1625
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+	}
 	
 	trade_efficiency = 0.02
 	allow_client_states = yes	
@@ -338,6 +552,17 @@ technology = { #Ironclads
 technology = { #Threedeckers
 	# Tech 32
 	year = 1638
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+	}
 
 	#grand_shipyard = yes 
 	#New Heavy Ship (Threedecker)
@@ -347,6 +572,17 @@ technology = { #Threedeckers
 technology = { #Naval Professionalism
 	# Tech 33
 	year = 1651
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+	}
 	
 	num_accepted_cultures = 1
 	drydock = yes 
@@ -356,6 +592,18 @@ technology = { #Naval Professionalism
 technology = { #Steam Turbine
 	# Tech 34
 	year = 1664
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.3
+	}
 	
 
 	global_colonial_growth = 10
@@ -370,6 +618,18 @@ technology = { #Steam Turbine
 technology = { #Clippers
 	# Tech 35
 	year = 1677
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.4
+	}
 	
 	customs_house = yes
 	trade_range = 50
@@ -381,6 +641,18 @@ technology = { #Clippers
 technology = { #All-or-Nothing Armor Scheme
 	# Tech 36
 	year = 1690
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+	}
 	
 
 	naval_maintenance = 0.2
@@ -390,6 +662,18 @@ technology = { #All-or-Nothing Armor Scheme
 technology = { #Joint Stock Companies
 	# Tech 37
 	year = 1703
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+	}
 	
 	global_colonial_growth = 30
 	trade_efficiency = 0.05
@@ -399,6 +683,18 @@ technology = { #Joint Stock Companies
 technology = { #Public Punishments
 	# Tech 38
 	year = 1716
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+	}
 	
 
 	naval_maintenance = 0.1
@@ -408,6 +704,19 @@ technology = { #Public Punishments
 technology = { #Bonds
 	# Tech 39
 	year = 1729
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.3
+	}
 	
 	global_colonial_growth = 25
 	trade_range = 30
@@ -418,6 +727,19 @@ technology = { #Bonds
 technology = { #Advertisements
 	# Tech 40
 	year = 1742
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+	}
 	
 	range = 100
 	num_accepted_cultures = 1
@@ -427,6 +749,19 @@ technology = { #Advertisements
 technology = { #Transport Ships
 	# Tech 41
 	year = 1755
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+	}
 	
 	global_colonial_growth = 25
 	range = 250
@@ -437,6 +772,20 @@ technology = { #Transport Ships
 technology = { #Cruisers
 	# Tech 42
 	year = 1768
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.2
+	}
 	
 
 	trade_range = 50
@@ -449,6 +798,20 @@ technology = { #Cruisers
 technology = { #Battleships
 	# Tech 43
 	year = 1781
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.4
+	}
 	
 	#industrial_shipyard = yes
 	#Bigger Shipyard which provides more naval cap, less construction time
@@ -460,6 +823,20 @@ technology = { #Battleships
 technology = { #Silver Standard
 	# Tech 44
 	year = 1794
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.5
+	}
 	
 	global_colonial_growth = 50
 	trade_efficiency = 0.05
@@ -468,6 +845,20 @@ technology = { #Silver Standard
 technology = { #Market Regulation
 	# Tech 45
 	year = 1807
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.5
+	}
 	
 	num_accepted_cultures = 1
 	trade_efficiency = 0.05
@@ -477,6 +868,20 @@ technology = { #Market Regulation
 technology = { #Superfiring Armaments
 	# Tech 46
 	year = 1820
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.5
+	}
 	
 	naval_maintenance = 0.2
 	#New Light Ship (Armored Cruiser)

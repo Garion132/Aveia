@@ -29,9 +29,6 @@ technology = { #Basic Tech
 technology = { #Domestication
 	# Tech 1
 	year = 1235
-	expects_institution = {
-		organized_state = 0.25
-	}
 	
 	tribal_democracy_legacy = yes
 	tribal_kingdom_legacy = yes
@@ -45,7 +42,7 @@ technology = { #Basic Administration
 	# Tech 2
 	year = 1248	
 	expects_institution = {
-		organized_state = 0.50
+		organized_state = 0.25
 	}
 
 	town_square = yes
@@ -61,7 +58,6 @@ technology = { #Minting
 	year = 1261
 	expects_institution = {
 		organized_state = 0.50
-		bronze_working = 0.25
 	}
 
 	mint = yes
@@ -72,7 +68,7 @@ technology = { #Artisanship
 	year = 1274
 	expects_institution = {
 		organized_state = 0.50
-		bronze_working = 0.50
+		bronze_working = 0.25
 	}
 
 	#artisans_workshop = yes 
@@ -122,6 +118,7 @@ technology = { #Sickles
 	expects_institution = {
 		organized_state = 0.50
 		bronze_working = 0.50
+		crop_rotation = 0.25
 	}
 
 	production_efficiency = 0.02
@@ -134,6 +131,7 @@ technology = { #Bronze-Era Administration
 	expects_institution = {
 		organized_state = 0.50
 		bronze_working = 0.50
+		crop_rotation = 0.35
 	}
 	
 	governing_capacity = 50
@@ -147,6 +145,7 @@ technology = { #Craftsmanship
 	expects_institution = {
 		organized_state = 0.50
 		bronze_working = 0.50
+		crop_rotation = 0.40
 	}
 	
 	#forge = yes
@@ -160,6 +159,8 @@ technology = { #Simple Mechanisms
 	expects_institution = {
 		organized_state = 0.50
 		bronze_working = 0.50
+		crop_rotation = 0.45
+		iron_working = 0.1
 	}
 	
 	production_efficiency = 0.02
@@ -171,6 +172,8 @@ technology = { #Irrigation
 	expects_institution = {
 		organized_state = 0.50
 		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.35
 	}
 	
 	development_efficiency = 0.05
@@ -186,6 +189,8 @@ technology = { #Religious Revival
 	expects_institution = {
 		organized_state = 0.50
 		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.35
 	}
 	
 	temple = yes
@@ -200,6 +205,8 @@ technology = { #Feudal Society
 	expects_institution = {
 		organized_state = 0.50
 		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
 	}
 	
 	bank = yes
@@ -213,6 +220,9 @@ technology = { #Scythes
 	year = 1417
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
 	}
 	
 	farm_estate = yes
@@ -224,6 +234,10 @@ technology = { #Expedition Theory
 	year = 1430
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.2
 	}
 	
 	allowed_idea_groups = 5
@@ -234,6 +248,10 @@ technology = { #Courthouse
 	year = 1443
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.4
 	}
 	
 	courthouse = yes
@@ -245,6 +263,11 @@ technology = { #Plantations
 	year = 1456
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.1
 	}
 	
 	plantations = yes
@@ -256,6 +279,11 @@ technology = { #Workshops
 	year = 1469
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.2
 	}
 	
 	#Workshop
@@ -269,6 +297,11 @@ technology = { #Steam Pumps
 	year = 1482
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.3
 	}
 	
 	production_efficiency = 0.02
@@ -280,6 +313,11 @@ technology = { #National Identity
 	year = 1495
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.4
 	}
 	
 	allowed_idea_groups = 6
@@ -292,6 +330,12 @@ technology = { #Machinery
 	year = 1508
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.1
 	}
 	
 	#Textile Manufactory
@@ -304,6 +348,12 @@ technology = { #Atmospheric Steam Engines
 	year = 1521
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
 	}
 	
 	development_efficiency = 0.1
@@ -314,6 +364,12 @@ technology = { #Improved Drainage
 	year = 1534
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
 	}
 	
 	production_efficiency = 0.03
@@ -325,6 +381,12 @@ technology = { #Colonial Thought
 	year = 1547
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
 	}
 	
 	allowed_idea_groups = 7
@@ -335,6 +397,13 @@ technology = { #Early Modern Administration
 	year = 1560
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.2
 	}
 	
 	administrative_monarchy	= yes 
@@ -350,6 +419,13 @@ technology = { #Modern Metallurgy
 	year = 1573
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.3
 	}
 
 	mills = yes
@@ -361,6 +437,13 @@ technology = { #Scientific Enquiry
 	year = 1586
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
 	}
 	
 	plantations = yes
@@ -372,6 +455,13 @@ technology = { #Military Administration
 	year = 1599
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
 	}
 	
 	administrative_efficiency = 0.05
@@ -385,6 +475,14 @@ technology = { #National Sovereignty
 	year = 1612
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.1
 	}
 	
 	allowed_idea_groups = 9
@@ -395,6 +493,14 @@ technology = { #Viatite Engineering
 	year = 1625
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.35
 	}
 	
 	development_efficiency = 0.05
@@ -407,6 +513,14 @@ technology = { #University
 	year = 1638
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
 	}
 	
 	allowed_idea_groups = 10
@@ -420,6 +534,14 @@ technology = { #Religious Edifice
 	year = 1651
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
 	}
 
 	#Cathedral
@@ -431,6 +553,15 @@ technology = { #Rights of Nations
 	year = 1664
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.1
 	}
 
 	allowed_idea_groups = 11
@@ -441,6 +572,15 @@ technology = { #New Thought
 	year = 1677
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.2
 	}
 	
 	republican_dictatorship = yes
@@ -452,6 +592,15 @@ technology = { #Land Clearance
 	year = 1690
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.35
 	}
 
 	production_efficiency 	=	0.03
@@ -463,6 +612,15 @@ technology = { #Rights of Mortals
 	year = 1703
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
 	}
 
 
@@ -477,6 +635,16 @@ technology = { #Industrial Production
 	year = 1716
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
 	}
 
 	production_efficiency 	=	0.05
@@ -489,6 +657,16 @@ technology = { #Economic Theory
 	year = 1729
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
 	}
 
 	stock_exchange = yes
@@ -501,6 +679,16 @@ technology = { #Empiricism
 	year = 1742
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
 	}
 
 	allowed_idea_groups = 13
@@ -513,6 +701,17 @@ technology = { #Measurements and Weights
 	year = 1755
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.2
 	}
 
 	administrative_efficiency = 0.1
@@ -524,6 +723,17 @@ technology = { #Bessemer Process
 	year = 1768
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.4
 	}
 
 	production_efficiency 	=	0.05
@@ -534,6 +744,17 @@ technology = { #Railroads
 	year = 1781
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.5
 	}
 
 	#railroad = yes
@@ -546,6 +767,17 @@ technology = { #State and Government
 	year = 1794
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.5
 	}
 
 	allowed_idea_groups = 14
@@ -560,6 +792,17 @@ technology = { #Urbanization
 	year = 1807
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.5
 	}
 
 	#research_center = yes
@@ -573,6 +816,17 @@ technology = { #Tractors
 	year = 1820
 	expects_institution = {
 		organized_state = 0.50
+		bronze_working = 0.50
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.5
 	}
 
 	development_efficiency = 0.1

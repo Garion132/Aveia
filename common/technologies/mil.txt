@@ -22,6 +22,9 @@ technology = {
 technology = {
 	# Tech 1
 	year = 1235
+	expects_institution = {
+		organized_state = 0.5
+	}
 
 	#Fortification
 	
@@ -31,6 +34,10 @@ technology = {
 technology = {
 	# Tech 2
 	year = 1248
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+	}
 
 	#Bronze Weaponry
 	
@@ -46,6 +53,10 @@ technology = {
 technology = {
 	# Tech 3
 	year = 1261
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+	}
 	
 	#Phalanx
 	
@@ -61,6 +72,10 @@ technology = {
 technology = {
 	# Tech 4
 	year = 1274
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+	}
 	
 	#Barracks
 	
@@ -71,6 +86,10 @@ technology = {
 technology = {
 	# Tech 5
 	year = 1287
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+	}
 	
 	#Catapults
 	artillery_shock = 0.05
@@ -83,6 +102,10 @@ technology = {
 technology = {
 	# Tech 6
 	year = 1300
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+	}
 	
 	#Elven Fletching
 	infantry_fire 		= 	0.10
@@ -94,6 +117,11 @@ technology = {
 technology = {
 	# Tech 7
 	year = 1313
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.1
+	}
 	
 	#Deep-Rank Phalanx
 	military_tactics 	= 	0.15
@@ -106,6 +134,11 @@ technology = {
 technology = {
 	# Tech 8
 	year = 1326
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.3
+	}
 	
 	#Logistics
 	supply_limit = 0.25
@@ -114,8 +147,12 @@ technology = {
 
 technology = {
 	# Tech 9
-	
 	year = 1339
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.3
+		crop_rotation = 0.4
+	}
 	
 	#Orbury Bow
 	infantry_fire = 0.15
@@ -127,6 +164,12 @@ technology = {
 technology = {
 	# Tech 10
 	year = 1352
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.4
+		crop_rotation = 0.5
+		iron_working = 0.1
+	}
 	
 	#Double-Handed Pike
 	maneuver_value = 0.25
@@ -138,6 +181,12 @@ technology = {
 technology = {
 	# Tech 11
 	year = 1365
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.2
+		crop_rotation = 0.5
+		iron_working = 0.5
+	}
 	
 	#Metallurgy
 	infantry_shock		= 	0.2
@@ -151,6 +200,12 @@ technology = {
 technology = {
 	# Tech 12
 	year = 1378
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.2
+		crop_rotation = 0.5
+		iron_working = 0.5
+	}
 	
 	#Castles	
 	fort_15th = yes
@@ -160,6 +215,12 @@ technology = {
 technology = {
 	# Tech 13
 	year = 1391
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.2
+		crop_rotation = 0.5
+		iron_working = 0.5
+	}
 	
 	#Trebuchet
 	artillery_fire 		= 	0.25
@@ -170,6 +231,12 @@ technology = {
 technology = {
 	# Tech 14
 	year = 1404
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+	}
 	
 	#Alloying
 	infantry_shock = 0.15
@@ -182,6 +249,13 @@ technology = {
 technology = {
 	# Tech 15
 	year = 1417
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.15
+	}
 	
 	#Triple Line
 	military_tactics = 0.15
@@ -194,6 +268,13 @@ technology = {
 technology = {
 	# Tech 16
 	year = 1430
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.3
+	}
 	
 	#Iron-Age Pikes
 	infantry_shock = 0.15
@@ -206,6 +287,13 @@ technology = {
 technology = {
 	# Tech 17
 	year = 1443
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+	}
 	
 	#Feudalism
 	land_morale = 0.5
@@ -216,6 +304,13 @@ technology = {
 technology = {
 	# Tech 18
 	year = 1456
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+	}
 	
 	#Halberds
 	infantry_shock = 0.2
@@ -227,6 +322,14 @@ technology = {
 technology = {
 	# Tech 19
 	year = 1469
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.2
+	}
 	
 	#Crossbows
 	land_morale = 0.25
@@ -238,6 +341,14 @@ technology = {
 technology = {
 	# Tech 20
 	year = 1482
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.3
+	}
 	
 	#Pike Square
 	land_morale = 0.5
@@ -252,6 +363,14 @@ technology = {
 technology = {
 	# Tech 21
 	year = 1495
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+	}
 	
 	#Steel Working
 	military_tactics 	= 	0.1
@@ -263,6 +382,15 @@ technology = {
 technology = {
 	# Tech 22
 	year = 1508
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+	}
 	
 	#Arquebus
 	infantry_fire = 0.2
@@ -276,6 +404,15 @@ technology = {
 technology = {
 	# Tech 23
 	year = 1521
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+	}
 	
 	#Limber
 	artillery_fire = 0.5
@@ -288,6 +425,15 @@ technology = {
 technology = {
 	# Tech 24
 	year = 1534
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+	}
 	
 	#Pike and Shot
 	military_tactics = 0.15
@@ -300,6 +446,15 @@ technology = {
 technology = {
 	# Tech 25
 	year = 1547
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+	}
 	
 	#Weapons Manufactory
 	weapons = yes
@@ -309,6 +464,16 @@ technology = {
 technology = {
 	# Tech 26
 	year = 1560
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.1
+	}
 	
 	#Guedinalock Muskets
 	sprite_level = 2
@@ -322,6 +487,16 @@ technology = {
 technology = {
 	# Tech 27
 	year = 1573
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.3
+	}
 	
 	#Square Tactics
 	military_tactics = 0.25
@@ -331,6 +506,16 @@ technology = {
 technology = {
 	# Tech 28
 	year = 1586
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.4
+	}
 	
 	#Trunnions
 	artillery_fire = 0.5
@@ -342,6 +527,16 @@ technology = {
 technology = {
 	# Tech 29
 	year = 1599
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+	}
 	
 	#Volley Fire
 
@@ -355,6 +550,17 @@ technology = {
 technology = {
 	# Tech 30
 	year = 1612
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.1
+	}
 	
 	#Star Bastions
 	military_tactics = 0.25
@@ -364,6 +570,17 @@ technology = {
 technology = {
 	# Tech 31
 	year = 1625
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.2
+	}
 	
 	#Plug Bayonets
 	infantry_shock = 0.4
@@ -372,6 +589,17 @@ technology = {
 technology = {
 	# Tech 32
 	year = 1638
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.3
+	}
 	
 	#Standardization
 	artillery_fire = 1.5
@@ -386,6 +614,18 @@ technology = {
 technology = {
 	# Tech 33
 	year = 1651
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.3
+	}
 	
 	#Airships
 	cavalry_fire = 2.0
@@ -398,6 +638,18 @@ technology = {
 technology = {
 	# Tech 34
 	year = 1664
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.3
+	}
 	
 	#Killing Grounds
 	infantry_fire = 0.5
@@ -411,6 +663,18 @@ technology = {
 technology = {
 	# Tech 35
 	year = 1677
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+	}
 	
 	#Steam Airships
 	cavalry_shock = 5.0
@@ -423,6 +687,18 @@ technology = {
 technology = {
 	# Tech 36
 	year = 1690
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+	}
 	
 	#Ankon Armor
 	military_tactics = 1.0
@@ -438,6 +714,18 @@ technology = {
 technology = {
 	# Tech 37
 	year = 1703
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+	}
 	
 	#Specialized Regiments
 	military_tactics = 0.25
@@ -451,6 +739,19 @@ technology = {
 technology = {
 	# Tech 38
 	year = 1716
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.2
+	}
 	
 	#Breech-Loading
 	artillery_fire = 2.0
@@ -463,6 +764,19 @@ technology = {
 technology = {
 	# Tech 39
 	year = 1729
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.4
+	}
 	
 	#Protected Airships
 	cavalry_shock = 4.0
@@ -476,6 +790,19 @@ technology = {
 technology = {
 	# Tech 40
 	year = 1742
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+	}
 	
 	#Blastpowder
 	military_tactics = 0.25
@@ -489,6 +816,19 @@ technology = {
 technology = {
 	# Tech 41
 	year = 1755
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+	}
 	
 	#Covered Way
 	military_tactics = 0.25
@@ -499,6 +839,20 @@ technology = {
 technology = {
 	# Tech 42
 	year = 1768
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.2
+	}
 	
 	#Dreadnoughts
 	cavalry_fire = 10.0
@@ -511,6 +865,20 @@ technology = {
 technology = {
 	# Tech 43
 	year = 1781
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.3
+	}
 	
 	#Line Infantry
 	military_tactics = 0.25
@@ -521,6 +889,20 @@ technology = {
 technology = {
 	# Tech 44
 	year = 1794
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.4
+	}
 	
 	#Lile Rifles
 	infantry_fire = 1.0
@@ -533,6 +915,20 @@ technology = {
 technology = {
 	# Tech 45
 	year = 1807
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.5
+	}
 	
 	#Rifled Artillery
 	military_tactics = 0.25
@@ -547,6 +943,20 @@ technology = {
 technology = {
 	# Tech 46
 	year = 1820
+	expects_institution = {
+		organized_state = 0.5
+		bronze_working = 0.5
+		crop_rotation = 0.5
+		iron_working = 0.5
+		illuminare = 0.5
+		new_world_i = 0.5
+		guedinan_revolution = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		air_shipping = 0.5
+		industrialization = 0.5
+		enlightenment = 0.5
+	}
 	
 	#Gatling Guns
 	military_tactics = 0.5
