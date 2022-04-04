@@ -1,65 +1,70 @@
-﻿l_english:
- FRY_mission_4_title:0 "Develop Manufacturing Capability"
- FRY_mission_4_desc:0 "In order to develop as a nation, we need to sell goods. In order to sell goods, we need to make goods. Let's make some goods."
- FRY_mission_9_title:0 "Build Workshops"
- FRY_mission_9_desc:0 "Making profit requires a space to make products, so let's get some fancy working-shoppes to make products in."
- FRY_mission_13_title:0 "Increase Goods Production"
- FRY_mission_13_desc:0 "You know the drill. Make the products, introduce customers to the products, take their money, and never give it back. Get making."
- FRY_mission_18_title:0 "Expand For Glory"
- FRY_mission_18_desc:0 "To gain more resources and allow more space to expand the population, we must expand the borders."
- FRY_mission_22_title:0 "Take the Starlight Coast"
- FRY_mission_22_desc:0 "We want to have a nice coast for beach holidays. We should conquer one."
- FRY_mission_25_title:0 "Expand North"
- FRY_mission_25_desc:0 "Jalhorkers looks like it's going to be blobbing at some point, and that means that they're going to be blobbing in our direction. We cannot allow that to happen, because with Kafethyr's money behind them, they'd be the dominating colonial power on the continent. Cut them off before they can do too much damage."
- FRY_mission_29_title:0 "Grab the Islands"
- FRY_mission_29_desc:0 "We should try to make an effort to grab some islands so we can extend our borders and naval range westwards. The Hope of Oasia should be a mice place to start."
- FRY_mission_1_title:0 "Economic Development"
- FRY_mission_1_desc:0 "It's bad enough barging into Guild property, but we'll get into really serious trouble if we shoot anyone. The Lord won't stop at sarcasm. He might use...irony."
- FRY_mission_5_title:0 "Gain a Stable Income"
- FRY_mission_5_desc:0 ""
- FRY_mission_10_title:0 "Reform Taxation Systems"
- FRY_mission_10_desc:0 "There's no point in imposing taxes on people if they don't pay them, plus it makes a great excuse to dispose of people you don't like. Get some taxation infrastructure in place so we can throw some nobles in jail on trumped up charges."
- FRY_mission_14_title:0 "Increase Total Income"
- FRY_mission_14_desc:0 ""
- FRY_mission_23_title:0 "Expand East"
- FRY_mission_23_desc:0 ""
- FRY_mission_26_title:0 "Expand South"
- FRY_mission_26_desc:0 ""
- FRY_mission_30_title:0 "Kill the Bastards"
- FRY_mission_30_desc:0 "No remorse, no repent. We don't care what it meant. Another day, another death. Another sorrow, another breath"
- FRY_mission_2_title:0 "Social Development"
- FRY_mission_2_desc:0 ""
- FRY_mission_6_title:0 "Marginalize the Aristocracy"
- FRY_mission_6_desc:0 "Y'know what? I think that a few people have failed to appreciate that noble or common, we all go to the same grave. And that route to the grave can be expedited if they continue to operate under the assumption that their title gives them powers"
- FRY_mission_15_title:0 "Let's Ditch This Lunatic"
- FRY_mission_15_desc:0 "I believe you find life such a problem because you think there are good people and bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides."
- FRY_mission_19_title:0 "Form a National Colonial Administration"
- FRY_mission_19_desc:0 ""
- FRY_mission_27_title:0 "Prepare the Grand Law"
- FRY_mission_27_desc:0 "This is the rock on which our republic will be built. A simple, easy to follow, 25-point list of things leaders can't do."
- FRY_mission_31_title:0 "Ratify the Republic"
- FRY_mission_31_desc:0 "We're coming to the endgame now sir. Just sign on this dotted line and we can finish the job..."
- FRY_mission_32_title:0 "Hail Lumia!"
- FRY_mission_32_desc:0 "On the 12th hour of the 12th day of the 12th month, for the first time the clock of the patrician palace struck. It's face lit, blue and orange and white, the slow but deliberate hand of minutes moves into place. And in the streets lit by a thousand different colours, voices cry for Lumia."
- FRY_mission_3_title:0 "Military Development"
- FRY_mission_3_desc:0 ""
- FRY_mission_7_title:0 "Develop Military Instalations"
- FRY_mission_7_desc:0 ""
- FRY_mission_11_title:0 "Increase Manpower"
- FRY_mission_11_desc:0 "Men marched away, Captain. And men marched back. How glorious the battles would have been that they never had to fight!"
- FRY_mission_16_title:0 "Recruit Generals"
- FRY_mission_16_desc:0 ""
- FRY_mission_20_title:0 "Expand to Army Force Limits"
- FRY_mission_20_desc:0 ""
- FRY_mission_8_title:0 "Develop Port Infrastructure"
- FRY_mission_8_desc:0 ""
- FRY_mission_12_title:0 "Recruit Sailors"
- FRY_mission_12_desc:0 ""
- FRY_mission_17_title:0 "Recruit Admirals"
- FRY_mission_17_desc:0 ""
- FRY_mission_21_title:0 "Build to Naval Limits"
- FRY_mission_21_desc:0 ""
- FRY_mission_24_title:0 "Conquer Swania"
- FRY_mission_24_desc:0 ""
- FRY_mission_28_title:0 "Conquer Villou"
- FRY_mission_28_desc:0 ""
+l_english:
+
+ #---------------------------------------------------------
+ # 1
+ #---------------------------------------------------------
+
+ FRY_mission_1_1_title: "Fry Mission 1 1"
+ FRY_mission_1_1_desc: ""
+ FRY_mission_1_2_title: "Fry Mission 1 2"
+ FRY_mission_1_2_desc: ""
+ FRY_mission_1_3_title: "Fry Mission 1 3"
+ FRY_mission_1_3_desc: ""
+ FRY_mission_1_4_title: "Fry Mission 1 4"
+ FRY_mission_1_4_desc: ""
+ FRY_mission_1_5_title: "Fry Mission 1 5"
+ FRY_mission_1_5_desc: ""
+
+ #---------------------------------------------------------
+ # 2
+ #---------------------------------------------------------
+
+ FRY_mission_2_1_title: "Fry Mission 2 1"
+ FRY_mission_2_1_desc: ""
+ FRY_mission_2_2_title: "Fry Mission 2 2"
+ FRY_mission_2_2_desc: ""
+ FRY_mission_2_3_title: "Fry Mission 2 3"
+ FRY_mission_2_3_desc: ""
+ FRY_mission_2_4_title: "Fry Mission 2 4"
+ FRY_mission_2_4_desc: ""
+
+ #---------------------------------------------------------
+ # 3
+ #---------------------------------------------------------
+
+ FRY_mission_3_1_title: "Fry Mission 3 1"
+ FRY_mission_3_1_desc: ""
+ FRY_mission_3_2_title: "Fry Mission 3 2"
+ FRY_mission_3_2_desc: ""
+ FRY_mission_3_3_title: "Fry Mission 3 3"
+ FRY_mission_3_3_desc: ""
+ FRY_mission_3_4_title: "Fry Mission 3 4"
+ FRY_mission_3_4_desc: ""
+
+ #---------------------------------------------------------
+ # 4
+ #---------------------------------------------------------
+
+ FRY_mission_4_1_title: "Fry Mission 4 1"
+ FRY_mission_4_1_desc: ""
+ FRY_mission_4_2_title: "Fry Mission 4 2"
+ FRY_mission_4_2_desc: ""
+ FRY_mission_4_3_title: "Fry Mission 4 3"
+ FRY_mission_4_3_desc: ""
+ FRY_mission_4_4_title: "Fry Mission 4 4"
+ FRY_mission_4_4_desc: ""
+ FRY_mission_4_5_title: "Fry Mission 4 5"
+ FRY_mission_4_5_desc: ""
+
+ #---------------------------------------------------------
+ # 5
+ #---------------------------------------------------------
+
+ FRY_mission_5_1_title: "Fry Mission 5 1"
+ FRY_mission_5_1_desc: ""
+ FRY_mission_5_2_title: "Fry Mission 5 2"
+ FRY_mission_5_2_desc: ""
+ FRY_mission_5_3_title: "Fry Mission 5 3"
+ FRY_mission_5_3_desc: ""
+ FRY_mission_5_4_title: "Fry Mission 5 4"
+ FRY_mission_5_4_desc: ""

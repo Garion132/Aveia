@@ -1,710 +1,304 @@
-##BranchStart 0
-FRYADM2 = {
-	slot = 1
-	generic = no
-	ai = yes
-	potential = {
-		tag = FRY
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	##Mission Start
-	FRY_mission_4 = {
-		icon = FRY_mission_4_gfx
-		required_missions = {
-			FRY_mission_1
-		}
-		position = 2
-		provinces_to_highlight = {
-			province_id = 2416
-		}
-		trigger = {
-			mint = 4
-		}
-		effect = {
-			add_country_modifier = { 
-    			name = FRY_mission_4a
-   				duration = 9125
-    			hidden = no
-			}
-			add_country_modifier = { 
-    			name = FRY_mission_4b
-   				duration = 9125
-    			hidden = no
-			}
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_9 = {
-		icon = FRY_mission_9_gfx
-		required_missions = {
-			FRY_mission_4
-		}
-		position = 3
-		provinces_to_highlight = {
-			province_id = 2416
-		}
-		trigger = {
-			workshop = 6
-		}
-		effect = {
-			add_country_modifier = { 
-    			name = FRY_mission_9a
-   				duration = 9125
-    			hidden = no
-			}
-			add_country_modifier = { 
-    			name = FRY_mission_9b
-   				duration = 9125
-    			hidden = no
-			}
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_13 = {
-		icon = FRY_mission_13_gfx
-		required_missions = {
-			FRY_mission_9
-		}
-		position = 4
-		provinces_to_highlight = {
-			province_id = 2416
-		}
-		trigger = {
-			share_of_starting_income = 2.5
-		}
-		effect = {
-			add_country_modifier = { 
-    			name = FRY_mission_13a
-   				duration = 9125
-    			hidden = no
-			}
-			add_country_modifier = { 
-    			name = FRY_mission_13b
-   				duration = 9125
-    			hidden = no
-			}
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_18 = {
-		icon = FRY_mission_18_gfx
-		required_missions = {
-			FRY_mission_13
-			FRY_mission_14
-		}
-		position = 5
-		provinces_to_highlight = {
-			province_id = 2416
-		}
-		trigger = {
-			
-		}
-		effect = {
-			add_country_modifier = { 
-    			name = FRY_mission_18
-    			hidden = no
-			}
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_22 = {
-		icon = FRY_mission_22_gfx
-		required_missions = {
-			FRY_mission_18
-		}
-		position = 6
-		provinces_to_highlight = {
-			province_id = 2430
-		}
-		trigger = {
-			controls = 2430
-		}
-		effect = {
-			add_adm_power = 100
-			add_treasury = 100
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_25 = {
-		icon = FRY_mission_25_gfx
-		required_missions = {
-			FRY_mission_22
-		}
-		position = 7
-		provinces_to_highlight = {
-			province_id = 2402
-		}
-		trigger = {
-			controls = 2402
-		}
-		effect = {
-			add_adm_power = 100
-			add_treasury = 100
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_29 = {
-		icon = FRY_mission_29_gfx
-		required_missions = {
-			FRY_mission_25
-		}
-		position = 8
-		provinces_to_highlight = {
-			province_id = 13
-		}
-		trigger = {
-			controls = 13
-		}
-		effect = {
-			add_adm_power = 100
-			add_treasury = 100
-		}
-	}
-	##Mission End
-	##
-	
-}
-##BranchEnd 0
-##BranchStart 1
-FRYADM = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential = {
-		tag = FRY
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	##Mission Start
-	FRY_mission_1 = {
-		icon = FRY_mission_1_gfx
-		required_missions = {
-			
-		}
-		position = 1
-		provinces_to_highlight = {
-			province_id = 2416
-		}
-		trigger = {
-			share_of_starting_income = 1.5
-		}
-		effect = {
-			add_adm_power = 100
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_5 = {
-		icon = FRY_mission_5_gfx
-		required_missions = {
-			FRY_mission_1
-		}
-		position = 2
-		provinces_to_highlight = {
-			province_id = 2416
-		}
-		trigger = {
-			
-		}
-		effect = {
-			add_mil_power = 100
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_10 = {
-		icon = FRY_mission_10_gfx
-		required_missions = {
-			FRY_mission_5
-		}
-		position = 3
-		provinces_to_highlight = {
-			province_id = 2416
-		}
-		trigger = {
-			total_base_tax = 5
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_14 = {
-		icon = FRY_mission_14_gfx
-		required_missions = {
-			FRY_mission_10
-		}
-		position = 4
-		provinces_to_highlight = {
-			province_id = 2416
-		}
-		trigger = {
-			current_income_balance = 6
-			production_income_percentage = 0.25
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_23 = {
-		icon = FRY_mission_23_gfx
-		required_missions = {
-			FRY_mission_18
-		}
-		position = 6
-		provinces_to_highlight = {
-			province_id = 2454
-		}
-		trigger = {
-			controls = 2454
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_26 = {
-		icon = FRY_mission_26_gfx
-		required_missions = {
-			FRY_mission_23
-		}
-		position = 7
-		provinces_to_highlight = {
-			province_id = 2449
-		}
-		trigger = {
-			controls = 2449
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_30 = {
-		icon = FRY_mission_30_gfx
-		required_missions = {
-			FRY_mission_26
-		}
-		position = 8
-		provinces_to_highlight = {
-			province_id = 3837
-		}
-		trigger = {
-			controls = 3837
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##
-	
-}
-##BranchEnd 1
-##BranchStart 2
-FRYSOC = {
+FRY_series_1 = {
 	slot = 3
 	generic = no
 	ai = yes
 	potential = {
 		tag = FRY
-		NOT = { map_setup = map_setup_random }
 	}
-	has_country_shield = yes
-	
-	##Mission Start
-	FRY_mission_2 = {
-		icon = FRY_mission_2_gfx
-		required_missions = {
-			
-		}
+
+	FRY_mission_1_1 = {
+		icon = mission_build_up_to_force_limit
 		position = 1
-		provinces_to_highlight = {
-			province_id = 2416
-		}
+		required_missions = {  }
 		trigger = {
-			##MISSIONTRIGGER
+			is_year = 1275
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_legitimacy = 10
+			add_stability = 1
 		}
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_6 = {
-		icon = FRY_mission_6_gfx
-		required_missions = {
-			FRY_mission_2
-		}
+	FRY_mission_1_2 = {
+		icon = mission_build_up_to_force_limit
 		position = 2
+		required_missions = { FRY_mission_1_1 }
 		provinces_to_highlight = {
-			province_id = 2416
+			2411
 		}
 		trigger = {
-			NOT = {
-   				 estate_influence = {
-        			estate = estate_nobles
-        			influence = 20
-    			}
-			}
-			NOT = {
-   				 estate_territory = {
-        			estate = estate_nobles
-        			territory = 20
-    			}
+			2411 = {
+			is_city = yes
 			}
 		}
 		effect = {
-			add_country_modifier = { 
-    			name = FRY_mission_6
-    			hidden = no
+			2411 = {
+			add_base_tax = 1
 			}
 		}
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_15 = {
-		icon = FRY_mission_15_gfx
-		required_missions = {
-			FRY_mission_6
+	FRY_mission_1_3 = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { FRY_mission_1_2 }
+		provinces_to_highlight = {
+			2407
+			2417
+			2418
 		}
+		trigger = {
+			2407 = {
+			is_city = yes
+			}
+			2417 = {
+			is_city = yes
+			}
+			2418 = {
+			is_city = yes
+			}
+		}
+		effect = {
+			2407 = {
+			add_base_tax = 1
+			add_base_production = 1
+			}
+			2417 = {
+			add_base_tax = 1
+			add_base_production = 1
+			}
+			2418 = {
+			add_base_tax = 1
+			add_base_production = 1
+			}
+		}
+	}
+	FRY_mission_1_4 = {
+		icon = mission_build_up_to_force_limit
 		position = 4
+		required_missions = { FRY_mission_1_3 }
 		provinces_to_highlight = {
-			province_id = 2416
+			2404
+			2412
+			2413
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			2404 = {
+			is_city = yes
+			}
+			2412 = {
+			is_city = yes
+			}
+			2413 = {
+			is_city = yes
+			}
 		}
 		effect = {
-			##MISSIONEFFECT
+			2404 = {
+			add_base_tax = 2
+			add_base_production = 1
+			}
+			2412 = {
+			add_base_tax = 2
+			add_base_production = 1
+			}
+			2413 = {
+			add_base_tax = 2
+			add_base_production = 1
+			}
 		}
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_19 = {
-		icon = FRY_mission_19_gfx
-		required_missions = {
-			FRY_mission_15
-		}
+	FRY_mission_1_5 = {
+		icon = mission_build_up_to_force_limit
 		position = 5
+		required_missions = { FRY_mission_1_4 }
 		provinces_to_highlight = {
-			province_id = 2416
+			13
 		}
 		trigger = {
-			##MISSIONTRIGGER
+			13 = {
+			is_city = yes
+			}
 		}
 		effect = {
+			13 = {
+			add_base_tax = 2
+			add_base_production = 1
+			}
 			add_country_modifier = { 
-    			name = FRY_mission_19
-    			hidden = no
+			    name = FRY_MOD_mission_1_5  
+			    desc = FRY_MOD_mission_1_5_desc
+			    hidden = yes
 			}
 		}
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_27 = {
-		icon = FRY_mission_27_gfx
-		required_missions = {
-			FRY_mission_19
-		}
-		position = 7
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_31 = {
-		icon = FRY_mission_31_gfx
-		required_missions = {
-			FRY_mission_27
-		}
-		position = 8
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_32 = {
-		icon = FRY_mission_32_gfx
-		required_missions = {
-			FRY_mission_28
-			FRY_mission_29
-			FRY_mission_30
-			FRY_mission_31
-		}
-		position = 9
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			country_event = { 
-   				 id = lumia_event.1
-   				 days = 15
-			}
-		}
-	}
-	##Mission End
-	##
-	
 }
-##BranchEnd 2
-##BranchStart 3
-FRYMIL = {
+
+FRY_series_2 = {
 	slot = 4
 	generic = no
 	ai = yes
 	potential = {
 		tag = FRY
-		NOT = { map_setup = map_setup_random }
 	}
-	has_country_shield = yes
-	
-	##Mission Start
-	FRY_mission_3 = {
-		icon = FRY_mission_3_gfx
-		required_missions = {
-			
-		}
-		position = 1
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_7 = {
-		icon = FRY_mission_7_gfx
-		required_missions = {
-			FRY_mission_3
-		}
+
+	FRY_mission_2_1 = {
+		icon = mission_build_up_to_force_limit
 		position = 2
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
+		required_missions = { FRY_mission_1_1 }
 		trigger = {
-			##MISSIONTRIGGER
+			treasury = 50
+			development = 10
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_adm_power = 100
 		}
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_11 = {
-		icon = FRY_mission_11_gfx
-		required_missions = {
-			FRY_mission_7
-		}
+	FRY_mission_2_2 = {
+		icon = mission_build_up_to_force_limit
 		position = 3
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
+		required_missions = { FRY_mission_2_1 }
+		trigger = { }
+		effect = { }
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_16 = {
-		icon = FRY_mission_16_gfx
-		required_missions = {
-			FRY_mission_11
-		}
+	FRY_mission_2_3 = {
+		icon = mission_build_up_to_force_limit
 		position = 4
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
+		required_missions = { FRY_mission_2_2 }
 		trigger = {
-			##MISSIONTRIGGER
+			treasury = 75
+			development = 30
 		}
 		effect = {
-			##MISSIONEFFECT
+			add_adm_power = 100
+			add_dip_power = 100
 		}
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_20 = {
-		icon = FRY_mission_20_gfx
-		required_missions = {
-			FRY_mission_16
-		}
+	FRY_mission_2_4 = {
+		icon = mission_build_up_to_force_limit
 		position = 5
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			army_size_percentage = 1
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
+		required_missions = { FRY_mission_2_3 }
+		trigger = { }
+		effect = { }
 	}
-	##Mission End
-	##
-	
 }
-##BranchEnd 3
-##BranchStart 4
-FRYMIL2 = {
-	slot = 5
+
+FRY_series_3 = {
+	slot = 2
 	generic = no
 	ai = yes
 	potential = {
 		tag = FRY
-		NOT = { map_setup = map_setup_random }
 	}
-	has_country_shield = yes
-	
-	##Mission Start
-	FRY_mission_8 = {
-		icon = FRY_mission_8_gfx
-		required_missions = {
-			FRY_mission_3
-		}
+
+	FRY_mission_3_1 = {
+		icon = mission_build_up_to_force_limit
 		position = 2
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
+		required_missions = { FRY_mission_1_1 }
+		trigger = { }
+		effect = { }
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_12 = {
-		icon = FRY_mission_12_gfx
-		required_missions = {
-			FRY_mission_8
-		}
+	FRY_mission_3_2 = {
+		icon = mission_build_up_to_force_limit
 		position = 3
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
+		required_missions = { FRY_mission_3_1 }
+		trigger = { }
+		effect = { }
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_17 = {
-		icon = FRY_mission_17_gfx
-		required_missions = {
-			FRY_mission_12
-		}
+	FRY_mission_3_3 = {
+		icon = mission_build_up_to_force_limit
 		position = 4
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
+		required_missions = { FRY_mission_3_2 }
+		trigger = { }
+		effect = { }
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_21 = {
-		icon = FRY_mission_21_gfx
-		required_missions = {
-			FRY_mission_17
-		}
+	FRY_mission_3_4 = {
+		icon = mission_build_up_to_force_limit
 		position = 5
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
+		required_missions = { FRY_mission_3_3 }
+		trigger = { }
+		effect = { }
 	}
-	##Mission End
-	##Mission Start
-	FRY_mission_24 = {
-		icon = FRY_mission_28_gfx
-		required_missions = {
-			FRY_mission_21
-			FRY_mission_20
-		}
-		position = 6
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##Mission Start
-	FRY_mission_28 = {
-		icon = FRY_mission_28_gfx
-		required_missions = {
-			FRY_mission_24
-		}
-		position = 7
-		provinces_to_highlight = {
-			##PROVINCESHIGHLIGHTCODE
-		}
-		trigger = {
-			##MISSIONTRIGGER
-		}
-		effect = {
-			##MISSIONEFFECT
-		}
-	}
-	##Mission End
-	##
-	
 }
-##BranchEnd 4
+
+FRY_series_4 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRY
+	}
+
+	FRY_mission_4_1 = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { FRY_mission_1_5 FRY_mission_2_4 FRY_mission_3_4 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_4_2 = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { FRY_mission_4_1 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_4_3 = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { FRY_mission_4_2 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_4_4 = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { FRY_mission_4_3 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_4_5 = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { FRY_mission_4_4 }
+		trigger = { }
+		effect = { }
+	}
+}
+
+FRY_series_5 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRY
+	}
+
+	FRY_mission_5_1 = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { FRY_mission_4_1 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_5_2 = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { FRY_mission_5_1 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_5_3 = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { FRY_mission_5_2 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_5_4 = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { FRY_mission_5_3 }
+		trigger = { }
+		effect = { }
+	}
+}
+
