@@ -25,3 +25,11 @@ NDefines.NReligion.MAX_CHRISTIAN_RELIGIOUS_CENTERS = 5
 NDefines.NDiplomacy.HRE_PRINCE_AUTHORITY_THRESHOLD = 17
 
 NDefines.NGame.MAX_COLONIAL_NATIONS = 90				-- Max is 100
+
+NDefines.NCountry.MIN_TECH_FOR_CIRCUMNAVIGATE = 15		-- Must have this level of dip tech to circumnavigate the globe
+NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_1 = 196			-- Provinces for circumnavigation (Sevilor Straits)
+NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_2 = 181			-- Provinces for circumnavigation (magellan strait)
+NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_3 = 341			-- Provinces for circumnavigation (hawaii sea)
+NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_4 = 267			-- Provinces for circumnavigation (hawaii sea)
+NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_5 = 406			-- Provinces for circumnavigation (hawaii sea)
+NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_6 = 256			-- Provinces for circumnavigation (cape of good hope)

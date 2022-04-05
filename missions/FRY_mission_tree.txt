@@ -23,7 +23,7 @@ FRY_series_1 = {
 		position = 2
 		required_missions = { FRY_mission_1_1 }
 		provinces_to_highlight = {
-			2411
+			province_id = 2411
 		}
 		trigger = {
 			2411 = {
@@ -41,9 +41,11 @@ FRY_series_1 = {
 		position = 3
 		required_missions = { FRY_mission_1_2 }
 		provinces_to_highlight = {
-			2407
-			2417
-			2418
+			OR={
+				province_id =2407
+				province_id =2417
+				province_id =2418
+			}
 		}
 		trigger = {
 			2407 = {
@@ -76,9 +78,11 @@ FRY_series_1 = {
 		position = 4
 		required_missions = { FRY_mission_1_3 }
 		provinces_to_highlight = {
-			2404
-			2412
-			2413
+			OR={
+				province_id =2404
+				province_id =2412
+				province_id =2413
+			}
 		}
 		trigger = {
 			2404 = {
@@ -111,7 +115,7 @@ FRY_series_1 = {
 		position = 5
 		required_missions = { FRY_mission_1_4 }
 		provinces_to_highlight = {
-			13
+			province_id =13
 		}
 		trigger = {
 			13 = {

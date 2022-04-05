@@ -7,11 +7,23 @@ native_basic_reform = {
 	republican_name = yes
 	royal_marriage = no
 	fixed_rank = 1
+	custom_attributes = {
+		enables_plutocratic_idea_group = no
+		enables_aristocratic_idea_group = no
+		enables_divine_idea_group = no
+		enables_natives_idea_group = yes
+	}
 	modifiers = {
-		stability_cost_modifier = -0.33
+		reform_progress_growth = -1.0
+		monthly_reform_progress = 0.5
 		land_maintenance_modifier = -0.25
-		diplomatic_upkeep = -1
-		global_institution_spread = -0.025
+		diplomatic_upkeep = -2
+		global_institution_spread = -0.5
+		global_regiment_cost = -0.5
+		province_warscore_cost = 4
+		manpower_recovery_speed = 0.25
+		land_forcelimit_modifier = -0.3
+		development_cost = 0.2
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
