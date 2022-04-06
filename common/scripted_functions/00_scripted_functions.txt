@@ -57,11 +57,15 @@ can_add_province_to_hre = {
 can_remove_province_from_hre = {
 	condition = {
 		potential = {
+			owner={
 			ai = yes
+			}
 		}
 		allow = {
-			NOT = {
+			owner={
+				NOT = {
 				has_country_flag = permanently_left_hre_flag
+				}
 			}
 		}
 	}

@@ -2417,10 +2417,7 @@ sinner_personality = {
 	}
 	
 	allow = {
-		OR = {
-			religion_group = christian
-			religion_group = muslim
-		}
+		always = no
 	}
 	
 	chance = {

@@ -2098,6 +2098,7 @@ on_fetishist_cult_change = {
 		}
 		clr_country_flag = lost_ancestral_lands
 	}
+}
 # country
 on_gain_great_power_status = {
 	if = {
@@ -2225,6 +2226,17 @@ on_refuse_tribute = {
 
 # country
 on_leader_recruited = {
+	if = {
+		limit = {
+			has_estate_privilege = estate_nobles_command_of_the_military
+		}
+		add_estate_influence_modifier = {
+			estate = estate_nobles
+			influence = 5
+			duration = 3650
+			desc = EST_VAL_NOBLE_LEADER
+		}
+	}
 }
 
 # country
@@ -2728,8 +2740,6 @@ on_colonist_boosting_colony = {
 					}
 					is_in_capital_area = yes
 					OR = {
-						continent = north_america
-						continent = south_america
 						continent = new_world
 					}
 					NOT = {
