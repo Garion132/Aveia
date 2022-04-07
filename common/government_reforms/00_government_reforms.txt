@@ -158,11 +158,9 @@ palace_economy = {
 	valid_for_nation_designer = no
 	monarchy = yes
 	modifiers = {
-    	governing_capacity = 150
 		production_efficiency = 0.1
 		global_tax_modifier = 0.05
 		global_autonomy = -0.025
-		development_cost = 0.2
 	}
 	ai = {
 		factor = 1

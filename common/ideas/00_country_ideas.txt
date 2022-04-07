@@ -218,7 +218,7 @@ ATH_ideas = {
 		tag = ATH
 	}
 	start = {
-		num_accepted_cultures = 3
+		num_accepted_cultures = 1
 		promote_culture_cost = -0.15
 	}
 	

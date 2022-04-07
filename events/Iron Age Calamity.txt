@@ -2967,7 +2967,422 @@ country_event = {
 					factor = 0
 				}
 			}
-		}	
+		}
+		#Wassad Breaks Free!
+		country_event = {
+			id = iron_age_calamity.1008
+			title = "iron_age_calamity.1008.t"
+			desc = "iron_age_calamity.1008.d"
+			picture = ANGRY_MOB_eventPicture
+			
+			#major = yes
+			
+			is_triggered_only = yes
+
+			trigger = {
+				NOT = {
+					has_global_flag = wassad_rebellion
+					tag = NYK
+				}
+				any_owned_province = {
+					culture = wassadi
+				}
+			}
+			
+			immediate = {
+				hidden_effect = {
+					set_global_flag = wassad_rebellion
+					every_province = {
+						limit = {
+							culture = wassadi
+							NOT = { owned_by = WAS }
+						}
+						add_core = WAS
+						cede_province = WAS
+					}
+					WAS = {
+						set_country_flag = rebel_country_flag
+						set_capital = 795
+					}
+				}
+			}
+			
+			mean_time_to_happen = {
+				days = 1
+			}
+			
+			option = {	# We must crush them now!
+				name = "iron_age_calamity.breakaway.op1"
+				trigger = {
+					WAS = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+				add_prestige = 5
+				declare_war_with_cb = {
+					who = WAS
+					casus_belli = cb_restore_order
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0
+						NOT = {
+							culture_group_claim = WAS
+						}
+					}
+					modifier = {
+						factor = 0
+						is_at_war = yes
+					}
+				}
+			}
+			option = {	# We'll get to them later...
+				name = "iron_age_calamity.breakaway.op2"
+				trigger = {
+					WAS = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						NOT = {
+							culture_group_claim = WAS
+						}
+					}
+				}
+			}
+			option = { #Abandon the territory
+				name = "iron_age_calamity.breakaway.op3"
+				if = {
+					limit = {
+						WAS = {
+							any_owned_province = {
+								is_core = ROOT
+							}
+						}
+					}
+					WAS = {
+						every_owned_province = {
+							limit = {
+								is_core = ROOT
+							}
+							remove_core = ROOT
+						}
+					}
+					add_prestige = -5
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						culture_group_claim = WAS
+					}
+					modifier = {
+						factor = 0
+						culture = morbinite
+					}
+				}
+			}
+			option = { #Sounds interesting...
+				name = "iron_age_calamity.breakaway.op4"
+				trigger = {
+					ai = no
+					WAS = {
+						ai = yes
+					}
+				}
+				switch_tag = WAS
+				ai_chance = {
+					factor = 0
+				}
+			}
+		}
+		#klinma Breaks Free!
+		country_event = {
+			id = iron_age_calamity.1009
+			title = "iron_age_calamity.1009.t"
+			desc = "iron_age_calamity.1009.d"
+			picture = ANGRY_MOB_eventPicture
+			
+			#major = yes
+			
+			is_triggered_only = yes
+
+			trigger = {
+				NOT = {
+					has_global_flag = klinma_rebellion
+					tag = NYK
+				}
+				any_owned_province = {
+					culture = loironan
+				}
+			}
+			
+			immediate = {
+				hidden_effect = {
+					set_global_flag = klinma_rebellion
+					every_province = {
+						limit = {
+							OR={
+								region = amnaselalone
+								region = loironan
+								region = klinma
+							}
+							NOT = { owned_by = KLI }
+						}
+						add_core = KLI
+						cede_province = KLI
+					}
+					KLI = {
+						set_country_flag = rebel_country_flag
+						set_capital = 856
+					}
+				}
+			}
+			
+			mean_time_to_happen = {
+				days = 1
+			}
+			
+			option = {	# We must crush them now!
+				name = "iron_age_calamity.breakaway.op1"
+				trigger = {
+					KLI = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+				add_prestige = 5
+				declare_war_with_cb = {
+					who = KLI
+					casus_belli = cb_restore_order
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0
+						NOT = {
+							culture_group_claim = KLI
+						}
+					}
+					modifier = {
+						factor = 0
+						is_at_war = yes
+					}
+				}
+			}
+			option = {	# We'll get to them later...
+				name = "iron_age_calamity.breakaway.op2"
+				trigger = {
+					KLI = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						NOT = {
+							culture_group_claim = KLI
+						}
+					}
+				}
+			}
+			option = { #Abandon the territory
+				name = "iron_age_calamity.breakaway.op3"
+				if = {
+					limit = {
+						KLI = {
+							any_owned_province = {
+								is_core = ROOT
+							}
+						}
+					}
+					KLI = {
+						every_owned_province = {
+							limit = {
+								is_core = ROOT
+							}
+							remove_core = ROOT
+						}
+					}
+					add_prestige = -5
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						culture_group_claim = KLI
+					}
+					modifier = {
+						factor = 0
+						culture = loironan
+					}
+				}
+			}
+			option = { #Sounds interesting...
+				name = "iron_age_calamity.breakaway.op4"
+				trigger = {
+					ai = no
+					KLI = {
+						ai = yes
+					}
+				}
+				switch_tag = KLI
+				ai_chance = {
+					factor = 0
+				}
+			}
+		}
+		#Nynth Breaks Free!
+		country_event = {
+			id = iron_age_calamity.1010
+			title = "iron_age_calamity.1010.t"
+			desc = "iron_age_calamity.1010.d"
+			picture = ANGRY_MOB_eventPicture
+			
+			#major = yes
+			
+			is_triggered_only = yes
+
+			trigger = {
+				NOT = {
+					has_global_flag = nynth_rebellion
+					tag = NYN
+				}
+				any_owned_province = {
+					culture = nilenorian
+				}
+			}
+			
+			immediate = {
+				hidden_effect = {
+					set_global_flag = nynth_rebellion
+					every_province = {
+						limit = {
+							culture = nilenorian
+							NOT = { owned_by = NYN }
+						}
+						add_core = NYN
+						cede_province = NYN
+					}
+					NYN = {
+						set_country_flag = rebel_country_flag
+						set_capital = 849
+					}
+				}
+			}
+			
+			mean_time_to_happen = {
+				days = 1
+			}
+			
+			option = {	# We must crush them now!
+				name = "iron_age_calamity.breakaway.op1"
+				trigger = {
+					NYN = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+				add_prestige = 5
+				declare_war_with_cb = {
+					who = NYN
+					casus_belli = cb_restore_order
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0
+						NOT = {
+							culture_group_claim = NYN
+						}
+					}
+					modifier = {
+						factor = 0
+						is_at_war = yes
+					}
+				}
+			}
+			option = {	# We'll get to them later...
+				name = "iron_age_calamity.breakaway.op2"
+				trigger = {
+					NYN = {
+						any_owned_province = {
+							is_core = ROOT
+						}
+					}
+				}
+
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						NOT = {
+							culture_group_claim = NYN
+						}
+					}
+				}
+			}
+			option = { #Abandon the territory
+				name = "iron_age_calamity.breakaway.op3"
+				if = {
+					limit = {
+						NYN = {
+							any_owned_province = {
+								is_core = ROOT
+							}
+						}
+					}
+					NYN = {
+						every_owned_province = {
+							limit = {
+								is_core = ROOT
+							}
+							remove_core = ROOT
+						}
+					}
+					add_prestige = -5
+				}
+				ai_chance = {
+					factor = 100
+					modifier = {
+						factor = 0.5
+						culture_group_claim = NYN
+					}
+					modifier = {
+						factor = 0
+						culture = loironan
+					}
+				}
+			}
+			option = { #Sounds interesting...
+				name = "iron_age_calamity.breakaway.op4"
+				trigger = {
+					ai = no
+					NYN = {
+						ai = yes
+					}
+				}
+				switch_tag = NYN
+				ai_chance = {
+					factor = 0
+				}
+			}
+		}
 		
 		
 		

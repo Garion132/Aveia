@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = siniersi
+religion = tlaunorist
+technology_group = lake_elves_group
+capital = 3303 # 
+#national_focus = DIP
+#historical_rival = HAB

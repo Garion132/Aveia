@@ -58,7 +58,7 @@ country_event = {
 				}
 			}
 		}
-		set_country_flag = "death_of_tlaulunore" 
+		set_global_flag = "death_of_tlaulunore" 
 	}
 }
 # muthilian splits

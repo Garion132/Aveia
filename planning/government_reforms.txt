@@ -1,3 +1,10 @@
+bronze age governments
+iron age governments
+early modern
+industrial/modern
+
+
+
 Bronze age monarcy:
 	tier 1: Power structure
 		palace economy
@@ -27,7 +34,8 @@ Iron age monarcy:
 	
 	tier 2: Societal ties
 		family groups
-		
+		communinal
+		judicial
 	tier 3: 
 	
 	tier 4: administrative class

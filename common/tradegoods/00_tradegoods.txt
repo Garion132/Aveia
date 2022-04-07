@@ -80,6 +80,15 @@ grain = {
 			factor = 2
 			region = thilrana_region
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -126,6 +135,15 @@ fruit = {
 				has_terrain = highlands
 			}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 wine = {
@@ -168,6 +186,15 @@ wine = {
 			OR = {
 				has_terrain = hills
 				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
 			}
 		}
 	}
@@ -219,6 +246,15 @@ wool = {
 			factor = 0.5
 			region = thilrana_region
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -239,6 +275,15 @@ cloth = {
 		modifier = {
 			factor = 2.0
 			development = 22
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
 		}
 	}
 }
@@ -267,6 +312,15 @@ fish = {
 		modifier = {
 			factor = 1.2
 			has_terrain = glacier
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
 		}
 	}
 }
@@ -335,6 +389,15 @@ fur = { #Pademi Fur
 			factor = 0
 			region = thilrana_region
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -363,6 +426,15 @@ salt = {
 					has_terrain = marsh
 					NOT = { has_climate = arctic } #Hudson Bay
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
 			}
 		}
 	}
@@ -417,6 +489,15 @@ naval_supplies = {
 		modifier = {
 			factor = 3
 			has_terrain = forest
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
 		}
 	}
 }
@@ -508,6 +589,15 @@ tin = {
 				has_terrain = highlands
 			}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -556,6 +646,15 @@ silver = {
 					has_country_flag = por_bandeirantes_flag
 					colonial_parent = { has_country_flag = por_bandeirantes_flag }
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
 			}
 		}
 	}
@@ -775,6 +874,15 @@ iron = {
 	}
 	chance = {
 		factor = 1
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -813,6 +921,15 @@ plaulum = {
 				has_terrain = highlands
 			}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -836,6 +953,15 @@ slaves = {
 			factor = 0
 			region = thilrana_region
 		}		
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -869,6 +995,15 @@ quedarma_horns = {
 					region = vortingrad_region
 					region = borestia_region
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
 			}
 		}
 	}
@@ -906,6 +1041,15 @@ black_eliph = {
 			factor = 0
 			NOT={continent = juluia}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -931,6 +1075,15 @@ machinery = {
 		modifier = {
 			factor = 10
 			development = 30
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
 		}
 	}
 }
@@ -986,6 +1139,15 @@ spices = {
 				has_terrain = highlands
 			}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -1019,6 +1181,15 @@ iresta = {
 		modifier = {
 			factor = 0
 			NOT={continent = juluia}
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
 		}
 	}
 }
@@ -1065,6 +1236,15 @@ ecriamin = {
 			factor = 0
 			NOT={continent = elteria}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -1097,6 +1277,15 @@ sweetpowder = {
 			factor = 0
 			NOT={continent = juluia}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -1126,6 +1315,15 @@ gold_knot = {
 				has_terrain = steppe
 				has_terrain = desert
 				has_terrain = drylands
+			}
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
 			}
 		}
 	}
@@ -1172,6 +1370,15 @@ vecroth_fruit = {
 			factor = 0
 			NOT={continent = juluia}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -1213,6 +1420,15 @@ spirl = {
 			factor = 0
 			NOT={continent = aveia}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -1241,6 +1457,15 @@ dyes = {
 				has_winter = severe_winter
 			}
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -1267,6 +1492,15 @@ udezer_wood = {
 		modifier = {
 			factor = 2
 			has_climate = tropical
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
 		}
 	}
 }
@@ -1299,6 +1533,15 @@ livestock = {
 			factor = 1.5
 			has_terrain = steppe
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -1316,6 +1559,15 @@ sunspot = {
 			factor = 0
 			NOT = { has_terrain = desert }
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 		
 	}
 }
@@ -1332,7 +1584,15 @@ glass = {
 		factor = 5
 		modifier = {
 			factor = 0
-			NOT = { development = 18 }
+			NOT = { 
+				OR={
+					development = 18 
+					province_id = 3923
+					province_id = 4744
+					province_id = 4756
+					province_id = 4743
+				}
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -1358,6 +1618,15 @@ paper = {
 		modifier = {
 			factor = 2.0
 			development = 22
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
 		}
 	}
 }
@@ -1407,6 +1676,15 @@ gems = {
 		modifier = {
 			factor = 1.5
 			normal_or_historical_nations = no
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
 		}
 	}
 }
@@ -1590,6 +1868,15 @@ guedina = {
 			factor = 0
 			region = thilrana_region
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 ankon = {
@@ -1717,6 +2004,15 @@ ceramics = {
 			factor = 2
 			development = 12
 		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
 	}
 }
 
@@ -1752,6 +2048,15 @@ marble = {
 			OR = {
 				has_terrain = mountain
 				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
 			}
 		}
 	}

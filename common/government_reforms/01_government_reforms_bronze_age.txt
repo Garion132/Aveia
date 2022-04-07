@@ -10,6 +10,7 @@ bronze_monarchy_mechanic = {
 	}
 	modifiers = {
 		church_influence_modifier = 0.1
+		development_cost = 0.2
 	}
 }
 

@@ -234,6 +234,7 @@ THL = "countries/Thilrana.txt"
 	MOT = "countries/Montlira.txt"
 	VLN = "countries/Velnoi.txt"
 	QUA = "countries/Quanil.txt"
+	SRR = "countries/Serar.txt" 
 
 ## Eastern formables
 
@@ -315,6 +316,8 @@ THL = "countries/Thilrana.txt"
 	
 ILR = "countries/Ilrazin.txt"
 ANT = "countries/Anthyr.txt"
+WLA = "countries/Wlariquaron.txt"
+AFY = "countries/Arafyr.txt"
 CHE = "countries/Cherga.txt"
 KUS = "countries/Kusedean.txt"
 KAB = "countries/Kabuk.txt"

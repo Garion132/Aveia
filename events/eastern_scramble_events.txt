@@ -128,6 +128,11 @@ country_event = {#ash and ice
 					country_event = {id = eastern_scramble.21 days = 287}
 				}
 			}
+			2274={#twin expition #1
+				owner = {
+					country_event = {id = eastern_scramble.23 days = 188}
+				}
+			}
 			set_global_flag = EASTERN_SCRAMBLE
 		}
 	}
@@ -1339,5 +1344,66 @@ country_event = {#Quanil
 	option = {
 		name = eastern_scramble.22.b
 		switch_tag = QUA
+	}
+}
+country_event = {#Serar
+	id = eastern_scramble.23
+	title = eastern_scramble.23.t
+	desc = eastern_scramble.23.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3303={
+				cede_province = SRR
+				add_core = SRR
+				change_religion = tlaunorist
+				change_culture = siniersi
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			SRR={
+				add_treasury = 50
+				define_ruler ={
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+				hidden_effect={
+					country_event={id = eastern_scramble.22}
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.23.a
+
+	}
+	option = {
+		name = eastern_scramble.23.b
+		switch_tag = SRR
 	}
 }

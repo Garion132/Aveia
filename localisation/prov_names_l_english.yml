@@ -32,6 +32,8 @@
 
  PROV33:0 "Great Cradle"
  PROV34:0 "Kyath Coast"
+ 
+ PROV37:0 "Nythuir"
 
  PROV40:0 "Norgulh Lake"
 
@@ -40,6 +42,8 @@
  PROV46:0 "Kalhyrhei"
  PROV47:0 "Unilo"
  PROV48:0 "Fuloa"
+ PROV49:0 "Parnti"
+ PROV50:0 "Oruin"
 
  PROV53:0 "Oruinyal"
  PROV54:0 "Ovilias"
@@ -47,6 +51,8 @@
  PROV56:0 "Windos"
 
  PROV58:0 "Nalean"
+ 
+ PROV62:0 "Kyathi"
 
  PROV66:0 "Matle"
 
@@ -69,7 +75,9 @@
  PROV102:0 "Nionerin"
 
  PROV106:0 "Himlumyese"
- 
+ PROV107:0 "Luria"
+ PROV108:0 "Tweua"
+ PROV109:0 "Rindol"
  PROV110:0 "Tylort Strait"
 
  PROV120:0 "Hinnocrin"
@@ -92,6 +100,8 @@
  PROV196:0 "Sevilor Straits"
 
  PROV207:0 "Kushedean Bay"
+ 
+ PROV215:0 "Oliprua"
 
  PROV217:0 "Elnorei Pass"
 
@@ -100,6 +110,8 @@
  PROV308:0 "Sonhud Bay"
  
  PROV345:0 "Tilvena"
+ 
+ PROV364:0 "Yolris"
  
  PROV377:0 "Wester Bay"
  
@@ -776,10 +788,12 @@
  
  PROV3897:0 "Selk"
  PROV3898:0 "Symant"
- 
+ PROV3899:0 "Elhart"
+ PROV3900:0 "Willsrock"
  PROV3901:0 "Aelhei"
  PROV3902:0 "Kamek"
- 
+ PROV3903:0 "Nolur"
+ PROV3904:0 "Altalix"
  PROV3905:0 "Elsa"
  PROV3906:0 "Smotia"
  PROV3907:0 "Orand"
@@ -791,8 +805,10 @@
  
  PROV3913:0 "Ulsin"
  PROV3914:0 "Valtoc"
+ PROV3915:0 "Coast of Salor"
  
- PROV3914:0 "Teltas"
+ PROV3917:0 "Teltas"
+ PROV3918:0 "Illwind"
  
  PROV3929:0 "Shizhokno"
  
