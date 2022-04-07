@@ -49,29 +49,29 @@
 	}
 
 	#Freyglen
-	FRY_mission_4b = {
+	FRY_mission_1 = {
 		global_tax_income = 0.1
 	}
-	FRY_mission_6 = {
+	FRY_mission_2 = {
 		nobles_influence_modifier = -0.5
 		burghers_influence_modifier = 0.5
 	}
-	FRY_mission_9a = {
+	FRY_mission_3 = {
 		build_cost = -0.25
 	}
-	FRY_mission_9b = {
+	FRY_mission_4 = {
 		build_time = -0.1
 	}
-	FRY_mission_13a = {
+	FRY_mission_5 = {
 		global_trade_power = 0.25
 	}
-	FRY_mission_13b = {
+	FRY_mission_6 = {
 		country_diplomatic_power = 1
 	}
-	FRY_mission_18 = {
+	FRY_mission_7 = {
 		global_colonial_growth = 15
 	}
-	FRY_mission_19 = {
+	FRY_mission_8 = {
 		global_colonial_growth = 20
 		range = 0.5
 	}

@@ -1,4 +1,4 @@
-FRY_series_1 = {
+FRY_mission_1 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -14,8 +14,9 @@ FRY_series_1 = {
 			is_year = 1275
 		}
 		effect = {
-			add_legitimacy = 10
-			add_stability = 1
+			2411 = {
+			add_claim = FRY
+			}
 		}
 	}
 	FRY_mission_1_2 = {
@@ -31,6 +32,15 @@ FRY_series_1 = {
 			}
 		}
 		effect = {
+			2407 = {
+			add_claim = FRY
+			}
+			2417 = {
+			add_claim = FRY
+			}
+			2411 = {
+			add_core = FRY
+			}
 			2411 = {
 			add_base_tax = 1
 			}
@@ -41,11 +51,8 @@ FRY_series_1 = {
 		position = 3
 		required_missions = { FRY_mission_1_2 }
 		provinces_to_highlight = {
-			OR={
-				province_id =2407
-				province_id =2417
-				province_id =2418
-			}
+			province_id = 2407
+			province_id = 2417
 		}
 		trigger = {
 			2407 = {
@@ -54,20 +61,28 @@ FRY_series_1 = {
 			2417 = {
 			is_city = yes
 			}
-			2418 = {
-			is_city = yes
-			}
 		}
 		effect = {
+			2408 = {
+			add_claim = FRY
+			}
+			2409 = {
+			add_claim = FRY
+			}
+			2410 = {
+			add_claim = FRY
+			}
+			2407 = {
+			add_core = FRY
+			}
+			2417 = {
+			add_core = FRY
+			}
 			2407 = {
 			add_base_tax = 1
 			add_base_production = 1
 			}
 			2417 = {
-			add_base_tax = 1
-			add_base_production = 1
-			}
-			2418 = {
 			add_base_tax = 1
 			add_base_production = 1
 			}
@@ -78,34 +93,53 @@ FRY_series_1 = {
 		position = 4
 		required_missions = { FRY_mission_1_3 }
 		provinces_to_highlight = {
-			OR={
-				province_id =2404
-				province_id =2412
-				province_id =2413
-			}
+			province_id = 2408
+			province_id = 2409
+			province_id = 2410
 		}
 		trigger = {
-			2404 = {
+			2408 = {
 			is_city = yes
 			}
-			2412 = {
+			2409 = {
 			is_city = yes
 			}
-			2413 = {
+			2410 = {
 			is_city = yes
 			}
 		}
 		effect = {
-			2404 = {
-			add_base_tax = 2
+			2414 = {
+			add_claim = FRY
+			}
+			2415 = {
+			add_claim = FRY
+			}
+			2402 = {
+			add_claim = FRY
+			}
+			2452 = {
+			add_claim = FRY
+			}
+			2408 = {
+			add_core = FRY
+			}
+			2409 = {
+			add_core = FRY
+			}
+			2410 = {
+			add_core = FRY
+			}
+			2408 = {
+			add_base_tax = 1
 			add_base_production = 1
 			}
-			2412 = {
-			add_base_tax = 2
+			2409 = {
+			add_base_tax = 1
 			add_base_production = 1
 			}
-			2413 = {
-			add_base_tax = 2
+			2410 = {
+			add_base_tax = 1
 			add_base_production = 1
 			}
 		}
@@ -115,7 +149,65 @@ FRY_series_1 = {
 		position = 5
 		required_missions = { FRY_mission_1_4 }
 		provinces_to_highlight = {
-			province_id =13
+			province_id = 2414
+			province_id = 2415
+			province_id = 2402
+			province_id = 2452
+		}
+		trigger = {
+			2414 = {
+			is_city = yes
+			}
+			2415 = {
+			is_city = yes
+			}
+			2402 = {
+			is_city = yes
+			}
+			2452 = {
+			is_city = yes
+			}
+		}
+		effect = {
+			13 = {
+			add_claim = FRY
+			}
+			2414 = {
+			add_core = FRY
+			}
+			2415 = {
+			add_core = FRY
+			}
+			2402 = {
+			add_core = FRY
+			}
+			2452 = {
+			add_core = FRY
+			}
+			2414 = {
+			add_base_tax = 2
+			add_base_production = 1
+			}
+			2415 = {
+			add_base_tax = 2
+			add_base_production = 1
+			}
+			2402 = {
+			add_base_tax = 2
+			add_base_production = 1
+			}
+			2452 = {
+			add_base_tax = 2
+			add_base_production = 1
+			}
+		}
+	}
+	FRY_mission_1_6 = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { FRY_mission_1_5 }
+		provinces_to_highlight = {
+			province_id = 13
 		}
 		trigger = {
 			13 = {
@@ -124,19 +216,20 @@ FRY_series_1 = {
 		}
 		effect = {
 			13 = {
-			add_base_tax = 2
-			add_base_production = 1
+			add_core = FRY
 			}
-			add_country_modifier = { 
-			    name = FRY_MOD_mission_1_5  
-			    desc = FRY_MOD_mission_1_5_desc
-			    hidden = yes
+			13 = {
+			add_base_tax = 2
+			add_base_production = 2
+			}
+			13 = {
+			change_trade_goods = naval_supplies
 			}
 		}
 	}
 }
 
-FRY_series_2 = {
+FRY_mission_2 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -148,44 +241,109 @@ FRY_series_2 = {
 		icon = mission_build_up_to_force_limit
 		position = 2
 		required_missions = { FRY_mission_1_1 }
+		provinces_to_highlight = {
+			province_id = 2411
+			province_id = 2406
+		}
 		trigger = {
-			treasury = 50
-			development = 10
+			2411 = {
+			has_building = workshop
+			}
+			2406 = {
+			has_building = workshop
+			}
 		}
 		effect = {
-			add_adm_power = 100
+			add_treasury = 50
+			add_country_modifier = { 
+			    name = FRY_mission_4
+			    hidden = yes
+			}
 		}
 	}
 	FRY_mission_2_2 = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { FRY_mission_2_1 }
-		trigger = { }
-		effect = { }
+		trigger = {
+			development_in_provinces = {
+			value = 25
+			region = windsweaps
+			}
+		}
+		effect = {
+			add_adm_power = 50
+			add_dip_power = 50
+		}
 	}
 	FRY_mission_2_3 = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { FRY_mission_2_2 }
+		provinces_to_highlight = {
+			province_id = 2407
+			province_id = 2417
+		}
 		trigger = {
-			treasury = 75
-			development = 30
+			2407 = {
+			has_building = workshop
+			}
+			2417 = {
+			has_building = workshop 
+			}
 		}
 		effect = {
-			add_adm_power = 100
-			add_dip_power = 100
+			add_treasury = 50
+			add_country_modifier = { 
+			    name = FRY_mission_3
+			    hidden = yes
+			}
 		}
 	}
 	FRY_mission_2_4 = {
 		icon = mission_build_up_to_force_limit
 		position = 5
 		required_missions = { FRY_mission_2_3 }
-		trigger = { }
-		effect = { }
+		trigger = {
+			development_in_provinces = {
+			value = 35
+			region = windsweaps
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+		}
+	}
+	FRY_mission_2_5 = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { FRY_mission_2_4 }
+		provinces_to_highlight = {
+			province_id = 2408
+			province_id = 2452
+		}
+		trigger = {
+			2408 = {
+			has_building = workshop
+			}
+			2452 = {
+			has_building = workshop
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = FRY_mission_9
+			    hidden = yes
+			}
+			2408 = {
+			change_trade_goods = silver
+			}
+		}
 	}
 }
 
-FRY_series_3 = {
+FRY_mission_3 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -197,33 +355,89 @@ FRY_series_3 = {
 		icon = mission_build_up_to_force_limit
 		position = 2
 		required_missions = { FRY_mission_1_1 }
-		trigger = { }
-		effect = { }
+		provinces_to_highlight = {
+			province_id = 2418
+		}
+		trigger = {
+			2418 = {
+			has_city = yes
+			has_building = fort_14th
+			}
+		}
+		effect = {
+			2418 = {
+			add_base_manpower = 2
+			}
+		}
 	}
 	FRY_mission_3_2 = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { FRY_mission_3_1 }
-		trigger = { }
-		effect = { }
+		trigger = {
+			army_size = 8
+		}
+		effect = {
+			add_mil_power = 100
+		}
 	}
 	FRY_mission_3_3 = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { FRY_mission_3_2 }
-		trigger = { }
-		effect = { }
+		provinces_to_highlight = {
+			province_id = 2407
+		}
+		trigger = {
+			2407 = {
+			has_building = fort_14th
+			}
+		}
+		effect = {
+			2407 = {
+			add_base_manpower = 2
+			}
+		}
 	}
 	FRY_mission_3_4 = {
 		icon = mission_build_up_to_force_limit
 		position = 5
 		required_missions = { FRY_mission_3_3 }
-		trigger = { }
-		effect = { }
+		trigger = {
+			army_size = 15
+		}
+		effect = {
+			2409 = {
+			add_base_manpower = 2
+			}
+			2410 = {
+			add_base_manpower = 2
+			}
+			2411 = {
+			add_base_manpower = 3
+			}
+			add_mil_power = 100
+		}
+	}
+	FRY_mission_3_5 = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { FRY_mission_3_4 }
+		provinces_to_highlight = {
+			province_id = 2406
+		}
+		trigger = {
+			2406 = {
+			has_building = barracks
+			}
+		}
+		effect = {
+			add_mil_power = 100
+		}
 	}
 }
 
-FRY_series_4 = {
+FRY_mission_4 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -233,42 +447,66 @@ FRY_series_4 = {
 
 	FRY_mission_4_1 = {
 		icon = mission_build_up_to_force_limit
-		position = 6
-		required_missions = { FRY_mission_1_5 FRY_mission_2_4 FRY_mission_3_4 }
-		trigger = { }
-		effect = { }
+		position = 7
+		required_missions = { FRY_mission_1_6 FRY_mission_2_5 FRY_mission_3_5 }
+		provinces_to_highlight = {
+			province_id = 2406
+		}
+		trigger = {
+			2406 = {
+			development = 8
+			}
+		}
+		effect = {
+			2406 = {
+			change_trade_goods = grain
+			}
+			add_next_institution_embracement = 10
+		}
 	}
 	FRY_mission_4_2 = {
 		icon = mission_build_up_to_force_limit
-		position = 7
+		position = 8
 		required_missions = { FRY_mission_4_1 }
-		trigger = { }
-		effect = { }
+		provinces_to_highlight = {
+			province_id = 2404
+		}
+		trigger = {
+			2404 = {
+			development = 8
+			}
+		}
+		effect = {
+			2404 = {
+			change_trade_goods = grain
+			}
+			add_next_institution_embracement = 10
+		}
 	}
 	FRY_mission_4_3 = {
 		icon = mission_build_up_to_force_limit
-		position = 8
+		position = 9
 		required_missions = { FRY_mission_4_2 }
 		trigger = { }
 		effect = { }
 	}
 	FRY_mission_4_4 = {
 		icon = mission_build_up_to_force_limit
-		position = 9
+		position = 10
 		required_missions = { FRY_mission_4_3 }
 		trigger = { }
 		effect = { }
 	}
 	FRY_mission_4_5 = {
 		icon = mission_build_up_to_force_limit
-		position = 10
+		position = 11
 		required_missions = { FRY_mission_4_4 }
 		trigger = { }
 		effect = { }
 	}
 }
 
-FRY_series_5 = {
+FRY_mission_5 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -278,29 +516,87 @@ FRY_series_5 = {
 
 	FRY_mission_5_1 = {
 		icon = mission_build_up_to_force_limit
-		position = 7
+		position = 8
+		required_missions = { FRY_mission_4_1 }
+		trigger = {
+			army_professionalism = 0.10
+		}
+		effect = {
+			change_heir_mil = 1
+		}
+	}
+	FRY_mission_5_2 = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { FRY_mission_5_1 }
+		trigger = {
+			development_in_provinces = {
+			value = 65
+			region = windsweaps
+			}
+		}
+		effect = {
+			change_heir_mil = 1
+			change_heir_adm = 1
+		}
+	}
+	FRY_mission_5_3 = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { FRY_mission_5_2 }
+		trigger = {
+			army_professionalism = 0.25
+		}
+		effect = {
+			change_heir_mil = 1
+			change_heir_dip = 1
+			add_heir_personality = industrious_personality
+		}
+	}
+	FRY_mission_5_4 = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { FRY_mission_5_3 }
+		trigger = { }
+		effect = {
+			kill_ruler = yes
+		}
+	}
+}
+
+FRY_mission_6 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		always = yes
+	}
+
+	FRY_mission_6_1 = {
+		icon = mission_build_up_to_force_limit
+		position = 8
 		required_missions = { FRY_mission_4_1 }
 		trigger = { }
 		effect = { }
 	}
-	FRY_mission_5_2 = {
-		icon = mission_build_up_to_force_limit
-		position = 8
-		required_missions = { FRY_mission_5_1 }
-		trigger = { }
-		effect = { }
-	}
-	FRY_mission_5_3 = {
+	FRY_mission_6_2 = {
 		icon = mission_build_up_to_force_limit
 		position = 9
-		required_missions = { FRY_mission_5_2 }
+		required_missions = { FRY_mission_6_1 }
 		trigger = { }
 		effect = { }
 	}
-	FRY_mission_5_4 = {
+	FRY_mission_6_3 = {
 		icon = mission_build_up_to_force_limit
 		position = 10
-		required_missions = { FRY_mission_5_3 }
+		required_missions = { FRY_mission_6_2 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_6_4 = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { FRY_mission_6_3 }
 		trigger = { }
 		effect = { }
 	}

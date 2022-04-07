@@ -1,22 +1,24 @@
 l_english:
 
  #---------------------------------------------------------
- # 1
+ # Fry Mission 1
  #---------------------------------------------------------
 
- FRY_mission_1_1_title: "I Dream Of Starlight"
+ FRY_mission_1_1_title: "Fry Mission 1 1"
  FRY_mission_1_1_desc: ""
- FRY_mission_1_2_title: "Take Grania"
+ FRY_mission_1_2_title: "Fry Mission 1 2"
  FRY_mission_1_2_desc: ""
- FRY_mission_1_3_title: "Expand Further"
+ FRY_mission_1_3_title: "Fry Mission 1 3"
  FRY_mission_1_3_desc: ""
- FRY_mission_1_4_title: "Push Those Boundaries"
+ FRY_mission_1_4_title: "Fry Mission 1 4"
  FRY_mission_1_4_desc: ""
- FRY_mission_1_5_title: "Yoink The Island"
+ FRY_mission_1_5_title: "Fry Mission 1 5"
  FRY_mission_1_5_desc: ""
+ FRY_mission_1_6_title: "Fry Mission 1 6"
+ FRY_mission_1_6_desc: ""
 
  #---------------------------------------------------------
- # 2
+ # Fry Mission 2
  #---------------------------------------------------------
 
  FRY_mission_2_1_title: "Fry Mission 2 1"
@@ -27,9 +29,11 @@ l_english:
  FRY_mission_2_3_desc: ""
  FRY_mission_2_4_title: "Fry Mission 2 4"
  FRY_mission_2_4_desc: ""
+ FRY_mission_2_5_title: "Fry Mission 2 5"
+ FRY_mission_2_5_desc: ""
 
  #---------------------------------------------------------
- # 3
+ # Fry Mission 3
  #---------------------------------------------------------
 
  FRY_mission_3_1_title: "Fry Mission 3 1"
@@ -40,9 +44,11 @@ l_english:
  FRY_mission_3_3_desc: ""
  FRY_mission_3_4_title: "Fry Mission 3 4"
  FRY_mission_3_4_desc: ""
+ FRY_mission_3_5_title: "Fry Mission 3 5"
+ FRY_mission_3_5_desc: ""
 
  #---------------------------------------------------------
- # 4
+ # Fry Mission 4
  #---------------------------------------------------------
 
  FRY_mission_4_1_title: "Fry Mission 4 1"
@@ -57,7 +63,7 @@ l_english:
  FRY_mission_4_5_desc: ""
 
  #---------------------------------------------------------
- # 5
+ # Fry Mission 5
  #---------------------------------------------------------
 
  FRY_mission_5_1_title: "Fry Mission 5 1"
@@ -68,3 +74,16 @@ l_english:
  FRY_mission_5_3_desc: ""
  FRY_mission_5_4_title: "Fry Mission 5 4"
  FRY_mission_5_4_desc: ""
+
+ #---------------------------------------------------------
+ # Fry Mission 6
+ #---------------------------------------------------------
+
+ FRY_mission_6_1_title: "Fry Mission 6 1"
+ FRY_mission_6_1_desc: ""
+ FRY_mission_6_2_title: "Fry Mission 6 2"
+ FRY_mission_6_2_desc: ""
+ FRY_mission_6_3_title: "Fry Mission 6 3"
+ FRY_mission_6_3_desc: ""
+ FRY_mission_6_4_title: "Fry Mission 6 4"
+ FRY_mission_6_4_desc: ""
