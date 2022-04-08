@@ -78,10 +78,10 @@ iron_smithing_modifier = {
 fix_colonial_ai_modifier = {
 	potential = {
 		num_of_colonists = 1
-		is_ai = yes
+		ai = yes
 	}
 	trigger = {
 		NOT = {total_development = 50}
 	}
-	global_tax_income = 24
+	global_tax_income = 12
 }

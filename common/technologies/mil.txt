@@ -81,6 +81,7 @@ technology = {
 	
 	barracks = yes
 	enable = human_warriors #Humans
+	may_drill = yes
 }
 
 technology = {
