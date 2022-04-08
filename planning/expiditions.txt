@@ -25,7 +25,7 @@ Terinsa
 =Daltsland
 Nytlen
 Kelrau
-Oltos
+=Oltos
 =Redrun
 =Vrur
 =Delcarva

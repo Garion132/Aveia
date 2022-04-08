@@ -235,6 +235,7 @@ THL = "countries/Thilrana.txt"
 	VLN = "countries/Velnoi.txt"
 	QUA = "countries/Quanil.txt"
 	SRR = "countries/Serar.txt" 
+	OLT = "countries/Oltos.txt" 
 
 ## Eastern formables
 

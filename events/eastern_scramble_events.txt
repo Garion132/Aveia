@@ -133,6 +133,11 @@ country_event = {#ash and ice
 					country_event = {id = eastern_scramble.23 days = 188}
 				}
 			}
+			920={#orionrathetia exbitition
+				owner = {
+					country_event = {id = eastern_scramble.24 days = 480}
+				}
+			}
 			set_global_flag = EASTERN_SCRAMBLE
 		}
 	}
@@ -200,7 +205,222 @@ country_event = {#start of the CTC chain 988
 
 	option = {#ignore this
 		name = eastern_scramble.3.a
-		CTC_next_location_effect = yes
+		if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 10
+					}
+				}
+			}
+			3272={
+				cede_province = CTC
+				add_core = CTC
+				change_religion = tlaunorist
+				change_culture = indorran
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				if={
+					limit={
+						has_global_flag = CTC_sponsor_found
+					}
+					event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
+				}
+				else={
+					CTC={
+						#change_religion = tlaunorist
+						#change_primary_culture = omyse
+						#add_treasury = 300
+						define_ruler ={
+							name = "Coltoc"
+							dynasty = "Vilker"
+							age = 106
+							adm = 5
+							dip = 6
+							mil = 4
+							fixed = yes
+						}
+					}
+				}
+			}
+			HIR={add_treasury = 25}#pay the toll
+			3272={
+				subtract_variable={
+					which = CTC_funding_level
+					value = 1
+				}
+				while = {
+					limit = {
+						check_variable = {
+							which = CTC_funding_level
+							value = 1
+						}
+					}
+					CTC={add_treasury = 25}
+					subtract_variable={
+						which = CTC_funding_level
+						value = 1
+					}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 9
+					}
+				}
+			}
+			771={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 8
+					}
+				}
+			}
+			885={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 7
+					}
+				}
+			}
+			896={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 6
+					}
+				}
+			}
+			3905={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 5
+					}
+				}
+			}
+			3898={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 4
+					}
+				}
+			}
+			3913={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 3
+					}
+				}
+			}
+			760={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 2
+					}
+				}
+			}
+			80={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else={
+			53={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
 	}
 	option = {#support it
 		name = eastern_scramble.3.b
@@ -211,7 +431,222 @@ country_event = {#start of the CTC chain 988
 				value = 1
 			}
 		}
-		CTC_next_location_effect = yes
+		if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 10
+					}
+				}
+			}
+			3272={
+				cede_province = CTC
+				add_core = CTC
+				change_religion = tlaunorist
+				change_culture = indorran
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				if={
+					limit={
+						has_global_flag = CTC_sponsor_found
+					}
+					event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
+				}
+				else={
+					CTC={
+						#change_religion = tlaunorist
+						#change_primary_culture = omyse
+						#add_treasury = 300
+						define_ruler ={
+							name = "Coltoc"
+							dynasty = "Vilker"
+							age = 106
+							adm = 5
+							dip = 6
+							mil = 4
+							fixed = yes
+						}
+					}
+				}
+			}
+			HIR={add_treasury = 25}#pay the toll
+			3272={
+				subtract_variable={
+					which = CTC_funding_level
+					value = 1
+				}
+				while = {
+					limit = {
+						check_variable = {
+							which = CTC_funding_level
+							value = 1
+						}
+					}
+					CTC={add_treasury = 25}
+					subtract_variable={
+						which = CTC_funding_level
+						value = 1
+					}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 9
+					}
+				}
+			}
+			771={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 8
+					}
+				}
+			}
+			885={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 7
+					}
+				}
+			}
+			896={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 6
+					}
+				}
+			}
+			3905={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 5
+					}
+				}
+			}
+			3898={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 4
+					}
+				}
+			}
+			3913={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 3
+					}
+				}
+			}
+			760={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 2
+					}
+				}
+			}
+			80={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else={
+			53={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
 	}
 	option = {#embead a noble (tag switch)
 		name = eastern_scramble.3.c
@@ -224,7 +659,222 @@ country_event = {#start of the CTC chain 988
 		add_treasury = -50
 		ROOT={save_global_event_target_as = CTC_tag_switch_nation}
 		set_global_flag = CTC_sponsor_found
-		CTC_next_location_effect = yes
+		if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 10
+					}
+				}
+			}
+			3272={
+				cede_province = CTC
+				add_core = CTC
+				change_religion = tlaunorist
+				change_culture = indorran
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				if={
+					limit={
+						has_global_flag = CTC_sponsor_found
+					}
+					event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
+				}
+				else={
+					CTC={
+						#change_religion = tlaunorist
+						#change_primary_culture = omyse
+						#add_treasury = 300
+						define_ruler ={
+							name = "Coltoc"
+							dynasty = "Vilker"
+							age = 106
+							adm = 5
+							dip = 6
+							mil = 4
+							fixed = yes
+						}
+					}
+				}
+			}
+			HIR={add_treasury = 25}#pay the toll
+			3272={
+				subtract_variable={
+					which = CTC_funding_level
+					value = 1
+				}
+				while = {
+					limit = {
+						check_variable = {
+							which = CTC_funding_level
+							value = 1
+						}
+					}
+					CTC={add_treasury = 25}
+					subtract_variable={
+						which = CTC_funding_level
+						value = 1
+					}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 9
+					}
+				}
+			}
+			771={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 8
+					}
+				}
+			}
+			885={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 7
+					}
+				}
+			}
+			896={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 6
+					}
+				}
+			}
+			3905={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 5
+					}
+				}
+			}
+			3898={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 4
+					}
+				}
+			}
+			3913={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 3
+					}
+				}
+			}
+			760={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 2
+					}
+				}
+			}
+			80={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else={
+			53={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
 	}
 }
 
@@ -256,12 +906,442 @@ province_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,3
 
 	option = {#prevent them
 		name = eastern_scramble.4.a
-		CTC_next_location_effect = yes
+		if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 10
+					}
+				}
+			}
+			3272={
+				cede_province = CTC
+				add_core = CTC
+				change_religion = tlaunorist
+				change_culture = indorran
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				if={
+					limit={
+						has_global_flag = CTC_sponsor_found
+					}
+					event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
+				}
+				else={
+					CTC={
+						#change_religion = tlaunorist
+						#change_primary_culture = omyse
+						#add_treasury = 300
+						define_ruler ={
+							name = "Coltoc"
+							dynasty = "Vilker"
+							age = 106
+							adm = 5
+							dip = 6
+							mil = 4
+							fixed = yes
+						}
+					}
+				}
+			}
+			HIR={add_treasury = 25}#pay the toll
+			3272={
+				subtract_variable={
+					which = CTC_funding_level
+					value = 1
+				}
+				while = {
+					limit = {
+						check_variable = {
+							which = CTC_funding_level
+							value = 1
+						}
+					}
+					CTC={add_treasury = 25}
+					subtract_variable={
+						which = CTC_funding_level
+						value = 1
+					}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 9
+					}
+				}
+			}
+			771={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 8
+					}
+				}
+			}
+			885={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 7
+					}
+				}
+			}
+			896={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 6
+					}
+				}
+			}
+			3905={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 5
+					}
+				}
+			}
+			3898={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 4
+					}
+				}
+			}
+			3913={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 3
+					}
+				}
+			}
+			760={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 2
+					}
+				}
+			}
+			80={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else={
+			53={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
 		add_unrest = 5
 	}
 	option = {#ignore this
 		name = eastern_scramble.4.e
-		CTC_next_location_effect = yes
+		if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 10
+					}
+				}
+			}
+			3272={
+				cede_province = CTC
+				add_core = CTC
+				change_religion = tlaunorist
+				change_culture = indorran
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				if={
+					limit={
+						has_global_flag = CTC_sponsor_found
+					}
+					event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
+				}
+				else={
+					CTC={
+						#change_religion = tlaunorist
+						#change_primary_culture = omyse
+						#add_treasury = 300
+						define_ruler ={
+							name = "Coltoc"
+							dynasty = "Vilker"
+							age = 106
+							adm = 5
+							dip = 6
+							mil = 4
+							fixed = yes
+						}
+					}
+				}
+			}
+			HIR={add_treasury = 25}#pay the toll
+			3272={
+				subtract_variable={
+					which = CTC_funding_level
+					value = 1
+				}
+				while = {
+					limit = {
+						check_variable = {
+							which = CTC_funding_level
+							value = 1
+						}
+					}
+					CTC={add_treasury = 25}
+					subtract_variable={
+						which = CTC_funding_level
+						value = 1
+					}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 9
+					}
+				}
+			}
+			771={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 8
+					}
+				}
+			}
+			885={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 7
+					}
+				}
+			}
+			896={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 6
+					}
+				}
+			}
+			3905={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 5
+					}
+				}
+			}
+			3898={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 4
+					}
+				}
+			}
+			3913={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 3
+					}
+				}
+			}
+			760={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 2
+					}
+				}
+			}
+			80={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else={
+			53={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
 		3272={
 			change_variable = {
 				which = CTC_funding_level
@@ -278,7 +1358,222 @@ province_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,3
 				value = 1
 			}
 		}
-		CTC_next_location_effect = yes
+		if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 10
+					}
+				}
+			}
+			3272={
+				cede_province = CTC
+				add_core = CTC
+				change_religion = tlaunorist
+				change_culture = indorran
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				if={
+					limit={
+						has_global_flag = CTC_sponsor_found
+					}
+					event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
+				}
+				else={
+					CTC={
+						#change_religion = tlaunorist
+						#change_primary_culture = omyse
+						#add_treasury = 300
+						define_ruler ={
+							name = "Coltoc"
+							dynasty = "Vilker"
+							age = 106
+							adm = 5
+							dip = 6
+							mil = 4
+							fixed = yes
+						}
+					}
+				}
+			}
+			HIR={add_treasury = 25}#pay the toll
+			3272={
+				subtract_variable={
+					which = CTC_funding_level
+					value = 1
+				}
+				while = {
+					limit = {
+						check_variable = {
+							which = CTC_funding_level
+							value = 1
+						}
+					}
+					CTC={add_treasury = 25}
+					subtract_variable={
+						which = CTC_funding_level
+						value = 1
+					}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 9
+					}
+				}
+			}
+			771={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 8
+					}
+				}
+			}
+			885={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 7
+					}
+				}
+			}
+			896={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 6
+					}
+				}
+			}
+			3905={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 5
+					}
+				}
+			}
+			3898={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 4
+					}
+				}
+			}
+			3913={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 3
+					}
+				}
+			}
+			760={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 2
+					}
+				}
+			}
+			80={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else={
+			53={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
 		add_treasury = -25
 	}
 	option = {#embead a noble (tag switch)
@@ -294,7 +1589,222 @@ province_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,3
 				value = 2
 			}
 		}
-		CTC_next_location_effect = yes
+		if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 10
+					}
+				}
+			}
+			3272={
+				cede_province = CTC
+				add_core = CTC
+				change_religion = tlaunorist
+				change_culture = indorran
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				if={
+					limit={
+						has_global_flag = CTC_sponsor_found
+					}
+					event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
+				}
+				else={
+					CTC={
+						#change_religion = tlaunorist
+						#change_primary_culture = omyse
+						#add_treasury = 300
+						define_ruler ={
+							name = "Coltoc"
+							dynasty = "Vilker"
+							age = 106
+							adm = 5
+							dip = 6
+							mil = 4
+							fixed = yes
+						}
+					}
+				}
+			}
+			HIR={add_treasury = 25}#pay the toll
+			3272={
+				subtract_variable={
+					which = CTC_funding_level
+					value = 1
+				}
+				while = {
+					limit = {
+						check_variable = {
+							which = CTC_funding_level
+							value = 1
+						}
+					}
+					CTC={add_treasury = 25}
+					subtract_variable={
+						which = CTC_funding_level
+						value = 1
+					}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 9
+					}
+				}
+			}
+			771={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 8
+					}
+				}
+			}
+			885={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 7
+					}
+				}
+			}
+			896={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 6
+					}
+				}
+			}
+			3905={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 5
+					}
+				}
+			}
+			3898={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 4
+					}
+				}
+			}
+			3913={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 3
+					}
+				}
+			}
+			760={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
+		else_if={
+			limit={
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 2
+					}
+				}
+			}
+			80={
+				province_event = {
+					id = eastern_scramble.4
+					days = 3
+				}
+			}
+		}
+		else={
+			53={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
+		}
 		add_treasury = -50
 		set_global_flag = CTC_sponsor_found
 		save_global_event_target_as = CTC_tag_switch_nation
@@ -1404,6 +2914,67 @@ country_event = {#Serar
 	}
 	option = {
 		name = eastern_scramble.23.b
+		switch_tag = SRR
+	}
+}
+country_event = {#Oltos
+	id = eastern_scramble.24
+	title = eastern_scramble.24.t
+	desc = eastern_scramble.24.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			4535={
+				cede_province = OLT
+				add_core = OLT
+				change_religion = orionrahetia
+				change_culture = etailian
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			OLT={
+				add_treasury = 50
+				define_ruler ={
+					adm = 1
+					dip = 2
+					mil = 1
+				}
+				hidden_effect={
+					country_event={id = eastern_scramble.22}
+				}
+			}
+			HIR={add_treasury = 25}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.24.a
+
+	}
+	option = {
+		name = eastern_scramble.24.b
 		switch_tag = SRR
 	}
 }

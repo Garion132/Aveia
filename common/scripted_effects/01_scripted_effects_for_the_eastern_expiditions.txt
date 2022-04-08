@@ -1,156 +1,221 @@
 #Scripted effects relating to the east.
 
 CTC_next_location_effect = {
-	3272={
+	
 		if={
 			limit={
-				check_variable = {
-					which = CTC_funding_progress
-					value = 10
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 10
+					}
 				}
 			}
-			cede_province = CTC
-			add_core = CTC
-			change_religion = tlaunorist
-			change_culture = indorran
-			add_institution_embracement = {
-				which = organized_state
-				value = 100
-			}
-			add_institution_embracement = {
-				which = bronze_working
-				value = 100
-			}
-			add_institution_embracement = {
-				which = crop_rotation
-				value = 100
-			}
-			add_institution_embracement = {
-				which = iron_working
-				value = 100
-			}
-			add_institution_embracement = {
-				which = illuminare
-				value = 100
-			}
-			if={
-				limit={
-					has_global_flag = CTC_sponsor_found
+			3272={
+				cede_province = CTC
+				add_core = CTC
+				change_religion = tlaunorist
+				change_culture = indorran
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
 				}
-				event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
-			}
-			else={
-				CTC={
-					#change_religion = tlaunorist
-					#change_primary_culture = omyse
-					#add_treasury = 300
-					define_ruler ={
-						name = "Coltoc"
-						dynasty = "Vilker"
-						age = 106
-						adm = 5
-						dip = 6
-						mil = 4
-						fixed = yes
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				if={
+					limit={
+						has_global_flag = CTC_sponsor_found
+					}
+					event_target:CTC_tag_switch_nation = {country_event = {id = eastern_scramble.5}}
+				}
+				else={
+					CTC={
+						#change_religion = tlaunorist
+						#change_primary_culture = omyse
+						#add_treasury = 300
+						define_ruler ={
+							name = "Coltoc"
+							dynasty = "Vilker"
+							age = 106
+							adm = 5
+							dip = 6
+							mil = 4
+							fixed = yes
+						}
 					}
 				}
 			}
 			HIR={add_treasury = 25}#pay the toll
-			subtract_variable={
-				which = CTC_funding_level
-				value = 1
-			}
-			while = {
-				limit = {
-					check_variable = {
-						which = CTC_funding_level
-						value = 1
-					}
-				}
-				CTC={add_treasury = 25}
+			3272={
 				subtract_variable={
 					which = CTC_funding_level
 					value = 1
 				}
+				while = {
+					limit = {
+						check_variable = {
+							which = CTC_funding_level
+							value = 1
+						}
+					}
+					CTC={add_treasury = 25}
+					subtract_variable={
+						which = CTC_funding_level
+						value = 1
+					}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
 			}
-			add_base_tax = 1
-			add_base_manpower = 1
-			
 		}
 		else_if={
 			limit={
-				check_variable = {
-					which = CTC_funding_progress
-					value = 9
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 9
+					}
 				}
 			}
-			771={province_event = {id = eastern_scramble.4 days = 2}}
+			771={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
 		}
 		else_if={
 			limit={
-				check_variable = {
-					which = CTC_funding_progress
-					value = 8
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 8
+					}
 				}
 			}
-			885={province_event = {id = eastern_scramble.4 days = 2}}
+			885={
+				province_event = {
+					id = eastern_scramble.25
+					days = 3
+				}
+			}
 		}
 		else_if={
 			limit={
-				check_variable = {
-					which = CTC_funding_progress
-					value = 7
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 7
+					}
 				}
 			}
-			896={province_event = {id = eastern_scramble.4 days = 2}}
+			896={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
 		}
 		else_if={
 			limit={
-				check_variable = {
-					which = CTC_funding_progress
-					value = 6
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 6
+					}
 				}
 			}
-			3905={province_event = {id = eastern_scramble.4 days = 2}}
+			3905={
+				province_event = {
+					id = eastern_scramble.25
+					days = 3
+				}
+			}
 		}
 		else_if={
 			limit={
-				check_variable = {
-					which = CTC_funding_progress
-					value = 5
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 5
+					}
 				}
 			}
-			3898={province_event = {id = eastern_scramble.4 days = 2}}
+			3898={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
 		}
 		else_if={
 			limit={
-				check_variable = {
-					which = CTC_funding_progress
-					value = 4
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 4
+					}
 				}
 			}
-			3913={province_event = {id = eastern_scramble.4 days = 2}}
+			3913={
+				province_event = {
+					id = eastern_scramble.25
+					days = 3
+				}
+			}
 		}
 		else_if={
 			limit={
-				check_variable = {
-					which = CTC_funding_progress
-					value = 3
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 3
+					}
 				}
 			}
-			760={province_event = {id = eastern_scramble.4 days = 2}}
+			760={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
 		}
 		else_if={
 			limit={
-				check_variable = {
-					which = CTC_funding_progress
-					value = 2
+				3272={
+					check_variable = {
+						which = CTC_funding_progress
+						value = 2
+					}
 				}
 			}
-			80={province_event = {id = eastern_scramble.4 days = 2}}
+			80={
+				province_event = {
+					id = eastern_scramble.25
+					days = 3
+				}
+			}
 		}
 		else={
-			53={province_event = {id = eastern_scramble.4 days = 2}}
+			53={
+				province_event = {
+					id = eastern_scramble.4 
+					days = 3
+				}
+			}
 		}
-	}
 }

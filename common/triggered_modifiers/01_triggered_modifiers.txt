@@ -74,3 +74,14 @@ iron_smithing_modifier = {
 	}
 	technology_cost = -0.5
 }
+
+fix_colonial_ai_modifier = {
+	potential = {
+		num_of_colonists = 1
+		is_ai = yes
+	}
+	trigger = {
+		NOT = {total_development = 50}
+	}
+	global_tax_income = 24
+}
