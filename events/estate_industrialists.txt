@@ -1,0 +1,32 @@
+###########################################################
+# Events for the Industrialists Estate
+#
+# written by Strat
+###########################################################
+
+namespace = industrialists_estate_events
+
+#Emergence of the Industrialist Class
+country_event = {
+	id = industrialists_estate_events.0
+	title = industrialists_estate_events.0.t
+	desc = industrialists_estate_events.0.d
+	picture = BURGHER_ESTATE_eventPicture
+	
+	trigger = {
+		NOT = { has_country_flag = industrialists_active }
+		OR = {
+			industrial_ideas = 2
+			capitalist_ideas = 7
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = industrialists_estate_events.0.a #Interesting
+		set_country_flag = industrialists_active
+	}
+}

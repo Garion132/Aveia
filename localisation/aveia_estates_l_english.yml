@@ -1,4 +1,5 @@
 ﻿l_english:
+ #Rauthyr Estates
  estate_house_etailia:0 "House Etailia"
  estate_house_etailia_ownership:0 "House Etailia's Land Ownership"
  etailia_pretender_rebels_name:0 "Etailia Pretender Rebels"
@@ -22,6 +23,7 @@
  EST_ETA_THRONE_PU:0 "The Emperor is under a Foreign House: "
  EST_ETA_UNNOBLE_THRONE:0 "Unnoble Emperor: "
  EST_ETA_IND_DRA:0 "House is Independant: "
+
  rauthyr_estate_events.1.a:0 "Leave them be"
  rauthyr_estate_events.1.b:0 "Force them to accept imperial authority"
  estate_draumi_grant_principlaity_rights:0 "Grand Draumyuer Principlaity rights"
@@ -32,3 +34,17 @@
  rauthyr_estate_events.7.c:0 "The Empire needs a Administor"
  rauthyr_estate_events.7.f:0 "The Empire needs a Diplomat"
  rauthyr_estate_events.7.e:0 "The Empire needs a Military Leader"
+
+ #Industrialists
+ estate_industrialists:0 "Industrialists"
+ estate_industrialists_ownership:0 "Industrialists' Land Ownership"
+ estate_industrialists_land_rights:0 "Industrialists' Land Rights"
+ industrialists_loyalty_modifier:0 "Industrialists Loyalty Equilibrium"
+ industrialists_influence_modifier:0 "Industrialists Influence"
+ EST_VAL_LOW_PRODUCTION_INCOME:0 "Low Production Income"
+ EST_VAL_HIGH_PRODUCTION_INCOME:0 "High Production Income"
+ EST_VAL_VERY_HIGH_PRODUCTION_INCOME:0 "Very High Production Income"
+
+ industrialists_estate_events.0.t:0 "Emergence of the Industrialist Class"
+ industrialists_estate_events.0.d:0 "Recent economic growth and innovation has lead to the growth of a new class of influential class of people: Industrialists. These people coordinate growing centers of manufacturing in large corporations and conglomerates that have the capability to affect national policy.\n\nWhile they provide us excellent benefits, their grip on political power may prove to be too great as our nation marches towards complete industrialization."
+ industrialists_estate_events.0.a:0 "Interesting"

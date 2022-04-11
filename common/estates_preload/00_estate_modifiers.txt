@@ -120,6 +120,24 @@ estate_burghers = {
 	}
 }
 
+estate_industrialists = {
+	modifier_definition = {
+		type = loyalty
+		key = industrialists_loyalty_modifier
+		trigger = {
+			has_estate = estate_industrialists
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = industrialists_influence_modifier
+		trigger = {
+			has_estate = estate_industrialists
+		}
+	}
+}
+
 estate_vaisyas = {
 	modifier_definition = {
 		type = loyalty
