@@ -569,7 +569,7 @@ FRY_mission_6 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = yes
+		tag = FRY
 	}
 
 	FRY_mission_6_1 = {
