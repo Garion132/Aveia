@@ -1,0 +1,11 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+# Construction Event Stuff
+	city_construction_modifier = {
+		local_tax_modifier = -0.1
+		local_state_maintenance_modifier = 1
+	}
+
+# Population System (Todo)

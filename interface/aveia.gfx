@@ -166,6 +166,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_city_construction"
+		texturefile = "gfx//interface//buildings//city_construction.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
 		name = "GFX_banner_left_5S"
 		texturefile = "gfx//interface//banner_left_5s.dds"
 	}

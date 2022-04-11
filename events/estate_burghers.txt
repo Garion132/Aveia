@@ -1494,10 +1494,51 @@ country_event = {
 					influence = 60
 				}
 			}
+			modifier = {
+				factor = 0
+				full_idea_group = capitalist_ideas
+			}
 		}
 		add_estate_loyalty = {
 			estate = estate_burghers
 			loyalty = -15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_burghers
+			influence = -10
+			desc = EST_VAL_BAD_FORTUNES
+			duration = 5475
+		}
+	}
+	option = { #Additional Option 
+		name = burghers_estate_events.12.c #And what should we do about it?
+		highlight = yes
+		trigger = {
+			full_idea_group = capitalist_ideas
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_burghers
+						loyalty = 35
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_burghers
+					influence = 60
+				}
+			}
+		}
+
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = -5
 		}
 		add_estate_influence_modifier = {
 			estate = estate_burghers
@@ -1652,7 +1693,21 @@ country_event = {
 		add_years_of_income = -0.25
 		every_owned_province = {
 			limit = { has_province_flag = urbanisation }
-			add_base_tax = 1
+			if = {
+				limit = {
+					ROOT = { full_idea_group = engineering_ideas }
+				}
+				add_base_tax = 2
+			}
+			else = {
+				add_base_tax = 1
+			}
+			if = {
+				limit = {
+					ROOT = { full_idea_group = industrial_ideas }
+				}
+				add_base_production = 1
+			}
 			clr_province_flag = urbanisation
 		}
 		add_estate_influence_modifier = {
@@ -1747,6 +1802,11 @@ country_event = {
 		name = burghers_estate_events.14.a #
 		ai_chance = {
 			factor = 25
+			modifier = {
+				factor = 0
+				full_idea_group = industrial_ideas
+				full_idea_group = capitalist_ideas
+			}
 		}
 		add_mercantilism = -3
 		add_estate_influence_modifier = {
@@ -1779,6 +1839,25 @@ country_event = {
 			desc = EST_VAL_REFUSED_CHANGE_IN_TRADE_POLICY
 			influence = -5
 			duration = 5475
+		}
+	}
+	option = { #Additional option if you have industrial & capitalist ideas
+		name = burghers_estate_events.14.c #
+		highlight = yes
+		trigger = {
+			full_idea_group = industrial_ideas
+			full_idea_group = capitalist_ideas
+		}
+		add_mercantilism = 3
+		add_years_of_income = 0.25
+		add_estate_influence_modifier = {
+			estate = estate_burghers
+			desc = EST_VAL_CHANGE_IN_TRADE_POLICY
+			influence = 10
+			duration = 5475
+		}
+		ai_chance = {
+			factor = 100
 		}
 	}
 }

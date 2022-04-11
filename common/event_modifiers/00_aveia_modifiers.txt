@@ -106,7 +106,7 @@ scramble_for_elteria_colony = { #For colonies
 elteria_colonial_office = {
 	global_tax_income = -6
 	global_colonial_growth = 10
-	local_colonist_placement_chance = 0.10
+	colonist_placement_chance = 0.10
 }
 
 tinflation = {
@@ -122,6 +122,12 @@ divine_spark = {
 }
 philosophers_school = {
 	technology_cost = -0.05
+}
+
+aqueduct = {
+	local_prosperity_growth = 0.1
+	local_development_cost = -0.05
+	local_tax_modifier = 0.05
 }
 
 #Important Locations

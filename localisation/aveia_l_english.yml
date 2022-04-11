@@ -172,6 +172,9 @@
  building_fort_14th:0 "Fortification"
  building_fort_14th_desc:0 ""
  UNORGANIZED_BUILDINGS:0 "Unorganized"
+
+ building_city_construction:0 "City Construction"
+ building_city_construction_desc:0 "The local city is conducting a large construction program in this province.\n\n§RDo not cancel this building's construction. Otherwise, the construction modifier will remain until it times out.§!"
  
  #Price Changes
  RAIN_OF_ASH:0 "Eruption of the Orbury Supervolcano"
@@ -213,6 +216,8 @@
 
  aragos_nation_title:0 "Form Aragos"
  aragos_nation_desc:0 "The spiders have been united!"
+
+ no_building_construction_tt:0 "Is not currently constructing a building."
 
  #Government
  mannish_tribal:0 "Donamenz Tribe"

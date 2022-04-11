@@ -140,4 +140,23 @@
    ideagroups.2004.a:0 "He will be useful in our court"
    ideagroups.2004.b:0 "An endowment for a school should suffice"
    ideagroups.2004.c:0 "Tell him off"
+
+  #Engineering Ideas
+   ideagroups.2100.t:0 "A Capital Aqueduct"
+   ideagroups.2100.d:0 "A recent architect has come forward to propose the construction of an aqueduct to our capital. Said aqueduct would carry vital water to the bustling city and allow it to grow further more easily."
+   ideagroups.2100.a:0 "Seems like something to invest in"
+   ideagroups.2100.b:0 "Perhaps Not"
+
+   ideagroups.2101.t:0 "City Sponsors Construction Program"
+   ideagroups.2101.d:0 "Todo"
+   ideagroups.2101.a:0 "An Excellent Initiative"
+   city_construction_1_tt:0 "Lose §R50.00§! Ducats\n§YCity Construction§! begins, lasting §Y6§! Months."
+   ideagroups.2101.b:0 "Let the city handle it"
+   city_construction_2_tt:0 "§YCity Construction§! begins, lasting §Y24§! Months."
+   ideagroups.2101.c:0 "It's a waste of money"
+   city_construction_tt:0 "Adds §Y1§! Base Tax, §Y1§! Base Production, or §Y1§! Base Manpower when completed\n"
+  
+  #Additional Event Options
+  burghers_estate_events.12.c:0 "And what should we do about it?"
+   burghers_estate_events.14.c:0 "Reduce Regulations but Raise Tariffs!"
  

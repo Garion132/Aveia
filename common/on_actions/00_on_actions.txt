@@ -1747,6 +1747,10 @@ on_five_year_pulse = {
 		100 = ideagroups.2003
 		100 = ideagroups.2004
 
+		# Engineering
+		100 = ideagroups.2100
+		100 = ideagroups.2101
+
 		1000 = 0
 	}
 
