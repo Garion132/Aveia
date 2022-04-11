@@ -92,4 +92,11 @@
  philosophers_school:0 "Philosophers School"
  desc_philosophers_school:0 "A recent street-philosopher has found himself endowed with money to start a school."
 
+ aqueduct:0 "Aqueduct"
+ aqueduct_desc:0 "An Aqueduct has been built from a nearby mountain to this city."
+
+ #System
+ city_construction_modifier:0 "City Construction"
+ desc_city_construction_modifier:0 "The local city is conducting a large construction program in this province."
+
  

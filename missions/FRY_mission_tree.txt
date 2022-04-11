@@ -576,15 +576,27 @@ FRY_mission_6 = {
 		icon = mission_build_up_to_force_limit
 		position = 8
 		required_missions = { FRY_mission_4_1 }
-		trigger = { }
-		effect = { }
+		trigger = {
+			army_size_percentage = 0.75
+			mil_power = 200
+		}
+		effect = {
+			add_army_tradition = 10
+			add_army_professionalism = 0.1
+			add_mil_power = -200
+		}
 	}
 	FRY_mission_6_2 = {
 		icon = mission_build_up_to_force_limit
 		position = 9
 		required_missions = { FRY_mission_6_1 }
-		trigger = { }
-		effect = { }
+		trigger = {
+			mil_power = 100
+		}
+		effect = {
+			add_yearly_manpower = 0.5
+			add_mil_power = -100
+		}
 	}
 	FRY_mission_6_3 = {
 		icon = mission_build_up_to_force_limit
@@ -597,6 +609,58 @@ FRY_mission_6 = {
 		icon = mission_build_up_to_force_limit
 		position = 11
 		required_missions = { FRY_mission_6_3 }
+		trigger = {
+			mil_power = 200
+			adm_power = 50
+		}
+		effect = {
+			create_general = {
+			tradition = 50
+			add_fire = 5
+			add_shock = 2
+			add_manuever = 4
+			add_siege = 4
+			culture = villwinder
+			}
+			add_mil_power = -200
+			add_adm_power = -50
+		}
+	}
+}
+
+FRY_mission_7 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRY
+	}
+
+	FRY_mission_7_1 = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { FRY_mission_6_1 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_7_2 = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { FRY_mission_7_1 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_7_3 = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { FRY_mission_7_2 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_7_4 = {
+		icon = mission_build_up_to_force_limit
+		position = 12
+		required_missions = { FRY_mission_7_3 }
 		trigger = { }
 		effect = { }
 	}

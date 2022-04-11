@@ -8114,6 +8114,174 @@ namespace = ideagroups
 #######################################
 # Engineering Ideas: 2100s
 #######################################
+
+	#A Capital Aqueduct
+		#Checks if Capital is in same region as province /w mountain
+	country_event = {
+		id = ideagroups.2100
+		title = ideagroups.2100.t
+		desc = ideagroups.2100.d
+		picture = CITY_DEVELOPMENT_eventPicture
+		
+		is_triggered_only = yes
+		
+		trigger = {
+			has_idea_group = engineering_ideas
+			capital_scope = {
+				NOT = { has_province_modifier = aqueduct }
+				development = 15
+			}
+			any_owned_province = {
+				has_terrain = mountain
+			}
+		}		
+		
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = { #Seems like something to invest in
+			name = ideagroups.2100.a
+
+			add_years_of_income = -0.3
+			capital_scope = {
+				add_base_tax = 1
+				add_province_modifier = {
+					name = "aqueduct"
+					duration = -1
+				}
+			}
+
+			ai_chance = {
+				factor = 100
+				modifier = {
+					factor = 0
+					years_of_income = 0.3
+				}
+			}
+		}
+
+		option = { #Perhaps not
+			name = ideagroups.2100.b
+
+			add_prestige = -5
+
+			ai_chance = {
+				factor = 10
+				modifier = {
+					factor = 0
+					years_of_income = 1
+				}
+			}
+		}
+	}
+	
+	#City Sponsors Construction Program
+	country_event = {
+		id = ideagroups.2101
+		title = ideagroups.2101.t
+		desc = ideagroups.2101.d
+		picture = CITY_DEVELOPMENT_eventPicture
+		
+		is_triggered_only = yes
+		
+		trigger = {
+			has_idea_group = engineering_ideas
+			any_owned_province = {
+				no_construction = yes
+				development = 12
+			}
+		}
+
+		immediate = {
+			random_owned_province = {
+				limit = {
+					no_construction = yes
+					development = 12
+				}
+				save_event_target_as = construction_province
+			}
+		}
+		
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = { #An Excellent Initiative
+			name = ideagroups.2101.a
+
+			event_target:construction_province = {
+				custom_tooltip = city_construction_1_tt
+				custom_tooltip = city_construction_tt
+				hidden_effect = { add_building_construction = { building = city_construction speed = 0.5 cost = 50 } }
+				add_province_modifier = {
+					name = "city_construction_modifier"
+					duration = 185
+				}
+			}
+
+			add_prestige = 5
+
+			ai_chance = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { treasury = 50 }
+				}
+				modifier = {
+					factor = 5
+					treasury = 100
+				}
+				modifier = {
+					factor = 2
+					treasury = 300
+				}
+			}
+		}
+
+		option = { #Let the city handle it
+			name = ideagroups.2101.b
+
+			event_target:construction_province = {
+				custom_tooltip = city_construction_2_tt
+				custom_tooltip = city_construction_tt
+				hidden_effect = { add_building_construction = { building = city_construction speed = 2 cost = 0 } }
+				add_province_modifier = {
+					name = "city_construction_modifier"
+					duration = 730
+				}
+			}
+
+			ai_chance = {
+				factor = 50
+				modifier = {
+					factor = 0
+					treasury = 1000
+				}
+			}
+		}
+
+		option = { #It's a waste of money
+			name = ideagroups.2101.c
+
+			add_prestige = -2
+
+			ai_chance = {
+				factor = 0
+			}
+		}
+	}
+
+	#Defensive Works in [Province]
+
+	#Granary Construction
+
+	#Faulty Practices
+
+	#Pontoon Bridges
+
+	#Engineer Corps
+
 #######################################
 # Bureaucratic Ideas: 2200s
 #######################################

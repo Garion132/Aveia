@@ -1534,3 +1534,45 @@ state_house = {
 	}
 }
 
+## EVENT BUILDINGS ##
+
+city_construction = { #When adding, make sure to add city_construction_modifier as well alongside it. I don't add it here for clarity for the player.
+	cost = 1
+	time = 12
+	
+	indestructible = yes
+	
+	build_trigger = {
+	}
+	
+	modifier = {
+	}
+	
+	on_built = {
+		hidden_effect = {
+			remove_building = city_construction
+			remove_province_modifier = city_construction_modifier
+			random_list = {
+				33 = {
+					add_base_tax = 1
+				}
+				33 = {
+					add_base_production = 1
+				}
+				33 = {
+					add_base_manpower = 1
+				}
+			}
+		}
+    }
+	
+	on_destroyed = {
+		hidden_effect = {
+			remove_province_modifier = city_construction_modifier 
+		}
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
