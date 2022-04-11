@@ -466,3 +466,45 @@ ARA_ideas = {
 	}
 
 }
+
+JAL_ideas = {
+	start = {
+		development_cost = -0.1
+		num_accepted_cultures = 1
+	}
+	
+	bonus = {
+		land_morale = 0.15
+	}
+	
+	trigger = {
+		tag = JAL
+	}
+	free = yes
+	
+	noble_houses = {
+		nobility_influence_modifier = 0.1
+		nobility_loyalty_modifier = 0.1
+		army_tradition_decay = -0.01
+		drill_decay_modifier = -0.25
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	manufacturing_center = {
+		build_cost = -0.1
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	liberty_heroes = {
+		free_leader_pool = 1
+	}
+}

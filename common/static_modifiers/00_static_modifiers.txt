@@ -238,11 +238,13 @@ no_adjacent_controlled = {
 
 provincial_tax_income = {
 	regiment_recruit_speed = -0.01
+	local_tax_modifier = 0.025
 }
 
 provincial_production_size = {
 	trade_goods_size = 0.2
 	ship_recruit_speed = -0.01
+	trade_goods_size_modifier = 0.025
 }
 
 knowledge_sharing = {
@@ -254,7 +256,9 @@ cardinals_spread_institution = {
 }
 
 manpower = {
-	garrison_growth = 0.01					#1% increase from manpower.
+	garrison_growth = 0.01	
+	local_manpower_modifier = 0.025
+	local_sailors_modifier = 0.025	#1% increase from manpower.
 }
 
 
