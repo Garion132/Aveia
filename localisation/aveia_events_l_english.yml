@@ -76,6 +76,11 @@
  prices.119.d:0 "During the height of the tin to silver transmutation craze, a skeptical alchemist by the name of Naler Taketal has found distinct impurities in the silver produced by tin. These impurities are easily distinguishable from anything else and can even be observed by the common person. This, coinciding with more recent skepticism of transmutations, has led to the outright rejection of impure coins minted by would-be alchemists. Experienced alchemists can still transmutate tin into silver with few impurities, not noticable to the naked eye, but given the rarity of such people, they have a negligible impact."
  prices.119.a:0 "Well, it was great while it lasted"
 
+ prices.120.t:0 "Irrigation"
+ prices.120.d:0 "It has been known that digging ditches to carry water from rivers inland can increase the amount of farmland and increase yields. However, recent developments for moving water up inclines has led to the explosion of crop yields and has allowed previously marginal lands to be developed into agricultural zones. While we are the first to exploit this new farming technique, others are following shortly behind."
+ prices.120.a:0 "Marginal Lands Rejoice!"
+ irrigation_dev_gain_tt:0 "Add §G1§! Development to all §YGrain§!, §YFruit§!, and §YWine§! Provinces\n"
+
  elteria_event.12.t:0 "Scramble for Elteria"
  elteria_event.12.d:0 "Elteria, long a land rife with rebel Fauns and dense Jungle, has a miracle herb in its densest forests: Ecriamin. This, along with new discoveries of silver deposits and great growing locations have led to a shocking realization amongst our merchants, our nobles, and our peasants alike: \n\nWhoever controls Elteria will control Aveia, for whoever controls Elteria controls the Ecriamin trade, and whoever controls the Ecriamin trade controls the health of kings."
  elteria_event.12.a:0 "Time for a Scramble"

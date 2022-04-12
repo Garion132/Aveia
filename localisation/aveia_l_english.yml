@@ -203,6 +203,7 @@
  TRANSMUTATION_IMPURITIES:0 "Impurities in Transmutations"
  COLLAPSE_OF_GULBA:0 "Collapse of Gulba"
  RESTART_OF_GULBAS_MINE:0 "Restart of the Gulbas Mine"
+ IRRIGATION:0 "Irrigation"
 
  #Decisons
  enter_scramble_for_elteria_title:0 "Enter the Scramble for Elteria"

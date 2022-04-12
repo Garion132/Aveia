@@ -1702,115 +1702,175 @@ country_event = {
 }
 
 #Irrigation (1378), +15% Grain, +20% Wine, +20% Fruit
+country_event = {
+	id = prices.120
+	title = prices.120.t
+	desc = prices.120.d
+	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = {
+		adm_tech = 12
+		OR = {
+			grain = 3
+			fruit = 3
+			wine = 3
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = { #Marginal Lands Rejoice!
+		name = prices.119.a
+		hidden_effect = {
+			every_province = {
+				limit = {
+					OR = {
+						trade_goods = grain
+						trade_goods = fruit
+						trade_goods = wine
+					}
+				}
+				add_base_production = 1
+			}
+		}
+		custom_tooltip = irrigation_dev_gain_tt
+		add_years_of_income = 0.5
+		change_price = {
+			trade_goods = grain
+			key = IRRIGATION
+			value = 0.15
+			duration = -1
+		}
+		change_price = {
+			trade_goods = wine
+			key = IRRIGATION
+			value = 0.2
+			duration = -1
+		}
+		change_price = {
+			trade_goods = fruit
+			key = IRRIGATION
+			value = 0.2
+			duration = -1
+		}
+	}
+}
 
-#Modern Crop Rotation (1690), +25% Grain
+#121: Modern Crop Rotation (1690), +25% Grain
 
-#Selective Breeding (1690), +35% Livestock, +35% Wool
+#122: Selective Breeding (1690), +35% Livestock, +35% Wool
 
-#Canning (1760s), +30% Fruit, +30% Vercroth Fruit, +20% Fish 
+#123: Canning (1760s), +30% Fruit, +30% Vercroth Fruit, +20% Fish 
 
-#Ice Boxes (1780s), +40% Fruit, +40% Vercroth Fruit, +25% Livestock, -25% Salt
+#124: Ice Boxes (1780s), +40% Fruit, +40% Vercroth Fruit, +25% Livestock, -25% Salt
 
-#Mechanized Agriculture (1820), -50% Grain, -50% Livestock, -25% Fish, -25% Fruit, -25% Vercroth Fruit, +20% Machinery
+#125: Mechanized Agriculture (1820), -50% Grain, -50% Livestock, -25% Fish, -25% Fruit, -25% Vercroth Fruit, +20% Machinery
 
-#Colonization of Elteria (1350), -25% Slaves, -25% Ecriamin, -25% Udezer Wood
+#126: Colonization of Elteria (1350), -25% Slaves, -25% Ecriamin, -25% Udezer Wood
 
-#Colonization of Julia (1700), +50% Slaves, -25% Guedina, -25% Ankon, -25% Vitaite
+#127: Colonization of Julia (1700), +50% Slaves, -25% Guedina, -25% Ankon, -25% Vitaite
 
-#Colonization of Kaltros (1600), +25% Slaves, ...
+#128: Colonization of Kaltros (1600), +25% Slaves, ...
 
-#Abolitionism (1703-1800), -75% Slaves
+#129: Abolitionism (1703-1800), -75% Slaves
 
-#Cork Bottle Stoppers (1661), +25% Wine, +15% Glass
+#130: Cork Bottle Stoppers (1661), +25% Wine, +15% Glass
 
-#New Draperies (1544), +20% Cloth, +20% Wool
+#131: New Draperies (1544), +20% Cloth, +20% Wool
 
-#Uniform Regulations (1664), +15% Cloth, +10% Wool, +25% Dyes
+#132: Uniform Regulations (1664), +15% Cloth, +10% Wool, +25% Dyes
 
-#Synthetic Dyes (1800), -40% Dyes
+#133: Synthetic Dyes (1800), -40% Dyes
 	#1856 OTL, creates a dyes province with more production 
 
-#Permanent Navies (1612), +50% Naval Supplies, +15% Glass, +10% Livestock
+#134: Permanent Navies (1612), +50% Naval Supplies, +15% Glass, +10% Livestock
 
-#Steel Ships (1625/1690/1755), -75% Naval Supplies, +50% Iron
+#135: Steel Ships (1625/1690/1755), -75% Naval Supplies, +50% Iron
 
-#Bronze Cannons (1521), +50% Copper
+#136: Bronze Cannons (1521), +50% Copper
 
-#Iron Cannons (1586), -35% Copper, +25% Iron
+#137: Iron Cannons (1586), -35% Copper, +25% Iron
 
-#Speltering (1573), +25% Copper
+#138: Speltering (1573), +25% Copper
 	#1657, discovered you can allow zinc and copper
 
-#Discovery of Hasqili (1450s), -25% Spirl
+#139: Discovery of Hasqili (1450s), -25% Spirl
 
-#Popularization of Spirl Fabrics (1635), +25% Spirl
+#140: Popularization of Spirl Fabrics (1635), +25% Spirl
 
-#Development of Veneering (1557), +50% Udezer Wood, +25% Kurrak
+#141: Development of Veneering (1557), +50% Udezer Wood, +25% Kurrak
 
-#Explosion of Early Modern Printing, +25% Paper
+#142: Explosion of Early Modern Printing, +25% Paper
 
-#Dunirr Presses, -50% Paper
+#143: Dunirr Presses, -50% Paper
 	#Same as the Dutch event
 
-#Administering an Empire, +25% Paper
+#144: Administering an Empire, +25% Paper
 
-#Lending Libraries and Book Clubs, +35% Paper
+#145: Lending Libraries and Book Clubs, +35% Paper
 
-#Faceting (1350), +25% Gems
+#146: Faceting (1350), +25% Gems
 
-#Forest Glass (1404), +25% Glass
+#147: Forest Glass (1404), +25% Glass
 	#Type of medieval glass made in Europe
 
-#Industrial Glass (1521), +10% Machinery, -25% Glass
+#148: Industrial Glass (1521), +10% Machinery, -25% Glass
 	#Brits started to industrialize the finishing process
 
-#Flint Glass & Lead Crystal (1635), -65% Glass
+#149: Flint Glass & Lead Crystal (1635), -65% Glass
 
-#Improvements in Lensmaking (1635), +25% Glass
+#150: Improvements in Lensmaking (1635), +25% Glass
 
-#Glass Roofs (1807), +30% Glass
+#151: Glass Roofs (1807), +30% Glass
 	# James Hartley introduced the Rolled Plate method in 1847. This allowed a ribbed finish and was often used for extensive glass roofs such as within railway stations.
 
-#Valei Khabaravor (1482), +50% Guedina
+#152: Valei Khabaravor (1482), +50% Guedina
 	# Dude who figures out the properties of Guedina & invents the steam pump
 	
-#Airships (1651), +100% Guedina, +100% Vitaite, +25% Naval Supplies, +20% Cloth
+#153: Airships (1651), +100% Guedina, +100% Vitaite, +25% Naval Supplies, +20% Cloth
 
-#Guedina-Powered Weapons (1560), +50% Guedina
+#154: Guedina-Powered Weapons (1560), +50% Guedina
 
-#Guedina Demand Peaks (1700), +75% Guedina (25 yrs), -50% Guedina, +30% Naval Supplies (25 yrs), +20% Coal
+#155: Guedina Demand Peaks (1700), +75% Guedina (25 yrs), -50% Guedina, +30% Naval Supplies (25 yrs), +20% Coal
 	#People realize there's other products
 
-#Aveia Runs out of Trees (1600s), +30% Coal, +20% Naval Supplies
+#156: Aveia Runs out of Trees (1600s), +30% Coal, +20% Naval Supplies
 	#All provinces in West Aveia that produce Naval supplies lose 50% output
 
-#Greater Availability of Coal (1750s), -30% Coal
+#157: Greater Availability of Coal (1750s), -30% Coal
 
-#Useage of Blastpowder (1742), -10% All Minerals, -50% Guedina
+#158: Useage of Blastpowder (1742), -10% All Minerals, -50% Guedina
 
-#Mechanized Mining (1820), -20% All Minerals, +15% Machinery
+#159: Mechanized Mining (1820), -20% All Minerals, +15% Machinery
 
-#Bessemer Process (1768), -50% Iron, +20% Coal
+#160: Bessemer Process (1768), -50% Iron, +20% Coal
 
-#Skyscrapers (1807), +25% Iron, +25% Glass, +25% Vitaite
+#161: Skyscrapers (1807), +25% Iron, +25% Glass, +25% Vitaite
 
-#Growth of Advertising (1742), +25% Manufactured Goods, +25% Ceramics, +25% Cloth
+#162: Growth of Advertising (1742), +25% Manufactured Goods, +25% Ceramics, +25% Cloth
 
-#New-Age Hunting Practices (1560), -25% Pademi Fur
+#163: New-Age Hunting Practices (1560), -25% Pademi Fur
 
-#Sunspot Lamps (1404), +50% Sunspot
+#164: Sunspot Lamps (1404), +50% Sunspot
 
-#Whaling (1677), -50% Sunspot, +10% Glass
+#165: Whaling (1677), -50% Sunspot, +10% Glass
 
-#Marble & Bronze Sculptures (1400), +25% Marble, +10% Copper, +10% Tin
+#166: Marble & Bronze Sculptures (1400), +25% Marble, +10% Copper, +10% Tin
 
-#Golden Age of the Spice Trade (1600s), +50% Spices (50 yrs)
+#167: Golden Age of the Spice Trade (1600s), +50% Spices (50 yrs)
 
-#Expansion of Yhenil Bridge (??), +25% Marble, +10% Naval Supplies, +10% Glass (10 yrs)
+#168: Expansion of Yhenil Bridge (??), +25% Marble, +10% Naval Supplies, +10% Glass (10 yrs)
 
 #Collapse of Gulba (Not in this file, 1370s), +50% Plaulum
 
-#A New Source of Plaulum Found (1600s), -20% Plaulum
+#169: A New Source of Plaulum Found (1600s), -20% Plaulum
+
+#170: Reinforced Concrete (1807), +10% Iron
 
 ## Coffee Boom
 #country_event = {
