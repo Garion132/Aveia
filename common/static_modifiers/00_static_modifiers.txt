@@ -105,6 +105,7 @@ city = {
 	local_sailors_modifier = 0.25
 	garrison_growth = 0.05
 	allowed_num_of_manufactories = 1
+	trade_goods_size_modifier = -0.25
 }
 
 port = {
@@ -134,6 +135,8 @@ seat_in_parliament = {
 }
 
 non_coastal = {
+	local_colonial_growth = -20
+	local_colonist_placement_chance = -0.1
 }
 
 coastal_sea = {
@@ -331,40 +334,40 @@ native_aggressiveness = {
 }
 
 core = {
-	local_tax_modifier = 0.25				#90% more in a core
-	local_manpower_modifier = 0.25			#75% more in a core
-	local_sailors_modifier = 0.25
-	trade_goods_size_modifier = -0.5
+	local_tax_modifier = 0.5				#90% more in a core
+	local_manpower_modifier = 0.5			#75% more in a core
+	local_sailors_modifier = 0.5
+	trade_goods_size_modifier = 0.1
 }
 
 non_core = {
 	local_missionary_strength = -0.02
-	trade_goods_size_modifier = -0.5
+	local_tax_modifier = -0.1
+	trade_goods_size_modifier = -0.15
 }
 
 colonial_core = {
-	local_tax_modifier = 0.75				#90% more in a core
-	local_manpower_modifier = 0.75			#75% more in a core
-	local_sailors_modifier = 0.75
+	local_tax_modifier = 0.5				#90% more in a core
+	local_manpower_modifier = 0.5			#75% more in a core
+	local_sailors_modifier = 0.5
 	local_missionary_strength = -0.02
 	min_local_autonomy = 50
 	local_governing_cost = -0.5
 }
 territory_core = {
-	local_tax_modifier = 0.25				#90% more in a core
-	local_manpower_modifier = 0.25			#75% more in a core
-	local_sailors_modifier = 0.25
+	local_tax_modifier = 0.5				#90% more in a core
+	local_manpower_modifier = 0.5			#75% more in a core
+	local_sailors_modifier = 0.5
 	local_missionary_strength = -0.02
 	min_local_autonomy = 90
 	local_governing_cost = -0.75
-	trade_goods_size_modifier = -0.5
 }
 
 territory_non_core = {
 	local_missionary_strength = -0.02
 	min_local_autonomy = 90
 	local_governing_cost = -0.75
-	trade_goods_size_modifier = -0.75
+	trade_goods_size_modifier = -0.25
 }
 
 march_bonus = {

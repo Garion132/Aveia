@@ -18,6 +18,17 @@
  academy_of_the_cradle_desc:0 ""
  airship_trade:0 "Airship Trade"
  airship_trade_desc:0 ""
+ 
+ ELE_ideas:0 "Elesilon Ideas"
+ ELE_ideas_start:0 "Elesilon Traditions"
+ ELE_ideas_bonus:0 "Elesilon Ambitions"
+ gateway_to_the_world:0 "Gateway to the World"
+ nelsedar_guard:0 "Nelsedar Guard"
+ bridgedocks:0 "Bridgedocks"
+ alei_leaf_financial_exchange_district:0 "Alei-Leaf Financial Exchange District"
+ merchants_of_yhenil:0 "Merchants of Yhenil"
+ acts_of_protection:0 "Acts of Protection"
+ fathers_of_global_trade:0 "Fathers of Global Trade"
 
  #Generics
  has_early_idea_tooltip:0 "Has a Bronze-Age Idea Group"
