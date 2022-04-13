@@ -9,9 +9,12 @@ estate_industrialists_land_rights = {
 	on_granted = {
 	}
 	penalties = {
+		yearly_corruption = 0.05
 	}
 	benefits = {
 		governing_capacity = 100
+		build_cost = -0.1
+		build_time = -0.1
 	}
 	ai_will_do = {
 		factor = 5
@@ -76,7 +79,7 @@ estate_industrialists_corporatocracy = {
 	land_share = 5
 	max_absolutism = -10
 	loyalty = -0.05
-	influence = 0.10
+	influence = 0.15
 	can_select = {
 		NOT = { has_estate_privilege = estate_industrialists_worker_rights }
 	}
