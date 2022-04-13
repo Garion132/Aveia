@@ -1,8 +1,4 @@
 #Rauthyr
-latent_trade_goods = {
-	iron
-}
-
 add_core = RAU
 add_core = LAU
 owner = RAU

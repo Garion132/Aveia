@@ -272,7 +272,7 @@ country_event = {
 			}
 		}
 
-		add_years_of_income = -0.5
+		add_years_of_income = -0.25
 		add_corruption = 5
 		
 		add_country_modifier = {

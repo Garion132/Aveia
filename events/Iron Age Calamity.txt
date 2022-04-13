@@ -101,10 +101,8 @@ country_event = {
 					OR = {
 						technology_group = northern_men_group
 						technology_group = free_fauns_group
-						NOT = {
-							capital_scope = {
-								continent = elteria
-							}
+						capital_scope = {
+							continent = elteria
 						}
 					}
 				}
