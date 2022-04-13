@@ -38,12 +38,19 @@
  #Industrialists
  estate_industrialists:0 "Industrialists"
  estate_industrialists_ownership:0 "Industrialists' Land Ownership"
- estate_industrialists_land_rights:0 "Industrialists' Land Rights"
  industrialists_loyalty_modifier:0 "Industrialists Loyalty Equilibrium"
  industrialists_influence_modifier:0 "Industrialists Influence"
  EST_VAL_LOW_PRODUCTION_INCOME:0 "Low Production Income"
  EST_VAL_HIGH_PRODUCTION_INCOME:0 "High Production Income"
  EST_VAL_VERY_HIGH_PRODUCTION_INCOME:0 "Very High Production Income"
+
+ estate_industrialists_land_rights:0 "Industrialists' Land Grants"
+ estate_industrialists_corporatocracy:0 "Corporatocracy"
+ estate_industrialists_worker_rights:0 "Worker Rights"
+ estate_industrialists_open_borders:0 "Open Borders"
+ estate_industrialists_subsidies:0 "Subsidies"
+ estate_industrialists_laissez_faire_economics:0 "Laissez-Faire Economics"
+ estate_industrialists_protectionist_trade_policy:0 "Protectionist Trade Policy"
 
  industrialists_estate_events.0.t:0 "Emergence of the Industrialist Class"
  industrialists_estate_events.0.d:0 "Recent economic growth and innovation has lead to the growth of a new class of influential class of people: Industrialists. These people coordinate growing centers of manufacturing in large corporations and conglomerates that have the capability to affect national policy.\n\nWhile they provide us excellent benefits, their grip on political power may prove to be too great as our nation marches towards complete industrialization."

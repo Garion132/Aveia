@@ -10,13 +10,15 @@ estate_industrialists ={
 	country_modifier_happy = {
 		global_trade_goods_size_modifier = 0.1
 		development_cost = -0.1
+		yearly_corruption = 0.2
 	}
 	country_modifier_neutral = {
 		global_trade_goods_size_modifier = 0.1
+		yearly_corruption = 0.1
 	}	
 	country_modifier_angry = {
-		global_trade_goods_size_modifier = -0.1
-		development_cost = 0.1
+		global_trade_goods_size_modifier = -0.2
+		development_cost = 0.2
 		global_unrest = 2
 	}
 	land_ownership_modifier = {
@@ -122,10 +124,16 @@ estate_industrialists ={
 		loyalty = -20
 	}
 
-	color = { 35 35 150 }
+	color = { 35 35 35 }
 
 	privileges = {
 		estate_industrialists_land_rights
+		estate_industrialists_corporatocracy
+		estate_industrialists_worker_rights
+		estate_industrialists_open_borders
+		estate_industrialists_subsidies
+		estate_industrialists_laissez_faire_economics
+		estate_industrialists_protectionist_trade_policy
 	}
 
 	agendas = {

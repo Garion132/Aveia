@@ -1725,7 +1725,7 @@ country_event = {
 	}
 	
 	option = { #Marginal Lands Rejoice!
-		name = prices.119.a
+		name = prices.120.a
 		hidden_effect = {
 			every_province = {
 				limit = {

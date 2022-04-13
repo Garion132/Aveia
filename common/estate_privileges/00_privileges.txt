@@ -1052,8 +1052,10 @@ estate_burghers_free_enterprise = {
 	loyalty = 0.1
 	influence = 0.1
 	penalties = {
+		industrialists_influence_modifier = 0.05
 	}
 	benefits = {
+		industrialists_loyalty_modifier = 0.05
 	}
 	ai_will_do = {
 		factor = 10
@@ -2551,6 +2553,7 @@ estate_nobles_supremacy_over_crown = {
 		jains_loyalty_modifier = 0.1
 		vaisyas_loyalty_modifier = 0.1
 		nomadic_tribes_loyalty_modifier = 0.1
+		industrialists_loyalty_modifier = 0.1
 		burghers_influence_modifier = 0.1
 		church_influence_modifier = 0.1
 		dhimmi_influence_modifier = 0.1
@@ -2560,6 +2563,7 @@ estate_nobles_supremacy_over_crown = {
 		jains_influence_modifier = 0.1
 		vaisyas_influence_modifier = 0.1
 		nomadic_tribes_influence_modifier = 0.1
+		industrialists_influence_modifier = 0.1
 	}
 	mechanics = {
 		can_give_agendas_without_interaction
@@ -2591,6 +2595,7 @@ estate_brahmins_supremacy_over_crown = {
 		jains_loyalty_modifier = 0.1
 		vaisyas_loyalty_modifier = 0.1
 		nomadic_tribes_loyalty_modifier = 0.1
+		industrialists_loyalty_modifier = 0.1
 		burghers_influence_modifier = 0.1
 		church_influence_modifier = 0.1
 		dhimmi_influence_modifier = 0.1
@@ -2601,6 +2606,7 @@ estate_brahmins_supremacy_over_crown = {
 		jains_influence_modifier = 0.1
 		vaisyas_influence_modifier = 0.1
 		nomadic_tribes_influence_modifier = 0.1
+		industrialists_influence_modifier = 0.1
 	}
 	mechanics = {
 		can_give_agendas_without_interaction
