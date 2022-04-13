@@ -40,9 +40,15 @@
  estate_industrialists_ownership:0 "Industrialists' Land Ownership"
  industrialists_loyalty_modifier:0 "Industrialists Loyalty Equilibrium"
  industrialists_influence_modifier:0 "Industrialists Influence"
- EST_VAL_LOW_PRODUCTION_INCOME:0 "Low Production Income"
- EST_VAL_HIGH_PRODUCTION_INCOME:0 "High Production Income"
- EST_VAL_VERY_HIGH_PRODUCTION_INCOME:0 "Very High Production Income"
+
+ EST_VAL_LOW_PRODUCTION_INCOME:0 "Low Production Income: §Y-5.0%§!"
+ EST_VAL_HIGH_PRODUCTION_INCOME:0 "High Production Income: §Y+5.0%§!"
+ EST_VAL_VERY_HIGH_PRODUCTION_INCOME:0 "Very High Production Income: §Y+10.0%§!"
+ EST_VAL_INDUSTRIALISTS_INDUSTRIALIZATION:0 "Rapid Industrialization: §Y+10.0%§!"
+ EST_VAL_INDUSTRIALISTS_INDUSTRIALIZATION_20:0 "Rapid Industrialization: §Y+20.0%§!"
+ EST_VAL_INDUSTRIALISTS_BUST:0 "Economic Bust: §Y-10.0%§!"
+ EST_VAL_INDUSTRIALISTS_BAILOUTS:0 "Bailouts: §Y+10.0%§!"
+ EST_VAL_INDUSTRIALISTS_BOOM:0 "Economic Boom: §Y+10.0%§!"
 
  estate_industrialists_land_rights:0 "Industrialists' Land Grants"
  estate_industrialists_corporatocracy:0 "Corporatocracy"
@@ -55,3 +61,19 @@
  industrialists_estate_events.0.t:0 "Emergence of the Industrialist Class"
  industrialists_estate_events.0.d:0 "Recent economic growth and innovation has lead to the growth of a new class of influential class of people: Industrialists. These people coordinate growing centers of manufacturing in large corporations and conglomerates that have the capability to affect national policy.\n\nWhile they provide us excellent benefits, their grip on political power may prove to be too great as our nation marches towards complete industrialization."
  industrialists_estate_events.0.a:0 "Interesting"
+
+ industrialists_estate_events.1.t:0 "Rapid Industrialization"
+ industrialists_estate_events.1.d:0 "Through extensive use of capital, our Industrialists are rapidly industrializing our country. They are growing wealthier and more powerful."
+ industrialists_estate_events.1.a:0 "Wonderful"
+ industrialists_estate_events.1.b:0 "Marvelous"
+ industrialists_estate_events.1.c:0 "I have a few tips of my own"
+ 
+ estate_industrialists_industrialization_1_tt:0 "Add §G1§! Base Production to all §YCloth§!, §YIron§!, §YCoal§!, §YManufactured Goods§!, §YGlass§!, and §YMachinery§! Provinces\n"
+ estate_industrialists_industrialization_2_tt:0 "Add §G2§! Base Production to all §YCloth§!, §YIron§!, §YCoal§!, §YManufactured Goods§!, §YGlass§!, and §YMachinery§! Provinces\n"
+
+ industrialists_estate_events.2.t:0 "Recession"
+ industrialists_estate_events.2.d:0 ""
+ industrialists_estate_events.2.o1:0 "The market will correct itself"
+ industrialists_estate_events.2.o2:0 "Bailout the corporations"
+ industrialists_estate_events.2.o3:0 "Perhaps an intervention is in order"
+ industrialists_estate_events.2.o4:0 "Relief, Recovery, and Reform"

@@ -384,6 +384,7 @@
 
 		bonus = {
 			global_tax_income = 12
+			#Development Edict
 		}
 
 		bureaucracy = {
@@ -511,6 +512,7 @@
 		}
 		industrialization = {
 			global_trade_goods_size_modifier = 0.15 # +4
+			#Unlocks Industrialists Estate
 		}
 		centralization_idea = {
 			max_absolutism = 5 # +1
@@ -576,7 +578,7 @@
 	}
 
 	#Combinations
-	capitalist_ideas = { # 28
+	capitalist_ideas = { # 29
 		category = ADM
 		#Money & Development (Basically tall player's dream)
 		
@@ -612,14 +614,15 @@
 		}
 		protectionism = {
 			mercantilism_cost = -0.5 # +2
-			industrialists_loyalty_modifier = 0.05
+			industrialists_loyalty_modifier = 0.05 # +2
 		}
 		union_busting = {
 			harsh_treatment_cost = -0.25 # +1
 		}
 		laissez_faire_economics = {
 			development_cost = -0.2 # +10
-			industrialists_influence_modifier = 0.05
+			industrialists_influence_modifier = 0.05 # -1
+			#Unlocks Industrialists Estate
 		}
 		
 		ai_will_do = {

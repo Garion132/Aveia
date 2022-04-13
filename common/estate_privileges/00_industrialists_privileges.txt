@@ -1,3 +1,19 @@
+
+#estate_industrialists_land_rights
+#estate_industrialists_corporatocracy
+#estate_industrialists_worker_rights
+#estate_industrialists_open_borders
+#estate_industrialists_subsidies
+#estate_industrialists_laissez_faire_economics
+#estate_industrialists_protectionist_trade_policy
+
+#estate_industrialists_monopoly_manufactured_goods
+#estate_industrialists_monopoly_glass
+#estate_industrialists_monopoly_cloth
+#estate_industrialists_monopoly_coal
+#estate_industrialists_monopoly_iron
+#estate_industrialists_monopoly_machinery
+
 estate_industrialists_land_rights = {
 	icon = privilege_grant_autonomy
 	land_share = 5
@@ -230,16 +246,3 @@ estate_industrialists_protectionist_trade_policy = {
 		global_own_trade_power = 0.2
 	}
 }
-
-#estate_industrialists_worker_rights
-#estate_industrialists_open_borders
-#estate_industrialists_subsidies
-#estate_industrialists_laissez_faire_economics
-#estate_industrialists_protectionist_trade_policy
-
-#estate_industrialists_monopoly_manufactured_goods
-#estate_industrialists_monopoly_glass
-#estate_industrialists_monopoly_cloth
-#estate_industrialists_monopoly_coal
-#estate_industrialists_monopoly_iron
-#estate_industrialists_monopoly_machinery

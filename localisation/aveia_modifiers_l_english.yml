@@ -7,6 +7,13 @@
  rake_group_vulkiv:0 "Control of the Holy Imperial Throne"
  eternal_sun_golden_sun:0 "Control of the Golden Sun"
 
+ economic_recession:0 "Economic Recession: Market Solution"
+ desc_economic_recession:0 "The country has fallen into hard times as factories and businesses close, unemployment rates soar, and people go hungry. The response has been to let markets handle the problem, leading to general discontent."
+ economic_recession_bailouts:0 "Economic Recession: Bailouts"
+ desc_economic_recession_bailouts:0 "The country has fallen into hard times as factories and businesses close, unemployment rates soar, and people go hungry. The response has been to bailout major corporations, leading to a national uproar and large street protests."
+ economic_recession_intervention:0 "Economic Recession: Intervention"
+ desc_economic_recession_bailouts:0 "The country has fallen into hard times as factories and businesses close, unemployment rates soar, and people go hungry. The response has been to attempt to use the state to direct economic relief and recovery efforts."
+
  expanded_production:0 "Expanded Production"
  desc_expanded_production:0 "The production in this province has been expanded recently, allowing for the manufacturing and export of more goods."
  iwen_iron_mines_1:0 "Iwen Iron Mines"

@@ -30,3 +30,314 @@ country_event = {
 		set_country_flag = industrialists_active
 	}
 }
+
+#Rapid Industrialization
+country_event = {
+	id = industrialists_estate_events.1
+	title = industrialists_estate_events.1.t
+	desc = industrialists_estate_events.1.d
+	picture = ATMOSPHERIC_ENGINE_eventPicture
+
+	trigger = {
+		has_estate = estate_industrialists
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_INDUSTRIALISTS_INDUSTRIALIZATION
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_INDUSTRIALISTS_INDUSTRIALIZATION_20
+			}
+		}
+		OR = {
+			cloth = 3
+			iron = 3
+			glass = 2
+			#manufactured_goods = 1
+			coal = 1
+			machinery = 1
+		}
+		NOT = {
+			has_country_modifier = economic_recession
+		}
+		NOT = {
+			has_country_modifier = economic_recession_bailouts
+		}
+		NOT = {
+			has_country_modifier = economic_recession_intervention
+		}
+	}
+
+	option = {
+		name = industrialists_estate_events.1.a #Wonderful
+		custom_tooltip = estate_industrialists_industrialization_1_tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = cloth
+						trade_goods = iron
+						trade_goods = coal
+						#trade_goods = manufactured_goods
+						trade_goods = glass
+						trade_goods = machinery
+					}
+				}
+				add_base_production = 1
+			}
+		}
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_INDUSTRIALIZATION
+			influence = 10
+			duration = 5475
+		}
+		
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				OR = {
+					ruler_has_personality = industrious_personality
+					ruler_has_personality = entrepreneur_personality
+				}
+			}
+		}
+	}
+	option = {
+		name = industrialists_estate_events.1.b #Marvelous
+		highlight = yes
+		trigger = {
+			has_estate_privilege = estate_industrialists_laissez_faire_economics
+		}
+		
+		custom_tooltip = estate_industrialists_industrialization_2_tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = cloth
+						trade_goods = iron
+						trade_goods = coal
+						#trade_goods = manufactured_goods
+						trade_goods = glass
+						trade_goods = machinery
+					}
+				}
+				add_base_production = 2
+			}
+		}
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_INDUSTRIALIZATION_20
+			influence = 20
+			duration = 5475
+		}
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 60
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 80
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					ruler_has_personality = industrious_personality
+					ruler_has_personality = entrepreneur_personality
+				}
+			}
+		}
+	}
+	option = {
+		name = industrialists_estate_events.1.c #I have a few tips of my own
+		highlight = yes
+		trigger = {
+			OR = {
+				ruler_has_personality = industrious_personality
+				ruler_has_personality = entrepreneur_personality
+			}
+		}
+
+		custom_tooltip = estate_industrialists_industrialization_2_tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = cloth
+						trade_goods = iron
+						trade_goods = coal
+						#trade_goods = manufactured_goods
+						trade_goods = glass
+						trade_goods = machinery
+					}
+				}
+				add_base_production = 2
+			}
+		}
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_INDUSTRIALIZATION
+			influence = 10
+			duration = 5475
+		}
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Recession
+country_event = {
+	id = industrialists_estate_events.2
+	title = industrialists_estate_events.2.t
+	desc = industrialists_estate_events.2.d
+	picture = FAMINE_eventPicture
+
+	trigger = {
+		has_estate = estate_industrialists
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_INDUSTRIALISTS_BUST
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_INDUSTRIALISTS_BAILOUTS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_INDUSTRIALISTS_BOOM
+			}
+		}
+		NOT = {
+			has_country_modifier = economic_recession
+		}
+		NOT = {
+			has_country_modifier = economic_recession_bailouts
+		}
+		NOT = {
+			has_country_modifier = economic_recession_intervention
+		}
+	}
+
+	
+	#The market will correct itself
+	option = {
+		name = industrialists_estate_events.2.o1
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+		}
+		
+		add_country_modifier = {
+			name = economic_recession
+			duration = 1095
+		}
+
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -5
+		}
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_BUST
+			influence = -10
+			duration = 3650
+		}
+	}
+	#Bailout the Corporations
+	option = {
+		name = industrialists_estate_events.2.o2
+		trigger = {
+			OR = {
+				NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+				has_estate_privilege = estate_industrialists_corporatocracy
+			}
+		}
+
+		add_years_of_income = -0.5
+		add_corruption = 5
+		
+		add_country_modifier = {
+			name = economic_recession_bailouts
+			duration = 1095
+		}
+
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_BAILOUTS
+			influence = 10
+			duration = 3650
+		}
+	}
+	#Perhaps an intervention is in order
+	option = {
+		name = industrialists_estate_events.2.o3
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+		}
+
+		add_years_of_income = -0.5
+		
+		add_country_modifier = {
+			name = economic_recession_intervention
+			duration = 1095
+		}
+		
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_BUST
+			influence = -10
+			duration = 3650
+		}
+	}
+	#Relief, Recovery, and Reform
+	option = {
+		name = industrialists_estate_events.2.o4
+		trigger = {
+			has_estate_privilege = estate_industrialists_laissez_faire_economics
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+		}
+		add_years_of_income = -0.5
+
+		add_country_modifier = {
+			name = economic_recession_intervention
+			duration = 1825
+		}
+
+		remove_estate_privilege = estate_industrialists_laissez_faire_economics
+
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -25
+		}
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_BUST
+			influence = -10
+			duration = 3650
+		}
+	}
+}
