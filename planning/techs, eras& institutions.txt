@@ -1,11 +1,72 @@
 #Eras
 High Bronze Age (start-1367)
+	obj:
+		300 dev
+		crop rotation
+		large city
+	boni:
+		higher developed colonies
+		justified wars
 Iron Calamity (1367-1440)
+	obj:
+		feudal society
+		iron working
+		stable state
+		hold three thrones
+	boni:
+		war taxes
+		transfer subject
+		feudal de jure law
+		mercenary dicipline
+		protecting forts
 Eastern Exodus (1440-1540)
+	obj:
+		(have your primary culture in the east)
+	boni:
+		higher developed colonies 2.0
+		floating batteries
+		powerful tradeships
 The Golden Sun (1540 - 1638)
+	obj:
+		present on two continents
+		discover jululia
+		control centers of trade
+		hold a great light (kusedean,golden sun,)
+	boni:
+		Harsher Treatment
+		Efficient Autonomy
 Rosen Dawn (1638-1670)
+	obj:
+		create a colonial empire
+		Magical materials (gain trade bonus from gudenia, ankon, vitaite or byrine)
+		multicultural nation
+	boni:
+		Naval Engagement
+		great fleet
 Solar Strife (1670-1712)
+	obj:
+		convert prov
+		convert nation
+		take a side (choose one of the succesor religions or declare allienge to the true tlaunorist)
+		absolutism
+	boni:
+		religious wars
+		institutional spread
+		absolute government
+		Unrestricted Conquest
 Age of Progress (1712-)
+	obj:
+		parliment
+		emperor
+		high discipline
+		large capital
+		great leader
+		control institutions
+	boni:
+		air ship armies(cavalry armies)
+		Improved Force March
+		Anti-Revolutionary Zeal
+		Loyal Subjects
 #Institutions:
 1200/start - Organized State (start)
 1250/start - Bronze Working (west only)

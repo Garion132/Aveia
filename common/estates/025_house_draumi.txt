@@ -1,5 +1,5 @@
 estate_house_draumi ={
-	icon = 2
+	icon = 12
 
 	# If true, country will get estate
 	trigger = {

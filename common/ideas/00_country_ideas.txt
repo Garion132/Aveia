@@ -469,7 +469,7 @@ ARA_ideas = {
 
 JAL_ideas = {
 	start = {
-		development_cost = -0.1
+		no_religion_penalty = yes
 		num_accepted_cultures = 1
 	}
 	

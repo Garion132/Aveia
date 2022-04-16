@@ -1,5 +1,5 @@
 estate_house_kethai ={
-	icon = 2
+	icon = 13
 
 	# If true, country will get estate
 	trigger = {

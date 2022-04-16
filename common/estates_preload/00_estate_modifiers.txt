@@ -318,17 +318,17 @@ estate_house_nyletmi = {
 estate_house_draumi = {
 	modifier_definition = {
 		type = loyalty
-		key = house_nyletmi_loyalty_modifier
+		key = house_draumi_loyalty_modifier
 		trigger = {
-			has_estate = estate_house_nyletmi
+			has_estate = estate_house_draumi
 		}
 	}
 
 	modifier_definition = {
 		type = influence
-		key = house_nyletmi_influence_modifier
+		key = house_draumi_influence_modifier
 		trigger = {
-			has_estate = estate_house_nyletmi
+			has_estate = estate_house_draumi
 		}
 	}
 }

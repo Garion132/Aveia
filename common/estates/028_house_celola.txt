@@ -1,5 +1,5 @@
 estate_house_celola ={
-	icon = 2
+	icon = 14
 
 	# If true, country will get estate
 	trigger = {

@@ -1,5 +1,5 @@
 estate_house_lidori ={
-	icon = 2
+	icon = 16
 
 	# If true, country will get estate
 	trigger = {
