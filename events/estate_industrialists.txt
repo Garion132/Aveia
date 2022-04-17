@@ -268,6 +268,11 @@ country_event = {
 			influence = -10
 			duration = 3650
 		}
+
+		
+		ai_chance = {
+			factor = 20
+		}
 	}
 	#Bailout the Corporations
 	option = {
@@ -297,6 +302,10 @@ country_event = {
 			influence = 10
 			duration = 3650
 		}
+		
+		ai_chance = {
+			factor = 5
+		}
 	}
 	#Perhaps an intervention is in order
 	option = {
@@ -318,6 +327,10 @@ country_event = {
 			desc = EST_VAL_INDUSTRIALISTS_BUST
 			influence = -10
 			duration = 3650
+		}
+		
+		ai_chance = {
+			factor = 30
 		}
 	}
 	#Relief, Recovery, and Reform
@@ -345,6 +358,10 @@ country_event = {
 			desc = EST_VAL_INDUSTRIALISTS_BUST
 			influence = -10
 			duration = 3650
+		}
+
+		ai_chance = {
+			factor = 5
 		}
 	}
 }
@@ -444,6 +461,10 @@ country_event = {
 				duration = 1825
 			}
 		}
+
+		ai_chance = {
+			factor = 100 #AI is shortsighted
+		}
 	}
 
 	#Let's cool it down
@@ -451,11 +472,23 @@ country_event = {
 		name = industrialists_estate_events.3.o2
 		trigger = {
 			NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+			NOT = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 50
+				}
+			}
 		}
 
+		add_adm_power = -200
+		add_dip_power = -100
 		add_estate_loyalty = {
 			estate = estate_industrialists
-			loyalty = -5
+			loyalty = -15
+		}
+
+		ai_chance = {
+			factor = 0
 		}
 	}
 }
