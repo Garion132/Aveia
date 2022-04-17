@@ -266,10 +266,7 @@ FRY_mission_2 = {
 		position = 3
 		required_missions = { FRY_mission_2_1 }
 		trigger = {
-			development_in_provinces = {
-			value = 25
-			region = windsweaps
-			}
+			grown_by_development = 25
 		}
 		effect = {
 			add_adm_power = 50
@@ -305,10 +302,7 @@ FRY_mission_2 = {
 		position = 5
 		required_missions = { FRY_mission_2_3 }
 		trigger = {
-			development_in_provinces = {
-			value = 35
-			region = windsweaps
-			}
+			grown_by_development = 30
 		}
 		effect = {
 			add_adm_power = 100
