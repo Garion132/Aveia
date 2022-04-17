@@ -88,6 +88,7 @@ iron_age_calamity = {
 				tooltip = disaster_active_for_50_years_tooltip
 				had_country_flag = { flag = had_iron_age_calamity days = 18250 }
 			}
+			is_year = 1400
 		}
 	}
 	
