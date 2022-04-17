@@ -135,8 +135,6 @@ seat_in_parliament = {
 }
 
 non_coastal = {
-	local_colonial_growth = -20
-	local_colonist_placement_chance = -0.1
 }
 
 coastal_sea = {
@@ -236,7 +234,8 @@ blockaded = {
 }
 
 no_adjacent_controlled = {
-	local_colonial_growth = -5
+	local_colonial_growth = -20
+	local_colonist_placement_chance = -0.1
 }
 
 provincial_tax_income = {
