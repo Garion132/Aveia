@@ -5,10 +5,9 @@ merc_ardaran_guard = {
 	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		OR = {
+			primary_culture = gugh
 			capital_scope = { 
-				OR = {
-					region = gugh
-				}
+				region = gugh
 			}
 		}
 		religion = roresist

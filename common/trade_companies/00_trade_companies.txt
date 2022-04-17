@@ -1,0 +1,15 @@
+trade_company_xirak = {
+	color = { 174 96 132 }
+	
+	provinces = {
+		3961 3960 3955 3953 3954 3956 3957 468 3958 3959 467 3972 3973 3970 3971 3969 3968 3967 3966 3965 3964 3963 3962
+	}
+
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_XIRAK_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_XIRAK_Haqsili_Trade_Company"
+	}
+}

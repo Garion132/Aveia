@@ -843,3 +843,82 @@ defense_of_the_empire_modifier = {
 	}
 	war_taxes_cost_modifier = -1.0
 }
+
+mannish_tax_10_to_20 = {
+	potential = {
+		has_reform = mannish_tribal_reform
+	}
+
+	trigger = {	
+		total_development = 10
+		NOT={total_development = 20}
+	}
+
+	global_tax_income = 12
+	#icon = 9
+}
+mannish_tax_20_to_30 = {
+	potential = {
+		has_reform = mannish_tribal_reform
+	}
+
+	trigger = {	
+		total_development = 20
+		NOT={total_development = 30}
+	}
+
+	global_tax_income = 24
+	#icon = 9
+}
+mannish_tax_30_to_40 = {
+	potential = {
+		has_reform = mannish_tribal_reform
+	}
+
+	trigger = {	
+		total_development = 30
+		NOT={total_development = 40}
+	}
+
+	global_tax_income = 36
+	#icon = 9
+}
+mannish_tax_40_to_50 = {
+	potential = {
+		has_reform = mannish_tribal_reform
+	}
+
+	trigger = {	
+		total_development = 40
+		NOT={total_development = 50}
+	}
+
+	global_tax_income = 48
+	#icon = 9
+}
+mannish_tax_50_to_60 = {
+	potential = {
+		has_reform = mannish_tribal_reform
+	}
+
+	trigger = {	
+		total_development = 50
+		NOT={total_development = 60}
+	}
+
+	global_tax_income = 60
+	#icon = 9
+}
+mannish_tax_60_to_70 = {
+	potential = {
+		has_reform = mannish_tribal_reform
+	}
+
+	trigger = {	
+		total_development = 60
+		#NOT={total_development = 70}
+	}
+
+	global_tax_income = 72
+	#icon = 9
+}

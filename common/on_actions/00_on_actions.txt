@@ -246,11 +246,28 @@ on_siege_won_province = {
 		}
 		owner = { country_event = { id = center_of_revolution.1600 } }
 	}
+	
+	
 }
 
 # province
 # root = location, from = winning country
 on_siege_lost_province =  {
+	#province effects for the great conquest
+	if={
+		limit={
+			from={has_ruler_flag = great_conquest_cb_user}
+		}
+		cede_province = from
+	}
+	if={
+		limit={
+			owner={has_ruler_flag = great_conquest_cb_user}
+			from={is_core = root}
+			
+		}
+		cede_province = from
+	}
 }
 
 # province

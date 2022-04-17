@@ -2287,6 +2287,7 @@ country_event = {#Zelfea
 			}
 			ZEL={
 				add_treasury = 50
+				change_primary_culture = chivga
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2345,6 +2346,7 @@ country_event = {#Gultea
 			}
 			GLT={
 				add_treasury = 50
+				change_primary_culture = gulban
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2415,6 +2417,7 @@ country_event = {#Vrur
 			}
 			VRU={
 				add_treasury = 50
+				change_primary_culture = shireate
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2485,6 +2488,7 @@ country_event = {#Arkhonia
 			}
 			ARK={
 				add_treasury = 50
+				change_primary_culture = donamenz
 				define_ruler ={
 					name = "Frador"
 					dynasty = "Roosenfeld"
@@ -2545,6 +2549,7 @@ country_event = {#Alvedi
 			}
 			ALV={
 				add_treasury = 50
+				change_primary_culture = nadarian
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2603,6 +2608,7 @@ country_event = {#Calharn
 			}
 			CLH={
 				add_treasury = 50
+				change_primary_culture = ellorhasian
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2661,6 +2667,7 @@ country_event = {#Calharn
 			}
 			WLT={
 				add_treasury = 50
+				change_primary_culture = soilseeders
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2719,6 +2726,7 @@ country_event = {#Montlira
 			}
 			MOT={
 				add_treasury = 50
+				change_primary_culture = morbinite
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2777,6 +2785,7 @@ country_event = {#Velnoi
 			}
 			VLN={
 				add_treasury = 50
+				change_primary_culture = unolaan
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2838,6 +2847,7 @@ country_event = {#Quanil
 			}
 			QUA={
 				add_treasury = 25
+				change_primary_culture = unolaan
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2895,6 +2905,7 @@ country_event = {#Serar
 			}
 			SRR={
 				add_treasury = 50
+				change_primary_culture = siniersi
 				define_ruler ={
 					adm = 1
 					dip = 2
@@ -2956,6 +2967,7 @@ country_event = {#Oltos
 			}
 			OLT={
 				add_treasury = 50
+				change_primary_culture = etailian
 				define_ruler ={
 					adm = 1
 					dip = 2
