@@ -88,8 +88,8 @@
 		global_tax_income = 0.1
 	}
 	FRY_mission_2 = {
-		nobles_influence_modifier = -0.5
-		burghers_influence_modifier = 0.5
+		global_colonial_growth = 10
+		colonist_placement_chance = 0.05
 	}
 	FRY_mission_3 = {
 		build_cost = -0.25
@@ -109,6 +109,10 @@
 	FRY_mission_8 = {
 		global_colonial_growth = 20
 		range = 0.5
+	}
+	FRY_mission_9 = {
+		technology_cost = -0.1
+		build_cost = -0.1
 	}
 	
 

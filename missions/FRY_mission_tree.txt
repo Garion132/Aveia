@@ -17,6 +17,10 @@ FRY_mission_1 = {
 			2411 = {
 			add_claim = FRY
 			}
+			add_country_modifier = { 
+			    name = FRY_mission_2
+			    hidden = yes
+			}
 		}
 	}
 	FRY_mission_1_2 = {
