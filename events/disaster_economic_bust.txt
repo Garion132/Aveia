@@ -1,0 +1,42 @@
+###########################################################
+# Events for Economic Bust Disaster
+#
+# written by Strat
+###########################################################
+
+namespace = bust_events
+
+
+#The Economy Reaches Rock Bottom
+country_event = {
+	id = bust_events.0
+	title = bust_events.0.t
+	desc = bust_events.0.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bust_events.0.a #At least the only direction to go is up
+		add_stability = -2
+
+        custom_tooltip = gd_recovery_req_tt
+
+        hidden_effect = {
+            set_country_flag = great_depression_possible
+            set_variable = {
+                which = depression_recovery_var
+                value = 0
+            }
+            remove_country_modifier = economic_bust_stage_1
+            remove_country_modifier = economic_bust_stage_2
+            remove_country_modifier = economic_bust_stage_3
+            remove_country_modifier = economic_bust_stage_4
+            remove_country_modifier = economic_bust_stage_5
+            remove_country_modifier = economic_recession
+            remove_country_modifier = economic_recession_bailouts
+            remove_country_modifier = economic_recession_intervention
+            remove_country_modifier = economic_boom
+        }
+	}
+}

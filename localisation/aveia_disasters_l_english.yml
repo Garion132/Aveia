@@ -75,4 +75,25 @@
  iron_age_calamity.1004.a:0 "The old Kingdom is gone"
  
  crisis_of_the_12th_century:0 "Crisis of the 12th Century"
+
+ #Great Depression
+ great_depression:0 "The Great Depression"
+ desc_great_depression:0 "Factories are closed. Shops are shuttered. Men wander the streets for work. Women and Children go hungry. Large slums have been erected in our wealthiest cities. Even the wealthiest have been touched."
+ GREAT_DEPRESSION_TRIGGER_TT:0 "Economic Downturn has begun"
+ GREAT_DEPRESSION_STOP_TRIGGER_TT:0 "The economy has recovered from the worst of it"
+
+ depression_recovery_var:0 "Depression Recovery"
+ depression_recovery_var_increase_1_tt:0 "Add §G1§! §YDepression Recovery Point§!\n"
+
+ gd_end_the_depression_title:0 "End the Depression"
+
+ gd_new_roll_title:0 "New Roll"
+ gd_emergency_budget_title:0 "Emergency Budget"
+
+ gd_trust_in_the_markets_title:0 "Trust in the Markets"
+
+ bust_events.0.t:0 "The Economy Reaches Rock Bottom"
+ bust_events.0.d:0 "Factories are closed. Shops are shuttered. Men wander the streets for work. Women and Children go hungry. Large slums have been erected in our wealthiest cities. Even the wealthiest have been touched.\n\nThe only hope for many is what will we do?"
+ bust_events.0.a:0 "At least the only direction to go is up"
+ gd_recovery_req_tt:0 "You need to get at least §G10§! §YDepression Recovery Points§! or §G3§! §YDepression Recovery points§! and be at war with a country who is §YStronger§! than you.\n\nYou attain §YDepression Recovery Points§! by taking §YDecisions§!."
  

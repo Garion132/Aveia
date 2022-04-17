@@ -1818,6 +1818,13 @@ on_five_year_pulse_2 = {
 		150 = tribal_estate_events.12 #Demands
 		150 = tribal_estate_events.13 #Demands
 		150 = tribal_estate_events.14 #Demands
+
+		#Industrialists
+		100 = industrialists_estate_events.1 #Rapid Industrialization
+		300 = industrialists_estate_events.2 #Recession
+		200 = industrialists_estate_events.3 #Boom
+		25 = industrialists_estate_events.4 #Bust (Great Depression)
+
 		# Random
 		1000 = 0
 	}

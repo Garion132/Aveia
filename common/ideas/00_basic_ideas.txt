@@ -583,6 +583,7 @@
 		#Money & Development (Basically tall player's dream)
 		
 		trigger = {
+			adm_tech = 37
 			OR = {
 				has_idea_group = economic_ideas
 				has_idea_group = industrial_ideas
@@ -1351,6 +1352,7 @@
 		#Meddling in other people's affairs more easily
 
 		trigger = {
+			adm_tech = 37
 			OR = {
 				has_idea_group = diplomatic_ideas
 				has_idea_group = influence_ideas
@@ -1946,6 +1948,7 @@
 		category = MIL
 
 		trigger = {
+			adm_tech = 37
 			OR = {
 				has_idea_group = logistic_ideas
 				has_idea_group = mass_production_ideas

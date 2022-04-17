@@ -130,7 +130,7 @@ estate_industrialists ={
 		estate_industrialists_land_rights
 		estate_industrialists_corporatocracy
 		estate_industrialists_worker_rights
-		estate_industrialists_open_borders
+		estate_industrialists_strict_regulations
 		estate_industrialists_subsidies
 		estate_industrialists_laissez_faire_economics
 		estate_industrialists_protectionist_trade_policy

@@ -127,7 +127,6 @@ estate_industrialists_worker_rights = {
 	influence = -0.2
 	can_select = {
 		NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
-		NOT = { has_estate_privilege = estate_industrialists_open_borders }
 		NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
 		NOT = {
 			estate_influence = {
@@ -154,25 +153,30 @@ estate_industrialists_worker_rights = {
 		factor = 0
 	}
 }
-estate_industrialists_open_borders = {
-	icon = privilege_demand_more_troops
+estate_industrialists_strict_regulations = {
+	icon = privilege_centralized
 	land_share = 0
-	max_absolutism = -5
-	loyalty = 0.05
-	influence = 0.05
+	max_absolutism = 10
+	loyalty = -0.1
+	influence = -0.2
 	can_select = {
-		NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+		NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+		NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+		NOT = {
+			estate_influence = {
+				estate = estate_industrialists
+				influence = 80
+			}
+		}
 	}
 	on_granted = {
 	}
 	penalties = {
-		global_unrest = 2
-		yearly_corruption = 0.05
+		development_cost = 0.1
+		global_trade_goods_size_modifier = -0.1
 	}
 	benefits = {
-		development_cost = -0.05
-		global_manpower_modifier = 0.2
-		manpower_recovery_speed = 0.05
+		yearly_corruption = -0.1
 	}
 
 	ai_will_do = {

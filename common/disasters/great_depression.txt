@@ -1,0 +1,108 @@
+great_depression = {
+	potential = {
+		OR = {
+			has_country_modifier = economic_boom
+			has_country_flag = great_depression_possible
+			any_neighbor_country = {
+				has_country_flag = great_depression_possible
+			}
+		}
+	}
+
+
+	can_start = {
+		has_any_disaster = no
+		custom_trigger_tooltip = {
+			tooltip = GREAT_DEPRESSION_TRIGGER_TT
+			has_country_flag = great_depression_possible
+		}
+	}
+	
+	can_stop = {
+		OR = {
+			has_any_disaster = yes
+			custom_trigger_tooltip = {
+				tooltip = GREAT_DEPRESSION_STOP_TRIGGER_TT
+				NOT = { has_country_flag = great_depression_possible }
+			}
+		}
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 2
+			custom_trigger_tooltip = {
+				tooltip = GREAT_DEPRESSION_TRIGGER_TT
+				has_country_flag = great_depression_possible
+			}
+		}
+		modifier = {
+			factor = 0.5
+			trade_income_percentage = 0.35
+		}
+		modifier = {
+			factor = 0.5
+			trade_income_percentage = 0.45
+		}
+		modifier = {
+			factor = 0.5
+			production_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 0.5
+			production_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 0.5
+			production_income_percentage = 0.5
+		}
+		modifier = {
+			factor = 1
+			dip_tech = 37
+		}
+		modifier = {
+			factor = 1
+			dip_tech = 39
+		}
+		modifier = {
+			factor = 2
+			any_neighbor_country = {
+				has_country_flag = great_depression_possible
+			}
+		}
+	}
+	
+	can_end = {
+		custom_trigger_tooltip = {
+			tooltip = GREAT_DEPRESSION_STOP_TRIGGER_TT
+			NOT = { has_country_flag = great_depression_possible }
+		}
+	}
+	
+
+	
+
+	modifier = {
+        all_power_cost = 0.1
+		development_cost = 2
+		global_trade_goods_size_modifier = -0.66
+		global_tax_modifier = -0.4
+		trade_efficiency = -0.4
+		global_unrest = 2
+		interest = 5
+	}	
+	
+	
+	on_start = bust_events.0
+	on_end = bust_events.1
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			1000 = 0
+		}
+	}
+}
+

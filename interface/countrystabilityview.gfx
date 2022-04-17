@@ -14,6 +14,12 @@ spriteTypes = {
 			noOfFrames = 3
 			loadType = "INGAME"
 		}
+		spriteType = {
+			name = "GFX_disaster_great_depression"
+			texturefile = "gfx//interface//disasters//great_depression.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
 
 	##
 

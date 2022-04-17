@@ -38,6 +38,8 @@ country_event = {
 	desc = industrialists_estate_events.1.d
 	picture = ATMOSPHERIC_ENGINE_eventPicture
 
+	is_triggered_only = yes
+
 	trigger = {
 		has_estate = estate_industrialists
 		NOT = {
@@ -207,6 +209,8 @@ country_event = {
 	desc = industrialists_estate_events.2.d
 	picture = FAMINE_eventPicture
 
+	is_triggered_only = yes
+
 	trigger = {
 		has_estate = estate_industrialists
 		NOT = {
@@ -235,6 +239,9 @@ country_event = {
 		}
 		NOT = {
 			has_country_modifier = economic_recession_intervention
+		}
+		NOT = {
+			has_country_modifier = economic_boom
 		}
 	}
 
@@ -338,6 +345,274 @@ country_event = {
 			desc = EST_VAL_INDUSTRIALISTS_BUST
 			influence = -10
 			duration = 3650
+		}
+	}
+}
+
+#Boom
+country_event = {
+	id = industrialists_estate_events.3
+	title = industrialists_estate_events.3.t
+	desc = industrialists_estate_events.3.d
+	picture = BURGHER_ESTATE_eventPicture
+
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_estate = estate_industrialists
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_INDUSTRIALISTS_BUST
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_INDUSTRIALISTS_BAILOUTS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_INDUSTRIALISTS_BOOM
+			}
+		}
+		NOT = {
+			has_country_modifier = economic_recession
+		}
+		NOT = {
+			has_country_modifier = economic_recession_bailouts
+		}
+		NOT = {
+			has_country_modifier = economic_recession_intervention
+		}
+		NOT = {
+			has_country_modifier = economic_boom
+		}
+	}
+
+	#A Time of Opulence
+	option = {
+		name = industrialists_estate_events.3.o1
+		
+		if = {
+			limit = {
+				has_estate_privilege = estate_industrialists_laissez_faire_economics
+			}
+			random_owned_province = {
+				limit = {
+					development = 10
+				}
+				add_base_tax = 1
+			}
+			random_owned_province = {
+				limit = {
+					development = 10
+				}
+				add_base_production = 1
+			}
+			random_owned_province = {
+				limit = {
+					development = 10
+				}
+				add_base_manpower = 1
+			}
+			
+
+			add_country_modifier = {
+				name = economic_boom
+				duration = 3650
+			}
+			add_estate_influence_modifier = {
+				estate = estate_industrialists
+				desc = EST_VAL_INDUSTRIALISTS_BOOM
+				influence = 10
+				duration = 3650
+			}
+		}
+		else = {
+			add_country_modifier = {
+				name = economic_boom
+				duration = 1825
+			}
+			add_estate_influence_modifier = {
+				estate = estate_industrialists
+				desc = EST_VAL_INDUSTRIALISTS_BOOM
+				influence = 10
+				duration = 1825
+			}
+		}
+	}
+
+	#Let's cool it down
+	option = {
+		name = industrialists_estate_events.3.o2
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+		}
+
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -5
+		}
+	}
+}
+
+#BUST
+country_event = {
+	id = industrialists_estate_events.4
+	title = industrialists_estate_events.4.t
+	desc = industrialists_estate_events.4.d
+	picture = FAMINE_eventPicture
+
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_estate = estate_industrialists
+		has_country_modifier = economic_boom
+		has_any_disaster = no
+	}
+
+	option = {
+		name = industrialists_estate_events.4.o1 #Oh...
+
+		set_country_flag = great_depression_possible
+		remove_country_modifier = economic_boom
+
+		add_country_modifier = {
+			name = economic_bust_stage_1
+			duration = -1
+		}
+
+		country_event = { 
+			id = industrialists_estate_events.5
+			days = 30
+		}
+	}
+}
+
+#Stock Market Collapse
+country_event = {
+	id = industrialists_estate_events.5
+	title = industrialists_estate_events.5.t
+	desc = industrialists_estate_events.5.d
+	picture = FAMINE_eventPicture
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = industrialists_estate_events.5.o1 #Well...
+
+		remove_country_modifier = economic_bust_stage_1
+
+		add_country_modifier = {
+			name = economic_bust_stage_2
+			duration = -1
+		}
+		
+		add_disaster_progress = {
+			disaster = great_depression
+			value = 5
+		}
+
+		country_event = { 
+			id = industrialists_estate_events.6
+			days = 30
+		}
+	}
+}
+
+#Run on the Banks
+country_event = {
+	id = industrialists_estate_events.6
+	title = industrialists_estate_events.6.t
+	desc = industrialists_estate_events.6.d
+	picture = FAMINE_eventPicture
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = industrialists_estate_events.6.o1 #Uhh...
+
+		remove_country_modifier = economic_bust_stage_2
+
+		add_country_modifier = {
+			name = economic_bust_stage_3
+			duration = -1
+		}
+		
+		add_disaster_progress = {
+			disaster = great_depression
+			value = 5
+		}
+
+		country_event = { 
+			id = industrialists_estate_events.7
+			days = 30
+		}
+	}
+}
+
+#The Banks Fail
+country_event = {
+	id = industrialists_estate_events.7
+	title = industrialists_estate_events.7.t
+	desc = industrialists_estate_events.7.d
+	picture = FAMINE_eventPicture
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = industrialists_estate_events.7.o1 #Err...
+
+		remove_country_modifier = economic_bust_stage_3
+
+		add_country_modifier = {
+			name = economic_bust_stage_4
+			duration = -1
+		}
+		
+		add_disaster_progress = {
+			disaster = great_depression
+			value = 15
+		}
+
+		country_event = { 
+			id = industrialists_estate_events.8
+			days = 30
+		}
+	}
+}
+
+#Unemployment Soars
+country_event = {
+	id = industrialists_estate_events.8
+	title = industrialists_estate_events.8.t
+	desc = industrialists_estate_events.8.d
+	picture = FAMINE_eventPicture
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = industrialists_estate_events.8.o1 #Umm...
+
+		remove_country_modifier = economic_bust_stage_4
+
+		add_country_modifier = {
+			name = economic_bust_stage_5
+			duration = -1
+		}
+		
+		add_disaster_progress = {
+			disaster = great_depression
+			value = 35
 		}
 	}
 }

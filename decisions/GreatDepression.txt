@@ -1,0 +1,163 @@
+country_decisions = {
+    gd_end_the_depression = {
+
+        major = yes
+
+        potential = {
+            has_disaster = great_depression
+        }
+
+        allow = {
+            OR = {
+                check_variable = {
+                    which = depression_recovery_var
+                    value = 10
+                }
+                AND = {
+                    check_variable = {
+                        which = depression_recovery_var
+                        value = 3
+                    }
+                    army_size_percentage = 0.9
+                    is_at_war = yes
+                    any_country = {
+                        war_with = ROOT
+                        military_strength = {
+                            who = ROOT
+                            value = 1.0
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            clr_country_flag = great_depression_possible
+            end_disaster = great_depression
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
+
+    #New Roll (New Deal)
+    gd_new_roll = {
+
+        major = yes
+
+        potential = {
+            has_disaster = great_depression
+            NOT = { has_country_modifier = gd_new_roll_modifier }
+            NOT = { has_country_flag = gd_market_solution }
+        }
+
+        allow = {
+            adm_power = 100
+        }
+
+        effect = {
+            add_adm_power = -100
+            add_disaster_modifier = {
+                name = gd_new_roll_modifier
+                duration = -1
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 2
+        }
+    }
+
+    #Emergency Budget
+    gd_emergency_budget = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_new_roll_modifier
+            NOT = { has_country_flag = gd_emergency_budget_flag }
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_drafting_legislation }
+        }
+
+        effect = {
+            add_years_of_income = -0.5
+            set_country_flag = gd_emergency_budget_flag
+            custom_tooltip = depression_recovery_var_increase_1_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 90
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    #Banking Reform
+    #Monetary Reform (Abandon Silver Standard)
+    #Regulate the Stock Market
+    #Public Works (Repeatable)
+    #Protect Farmers
+    #Create a Safety Net
+    #Subsidize Housing
+    #Tax the Wealthy
+    #Remove Corporate Influence (Remove Corportocracy)
+    #Abandon Lassiez Faire Principles (Remove LF Economics)
+    #Trade Liberalization (Remove Protectionism)
+    #Protect Labor Unions (Add Worker Rights)
+    #Industrial Oversight Administration (Add Strict Regulations)
+
+    #Trust in the Markets
+    gd_trust_in_the_markets = {
+
+        major = yes
+
+        potential = {
+            has_disaster = great_depression
+            NOT = { has_country_modifier = gd_new_roll_modifier }
+            NOT = { has_country_flag = gd_market_solution }
+        }
+
+        allow = {
+            dip_power = 100
+        }
+
+        effect = {
+            add_dip_power = -100
+            add_disaster_modifier = {
+                name = gd_market_solution
+                duration = -1
+                disaster = great_depression
+            }
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+    }
+
+    #Convene Industry Leaders (Repeatable, required to take decisions)
+    #Cut Taxes
+    #Incentivize Investment
+    #Create Entreprenuers
+    #Expand Production
+    #Invest in Innovation
+    #Explore New Trade Opportunities
+    #Prospect for New Resources
+    #Allow Industrialsts Control of Policy (Add Corporatocracy)
+    #Weaken Worker Rights (Remove Worker Rights)
+    #Protect Domestic Industry (Add Protectionism)
+    #Subsidize Local Business (Add Subsidies)
+    #Cut Regulation (Remove Strict Regulation, Add LF Economics)
+}

@@ -13,6 +13,23 @@
  desc_economic_recession_bailouts:0 "The country has fallen into hard times as factories and businesses close, unemployment rates soar, and people go hungry. The response has been to bailout major corporations, leading to a national uproar and large street protests."
  economic_recession_intervention:0 "Economic Recession: Intervention"
  desc_economic_recession_bailouts:0 "The country has fallen into hard times as factories and businesses close, unemployment rates soar, and people go hungry. The response has been to attempt to use the state to direct economic relief and recovery efforts."
+ economic_boom:0 "Economic Boom"
+ desc_economic_boom:0 "The country is in a time of immense wealth and prosperity."
+
+ economic_bust_stage_1:0 "Economic Bust: Stage 1"
+ desc_economic_bust_stage_1:0 "The boom is gone..."
+ economic_bust_stage_2:0 "Economic Bust: Stage 2"
+ desc_economic_bust_stage_2:0 "The stock market has collapsed..."
+ economic_bust_stage_3:0 "Economic Bust: Stage 3"
+ desc_economic_bust_stage_3:0 "There's been a run on the banks..."
+ economic_bust_stage_4:0 "Economic Bust: Stage 4"
+ desc_economic_bust_stage_4:0 "The banks have been bankrupted..."
+ economic_bust_stage_5:0 "Economic Bust: Stage 5"
+ desc_economic_bust_stage_5:0 "Only the lucky have jobs..."
+ 
+ gd_new_roll_modifier:0 "New Roll"
+ gd_drafting_legislation:0 "Drafting Legislation"
+ gd_market_solution:0 "Market Solution"
 
  expanded_production:0 "Expanded Production"
  desc_expanded_production:0 "The production in this province has been expanded recently, allowing for the manufacturing and export of more goods."

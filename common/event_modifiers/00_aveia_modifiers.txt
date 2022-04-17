@@ -37,6 +37,57 @@
 		interest = -1
 	}
 
+	economic_bust_stage_1 = {
+		development_cost = 0.1
+	}
+
+	economic_bust_stage_2 = {
+		development_cost = 0.25
+		trade_efficiency = -0.1
+	}
+
+	economic_bust_stage_3 = {
+		development_cost = 0.5
+		global_trade_goods_size_modifier = -0.1
+		global_tax_modifier = -0.1
+		trade_efficiency = -0.2
+		interest = 1
+	}
+
+	economic_bust_stage_4 = {
+		development_cost = 0.75
+		global_trade_goods_size_modifier = -0.25
+		global_tax_modifier = -0.2
+		trade_efficiency = -0.2
+		global_unrest = 2
+		interest = 2
+	}
+
+	economic_bust_stage_5 = {
+		development_cost = 1
+		global_trade_goods_size_modifier = -0.5
+		global_tax_modifier = -0.33
+		trade_efficiency = -0.33
+		global_unrest = 4
+		interest = 4
+	}
+
+
+#Disasters
+	#Great Depression
+	gd_new_roll_modifier = {
+		stability_cost_modifier = -0.1
+		global_unrest = -2
+	}
+	gd_drafting_legislation = {
+		all_power_cost = 0.1
+	}
+
+	gd_market_solution = {
+		trade_goods_size = 0.05
+		trade_efficiency = 0.05
+	}
+
 #Missions
 
 	#Iwenlumy
