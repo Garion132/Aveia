@@ -72,6 +72,24 @@
 		interest = 4
 	}
 
+	philanthropy = {
+		global_unrest = -1
+	}
+	offshored_jobs = {
+		local_unrest = 5
+		local_development_cost = 0.05
+		trade_goods_size_modifier = -0.1
+	}
+	child_labor = {
+		global_unrest = 1
+		technology_cost = 0.05
+		global_trade_goods_size_modifier = 0.1
+	}
+	new_innovations = {
+		technology_cost = -0.1
+		idea_cost = -0.1
+	}
+
 
 #Disasters
 	#Great Depression

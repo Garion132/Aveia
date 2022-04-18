@@ -54,6 +54,9 @@ country_event = {
 				modifier = EST_VAL_INDUSTRIALISTS_INDUSTRIALIZATION_20
 			}
 		}
+		NOT = {
+			has_estate_privilege = estate_industrialists_strict_regulations
+		}
 		OR = {
 			cloth = 3
 			iron = 3
@@ -70,6 +73,9 @@ country_event = {
 		}
 		NOT = {
 			has_country_modifier = economic_recession_intervention
+		}
+		NOT = {
+			has_country_flag = great_depression_possible
 		}
 	}
 
@@ -88,7 +94,12 @@ country_event = {
 						trade_goods = machinery
 					}
 				}
-				add_base_production = 1
+				if = {
+					limit = {
+						PREV = { has_country_modifier = economic_boom }
+					}
+					add_base_production = 1
+				}
 			}
 		}
 		add_estate_influence_modifier = {
@@ -129,7 +140,12 @@ country_event = {
 						trade_goods = machinery
 					}
 				}
-				add_base_production = 2
+				if = {
+					limit = {
+						PREV = { has_country_modifier = economic_boom }
+					}
+					add_base_production = 3
+				}
 			}
 		}
 		add_estate_influence_modifier = {
@@ -186,7 +202,12 @@ country_event = {
 						trade_goods = machinery
 					}
 				}
-				add_base_production = 2
+				if = {
+					limit = {
+						PREV = { has_country_modifier = economic_boom }
+					}
+					add_base_production = 2
+				}
 			}
 		}
 		add_estate_influence_modifier = {
@@ -243,6 +264,9 @@ country_event = {
 		NOT = {
 			has_country_modifier = economic_boom
 		}
+		NOT = {
+			has_country_flag = great_depression_possible
+		}
 	}
 
 	
@@ -253,6 +277,8 @@ country_event = {
 			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
 		}
 		
+		add_prestige = -5
+
 		add_country_modifier = {
 			name = economic_recession
 			duration = 1095
@@ -283,6 +309,8 @@ country_event = {
 				has_estate_privilege = estate_industrialists_corporatocracy
 			}
 		}
+		
+		add_prestige = -5
 
 		add_years_of_income = -0.25
 		add_corruption = 5
@@ -329,6 +357,8 @@ country_event = {
 			duration = 3650
 		}
 		
+		add_prestige = -5
+		
 		ai_chance = {
 			factor = 30
 		}
@@ -340,6 +370,9 @@ country_event = {
 			has_estate_privilege = estate_industrialists_laissez_faire_economics
 			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
 		}
+		
+		add_prestige = -5
+
 		add_years_of_income = -0.5
 
 		add_country_modifier = {
@@ -436,7 +469,8 @@ country_event = {
 				}
 				add_base_manpower = 1
 			}
-			
+
+			add_prestige = 10			
 
 			add_country_modifier = {
 				name = economic_boom
@@ -512,6 +546,8 @@ country_event = {
 	option = {
 		name = industrialists_estate_events.4.o1 #Oh...
 
+		add_prestige = -10
+
 		set_country_flag = great_depression_possible
 		remove_country_modifier = economic_boom
 
@@ -539,6 +575,8 @@ country_event = {
 
 	option = {
 		name = industrialists_estate_events.5.o1 #Well...
+
+		add_prestige = -5
 
 		remove_country_modifier = economic_bust_stage_1
 
@@ -572,6 +610,8 @@ country_event = {
 	option = {
 		name = industrialists_estate_events.6.o1 #Uhh...
 
+		add_prestige = -5
+
 		remove_country_modifier = economic_bust_stage_2
 
 		add_country_modifier = {
@@ -603,6 +643,8 @@ country_event = {
 
 	option = {
 		name = industrialists_estate_events.7.o1 #Err...
+
+		add_prestige = -5
 
 		remove_country_modifier = economic_bust_stage_3
 
@@ -636,6 +678,8 @@ country_event = {
 	option = {
 		name = industrialists_estate_events.8.o1 #Umm...
 
+		add_prestige = -5
+		
 		remove_country_modifier = economic_bust_stage_4
 
 		add_country_modifier = {
@@ -646,6 +690,506 @@ country_event = {
 		add_disaster_progress = {
 			disaster = great_depression
 			value = 35
+		}
+	}
+}
+
+#Philanthropy
+country_event = {
+	id = industrialists_estate_events.9
+	title = industrialists_estate_events.9.t
+	desc = industrialists_estate_events.9.d
+	picture = BURGHER_ESTATE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_modifier = philanthropy_modifier }
+	}
+
+	option = {
+		name = industrialists_estate_events.9.o1 #Inspirational
+
+		add_prestige = 5
+		add_country_modifier = {
+			name = philanthropy
+			duration = 3650
+		}
+	}
+}
+
+#Industrialists Demand Less Regulation
+country_event = {
+	id = industrialists_estate_events.10
+	title = industrialists_estate_events.10.t
+	desc = industrialists_estate_events.10.d
+	picture = BURGHER_ESTATE_UPSET_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+		NOT = {	
+			num_of_estate_privileges = {
+				estate = estate_industrialists
+				value = 4
+			}
+		}
+		estate_influence = {
+			estate = estate_industrialists
+			influence = 40
+		}
+	}
+
+	option = {
+		name = industrialists_estate_events.10.o1 #They make good arguments
+
+		if = {
+			limit = {
+				has_estate_privilege = estate_industrialists_strict_regulations
+			}
+			remove_estate_privilege = estate_industrialists_strict_regulations
+		}
+		else_if = {
+			limit = {
+				has_estate_privilege = estate_industrialists_worker_rights
+			}
+			remove_estate_privilege = estate_industrialists_worker_rights
+		}
+		else = {
+			set_estate_privilege = estate_industrialists_laissez_faire_economics
+		}
+
+		if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 60
+				}
+			}
+			#Industrialists expect it
+			add_estate_loyalty = {
+				estate = estate_industrialists
+				loyalty = 5
+			}
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 60
+				}
+			}
+			add_estate_loyalty = {
+				estate = estate_industrialists
+				loyalty = 10
+			}
+		}
+		else = {
+			add_estate_loyalty = {
+				estate = estate_industrialists
+				loyalty = 15
+			}
+		}
+	}
+	option = {
+		name = industrialists_estate_events.10.o2 #Are you crazy?
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+		}
+
+		if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 60
+				}
+			}
+			#Industrialists expect it
+			add_estate_loyalty = {
+				estate = estate_industrialists
+				loyalty = -15
+			}
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 60
+				}
+			}
+			add_estate_loyalty = {
+				estate = estate_industrialists
+				loyalty = -10
+			}
+		}
+		else = {
+			add_estate_loyalty = {
+				estate = estate_industrialists
+				loyalty = -5
+			}
+		}
+	}
+}
+
+#Offshoring
+country_event = {
+	id = industrialists_estate_events.11
+	title = industrialists_estate_events.11.t
+	desc = industrialists_estate_events.11.d
+	picture = BURGHER_ESTATE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			NOT = { has_estate_privilege = estate_industrialists_subsidies }
+			has_estate_privilege = estate_industrialists_strict_regulations
+		}
+		NOT = { has_estate_privilege = estate_industrialists_protectionist_trade_policy }
+		NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+		any_owned_province = {
+			NOT = { has_province_modifier = offshored_jobs }
+		}
+		any_owned_province = {
+			base_production = 5
+		}
+		any_country = {
+			has_estate = estate_industrialists
+			has_estate_privilege = estate_industrialists_laissez_faire_economics
+			any_owned_province = {
+				base_production = 3
+			}
+		}
+		estate_influence = {
+			estate = estate_industrialists
+			influence = 40
+		}
+	}
+
+	immediate = {
+		random_country = {
+			limit = {
+				has_estate = estate_industrialists
+				has_estate_privilege = estate_industrialists_laissez_faire_economics
+			}
+			save_event_target_as = offshore_country
+		}
+	}
+
+	option = {
+		name = industrialists_estate_events.11.o1 #Not much we can do
+		add_prestige = -5
+		event_target:offshore_country = {
+			custom_tooltip = industrialists_offshore_tt
+		}
+		every_owned_province = {
+			limit = {
+				base_production = 5
+			}
+			add_base_production = -1
+			add_province_modifier = { 
+				name = offshored_jobs
+				duration = 1825
+			}
+			hidden_effect = {
+				event_target:offshore_country = {
+					random_owned_province = {
+						limit = {
+							base_production = 3
+						}
+						add_base_production = 1
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = industrialists_estate_events.11.o2 #Provide an incentive for them to stay
+		trigger = {
+			OR = {
+				has_estate_privilege = estate_industrialists_strict_regulations
+				NOT = {	
+					num_of_estate_privileges = {
+						estate = estate_industrialists
+						value = 4
+					}
+				}
+			}
+			NOT = { has_estate_privilege = estate_industrialists_subsidies }
+		}
+
+		if = {
+			limit = {
+				has_estate_privilege = estate_industrialists_strict_regulations
+			}
+			remove_estate_privilege = estate_industrialists_strict_regulations
+			
+			add_estate_loyalty = {
+				estate = estate_industrialists
+				loyalty = 10
+			}
+		}
+		else = {
+			set_estate_privilege = estate_industrialists_subsidies
+			
+			add_estate_loyalty = {
+				estate = estate_industrialists
+				loyalty = 5
+			}
+
+			custom_tooltip = no_more_offshoring_tt
+		}
+	}
+	option = {
+		name = industrialists_estate_events.11.o3 #Lessen the Competitiveness of Foreign Goods
+		trigger = {
+			NOT = {	
+				num_of_estate_privileges = {
+					estate = estate_industrialists
+					value = 4
+				}
+			}
+			NOT = { has_estate_privilege = estate_industrialists_protectionist_trade_policy }
+		}
+
+		set_estate_privilege = estate_industrialists_protectionist_trade_policy
+		
+
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -5
+		}
+
+		custom_tooltip = no_more_offshoring_tt
+	}
+	option = {
+		name = industrialists_estate_events.11.o4 #When did we approve this?
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+		}
+
+		add_adm_power = -100
+		add_dip_power = -50
+		add_mil_power = -50
+
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -10
+		}
+	}
+}
+
+#Child Labor
+country_event = {
+	id = industrialists_estate_events.12
+	title = industrialists_estate_events.12.t
+	desc = industrialists_estate_events.12.d
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+		NOT = { has_country_modifier = child_labor }
+	}
+
+	option = {
+		name = industrialists_estate_events.12.o1 #They're doing hard work
+
+		add_country_modifier = {
+			name = child_labor
+			duration = 3650
+		}
+
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_CHILD_LABOR
+			influence = 5
+			duration = 3650
+		}
+	}
+	option = {
+		name = industrialists_estate_events.12.o1 #This is wrong!
+		trigger = {
+			NOT = {	
+				num_of_estate_privileges = {
+					estate = estate_industrialists
+					value = 4
+				}
+			}
+			#Reqs for worker rights
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+			NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+			NOT = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 80
+				}
+			}
+		}
+
+		add_adm_power = -100
+		add_dip_power = -25
+		
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -15
+		}
+		set_estate_privilege = estate_industrialists_worker_rights
+	}
+}
+
+#Worker Strikes
+country_event = {
+	id = industrialists_estate_events.13
+	title = industrialists_estate_events.13.t
+	desc = industrialists_estate_events.13.d
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+		any_owned_province = {
+			OR = {
+				trade_goods = cloth
+				trade_goods = iron
+				trade_goods = coal
+				trade_goods = glass
+				trade_goods = machinery
+				#trade_goods = manufactured_goods
+			}
+		}
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				trade_goods = cloth
+				trade_goods = iron
+				trade_goods = coal
+				trade_goods = glass
+				trade_goods = machinery
+				#trade_goods = manufactured_goods
+			}
+			save_event_target_as = strike_prov
+		}
+	}
+
+	option = {
+		name = industrialists_estate_events.13.o1 #Crush them!
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+		}
+
+		event_target:strike_prov = {
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 3
+			}
+		}
+
+	}
+	option = {
+		name = industrialists_estate_events.13.o1 #They have a point...
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_STRIKE
+			influence = -10
+			duration = 3650
+		}
+	}
+}
+
+#New Innovations
+country_event = {
+	id = industrialists_estate_events.14
+	title = industrialists_estate_events.14.t
+	desc = industrialists_estate_events.14.d
+	picture = INVENTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_estate_privilege = estate_industrialists_strict_regulations }
+		NOT = { has_country_modifier = new_innovations }
+	}
+
+	option = {
+		name = industrialists_estate_events.14.o1 #Brilliant!
+
+		add_prestige = 10
+		if = {
+			limit = {
+				has_estate_privilege = laissez_faire_economics
+			}
+			random_list = {
+				33 = {
+					add_adm_tech = 1
+				}
+				33 = {
+					add_dip_tech = 1
+				}
+				33 = {
+					add_mil_tech = 1
+				}
+			}
+		}
+		else = {
+			random_list = {
+				33 = {
+					add_adm_power = 100
+				}
+				33 = {
+					add_dip_power = 100
+				}
+				33 = {
+					add_mil_power = 100
+				}
+			}
+		}
+		add_country_modifier = {
+			name = new_innovations
+			duration = 3650
+		}
+	}
+}
+
+#Rags to Riches
+country_event = {
+	id = industrialists_estate_events.15
+	title = industrialists_estate_events.15.t
+	desc = industrialists_estate_events.15.d
+	picture = BURGHER_ESTATE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_estate_privilege = estate_industrialists_strict_regulations }
+	}
+
+	option = {
+		name = industrialists_estate_events.15.o1 #What a story
+
+		add_prestige = 5
+		add_years_of_income = 0.25
+	}
+	option = {
+		name = industrialists_estate_events.15.o2 #Get him in our court!
+
+		define_advisor = {
+			type = industrialist
+			skill = 3
+			discount = yes
 		}
 	}
 }

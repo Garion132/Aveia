@@ -49,6 +49,8 @@
  EST_VAL_INDUSTRIALISTS_BUST:0 "Economic Bust: §Y-10.0%§!"
  EST_VAL_INDUSTRIALISTS_BAILOUTS:0 "Bailouts: §Y+10.0%§!"
  EST_VAL_INDUSTRIALISTS_BOOM:0 "Economic Boom: §Y+10.0%§!"
+ EST_VAL_INDUSTRIALISTS_CHILD_LABOR:0 "Child Labor: §Y+5.0%§!"
+ EST_VAL_INDUSTRIALISTS_STRIKE:0 "Worker Strike: §Y+10.0%§!"
 
  estate_industrialists_land_rights:0 "Industrialists' Land Grants"
  estate_industrialists_corporatocracy:0 "Corporatocracy"
@@ -102,3 +104,40 @@
  industrialists_estate_events.8.t:0 "Unemployment Soars"
  industrialists_estate_events.8.d:0 ""
  industrialists_estate_events.8.o1:0 "Umm..."
+ 
+ industrialists_estate_events.9.t:0 "Philanthropy"
+ industrialists_estate_events.9.d:0 "A large industrialist has felt burdened by his lack of social responsibility and has donated large sums of his wealth to the well-being of the poor! While the company he owns is mired in controversy over worker pay and safety, those who were given money are much better off. Besides, who would be so ungrateful to criticize this move?"
+ industrialists_estate_events.9.o1:0 "Inspirational"
+
+ industrialists_estate_events.10.t:0 "Industrialists Demand Less Regulation"
+ industrialists_estate_events.10.d:0 "A group of industrialists have come forward to us arguing that we should lessen the 'burdensome hand of the state' over them and give them more breathing room. This, they say, will increase economic growth and further the prosperity of the country. Some of our advisors have bought the idea, others appear more skeptical. The most fervent skeptics argue that this could whither away the power of the state and make us more vulnerable to corporate influence."
+ industrialists_estate_events.10.o1:0 "They make good arguments"
+ industrialists_estate_events.10.o2:0 "Are you crazy?"
+ 
+ industrialists_estate_events.11:0 "Offshoring"
+ industrialists_estate_events.11.d:0 "Several of our largest corporations have decided to start offshoring many of their lower-level manufacturing to other countries which have a more favorable labor market and regulatory environment. They leave behind many angry workers in our own country as they lose jobs to foreigners."
+ industrialists_estate_events.11.o1:0 "Not much we can do"
+ industrialists_estate_events.11.o2:0 "Provide an incentive for them to stay"
+ industrialists_estate_events.11.o3:0 "Lessen the Competitiveness of Foreign Goods"
+ industrialists_estate_events.11.o4:0 "When did we approve this?"
+ industrialists_offshore_tt:0 "Gains §Y1§! Base Production for every Base Production you lose."
+ no_more_offshoring_tt:0 "\nYou will no longer get §YOffshoring§! events so long as this privilege is active."
+
+ industrialists_estate_events.12.t:0 "Child Labor"
+ industrialists_estate_events.12.d:0 "Many of our large corporations use child labor to achieve higher profit margins as they can pay children less. However, there have been recent protests to outlaw child labor so children stay in schools, though this may reduce our industry's productivity."
+ industrialists_estate_events.12.o1:0 "They're doing hard work"
+ industrialists_estate_events.12.o2:0 "This is wrong!"
+
+ industrialists_estate_events.13.t:0 "Worker Strike"
+ industrialists_estate_events.13.d:0 "Workers in a factory have had enough and decided that they would walk out and refuse to work until satisfactory conditions in the workplace were met. The owners of the factory have called the strike a breach of contract and an occupation and have called upon us to crush the strikers."
+ industrialists_estate_events.13.o1:0 "Crush them!"
+ industrialists_estate_events.13.o2:0 "#They have a point..."
+
+ industrialists_estate_events.14.t:0 "New Innovations"
+ industrialists_estate_events.14.d:0 "One of our many inventors has come up with a new invention that will drastically move us forward technologically."
+ industrialists_estate_events.14.o1:0 "Brilliant!"
+
+ industrialists_estate_events.15.t:0 "Rags to Riches"
+ industrialists_estate_events.15.d:0 ""
+ industrialists_estate_events.15.o1:0 "What a story"
+ industrialists_estate_events.15.o2:0 "Get him in our court!"

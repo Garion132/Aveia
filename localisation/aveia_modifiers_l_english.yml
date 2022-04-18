@@ -26,7 +26,16 @@
  desc_economic_bust_stage_4:0 "The banks have been bankrupted..."
  economic_bust_stage_5:0 "Economic Bust: Stage 5"
  desc_economic_bust_stage_5:0 "Only the lucky have jobs..."
- 
+
+ philanthropy:0 "Philanthropy"
+ desc_philanthropy:0 "A large industrialist has donated a large sum of money to the well-being of the poor and downtrodden."
+ offshored_jobs:0 "Offshored Jobs"
+ desc_offshored_jobs:0 "Many factories here have relocated to greener pastures. They leave behind workers who lack work.\n\n§GCan be removed by developing production.§!"
+ child_labor:0 "Child Labor"
+ desc_child_labor:0 "Our factories are using child labor."
+ new_innovations:0 "New Innovations"
+ desc_new_innovations:0 "New inventions are spreading."
+
  gd_new_roll_modifier:0 "New Roll"
  gd_drafting_legislation:0 "Drafting Legislation"
  gd_market_solution:0 "Market Solution"

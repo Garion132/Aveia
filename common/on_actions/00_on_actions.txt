@@ -828,6 +828,12 @@ on_adm_development = {
 
 # province
 on_dip_development = {
+	if = {
+		limit = {
+			has_province_modifier = offshored_jobs
+		}
+		remove_province_modifier = offshored_jobs
+	}
 }
 
 # province
@@ -1837,10 +1843,18 @@ on_five_year_pulse_2 = {
 		150 = tribal_estate_events.14 #Demands
 
 		#Industrialists
-		100 = industrialists_estate_events.1 #Rapid Industrialization
+		200 = industrialists_estate_events.1 #Rapid Industrialization
 		300 = industrialists_estate_events.2 #Recession
 		200 = industrialists_estate_events.3 #Boom
 		25 = industrialists_estate_events.4 #Bust (Great Depression)
+		100 = industrialists_estate_events.9 #Philanthropy
+		300 = industrialists_estate_events.10 #Demand Less Regulation
+		100 = industrialists_estate_events.11 #Offshoring
+		100 = industrialists_estate_events.12 #Child Labor
+		200 = industrialists_estate_events.13 #Worker Strike
+		100 = industrialists_estate_events.14 #New Innovations
+		100 = industrialists_estate_events.15 #Rags to Riches
+
 
 		# Random
 		1000 = 0
