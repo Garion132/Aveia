@@ -98,6 +98,9 @@ country_event = {
 					limit = {
 						PREV = { has_country_modifier = economic_boom }
 					}
+					add_base_production = 2
+				}
+				else = {
 					add_base_production = 1
 				}
 			}
@@ -145,6 +148,9 @@ country_event = {
 						PREV = { has_country_modifier = economic_boom }
 					}
 					add_base_production = 3
+				}
+				else = {
+					add_base_production = 2
 				}
 			}
 		}
@@ -207,6 +213,9 @@ country_event = {
 						PREV = { has_country_modifier = economic_boom }
 					}
 					add_base_production = 2
+				}
+				else = {
+					add_base_production = 1
 				}
 			}
 		}

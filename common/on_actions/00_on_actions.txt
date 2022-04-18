@@ -1482,7 +1482,7 @@ on_four_year_pulse_4 = {
 		100 = industrialists_estate_events.15 #Rags to Riches
 
 		
-		1000 = 0
+		0 = 0
 	}
 }
 

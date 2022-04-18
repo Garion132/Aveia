@@ -1,5 +1,5 @@
 estate_industrialists ={
-	icon = 3
+	icon = 4
 
 	# If true, country will get estate
 	trigger = {	

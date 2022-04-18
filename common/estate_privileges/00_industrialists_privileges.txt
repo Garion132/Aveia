@@ -141,6 +141,12 @@ estate_industrialists_worker_rights = {
 			loyalty = -15
 		}
 	}
+	on_revoked = {
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = 20
+		}
+	}
 	penalties = {
 		global_trade_goods_size_modifier = -0.1
 	}
@@ -170,6 +176,12 @@ estate_industrialists_strict_regulations = {
 		}
 	}
 	on_granted = {
+	}
+	on_revoked = {
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = 20
+		}
 	}
 	penalties = {
 		development_cost = 0.1
