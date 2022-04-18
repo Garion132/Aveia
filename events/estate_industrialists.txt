@@ -704,6 +704,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		has_estate = estate_industrialists
 		NOT = { has_country_modifier = philanthropy_modifier }
 	}
 
@@ -728,6 +729,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		has_estate = estate_industrialists
 		NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
 		NOT = {	
 			num_of_estate_privileges = {
@@ -842,6 +844,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		has_estate = estate_industrialists
 		OR = {
 			NOT = { has_estate_privilege = estate_industrialists_subsidies }
 			has_estate_privilege = estate_industrialists_strict_regulations
@@ -990,6 +993,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		has_estate = estate_industrialists
 		NOT = { has_estate_privilege = estate_industrialists_worker_rights }
 		NOT = { has_country_modifier = child_labor }
 	}
@@ -1010,7 +1014,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = industrialists_estate_events.12.o1 #This is wrong!
+		name = industrialists_estate_events.12.o2 #This is wrong!
 		trigger = {
 			NOT = {	
 				num_of_estate_privileges = {
@@ -1031,11 +1035,7 @@ country_event = {
 
 		add_adm_power = -100
 		add_dip_power = -25
-		
-		add_estate_loyalty = {
-			estate = estate_industrialists
-			loyalty = -15
-		}
+
 		set_estate_privilege = estate_industrialists_worker_rights
 	}
 }
@@ -1050,6 +1050,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		has_estate = estate_industrialists
 		NOT = { has_estate_privilege = estate_industrialists_worker_rights }
 		any_owned_province = {
 			OR = {
@@ -1066,12 +1067,14 @@ country_event = {
 	immediate = {
 		random_owned_province = {
 			limit = {
-				trade_goods = cloth
-				trade_goods = iron
-				trade_goods = coal
-				trade_goods = glass
-				trade_goods = machinery
-				#trade_goods = manufactured_goods
+				OR = {
+					trade_goods = cloth
+					trade_goods = iron
+					trade_goods = coal
+					trade_goods = glass
+					trade_goods = machinery
+					#trade_goods = manufactured_goods
+				}
 			}
 			save_event_target_as = strike_prov
 		}
@@ -1086,13 +1089,13 @@ country_event = {
 		event_target:strike_prov = {
 			spawn_rebels = {
 				type = anti_tax_rebels
-				size = 3
+				size = 4
 			}
 		}
 
 	}
 	option = {
-		name = industrialists_estate_events.13.o1 #They have a point...
+		name = industrialists_estate_events.13.o2 #They have a point...
 		trigger = {
 			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
 		}
@@ -1120,6 +1123,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		has_estate = estate_industrialists
 		NOT = { has_estate_privilege = estate_industrialists_strict_regulations }
 		NOT = { has_country_modifier = new_innovations }
 	}
@@ -1130,7 +1134,7 @@ country_event = {
 		add_prestige = 10
 		if = {
 			limit = {
-				has_estate_privilege = laissez_faire_economics
+				has_estate_privilege = estate_industrialists_laissez_faire_economics
 			}
 			random_list = {
 				33 = {
@@ -1174,6 +1178,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		has_estate = estate_industrialists
 		NOT = { has_estate_privilege = estate_industrialists_strict_regulations }
 	}
 

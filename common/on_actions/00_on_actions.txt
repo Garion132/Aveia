@@ -1467,6 +1467,23 @@ on_four_year_pulse_3 = {
 }
 
 on_four_year_pulse_4 = {
+	random_events = {
+		#Industrialists
+		200 = industrialists_estate_events.1 #Rapid Industrialization
+		300 = industrialists_estate_events.2 #Recession
+		200 = industrialists_estate_events.3 #Boom
+		25 = industrialists_estate_events.4 #Bust (Great Depression)
+		100 = industrialists_estate_events.9 #Philanthropy
+		300 = industrialists_estate_events.10 #Demand Less Regulation
+		100 = industrialists_estate_events.11 #Offshoring
+		100 = industrialists_estate_events.12 #Child Labor
+		200 = industrialists_estate_events.13 #Worker Strike
+		100 = industrialists_estate_events.14 #New Innovations
+		100 = industrialists_estate_events.15 #Rags to Riches
+
+		
+		1000 = 0
+	}
 }
 
 #Middle Idea Group Events
@@ -1841,19 +1858,6 @@ on_five_year_pulse_2 = {
 		150 = tribal_estate_events.12 #Demands
 		150 = tribal_estate_events.13 #Demands
 		150 = tribal_estate_events.14 #Demands
-
-		#Industrialists
-		200 = industrialists_estate_events.1 #Rapid Industrialization
-		300 = industrialists_estate_events.2 #Recession
-		200 = industrialists_estate_events.3 #Boom
-		25 = industrialists_estate_events.4 #Bust (Great Depression)
-		100 = industrialists_estate_events.9 #Philanthropy
-		300 = industrialists_estate_events.10 #Demand Less Regulation
-		100 = industrialists_estate_events.11 #Offshoring
-		100 = industrialists_estate_events.12 #Child Labor
-		200 = industrialists_estate_events.13 #Worker Strike
-		100 = industrialists_estate_events.14 #New Innovations
-		100 = industrialists_estate_events.15 #Rags to Riches
 
 
 		# Random

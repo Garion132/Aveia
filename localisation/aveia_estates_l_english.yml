@@ -114,7 +114,7 @@
  industrialists_estate_events.10.o1:0 "They make good arguments"
  industrialists_estate_events.10.o2:0 "Are you crazy?"
  
- industrialists_estate_events.11:0 "Offshoring"
+ industrialists_estate_events.11.t:0 "Offshoring"
  industrialists_estate_events.11.d:0 "Several of our largest corporations have decided to start offshoring many of their lower-level manufacturing to other countries which have a more favorable labor market and regulatory environment. They leave behind many angry workers in our own country as they lose jobs to foreigners."
  industrialists_estate_events.11.o1:0 "Not much we can do"
  industrialists_estate_events.11.o2:0 "Provide an incentive for them to stay"
