@@ -54,13 +54,43 @@ crisis_of_the_12th_century = {
 			}
 			has_country_flag = RAU_crisis_12th_ongoing
 		}
+		hidden_trigger={
+			NOT={has_country_flag = RAU_crisis_12th}
+		}
 	}
 	
 	can_stop = {
 		OR = {
 			has_any_disaster = yes
 			NOT = { unrest = 0 }
+			AND={
+				estate_loyalty = {
+					estate = estate_house_etailia
+					loyalty = 30
+				}
+				estate_loyalty = {
+					estate = estate_house_kethai
+					loyalty = 30
+				}
+				estate_loyalty = {
+					estate = estate_house_nyletmi
+					loyalty = 30
+				}
+				estate_loyalty = {
+					estate = estate_house_draumi
+					loyalty = 30
+				}
+				estate_loyalty = {
+					estate = estate_house_lidori
+					loyalty = 30
+				}
+				estate_loyalty = {
+					estate = estate_house_celola
+					loyalty = 30
+				}
+			}
 		}
+		
 	}
 	
 	
@@ -142,6 +172,9 @@ crisis_of_the_12th_century = {
 
 	
 	can_end = {
+		hidden_trigger={
+			has_country_flag = RAU_crisis_12th
+		}
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		NOT = { num_of_rebel_armies = 1 }
 		NOT = { unrest = 1 }

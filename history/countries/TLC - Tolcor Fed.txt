@@ -1,0 +1,30 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = shireate
+religion = tlaunorist
+technology_group = free_fauns_group
+capital = 2372 # 
+#national_focus = DIP
+historical_rival = PAR
+
+1268.9.16 = {
+	monarch = {
+		name = "Telkor II"
+		dynasty = "Vakid"
+		birth_date = 1211.8.24
+		adm = 4
+		dip = 6
+		mil = 0
+	}
+	heir = {
+    	name = "Telkor"
+		monarch_name = "Telkor III"
+    	dynasty = "Vakid"
+    	birth_date = 1253.11.9
+		death_date = 1317.3.7
+    	claim = 84
+    	adm = 3
+    	dip = 5
+    	mil = 2
+	}
+}

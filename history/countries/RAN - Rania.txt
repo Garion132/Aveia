@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = shireate
+religion = tlaunorist
+technology_group = free_fauns_group
+capital = 2394 # 
+#national_focus = DIP
+#historical_rival = HAB

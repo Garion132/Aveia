@@ -1091,3 +1091,33 @@ country_event = {
 		}
 	}
 }
+
+# breaking free
+country_event = {
+	id = elteria_event.20
+	title = elteria_event.20.t
+	desc = elteria_event.20.d
+	
+	
+	#major = yes
+	
+	trigger = {
+		is_year = 1280
+		tag = FRY
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 70
+	}
+
+	option = {
+		name = elteria_event.20.a
+		grant_independence = yes
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = elteria_event.20.b
+		ai_chance = { factor = 0 }
+	}
+}

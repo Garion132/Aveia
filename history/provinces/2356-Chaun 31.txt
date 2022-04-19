@@ -1,6 +1,7 @@
 #Chaun 
 
 add_core = CHA
+add_core = XOI
 owner = CHA
 controller = CHA
 culture = shireate

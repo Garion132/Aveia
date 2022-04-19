@@ -3,11 +3,12 @@ merc_ardaran_guard = {
     regiments_per_development = 0.05
 	cost_modifier = 0.25
 	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
+	home_province = 2224
     trigger = {
 		OR = {
 			primary_culture = gugh
 			capital_scope = { 
-				region = gugh
+				region = gugh_region
 			}
 		}
 		religion = roresist

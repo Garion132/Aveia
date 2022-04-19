@@ -1,0 +1,20 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = shireate
+religion = tlaunorist
+government_rank = 1
+technology_group = free_fauns_group
+capital = 2383 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+1268.9.16 = {
+	monarch = {
+		name = "Rathni"
+		dynasty = "Teli"
+		birth_date = 1247.7.18
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}

@@ -1,0 +1,35 @@
+government = bronze_monarchy
+add_government_reform = drakonic_throne
+primary_culture = rake
+religion = vulikivite
+government_rank = 1
+technology_group = lake_elves_group
+add_accepted_culture = tesmon
+capital = 2136 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1240.9.16 = {
+	monarch = {
+		name = "Filler"
+		dynasty = "Layac"
+		birth_date = 1240.12.3
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

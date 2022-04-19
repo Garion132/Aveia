@@ -75,6 +75,28 @@ vassal = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
+# Tolcor Fed.
+dependency = {
+	subject_type = "tolcar_federate"
+	first = TLC
+	second = ZEM
+	start_date = 1272.1.1
+	end_date = 1532.4.22
+}
+dependency = {
+	subject_type = "tolcar_federate"
+	first = TLC
+	second = IRL
+	start_date = 1272.1.1
+	end_date = 1532.4.22
+}
+#semiol union over Uremia
+union = {
+	first = SEM
+	second = URE
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
 
 dependency = {
 	subject_type = "tributary_state"

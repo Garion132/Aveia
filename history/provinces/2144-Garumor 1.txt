@@ -1,8 +1,8 @@
 #Garumor 
 
-add_core = GAR
-owner = GAR
-controller = GAR
+add_core = DEM
+owner = DEM
+controller = DEM
 culture = garumok
 religion = vulikivite
 hre = yes

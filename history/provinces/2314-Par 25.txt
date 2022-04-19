@@ -1,7 +1,7 @@
 #Shires 
 
 add_core = PAR
-add_core = CEN
+add_core = CAN
 owner = PAR
 controller = PAR
 culture = shireate
@@ -14,6 +14,7 @@ trade_goods = fish
 capital = "Sal"
 is_city = yes
 discovered_by = lake_elves_group
+discovered_by = free_fauns_group
 discovered_by = northern_drake_group
 discovered_by = sea_elves_group
 discovered_by = ork_group

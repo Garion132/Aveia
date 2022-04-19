@@ -627,7 +627,9 @@
  PROV2319:0 "Zhifa"
  PROV2320:0 "Mytnor"
  PROV2321:0 "Elferinde"
-
+ 
+ PROV2324:0 "Zemtua"
+ PROV2325:0 "Irlos"
  PROV2326:0 "Umasethes"
 
  PROV2366:0 "Yesatlund"
@@ -635,14 +637,26 @@
  PROV2368:0 "Xii"
  PROV2369:0 "Loria"
  PROV2370:0 "Xaqi"
+ PROV2371:0 "Ohil"
+ PROV2372:0 "Tolcor"
  
  PROV2376:0 "Vanae"
+ PROV2377:0 "Soldid"
  PROV2378:0 "Treqa"
- 
+ PROV2379:0 "Cuori"
+ PROV2380:0 "Tilr"
  PROV2381:0 "Xura"
  PROV2382:0 "Teli"
+ PROV2383:0 "Telik"
  
+ PROV2385:0 "Cavci"
+ PROV2386:0 "Malfords"
+ 
+ PROV2388:0 "Suoe"
+ 
+ PROV2390:0 "Zxea"
  PROV2391:0 "Salae"
+ PROV2391:0 "Xaci"
 
  PROV2398:0 "Hounfair"
  PROV2400:0 "Brokenskull Beach"

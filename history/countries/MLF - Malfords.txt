@@ -1,0 +1,9 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = shemsele
+religion = tlaunorist
+government_rank = 1
+technology_group = lake_elves_group
+capital = 2386 # 
+#national_focus = DIP
+#historical_rival = HAB

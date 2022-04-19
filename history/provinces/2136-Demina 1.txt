@@ -1,8 +1,8 @@
 #Demina 
 
-add_core = DEM
-owner = DEM
-controller = DEM
+add_core = LAY
+owner = LAY
+controller = LAY
 culture = tesmon
 religion = vulikivite
 hre = yes

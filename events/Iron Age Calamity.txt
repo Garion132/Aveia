@@ -1784,6 +1784,7 @@ country_event = {
 	
 	option = {	# He shall led us
 		name = "iron_age_calamity.200.opt.a"
+		grant_independence = yes
 		define_ruler = {
 			dynasty = "Ghandrim"
 			culture = ROOT
@@ -1931,11 +1932,14 @@ country_event = {#sweaping south
 	
 	trigger={
 		has_ruler_flag = mannish_iron_crown
-		NOT={
-			any_country = {
-				primary_culture = ROOT
-				is_subject = no
+		OR={
+			NOT={
+				any_country = {
+					primary_culture = ROOT
+					is_subject = no
+				}
 			}
+			is_at_war = no
 		}
 	}
 	fire_only_once = yes
@@ -2753,7 +2757,7 @@ country_event = {#sweaping south
 				NOT={total_development = 800}
 				OR={
 					has_disaster = crisis_of_the_12th_century
-					NOT={stability = 0}
+					NOT={stability = 2}
 				}
 				NOT={defensive_war_with = GGD}
 				tag = RAU
@@ -2792,6 +2796,7 @@ country_event = {#sweaping south
 				end_disaster = iron_age_calamity
 				end_disaster = crisis_of_the_12th_century
 				change_tag = LIN
+				set_government_rank = 2
 				
 				add_prestige = -50
 				add_stability = 1

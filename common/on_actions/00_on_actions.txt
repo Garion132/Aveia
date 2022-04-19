@@ -219,6 +219,20 @@ on_siege_won_country = {
 		10 = army_professionalism_events.1 #City Sacked
 		100 = 0
 	}
+	#province effects for the great conquest
+	if={
+		limit={
+			has_ruler_flag = great_conquest_cb_user
+		}
+		from={cede_province = root}
+	}
+	if={
+		limit={
+			from={owner={has_ruler_flag = great_conquest_cb_user}}
+			is_core = root
+		}
+		from={cede_province = root}
+	}
 }
 
 # country
@@ -253,21 +267,7 @@ on_siege_won_province = {
 # province
 # root = location, from = winning country
 on_siege_lost_province =  {
-	#province effects for the great conquest
-	if={
-		limit={
-			from={has_ruler_flag = great_conquest_cb_user}
-		}
-		cede_province = from
-	}
-	if={
-		limit={
-			owner={has_ruler_flag = great_conquest_cb_user}
-			from={is_core = root}
-			
-		}
-		cede_province = from
-	}
+	
 }
 
 # province

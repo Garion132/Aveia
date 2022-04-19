@@ -31,4 +31,14 @@ change_estate_land_share = {
 		dip = 4
 		mil = 3
 	}
+	heir = {
+    	name = "Ritar"
+    	dynasty = "Teli"
+    	birth_date = 1268.1.7
+		death_date = 1341.1.28
+    	claim = 95
+    	adm = 5
+    	dip = 3
+    	mil = 3
+	}
 }

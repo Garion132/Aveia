@@ -93,7 +93,7 @@ KAF_ideas = {
 FRY_ideas = {
 	start = {
 		colonists = 1
-		global_colonial_growth = 25
+		global_colonial_growth = 33
 		range = -0.8
 		global_tax_income = 18
 	}

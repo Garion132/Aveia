@@ -30,6 +30,7 @@
 
 # Forward declaring all subject types so they can refer to each other in triggers etc.
 vassal = {}
+tolcar_federate = {}
 march = {}
 daimyo_vassal = {}
 personal_union = {}
@@ -38,7 +39,8 @@ client_march = {}
 colony = {}
 crown_colony = {}
 private_enterprise = {}
-self_governing_colony = {}tributary_state = {}
+self_governing_colony = {}
+tributary_state = {}
 dominion_vassal={}
 
 default = {
@@ -268,6 +270,40 @@ march = {
 		}
 		expiration_message_overlord = MARCHTOOLARGE
 		expiration_message_subject = MARCHTOOLARGEUS
+	}
+}
+
+tolcar_federate = {
+	copy_from = vassal
+	
+	# Graphics:
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
+	diplomacy_subject_sprite = GFX_diplomacy_amvassal
+
+	# Properties:
+	base_liberty_desire = -5.0
+	can_be_annexed = no
+	forms_trade_companies = no
+	can_have_subjects_of_other_types = yes
+	
+	relative_power_class = 1
+
+
+	# Subject Interactions:
+	subsidize_armies = yes
+	seize_territory = no
+
+	
+
+	# Modifiers:
+	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+	modifier_subject = clear #Ditto
+	modifier_subject = {
+		modifier = subject_nation
+	}
+	modifier_overlord = {
+		modifier = vassal_subject
 	}
 }
 

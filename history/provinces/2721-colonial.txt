@@ -1,4 +1,7 @@
 #shires
+add_core = CIL
+owner = CIL
+controller = CIL
 culture = shireate
 religion = tlaunorist
 capital = "colonial"
@@ -11,6 +14,7 @@ native_size = 50
 native_ferocity = 2
 native_hostileness = 8
 discovered_by = lake_elves_group
+discovered_by = free_fauns_group
 discovered_by = northern_drake_group
 discovered_by = sea_elves_group
 discovered_by = ork_group

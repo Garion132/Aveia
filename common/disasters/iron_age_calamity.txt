@@ -130,6 +130,9 @@ iron_age_calamity = {
 			50 = iron_age_calamity.1003
 			50 = iron_age_calamity.1004
 			50 = iron_age_calamity.1007
+			50 = iron_age_calamity.1008
+			50 = iron_age_calamity.1009
+			50 = iron_age_calamity.1010
 		}
 	}
 }

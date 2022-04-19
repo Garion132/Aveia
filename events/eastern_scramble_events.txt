@@ -3004,14 +3004,17 @@ country_event = {#force 1.33 ai to colonise, because they are not
 		num_of_colonists = 1
 		NOT={development = 50}
 		NOT={num_of_colonies = 1}
-		capital_scope = {
-			OR={
-				region = qirdud_region
-				region = anoric_region
-				region = rogosian_heights_region
-				region = vortingrad_region
-				region = windsweaps_region
+		OR={
+			capital_scope = {
+				OR={
+					region = qirdud_region
+					region = anoric_region
+					region = rogosian_heights_region
+					region = vortingrad_region
+					region = windsweaps_region
+				}
 			}
+			is_subject_of_type = colony_elteria_start
 		}
 		
 	}

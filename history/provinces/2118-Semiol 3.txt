@@ -1,8 +1,8 @@
 #Semiol 
 
-add_core = SEM
-owner = SEM
-controller = SEM
+add_core = URE
+owner = URE
+controller = URE
 culture = wisma
 religion = vulikivite
 hre = yes
