@@ -120,6 +120,7 @@ THL = "countries/Thilrana.txt"
 	URE = "countries/Urema.txt"
 	TAU = "countries/Taulwa.txt"
 	LAY = "countries/Layac.txt"
+	UNH = "countries/Unhar.txt"
 	#uncivilised kolbolds
 	VEN = "countries/Vendre.txt"
 	MOG = "countries/Moggan.txt"

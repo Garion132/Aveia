@@ -1,9 +1,9 @@
 #Garumor 
 
-add_core = GAR
-owner = GAR
-controller = GAR
-culture = garumok
+add_core = UNH
+owner = UNH
+controller = UNH
+culture = rake
 religion = vulikivite
 hre = yes
 base_tax = 2
@@ -17,4 +17,3 @@ discovered_by = northern_drake_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 extra_cost = 0
-fort_14th = yes

@@ -1,9 +1,9 @@
 #Lorla 
 
-add_core = LOR
-owner = LOR
-controller = LOR
-culture = loroik
+add_core = SUS
+owner = SUS
+controller = SUS
+culture = tmiik
 religion = vulikivite
 hre = yes
 base_tax = 3
