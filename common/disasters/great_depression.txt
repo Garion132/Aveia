@@ -101,7 +101,7 @@ great_depression = {
 		events = {
 		}
 		random_events = { 
-			1200 = 0
+			800 = 0
 			50 = bust_events.100 #Recovery Stumbles
 			100 = bust_events.101 #Shops Shutter
 			100 = bust_events.102 #Factories Fold
