@@ -84,6 +84,10 @@
 
  depression_recovery_var:0 "Depression Recovery"
  depression_recovery_var_increase_1_tt:0 "Add §G1§! §YDepression Recovery Point§!\n"
+ depression_recovery_var_increase_2_tt:0 "Add §G2§! §YDepression Recovery Points§!\n"
+ depression_recovery_var_increase_3_tt:0 "Add §G3§! §YDepression Recovery Points§!\n"
+ depression_recovery_var_decrease_1_tt:0 "Remove §R1§! §YDepression Recovery Point§!\n"
+ depression_recovery_var_decrease_2_tt:0 "Remove §R2§! §YDepression Recovery Points§!\n"
 
  gd_end_the_depression_title:0 "End the Depression"
 
@@ -96,4 +100,28 @@
  bust_events.0.d:0 "Factories are closed. Shops are shuttered. Men wander the streets for work. Women and Children go hungry. Large slums have been erected in our wealthiest cities. Even the wealthiest have been touched.\n\nThe only hope for many is what will we do?"
  bust_events.0.a:0 "At least the only direction to go is up"
  gd_recovery_req_tt:0 "You need to get at least §G10§! §YDepression Recovery Points§! or §G3§! §YDepression Recovery points§! and be at war with a country who is §YStronger§! than you.\n\nYou attain §YDepression Recovery Points§! by taking §YDecisions§!."
+
+ bust_events.1.t:0 "The Worst is Over"
+ bust_events.1.d:0 "The worst of the Great Depression is over. Jobs are available once again, the stock market, while still down, has largely recovered, and new businesses are beginning to be established again."
+ bust_events.1.a:0 "We can now move forward."
+
+ bust_events.100.t:0 "Recovery Stumbles"
+ bust_events.100.d:0 "Though many gains have been made through the Depression to put the economy on the track of recovery, it appears as though we are going through a recession in the middle of this crisis. Unemployment is on the rise again and many industries that reoppened have now closed again."
+ bust_events.100.a:0 "Just when we were seeing the light"
+ bust_events.100.b:0 "Pump more cash into the system!"
  
+ bust_events.101.t:0 "Shops Shutter"
+ bust_events.101.d:0 ""
+ bust_events.101.a:0 "Damn"
+
+ bust_events.102.t:0 "Factories Fold"
+ bust_events.102.d:0 "Shops Shutter"
+ bust_events.102.a:0 "Damn"
+
+ bust_events.103.t:0 "Cities Crumble"
+ bust_events.103.d:0 ""
+ bust_events.103.a:0 "Damn"
+
+ bust_events.104.t:0 "Consumer Markets Recover"
+ bust_events.104.d:0 ""
+ bust_events.104.a:0 "Nice"

@@ -24,6 +24,7 @@ country_event = {
 
         hidden_effect = {
             set_country_flag = great_depression_possible
+            set_country_flag = great_depression_active
             set_variable = {
                 which = depression_recovery_var
                 value = 0
@@ -37,6 +38,455 @@ country_event = {
             remove_country_modifier = economic_recession_bailouts
             remove_country_modifier = economic_recession_intervention
             remove_country_modifier = economic_boom
+        }
+	}
+}
+
+#The Worst is Over
+country_event = {
+	id = bust_events.1
+	title = bust_events.1.t
+	desc = bust_events.1.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bust_events.1.a #We can now move forward
+
+        hidden_effect = {
+            clr_country_flag = great_depression_possible
+            clr_country_flag = great_depression_active
+        }
+	}
+}
+
+#Recovery Stumbles
+country_event = {
+	id = bust_events.100
+	title = bust_events.100.t
+	desc = bust_events.100.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+
+    trigger = {
+        check_variable = {
+            which = depression_recovery_var
+            value = 5
+        }
+    }
+
+	option = {
+		name = bust_events.100.a #Just when we were seeing the light
+
+        add_inflation = -1
+        custom_tooltip = depression_recovery_var_decrease_2_tt
+        add_country_modifier = {
+            name = economic_recession
+            duration = 730
+        }
+
+        hidden_effect = {
+            subtract_variable = {
+                which = depression_recovery_var
+                value = 2
+            }
+        }
+	}
+	option = {
+		name = bust_events.100.b #Pump more cash into the system!
+        trigger = {
+            has_country_modifier = gd_new_roll_modifier
+        }
+        highlight = yes
+
+        add_years_of_income = -0.35
+        add_inflation = 1
+        custom_tooltip = depression_recovery_var_decrease_1_tt
+        add_country_modifier = {
+            name = economic_recession_intervention
+            duration = 730
+        }
+
+        hidden_effect = {
+            subtract_variable = {
+                which = depression_recovery_var
+                value = 1
+            }
+        }
+	}
+}
+
+#Shops Shutter
+country_event = {
+	id = bust_events.101
+	title = bust_events.101.t
+	desc = bust_events.101.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+
+    trigger = {
+        total_base_tax = 30
+        any_owned_province = {
+            base_tax = 3
+        }
+        NOT = {
+            check_variable = {
+                which = depression_recovery_var
+                value = 5
+            }
+        }
+    }
+
+	option = {
+		name = bust_events.101.a #Damn
+
+        random_owned_province = {
+            limit = {
+                base_tax = 3
+            }
+            add_base_tax = -1
+        }
+        if = {
+            limit = {
+                total_base_tax = 60
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -1
+            }
+        }
+        if = {
+            limit = {
+                total_base_tax = 90
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -1
+            }
+        }
+        if = {
+            limit = {
+                total_base_tax = 120
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -1
+            }
+        }
+        if = {
+            limit = {
+                total_base_tax = 180
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -1
+            }
+        }
+        if = {
+            limit = {
+                total_base_tax = 300
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -1
+            }
+        }
+	}
+}
+
+#Factories Fold
+country_event = {
+	id = bust_events.102
+	title = bust_events.102.t
+	desc = bust_events.102.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+
+    trigger = {
+        total_development = 90
+        any_owned_province = {
+            base_production = 3
+        }
+        NOT = {
+            check_variable = {
+                which = depression_recovery_var
+                value = 5
+            }
+        }
+    }
+
+	option = {
+		name = bust_events.102.a #Damn
+
+        random_owned_province = {
+            limit = {
+                base_production = 3
+            }
+            add_base_production = -1
+        }
+        if = {
+            limit = {
+                total_development = 180
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 270
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 360
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 540
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 900
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -1
+            }
+        }
+	}
+}
+
+#Cities Crumble
+country_event = {
+	id = bust_events.103
+	title = bust_events.103.t
+	desc = bust_events.103.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+
+    trigger = {
+        total_development = 90
+        any_owned_province = {
+            base_manpower = 3
+        }
+        NOT = {
+            check_variable = {
+                which = depression_recovery_var
+                value = 5
+            }
+        }
+    }
+
+	option = {
+		name = bust_events.103.a #Damn
+
+        random_owned_province = {
+            limit = {
+                base_manpower = 3
+            }
+            add_base_manpower = -1
+        }
+        if = {
+            limit = {
+                total_development = 180
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 270
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 360
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 540
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 900
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -1
+            }
+        }
+	}
+}
+
+#Consumer Markets Recover
+country_event = {
+	id = bust_events.104
+	title = bust_events.104.t
+	desc = bust_events.104.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+
+    trigger = {
+        NOT = {
+            has_country_flag = gd_consumer_recovery_flag
+        }
+        had_country_flag = {
+            flag = great_depression_active
+            days = 730
+        }
+    }
+
+	option = {
+		name = bust_events.104.a #Nice
+
+        custom_tooltip = depression_recovery_var_increase_3_tt
+        set_country_flag = gd_consumer_recovery_flag
+
+        hidden_effect = {
+            change_variable = {
+                which = depression_recovery_var
+                value = 3
+            }
         }
 	}
 }
