@@ -114,6 +114,10 @@
  manoserora_estuary_modifier:0 "Ma'no'serora Estuary"
  eagburyard_estuary_modifier:0 "Eagburyard Estuary"
  deadwich_estuary_modifier:0 "Deadwich Estuary"
+
+ calendor_island_modifier:0 "Calendor Island"
+ desc_calendor_island_modifier:0 "The Calendor Islands are all stations for incredibly important trade through the Mallitors Sea"
+
  #Events
  tinflation:0 "Tinflation"
  desc_tinflation:0 "A world of alchemists are turning near-worthless tin into valuable silver. It is beneficial to those involved but is causing prices to soar."
