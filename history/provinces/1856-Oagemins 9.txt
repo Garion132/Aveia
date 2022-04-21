@@ -3,9 +3,9 @@
 culture = kaletian
 religion = shamanism #Fetishism
 hre = no
-base_tax = 1
-base_production =1
-base_manpower = 1
+base_tax = 2
+base_production =3
+base_manpower = 3
 trade_goods = unknown
 capital = "Sal"
 native_size = 25

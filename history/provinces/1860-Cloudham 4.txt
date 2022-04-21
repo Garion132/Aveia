@@ -3,10 +3,10 @@
 culture = kaletian
 religion = tlaunorist
 hre = no
-base_tax = 1
-base_production =1
-base_manpower = 1
-trade_goods = unknown
+base_tax = 4
+base_production =5
+base_manpower = 2
+trade_goods = paper
 capital = "Sal"
 native_size = 25
 native_ferocity = 2
@@ -24,3 +24,5 @@ discovered_by = free_fauns_group
 	controller = CLO
 	is_city = yes
 }
+
+center_of_trade = 1
