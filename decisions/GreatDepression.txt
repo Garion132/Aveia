@@ -92,7 +92,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_1_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -135,7 +135,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_2_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -178,7 +178,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_2_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -221,7 +221,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_2_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -255,7 +255,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_1_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -414,7 +414,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_1_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -459,7 +459,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_2_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -498,7 +498,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_1_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -549,7 +549,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_decrease_1_tt
             hidden_effect = {
                 subtract_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -591,7 +591,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_decrease_2_tt
             hidden_effect = {
                 subtract_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -634,7 +634,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_decrease_1_tt
             hidden_effect = {
                 subtract_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -677,7 +677,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_1_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -725,7 +725,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_decrease_1_tt
             hidden_effect = {
                 subtract_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -773,7 +773,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_decrease_1_tt
             hidden_effect = {
                 subtract_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -876,7 +876,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_1_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -917,7 +917,7 @@ country_decisions = {
             hidden_effect = {
                 set_country_flag = gd_incentivize_investment_flag
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -958,7 +958,7 @@ country_decisions = {
             hidden_effect = {
                 set_country_flag = gd_create_entreprenuers_flag
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -1076,7 +1076,7 @@ country_decisions = {
             hidden_effect = {
                 set_country_flag = gd_create_entreprenuers_flag
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -1117,7 +1117,7 @@ country_decisions = {
             hidden_effect = {
                 set_country_flag = gd_invest_in_innovation_flag
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -1161,7 +1161,7 @@ country_decisions = {
             hidden_effect = {
                 set_country_flag = gd_new_trade_flag
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -1317,7 +1317,7 @@ country_decisions = {
             hidden_effect = {
                 set_country_flag = gd_new_resources_flag
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -1368,7 +1368,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_3_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 3
                 }
             }
@@ -1405,7 +1405,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_2_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }
@@ -1457,7 +1457,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_decrease_1_tt
             hidden_effect = {
                 subtract_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -1508,7 +1508,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_1_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 1
                 }
             }
@@ -1567,7 +1567,7 @@ country_decisions = {
             custom_tooltip = depression_recovery_var_increase_2_tt
             hidden_effect = {
                 change_variable = {
-                    var = depression_recovery_var
+                    which = depression_recovery_var
                     value = 2
                 }
             }

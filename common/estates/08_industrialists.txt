@@ -129,55 +129,129 @@ estate_industrialists ={
 	influence_modifier = {
 		desc = EST_VAL_1_INDUSTRIAL_ZONE
 		trigger = {
-			industrial_zone = 1
-			NOT = { industrial_zone = 2 }
+			any_owned_province = {
+				has_building = industrial_zone
+			}
+			NOT = {
+				calc_true_if = {
+					all_owned_province = {
+						has_building = industrial_zone
+					}
+					amount = 2
+				}
+			}
 		}
 		influence = 2.5
 	}
 	influence_modifier = {
 		desc = EST_VAL_2_INDUSTRIAL_ZONES
 		trigger = {
-			industrial_zone = 2
-			NOT = { industrial_zone = 4 }
+			calc_true_if = {
+				all_owned_province = {
+					has_building = industrial_zone
+				}
+				amount = 2
+			}
+			NOT = {
+				calc_true_if = {
+					all_owned_province = {
+						has_building = industrial_zone
+					}
+					amount = 4
+				}
+			}
 		}
 		influence = 5
 	}
 	influence_modifier = {
 		desc = EST_VAL_4_INDUSTRIAL_ZONES
 		trigger = {
-			industrial_zone = 4
-			NOT = { industrial_zone = 6 }
+			calc_true_if = {
+				all_owned_province = {
+					has_building = industrial_zone
+				}
+				amount = 4
+			}
+			NOT = {
+				calc_true_if = {
+					all_owned_province = {
+						has_building = industrial_zone
+					}
+					amount = 7
+				}
+			}
 		}
 		influence = 10
 	}
 	influence_modifier = {
 		desc = EST_VAL_7_INDUSTRIAL_ZONES
 		trigger = {
-			industrial_zone = 7
-			NOT = { industrial_zone = 10 }
+			calc_true_if = {
+				all_owned_province = {
+					has_building = industrial_zone
+				}
+				amount = 7
+			}
+			NOT = {
+				calc_true_if = {
+					all_owned_province = {
+						has_building = industrial_zone
+					}
+					amount = 10
+				}
+			}
 		}
 		influence = 15
 	}
 	influence_modifier = {
 		desc = EST_VAL_10_INDUSTRIAL_ZONES
 		trigger = {
-			industrial_zone = 10
-			NOT = { industrial_zone = 15 }
+			calc_true_if = {
+				all_owned_province = {
+					has_building = industrial_zone
+				}
+				amount = 10
+			}
+			NOT = {
+				calc_true_if = {
+					all_owned_province = {
+						has_building = industrial_zone
+					}
+					amount = 15
+				}
+			}
 		}
 		influence = 20
 	}
 	influence_modifier = {
 		desc = EST_VAL_15_INDUSTRIAL_ZONES
 		trigger = {
-			industrial_zone = 20
-			NOT = { industrial_zone = 20 }
+			calc_true_if = {
+				all_owned_province = {
+					has_building = industrial_zone
+				}
+				amount = 15
+			}
+			NOT = {
+				calc_true_if = {
+					all_owned_province = {
+						has_building = industrial_zone
+					}
+					amount = 20
+				}
+			}
 		}
 		influence = 25
 	}
 	influence_modifier = {
 		desc = EST_VAL_20_INDUSTRIAL_ZONES
 		trigger = {
-			industrial_zone = 20
+			calc_true_if = {
+				all_owned_province = {
+					has_building = industrial_zone
+				}
+				amount = 20
+			}
 		}
 		influence = 30
 	}
