@@ -7,6 +7,7 @@ great_depression = {
 				has_country_flag = great_depression_possible
 			}
 		}
+		NOT = { has_country_flag = great_depression_happened }
 	}
 
 
@@ -91,6 +92,7 @@ great_depression = {
 		trade_efficiency = -0.4
 		global_unrest = 2
 		interest = 5
+		industrialists_influence_modifier = -0.15
 	}	
 	
 	
@@ -107,6 +109,7 @@ great_depression = {
 			100 = bust_events.102 #Factories Fold
 			100 = bust_events.103 #Cities Crumble
 			50 = bust_events.104 #Consumer Market Recovery
+			600 = bust_events.105 #Recovery Efforts Harm the Country! (Negative Dep. Rec. Points)
 		}
 	}
 }

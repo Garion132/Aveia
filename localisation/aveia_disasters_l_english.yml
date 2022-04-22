@@ -93,8 +93,38 @@
 
  gd_new_roll_title:0 "New Roll"
  gd_emergency_budget_title:0 "Emergency Budget"
+ gd_banking_reform_title:0 "Banking Reform"
+ gd_monetary_reform_title:0 "Monetary Reform"
+ gd_regulate_the_stock_market_title:0 "Regulate the Stock Market"
+ gd_public_works_title:0 "Public Works Programs"
+ gd_protect_farmers_title:0 "Protect Farmers"
+ gd_safety_net_title:0 "Create a Safety Net"
+ gd_subsidize_housing_title:0 "Subsidize Housing"
+ gd_tax_the_wealthy_title:0 "Graduated Income Tax"
+ gd_remove_corporatocracy_title:0 "Remove Corporate Influence"
+ gd_abandon_laissez_faire_title:0 "Abandon Laissez Faire Principles"
+ gd_trade_liberalization_title:0 "Liberalize Trade"
+ gd_protect_labor_unions_title:0 "Protect Labor Unions"
+ gd_industrial_oversight_title:0 "Create the Industrial Oversight Administration"
+
 
  gd_trust_in_the_markets_title:0 "Trust in the Markets"
+ gd_convene_industry_leaders_title:0 "Convene Industry Leaders"
+ gd_cut_taxes_title:0 "Cut Taxes"
+ gd_incentivize_investment_title:0 "Incentivize Investment"
+ gd_create_entreprenuers_title:0 "Create Entreprenuers"
+ gd_expand_production_title:0 "Expand Production"
+ gd_invest_in_innovation_title:0 "Invest in Innovation"
+ gd_new_trade_title:0 "Explore New Trade Opportunities"
+ gd_new_resources_title:0 "Prospect for New Resources"
+ gd_become_corporatocracy_title:0 "Grant Industrialists Control of National Policy"
+ gd_weaken_worker_rights_title:0 "Weaken Worker Rights"
+ gd_protect_industry_title:0 "Protect Domestic Industry"
+ gd_protect_industry_title:0 "Subsidize Local Business"
+ gd_cut_regulation_title:0 "Cut Regulation"
+
+ gd_corporatocracy_recovery_tt:0 "§YConvening Industry Leaders§! becomes §GFree§!"
+
 
  bust_events.0.t:0 "The Economy Reaches Rock Bottom"
  bust_events.0.d:0 "Factories are closed. Shops are shuttered. Men wander the streets for work. Women and Children go hungry. Large slums have been erected in our wealthiest cities. Even the wealthiest have been touched.\n\nThe only hope for many is what will we do?"
@@ -125,3 +155,7 @@
  bust_events.104.t:0 "Consumer Markets Recover"
  bust_events.104.d:0 ""
  bust_events.104.a:0 "Nice"
+
+ bust_events.105.t:0 "Recovery Efforts Harm the Country!"
+ bust_events.105.d:0 "Recent policy changes and events have led to this country backsliding even farther into the depression."
+ bust_events.105.a:0 "We're trying to fix this broken economy!"

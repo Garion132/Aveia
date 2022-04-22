@@ -21,6 +21,12 @@ estate_industrialists_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
+		if = {
+			limit = {
+				has_disaster = great_depression
+			}
+			NOT = { has_country_modifier = gd_new_roll_modifier }
+		}
 	}
 	on_granted = {
 	}
@@ -98,6 +104,12 @@ estate_industrialists_corporatocracy = {
 	influence = 0.15
 	can_select = {
 		NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+		if = {
+			limit = {
+				has_disaster = great_depression
+			}
+			NOT = { has_country_modifier = gd_new_roll_modifier }
+		}
 	}
 	on_granted = {
 	}
@@ -133,6 +145,12 @@ estate_industrialists_worker_rights = {
 				estate = estate_industrialists
 				influence = 80
 			}
+		}
+		if = {
+			limit = {
+				has_disaster = great_depression
+			}
+			NOT = { has_country_modifier = gd_new_roll_modifier }
 		}
 	}
 	on_granted = {
@@ -174,6 +192,12 @@ estate_industrialists_strict_regulations = {
 				influence = 80
 			}
 		}
+		if = {
+			limit = {
+				has_disaster = great_depression
+			}
+			NOT = { has_country_modifier = gd_new_roll_modifier }
+		}
 	}
 	on_granted = {
 	}
@@ -202,6 +226,12 @@ estate_industrialists_subsidies = {
 	loyalty = 0.1
 	influence = 0.05
 	can_select = {
+		if = {
+			limit = {
+				has_disaster = great_depression
+			}
+			NOT = { has_country_modifier = gd_new_roll_modifier }
+		}
 	}
 	on_granted = {
 	}
@@ -225,6 +255,12 @@ estate_industrialists_laissez_faire_economics = {
 	influence = 0.1
 	can_select = {
 		NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+		if = {
+			limit = {
+				has_disaster = great_depression
+			}
+			NOT = { has_country_modifier = gd_new_roll_modifier }
+		}
 	}
 	on_granted = {
 	}
@@ -246,6 +282,12 @@ estate_industrialists_protectionist_trade_policy = {
 	loyalty = 0.1
 	influence = 0.05
 	can_select = {
+		if = {
+			limit = {
+				has_disaster = great_depression
+			}
+			NOT = { has_country_modifier = gd_new_roll_modifier }
+		}
 	}
 	on_granted = {
 		add_mercantilism = 5

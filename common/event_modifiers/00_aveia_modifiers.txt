@@ -100,10 +100,58 @@
 	gd_drafting_legislation = {
 		all_power_cost = 0.1
 	}
+	gd_banking_reform = {
+		interest = -4
+	}
+	gd_monetary_reform = {
+		trade_efficiency = 0.2
+	}
+	gd_stock_market_regulation = {
+		industrialists_influence_modifier = -0.05
+		industrialists_loyalty_modifier = -0.05
+	}
+	gd_public_works = {
+		development_cost = -1
+	}
+	gd_safety_net = {
+		global_unrest = -2
+	}
+	gd_tax_the_wealthy = {
+		global_tax_modifier = 0.25
+		yearly_corruption = -0.05
+		
+		industrialists_influence_modifier = -0.1
+		industrialists_loyalty_modifier = -0.1
+	}
 
 	gd_market_solution = {
 		trade_goods_size = 0.05
 		trade_efficiency = 0.05
+	}
+	gd_market_implementation = {
+		all_power_cost = 0.05
+	}
+	gd_industry_leaders_convened = {
+		all_power_cost = -0.05
+	}
+	gd_incentivize_investment = {
+		development_cost = -1
+		build_cost = -0.1
+		build_time = -0.1
+	}
+	gd_create_entreprenuers = {
+		development_cost = -0.25
+		trade_efficiency = 0.1
+		trade_goods_size_modifier = 0.1
+	}
+	gd_invest_in_innovation = {
+		technology_cost = -0.1
+		global_institution_spread = 0.25
+		trade_goods_size_modifier = 0.1
+	}
+	gd_new_trade = {
+		trade_efficiency = 0.25
+		trade_goods_size_modifier = 0.05
 	}
 
 #Missions

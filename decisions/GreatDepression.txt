@@ -5,6 +5,10 @@ country_decisions = {
 
         potential = {
             has_disaster = great_depression
+            OR = {
+                has_country_modifier = gd_new_roll_modifier
+                has_country_modifier = gd_market_solution
+            }
         }
 
         allow = {
@@ -94,7 +98,93 @@ country_decisions = {
             }
             add_disaster_modifier = {
                 name = gd_drafting_legislation
-                duration = 90
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 5
+        }
+    }
+
+    #Banking Reform
+    gd_banking_reform = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_new_roll_modifier
+            NOT = { has_country_flag = gd_banking_reform_flag }
+        }
+
+        allow = {
+            NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            adm_power = 100
+        }
+
+        effect = {
+            add_adm_power = -100
+
+            add_disaster_modifier = {
+                name = gd_banking_reform
+                duration = -1
+                disaster = great_depression
+            }
+
+            set_country_flag = gd_banking_reform_flag
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 3
+        }
+    }
+
+    #Monetary Reform (Abandon Silver Standard)
+    gd_monetary_reform = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_new_roll_modifier
+            NOT = { has_country_flag = gd_monetary_reform_flag }
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            adm_power = 25
+        }
+
+        effect = {
+            add_inflation = 4
+            add_adm_power = -25
+
+            add_disaster_modifier = {
+                name = gd_monetary_reform
+                duration = -1
+                disaster = great_depression
+            }
+            
+            set_country_flag = gd_monetary_reform_flag
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
                 disaster = great_depression
             }
         }
@@ -104,19 +194,602 @@ country_decisions = {
         }
     }
 
-    #Banking Reform
-    #Monetary Reform (Abandon Silver Standard)
     #Regulate the Stock Market
+    gd_regulate_the_stock_market = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_new_roll_modifier
+            NOT = { has_country_flag = gd_regulate_the_stock_market_flag }
+        }
+
+        allow = {
+            NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            adm_power = 50
+        }
+
+        effect = {
+            add_adm_power = -50
+
+            add_disaster_modifier = {
+                name = gd_stock_market_regulation
+                duration = -1
+                disaster = great_depression
+            }
+            
+            set_country_flag = gd_regulate_the_stock_market_flag
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Public Works (Repeatable)
+    gd_public_works = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_new_roll_modifier
+            has_country_flag = gd_emergency_budget_flag
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_public_works }
+        }
+
+        effect = {
+            add_years_of_income = -0.2
+            
+            custom_tooltip = depression_recovery_var_increase_1_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_public_works
+                duration = 365
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Protect Farmers
+    gd_protect_farmers = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_new_roll_modifier
+            has_country_flag = gd_emergency_budget_flag
+            NOT = { has_country_flag = gd_protect_farmers_flag }
+            any_owned_province = {
+                OR = {
+                    trade_goods = grain
+                    trade_goods = wine
+                    trade_goods = fruit
+                    trade_goods = fish
+                    trade_goods = livestock
+                }
+            }
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            adm_power = 50
+        }
+
+        effect = {
+            add_adm_power = -50
+            add_years_of_income = -0.25
+
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        trade_goods = grain
+                        trade_goods = wine
+                        trade_goods = fruit
+                        trade_goods = fish
+                        trade_goods = livestock
+                    }
+                }
+                
+                if = {
+                    limit = {
+                        PREV = { total_development = 100 }
+                    }
+                    add_base_tax = 1
+                    add_base_production = 1
+                    add_base_manpower = 1
+                }
+                else = {
+                    add_base_production = 1
+                    add_base_manpower = 1
+                }
+            }
+            if = {
+                limit = {
+                    total_development = 200
+                }
+                random_owned_province = {
+                    limit = {
+                        OR = {
+                            trade_goods = grain
+                            trade_goods = wine
+                            trade_goods = fruit
+                            trade_goods = fish
+                            trade_goods = livestock
+                        }
+                    }
+                    
+                    if = {
+                        limit = {
+                            PREV = { total_development = 300 }
+                        }
+                        add_base_tax = 1
+                        add_base_production = 1
+                        add_base_manpower = 1
+                    }
+                    else = {
+                        add_base_production = 1
+                        add_base_manpower = 1
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    total_development = 400
+                }
+                random_owned_province = {
+                    limit = {
+                        OR = {
+                            trade_goods = grain
+                            trade_goods = wine
+                            trade_goods = fruit
+                            trade_goods = fish
+                            trade_goods = livestock
+                        }
+                    }
+                    
+                    if = {
+                        limit = {
+                            PREV = { total_development = 600 }
+                        }
+                        add_base_tax = 1
+                        add_base_production = 1
+                        add_base_manpower = 1
+                    }
+                    else = {
+                        add_base_production = 1
+                        add_base_manpower = 1
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    total_development = 800
+                }
+                random_owned_province = {
+                    limit = {
+                        OR = {
+                            trade_goods = grain
+                            trade_goods = wine
+                            trade_goods = fruit
+                            trade_goods = fish
+                            trade_goods = livestock
+                        }
+                    }
+                    
+                    if = {
+                        limit = {
+                            PREV = { total_development = 1200 }
+                        }
+                        add_base_tax = 1
+                        add_base_production = 1
+                        add_base_manpower = 1
+                    }
+                    else = {
+                        add_base_production = 1
+                        add_base_manpower = 1
+                    }
+                }
+            }
+            
+            set_country_flag = gd_protect_farmers_flag
+            custom_tooltip = depression_recovery_var_increase_1_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Create a Safety Net
+    gd_safety_net = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_new_roll_modifier
+            has_country_flag = gd_emergency_budget_flag
+            NOT = { has_country_flag = gd_safety_net_flag }
+        }
+
+        allow = {
+            NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            adm_power = 25
+        }
+
+        effect = {
+            add_adm_power = -25
+            add_years_of_income = -0.5
+            
+            add_disaster_modifier = {
+                name = gd_safety_net
+                duration = -1
+                disaster = great_depression
+            }
+            
+            set_country_flag = gd_safety_net_flag
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Subsidize Housing
+    gd_subsidize_housing = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_new_roll_modifier
+            has_country_flag = gd_emergency_budget_flag
+            NOT = { has_country_flag = gd_subsidize_housing_flag }
+        }
+
+        allow = {
+            NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            adm_power = 10
+        }
+
+        effect = {
+            add_adm_power = -10
+            add_years_of_income = -0.25
+            
+            set_country_flag = gd_subsidize_housing_flag
+            custom_tooltip = depression_recovery_var_increase_1_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Tax the Wealthy
+    gd_tax_the_wealthy = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_new_roll_modifier
+            has_country_flag = gd_emergency_budget_flag
+            NOT = { has_country_flag = gd_tax_the_wealthy_flag }
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+            NOT = {
+                estate_influence = {
+                    estate = estate_industrialists
+                    influence = 100
+                }
+            }
+            adm_power = 50
+        }
+
+        effect = {
+            add_adm_power = -50
+            add_years_of_income = 1
+
+            add_disaster_modifier = {
+                name = gd_tax_the_wealthy
+                duration = -1
+                disaster = great_depression
+            }
+            
+            set_country_flag = gd_tax_the_wealthy_flag
+            custom_tooltip = depression_recovery_var_decrease_1_tt
+            hidden_effect = {
+                subtract_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Remove Corporate Influence (Remove Corportocracy)
+    gd_remove_corporatocracy = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_new_roll_modifier
+            has_estate_privilege = estate_industrialists_corporatocracy
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            adm_power = 100
+            dip_power = 100
+            mil_power = 200
+        }
+
+        effect = {
+            add_adm_power = -100
+            add_dip_power = -100
+            add_mil_power = -200
+
+            remove_estate_privilege = estate_industrialists_corporatocracy
+            
+            custom_tooltip = depression_recovery_var_decrease_2_tt
+            hidden_effect = {
+                subtract_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 5
+        }
+    }
+
     #Abandon Lassiez Faire Principles (Remove LF Economics)
+    gd_abandon_laissez_faire = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_new_roll_modifier
+            has_estate_privilege = estate_industrialists_laissez_faire_economics
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+            adm_power = 50
+            dip_power = 50
+            mil_power = 100
+        }
+
+        effect = {
+            add_adm_power = -50
+            add_dip_power = -50
+            add_mil_power = -100
+
+            remove_estate_privilege = estate_industrialists_laissez_faire_economics
+            
+            custom_tooltip = depression_recovery_var_decrease_1_tt
+            hidden_effect = {
+                subtract_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 5
+        }
+    }
+
     #Trade Liberalization (Remove Protectionism)
+    gd_trade_liberalization = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_new_roll_modifier
+            has_estate_privilege = estate_industrialists_protectionist_trade_policy
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+            adm_power = 25
+            dip_power = 25
+            mil_power = 50
+        }
+
+        effect = {
+            add_adm_power = -25
+            add_dip_power = -25
+            add_mil_power = -50
+
+            remove_estate_privilege = estate_industrialists_protectionist_trade_policy
+            
+            custom_tooltip = depression_recovery_var_increase_1_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Protect Labor Unions (Add Worker Rights)
+    gd_protect_labor_unions = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_new_roll_modifier
+            NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+            NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+            NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+            NOT = {
+				num_of_estate_privileges = {
+					estate = estate_industrialists
+					value = 4
+				}
+            }
+            mil_power = 50
+        }
+
+        effect = {
+            add_adm_power = 200
+            add_mil_power = -50
+
+            set_estate_privilege = estate_industrialists_worker_rights
+            
+            custom_tooltip = depression_recovery_var_decrease_1_tt
+            hidden_effect = {
+                subtract_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Industrial Oversight Administration (Add Strict Regulations)
+    gd_industrial_oversight = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_new_roll_modifier
+            NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_drafting_legislation }
+            NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+            NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+            NOT = { has_estate_privilege = estate_industrialists_strict_regulations }
+            NOT = {
+				num_of_estate_privileges = {
+					estate = estate_industrialists
+					value = 4
+				}
+            }
+            dip_power = 50
+        }
+
+        effect = {
+            add_adm_power = 200
+            add_dip_power = -50
+
+            set_estate_privilege = estate_industrialists_strict_regulations
+            
+            custom_tooltip = depression_recovery_var_decrease_1_tt
+            hidden_effect = {
+                subtract_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_drafting_legislation
+                duration = 60
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    
 
     #Trust in the Markets
     gd_trust_in_the_markets = {
@@ -148,16 +821,766 @@ country_decisions = {
     }
 
     #Convene Industry Leaders (Repeatable, required to take decisions)
+    gd_convene_industry_leaders = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_market_solution
+        }
+
+        allow = {
+            NOT = { has_country_modifier = gd_industry_leaders_convened }
+            if = {
+                limit = {
+                    NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+                }
+                dip_power = 25
+            }
+        }
+
+        effect = {
+            if = {
+                limit = {
+                    NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+                }
+                add_dip_power = -25
+            }
+    
+            add_disaster_modifier = {
+                name = gd_industry_leaders_convened
+                duration = -1
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 10
+        }
+    }
+
     #Cut Taxes
+    gd_cut_taxes = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_market_solution
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+            years_of_income = 0.25
+        }
+
+        effect = {
+            add_years_of_income = -0.25
+
+            custom_tooltip = depression_recovery_var_increase_1_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Incentivize Investment
+    gd_incentivize_investment = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_market_solution
+            NOT = { has_country_flag = gd_incentivize_investment_flag }
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+        }
+
+        effect = {
+            add_disaster_modifier = {
+                name = gd_incentivize_investment
+                duration = -1
+                disaster = great_depression
+            }
+
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                set_country_flag = gd_incentivize_investment_flag
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Create Entreprenuers
+    gd_create_entreprenuers = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_market_solution
+            NOT = { has_country_flag = gd_create_entreprenuers_flag }
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+        }
+
+        effect = {
+            add_disaster_modifier = {
+                name = gd_create_entreprenuers
+                duration = -1
+                disaster = great_depression
+            }
+
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                set_country_flag = gd_create_entreprenuers_flag
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Expand Production
+    gd_expand_production = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_market_solution
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+        }
+
+        effect = {
+
+            random_owned_province = {
+                add_base_production = 1
+            }
+            if = {
+                limit = {
+                    total_development = 180
+                }
+                random_owned_province = {
+                    limit = {
+                        base_production = 1
+                    }
+                    add_base_production = 1
+                }
+            }
+            if = {
+                limit = {
+                    total_development = 270
+                }
+                random_owned_province = {
+                    limit = {
+                        base_production = 1
+                    }
+                    add_base_production = 1
+                }
+            }
+            if = {
+                limit = {
+                    total_development = 360
+                }
+                random_owned_province = {
+                    limit = {
+                        base_production = 2
+                    }
+                    add_base_production = 1
+                }
+            }
+            if = {
+                limit = {
+                    total_development = 540
+                }
+                random_owned_province = {
+                    limit = {
+                        base_production = 2
+                    }
+                    add_base_production = 1
+                }
+                random_owned_province = {
+                    limit = {
+                        base_production = 3
+                    }
+                    add_base_production = 1
+                }
+            }
+            if = {
+                limit = {
+                    total_development = 900
+                }
+                random_owned_province = {
+                    limit = {
+                        base_production = 2
+                    }
+                    add_base_production = 1
+                }
+                random_owned_province = {
+                    limit = {
+                        base_production = 3
+                    }
+                    add_base_production = 1
+                }
+                random_owned_province = {
+                    limit = {
+                        base_production = 4
+                    }
+                    add_base_production = 1
+                }
+                random_owned_province = {
+                    limit = {
+                        base_production = 5
+                    }
+                    add_base_production = 1
+                }
+            }
+
+            custom_tooltip = depression_recovery_var_increase_1_tt
+            hidden_effect = {
+                set_country_flag = gd_create_entreprenuers_flag
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Invest in Innovation
+    gd_invest_in_innovation = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_market_solution
+            NOT = { has_country_flag = gd_invest_in_innovation_flag }
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+        }
+
+        effect = {
+            add_disaster_modifier = {
+                name = gd_invest_in_innovation
+                duration = -1
+                disaster = great_depression
+            }
+
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                set_country_flag = gd_invest_in_innovation_flag
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Explore New Trade Opportunities
+    gd_new_trade = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_market_solution
+            NOT = { has_country_flag = gd_new_trade_flag }
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+            dip_power = 50
+        }
+
+        effect = {
+            add_dip_power = -50
+
+            add_disaster_modifier = {
+                name = gd_new_trade
+                duration = -1
+                disaster = great_depression
+            }
+
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                set_country_flag = gd_new_trade_flag
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
     #Prospect for New Resources
-    #Allow Industrialsts Control of Policy (Add Corporatocracy)
+    gd_new_resources = {
+        potential = {
+            has_disaster = great_depression
+            has_country_modifier = gd_market_solution
+            NOT = { has_country_flag = gd_new_resources_flag }
+            OR = {
+                iron = 1 #1
+                tin = 1 #2
+                copper = 1 #2
+                coal = 1 #3
+                silver = 1 #4
+                plaulum = 1 #4
+                gems = 1 #5
+                marble = 1 #5
+                guedina = 1 #6
+                vitaite = 1 #6
+                ankon = 1 #7
+                bryrine = 1 #7
+            }
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+        }
+
+        effect = {
+            random_owned_province = {
+                limit = {
+                    trade_goods = iron
+                }
+                if = {
+                    limit = {
+                        PREV = { total_development = 200 }
+                    }
+                    add_base_tax = 1
+                }
+                add_base_manpower = 1
+                add_base_production = 1
+            }
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        trade_goods = copper
+                        trade_goods = tin
+                    }
+                }
+                if = {
+                    limit = {
+                        PREV = { total_development = 800 }
+                    }
+                    add_base_tax = 1
+                }
+                add_base_manpower = 1
+                add_base_production = 1
+            }
+            random_owned_province = {
+                limit = {
+                    trade_goods = coal
+                }
+                if = {
+                    limit = {
+                        PREV = { total_development = 400 }
+                    }
+                    add_base_tax = 1
+                }
+                add_base_manpower = 1
+                add_base_production = 1
+            }
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        trade_goods = silver
+                        trade_goods = plaulum
+                    }
+                }
+                if = {
+                    limit = {
+                        PREV = { total_development = 1000 }
+                    }
+                    add_base_tax = 1
+                }
+                add_base_manpower = 1
+                add_base_production = 1
+            }
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        trade_goods = gems
+                        trade_goods = marble
+                    }
+                }
+                if = {
+                    limit = {
+                        PREV = { total_development = 300 }
+                    }
+                    add_base_tax = 1
+                }
+                add_base_manpower = 1
+                add_base_production = 1
+            }
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        trade_goods = guedina
+                        trade_goods = vitaite
+                    }
+                }
+                if = {
+                    limit = {
+                        PREV = { total_development = 500 }
+                    }
+                    add_base_tax = 1
+                }
+                add_base_manpower = 1
+                add_base_production = 1
+            }
+            random_owned_province = {
+                limit = {
+                    OR = {
+                        trade_goods = ankon
+                        trade_goods = bryrine
+                    }
+                }
+                if = {
+                    limit = {
+                        PREV = { total_development = 700 }
+                    }
+                    add_base_tax = 1
+                }
+                add_base_manpower = 1
+                add_base_production = 1
+            }
+
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                set_country_flag = gd_new_resources_flag
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    #Allow Industrialsts Control of National Policy (Add Corporatocracy)
+    gd_become_corporatocracy = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_market_solution
+            NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+            NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+            NOT = { has_estate_privilege = estate_industrialists_strict_regulations }
+            NOT = {
+				num_of_estate_privileges = {
+					estate = estate_industrialists
+					value = 4
+				}
+            }
+        }
+
+        effect = {
+            add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+
+            set_estate_privilege = estate_industrialists_corporatocracy
+            
+            custom_tooltip = gd_corporatocracy_recovery_tt
+
+            custom_tooltip = depression_recovery_var_increase_3_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 3
+                }
+            }
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
     #Weaken Worker Rights (Remove Worker Rights)
+    gd_weaken_worker_rights = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_market_solution
+            has_estate_privilege = estate_industrialists_worker_rights
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+            has_estate_privilege = estate_industrialists_worker_rights
+        }
+
+        effect = {
+            remove_estate_privilege = estate_industrialists_worker_rights
+            
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
     #Protect Domestic Industry (Add Protectionism)
+    gd_protect_industry = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_market_solution
+            NOT = { has_estate_privilege = estate_industrialists_protectionist_trade_policy }
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+            NOT = {
+				num_of_estate_privileges = {
+					estate = estate_industrialists
+					value = 4
+				}
+            }
+        }
+
+        effect = {
+            add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+
+            set_estate_privilege = estate_industrialists_protectionist_trade_policy
+
+            add_estate_loyalty = {
+                estate = estate_industrialists
+                loyalty = 15
+            }
+            
+            custom_tooltip = depression_recovery_var_decrease_1_tt
+            hidden_effect = {
+                subtract_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
     #Subsidize Local Business (Add Subsidies)
+    gd_protect_industry = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_market_solution
+            NOT = { has_estate_privilege = estate_industrialists_subsidies }
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+            NOT = {
+				num_of_estate_privileges = {
+					estate = estate_industrialists
+					value = 4
+				}
+            }
+            years_of_income = 0.25
+        }
+
+        effect = {
+            add_years_of_income = -0.25
+
+            set_estate_privilege = estate_industrialists_subsidies
+
+            add_estate_loyalty = {
+                estate = estate_industrialists
+                loyalty = 5
+            }
+            
+            custom_tooltip = depression_recovery_var_increase_1_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 1
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
     #Cut Regulation (Remove Strict Regulation, Add LF Economics)
+    gd_cut_regulation = {
+        potential = {
+            has_disaster = great_depression
+            has_estate = estate_industrialists
+            has_country_modifier = gd_market_solution
+            NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+        }
+
+        allow = {
+            has_country_modifier = gd_industry_leaders_convened
+            NOT = { has_country_modifier = gd_market_implementation }
+            OR = {
+                has_estate_privilege = estate_industrialists_strict_regulations
+                NOT = {
+                    num_of_estate_privileges = {
+                        estate = estate_industrialists
+                        value = 4
+                    }
+                }
+            }
+        }
+
+        effect = {
+            if = {
+                limit = {
+                    has_estate_privilege = estate_industrialists_strict_regulations
+                }
+                remove_estate_privilege = estate_industrialists_strict_regulations
+            }
+            else = {
+                set_estate_privilege = estate_industrialists_laissez_faire_economics
+            }
+
+            add_estate_loyalty = {
+                estate = estate_industrialists
+                loyalty = 15
+            }
+            
+            custom_tooltip = depression_recovery_var_increase_2_tt
+            hidden_effect = {
+                change_variable = {
+                    var = depression_recovery_var
+                    value = 2
+                }
+            }
+            remove_country_modifier = gd_industry_leaders_convened
+            add_disaster_modifier = {
+                name = gd_market_implementation
+                duration = 120
+                disaster = great_depression
+            }
+        }
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
 }

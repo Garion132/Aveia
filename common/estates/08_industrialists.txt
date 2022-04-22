@@ -68,15 +68,118 @@ estate_industrialists ={
 	}
 
 	# Influence modifiers
+
+	# Still Needs:
+	#	Railroads: +2.5%, +5%
+	#	Manufactured Goods: +5%
 	base_influence = 10
-	influence_modifier = {	
-		desc = EST_HIGH_DEVELOPMENT_PROVINCE
+	influence_modifier = {
+		desc = EST_VAL_HIGH_PRODUCTION_PROVINCE
 		trigger = {
 			any_owned_province = {
-				development = 30
+				base_production = 15
 			}
 		}
 		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_VERY_HIGH_PRODUCTION_PROVINCE
+		trigger = {
+			any_owned_province = {
+				base_production = 25
+			}
+		}
+		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_MACHINERY_PROVINCE
+		trigger = {
+			machinery = 1
+		}
+		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_CLOTH_PROVINCE
+		trigger = {
+			cloth = 1
+		}
+		influence = 2.5
+	}
+	influence_modifier = {
+		desc = EST_VAL_GLASS_PROVINCE
+		trigger = {
+			glass = 1
+		}
+		influence = 2.5
+	}
+	influence_modifier = {
+		desc = EST_VAL_IRON_PROVINCE
+		trigger = {
+			iron = 1
+		}
+		influence = 2.5
+	}
+	influence_modifier = {
+		desc = EST_VAL_COAL_PROVINCE
+		trigger = {
+			coal = 1
+		}
+		influence = 2.5
+	}
+	influence_modifier = {
+		desc = EST_VAL_1_INDUSTRIAL_ZONE
+		trigger = {
+			industrial_zone = 1
+			NOT = { industrial_zone = 2 }
+		}
+		influence = 2.5
+	}
+	influence_modifier = {
+		desc = EST_VAL_2_INDUSTRIAL_ZONES
+		trigger = {
+			industrial_zone = 2
+			NOT = { industrial_zone = 4 }
+		}
+		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_4_INDUSTRIAL_ZONES
+		trigger = {
+			industrial_zone = 4
+			NOT = { industrial_zone = 6 }
+		}
+		influence = 10
+	}
+	influence_modifier = {
+		desc = EST_VAL_7_INDUSTRIAL_ZONES
+		trigger = {
+			industrial_zone = 7
+			NOT = { industrial_zone = 10 }
+		}
+		influence = 15
+	}
+	influence_modifier = {
+		desc = EST_VAL_10_INDUSTRIAL_ZONES
+		trigger = {
+			industrial_zone = 10
+			NOT = { industrial_zone = 15 }
+		}
+		influence = 20
+	}
+	influence_modifier = {
+		desc = EST_VAL_15_INDUSTRIAL_ZONES
+		trigger = {
+			industrial_zone = 20
+			NOT = { industrial_zone = 20 }
+		}
+		influence = 25
+	}
+	influence_modifier = {
+		desc = EST_VAL_20_INDUSTRIAL_ZONES
+		trigger = {
+			industrial_zone = 20
+		}
+		influence = 30
 	}
 	influence_modifier = {
 		desc = EST_VAL_LOW_PRODUCTION_INCOME
@@ -88,17 +191,24 @@ estate_industrialists ={
 	influence_modifier = {
 		desc = EST_VAL_HIGH_PRODUCTION_INCOME
 		trigger = {
-			production_income_percentage = 0.5
-			NOT = { production_income_percentage = 0.75 }
+			production_income_percentage = 0.4
+			NOT = { production_income_percentage = 0.5 }
 		}	
 		influence = 5
 	}
 	influence_modifier = {
 		desc = EST_VAL_VERY_HIGH_PRODUCTION_INCOME
 		trigger = {
-			production_income_percentage = 0.75
+			production_income_percentage = 0.5
 		}	
 		influence = 10
+	}
+	influence_modifier = {
+		desc = EST_VAL_GREAT_DEPRESSION_HAPPENED
+		trigger = {
+			has_country_flag = great_depression_happened
+		}	
+		influence = -5
 	}
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER

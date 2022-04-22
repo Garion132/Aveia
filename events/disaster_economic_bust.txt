@@ -51,6 +51,10 @@ country_event = {
 	
 	is_triggered_only = yes
 
+    immediate = {
+        set_country_flag = great_depression_happened
+    }
+
 	option = {
 		name = bust_events.1.a #We can now move forward
 
@@ -59,6 +63,7 @@ country_event = {
             clr_country_flag = great_depression_active
         }
 	}
+    #Let's keep our New Roll programs around
 }
 
 #Recovery Stumbles
@@ -486,6 +491,194 @@ country_event = {
             change_variable = {
                 which = depression_recovery_var
                 value = 3
+            }
+        }
+	}
+}
+
+#Recovery Efforts Harm the Country!
+country_event = {
+	id = bust_events.105
+	title = bust_events.105.t
+	desc = bust_events.105.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+
+    trigger = {
+        NOT = {
+            check_variable = {
+                which = depression_recovery_var
+                value = 0
+            }
+        }
+    }
+
+	option = {
+		name = bust_events.102.a #We're trying to fix this broken economy!
+
+        custom_tooltip = depression_recovery_var_increase_1_tt
+        hidden_effect = {
+            change_variable = {
+                which = depression_recovery_var
+                value = 1
+            }
+        }
+
+        #Lose a lot of development
+        random_owned_province = {
+            limit = {
+                base_tax = 2
+            }
+            add_base_tax = -1
+        }
+        random_owned_province = {
+            limit = {
+                base_production = 2
+            }
+            add_base_production = -1
+        }
+        random_owned_province = {
+            limit = {
+                base_manpower = 2
+            }
+            add_base_manpower = -1
+        }
+        if = {
+            limit = {
+                total_development = 180
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 2
+                }
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 2
+                }
+                add_base_production = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 2
+                }
+                add_base_manpower = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 270
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 2
+                }
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 2
+                }
+                add_base_production = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 2
+                }
+                add_base_manpower = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 360
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 2
+                }
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 2
+                }
+                add_base_production = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 2
+                }
+                add_base_manpower = -1
+            }
+        }
+        if = {
+            limit = {
+                total_development = 540
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 3
+                }
+                add_base_tax = -2
+            }
+            random_owned_province = {
+                limit = {
+                    base_production = 3
+                }
+                add_base_production = -2
+            }
+            random_owned_province = {
+                limit = {
+                    base_manpower = 3
+                }
+                add_base_manpower = -2
+            }
+        }
+        if = {
+            limit = {
+                total_development = 900
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 2
+                    base_production = 2
+                    base_manpower = 2
+                }
+                add_base_tax = -1
+                add_base_production = -1
+                add_base_manpower = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 2
+                    base_production = 2
+                    base_manpower = 2
+                }
+                add_base_tax = -1
+                add_base_production = -1
+                add_base_manpower = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 2
+                    base_production = 2
+                    base_manpower = 2
+                }
+                add_base_tax = -1
+                add_base_production = -1
+                add_base_manpower = -1
+            }
+            random_owned_province = {
+                limit = {
+                    base_tax = 2
+                    base_production = 2
+                    base_manpower = 2
+                }
+                add_base_tax = -1
+                add_base_production = -1
+                add_base_manpower = -1
             }
         }
 	}
