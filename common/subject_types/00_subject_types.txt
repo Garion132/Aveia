@@ -623,12 +623,14 @@ colony_elteria_start = {
 
 	# Properties:
 	dynamically_created_during_history = no
-	has_colonial_parent = no
+	has_colonial_parent = yes
 	
 	liberty_desire_development_ratio = 0.1
 
 	max_government_rank = 1
 	cities_required_for_bonuses = 10
+	
+	counts_for_borders = yes
 
 	relative_power_class = 0
 

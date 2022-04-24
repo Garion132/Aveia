@@ -847,6 +847,7 @@ defense_of_the_empire_modifier = {
 mannish_tax_10_to_20 = {
 	potential = {
 		has_reform = mannish_tribal_reform
+		total_development = 20
 	}
 
 	trigger = {	
@@ -855,11 +856,13 @@ mannish_tax_10_to_20 = {
 	}
 
 	global_tax_income = 12
+	land_forcelimit = 5
 	#icon = 9
 }
 mannish_tax_20_to_30 = {
 	potential = {
 		has_reform = mannish_tribal_reform
+		total_development = 30
 	}
 
 	trigger = {	
@@ -868,11 +871,13 @@ mannish_tax_20_to_30 = {
 	}
 
 	global_tax_income = 24
+	land_forcelimit = 5
 	#icon = 9
 }
 mannish_tax_30_to_40 = {
 	potential = {
 		has_reform = mannish_tribal_reform
+		total_development = 40
 	}
 
 	trigger = {	
@@ -881,11 +886,13 @@ mannish_tax_30_to_40 = {
 	}
 
 	global_tax_income = 36
+	land_forcelimit = 10
 	#icon = 9
 }
 mannish_tax_40_to_50 = {
 	potential = {
 		has_reform = mannish_tribal_reform
+		total_development = 50
 	}
 
 	trigger = {	
@@ -894,11 +901,13 @@ mannish_tax_40_to_50 = {
 	}
 
 	global_tax_income = 48
+	land_forcelimit = 10
 	#icon = 9
 }
 mannish_tax_50_to_60 = {
 	potential = {
 		has_reform = mannish_tribal_reform
+		total_development = 60
 	}
 
 	trigger = {	
@@ -907,18 +916,35 @@ mannish_tax_50_to_60 = {
 	}
 
 	global_tax_income = 60
+	land_forcelimit = 15
 	#icon = 9
 }
 mannish_tax_60_to_70 = {
 	potential = {
 		has_reform = mannish_tribal_reform
+		total_development = 70
 	}
 
 	trigger = {	
 		total_development = 60
-		#NOT={total_development = 70}
+		NOT={total_development = 70}
 	}
 
 	global_tax_income = 72
+	land_forcelimit = 15
+	#icon = 9
+}
+mannish_tax_70_on = {
+	potential = {
+		has_reform = mannish_tribal_reform
+	}
+
+	trigger = {	
+		total_development = 70
+		#NOT={total_development = 70}
+	}
+
+	global_tax_income = 84
+	land_forcelimit = 20
 	#icon = 9
 }

@@ -1824,6 +1824,7 @@ country_event = {
 			siege = 3
 		}
 		set_ruler_flag = mannish_iron_crown
+		add_treasury = 1000
 		every_country={
 			limit={
 				primary_culture = donamenz
@@ -1954,6 +1955,31 @@ country_event = {#sweaping south
 			has_ruler_flag = mannish_iron_crown
 		}
 		set_ruler_flag = great_conquest_cb_user
+		if={
+			limit = {
+				ai = yes
+			}
+			add_treasury = 1000
+			add_manpower = 30
+			if={
+				limit={
+					SHE={exists = yes}
+				}
+				declare_war_with_cb = {
+					who = SHE
+					casus_belli = cb_mannish_great_conquest
+				}
+			}
+			if={
+				limit={
+					RAU={exists = yes}
+				}
+				declare_war_with_cb = {
+					who = RAU
+					casus_belli = cb_mannish_great_conquest
+				}
+			}
+		}
 	}
 	option = {	# shit
 		name = "iron_age_calamity.204.opt.e"
@@ -2768,6 +2794,7 @@ country_event = {#sweaping south
 				hidden_effect = {
 					set_global_flag = rauthyr_collapse
 					collapse_nation = yes
+					release_all_subjects = yes
 					every_province = {
 						limit = {
 							NOT = {

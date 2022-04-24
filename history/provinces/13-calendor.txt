@@ -1,6 +1,11 @@
 #tradewind_islands
-capital = "Accra"
-trade_goods = unknown
+capital = "Oasia"
+add_core = FRY
+owner = FRY
+controller = FRY
+culture = cyuean
+religion = tlaunorist
+trade_goods = fish
 hre = no
 base_tax = 3
 base_production = 2

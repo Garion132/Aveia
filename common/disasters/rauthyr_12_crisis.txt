@@ -96,6 +96,10 @@ crisis_of_the_12th_century = {
 	
 	progress = {
 		modifier = {
+			factor = 50
+			has_country_flag = RAU_crisis_12th_ongoing
+		}
+		modifier = {
 			factor = 1
 			NOT = { religious_unity = 1.0 }
 		}		

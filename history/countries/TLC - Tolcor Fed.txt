@@ -27,4 +27,5 @@ historical_rival = PAR
     	dip = 5
     	mil = 2
 	}
+	add_mil_tech = 1
 }

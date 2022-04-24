@@ -48,6 +48,7 @@ technology = {
 	enable = heavy_infantry #All
 	enable = spider_late_bronze_age_infantry #Spiders
 	enable = elven_bowmen #Elves
+	enable = shireate_rangers#fauns
 }
 
 technology = {

@@ -386,7 +386,7 @@ VIL_ideas = {
 }
 VUL_ideas = {
 	start = {
-		imperial_authority = 0.175
+		imperial_authority = 0.075
 		global_prov_trade_power_modifier = 0.1
 	}
 

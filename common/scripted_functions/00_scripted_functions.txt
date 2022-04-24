@@ -179,11 +179,23 @@ can_colonize_province_siberian_frontier = {
 		potential = {
 			FROM={
 				capital_scope = {
-					superregion = aveia_superregion
+					OR={
+						superregion = aveia_superregion
+						area = donamenz_1
+						area = donamenz_47
+						area = donamenz_46
+						area = donamenz_48
+					}
 				}
 			}
 			NOT={
-				superregion = aveia_superregion
+				OR={
+					superregion = aveia_superregion
+					area = donamenz_1
+					area = donamenz_47
+					area = donamenz_46
+					area = donamenz_48
+				}
 			}
 		}
 		allow = {

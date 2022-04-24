@@ -93,6 +93,10 @@
  spider_armored_pikers_DESCR:0 "During this time, the Spider peoples still used Bronze, not iron, as they had a distinct abundance of copper and lack of iron. Unable to develop Iron-Working, they continued to use bronze weaponry and armor."
  spider_transitory_infantry:0 "Transitory Infantry"
  spider_transitory_infantryDESCR:0 "During the Age of Expeditions, Spider Civilization was opened to the wider world through Sohoremphyan expeditionors. Thus, this unit represents the transition in that period."
+ 
+ #Northern Fauns
+ shireate_rangers:0 "Shireate Rangers"
+ shireate_rangersDESCR:0 "Todo"
 
  sailing_airship:0 "Sailing Airship"
  sailing_airshipDESCR:0 "Plz do description"
