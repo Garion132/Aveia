@@ -102,8 +102,6 @@ iron_age_calamity = {
         monthly_splendor = -4
         trade_efficiency = -0.25
         diplomatic_reputation = -2
-		global_unrest = 12 #temp
-		reduced_liberty_desire = -75
 	}	
 	
 	
@@ -115,9 +113,11 @@ iron_age_calamity = {
 		}
 		random_events = { 
 			1000 = 0
-			40 = iron_age_calamity.102
-			50 = iron_age_calamity.103
-			60 = iron_age_calamity.104
+			60 = iron_age_calamity.102
+			70 = iron_age_calamity.103
+			80 = iron_age_calamity.104
+			60 = iron_age_calamity.105
+			250 = iron_age_calamity.106
 			#100 = internal_conflicts.5
 			#100 = internal_conflicts.6
 			#100 = internal_conflicts.7

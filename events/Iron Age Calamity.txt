@@ -443,6 +443,57 @@ country_event = {
 		add_adm_power = -100
 		add_dip_power = -100
 		add_mil_power = -100
+
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						region = nylka_region
+						region = lildoresi_marches_region
+						region = rauthyr_region
+						region = nilenor_region
+						region = krorri_region
+						region = shemsele_region
+						region = otrcyueg_region
+						region = great_gulba_region
+						region = cradle_islands
+					}
+				}
+			}
+			add_disaster_modifier = {
+				name = "iac_severe_calamity"
+				duration = -1
+				disaster = iron_age_calamity
+			}
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						superregion = aveia_superregion
+						superregion = kirloi_superregion
+						superregion = enheasrion_basin_superregion
+						region = greater_shires_region
+						region = lentira_region
+						region = kyathia_region
+						region = suirx_cresant_region
+					}
+				}
+			}
+			add_disaster_modifier = {
+				name = "iac_moderate_calamity"
+				duration = -1
+				disaster = iron_age_calamity
+			}
+		}
+		else = {
+			add_disaster_modifier = {
+				name = "iac_mild_calamity"
+				duration = -1
+				disaster = iron_age_calamity
+			}
+		}
+
 		ai_chance = {
 			factor = 100
 
@@ -535,7 +586,7 @@ country_event = {
 			random_owned_province = { 
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 5
+					size = 3
 					win = yes
 					unrest = 20
 				}
@@ -543,7 +594,7 @@ country_event = {
 			random_owned_province = { 
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 3
+					size = 2
 					win = yes
 					unrest = 10
 				}
@@ -556,12 +607,80 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 4
+					size = 2
 					win = yes
 					unrest = 15
 				}
 			}
 			random_owned_province = { 
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 1
+					win = yes
+					unrest = 5
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = iac_severe_calamity
+				total_development = 400
+			}
+			random_owned_province = {
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 5
+					win = yes
+					unrest = 5
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = iac_severe_calamity
+				total_development = 200
+			}
+			random_owned_province = {
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 4
+					win = yes
+					unrest = 5
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = iac_severe_calamity
+			}
+			random_owned_province = {
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 3
+					win = yes
+					unrest = 5
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = iac_moderate_calamity
+				total_development = 300
+			}
+			random_owned_province = {
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 4
+					win = yes
+					unrest = 5
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = iac_moderate_calamity
+			}
+			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
 					size = 2
@@ -570,37 +689,10 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				NOT = { has_country_flag = calamity_land_reform }
-				total_development = 200
-			}
-			random_owned_province = {
-				spawn_rebels = {
-					type = anti_tax_rebels
-					size = 4
-					win = yes
-					unrest = 15
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOT = { has_country_flag = calamity_land_reform }
-			}
-			random_owned_province = {
-				spawn_rebels = {
-					type = anti_tax_rebels
-					size = 3
-					win = yes
-					unrest = 10
-				}
-			}
-		}
 		random_owned_province = {
 			spawn_rebels = {
 				type = anti_tax_rebels
-				size = 2
+				size = 1
 				win = yes
 				unrest = 5
 			}
@@ -608,7 +700,7 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = anti_tax_rebels
-				size = 2
+				size = 1
 				win = yes
 				unrest = 5
 			}
@@ -694,12 +786,40 @@ country_event = {
 	option = {	# Crush Them!
 		name = "iron_age_calamity.103.opt.a"
 
-		event_target:cultural_unrest_province = {
-			spawn_rebels = {
-				type = nationalist_rebels
-				size = 4
-				unrest = 10
-				culture = THIS
+		if = {
+			limit = {
+				has_country_modifier = iac_severe_calamity
+			}
+			event_target:cultural_unrest_province = {
+				spawn_rebels = {
+					type = nationalist_rebels
+					size = 5
+					unrest = 15
+					culture = THIS
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_modifier = iac_moderate_calamity
+			}
+			event_target:cultural_unrest_province = {
+				spawn_rebels = {
+					type = nationalist_rebels
+					size = 4
+					unrest = 10
+					culture = THIS
+				}
+			}
+		}
+		else = {
+			event_target:cultural_unrest_province = {
+				spawn_rebels = {
+					type = nationalist_rebels
+					size = 3
+					unrest = 5
+					culture = THIS
+				}
 			}
 		}
 		ai_chance = {
@@ -730,7 +850,17 @@ country_event = {
 
 		if = {
 			limit = {
-				total_development = 600
+				OR = {
+					total_development = 600
+					AND = {
+						has_country_modifier = iac_moderate_calamity
+						total_development = 400
+					}
+					AND = {
+						has_country_modifier = iac_severe_calamity
+						total_development = 300
+					}
+				}
 			}
 			custom_tooltip = 21_dev_loss_tt
 			hidden_effect = {
@@ -846,7 +976,17 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				total_development = 450
+				OR = {
+					total_development = 450
+					AND = {
+						has_country_modifier = iac_moderate_calamity
+						total_development = 300
+					}
+					AND = {
+						has_country_modifier = iac_severe_calamity
+						total_development = 150
+					}
+				}
 			}
 			custom_tooltip = 15_dev_loss_tt
 			hidden_effect = {
@@ -908,7 +1048,17 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				total_development = 300
+				OR = {
+					total_development = 300
+					AND = {
+						has_country_modifier = iac_moderate_calamity
+						total_development = 200
+					}
+					AND = {
+						has_country_modifier = iac_severe_calamity
+						total_development = 100
+					}
+				}
 			}
 			custom_tooltip = 9_dev_loss_tt
 			hidden_effect = {
@@ -952,7 +1102,17 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				total_development = 150
+				OR = {
+					total_development = 150
+					AND = {
+						has_country_modifier = iac_moderate_calamity
+						total_development = 100
+					}
+					AND = {
+						has_country_modifier = iac_severe_calamity
+						total_development = 50
+					}
+				}
 			}
 			custom_tooltip = 6_dev_loss_tt
 			hidden_effect = {
@@ -1020,7 +1180,15 @@ country_event = {
 			}
 			stability = -2
 		}
-		add_stability = -1
+		if = {
+			limit = {
+				has_country_modifier = iac_severe_calamity
+			}
+			add_stability = -2
+		}
+		else = {
+			add_stability = -1
+		}
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -5
@@ -1371,7 +1539,17 @@ country_event = {
 
 		if = {
 			limit = {
-				total_development = 600
+				OR = {
+					total_development = 600
+					AND = {
+						has_country_modifier = iac_moderate_calamity
+						total_development = 400
+					}
+					AND = {
+						has_country_modifier = iac_severe_calamity
+						total_development = 300
+					}
+				}
 			}
 			custom_tooltip = 21_dev_loss_tt
 			hidden_effect = {
@@ -1487,7 +1665,17 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				total_development = 450
+				OR = {
+					total_development = 450
+					AND = {
+						has_country_modifier = iac_moderate_calamity
+						total_development = 300
+					}
+					AND = {
+						has_country_modifier = iac_severe_calamity
+						total_development = 150
+					}
+				}
 			}
 			custom_tooltip = 15_dev_loss_tt
 			hidden_effect = {
@@ -1549,7 +1737,17 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				total_development = 300
+				OR = {
+					total_development = 300
+					AND = {
+						has_country_modifier = iac_moderate_calamity
+						total_development = 200
+					}
+					AND = {
+						has_country_modifier = iac_severe_calamity
+						total_development = 100
+					}
+				}
 			}
 			custom_tooltip = 9_dev_loss_tt
 			hidden_effect = {
@@ -1593,7 +1791,17 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				total_development = 150
+				OR = {
+					total_development = 150
+					AND = {
+						has_country_modifier = iac_moderate_calamity
+						total_development = 100
+					}
+					AND = {
+						has_country_modifier = iac_severe_calamity
+						total_development = 50
+					}
+				}
 			}
 			custom_tooltip = 6_dev_loss_tt
 			hidden_effect = {
@@ -1672,7 +1880,10 @@ country_event = {
 		highlight = yes
 		if = {
 			limit = {
-				NOT = { has_estate = estate_nobles }
+				OR = {
+					has_country_modifier = iac_severe_calamity	
+					NOT = { has_estate = estate_nobles }
+				}
 			}
 			add_stability = -2
 		}
@@ -1749,6 +1960,280 @@ country_event = {
 		ai_chance = {
 			factor = 2
 		}
+	}
+}
+
+#People Desert Cities
+country_event = {
+	id = iron_age_calamity.105
+	title = "iron_age_calamity.105.t"
+	desc = "iron_age_calamity.105.d"
+	picture = FAMINE_eventPicture
+	
+	trigger = {
+		any_owned_province = {
+			OR = {
+				base_tax = 5
+				base_production = 5
+				base_manpower = 5
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.105.o1" #We didn't need them anyway
+		
+		if = {
+			limit = {
+				OR = {
+					has_country_modifier = iac_moderate_calamity
+					has_country_modifier = iac_severe_calamity
+				}
+			}
+			random_owned_province = {
+				limit = {
+					base_tax = 3
+				}
+				add_base_tax = -1
+			}
+			random_owned_province = {
+				limit = {
+					base_production = 3
+				}
+				add_base_production = -1
+			}
+			random_owned_province = {
+				limit = {
+					base_manpower = 3
+				}
+				add_base_manpower = -1
+			}
+		}
+
+		random_owned_province = {
+			limit = {
+				base_tax = 5
+			}
+			add_base_tax = -1
+		}
+		random_owned_province = {
+			limit = {
+				base_production = 5
+			}
+			add_base_production = -1
+		}
+		random_owned_province = {
+			limit = {
+				base_manpower = 5
+			}
+			add_base_manpower = -1
+		}
+
+		if = {
+			limit = {
+				has_country_modifier = iac_severe_calamity
+			}
+			random_owned_province = {
+				limit = {
+					base_tax = 5
+				}
+				add_base_tax = -1
+			}
+			random_owned_province = {
+				limit = {
+					base_production = 5
+				}
+				add_base_production = -1
+			}
+			random_owned_province = {
+				limit = {
+					base_manpower = 5
+				}
+				add_base_manpower = -1
+			}
+		}
+		
+		random_owned_province = {
+			limit = {
+				base_tax = 7
+			}
+			add_base_tax = -2
+		}
+		random_owned_province = {
+			limit = {
+				base_production = 7
+			}
+			add_base_production = -2
+		}
+		random_owned_province = {
+			limit = {
+				base_manpower = 7
+			}
+			add_base_manpower = -2
+		}
+	}
+}
+
+#The Situation Gets Worse
+country_event = {
+	id = iron_age_calamity.106
+	title = "iron_age_calamity.106.t"
+	desc = "iron_age_calamity.106.d"
+	picture = ANGRY_MOB_eventPicture
+		
+	trigger = {
+		NOT = {
+			stability = -2
+		}
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {	# Didn't think that possible
+		name = "iron_age_calamity.106.o1"
+
+		add_stability = 1
+		random_owned_province = { 
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 3
+			}
+		}
+		every_owned_province = {
+			limit = {
+				base_tax = 2
+				base_manpower = 2
+				base_production = 2
+				OR = {
+					base_tax = 3
+					base_manpower = 3
+					base_production = 3
+				}
+			}
+			custom_tooltip = 1_dev_loss_tt
+			hidden_effect = {
+				random_list = {
+					30 = {
+						add_base_tax = -1
+					}
+					30 = {
+						add_base_production = -1
+					}
+					30 = {
+						add_base_manpower = -1
+					}
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+
+
+
+#Events for countries not in the disaster
+
+#Lives Uprooted
+country_event = {
+	id = iron_age_calamity.151
+	title = "iron_age_calamity.151.t"
+	desc = "iron_age_calamity.151.d"
+	picture = FAMINE_eventPicture
+	
+	trigger = {
+		has_country_flag = iron_age_calamity_possible
+		has_global_flag = iron_age_calamity
+		NOT = {
+			OR = {
+				has_country_flag = had_iron_age_calamity
+				is_year = 1400
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 48
+
+		modifier = {
+			factor = 0.5
+			NOT = { is_year = 1370 }
+		}
+	}
+
+	option = {
+		name = "iron_age_calamity.151.o1" #Oh dear
+		add_stability = -1
+
+		random_owned_province = {
+			limit = {
+				base_tax = 3
+			}
+			add_base_tax = -1
+		}
+		random_owned_province = {
+			limit = {
+				base_production = 3
+			}
+			add_base_production = -1
+		}
+		random_owned_province = {
+			limit = {
+				base_manpower = 3
+			}
+			add_base_manpower = -1
+		}
+	}
+}
+
+#Neighbor Creates Instability
+country_event = {
+	id = iron_age_calamity.152
+	title = "iron_age_calamity.152.t"
+	desc = "iron_age_calamity.152.d"
+	picture = FAMINE_eventPicture
+	
+	trigger = {
+		has_country_flag = iron_age_calamity_possible
+		has_global_flag = iron_age_calamity
+		NOT = {
+			OR = {
+				has_country_flag = had_iron_age_calamity
+				is_year = 1400
+			}
+		}
+		any_neighbor_country = {
+			has_disaster = iron_age_calamity
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 48
+
+		modifier = {
+			factor = 0.5
+			any_neighbor_country = {
+				has_country_modifier = iac_severe_calamity
+			}
+		}
+	}
+
+	option = {
+		name = "iron_age_calamity.152.o1" #If only our neighbors were more stable
+		add_stability = -1
 	}
 }
 

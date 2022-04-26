@@ -92,6 +92,30 @@
 
 
 #Disasters
+	#Iron Age Calamity
+	iac_mild_calamity = {
+		global_unrest = 6
+		reduced_liberty_desire = -50
+	}
+	iac_moderate_calamity = {
+		global_unrest = 12
+		reduced_liberty_desire = -75
+		
+		stability_cost_modifier = 0.25
+        global_tax_modifier = -0.1
+        all_power_cost = 0.05
+        trade_efficiency = -0.1
+	}
+	iac_severe_calamity = {
+		global_unrest = 18
+		reduced_liberty_desire = -100
+		
+		stability_cost_modifier = 0.5
+        global_tax_modifier = -0.2
+        all_power_cost = 0.1
+        trade_efficiency = -0.2
+	}
+
 	#Great Depression
 	gd_new_roll_modifier = {
 		stability_cost_modifier = -0.1

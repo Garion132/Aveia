@@ -7,6 +7,7 @@
  3_random_prov_3_dev_loss_tt:0 "Lose §R3§! Development across §Y3§! Provinces"
  3_random_prov_6_dev_loss_tt:0 "Lose §R6§! Development across §Y3§! Provinces"
  5_random_prov_15_dev_loss_tt:0 "Lose §R15§! Development across §Y5§! Provinces"
+ 1_dev_loss_tt:0 "Lose §R1§! Development"
  3_dev_loss_tt:0 "Lose §R3§! Development"
  6_dev_loss_tt:0 "Lose §R6§! Development"
  9_dev_loss_tt:0 "Lose §R9§! Development"
@@ -55,6 +56,18 @@
  iron_age_calamity.104.opt.c:0 "Confiscate land for reform"
  iron_age_calamity.104.opt.d:0 "Conduct widespread Land Reform so this never happens again!"
  iron_age_calamity.104.opt.e:0 "Lower trade barriers to alleviate the suffering"
+
+ iron_age_calamity.105.t:0 "People Desert Cities"
+ iron_age_calamity.105.o1:0 "We didn't need them anyway"
+
+ iron_age_calamity.106.t:0 "The Situation Gets Worse"
+ iron_age_calamity.106.o1:0 "Didn't think that possible"
+ 
+ iron_age_calamity.151.t:0 "Lives Uprooted"
+ iron_age_calamity.151.o1:0 "Oh dear"
+
+ iron_age_calamity.152.t:0 "Neighbors are Unstable"
+ iron_age_calamity.152.o1:0 "If only our neighbors were more stable"
 
  #Iron Age Calamity Breakaways
  iron_age_calamity.breakaway.op1:0 "We must crush them now!"
