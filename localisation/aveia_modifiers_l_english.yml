@@ -36,6 +36,13 @@
  new_innovations:0 "New Innovations"
  desc_new_innovations:0 "New inventions are spreading."
 
+ iac_mild_calamity:0 "Mild Calamity"
+ desc_iac_mild_calamity:0 "We are suffering from the Iron Age Calamity"
+ iac_moderate_calamity:0 "Moderate Calamity"
+ desc_iac_moderate_calamity:0 "We are suffering from the Iron Age Calamity"
+ iac_severe_calamity:0 "Severe Calamity"
+ desc_iac_severe_calamity:0 "We are suffering from the Iron Age Calamity"
+
  gd_new_roll_modifier:0 "New Roll"
  gd_drafting_legislation:0 "Drafting Legislation"
  gd_banking_reform:0 "Banking Reform"
