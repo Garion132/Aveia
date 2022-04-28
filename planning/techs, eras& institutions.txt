@@ -49,6 +49,7 @@ Solar Strife (1670-1712)
 		convert nation
 		take a side (choose one of the succesor religions or declare allienge to the true tlaunorist)
 		absolutism
+		large capital
 	boni:
 		religious wars
 		institutional spread
@@ -59,9 +60,10 @@ Age of Progress (1712-)
 		parliment
 		emperor
 		high discipline
-		large capital
+		Theology of Progress (be cult of progress, solar cult)
 		great leader
 		control institutions
+		Strong Industrilist (60% influcence by industrustrialists)
 	boni:
 		air ship armies(cavalry armies)
 		Improved Force March

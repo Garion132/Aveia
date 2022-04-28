@@ -3350,6 +3350,7 @@ country_event = {#sweaping south
 				any_owned_province = {
 					culture = umanti
 				}
+				tag = SHE
 			}
 			
 			immediate = {
@@ -3545,11 +3546,12 @@ country_event = {#sweaping south
 			trigger = {
 				NOT = {
 					has_global_flag = wassad_rebellion
-					tag = NYK
+					tag = WAS
 				}
 				any_owned_province = {
 					culture = wassadi
 				}
+				tag = SHE
 			}
 			
 			immediate = {
@@ -3687,6 +3689,7 @@ country_event = {#sweaping south
 				any_owned_province = {
 					culture = loironan
 				}
+				tag = SHE
 			}
 			
 			immediate = {
@@ -3828,6 +3831,7 @@ country_event = {#sweaping south
 				any_owned_province = {
 					culture = nilenorian
 				}
+				tag = SHE
 			}
 			
 			immediate = {

@@ -223,6 +223,7 @@ on_siege_won_country = {
 	if={
 		limit={
 			has_ruler_flag = great_conquest_cb_user
+			from={owner = {defensive_war_with = ROOT}}
 		}
 		from={
 			cede_province = root

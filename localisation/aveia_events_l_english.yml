@@ -164,4 +164,8 @@
   #Additional Event Options
   burghers_estate_events.12.c:0 "And what should we do about it?"
    burghers_estate_events.14.c:0 "Reduce Regulations but Raise Tariffs!"
+   
+   
+  iron_age_calamity.203.t:0 "The Iron Crown"
+  iron_age_calamity.203.opt.a:0 "Let Them Know War"
  
