@@ -71,6 +71,7 @@ south_elteria_superregion={
 	feltdon_region
 	deerok_region
 	palentai_bay_region
+	scuria_region
 }
 juluia_superregion={
 	shield_isles_region

@@ -762,6 +762,7 @@ karnaiha_region = {
 		karnaiha_11
 		feltdon_1
 		deerok_1
+		deerok_9
 	}
 }
 
@@ -919,24 +920,30 @@ feltdon_region={
 		feltdon_4
 		feltdon_5
 		feltdon_6
-		feltdon_7
-		feltdon_8
-		feltdon_9
-		feltdon_10
-		feltdon_11
-		feltdon_12
-		feltdon_13
-		feltdon_14
-		feltdon_15
-		feltdon_16
-		feltdon_17
-		feltdon_18
 		feltdon_19
 		feltdon_20
 		feltdon_21
-		feltdon_22
-		feltdon_23
 		feltdon_24
+		scuria_12
+	}
+}
+scuria_region={
+	areas = {
+		scuria_1
+		scuria_2
+		scuria_4
+		scuria_5
+		scuria_6
+		scuria_7
+		scuria_8
+		scuria_9
+		scuria_10
+		scuria_11
+		scuria_13
+		feltdon_7
+		feltdon_8
+		feltdon_18
+		feltdon_23
 	}
 }
 deerok_region={
@@ -948,10 +955,18 @@ deerok_region={
 		deerok_6
 		deerok_7
 		deerok_8
-		deerok_9
 		deerok_10
 		deerok_11
 		deerok_12
+		feltdon_9
+		feltdon_10
+		feltdon_11
+		feltdon_12
+		feltdon_13
+		feltdon_14
+		feltdon_15
+		feltdon_16
+		feltdon_17
 	}
 }
 suirx_cresant_region={
