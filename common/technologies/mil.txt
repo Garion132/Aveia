@@ -398,8 +398,6 @@ technology = {
 	infantry_fire = 0.2
 	infantry_shock = 0.1
 	
-	# conscription_center = yes
-
 	enable = arquebusiers #Elves
 }
 
@@ -443,6 +441,8 @@ technology = {
 
 	#TODO New Inf
 	enable = pike_and_shot #Humans
+
+	fort_16th = yes
 }
 
 technology = {
@@ -482,6 +482,8 @@ technology = {
 
 	infantry_fire = 0.5
 	combat_width = 4
+
+	training_fields = yes
 
 	enable = mixed_ranged_infantry #Elves
 }
@@ -564,9 +566,8 @@ technology = {
 		global_trade = 0.1
 	}
 	
-	#Star Bastions
+	#Line Infantry
 	military_tactics = 0.25
-	fort_16th = yes
 }
 
 technology = {
@@ -610,7 +611,8 @@ technology = {
 
 	#TODO new arty
 
-	training_fields = yes
+	military_academy = yes
+	fort_17th = yes
 }
 
 technology = {
@@ -706,11 +708,8 @@ technology = {
 	military_tactics = 1.0
 	land_morale = 0.5
 	infantry_shock = 0.5
-	combat_width = -4
 
 	#TODO -20% fire damage recieved
-
-	fort_17th = yes
 }
 
 technology = {
@@ -733,7 +732,6 @@ technology = {
 	military_tactics = 0.25
 	infantry_fire = 0.2
 	infantry_shock = 1.5
-	combat_width = -4
 
 	conscription_center = yes
 }
@@ -882,10 +880,11 @@ technology = {
 		enlightenment = 0.3
 	}
 	
-	#Line Infantry
+	#Mass Mobilization
 	military_tactics = 0.25
 	land_morale = 1.0
-	combat_width = -4
+
+	mobilization_system = yes
 }
 
 technology = {
@@ -937,7 +936,6 @@ technology = {
 	artillery_fire = 4.0
 	artillery_shock = 0.15
 	cavalry_fire = 10.0
-	combat_width = -4
 
 	#TODO new art
 }
@@ -965,5 +963,6 @@ technology = {
 	infantry_fire = 1.0
 	cavalry_fire = 5.0
 	cavalry_shock = 2.0
-	combat_width = -4
+	
+	fort_19th = yes
 }

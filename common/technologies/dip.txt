@@ -322,6 +322,7 @@ technology = { #Carracks
 	}
 
 	naval_morale = 0.25
+	drydock = yes
 
 	#New Heavy Ship (Carrack)
 	#New galley (Galiot)
@@ -566,7 +567,6 @@ technology = { #Threedeckers
 
 	#grand_shipyard = yes 
 	#New Heavy Ship (Threedecker)
-
 }
 
 technology = { #Naval Professionalism
@@ -585,7 +585,6 @@ technology = { #Naval Professionalism
 	}
 	
 	num_accepted_cultures = 1
-	drydock = yes 
 	trade_efficiency 		= 	0.02
 }
 
@@ -657,6 +656,8 @@ technology = { #All-or-Nothing Armor Scheme
 
 	naval_maintenance = 0.2
 	#New Heavy Ship (Floating Fortress)
+
+	naval_fortification = yes
 }
 
 technology = { #Joint Stock Companies

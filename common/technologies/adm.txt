@@ -46,6 +46,8 @@ technology = { #Basic Administration
 	}
 
 	town_square = yes
+	taxman = yes
+	gravel_roads = yes
 	allowed_idea_groups = 1
 
 	#Monarchies
@@ -151,6 +153,7 @@ technology = { #Craftsmanship
 	#forge = yes
 	# - Proto-manufactory: provides 0.2 goods produced
 	# - Can be placed on metals (Iron, Copper, Tin, etc.)
+	school = yes
 }
 
 technology = { #Simple Mechanisms
@@ -255,6 +258,7 @@ technology = { #Courthouse
 	}
 	
 	courthouse = yes
+	tax_office = yes
 	governing_capacity = 100
 }
 
@@ -468,6 +472,7 @@ technology = { #Military Administration
 
 	may_force_march = yes
 	soldier_households = yes
+	tax_agency = yes
 }
 
 technology = { #National Sovereignty
@@ -486,6 +491,7 @@ technology = { #National Sovereignty
 	}
 	
 	allowed_idea_groups = 9
+	canals = yes
 }
 
 technology = { #Viatite Engineering
@@ -605,6 +611,7 @@ technology = { #Land Clearance
 
 	production_efficiency 	=	0.03
 	furnace = yes
+	paved_roads = yes
 }
 
 technology = { #Rights of Mortals
@@ -692,6 +699,7 @@ technology = { #Empiricism
 	}
 
 	allowed_idea_groups = 13
+	revenue_department = yes
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
 }
@@ -757,8 +765,7 @@ technology = { #Railroads
 		enlightenment = 0.5
 	}
 
-	#railroad = yes
-	# - like a better uni, +building slot, -dev cost, +instit spread, ++mvmt speed
+	railroads = yes
 	production_efficiency = 0.05
 }
 
@@ -805,10 +812,11 @@ technology = { #Urbanization
 		enlightenment = 0.5
 	}
 
-	#research_center = yes
-	# - upgrade to uni, +2 building slots, -40% dev cost
+	research_center = yes
 	production_efficiency = 0.05
 	development_efficiency = 0.1
+
+	highways = yes
 }
 
 technology = { #Tractors
@@ -831,4 +839,6 @@ technology = { #Tractors
 
 	development_efficiency = 0.1
 	production_efficiency 	=	0.05
+
+	railroad_network = yes
 }
