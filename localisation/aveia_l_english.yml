@@ -114,6 +114,22 @@
  trebuchet:0 "Trebuchet"
  bombard:0 "Bombard"
  basilisk:0 "Basilisk"
+
+ #Ships
+ #Heavy Ships
+ #Light Ships
+ trade_ship:0 "Trade Ship"
+ lenee:0 "Lenee"
+ leneeDESCR:0 "An Elven trade ship that could speed across the sea at breakneck speeds, for the time."
+ barque:0 "Barque"
+ #Galleys
+ trireme:0 "Trireme"
+ galley:0 "Galley"
+ war_galley:0 "War Galley"
+ #Transports
+ bireme:0 "Bireme"
+ hulk:0 "Hulk"
+ cog:0 "Cog"
  
  #Buildings
  building_marketplace_desc:0 "Development at least §Y3§!\n"

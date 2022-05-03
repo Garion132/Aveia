@@ -26,8 +26,8 @@ technology = { #Shipbuilding
 	merchants = yes
 	trade_range				=	100
 	range					= 	50
-	enable = cog #Bireme
-	enable = galley #Trireme
+	enable = bireme
+	enable = trireme
 	shipwright = yes
 }
 
@@ -40,7 +40,7 @@ technology = { #Sailing
 	
 	naval_morale			=	0.1
 	naval_maintenance		= 	0.1
-	enable = barque #Trade Ship
+	enable = trade_ship
 	trade_range				=	50
 	range					= 	50
 	port = yes
@@ -132,6 +132,7 @@ technology  = { #Optics
 	gatherers_hut = yes
 
 	#New transport (Hulk)
+	enable = hulk
 }
 
 technology = { #Lateen Sails
@@ -148,6 +149,8 @@ technology = { #Lateen Sails
 	
 	#New light ship (Lenee)
 	#New galley (Galley)
+	enable = lenee
+	enable = galley
 }
 
 technology = { #Edailian Epics
@@ -208,8 +211,11 @@ technology = { #Square Rigging
 	}
 	
 	naval_maintenance = 0.2
+	
+	#New Heavy Ship (Carrack)
 	enable = early_carrack
 	#New transport (Cog)
+	enable = cog
 }
 
 technology = { #Marketplaces
@@ -241,7 +247,9 @@ technology = { #Compass
 	may_steal_maps = yes
 
 	#New light ship (Barque)
+	enable = barque
 	#New galley (War Galley)
+	enable = war_galley
 }
 
 technology = { #Ties to the Homeland

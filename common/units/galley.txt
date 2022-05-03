@@ -1,0 +1,9 @@
+type = galley
+
+hull_size = 10
+base_cannons = 7
+sail_speed = 4
+blockade = 2
+
+sprite_level = 1
+manpower = 200
