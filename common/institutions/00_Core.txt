@@ -25,6 +25,9 @@ organized_state = {
 
 	history = {
 		is_year = 1000
+		NOT={
+			culture_group = scurian
+		}
 	}
 	
 	# no need for events, as its there from the start.

@@ -1,0 +1,34 @@
+government = tribal
+add_government_reform = tribal_federation
+primary_culture = dican
+religion = eochism
+government_rank = 1
+technology_group = scurian_group
+capital = 5170 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+# 1240.9.16 = {
+	# monarch = {
+		# name = "Filler"
+		# dynasty = "Unhar"
+		# birth_date = 1240.12.3
+		# adm = 3
+		# dip = 3
+		# mil = 3
+	# }
+# }

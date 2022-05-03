@@ -1,6 +1,8 @@
 #juilia
 capital = "Accra"
 trade_goods = unknown
+culture = phetonese
+religion = reformed_eochism
 hre = no
 base_tax = 0
 base_production = 1

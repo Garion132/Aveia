@@ -1139,7 +1139,49 @@ grayard_group = {#faiths of the east
 
 
 
+eochism_group = {
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 58 80 }
+	
+	can_form_personal_unions = yes
+	
+	eochism = { #
+		color = { 146 255 132 }
+		icon = 18
+		country = {
+			development_cost = -0.1
+			religious_unity = 0.1
+		}
+		country_as_secondary = {
+			trade_efficiency = 0.1
+			diplomats = 1
+		}
+		
+		heretic = { SKOZJIGIAN }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
+	reformed_eochism = { #
+		color = { 167 216 112 }
+		icon = 19
+		country = {
+			development_cost = -0.1
+			religious_unity = 0.1
+		}
+		country_as_secondary = {
+			trade_efficiency = 0.1
+			diplomats = 1
+		}
+		
+		heretic = { SKOZJIGIAN }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
 
+	crusade_name = CRUSADE
+}
 
 
 

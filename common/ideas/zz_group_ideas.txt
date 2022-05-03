@@ -410,7 +410,8 @@ vilwinder_ideas = {
 		land_morale = 0.125
 	}
 	FRY_exspanding_horisions = {
-		range = 0.9
+		range = 0.2
+		colonist_placement_chance = 0.05
 	}
 	fry_mercanry_armys = {
 		merc_maintenance_modifier = -0.33
