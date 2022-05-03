@@ -1471,6 +1471,390 @@ research_center = {
 ################################################
 # Manufactories
 ################################################
+# Irrigated Fields, +0.2 Goods Produced, (Grain, Fruit, Wine, Wool, Vecroth Fruit, Livestock, Fish)
+# Farm Estate, +0.5 Goods Produced
+# Mechanized Farm, +1.0 Goods Produced, +20% Goods Produced
+#
+# Gatherer's Hut, +0.33 Goods Produced, (Fur, Quedarma Horns, Slaves, Black Eliph, Spices, Iresta, Ecriamin, Sweetpowder, Gold Knot, Spirl, Sunspot, Dyes, Udezer Wood)
+# Plantation, +0.66 Goods Produced
+# Trade Station, +1.0 Goods Produced
+#
+# Craftsman, +0.2 Goods Produced (Naval Supplies, Cloth, Machinery, Glass, Paper, Ceramics, Manufactured Goods)
+# Manufactory, +0.5 Goods Produced
+# Factory, +1.0 Goods Produced, +50% Goods Produced
+#
+# Mine, +0.2 Goods Produced (Salt, Copper, Tin, Silver, Iron, Plaulum, Ankon, Gems, Coal, Marble)
+# Mining Complex, +0.5 Goods Produced
+# Mechanized Mine, +1.0 Goods Produced, +20% Goods Produced
+#
+# Refinery, +0.5 Goods Produced, +25% Trade Value, (Guedina, Bryrine, Vitaite)
+# Processing Plant, +1.0 Goods Produced, +50% Trade Value 
+
+
+irrigated_fields = {
+	cost = 200
+	time = 36
+
+	build_trigger = {
+		OR = {
+			trade_goods = grain
+			trade_goods = fruit
+			trade_goods = wine
+			trade_goods = wool
+			trade_goods = vecroth_fruit
+			trade_goods = livestock
+			trade_goods = fish
+		}
+	}
+	modifier = {
+		trade_goods_size = 0.2
+	}
+
+	ai_will_do = {
+		factor = 2
+	}
+}
+farm = {
+	cost = 1000
+	time = 48
+
+	make_obsolete = irrigated_fields
+
+	build_trigger = {
+		OR = {
+			trade_goods = grain
+			trade_goods = fruit
+			trade_goods = wine
+			trade_goods = wool
+			trade_goods = vecroth_fruit
+			trade_goods = livestock
+			trade_goods = fish
+		}
+	}
+	modifier = {
+		trade_goods_size = 0.5
+	}
+
+	ai_will_do = {
+		factor = 3
+	}
+}
+mechanized_farm = {
+	cost = 3000
+	time = 60
+
+	make_obsolete = farm
+
+	build_trigger = {
+		OR = {
+			trade_goods = grain
+			trade_goods = fruit
+			trade_goods = wine
+			trade_goods = wool
+			trade_goods = vecroth_fruit
+			trade_goods = livestock
+			trade_goods = fish
+		}
+	}
+	modifier = {
+		trade_goods_size = 1
+	}
+
+	ai_will_do = {
+		factor = 4
+	}
+}
+
+gatherers_hut = {
+	cost = 200
+	time = 36
+
+	build_trigger = {
+		OR = {
+			trade_goods = fur
+			trade_goods = quedarma_horns
+			trade_goods = black_eliph
+			trade_goods = spices
+			trade_goods = iresta
+			trade_goods = ecriamin
+			trade_goods = sweetpowder
+			trade_goods = gold_knot
+			trade_goods = dyes
+			trade_goods = udezer_wood
+			trade_goods = sunspot
+			trade_goods = icorine
+			trade_goods = chiming_tree
+			trade_goods = slaves
+		}
+	}
+	modifier = {
+		trade_goods_size = 0.33
+	}
+
+	ai_will_do = {
+		factor = 2
+	}
+}
+plantation = {
+	cost = 1000
+	time = 48
+
+	make_obsolete = gatherers_hut
+
+	build_trigger = {
+		OR = {
+			trade_goods = fur
+			trade_goods = quedarma_horns
+			trade_goods = black_eliph
+			trade_goods = spices
+			trade_goods = iresta
+			trade_goods = ecriamin
+			trade_goods = sweetpowder
+			trade_goods = gold_knot
+			trade_goods = dyes
+			trade_goods = udezer_wood
+			trade_goods = sunspot
+			trade_goods = icorine
+			trade_goods = chiming_tree
+			trade_goods = slaves
+		}
+	}
+	modifier = {
+		trade_goods_size = 0.66
+	}
+
+	ai_will_do = {
+		factor = 3
+	}
+}
+trade_station = {
+	cost = 3000
+	time = 60
+
+	make_obsolete = plantation
+
+	build_trigger = {
+		OR = {
+			trade_goods = fur
+			trade_goods = quedarma_horns
+			trade_goods = black_eliph
+			trade_goods = spices
+			trade_goods = iresta
+			trade_goods = ecriamin
+			trade_goods = sweetpowder
+			trade_goods = gold_knot
+			trade_goods = dyes
+			trade_goods = udezer_wood
+			trade_goods = sunspot
+			trade_goods = icorine
+			trade_goods = chiming_tree
+			trade_goods = slaves
+		}
+	}
+	modifier = {
+		trade_goods_size = 1
+	}
+
+	ai_will_do = {
+		factor = 4
+	}
+}
+
+craftsman = {
+	cost = 200
+	time = 36
+
+	build_trigger = {
+		OR = {
+			trade_goods = cloth
+			trade_goods = naval_supplies
+			trade_goods = machinery
+			trade_goods = glass
+			trade_goods = paper
+			trade_goods = ceramics
+		}
+	}
+	modifier = {
+		trade_goods_size = 0.2
+	}
+
+	ai_will_do = {
+		factor = 2
+	}
+}
+early_factory = {
+	cost = 1000
+	time = 48
+
+	make_obsolete = craftsman
+
+	build_trigger = {
+		OR = {
+			trade_goods = cloth
+			trade_goods = naval_supplies
+			trade_goods = machinery
+			trade_goods = glass
+			trade_goods = paper
+			trade_goods = ceramics
+		}
+	}
+	modifier = {
+		trade_goods_size = 0.5
+	}
+
+	ai_will_do = {
+		factor = 3
+	}
+}
+late_factory = {
+	cost = 3000
+	time = 60
+
+	make_obsolete = early_factory
+
+	build_trigger = {
+		OR = {
+			trade_goods = cloth
+			trade_goods = naval_supplies
+			trade_goods = machinery
+			trade_goods = glass
+			trade_goods = paper
+			trade_goods = ceramics
+		}
+	}
+	modifier = {
+		trade_goods_size_modifier = 0.5
+		trade_goods_size = 1
+	}
+
+	ai_will_do = {
+		factor = 4
+	}
+}
+
+mine = {
+	cost = 200
+	time = 36
+
+	build_trigger = {
+		OR = {
+			trade_goods = salt
+			trade_goods = copper
+			trade_goods = tin
+			trade_goods = silver
+			trade_goods = iron
+			trade_goods = plaulum
+			trade_goods = coal
+			trade_goods = ankon
+			trade_goods = marble
+		}
+	}
+	modifier = {
+		trade_goods_size = 0.2
+	}
+
+	ai_will_do = {
+		factor = 2
+	}
+}
+mining_complex = {
+	cost = 1000
+	time = 48
+
+	make_obsolete = mine
+
+	build_trigger = {
+		OR = {
+			trade_goods = salt
+			trade_goods = copper
+			trade_goods = tin
+			trade_goods = silver
+			trade_goods = iron
+			trade_goods = plaulum
+			trade_goods = coal
+			trade_goods = ankon
+			trade_goods = marble
+		}
+	}
+	modifier = {
+		trade_goods_size = 0.5
+	}
+
+	ai_will_do = {
+		factor = 3
+	}
+}
+mechanized_mine = {
+	cost = 3000
+	time = 48
+
+	make_obsolete = mining_complex
+
+	build_trigger = {
+		OR = {
+			trade_goods = salt
+			trade_goods = copper
+			trade_goods = tin
+			trade_goods = silver
+			trade_goods = iron
+			trade_goods = plaulum
+			trade_goods = coal
+			trade_goods = ankon
+			trade_goods = marble
+		}
+	}
+	modifier = {
+		trade_goods_size_modifier = 0.2
+		trade_goods_size = 1
+	}
+
+	ai_will_do = {
+		factor = 3
+	}
+}
+
+refinery = {
+	cost = 1000
+	time = 48
+
+	build_trigger = {
+		OR = {
+			trade_goods = guedina
+			trade_goods = vitaite
+			trade_goods = bryrine
+		}
+	}
+	modifier = {
+		trade_value_modifier = 0.25
+		trade_goods_size = 0.5
+	}
+
+	ai_will_do = {
+		factor = 2
+	}
+}
+processing_plant = {
+	cost = 3000
+	time = 60
+
+	make_obsolete = refinery
+
+	build_trigger = {
+		OR = {
+			trade_goods = guedina
+			trade_goods = vitaite
+			trade_goods = bryrine
+		}
+	}
+	modifier = {
+		trade_value_modifier = 0.5
+		trade_goods_size = 1
+	}
+
+	ai_will_do = {
+		factor = 2
+	}
+}
 
 manufactory = {
 	cost = 500

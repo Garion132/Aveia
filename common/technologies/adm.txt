@@ -32,10 +32,6 @@ technology = { #Domestication
 	
 	tribal_democracy_legacy = yes
 	tribal_kingdom_legacy = yes
-
-	#pastures = yes
-	# - Proto-manufactory: provides 0.2 goods produced
-	# - Can be placed on animal goods (livestock, komule wool, etc.)
 }
 
 technology = { #Basic Administration
@@ -73,10 +69,7 @@ technology = { #Artisanship
 		bronze_working = 0.25
 	}
 
-	#artisans_workshop = yes 
 	workshop = yes
-	# - Proto-manufactory: provides 0.2 goods produced
-	# - Can be placed on manufactured goods (Ceramics, Cloth, etc.)
 }
 
 technology = { #Recordkeeping
@@ -150,9 +143,7 @@ technology = { #Craftsmanship
 		crop_rotation = 0.40
 	}
 	
-	#forge = yes
-	# - Proto-manufactory: provides 0.2 goods produced
-	# - Can be placed on metals (Iron, Copper, Tin, etc.)
+	craftsman = yes
 	school = yes
 }
 
@@ -180,10 +171,7 @@ technology = { #Irrigation
 	}
 	
 	development_efficiency = 0.05
-	#irrigated_fields = yes
-	# - Proto-manufactory: provides 0.2 goods produced
-	# - Can be placed on farmed goods (grapes, wine, grain, etc.)
-	
+	irrigated_fields = yes
 }
 
 technology = { #Religious Revival
@@ -228,7 +216,7 @@ technology = { #Scythes
 		iron_working = 0.5
 	}
 	
-	farm_estate = yes
+	farm = yes
 	production_efficiency = 0.03
 }
 
@@ -274,7 +262,7 @@ technology = { #Plantations
 		new_world_i = 0.1
 	}
 	
-	plantations = yes
+	plantation = yes
 	production_efficiency = 0.02
 }
 
@@ -342,8 +330,7 @@ technology = { #Machinery
 		guedinan_revolution = 0.1
 	}
 	
-	#Textile Manufactory
-	textile = yes  
+	early_factory = yes  
 	production_efficiency = 0.02
 }
 
@@ -376,6 +363,7 @@ technology = { #Improved Drainage
 		guedinan_revolution = 0.5
 	}
 	
+	refinery = yes
 	production_efficiency = 0.03
 	
 }
@@ -432,7 +420,6 @@ technology = { #Modern Metallurgy
 		printing_press = 0.3
 	}
 
-	mills = yes
 	production_efficiency = 0.02
 }
 
@@ -450,7 +437,6 @@ technology = { #Scientific Enquiry
 		printing_press = 0.5
 	}
 	
-	plantations = yes
 	allowed_idea_groups = 8
 }
 
@@ -610,7 +596,7 @@ technology = { #Land Clearance
 	}
 
 	production_efficiency 	=	0.03
-	furnace = yes
+	mechanized_farm = yes
 	paved_roads = yes
 }
 
@@ -655,8 +641,7 @@ technology = { #Industrial Production
 	}
 
 	production_efficiency 	=	0.05
-	#factory = yes
-	# - +prod eff, -dev cost, +goods produced, really expensive
+	late_factory = yes
 }
 
 technology = { #Economic Theory
@@ -744,6 +729,7 @@ technology = { #Bessemer Process
 		enlightenment = 0.4
 	}
 
+	processing_plant = yes
 	production_efficiency 	=	0.05
 }
 

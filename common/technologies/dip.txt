@@ -129,6 +129,7 @@ technology  = { #Optics
 	naval_maintenance = 0.1
 	trade_range				=	30
 	range					= 	50
+	gatherers_hut = yes
 
 	#New transport (Hulk)
 }
@@ -286,7 +287,7 @@ technology = { #Trading Companies
 		new_world_i = 0.2
 	}
 	
-	tradecompany = yes
+	plantation = yes
 	trade_range = 20
 	trade_efficiency = 0.02
 }
@@ -525,6 +526,7 @@ technology = { #Vercroths
 	naval_morale			=	0.5
 	range = 50
 
+	trade_station = yes
 	reduced_naval_attrition = yes
 }
 
@@ -887,4 +889,12 @@ technology = { #Superfiring Armaments
 	naval_maintenance = 0.2
 	#New Light Ship (Armored Cruiser)
 	#New Heavy Ship (Battleship)
+	
+	weapons = yes
+	textile = yes
+	plantations = yes
+	tradecompany = yes
+	farm_estate = yes
+	mills = yes
+	furnace = yes
 }

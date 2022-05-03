@@ -191,6 +191,7 @@ technology = {
 	}
 	
 	#Metallurgy
+	mine = yes
 	infantry_shock		= 	0.2
 	
 	enable = shemseler_pikemen #Elves
@@ -378,6 +379,8 @@ technology = {
 	military_tactics 	= 	0.1
 	infantry_shock 		=	0.2
 
+	mining_complex = yes
+
 	enable = late_medieval_infantry #Humans
 }
 
@@ -459,7 +462,6 @@ technology = {
 	}
 	
 	#Weapons Manufactory
-	weapons = yes
 	supply_limit = 0.25
 }
 
@@ -708,6 +710,8 @@ technology = {
 	military_tactics = 1.0
 	land_morale = 0.5
 	infantry_shock = 0.5
+
+	mechanized_mine = yes
 
 	#TODO -20% fire damage recieved
 }
