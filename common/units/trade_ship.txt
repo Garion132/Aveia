@@ -7,4 +7,4 @@ blockade = 1
 
 trade_power = 1
 sprite_level = 1
-manpower = 50
+manpower = 40
