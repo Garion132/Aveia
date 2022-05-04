@@ -1007,8 +1007,8 @@ taxman = {
 	}
 	modifier = {
 		tax_income = 1
-		local_tax_modifier = 0.2
-		local_development_cost = 0.1
+		local_tax_modifier = 0.15
+		local_development_cost = 0.15
 		local_unrest = 1
 	}
 
@@ -1028,7 +1028,7 @@ tax_office = {
 	modifier = {
 		tax_income = 2
 		local_tax_modifier = 0.33
-		local_development_cost = 0.2
+		local_development_cost = 0.33
 		local_unrest = 2
 	}
 
@@ -1048,7 +1048,7 @@ tax_agency = {
 	modifier = {
 		tax_income = 3
 		local_tax_modifier = 0.5
-		local_development_cost = 0.5
+		local_development_cost = 0.66
 		local_unrest = 3
 	}
 

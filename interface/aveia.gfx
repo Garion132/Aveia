@@ -206,6 +206,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//latin_fort10.dds"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_naval_fortification"
+		texturefile = "gfx//interface//buildings//latin_naval_fortification.dds"
+		loadType = "INGAME"
+	}
 	
 	spriteType = {
 		name = "GFX_gravel_roads"

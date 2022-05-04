@@ -13,6 +13,9 @@ NDefines.NEconomy.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.15
 
 NDefines.NCountry.STARTING_FLEET_SIZE = 1.8 -- Countries start with +100% forcelimit
 
+NDefines.NEconomy.MAX_BUILDING_SLOTS = 16 -- 4 more than base 
+NDefines.NCountry.PS_IMPROVE_PROVINCE_BASE = 75
+
 NDefines.NMilitary.INF_REGIMENT_MANPOWER_COST = 1 -- 1000 Men in an infantry regiment
 NDefines.NMilitary.CAV_REGIMENT_MANPOWER_COST = 0.5 -- 500 Men in an airship regiment
 NDefines.NMilitary.ART_REGIMENT_MANPOWER_COST = 1 -- 1000 Men in an arty regiment
