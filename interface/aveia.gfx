@@ -209,44 +209,93 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_gravel_roads"
-		texturefile = "gfx//interface//buildings//latin_gravel_roads.dds"
+		texturefile = "gfx//interface//buildings//latin_gravel_roads.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
 		name = "GFX_paved_roads"
-		texturefile = "gfx//interface//buildings//latin_paved_roads.dds"
+		texturefile = "gfx//interface//buildings//latin_paved_roads.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
 		name = "GFX_highways"
-		texturefile = "gfx//interface//buildings//latin_highways.dds"
+		texturefile = "gfx//interface//buildings//latin_highways.tga"
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
 		name = "GFX_canals"
-		texturefile = "gfx//interface//buildings//latin_canal.dds"
+		texturefile = "gfx//interface//buildings//latin_canal.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
 		name = "GFX_railroads"
-		texturefile = "gfx//interface//buildings//latin_railroads.dds"
+		texturefile = "gfx//interface//buildings//latin_railroads.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
 		name = "GFX_railroad_network"
-		texturefile = "gfx//interface//buildings//latin_railroad_network.dds"
+		texturefile = "gfx//interface//buildings//latin_railroad_network.tga"
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
 		name = "GFX_school"
-		texturefile = "gfx//interface//buildings//latin_college.dds"
+		texturefile = "gfx//interface//buildings//latin_college.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
 		name = "GFX_research_center"
-		texturefile = "gfx//interface//buildings//latin_laboratory.dds"
+		texturefile = "gfx//interface//buildings//latin_laboratory.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_irrigated_fields"
+		texturefile = "gfx//interface//buildings//manufactory_irrigation.tga"
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_farm"
+		texturefile = "gfx//interface//buildings//manufactory_farm_estate.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_mechanized_farm"
+		texturefile = "gfx//interface//buildings//manufactory_mechanized_farm.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_gatherers_hut"
+		texturefile = "gfx//interface//buildings//manufactory_gatherers_hut.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_plantation"
+		texturefile = "gfx//interface//buildings//manufactory_plantations.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_trade_station"
+		texturefile = "gfx//interface//buildings//manufactory_trade_company.dds"
+		loadType = "INGAME"
+	}
+
+	
+	spriteType = {
+		name = "GFX_craftsman"
+		texturefile = "gfx//interface//buildings//manufactory_craftsman.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_early_factory"
+		texturefile = "gfx//interface//buildings//manufactory_textile.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_late_factory"
+		texturefile = "gfx//interface//buildings//manufactory_factory.tga"
 		loadType = "INGAME"
 	}
 
