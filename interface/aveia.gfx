@@ -1,10 +1,7 @@
 spriteTypes = {
+	#Garion, please keep this file *somewhat* organized.
 
-	spriteType = {
-		name = "GFX_merchants_quarter"
-		texturefile = "gfx//interface//buildings//latin_treasury.tga"
-		loadType = "INGAME"
-	}
+	#Religious Icons
 	spriteType = {
 		name = "GFX_school_meanic_court"
 		texturefile = "gfx//interface//icon_muslim_school_meanic_court.dds"
@@ -38,6 +35,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_school_rorest_church"
 		texturefile = "gfx//interface//icon_muslim_school_rorest_church.dds"
+		loadType = "INGAME"
+	}
+	
+	#Buildings
+	spriteType = {
+		name = "GFX_merchants_quarter"
+		texturefile = "gfx//interface//buildings//latin_treasury.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -158,10 +162,91 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//latin_laboratory.tga"
 		loadType = "INGAME"
 	}
+	
+	spriteType = {
+		name = "GFX_military_academy"
+		texturefile = "gfx//interface//buildings//latin_military_academy.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_mobilization_system"
+		texturefile = "gfx//interface//buildings//latin_arsenal.tga"
+		loadType = "INGAME"
+	}
+
+	
+	spriteType = {
+		name = "GFX_taxman"
+		texturefile = "gfx//interface//buildings//latin_taxman.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_tax_office"
+		texturefile = "gfx//interface//buildings//latin_tax_assessor.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_tax_agency"
+		texturefile = "gfx//interface//buildings//latin_tax_agency.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_revenue_department"
+		texturefile = "gfx//interface//buildings//latin_revenue_department.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_fort_14th"
 		texturefile = "gfx//interface//buildings//latin_fort0.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_19th"
+		texturefile = "gfx//interface//buildings//latin_fort10.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_gravel_roads"
+		texturefile = "gfx//interface//buildings//latin_gravel_roads.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_paved_roads"
+		texturefile = "gfx//interface//buildings//latin_paved_roads.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_highways"
+		texturefile = "gfx//interface//buildings//latin_highways.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_canals"
+		texturefile = "gfx//interface//buildings//latin_canal.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_railroads"
+		texturefile = "gfx//interface//buildings//latin_railroads.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_railroad_network"
+		texturefile = "gfx//interface//buildings//latin_railroad_network.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_school"
+		texturefile = "gfx//interface//buildings//latin_college.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_research_center"
+		texturefile = "gfx//interface//buildings//latin_laboratory.dds"
 		loadType = "INGAME"
 	}
 
