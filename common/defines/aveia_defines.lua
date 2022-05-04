@@ -5,9 +5,27 @@ NDefines.NCountry.FREE_IDEA_GROUP_COST = 7
 NDefines.NCountry.PS_BUY_IDEA = 300
 NDefines.NCountry.CORRUPTION_COST = 0.075 -- Max De-Corrupt is 50% more expensive for each dev
 
-NDefines.NMilitary.INF_REGIMENT_MANPOWER_COST = 1 -- 500 Men in an infantry regiment
-NDefines.NMilitary.CAV_REGIMENT_MANPOWER_COST = 0.5 -- 200 Men in an airship regiment
-NDefines.NMilitary.ART_REGIMENT_MANPOWER_COST = 1 -- 500 Men in an arty regiment
+NDefines.NCountry.IDEA_TO_TECH = -0.01
+NDefines.NCountry.TECH_TIME_COST = 0.6
+NDefines.NCountry.LAND_TECH_MAINTENANCE_IMPACT = 0.04
+NDefines.NCountry.NAVAL_TECH_MAINTENANCE_IMPACT = 0.03
+NDefines.NCountry.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.15
+
+NDefines.NMilitary.INF_REGIMENT_MANPOWER_COST = 1 -- 1000 Men in an infantry regiment
+NDefines.NMilitary.CAV_REGIMENT_MANPOWER_COST = 0.5 -- 500 Men in an airship regiment
+NDefines.NMilitary.ART_REGIMENT_MANPOWER_COST = 1 -- 1000 Men in an arty regiment
+
+NDefines.NMilitary.HEAVY_SHIP_COST = 100.0
+NDefines.NMilitary.LIGHT_SHIP_COST = 40.0
+NDefines.NMilitary.GALLEY_COST = 20.0
+NDefines.NMilitary.TRANSPORT_COST = 24.0
+NDefines.NMilitary.HEAVY_SHIP_TIME = 1460
+NDefines.NMilitary.LIGHT_SHIP_TIME = 730
+NDefines.NMilitary.GALLEY_TIME = 730
+NDefines.NMilitary.TRANSPORT_TIME = 365
+NDefines.NMilitary.FLAGSHIP_COST_DUCATS = 200
+NDefines.NMilitary.FLAGSHIP_COST_SAILORS = 600
+NDefines.NMilitary.FLAGSHIP_BUILDTIME = 1460
 
 NDefines.NMilitary.CAVALRY_COST = 100.0 -- Airships are very expensive
 NDefines.NMilitary.CAVALRY_TIME = 730 -- and take a long time to build

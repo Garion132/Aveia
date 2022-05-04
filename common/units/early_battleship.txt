@@ -1,0 +1,12 @@
+#Early Battleship
+type = heavy_ship
+
+hull_size = 140
+base_cannons = 120
+blockade = 6
+
+sail_speed = 16
+
+sailors = 850
+
+sprite_level = 5

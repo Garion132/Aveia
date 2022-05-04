@@ -1,0 +1,13 @@
+#Protected Cruiser
+type = light_ship
+
+hull_size = 60
+base_cannons = 44
+blockade = 18
+
+sail_speed = 21
+trade_power = 9
+
+sailors = 220
+
+sprite_level = 5

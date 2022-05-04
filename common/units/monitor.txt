@@ -1,0 +1,12 @@
+#Monitor
+type = galley
+
+hull_size = 30
+base_cannons = 20
+blockade = 6
+
+sail_speed = 8
+
+sailors = 50
+
+sprite_level = 4

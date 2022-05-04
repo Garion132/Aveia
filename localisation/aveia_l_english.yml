@@ -117,19 +117,46 @@
 
  #Ships
  #Heavy Ships
+ early_carrack:0 "Early Carrack"
+ carrack:0 "Carrack"
+ twodecker:0 "Twodecker"
+ threedecker:0 "Threedecker"
+ floating_fortress:0 "Floating Fortress"
+ early_battleship:0 "Early Battleship"
+ battleship:0 "Battleship"
  #Light Ships
  trade_ship:0 "Trade Ship"
  lenee:0 "Lenee"
  leneeDESCR:0 "An Elven trade ship that could speed across the sea at breakneck speeds, for the time."
  barque:0 "Barque"
+ caravel:0 "Caravel"
+ frigate:0 "Frigate"
+ heavy_frigate:0 "Heavy Frigate"
+ ironclad:0 "Ironclad"
+ protected_cruiser:0 "Protected Cruiser"
+ armored_cruiser:0 "Armored Cruiser"
  #Galleys
  trireme:0 "Trireme"
  galley:0 "Galley"
  war_galley:0 "War Galley"
+ galiot:0 "Galiot"
+ archipeligo_frigate:0 "Archipeligo Frigate"
+ monitor:0 "Monitor"
+ monitorDESCR:0 "Monitors are small armored brown-water vessels with a powerful armament for their size. While not necessarily powerful, they can take a beating."
+ gunboat:0 "Gunboat"
+ coastal_submarine:0 "Coastal Submarine"
+ fleet_submarine:0 "Fleet Submarine"
  #Transports
  bireme:0 "Bireme"
  hulk:0 "Hulk"
  cog:0 "Cog"
+ navelta:0 "Navelta"
+ naveltaDESCR:0 "Naveltas are large seagoing vessels with a intricate mixture of triangular and square sails to ensure excellent speeds with a large craft over large distances. With the size of these vessels, it means that they can adequately defend themselves if necessary. They were often used as the transports to carry the expeditions eastwards to Kaltros."
+ steamer:0 "Steamer"
+ steamerDESCR:0 "With the discovery of the application of Guedina and the subsequent invention of the Steam Engine, large sailing steamers have been put into water. Their sails allow for long-distance travel while the on-board steam engine allows fast travel against the wind and better manueverability in coastal waters."
+ merchantman:0 "Merchantman"
+ clipper:0 "Clipper"
+ transport_ship:0 "Transport Ship"
  
  #Buildings
  building_marketplace_desc:0 "Development at least §Y3§!\n"

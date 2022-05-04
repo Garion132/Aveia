@@ -3,8 +3,8 @@ type = light_ship
 hull_size = 10
 base_cannons = 4
 sail_speed = 3
-blockade = 1
+blockade = 4
 
-trade_power = 1
+trade_power = 1.5
 sprite_level = 1
-manpower = 40
+sailors = 40

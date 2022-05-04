@@ -1,0 +1,12 @@
+#Galiot
+type = galley
+
+hull_size = 12
+base_cannons = 16
+blockade = 5
+
+sail_speed = 4.5
+
+sailors = 100
+
+sprite_level = 2

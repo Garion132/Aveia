@@ -3,6 +3,13 @@
  dunirrian_ruler:0 "Dunirrian Ruler"
  uglukish_ruler:0 "Uglukish Ruler"
 
+ high_bronze_age_navy:0 "High Bronze Age Navy"
+ iron_age_navy:0 "Iron Age Navy"
+ steam_age_navy:0 "Steam Age Navy"
+ steel_age_navy:0 "Steel Age Navy"
+ industrial_age_navy:0 "Industrial Age Navy"
+ modern_age_navy:0 "Modern Age Navy"
+
  tlaunorist_iwenlumy:0 "Control of the Heavens"
  rake_group_vulkiv:0 "Control of the Holy Imperial Throne"
  eternal_sun_golden_sun:0 "Control of the Golden Sun"

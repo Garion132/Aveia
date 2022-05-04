@@ -1,0 +1,13 @@
+#Frigate
+type = light_ship
+
+hull_size = 50
+base_cannons = 32
+blockade = 16
+
+sail_speed = 16
+trade_power = 7
+
+sailors = 180
+
+sprite_level = 5

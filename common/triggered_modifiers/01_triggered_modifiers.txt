@@ -3,6 +3,96 @@
 #
 # Effects are fully scriptable here.
 
+###########################################
+# Tech Modifiers
+###########################################
+high_bronze_age_navy = {
+	potential = {
+		NOT = { dip_tech = 13 }
+	}
+	
+	trigger = {
+		NOT = { dip_tech = 13 }
+	}
+
+	global_ship_cost = -0.5
+	global_ship_recruit_speed = -0.25
+	naval_forcelimit_modifier = 1
+}
+iron_age_navy = {
+	potential = {
+		NOT = { dip_tech = 24 }
+	}
+	
+	trigger = {
+		dip_tech = 13
+		NOT = { dip_tech = 24 }
+	}
+
+	global_ship_cost = -0.35
+	global_ship_recruit_speed = -0.1
+	naval_forcelimit_modifier = 0.5
+}
+steam_age_navy = {
+	potential = {
+		dip_tech = 13
+		NOT = { dip_tech = 34 }
+	}
+	
+	trigger = {
+		dip_tech = 24
+		NOT = { dip_tech = 34 }
+	}
+
+	global_ship_cost = -0.2
+	global_ship_repair = -0.10
+	naval_forcelimit_modifier = 0.2
+}
+steel_age_navy = {
+	potential = {
+		dip_tech = 24
+		NOT = { dip_tech = 42 }
+	}
+	
+	trigger = {
+		dip_tech = 34
+		NOT = { dip_tech = 42 }
+	}
+
+	global_ship_cost = -0.05
+	global_ship_repair = -0.25
+	naval_forcelimit_modifier = -0.05
+}
+industrial_age_navy = {
+	potential = {
+		dip_tech = 34
+		NOT = { dip_tech = 46 }
+	}
+	
+	trigger = {
+		dip_tech = 42
+		NOT = { dip_tech = 46 }
+	}
+
+	global_ship_cost = 0.1
+	global_ship_recruit_speed = 0.1
+	global_ship_repair = -0.5
+	naval_forcelimit_modifier = -0.25
+}
+modern_age_navy = {
+	potential = {
+		dip_tech = 42
+	}
+	
+	trigger = {
+		dip_tech = 46
+	}
+
+	global_ship_cost = 0.2
+	global_ship_recruit_speed = 0.25
+	global_ship_repair = -0.75
+	naval_forcelimit_modifier = -0.5
+}
 
 ###########################################
 # Holding Holy Sites for relevant religions

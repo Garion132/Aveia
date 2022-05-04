@@ -1,0 +1,12 @@
+#Gunboat
+type = galley
+
+hull_size = 32
+base_cannons = 26
+blockade = 10
+
+sail_speed = 9
+
+sailors = 50
+
+sprite_level = 5

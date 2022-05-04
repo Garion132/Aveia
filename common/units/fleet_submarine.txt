@@ -1,0 +1,12 @@
+#Fleet Submarine
+type = galley
+
+hull_size = 80
+base_cannons = 36
+blockade = 25
+
+sail_speed = 21
+
+sailors = 80
+
+sprite_level = 5

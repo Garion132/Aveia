@@ -1,0 +1,12 @@
+#Archipeligo Frigate
+type = galley
+
+hull_size = 14
+base_cannons = 18
+blockade = 5
+
+sail_speed = 7
+
+sailors = 90
+
+sprite_level = 3

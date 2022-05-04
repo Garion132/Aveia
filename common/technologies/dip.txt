@@ -316,6 +316,9 @@ technology = { #Naval Ambitions
 	
 	global_colonial_growth = 10
 	naval_maintenance = 0.1
+	
+	#New Transport (Navelta)
+	enable = navelta
 }
 
 technology = { #Carracks
@@ -334,7 +337,9 @@ technology = { #Carracks
 	drydock = yes
 
 	#New Heavy Ship (Carrack)
+	enable = carrack
 	#New galley (Galiot)
+	enable = galiot
 }
 
 technology = { #Caravelling
@@ -354,6 +359,7 @@ technology = { #Caravelling
 	trade_efficiency = 0.02
 
 	#New light ship (Caravel)
+	enable = caravel
 }
 
 technology = { #Coastal Batteries
@@ -410,6 +416,7 @@ technology = { #Steamers
 	trade_efficiency = 0.02
 
 	#New transport (Steamer)
+	enable = steamer
 }
 
 technology = { #Colonial Charters
@@ -469,6 +476,7 @@ technology = { #Lineships
 	naval_arsenal = yes
 
 	#New Heavy Ship (Twodecker)
+	enable = twodecker
 }
 
 technology = { #Screw Propeller
@@ -489,7 +497,9 @@ technology = { #Screw Propeller
 	range = 125
 
 	#New Light Ship (Frigate)
+	enable = frigate
 	#New galley (Archipeligo Frigate)
+	enable = archipeligo_frigate
 }
 
 technology = { #Merchantman
@@ -513,6 +523,7 @@ technology = { #Merchantman
 	range = 125
 
 	#New transport (Merchantman)
+	enable = merchantman
 }
 
 technology = { #Vercroths
@@ -557,7 +568,9 @@ technology = { #Ironclads
 	allow_client_states = yes	
 
 	#New Light Ship (Heavy Frigate)
+	enable = heavy_frigate
 	#New galley	(Monitor)
+	enable = monitor
 }
 
 technology = { #Threedeckers
@@ -577,6 +590,7 @@ technology = { #Threedeckers
 
 	#grand_shipyard = yes 
 	#New Heavy Ship (Threedecker)
+	enable = threedecker
 }
 
 technology = { #Naval Professionalism
@@ -621,7 +635,9 @@ technology = { #Steam Turbine
 	may_sabotage_reputation = yes
 
 	#New light ship (Ironclad)
+	enbable = ironclad
 	#New galley (gunboat)
+	enable = gunboat
 }
 
 technology = { #Clippers
@@ -645,6 +661,7 @@ technology = { #Clippers
 	trade_efficiency = 0.02
 
 	#New Transport (Clipper)
+	enable = clipper
 }
 
 technology = { #All-or-Nothing Armor Scheme
@@ -666,6 +683,7 @@ technology = { #All-or-Nothing Armor Scheme
 
 	naval_maintenance = 0.2
 	#New Heavy Ship (Floating Fortress)
+	enable = floating_fortress
 
 	naval_fortification = yes
 }
@@ -778,6 +796,7 @@ technology = { #Transport Ships
 	range = 250
 	trade_efficiency = 0.04
 	#New Transport (Transport Ship)
+	enable = transport_ship
 }
 
 technology = { #Cruisers
@@ -804,6 +823,8 @@ technology = { #Cruisers
 	naval_base = yes
 
 	#New Light Ship (Protected Cruiser)
+	enable = protected_cruiser
+	
 }
 
 technology = { #Battleships
@@ -829,6 +850,9 @@ technology = { #Battleships
 
 	naval_maintenance = 0.3
 	#New Heavy Ship (Early Battleship)
+	enable = early_battleship
+	#New Galley (Coastal Submarine)
+	enable = coastal_submarine
 }
 
 technology = { #Silver Standard
@@ -873,7 +897,6 @@ technology = { #Market Regulation
 	
 	num_accepted_cultures = 1
 	trade_efficiency = 0.05
-
 }
 
 technology = { #Superfiring Armaments
@@ -896,8 +919,12 @@ technology = { #Superfiring Armaments
 	
 	naval_maintenance = 0.2
 	#New Light Ship (Armored Cruiser)
+	enable = armored_cruiser
 	#New Heavy Ship (Battleship)
-	
+	enable = battleship
+	#New Galley (Fleet Submarine)
+	enable = fleet_submarine
+
 	weapons = yes
 	textile = yes
 	plantations = yes

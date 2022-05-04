@@ -1,0 +1,9 @@
+type = transport
+
+hull_size = 30
+base_cannons = 14
+sail_speed = 10
+blockade = 6
+
+sprite_level = 4
+sailors = 80
