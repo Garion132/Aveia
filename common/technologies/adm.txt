@@ -262,11 +262,11 @@ technology = { #Plantations
 		new_world_i = 0.1
 	}
 	
-	plantation = yes
+	ramparts = yes
 	production_efficiency = 0.02
 }
 
-technology = { #Workshops
+technology = { #Guilds
 	# Tech 19
 	year = 1469
 	expects_institution = {
@@ -278,10 +278,7 @@ technology = { #Workshops
 		new_world_i = 0.2
 	}
 	
-	#Workshop
 	artisans_guild = yes
-	ramparts = yes
-
 }
 
 technology = { #Steam Pumps

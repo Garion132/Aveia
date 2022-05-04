@@ -7,9 +7,11 @@ NDefines.NCountry.CORRUPTION_COST = 0.075 -- Max De-Corrupt is 50% more expensiv
 
 NDefines.NCountry.IDEA_TO_TECH = -0.01
 NDefines.NCountry.TECH_TIME_COST = 0.6
-NDefines.NCountry.LAND_TECH_MAINTENANCE_IMPACT = 0.04
-NDefines.NCountry.NAVAL_TECH_MAINTENANCE_IMPACT = 0.03
-NDefines.NCountry.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.15
+NDefines.NEconomy.LAND_TECH_MAINTENANCE_IMPACT = 0.04
+NDefines.NEconomy.NAVAL_TECH_MAINTENANCE_IMPACT = 0.03
+NDefines.NEconomy.LAND_TECH_MERC_MAINTENANCE_IMPACT = 0.15
+
+NDefines.NCountry.STARTING_FLEET_SIZE = 1.8 -- Countries start with +100% forcelimit
 
 NDefines.NMilitary.INF_REGIMENT_MANPOWER_COST = 1 -- 1000 Men in an infantry regiment
 NDefines.NMilitary.CAV_REGIMENT_MANPOWER_COST = 0.5 -- 500 Men in an airship regiment

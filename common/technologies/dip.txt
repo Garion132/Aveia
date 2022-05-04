@@ -45,6 +45,7 @@ technology = { #Sailing
 	range					= 	50
 	port = yes
 
+	naval_engagement_width = 10
 }
 
 technology = { #Writing
@@ -79,7 +80,6 @@ technology = { #Star Mapping
 		bronze_working = 0.25
 	}
 	
-	naval_maintenance		=	0.1	
 	trade_range				=	30
 	range = 40
 	global_colonial_growth = 10
@@ -126,9 +126,9 @@ technology  = { #Optics
 	}
 	
 
-	naval_maintenance = 0.1
 	trade_range				=	30
 	range					= 	50
+	naval_engagement_width = 5
 	gatherers_hut = yes
 
 	#New transport (Hulk)
@@ -179,6 +179,7 @@ technology = { #Naval Tactics
 	
 
 	naval_morale = 0.5
+	naval_engagement_width = 10
 	coastal_defence = yes
 	dockland = yes
 
@@ -210,7 +211,8 @@ technology = { #Square Rigging
 		iron_working = 0.4
 	}
 	
-	naval_maintenance = 0.2
+	naval_maintenance = 0.10
+	naval_engagement_width = 5
 	
 	#New Heavy Ship (Carrack)
 	enable = early_carrack
@@ -281,6 +283,7 @@ technology = { #Dockyards
 	}
 	
 	trade_range = 20
+	drydock = yes
 }
 
 technology = { #Trading Companies
@@ -316,6 +319,7 @@ technology = { #Naval Ambitions
 	
 	global_colonial_growth = 10
 	naval_maintenance = 0.1
+	naval_engagement_width = 10
 	
 	#New Transport (Navelta)
 	enable = navelta
@@ -334,7 +338,6 @@ technology = { #Carracks
 	}
 
 	naval_morale = 0.25
-	drydock = yes
 
 	#New Heavy Ship (Carrack)
 	enable = carrack
@@ -354,7 +357,6 @@ technology = { #Caravelling
 		new_world_i = 0.5
 	}
 
-	naval_maintenance = 0.1
 	trade_range = 30
 	trade_efficiency = 0.02
 
@@ -409,11 +411,12 @@ technology = { #Steamers
 	
 	
 	range = 200
-	naval_maintenance = 0.2
+	naval_maintenance = 0.25
 	naval_morale = 0.25
 
 	global_colonial_growth = 10
 	trade_efficiency = 0.02
+	naval_engagement_width = 10
 
 	#New transport (Steamer)
 	enable = steamer
@@ -474,6 +477,7 @@ technology = { #Lineships
 	naval_morale = 0.5
 	may_slander_merchants = yes
 	naval_arsenal = yes
+	naval_engagement_width = 10
 
 	#New Heavy Ship (Twodecker)
 	enable = twodecker
@@ -493,8 +497,9 @@ technology = { #Screw Propeller
 		printing_press = 0.3
 	}
 
-	naval_maintenance = 0.2
+	naval_maintenance = 0.25
 	range = 125
+	naval_engagement_width = 5
 
 	#New Light Ship (Frigate)
 	enable = frigate
@@ -544,6 +549,7 @@ technology = { #Vercroths
 	naval_maintenance = 0.1
 	naval_morale			=	0.5
 	range = 50
+	naval_engagement_width = 10
 
 	trade_station = yes
 	reduced_naval_attrition = yes
@@ -591,6 +597,7 @@ technology = { #Threedeckers
 	#grand_shipyard = yes 
 	#New Heavy Ship (Threedecker)
 	enable = threedecker
+	naval_engagement_width = 5
 }
 
 technology = { #Naval Professionalism
@@ -610,6 +617,7 @@ technology = { #Naval Professionalism
 	
 	num_accepted_cultures = 1
 	trade_efficiency 		= 	0.02
+	naval_morale = 0.5
 }
 
 technology = { #Steam Turbine
@@ -630,7 +638,7 @@ technology = { #Steam Turbine
 	
 
 	global_colonial_growth = 10
-	naval_maintenance = 0.2
+	naval_maintenance = 0.3
 	range = 250
 	may_sabotage_reputation = yes
 
@@ -681,9 +689,10 @@ technology = { #All-or-Nothing Armor Scheme
 	}
 	
 
-	naval_maintenance = 0.2
+	naval_maintenance = -0.1
 	#New Heavy Ship (Floating Fortress)
 	enable = floating_fortress
+	naval_engagement_width = 5
 
 	naval_fortification = yes
 }
@@ -821,6 +830,7 @@ technology = { #Cruisers
 	trade_range = 50
 	naval_maintenance = 0.2
 	naval_base = yes
+	naval_engagement_width = 5
 
 	#New Light Ship (Protected Cruiser)
 	enable = protected_cruiser
@@ -849,6 +859,7 @@ technology = { #Battleships
 	#Bigger Shipyard which provides more naval cap, less construction time
 
 	naval_maintenance = 0.3
+	naval_engagement_width = 5
 	#New Heavy Ship (Early Battleship)
 	enable = early_battleship
 	#New Galley (Coastal Submarine)
@@ -924,6 +935,8 @@ technology = { #Superfiring Armaments
 	enable = battleship
 	#New Galley (Fleet Submarine)
 	enable = fleet_submarine
+
+	naval_engagement_width = 10
 
 	weapons = yes
 	textile = yes
