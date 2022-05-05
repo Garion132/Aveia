@@ -12,6 +12,7 @@ NAT = "countries/Natives.txt"
     MAT = "countries/Matnolu.txt"
     LUR = "countries/Lurt.txt"
 
+
 IHA = "countries/Ihadar.txt"
 ELE = "countries/Elesilon.txt"
 LEL = "countries/Leleth.txt"
@@ -198,7 +199,9 @@ THL = "countries/Thilrana.txt"
 	BIH = "countries/Brihal.txt" 
 	CAM = "countries/Camilor.txt"
 	NET = "countries/Newtower.txt"
-	SWA = "countries/Swania.txt"  
+	SWA = "countries/Swania.txt" 
+
+	SFX = "countries/Sisafax.txt" 
 	
 ## Cradle islands
 	SLK = "countries/Selk.txt"
@@ -234,7 +237,13 @@ THL = "countries/Thilrana.txt"
     CLO = "countries/Cloudham_colony.txt"
     FYG = "countries/Freygmia_colony.txt"
     SRI = "countries/Sringar_colony.txt"
-    JAL = "countries/Jalorkan.txt"
+	
+	JAL = "countries/Jalorkan.txt"
+	HAZ = "countries/Hazavakan.txt"
+	ELI = "countries/Eliarkan.txt"
+	VLK = "countries/Vilorkan.txt"
+	SEV = "countries/Sevidkan.txt"
+    
     VIL = "countries/Villou.txt"
     FLA = "countries/Flaven.txt"
     DAW = "countries/Dawnmond.txt" 

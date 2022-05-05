@@ -385,6 +385,7 @@ daimyo_vassal = {
 dominion_vassal = {
 	copy_from = default
 	count = vassal
+	is_colony_subtype = yes
 	
 	# Graphics:
 	sprite = GFX_subject_colony_icon
@@ -405,6 +406,7 @@ dominion_vassal = {
 	eats_overlords_colonies = yes
 	is_voluntary = yes
 	overlord_enforce_peace_attacking = yes
+	extend_trading_range = yes
 	
 	restoration_cb = cb_disloyal_vassal
 
@@ -615,6 +617,7 @@ colony = {
 colony_elteria_start = {
 	copy_from = colony
 	count = colony
+	is_colony_subtype = yes
 	
 	# Graphics:
 	sprite = GFX_subject_colony_icon

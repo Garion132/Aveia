@@ -1,7 +1,7 @@
 #Jalhorkan
 
-culture = kafathi
-religion = tlaunorist #Fetishism
+culture = kaletian
+religion = shamanist #Fetishism
 hre = no
 base_tax = 2
 base_production =4

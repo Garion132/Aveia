@@ -661,6 +661,16 @@
  PRE_ADJ:0 "Preca"
  TID:0 "Tidec"
  TID_ADJ:0 "Tidec"
+ SFX:0 "Sisafax"
+ SFX_ADJ:0 "Sisafax"
+ HAZ:0 "Hazavakan"
+ HAZ_ADJ:0 "Hazavakan"
+ ELI:0 "Eliarkan"
+ ELI_ADJ:0 "Eliarkan"
+ VLK:0 "Vilorkan"
+ VLK_ADJ:0 "Vilorkan"
+ SEV:0 "Sevidkan"
+ SEV_ADJ:0 "Sevidkan"
  
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"

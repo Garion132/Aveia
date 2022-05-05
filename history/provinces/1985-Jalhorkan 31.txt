@@ -20,8 +20,8 @@ discovered_by = ork_group
 center_of_trade = 1
 
 1200.1.1={
-	add_core = JAL
-	owner = JAL
-	controller = JAL
+	add_core = ELI
+	owner = ELI
+	controller = ELI
 	is_city = yes
 }

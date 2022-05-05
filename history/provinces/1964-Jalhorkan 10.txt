@@ -1,7 +1,7 @@
 #Jalhorkan
 
 culture = kafathi
-religion = shamanism #Fetishism
+religion = tlaunorist
 hre = no
 base_tax = 5
 base_production =5
@@ -21,6 +21,7 @@ discovered_by = ork_group
 
 1200.1.1={
 	add_core = KAF
+	add_core = SEV
 	owner = KAF
 	controller = KAF
 	is_city = yes

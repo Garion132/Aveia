@@ -4,6 +4,7 @@ High Bronze Age (start-1367)
 		300 dev
 		crop rotation
 		large city
+		Patisipate Scramble (have a province/colony in elteria or have the modififer "scramble for elteria")
 	boni:
 		higher developed colonies
 		justified wars
