@@ -45,7 +45,7 @@ technology = { #Sailing
 	range					= 	50
 	port = yes
 
-	naval_engagement_width = 10
+	naval_engagement_width = 20
 }
 
 technology = { #Writing
