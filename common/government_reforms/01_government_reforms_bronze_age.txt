@@ -51,7 +51,7 @@ divine_petitions_reform = {
 #Forge Rights:
 
 holy_smiths_reform = {
-	icon = "clergyman"
+	icon = "monks"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -144,5 +144,84 @@ taking_donamenz_reform = {
 	
 	ai = {
 		factor = 2 #generic
+	}
+}
+
+#trade practices
+
+ba_caravaneers_reform = {
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		global_prov_trade_power_modifier = 0.05
+	}
+	
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+ba_central_markets_reform = {
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		production_efficiency = 0.05
+		trade_efficiency = 0.02
+	}
+	
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+ba_free_trade_reform = {
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		global_own_trade_power = 0.1
+		embargo_efficiency = -0.25
+	}
+	
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+#military structure
+
+ba_mass_conscription_reform = {
+	icon = "clergyman"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		global_manpower_modifier = 0.025
+		manpower_recovery_speed = 0.05
+		church_influence_modifier = 0.05
+		church_loyalty_modifier = 0.05
+	}
+	
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+ba_aristocratic_military_reform = {
+	icon = "clergyman"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		army_tradition_decay = -0.005
+		infantry_power = 0.025
+		nobles_influence_modifier = 0.05
+		nobles_loyalty_modifier = 0.05
+	}
+	
+	ai = {
+		factor = 0.5 #generic
 	}
 }

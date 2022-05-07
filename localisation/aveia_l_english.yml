@@ -370,6 +370,13 @@
  ANELATE:0 "Anelate"
  ANILIU:0 "Aniliu"
  EUXARCH:0 "Euxarch"
+ trade_practices:0 "Trade Practices"
+ military_structure:0 "Military Structure"
+ ba_caravaneers_reform:0 "Caravaneers"
+ ba_central_markets_reform:0 "Central Markets"
+ ba_free_trade_reform:0 "Free Trade"
+ ba_mass_conscription_reform:0 "Mass Conscription"
+ ba_aristocratic_military_reform:0 "Aristocractic Military"
  
  northern_men_group:0 "North Manish"
  lake_elves_group:0 "Lake Elves"

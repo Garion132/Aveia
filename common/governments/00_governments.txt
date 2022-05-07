@@ -781,6 +781,19 @@ bronze_monarchy = {
 				
 			}
 		}
+		trade_practices = {
+			reforms = {
+				ba_caravaneers_reform
+				ba_central_markets_reform
+				ba_free_trade_reform
+			}
+		}
+		military_structure = {
+			reforms = {
+				ba_mass_conscription_reform
+				ba_aristocratic_military_reform
+			}
+		}
 	}
 
 	basic_reform = bronze_monarchy_mechanic
