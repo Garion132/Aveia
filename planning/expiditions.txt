@@ -19,12 +19,12 @@ Tidrea
 =Welltron
 =Velnoi
 =Linar
-Entir
+=Entir
 Culinvale
-Terinsa
+=Terinsa
 =Daltsland
-Nytlen
-Kelrau
+=Nytlen
+=Kelrau
 =Oltos
 =Redrun
 =Vrur
@@ -33,7 +33,8 @@ Kelrau
 =Lrocra
 =Arkhonia -  - Grand republic #ormr's
 Shempeak
-Selehei
+=Selehei
+=Uleina
 
 Formables:
 	Rogos

@@ -143,6 +143,31 @@ country_event = {#ash and ice
 					country_event = {id = eastern_scramble.26 days = 520}
 				}
 			}
+			579={#expitition from nelsyari
+				owner = {
+					country_event = {id = eastern_scramble.27 days = 340}
+				}
+			}
+			1364={#expitition from guldashis
+				owner = {
+					country_event = {id = eastern_scramble.28 days = 80}
+				}
+			}
+			771={#expitition from shemsele
+				owner = {
+					country_event = {id = eastern_scramble.29 days = 91}
+				}
+			}
+			842={#expitition from belfune
+				owner = {
+					country_event = {id = eastern_scramble.30 days = 102}
+				}
+			}
+			1228={#expitition from keathene
+				owner = {
+					country_event = {id = eastern_scramble.31 days = 99}
+				}
+			}
 			set_global_flag = EASTERN_SCRAMBLE
 		}
 	}
@@ -3095,5 +3120,295 @@ country_event = {#VC
 	option = {
 		name = eastern_scramble.26.b
 		switch_tag = VNC
+	}
+}
+country_event = {#Nytlen
+	id = eastern_scramble.27
+	title = eastern_scramble.27.t
+	desc = eastern_scramble.27.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			4720={
+				cede_province = NTL
+				add_core = NTL
+				change_religion = tlaunorist
+				change_culture = ellorhasian
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			NTL={
+				add_treasury = 50
+				change_primary_culture = nelsi
+				define_ruler ={
+					adm = 4
+					dip = 4
+					mil = 4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.27.a
+
+	}
+	option = {
+		name = eastern_scramble.27.b
+		switch_tag = NTL
+	}
+}
+country_event = {#Entir
+	id = eastern_scramble.28
+	title = eastern_scramble.28.t
+	desc = eastern_scramble.28.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3321={
+				cede_province = ENT
+				add_core = ENT
+				change_religion = tlaunorist
+				change_culture = bolur
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			ENT={
+				add_treasury = 50
+				change_primary_culture = bolur
+				define_ruler ={
+					adm = 4
+					dip = 4
+					mil = 4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.28.a
+
+	}
+	option = {
+		name = eastern_scramble.28.b
+		switch_tag = ENT
+	}
+}
+country_event = {#Selehei
+	id = eastern_scramble.29
+	title = eastern_scramble.29.t
+	desc = eastern_scramble.29.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3359={
+				cede_province = SLH
+				add_core = SLH
+				change_religion = tlaunorist
+				change_culture = shemsele
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			SLH={
+				add_treasury = 50
+				change_primary_culture = shemsele
+				define_ruler ={
+					adm = 4
+					dip = 4
+					mil = 4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.29.a
+
+	}
+	option = {
+		name = eastern_scramble.29.b
+		switch_tag = SLH
+	}
+}
+country_event = {#Selehei
+	id = eastern_scramble.30
+	title = eastern_scramble.30.t
+	desc = eastern_scramble.30.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3308={
+				cede_province = ULE
+				add_core = ULE
+				change_religion = tlaunorist
+				change_culture = umanti
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			ULE={
+				add_treasury = 50
+				change_primary_culture = umanti
+				define_ruler ={
+					adm = 4
+					dip = 4
+					mil = 4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.30.a
+
+	}
+	option = {
+		name = eastern_scramble.30.b
+		switch_tag = ULE
+	}
+}
+country_event = {#Kelrau
+	id = eastern_scramble.31
+	title = eastern_scramble.31.t
+	desc = eastern_scramble.31.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3340={
+				cede_province = KEL
+				add_core = KEL
+				change_religion = tlaunorist
+				change_culture = keatha
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			KEL={
+				add_treasury = 50
+				change_primary_culture = keatha
+				define_ruler ={
+					adm = 4
+					dip = 4
+					mil = 4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.31.a
+
+	}
+	option = {
+		name = eastern_scramble.31.b
+		switch_tag = KEL
 	}
 }

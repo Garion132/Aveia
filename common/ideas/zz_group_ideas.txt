@@ -72,6 +72,11 @@ expiditionary_state_ideas = {
 			tag = SRR
 			tag = OLT
 			tag = VNC
+			tag = NTL
+			tag = ENT
+			tag = SLH
+			tag = ULE
+			tag = KEL
 		}
 	}
 	free = yes		#will be added at load.

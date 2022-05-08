@@ -4,7 +4,7 @@ primary_culture = filler_east_culture
 religion = tlaunorist
 government_rank = 1
 technology_group = lake_elves_group
-capital = 3208 # 
+capital = 3340 # 
 #national_focus = DIP
 #historical_rival = HAB
 

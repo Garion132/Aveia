@@ -293,6 +293,11 @@ THL = "countries/Thilrana.txt"
 	SRR = "countries/Serar.txt" 
 	OLT = "countries/Oltos.txt" 
 	VNC = "countries/Ve'nara Company.txt"
+	NTL = "countries/Nytlen.txt"
+	ENT = "countries/Entir.txt"
+	SLH = "countries/Selehei.txt"
+	ULE = "countries/Uleina.txt"
+	KEL = "countries/Kelrau.txt"
 
 ## Eastern formables
 

@@ -673,6 +673,16 @@
  SEV_ADJ:0 "Sevidkan"
  VNC:0 "Ve'nara Company"
  VNC_ADJ:0 "Ve'nara Company"
+ NTL:0 "Nytlen"
+ NTL_ADJ:0 "Nytlen"
+ ENT:0 "Entir"
+ ENT_ADJ:0 "Entir"
+ SLH:0 "Selehei"
+ SLH_ADJ:0 "Selehei"
+ ULE:0 "Uleina"
+ ULE_ADJ:0 "Uleina"
+ KEL:0 "Kelrau"
+ KEL_ADJ:0 "Kelrau"
  
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"
