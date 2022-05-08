@@ -3,7 +3,7 @@
 add_core = IHA
 owner = IHA
 controller = IHA
-culture = kyathian
+culture = edailian
 religion = tlaunorist
 hre = no
 base_tax = 4

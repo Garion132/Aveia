@@ -292,6 +292,7 @@ THL = "countries/Thilrana.txt"
 	QUA = "countries/Quanil.txt"
 	SRR = "countries/Serar.txt" 
 	OLT = "countries/Oltos.txt" 
+	VNC = "countries/Ve'nara Company.txt"
 
 ## Eastern formables
 

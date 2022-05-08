@@ -3,7 +3,7 @@
 add_core = KYA
 owner = KYA
 controller = KYA
-culture = kyathian
+culture = iwen
 religion = tlaunorist
 hre = no
 base_tax = 5

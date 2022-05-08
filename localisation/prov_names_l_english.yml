@@ -416,6 +416,9 @@
  PROV1424:1 "Elnorei"
  PROV1425:1 "Essarana"
  PROV1426:0 "Sahloresi"
+ PROV1426:0 "Kaneria"
+ 
+ PROV1431:0 "New Inzed"
 
  PROV1436:0 "Niolaritnor"
 
@@ -522,7 +525,8 @@
  PROV1872:0 "Ligwell"
  
  PROV1879:0 "Eagbur"
-
+ PROV1880:0 "Atolor"
+ PROV1881:0 "Teilort"
  PROV1882:0 "Western Cryspimes"
  PROV1884:0 "Garen Gulf"
  PROV1885:0 "Cinderbyr Bay"
@@ -544,12 +548,21 @@
  PROV1931:0 "Pidevagon"
 
  PROV1950:0 "Winpass"
+ 
+ PROV1953:0 "Miwal"
+ PROV1954:0 "Cuoria"
 
  PROV1964:0 "Jalhorkan"
 
  PROV1972:0 "Narkud"
 
+ PROV1975:0 "Haava"
+ 
  PROV1977:0 "Harhozava"
+ PROV1978:0 "Jalkora"
+ 
+ PROV1985:0 "Octrol Point"
+ PROV1986:0 "Eliar"
  
  PROV2027:0 "Pranax"
 

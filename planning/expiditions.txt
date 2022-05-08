@@ -5,7 +5,7 @@ EAST - 53
 1244 -  -unolaan,tlaunorist
 666 -  -omoran,tlaunorist
 
-Ve'nara Company
+=Ve'nara Company
 =Cradle Trade Company - 988,53,80,760,3913,3898,3905,896,885,771 - Indorran
 =Imperial Kaltros Company
 =Gulta

@@ -3,7 +3,7 @@
 add_core = IWE
 owner = IWE
 controller = IWE
-culture = indorran
+culture = iwen
 religion = tlaunorist
 hre = no
 base_tax = 8

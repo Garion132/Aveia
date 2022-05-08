@@ -1,7 +1,7 @@
 #Miwal
 
 culture = cyuean
-religion = shamanism #Fetishism
+religion = tlaunorist
 hre = no
 base_tax = 3
 base_production =4

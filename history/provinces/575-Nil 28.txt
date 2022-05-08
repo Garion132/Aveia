@@ -3,7 +3,7 @@
 add_core = NIL
 owner = NIL
 controller = NIL
-culture = ellorhasian
+culture = edailian
 religion = tlaunorist
 hre = no
 base_tax = 3

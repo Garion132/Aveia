@@ -138,6 +138,11 @@ country_event = {#ash and ice
 					country_event = {id = eastern_scramble.24 days = 480}
 				}
 			}
+			579={#Ve'nara company sets out from the shires
+				owner = {
+					country_event = {id = eastern_scramble.26 days = 520}
+				}
+			}
 			set_global_flag = EASTERN_SCRAMBLE
 		}
 	}
@@ -2992,6 +2997,7 @@ country_event = {#Oltos
 }
 
 
+
 country_event = {#force 1.33 ai to colonise, because they are not
 	id = eastern_scramble.25
 	title = eastern_scramble.25.t
@@ -3015,6 +3021,7 @@ country_event = {#force 1.33 ai to colonise, because they are not
 				}
 			}
 			is_subject_of_type = colony_elteria_start
+			tag = HIR
 		}
 		
 	}
@@ -3029,5 +3036,64 @@ country_event = {#force 1.33 ai to colonise, because they are not
 				create_colony = 100
 			}
 		}
+	}
+}
+
+country_event = {#VC
+	id = eastern_scramble.26
+	title = eastern_scramble.26.t
+	desc = eastern_scramble.26.d
+	
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		hidden_effect={
+			3208={
+				cede_province = VNC
+				add_core = VNC
+				change_religion = tlaunorist
+				change_culture = ellorhasian
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = crop_rotation
+					value = 100
+				}
+				add_institution_embracement = {
+					which = iron_working
+					value = 100
+				}
+				add_institution_embracement = {
+					which = illuminare
+					value = 100
+				}
+				add_base_tax = 1
+			}
+			VNC={
+				add_treasury = 50
+				change_primary_culture = ellorhasian
+				define_ruler ={
+					adm = 4
+					dip = 4
+					mil = 4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = eastern_scramble.26.a
+
+	}
+	option = {
+		name = eastern_scramble.26.b
+		switch_tag = VNC
 	}
 }

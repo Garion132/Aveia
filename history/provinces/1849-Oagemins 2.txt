@@ -1,6 +1,6 @@
 #Oagemins
 
-culture = edailian
+culture = ientiran
 religion = tlaunorist
 hre = no
 base_tax = 2

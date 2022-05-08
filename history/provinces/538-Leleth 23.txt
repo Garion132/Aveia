@@ -3,7 +3,7 @@
 add_core = LEL
 owner = LEL
 controller = LEL
-culture = edailian
+culture = ientiran
 religion = tlaunorist
 hre = no
 base_tax = 5

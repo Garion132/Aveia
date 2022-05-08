@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 government_rank = 2
-primary_culture = edailian
+primary_culture = ryndoan
 religion = tlaunorist
 technology_group = free_fauns_group
 capital = 2308 # 

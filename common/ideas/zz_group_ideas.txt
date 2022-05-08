@@ -71,6 +71,7 @@ expiditionary_state_ideas = {
 			tag = QUA
 			tag = SRR
 			tag = OLT
+			tag = VNC
 		}
 	}
 	free = yes		#will be added at load.

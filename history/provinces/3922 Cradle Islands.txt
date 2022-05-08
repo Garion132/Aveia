@@ -1,8 +1,6 @@
 #tradewind_islands
 capital = "Accra"
 trade_goods = unknown
-culture = yelioan
-religion = tlaunorist
 hre = no
 base_tax = 3
 base_production = 3
