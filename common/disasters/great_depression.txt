@@ -1,13 +1,14 @@
 great_depression = {
 	potential = {
+		NOT = { has_country_flag = great_depression_happened }
 		OR = {
 			has_country_modifier = economic_boom
+			has_global_flag = great_depression_cradle
 			has_country_flag = great_depression_possible
 			any_neighbor_country = {
 				has_country_flag = great_depression_possible
 			}
 		}
-		NOT = { has_country_flag = great_depression_happened }
 	}
 
 

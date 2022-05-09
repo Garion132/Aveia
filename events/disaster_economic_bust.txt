@@ -59,6 +59,7 @@ country_event = {
 		name = bust_events.1.a #We can now move forward
 
         hidden_effect = {
+            set_country_flag = great_depression_happened
             clr_country_flag = great_depression_possible
             clr_country_flag = great_depression_active
         }
@@ -182,6 +183,8 @@ country_event = {
 	is_triggered_only = yes
 
     trigger = {
+        NOT = { has_country_modifier = economic_recession }
+        NOT = { has_country_modifier = economic_recession_intervention }
         check_variable = {
             which = depression_recovery_var
             value = 5

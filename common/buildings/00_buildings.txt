@@ -522,7 +522,7 @@ port = {
 	}
 	modifier = {
 		province_trade_power_value = 0.5
-		naval_forcelimit = 0.5
+		naval_forcelimit = 0.25
 		local_sailors_modifier = 0.33
 		supply_limit_modifier = 0.20
 		local_development_cost = -0.025
@@ -546,7 +546,7 @@ dockland = {
 	}
 	modifier = {
 		province_trade_power_value = 1
-		naval_forcelimit = 1
+		naval_forcelimit = 0.5
 		local_sailors_modifier = 0.66
 		supply_limit_modifier = 0.45
 		local_development_cost = -0.05
@@ -570,7 +570,7 @@ wharf = {
 	}
 	modifier = {
 		province_trade_power_value = 2
-		naval_forcelimit = 1.5
+		naval_forcelimit = 0.75
 		local_sailors_modifier = 1
 		supply_limit_modifier = 0.6
 		local_development_cost = -0.075
@@ -594,7 +594,7 @@ harbor_district = {
 	}
 	modifier = {
 		province_trade_power_value = 5
-		naval_forcelimit = 2
+		naval_forcelimit = 1
 		local_sailors_modifier = 2
 		supply_limit_modifier = 0.75
 		local_development_cost = -0.15
@@ -619,7 +619,7 @@ shipwright = {
 	}
 
 	modifier = {
-		naval_forcelimit = 2
+		naval_forcelimit = 1
 		ship_recruit_speed = -0.4
 		local_ship_repair = 0.4
 	}
@@ -652,7 +652,7 @@ drydock = {
 	}
 
 	modifier = {
-		naval_forcelimit = 4
+		naval_forcelimit = 1.5
 		ship_recruit_speed = -0.6
 		local_ship_repair = 0.8
 	}
@@ -682,7 +682,7 @@ naval_arsenal = {
 		development = 18
 	}
 	modifier = {
-		naval_forcelimit = 7
+		naval_forcelimit = 3
 		ship_recruit_speed = -0.65
 		local_ship_repair = 1
 	}
@@ -714,7 +714,7 @@ naval_base = {
 		development = 21
 	}
 	modifier = {
-		naval_forcelimit = 12
+		naval_forcelimit = 6
 		ship_recruit_speed = -0.7
 		local_ship_repair = 1.25
 	}
@@ -1006,8 +1006,8 @@ taxman = {
 		development = 9
 	}
 	modifier = {
-		tax_income = 1
-		local_tax_modifier = 0.15
+		tax_income = 0.75
+		local_tax_modifier = 0.1
 		local_development_cost = 0.15
 		local_unrest = 1
 	}
@@ -1046,8 +1046,9 @@ tax_agency = {
 		development = 27
 	}
 	modifier = {
-		tax_income = 3
-		local_tax_modifier = 0.5
+		tax_income = 4
+		local_tax_modifier = 0.75
+		global_tax_modifier = 0.05
 		local_development_cost = 0.66
 		local_unrest = 3
 	}
@@ -1066,9 +1067,9 @@ revenue_department = {
 		development = 42
 	}
 	modifier = {
-		tax_income = 4
-		local_tax_modifier = 0.75
-		global_tax_modifier = 0.05
+		tax_income = 6
+		local_tax_modifier = 2
+		global_tax_modifier = 0.1
 		local_development_cost = 1
 		local_unrest = 4
 	}
@@ -1515,7 +1516,7 @@ irrigated_fields = {
 	}
 }
 farm = {
-	cost = 1000
+	cost = 500
 	time = 48
 
 	make_obsolete = irrigated_fields
@@ -1540,7 +1541,7 @@ farm = {
 	}
 }
 mechanized_farm = {
-	cost = 3000
+	cost = 1500
 	time = 60
 
 	make_obsolete = farm
@@ -1596,7 +1597,7 @@ gatherers_hut = {
 	}
 }
 plantation = {
-	cost = 1000
+	cost = 500
 	time = 48
 
 	make_obsolete = gatherers_hut
@@ -1628,7 +1629,7 @@ plantation = {
 	}
 }
 trade_station = {
-	cost = 3000
+	cost = 1500
 	time = 60
 
 	make_obsolete = plantation
@@ -1683,7 +1684,7 @@ craftsman = {
 	}
 }
 early_factory = {
-	cost = 1000
+	cost = 500
 	time = 48
 
 	make_obsolete = craftsman
@@ -1707,7 +1708,7 @@ early_factory = {
 	}
 }
 late_factory = {
-	cost = 3000
+	cost = 1500
 	time = 60
 
 	make_obsolete = early_factory
@@ -1758,7 +1759,7 @@ mine = {
 	}
 }
 mining_complex = {
-	cost = 1000
+	cost = 500
 	time = 48
 
 	make_obsolete = mine
@@ -1785,7 +1786,7 @@ mining_complex = {
 	}
 }
 mechanized_mine = {
-	cost = 3000
+	cost = 1500
 	time = 48
 
 	make_obsolete = mining_complex
@@ -1814,7 +1815,7 @@ mechanized_mine = {
 }
 
 refinery = {
-	cost = 1000
+	cost = 500
 	time = 48
 
 	build_trigger = {
@@ -1834,7 +1835,7 @@ refinery = {
 	}
 }
 processing_plant = {
-	cost = 3000
+	cost = 1500
 	time = 60
 
 	make_obsolete = refinery

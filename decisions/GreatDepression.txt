@@ -38,6 +38,9 @@ country_decisions = {
         effect = {
             clr_country_flag = great_depression_possible
             end_disaster = great_depression
+            hidden_effect = {
+                country_event = { id = bust_events.1 }
+            }
         }
 
         ai_will_do = {

@@ -992,7 +992,7 @@ spriteType = {
 	spriteType = {
 		name = "GFX_resource_icon_transparent"
 		texturefile = "gfx//interface//resources.tga"
-		noOfFrames = 42
+		noOfFrames = 43
 		loadType = "INGAME"
 		
 		alwaystransparent = yes
