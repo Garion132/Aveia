@@ -303,6 +303,28 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//manufactory_factory.tga"
 		loadType = "INGAME"
 	}
+	
+	spriteType = {
+		name = "GFX_mine"
+		texturefile = "gfx//interface//buildings//manufactory_mine.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_mining_complex"
+		texturefile = "gfx//interface//buildings//manufactory_mining_complex.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_mechanized_mine"
+		texturefile = "gfx//interface//buildings//manufactory_mechanized_mine.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_processing_plant"
+		texturefile = "gfx//interface//buildings//manufactory_processing_plant.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_city_construction"
