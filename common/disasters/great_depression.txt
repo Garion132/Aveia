@@ -39,6 +39,20 @@ great_depression = {
 			}
 		}
 		modifier = {
+			factor = 2
+            any_neighbor_country = {
+                has_disaster = great_depression
+                monthly_income = ROOT
+            }
+		}
+		modifier = {
+			factor = 1
+			custom_trigger_tooltip = {
+				tooltip = GREAT_DEPRESSION_CRADLE_TT
+				has_global_flag = great_depression_cradle
+			}
+		}
+		modifier = {
 			factor = 0.5
 			trade_income_percentage = 0.35
 		}
@@ -65,12 +79,6 @@ great_depression = {
 		modifier = {
 			factor = 1
 			dip_tech = 39
-		}
-		modifier = {
-			factor = 2
-			any_neighbor_country = {
-				has_country_flag = great_depression_possible
-			}
 		}
 	}
 	
@@ -110,6 +118,7 @@ great_depression = {
 			100 = bust_events.103 #Cities Crumble
 			50 = bust_events.104 #Consumer Market Recovery
 			600 = bust_events.105 #Recovery Efforts Harm the Country! (Negative Dep. Rec. Points)
+			50 = bust_events.106 #Unemployment Drops Below 10%
 		}
 	}
 }

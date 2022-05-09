@@ -93,6 +93,7 @@
  great_depression:0 "The Great Depression"
  desc_great_depression:0 "Factories are closed. Shops are shuttered. Men wander the streets for work. Women and Children go hungry. Large slums have been erected in our wealthiest cities. Even the wealthiest have been touched."
  GREAT_DEPRESSION_TRIGGER_TT:0 "Economic Downturn has begun"
+ GREAT_DEPRESSION_CRADLE_TT:0 "The Great Depression hit the Cradle"
  GREAT_DEPRESSION_STOP_TRIGGER_TT:0 "The economy has recovered from the worst of it"
 
  depression_recovery_var:0 "Depression Recovery"
@@ -148,6 +149,14 @@
  bust_events.1.d:0 "The worst of the Great Depression is over. Jobs are available once again, the stock market, while still down, has largely recovered, and new businesses are beginning to be established again."
  bust_events.1.a:0 "We can now move forward."
 
+ bust_events.10.t:0 "The Great Depression Hits the Cradle"
+ bust_events.10.d:0 "The Great Depression, once localized, has now hit the richest countries around the center of civilization. There is now no hope for a quick recovery."
+ bust_events.10.a:0 "It will get a lot worse before it gets better"
+ 
+ bust_events.11.t:0 "The Great Depression Reaches Us"
+ bust_events.11.d:0 ""
+ bust_events.11.a:0 "Oh dear"
+
  bust_events.100.t:0 "Recovery Stumbles"
  bust_events.100.d:0 "Though many gains have been made through the Depression to put the economy on the track of recovery, it appears as though we are going through a recession in the middle of this crisis. Unemployment is on the rise again and many industries that reoppened have now closed again."
  bust_events.100.a:0 "Just when we were seeing the light"
@@ -158,7 +167,7 @@
  bust_events.101.a:0 "Damn"
 
  bust_events.102.t:0 "Factories Fold"
- bust_events.102.d:0 "Shops Shutter"
+ bust_events.102.d:0 ""
  bust_events.102.a:0 "Damn"
 
  bust_events.103.t:0 "Cities Crumble"
@@ -166,9 +175,13 @@
  bust_events.103.a:0 "Damn"
 
  bust_events.104.t:0 "Consumer Markets Recover"
- bust_events.104.d:0 ""
- bust_events.104.a:0 "Nice"
+ bust_events.104.d:0 "It appears that consumers have began to shop in stores again, after putting all they can into savings stored in couches or under mattresses. Therefore, some consumer-oriented industries have begun to reopen as industrialists, once tight-fisted, now see opportunities rise again for profits."
+ bust_events.104.a:0 "There is hope"
 
  bust_events.105.t:0 "Recovery Efforts Harm the Country!"
  bust_events.105.d:0 "Recent policy changes and events have led to this country backsliding even farther into the depression."
  bust_events.105.a:0 "We're trying to fix this broken economy!"
+
+ bust_events.106.t:0 "Unemployment Drops Below 10%"
+ bust_events.106.d:0 "With consumption back, the spiral upwards has begun. Unemployment, through the official figures, has dropped below 10%. Many still lie in the street, some don't trust our numbers as we have gotten a tad loose with our definition of 'job,' but it is a good sign."
+ bust_events.106.a:0 "Perhaps an end is in sight?"

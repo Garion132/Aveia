@@ -66,6 +66,112 @@ country_event = {
     #Let's keep our New Roll programs around
 }
 
+#The Depression Reaches the Cradle
+country_event = {
+	id = bust_events.10
+	title = bust_events.10.t
+	desc = bust_events.10.d
+	picture = FAMINE_eventPicture
+
+    trigger = {
+        has_disaster = great_depression
+        80 = { #Iwenlumy
+            trade_share = {
+                country = ROOT
+                share = 10
+            }
+        }
+    }
+	
+	fire_only_once = yes
+
+    major = yes
+	
+	mean_time_to_happen = {
+		months = 24
+
+		modifier = {
+			factor = 0.5
+            80 = { #Iwenlumy
+                trade_share = {
+                    country = ROOT
+                    share = 15
+                }
+            }
+		}
+		modifier = {
+			factor = 0.5
+            80 = { #Iwenlumy
+                trade_share = {
+                    country = ROOT
+                    share = 20
+                }
+            }
+		}
+		modifier = {
+			factor = 0.5
+            80 = { #Iwenlumy
+                trade_share = {
+                    country = ROOT
+                    share = 25
+                }
+            }
+		}
+	}
+
+	option = {
+		name = bust_events.10.a #It will get a lot worse before it gets better
+
+        hidden_effect = {
+            set_global_flag = great_depression_cradle
+        }
+	}
+}
+
+#The Great Depression Spreads to Us
+country_event = {
+	id = bust_events.11
+	title = bust_events.11.t
+	desc = bust_events.11.d
+	picture = FAMINE_eventPicture
+
+    trigger = {
+        NOT = { has_country_flag = great_depression_possible }
+        NOT = { has_country_flag = great_depression_happened }
+        OR = {
+            any_neighbor_country = {
+                has_disaster = great_depression
+                monthly_income = ROOT
+            }
+            AND = {
+                has_global_flag = great_depression_cradle
+                any_owned_province = {
+                    province_has_center_of_trade_of_level = 3
+                }
+            }
+        }
+    }
+	
+	mean_time_to_happen = {
+		months = 24
+
+		modifier = {
+			factor = 0.1
+			any_neighbor_country = {
+                has_disaster = great_depression
+			}
+		}
+	}
+
+	option = {
+		name = bust_events.11.a #Oh dear
+
+        hidden_effect = {
+            set_country_flag = great_depression_possible
+        }
+	}
+}
+
 #Recovery Stumbles
 country_event = {
 	id = bust_events.100
@@ -679,6 +785,40 @@ country_event = {
                 add_base_tax = -1
                 add_base_production = -1
                 add_base_manpower = -1
+            }
+        }
+	}
+}
+
+#Unemployment Drops Below 10%
+country_event = {
+	id = bust_events.106
+	title = bust_events.106.t
+	desc = bust_events.106.d
+	picture = FAMINE_eventPicture
+	
+	is_triggered_only = yes
+
+    trigger = {
+        NOT = {
+            has_country_flag = gd_unemployment_recovery_flag
+        }
+        had_country_flag = {
+            flag = gd_consumer_recovery_flag
+            days = 730
+        }
+    }
+
+	option = {
+		name = bust_events.104.a
+
+        custom_tooltip = depression_recovery_var_increase_3_tt
+        set_country_flag = gd_unemployment_recovery_flag
+
+        hidden_effect = {
+            change_variable = {
+                which = depression_recovery_var
+                value = 3
             }
         }
 	}
