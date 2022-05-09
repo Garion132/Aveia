@@ -40,6 +40,8 @@
  estate_industrialists_ownership:0 "Industrialists' Land Ownership"
  industrialists_loyalty_modifier:0 "Industrialists Loyalty Equilibrium"
  industrialists_influence_modifier:0 "Industrialists Influence"
+ 
+ EST_VAL_INDUSTRIALISTS_REJECTED_DEMANDS:0 "Rejected Demands: §R-10.0%§!"
 
  EST_VAL_LOW_PRODUCTION_INCOME:0 "Low Production Income: §Y-5.0%§!"
  EST_VAL_HIGH_PRODUCTION_INCOME:0 "High Production Income: §Y+5.0%§!"
@@ -66,6 +68,7 @@
  EST_VAL_INDUSTRIALISTS_BOOM:0 "Economic Boom: §Y+10.0%§!"
  EST_VAL_INDUSTRIALISTS_CHILD_LABOR:0 "Child Labor: §Y+5.0%§!"
  EST_VAL_INDUSTRIALISTS_STRIKE:0 "Worker Strike: §Y+10.0%§!"
+ EST_VAL_GROWTH_OF_MIDDLE_CLASS:0 "Growth of the Middle Class: §Y+10.0%§!"
 
  estate_industrialists_land_rights:0 "Industrialists' Land Grants"
  estate_industrialists_corporatocracy:0 "Corporatocracy"
@@ -87,6 +90,9 @@
  
  estate_industrialists_industrialization_1_tt:0 "Add §G1§! Base Production to all §YCloth§!, §YIron§!, §YCoal§!, §YManufactured Goods§!, §YGlass§!, and §YMachinery§! Provinces\n"
  estate_industrialists_industrialization_2_tt:0 "Add §G2§! Base Production to all §YCloth§!, §YIron§!, §YCoal§!, §YManufactured Goods§!, §YGlass§!, and §YMachinery§! Provinces\n"
+ estate_industrialists_industrialization_railroads_tt:0 "Upgrade §YCanals§! to §YRailroads§!"
+ estate_industrialists_industrialization_railroad_network_tt:0 "Upgrade §YRailroads§! to §YRailroad Network§!"
+ estate_industrialists_industrialization_buildings_tt:0 "Begin construction of an §YIndustrial Zone§!"
 
  industrialists_estate_events.2.t:0 "Recession"
  industrialists_estate_events.2.d:0 ""
@@ -156,3 +162,17 @@
  industrialists_estate_events.15.d:0 ""
  industrialists_estate_events.15.o1:0 "What a story"
  industrialists_estate_events.15.o2:0 "Get him in our court!"
+ 
+ industrialists_estate_events.16.t:0 "Growth of the Middle Class"
+ industrialists_estate_events.16.d:0 ""
+ industrialists_estate_events.16.o1:0 "Excellent!"
+ industrialists_estate_events.16.o2:0 "Perhaps not"
+ 
+ industrialists_estate_events.17.t:0 "Boomtown"
+ industrialists_estate_events.17.d:0 ""
+ industrialists_estate_events.17.o1:0 "Brilliant!"
+ 
+ industrialists_estate_events.18.t:0 "Industrialists Demand Control!"
+ industrialists_estate_events.18.d:0 ""
+ industrialists_estate_events.18.o1:0 "We have to give in"
+ industrialists_estate_events.18.o2:0 "We will not cede an inch to these traitors!"

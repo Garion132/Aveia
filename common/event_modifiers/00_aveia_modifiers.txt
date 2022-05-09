@@ -89,6 +89,12 @@
 		technology_cost = -0.1
 		idea_cost = -0.1
 	}
+	industrialists_strike = {
+		development_cost = 0.25
+		global_trade_goods_size_modifier = -0.5
+		global_unrest = 4
+		interest = 4
+	}
 
 
 #Disasters

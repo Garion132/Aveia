@@ -2103,6 +2103,37 @@ chiming_tree = {
 	}
 }
 
+manufactured_goods = {
+	color = { 0.66 0.53 0.32 }
+	modifier = {
+		global_ship_trade_power = 0.2
+	}
+	province = {
+		trade_goods_size_modifier = 0.1
+	}
+
+	chance = {
+		factor = 15
+		modifier = {
+			factor = 0
+			NOT = { development = 20 }
+		}
+		modifier = {
+			factor = 2
+			development = 25
+		}
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
+	}
+}
+
 unknown = {
 	color = { 0.5 0.5 0.5 }
 }

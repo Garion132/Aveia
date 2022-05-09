@@ -61,7 +61,7 @@ country_event = {
 			cloth = 3
 			iron = 3
 			glass = 2
-			#manufactured_goods = 1
+			manufactured_goods = 1
 			coal = 1
 			machinery = 1
 		}
@@ -89,7 +89,7 @@ country_event = {
 						trade_goods = cloth
 						trade_goods = iron
 						trade_goods = coal
-						#trade_goods = manufactured_goods
+						trade_goods = manufactured_goods
 						trade_goods = glass
 						trade_goods = machinery
 					}
@@ -102,6 +102,66 @@ country_event = {
 				}
 				else = {
 					add_base_production = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				adm_tech = 39
+			}
+			random_owned_province = {
+				limit = {
+					development = 30
+					NOT = { has_building = industrial_zone }
+					no_construction = yes
+				}
+				custom_tooltip = estate_industrialists_industrialization_buildings_tt
+				hidden_effect = {
+					add_building_construction = {
+						building = industrial_zone
+						speed = 1
+						cost = 0
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				adm_tech = 43
+			}
+			random_owned_province = {
+				limit = {
+					development = 6
+					has_building = canals
+					no_construction = yes
+				}
+				custom_tooltip = estate_industrialists_industrialization_railroads_tt
+				hidden_effect = {
+					add_building_construction = {
+						building = railroads
+						speed = 1
+						cost = 0
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				adm_tech = 46
+			}
+			random_owned_province = {
+				limit = {
+					development = 12
+					has_building = railroads
+					no_construction = yes
+				}
+				custom_tooltip = estate_industrialists_industrialization_railroad_network_tt
+				hidden_effect = {
+					add_building_construction = {
+						building = railroad_network
+						speed = 1
+						cost = 0
+					}
 				}
 			}
 		}
@@ -138,7 +198,7 @@ country_event = {
 						trade_goods = cloth
 						trade_goods = iron
 						trade_goods = coal
-						#trade_goods = manufactured_goods
+						trade_goods = manufactured_goods
 						trade_goods = glass
 						trade_goods = machinery
 					}
@@ -151,6 +211,66 @@ country_event = {
 				}
 				else = {
 					add_base_production = 2
+				}
+			}
+			if = {
+				limit = {
+					adm_tech = 39
+				}
+				random_owned_province = {
+					limit = {
+						development = 30
+						NOT = { has_building = industrial_zone }
+						no_construction = yes
+					}
+					custom_tooltip = estate_industrialists_industrialization_buildings_tt
+					hidden_effect = {
+						add_building_construction = {
+							building = industrial_zone
+							speed = 1
+							cost = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					adm_tech = 43
+				}
+				random_owned_province = {
+					limit = {
+						development = 6
+						has_building = canals
+						no_construction = yes
+					}
+					custom_tooltip = estate_industrialists_industrialization_railroads_tt
+					hidden_effect = {
+						add_building_construction = {
+							building = railroads
+							speed = 1
+							cost = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					adm_tech = 46
+				}
+				random_owned_province = {
+					limit = {
+						development = 12
+						has_building = railroads
+						no_construction = yes
+					}
+					custom_tooltip = estate_industrialists_industrialization_railroad_network_tt
+					hidden_effect = {
+						add_building_construction = {
+							building = railroad_network
+							speed = 1
+							cost = 0
+						}
+					}
 				}
 			}
 		}
@@ -203,7 +323,7 @@ country_event = {
 						trade_goods = cloth
 						trade_goods = iron
 						trade_goods = coal
-						#trade_goods = manufactured_goods
+						trade_goods = manufactured_goods
 						trade_goods = glass
 						trade_goods = machinery
 					}
@@ -216,6 +336,66 @@ country_event = {
 				}
 				else = {
 					add_base_production = 1
+				}
+			}
+			if = {
+				limit = {
+					adm_tech = 39
+				}
+				random_owned_province = {
+					limit = {
+						development = 30
+						NOT = { has_building = industrial_zone }
+						no_construction = yes
+					}
+					custom_tooltip = estate_industrialists_industrialization_buildings_tt
+					hidden_effect = {
+						add_building_construction = {
+							building = industrial_zone
+							speed = 1
+							cost = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					adm_tech = 43
+				}
+				random_owned_province = {
+					limit = {
+						development = 6
+						has_building = canals
+						no_construction = yes
+					}
+					custom_tooltip = estate_industrialists_industrialization_railroads_tt
+					hidden_effect = {
+						add_building_construction = {
+							building = railroads
+							speed = 1
+							cost = 0
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					adm_tech = 46
+				}
+				random_owned_province = {
+					limit = {
+						development = 12
+						has_building = railroads
+						no_construction = yes
+					}
+					custom_tooltip = estate_industrialists_industrialization_railroad_network_tt
+					hidden_effect = {
+						add_building_construction = {
+							building = railroad_network
+							speed = 1
+							cost = 0
+						}
+					}
 				}
 			}
 		}
@@ -1068,7 +1248,7 @@ country_event = {
 				trade_goods = coal
 				trade_goods = glass
 				trade_goods = machinery
-				#trade_goods = manufactured_goods
+				trade_goods = manufactured_goods
 			}
 		}
 	}
@@ -1082,7 +1262,7 @@ country_event = {
 					trade_goods = coal
 					trade_goods = glass
 					trade_goods = machinery
-					#trade_goods = manufactured_goods
+					trade_goods = manufactured_goods
 				}
 			}
 			save_event_target_as = strike_prov
@@ -1204,6 +1384,182 @@ country_event = {
 			type = industrialist
 			skill = 3
 			discount = yes
+		}
+	}
+}
+
+#Growth of the Middle Class
+country_event = {
+	id = industrialists_estate_events.16
+	title = industrialists_estate_events.16.t
+	desc = industrialists_estate_events.16.d
+	picture = BURGHER_ESTATE_eventPicture
+	goto = industry_province
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_estate = estate_industrialists
+		any_owned_province = {
+			has_building = industrial_zone
+			NOT = { trade_goods = machinery }
+			NOT = { trade_goods = manufactured_goods }
+			NOT = { trade_goods = coal }
+			NOT = { trade_goods = icorine }
+			NOT = { trade_goods = plaulum }
+		}
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				has_building = industrial_zone
+				NOT = { trade_goods = machinery }
+				NOT = { trade_goods = manufactured_goods }
+				NOT = { trade_goods = coal }
+				NOT = { trade_goods = icorine }
+				NOT = { trade_goods = plaulum }
+			}
+			save_event_target_as = industry_province
+		}
+	}
+
+	option = {
+		name = industrialists_estate_events.16.o1 #Excellent!
+
+		add_prestige = 5
+		event_target:industry_province = {
+			change_trade_goods = manufactured_goods
+			add_base_production = 1
+		}
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_GROWTH_OF_MIDDLE_CLASS
+			influence = 10
+			duration = 7300
+		}
+	}
+	option = {
+		name = industrialists_estate_events.16.o2 #Perhaps not
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
+		}
+
+		add_adm_power = -50
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -10
+		}
+	}
+}
+
+#Boomtown
+country_event = {
+	id = industrialists_estate_events.17
+	title = industrialists_estate_events.17.t
+	desc = industrialists_estate_events.17.d
+	picture = CITY_DEVELOPMENT_eventPicture
+	goto = boomtown_province
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_estate = estate_industrialists
+		NOT = { has_estate_privilege = estate_industrialists_strict_regulations }
+		any_owned_province = {
+			NOT = { development = 15 }
+			OR = {
+				has_building = railroads
+				has_building = railroad_network
+			}
+		}
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				NOT = { development = 15 }
+				OR = {
+					has_building = railroads
+					has_building = railroad_network
+				}
+			}
+			save_event_target_as = boomtown_province
+		}
+	}
+
+	option = {
+		name = industrialists_estate_events.17.o1 #Brilliant!
+
+		event_target:boomtown_province = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+		}
+	}
+}
+
+#Industrialists Demand Control! (They angry)
+country_event = {
+	id = industrialists_estate_events.18
+	title = industrialists_estate_events.18.t
+	desc = industrialists_estate_events.18.d
+	picture = BURGHER_ESTATE_UPSET_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_estate = estate_industrialists
+		NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+		NOT = { has_estate_privilege = estate_industrialists_strict_regulations }
+		NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+		estate_influence = {
+			estate = estate_industrialists
+			influence = 60
+		}
+		NOT = {
+			estate_loyalty = {
+				estate = estate_industrialists
+				loyalty = 20
+			}
+		}
+		NOT = {
+			has_country_modifier = industrialists_strike
+		}
+		NOT = {
+			has_estate_loyalty_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_INDUSTRIALISTS_REJECTED_DEMANDS
+			}
+		}
+	}
+
+	option = {
+		name = industrialists_estate_events.18.o1 #We have to give in
+
+		set_estate_privilege = estate_industrialists_corporatocracy
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = 25
+		}
+	}
+	option = {
+		name = industrialists_estate_events.18.o2 #We will not cede an inch to these traitors!
+
+		add_country_modifier = {
+			name = industrialists_strike
+			duration = 3650
+		}
+		
+		add_estate_loyalty_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_INDUSTRIALISTS_REJECTED_DEMANDS
+			loyalty = -10
+			duration = 7300
+		}
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -20
 		}
 	}
 }

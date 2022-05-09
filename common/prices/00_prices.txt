@@ -171,6 +171,10 @@ chiming_tree = {
 	base_price = 3
 }
 
+manufactured_goods = {
+	base_price = 4
+}
+
 unknown = {
 	base_price = 0
 }
