@@ -144,7 +144,6 @@ technology = { #Craftsmanship
 	}
 	
 	craftsman = yes
-	school = yes
 }
 
 technology = { #Simple Mechanisms
@@ -158,6 +157,7 @@ technology = { #Simple Mechanisms
 	}
 	
 	production_efficiency = 0.02
+	school = yes
 }
 
 technology = { #Irrigation
@@ -246,11 +246,10 @@ technology = { #Courthouse
 	}
 	
 	courthouse = yes
-	tax_office = yes
 	governing_capacity = 100
 }
 
-technology = { #Plantations
+technology = { #Accounting
 	# Tech 18
 	year = 1456
 	expects_institution = {
@@ -262,7 +261,7 @@ technology = { #Plantations
 		new_world_i = 0.1
 	}
 	
-	ramparts = yes
+	tax_office = yes
 	production_efficiency = 0.02
 }
 

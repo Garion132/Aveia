@@ -302,6 +302,7 @@ technology = {
 	land_morale = 0.5
 
 	regimental_camp = yes
+	ramparts = yes
 }
 
 technology = {
@@ -461,8 +462,9 @@ technology = {
 		guedinan_revolution = 0.5
 	}
 	
-	#Weapons Manufactory
+	#Military Organization
 	supply_limit = 0.25
+	combat_width = 4
 }
 
 technology = {
@@ -483,7 +485,6 @@ technology = {
 	sprite_level = 2
 
 	infantry_fire = 0.5
-	combat_width = 4
 
 	training_fields = yes
 
