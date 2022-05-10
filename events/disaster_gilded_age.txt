@@ -1,0 +1,45 @@
+###########################################################
+# Events for Gilded Age Disaster
+#
+# written by Strat
+###########################################################
+
+namespace = gilded_age
+
+
+#Captains of Industry Emerge
+country_event = {
+	id = gilded_age.0
+	title = gilded_age.0.t
+	desc = gilded_age.0.d
+	picture = BURGHER_ESTATE_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = gilded_age.0.a #There is money to be made
+		
+        add_corruption = 10
+	}
+}
+
+#The Robber Barons are Gone
+country_event = {
+	id = gilded_age.1
+	title = gilded_age.1.t
+	desc = gilded_age.1.d
+	picture = BURGHER_ESTATE_UPSET_eventPicture
+	
+	is_triggered_only = yes
+
+    immediate = {
+        set_country_flag = gilded_age_happened
+    }
+
+	option = {
+		name = gilded_age.1.a #The state is free to act
+        add_adm_power = 100
+        add_dip_power = 100
+        add_mil_power = 100
+	}
+}

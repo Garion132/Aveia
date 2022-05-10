@@ -20,6 +20,12 @@ spriteTypes = {
 			noOfFrames = 3
 			loadType = "INGAME"
 		}
+		spriteType = {
+			name = "GFX_disaster_gilded_age"
+			texturefile = "gfx//interface//disasters//gilded_age.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
 
 	##
 

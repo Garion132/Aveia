@@ -185,3 +185,12 @@
  bust_events.106.t:0 "Unemployment Drops Below 10%"
  bust_events.106.d:0 "With consumption back, the spiral upwards has begun. Unemployment, through the official figures, has dropped below 10%. Many still lie in the street, some don't trust our numbers as we have gotten a tad loose with our definition of 'job,' but it is a good sign."
  bust_events.106.a:0 "Perhaps an end is in sight?"
+
+ #Gilded Age
+ gilded_age.0.t:0 "Captains of Industry Emerge"
+ gilded_age.0.d:0 ""
+ gilded_age.0.a:0 "There is money to be made"
+
+ gilded_age.1.t:0 "The Robber Barons are Gone"
+ gilded_age.1.d:0 ""
+ gilded_age.1.a:0 "The state is free to act"

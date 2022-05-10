@@ -1,0 +1,151 @@
+gilded_age = {
+	# You get a lot of positive growth within first 15ish years, but corruption
+	# slowly ticks up so it becomes a hinderence later on. Negative events increase
+	# as corruption increases and positive ones decrease as time goes on
+	#
+	# so a graph:
+	# Corrupt:   10 30+ 50+ 50+ 50  30-10
+	#			 + +|+ +|- -|- -|   |
+	#			    |- -|+ +|   |- -|
+	#			 - -|   |   |+ +|   |
+	# Years:	    5  10  15  20 25-30 (END)
+	#
+	# Also, getting to 50+ corruption should be *inevitable.* The point above that
+	# that you reach should be dependent on your skill, but it should be that you start
+	# getting tools to combat the GA after 10 yrs
+	#
+	# A lot of this will be based off of IRL US Gilded Age, but that's to be expected
+
+	potential = {
+		NOT = { has_country_flag = gilded_age_happened }
+		has_estate = estate_industrialists
+		estate_influence = {
+			estate = estate_industrialists
+			influence = 50
+		}
+	}
+
+
+	can_start = {
+		has_any_disaster = no
+		estate_influence = {
+			estate = estate_industrialists
+			influence = 100
+		}
+		is_at_war = no
+	}
+	
+	can_stop = {
+		OR = {
+			has_any_disaster = yes
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+			NOT = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 100
+				}
+			}
+		}
+	}
+	
+	down_progress = {
+		factor = 0
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			has_estate_privilege = estate_industrialists_strict_regulations
+		}
+		modifier = {
+			factor = 1
+			has_estate_privilege = estate_industrialists_worker_rights
+		}
+	}
+	
+	progress = {
+		modifier = {
+			factor = 1
+			NOT = { has_estate_privilege = estate_industrialists_strict_regulations }
+		}
+		modifier = {
+			factor = 1
+			NOT = { has_estate_privilege = estate_industrialists_worker_rights }
+		}
+		modifier = {
+			factor = 0.5
+			production_income_percentage = 0.5
+		}
+		modifier = {
+			factor = 0.5
+			trade_income_percentage = 0.5
+		}
+		modifier = {
+			factor = 0.5
+			dip_tech = 37
+		}
+		modifier = {
+			factor = 0.5
+			dip_tech = 39
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_industrialists
+					loyalty = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_industrialists
+					loyalty = 20
+				}
+			}
+		}
+	}
+	
+	can_end = {
+		NOT = { corruption = 10 }
+		NOT = {
+			estate_influence = {
+				estate = estate_industrialists
+				loyalty = 80
+			}
+		}
+	}
+	
+
+	modifier = {
+        legitimacy = -1
+        republican_tradition = -0.2
+        devotion = -1
+        horde_unity = -0.5
+        meritocracy = -1
+		global_unrest = 2
+        yearly_corruption = 0.4
+		technology_cost = -0.2
+	}
+	
+	
+	on_start = bust_events.0
+	on_end = bust_events.1
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = { 
+			800 = 0
+		}
+	}
+}
+
