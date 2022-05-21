@@ -270,6 +270,7 @@ THL = "countries/Thilrana.txt"
 	MAC = "countries/Macra.txt"
 	PRE = "countries/Preca.txt"
 	TID = "countries/Tidec.txt"
+	SCU = "countries/Scuria.txt"
 
 ## Eastern expeditions
     HIR = "countries/Hirdam Order.txt"

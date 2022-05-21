@@ -36,6 +36,10 @@ CTC_next_location_effect = {
 					which = illuminare
 					value = 100
 				}
+				CTC={
+					#change_religion = tlaunorist
+					change_primary_culture = indorran
+				}
 				if={
 					limit={
 						has_global_flag = CTC_sponsor_found

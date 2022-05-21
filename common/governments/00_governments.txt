@@ -816,6 +816,7 @@ bronze_monarchy = {
 
 	color = { 130 26 84 }
 }
+
 eximiu_colony = {
 	reform_levels = {
 		feudalism_vs_autocracy = {
