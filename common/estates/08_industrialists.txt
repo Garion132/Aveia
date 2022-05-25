@@ -68,10 +68,6 @@ estate_industrialists ={
 	}
 
 	# Influence modifiers
-
-	# Still Needs:
-	#	Railroads: +2.5%, +5%
-	#	Manufactured Goods: +5%
 	base_influence = 10
 	influence_modifier = {
 		desc = EST_VAL_HIGH_PRODUCTION_PROVINCE
@@ -95,6 +91,13 @@ estate_industrialists ={
 		desc = EST_VAL_MACHINERY_PROVINCE
 		trigger = {
 			machinery = 1
+		}
+		influence = 5
+	}
+	influence_modifier = {
+		desc = EST_VAL_MANUFACTURED_GOODS_PROVINCE
+		trigger = {
+			manufactured_goods = 1
 		}
 		influence = 5
 	}
@@ -125,6 +128,29 @@ estate_industrialists ={
 			coal = 1
 		}
 		influence = 2.5
+	}
+	influence_modifier = {
+		desc = EST_VAL_RAILROADS
+		trigger = {
+			any_owned_province = {
+				has_building = railroads
+			}
+			NOT = {
+				any_owned_province = {
+					has_building = railroad_network
+				}
+			}
+		}
+		influence = 2.5
+	}
+	influence_modifier = {
+		desc = EST_VAL_RAILROAD_NETWORK
+		trigger = {
+			any_owned_province = {
+				has_building = railroad_network
+			}
+		}
+		influence = 5
 	}
 	influence_modifier = {
 		desc = EST_VAL_1_INDUSTRIAL_ZONE

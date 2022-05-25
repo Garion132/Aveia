@@ -1487,6 +1487,7 @@ on_four_year_pulse_4 = {
 		50 = industrialists_estate_events.16 #Growth of the Middle Class
 		100 = industrialists_estate_events.17 #Boomtown
 		400 = industrialists_estate_events.18 #Industrialists Demand Control!
+		200 = industrialists_estate_events.19 #Bribery Scandal
 
 		
 		0 = 0

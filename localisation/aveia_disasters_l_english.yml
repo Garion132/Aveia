@@ -187,6 +187,8 @@
  bust_events.106.a:0 "Perhaps an end is in sight?"
 
  #Gilded Age
+ gilded_age:0 "Gilded Age"
+ desc_gilded_age:0 "The Industrialists have corrupted our politicians and have monopolized our markets."
  gilded_age.0.t:0 "Captains of Industry Emerge"
  gilded_age.0.d:0 ""
  gilded_age.0.a:0 "There is money to be made"

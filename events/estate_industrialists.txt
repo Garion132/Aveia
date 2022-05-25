@@ -920,10 +920,14 @@ country_event = {
 	trigger = {
 		has_estate = estate_industrialists
 		NOT = { has_estate_privilege = estate_industrialists_laissez_faire_economics }
-		NOT = {	
-			num_of_estate_privileges = {
-				estate = estate_industrialists
-				value = 4
+		OR = {
+			has_estate_privilege = estate_industrialists_worker_rights
+			has_estate_privilege = estate_industrialists_strict_regulations
+			NOT = {	
+				num_of_estate_privileges = {
+					estate = estate_industrialists
+					value = 4
+				}
 			}
 		}
 		estate_influence = {
@@ -1560,6 +1564,213 @@ country_event = {
 		add_estate_loyalty = {
 			estate = estate_industrialists
 			loyalty = -20
+		}
+	}
+}
+
+
+#Bribery Scandal
+country_event = {
+	id = industrialists_estate_events.19
+	title = industrialists_estate_events.19.t
+	desc = industrialists_estate_events.19.d
+	picture = BURGHER_ESTATE_UPSET_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_estate = estate_industrialists
+		estate_influence = {
+			estate = estate_industrialists
+			influence = 30
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_BRIBERY
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_industrialists
+				modifier = EST_VAL_BRIBERY_SCANDAL
+			}
+		}
+	}
+
+	option = {
+		name = industrialists_estate_events.19.o1 #Please, it's just lobbying
+		trigger = {
+			has_estate_privilege = estate_industrialists_corporatocracy
+		}
+		highlight = yes
+
+		if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 80
+				}
+			}
+			add_adm_power = 50
+			add_years_of_income = 0.2
+			add_corruption = 5
+			add_estate_influence_modifier = {
+				estate = estate_industrialists
+				desc = EST_VAL_LOBBYING
+				influence = 10
+				duration = 3650
+			}
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 50
+				}
+			}
+			add_adm_power = 40
+			add_years_of_income = 0.15
+			add_corruption = 4
+			add_estate_influence_modifier = {
+				estate = estate_industrialists
+				desc = EST_VAL_LOBBYING
+				influence = 10
+				duration = 3650
+			}
+		}
+		else = {
+			add_adm_power = 25
+			add_years_of_income = 0.1
+			add_corruption = 3
+			add_estate_influence_modifier = {
+				estate = estate_industrialists
+				desc = EST_VAL_LOBBYING
+				influence = 10
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = industrialists_estate_events.19.o2 #Overlook the incident
+
+		if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 80
+				}
+			}
+			add_corruption = 3
+			add_estate_influence_modifier = {
+				estate = estate_industrialists
+				desc = EST_VAL_BRIBERY
+				influence = 5
+				duration = 3650
+			}
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 50
+				}
+			}
+			add_corruption = 2
+			add_estate_influence_modifier = {
+				estate = estate_industrialists
+				desc = EST_VAL_BRIBERY
+				influence = 5
+				duration = 3650
+			}
+		}
+		else = {
+			add_corruption = 1
+			add_estate_influence_modifier = {
+				estate = estate_industrialists
+				desc = EST_VAL_BRIBERY
+				influence = 5
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = industrialists_estate_events.19.o3 #Punish those Involved
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+		}
+
+		if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 80
+				}
+			}
+			add_mil_power = -100
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 50
+				}
+			}
+			add_mil_power = -75
+		}
+		else = {
+			add_mil_power = -50
+		}
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -5
+		}
+	}
+	option = {
+		name = industrialists_estate_events.19.o4 #Investigate the Origins
+		trigger = {
+			NOT = { has_estate_privilege = estate_industrialists_corporatocracy }
+			NOT = { has_disaster = gilded_age }
+		}
+
+		if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 80
+				}
+			}
+			add_adm_power = -100
+			add_mil_power = -50
+			add_years_of_income = -0.2
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_industrialists
+					influence = 50
+				}
+			}
+			add_adm_power = -75
+			add_mil_power = -40
+			add_years_of_income = -0.15
+		}
+		else = {
+			add_adm_power = -50
+			add_mil_power = -25
+			add_years_of_income = -0.1
+		}
+
+		add_corruption = -1
+		add_estate_influence_modifier = {
+			estate = estate_industrialists
+			desc = EST_VAL_BRIBERY_SCANDAL
+			influence = -5
+			duration = 3650
+		}
+		add_estate_loyalty = {
+			estate = estate_industrialists
+			loyalty = -10
 		}
 	}
 }
