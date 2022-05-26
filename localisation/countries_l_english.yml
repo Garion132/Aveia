@@ -683,8 +683,12 @@
  ULE_ADJ:0 "Uleina"
  KEL:0 "Kelrau"
  KEL_ADJ:0 "Kelrau"
- SCU:0 "Scuria"
- SCU_ADJ:0 "Scuria"
+ SCU:0 "Grand Scuria"
+ SCU_ADJ:0 "Grand Scuria"
+ HAD:0 "Hadna Confederacy"
+ HAD_ADJ:0 "Hadna Confederacy"
+ UTS:0 "United Trees"
+ UTS_ADJ:0 "United Trees"
  
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"

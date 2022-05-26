@@ -5,10 +5,15 @@ country_decisions = {
 		potential = {
 			NOT = { has_country_flag = formed_scuria_flag }
 			NOT = { tag = SCU }
+			NOT = { tag = UTS }
+			NOT = { tag = HAD }
+			NOT = { tag = OND }
 			OR = {
 				ai = no
 				AND = {
 					NOT = { exists = SCU }
+					NOT = { exists = UTS }
+					NOT = { exists = HAD }
 					num_of_cities = 3 #Carnage
 				}
 			}
@@ -21,6 +26,7 @@ country_decisions = {
 					ai = no
 				}
 			}
+			religion = eochism
 		}
 		provinces_to_highlight = {
 			region = scuria_region
@@ -33,11 +39,11 @@ country_decisions = {
 			NOT = { exists = SCU }
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
-			religion = roresist
+			religion_group = eochism_group
 			is_nomad = no
 			owns_core_province = 5163	#
 			num_of_owned_provinces_with = {
-				value = 33
+				value = 15
 				OR={
 					has_owner_accepted_culture = yes
 					NOT={nationalism = 1}
@@ -47,7 +53,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_capital = 3948
+			set_capital = 5163
 			change_tag = SCU
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -70,6 +76,177 @@ country_decisions = {
 				limit = {
 					has_custom_ideas = no
 					NOT = { has_idea_group = SCU_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_scuria_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
+	scuria_nation_onda = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_scuria_flag }
+			NOT = { tag = SCU }
+			NOT = { tag = UTS }
+			NOT = { tag = HAD }
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = SCU }
+					NOT = { exists = UTS }
+					NOT = { exists = HAD }
+					num_of_cities = 3 #Carnage
+				}
+			}
+			culture_group = scurian
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			tag = OND
+		}
+		provinces_to_highlight = {
+			region = scuria_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = HAD }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			religion_group = eochism_group
+			is_nomad = no
+			owns_core_province = 5163	#
+			num_of_owned_provinces_with = {
+				value = 15
+				OR={
+					has_owner_accepted_culture = yes
+					NOT={nationalism = 1}
+				}
+				region = scuria_region
+				is_core = ROOT
+			}
+		}
+		effect = {
+			set_capital = 5138
+			change_tag = HAD
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			scuria_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = HAD
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = HAD_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_scuria_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	scuria_nation_reformed = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_scuria_flag }
+			NOT = { tag = SCU }
+			NOT = { tag = UTS }
+			NOT = { tag = HAD }
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = SCU }
+					NOT = { exists = UTS }
+					NOT = { exists = HAD }
+					num_of_cities = 3 #Carnage
+				}
+			}
+			culture_group = scurian
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			religion = reformed_eochism
+		}
+		provinces_to_highlight = {
+			region = scuria_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = UTS }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			religion_group = eochism_group
+			is_nomad = no
+			owns_core_province = 5163	#
+			num_of_owned_provinces_with = {
+				value = 15
+				OR={
+					has_owner_accepted_culture = yes
+					NOT={nationalism = 1}
+				}
+				region = scuria_region
+				is_core = ROOT
+			}
+		}
+		effect = {
+			set_capital = 5163
+			change_tag = UTS
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			scuria_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = UTS
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = UTS_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}

@@ -271,6 +271,8 @@ THL = "countries/Thilrana.txt"
 	PRE = "countries/Preca.txt"
 	TID = "countries/Tidec.txt"
 	SCU = "countries/Scuria.txt"
+	HAD = "countries/Hadna Confederacy.txt"
+	UTS = "countries/Scuria.txt"
 
 ## Eastern expeditions
     HIR = "countries/Hirdam Order.txt"

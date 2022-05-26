@@ -3,8 +3,7 @@ bookmark = {
 	desc = "colonial_bookmark_desc"
 	date = 1272.8.6
 	
-	center = 46
-	default = yes
+	center = 3378
 	
 	easy_country = KAF
 	country = KAF

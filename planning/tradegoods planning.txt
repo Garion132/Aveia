@@ -36,13 +36,14 @@ Gold Knot (golden leaves, white five-petaled flowers. tobacco-like product)
 spirl (giant spider silk-like product)
 Coal
 Machinery
--Manufactured Goods
+Manufactured Goods
 
-#Elteria (South-Western Continent), 4
+#Elteria (South-Western Continent), 5
 Ecriamin (Blue five leaf clover, Magical Healing Herbs)
 -Theiss (Root vegatable)
 -Erysim (fruit)
 -Atyle Sap ()
+-Ironwood ()
 
 #Eastern Aveia, 4
 Quedarma Horn (megafauna, giant, greenish-gray, snake with horns and a frill)

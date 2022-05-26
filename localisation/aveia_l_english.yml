@@ -1,10 +1,10 @@
 ﻿l_english:
  elves_bookmark:0 "High Bronze Age"
  elves_bookmark_desc:0 "Vanadium plz do description."
- dwarves_bookmark:0 "Dunirrs"
- dwarves_bookmark_desc:0 "Vanadium plz do description."
- orks_bookmark:0 "Ugluks"
- orks_bookmark_desc:0 "Vanadium plz do description."
+ enheasrion_basin_bookmark:0 "Riches of the Enheasrion Basin"
+ enheasrion_basin_bookmark_desc:0 "Vanadium plz do description."
+ kirloi_bookmark:0 "Civilizations of Kirloi"
+ kirloi_bookmark_desc:0 "Vanadium plz do description."
  colonial_bookmark:0 "Mists of Elteria"
  colonial_bookmark_desc:0 "Vanadium plz do description."
 
@@ -415,3 +415,6 @@
  tolcar_federate_title_plural:0 "Federates"
  
  me_qar:0 "Me'qar"
+ 
+ scuria_nation_onda_title:0 "Restore Hadna Confederacy"
+ scuria_nation_title:0 "Form Grand Scuria"

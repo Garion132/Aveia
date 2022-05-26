@@ -1,13 +1,18 @@
 bookmark = {
-	name = "dwarves_bookmark"
-	desc = "dwarves_bookmark_desc"
+	name = "enheasrion_basin_bookmark"
+	desc = "enheasrion_basin_bookmark_desc"
 	date = 1272.8.6
 	
 	center = 1267
 	
 	easy_country = DRG
+	easy_country = RAU
+	easy_country = GUL
 	country = DRG
+	country = RAU
+	country = GUL
 	country = BOL
 	country = ATH
 	country = NYH
+	country = SAL
 }

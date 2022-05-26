@@ -6332,7 +6332,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
 		}
 	}
 	glaumyn = {
@@ -6377,7 +6377,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
 		}
 	}
 	dican = {
@@ -6422,7 +6422,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
 		}
 	}
 	petaur = {
@@ -6467,7 +6467,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
 		}
 	}
 	me_qar = {
@@ -6512,7 +6512,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
 		}
 	}
 	tamhudian = {
@@ -6557,7 +6557,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
 		}
 	}
 	gerysan = {
@@ -6602,7 +6602,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
 		}
 	}
 	niscin = {
@@ -6647,7 +6647,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
 		}
 	}
 	curizoan = {

@@ -2134,6 +2134,119 @@ manufactured_goods = {
 	}
 }
 
+theiss = {
+	color = { 0.58 0.34 0.25 }
+	modifier = {
+		land_forcelimit_modifier = 0.20
+	}
+	province = {
+		land_forcelimit = 0.5
+	}
+
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
+	}
+}
+
+erysim = {
+	color = { 0.79 0.38 0.50 }
+	modifier = {
+		land_forcelimit_modifier = 0.20
+	}
+	province = {
+		land_forcelimit = 0.5
+	}
+
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
+	}
+}
+atyle_sap = {
+	color = { 0.92 0.95 0.30 }
+	modifier = {
+		land_forcelimit_modifier = 0.20
+	}
+	province = {
+		land_forcelimit = 0.5
+	}
+
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
+	}
+}
+ironwood = {
+	color = { 0.40 0.40 0.51 }
+	modifier = {
+		land_forcelimit_modifier = 0.20
+	}
+	province = {
+		land_forcelimit = 0.5
+	}
+
+	chance = {
+		factor = 0
+
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
+	}
+}
+kurrak = {
+	color = { 0.70 0.05 0.1 }
+	modifier = {
+		land_forcelimit_modifier = 0.20
+	}
+	province = {
+		land_forcelimit = 0.5
+	}
+
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 0
+			OR={
+				province_id = 3923
+				province_id = 4744
+				province_id = 4756
+				province_id = 4743
+			}
+		}
+	}
+}
+
 unknown = {
 	color = { 0.5 0.5 0.5 }
 }

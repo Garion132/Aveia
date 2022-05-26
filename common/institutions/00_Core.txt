@@ -25,8 +25,11 @@ organized_state = {
 
 	history = {
 		is_year = 1000
-		NOT={
-			culture_group = scurian
+		OR={
+			province_id = 5138
+			NOT={
+				culture_group = scurian
+			}
 		}
 	}
 	

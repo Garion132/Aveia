@@ -14,8 +14,6 @@ bookmark = {
 	country = LEL
 	country = KAF
 	country = SHE
-	country = RAU
 	country = IHA
 	country = ELE
-	country = INZ
 }

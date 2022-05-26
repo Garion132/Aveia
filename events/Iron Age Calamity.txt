@@ -10,7 +10,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		is_year = 1366 #Iron Age Calamity begins next year with Orbury Erupti9on
+		is_year = 1366 #Iron Age Calamity begins next year with Orbury Eruption
 		not = { is_year = 1376 }
 	}
 	mean_time_to_happen = {

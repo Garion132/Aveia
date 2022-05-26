@@ -1,11 +1,16 @@
 bookmark = {
-	name = "orks_bookmark"
-	desc = "orks_bookmark_desc"
+	name = "kirloi_bookmark"
+	desc = "kirloi_bookmark_desc"
 	date = 1272.8.6
 	
 	center = 1561
 	
+	easy_country = ZIY
+	easy_country = SOH
 	country = ZIY
+	country = SOH
 	country = BAY
 	country = NFA
+	country = YER
+	country = INZ
 }
