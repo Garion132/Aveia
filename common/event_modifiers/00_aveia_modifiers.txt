@@ -401,6 +401,9 @@ birthplace_of_iron_working = {
 birthplace_of_illuminare = {
 	idea_cost = -0.05
 }
+birthplace_of_the_guedinan_revolution = {
+	fire_damage = 0.10
+}
 
 
 # Important river estuaries

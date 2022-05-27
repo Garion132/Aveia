@@ -62,6 +62,7 @@ groups = {
 	scurian_group = {
 		start_level = 1
 		start_cost_modifier = 0.8
+		is_primitive = yes
 	}
 	civilized_human_group= {
 		start_level = 3

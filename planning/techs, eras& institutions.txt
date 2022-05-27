@@ -106,3 +106,28 @@ expition
 golden sun
 dwarfs
 ugluk (orcs)
+scurian
+
+lake_elves_group - alpine hat,Golden cog
+sea_elves_group - tricorne,Golden cog
+sun_elves_group - sun,Golden cog
+moon_elves_group - moon,Golden cog
+
+northern_drake_group - crown,Golden cog
+free_kolbolds_group - kolbold head,Silver cog
+
+ork_group (ugluk) - top hat,Golden cog
+ulguir_group - cowboy hat,Golden cog
+
+free_fauns_group - ,Wooden cog
+
+great_spiders_group - ,Silver cog
+
+naga_group - horns,Bronze cog
+
+dunirr_group - Greek fisherman hat,Golden cog
+
+scurian_group - early mitre,Wooden cog
+
+northern_men_group -eastern helm, bronze cog
+civilized_men_group - bowler hat,Golden cog

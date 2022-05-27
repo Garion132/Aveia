@@ -6315,7 +6315,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			Leafpaw Flitterclaw Dangletail Bushtail Acornfist Bumblebean Araltum Felldoh Arven Amber Brush Tam MacBurl Fwirl Sarobando
+			Flitterclaw Dangletail Bushtail Acornfist Bumblebean Araltum Felldoh Arven Amber Brush Tam MacBurl Fwirl Sarobando
 		}
 	}
 	glaumyn = {
@@ -6360,7 +6360,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail" Flitterclaw Dangletail Bushtail Acornfist Bumblebean Araltum Felldoh Arven Amber Brush Tam MacBurl Fwirl Sarobando
 		}
 	}
 	dican = {
@@ -6405,7 +6405,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail" Flitterclaw Dangletail Bushtail Acornfist Bumblebean Araltum Felldoh Arven Amber Brush Tam MacBurl Fwirl Sarobando
 		}
 	}
 	petaur = {
@@ -6450,7 +6450,7 @@ scurian = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
+			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail" Flitterclaw Dangletail Bushtail Acornfist Bumblebean Araltum Felldoh Arven Amber Brush Tam MacBurl Fwirl Sarobando
 		}
 	}
 	me_qar = {
@@ -6859,6 +6859,9 @@ scurian = {
 		}
 	}
 
+	dynasty_names = {
+		"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail" Flitterclaw Dangletail Bushtail Acornfist Bumblebean Araltum Felldoh Arven Amber Brush Tam MacBurl Fwirl Sarobando
+	}
 }
 
 
