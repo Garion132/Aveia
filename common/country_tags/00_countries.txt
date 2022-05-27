@@ -249,6 +249,8 @@ THL = "countries/Thilrana.txt"
     DAW = "countries/Dawnmond.txt" 
     SKP = "countries/Salkeeple.txt"
 	
+	TAR = "countries/Taranan.txt"
+	
 ## scanian
 	OND = "countries/Onda.txt"
 	TAM = "countries/Tamhund.txt"

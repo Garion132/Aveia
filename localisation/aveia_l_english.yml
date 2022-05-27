@@ -418,3 +418,8 @@
  
  scuria_nation_onda_title:0 "Restore Hadna Confederacy"
  scuria_nation_title:0 "Form Grand Scuria"
+ 
+ iron_age_calamity_eruption_tooltip:0 "§YA Great Calamity§! has happened."
+ eastern_scramble_tooltip:0 "§YThe Eastern Scramble§! has happened."
+ death_of_tlaulunore_tooltip:0 "§YFalling Star§! has happened."
+ golden_sun_discovered_tooltip:0 "§YThe Golden Sun§! has been discovered."

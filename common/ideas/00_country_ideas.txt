@@ -550,3 +550,43 @@ ELE_ideas = {
 		global_ship_trade_power = 0.3
 	}
 }
+
+GRU_ideas = {
+	start = {
+		army_tradition_from_battle = 0.01
+		global_tax_modifier = 0.075
+	}
+
+	bonus = {
+		global_institution_spread = 0.25
+	}
+	
+	trigger = {
+		tag = GRU
+	}
+	free = yes
+
+	gateway_to_the_world = {
+		num_accepted_cultures = 1
+	}
+	dhizdian_scolars = {
+		infantry_shock = 0.3
+	}
+	bridgedocks = {
+		galley_cost = -0.1
+		galley_power = 0.05
+	}
+	alei_leaf_financial_exchange_district = {
+		trade_efficiency = 0.1
+	}
+	merchants_of_yhenil = {
+		placed_merchant_power = 12
+	}
+	acts_of_protection = {
+		naval_forcelimit_modifier = 0.1
+		sailors_recovery_speed = 0.15
+	}
+	fathers_of_global_trade = {
+		global_ship_trade_power = 0.3
+	}
+}

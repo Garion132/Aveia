@@ -175,6 +175,22 @@ manufactured_goods = {
 	base_price = 4
 }
 
+theiss = {
+	base_price = 2
+}
+erysim = {
+	base_price = 2
+}
+atyle_sap = {
+	base_price = 3.5
+}
+ironwood = {
+	base_price = 3
+}
+kurrak = {
+	base_price = 4
+}
+
 unknown = {
 	base_price = 0
 }

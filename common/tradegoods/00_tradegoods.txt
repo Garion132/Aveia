@@ -2144,7 +2144,7 @@ theiss = {
 	}
 
 	chance = {
-		factor = 0
+		factor = 8
 		modifier = {
 			factor = 0
 			OR={
@@ -2153,6 +2153,10 @@ theiss = {
 				province_id = 4756
 				province_id = 4743
 			}
+		}
+		modifier = {
+			factor = 0
+			NOT={continent = elteria}
 		}
 	}
 }
@@ -2167,7 +2171,7 @@ erysim = {
 	}
 
 	chance = {
-		factor = 0
+		factor = 8
 		modifier = {
 			factor = 0
 			OR={
@@ -2176,6 +2180,10 @@ erysim = {
 				province_id = 4756
 				province_id = 4743
 			}
+		}
+		modifier = {
+			factor = 0
+			NOT={continent = elteria}
 		}
 	}
 }
@@ -2189,7 +2197,7 @@ atyle_sap = {
 	}
 
 	chance = {
-		factor = 0
+		factor = 10
 		modifier = {
 			factor = 0
 			OR={
@@ -2199,19 +2207,23 @@ atyle_sap = {
 				province_id = 4743
 			}
 		}
+		modifier = {
+			factor = 0
+			NOT={region = scuria_region}
+		}
 	}
 }
 ironwood = {
 	color = { 0.40 0.40 0.51 }
 	modifier = {
-		land_forcelimit_modifier = 0.20
+		global_regiment_cost = -0.05
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_development_cost = -0.1
 	}
 
 	chance = {
-		factor = 0
+		factor = 3
 
 		modifier = {
 			factor = 0
@@ -2221,6 +2233,10 @@ ironwood = {
 				province_id = 4756
 				province_id = 4743
 			}
+		}
+		modifier = {
+			factor = 0
+			NOT={continent = elteria}
 		}
 	}
 }

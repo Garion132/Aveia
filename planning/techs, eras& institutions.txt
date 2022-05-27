@@ -4,10 +4,15 @@ High Bronze Age (start-1367)
 		300 dev
 		crop rotation
 		large city
-		Patisipate Scramble (have a province/colony in elteria or have the modififer "scramble for elteria")
+		Patisipate in the Scramble (have a province/colony in elteria or have the modififer "scramble for elteria")
 	boni:
 		higher developed colonies
 		justified wars
+		Secured Trade Routes (trade_efficiency = 0.15)
+		Great Works (prestige = 1)
+		Breadbaskets (development_cost = -0.1)
+		Expert Artisans (production_efficiency = 0.1)
+		Bronze-age Drill (army_tradition_from_battle = 0.5)
 Iron Calamity (1367-1440)
 	obj:
 		feudal society
@@ -20,6 +25,8 @@ Iron Calamity (1367-1440)
 		feudal de jure law
 		mercenary dicipline
 		protecting forts
+		
+		
 Eastern Exodus (1440-1540)
 	obj:
 		(have your primary culture in the east)
@@ -27,6 +34,10 @@ Eastern Exodus (1440-1540)
 		higher developed colonies 2.0
 		floating batteries
 		powerful tradeships
+		
+		
+		
+		
 The Golden Sun (1540 - 1638)
 	obj:
 		present on two continents
@@ -61,10 +72,10 @@ Age of Progress (1712-)
 		parliment
 		emperor
 		high discipline
-		Theology of Progress (be cult of progress, solar cult)
+		Theology of Progress (be cult of progress or solar cult)
 		great leader
 		control institutions
-		Strong Industrilist (60% influcence by industrustrialists)
+		Strong Industrilists (60% influcence by industrustrialists)
 	boni:
 		air ship armies(cavalry armies)
 		Improved Force March
