@@ -165,7 +165,11 @@ THL_unifaction = { #Series name is displayed over the slot?
 		trigger = {
 			2297={
 				region_for_scope_province={
-					country_or_non_sovereign_subject_holds = ROOT
+					OR={
+						country_or_non_sovereign_subject_holds = ROOT
+						province_id = 4888
+						province_id = 454
+					}
 					type = all
 				}
 			}
