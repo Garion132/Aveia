@@ -983,6 +983,15 @@ suirx_cresant_region={
 		suirx_cresant_10
 		shires_9
 		shires_10
+		suirx_cresant_11
+		suirx_cresant_12
+		suirx_cresant_13
+		suirx_cresant_14
+		suirx_cresant_15
+		suirx_cresant_16
+		suirx_cresant_17
+		suirx_cresant_18
+		suirx_cresant_19
 	}
 }
 

@@ -134,6 +134,12 @@ THL = "countries/Thilrana.txt"
 	OLC = "countries/Olcestre.txt"
 	WAR = "countries/Wargle.txt"
 	WSC = "countries/Wiscome.txt"
+	VYL = "countries/Velya.txt"
+	TMK = "countries/Telmark.txt"
+	XUI = "countries/Xuirr.txt"
+	KOU = "countries/Koul.txt"
+	SLT = "countries/Salist.txt"
+	HAR = "countries/Halr.txt"
 
 ## Human Tribes
 	CAL = "countries/Calgorwic.txt"

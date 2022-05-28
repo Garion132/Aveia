@@ -1,0 +1,25 @@
+government = bronze_monarchy
+add_government_reform = dragonic_throne_reform
+primary_culture = rake
+add_accepted_culture = silric
+religion = godly_sect
+government_rank = 2
+technology_group = lake_elves_group
+capital = 5206 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+
+1240.9.16 = {
+	monarch = {
+		name = "Velyai"
+		dynasty = "Velya"
+		birth_date = 1240.12.3
+		female = yes
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+	add_ruler_personality = immortal_personality
+}

@@ -680,7 +680,10 @@ iron_working = {
 			factor = 0.3
 			scale = yes
 			potential = {
-				has_latent_trade_goods = iron
+				OR={
+					has_latent_trade_goods = iron
+					has_trade_good = ironwood
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_neighbor_has_embraced_iron_working
@@ -2155,7 +2158,7 @@ industrialization = {
 	}
 	
 	can_start = {
-		is_year = 1750
+		is_year = 1700
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -2797,7 +2800,7 @@ enlightenment = {
 	}
 	
 	can_start = {
-		is_year = 1700
+		is_year = 1750
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes

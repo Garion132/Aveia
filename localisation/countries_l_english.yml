@@ -691,6 +691,18 @@
  UTS_ADJ:0 "United Trees"
  TAR:0 "Tarana"
  TAR_ADJ:0 "Taranan"
+ VYL:0 "Velya"
+ VYL_ADJ:0 "Velya"
+ TMK:0 "Telmark"
+ TMK_ADJ:0 "Telmark"
+ XUI:0 "Xuirr"
+ XUI_ADJ:0 "Xuirr"
+ KOU:0 "Koul"
+ KOU_ADJ:0 "Koul"
+ SLT:0 "Salist"
+ SLT_ADJ:0 "Salist"
+ HAR:0 "Halr"
+ HAR_ADJ:0 "Halr"
  
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"

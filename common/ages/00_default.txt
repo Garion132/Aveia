@@ -29,9 +29,11 @@ age_of_bronze = {
 	 			crop_rotation = 100
 	 		}
 		}
-		obj_unify_culture = {	
-			is_subject = no
-			has_unified_culture_group = yes
+		obj_patisipate_scramble = {
+			OR={
+				colony = 1
+				has_country_modifier = scramble_for_elteria
+			}
 		}
 			
 	
@@ -218,7 +220,11 @@ age_of_exodus = {
 	papacy = 1.25
 	
 	objectives = {
-		
+		obj_primary_culture_in_east={
+			kaltros_superregion={
+				culture = root
+			}
+		}
 		
 	}	
 	

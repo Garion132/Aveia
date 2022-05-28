@@ -3542,3 +3542,30 @@ scuria_12={
 scuria_13={
 5176 5177 5178
 }
+suirx_cresant_11={
+5181 5182 5183 5184 5185 
+}
+suirx_cresant_12={
+5186 5187 5188 
+}
+suirx_cresant_13={
+5189 5190 5191 5192 
+}
+suirx_cresant_14={
+5193 5194 5195 
+}
+suirx_cresant_15={
+5196 5197 5198 
+}
+suirx_cresant_16={
+5199 5200 5201 5202 
+}
+suirx_cresant_17={
+5203 5204 5205 5206 
+}
+suirx_cresant_18={
+5207 5208 5209 5210 
+}
+suirx_cresant_19={
+5211 5212 5213 5214
+}
