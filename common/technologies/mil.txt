@@ -102,6 +102,7 @@ technology = {
 
 	enable = ballista
 	enable = mangonel
+	enable = largebow
 }
 
 technology = {
@@ -236,6 +237,7 @@ technology = {
 	artillery_fire 		= 	0.25
 
 	enable = trebuchet
+	enable = wonderbow
 }
 
 technology = {
@@ -435,6 +437,7 @@ technology = {
 
 	enable = bombard
 	enable = basilisk
+	enable = ironlog_cannon
 }
 
 technology = {
@@ -542,6 +545,7 @@ technology = {
 	artillery_shock = 0.05
 
 	#TODO new art
+	enable = steellog_cannon
 }
 
 technology = {

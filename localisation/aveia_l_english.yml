@@ -157,6 +157,14 @@
  squirrel_samatroopers:0 "Samatroopers"
  squirrel_samatroopersDESCR:0 "One of the great weaknesses of our Gliding Squirrels was the fact that they could only go, well, down. To fix this, woodsmiths have miniaturized the same mechanism used to make Samaraptors and Samaships fly and fitted them onto small backpacks for our troops to use."
 
+ largebow:0 "Largebow"
+ largebowDESCR:0 "Largebows are, in essence, large bows that require multiple Scurians to use. They fire relatively large arrows compared to the average size of a Scurian though are not too dissimilar in size to the average Elven arrow size."
+ wonderbow:0 "Wonderbow"
+ wonderbowDESCR:0 "Wonderbows are larger than Largebows and instead have mechanical mechanisms that make it easier for Scurians to load and fire the Wonderbow. The impact force of a bolt fired from a Wonderbow is enough to tear down most wooden walls."
+ ironlog_cannon:0 "Ironlog Cannon"
+ ironlog_cannonDESCR:0 "By taking the log of an Ironwood tree and hollowing out the center, Scurians have been able to make cannons. While more prone to explode and heavier to move around than their Aveian cousins, these cannons are decently reliable."
+ steellog_cannon:0 "Steellog Cannon"
+ steellog_cannonDESCR:0 "While more expensive, Steelwood is much stronger than Ironwood and thus Steelwood cannons do not have to be as bulky as Ironwood cannons. This means that they are easier to move around and are also less likely to explode."
 
  #Airships
  sailing_airship:0 "Sailing Airship"
