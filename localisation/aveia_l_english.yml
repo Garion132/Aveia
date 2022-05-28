@@ -182,8 +182,24 @@
  ballista:0 "Ballista"
  ballistaDESCR:0 "Ballistas use torsion to launch a projectile, usually a large bolt, towards a target."
  trebuchet:0 "Trebuchet"
+ trebuchetDESCR:0 "Trebuchets are siege engines built on the battlefield that launch rocks at or into emplaced fortifications."
  bombard:0 "Bombard"
+ bombardDESCR:0 "Bombards are large cannons that fire large cast-iron or occasionally stone projectiles at walls, intended to destroy the fortifications rather than kill enemy personnel."
  basilisk:0 "Basilisk"
+ basiliskDESCR:0 "Basilisks are very heavy bronze cannons that are on average 10 feet long. Some were larger than that."
+ small_cast_iron_cannon:0 "Small Cast Iron Cannon"
+ small_cast_iron_cannonDESCR:0 "These Cast Iron Bombards are much smaller than their earlier Bronze cousins but are still extremely heavy and difficult to move around on the battlefield."
+ large_cast_iron_cannon:0 "Large Cast Iron Cannon"
+ large_cast_iron_cannonDESCR:0 "A larger version of the standard Bombard, this piece of siege artillery was designed for launching heavy objects at enemy defenses. Although they were devestating weapons, the larger Bombards took a long time to cool down after each firing, so they were only relegated to sieges."
+ chambered_demi_cannon:0 "Chambered Demi-Cannon"
+ chambered_demi_cannonDESCR:0 "Improvements in artillery manueverability and standardization in size of shot has made artillery much deadlier on the battlefield. They now can play decisive roles on the battlefield."
+ flying_battery:0 "Flying Battery"
+ flying_batteryDESCR:0 "Improvements in metallurgy and manueverability has allowed much smaller artillery that can be pulled by a team of working animals at a marching pace. Their quick redeployment also means they can be manuevered around on the battlefield, moving to one point and laying their charges then quickly relocating to the next attack point in rapid succession."
+ breech_loaded_howitzer:0 "Breech-Loaded Howitzer"
+ breech_loaded_howitzerDESCR:0 "Advancements intended for Airships has allowed artillery on the ground to be improved as well. Instead of loading shot and powder into the muzzle at the front of the cannon, instead a cartridge is inserted into the back of the cannon into a breech. This allows for a much faster rate of fire and improved safety as well."
+ rifled_field_artillery:0 "Rifled Field Artillery"
+ rifled_field_artilleryDESCR:0 "Improvements in machine tools and metallurgy have allowed for rifled artillery. A Steel casing together with a rifled barrel means that these guns have a higher muzzle velocity but also fire with deadly accuracy allowing them to deal more carnage to fortifications or on the battlefield."
+
 
  #Ships
  #Heavy Ships

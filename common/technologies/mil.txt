@@ -98,7 +98,7 @@ technology = {
 	
 	#Catapults
 	artillery_shock = 0.05
-	artillery_fire = 0.25
+	artillery_fire = 0.2
 
 	enable = ballista
 	enable = mangonel
@@ -234,7 +234,7 @@ technology = {
 	}
 	
 	#Trebuchet
-	artillery_fire 		= 	0.25
+	artillery_fire 		= 	0.1
 
 	enable = trebuchet
 	enable = wonderbow
@@ -432,7 +432,7 @@ technology = {
 	}
 	
 	#Limber
-	artillery_fire = 0.5
+	artillery_fire = 0.7
 	artillery_shock = 0.05
 
 	enable = bombard
@@ -545,6 +545,8 @@ technology = {
 	artillery_shock = 0.05
 
 	#TODO new art
+	enable = small_cast_iron_cannon
+	enable = large_cast_iron_cannon
 	enable = steellog_cannon
 }
 
@@ -635,6 +637,7 @@ technology = {
 	supply_limit = 0.25
 
 	#TODO new arty
+	enable = chambered_demi_cannon
 
 	military_academy = yes
 }
@@ -742,6 +745,8 @@ technology = {
 	enable = ork_stratka_infantry
 	enable = human_storm_infantry
 	enable = elven_rifle_infantry
+
+	enable = flying_battery
 }
 
 technology = {
@@ -794,6 +799,8 @@ technology = {
 	cavalry_fire = 4.0
 
 	#TODO new arty
+	enable = breech_loaded_howitzer
+
 }
 
 technology = {
@@ -985,6 +992,7 @@ technology = {
 	cavalry_fire = 10.0
 
 	#TODO new art
+	enable = rifled_field_artillery
 }
 
 technology = {
