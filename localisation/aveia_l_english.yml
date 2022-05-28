@@ -52,6 +52,11 @@
  arquebusiersDESCR:0 "Temporary Unit Type"
  mixed_ranged_infantry:0 "Mixed Ranged Infantry"
  mixed_ranged_infantryDESCR:0 "An invention of the Lake Elves, Mixed Ranged Infantry combines both the best of Elven Archery with the modern firepower of musket infantry."
+ elven_light_musketeers:0 "Elven Light Musketeers"
+ elven_rifle_infantry:0 "Elven Rifle Infantry"
+ elven_redback_infantry:0 "Redback Infantry"
+ elven_lile_sharpshooters:0 "Lile Sharpshooters"
+
 
  #Orks
  ork_gulban_phalanx:0 "Gulban Phalanx"
@@ -66,6 +71,11 @@
  ork_expedetiors:0 "Expedetiors"
  ork_western_pike_infantry:0 "Western Pike Infantry"
  ork_eastern_pike_infantry:0 "Eastern Pike Infantry"
+ ork_shock_infantry:0 "Shock Infantry"
+ ork_stratka_infantry:0 "Stratka Infantry"
+ ork_yellowback_infantry:0 "Yellowback Infantry"
+ ork_reformed_shock_infantry:0 "Reformed Shock Infantry"
+
 
  #Human Tribal
  human_warriors:0 "Human Warriors"
@@ -74,7 +84,7 @@
  valley_warriors:0 "Valley Warriors"
  valley_warriorsDESCR:0 "Rugged, well-adapted to changing weather, and covered in iron tools and armor, they will bash their way through any civilization."
  greatest_warriors:0 "Greatest Warriors"
- greatest_warriorsDESCR:0 "The final conquerers, these heroes would be the last of the tribal humans to do battle with the Elven kingdoms. They would reach the gates of Elesilon before being driven back by the Elesillion Guard."
+ greatest_warriorsDESCR:0 "The final conquerers, these heroes would be the last of the tribal humans to do battle with the Elven kingdoms. They would reach the gates of Elesilon before being driven back by the Nelsedar Guard."
 
  #Human Settled
  men_at_arms:0 "Men at Arms"
@@ -85,6 +95,11 @@
  late_medieval_infantryDESCR:0 "Todo"
  pike_and_shot:0 "Pike and Shot"
  pike_and_shotDESCR:0 "Temporary Unit Type."
+ human_greenback_infantry:0 "Greenback Infantry"
+ human_storm_infantry:0 "Storm Infantry"
+ human_blueback_infantry:0 "Blueback Infantry"
+ human_repeating_riflemen:0 "Repeating Riflemen"
+
 
  #Great Spider
  spider_late_bronze_age_infantry:0 "Late Bronze-Age Infantry"
@@ -98,6 +113,52 @@
  shireate_rangers:0 "Shireate Rangers"
  shireate_rangersDESCR:0 "Todo"
 
+ #Squirrels
+ squirrel_sharpened_sticks:0 "Sharpened Sticks"
+ squirrel_sharpened_sticksDESCR:0 "One of the most primitive weapons of murder: a sharpened stick. It's not much, but it's a reliable design."
+ squirrel_petriwood_spearscur:0 "Petriwood Spearscur"
+ squirrel_petriwood_spearscurDESCR:0 "With the advent of new tools to sharpen petrified wood, the Scurians have created a new weapon. A notably un-sharpened stick with a pointed spearhead made of petrified wood attached."
+ squirrel_peltist:0 "Peltist"
+ squirrel_peltistDESCR:0 "The Scurians are a resourceful people. When the issue of a lack of ranged weapons come about, they use what little technology they have to create regiments of strong Scurians to throw and drop hard projectiles at enemies."
+ squirrel_ironwood_spearscur:0 "Ironwood Spearscur"
+ squirrel_ironwood_spearscurDESCR:0 "An issue of previous Scurian spear designs was that the wooden staffs were susceptible to snapping. With new harvesting technologies and methods coming about, they can now utilize the stronger ironwood as a staff for their new spears, still tipped with petrified wood."
+ squirrel_shortbowscur:0 "Shortbowscur"
+ squirrel_shortbowscurDESCR:0 "With the Scurians shorter sizes and somewhat weaker arm strengths, it's no surprise that the shortbow became a widely used hunting tool for Scurians. Thanks to recent advancements in part standardization and harvesting methods, the Scurians can now widely employ the use of shortbows in their armed forces."
+ squirrel_ironwood_pikescur:0 "Ironwood Pikescur"
+ squirrel_ironwood_pikescur:0 "Thanks to encounters with foreigners, the Scurians have adopted their doctrine to be more about trapping and longer-ranged weapons. To fulfill these new needs, woodsmiths have created what are effectively longer spears, consisting of finely sharpened Ironwood."
+ squirrel_recurve_bowscur:0 "Recurve Bowscur"
+ squirrel_recurve_bowscurDESCR:0 "Through the studying of foreign designs, Scurians have modified the way their shortbows are created, bringing the recurve bow into common use among Scurians."
+ squirrel_ironwood_hoplite:0 "Ironwood Hoplite"
+ squirrel_ironwood_hopliteDESCR:0 "One of the greatest weaknesses of our spear-oriented fighting force is the lack of defense when enemies get too close and the issue of our new pikes dulling over time. To solve this issue, woodsmiths have managed to fashion new ironwood shields and figured designed new lightweight petriwood piketips."
+ squirrel_longbowscur:0 "Longbowscur"
+ squirrel_longbowscurDESCR:0 "One of the most fascinating discoveries for Scurians when they began to interact with the rest of the world was something they call the “Longbow.” Just don't tell them that the longbows they've recently been fascinated with are just other nations' shortbows."
+ squirrel_ironwood_halberdiers:0 "Ironwood Halberdiers"
+ squirrel_ironwood_halberdiersDESCR:0 "Though the Scurians have access to the world's iron markets, they simply don't have the economy to create full-metal weapons. However, the woodsmiths are resourceful and have designed halberds with ax blades made of petrified wood and edged with iron."
+ squirrel_ironwood_arquebow:0 "Ironwood Arquebow"
+ squirrel_ironwood_arquebowDESCR:0 "The Scurians have utilized the knowledge of new weaponry they've been exposed to in order to create a brand new kind of weapon. Mixing the design of a crossbow with foreign “Arquebuses” to create “Arquebows” that are effectively long-range light portable one-man ballistae."
+ squirrel_guedinalock_hatchets:0 "Guedinalock Hatchets"
+ squirrel_guedinalock_hatchetsDESCR:0 "Some of the new “Guedinalock Muskets” have been found and studied by Scurian woodsmiths with great interest. Though the Scurians do not yet have the mining capabilities to mass-produce these domestically, they've created a cost-effective single-shot pistol with an ax blade attached to use as a shock weapon for our soldiers."
+ squirrel_ironwood_pike_and_dart:0 "Ironwood Pike and Dart"
+ squirrel_ironwood_pike_and_dartDESCR:0 "The new type of infantry regiment, known as a “Pike and Shot” is a concept which has interested Scurian military leaders. However, due to the costs of arming an entire regiment with pikes being high enough, they've decided to replace the “shot” in the Pike and Shot with blowguns that fire poisoned darts."
+ squirrel_ironwood_arquebusiers:0 "Ironwood Arquebusiers"
+ squirrel_ironwood_arquebusiersDESCR:0 "Thanks to new manufacturing and mining advancements, the Scurians can now create arquebuses of their own."
+ squirrel_samoraptor_musketeers:0 "Samoratpor Musketeers"
+ squirrel_samoraptor_musketeersDESCR:0 "The Scurians have created a brand new kind of aircraft called a “Samaraptor,” a hollowed out block of wood with a pole in the middle that has a samara seed attached, which is spun rapidly to create lift and help the aircraft fly. Scurian military leaders have looked at this new aircraft with interest, experimenting with using the Samarapter as an infantry transporter."
+ squirrel_ironwood_riflescur:0 "Ironwood Riflescur"
+ squirrel_ironwood_riflescurDESCR:0 "New advancements in part standardization and manufaturing allow the Scurians to rifle their muskets for greater accuracy. Paired with this are capabilities to create solid metal ammunition to fire with."
+ squirrel_gliding_scurians:0 "Gliding Scurians"
+ squirrel_gliding_scuriansDESCR:0 "One of the issues with our Samaraptors is that they're impractical to use for short-range deployments. Samaraptors take a while to start up and their machinery, due to mostly being wooden, is prone to excessive degradation and need to be replaced regularly. In order to deploy Scurians at a short range, they've been equipped with new gliders, using Samara seeds as gliding material."
+ squirrel_steelwood_riflescur:0 "Steelwood Riflescur"
+ squirrel_steelwood_riflescurDESCR:0 "One of the biggest issues we've faced with our new rifles is that, due to the smaller size of our soldiers, our rifles' barrels have to be generally thinner than normal rifles are. This has caused an issue of cracking and warping as gunpowder exploding wears down the barrel. To fix this, woodsmiths have been creating steelwood barrels, which are far more durable than ironwood."
+ squirrel_scurian_rangers:0 "Scurian Rangers"
+ squirrel_scurian_rangersDESCR:0 "Scurians are uniquely good at traveling through and hunting in forest environments. It's only natural we create specialized ranger regiments used for hit-and-run and scouting missions."
+ squirrel_lile_riflescur:0 "Lile Riflescur"
+ squirrel_lile_riflescurDESCR:0 "The creation of the powerful Lile ball, has incentivized the development of brand new rifles based around firing Lile balls."
+ squirrel_samatroopers:0 "Samatroopers"
+ squirrel_samatroopersDESCR:0 "One of the great weaknesses of our Gliding Squirrels was the fact that they could only go, well, down. To fix this, woodsmiths have miniaturized the same mechanism used to make Samaraptors and Samaships fly and fitted them onto small backpacks for our troops to use."
+
+
+ #Airships
  sailing_airship:0 "Sailing Airship"
  sailing_airshipDESCR:0 "Plz do description"
  steam_airship:0 "Steam Airship"
@@ -107,6 +168,7 @@
  dreadnought:0 "Dreadnought"
  dreadnoughtDESCR:0 "Dread the nought"
 
+ #Artillery
  mangonel:0 "Mangonel"
  mangonelDESCR:0 "Mangonel Catapults are siege engines that use manpower to launch a projectile towards a target."
  ballista:0 "Ballista"

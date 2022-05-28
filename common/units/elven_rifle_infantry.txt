@@ -1,0 +1,12 @@
+# Elven Light Musketeers
+
+type = infantry
+unit_type = lake_elves_group
+
+maneuver = 2
+offensive_morale = 3
+defensive_morale = 4
+offensive_fire = 8
+defensive_fire = 4
+offensive_shock = 3
+defensive_shock = 4

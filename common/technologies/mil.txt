@@ -17,6 +17,7 @@ technology = {
 	land_morale 		= 	2.0
 
 	enable = warrior_infantry #All
+	enable = squirrel_sharpened_sticks
 }
 
 technology = {
@@ -68,6 +69,8 @@ technology = {
 	enable = elven_phalanx #Elves
 	enable = ork_gulban_phalanx
 	enable = ork_ziyalap_phalanx
+	enable = squirrel_petriwood_spearscur
+	enable = squirrel_peltist
 }
 
 technology = {
@@ -114,6 +117,8 @@ technology = {
 	
 	enable = thyrian_archers #Elves
 	enable = cyeugite_heroes
+	enable = squirrel_ironwood_spearscur
+	enable = squirrel_shortbowscur
 }
 
 technology = {
@@ -178,6 +183,8 @@ technology = {
 	infantry_shock = 0.1
 	
 	enable = ork_late_verditap_infantry #Orks
+	enable = squirrel_ironwood_pikescur
+	enable = squirrel_recurve_bowscur
 }
 
 technology = {
@@ -247,6 +254,8 @@ technology = {
 
 	enable = men_at_arms #Settled Human
 	enable = greatest_warriors #Tribal Human
+	enable = squirrel_ironwood_hoplite
+	enable = squirrel_longbowscur
 }
 
 technology = {
@@ -321,6 +330,7 @@ technology = {
 	supply_limit = 0.25
 	
 	enable = halberd_infantry #(From now on, settled) Humans
+	enable = squirrel_ironwood_halberdiers
 }
 
 technology = {
@@ -403,6 +413,7 @@ technology = {
 	infantry_shock = 0.1
 	
 	enable = arquebusiers #Elves
+	enable = squirrel_ironwood_arquebow
 }
 
 technology = {
@@ -489,6 +500,8 @@ technology = {
 	training_fields = yes
 
 	enable = mixed_ranged_infantry #Elves
+	enable = squirrel_guedinalock_hatchets
+	enable = squirrel_ironwood_pike_and_dart
 }
 
 technology = {
@@ -550,8 +563,6 @@ technology = {
 	land_morale = 0.5
 	infantry_fire = 0.4
 	combat_width = 5
-
-	#TODO new inf for Humans/Elves/Orks (Pips line up at this point)
 }
 
 technology = {
@@ -571,6 +582,13 @@ technology = {
 	
 	#Line Infantry
 	military_tactics = 0.25
+
+	#TODO new inf for Humans/Elves/Orks (Pips line up at this point)
+	enable = ork_shock_infantry #Orks
+	enable = human_greenback_infantry #Humans
+	enable = elven_light_musketeers #Elves
+
+	enable = squirrel_ironwood_arquebusiers
 }
 
 technology = {
@@ -615,7 +633,6 @@ technology = {
 	#TODO new arty
 
 	military_academy = yes
-	fort_17th = yes
 }
 
 technology = {
@@ -640,6 +657,8 @@ technology = {
 	enable = sailing_airship
 
 	airdock = yes
+
+	enable = squirrel_samoraptor_musketeers
 }
 
 technology = {
@@ -663,8 +682,7 @@ technology = {
 	maneuver_value = 0.25
 
 	combat_width = 4
-
-	#TODO new Inf
+	fort_17th = yes
 }
 
 technology = {
@@ -686,7 +704,7 @@ technology = {
 	#Steam Airships
 	cavalry_shock = 5.0
 
-	#TODO new cav, 50% cav flanking
+	#TODO new cav
 	enable = steam_airship
 
 }
@@ -715,6 +733,11 @@ technology = {
 	mechanized_mine = yes
 
 	#TODO -20% fire damage recieved
+
+	#TODO new Inf
+	enable = ork_stratka_infantry
+	enable = human_storm_infantry
+	enable = elven_rifle_infantry
 }
 
 technology = {
@@ -739,6 +762,9 @@ technology = {
 	infantry_shock = 1.5
 
 	conscription_center = yes
+
+	enable = squirrel_ironwood_riflescur
+	enable = squirrel_gliding_scurians
 }
 
 technology = {
@@ -816,6 +842,13 @@ technology = {
 	cavalry_fire = 8.0
 
 	#TODO new inf, 10% fire damage
+	enable = ork_yellowback_infantry
+	enable = human_blueback_infantry
+	enable = elven_redback_infantry
+	#enable = dwarven_whiteback_infantry
+
+	enable = squirrel_steelwood_riflescur
+	enable = squirrel_scurian_rangers
 }
 
 technology = {
@@ -916,6 +949,11 @@ technology = {
 	maneuver_value = 0.25
 
 	#TODO new inf
+	enable = ork_reformed_shock_infantry
+	enable = human_repeating_riflemen
+	enable = elven_lile_sharpshooters
+	enable = squirrel_lile_riflescur
+	enable = squirrel_samatroopers
 }
 
 technology = {

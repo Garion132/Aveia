@@ -454,7 +454,6 @@ country_event = {
 						region = nilenor_region
 						region = krorri_region
 						region = shemsele_region
-						region = otrcyueg_region
 						region = great_gulba_region
 						region = cradle_islands
 					}
