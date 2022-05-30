@@ -1,5 +1,5 @@
 #Windsweaps
-culture = kaletian
+culture = bulkirate
 religion = shamanism #Fetishism
 capital = "Accra"
 trade_goods = unknown
@@ -14,5 +14,4 @@ discovered_by = lake_elves_group
 discovered_by = northern_drake_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
-extra_cost = 8
-
+extra_cbulkirate

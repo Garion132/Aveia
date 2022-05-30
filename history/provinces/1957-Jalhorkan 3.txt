@@ -1,6 +1,6 @@
 #Jalhorkan
 
-culture = kaletian
+culture = noxivate
 religion = tlaunorist #Fetishism
 hre = no
 base_tax = 1

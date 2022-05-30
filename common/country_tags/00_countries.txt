@@ -123,6 +123,7 @@ THL = "countries/Thilrana.txt"
 	LAY = "countries/Layac.txt"
 	UNH = "countries/Unhar.txt"
 	SOL = "countries/Solingar.txt"
+	VLR = "countries/Volura.txt"
 	#uncivilised kolbolds
 	VEN = "countries/Vendre.txt"
 	MOG = "countries/Moggan.txt"
@@ -398,6 +399,9 @@ KUS = "countries/Kusedean.txt"
 KAB = "countries/Kabuk.txt"
 
 SRA = "countries/Srandor.txt"
+
+#nagas
+	KEP = "countries/Kepjar.txt"
 
 
 #Crashes if this doesn't exist

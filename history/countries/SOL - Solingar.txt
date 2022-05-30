@@ -1,8 +1,8 @@
 government = bronze_monarchy
-add_government_reform = palace_economy
+add_government_reform = drakonic_throne
 primary_culture = rake
-add_accepted_culture = vealam
-religion = vulkivite
+#add_accepted_culture = kerandarayn
+religion = vulikivite
 government_rank = 1
 technology_group = lake_elves_group
 capital = 5126 # 

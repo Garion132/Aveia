@@ -1,5 +1,5 @@
 #Brightcoast
-culture = kaletian
+culture = noxivate
 religion = shamanism #Fetishism
 capital = "colonial"
 trade_goods = unknown

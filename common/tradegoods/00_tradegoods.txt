@@ -1535,6 +1535,10 @@ livestock = {
 		}
 		modifier = {
 			factor = 0
+			has_terrain = glacier
+		}
+		modifier = {
+			factor = 0
 			OR={
 				province_id = 3923
 				province_id = 4744

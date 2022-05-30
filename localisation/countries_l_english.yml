@@ -705,6 +705,10 @@
  HAR_ADJ:0 "Halr"
  SOL:0 "Solingar"
  SOL_ADJ:0 "Solingar"
+ VLR:0 "Volura"
+ VLR_ADJ:0 "Volura"
+ KEP:0 "Kepjar"
+ KEP_ADJ:0 "Kepjar"
  
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"

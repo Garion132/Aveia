@@ -1,5 +1,5 @@
 #juilia
-culture = kaletian
+culture = noxivate
 religion = shamanism #Fetishism
 capital = "Accra"
 trade_goods = unknown

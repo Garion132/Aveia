@@ -132,6 +132,13 @@ vassal = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
+#vulkivian baston against the whites
+vassal = {
+	first = VUL
+	second = VLR
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
 
 ####colonies workaround
 dependency = {
