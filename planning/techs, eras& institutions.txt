@@ -52,6 +52,7 @@ Rosen Dawn (1638-1670)
 		create a colonial empire
 		Magical materials (gain trade bonus from gudenia, ankon, vitaite or byrine)
 		multicultural nation
+		Steam Airships (mil 35)
 	boni:
 		Naval Engagement
 		great fleet

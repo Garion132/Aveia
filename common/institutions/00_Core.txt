@@ -1115,13 +1115,13 @@ guedinan_revolution = {
 			development = 20
 			is_capital = yes
 			normal_or_historical_nations = no
-			trade_goods = grain
+			trade_goods = guedina
 		}
 		owner={
 			OR={
-				grain = 2
+				guedina = 2
 				trading_part = {
-					trade_goods = grain
+					trade_goods = guedina
 					value = 0.05
 				}
 			}
@@ -1725,7 +1725,6 @@ air_shipping = {
 		is_island = no
 		is_state = yes
 		development = 20
-		printing_press = 100
 		global_trade = 100
 		custom_trigger_tooltip = {
 			tooltip = two_neighbor_dev_15_provinces
@@ -1743,6 +1742,9 @@ air_shipping = {
 			has_building = plantations
 			has_building = tradecompany
 			has_building = mills
+			production_leader = {
+				trade_goods = vitaite
+			}
 		}
 	}
 	start_chance = 10		#in 100 for when a province can_start
@@ -2163,55 +2165,46 @@ industrialization = {
 		is_island = no
 		is_state = yes
 		development = 30
-		manufactories = 100
-		enlightenment = 100
-		if = {
-			limit = {
-				has_dlc = "Rule Britannia"
-				NOT = { is_year = 1780 } #just in case no one develops their coal provinces
-			}
+		global_trade = 100
+		OR={
+			has_building = early_factory
+			has_building = late_factory
+			has_building = manufactory
 			has_building = furnace
-			owner = {
-				OR = {
-					production_leader = {
-						trade_goods = iron
-					}
-					production_leader = {
-						trade_goods = cloth
-					}
-					production_leader = {
-						trade_goods = coal
-					}
-					num_of_trading_bonuses = 3
-					is_year = 1770 #fallback
-				}
-			}
+		}
+		owner = {
 			OR = {
-				highest_value_trade_node = yes
-				is_year = 1760 #fallback
+				production_leader = {
+					trade_goods = iron
+				}
+				production_leader = {
+					trade_goods = cloth
+				}
+				production_leader = {
+					trade_goods = coal
+				}
+				production_leader = {
+					trade_goods = guedina
+				}
+				production_leader = {
+					trade_goods = ankon
+				}
+				production_leader = {
+					trade_goods = manufactured_goods
+				}
+				production_leader = {
+					trade_goods = copper
+				}
+				production_leader = {
+					trade_goods = machinery
+				}
+				num_of_trading_bonuses = 3
+				is_year = 1720 #fallback
 			}
 		}
-		else = {
-			OR = {
-				has_building = weapons
-				has_building = textile
-			}
-			owner = {
-				OR = {
-					production_leader = {
-						trade_goods = iron
-					}
-					production_leader = {
-						trade_goods = cloth
-					}
-					num_of_trading_bonuses = 3
-					is_year = 1770 #fallback
-				}
-			}
-			OR = {
-				highest_value_trade_node = yes
-				is_year = 1760 #fallback
-			}
+		OR = {
+			highest_value_trade_node = yes
+			is_year = 1710 #fallback
 		}
 	}
 	start_chance = 100		#in 100 for when a province can_start
@@ -2804,15 +2797,16 @@ enlightenment = {
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
-		printing_press = 100
-		global_trade = 100
+		industrialization = 100
 		development = 30
 		OR = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_has_seat_in_parliament
 				has_seat_in_parliament = yes
 			}
+			has_building = school
 			has_building = university
+			has_building = research_center
 			
 		}
 	}

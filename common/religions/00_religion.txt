@@ -37,6 +37,8 @@ tlaulunorism = {
 			advisor_pool = 1
 		}
 		
+		personal_deity = yes
+		
 		
 		
 		on_convert = {
@@ -382,6 +384,15 @@ tlaulunorism = {
 				}
 			}
 		}
+		
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		
+		aspects = {
+			dissolve_monasteries_aspect
+			monopoly_aspect
+			stability_aspect
+		}
+		aspects_name = ANGLICAN_ASPECTS
 
 		on_convert = {
 			change_religion = cult_progress

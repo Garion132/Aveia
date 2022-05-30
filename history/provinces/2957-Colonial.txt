@@ -2,7 +2,7 @@
 latent_trade_goods = {
 	iron
 }
-culture = kaletian
+culture = aragate
 religion = shamanism
 capital = "Accra"
 trade_goods = unknown

@@ -350,11 +350,29 @@ age_of_rosen_dawn = {
 	start = 1638
 	
 	can_start = {
-		is_institution_enabled = air_shipping
+		OR={
+			custom_trigger_tooltip = {
+				tooltip = rosen_dawn_tooltip
+				has_global_flag = ROSEN_DAWN
+			}
+			is_institution_enabled = air_shipping
+		}
 	}
 	
 	
 	religious_conflicts = yes
+	absolutism = {
+		harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+		
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+	}
 	papacy = 1.25
 	
 	objectives = {
@@ -404,6 +422,18 @@ age_of_strife = {
 	
 	
 	religious_conflicts = yes
+	absolutism = {
+		harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+		
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+	}
 	papacy = 1.25
 	
 	objectives = {
@@ -489,6 +519,18 @@ age_of_progress = {
 	
 	
 	religious_conflicts = yes
+	absolutism = {
+		harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+		
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+	}
 	papacy = 1.25
 	
 	objectives = {

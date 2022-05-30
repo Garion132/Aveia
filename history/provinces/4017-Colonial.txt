@@ -1,4 +1,7 @@
 #carenil
+latent_trade_goods = {
+	iron
+}
 capital = "Accra"
 trade_goods = unknown
 hre = no

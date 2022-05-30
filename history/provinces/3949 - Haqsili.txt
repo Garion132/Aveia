@@ -1,4 +1,7 @@
 #haqsili
+latent_trade_goods = {
+	iron
+}
 capital = "Haqsili"
 trade_goods = livestock
 culture = yorrokian

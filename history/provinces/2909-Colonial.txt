@@ -1,4 +1,7 @@
 #Agaruz
+latent_trade_goods = {
+	iron
+}
 culture = bulkirate
 religion = shamanism
 capital = "Accra"

@@ -21,7 +21,7 @@ country_event = {
 				RELIGION = essarania
 			}
 		}
-		is_year = 1660
+		is_year = 1670
 	}
 	
 	mean_time_to_happen = {

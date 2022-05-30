@@ -2093,16 +2093,19 @@ icorine = {
 chiming_tree = {
 	color = { 0.86 0.69 0.89 }
 	modifier = {
-		defensiveness = 0.1
+		tolerance_own = 0.5
 	}
 	province = {
-		local_development_cost = -0.1
+		trade_value_modifier = 0.1
 	}
 	chance = {
-		factor = 0
+		factor = 15
 		modifier = {
 			factor = 0
-			
+			OR={
+				NOT={region = earh_region}
+				NOT={region = borestia_region}
+			}
 		}
 	}
 }
@@ -2168,14 +2171,14 @@ theiss = {
 erysim = {
 	color = { 0.79 0.38 0.50 }
 	modifier = {
-		land_forcelimit_modifier = 0.20
+		trade_efficiency = 0.05
 	}
 	province = {
-		land_forcelimit = 0.5
+		province_trade_power_modifier = 0.2
 	}
 
 	chance = {
-		factor = 8
+		factor = 18
 		modifier = {
 			factor = 0
 			OR={
@@ -2194,10 +2197,10 @@ erysim = {
 atyle_sap = {
 	color = { 0.92 0.95 0.30 }
 	modifier = {
-		land_forcelimit_modifier = 0.20
+		trade_efficiency = 0.05
 	}
 	province = {
-		land_forcelimit = 0.5
+		province_trade_power_modifier = 0.2
 	}
 
 	chance = {
@@ -2254,7 +2257,13 @@ kurrak = {
 	}
 
 	chance = {
-		factor = 0
+		factor = 15
+		modifier = {
+			factor = 0
+			OR={
+				NOT={region = rogosian_heights_region}
+			}
+		}
 		modifier = {
 			factor = 0
 			OR={
