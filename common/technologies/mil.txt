@@ -49,7 +49,6 @@ technology = {
 	enable = heavy_infantry #All
 	enable = spider_late_bronze_age_infantry #Spiders
 	enable = elven_bowmen #Elves
-	enable = shireate_rangers#fauns
 }
 
 technology = {
@@ -71,6 +70,7 @@ technology = {
 	enable = ork_ziyalap_phalanx
 	enable = squirrel_petriwood_spearscur
 	enable = squirrel_peltist
+	enable = shireate_rangers#fauns
 }
 
 technology = {
@@ -167,6 +167,7 @@ technology = {
 
 	enable = orbury_bowmen #Humans
 	enable = valley_warriors
+	enable = horned_bowfauns#fauns
 }
 
 technology = {
@@ -258,6 +259,7 @@ technology = {
 	enable = greatest_warriors #Tribal Human
 	enable = squirrel_ironwood_hoplite
 	enable = squirrel_longbowscur
+	enable = cloven_skirmishers#fauns
 }
 
 technology = {

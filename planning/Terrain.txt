@@ -343,12 +343,8 @@ categories =  {
 	}	
 }
 
-great_bridge
 vitaite_hills
 redmarsh
-deepwood_cities
-deepwoods
-glassy_plains
 
 	
 ##################################################################
