@@ -908,9 +908,26 @@
  
  PROV5126:0 "Solingar"
  
+ PROV5136:0 "Acorninka"
+ 
  PROV5138:0 "Hadna"
+ PROV5139:0 "Atylasame"
+ 
+ PROV5141:0 "Penshaw"
+ 
+ PROV5144:0 "Oregla"
+ PROV5145:0 "Mido"
+ 
+ PROV5147:0 "Hutimaite"
+ PROV5148:0 "Kilead"
+ PROV5149:0 "Squall's End"
  
  PROV5163:0 "Curizo"
+ PROV5164:0 "Wallowdale"
+ 
+ PROV5166:0 "Holmfirth"
+ PROV5167:0 "Dancaron"
+ PROV5168:0 "Holbeck"
 
  
  test_province_name:0 "Test Province Name"
