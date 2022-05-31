@@ -128,6 +128,7 @@ categories =  {
 
 			#Thilrana
 			2233 2263 2267 2276 2300
+			4934
 		}
 	}
 
@@ -436,6 +437,10 @@ categories =  {
 		local_development_cost = 0.35
 		nation_designer_cost_multiplier = 1
 		supply_limit = 4
+		
+		terrain_override = { 
+			3460 3461 3463 3462 3464 3453 3452 3449 3603 3604 3605 3608 3606
+		}
 	}
 	redmarsh = {
 		color = { 200 40 60 }
@@ -448,6 +453,10 @@ categories =  {
 		local_development_cost = 0.3
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
+		
+		terrain_override = { 
+			4736 4738 4902 4739 4931 4905 4932 4907 4935 4910 4937 4911 4938 4915 4919 4912 4914
+		}
 	}
 	great_bridge = {
 		color = { 200 200 200 }
@@ -482,6 +491,7 @@ categories =  {
 		terrain_override = { 
 			#Vuantrein Pass
 			2686
+			4256 4061 4705
 		}
 	}
 }

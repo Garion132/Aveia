@@ -2259,6 +2259,10 @@ kurrak = {
 	chance = {
 		factor = 15
 		modifier = {
+			factor = 5
+			has_terrain = redmarsh
+		}
+		modifier = {
 			factor = 0
 			OR={
 				NOT={region = rogosian_heights_region}
