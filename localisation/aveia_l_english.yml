@@ -422,6 +422,19 @@
  open_colonial_office_title:0 "Open Colonial Office"
  open_colonial_office_desc:0 ""
 
+ acquire_control_northern_gate_title:0 "Acquire Control of the Northern Gate"
+ acquire_control_northern_gate_desc:0 "There is a specific route northbound out of Scuria that is open enough for armies to march and fight through. Therefore, the security of Scuria relies upon control of this effective gate."
+ secure_hadna_surroundings_title:0 "Secure Hadna's Surroundings"
+ secure_hadna_surroundings_desc:0 "The city of Hadna, the oldest and most prosperous city in Scuria, has always been on the edge of civilization. Extending our borders beyond the various villages on the edge of Hadna would increase its security."
+ secure_western_extremity_title:0 "Secure the Western Extremity"
+ secure_western_extremity_desc:0 "The West, outside of Hadna, has always been a wild place. To tame an area would better the security of our state and offer better control of outsiders entering the Talior Pass."
+ consolidate_hadna_curizo_route_title:0 "Consolidate the Hadna-Curizo Route"
+ consolidate_hadna_curizo_route_desc:0 "Hadna and Curizo are the largest cities in Scuria. The trade route between these two cities are constantly under attack by bandits who take advantage of the lack of control southwards of the route. Thus extending our control over this area should give us disproportionate control over Hadna-Curizo trade."
+ secure_southern_route_title:0 "Secure the Southbound Trade Route"
+ secure_southern_route_desc:0 "The southern Scurians, while living in undeveloped land, do indeed trade with us. Ensuring the security of this route, while expanding our territory, would provide us with definitive benefits."
+ assert_claim_over_talior_pass_title:0 "Assert our Claim over the Talior Pass"
+ assert_claim_over_talior_pass_desc:0 "With control over the western Deepwoods, the Talior Pass is a natural extension of our territory."
+
  aragos_nation_title:0 "Form Aragos"
  aragos_nation_desc:0 "The spiders have been united!"
 

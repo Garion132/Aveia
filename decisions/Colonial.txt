@@ -157,4 +157,279 @@ country_decisions = {
             }
 		}
 	}
+
+	#Scurians
+	acquire_control_northern_gate = {
+		potential = {
+			5140 = {
+				is_empty = yes
+				any_neighbor_province = {
+					owned_by = ROOT
+					is_city = yes
+				}
+			}
+			OR = {
+				primary_culture = hadnan
+				primary_culture = glaumyn
+				primary_culture = midoan
+				primary_culture = curizoan
+				primary_culture = dican
+				primary_culture = petaur
+				primary_culture = me_qar
+				primary_culture = tidecan
+				primary_culture = tamhudian
+				primary_culture = niscin
+				primary_culture = gerysan
+				primary_culture = phetonese
+				primary_culture = aberisian
+			}
+		}
+		allow = {
+			adm_power = 50
+			treasury = 200
+		}
+		effect = {
+			add_adm_power = -50
+			add_treasury = -200
+            5140 = {
+				add_siberian_construction = 100
+			}
+		}
+		ai_will_do = {
+			factor = 10
+            modifier = {
+                factor = 0
+                NOT = { num_of_cities = 15 }
+            }
+		}
+	}
+	secure_hadna_surroundings = {
+		potential = {
+			5137 = {
+				is_empty = yes
+				any_neighbor_province = {
+					owned_by = ROOT
+					is_city = yes
+				}
+			}
+			OR = {
+				primary_culture = hadnan
+				primary_culture = glaumyn
+				primary_culture = midoan
+				primary_culture = curizoan
+				primary_culture = dican
+				primary_culture = petaur
+				primary_culture = me_qar
+				primary_culture = tidecan
+				primary_culture = tamhudian
+				primary_culture = niscin
+				primary_culture = gerysan
+				primary_culture = phetonese
+				primary_culture = aberisian
+			}
+		}
+		allow = {
+			adm_power = 50
+			treasury = 200
+		}
+		effect = {
+			add_adm_power = -50
+			add_treasury = -200
+            5137 = {
+				add_siberian_construction = 100
+			}
+		}
+		ai_will_do = {
+			factor = 4
+            modifier = {
+                factor = 0
+                NOT = { num_of_cities = 15 }
+                NOT = { tag = OND }
+            }
+		}
+	}
+	secure_western_extremity = {
+		potential = {
+			5135 = {
+				is_empty = yes
+				any_neighbor_province = {
+					owned_by = ROOT
+					is_city = yes
+				}
+			}
+			OR = {
+				primary_culture = hadnan
+				primary_culture = glaumyn
+				primary_culture = midoan
+				primary_culture = curizoan
+				primary_culture = dican
+				primary_culture = petaur
+				primary_culture = me_qar
+				primary_culture = tidecan
+				primary_culture = tamhudian
+				primary_culture = niscin
+				primary_culture = gerysan
+				primary_culture = phetonese
+				primary_culture = aberisian
+			}
+		}
+		allow = {
+			adm_power = 50
+			treasury = 200
+		}
+		effect = {
+			add_adm_power = -50
+			add_treasury = -200
+            5135 = {
+				add_siberian_construction = 100
+			}
+		}
+		ai_will_do = {
+			factor = 3
+            modifier = {
+                factor = 0
+                NOT = { num_of_cities = 15 }
+                NOT = { tag = OND }
+            }
+		}
+	}
+	consolidate_hadna_curizo_route = {
+		potential = {
+			5146 = {
+				is_empty = yes
+				any_neighbor_province = {
+					owned_by = ROOT
+					is_city = yes
+				}
+			}
+			OR = {
+				primary_culture = hadnan
+				primary_culture = glaumyn
+				primary_culture = midoan
+				primary_culture = curizoan
+				primary_culture = dican
+				primary_culture = petaur
+				primary_culture = me_qar
+				primary_culture = tidecan
+				primary_culture = tamhudian
+				primary_culture = niscin
+				primary_culture = gerysan
+				primary_culture = phetonese
+				primary_culture = aberisian
+			}
+		}
+		allow = {
+			adm_power = 50
+			treasury = 200
+		}
+		effect = {
+			add_adm_power = -50
+			add_treasury = -200
+            5146 = {
+				add_siberian_construction = 100
+			}
+		}
+		ai_will_do = {
+			factor = 6
+            modifier = {
+                factor = 0
+                NOT = { num_of_cities = 15 }
+                NOT = { tag = CUR }
+            }
+		}
+	}
+	secure_southern_route = {
+		potential = {
+			5150 = {
+				is_empty = yes
+				any_neighbor_province = {
+					owned_by = ROOT
+					is_city = yes
+				}
+			}
+			OR = {
+				primary_culture = hadnan
+				primary_culture = glaumyn
+				primary_culture = midoan
+				primary_culture = curizoan
+				primary_culture = dican
+				primary_culture = petaur
+				primary_culture = me_qar
+				primary_culture = tidecan
+				primary_culture = tamhudian
+				primary_culture = niscin
+				primary_culture = gerysan
+				primary_culture = phetonese
+				primary_culture = aberisian
+			}
+		}
+		allow = {
+			adm_power = 50
+			treasury = 200
+		}
+		effect = {
+			add_adm_power = -50
+			add_treasury = -200
+            5150 = {
+				add_siberian_construction = 100
+			}
+		}
+		ai_will_do = {
+			factor = 5
+            modifier = {
+                factor = 0
+                NOT = { num_of_cities = 15 }
+                NOT = { tag = OND }
+            }
+		}
+	}
+	assert_claim_over_talior_pass = {
+		potential = {
+			3769 = {
+				is_empty = yes
+			}
+			5137 = {
+				owned_by = ROOT
+				is_city = yes
+			}
+			5135 = {
+				owned_by = ROOT
+				is_city = yes
+			}
+			OR = {
+				primary_culture = hadnan
+				primary_culture = glaumyn
+				primary_culture = midoan
+				primary_culture = curizoan
+				primary_culture = dican
+				primary_culture = petaur
+				primary_culture = me_qar
+				primary_culture = tidecan
+				primary_culture = tamhudian
+				primary_culture = niscin
+				primary_culture = gerysan
+				primary_culture = phetonese
+				primary_culture = aberisian
+			}
+		}
+		allow = {
+			adm_power = 50
+			treasury = 200
+		}
+		effect = {
+			add_adm_power = -50
+			add_treasury = -200
+            3769 = {
+				add_siberian_construction = 100
+			}
+		}
+		ai_will_do = {
+			factor = 5
+            modifier = {
+                factor = 0
+                NOT = { num_of_cities = 15 }
+                NOT = { tag = OND }
+            }
+		}
+	}
 }
