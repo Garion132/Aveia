@@ -8,6 +8,14 @@
  colonial_bookmark:0 "Mists of Elteria"
  colonial_bookmark_desc:0 "Vanadium plz do description."
 
+ deepwoods:0 "Deepwoods"
+ deepwoods_city:0 "Deepwoods City"
+ glassy_plains:0 "Glassy Plains"
+ vitaite_hills:0 "Vitaite Hills"
+ redmarsh:0 "Redmarsh"
+ great_bridge:0 "Great Bridge"
+ great_mountain_pass:0 "Great Mountain Pass"
+
  economist:0 "Economist"
  economist_desc:0 "An advisor who analyzes, models, and predicts economic realities."
  politician:0 "Politician."

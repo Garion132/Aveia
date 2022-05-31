@@ -366,6 +366,124 @@ categories =  {
 			799 806 808 809 810 811 812 813 844 846 848 849 858
 		}	
 	}	
+
+	deepwoods = {
+		color = { 68 103 10 }
+
+		type = jungle
+		sound_type = jungle
+		
+		movement_cost = 1.25
+		defence = 2
+		supply_limit = 2
+		local_development_cost = 0.4
+		nation_designer_cost_multiplier = 0.8
+		local_colonial_growth = -15
+
+		
+		terrain_override = { 
+			#Scuria
+			3768 3769 3770 3728 3788 3821 3820 3819 3714
+			5135 5136 5137 5139 5140 5141 5142 5143 5144 5145 5146
+			5147 5148 5149 5150 5151 5152 5154 5155 5156
+			5157 5158 5160 5161 5162 5164 5165 5166 5167 5168
+			5169 5170 5171 5172 5173 5174 5175 5176 5177 5178 5179
+			5180
+		}                                      
+	}
+	deepwoods_city = {
+		color = { 38 63 4 }
+
+		type = jungle
+		sound_type = jungle
+		
+		movement_cost = 1
+		defence = 3
+		supply_limit = 2
+		nation_designer_cost_multiplier = 0.8
+		
+		terrain_override = { 
+			#Scuria
+			5138 5163 5153 5159
+		}
+	}
+
+	glassy_plains = {
+		color = { 0 153 115 }
+
+		type = plains
+		sound_type = plains
+
+		movement_cost = 1.00
+		local_production_efficiency = 0.05
+		local_development_cost = 0.8
+		nation_designer_cost_multiplier = 1.1
+		supply_limit = 4
+		
+		terrain_override = { 
+			4743 4744 3923 4756
+		}
+	}
+	vitaite_hills = {
+		color = { 176 60 200 }
+
+		type = hills
+		sound_type = mountains
+
+		movement_cost = 1.5
+		defence = 2
+		local_defensiveness = 0.2
+		local_development_cost = 0.35
+		nation_designer_cost_multiplier = 1
+		supply_limit = 4
+	}
+	redmarsh = {
+		color = { 200 40 60 }
+
+		type = marsh
+		sound_type = forest
+
+		movement_cost = 1.3
+		defence = 1
+		local_development_cost = 0.3
+		nation_designer_cost_multiplier = 0.85
+		supply_limit = 5
+	}
+	great_bridge = {
+		color = { 200 200 200 }
+
+		type = marsh
+		sound_type = plains
+		
+		movement_cost = 1
+		defence = 2
+		supply_limit = 12
+		local_development_cost = -0.2
+		nation_designer_cost_multiplier = 1.5
+		
+		terrain_override = { 
+			#Yhenil
+			988
+		}
+	}
+	great_mountain_pass = {
+		color = { 0 0 0 }
+
+		type = mountains
+		sound_type = mountains
+		
+		movement_cost = 1.5
+		defence = 3
+		supply_limit = 4
+		local_defensiveness = 0.5
+		local_development_cost = 0.5
+		nation_designer_cost_multiplier = 1.5
+
+		terrain_override = { 
+			#Vuantrein Pass
+			2686
+		}
+	}
 }
 	
 ##################################################################
