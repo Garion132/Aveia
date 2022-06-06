@@ -440,6 +440,8 @@
  secure_southern_route_desc:0 "The southern Scurians, while living in undeveloped land, do indeed trade with us. Ensuring the security of this route, while expanding our territory, would provide us with definitive benefits."
  assert_claim_over_talior_pass_title:0 "Assert our Claim over the Talior Pass"
  assert_claim_over_talior_pass_desc:0 "With control over the western Deepwoods, the Talior Pass is a natural extension of our territory."
+ extend_to_scurian_boundaries_title:0 "Extend to Scuria's Natural Boundaries"
+ extend_to_scurian_boundaries_desc:0 "With Scuria consolidated under our rule, we should extend our state's boundaries to include all the Deepwoods within Scuria."
 
  aragos_nation_title:0 "Form Aragos"
  aragos_nation_desc:0 "The spiders have been united!"

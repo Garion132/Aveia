@@ -188,6 +188,9 @@ country_decisions = {
 			adm_power = 50
 			treasury = 200
 		}
+		provinces_to_highlight = {
+			province_id = 5140
+		}
 		effect = {
 			add_adm_power = -50
 			add_treasury = -200
@@ -231,6 +234,9 @@ country_decisions = {
 		allow = {
 			adm_power = 50
 			treasury = 200
+		}
+		provinces_to_highlight = {
+			province_id = 5137
 		}
 		effect = {
 			add_adm_power = -50
@@ -277,6 +283,9 @@ country_decisions = {
 			adm_power = 50
 			treasury = 200
 		}
+		provinces_to_highlight = {
+			province_id = 5135
+		}
 		effect = {
 			add_adm_power = -50
 			add_treasury = -200
@@ -322,6 +331,9 @@ country_decisions = {
 			adm_power = 50
 			treasury = 200
 		}
+		provinces_to_highlight = {
+			province_id = 5146
+		}
 		effect = {
 			add_adm_power = -50
 			add_treasury = -200
@@ -366,6 +378,9 @@ country_decisions = {
 		allow = {
 			adm_power = 50
 			treasury = 200
+		}
+		provinces_to_highlight = {
+			province_id = 5150
 		}
 		effect = {
 			add_adm_power = -50
@@ -416,6 +431,9 @@ country_decisions = {
 			adm_power = 50
 			treasury = 200
 		}
+		provinces_to_highlight = {
+			province_id = 3769
+		}
 		effect = {
 			add_adm_power = -50
 			add_treasury = -200
@@ -429,6 +447,69 @@ country_decisions = {
                 factor = 0
                 NOT = { num_of_cities = 15 }
                 NOT = { tag = OND }
+            }
+		}
+	}
+	extend_to_scurian_boundaries = {
+		potential = {
+			OR = {
+				tag = SCU
+				tag = HAD
+				tag = UTS
+			}
+			any_province = {
+				region = scuria_region
+				OR = {
+					has_terrain = deepwoods
+					has_terrain = deepwoods_city
+				}
+				is_empty = yes
+				any_neighbor_province = {
+					owned_by = ROOT
+					is_city = yes
+				}
+			}
+		}
+		allow = {
+			adm_power = 50
+			treasury = 200
+		}
+		provinces_to_highlight = {
+			region = scuria_region
+			OR = {
+				has_terrain = deepwoods
+				has_terrain = deepwoods_city
+			}
+			is_empty = yes
+			any_neighbor_province = {
+				owned_by = ROOT
+				is_city = yes
+			}
+		}
+		effect = {
+			add_adm_power = -50
+			add_treasury = -200
+            random_province = {
+				limit = {
+					region = scuria_region
+					OR = {
+						has_terrain = deepwoods
+						has_terrain = deepwoods_city
+					}
+					is_empty = yes
+					any_neighbor_province = {
+						owned_by = ROOT
+						is_city = yes
+					}
+				}
+				add_siberian_construction = 100
+			}
+		}
+		ai_will_do = {
+			factor = 5
+            modifier = {
+                factor = 0
+                NOT = { num_of_cities = 15 }
             }
 		}
 	}
