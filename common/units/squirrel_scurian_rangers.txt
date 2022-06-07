@@ -2,7 +2,7 @@ type = infantry
 unit_type = scurian_group
 
 maneuver = 3
-offensive_morale = 5
+offensive_morale = 6
 defensive_morale = 0
 offensive_fire = 9
 defensive_fire = 5
