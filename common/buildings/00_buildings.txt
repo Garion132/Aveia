@@ -1273,8 +1273,8 @@ gravel_roads = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_friendly_movement_speed = 0.33
-		local_hostile_movement_speed = 0.33
+		local_friendly_movement_speed = 0.15
+		local_hostile_movement_speed = 0.15
 		local_institution_spread = 0.15
 		supply_limit = 0.25
 		province_trade_power_value = 0.1
@@ -1284,7 +1284,7 @@ gravel_roads = {
 	}
 
 	ai_will_do = {
-		factor = 50
+		factor = 25
 	}
 }
 paved_roads = {
@@ -1294,8 +1294,8 @@ paved_roads = {
 	cost = 250
 	time = 24
 	modifier = {
-		local_friendly_movement_speed = 0.66
-		local_hostile_movement_speed = 0.66
+		local_friendly_movement_speed = 0.30
+		local_hostile_movement_speed = 0.30
 		local_institution_spread = 0.25
 		supply_limit = 0.5
 		province_trade_power_value = 0.2
@@ -1305,7 +1305,7 @@ paved_roads = {
 	}
 
 	ai_will_do = {
-		factor = 150
+		factor = 75
 	}
 }
 highways = {
@@ -1315,8 +1315,8 @@ highways = {
 	cost = 500
 	time = 48
 	modifier = {
-		local_friendly_movement_speed = 1
-		local_hostile_movement_speed = 1
+		local_friendly_movement_speed = 0.5
+		local_hostile_movement_speed = 0.5
 		local_institution_spread = 0.33
 		supply_limit = 1
 		province_trade_power_value = 0.5
@@ -1326,7 +1326,7 @@ highways = {
 	}
 
 	ai_will_do = {
-		factor = 400
+		factor = 200
 	}
 }
 
@@ -1346,7 +1346,7 @@ canals = {
 		}
 	}
 	modifier = {
-		supply_limit = 2
+		supply_limit = 0.25
 		local_development_cost = -0.1
 		allowed_num_of_buildings = 2
 	}
@@ -1363,7 +1363,8 @@ railroads = {
 	make_obsolete = canals
 
 	modifier = {
-		local_friendly_movement_speed = 0.5
+		local_friendly_movement_speed = 0.3
+		local_hostile_movement_speed = 0.1
 		local_institution_spread = 0.15
 		supply_limit = 0.5
 		province_trade_power_value = 0.5
@@ -1384,8 +1385,8 @@ railroad_network = {
 	make_obsolete = railroads
 
 	modifier = {
-		local_friendly_movement_speed = 1
-		local_hostile_movement_speed = 0.5
+		local_friendly_movement_speed = 0.5
+		local_hostile_movement_speed = 0.25
 		local_institution_spread = 0.3
 		supply_limit = 1
 		province_trade_power_value = 1
