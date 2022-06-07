@@ -74,6 +74,7 @@ technology = {
 	enable = squirrel_petriwood_spearscur
 	enable = squirrel_peltist
 	enable = shireate_rangers#fauns
+	enable = kolbold_legion #kolbolds
 }
 
 technology = {
@@ -123,6 +124,7 @@ technology = {
 	enable = cyeugite_heroes
 	enable = squirrel_ironwood_spearscur
 	enable = squirrel_shortbowscur
+	enable = kolbold_mattos_archers
 }
 
 technology = {
@@ -140,6 +142,7 @@ technology = {
 
 	enable = ork_verditap_infantry #Orks
 	enable = ork_desert_rangers
+	enable = kolbold_vulkiv_legionarires
 }
 
 technology = {
@@ -190,6 +193,7 @@ technology = {
 	enable = ork_late_verditap_infantry #Orks
 	enable = squirrel_ironwood_pikescur
 	enable = squirrel_recurve_bowscur
+	enable = kolbold_footkolbold
 }
 
 technology = {
@@ -266,6 +270,7 @@ technology = {
 	enable = squirrel_ironwood_hoplite
 	enable = squirrel_longbowscur
 	enable = cloven_skirmishers#fauns
+	enable = lorded_infantry
 }
 
 technology = {
@@ -877,7 +882,7 @@ technology = {
 	enable = ork_yellowback_infantry
 	enable = human_blueback_infantry
 	enable = elven_redback_infantry
-	#enable = dwarven_whiteback_infantry
+	enable = dwarven_whiteback_infantry
 	enable = faun_twinhorn_infantry
 
 	enable = squirrel_steelwood_riflescur

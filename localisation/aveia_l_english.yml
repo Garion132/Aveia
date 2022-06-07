@@ -83,7 +83,11 @@
  ork_stratka_infantry:0 "Stratka Infantry"
  ork_yellowback_infantry:0 "Yellowback Infantry"
  ork_reformed_shock_infantry:0 "Reformed Shock Infantry"
-
+ 
+ 
+ ##dorfs
+ dwarven_whiteback_infantry:0 "Whiteback Infantry"
+ dwarven_whiteback_infantryDESCR:0 "Todo"
 
  #Human Tribal
  human_warriors:0 "Human Warriors"
@@ -146,6 +150,16 @@
  faun_vandue_chargersDESCR:0 "Todo"
  faun_vulaebows:0 "Vulaebows"
  faun_vulaebowsDESCR:0 "Todo"
+
+ #kolbolds and rakes
+ kolbold_legion:0 "Kolbold Legion"
+ kolbold_legionDESCR:0 "Todo"
+ kolbold_vulkiv_legionarires:0 "Vulkiv Legionarires"
+ kolbold_vulkiv_legionariresDESCR:0 "Todo"
+ kolbold_footkolbold:0 "Foot-kolbold"
+ kolbold_footkolboldDESCR:0 "Todo"
+ lorded_infantry:0 "Lorded Infantry"
+ lorded_infantryDESCR:0 "Todo"
 
  #Squirrels
  squirrel_sharpened_sticks:0 "Sharpened Sticks"
