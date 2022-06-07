@@ -14,8 +14,11 @@ technology = {
 
 	infantry_fire		= 	0.3
 	infantry_shock 		= 	0.35
+	cavalry_fire	 	= 	0.5
+	cavalry_shock 		= 	1.0
 	land_morale 		= 	2.0
 
+	#Dragon Cav
 	enable = warrior_infantry #All
 	enable = squirrel_sharpened_sticks
 }
@@ -202,7 +205,10 @@ technology = {
 	#Metallurgy
 	mine = yes
 	infantry_shock		= 	0.2
+	cavalry_fire	 	= 	0.25
+	cavalry_shock 		= 	0.5
 	
+	#Upgraded Dragon Cav
 	enable = shemseler_pikemen #Elves
 	enable = kyathian_old_guard
 	enable = strongbowmen
@@ -393,9 +399,12 @@ technology = {
 	#Steel Working
 	military_tactics 	= 	0.1
 	infantry_shock 		=	0.2
+	cavalry_fire	 	= 	0.25
+	cavalry_shock 		= 	0.5
 
 	mining_complex = yes
 
+	#Upgraded Dragon Cav
 	enable = late_medieval_infantry #Humans
 }
 
@@ -661,8 +670,8 @@ technology = {
 	}
 	
 	#Airships
-	cavalry_fire = 2.0
-	cavalry_shock = 10.0
+	cavalry_fire = 1.0
+	cavalry_shock = 8.0
 	enable = sailing_airship
 
 	airdock = yes
