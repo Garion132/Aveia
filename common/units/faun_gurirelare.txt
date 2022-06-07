@@ -1,0 +1,11 @@
+# Shireate Vandue Chargers
+type = infantry
+unit_type = free_fauns_group
+
+maneuver = 3
+offensive_morale = 4
+defensive_morale = 5
+offensive_fire = 5
+defensive_fire = 5
+offensive_shock = 2
+defensive_shock = 3

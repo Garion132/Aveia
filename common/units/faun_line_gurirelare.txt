@@ -1,0 +1,11 @@
+# Shireate Line Gurirelare
+type = infantry
+unit_type = free_fauns_group
+
+maneuver = 3
+offensive_morale = 7
+defensive_morale = 7
+offensive_fire = 7
+defensive_fire = 7
+offensive_shock = 3
+defensive_shock = 3

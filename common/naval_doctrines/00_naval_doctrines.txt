@@ -49,3 +49,17 @@ ship_boarding =
 	
 	button_gfx = 4
 }
+
+wooden_wall =
+{
+	can_select = {
+		is_primitive = no
+		culture_group = sea_elf
+	}
+
+	country_modifier = {
+		own_coast_naval_combat_bonus = 1.0
+	}
+
+	button_gfx = 5
+}

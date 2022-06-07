@@ -11,5 +11,10 @@ offensive_shock = 0
 defensive_shock = 1
 
 trigger = {
-    NOT = { technology_group = scurian_group }
+    NOT = { 
+		OR={
+			technology_group = scurian_group 
+			technology_group = great_spiders_group 
+		}
+	}
 }

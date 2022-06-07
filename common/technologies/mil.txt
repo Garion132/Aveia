@@ -360,6 +360,7 @@ technology = {
 	infantry_fire = 0.2
 
 	enable = crossbowmen #Elves
+	enable = faun_vulaebows
 }
 
 technology = {
@@ -427,6 +428,7 @@ technology = {
 	
 	enable = arquebusiers #Elves
 	enable = squirrel_ironwood_arquebow
+	enable = faun_forest_ambusiers
 }
 
 technology = {
@@ -490,6 +492,8 @@ technology = {
 	#Military Organization
 	supply_limit = 0.25
 	combat_width = 4
+	
+	enable = spider_organised_infantry
 }
 
 technology = {
@@ -516,6 +520,7 @@ technology = {
 	enable = mixed_ranged_infantry #Elves
 	enable = squirrel_guedinalock_hatchets
 	enable = squirrel_ironwood_pike_and_dart
+	enable = faun_guedian_ambusiers
 }
 
 technology = {
@@ -625,6 +630,9 @@ technology = {
 	
 	#Plug Bayonets
 	infantry_shock = 0.4
+	
+	enable = spider_vilexu_infantry
+	enable = faun_vandue_chargers
 }
 
 technology = {
@@ -756,6 +764,7 @@ technology = {
 	enable = ork_stratka_infantry
 	enable = human_storm_infantry
 	enable = elven_rifle_infantry
+	enable = spider_armored_vilexu_infantry
 
 	enable = flying_battery
 }
@@ -785,6 +794,7 @@ technology = {
 
 	enable = squirrel_ironwood_riflescur
 	enable = squirrel_gliding_scurians
+	enable = faun_gurirelare
 }
 
 technology = {
@@ -868,6 +878,7 @@ technology = {
 	enable = human_blueback_infantry
 	enable = elven_redback_infantry
 	#enable = dwarven_whiteback_infantry
+	enable = faun_twinhorn_infantry
 
 	enable = squirrel_steelwood_riflescur
 	enable = squirrel_scurian_rangers
@@ -920,6 +931,7 @@ technology = {
 
 	airship_terminal = yes
 	enable = dreadnought
+	enable = spider_yulxue
 }
 
 technology = {
@@ -976,6 +988,7 @@ technology = {
 	enable = elven_lile_sharpshooters
 	enable = squirrel_lile_riflescur
 	enable = squirrel_samatroopers
+	enable = faun_line_gurirelare
 }
 
 technology = {
