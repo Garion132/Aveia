@@ -764,6 +764,7 @@ bronze_monarchy = {
 				dragonic_throne_reform
 				kyathian_council_reform
 				rauosuan_hegemony_reform
+				oayvein_grand_dutchy_reform
 			}
 		}
 		temple_rights = {
@@ -803,6 +804,7 @@ bronze_monarchy = {
 		dragonic_throne
 		kyathian_council
 		rauosuan_hegemony
+		oayvein_grand_dutchy_legacy
 	}
 
 	# Each group of exclusive reforms are mutually exclusive to each other
@@ -812,9 +814,60 @@ bronze_monarchy = {
 		kyathian_council_reform
 		dragonic_throne_reform
 		rauosuan_hegemony_reform
+		oayvein_grand_dutchy_reform
 	}
 
 	color = { 130 26 84 }
+}
+bronze_league = {
+	reform_levels = {
+		feudalism_vs_autocracy = {
+			reforms = {
+				league_of_cities_reform
+			}
+		}
+		city_rights = {
+			reforms = {
+				
+			}
+		}
+		rights_to_forge = {
+			reforms = {
+				holy_smiths_reform
+				military_forging_reform
+				aristocratic_smiths_reform
+				right_to_forge_reform
+				
+			}
+		}
+		trade_practices = {
+			reforms = {
+				ba_caravaneers_reform
+				ba_central_markets_reform
+				ba_free_trade_reform
+			}
+		}
+		office_selection = {
+			reforms = {
+				
+			}
+		}
+	}
+
+	basic_reform = bronze_league_mechanic
+
+	legacy_government = {
+		league_of_cities
+	}
+
+	# Each group of exclusive reforms are mutually exclusive to each other
+
+	#for any reforms that should be exclusive
+	# exclusive_reforms = {
+		
+	# }
+
+	color = { 48 113 160 }
 }
 
 eximiu_colony = {

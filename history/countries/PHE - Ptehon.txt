@@ -1,5 +1,5 @@
-government = native
-add_government_reform = native_chiefdom_reform
+government = tribal
+add_government_reform = tribal_federation
 primary_culture = phetonese
 religion = shamanism
 government_rank = 1

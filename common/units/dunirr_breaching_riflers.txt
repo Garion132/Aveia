@@ -1,0 +1,12 @@
+# Breaching-Riflers
+
+type = infantry
+unit_type = dunirr_group
+
+maneuver = 1
+offensive_morale = 5
+defensive_morale = 6
+offensive_fire = 6
+defensive_fire = 6
+offensive_shock = 2
+defensive_shock = 3

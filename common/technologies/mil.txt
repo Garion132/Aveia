@@ -18,7 +18,7 @@ technology = {
 	cavalry_shock 		= 	1.0
 	land_morale 		= 	2.0
 
-	#Dragon Cav
+	enable = rake_flyers #Dragon Cav
 	enable = warrior_infantry #All
 	enable = squirrel_sharpened_sticks
 }
@@ -69,6 +69,7 @@ technology = {
 	combat_width = 3
 
 	enable = elven_phalanx #Elves
+	enable = dunirr_phalanx #Elves
 	enable = ork_gulban_phalanx
 	enable = ork_ziyalap_phalanx
 	enable = squirrel_petriwood_spearscur
@@ -143,6 +144,7 @@ technology = {
 	enable = ork_verditap_infantry #Orks
 	enable = ork_desert_rangers
 	enable = kolbold_vulkiv_legionarires
+	enable = dunirr_deep_rank_phalanx
 }
 
 technology = {
@@ -217,6 +219,7 @@ technology = {
 	enable = kyathian_old_guard
 	enable = strongbowmen
 	enable = nelsedar_guard
+	enable = dunirr_great_spear_phalanx
 }
 	
 technology = {
@@ -271,6 +274,7 @@ technology = {
 	enable = squirrel_longbowscur
 	enable = cloven_skirmishers#fauns
 	enable = lorded_infantry
+	enable = dunirr_strongholders
 }
 
 technology = {
@@ -290,6 +294,7 @@ technology = {
 	
 	enable = ork_triple_line_pikes #Orks
 	enable = ork_expedetiors
+	enable = kolbold_indigo_banners
 }
 
 technology = {
@@ -307,6 +312,7 @@ technology = {
 	infantry_shock = 0.15
 
 	enable = elven_pikemen #Elves
+	enable = dunirr_piked_strongholders
 
 	enable = spider_armored_pikers #Spiders
 }
@@ -327,6 +333,8 @@ technology = {
 
 	regimental_camp = yes
 	ramparts = yes
+	
+	enable = kolbolds_at_arms
 }
 
 technology = {
@@ -346,6 +354,8 @@ technology = {
 	
 	enable = halberd_infantry #(From now on, settled) Humans
 	enable = squirrel_ironwood_halberdiers
+	enable = kolbold_indigo_archers
+	enable = kolbold_sleeting_skirmishers
 }
 
 technology = {
@@ -388,6 +398,7 @@ technology = {
 	enable = spider_transitory_infantry #Spiders
 	enable = ork_western_pike_infantry #Orks
 	enable = ork_eastern_pike_infantry
+	enable = dunirr_stacked_strongholders #Dunirr
 }
 
 technology = {
@@ -412,6 +423,7 @@ technology = {
 
 	#Upgraded Dragon Cav
 	enable = late_medieval_infantry #Humans
+	enable = kolbold_steelclad_footkolbold #
 }
 
 technology = {
@@ -477,6 +489,7 @@ technology = {
 
 	#TODO New Inf
 	enable = pike_and_shot #Humans
+	enable = dunirr_steamlocks #Dorfs
 
 	fort_16th = yes
 }
@@ -526,6 +539,9 @@ technology = {
 	enable = squirrel_guedinalock_hatchets
 	enable = squirrel_ironwood_pike_and_dart
 	enable = faun_guedian_ambusiers
+	enable = kolbolds_at_arms_supported
+	enable = kolbold_sleeting_musketeers
+	enable = dunirr_compound_steamlocks #Dorfs
 }
 
 technology = {
@@ -590,6 +606,8 @@ technology = {
 	land_morale = 0.5
 	infantry_fire = 0.4
 	combat_width = 5
+	
+	enable = dunirr_triranked_steamlocks #Dorfs
 }
 
 technology = {
@@ -616,6 +634,11 @@ technology = {
 	enable = elven_light_musketeers #Elves
 
 	enable = squirrel_ironwood_arquebusiers
+	
+	enable = kolbold_purplecloak_stormguard
+	enable = kolbold_whitecloak_stormguard
+	enable = kolbold_talonpoint_fusilers
+	
 }
 
 technology = {
@@ -770,6 +793,8 @@ technology = {
 	enable = human_storm_infantry
 	enable = elven_rifle_infantry
 	enable = spider_armored_vilexu_infantry
+	enable = kolbold_ankonclaw_fusilers
+	enable = dunirr_armored_riflers
 
 	enable = flying_battery
 }
@@ -800,6 +825,7 @@ technology = {
 	enable = squirrel_ironwood_riflescur
 	enable = squirrel_gliding_scurians
 	enable = faun_gurirelare
+	enable = kolbold_reformed_stormguard
 }
 
 technology = {
@@ -826,6 +852,7 @@ technology = {
 
 	#TODO new arty
 	enable = breech_loaded_howitzer
+	enable = dunirr_breaching_riflers
 
 }
 
@@ -884,6 +911,8 @@ technology = {
 	enable = elven_redback_infantry
 	enable = dwarven_whiteback_infantry
 	enable = faun_twinhorn_infantry
+	enable = kolbold_purpleback_infantry
+	enable = kolbold_blacksash_infantry
 
 	enable = squirrel_steelwood_riflescur
 	enable = squirrel_scurian_rangers
@@ -994,6 +1023,9 @@ technology = {
 	enable = squirrel_lile_riflescur
 	enable = squirrel_samatroopers
 	enable = faun_line_gurirelare
+	enable = kolbold_blacksash_rifles
+	enable = kolbold_purplecloak_horned_rifles
+	enable = dwarven_lile_riflers
 }
 
 technology = {

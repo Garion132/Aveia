@@ -2340,7 +2340,7 @@ country_event = {
 		GGD = {
 			inherit = PREV
 		}
-		
+		ai_chance = { factor = 66 }
 	}
 	option = {	# become a underking
 		name = "iron_age_calamity.202.opt.c"
@@ -2350,6 +2350,7 @@ country_event = {
 				subject = PREV
 			}
 		}
+		ai_chance = { factor = 0 }
 	}
 	option = {	# reject it
 		name = "iron_age_calamity.202.opt.d"
@@ -2365,6 +2366,7 @@ country_event = {
 				casus_belli = cb_restore_order
 			}
 		}
+		ai_chance = { factor = 33 }
 	}
 }
 
@@ -3836,7 +3838,7 @@ country_event = {#sweaping south
 			immediate = {
 				hidden_effect = {
 					set_global_flag = nynth_rebellion
-					every_province = {
+					every_owned_province = {
 						limit = {
 							culture = nilenorian
 							NOT = { owned_by = NYN }

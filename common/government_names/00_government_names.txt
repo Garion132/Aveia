@@ -251,6 +251,7 @@ gov_prussian_republic = {
 	}
 }
 
+
 gov_admiralty = {
 	rank = {
 		1 = ADMIRALTY
@@ -1439,8 +1440,7 @@ lithuanian_monarchy = {
 	}
 
 	trigger = {
-		always = no
-		government = monarchy
+		has_reform = oayvein_grand_dutchy_reform
 	}
 }
 

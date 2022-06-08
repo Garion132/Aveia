@@ -148,6 +148,52 @@ donamenz_chiefdom_reform = {
 #bronze age governments
 #
 ####################################
+league_of_cities = {
+	# government mechanics flags go here
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	duration = 4
+
+	republican_name = yes
+	royal_marriage = yes
+
+	monarchy = yes
+	modifiers = {
+		tolerance_heretic = 1
+		land_morale = 0.1
+		max_absolutism = -40
+	}
+
+	ai = {
+		factor = 0
+	}
+}
+league_of_cities_reform = {
+	# government mechanics flags go here
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	legacy_equivalent = league_of_cities
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	duration = 4
+
+	republican_name = yes
+	royal_marriage = yes
+
+	monarchy = yes
+	modifiers = {
+		tolerance_heretic = 1
+		land_morale = 0.1
+		max_absolutism = -40
+	}
+
+	ai = {
+		factor = 0
+	}
+}
 
 palace_economy = {
 	# government mechanics flags go here
@@ -173,6 +219,52 @@ palace_economy = {
 			has_idea_group = trade_ideas
 		}
 	}
+}
+
+oayvein_grand_dutchy_legacy = {
+	# government mechanics flags go here
+	icon = "crown"
+	legacy_government = yes
+	monarchy = yes
+	allow_normal_conversion = no
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 5
+	nation_designer_trigger = {
+		always = no
+	}
+
+    fixed_rank = 1
+	modifiers = {
+		governing_capacity = 150
+		global_unrest = -1
+		global_tax_modifier = 0.05
+	}
+
+	ai = {
+		factor = 5
+	}
+}
+oayvein_grand_dutchy_reform = {
+	potential = {
+		tag = OAY
+	}
+
+	modifiers = {
+		governing_capacity = 150
+		global_unrest = -1
+		global_tax_modifier = 0.05
+	}
+	fixed_rank = 1
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "crown"
+	allow_normal_conversion = no
+	legacy_equivalent = oayvein_grand_dutchy_legacy
+	allow_convert = no
 }
 
 dragonic_throne = {

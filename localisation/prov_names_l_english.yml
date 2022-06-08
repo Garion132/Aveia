@@ -44,6 +44,7 @@
  PROV48:0 "Fuloa"
  PROV49:0 "Parnti"
  PROV50:0 "Oruin"
+ PROV51:0 "Bluehiethe"
 
  PROV53:0 "Oruinyal"
  PROV54:0 "Ovilias"
@@ -906,7 +907,10 @@
  
  PROV4799:0 "Warglegore"
  
+ PROV5125:0 "Khamil Gap"
  PROV5126:0 "Solingar"
+ 
+ PROV5133:0 "Garumori Ridge"
  
  PROV5136:0 "Acorninka"
  
