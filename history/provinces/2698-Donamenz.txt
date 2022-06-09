@@ -1,4 +1,7 @@
 #Windsweaps
+add_core = LRT
+owner = LRT
+controller = LRT
 culture = donamenz
 religion = uzvazism
 capital = "Accra"

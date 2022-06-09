@@ -121,8 +121,14 @@
  valley_warriorsDESCR:0 "Rugged, well-adapted to changing weather, and covered in iron tools and armor, they will bash their way through any civilization."
  greatest_warriors:0 "Greatest Warriors"
  greatest_warriorsDESCR:0 "The final conquerers, these heroes would be the last of the tribal humans to do battle with the Elven kingdoms. They would reach the gates of Elesilon before being driven back by the Nelsedar Guard."
+ human_pademi_clad_berserkers:0 "Pademi-Clad Berserkers"
+ human_pademi_clad_berserkersDESCR:0 "Todo"
+ human_silver_bound_berserkers:0 "Silver-Bound Berserkers"
+ human_silver_bound_berserkersDESCR:0 "Todo"
 
  #Human Settled
+ human_basin_guard:0 "Basin Guard"
+ human_basin_guardDESCR:0 "Todo."
  men_at_arms:0 "Men at Arms"
  men_at_armsDESCR:0 "Todo."
  halberd_infantry:0 "Halberd Infantry"
@@ -135,6 +141,15 @@
  human_storm_infantry:0 "Storm Infantry"
  human_blueback_infantry:0 "Blueback Infantry"
  human_repeating_riflemen:0 "Repeating Riflemen"
+ 
+ #Naga
+ naga_spearcarrier:0 "Spearcarriers"
+ naga_spearcarrierDESCR:0 "Todo"
+ naga_laminated_bows:0 "Laminated Bows"
+ naga_laminated_bowsDESCR:0 "Todo"
+ naga_glaivelords:0 "Glaivelords"
+ naga_glaivelordsDESCR:0 "Todo"
+ 
 
 
  #Great Spider
@@ -639,3 +654,4 @@
  eastern_scramble_tooltip:0 "§YThe Eastern Scramble§! has happened."
  death_of_tlaulunore_tooltip:0 "§YFalling Star§! has happened."
  golden_sun_discovered_tooltip:0 "§YThe Golden Sun§! has been discovered."
+ rosen_dawn_tooltip:0 "§YThe Rosen Dawn§! has begun."

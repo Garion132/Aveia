@@ -2309,6 +2309,9 @@ country_event = {
 		}
 		set_ruler_flag = mannish_iron_crown
 		add_treasury = 1000
+		add_ruler_modifier = { 
+			name = crown_of_iron
+		}
 		every_country={
 			limit={
 				primary_culture = donamenz

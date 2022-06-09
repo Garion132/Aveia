@@ -404,6 +404,9 @@ birthplace_of_illuminare = {
 birthplace_of_the_guedinan_revolution = {
 	fire_damage = 0.10
 }
+crown_of_iron = {
+	global_unrest = -6
+}
 
 
 # Important river estuaries

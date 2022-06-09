@@ -24,7 +24,7 @@ estate_house_draumi ={
 	country_modifier_angry = {
 		army_tradition = -0.5
 		land_maintenance_modifier = 0.1
-		global_unrest = 2
+		global_unrest = 1
 	}
 	land_ownership_modifier = {
 		house_draumi_loyalty_modifier = 0.2

@@ -18,7 +18,7 @@ estate_house_lidori ={
 	country_modifier_angry = {
 		global_autonomy = 0.1
 		land_maintenance_modifier = 0.1
-		global_unrest = 2
+		global_unrest = 1
 	}
 	land_ownership_modifier = {
 		house_lidori_loyalty_modifier = 0.2

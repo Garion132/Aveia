@@ -19,7 +19,7 @@ estate_house_kethai ={
 		development_cost = 0.1
 		manpower_recovery_speed = -0.1
 		land_maintenance_modifier = 0.1
-		global_unrest = 2
+		global_unrest = 1
 	}
 	land_ownership_modifier = {
 		house_kethai_loyalty_modifier = 0.2

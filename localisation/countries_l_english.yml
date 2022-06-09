@@ -713,6 +713,12 @@
  CHV_ADJ:0 "Chivga"
  ESM:0 "Esmilbis"
  ESM_ADJ:0 "Esmilbis"
+ ELH:0 "Elhir"
+ ELH_ADJ:0 "Elhir"
+ VLC:0 "Vultercarvic"
+ VLC_ADJ:0 "Vultercarvic"
+ LRT:0 "Lurtros"
+ LRT_ADJ:0 "Lurtros"
  
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"

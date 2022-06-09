@@ -21,7 +21,7 @@ estate_house_etailia ={
 		religious_unity = -0.05
 		global_autonomy = 0.02
 		land_maintenance_modifier = 0.1
-		global_unrest = 2
+		global_unrest = 1
 	}
 	land_ownership_modifier = {
 		house_etailia_loyalty_modifier = 0.2
