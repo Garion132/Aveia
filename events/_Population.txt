@@ -1,0 +1,38 @@
+namespace = pop
+
+country_event = {
+	id = pop.1
+	title = pop.1.t
+	desc = pop.1.d
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+
+    immediate = {
+		export_to_variable = {
+            which = gov_cap_1
+            value = governing_capacity
+            who = ROOT
+        }
+		export_to_variable = {
+            which = gov_cap_2
+            value = modifier:governing_capacity
+            who = ROOT
+        }
+        
+		export_to_variable = {
+            which = gov_cap_per_1
+            value = governing_capacity_percentage
+            who = ROOT
+        }
+		export_to_variable = {
+            which = gov_cap_per_2
+            value = modifier:governing_capacity_percentage
+            who = ROOT
+        }
+	}
+
+	option = { #I am not a guinea pig!
+		name = pop.1.op1
+	}
+}

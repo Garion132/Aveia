@@ -1,0 +1,4 @@
+﻿l_english:
+ pop.1.t:0 "Pops Testing"
+ pop.1.d:0 "Gov Cap: [gov_cap_1.GetValue]\nGov Cap (modifier:): [gov_cap_2.GetValue]\nGov Cap Percent: [gov_cap_per_1.GetValue]\nGov Cap Percent (modifier:): [gov_cap_per_2.GetValue]"
+ pop.1.op1:0 "I am not a guinea pig!"
