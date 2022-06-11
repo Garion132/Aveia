@@ -50,7 +50,7 @@ ship_boarding =
 	button_gfx = 4
 }
 
-wooden_wall =
+elves_of_sohor =
 {
 	can_select = {
 		is_primitive = no
@@ -58,7 +58,7 @@ wooden_wall =
 	}
 
 	country_modifier = {
-		own_coast_naval_combat_bonus = 1.0
+		navy_tradition = 1
 	}
 
 	button_gfx = 5

@@ -30,6 +30,8 @@
  
  PROV30:0 "Irrilanra"
 
+ PROV31:0 "Hetriondee Lake"
+ PROV32:0 "Guroth Lake"
  PROV33:0 "Great Cradle"
  PROV34:0 "Kyath Coast"
  
@@ -129,6 +131,8 @@
  PROV461:0 "Eastern Cryspimes"
  
  PROV490:0 "Mount Talior"
+ 
+ PROV494:0 "Adrar Ridge"
 
  PROV504:0 "Ihadar"
  
@@ -357,8 +361,13 @@
  PROV1259:0 "Ymmargond"
 
  PROV1265:0 "Hloienor"
-
+ 
+ PROV1269:0 "Rutiroe"
+ PROV1270:0 "Karyne"
+ PROV1271:0 "Wulkildr"
  PROV1272:0 "Alaritlu"
+ 
+ PROV1274:0 "Druitl"
 
  PROV1286:0 "Iskisarlu"
 
@@ -539,6 +548,8 @@
  PROV1890:0 "Vinika Sea"
  PROV1891:0 "Nadarite Coast"
  
+ PROV1895:0 "Orgithadenes Lake"
+ PROV1896:0 "Khueur Lake"
  PROV1897:0 "Faveligt"
  
  PROV1899:0 "Wesle"
@@ -773,6 +784,12 @@
 
  PROV2731:0 "Ibrad"
  
+ PROV2804:0 "Nash"
+ 
+ PROV2820:0 "Paj'jesa"
+ 
+ PROV2826:0 "Srasesh"
+ 
  PROV2914:0 "Bulkir"
  
  PROV2939:0 "Agaruz"
@@ -879,6 +896,11 @@
  PROV3948:0 "Aniliti"
  
  PROV3984:0 "Castronos"
+ 
+ PROV4000:0 "Sietirrar"
+ 
+ PROV4024:0 "Dorhanor Lake"
+ PROV4025:0 "Charaydis Lake"
  
  PROV4382:0 "Grovenshield"
  

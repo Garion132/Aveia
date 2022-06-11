@@ -1,7 +1,7 @@
 # Halberd Infantry
 
 type = infantry
-unit_type = northern_men_group
+unit_type = civilized_human_group
 
 maneuver = 1
 offensive_morale = 2

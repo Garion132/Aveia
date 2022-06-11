@@ -140,6 +140,14 @@ vassal = {
 	end_date = 1532.8.3
 }
 
+
+vassal = {
+	first = GAZ
+	second = CGZ
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+
 ####colonies workaround
 dependency = {
 	subject_type = "colony_elteria_start"

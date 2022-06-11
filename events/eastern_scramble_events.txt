@@ -278,7 +278,7 @@ country_event = {#start of the CTC chain 988
 				else={
 					CTC={
 						#change_religion = tlaunorist
-						#change_primary_culture = omyse
+						change_primary_culture = indorran
 						#add_treasury = 300
 						define_ruler ={
 							name = "Coltoc"
@@ -1864,6 +1864,7 @@ country_event = {#switching tag to CTC
 		}
 		CTC={
 			change_religion = event_target:CTC_tag_switch_nation
+			change_primary_culture = indorran
 			change_primary_culture = event_target:CTC_tag_switch_nation
 			#add_treasury = 300
 			define_ruler ={

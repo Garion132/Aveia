@@ -1244,6 +1244,7 @@ cb_mannish_raid = {
 
 cb_mannish_great_conquest = {
 	valid_for_subject = no
+	badboy_factor = 0.00
 
 	prerequisites = {
 		has_ruler_flag = great_conquest_cb_user

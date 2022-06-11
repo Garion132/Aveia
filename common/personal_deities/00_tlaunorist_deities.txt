@@ -50,6 +50,7 @@ lylse =
 gualorhei =
 {
 	global_sailors_modifier = 0.10
+	global_naval_engagement_modifier = 0.1
 	
 	allow = { 
 		religion = tlaunorist

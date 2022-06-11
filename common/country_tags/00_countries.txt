@@ -81,6 +81,14 @@ OMO = "countries/Omora.txt"
 CYO = "countries/Cyoloa.txt"
 NYT = "countries/Nythond.txt"
 MLO = "countries/Miloran.txt"
+GAZ = "countries/Gazludh.txt"
+DRO = "countries/Drododho.txt"
+KOG = "countries/Kogvek.txt"
+CHU = "countries/Churoz.txt"
+ZRA = "countries/Zrarri.txt"
+MTM = "countries/Mutum.txt"
+ADZ = "countries/Adraz.txt"
+CGZ = "countries/Chugzag.txt"
 
 LIR = "countries/Liretlet.txt"
 FAN = "countries/Fanilnemyel.txt"
@@ -408,6 +416,12 @@ SRA = "countries/Srandor.txt"
 #nagas
 	KEP = "countries/Kepjar.txt"
 
+#strongholder tags
+ALA = "countries/Alaritlu.txt"
+DRU = "countries/Druitl.txt"
+KAR = "countries/Karyne.txt"
+RUT = "countries/Rutiroe.txt"
+WUL = "countries/Wulkildr.txt"
 
 #Crashes if this doesn't exist
 PAP = "countries/Yulikivian.txt"

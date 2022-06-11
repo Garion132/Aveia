@@ -1,0 +1,112 @@
+country_decisions = {
+
+	adraz_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_adraz_flag }
+			NOT = { tag = ADZ }
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = ADZ }
+					num_of_cities = 3 #Carnage
+				}
+			}
+			primary_culture = adrari
+		}
+		provinces_to_highlight = {
+			OR={
+				area = gugh_34
+				area = gugh_33
+				area = gugh_32
+				area = gugh_31
+				area = gugh_30
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ADZ }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2847	# capital
+			num_of_owned_provinces_with = {
+				value = 10
+				OR={
+					area = gugh_34
+					area = gugh_33
+					area = gugh_32
+					area = gugh_31
+					area = gugh_30
+				}
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			#set_capital = 3948
+			change_tag = ADZ
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			gugh_34 = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ADZ
+			}
+			gugh_33 = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ADZ
+			}
+			gugh_32 = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ADZ
+			}
+			gugh_31 = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ADZ
+			}
+			gugh_30 = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ADZ
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = ADZ_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_adraz_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
+}

@@ -1,0 +1,22 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = dregheian
+religion = tlaunorist
+government_rank = 1
+technology_group = dunirr_group
+capital = 1272 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+
+# 1240.9.16 = {
+	# monarch = {
+		# name = "Filler"
+		# dynasty = "Chugzag"
+		# birth_date = 1240.12.3
+		# adm = 3
+		# dip = 3
+		# mil = 3
+	# }
+# }

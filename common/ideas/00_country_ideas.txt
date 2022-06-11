@@ -590,3 +590,42 @@ GRU_ideas = {
 		global_ship_trade_power = 0.3
 	}
 }
+
+KYA_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		prestige_decay = -0.01
+	}
+
+	bonus = {
+		manpower_in_true_faith_provinces = 0.10
+	}
+	
+	trigger = {
+		tag = KYA
+	}
+	free = yes
+
+	birthplace_of_elves = {
+		legitimacy = 0.05
+	}
+	local_dynasts = {
+		heir_chance = 0.5
+	}
+	edict_of_mythanis = {
+		num_accepted_cultures = 1
+	}
+	new_nalean_contract = {
+		reduced_liberty_desire_on_same_continent = 10
+	}
+	spirit_of_kyathi = {
+		land_morale = 0.10
+	}
+	cradle_trading_company = {
+		trade_company_investment_cost = -0.1
+		global_trade_power = 0.1
+	}
+	university_of_oruinyal = {
+		global_institution_spread = 0.25
+	}
+}

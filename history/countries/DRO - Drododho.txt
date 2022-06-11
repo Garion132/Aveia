@@ -1,0 +1,22 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = adrari
+religion = forebearist
+government_rank = 1
+technology_group = ork_group
+capital = 2851 # 
+#national_focus = DIP
+#historical_rival = HAB
+historical_friend = GAZ
+
+
+1240.9.16 = {
+	monarch = {
+		name = "Filler"
+		dynasty = "Drododho"
+		birth_date = 1240.12.3
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
