@@ -43,7 +43,10 @@ static void newRuralEntry(string &list, string &loc, string &code, string &clear
         cd += "\t}\n";
         code = cd + code;
 
-        clear += "\tremove_province_modifier = " + name + "\n";
+        cl += "\telse_if = { limit = { has_province_modifier = " + name + " }\n";
+        cl += "\t\tremove_province_modifier = " + name + "\n";
+        cl += "\t}\n";
+        clear = cl + clear;
     }
     else{
         loc += name + ":0 \"" + popS + " Rural Population\"\n";
@@ -53,7 +56,10 @@ static void newRuralEntry(string &list, string &loc, string &code, string &clear
         cd += "\t}\n";
         code = cd + code;
 
-        clear += "\tremove_province_modifier = " + name + "\n";
+        cl += "\telse_if = { limit = { has_province_modifier = " + name + " }\n";
+        cl += "\t\tremove_province_modifier = " + name + "\n";
+        cl += "\t}\n";
+        clear = cl + clear;
     }
     loc += "desc_" + name + ":0 \"Rural Population: [THIS.rural_pop.GetValue]\"\n";
 
@@ -86,7 +92,10 @@ static void newUrbanEntry(string &list, string &loc, string &code, string &clear
         cd += "\t}\n";
         code = cd + code;
 
-        clear += "\tremove_province_modifier = " + name + "\n";
+        cl += "\telse_if = { limit = { has_province_modifier = " + name + " }\n";
+        cl += "\t\tremove_province_modifier = " + name + "\n";
+        cl += "\t}\n";
+        clear = cl + clear;
     }
     else{
         loc += name + ":0 \"" + popS + " Urban Population\"\n";
@@ -96,7 +105,10 @@ static void newUrbanEntry(string &list, string &loc, string &code, string &clear
         cd += "\t}\n";
         code = cd + code;
 
-        clear += "\tremove_province_modifier = " + name + "\n";
+        cl += "\telse_if = { limit = { has_province_modifier = " + name + " }\n";
+        cl += "\t\tremove_province_modifier = " + name + "\n";
+        cl += "\t}\n";
+        clear = cl + clear;
     }
     loc += "desc_" + name + ":0 \"Urban Population: [THIS.urban_pop.GetValue]\"\n";
 }
