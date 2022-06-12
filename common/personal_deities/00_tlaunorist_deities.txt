@@ -135,6 +135,7 @@ rauthalor =
 sifon =
 {
 	global_tax_modifier = 0.1
+	development_cost = -0.025
 	
 	allow = { 
 		religion = tlaunorist 

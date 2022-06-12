@@ -422,6 +422,8 @@ DRU = "countries/Druitl.txt"
 KAR = "countries/Karyne.txt"
 RUT = "countries/Rutiroe.txt"
 WUL = "countries/Wulkildr.txt"
+WUL = "countries/Wulkildr.txt"
+VAL = "countries/Valtyue.txt"
 
 #Crashes if this doesn't exist
 PAP = "countries/Yulikivian.txt"

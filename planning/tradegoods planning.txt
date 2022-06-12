@@ -40,15 +40,15 @@ Manufactured Goods
 
 #Elteria (South-Western Continent), 5
 Ecriamin (Blue five leaf clover, Magical Healing Herbs)
--Theiss (Root vegatable)
--Erysim (fruit)
--Atyle Sap (Yellow maple syrup)
--Ironwood ()
+Theiss (Root vegatable)
+Erysim (fruit)
+Atyle Sap (Yellow maple syrup)
+Ironwood ()
 
 #Eastern Aveia, 4
 Quedarma Horn (megafauna, giant, greenish-gray, snake with horns and a frill)
 Spices
--Kurrak (Tall Tree, bright red leaves and seeds, bone white bark. each part of the tree can be used for something, seeds act similar like sweetpowder, bark like cinamon, wood is often used akin to Udezer Wood)
+Kurrak (Tall Tree, bright red leaves and seeds, bone white bark. each part of the tree can be used for something, seeds act similar like sweetpowder, bark like cinamon, wood is often used akin to Udezer Wood)
 Chiming tree (Purple bell flowers that act like jingle bells in the wind, has a mast year every 3 years where the flowers and seeds are increased in size making the sound much louder, the interal "clapper" is a seed covered in mother of pearl, highly prized for its luster and rumored to extend life, in acually it, when crushed it weakens magic near to it for a time)
 
 #New World, 4

@@ -1,6 +1,28 @@
 namespace = cleanup_events
 
-
+# country_event = {
+	# id = cleanup_events.1
+	
+	# title = cleanup_events.1.t
+	# desc = cleanup_events.1.d
+	
+	# picture = RELIGIOUS_WARS_eventPicture
+	
+	# is_triggered_only = yes
+	# option = {
+		# name = cleanup_events.1.a
+		# capital_scope={
+		# add_province_triggered_modifier = test_modifier
+		# }
+	# }
+	# option = {
+		# name = cleanup_events.1.b
+		# capital_scope={
+		# remove_province_triggered_modifier = test_modifier
+		# }
+	# }
+	
+# }
 
 #########################################################
 #	        Submission of the Clergy		#
