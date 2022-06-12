@@ -34,8 +34,5 @@ country_event = {
 
 	option = { #I am not a guinea pig!
 		name = pop.1.op1
-        hidden_effect = {
-            Pops_Setup = yes
-        }
 	}
 }

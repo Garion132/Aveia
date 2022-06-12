@@ -20,26 +20,35 @@ on_startup = {
 			duration = -1
 		}
 	}
-	every_country = {
+	if = {
+		limit = {
+			NOT = { has_global_flag = setup_done }
+		}
+
+        Pops_Setup = yes
+
 		if = {
 			limit = {
 				NOT = { is_year = 1273 }
 			}
-			remove_idea_group = administrative_ideas
-			remove_idea_group = philosophical_ideas
-			remove_idea_group = engineering_ideas
-			remove_idea_group = religious_ideas
-			
-			remove_idea_group = trade_ideas
-			remove_idea_group = colonialism_ideas
-			remove_idea_group = maritime_ideas
-			remove_idea_group = diplomatic_ideas
-			
-			remove_idea_group = offensive_ideas
-			remove_idea_group = defensive_ideas
-			remove_idea_group = leadership_ideas
-			remove_idea_group = logistic_ideas
+			every_country = {
+				remove_idea_group = administrative_ideas
+				remove_idea_group = philosophical_ideas
+				remove_idea_group = engineering_ideas
+				remove_idea_group = religious_ideas
+				
+				remove_idea_group = trade_ideas
+				remove_idea_group = colonialism_ideas
+				remove_idea_group = maritime_ideas
+				remove_idea_group = diplomatic_ideas
+				
+				remove_idea_group = offensive_ideas
+				remove_idea_group = defensive_ideas
+				remove_idea_group = leadership_ideas
+				remove_idea_group = logistic_ideas
+			}
 		}
+		set_global_flag = setup_done
 	}
 	initialize_schools_effect = yes
 }

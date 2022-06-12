@@ -1,9 +1,12 @@
 ﻿l_english:
  pop.1.t:0 "Pops Testing"
- pop.1.d:0 "Gov Cap: [gov_cap.GetValue]\nGov Cap Percent: [gov_cap_per.GetValue]"
+ pop.1.d:0 "Gov Cap: [gov_cap.GetValue]\nGov Cap Percent: [gov_cap_per.GetValue]\n\nTotal Population: [total_pop.GetValue]\nRural Pop: [rural_pop.GetValue]\nUrban Pop: [urban_pop.GetValue]"
  pop.1.op1:0 "I am not a guinea pig!"
 
  #Modifiers
+    pop_modifier:0 "Population: §M[total_pop.GetValue]§!"
+    desc_pop_modifier:0 "Rural Population: §M[rural_pop.GetValue]K§!\nUrban Population: §M[urban_pop.GetValue]K§!\n\nBase Food Production per Pop: §l[fpp.GetValue]§!\nAgricultural Efficiency: §T[agri_eff.GetValue]%§!\nTotal Food Production: §G[food_prod.GetValue]§!"
+
     0_rural_pop_modifier:0 "Insignificant Rural Population"
     desc_0_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
     500_rural_pop_modifier:0 "500 Rural Population"

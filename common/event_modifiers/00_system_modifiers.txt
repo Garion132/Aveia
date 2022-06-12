@@ -9,6 +9,8 @@
 	}
 
 # Population System
+	pop_modifier = {
+	}
 	# Rural Population Size Modifiers
 
 		0_rural_pop_modifier = {
