@@ -27,11 +27,11 @@ Pops_Setup = {
         Pops_GetAgriculturalEfficiency = yes
 
         #Population Approximation:
-        # 40 * ln(1/fpp) / ( agri_eff - 2 )
+        # 500 * ln(1/fpp) / ( agri_eff - 2 )
         set_variable = { which = rural_pop value = 1 }
         divide_variable = { which = rural_pop which = fpp }
-        log_e = { value = rural_pop }
-        multiply_variable = { which = rural_pop value = 100 }
+        log_e_times_100 = { value = rural_pop }
+        multiply_variable = { which = rural_pop value = 5 }
         
         set_variable = { which = t_0 which = agri_eff }
         subtract_variable = { which = t_0 value = 2 }
@@ -147,7 +147,7 @@ Pops_GetFoodProduction = {
     multiply_variable = { which = t_1 value = -1 }
     change_variable = { which = t_1 value = 2 }
     multiply_variable = { which = t_1 which = rural_pop }
-    divide_variable = { which = t_1 value = 100 }
+    divide_variable = { which = t_1 value = 500 }
     power_e = { value = t_1 }
 
     set_variable = { which = food_prod which = t_1 }
