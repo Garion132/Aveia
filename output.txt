@@ -3,7 +3,6 @@
 #Urban Population
 
 
-
 #Rural Pop Create Code
 update_rural_pop_modifiers = {
 	clear_rural_pop_modifiers = yes

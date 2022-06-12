@@ -4,17 +4,17 @@
 using namespace std;
 
 //Stats for Population, each per 1000
-const static float RURAL_TAX = 0.034f;
-const static float RURAL_GOODS_PROD = 0.005f;
-const static float RURAL_MANPOWER = 0.1f;
-const static float RURAL_SAILORS = 0.01f;
-const static float RURAL_TRADE_POWER = 0.003f;
+const static float RURAL_TAX = 0.1f;
+const static float RURAL_GOODS_PROD = 0.02f;
+const static float RURAL_MANPOWER = 0.02f;
+const static float RURAL_SAILORS = 5.0f;
+const static float RURAL_TRADE_POWER = 0.03f;
 
-const static float URBAN_TAX = 0.05f;
-const static float URBAN_GOODS_PROD = 0.01f;
-const static float URBAN_MANPOWER = 0.075f;
-const static float URBAN_SAILORS = 0.025f;
-const static float URBAN_TRADE_POWER = 0.06f;
+const static float URBAN_TAX = 0.5f;
+const static float URBAN_GOODS_PROD = 0.05f;
+const static float URBAN_MANPOWER = 0.015f;
+const static float URBAN_SAILORS = 50.0f;
+const static float URBAN_TRADE_POWER = 0.6f;
 
 
 static void newRuralEntry(string &list, string &loc, string &code, string &clear, int pop, int stepSize){
