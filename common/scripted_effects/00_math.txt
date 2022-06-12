@@ -1,0 +1,104 @@
+
+power_e = {
+    # Takes in a value $value$ and sets it to e^$value$
+    # $value$ - what the exponent value is
+    
+    # How this works:
+    # Seperates out e^value into
+    #   e * e * ... * e * e^decimal
+    # so that e^3.3 becomes
+    #   e * e * e * e^0.3
+    
+    # e^decimal is covered by power_e_decimal
+
+    set_variable = { which = t_e value = 1 }
+    while = {
+        limit = {
+            check_variable = {
+                which = $value$
+                value = 1
+            }
+        }
+        multiply_variable = { which = t_e value = 2.718 }
+        subtract_variable = { which = $value$ value = 1 }
+    }
+
+    power_e_decimal = { value = $value$ }
+    multiply_variable = { which = $value$ which = t_e }
+    set_variable = { which = t_e value = 0 }
+}
+
+power_e_decimal = {
+    if = { limit = { check_variable = { which = $value$ value = 0 } }
+        set_variable = { which = $value$ value = 1 }
+    }
+    else = {
+        #Taylor Series Approximation
+        # At x = 1, with 5 terms, error is 0.3%
+
+        set_variable = { which = taylor_x which = $value$ }
+
+        set_variable = { which = taylor_xx which = $value$ }
+        multiply_variable = { which = taylor_xx which = taylor_x }
+
+        set_variable = { which = taylor_xxx which = $value$ }
+        multiply_variable = { which = taylor_xxx which = taylor_xx }
+
+        set_variable = { which = taylor_xxxx which = $value$ }
+        multiply_variable = { which = taylor_xxxx which = taylor_xxx }
+
+        divide_variable = { which = taylor_xx value = 2 }
+        divide_variable = { which = taylor_xxx value = 6 }
+        divide_variable = { which = taylor_xxxx value = 24 }
+
+        set_variable = { which = $value$ value = 1 }
+        change_variable = { which = $value$ which = taylor_x }
+        change_variable = { which = $value$ which = taylor_xx }
+        change_variable = { which = $value$ which = taylor_xxx }
+        change_variable = { which = $value$ which = taylor_xxxx }
+
+        set_variable = { which = taylor_x value = 0 }
+        set_variable = { which = taylor_xx value = 0 }
+        set_variable = { which = taylor_xxx value = 0 }
+        set_variable = { which = taylor_xxxx value = 0 }
+    }
+}
+
+log_e = {
+    #Takes in $value$ and returns log base e (natural log) of that (using $value$)
+
+    #Taylor Series Approximation
+    # (x-1) - 1/2 * (x-1)^2 + 1/3 * (x-1)^3 - 1/4 * (x-1)^4 + 1/5 * (x-1)^5
+    subtract_variable = { which = $value$ value = 1 }
+
+    set_variable = { which = taylor_x which = $value$ }
+
+    set_variable = { which = taylor_xx which = $value$ }
+    multiply_variable = { which = taylor_xx which = taylor_x }
+
+    set_variable = { which = taylor_xxx which = $value$ }
+    multiply_variable = { which = taylor_xxx which = taylor_xx }
+
+    set_variable = { which = taylor_xxxx which = $value$ }
+    multiply_variable = { which = taylor_xxxx which = taylor_xxx }
+    
+    set_variable = { which = taylor_xxxxx which = $value$ }
+    multiply_variable = { which = taylor_xxxxx which = taylor_xxxx }
+
+    divide_variable = { which = taylor_xx value = 2 }
+    divide_variable = { which = taylor_xxx value = 3 }
+    divide_variable = { which = taylor_xxxx value = 4 }
+    divide_variable = { which = taylor_xxxxx value = 5 }
+
+    set_variable = { which = $value$ value = taylor_x }
+    subtract_variable = { which = $value$ which = taylor_xx }
+    change_variable = { which = $value$ which = taylor_xxx }
+    subtract_variable = { which = $value$ which = taylor_xxxx }
+    change_variable = { which = $value$ which = taylor_xxxxx }
+
+    set_variable = { which = taylor_x value = 0 }
+    set_variable = { which = taylor_xx value = 0 }
+    set_variable = { which = taylor_xxx value = 0 }
+    set_variable = { which = taylor_xxxx value = 0 }
+    set_variable = { which = taylor_xxxxx value = 0 }
+}

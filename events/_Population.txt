@@ -10,29 +10,32 @@ country_event = {
 
     immediate = {
 		export_to_variable = {
-            which = gov_cap_1
-            value = governing_capacity
+            which = gov_cap
+            value = modifier:governing_capacity
             who = ROOT
         }
 		export_to_variable = {
-            which = gov_cap_2
-            value = modifier:governing_capacity
+            which = gov_cap_per
+            value = trigger_value:governing_capacity_percentage
             who = ROOT
         }
         
 		export_to_variable = {
-            which = gov_cap_per_1
-            value = governing_capacity_percentage
+            which = gov_cap
+            value = modifier:governing_capacity
             who = ROOT
         }
 		export_to_variable = {
-            which = gov_cap_per_2
-            value = modifier:governing_capacity_percentage
+            which = gov_cap_per
+            value = trigger_value:governing_capacity_percentage
             who = ROOT
         }
 	}
 
 	option = { #I am not a guinea pig!
 		name = pop.1.op1
+        hidden_effect = {
+            Pops_Setup = yes
+        }
 	}
 }

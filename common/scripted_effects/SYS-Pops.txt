@@ -1,0 +1,186 @@
+
+Pops_Setup = {
+    every_province = {
+        Pops_GetBaseFoodProduction = yes
+
+        #Agri Efficiency Setup
+        export_to_variable = {
+            which = t_1
+            value = base_tax
+        }
+        export_to_variable = {
+            which = t_2
+            value = base_production
+        }
+        export_to_variable = {
+            which = t_3
+            value = base_manpower
+        }
+        set_variable = { which = agri_eff_base which = t_1 }
+        change_variable = { which = agri_eff_base which = t_2 }
+        change_variable = { which = agri_eff_base which = t_3 }
+        divide_variable = { which = agri_eff_base value = 100 }
+        set_variable = { which = t_1 value = 0 }
+        set_variable = { which = t_2 value = 0 }
+        set_variable = { which = t_3 value = 0 }
+
+        Pops_GetAgriculturalEfficiency = yes
+
+        #Population Approximation:
+        # 40 * ln(1/fpp) / ( agri_eff - 2 )
+        set_variable = { which = rural_pop value = 1 }
+        divide_variable = { which = rural_pop which = fpp }
+        log_e = { value = rural_pop }
+        multiply_variable = { which = rural_pop value = 100 }
+        
+        set_variable = { which = t_0 which = agri_eff }
+        subtract_variable = { which = t_0 value = 2 }
+        divide_variable = { which = rural_pop which = t_0 }
+        set_variable = { which = t_0 value = 0 }
+
+        #Urban Population
+        Pops_GetUrbanPercent = yes
+        set_variable = { which = urban_pop which = rural_pop }
+        multiply_variable = { which = urban_pop which = urban_percent }
+        subtract_variable = { which = rural_pop which = urban_pop }
+        subtract_variable = { which = rural_pop which = urban_pop } #Subtract Again b/c rural pop produces food & urban pop don't
+    
+        update_rural_pop_modifiers = yes
+        update_urban_pop_modifiers = yes
+    }
+}
+
+Pops_DoNationalGrowth = {
+
+    every_owned_province = {
+        Pops_GetFoodProduction = yes
+        #Pops_GetWealth
+        #Pops_GetMigrationFactors
+    
+        #Sum Up Surplus
+        #Sum Up Migrants
+    }
+    
+    #Manage Migrant Factor
+    #Distribute Surplus
+
+    every_owned_province = {
+        #Pops_DoGrowth
+        #Pops_DoMigration
+    }
+}
+
+Pops_GetBaseFoodProduction = {
+    #Base Food Production Per Rural Pop
+    # fpp = Food Per Rural Pop
+    set_variable = { which = fpp value = 1.1 }
+    trigger_switch = {
+        on_trigger = has_terrain
+        farmlands = { set_variable = { which = fpp value = 2 } }
+        forest = { set_variable = { which = fpp value = 1.6 } }
+        hills = { set_variable = { which = fpp value = 1.55 } }
+        woods = { set_variable = { which = fpp value = 1.7 } }
+        mountain = { set_variable = { which = fpp value = 1.2 } }
+        grasslands = { set_variable = { which = fpp value = 1.8 } }
+        jungle = { set_variable = { which = fpp value = 1.25 } }
+        marsh = { set_variable = { which = fpp value = 1.15 } }
+        desert = { set_variable = { which = fpp value = 1.15 } }
+        coastal_desert = { set_variable = { which = fpp value = 1.3 } }
+        coastline = { set_variable = { which = fpp value = 1.4 } }
+        drylands = { set_variable = { which = fpp value = 1.65 } }
+        highlands = { set_variable = { which = fpp value = 1.5 } }
+        savannah = { set_variable = { which = fpp value = 1.45 } }
+        steppe = { set_variable = { which = fpp value = 1.6 } }
+        deepwoods = { set_variable = { which = fpp value = 1.6 } }
+        deepwoods_city = { set_variable = { which = fpp value = 1.8 } }
+        glassy_plains = { set_variable = { which = fpp value = 1.1 } }
+        vitaite_hills = { set_variable = { which = fpp value = 1.15 } }
+        redmarsh = { set_variable = { which = fpp value = 1.4 } }
+        great_bridge = { set_variable = { which = fpp value = 1.5 } }
+        great_mountain_pass = { set_variable = { which = fpp value = 1.25 } }
+    }
+
+    # Food Production Bonuses
+    
+    #If producing some sort of food, gain a boost
+    if = {
+        limit = {
+            OR = {
+                trade_goods = grain
+                trade_goods = fruit
+                trade_goods = wine
+                trade_goods = fish
+                trade_goods = spices
+                trade_goods = iresta
+                trade_goods = sweetpowder
+                trade_goods = vecroth_fruit
+                trade_goods = livestock
+                trade_goods = icorine
+                trade_goods = theiss
+                trade_goods = erysim
+                trade_goods = atyle_sap
+                trade_goods = kurrak
+            }
+        }
+        multiply_variable = { which = fpp value = 1.25 }
+    }
+}
+
+Pops_GetAgriculturalEfficiency = {
+    set_variable = { which = agri_eff which = agri_eff_base }
+    
+    export_to_variable = {
+        which = t_2
+        value = base_production
+    }
+    multiply_variable = { which = t_2 value = 0.01 }
+    change_variable = { which = agri_eff which = t_2 }
+    set_variable = { which = t_2 value = 0 }
+}
+
+Pops_GetFoodProduction = {
+    Pops_GetBaseFoodProduction = yes
+    Pops_GetAgriculturalEfficiency = yes
+
+    # t_1 is the exponent & resulting value from e^( -(2 - Agri_Eff)*(Rural Pop) / 100 )
+    set_variable = { which = t_1 which = agri_eff }
+    multiply_variable = { which = t_1 value = -1 }
+    change_variable = { which = t_1 value = 2 }
+    multiply_variable = { which = t_1 which = rural_pop }
+    divide_variable = { which = t_1 value = 100 }
+    power_e = { value = t_1 }
+
+    set_variable = { which = food_prod which = t_1 }
+    multiply_variable = { which = food_prod which = fpp }
+    multiply_variable = { which = food_prod which = rural_pop }
+
+    #set_variable = { which = fpp value = 0 }
+    set_variable = { which = t_1 value = 0 }
+}
+
+Pops_GetUrbanPercent = {
+    export_to_variable = {
+        which = t_1
+        value = base_tax
+    }
+    export_to_variable = {
+        which = t_2
+        value = base_production
+    }
+    export_to_variable = {
+        which = t_3
+        value = base_manpower
+    }
+    multiply_variable = { which = t_1 value = 0.5 }
+    multiply_variable = { which = t_2 value = 0.5 }
+    #multiply_variable = { which = t_3 value = 1 }
+
+    set_variable = { which = urban_percent which = t_1 }
+    change_variable = { which = urban_percent which = t_2 }
+    change_variable = { which = urban_percent which = t_3 }
+    divide_variable = { which = urban_percent value = 100 }
+    set_variable = { which = t_1 value = 0 }
+    set_variable = { which = t_2 value = 0 }
+    set_variable = { which = t_3 value = 0 }
+
+}
