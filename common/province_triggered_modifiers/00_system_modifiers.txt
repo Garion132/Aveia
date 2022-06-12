@@ -1,12 +1,12 @@
 # Rural Population Size Modifiers
     0_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
     }
     500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.017
         trade_goods_size = 0.0025
@@ -15,8 +15,8 @@
         province_trade_power_value = 0.0015
     }
     1000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.034
         trade_goods_size = 0.005
@@ -25,8 +25,8 @@
         province_trade_power_value = 0.003
     }
     1500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.051
         trade_goods_size = 0.0075
@@ -35,8 +35,8 @@
         province_trade_power_value = 0.0045
     }
     2000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.068
         trade_goods_size = 0.01
@@ -45,8 +45,8 @@
         province_trade_power_value = 0.006
     }
     2500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.085
         trade_goods_size = 0.0125
@@ -55,8 +55,8 @@
         province_trade_power_value = 0.0075
     }
     3000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.102
         trade_goods_size = 0.015
@@ -65,8 +65,8 @@
         province_trade_power_value = 0.009
     }
     3500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.119
         trade_goods_size = 0.0175
@@ -75,8 +75,8 @@
         province_trade_power_value = 0.0105
     }
     4000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.136
         trade_goods_size = 0.02
@@ -85,8 +85,8 @@
         province_trade_power_value = 0.012
     }
     4500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.153
         trade_goods_size = 0.0225
@@ -95,8 +95,8 @@
         province_trade_power_value = 0.0135
     }
     5000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.17
         trade_goods_size = 0.025
@@ -105,8 +105,8 @@
         province_trade_power_value = 0.015
     }
     5500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.187
         trade_goods_size = 0.0275
@@ -115,8 +115,8 @@
         province_trade_power_value = 0.0165
     }
     6000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.204
         trade_goods_size = 0.03
@@ -125,8 +125,8 @@
         province_trade_power_value = 0.018
     }
     6500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.221
         trade_goods_size = 0.0325
@@ -135,8 +135,8 @@
         province_trade_power_value = 0.0195
     }
     7000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.238
         trade_goods_size = 0.035
@@ -145,8 +145,8 @@
         province_trade_power_value = 0.021
     }
     7500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.255
         trade_goods_size = 0.0375
@@ -155,8 +155,8 @@
         province_trade_power_value = 0.0225
     }
     8000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.272
         trade_goods_size = 0.04
@@ -165,8 +165,8 @@
         province_trade_power_value = 0.024
     }
     8500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.289
         trade_goods_size = 0.0425
@@ -175,8 +175,8 @@
         province_trade_power_value = 0.0255
     }
     9000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.306
         trade_goods_size = 0.045
@@ -185,8 +185,8 @@
         province_trade_power_value = 0.027
     }
     9500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.323
         trade_goods_size = 0.0475
@@ -195,8 +195,8 @@
         province_trade_power_value = 0.0285
     }
     10000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.34
         trade_goods_size = 0.05
@@ -205,8 +205,8 @@
         province_trade_power_value = 0.03
     }
     10500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.357
         trade_goods_size = 0.0525
@@ -215,8 +215,8 @@
         province_trade_power_value = 0.0315
     }
     11000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.374
         trade_goods_size = 0.055
@@ -225,8 +225,8 @@
         province_trade_power_value = 0.033
     }
     11500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.391
         trade_goods_size = 0.0575
@@ -235,8 +235,8 @@
         province_trade_power_value = 0.0345
     }
     12000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.408
         trade_goods_size = 0.06
@@ -245,8 +245,8 @@
         province_trade_power_value = 0.036
     }
     12500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.425
         trade_goods_size = 0.0625
@@ -255,8 +255,8 @@
         province_trade_power_value = 0.0375
     }
     13000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.442
         trade_goods_size = 0.065
@@ -265,8 +265,8 @@
         province_trade_power_value = 0.039
     }
     13500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.459
         trade_goods_size = 0.0675
@@ -275,8 +275,8 @@
         province_trade_power_value = 0.0405
     }
     14000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.476
         trade_goods_size = 0.07
@@ -285,8 +285,8 @@
         province_trade_power_value = 0.042
     }
     14500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.493
         trade_goods_size = 0.0725
@@ -295,8 +295,8 @@
         province_trade_power_value = 0.0435
     }
     15000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.51
         trade_goods_size = 0.075
@@ -305,8 +305,8 @@
         province_trade_power_value = 0.045
     }
     15500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.527
         trade_goods_size = 0.0775
@@ -315,8 +315,8 @@
         province_trade_power_value = 0.0465
     }
     16000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.544
         trade_goods_size = 0.08
@@ -325,8 +325,8 @@
         province_trade_power_value = 0.048
     }
     16500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.561
         trade_goods_size = 0.0825
@@ -335,8 +335,8 @@
         province_trade_power_value = 0.0495
     }
     17000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.578
         trade_goods_size = 0.085
@@ -345,8 +345,8 @@
         province_trade_power_value = 0.051
     }
     17500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.595
         trade_goods_size = 0.0875
@@ -355,8 +355,8 @@
         province_trade_power_value = 0.0525
     }
     18000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.612
         trade_goods_size = 0.09
@@ -365,8 +365,8 @@
         province_trade_power_value = 0.054
     }
     18500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.629
         trade_goods_size = 0.0925
@@ -375,8 +375,8 @@
         province_trade_power_value = 0.0555
     }
     19000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.646
         trade_goods_size = 0.095
@@ -385,8 +385,8 @@
         province_trade_power_value = 0.057
     }
     19500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.663
         trade_goods_size = 0.0975
@@ -395,8 +395,8 @@
         province_trade_power_value = 0.0585
     }
     20000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.68
         trade_goods_size = 0.1
@@ -405,8 +405,8 @@
         province_trade_power_value = 0.06
     }
     20500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.697
         trade_goods_size = 0.102
@@ -415,8 +415,8 @@
         province_trade_power_value = 0.0615
     }
     21000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.714
         trade_goods_size = 0.105
@@ -425,8 +425,8 @@
         province_trade_power_value = 0.063
     }
     21500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.731
         trade_goods_size = 0.108
@@ -435,8 +435,8 @@
         province_trade_power_value = 0.0645
     }
     22000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.748
         trade_goods_size = 0.11
@@ -445,8 +445,8 @@
         province_trade_power_value = 0.066
     }
     22500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.765
         trade_goods_size = 0.112
@@ -455,8 +455,8 @@
         province_trade_power_value = 0.0675
     }
     23000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.782
         trade_goods_size = 0.115
@@ -465,8 +465,8 @@
         province_trade_power_value = 0.069
     }
     23500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.799
         trade_goods_size = 0.117
@@ -475,8 +475,8 @@
         province_trade_power_value = 0.0705
     }
     24000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.816
         trade_goods_size = 0.12
@@ -485,8 +485,8 @@
         province_trade_power_value = 0.072
     }
     24500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.833
         trade_goods_size = 0.123
@@ -495,8 +495,8 @@
         province_trade_power_value = 0.0735
     }
     25000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.85
         trade_goods_size = 0.125
@@ -505,8 +505,8 @@
         province_trade_power_value = 0.075
     }
     25500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.867
         trade_goods_size = 0.127
@@ -515,8 +515,8 @@
         province_trade_power_value = 0.0765
     }
     26000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.884
         trade_goods_size = 0.13
@@ -525,8 +525,8 @@
         province_trade_power_value = 0.078
     }
     26500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.901
         trade_goods_size = 0.132
@@ -535,8 +535,8 @@
         province_trade_power_value = 0.0795
     }
     27000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.918
         trade_goods_size = 0.135
@@ -545,8 +545,8 @@
         province_trade_power_value = 0.081
     }
     27500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.935
         trade_goods_size = 0.138
@@ -555,8 +555,8 @@
         province_trade_power_value = 0.0825
     }
     28000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.952
         trade_goods_size = 0.14
@@ -565,8 +565,8 @@
         province_trade_power_value = 0.084
     }
     28500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.969
         trade_goods_size = 0.142
@@ -575,8 +575,8 @@
         province_trade_power_value = 0.0855
     }
     29000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.986
         trade_goods_size = 0.145
@@ -585,8 +585,8 @@
         province_trade_power_value = 0.087
     }
     29500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1
         trade_goods_size = 0.147
@@ -595,8 +595,8 @@
         province_trade_power_value = 0.0885
     }
     30000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.02
         trade_goods_size = 0.15
@@ -605,8 +605,8 @@
         province_trade_power_value = 0.09
     }
     30500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.04
         trade_goods_size = 0.153
@@ -615,8 +615,8 @@
         province_trade_power_value = 0.0915
     }
     31000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.05
         trade_goods_size = 0.155
@@ -625,8 +625,8 @@
         province_trade_power_value = 0.093
     }
     31500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.07
         trade_goods_size = 0.157
@@ -635,8 +635,8 @@
         province_trade_power_value = 0.0945
     }
     32000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.09
         trade_goods_size = 0.16
@@ -645,8 +645,8 @@
         province_trade_power_value = 0.096
     }
     32500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.11
         trade_goods_size = 0.162
@@ -655,8 +655,8 @@
         province_trade_power_value = 0.0975
     }
     33000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.12
         trade_goods_size = 0.165
@@ -665,8 +665,8 @@
         province_trade_power_value = 0.099
     }
     33500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.14
         trade_goods_size = 0.168
@@ -675,8 +675,8 @@
         province_trade_power_value = 0.101
     }
     34000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.16
         trade_goods_size = 0.17
@@ -685,8 +685,8 @@
         province_trade_power_value = 0.102
     }
     34500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.17
         trade_goods_size = 0.172
@@ -695,8 +695,8 @@
         province_trade_power_value = 0.104
     }
     35000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.19
         trade_goods_size = 0.175
@@ -705,8 +705,8 @@
         province_trade_power_value = 0.105
     }
     35500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.21
         trade_goods_size = 0.177
@@ -715,8 +715,8 @@
         province_trade_power_value = 0.106
     }
     36000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.22
         trade_goods_size = 0.18
@@ -725,8 +725,8 @@
         province_trade_power_value = 0.108
     }
     36500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.24
         trade_goods_size = 0.183
@@ -735,8 +735,8 @@
         province_trade_power_value = 0.109
     }
     37000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.26
         trade_goods_size = 0.185
@@ -745,8 +745,8 @@
         province_trade_power_value = 0.111
     }
     37500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.28
         trade_goods_size = 0.188
@@ -755,8 +755,8 @@
         province_trade_power_value = 0.112
     }
     38000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.29
         trade_goods_size = 0.19
@@ -765,8 +765,8 @@
         province_trade_power_value = 0.114
     }
     38500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.31
         trade_goods_size = 0.192
@@ -775,8 +775,8 @@
         province_trade_power_value = 0.116
     }
     39000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.33
         trade_goods_size = 0.195
@@ -785,8 +785,8 @@
         province_trade_power_value = 0.117
     }
     39500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.34
         trade_goods_size = 0.198
@@ -795,8 +795,8 @@
         province_trade_power_value = 0.119
     }
     40000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.36
         trade_goods_size = 0.2
@@ -805,8 +805,8 @@
         province_trade_power_value = 0.12
     }
     40500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.38
         trade_goods_size = 0.203
@@ -815,8 +815,8 @@
         province_trade_power_value = 0.122
     }
     41000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.39
         trade_goods_size = 0.205
@@ -825,8 +825,8 @@
         province_trade_power_value = 0.123
     }
     41500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.41
         trade_goods_size = 0.207
@@ -835,8 +835,8 @@
         province_trade_power_value = 0.124
     }
     42000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.43
         trade_goods_size = 0.21
@@ -845,8 +845,8 @@
         province_trade_power_value = 0.126
     }
     42500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.45
         trade_goods_size = 0.213
@@ -855,8 +855,8 @@
         province_trade_power_value = 0.127
     }
     43000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.46
         trade_goods_size = 0.215
@@ -865,8 +865,8 @@
         province_trade_power_value = 0.129
     }
     43500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.48
         trade_goods_size = 0.218
@@ -875,8 +875,8 @@
         province_trade_power_value = 0.131
     }
     44000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.5
         trade_goods_size = 0.22
@@ -885,8 +885,8 @@
         province_trade_power_value = 0.132
     }
     44500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.51
         trade_goods_size = 0.222
@@ -895,8 +895,8 @@
         province_trade_power_value = 0.133
     }
     45000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.53
         trade_goods_size = 0.225
@@ -905,8 +905,8 @@
         province_trade_power_value = 0.135
     }
     45500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.55
         trade_goods_size = 0.228
@@ -915,8 +915,8 @@
         province_trade_power_value = 0.137
     }
     46000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.56
         trade_goods_size = 0.23
@@ -925,8 +925,8 @@
         province_trade_power_value = 0.138
     }
     46500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.58
         trade_goods_size = 0.233
@@ -935,8 +935,8 @@
         province_trade_power_value = 0.14
     }
     47000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.6
         trade_goods_size = 0.235
@@ -945,8 +945,8 @@
         province_trade_power_value = 0.141
     }
     47500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.62
         trade_goods_size = 0.237
@@ -955,8 +955,8 @@
         province_trade_power_value = 0.142
     }
     48000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.63
         trade_goods_size = 0.24
@@ -965,8 +965,8 @@
         province_trade_power_value = 0.144
     }
     48500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.65
         trade_goods_size = 0.243
@@ -975,8 +975,8 @@
         province_trade_power_value = 0.146
     }
     49000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.67
         trade_goods_size = 0.245
@@ -985,8 +985,8 @@
         province_trade_power_value = 0.147
     }
     49500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.68
         trade_goods_size = 0.248
@@ -995,8 +995,8 @@
         province_trade_power_value = 0.148
     }
     50000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.7
         trade_goods_size = 0.25
@@ -1005,8 +1005,8 @@
         province_trade_power_value = 0.15
     }
     50500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.72
         trade_goods_size = 0.252
@@ -1015,8 +1015,8 @@
         province_trade_power_value = 0.152
     }
     51000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.73
         trade_goods_size = 0.255
@@ -1025,8 +1025,8 @@
         province_trade_power_value = 0.153
     }
     51500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.75
         trade_goods_size = 0.257
@@ -1035,8 +1035,8 @@
         province_trade_power_value = 0.154
     }
     52000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.77
         trade_goods_size = 0.26
@@ -1045,8 +1045,8 @@
         province_trade_power_value = 0.156
     }
     52500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.79
         trade_goods_size = 0.262
@@ -1055,8 +1055,8 @@
         province_trade_power_value = 0.157
     }
     53000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.8
         trade_goods_size = 0.265
@@ -1065,8 +1065,8 @@
         province_trade_power_value = 0.159
     }
     53500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.82
         trade_goods_size = 0.268
@@ -1075,8 +1075,8 @@
         province_trade_power_value = 0.161
     }
     54000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.84
         trade_goods_size = 0.27
@@ -1085,8 +1085,8 @@
         province_trade_power_value = 0.162
     }
     54500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.85
         trade_goods_size = 0.273
@@ -1095,8 +1095,8 @@
         province_trade_power_value = 0.163
     }
     55000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.87
         trade_goods_size = 0.275
@@ -1105,8 +1105,8 @@
         province_trade_power_value = 0.165
     }
     55500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.89
         trade_goods_size = 0.278
@@ -1115,8 +1115,8 @@
         province_trade_power_value = 0.167
     }
     56000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.9
         trade_goods_size = 0.28
@@ -1125,8 +1125,8 @@
         province_trade_power_value = 0.168
     }
     56500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.92
         trade_goods_size = 0.282
@@ -1135,8 +1135,8 @@
         province_trade_power_value = 0.169
     }
     57000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.94
         trade_goods_size = 0.285
@@ -1145,8 +1145,8 @@
         province_trade_power_value = 0.171
     }
     57500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.96
         trade_goods_size = 0.287
@@ -1155,8 +1155,8 @@
         province_trade_power_value = 0.172
     }
     58000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.97
         trade_goods_size = 0.29
@@ -1165,8 +1165,8 @@
         province_trade_power_value = 0.174
     }
     58500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.99
         trade_goods_size = 0.292
@@ -1175,8 +1175,8 @@
         province_trade_power_value = 0.176
     }
     59000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.01
         trade_goods_size = 0.295
@@ -1185,8 +1185,8 @@
         province_trade_power_value = 0.177
     }
     59500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.02
         trade_goods_size = 0.298
@@ -1195,8 +1195,8 @@
         province_trade_power_value = 0.178
     }
     60000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.04
         trade_goods_size = 0.3
@@ -1205,8 +1205,8 @@
         province_trade_power_value = 0.18
     }
     60500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.06
         trade_goods_size = 0.303
@@ -1215,8 +1215,8 @@
         province_trade_power_value = 0.182
     }
     61000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.07
         trade_goods_size = 0.305
@@ -1225,8 +1225,8 @@
         province_trade_power_value = 0.183
     }
     61500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.09
         trade_goods_size = 0.308
@@ -1235,8 +1235,8 @@
         province_trade_power_value = 0.184
     }
     62000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.11
         trade_goods_size = 0.31
@@ -1245,8 +1245,8 @@
         province_trade_power_value = 0.186
     }
     62500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.12
         trade_goods_size = 0.312
@@ -1255,8 +1255,8 @@
         province_trade_power_value = 0.188
     }
     63000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.14
         trade_goods_size = 0.315
@@ -1265,8 +1265,8 @@
         province_trade_power_value = 0.189
     }
     63500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.16
         trade_goods_size = 0.317
@@ -1275,8 +1275,8 @@
         province_trade_power_value = 0.191
     }
     64000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.18
         trade_goods_size = 0.32
@@ -1285,8 +1285,8 @@
         province_trade_power_value = 0.192
     }
     64500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.19
         trade_goods_size = 0.322
@@ -1295,8 +1295,8 @@
         province_trade_power_value = 0.193
     }
     65000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.21
         trade_goods_size = 0.325
@@ -1305,8 +1305,8 @@
         province_trade_power_value = 0.195
     }
     65500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.23
         trade_goods_size = 0.327
@@ -1315,8 +1315,8 @@
         province_trade_power_value = 0.197
     }
     66000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.24
         trade_goods_size = 0.33
@@ -1325,8 +1325,8 @@
         province_trade_power_value = 0.198
     }
     66500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.26
         trade_goods_size = 0.333
@@ -1335,8 +1335,8 @@
         province_trade_power_value = 0.199
     }
     67000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.28
         trade_goods_size = 0.335
@@ -1345,8 +1345,8 @@
         province_trade_power_value = 0.201
     }
     67500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.3
         trade_goods_size = 0.338
@@ -1355,8 +1355,8 @@
         province_trade_power_value = 0.203
     }
     68000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.31
         trade_goods_size = 0.34
@@ -1365,8 +1365,8 @@
         province_trade_power_value = 0.204
     }
     68500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.33
         trade_goods_size = 0.343
@@ -1375,8 +1375,8 @@
         province_trade_power_value = 0.206
     }
     69000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.35
         trade_goods_size = 0.345
@@ -1385,8 +1385,8 @@
         province_trade_power_value = 0.207
     }
     69500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.36
         trade_goods_size = 0.347
@@ -1395,8 +1395,8 @@
         province_trade_power_value = 0.208
     }
     70000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.38
         trade_goods_size = 0.35
@@ -1405,8 +1405,8 @@
         province_trade_power_value = 0.21
     }
     70500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.4
         trade_goods_size = 0.352
@@ -1415,8 +1415,8 @@
         province_trade_power_value = 0.212
     }
     71000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.41
         trade_goods_size = 0.355
@@ -1425,8 +1425,8 @@
         province_trade_power_value = 0.213
     }
     71500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.43
         trade_goods_size = 0.357
@@ -1435,8 +1435,8 @@
         province_trade_power_value = 0.214
     }
     72000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.45
         trade_goods_size = 0.36
@@ -1445,8 +1445,8 @@
         province_trade_power_value = 0.216
     }
     72500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.47
         trade_goods_size = 0.363
@@ -1455,8 +1455,8 @@
         province_trade_power_value = 0.218
     }
     73000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.48
         trade_goods_size = 0.365
@@ -1465,8 +1465,8 @@
         province_trade_power_value = 0.219
     }
     73500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.5
         trade_goods_size = 0.368
@@ -1475,8 +1475,8 @@
         province_trade_power_value = 0.221
     }
     74000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.52
         trade_goods_size = 0.37
@@ -1485,8 +1485,8 @@
         province_trade_power_value = 0.222
     }
     74500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.53
         trade_goods_size = 0.373
@@ -1495,8 +1495,8 @@
         province_trade_power_value = 0.223
     }
     75000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.55
         trade_goods_size = 0.375
@@ -1505,8 +1505,8 @@
         province_trade_power_value = 0.225
     }
     75500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.57
         trade_goods_size = 0.377
@@ -1515,8 +1515,8 @@
         province_trade_power_value = 0.227
     }
     76000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.58
         trade_goods_size = 0.38
@@ -1525,8 +1525,8 @@
         province_trade_power_value = 0.228
     }
     76500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.6
         trade_goods_size = 0.382
@@ -1535,8 +1535,8 @@
         province_trade_power_value = 0.229
     }
     77000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.62
         trade_goods_size = 0.385
@@ -1545,8 +1545,8 @@
         province_trade_power_value = 0.231
     }
     77500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.64
         trade_goods_size = 0.387
@@ -1555,8 +1555,8 @@
         province_trade_power_value = 0.233
     }
     78000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.65
         trade_goods_size = 0.39
@@ -1565,8 +1565,8 @@
         province_trade_power_value = 0.234
     }
     78500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.67
         trade_goods_size = 0.393
@@ -1575,8 +1575,8 @@
         province_trade_power_value = 0.235
     }
     79000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.69
         trade_goods_size = 0.395
@@ -1585,8 +1585,8 @@
         province_trade_power_value = 0.237
     }
     79500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.7
         trade_goods_size = 0.398
@@ -1595,8 +1595,8 @@
         province_trade_power_value = 0.238
     }
     80000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.72
         trade_goods_size = 0.4
@@ -1605,8 +1605,8 @@
         province_trade_power_value = 0.24
     }
     80500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.74
         trade_goods_size = 0.403
@@ -1615,8 +1615,8 @@
         province_trade_power_value = 0.242
     }
     81000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.75
         trade_goods_size = 0.405
@@ -1625,8 +1625,8 @@
         province_trade_power_value = 0.243
     }
     81500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.77
         trade_goods_size = 0.407
@@ -1635,8 +1635,8 @@
         province_trade_power_value = 0.244
     }
     82000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.79
         trade_goods_size = 0.41
@@ -1645,8 +1645,8 @@
         province_trade_power_value = 0.246
     }
     82500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.81
         trade_goods_size = 0.412
@@ -1655,8 +1655,8 @@
         province_trade_power_value = 0.248
     }
     83000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.82
         trade_goods_size = 0.415
@@ -1665,8 +1665,8 @@
         province_trade_power_value = 0.249
     }
     83500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.84
         trade_goods_size = 0.417
@@ -1675,8 +1675,8 @@
         province_trade_power_value = 0.25
     }
     84000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.86
         trade_goods_size = 0.42
@@ -1685,8 +1685,8 @@
         province_trade_power_value = 0.252
     }
     84500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.87
         trade_goods_size = 0.423
@@ -1695,8 +1695,8 @@
         province_trade_power_value = 0.254
     }
     85000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.89
         trade_goods_size = 0.425
@@ -1705,8 +1705,8 @@
         province_trade_power_value = 0.255
     }
     85500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.91
         trade_goods_size = 0.428
@@ -1715,8 +1715,8 @@
         province_trade_power_value = 0.257
     }
     86000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.92
         trade_goods_size = 0.43
@@ -1725,8 +1725,8 @@
         province_trade_power_value = 0.258
     }
     86500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.94
         trade_goods_size = 0.433
@@ -1735,8 +1735,8 @@
         province_trade_power_value = 0.259
     }
     87000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.96
         trade_goods_size = 0.435
@@ -1745,8 +1745,8 @@
         province_trade_power_value = 0.261
     }
     87500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.98
         trade_goods_size = 0.438
@@ -1755,8 +1755,8 @@
         province_trade_power_value = 0.262
     }
     88000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.99
         trade_goods_size = 0.44
@@ -1765,8 +1765,8 @@
         province_trade_power_value = 0.264
     }
     88500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.01
         trade_goods_size = 0.442
@@ -1775,8 +1775,8 @@
         province_trade_power_value = 0.266
     }
     89000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.03
         trade_goods_size = 0.445
@@ -1785,8 +1785,8 @@
         province_trade_power_value = 0.267
     }
     89500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.04
         trade_goods_size = 0.447
@@ -1795,8 +1795,8 @@
         province_trade_power_value = 0.269
     }
     90000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.06
         trade_goods_size = 0.45
@@ -1805,8 +1805,8 @@
         province_trade_power_value = 0.27
     }
     90500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.08
         trade_goods_size = 0.452
@@ -1815,8 +1815,8 @@
         province_trade_power_value = 0.271
     }
     91000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.09
         trade_goods_size = 0.455
@@ -1825,8 +1825,8 @@
         province_trade_power_value = 0.273
     }
     91500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.11
         trade_goods_size = 0.458
@@ -1835,8 +1835,8 @@
         province_trade_power_value = 0.275
     }
     92000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.13
         trade_goods_size = 0.46
@@ -1845,8 +1845,8 @@
         province_trade_power_value = 0.276
     }
     92500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.15
         trade_goods_size = 0.463
@@ -1855,8 +1855,8 @@
         province_trade_power_value = 0.278
     }
     93000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.16
         trade_goods_size = 0.465
@@ -1865,8 +1865,8 @@
         province_trade_power_value = 0.279
     }
     93500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.18
         trade_goods_size = 0.468
@@ -1875,8 +1875,8 @@
         province_trade_power_value = 0.28
     }
     94000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.2
         trade_goods_size = 0.47
@@ -1885,8 +1885,8 @@
         province_trade_power_value = 0.282
     }
     94500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.21
         trade_goods_size = 0.472
@@ -1895,8 +1895,8 @@
         province_trade_power_value = 0.283
     }
     95000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.23
         trade_goods_size = 0.475
@@ -1905,8 +1905,8 @@
         province_trade_power_value = 0.285
     }
     95500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.25
         trade_goods_size = 0.477
@@ -1915,8 +1915,8 @@
         province_trade_power_value = 0.287
     }
     96000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.26
         trade_goods_size = 0.48
@@ -1925,8 +1925,8 @@
         province_trade_power_value = 0.288
     }
     96500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.28
         trade_goods_size = 0.482
@@ -1935,8 +1935,8 @@
         province_trade_power_value = 0.289
     }
     97000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.3
         trade_goods_size = 0.485
@@ -1945,8 +1945,8 @@
         province_trade_power_value = 0.291
     }
     97500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.32
         trade_goods_size = 0.488
@@ -1955,8 +1955,8 @@
         province_trade_power_value = 0.292
     }
     98000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.33
         trade_goods_size = 0.49
@@ -1965,8 +1965,8 @@
         province_trade_power_value = 0.294
     }
     98500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.35
         trade_goods_size = 0.493
@@ -1975,8 +1975,8 @@
         province_trade_power_value = 0.296
     }
     99000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.37
         trade_goods_size = 0.495
@@ -1985,8 +1985,8 @@
         province_trade_power_value = 0.297
     }
     99500_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.38
         trade_goods_size = 0.498
@@ -1995,8 +1995,8 @@
         province_trade_power_value = 0.299
     }
     100000_rural_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.4
         trade_goods_size = 0.5
@@ -2009,13 +2009,13 @@
 # Urban Population Size Modifiers
 
     0_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
     }
     500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.025
         trade_goods_size = 0.005
@@ -2024,8 +2024,8 @@
         province_trade_power_value = 0.03
     }
     1000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.05
         trade_goods_size = 0.01
@@ -2034,8 +2034,8 @@
         province_trade_power_value = 0.06
     }
     1500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.075
         trade_goods_size = 0.015
@@ -2044,8 +2044,8 @@
         province_trade_power_value = 0.09
     }
     2000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.1
         trade_goods_size = 0.02
@@ -2054,8 +2054,8 @@
         province_trade_power_value = 0.12
     }
     2500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.125
         trade_goods_size = 0.025
@@ -2064,8 +2064,8 @@
         province_trade_power_value = 0.15
     }
     3000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.15
         trade_goods_size = 0.03
@@ -2074,8 +2074,8 @@
         province_trade_power_value = 0.18
     }
     3500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.175
         trade_goods_size = 0.035
@@ -2084,8 +2084,8 @@
         province_trade_power_value = 0.21
     }
     4000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.2
         trade_goods_size = 0.04
@@ -2094,8 +2094,8 @@
         province_trade_power_value = 0.24
     }
     4500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.225
         trade_goods_size = 0.045
@@ -2104,8 +2104,8 @@
         province_trade_power_value = 0.27
     }
     5000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.25
         trade_goods_size = 0.05
@@ -2114,8 +2114,8 @@
         province_trade_power_value = 0.3
     }
     5500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.275
         trade_goods_size = 0.055
@@ -2124,8 +2124,8 @@
         province_trade_power_value = 0.33
     }
     6000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.3
         trade_goods_size = 0.06
@@ -2134,8 +2134,8 @@
         province_trade_power_value = 0.36
     }
     6500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.325
         trade_goods_size = 0.065
@@ -2144,8 +2144,8 @@
         province_trade_power_value = 0.39
     }
     7000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.35
         trade_goods_size = 0.07
@@ -2154,8 +2154,8 @@
         province_trade_power_value = 0.42
     }
     7500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.375
         trade_goods_size = 0.075
@@ -2164,8 +2164,8 @@
         province_trade_power_value = 0.45
     }
     8000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.4
         trade_goods_size = 0.08
@@ -2174,8 +2174,8 @@
         province_trade_power_value = 0.48
     }
     8500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.425
         trade_goods_size = 0.085
@@ -2184,8 +2184,8 @@
         province_trade_power_value = 0.51
     }
     9000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.45
         trade_goods_size = 0.09
@@ -2194,8 +2194,8 @@
         province_trade_power_value = 0.54
     }
     9500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.475
         trade_goods_size = 0.095
@@ -2204,8 +2204,8 @@
         province_trade_power_value = 0.57
     }
     10000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.5
         trade_goods_size = 0.1
@@ -2214,8 +2214,8 @@
         province_trade_power_value = 0.6
     }
     10500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.525
         trade_goods_size = 0.105
@@ -2224,8 +2224,8 @@
         province_trade_power_value = 0.63
     }
     11000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.55
         trade_goods_size = 0.11
@@ -2234,8 +2234,8 @@
         province_trade_power_value = 0.66
     }
     11500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.575
         trade_goods_size = 0.115
@@ -2244,8 +2244,8 @@
         province_trade_power_value = 0.69
     }
     12000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.6
         trade_goods_size = 0.12
@@ -2254,8 +2254,8 @@
         province_trade_power_value = 0.72
     }
     12500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.625
         trade_goods_size = 0.125
@@ -2264,8 +2264,8 @@
         province_trade_power_value = 0.75
     }
     13000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.65
         trade_goods_size = 0.13
@@ -2274,8 +2274,8 @@
         province_trade_power_value = 0.78
     }
     13500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.675
         trade_goods_size = 0.135
@@ -2284,8 +2284,8 @@
         province_trade_power_value = 0.81
     }
     14000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.7
         trade_goods_size = 0.14
@@ -2294,8 +2294,8 @@
         province_trade_power_value = 0.84
     }
     14500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.725
         trade_goods_size = 0.145
@@ -2304,8 +2304,8 @@
         province_trade_power_value = 0.87
     }
     15000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.75
         trade_goods_size = 0.15
@@ -2314,8 +2314,8 @@
         province_trade_power_value = 0.9
     }
     15500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.775
         trade_goods_size = 0.155
@@ -2324,8 +2324,8 @@
         province_trade_power_value = 0.93
     }
     16000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.8
         trade_goods_size = 0.16
@@ -2334,8 +2334,8 @@
         province_trade_power_value = 0.96
     }
     16500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.825
         trade_goods_size = 0.165
@@ -2344,8 +2344,8 @@
         province_trade_power_value = 0.99
     }
     17000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.85
         trade_goods_size = 0.17
@@ -2354,8 +2354,8 @@
         province_trade_power_value = 1.02
     }
     17500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.875
         trade_goods_size = 0.175
@@ -2364,8 +2364,8 @@
         province_trade_power_value = 1.05
     }
     18000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.9
         trade_goods_size = 0.18
@@ -2374,8 +2374,8 @@
         province_trade_power_value = 1.08
     }
     18500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.925
         trade_goods_size = 0.185
@@ -2384,8 +2384,8 @@
         province_trade_power_value = 1.11
     }
     19000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.95
         trade_goods_size = 0.19
@@ -2394,8 +2394,8 @@
         province_trade_power_value = 1.14
     }
     19500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 0.975
         trade_goods_size = 0.195
@@ -2404,8 +2404,8 @@
         province_trade_power_value = 1.17
     }
     20000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1
         trade_goods_size = 0.2
@@ -2414,8 +2414,8 @@
         province_trade_power_value = 1.2
     }
     20500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.02
         trade_goods_size = 0.205
@@ -2424,8 +2424,8 @@
         province_trade_power_value = 1.23
     }
     21000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.05
         trade_goods_size = 0.21
@@ -2434,8 +2434,8 @@
         province_trade_power_value = 1.26
     }
     21500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.08
         trade_goods_size = 0.215
@@ -2444,8 +2444,8 @@
         province_trade_power_value = 1.29
     }
     22000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.1
         trade_goods_size = 0.22
@@ -2454,8 +2454,8 @@
         province_trade_power_value = 1.32
     }
     22500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.12
         trade_goods_size = 0.225
@@ -2464,8 +2464,8 @@
         province_trade_power_value = 1.35
     }
     23000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.15
         trade_goods_size = 0.23
@@ -2474,8 +2474,8 @@
         province_trade_power_value = 1.38
     }
     23500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.17
         trade_goods_size = 0.235
@@ -2484,8 +2484,8 @@
         province_trade_power_value = 1.41
     }
     24000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.2
         trade_goods_size = 0.24
@@ -2494,8 +2494,8 @@
         province_trade_power_value = 1.44
     }
     24500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.23
         trade_goods_size = 0.245
@@ -2504,8 +2504,8 @@
         province_trade_power_value = 1.47
     }
     25000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.25
         trade_goods_size = 0.25
@@ -2514,8 +2514,8 @@
         province_trade_power_value = 1.5
     }
     25500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.27
         trade_goods_size = 0.255
@@ -2524,8 +2524,8 @@
         province_trade_power_value = 1.53
     }
     26000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.3
         trade_goods_size = 0.26
@@ -2534,8 +2534,8 @@
         province_trade_power_value = 1.56
     }
     26500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.33
         trade_goods_size = 0.265
@@ -2544,8 +2544,8 @@
         province_trade_power_value = 1.59
     }
     27000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.35
         trade_goods_size = 0.27
@@ -2554,8 +2554,8 @@
         province_trade_power_value = 1.62
     }
     27500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.38
         trade_goods_size = 0.275
@@ -2564,8 +2564,8 @@
         province_trade_power_value = 1.65
     }
     28000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.4
         trade_goods_size = 0.28
@@ -2574,8 +2574,8 @@
         province_trade_power_value = 1.68
     }
     28500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.42
         trade_goods_size = 0.285
@@ -2584,8 +2584,8 @@
         province_trade_power_value = 1.71
     }
     29000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.45
         trade_goods_size = 0.29
@@ -2594,8 +2594,8 @@
         province_trade_power_value = 1.74
     }
     29500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.48
         trade_goods_size = 0.295
@@ -2604,8 +2604,8 @@
         province_trade_power_value = 1.77
     }
     30000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.5
         trade_goods_size = 0.3
@@ -2614,8 +2614,8 @@
         province_trade_power_value = 1.8
     }
     30500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.52
         trade_goods_size = 0.305
@@ -2624,8 +2624,8 @@
         province_trade_power_value = 1.83
     }
     31000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.55
         trade_goods_size = 0.31
@@ -2634,8 +2634,8 @@
         province_trade_power_value = 1.86
     }
     31500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.58
         trade_goods_size = 0.315
@@ -2644,8 +2644,8 @@
         province_trade_power_value = 1.89
     }
     32000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.6
         trade_goods_size = 0.32
@@ -2654,8 +2654,8 @@
         province_trade_power_value = 1.92
     }
     32500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.62
         trade_goods_size = 0.325
@@ -2664,8 +2664,8 @@
         province_trade_power_value = 1.95
     }
     33000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.65
         trade_goods_size = 0.33
@@ -2674,8 +2674,8 @@
         province_trade_power_value = 1.98
     }
     33500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.67
         trade_goods_size = 0.335
@@ -2684,8 +2684,8 @@
         province_trade_power_value = 2.01
     }
     34000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.7
         trade_goods_size = 0.34
@@ -2694,8 +2694,8 @@
         province_trade_power_value = 2.04
     }
     34500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.73
         trade_goods_size = 0.345
@@ -2704,8 +2704,8 @@
         province_trade_power_value = 2.07
     }
     35000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.75
         trade_goods_size = 0.35
@@ -2714,8 +2714,8 @@
         province_trade_power_value = 2.1
     }
     35500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.77
         trade_goods_size = 0.355
@@ -2724,8 +2724,8 @@
         province_trade_power_value = 2.13
     }
     36000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.8
         trade_goods_size = 0.36
@@ -2734,8 +2734,8 @@
         province_trade_power_value = 2.16
     }
     36500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.83
         trade_goods_size = 0.365
@@ -2744,8 +2744,8 @@
         province_trade_power_value = 2.19
     }
     37000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.85
         trade_goods_size = 0.37
@@ -2754,8 +2754,8 @@
         province_trade_power_value = 2.22
     }
     37500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.88
         trade_goods_size = 0.375
@@ -2764,8 +2764,8 @@
         province_trade_power_value = 2.25
     }
     38000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.9
         trade_goods_size = 0.38
@@ -2774,8 +2774,8 @@
         province_trade_power_value = 2.28
     }
     38500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.92
         trade_goods_size = 0.385
@@ -2784,8 +2784,8 @@
         province_trade_power_value = 2.31
     }
     39000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.95
         trade_goods_size = 0.39
@@ -2794,8 +2794,8 @@
         province_trade_power_value = 2.34
     }
     39500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 1.98
         trade_goods_size = 0.395
@@ -2804,8 +2804,8 @@
         province_trade_power_value = 2.37
     }
     40000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2
         trade_goods_size = 0.4
@@ -2814,8 +2814,8 @@
         province_trade_power_value = 2.4
     }
     40500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.03
         trade_goods_size = 0.405
@@ -2824,8 +2824,8 @@
         province_trade_power_value = 2.43
     }
     41000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.05
         trade_goods_size = 0.41
@@ -2834,8 +2834,8 @@
         province_trade_power_value = 2.46
     }
     41500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.08
         trade_goods_size = 0.415
@@ -2844,8 +2844,8 @@
         province_trade_power_value = 2.49
     }
     42000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.1
         trade_goods_size = 0.42
@@ -2854,8 +2854,8 @@
         province_trade_power_value = 2.52
     }
     42500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.12
         trade_goods_size = 0.425
@@ -2864,8 +2864,8 @@
         province_trade_power_value = 2.55
     }
     43000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.15
         trade_goods_size = 0.43
@@ -2874,8 +2874,8 @@
         province_trade_power_value = 2.58
     }
     43500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.17
         trade_goods_size = 0.435
@@ -2884,8 +2884,8 @@
         province_trade_power_value = 2.61
     }
     44000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.2
         trade_goods_size = 0.44
@@ -2894,8 +2894,8 @@
         province_trade_power_value = 2.64
     }
     44500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.22
         trade_goods_size = 0.445
@@ -2904,8 +2904,8 @@
         province_trade_power_value = 2.67
     }
     45000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.25
         trade_goods_size = 0.45
@@ -2914,8 +2914,8 @@
         province_trade_power_value = 2.7
     }
     45500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.28
         trade_goods_size = 0.455
@@ -2924,8 +2924,8 @@
         province_trade_power_value = 2.73
     }
     46000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.3
         trade_goods_size = 0.46
@@ -2934,8 +2934,8 @@
         province_trade_power_value = 2.76
     }
     46500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.33
         trade_goods_size = 0.465
@@ -2944,8 +2944,8 @@
         province_trade_power_value = 2.79
     }
     47000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.35
         trade_goods_size = 0.47
@@ -2954,8 +2954,8 @@
         province_trade_power_value = 2.82
     }
     47500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.38
         trade_goods_size = 0.475
@@ -2964,8 +2964,8 @@
         province_trade_power_value = 2.85
     }
     48000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.4
         trade_goods_size = 0.48
@@ -2974,8 +2974,8 @@
         province_trade_power_value = 2.88
     }
     48500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.42
         trade_goods_size = 0.485
@@ -2984,8 +2984,8 @@
         province_trade_power_value = 2.91
     }
     49000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.45
         trade_goods_size = 0.49
@@ -2994,8 +2994,8 @@
         province_trade_power_value = 2.94
     }
     49500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.47
         trade_goods_size = 0.495
@@ -3004,8 +3004,8 @@
         province_trade_power_value = 2.97
     }
     50000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.5
         trade_goods_size = 0.5
@@ -3014,8 +3014,8 @@
         province_trade_power_value = 3
     }
     50500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.53
         trade_goods_size = 0.505
@@ -3024,8 +3024,8 @@
         province_trade_power_value = 3.03
     }
     51000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.55
         trade_goods_size = 0.51
@@ -3034,8 +3034,8 @@
         province_trade_power_value = 3.06
     }
     51500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.58
         trade_goods_size = 0.515
@@ -3044,8 +3044,8 @@
         province_trade_power_value = 3.09
     }
     52000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.6
         trade_goods_size = 0.52
@@ -3054,8 +3054,8 @@
         province_trade_power_value = 3.12
     }
     52500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.62
         trade_goods_size = 0.525
@@ -3064,8 +3064,8 @@
         province_trade_power_value = 3.15
     }
     53000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.65
         trade_goods_size = 0.53
@@ -3074,8 +3074,8 @@
         province_trade_power_value = 3.18
     }
     53500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.67
         trade_goods_size = 0.535
@@ -3084,8 +3084,8 @@
         province_trade_power_value = 3.21
     }
     54000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.7
         trade_goods_size = 0.54
@@ -3094,8 +3094,8 @@
         province_trade_power_value = 3.24
     }
     54500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.72
         trade_goods_size = 0.545
@@ -3104,8 +3104,8 @@
         province_trade_power_value = 3.27
     }
     55000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.75
         trade_goods_size = 0.55
@@ -3114,8 +3114,8 @@
         province_trade_power_value = 3.3
     }
     55500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.78
         trade_goods_size = 0.555
@@ -3124,8 +3124,8 @@
         province_trade_power_value = 3.33
     }
     56000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.8
         trade_goods_size = 0.56
@@ -3134,8 +3134,8 @@
         province_trade_power_value = 3.36
     }
     56500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.83
         trade_goods_size = 0.565
@@ -3144,8 +3144,8 @@
         province_trade_power_value = 3.39
     }
     57000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.85
         trade_goods_size = 0.57
@@ -3154,8 +3154,8 @@
         province_trade_power_value = 3.42
     }
     57500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.88
         trade_goods_size = 0.575
@@ -3164,8 +3164,8 @@
         province_trade_power_value = 3.45
     }
     58000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.9
         trade_goods_size = 0.58
@@ -3174,8 +3174,8 @@
         province_trade_power_value = 3.48
     }
     58500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.92
         trade_goods_size = 0.585
@@ -3184,8 +3184,8 @@
         province_trade_power_value = 3.51
     }
     59000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.95
         trade_goods_size = 0.59
@@ -3194,8 +3194,8 @@
         province_trade_power_value = 3.54
     }
     59500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 2.97
         trade_goods_size = 0.595
@@ -3204,8 +3204,8 @@
         province_trade_power_value = 3.57
     }
     60000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3
         trade_goods_size = 0.6
@@ -3214,8 +3214,8 @@
         province_trade_power_value = 3.6
     }
     60500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.03
         trade_goods_size = 0.605
@@ -3224,8 +3224,8 @@
         province_trade_power_value = 3.63
     }
     61000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.05
         trade_goods_size = 0.61
@@ -3234,8 +3234,8 @@
         province_trade_power_value = 3.66
     }
     61500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.08
         trade_goods_size = 0.615
@@ -3244,8 +3244,8 @@
         province_trade_power_value = 3.69
     }
     62000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.1
         trade_goods_size = 0.62
@@ -3254,8 +3254,8 @@
         province_trade_power_value = 3.72
     }
     62500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.12
         trade_goods_size = 0.625
@@ -3264,8 +3264,8 @@
         province_trade_power_value = 3.75
     }
     63000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.15
         trade_goods_size = 0.63
@@ -3274,8 +3274,8 @@
         province_trade_power_value = 3.78
     }
     63500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.17
         trade_goods_size = 0.635
@@ -3284,8 +3284,8 @@
         province_trade_power_value = 3.81
     }
     64000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.2
         trade_goods_size = 0.64
@@ -3294,8 +3294,8 @@
         province_trade_power_value = 3.84
     }
     64500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.22
         trade_goods_size = 0.645
@@ -3304,8 +3304,8 @@
         province_trade_power_value = 3.87
     }
     65000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.25
         trade_goods_size = 0.65
@@ -3314,8 +3314,8 @@
         province_trade_power_value = 3.9
     }
     65500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.28
         trade_goods_size = 0.655
@@ -3324,8 +3324,8 @@
         province_trade_power_value = 3.93
     }
     66000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.3
         trade_goods_size = 0.66
@@ -3334,8 +3334,8 @@
         province_trade_power_value = 3.96
     }
     66500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.33
         trade_goods_size = 0.665
@@ -3344,8 +3344,8 @@
         province_trade_power_value = 3.99
     }
     67000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.35
         trade_goods_size = 0.67
@@ -3354,8 +3354,8 @@
         province_trade_power_value = 4.02
     }
     67500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.38
         trade_goods_size = 0.675
@@ -3364,8 +3364,8 @@
         province_trade_power_value = 4.05
     }
     68000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.4
         trade_goods_size = 0.68
@@ -3374,8 +3374,8 @@
         province_trade_power_value = 4.08
     }
     68500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.42
         trade_goods_size = 0.685
@@ -3384,8 +3384,8 @@
         province_trade_power_value = 4.11
     }
     69000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.45
         trade_goods_size = 0.69
@@ -3394,8 +3394,8 @@
         province_trade_power_value = 4.14
     }
     69500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.47
         trade_goods_size = 0.695
@@ -3404,8 +3404,8 @@
         province_trade_power_value = 4.17
     }
     70000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.5
         trade_goods_size = 0.7
@@ -3414,8 +3414,8 @@
         province_trade_power_value = 4.2
     }
     70500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.53
         trade_goods_size = 0.705
@@ -3424,8 +3424,8 @@
         province_trade_power_value = 4.23
     }
     71000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.55
         trade_goods_size = 0.71
@@ -3434,8 +3434,8 @@
         province_trade_power_value = 4.26
     }
     71500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.58
         trade_goods_size = 0.715
@@ -3444,8 +3444,8 @@
         province_trade_power_value = 4.29
     }
     72000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.6
         trade_goods_size = 0.72
@@ -3454,8 +3454,8 @@
         province_trade_power_value = 4.32
     }
     72500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.62
         trade_goods_size = 0.725
@@ -3464,8 +3464,8 @@
         province_trade_power_value = 4.35
     }
     73000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.65
         trade_goods_size = 0.73
@@ -3474,8 +3474,8 @@
         province_trade_power_value = 4.38
     }
     73500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.67
         trade_goods_size = 0.735
@@ -3484,8 +3484,8 @@
         province_trade_power_value = 4.41
     }
     74000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.7
         trade_goods_size = 0.74
@@ -3494,8 +3494,8 @@
         province_trade_power_value = 4.44
     }
     74500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.72
         trade_goods_size = 0.745
@@ -3504,8 +3504,8 @@
         province_trade_power_value = 4.47
     }
     75000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.75
         trade_goods_size = 0.75
@@ -3514,8 +3514,8 @@
         province_trade_power_value = 4.5
     }
     75500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.78
         trade_goods_size = 0.755
@@ -3524,8 +3524,8 @@
         province_trade_power_value = 4.53
     }
     76000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.8
         trade_goods_size = 0.76
@@ -3534,8 +3534,8 @@
         province_trade_power_value = 4.56
     }
     76500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.83
         trade_goods_size = 0.765
@@ -3544,8 +3544,8 @@
         province_trade_power_value = 4.59
     }
     77000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.85
         trade_goods_size = 0.77
@@ -3554,8 +3554,8 @@
         province_trade_power_value = 4.62
     }
     77500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.88
         trade_goods_size = 0.775
@@ -3564,8 +3564,8 @@
         province_trade_power_value = 4.65
     }
     78000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.9
         trade_goods_size = 0.78
@@ -3574,8 +3574,8 @@
         province_trade_power_value = 4.68
     }
     78500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.92
         trade_goods_size = 0.785
@@ -3584,8 +3584,8 @@
         province_trade_power_value = 4.71
     }
     79000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.95
         trade_goods_size = 0.79
@@ -3594,8 +3594,8 @@
         province_trade_power_value = 4.74
     }
     79500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 3.97
         trade_goods_size = 0.795
@@ -3604,8 +3604,8 @@
         province_trade_power_value = 4.77
     }
     80000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4
         trade_goods_size = 0.8
@@ -3614,8 +3614,8 @@
         province_trade_power_value = 4.8
     }
     80500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.03
         trade_goods_size = 0.805
@@ -3624,8 +3624,8 @@
         province_trade_power_value = 4.83
     }
     81000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.05
         trade_goods_size = 0.81
@@ -3634,8 +3634,8 @@
         province_trade_power_value = 4.86
     }
     81500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.07
         trade_goods_size = 0.815
@@ -3644,8 +3644,8 @@
         province_trade_power_value = 4.89
     }
     82000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.1
         trade_goods_size = 0.82
@@ -3654,8 +3654,8 @@
         province_trade_power_value = 4.92
     }
     82500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.12
         trade_goods_size = 0.825
@@ -3664,8 +3664,8 @@
         province_trade_power_value = 4.95
     }
     83000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.15
         trade_goods_size = 0.83
@@ -3674,8 +3674,8 @@
         province_trade_power_value = 4.98
     }
     83500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.18
         trade_goods_size = 0.835
@@ -3684,8 +3684,8 @@
         province_trade_power_value = 5.01
     }
     84000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.2
         trade_goods_size = 0.84
@@ -3694,8 +3694,8 @@
         province_trade_power_value = 5.04
     }
     84500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.22
         trade_goods_size = 0.845
@@ -3704,8 +3704,8 @@
         province_trade_power_value = 5.07
     }
     85000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.25
         trade_goods_size = 0.85
@@ -3714,8 +3714,8 @@
         province_trade_power_value = 5.1
     }
     85500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.28
         trade_goods_size = 0.855
@@ -3724,8 +3724,8 @@
         province_trade_power_value = 5.13
     }
     86000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.3
         trade_goods_size = 0.86
@@ -3734,8 +3734,8 @@
         province_trade_power_value = 5.16
     }
     86500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.32
         trade_goods_size = 0.865
@@ -3744,8 +3744,8 @@
         province_trade_power_value = 5.19
     }
     87000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.35
         trade_goods_size = 0.87
@@ -3754,8 +3754,8 @@
         province_trade_power_value = 5.22
     }
     87500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.38
         trade_goods_size = 0.875
@@ -3764,8 +3764,8 @@
         province_trade_power_value = 5.25
     }
     88000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.4
         trade_goods_size = 0.88
@@ -3774,8 +3774,8 @@
         province_trade_power_value = 5.28
     }
     88500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.43
         trade_goods_size = 0.885
@@ -3784,8 +3784,8 @@
         province_trade_power_value = 5.31
     }
     89000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.45
         trade_goods_size = 0.89
@@ -3794,8 +3794,8 @@
         province_trade_power_value = 5.34
     }
     89500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.47
         trade_goods_size = 0.895
@@ -3804,8 +3804,8 @@
         province_trade_power_value = 5.37
     }
     90000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.5
         trade_goods_size = 0.9
@@ -3814,8 +3814,8 @@
         province_trade_power_value = 5.4
     }
     90500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.53
         trade_goods_size = 0.905
@@ -3824,8 +3824,8 @@
         province_trade_power_value = 5.43
     }
     91000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.55
         trade_goods_size = 0.91
@@ -3834,8 +3834,8 @@
         province_trade_power_value = 5.46
     }
     91500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.57
         trade_goods_size = 0.915
@@ -3844,8 +3844,8 @@
         province_trade_power_value = 5.49
     }
     92000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.6
         trade_goods_size = 0.92
@@ -3854,8 +3854,8 @@
         province_trade_power_value = 5.52
     }
     92500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.62
         trade_goods_size = 0.925
@@ -3864,8 +3864,8 @@
         province_trade_power_value = 5.55
     }
     93000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.65
         trade_goods_size = 0.93
@@ -3874,8 +3874,8 @@
         province_trade_power_value = 5.58
     }
     93500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.68
         trade_goods_size = 0.935
@@ -3884,8 +3884,8 @@
         province_trade_power_value = 5.61
     }
     94000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.7
         trade_goods_size = 0.94
@@ -3894,8 +3894,8 @@
         province_trade_power_value = 5.64
     }
     94500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.72
         trade_goods_size = 0.945
@@ -3904,8 +3904,8 @@
         province_trade_power_value = 5.67
     }
     95000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.75
         trade_goods_size = 0.95
@@ -3914,8 +3914,8 @@
         province_trade_power_value = 5.7
     }
     95500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.78
         trade_goods_size = 0.955
@@ -3924,8 +3924,8 @@
         province_trade_power_value = 5.73
     }
     96000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.8
         trade_goods_size = 0.96
@@ -3934,8 +3934,8 @@
         province_trade_power_value = 5.76
     }
     96500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.82
         trade_goods_size = 0.965
@@ -3944,8 +3944,8 @@
         province_trade_power_value = 5.79
     }
     97000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.85
         trade_goods_size = 0.97
@@ -3954,8 +3954,8 @@
         province_trade_power_value = 5.82
     }
     97500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.88
         trade_goods_size = 0.975
@@ -3964,8 +3964,8 @@
         province_trade_power_value = 5.85
     }
     98000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.9
         trade_goods_size = 0.98
@@ -3974,8 +3974,8 @@
         province_trade_power_value = 5.88
     }
     98500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.93
         trade_goods_size = 0.985
@@ -3984,8 +3984,8 @@
         province_trade_power_value = 5.91
     }
     99000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.95
         trade_goods_size = 0.99
@@ -3994,8 +3994,8 @@
         province_trade_power_value = 5.94
     }
     99500_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 4.97
         trade_goods_size = 0.995
@@ -4004,8 +4004,8 @@
         province_trade_power_value = 5.97
     }
     100000_urban_pop_modifier = {
-        
-        
+        potential = { always = yes }
+        trigger = { always = yes }
         hidden = yes
         tax_income = 5
         trade_goods_size = 1
