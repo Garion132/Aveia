@@ -3,1214 +3,1214 @@
 update_rural_pop_modifiers = {
 	clear_rural_pop_modifiers = yes
 	if = { limit = { check_variable = { which = rural_pop value = 100.0 } }
-		add_permanent_province_modifier = { name = 100000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 100000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 99.5 } }
-		add_permanent_province_modifier = { name = 99500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 99500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 99.0 } }
-		add_permanent_province_modifier = { name = 99000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 99000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 98.5 } }
-		add_permanent_province_modifier = { name = 98500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 98500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 98.0 } }
-		add_permanent_province_modifier = { name = 98000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 98000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 97.5 } }
-		add_permanent_province_modifier = { name = 97500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 97500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 97.0 } }
-		add_permanent_province_modifier = { name = 97000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 97000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 96.5 } }
-		add_permanent_province_modifier = { name = 96500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 96500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 96.0 } }
-		add_permanent_province_modifier = { name = 96000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 96000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 95.5 } }
-		add_permanent_province_modifier = { name = 95500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 95500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 95.0 } }
-		add_permanent_province_modifier = { name = 95000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 95000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 94.5 } }
-		add_permanent_province_modifier = { name = 94500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 94500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 94.0 } }
-		add_permanent_province_modifier = { name = 94000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 94000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 93.5 } }
-		add_permanent_province_modifier = { name = 93500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 93500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 93.0 } }
-		add_permanent_province_modifier = { name = 93000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 93000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 92.5 } }
-		add_permanent_province_modifier = { name = 92500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 92500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 92.0 } }
-		add_permanent_province_modifier = { name = 92000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 92000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 91.5 } }
-		add_permanent_province_modifier = { name = 91500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 91500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 91.0 } }
-		add_permanent_province_modifier = { name = 91000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 91000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 90.5 } }
-		add_permanent_province_modifier = { name = 90500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 90500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 90.0 } }
-		add_permanent_province_modifier = { name = 90000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 90000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 89.5 } }
-		add_permanent_province_modifier = { name = 89500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 89500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 89.0 } }
-		add_permanent_province_modifier = { name = 89000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 89000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 88.5 } }
-		add_permanent_province_modifier = { name = 88500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 88500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 88.0 } }
-		add_permanent_province_modifier = { name = 88000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 88000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 87.5 } }
-		add_permanent_province_modifier = { name = 87500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 87500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 87.0 } }
-		add_permanent_province_modifier = { name = 87000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 87000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 86.5 } }
-		add_permanent_province_modifier = { name = 86500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 86500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 86.0 } }
-		add_permanent_province_modifier = { name = 86000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 86000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 85.5 } }
-		add_permanent_province_modifier = { name = 85500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 85500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 85.0 } }
-		add_permanent_province_modifier = { name = 85000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 85000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 84.5 } }
-		add_permanent_province_modifier = { name = 84500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 84500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 84.0 } }
-		add_permanent_province_modifier = { name = 84000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 84000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 83.5 } }
-		add_permanent_province_modifier = { name = 83500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 83500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 83.0 } }
-		add_permanent_province_modifier = { name = 83000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 83000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 82.5 } }
-		add_permanent_province_modifier = { name = 82500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 82500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 82.0 } }
-		add_permanent_province_modifier = { name = 82000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 82000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 81.5 } }
-		add_permanent_province_modifier = { name = 81500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 81500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 81.0 } }
-		add_permanent_province_modifier = { name = 81000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 81000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 80.5 } }
-		add_permanent_province_modifier = { name = 80500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 80500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 80.0 } }
-		add_permanent_province_modifier = { name = 80000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 80000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 79.5 } }
-		add_permanent_province_modifier = { name = 79500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 79500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 79.0 } }
-		add_permanent_province_modifier = { name = 79000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 79000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 78.5 } }
-		add_permanent_province_modifier = { name = 78500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 78500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 78.0 } }
-		add_permanent_province_modifier = { name = 78000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 78000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 77.5 } }
-		add_permanent_province_modifier = { name = 77500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 77500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 77.0 } }
-		add_permanent_province_modifier = { name = 77000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 77000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 76.5 } }
-		add_permanent_province_modifier = { name = 76500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 76500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 76.0 } }
-		add_permanent_province_modifier = { name = 76000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 76000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 75.5 } }
-		add_permanent_province_modifier = { name = 75500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 75500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 75.0 } }
-		add_permanent_province_modifier = { name = 75000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 75000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 74.5 } }
-		add_permanent_province_modifier = { name = 74500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 74500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 74.0 } }
-		add_permanent_province_modifier = { name = 74000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 74000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 73.5 } }
-		add_permanent_province_modifier = { name = 73500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 73500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 73.0 } }
-		add_permanent_province_modifier = { name = 73000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 73000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 72.5 } }
-		add_permanent_province_modifier = { name = 72500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 72500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 72.0 } }
-		add_permanent_province_modifier = { name = 72000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 72000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 71.5 } }
-		add_permanent_province_modifier = { name = 71500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 71500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 71.0 } }
-		add_permanent_province_modifier = { name = 71000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 71000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 70.5 } }
-		add_permanent_province_modifier = { name = 70500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 70500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 70.0 } }
-		add_permanent_province_modifier = { name = 70000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 70000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 69.5 } }
-		add_permanent_province_modifier = { name = 69500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 69500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 69.0 } }
-		add_permanent_province_modifier = { name = 69000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 69000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 68.5 } }
-		add_permanent_province_modifier = { name = 68500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 68500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 68.0 } }
-		add_permanent_province_modifier = { name = 68000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 68000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 67.5 } }
-		add_permanent_province_modifier = { name = 67500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 67500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 67.0 } }
-		add_permanent_province_modifier = { name = 67000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 67000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 66.5 } }
-		add_permanent_province_modifier = { name = 66500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 66500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 66.0 } }
-		add_permanent_province_modifier = { name = 66000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 66000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 65.5 } }
-		add_permanent_province_modifier = { name = 65500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 65500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 65.0 } }
-		add_permanent_province_modifier = { name = 65000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 65000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 64.5 } }
-		add_permanent_province_modifier = { name = 64500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 64500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 64.0 } }
-		add_permanent_province_modifier = { name = 64000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 64000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 63.5 } }
-		add_permanent_province_modifier = { name = 63500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 63500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 63.0 } }
-		add_permanent_province_modifier = { name = 63000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 63000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 62.5 } }
-		add_permanent_province_modifier = { name = 62500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 62500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 62.0 } }
-		add_permanent_province_modifier = { name = 62000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 62000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 61.5 } }
-		add_permanent_province_modifier = { name = 61500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 61500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 61.0 } }
-		add_permanent_province_modifier = { name = 61000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 61000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 60.5 } }
-		add_permanent_province_modifier = { name = 60500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 60500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 60.0 } }
-		add_permanent_province_modifier = { name = 60000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 60000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 59.5 } }
-		add_permanent_province_modifier = { name = 59500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 59500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 59.0 } }
-		add_permanent_province_modifier = { name = 59000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 59000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 58.5 } }
-		add_permanent_province_modifier = { name = 58500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 58500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 58.0 } }
-		add_permanent_province_modifier = { name = 58000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 58000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 57.5 } }
-		add_permanent_province_modifier = { name = 57500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 57500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 57.0 } }
-		add_permanent_province_modifier = { name = 57000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 57000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 56.5 } }
-		add_permanent_province_modifier = { name = 56500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 56500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 56.0 } }
-		add_permanent_province_modifier = { name = 56000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 56000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 55.5 } }
-		add_permanent_province_modifier = { name = 55500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 55500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 55.0 } }
-		add_permanent_province_modifier = { name = 55000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 55000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 54.5 } }
-		add_permanent_province_modifier = { name = 54500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 54500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 54.0 } }
-		add_permanent_province_modifier = { name = 54000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 54000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 53.5 } }
-		add_permanent_province_modifier = { name = 53500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 53500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 53.0 } }
-		add_permanent_province_modifier = { name = 53000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 53000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 52.5 } }
-		add_permanent_province_modifier = { name = 52500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 52500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 52.0 } }
-		add_permanent_province_modifier = { name = 52000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 52000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 51.5 } }
-		add_permanent_province_modifier = { name = 51500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 51500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 51.0 } }
-		add_permanent_province_modifier = { name = 51000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 51000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 50.5 } }
-		add_permanent_province_modifier = { name = 50500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 50500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 50.0 } }
-		add_permanent_province_modifier = { name = 50000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 50000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 49.5 } }
-		add_permanent_province_modifier = { name = 49500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 49500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 49.0 } }
-		add_permanent_province_modifier = { name = 49000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 49000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 48.5 } }
-		add_permanent_province_modifier = { name = 48500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 48500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 48.0 } }
-		add_permanent_province_modifier = { name = 48000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 48000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 47.5 } }
-		add_permanent_province_modifier = { name = 47500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 47500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 47.0 } }
-		add_permanent_province_modifier = { name = 47000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 47000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 46.5 } }
-		add_permanent_province_modifier = { name = 46500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 46500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 46.0 } }
-		add_permanent_province_modifier = { name = 46000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 46000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 45.5 } }
-		add_permanent_province_modifier = { name = 45500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 45500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 45.0 } }
-		add_permanent_province_modifier = { name = 45000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 45000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 44.5 } }
-		add_permanent_province_modifier = { name = 44500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 44500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 44.0 } }
-		add_permanent_province_modifier = { name = 44000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 44000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 43.5 } }
-		add_permanent_province_modifier = { name = 43500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 43500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 43.0 } }
-		add_permanent_province_modifier = { name = 43000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 43000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 42.5 } }
-		add_permanent_province_modifier = { name = 42500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 42500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 42.0 } }
-		add_permanent_province_modifier = { name = 42000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 42000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 41.5 } }
-		add_permanent_province_modifier = { name = 41500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 41500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 41.0 } }
-		add_permanent_province_modifier = { name = 41000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 41000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 40.5 } }
-		add_permanent_province_modifier = { name = 40500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 40500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 40.0 } }
-		add_permanent_province_modifier = { name = 40000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 40000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 39.5 } }
-		add_permanent_province_modifier = { name = 39500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 39500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 39.0 } }
-		add_permanent_province_modifier = { name = 39000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 39000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 38.5 } }
-		add_permanent_province_modifier = { name = 38500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 38500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 38.0 } }
-		add_permanent_province_modifier = { name = 38000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 38000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 37.5 } }
-		add_permanent_province_modifier = { name = 37500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 37500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 37.0 } }
-		add_permanent_province_modifier = { name = 37000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 37000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 36.5 } }
-		add_permanent_province_modifier = { name = 36500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 36500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 36.0 } }
-		add_permanent_province_modifier = { name = 36000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 36000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 35.5 } }
-		add_permanent_province_modifier = { name = 35500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 35500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 35.0 } }
-		add_permanent_province_modifier = { name = 35000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 35000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 34.5 } }
-		add_permanent_province_modifier = { name = 34500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 34500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 34.0 } }
-		add_permanent_province_modifier = { name = 34000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 34000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 33.5 } }
-		add_permanent_province_modifier = { name = 33500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 33500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 33.0 } }
-		add_permanent_province_modifier = { name = 33000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 33000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 32.5 } }
-		add_permanent_province_modifier = { name = 32500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 32500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 32.0 } }
-		add_permanent_province_modifier = { name = 32000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 32000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 31.5 } }
-		add_permanent_province_modifier = { name = 31500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 31500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 31.0 } }
-		add_permanent_province_modifier = { name = 31000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 31000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 30.5 } }
-		add_permanent_province_modifier = { name = 30500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 30500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 30.0 } }
-		add_permanent_province_modifier = { name = 30000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 30000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 29.5 } }
-		add_permanent_province_modifier = { name = 29500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 29500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 29.0 } }
-		add_permanent_province_modifier = { name = 29000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 29000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 28.5 } }
-		add_permanent_province_modifier = { name = 28500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 28500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 28.0 } }
-		add_permanent_province_modifier = { name = 28000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 28000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 27.5 } }
-		add_permanent_province_modifier = { name = 27500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 27500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 27.0 } }
-		add_permanent_province_modifier = { name = 27000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 27000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 26.5 } }
-		add_permanent_province_modifier = { name = 26500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 26500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 26.0 } }
-		add_permanent_province_modifier = { name = 26000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 26000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 25.5 } }
-		add_permanent_province_modifier = { name = 25500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 25500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 25.0 } }
-		add_permanent_province_modifier = { name = 25000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 25000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 24.5 } }
-		add_permanent_province_modifier = { name = 24500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 24500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 24.0 } }
-		add_permanent_province_modifier = { name = 24000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 24000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 23.5 } }
-		add_permanent_province_modifier = { name = 23500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 23500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 23.0 } }
-		add_permanent_province_modifier = { name = 23000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 23000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 22.5 } }
-		add_permanent_province_modifier = { name = 22500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 22500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 22.0 } }
-		add_permanent_province_modifier = { name = 22000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 22000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 21.5 } }
-		add_permanent_province_modifier = { name = 21500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 21500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 21.0 } }
-		add_permanent_province_modifier = { name = 21000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 21000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 20.5 } }
-		add_permanent_province_modifier = { name = 20500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 20500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 20.0 } }
-		add_permanent_province_modifier = { name = 20000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 20000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 19.5 } }
-		add_permanent_province_modifier = { name = 19500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 19500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 19.0 } }
-		add_permanent_province_modifier = { name = 19000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 19000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 18.5 } }
-		add_permanent_province_modifier = { name = 18500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 18500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 18.0 } }
-		add_permanent_province_modifier = { name = 18000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 18000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 17.5 } }
-		add_permanent_province_modifier = { name = 17500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 17500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 17.0 } }
-		add_permanent_province_modifier = { name = 17000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 17000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 16.5 } }
-		add_permanent_province_modifier = { name = 16500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 16500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 16.0 } }
-		add_permanent_province_modifier = { name = 16000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 16000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 15.5 } }
-		add_permanent_province_modifier = { name = 15500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 15500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 15.0 } }
-		add_permanent_province_modifier = { name = 15000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 15000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 14.5 } }
-		add_permanent_province_modifier = { name = 14500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 14500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 14.0 } }
-		add_permanent_province_modifier = { name = 14000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 14000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 13.5 } }
-		add_permanent_province_modifier = { name = 13500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 13500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 13.0 } }
-		add_permanent_province_modifier = { name = 13000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 13000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 12.5 } }
-		add_permanent_province_modifier = { name = 12500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 12500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 12.0 } }
-		add_permanent_province_modifier = { name = 12000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 12000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 11.5 } }
-		add_permanent_province_modifier = { name = 11500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 11500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 11.0 } }
-		add_permanent_province_modifier = { name = 11000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 11000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 10.5 } }
-		add_permanent_province_modifier = { name = 10500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 10500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 10.0 } }
-		add_permanent_province_modifier = { name = 10000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 10000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 9.5 } }
-		add_permanent_province_modifier = { name = 9500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 9500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 9.0 } }
-		add_permanent_province_modifier = { name = 9000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 9000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 8.5 } }
-		add_permanent_province_modifier = { name = 8500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 8500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 8.0 } }
-		add_permanent_province_modifier = { name = 8000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 8000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 7.5 } }
-		add_permanent_province_modifier = { name = 7500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 7500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 7.0 } }
-		add_permanent_province_modifier = { name = 7000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 7000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 6.5 } }
-		add_permanent_province_modifier = { name = 6500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 6500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 6.0 } }
-		add_permanent_province_modifier = { name = 6000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 6000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 5.5 } }
-		add_permanent_province_modifier = { name = 5500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 5500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 5.0 } }
-		add_permanent_province_modifier = { name = 5000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 5000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 4.5 } }
-		add_permanent_province_modifier = { name = 4500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 4500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 4.0 } }
-		add_permanent_province_modifier = { name = 4000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 4000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 3.5 } }
-		add_permanent_province_modifier = { name = 3500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 3500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 3.0 } }
-		add_permanent_province_modifier = { name = 3000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 3000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 2.5 } }
-		add_permanent_province_modifier = { name = 2500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 2500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 2.0 } }
-		add_permanent_province_modifier = { name = 2000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 2000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 1.5 } }
-		add_permanent_province_modifier = { name = 1500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 1500_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 1.0 } }
-		add_permanent_province_modifier = { name = 1000_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 1000_rural_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 0.5 } }
-		add_permanent_province_modifier = { name = 500_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 500_rural_pop_modifier
 	}
 	else = {
-		add_permanent_province_modifier = { name = 0_rural_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 0_rural_pop_modifier
 	}
 }
 
 #Rural Pop Clear Code
 clear_rural_pop_modifiers = {
 	if = { limit = { has_province_modifier = 100000_rural_pop_modifier }
-		remove_province_modifier = 100000_rural_pop_modifier
+		remove_province_triggered_modifier = 100000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 99500_rural_pop_modifier }
-		remove_province_modifier = 99500_rural_pop_modifier
+		remove_province_triggered_modifier = 99500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 99000_rural_pop_modifier }
-		remove_province_modifier = 99000_rural_pop_modifier
+		remove_province_triggered_modifier = 99000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 98500_rural_pop_modifier }
-		remove_province_modifier = 98500_rural_pop_modifier
+		remove_province_triggered_modifier = 98500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 98000_rural_pop_modifier }
-		remove_province_modifier = 98000_rural_pop_modifier
+		remove_province_triggered_modifier = 98000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 97500_rural_pop_modifier }
-		remove_province_modifier = 97500_rural_pop_modifier
+		remove_province_triggered_modifier = 97500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 97000_rural_pop_modifier }
-		remove_province_modifier = 97000_rural_pop_modifier
+		remove_province_triggered_modifier = 97000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 96500_rural_pop_modifier }
-		remove_province_modifier = 96500_rural_pop_modifier
+		remove_province_triggered_modifier = 96500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 96000_rural_pop_modifier }
-		remove_province_modifier = 96000_rural_pop_modifier
+		remove_province_triggered_modifier = 96000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 95500_rural_pop_modifier }
-		remove_province_modifier = 95500_rural_pop_modifier
+		remove_province_triggered_modifier = 95500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 95000_rural_pop_modifier }
-		remove_province_modifier = 95000_rural_pop_modifier
+		remove_province_triggered_modifier = 95000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 94500_rural_pop_modifier }
-		remove_province_modifier = 94500_rural_pop_modifier
+		remove_province_triggered_modifier = 94500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 94000_rural_pop_modifier }
-		remove_province_modifier = 94000_rural_pop_modifier
+		remove_province_triggered_modifier = 94000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 93500_rural_pop_modifier }
-		remove_province_modifier = 93500_rural_pop_modifier
+		remove_province_triggered_modifier = 93500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 93000_rural_pop_modifier }
-		remove_province_modifier = 93000_rural_pop_modifier
+		remove_province_triggered_modifier = 93000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 92500_rural_pop_modifier }
-		remove_province_modifier = 92500_rural_pop_modifier
+		remove_province_triggered_modifier = 92500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 92000_rural_pop_modifier }
-		remove_province_modifier = 92000_rural_pop_modifier
+		remove_province_triggered_modifier = 92000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 91500_rural_pop_modifier }
-		remove_province_modifier = 91500_rural_pop_modifier
+		remove_province_triggered_modifier = 91500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 91000_rural_pop_modifier }
-		remove_province_modifier = 91000_rural_pop_modifier
+		remove_province_triggered_modifier = 91000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 90500_rural_pop_modifier }
-		remove_province_modifier = 90500_rural_pop_modifier
+		remove_province_triggered_modifier = 90500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 90000_rural_pop_modifier }
-		remove_province_modifier = 90000_rural_pop_modifier
+		remove_province_triggered_modifier = 90000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 89500_rural_pop_modifier }
-		remove_province_modifier = 89500_rural_pop_modifier
+		remove_province_triggered_modifier = 89500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 89000_rural_pop_modifier }
-		remove_province_modifier = 89000_rural_pop_modifier
+		remove_province_triggered_modifier = 89000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 88500_rural_pop_modifier }
-		remove_province_modifier = 88500_rural_pop_modifier
+		remove_province_triggered_modifier = 88500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 88000_rural_pop_modifier }
-		remove_province_modifier = 88000_rural_pop_modifier
+		remove_province_triggered_modifier = 88000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 87500_rural_pop_modifier }
-		remove_province_modifier = 87500_rural_pop_modifier
+		remove_province_triggered_modifier = 87500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 87000_rural_pop_modifier }
-		remove_province_modifier = 87000_rural_pop_modifier
+		remove_province_triggered_modifier = 87000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 86500_rural_pop_modifier }
-		remove_province_modifier = 86500_rural_pop_modifier
+		remove_province_triggered_modifier = 86500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 86000_rural_pop_modifier }
-		remove_province_modifier = 86000_rural_pop_modifier
+		remove_province_triggered_modifier = 86000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 85500_rural_pop_modifier }
-		remove_province_modifier = 85500_rural_pop_modifier
+		remove_province_triggered_modifier = 85500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 85000_rural_pop_modifier }
-		remove_province_modifier = 85000_rural_pop_modifier
+		remove_province_triggered_modifier = 85000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 84500_rural_pop_modifier }
-		remove_province_modifier = 84500_rural_pop_modifier
+		remove_province_triggered_modifier = 84500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 84000_rural_pop_modifier }
-		remove_province_modifier = 84000_rural_pop_modifier
+		remove_province_triggered_modifier = 84000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 83500_rural_pop_modifier }
-		remove_province_modifier = 83500_rural_pop_modifier
+		remove_province_triggered_modifier = 83500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 83000_rural_pop_modifier }
-		remove_province_modifier = 83000_rural_pop_modifier
+		remove_province_triggered_modifier = 83000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 82500_rural_pop_modifier }
-		remove_province_modifier = 82500_rural_pop_modifier
+		remove_province_triggered_modifier = 82500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 82000_rural_pop_modifier }
-		remove_province_modifier = 82000_rural_pop_modifier
+		remove_province_triggered_modifier = 82000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 81500_rural_pop_modifier }
-		remove_province_modifier = 81500_rural_pop_modifier
+		remove_province_triggered_modifier = 81500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 81000_rural_pop_modifier }
-		remove_province_modifier = 81000_rural_pop_modifier
+		remove_province_triggered_modifier = 81000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 80500_rural_pop_modifier }
-		remove_province_modifier = 80500_rural_pop_modifier
+		remove_province_triggered_modifier = 80500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 80000_rural_pop_modifier }
-		remove_province_modifier = 80000_rural_pop_modifier
+		remove_province_triggered_modifier = 80000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 79500_rural_pop_modifier }
-		remove_province_modifier = 79500_rural_pop_modifier
+		remove_province_triggered_modifier = 79500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 79000_rural_pop_modifier }
-		remove_province_modifier = 79000_rural_pop_modifier
+		remove_province_triggered_modifier = 79000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 78500_rural_pop_modifier }
-		remove_province_modifier = 78500_rural_pop_modifier
+		remove_province_triggered_modifier = 78500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 78000_rural_pop_modifier }
-		remove_province_modifier = 78000_rural_pop_modifier
+		remove_province_triggered_modifier = 78000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 77500_rural_pop_modifier }
-		remove_province_modifier = 77500_rural_pop_modifier
+		remove_province_triggered_modifier = 77500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 77000_rural_pop_modifier }
-		remove_province_modifier = 77000_rural_pop_modifier
+		remove_province_triggered_modifier = 77000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 76500_rural_pop_modifier }
-		remove_province_modifier = 76500_rural_pop_modifier
+		remove_province_triggered_modifier = 76500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 76000_rural_pop_modifier }
-		remove_province_modifier = 76000_rural_pop_modifier
+		remove_province_triggered_modifier = 76000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 75500_rural_pop_modifier }
-		remove_province_modifier = 75500_rural_pop_modifier
+		remove_province_triggered_modifier = 75500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 75000_rural_pop_modifier }
-		remove_province_modifier = 75000_rural_pop_modifier
+		remove_province_triggered_modifier = 75000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 74500_rural_pop_modifier }
-		remove_province_modifier = 74500_rural_pop_modifier
+		remove_province_triggered_modifier = 74500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 74000_rural_pop_modifier }
-		remove_province_modifier = 74000_rural_pop_modifier
+		remove_province_triggered_modifier = 74000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 73500_rural_pop_modifier }
-		remove_province_modifier = 73500_rural_pop_modifier
+		remove_province_triggered_modifier = 73500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 73000_rural_pop_modifier }
-		remove_province_modifier = 73000_rural_pop_modifier
+		remove_province_triggered_modifier = 73000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 72500_rural_pop_modifier }
-		remove_province_modifier = 72500_rural_pop_modifier
+		remove_province_triggered_modifier = 72500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 72000_rural_pop_modifier }
-		remove_province_modifier = 72000_rural_pop_modifier
+		remove_province_triggered_modifier = 72000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 71500_rural_pop_modifier }
-		remove_province_modifier = 71500_rural_pop_modifier
+		remove_province_triggered_modifier = 71500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 71000_rural_pop_modifier }
-		remove_province_modifier = 71000_rural_pop_modifier
+		remove_province_triggered_modifier = 71000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 70500_rural_pop_modifier }
-		remove_province_modifier = 70500_rural_pop_modifier
+		remove_province_triggered_modifier = 70500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 70000_rural_pop_modifier }
-		remove_province_modifier = 70000_rural_pop_modifier
+		remove_province_triggered_modifier = 70000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 69500_rural_pop_modifier }
-		remove_province_modifier = 69500_rural_pop_modifier
+		remove_province_triggered_modifier = 69500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 69000_rural_pop_modifier }
-		remove_province_modifier = 69000_rural_pop_modifier
+		remove_province_triggered_modifier = 69000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 68500_rural_pop_modifier }
-		remove_province_modifier = 68500_rural_pop_modifier
+		remove_province_triggered_modifier = 68500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 68000_rural_pop_modifier }
-		remove_province_modifier = 68000_rural_pop_modifier
+		remove_province_triggered_modifier = 68000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 67500_rural_pop_modifier }
-		remove_province_modifier = 67500_rural_pop_modifier
+		remove_province_triggered_modifier = 67500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 67000_rural_pop_modifier }
-		remove_province_modifier = 67000_rural_pop_modifier
+		remove_province_triggered_modifier = 67000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 66500_rural_pop_modifier }
-		remove_province_modifier = 66500_rural_pop_modifier
+		remove_province_triggered_modifier = 66500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 66000_rural_pop_modifier }
-		remove_province_modifier = 66000_rural_pop_modifier
+		remove_province_triggered_modifier = 66000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 65500_rural_pop_modifier }
-		remove_province_modifier = 65500_rural_pop_modifier
+		remove_province_triggered_modifier = 65500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 65000_rural_pop_modifier }
-		remove_province_modifier = 65000_rural_pop_modifier
+		remove_province_triggered_modifier = 65000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 64500_rural_pop_modifier }
-		remove_province_modifier = 64500_rural_pop_modifier
+		remove_province_triggered_modifier = 64500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 64000_rural_pop_modifier }
-		remove_province_modifier = 64000_rural_pop_modifier
+		remove_province_triggered_modifier = 64000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 63500_rural_pop_modifier }
-		remove_province_modifier = 63500_rural_pop_modifier
+		remove_province_triggered_modifier = 63500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 63000_rural_pop_modifier }
-		remove_province_modifier = 63000_rural_pop_modifier
+		remove_province_triggered_modifier = 63000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 62500_rural_pop_modifier }
-		remove_province_modifier = 62500_rural_pop_modifier
+		remove_province_triggered_modifier = 62500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 62000_rural_pop_modifier }
-		remove_province_modifier = 62000_rural_pop_modifier
+		remove_province_triggered_modifier = 62000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 61500_rural_pop_modifier }
-		remove_province_modifier = 61500_rural_pop_modifier
+		remove_province_triggered_modifier = 61500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 61000_rural_pop_modifier }
-		remove_province_modifier = 61000_rural_pop_modifier
+		remove_province_triggered_modifier = 61000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 60500_rural_pop_modifier }
-		remove_province_modifier = 60500_rural_pop_modifier
+		remove_province_triggered_modifier = 60500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 60000_rural_pop_modifier }
-		remove_province_modifier = 60000_rural_pop_modifier
+		remove_province_triggered_modifier = 60000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 59500_rural_pop_modifier }
-		remove_province_modifier = 59500_rural_pop_modifier
+		remove_province_triggered_modifier = 59500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 59000_rural_pop_modifier }
-		remove_province_modifier = 59000_rural_pop_modifier
+		remove_province_triggered_modifier = 59000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 58500_rural_pop_modifier }
-		remove_province_modifier = 58500_rural_pop_modifier
+		remove_province_triggered_modifier = 58500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 58000_rural_pop_modifier }
-		remove_province_modifier = 58000_rural_pop_modifier
+		remove_province_triggered_modifier = 58000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 57500_rural_pop_modifier }
-		remove_province_modifier = 57500_rural_pop_modifier
+		remove_province_triggered_modifier = 57500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 57000_rural_pop_modifier }
-		remove_province_modifier = 57000_rural_pop_modifier
+		remove_province_triggered_modifier = 57000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 56500_rural_pop_modifier }
-		remove_province_modifier = 56500_rural_pop_modifier
+		remove_province_triggered_modifier = 56500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 56000_rural_pop_modifier }
-		remove_province_modifier = 56000_rural_pop_modifier
+		remove_province_triggered_modifier = 56000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 55500_rural_pop_modifier }
-		remove_province_modifier = 55500_rural_pop_modifier
+		remove_province_triggered_modifier = 55500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 55000_rural_pop_modifier }
-		remove_province_modifier = 55000_rural_pop_modifier
+		remove_province_triggered_modifier = 55000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 54500_rural_pop_modifier }
-		remove_province_modifier = 54500_rural_pop_modifier
+		remove_province_triggered_modifier = 54500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 54000_rural_pop_modifier }
-		remove_province_modifier = 54000_rural_pop_modifier
+		remove_province_triggered_modifier = 54000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 53500_rural_pop_modifier }
-		remove_province_modifier = 53500_rural_pop_modifier
+		remove_province_triggered_modifier = 53500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 53000_rural_pop_modifier }
-		remove_province_modifier = 53000_rural_pop_modifier
+		remove_province_triggered_modifier = 53000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 52500_rural_pop_modifier }
-		remove_province_modifier = 52500_rural_pop_modifier
+		remove_province_triggered_modifier = 52500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 52000_rural_pop_modifier }
-		remove_province_modifier = 52000_rural_pop_modifier
+		remove_province_triggered_modifier = 52000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 51500_rural_pop_modifier }
-		remove_province_modifier = 51500_rural_pop_modifier
+		remove_province_triggered_modifier = 51500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 51000_rural_pop_modifier }
-		remove_province_modifier = 51000_rural_pop_modifier
+		remove_province_triggered_modifier = 51000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 50500_rural_pop_modifier }
-		remove_province_modifier = 50500_rural_pop_modifier
+		remove_province_triggered_modifier = 50500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 50000_rural_pop_modifier }
-		remove_province_modifier = 50000_rural_pop_modifier
+		remove_province_triggered_modifier = 50000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 49500_rural_pop_modifier }
-		remove_province_modifier = 49500_rural_pop_modifier
+		remove_province_triggered_modifier = 49500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 49000_rural_pop_modifier }
-		remove_province_modifier = 49000_rural_pop_modifier
+		remove_province_triggered_modifier = 49000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 48500_rural_pop_modifier }
-		remove_province_modifier = 48500_rural_pop_modifier
+		remove_province_triggered_modifier = 48500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 48000_rural_pop_modifier }
-		remove_province_modifier = 48000_rural_pop_modifier
+		remove_province_triggered_modifier = 48000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 47500_rural_pop_modifier }
-		remove_province_modifier = 47500_rural_pop_modifier
+		remove_province_triggered_modifier = 47500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 47000_rural_pop_modifier }
-		remove_province_modifier = 47000_rural_pop_modifier
+		remove_province_triggered_modifier = 47000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 46500_rural_pop_modifier }
-		remove_province_modifier = 46500_rural_pop_modifier
+		remove_province_triggered_modifier = 46500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 46000_rural_pop_modifier }
-		remove_province_modifier = 46000_rural_pop_modifier
+		remove_province_triggered_modifier = 46000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 45500_rural_pop_modifier }
-		remove_province_modifier = 45500_rural_pop_modifier
+		remove_province_triggered_modifier = 45500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 45000_rural_pop_modifier }
-		remove_province_modifier = 45000_rural_pop_modifier
+		remove_province_triggered_modifier = 45000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 44500_rural_pop_modifier }
-		remove_province_modifier = 44500_rural_pop_modifier
+		remove_province_triggered_modifier = 44500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 44000_rural_pop_modifier }
-		remove_province_modifier = 44000_rural_pop_modifier
+		remove_province_triggered_modifier = 44000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 43500_rural_pop_modifier }
-		remove_province_modifier = 43500_rural_pop_modifier
+		remove_province_triggered_modifier = 43500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 43000_rural_pop_modifier }
-		remove_province_modifier = 43000_rural_pop_modifier
+		remove_province_triggered_modifier = 43000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 42500_rural_pop_modifier }
-		remove_province_modifier = 42500_rural_pop_modifier
+		remove_province_triggered_modifier = 42500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 42000_rural_pop_modifier }
-		remove_province_modifier = 42000_rural_pop_modifier
+		remove_province_triggered_modifier = 42000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 41500_rural_pop_modifier }
-		remove_province_modifier = 41500_rural_pop_modifier
+		remove_province_triggered_modifier = 41500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 41000_rural_pop_modifier }
-		remove_province_modifier = 41000_rural_pop_modifier
+		remove_province_triggered_modifier = 41000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 40500_rural_pop_modifier }
-		remove_province_modifier = 40500_rural_pop_modifier
+		remove_province_triggered_modifier = 40500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 40000_rural_pop_modifier }
-		remove_province_modifier = 40000_rural_pop_modifier
+		remove_province_triggered_modifier = 40000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 39500_rural_pop_modifier }
-		remove_province_modifier = 39500_rural_pop_modifier
+		remove_province_triggered_modifier = 39500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 39000_rural_pop_modifier }
-		remove_province_modifier = 39000_rural_pop_modifier
+		remove_province_triggered_modifier = 39000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 38500_rural_pop_modifier }
-		remove_province_modifier = 38500_rural_pop_modifier
+		remove_province_triggered_modifier = 38500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 38000_rural_pop_modifier }
-		remove_province_modifier = 38000_rural_pop_modifier
+		remove_province_triggered_modifier = 38000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 37500_rural_pop_modifier }
-		remove_province_modifier = 37500_rural_pop_modifier
+		remove_province_triggered_modifier = 37500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 37000_rural_pop_modifier }
-		remove_province_modifier = 37000_rural_pop_modifier
+		remove_province_triggered_modifier = 37000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 36500_rural_pop_modifier }
-		remove_province_modifier = 36500_rural_pop_modifier
+		remove_province_triggered_modifier = 36500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 36000_rural_pop_modifier }
-		remove_province_modifier = 36000_rural_pop_modifier
+		remove_province_triggered_modifier = 36000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 35500_rural_pop_modifier }
-		remove_province_modifier = 35500_rural_pop_modifier
+		remove_province_triggered_modifier = 35500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 35000_rural_pop_modifier }
-		remove_province_modifier = 35000_rural_pop_modifier
+		remove_province_triggered_modifier = 35000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 34500_rural_pop_modifier }
-		remove_province_modifier = 34500_rural_pop_modifier
+		remove_province_triggered_modifier = 34500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 34000_rural_pop_modifier }
-		remove_province_modifier = 34000_rural_pop_modifier
+		remove_province_triggered_modifier = 34000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 33500_rural_pop_modifier }
-		remove_province_modifier = 33500_rural_pop_modifier
+		remove_province_triggered_modifier = 33500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 33000_rural_pop_modifier }
-		remove_province_modifier = 33000_rural_pop_modifier
+		remove_province_triggered_modifier = 33000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 32500_rural_pop_modifier }
-		remove_province_modifier = 32500_rural_pop_modifier
+		remove_province_triggered_modifier = 32500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 32000_rural_pop_modifier }
-		remove_province_modifier = 32000_rural_pop_modifier
+		remove_province_triggered_modifier = 32000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 31500_rural_pop_modifier }
-		remove_province_modifier = 31500_rural_pop_modifier
+		remove_province_triggered_modifier = 31500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 31000_rural_pop_modifier }
-		remove_province_modifier = 31000_rural_pop_modifier
+		remove_province_triggered_modifier = 31000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 30500_rural_pop_modifier }
-		remove_province_modifier = 30500_rural_pop_modifier
+		remove_province_triggered_modifier = 30500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 30000_rural_pop_modifier }
-		remove_province_modifier = 30000_rural_pop_modifier
+		remove_province_triggered_modifier = 30000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 29500_rural_pop_modifier }
-		remove_province_modifier = 29500_rural_pop_modifier
+		remove_province_triggered_modifier = 29500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 29000_rural_pop_modifier }
-		remove_province_modifier = 29000_rural_pop_modifier
+		remove_province_triggered_modifier = 29000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 28500_rural_pop_modifier }
-		remove_province_modifier = 28500_rural_pop_modifier
+		remove_province_triggered_modifier = 28500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 28000_rural_pop_modifier }
-		remove_province_modifier = 28000_rural_pop_modifier
+		remove_province_triggered_modifier = 28000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 27500_rural_pop_modifier }
-		remove_province_modifier = 27500_rural_pop_modifier
+		remove_province_triggered_modifier = 27500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 27000_rural_pop_modifier }
-		remove_province_modifier = 27000_rural_pop_modifier
+		remove_province_triggered_modifier = 27000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 26500_rural_pop_modifier }
-		remove_province_modifier = 26500_rural_pop_modifier
+		remove_province_triggered_modifier = 26500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 26000_rural_pop_modifier }
-		remove_province_modifier = 26000_rural_pop_modifier
+		remove_province_triggered_modifier = 26000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 25500_rural_pop_modifier }
-		remove_province_modifier = 25500_rural_pop_modifier
+		remove_province_triggered_modifier = 25500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 25000_rural_pop_modifier }
-		remove_province_modifier = 25000_rural_pop_modifier
+		remove_province_triggered_modifier = 25000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 24500_rural_pop_modifier }
-		remove_province_modifier = 24500_rural_pop_modifier
+		remove_province_triggered_modifier = 24500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 24000_rural_pop_modifier }
-		remove_province_modifier = 24000_rural_pop_modifier
+		remove_province_triggered_modifier = 24000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 23500_rural_pop_modifier }
-		remove_province_modifier = 23500_rural_pop_modifier
+		remove_province_triggered_modifier = 23500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 23000_rural_pop_modifier }
-		remove_province_modifier = 23000_rural_pop_modifier
+		remove_province_triggered_modifier = 23000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 22500_rural_pop_modifier }
-		remove_province_modifier = 22500_rural_pop_modifier
+		remove_province_triggered_modifier = 22500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 22000_rural_pop_modifier }
-		remove_province_modifier = 22000_rural_pop_modifier
+		remove_province_triggered_modifier = 22000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 21500_rural_pop_modifier }
-		remove_province_modifier = 21500_rural_pop_modifier
+		remove_province_triggered_modifier = 21500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 21000_rural_pop_modifier }
-		remove_province_modifier = 21000_rural_pop_modifier
+		remove_province_triggered_modifier = 21000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 20500_rural_pop_modifier }
-		remove_province_modifier = 20500_rural_pop_modifier
+		remove_province_triggered_modifier = 20500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 20000_rural_pop_modifier }
-		remove_province_modifier = 20000_rural_pop_modifier
+		remove_province_triggered_modifier = 20000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 19500_rural_pop_modifier }
-		remove_province_modifier = 19500_rural_pop_modifier
+		remove_province_triggered_modifier = 19500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 19000_rural_pop_modifier }
-		remove_province_modifier = 19000_rural_pop_modifier
+		remove_province_triggered_modifier = 19000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 18500_rural_pop_modifier }
-		remove_province_modifier = 18500_rural_pop_modifier
+		remove_province_triggered_modifier = 18500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 18000_rural_pop_modifier }
-		remove_province_modifier = 18000_rural_pop_modifier
+		remove_province_triggered_modifier = 18000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 17500_rural_pop_modifier }
-		remove_province_modifier = 17500_rural_pop_modifier
+		remove_province_triggered_modifier = 17500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 17000_rural_pop_modifier }
-		remove_province_modifier = 17000_rural_pop_modifier
+		remove_province_triggered_modifier = 17000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 16500_rural_pop_modifier }
-		remove_province_modifier = 16500_rural_pop_modifier
+		remove_province_triggered_modifier = 16500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 16000_rural_pop_modifier }
-		remove_province_modifier = 16000_rural_pop_modifier
+		remove_province_triggered_modifier = 16000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 15500_rural_pop_modifier }
-		remove_province_modifier = 15500_rural_pop_modifier
+		remove_province_triggered_modifier = 15500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 15000_rural_pop_modifier }
-		remove_province_modifier = 15000_rural_pop_modifier
+		remove_province_triggered_modifier = 15000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 14500_rural_pop_modifier }
-		remove_province_modifier = 14500_rural_pop_modifier
+		remove_province_triggered_modifier = 14500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 14000_rural_pop_modifier }
-		remove_province_modifier = 14000_rural_pop_modifier
+		remove_province_triggered_modifier = 14000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 13500_rural_pop_modifier }
-		remove_province_modifier = 13500_rural_pop_modifier
+		remove_province_triggered_modifier = 13500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 13000_rural_pop_modifier }
-		remove_province_modifier = 13000_rural_pop_modifier
+		remove_province_triggered_modifier = 13000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 12500_rural_pop_modifier }
-		remove_province_modifier = 12500_rural_pop_modifier
+		remove_province_triggered_modifier = 12500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 12000_rural_pop_modifier }
-		remove_province_modifier = 12000_rural_pop_modifier
+		remove_province_triggered_modifier = 12000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 11500_rural_pop_modifier }
-		remove_province_modifier = 11500_rural_pop_modifier
+		remove_province_triggered_modifier = 11500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 11000_rural_pop_modifier }
-		remove_province_modifier = 11000_rural_pop_modifier
+		remove_province_triggered_modifier = 11000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 10500_rural_pop_modifier }
-		remove_province_modifier = 10500_rural_pop_modifier
+		remove_province_triggered_modifier = 10500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 10000_rural_pop_modifier }
-		remove_province_modifier = 10000_rural_pop_modifier
+		remove_province_triggered_modifier = 10000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 9500_rural_pop_modifier }
-		remove_province_modifier = 9500_rural_pop_modifier
+		remove_province_triggered_modifier = 9500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 9000_rural_pop_modifier }
-		remove_province_modifier = 9000_rural_pop_modifier
+		remove_province_triggered_modifier = 9000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 8500_rural_pop_modifier }
-		remove_province_modifier = 8500_rural_pop_modifier
+		remove_province_triggered_modifier = 8500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 8000_rural_pop_modifier }
-		remove_province_modifier = 8000_rural_pop_modifier
+		remove_province_triggered_modifier = 8000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 7500_rural_pop_modifier }
-		remove_province_modifier = 7500_rural_pop_modifier
+		remove_province_triggered_modifier = 7500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 7000_rural_pop_modifier }
-		remove_province_modifier = 7000_rural_pop_modifier
+		remove_province_triggered_modifier = 7000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 6500_rural_pop_modifier }
-		remove_province_modifier = 6500_rural_pop_modifier
+		remove_province_triggered_modifier = 6500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 6000_rural_pop_modifier }
-		remove_province_modifier = 6000_rural_pop_modifier
+		remove_province_triggered_modifier = 6000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 5500_rural_pop_modifier }
-		remove_province_modifier = 5500_rural_pop_modifier
+		remove_province_triggered_modifier = 5500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 5000_rural_pop_modifier }
-		remove_province_modifier = 5000_rural_pop_modifier
+		remove_province_triggered_modifier = 5000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 4500_rural_pop_modifier }
-		remove_province_modifier = 4500_rural_pop_modifier
+		remove_province_triggered_modifier = 4500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 4000_rural_pop_modifier }
-		remove_province_modifier = 4000_rural_pop_modifier
+		remove_province_triggered_modifier = 4000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 3500_rural_pop_modifier }
-		remove_province_modifier = 3500_rural_pop_modifier
+		remove_province_triggered_modifier = 3500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 3000_rural_pop_modifier }
-		remove_province_modifier = 3000_rural_pop_modifier
+		remove_province_triggered_modifier = 3000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 2500_rural_pop_modifier }
-		remove_province_modifier = 2500_rural_pop_modifier
+		remove_province_triggered_modifier = 2500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 2000_rural_pop_modifier }
-		remove_province_modifier = 2000_rural_pop_modifier
+		remove_province_triggered_modifier = 2000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 1500_rural_pop_modifier }
-		remove_province_modifier = 1500_rural_pop_modifier
+		remove_province_triggered_modifier = 1500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 1000_rural_pop_modifier }
-		remove_province_modifier = 1000_rural_pop_modifier
+		remove_province_triggered_modifier = 1000_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 500_rural_pop_modifier }
-		remove_province_modifier = 500_rural_pop_modifier
+		remove_province_triggered_modifier = 500_rural_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 0_rural_pop_modifier }
-		remove_province_modifier = 0_rural_pop_modifier
+		remove_province_triggered_modifier = 0_rural_pop_modifier
 	}
 }
 
@@ -1218,1213 +1218,1213 @@ clear_rural_pop_modifiers = {
 update_urban_pop_modifiers = {
 	clear_urban_pop_modifiers = yes
 	if = { limit = { check_variable = { which = urban_pop value = 100.0 } }
-		add_permanent_province_modifier = { name = 100000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 100000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 99.5 } }
-		add_permanent_province_modifier = { name = 99500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 99500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 99.0 } }
-		add_permanent_province_modifier = { name = 99000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 99000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 98.5 } }
-		add_permanent_province_modifier = { name = 98500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 98500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 98.0 } }
-		add_permanent_province_modifier = { name = 98000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 98000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 97.5 } }
-		add_permanent_province_modifier = { name = 97500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 97500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 97.0 } }
-		add_permanent_province_modifier = { name = 97000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 97000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 96.5 } }
-		add_permanent_province_modifier = { name = 96500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 96500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 96.0 } }
-		add_permanent_province_modifier = { name = 96000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 96000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 95.5 } }
-		add_permanent_province_modifier = { name = 95500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 95500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 95.0 } }
-		add_permanent_province_modifier = { name = 95000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 95000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 94.5 } }
-		add_permanent_province_modifier = { name = 94500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 94500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 94.0 } }
-		add_permanent_province_modifier = { name = 94000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 94000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 93.5 } }
-		add_permanent_province_modifier = { name = 93500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 93500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 93.0 } }
-		add_permanent_province_modifier = { name = 93000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 93000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 92.5 } }
-		add_permanent_province_modifier = { name = 92500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 92500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 92.0 } }
-		add_permanent_province_modifier = { name = 92000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 92000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 91.5 } }
-		add_permanent_province_modifier = { name = 91500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 91500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 91.0 } }
-		add_permanent_province_modifier = { name = 91000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 91000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 90.5 } }
-		add_permanent_province_modifier = { name = 90500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 90500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 90.0 } }
-		add_permanent_province_modifier = { name = 90000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 90000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 89.5 } }
-		add_permanent_province_modifier = { name = 89500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 89500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 89.0 } }
-		add_permanent_province_modifier = { name = 89000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 89000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 88.5 } }
-		add_permanent_province_modifier = { name = 88500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 88500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 88.0 } }
-		add_permanent_province_modifier = { name = 88000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 88000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 87.5 } }
-		add_permanent_province_modifier = { name = 87500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 87500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 87.0 } }
-		add_permanent_province_modifier = { name = 87000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 87000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 86.5 } }
-		add_permanent_province_modifier = { name = 86500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 86500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 86.0 } }
-		add_permanent_province_modifier = { name = 86000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 86000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 85.5 } }
-		add_permanent_province_modifier = { name = 85500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 85500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 85.0 } }
-		add_permanent_province_modifier = { name = 85000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 85000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 84.5 } }
-		add_permanent_province_modifier = { name = 84500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 84500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 84.0 } }
-		add_permanent_province_modifier = { name = 84000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 84000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 83.5 } }
-		add_permanent_province_modifier = { name = 83500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 83500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 83.0 } }
-		add_permanent_province_modifier = { name = 83000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 83000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 82.5 } }
-		add_permanent_province_modifier = { name = 82500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 82500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 82.0 } }
-		add_permanent_province_modifier = { name = 82000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 82000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 81.5 } }
-		add_permanent_province_modifier = { name = 81500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 81500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 81.0 } }
-		add_permanent_province_modifier = { name = 81000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 81000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 80.5 } }
-		add_permanent_province_modifier = { name = 80500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 80500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 80.0 } }
-		add_permanent_province_modifier = { name = 80000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 80000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 79.5 } }
-		add_permanent_province_modifier = { name = 79500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 79500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 79.0 } }
-		add_permanent_province_modifier = { name = 79000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 79000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 78.5 } }
-		add_permanent_province_modifier = { name = 78500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 78500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 78.0 } }
-		add_permanent_province_modifier = { name = 78000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 78000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 77.5 } }
-		add_permanent_province_modifier = { name = 77500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 77500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 77.0 } }
-		add_permanent_province_modifier = { name = 77000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 77000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 76.5 } }
-		add_permanent_province_modifier = { name = 76500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 76500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 76.0 } }
-		add_permanent_province_modifier = { name = 76000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 76000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 75.5 } }
-		add_permanent_province_modifier = { name = 75500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 75500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 75.0 } }
-		add_permanent_province_modifier = { name = 75000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 75000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 74.5 } }
-		add_permanent_province_modifier = { name = 74500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 74500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 74.0 } }
-		add_permanent_province_modifier = { name = 74000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 74000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 73.5 } }
-		add_permanent_province_modifier = { name = 73500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 73500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 73.0 } }
-		add_permanent_province_modifier = { name = 73000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 73000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 72.5 } }
-		add_permanent_province_modifier = { name = 72500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 72500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 72.0 } }
-		add_permanent_province_modifier = { name = 72000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 72000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 71.5 } }
-		add_permanent_province_modifier = { name = 71500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 71500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 71.0 } }
-		add_permanent_province_modifier = { name = 71000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 71000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 70.5 } }
-		add_permanent_province_modifier = { name = 70500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 70500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 70.0 } }
-		add_permanent_province_modifier = { name = 70000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 70000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 69.5 } }
-		add_permanent_province_modifier = { name = 69500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 69500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 69.0 } }
-		add_permanent_province_modifier = { name = 69000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 69000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 68.5 } }
-		add_permanent_province_modifier = { name = 68500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 68500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 68.0 } }
-		add_permanent_province_modifier = { name = 68000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 68000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 67.5 } }
-		add_permanent_province_modifier = { name = 67500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 67500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 67.0 } }
-		add_permanent_province_modifier = { name = 67000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 67000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 66.5 } }
-		add_permanent_province_modifier = { name = 66500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 66500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 66.0 } }
-		add_permanent_province_modifier = { name = 66000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 66000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 65.5 } }
-		add_permanent_province_modifier = { name = 65500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 65500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 65.0 } }
-		add_permanent_province_modifier = { name = 65000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 65000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 64.5 } }
-		add_permanent_province_modifier = { name = 64500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 64500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 64.0 } }
-		add_permanent_province_modifier = { name = 64000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 64000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 63.5 } }
-		add_permanent_province_modifier = { name = 63500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 63500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 63.0 } }
-		add_permanent_province_modifier = { name = 63000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 63000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 62.5 } }
-		add_permanent_province_modifier = { name = 62500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 62500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 62.0 } }
-		add_permanent_province_modifier = { name = 62000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 62000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 61.5 } }
-		add_permanent_province_modifier = { name = 61500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 61500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 61.0 } }
-		add_permanent_province_modifier = { name = 61000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 61000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 60.5 } }
-		add_permanent_province_modifier = { name = 60500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 60500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 60.0 } }
-		add_permanent_province_modifier = { name = 60000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 60000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 59.5 } }
-		add_permanent_province_modifier = { name = 59500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 59500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 59.0 } }
-		add_permanent_province_modifier = { name = 59000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 59000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 58.5 } }
-		add_permanent_province_modifier = { name = 58500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 58500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 58.0 } }
-		add_permanent_province_modifier = { name = 58000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 58000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 57.5 } }
-		add_permanent_province_modifier = { name = 57500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 57500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 57.0 } }
-		add_permanent_province_modifier = { name = 57000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 57000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 56.5 } }
-		add_permanent_province_modifier = { name = 56500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 56500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 56.0 } }
-		add_permanent_province_modifier = { name = 56000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 56000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 55.5 } }
-		add_permanent_province_modifier = { name = 55500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 55500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 55.0 } }
-		add_permanent_province_modifier = { name = 55000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 55000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 54.5 } }
-		add_permanent_province_modifier = { name = 54500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 54500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 54.0 } }
-		add_permanent_province_modifier = { name = 54000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 54000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 53.5 } }
-		add_permanent_province_modifier = { name = 53500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 53500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 53.0 } }
-		add_permanent_province_modifier = { name = 53000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 53000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 52.5 } }
-		add_permanent_province_modifier = { name = 52500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 52500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 52.0 } }
-		add_permanent_province_modifier = { name = 52000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 52000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 51.5 } }
-		add_permanent_province_modifier = { name = 51500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 51500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 51.0 } }
-		add_permanent_province_modifier = { name = 51000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 51000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 50.5 } }
-		add_permanent_province_modifier = { name = 50500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 50500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 50.0 } }
-		add_permanent_province_modifier = { name = 50000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 50000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 49.5 } }
-		add_permanent_province_modifier = { name = 49500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 49500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 49.0 } }
-		add_permanent_province_modifier = { name = 49000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 49000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 48.5 } }
-		add_permanent_province_modifier = { name = 48500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 48500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 48.0 } }
-		add_permanent_province_modifier = { name = 48000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 48000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 47.5 } }
-		add_permanent_province_modifier = { name = 47500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 47500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 47.0 } }
-		add_permanent_province_modifier = { name = 47000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 47000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 46.5 } }
-		add_permanent_province_modifier = { name = 46500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 46500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 46.0 } }
-		add_permanent_province_modifier = { name = 46000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 46000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 45.5 } }
-		add_permanent_province_modifier = { name = 45500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 45500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 45.0 } }
-		add_permanent_province_modifier = { name = 45000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 45000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 44.5 } }
-		add_permanent_province_modifier = { name = 44500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 44500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 44.0 } }
-		add_permanent_province_modifier = { name = 44000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 44000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 43.5 } }
-		add_permanent_province_modifier = { name = 43500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 43500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 43.0 } }
-		add_permanent_province_modifier = { name = 43000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 43000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 42.5 } }
-		add_permanent_province_modifier = { name = 42500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 42500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 42.0 } }
-		add_permanent_province_modifier = { name = 42000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 42000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 41.5 } }
-		add_permanent_province_modifier = { name = 41500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 41500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 41.0 } }
-		add_permanent_province_modifier = { name = 41000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 41000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 40.5 } }
-		add_permanent_province_modifier = { name = 40500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 40500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 40.0 } }
-		add_permanent_province_modifier = { name = 40000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 40000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 39.5 } }
-		add_permanent_province_modifier = { name = 39500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 39500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 39.0 } }
-		add_permanent_province_modifier = { name = 39000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 39000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 38.5 } }
-		add_permanent_province_modifier = { name = 38500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 38500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 38.0 } }
-		add_permanent_province_modifier = { name = 38000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 38000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 37.5 } }
-		add_permanent_province_modifier = { name = 37500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 37500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 37.0 } }
-		add_permanent_province_modifier = { name = 37000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 37000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 36.5 } }
-		add_permanent_province_modifier = { name = 36500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 36500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 36.0 } }
-		add_permanent_province_modifier = { name = 36000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 36000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 35.5 } }
-		add_permanent_province_modifier = { name = 35500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 35500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 35.0 } }
-		add_permanent_province_modifier = { name = 35000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 35000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 34.5 } }
-		add_permanent_province_modifier = { name = 34500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 34500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 34.0 } }
-		add_permanent_province_modifier = { name = 34000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 34000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 33.5 } }
-		add_permanent_province_modifier = { name = 33500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 33500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 33.0 } }
-		add_permanent_province_modifier = { name = 33000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 33000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 32.5 } }
-		add_permanent_province_modifier = { name = 32500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 32500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 32.0 } }
-		add_permanent_province_modifier = { name = 32000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 32000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 31.5 } }
-		add_permanent_province_modifier = { name = 31500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 31500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 31.0 } }
-		add_permanent_province_modifier = { name = 31000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 31000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 30.5 } }
-		add_permanent_province_modifier = { name = 30500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 30500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 30.0 } }
-		add_permanent_province_modifier = { name = 30000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 30000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 29.5 } }
-		add_permanent_province_modifier = { name = 29500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 29500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 29.0 } }
-		add_permanent_province_modifier = { name = 29000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 29000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 28.5 } }
-		add_permanent_province_modifier = { name = 28500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 28500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 28.0 } }
-		add_permanent_province_modifier = { name = 28000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 28000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 27.5 } }
-		add_permanent_province_modifier = { name = 27500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 27500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 27.0 } }
-		add_permanent_province_modifier = { name = 27000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 27000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 26.5 } }
-		add_permanent_province_modifier = { name = 26500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 26500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 26.0 } }
-		add_permanent_province_modifier = { name = 26000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 26000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 25.5 } }
-		add_permanent_province_modifier = { name = 25500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 25500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 25.0 } }
-		add_permanent_province_modifier = { name = 25000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 25000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 24.5 } }
-		add_permanent_province_modifier = { name = 24500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 24500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 24.0 } }
-		add_permanent_province_modifier = { name = 24000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 24000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 23.5 } }
-		add_permanent_province_modifier = { name = 23500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 23500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 23.0 } }
-		add_permanent_province_modifier = { name = 23000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 23000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 22.5 } }
-		add_permanent_province_modifier = { name = 22500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 22500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 22.0 } }
-		add_permanent_province_modifier = { name = 22000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 22000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 21.5 } }
-		add_permanent_province_modifier = { name = 21500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 21500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 21.0 } }
-		add_permanent_province_modifier = { name = 21000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 21000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 20.5 } }
-		add_permanent_province_modifier = { name = 20500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 20500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 20.0 } }
-		add_permanent_province_modifier = { name = 20000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 20000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 19.5 } }
-		add_permanent_province_modifier = { name = 19500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 19500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 19.0 } }
-		add_permanent_province_modifier = { name = 19000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 19000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 18.5 } }
-		add_permanent_province_modifier = { name = 18500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 18500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 18.0 } }
-		add_permanent_province_modifier = { name = 18000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 18000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 17.5 } }
-		add_permanent_province_modifier = { name = 17500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 17500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 17.0 } }
-		add_permanent_province_modifier = { name = 17000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 17000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 16.5 } }
-		add_permanent_province_modifier = { name = 16500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 16500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 16.0 } }
-		add_permanent_province_modifier = { name = 16000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 16000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 15.5 } }
-		add_permanent_province_modifier = { name = 15500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 15500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 15.0 } }
-		add_permanent_province_modifier = { name = 15000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 15000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 14.5 } }
-		add_permanent_province_modifier = { name = 14500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 14500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 14.0 } }
-		add_permanent_province_modifier = { name = 14000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 14000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 13.5 } }
-		add_permanent_province_modifier = { name = 13500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 13500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 13.0 } }
-		add_permanent_province_modifier = { name = 13000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 13000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 12.5 } }
-		add_permanent_province_modifier = { name = 12500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 12500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 12.0 } }
-		add_permanent_province_modifier = { name = 12000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 12000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 11.5 } }
-		add_permanent_province_modifier = { name = 11500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 11500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 11.0 } }
-		add_permanent_province_modifier = { name = 11000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 11000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 10.5 } }
-		add_permanent_province_modifier = { name = 10500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 10500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 10.0 } }
-		add_permanent_province_modifier = { name = 10000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 10000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 9.5 } }
-		add_permanent_province_modifier = { name = 9500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 9500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 9.0 } }
-		add_permanent_province_modifier = { name = 9000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 9000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 8.5 } }
-		add_permanent_province_modifier = { name = 8500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 8500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 8.0 } }
-		add_permanent_province_modifier = { name = 8000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 8000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 7.5 } }
-		add_permanent_province_modifier = { name = 7500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 7500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 7.0 } }
-		add_permanent_province_modifier = { name = 7000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 7000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 6.5 } }
-		add_permanent_province_modifier = { name = 6500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 6500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 6.0 } }
-		add_permanent_province_modifier = { name = 6000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 6000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 5.5 } }
-		add_permanent_province_modifier = { name = 5500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 5500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 5.0 } }
-		add_permanent_province_modifier = { name = 5000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 5000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 4.5 } }
-		add_permanent_province_modifier = { name = 4500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 4500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 4.0 } }
-		add_permanent_province_modifier = { name = 4000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 4000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 3.5 } }
-		add_permanent_province_modifier = { name = 3500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 3500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 3.0 } }
-		add_permanent_province_modifier = { name = 3000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 3000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 2.5 } }
-		add_permanent_province_modifier = { name = 2500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 2500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 2.0 } }
-		add_permanent_province_modifier = { name = 2000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 2000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 1.5 } }
-		add_permanent_province_modifier = { name = 1500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 1500_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 1.0 } }
-		add_permanent_province_modifier = { name = 1000_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 1000_urban_pop_modifier
 	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 0.5 } }
-		add_permanent_province_modifier = { name = 500_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 500_urban_pop_modifier
 	}
 	else = {
-		add_permanent_province_modifier = { name = 0_urban_pop_modifier duration = -1 hidden = yes }
+		add_province_triggered_modifier = 0_urban_pop_modifier
 	}
 }
 
 #Urban Pop Clear Code
 clear_urban_pop_modifiers = {
 	if = { limit = { has_province_modifier = 100000_urban_pop_modifier }
-		remove_province_modifier = 100000_urban_pop_modifier
+		remove_province_triggered_modifier = 100000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 99500_urban_pop_modifier }
-		remove_province_modifier = 99500_urban_pop_modifier
+		remove_province_triggered_modifier = 99500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 99000_urban_pop_modifier }
-		remove_province_modifier = 99000_urban_pop_modifier
+		remove_province_triggered_modifier = 99000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 98500_urban_pop_modifier }
-		remove_province_modifier = 98500_urban_pop_modifier
+		remove_province_triggered_modifier = 98500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 98000_urban_pop_modifier }
-		remove_province_modifier = 98000_urban_pop_modifier
+		remove_province_triggered_modifier = 98000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 97500_urban_pop_modifier }
-		remove_province_modifier = 97500_urban_pop_modifier
+		remove_province_triggered_modifier = 97500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 97000_urban_pop_modifier }
-		remove_province_modifier = 97000_urban_pop_modifier
+		remove_province_triggered_modifier = 97000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 96500_urban_pop_modifier }
-		remove_province_modifier = 96500_urban_pop_modifier
+		remove_province_triggered_modifier = 96500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 96000_urban_pop_modifier }
-		remove_province_modifier = 96000_urban_pop_modifier
+		remove_province_triggered_modifier = 96000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 95500_urban_pop_modifier }
-		remove_province_modifier = 95500_urban_pop_modifier
+		remove_province_triggered_modifier = 95500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 95000_urban_pop_modifier }
-		remove_province_modifier = 95000_urban_pop_modifier
+		remove_province_triggered_modifier = 95000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 94500_urban_pop_modifier }
-		remove_province_modifier = 94500_urban_pop_modifier
+		remove_province_triggered_modifier = 94500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 94000_urban_pop_modifier }
-		remove_province_modifier = 94000_urban_pop_modifier
+		remove_province_triggered_modifier = 94000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 93500_urban_pop_modifier }
-		remove_province_modifier = 93500_urban_pop_modifier
+		remove_province_triggered_modifier = 93500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 93000_urban_pop_modifier }
-		remove_province_modifier = 93000_urban_pop_modifier
+		remove_province_triggered_modifier = 93000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 92500_urban_pop_modifier }
-		remove_province_modifier = 92500_urban_pop_modifier
+		remove_province_triggered_modifier = 92500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 92000_urban_pop_modifier }
-		remove_province_modifier = 92000_urban_pop_modifier
+		remove_province_triggered_modifier = 92000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 91500_urban_pop_modifier }
-		remove_province_modifier = 91500_urban_pop_modifier
+		remove_province_triggered_modifier = 91500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 91000_urban_pop_modifier }
-		remove_province_modifier = 91000_urban_pop_modifier
+		remove_province_triggered_modifier = 91000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 90500_urban_pop_modifier }
-		remove_province_modifier = 90500_urban_pop_modifier
+		remove_province_triggered_modifier = 90500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 90000_urban_pop_modifier }
-		remove_province_modifier = 90000_urban_pop_modifier
+		remove_province_triggered_modifier = 90000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 89500_urban_pop_modifier }
-		remove_province_modifier = 89500_urban_pop_modifier
+		remove_province_triggered_modifier = 89500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 89000_urban_pop_modifier }
-		remove_province_modifier = 89000_urban_pop_modifier
+		remove_province_triggered_modifier = 89000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 88500_urban_pop_modifier }
-		remove_province_modifier = 88500_urban_pop_modifier
+		remove_province_triggered_modifier = 88500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 88000_urban_pop_modifier }
-		remove_province_modifier = 88000_urban_pop_modifier
+		remove_province_triggered_modifier = 88000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 87500_urban_pop_modifier }
-		remove_province_modifier = 87500_urban_pop_modifier
+		remove_province_triggered_modifier = 87500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 87000_urban_pop_modifier }
-		remove_province_modifier = 87000_urban_pop_modifier
+		remove_province_triggered_modifier = 87000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 86500_urban_pop_modifier }
-		remove_province_modifier = 86500_urban_pop_modifier
+		remove_province_triggered_modifier = 86500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 86000_urban_pop_modifier }
-		remove_province_modifier = 86000_urban_pop_modifier
+		remove_province_triggered_modifier = 86000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 85500_urban_pop_modifier }
-		remove_province_modifier = 85500_urban_pop_modifier
+		remove_province_triggered_modifier = 85500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 85000_urban_pop_modifier }
-		remove_province_modifier = 85000_urban_pop_modifier
+		remove_province_triggered_modifier = 85000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 84500_urban_pop_modifier }
-		remove_province_modifier = 84500_urban_pop_modifier
+		remove_province_triggered_modifier = 84500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 84000_urban_pop_modifier }
-		remove_province_modifier = 84000_urban_pop_modifier
+		remove_province_triggered_modifier = 84000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 83500_urban_pop_modifier }
-		remove_province_modifier = 83500_urban_pop_modifier
+		remove_province_triggered_modifier = 83500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 83000_urban_pop_modifier }
-		remove_province_modifier = 83000_urban_pop_modifier
+		remove_province_triggered_modifier = 83000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 82500_urban_pop_modifier }
-		remove_province_modifier = 82500_urban_pop_modifier
+		remove_province_triggered_modifier = 82500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 82000_urban_pop_modifier }
-		remove_province_modifier = 82000_urban_pop_modifier
+		remove_province_triggered_modifier = 82000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 81500_urban_pop_modifier }
-		remove_province_modifier = 81500_urban_pop_modifier
+		remove_province_triggered_modifier = 81500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 81000_urban_pop_modifier }
-		remove_province_modifier = 81000_urban_pop_modifier
+		remove_province_triggered_modifier = 81000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 80500_urban_pop_modifier }
-		remove_province_modifier = 80500_urban_pop_modifier
+		remove_province_triggered_modifier = 80500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 80000_urban_pop_modifier }
-		remove_province_modifier = 80000_urban_pop_modifier
+		remove_province_triggered_modifier = 80000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 79500_urban_pop_modifier }
-		remove_province_modifier = 79500_urban_pop_modifier
+		remove_province_triggered_modifier = 79500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 79000_urban_pop_modifier }
-		remove_province_modifier = 79000_urban_pop_modifier
+		remove_province_triggered_modifier = 79000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 78500_urban_pop_modifier }
-		remove_province_modifier = 78500_urban_pop_modifier
+		remove_province_triggered_modifier = 78500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 78000_urban_pop_modifier }
-		remove_province_modifier = 78000_urban_pop_modifier
+		remove_province_triggered_modifier = 78000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 77500_urban_pop_modifier }
-		remove_province_modifier = 77500_urban_pop_modifier
+		remove_province_triggered_modifier = 77500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 77000_urban_pop_modifier }
-		remove_province_modifier = 77000_urban_pop_modifier
+		remove_province_triggered_modifier = 77000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 76500_urban_pop_modifier }
-		remove_province_modifier = 76500_urban_pop_modifier
+		remove_province_triggered_modifier = 76500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 76000_urban_pop_modifier }
-		remove_province_modifier = 76000_urban_pop_modifier
+		remove_province_triggered_modifier = 76000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 75500_urban_pop_modifier }
-		remove_province_modifier = 75500_urban_pop_modifier
+		remove_province_triggered_modifier = 75500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 75000_urban_pop_modifier }
-		remove_province_modifier = 75000_urban_pop_modifier
+		remove_province_triggered_modifier = 75000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 74500_urban_pop_modifier }
-		remove_province_modifier = 74500_urban_pop_modifier
+		remove_province_triggered_modifier = 74500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 74000_urban_pop_modifier }
-		remove_province_modifier = 74000_urban_pop_modifier
+		remove_province_triggered_modifier = 74000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 73500_urban_pop_modifier }
-		remove_province_modifier = 73500_urban_pop_modifier
+		remove_province_triggered_modifier = 73500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 73000_urban_pop_modifier }
-		remove_province_modifier = 73000_urban_pop_modifier
+		remove_province_triggered_modifier = 73000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 72500_urban_pop_modifier }
-		remove_province_modifier = 72500_urban_pop_modifier
+		remove_province_triggered_modifier = 72500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 72000_urban_pop_modifier }
-		remove_province_modifier = 72000_urban_pop_modifier
+		remove_province_triggered_modifier = 72000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 71500_urban_pop_modifier }
-		remove_province_modifier = 71500_urban_pop_modifier
+		remove_province_triggered_modifier = 71500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 71000_urban_pop_modifier }
-		remove_province_modifier = 71000_urban_pop_modifier
+		remove_province_triggered_modifier = 71000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 70500_urban_pop_modifier }
-		remove_province_modifier = 70500_urban_pop_modifier
+		remove_province_triggered_modifier = 70500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 70000_urban_pop_modifier }
-		remove_province_modifier = 70000_urban_pop_modifier
+		remove_province_triggered_modifier = 70000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 69500_urban_pop_modifier }
-		remove_province_modifier = 69500_urban_pop_modifier
+		remove_province_triggered_modifier = 69500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 69000_urban_pop_modifier }
-		remove_province_modifier = 69000_urban_pop_modifier
+		remove_province_triggered_modifier = 69000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 68500_urban_pop_modifier }
-		remove_province_modifier = 68500_urban_pop_modifier
+		remove_province_triggered_modifier = 68500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 68000_urban_pop_modifier }
-		remove_province_modifier = 68000_urban_pop_modifier
+		remove_province_triggered_modifier = 68000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 67500_urban_pop_modifier }
-		remove_province_modifier = 67500_urban_pop_modifier
+		remove_province_triggered_modifier = 67500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 67000_urban_pop_modifier }
-		remove_province_modifier = 67000_urban_pop_modifier
+		remove_province_triggered_modifier = 67000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 66500_urban_pop_modifier }
-		remove_province_modifier = 66500_urban_pop_modifier
+		remove_province_triggered_modifier = 66500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 66000_urban_pop_modifier }
-		remove_province_modifier = 66000_urban_pop_modifier
+		remove_province_triggered_modifier = 66000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 65500_urban_pop_modifier }
-		remove_province_modifier = 65500_urban_pop_modifier
+		remove_province_triggered_modifier = 65500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 65000_urban_pop_modifier }
-		remove_province_modifier = 65000_urban_pop_modifier
+		remove_province_triggered_modifier = 65000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 64500_urban_pop_modifier }
-		remove_province_modifier = 64500_urban_pop_modifier
+		remove_province_triggered_modifier = 64500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 64000_urban_pop_modifier }
-		remove_province_modifier = 64000_urban_pop_modifier
+		remove_province_triggered_modifier = 64000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 63500_urban_pop_modifier }
-		remove_province_modifier = 63500_urban_pop_modifier
+		remove_province_triggered_modifier = 63500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 63000_urban_pop_modifier }
-		remove_province_modifier = 63000_urban_pop_modifier
+		remove_province_triggered_modifier = 63000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 62500_urban_pop_modifier }
-		remove_province_modifier = 62500_urban_pop_modifier
+		remove_province_triggered_modifier = 62500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 62000_urban_pop_modifier }
-		remove_province_modifier = 62000_urban_pop_modifier
+		remove_province_triggered_modifier = 62000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 61500_urban_pop_modifier }
-		remove_province_modifier = 61500_urban_pop_modifier
+		remove_province_triggered_modifier = 61500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 61000_urban_pop_modifier }
-		remove_province_modifier = 61000_urban_pop_modifier
+		remove_province_triggered_modifier = 61000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 60500_urban_pop_modifier }
-		remove_province_modifier = 60500_urban_pop_modifier
+		remove_province_triggered_modifier = 60500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 60000_urban_pop_modifier }
-		remove_province_modifier = 60000_urban_pop_modifier
+		remove_province_triggered_modifier = 60000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 59500_urban_pop_modifier }
-		remove_province_modifier = 59500_urban_pop_modifier
+		remove_province_triggered_modifier = 59500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 59000_urban_pop_modifier }
-		remove_province_modifier = 59000_urban_pop_modifier
+		remove_province_triggered_modifier = 59000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 58500_urban_pop_modifier }
-		remove_province_modifier = 58500_urban_pop_modifier
+		remove_province_triggered_modifier = 58500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 58000_urban_pop_modifier }
-		remove_province_modifier = 58000_urban_pop_modifier
+		remove_province_triggered_modifier = 58000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 57500_urban_pop_modifier }
-		remove_province_modifier = 57500_urban_pop_modifier
+		remove_province_triggered_modifier = 57500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 57000_urban_pop_modifier }
-		remove_province_modifier = 57000_urban_pop_modifier
+		remove_province_triggered_modifier = 57000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 56500_urban_pop_modifier }
-		remove_province_modifier = 56500_urban_pop_modifier
+		remove_province_triggered_modifier = 56500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 56000_urban_pop_modifier }
-		remove_province_modifier = 56000_urban_pop_modifier
+		remove_province_triggered_modifier = 56000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 55500_urban_pop_modifier }
-		remove_province_modifier = 55500_urban_pop_modifier
+		remove_province_triggered_modifier = 55500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 55000_urban_pop_modifier }
-		remove_province_modifier = 55000_urban_pop_modifier
+		remove_province_triggered_modifier = 55000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 54500_urban_pop_modifier }
-		remove_province_modifier = 54500_urban_pop_modifier
+		remove_province_triggered_modifier = 54500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 54000_urban_pop_modifier }
-		remove_province_modifier = 54000_urban_pop_modifier
+		remove_province_triggered_modifier = 54000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 53500_urban_pop_modifier }
-		remove_province_modifier = 53500_urban_pop_modifier
+		remove_province_triggered_modifier = 53500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 53000_urban_pop_modifier }
-		remove_province_modifier = 53000_urban_pop_modifier
+		remove_province_triggered_modifier = 53000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 52500_urban_pop_modifier }
-		remove_province_modifier = 52500_urban_pop_modifier
+		remove_province_triggered_modifier = 52500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 52000_urban_pop_modifier }
-		remove_province_modifier = 52000_urban_pop_modifier
+		remove_province_triggered_modifier = 52000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 51500_urban_pop_modifier }
-		remove_province_modifier = 51500_urban_pop_modifier
+		remove_province_triggered_modifier = 51500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 51000_urban_pop_modifier }
-		remove_province_modifier = 51000_urban_pop_modifier
+		remove_province_triggered_modifier = 51000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 50500_urban_pop_modifier }
-		remove_province_modifier = 50500_urban_pop_modifier
+		remove_province_triggered_modifier = 50500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 50000_urban_pop_modifier }
-		remove_province_modifier = 50000_urban_pop_modifier
+		remove_province_triggered_modifier = 50000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 49500_urban_pop_modifier }
-		remove_province_modifier = 49500_urban_pop_modifier
+		remove_province_triggered_modifier = 49500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 49000_urban_pop_modifier }
-		remove_province_modifier = 49000_urban_pop_modifier
+		remove_province_triggered_modifier = 49000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 48500_urban_pop_modifier }
-		remove_province_modifier = 48500_urban_pop_modifier
+		remove_province_triggered_modifier = 48500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 48000_urban_pop_modifier }
-		remove_province_modifier = 48000_urban_pop_modifier
+		remove_province_triggered_modifier = 48000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 47500_urban_pop_modifier }
-		remove_province_modifier = 47500_urban_pop_modifier
+		remove_province_triggered_modifier = 47500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 47000_urban_pop_modifier }
-		remove_province_modifier = 47000_urban_pop_modifier
+		remove_province_triggered_modifier = 47000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 46500_urban_pop_modifier }
-		remove_province_modifier = 46500_urban_pop_modifier
+		remove_province_triggered_modifier = 46500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 46000_urban_pop_modifier }
-		remove_province_modifier = 46000_urban_pop_modifier
+		remove_province_triggered_modifier = 46000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 45500_urban_pop_modifier }
-		remove_province_modifier = 45500_urban_pop_modifier
+		remove_province_triggered_modifier = 45500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 45000_urban_pop_modifier }
-		remove_province_modifier = 45000_urban_pop_modifier
+		remove_province_triggered_modifier = 45000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 44500_urban_pop_modifier }
-		remove_province_modifier = 44500_urban_pop_modifier
+		remove_province_triggered_modifier = 44500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 44000_urban_pop_modifier }
-		remove_province_modifier = 44000_urban_pop_modifier
+		remove_province_triggered_modifier = 44000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 43500_urban_pop_modifier }
-		remove_province_modifier = 43500_urban_pop_modifier
+		remove_province_triggered_modifier = 43500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 43000_urban_pop_modifier }
-		remove_province_modifier = 43000_urban_pop_modifier
+		remove_province_triggered_modifier = 43000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 42500_urban_pop_modifier }
-		remove_province_modifier = 42500_urban_pop_modifier
+		remove_province_triggered_modifier = 42500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 42000_urban_pop_modifier }
-		remove_province_modifier = 42000_urban_pop_modifier
+		remove_province_triggered_modifier = 42000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 41500_urban_pop_modifier }
-		remove_province_modifier = 41500_urban_pop_modifier
+		remove_province_triggered_modifier = 41500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 41000_urban_pop_modifier }
-		remove_province_modifier = 41000_urban_pop_modifier
+		remove_province_triggered_modifier = 41000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 40500_urban_pop_modifier }
-		remove_province_modifier = 40500_urban_pop_modifier
+		remove_province_triggered_modifier = 40500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 40000_urban_pop_modifier }
-		remove_province_modifier = 40000_urban_pop_modifier
+		remove_province_triggered_modifier = 40000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 39500_urban_pop_modifier }
-		remove_province_modifier = 39500_urban_pop_modifier
+		remove_province_triggered_modifier = 39500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 39000_urban_pop_modifier }
-		remove_province_modifier = 39000_urban_pop_modifier
+		remove_province_triggered_modifier = 39000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 38500_urban_pop_modifier }
-		remove_province_modifier = 38500_urban_pop_modifier
+		remove_province_triggered_modifier = 38500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 38000_urban_pop_modifier }
-		remove_province_modifier = 38000_urban_pop_modifier
+		remove_province_triggered_modifier = 38000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 37500_urban_pop_modifier }
-		remove_province_modifier = 37500_urban_pop_modifier
+		remove_province_triggered_modifier = 37500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 37000_urban_pop_modifier }
-		remove_province_modifier = 37000_urban_pop_modifier
+		remove_province_triggered_modifier = 37000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 36500_urban_pop_modifier }
-		remove_province_modifier = 36500_urban_pop_modifier
+		remove_province_triggered_modifier = 36500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 36000_urban_pop_modifier }
-		remove_province_modifier = 36000_urban_pop_modifier
+		remove_province_triggered_modifier = 36000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 35500_urban_pop_modifier }
-		remove_province_modifier = 35500_urban_pop_modifier
+		remove_province_triggered_modifier = 35500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 35000_urban_pop_modifier }
-		remove_province_modifier = 35000_urban_pop_modifier
+		remove_province_triggered_modifier = 35000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 34500_urban_pop_modifier }
-		remove_province_modifier = 34500_urban_pop_modifier
+		remove_province_triggered_modifier = 34500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 34000_urban_pop_modifier }
-		remove_province_modifier = 34000_urban_pop_modifier
+		remove_province_triggered_modifier = 34000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 33500_urban_pop_modifier }
-		remove_province_modifier = 33500_urban_pop_modifier
+		remove_province_triggered_modifier = 33500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 33000_urban_pop_modifier }
-		remove_province_modifier = 33000_urban_pop_modifier
+		remove_province_triggered_modifier = 33000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 32500_urban_pop_modifier }
-		remove_province_modifier = 32500_urban_pop_modifier
+		remove_province_triggered_modifier = 32500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 32000_urban_pop_modifier }
-		remove_province_modifier = 32000_urban_pop_modifier
+		remove_province_triggered_modifier = 32000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 31500_urban_pop_modifier }
-		remove_province_modifier = 31500_urban_pop_modifier
+		remove_province_triggered_modifier = 31500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 31000_urban_pop_modifier }
-		remove_province_modifier = 31000_urban_pop_modifier
+		remove_province_triggered_modifier = 31000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 30500_urban_pop_modifier }
-		remove_province_modifier = 30500_urban_pop_modifier
+		remove_province_triggered_modifier = 30500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 30000_urban_pop_modifier }
-		remove_province_modifier = 30000_urban_pop_modifier
+		remove_province_triggered_modifier = 30000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 29500_urban_pop_modifier }
-		remove_province_modifier = 29500_urban_pop_modifier
+		remove_province_triggered_modifier = 29500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 29000_urban_pop_modifier }
-		remove_province_modifier = 29000_urban_pop_modifier
+		remove_province_triggered_modifier = 29000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 28500_urban_pop_modifier }
-		remove_province_modifier = 28500_urban_pop_modifier
+		remove_province_triggered_modifier = 28500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 28000_urban_pop_modifier }
-		remove_province_modifier = 28000_urban_pop_modifier
+		remove_province_triggered_modifier = 28000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 27500_urban_pop_modifier }
-		remove_province_modifier = 27500_urban_pop_modifier
+		remove_province_triggered_modifier = 27500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 27000_urban_pop_modifier }
-		remove_province_modifier = 27000_urban_pop_modifier
+		remove_province_triggered_modifier = 27000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 26500_urban_pop_modifier }
-		remove_province_modifier = 26500_urban_pop_modifier
+		remove_province_triggered_modifier = 26500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 26000_urban_pop_modifier }
-		remove_province_modifier = 26000_urban_pop_modifier
+		remove_province_triggered_modifier = 26000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 25500_urban_pop_modifier }
-		remove_province_modifier = 25500_urban_pop_modifier
+		remove_province_triggered_modifier = 25500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 25000_urban_pop_modifier }
-		remove_province_modifier = 25000_urban_pop_modifier
+		remove_province_triggered_modifier = 25000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 24500_urban_pop_modifier }
-		remove_province_modifier = 24500_urban_pop_modifier
+		remove_province_triggered_modifier = 24500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 24000_urban_pop_modifier }
-		remove_province_modifier = 24000_urban_pop_modifier
+		remove_province_triggered_modifier = 24000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 23500_urban_pop_modifier }
-		remove_province_modifier = 23500_urban_pop_modifier
+		remove_province_triggered_modifier = 23500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 23000_urban_pop_modifier }
-		remove_province_modifier = 23000_urban_pop_modifier
+		remove_province_triggered_modifier = 23000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 22500_urban_pop_modifier }
-		remove_province_modifier = 22500_urban_pop_modifier
+		remove_province_triggered_modifier = 22500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 22000_urban_pop_modifier }
-		remove_province_modifier = 22000_urban_pop_modifier
+		remove_province_triggered_modifier = 22000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 21500_urban_pop_modifier }
-		remove_province_modifier = 21500_urban_pop_modifier
+		remove_province_triggered_modifier = 21500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 21000_urban_pop_modifier }
-		remove_province_modifier = 21000_urban_pop_modifier
+		remove_province_triggered_modifier = 21000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 20500_urban_pop_modifier }
-		remove_province_modifier = 20500_urban_pop_modifier
+		remove_province_triggered_modifier = 20500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 20000_urban_pop_modifier }
-		remove_province_modifier = 20000_urban_pop_modifier
+		remove_province_triggered_modifier = 20000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 19500_urban_pop_modifier }
-		remove_province_modifier = 19500_urban_pop_modifier
+		remove_province_triggered_modifier = 19500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 19000_urban_pop_modifier }
-		remove_province_modifier = 19000_urban_pop_modifier
+		remove_province_triggered_modifier = 19000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 18500_urban_pop_modifier }
-		remove_province_modifier = 18500_urban_pop_modifier
+		remove_province_triggered_modifier = 18500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 18000_urban_pop_modifier }
-		remove_province_modifier = 18000_urban_pop_modifier
+		remove_province_triggered_modifier = 18000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 17500_urban_pop_modifier }
-		remove_province_modifier = 17500_urban_pop_modifier
+		remove_province_triggered_modifier = 17500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 17000_urban_pop_modifier }
-		remove_province_modifier = 17000_urban_pop_modifier
+		remove_province_triggered_modifier = 17000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 16500_urban_pop_modifier }
-		remove_province_modifier = 16500_urban_pop_modifier
+		remove_province_triggered_modifier = 16500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 16000_urban_pop_modifier }
-		remove_province_modifier = 16000_urban_pop_modifier
+		remove_province_triggered_modifier = 16000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 15500_urban_pop_modifier }
-		remove_province_modifier = 15500_urban_pop_modifier
+		remove_province_triggered_modifier = 15500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 15000_urban_pop_modifier }
-		remove_province_modifier = 15000_urban_pop_modifier
+		remove_province_triggered_modifier = 15000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 14500_urban_pop_modifier }
-		remove_province_modifier = 14500_urban_pop_modifier
+		remove_province_triggered_modifier = 14500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 14000_urban_pop_modifier }
-		remove_province_modifier = 14000_urban_pop_modifier
+		remove_province_triggered_modifier = 14000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 13500_urban_pop_modifier }
-		remove_province_modifier = 13500_urban_pop_modifier
+		remove_province_triggered_modifier = 13500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 13000_urban_pop_modifier }
-		remove_province_modifier = 13000_urban_pop_modifier
+		remove_province_triggered_modifier = 13000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 12500_urban_pop_modifier }
-		remove_province_modifier = 12500_urban_pop_modifier
+		remove_province_triggered_modifier = 12500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 12000_urban_pop_modifier }
-		remove_province_modifier = 12000_urban_pop_modifier
+		remove_province_triggered_modifier = 12000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 11500_urban_pop_modifier }
-		remove_province_modifier = 11500_urban_pop_modifier
+		remove_province_triggered_modifier = 11500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 11000_urban_pop_modifier }
-		remove_province_modifier = 11000_urban_pop_modifier
+		remove_province_triggered_modifier = 11000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 10500_urban_pop_modifier }
-		remove_province_modifier = 10500_urban_pop_modifier
+		remove_province_triggered_modifier = 10500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 10000_urban_pop_modifier }
-		remove_province_modifier = 10000_urban_pop_modifier
+		remove_province_triggered_modifier = 10000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 9500_urban_pop_modifier }
-		remove_province_modifier = 9500_urban_pop_modifier
+		remove_province_triggered_modifier = 9500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 9000_urban_pop_modifier }
-		remove_province_modifier = 9000_urban_pop_modifier
+		remove_province_triggered_modifier = 9000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 8500_urban_pop_modifier }
-		remove_province_modifier = 8500_urban_pop_modifier
+		remove_province_triggered_modifier = 8500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 8000_urban_pop_modifier }
-		remove_province_modifier = 8000_urban_pop_modifier
+		remove_province_triggered_modifier = 8000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 7500_urban_pop_modifier }
-		remove_province_modifier = 7500_urban_pop_modifier
+		remove_province_triggered_modifier = 7500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 7000_urban_pop_modifier }
-		remove_province_modifier = 7000_urban_pop_modifier
+		remove_province_triggered_modifier = 7000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 6500_urban_pop_modifier }
-		remove_province_modifier = 6500_urban_pop_modifier
+		remove_province_triggered_modifier = 6500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 6000_urban_pop_modifier }
-		remove_province_modifier = 6000_urban_pop_modifier
+		remove_province_triggered_modifier = 6000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 5500_urban_pop_modifier }
-		remove_province_modifier = 5500_urban_pop_modifier
+		remove_province_triggered_modifier = 5500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 5000_urban_pop_modifier }
-		remove_province_modifier = 5000_urban_pop_modifier
+		remove_province_triggered_modifier = 5000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 4500_urban_pop_modifier }
-		remove_province_modifier = 4500_urban_pop_modifier
+		remove_province_triggered_modifier = 4500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 4000_urban_pop_modifier }
-		remove_province_modifier = 4000_urban_pop_modifier
+		remove_province_triggered_modifier = 4000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 3500_urban_pop_modifier }
-		remove_province_modifier = 3500_urban_pop_modifier
+		remove_province_triggered_modifier = 3500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 3000_urban_pop_modifier }
-		remove_province_modifier = 3000_urban_pop_modifier
+		remove_province_triggered_modifier = 3000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 2500_urban_pop_modifier }
-		remove_province_modifier = 2500_urban_pop_modifier
+		remove_province_triggered_modifier = 2500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 2000_urban_pop_modifier }
-		remove_province_modifier = 2000_urban_pop_modifier
+		remove_province_triggered_modifier = 2000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 1500_urban_pop_modifier }
-		remove_province_modifier = 1500_urban_pop_modifier
+		remove_province_triggered_modifier = 1500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 1000_urban_pop_modifier }
-		remove_province_modifier = 1000_urban_pop_modifier
+		remove_province_triggered_modifier = 1000_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 500_urban_pop_modifier }
-		remove_province_modifier = 500_urban_pop_modifier
+		remove_province_triggered_modifier = 500_urban_pop_modifier
 	}
 	else_if = { limit = { has_province_modifier = 0_urban_pop_modifier }
-		remove_province_modifier = 0_urban_pop_modifier
+		remove_province_triggered_modifier = 0_urban_pop_modifier
 	}
 }

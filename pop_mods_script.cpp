@@ -27,6 +27,9 @@ static void newRuralEntry(string &list, string &loc, string &code, string &clear
 
     os << endl;
     os << name << " = {" << endl;
+    os << "\tpotential = { always = yes }\n";
+    os << "\ttrigger = { always = yes }\n";
+    os << "\thidden = yes\n";
     if(RURAL_TAX > 0 && pop > 0) os << "\ttax_income = " << (RURAL_TAX * pop / 1000) << endl;
     if(RURAL_GOODS_PROD > 0 && pop > 0) os << "\ttrade_goods_size = " << (RURAL_GOODS_PROD * pop / 1000) << endl;
     if(RURAL_MANPOWER > 0 && pop > 0) os << "\tlocal_manpower = " << (RURAL_MANPOWER * pop / 1000) << endl;
@@ -39,12 +42,12 @@ static void newRuralEntry(string &list, string &loc, string &code, string &clear
         loc += name + ":0 \"Insignificant Rural Population\"\n";
 
         cd += "\telse = {\n";
-        cd += "\t\tadd_permanent_province_modifier = { name = " + name + " duration = -1 }\n";
+        cd += "\t\tadd_province_triggered_modifier = " + name + "\n";
         cd += "\t}\n";
         code = cd + code;
 
         cl += "\telse_if = { limit = { has_province_modifier = " + name + " }\n";
-        cl += "\t\tremove_province_modifier = " + name + "\n";
+        cl += "\t\tremove_province_triggered_modifier = " + name + "\n";
         cl += "\t}\n";
         clear = cl + clear;
     }
@@ -52,16 +55,16 @@ static void newRuralEntry(string &list, string &loc, string &code, string &clear
         loc += name + ":0 \"" + popS + " Rural Population\"\n";
 
         cd += "\telse_if = { limit = { check_variable = { which = rural_pop value = " + to_string(float(pop)/1000) + " } }\n";
-        cd += "\t\tadd_permanent_province_modifier = { name = " + name + " duration = -1 }\n";
+        cd += "\t\tadd_province_triggered_modifier = " + name + "\n";
         cd += "\t}\n";
         code = cd + code;
 
         cl += "\telse_if = { limit = { has_province_modifier = " + name + " }\n";
-        cl += "\t\tremove_province_modifier = " + name + "\n";
+        cl += "\t\tremove_province_triggered_modifier = " + name + "\n";
         cl += "\t}\n";
         clear = cl + clear;
     }
-    loc += "desc_" + name + ":0 \"Rural Population: [THIS.rural_pop.GetValue]\"\n";
+    loc += "desc_" + name + ":0 \"Rural Population: [rural_pop.GetValue]\"\n";
 
 }
 
@@ -76,6 +79,9 @@ static void newUrbanEntry(string &list, string &loc, string &code, string &clear
 
     os << endl;
     os << name << " = {" << endl;
+    os << "\tpotential = { always = yes }\n";
+    os << "\ttrigger = { always = yes }\n";
+    os << "\thidden = yes\n";
     if(URBAN_TAX > 0 && pop > 0) os << "\ttax_income = " << (URBAN_TAX * pop / 1000) << endl;
     if(URBAN_GOODS_PROD > 0 && pop > 0) os << "\ttrade_goods_size = " << (URBAN_GOODS_PROD * pop / 1000) << endl;
     if(URBAN_MANPOWER > 0 && pop > 0) os << "\tlocal_manpower = " << (URBAN_MANPOWER * pop / 1000) << endl;
@@ -88,12 +94,12 @@ static void newUrbanEntry(string &list, string &loc, string &code, string &clear
         loc += name + ":0 \"Insignificant Urban Population\"\n";
 
         cd += "\telse = {\n";
-        cd += "\t\tadd_permanent_province_modifier = { name = " + name + " duration = -1 }\n";
+        cd += "\t\tadd_province_triggered_modifier = " + name + "\n";
         cd += "\t}\n";
         code = cd + code;
 
         cl += "\telse_if = { limit = { has_province_modifier = " + name + " }\n";
-        cl += "\t\tremove_province_modifier = " + name + "\n";
+        cl += "\t\tremove_province_triggered_modifier = " + name + "\n";
         cl += "\t}\n";
         clear = cl + clear;
     }
@@ -101,16 +107,16 @@ static void newUrbanEntry(string &list, string &loc, string &code, string &clear
         loc += name + ":0 \"" + popS + " Urban Population\"\n";
 
         cd += "\telse_if = { limit = { check_variable = { which = urban_pop value = " + to_string(float(pop)/1000) + " } }\n";
-        cd += "\t\tadd_permanent_province_modifier = { name = " + name + " duration = -1 }\n";
+        cd += "\t\tadd_province_triggered_modifier = " + name + "\n";
         cd += "\t}\n";
         code = cd + code;
 
         cl += "\telse_if = { limit = { has_province_modifier = " + name + " }\n";
-        cl += "\t\tremove_province_modifier = " + name + "\n";
+        cl += "\t\tremove_province_triggered_modifier = " + name + "\n";
         cl += "\t}\n";
         clear = cl + clear;
     }
-    loc += "desc_" + name + ":0 \"Urban Population: [THIS.urban_pop.GetValue]\"\n";
+    loc += "desc_" + name + ":0 \"Urban Population: [urban_pop.GetValue]\"\n";
 }
 
 int main(int argc, char *argv[]){
