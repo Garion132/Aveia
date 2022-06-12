@@ -35,6 +35,8 @@ static void newRuralEntry(string &list, string &loc, string &code, string &clear
     if(RURAL_MANPOWER > 0 && pop > 0) os << "\tlocal_manpower = " << (RURAL_MANPOWER * pop / 1000) << endl;
     if(RURAL_SAILORS > 0 && pop > 0) os << "\tlocal_sailors = " << (RURAL_SAILORS * pop / 1000) << endl;
     if(RURAL_TRADE_POWER > 0 && pop > 0) os << "\tprovince_trade_power_value = " << (RURAL_TRADE_POWER * pop / 1000) << endl;
+    os << "\ton_activation = { }\n";
+    os << "\ton_deactivation  = { }\n";
     os << "}";
     list += os.str();
     
@@ -87,6 +89,8 @@ static void newUrbanEntry(string &list, string &loc, string &code, string &clear
     if(URBAN_MANPOWER > 0 && pop > 0) os << "\tlocal_manpower = " << (URBAN_MANPOWER * pop / 1000) << endl;
     if(URBAN_SAILORS > 0 && pop > 0) os << "\tlocal_sailors = " << (URBAN_SAILORS * pop / 1000) << endl;
     if(URBAN_TRADE_POWER > 0 && pop > 0) os << "\tprovince_trade_power_value = " << (URBAN_TRADE_POWER * pop / 1000) << endl;
+    os << "\ton_activation = { }\n";
+    os << "\ton_deactivation  = { }\n";
     os << "}";
     list += os.str();
     
