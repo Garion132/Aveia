@@ -658,3 +658,6 @@
  
  thilrana_rises.7.t:0 "Red Kolbolds flee to Thilrana"
  thilrana_rises.8.t:0 "Red Kolbolds refugees arrive in our country"
+ grecarola_nation_title:0 "Reform Grecarola"
+ forming_grecarola_diplomatically_tooltip:0 "[Root.GetName] is the overlord in a vassalage or union between Grisea and Scarolia."
+ forming_windrame_diplomatically_tooltip:0 "[Root.GetName] is the overlord in a vassalage or union between Wargle and Wiscome."

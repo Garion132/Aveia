@@ -1,14 +1,14 @@
 #shires
-add_core = WAR
-owner = WAR
-controller = WAR
+add_core = WRG
+owner = WRG
+controller = WRG
 culture = wisdram
 religion = godly_sect
 capital = "colonial"
 trade_goods = unknown
 hre = no
-base_tax = 1
-base_production = 3
+base_tax = 2
+base_production = 1
 base_manpower = 1
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group

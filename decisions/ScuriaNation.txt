@@ -258,4 +258,93 @@ country_decisions = {
 		ai_importance = 400 #
 	}
 	
+	grecarola_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_grecarola_flag }
+			NOT = { tag = SCU }
+			NOT = { tag = UTS }
+			NOT = { tag = HAD }
+			NOT = { tag = OND }
+			OR = {
+				ai = no
+				num_of_cities = 3 #Carnage
+			}
+			primary_culture = gerysan
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR={
+				province_id = 5152
+				province_id = 5153
+				province_id = 5154
+				province_id = 5155
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = GRE }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			religion_group = eochism_group
+			is_nomad = no
+			OR={
+				custom_trigger_tooltip = {
+					tooltip = forming_grecarola_diplomatically_tooltip
+					OR = {
+						AND = {
+							tag = GRI
+							SCA = {	is_subject_of = GRI	}
+						}
+						AND = {
+							tag = SCA
+							GRI = {	is_subject_of = SCA	}
+						}
+					}
+				}
+				AND={
+					owns_core_province = 5155	#
+					owns_core_province = 5154	#
+					owns_core_province = 5153	#
+					owns_core_province = 5152	#
+				}
+			}
+		}
+		effect = {
+			change_tag = GRE
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = SCU_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_grecarola_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
 }

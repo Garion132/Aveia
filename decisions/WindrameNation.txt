@@ -1,0 +1,112 @@
+country_decisions = {
+	windrame_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_windrame_flag }
+			OR={
+				tag = WRG
+				tag = OLC
+				tag = WSC
+			}
+			OR = {
+				ai = no
+				num_of_cities = 3 #Carnage
+			}
+			NOT={exists = WRT}
+			primary_culture = wisdram
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR={
+				area = suirx_cresant_8
+				area = suirx_cresant_9
+				area = suirx_cresant_10
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			OR={
+				custom_trigger_tooltip = {
+					tooltip = forming_windrame_diplomatically_tooltip
+					OR = {
+						AND = {
+							tag = WRG
+							WSC = {	is_subject_of = WRG	}
+						}
+						AND = {
+							tag = WSC
+							WRG = {	is_subject_of = WSC}
+						}
+					}
+				}
+				num_of_owned_provinces_with = {
+					value = 7
+					has_owner_accepted_culture = yes
+					OR={
+						area = suirx_cresant_8
+						area = suirx_cresant_9
+						area = suirx_cresant_10
+					}
+					is_core = ROOT
+				}
+			}
+		}
+		effect = {
+			change_tag = WRT
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			if = {
+				limit = {
+					tag = WRG
+					WSC = {
+						ai = yes
+					}
+				}
+				inherit = WSC
+			}
+			if = {
+				limit = {
+					tag = WSC
+					WRG = {
+						ai = yes
+					}
+				}
+				inherit = WRG
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = WRT_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_windrame_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
+}

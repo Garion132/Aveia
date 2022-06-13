@@ -1,10 +1,10 @@
 government = tribal
 add_government_reform = tribal_federation
-primary_culture = tamhudian
+primary_culture = gerysan
 religion = eochism
 government_rank = 1
 technology_group = scurian_group
-capital = 5160 # 
+capital = 5154 # 
 #national_focus = DIP
 #historical_rival = HAB
 
@@ -22,13 +22,13 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
-	monarch = {
-		name = "Filler"
-		dynasty = "Tam"
-		birth_date = 1240.12.3
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
+# 1240.9.16 = {
+	# monarch = {
+		# name = "Filler"
+		# dynasty = "Unhar"
+		# birth_date = 1240.12.3
+		# adm = 3
+		# dip = 3
+		# mil = 3
+	# }
+# }

@@ -461,8 +461,8 @@
  TRK_ADJ:0 "Torkburgh"
  OLC:0 "Olcestre"
  OLC_ADJ:0 "Olcestre"
- WAR:0 "Wargle"
- WAR_ADJ:0 "Wargle"
+ WRG:0 "Wargle"
+ WRG_ADJ:0 "Wargle"
  WSC:0 "Wiscome"
  WSC_ADJ:0 "Wiscome"
  MRN:0 "Maren"
@@ -747,6 +747,10 @@
  WUL_ADJ:0 "Wulkildr"
  VAL:0 "Valtyue"
  VAL_ADJ:0 "Valtyue"
+ GRE:0 "Grecarola"
+ GRE_ADJ:0 "Grecarola"
+ WRT:0 "Windrame"
+ WRT_ADJ:0 "Windrame"
  
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"

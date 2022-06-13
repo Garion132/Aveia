@@ -2456,15 +2456,15 @@ country_event = {#sweaping south
 			}
 			add_treasury = 1000
 			add_manpower = 30
-			if={
-				limit={
-					SHE={exists = yes}
-				}
-				declare_war_with_cb = {
-					who = SHE
-					casus_belli = cb_mannish_great_conquest
-				}
-			}
+			# if={
+				# limit={
+					# SHE={exists = yes}
+				# }
+				# declare_war_with_cb = {
+					# who = SHE
+					# casus_belli = cb_mannish_great_conquest
+				# }
+			# }
 			if={
 				limit={
 					RAU={exists = yes}

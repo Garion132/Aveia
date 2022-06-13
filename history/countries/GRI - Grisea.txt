@@ -6,7 +6,7 @@ government_rank = 1
 technology_group = scurian_group
 capital = 5154 # 
 #national_focus = DIP
-#historical_rival = HAB
+historical_rival = SCA
 
 change_estate_land_share = {
 	estate = estate_nobles
@@ -22,13 +22,13 @@ change_estate_land_share = {
 }
 
 
-# 1240.9.16 = {
-	# monarch = {
-		# name = "Filler"
-		# dynasty = "Unhar"
-		# birth_date = 1240.12.3
-		# adm = 3
-		# dip = 3
-		# mil = 3
-	# }
-# }
+1240.9.16 = {
+	monarch = {
+		name = "Filler"
+		dynasty = "Bushfist"
+		birth_date = 1240.12.3
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
