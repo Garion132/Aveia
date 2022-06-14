@@ -22,8 +22,8 @@ historical_units = {
 }
 
 monarch_names = {
-	"Jean #0" = 40
-	"Charles #0" = 40
+	"Raean #0" = 40
+	"Dulora #0" = 40
 	"Fran�ois #0" = 20
 	"Pierre #0" = 5
 	"Hubert #0" = 5
