@@ -106,7 +106,8 @@ mocrad =
 
 rauthalor =
 {
-	discipline = 0.05
+	discipline = 0.025
+	ae_impact = -0.025
 	
 	allow = { 
 		religion = tlaunorist 
