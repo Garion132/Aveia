@@ -90,7 +90,7 @@ log_e = {
     divide_variable = { which = taylor_xxxx value = 4 }
     divide_variable = { which = taylor_xxxxx value = 5 }
 
-    set_variable = { which = $value$ value = taylor_x }
+    set_variable = { which = $value$ which = taylor_x }
     subtract_variable = { which = $value$ which = taylor_xx }
     change_variable = { which = $value$ which = taylor_xxx }
     subtract_variable = { which = $value$ which = taylor_xxxx }
@@ -131,7 +131,7 @@ log_e_times_100 = {
     divide_variable = { which = taylor_xxxx value = 4 }
     divide_variable = { which = taylor_xxxxx value = 5 }
 
-    set_variable = { which = $value$ value = taylor_x }
+    set_variable = { which = $value$ which = taylor_x }
     subtract_variable = { which = $value$ which = taylor_xx }
     change_variable = { which = $value$ which = taylor_xxx }
     subtract_variable = { which = $value$ which = taylor_xxxx }

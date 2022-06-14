@@ -1,9 +1,9 @@
 namespace = pop
 
 country_event = {
-	id = pop.1
-	title = pop.1.t
-	desc = pop.1.d
+	id = pop.0
+	title = pop.0.t
+	desc = pop.0.d
 	picture = MERCHANTS_TALKING_eventPicture
 
 	is_triggered_only = yes
@@ -19,20 +19,28 @@ country_event = {
             value = trigger_value:governing_capacity_percentage
             who = ROOT
         }
-        
-		export_to_variable = {
-            which = gov_cap
-            value = modifier:governing_capacity
-            who = ROOT
-        }
-		export_to_variable = {
-            which = gov_cap_per
-            value = trigger_value:governing_capacity_percentage
-            who = ROOT
-        }
 	}
 
 	option = { #I am not a guinea pig!
+		name = pop.1.op1
+	}
+}
+
+country_event = {
+	id = pop.1
+	title = pop.1.t
+	desc = pop.1.d
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+
+    immediate = {
+        hidden_effect = {
+            Pops_GetNationalStats = yes
+        }
+    }
+
+	option = { #Close
 		name = pop.1.op1
 	}
 }

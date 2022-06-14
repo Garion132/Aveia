@@ -1,0 +1,15 @@
+country_decisions = {
+
+	census = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			country_event = { id = pop.1 }
+		}
+	}
+}

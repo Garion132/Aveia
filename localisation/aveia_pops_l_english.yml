@@ -1,11 +1,18 @@
 ﻿l_english:
- pop.1.t:0 "Pops Testing"
- pop.1.d:0 "Gov Cap: [gov_cap.GetValue]\nGov Cap Percent: [gov_cap_per.GetValue]\n\nTotal Population: [total_pop.GetValue]\nRural Pop: [rural_pop.GetValue]\nUrban Pop: [urban_pop.GetValue]"
- pop.1.op1:0 "I am not a guinea pig!"
+ pop.0.t:0 "Testing"
+ pop.0.d:0 "Gov Cap: [gov_cap.GetValue]\nGov Cap Percent: [gov_cap_per.GetValue]"
+ pop.0.op1:0 "I am not a guinea pig!"
+
+ pop.1.t:0 "Census"
+ pop.1.d:0 "Total Population: [total_pop.GetValue]\nRural Pop: [rural_pop.GetValue]\nUrban Pop: [urban_pop.GetValue]\n\nTotal Food Production: §G[food_prod.GetValue]§!"
+ pop.1.op1:0 "Close"
+
+ census_title:0 "Census"
+ census_desc:0 "Opens an event to be able to see various statistics and actions that affect our population."
 
  #Modifiers
-    pop_modifier:0 "Population: §M[total_pop.GetValue]§!"
-    desc_pop_modifier:0 "Rural Population: §M[rural_pop.GetValue]K§!\nUrban Population: §M[urban_pop.GetValue]K§!\n\nBase Food Production per Pop: §l[fpp.GetValue]§!\nAgricultural Efficiency: §T[agri_eff.GetValue]%§!\nTotal Food Production: §G[food_prod.GetValue]§!"
+    pop_modifier:0 "Population:"
+    desc_pop_modifier:0 "Total Population: §M[total_pop.GetValue]K§!\nRural Population: §M[rural_pop.GetValue]K§!\nUrban Population: §M[urban_pop.GetValue]K§!\n\nBase Food Production per Pop: §l[fpp.GetValue]§!\nAgricultural Efficiency: §T[agri_eff.GetValue]%§!\nTotal Food Production: §G[food_prod.GetValue]§!"
 
     0_rural_pop_modifier:0 "Insignificant Rural Population"
     desc_0_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
