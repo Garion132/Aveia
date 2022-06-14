@@ -7,7 +7,7 @@ Pops_Setup = {
             limit = {
                 has_province_flag = manual_agri_eff
             }
-            clr_province_flag = manual_pop
+            clr_province_flag = manual_agri_eff
         }
         else = {
             #Agri Efficiency Setup
@@ -51,29 +51,32 @@ Pops_Setup = {
             divide_variable = { which = t_0 value = 100 }
             subtract_variable = { which = t_0 value = 2 }
             divide_variable = { which = rural_pop which = t_0 }
-            set_variable = { which = t_0 value = 0 }
 
             #Urban Population
             Pops_GetUrbanPercent = yes
             set_variable = { which = urban_pop which = rural_pop }
+            set_variable = { which = t_0 which = rural_pop }
             multiply_variable = { which = urban_pop which = urban_percent }
             subtract_variable = { which = rural_pop which = urban_pop }
             subtract_variable = { which = rural_pop which = urban_pop } #Subtract Again b/c rural pop produces food & urban pop don't
+
+            set_variable = { which = t_0 value = 0 }
+            divide_variable = { which = t_0 value = 2 }
             if = {
                 limit = {
-                    NOT = { check_variable = { which = rural_pop value = 0 } }
+                    NOT = { check_variable = { which = rural_pop value = t_0 } }
                 }
-                set_variable = { which = rural_pop value = 0 }
+                set_variable = { which = rural_pop which = t_0 }
             }
-
-            Pops_GetPopStats = yes
-            Pops_GetFoodProduction = yes
-
-            update_rural_pop_modifiers = yes
-            update_urban_pop_modifiers = yes
-            add_permanent_province_modifier = { name = pop_modifier duration = -1 }
+            set_variable = { which = t_0 value = 0 }
         }
 
+        Pops_GetPopStats = yes
+        Pops_GetFoodProduction = yes
+
+        update_rural_pop_modifiers = yes
+        update_urban_pop_modifiers = yes
+        add_permanent_province_modifier = { name = pop_modifier duration = -1 }
     }
     every_country = {
         Pops_GetNationalStats = yes
