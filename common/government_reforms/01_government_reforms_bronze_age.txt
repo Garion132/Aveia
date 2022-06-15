@@ -272,12 +272,12 @@ iron_age_monarchy_adv = {
 	}
 	trigger = {
 		NOT = { has_government_attribute_short_desc = locked_government_type }
-		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
+		NOT= {current_age = age_of_bronze}
 	}
 	effect = {
 		#set_country_flag = populists_in_government
-		lose_reforms = 4
+		lose_reforms = 5
 		change_government = iron_monarchy
 		#ia_deligated_monarchy
 	}
