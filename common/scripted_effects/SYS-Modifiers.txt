@@ -1,3 +1,406 @@
+#Visible Pop Modifier Code
+update_pop_modifiers = {
+	clear_pop_modifiers = yes
+	if = {
+		limit = { check_variable = { which = total_pop value = 8 } }
+		if = {
+			limit = { check_variable = { which = total_pop value = 32 } }
+			if = {
+				limit = { check_variable = { which = total_pop value = 128 } }
+				if = {
+					limit = { check_variable = { which = total_pop value = 256 } }
+					add_permanent_province_modifier = { name = pop_modifier_9 duration = -1 } # 256K
+				}
+				else = {
+					add_permanent_province_modifier = { name = pop_modifier_8 duration = -1 } # 128K
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = total_pop value = 64 } }
+					add_permanent_province_modifier = { name = pop_modifier_7 duration = -1 } # 64K
+				}
+				else = {
+					add_permanent_province_modifier = { name = pop_modifier_6 duration = -1 } # 32K
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = total_pop value = 16 } }
+				add_permanent_province_modifier = { name = pop_modifier_5 duration = -1 } # 16K
+			}
+			else = {
+				add_permanent_province_modifier = { name = pop_modifier_4 duration = -1 } # 8K
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = total_pop value = 2 } }
+			if = {
+				limit = { check_variable = { which = total_pop value = 4 } }
+				add_permanent_province_modifier = { name = pop_modifier_3 duration = -1 } # 4K
+			}
+			else = {
+				add_permanent_province_modifier = { name = pop_modifier_2 duration = -1 } # 2K
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = total_pop value = 1 } }
+				add_permanent_province_modifier = { name = pop_modifier_1 duration = -1 } # 1K
+			}
+			else = {
+				add_permanent_province_modifier = { name = pop_modifier_0 duration = -1 } #<1K
+			}
+		}
+	}
+}
+clear_pop_modifiers = {
+	if = {
+		limit = { has_province_modifier = pop_modifier_0 }
+		remove_province_modifier = pop_modifier_0
+	}
+	else_if = {
+		limit = { has_province_modifier = pop_modifier_1 }
+		remove_province_modifier = pop_modifier_1
+	}
+	else_if = {
+		limit = { has_province_modifier = pop_modifier_2 }
+		remove_province_modifier = pop_modifier_2
+	}
+	else_if = {
+		limit = { has_province_modifier = pop_modifier_3 }
+		remove_province_modifier = pop_modifier_3
+	}
+	else_if = {
+		limit = { has_province_modifier = pop_modifier_4 }
+		remove_province_modifier = pop_modifier_4
+	}
+	else_if = {
+		limit = { has_province_modifier = pop_modifier_5 }
+		remove_province_modifier = pop_modifier_5
+	}
+	else_if = {
+		limit = { has_province_modifier = pop_modifier_6 }
+		remove_province_modifier = pop_modifier_6
+	}
+	else_if = {
+		limit = { has_province_modifier = pop_modifier_7 }
+		remove_province_modifier = pop_modifier_7
+	}
+	else_if = {
+		limit = { has_province_modifier = pop_modifier_8 }
+		remove_province_modifier = pop_modifier_8
+	}
+	else_if = {
+		limit = { has_province_modifier = pop_modifier_9 }
+		remove_province_modifier = pop_modifier_9
+	}
+}
+
+update_map_pop_modifiers = {
+	clear_map_pop_modifiers = yes
+	if = {
+		limit = { check_variable = { which = total_pop value = 8 } }
+		if = {
+			limit = { check_variable = { which = total_pop value = 32 } }
+			if = {
+				limit = { check_variable = { which = total_pop value = 128 } }
+				if = {
+					limit = { check_variable = { which = total_pop value = 256 } }
+					add_permanent_province_modifier = { name = MAP_pop_modifier_9 duration = -1 } # 256K
+				}
+				else = {
+					add_permanent_province_modifier = { name = MAP_pop_modifier_8 duration = -1 } # 128K
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = total_pop value = 64 } }
+					add_permanent_province_modifier = { name = MAP_pop_modifier_7 duration = -1 } # 64K
+				}
+				else = {
+					add_permanent_province_modifier = { name = MAP_pop_modifier_6 duration = -1 } # 32K
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = total_pop value = 16 } }
+				add_permanent_province_modifier = { name = MAP_pop_modifier_5 duration = -1 } # 16K
+			}
+			else = {
+				add_permanent_province_modifier = { name = MAP_pop_modifier_4 duration = -1 } # 8K
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = total_pop value = 2 } }
+			if = {
+				limit = { check_variable = { which = total_pop value = 4 } }
+				add_permanent_province_modifier = { name = MAP_pop_modifier_3 duration = -1 } # 4K
+			}
+			else = {
+				add_permanent_province_modifier = { name = MAP_pop_modifier_2 duration = -1 } # 2K
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = total_pop value = 1 } }
+				add_permanent_province_modifier = { name = MAP_pop_modifier_1 duration = -1 } # 1K
+			}
+			else = {
+				add_permanent_province_modifier = { name = MAP_pop_modifier_0 duration = -1 } #<1K
+			}
+		}
+	}
+}
+clear_map_pop_modifiers = {
+	if = {
+		limit = { has_province_modifier = MAP_pop_modifier_0 }
+		remove_province_modifier = MAP_pop_modifier_0
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_pop_modifier_1 }
+		remove_province_modifier = MAP_pop_modifier_1
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_pop_modifier_2 }
+		remove_province_modifier = MAP_pop_modifier_2
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_pop_modifier_3 }
+		remove_province_modifier = MAP_pop_modifier_3
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_pop_modifier_4 }
+		remove_province_modifier = MAP_pop_modifier_4
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_pop_modifier_5 }
+		remove_province_modifier = MAP_pop_modifier_5
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_pop_modifier_6 }
+		remove_province_modifier = MAP_pop_modifier_6
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_pop_modifier_7 }
+		remove_province_modifier = MAP_pop_modifier_7
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_pop_modifier_8 }
+		remove_province_modifier = MAP_pop_modifier_8
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_pop_modifier_9 }
+		remove_province_modifier = MAP_pop_modifier_9
+	}
+}
+
+update_map_urban_pop_modifiers = {
+	clear_map_urban_pop_modifiers = yes
+	if = {
+		limit = { check_variable = { which = urban_pop value = 8 } }
+		if = {
+			limit = { check_variable = { which = urban_pop value = 32 } }
+			if = {
+				limit = { check_variable = { which = urban_pop value = 128 } }
+				if = {
+					limit = { check_variable = { which = urban_pop value = 256 } }
+					add_permanent_province_modifier = { name = MAP_urban_pop_modifier_9 duration = -1 } # 256K
+				}
+				else = {
+					add_permanent_province_modifier = { name = MAP_urban_pop_modifier_8 duration = -1 } # 128K
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = urban_pop value = 64 } }
+					add_permanent_province_modifier = { name = MAP_urban_pop_modifier_7 duration = -1 } # 64K
+				}
+				else = {
+					add_permanent_province_modifier = { name = MAP_urban_pop_modifier_6 duration = -1 } # 32K
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = urban_pop value = 16 } }
+				add_permanent_province_modifier = { name = MAP_urban_pop_modifier_5 duration = -1 } # 16K
+			}
+			else = {
+				add_permanent_province_modifier = { name = MAP_urban_pop_modifier_4 duration = -1 } # 8K
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = urban_pop value = 2 } }
+			if = {
+				limit = { check_variable = { which = urban_pop value = 4 } }
+				add_permanent_province_modifier = { name = MAP_urban_pop_modifier_3 duration = -1 } # 4K
+			}
+			else = {
+				add_permanent_province_modifier = { name = MAP_urban_pop_modifier_2 duration = -1 } # 2K
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = urban_pop value = 1 } }
+				add_permanent_province_modifier = { name = MAP_urban_pop_modifier_1 duration = -1 } # 1K
+			}
+			else = {
+				add_permanent_province_modifier = { name = MAP_urban_pop_modifier_0 duration = -1 } #<1K
+			}
+		}
+	}
+}
+clear_map_urban_pop_modifiers = {
+	if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_0 }
+		remove_province_modifier = MAP_urban_pop_modifier_0
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_1 }
+		remove_province_modifier = MAP_urban_pop_modifier_1
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_2 }
+		remove_province_modifier = MAP_urban_pop_modifier_2
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_3 }
+		remove_province_modifier = MAP_urban_pop_modifier_3
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_4 }
+		remove_province_modifier = MAP_urban_pop_modifier_4
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_5 }
+		remove_province_modifier = MAP_urban_pop_modifier_5
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_6 }
+		remove_province_modifier = MAP_urban_pop_modifier_6
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_7 }
+		remove_province_modifier = MAP_urban_pop_modifier_7
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_8 }
+		remove_province_modifier = MAP_urban_pop_modifier_8
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_urban_pop_modifier_9 }
+		remove_province_modifier = MAP_urban_pop_modifier_9
+	}
+}
+update_map_rural_pop_modifiers = {
+	clear_map_rural_pop_modifiers = yes
+	if = {
+		limit = { check_variable = { which = rural_pop value = 8 } }
+		if = {
+			limit = { check_variable = { which = rural_pop value = 32 } }
+			if = {
+				limit = { check_variable = { which = rural_pop value = 128 } }
+				if = {
+					limit = { check_variable = { which = rural_pop value = 256 } }
+					add_permanent_province_modifier = { name = MAP_rural_pop_modifier_9 duration = -1 } # 256K
+				}
+				else = {
+					add_permanent_province_modifier = { name = MAP_rural_pop_modifier_8 duration = -1 } # 128K
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = rural_pop value = 64 } }
+					add_permanent_province_modifier = { name = MAP_rural_pop_modifier_7 duration = -1 } # 64K
+				}
+				else = {
+					add_permanent_province_modifier = { name = MAP_rural_pop_modifier_6 duration = -1 } # 32K
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = rural_pop value = 16 } }
+				add_permanent_province_modifier = { name = MAP_rural_pop_modifier_5 duration = -1 } # 16K
+			}
+			else = {
+				add_permanent_province_modifier = { name = MAP_rural_pop_modifier_4 duration = -1 } # 8K
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = rural_pop value = 2 } }
+			if = {
+				limit = { check_variable = { which = rural_pop value = 4 } }
+				add_permanent_province_modifier = { name = MAP_rural_pop_modifier_3 duration = -1 } # 4K
+			}
+			else = {
+				add_permanent_province_modifier = { name = MAP_rural_pop_modifier_2 duration = -1 } # 2K
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = rural_pop value = 1 } }
+				add_permanent_province_modifier = { name = MAP_rural_pop_modifier_1 duration = -1 } # 1K
+			}
+			else = {
+				add_permanent_province_modifier = { name = MAP_rural_pop_modifier_0 duration = -1 } #<1K
+			}
+		}
+	}
+}
+clear_map_rural_pop_modifiers = {
+	if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_0 }
+		remove_province_modifier = MAP_rural_pop_modifier_0
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_1 }
+		remove_province_modifier = MAP_rural_pop_modifier_1
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_2 }
+		remove_province_modifier = MAP_rural_pop_modifier_2
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_3 }
+		remove_province_modifier = MAP_rural_pop_modifier_3
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_4 }
+		remove_province_modifier = MAP_rural_pop_modifier_4
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_5 }
+		remove_province_modifier = MAP_rural_pop_modifier_5
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_6 }
+		remove_province_modifier = MAP_rural_pop_modifier_6
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_7 }
+		remove_province_modifier = MAP_rural_pop_modifier_7
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_8 }
+		remove_province_modifier = MAP_rural_pop_modifier_8
+	}
+	else_if = {
+		limit = { has_province_modifier = MAP_rural_pop_modifier_9 }
+		remove_province_modifier = MAP_rural_pop_modifier_9
+	}
+}
 
 #Rural Pop Create Code
 update_rural_pop_modifiers = {

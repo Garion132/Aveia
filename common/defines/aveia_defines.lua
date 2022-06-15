@@ -39,11 +39,15 @@ NDefines.NMilitary.CAV_SUPPRESSION = 0.1 -- but are less effective as supression
 NDefines.NMilitary.CAVALRY_SPEED = 0.8 -- and are slightly faster
 
 NDefines.NMilitary.BASE_COMBAT_WIDTH = 10
-NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.2
+NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.05
 
 NDefines.NAI.MIN_CAV_PERCENTAGE = 0
 NDefines.NAI.MAX_CAV_PERCENTAGE = 20
-NDefines.NAI.ARTILLERY_FRACTION = 0.3
+NDefines.NAI.ARTILLERY_FRACTION = 0.25
+NDefines.NAI.FORCE_COMPOSITION_CHANGE_TECH_LEVEL = 32
+NDefines.NCountry.REBEL_ARTILLERY_INCREASE_LEVEL_1_TECH = 28
+NDefines.NCountry.REBEL_ARTILLERY_INCREASE_LEVEL_2_TECH = 36
+
 NDefines.NCountry.MAX_PROVINCES_FOR_FREE_CITY = 2		-- A free city cannot have more provinces than this
 NDefines.NReligion.MAX_CHRISTIAN_RELIGIOUS_CENTERS = 5	
 NDefines.NDiplomacy.HRE_PRINCE_AUTHORITY_THRESHOLD = 17

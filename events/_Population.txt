@@ -26,6 +26,7 @@ country_event = {
 	}
 }
 
+#Census
 country_event = {
 	id = pop.1
 	title = pop.1.t
@@ -40,7 +41,98 @@ country_event = {
         }
     }
 
+	option = { #Enable Mapmodes
+		name = pop.1.op2
+		country_event = { id = pop.2 }
+	}
 	option = { #Close
+		highlight = yes
 		name = pop.1.op1
+	}
+}
+
+#Mapmodes
+country_event = {
+	id = pop.2
+	title = pop.2.t
+	desc = pop.2.d
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+
+    immediate = {
+
+    }
+
+	option = { #Disable All Mapmodes
+		name = pop.2.op1
+		hidden_effect = {
+			if = {
+				limit = {
+					has_global_flag = population_mm
+				}
+				clr_global_flag = population_mm
+				every_province = {
+					clear_map_pop_modifiers = yes
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = urban_rural_mm
+				}
+				clr_global_flag = urban_rural_mm
+				every_province = {
+					clear_map_rural_pop_modifiers = yes
+					clear_map_urban_pop_modifiers = yes
+				}
+			}
+		}
+	}
+	option = { #Population
+		name = pop.2.op2
+		hidden_effect = {
+			if = {
+				limit = {
+					has_global_flag = population_mm
+				}
+				clr_global_flag = population_mm
+				every_province = {
+					clear_map_pop_modifiers = yes
+				}
+			}
+			else = {
+				set_global_flag = population_mm
+				every_province = {
+					update_map_pop_modifiers = yes
+				}
+			}
+		}
+	}
+	option = { #Urban & Rural Populations
+		name = pop.2.op3
+		hidden_effect = {
+			if = {
+				limit = {
+					has_global_flag = urban_rural_mm
+				}
+				clr_global_flag = urban_rural_mm
+				every_province = {
+					clear_map_rural_pop_modifiers = yes
+					clear_map_urban_pop_modifiers = yes
+				}
+			}
+			else = {
+				set_global_flag = urban_rural_mm
+				every_province = {
+					update_map_rural_pop_modifiers = yes
+					update_map_urban_pop_modifiers = yes
+				}
+			}
+		}
+	}
+	option = { #Back
+		name = pop.2.b
+		highlight = yes
+		country_event = { id = pop.1 }
 	}
 }

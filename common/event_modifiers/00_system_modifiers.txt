@@ -11,3 +11,157 @@
 # Population System
 	pop_modifier = {
 	}
+	
+	pop_modifier_0 = {
+		picture = "population_0"
+	}
+	pop_modifier_1 = {
+		picture = "population_1"
+	}
+	pop_modifier_2 = {
+		picture = "population_2"
+	}
+	pop_modifier_3 = {
+		picture = "population_3"
+	}
+	pop_modifier_4 = {
+		picture = "population_4"
+	}
+	pop_modifier_5 = {
+		picture = "population_5"
+	}
+	pop_modifier_6 = {
+		picture = "population_6"
+	}
+	pop_modifier_7 = {
+		picture = "population_7"
+	}
+	pop_modifier_8 = {
+		picture = "population_8"
+	}
+	pop_modifier_9 = {
+		picture = "population_9"
+	}
+	
+	MAP_pop_modifier_0 = {
+		province_trade_power_value = 0.1
+		picture = "population_0"
+	}
+	MAP_pop_modifier_1 = {
+		province_trade_power_value = 0.1
+		picture = "population_1"
+	}
+	MAP_pop_modifier_2 = {
+		province_trade_power_value = 0.1
+		picture = "population_2"
+	}
+	MAP_pop_modifier_3 = {
+		province_trade_power_value = 0.1
+		picture = "population_3"
+	}
+	MAP_pop_modifier_4 = {
+		province_trade_power_value = 0.1
+		picture = "population_4"
+	}
+	MAP_pop_modifier_5 = {
+		province_trade_power_value = 0.1
+		picture = "population_5"
+	}
+	MAP_pop_modifier_6 = {
+		province_trade_power_value = 0.1
+		picture = "population_6"
+	}
+	MAP_pop_modifier_7 = {
+		province_trade_power_value = 0.1
+		picture = "population_7"
+	}
+	MAP_pop_modifier_8 = {
+		province_trade_power_value = 0.1
+		picture = "population_8"
+	}
+	MAP_pop_modifier_9 = {
+		province_trade_power_value = 0.1
+		picture = "population_9"
+	}
+	
+	MAP_rural_pop_modifier_0 = {
+		province_trade_power_value = 0.1
+		picture = "population_0"
+	}
+	MAP_rural_pop_modifier_1 = {
+		province_trade_power_value = 0.1
+		picture = "population_1"
+	}
+	MAP_rural_pop_modifier_2 = {
+		province_trade_power_value = 0.1
+		picture = "population_2"
+	}
+	MAP_rural_pop_modifier_3 = {
+		province_trade_power_value = 0.1
+		picture = "population_3"
+	}
+	MAP_rural_pop_modifier_4 = {
+		province_trade_power_value = 0.1
+		picture = "population_4"
+	}
+	MAP_rural_pop_modifier_5 = {
+		province_trade_power_value = 0.1
+		picture = "population_5"
+	}
+	MAP_rural_pop_modifier_6 = {
+		province_trade_power_value = 0.1
+		picture = "population_6"
+	}
+	MAP_rural_pop_modifier_7 = {
+		province_trade_power_value = 0.1
+		picture = "population_7"
+	}
+	MAP_rural_pop_modifier_8 = {
+		province_trade_power_value = 0.1
+		picture = "population_8"
+	}
+	MAP_rural_pop_modifier_9 = {
+		province_trade_power_value = 0.1
+		picture = "population_9"
+	}
+	
+	MAP_urban_pop_modifier_0 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_0"
+	}
+	MAP_urban_pop_modifier_1 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_1"
+	}
+	MAP_urban_pop_modifier_2 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_2"
+	}
+	MAP_urban_pop_modifier_3 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_3"
+	}
+	MAP_urban_pop_modifier_4 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_4"
+	}
+	MAP_urban_pop_modifier_5 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_5"
+	}
+	MAP_urban_pop_modifier_6 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_6"
+	}
+	MAP_urban_pop_modifier_7 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_7"
+	}
+	MAP_urban_pop_modifier_8 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_8"
+	}
+	MAP_urban_pop_modifier_9 = {
+		province_trade_power_value = 0.1
+		picture = "population_b_9"
+	}

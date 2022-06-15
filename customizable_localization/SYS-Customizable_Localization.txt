@@ -1,0 +1,17 @@
+#AVIALABLE CUSTOM LOCALISATION KEYS
+#When adding new custom loc keys, add them to the appropriate category (or add a new one) and describe them. Name the strings "String_X" where x is its content.
+# To not display anything, you can use 'localisation_key = ""'
+# Please add one example sentence for each key.
+
+
+#Just Displays the Pop Description loc. This is to make things simpler on the loc side
+defined_text = {
+    name = GetPopDesc
+
+    text = {
+        localisation_key = desc_pop_modifier
+        trigger = {
+			always = yes
+        }
+    }
+}
