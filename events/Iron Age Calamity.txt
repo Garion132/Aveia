@@ -2318,6 +2318,7 @@ country_event = {
 		set_ai_personality = {
             personality = ai_militarist
         }
+		add_government_reform = iron_crown_reform
 		every_country={
 			limit={
 				primary_culture = donamenz

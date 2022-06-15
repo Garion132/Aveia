@@ -244,3 +244,69 @@ ba_aristocratic_military_reform = {
 		factor = 0.5 #generic
 	}
 }
+iron_age_republic_adv = {
+	icon = "parliament_highlighted"
+	allow_normal_conversion = yes
+	potential = {
+		is_revolutionary = no
+	}
+	trigger = {
+		NOT = { has_government_attribute_short_desc = locked_government_type }
+		is_emperor = no
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		#set_country_flag = populists_in_government
+		#lose_reforms = 3
+		#change_government = republic
+	}
+	ai = {
+		factor = 0
+	}
+}
+iron_age_monarchy_adv = {
+	icon = "parliament_highlighted"
+	allow_normal_conversion = yes
+	potential = {
+		is_revolutionary = no
+	}
+	trigger = {
+		NOT = { has_government_attribute_short_desc = locked_government_type }
+		is_emperor = no
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		#set_country_flag = populists_in_government
+		lose_reforms = 4
+		change_government = iron_monarchy
+		#ia_deligated_monarchy
+	}
+	ai = {
+		factor = 2
+	}
+}
+iron_age_theocracy_adv = {
+	icon = "parliament_highlighted"
+	allow_normal_conversion = yes
+	potential = {
+		is_revolutionary = no
+	}
+	trigger = {
+		NOT = { has_government_attribute_short_desc = locked_government_type }
+		is_emperor = no
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		#set_country_flag = populists_in_government
+		#lose_reforms = 3
+		#change_government = republic
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+
+
+
+

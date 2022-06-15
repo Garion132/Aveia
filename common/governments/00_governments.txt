@@ -740,11 +740,13 @@ mannish_tribal = {
 
 	legacy_government = {
 		native_council_legacy
+		iron_crown_reform
 	}
 	reform_levels = {
 		feudalism_vs_autocracy = {
 			reforms = {
 				donamenz_chiefdom_reform
+				iron_crown_reform
 			}
 		}
 		expansion_path={
@@ -793,6 +795,13 @@ bronze_monarchy = {
 			reforms = {
 				ba_mass_conscription_reform
 				ba_aristocratic_military_reform
+			}
+		}
+		advance_government_form = {
+			reforms = {
+				iron_age_monarchy_adv
+				iron_age_republic_adv
+				iron_age_theocracy_adv
 			}
 		}
 	}
@@ -868,6 +877,57 @@ bronze_league = {
 	# }
 
 	color = { 48 113 160 }
+}
+
+iron_monarchy = {
+	reform_levels = {
+		feudalism_vs_autocracy = {
+			reforms = {
+				ia_co_ruling_monarchy
+				ia_deligated_monarchy
+			}
+		}
+		iron_societal_ties = {
+			reforms = {
+				ia_polis_reform
+				ia_communial_reform
+				ia_judicial_reform
+			}
+		}
+		iron_right_to_rule = {
+			reforms = {
+				ia_divine_right_reform
+				ia_noble_right_reform
+			}
+		}
+		iron_administrative_class = {
+			reforms = {
+				
+			}
+		}
+		iron_bureaucracy = {
+			reforms = {
+				
+			}
+		}
+	}
+
+	basic_reform = iron_monarchy_mechanic
+
+	legacy_government = {
+		ia_co_ruling_monarchy
+		ia_deligated_monarchy
+	}
+
+	# Each group of exclusive reforms are mutually exclusive to each other
+
+	#for any reforms that should be exclusive
+	exclusive_reforms = {
+		ia_deligated_monarchy
+		ia_co_ruling_monarchy
+	}
+
+	color = { 127 95 113 }
 }
 
 eximiu_colony = {
