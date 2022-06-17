@@ -377,6 +377,20 @@ Pops_GetAgriculturalEfficiency = {
     multiply_variable = { which = t_2 value = 1 }
     change_variable = { which = agri_eff which = t_2 }
     set_variable = { which = t_2 value = 0 }
+    
+    #Additive Tech
+    if = {
+        limit = {
+            is_empty = no
+        }
+        owner = {
+            PREV = {
+                set_variable = { which = agri_eff_add which = PREV }
+                change_variable = { which = agri_eff which = agri_eff_add }
+                set_variable = { which = agri_eff_add value = 0 }
+            }
+        }
+    }
 }
 
 Pops_GetFoodProduction = {
