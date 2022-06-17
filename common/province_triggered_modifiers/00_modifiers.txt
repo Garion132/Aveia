@@ -31,6 +31,32 @@ test_modifier = {
 	
 }
 
+
+province_mod = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		always = yes
+	}
+
+	hidden = yes
+
+	tax_income = -2
+	trade_goods_size = -0.4
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
 non_catholic_rome = {
 	potential = {
 		normal_or_historical_nations = yes

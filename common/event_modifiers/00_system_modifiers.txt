@@ -165,3 +165,4 @@
 		province_trade_power_value = 0.1
 		picture = "population_b_9"
 	}
+#

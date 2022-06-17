@@ -806,7 +806,7 @@
  BASE_TAX:1 "Commercial Development"
  BASE_PRODUCTION:0 "Industrial Development"
  BASE_MANPOWER:0 "Urban Development"
- PP_BASE_TAX_VALUE2:0 "Commercial Development is $VAL|Y$, with each level giving:\n  Urban Pull: §G+1.0§!\n  Urbanization: §G+0.5%§!\n$EACH$"
+ PP_BASE_TAX_VALUE2:0 "Commercial Development is $VAL|Y$, with each level giving:\n  Urban Pull: §G+1.0§!\n  Urbanization: §G+0.5%§!\n  Local Trade Power Modifier: §G+7.5%§!\n  Local Tax Modifier: §G+7.5%§!"
  PP_BASE_MP_VALUE:0 "Urban Development is $VAL|Y$, with each level giving:\n  Urban Pull: §G+3.0§!\n  Urbanization: §G+1.0%§!\n  Maximum Manpower: §G+$EACH$§!\n$PROV$"
  PP_BASE_PROD_VALUE:0 "Industrial Development is $VAL|Y$, with each level giving:\n  Urban Pull: §G+1.0§!\n  Urbanization: §G+0.5%§!\n  Agricultural Efficiency: §G+1.0%§!\n$EACH$"
  FORT_CURRENTLY_WITHOUT_MAIN:0 "This fortress is mothballed. This means we are not paying any maintenance for it, but it will have no garrison ready to defend it."

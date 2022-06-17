@@ -4,17 +4,19 @@
 using namespace std;
 
 //Stats for Population, each per 1000
-const static float RURAL_TAX = 0.1f;
-const static float RURAL_GOODS_PROD = 0.02f;
-const static float RURAL_MANPOWER = 0.02f;
+const static float RURAL_TAX = 0.05f;
+const static float RURAL_GOODS_PROD = 0.015f;
+const static float RURAL_MANPOWER = 0.04f;
 const static float RURAL_SAILORS = 5.0f;
 const static float RURAL_TRADE_POWER = 0.03f;
+const static float RURAL_FORCELIMIT = 0.01f;
 
 const static float URBAN_TAX = 0.5f;
 const static float URBAN_GOODS_PROD = 0.05f;
-const static float URBAN_MANPOWER = 0.015f;
+const static float URBAN_MANPOWER = 0.03f;
 const static float URBAN_SAILORS = 50.0f;
 const static float URBAN_TRADE_POWER = 0.6f;
+const static float URBAN_FORCELIMIT = 0.02f;
 
 
 static void newRuralEntry(string &list, string &loc, string &code, string &clear, int pop, int stepSize){
@@ -23,21 +25,21 @@ static void newRuralEntry(string &list, string &loc, string &code, string &clear
     string popS = itoa(pop,buffer,10);
     string name = popS + "_rural_pop_modifier";
     ostringstream os;
-    os.precision(3);
 
     os << endl;
-    os << name << " = {" << endl;
-    os << "\tpotential = { always = yes }\n";
-    os << "\ttrigger = { always = yes }\n";
-    os << "\thidden = yes\n";
-    if(RURAL_TAX > 0 && pop > 0) os << "\ttax_income = " << (RURAL_TAX * pop / 1000) << endl;
-    if(RURAL_GOODS_PROD > 0 && pop > 0) os << "\ttrade_goods_size = " << (RURAL_GOODS_PROD * pop / 1000) << endl;
-    if(RURAL_MANPOWER > 0 && pop > 0) os << "\tlocal_manpower = " << (RURAL_MANPOWER * pop / 1000) << endl;
-    if(RURAL_SAILORS > 0 && pop > 0) os << "\tlocal_sailors = " << (RURAL_SAILORS * pop / 1000) << endl;
-    if(RURAL_TRADE_POWER > 0 && pop > 0) os << "\tprovince_trade_power_value = " << (RURAL_TRADE_POWER * pop / 1000) << endl;
-    os << "\ton_activation = { }\n";
-    os << "\ton_deactivation  = { }\n";
-    os << "}";
+    os << "\t" << name << " = {" << endl;
+    os << "\t" << "\tpotential = { always = yes }\n";
+    os << "\t" << "\ttrigger = { always = yes }\n";
+    os << "\t" << "\thidden = yes\n";
+    if(RURAL_TAX > 0 && pop > 0) os << "\t" << "\ttax_income = " << (RURAL_TAX * pop / 1000) << endl;
+    if(RURAL_GOODS_PROD > 0 && pop > 0) os << "\t" << "\ttrade_goods_size = " << (RURAL_GOODS_PROD * pop / 1000) << endl;
+    if(RURAL_MANPOWER > 0 && pop > 0) os << "\t" << "\tlocal_manpower = " << (RURAL_MANPOWER * pop / 1000) << endl;
+    if(RURAL_SAILORS > 0 && pop > 0) os << "\t" << "\tlocal_sailors = " << (RURAL_SAILORS * pop / 1000) << endl;
+    if(RURAL_TRADE_POWER > 0 && pop > 0) os << "\t" << "\tprovince_trade_power_value = " << (RURAL_TRADE_POWER * pop / 1000) << endl;
+    if(RURAL_FORCELIMIT > 0 && pop > 0) os << "\t" << "\tland_forcelimit = " << (RURAL_FORCELIMIT * pop / 1000) << endl;
+    os << "\t" << "\ton_activation = { }\n";
+    os << "\t" << "\ton_deactivation  = { }\n";
+    os << "\t" << "}";
     list += os.str();
     
     if(pop == 0){
@@ -77,21 +79,21 @@ static void newUrbanEntry(string &list, string &loc, string &code, string &clear
     string popS = itoa(pop,buffer,10);
     string name = popS + "_urban_pop_modifier";
     ostringstream os;
-    os.precision(3);
 
     os << endl;
-    os << name << " = {" << endl;
-    os << "\tpotential = { always = yes }\n";
-    os << "\ttrigger = { always = yes }\n";
-    os << "\thidden = yes\n";
-    if(URBAN_TAX > 0 && pop > 0) os << "\ttax_income = " << (URBAN_TAX * pop / 1000) << endl;
-    if(URBAN_GOODS_PROD > 0 && pop > 0) os << "\ttrade_goods_size = " << (URBAN_GOODS_PROD * pop / 1000) << endl;
-    if(URBAN_MANPOWER > 0 && pop > 0) os << "\tlocal_manpower = " << (URBAN_MANPOWER * pop / 1000) << endl;
-    if(URBAN_SAILORS > 0 && pop > 0) os << "\tlocal_sailors = " << (URBAN_SAILORS * pop / 1000) << endl;
-    if(URBAN_TRADE_POWER > 0 && pop > 0) os << "\tprovince_trade_power_value = " << (URBAN_TRADE_POWER * pop / 1000) << endl;
-    os << "\ton_activation = { }\n";
-    os << "\ton_deactivation  = { }\n";
-    os << "}";
+    os << "\t" << name << " = {" << endl;
+    os << "\t" << "\tpotential = { always = yes }\n";
+    os << "\t" << "\ttrigger = { always = yes }\n";
+    os << "\t" << "\thidden = yes\n";
+    if(URBAN_TAX > 0 && pop > 0) os << "\t" << "\ttax_income = " << (URBAN_TAX * pop / 1000) << endl;
+    if(URBAN_GOODS_PROD > 0 && pop > 0) os << "\t" << "\ttrade_goods_size = " << (URBAN_GOODS_PROD * pop / 1000) << endl;
+    if(URBAN_MANPOWER > 0 && pop > 0) os << "\t" << "\tlocal_manpower = " << (URBAN_MANPOWER * pop / 1000) << endl;
+    if(URBAN_SAILORS > 0 && pop > 0) os << "\t" << "\tlocal_sailors = " << (URBAN_SAILORS * pop / 1000) << endl;
+    if(URBAN_TRADE_POWER > 0 && pop > 0) os << "\t" << "\tprovince_trade_power_value = " << (URBAN_TRADE_POWER * pop / 1000) << endl;
+    if(URBAN_FORCELIMIT > 0 && pop > 0) os << "\t" << "\tland_forcelimit = " << (URBAN_FORCELIMIT * pop / 1000) << endl;
+    os << "\t" << "\ton_activation = { }\n";
+    os << "\t" << "\ton_deactivation  = { }\n";
+    os << "\t" << "}";
     list += os.str();
     
     if(pop == 0){
@@ -190,10 +192,12 @@ int main(int argc, char *argv[]){
     upopClear = "clear_urban_pop_modifiers = {\n" + upopClear + "}\n";
     cout << "Urban Population Done." << endl;
 
-    of << "#Rural Population" << endl;
+    of << "#Rural Population Size Modifiers" << endl;
     of << rpopString << endl;
-    of << "#Urban Population" << endl;
+    of << "#" << endl;
+    of << "#Urban Population Size Modifiers" << endl;
     of << upopString << endl << endl;
+    of << "#" << endl;
     of << "#Rural Pop Create Code" << endl;
     of << rpopCode << endl;
     of << "#Rural Pop Clear Code" << endl;

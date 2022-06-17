@@ -1,11 +1,607 @@
-#Rural Population
-
-#Urban Population
-
 
 #Rural Pop Create Code
 update_rural_pop_modifiers = {
 	clear_rural_pop_modifiers = yes
+	else_if = { limit = { check_variable = { which = rural_pop value = 200.000000 } }
+		add_province_triggered_modifier = 200000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 199.500000 } }
+		add_province_triggered_modifier = 199500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 199.000000 } }
+		add_province_triggered_modifier = 199000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 198.500000 } }
+		add_province_triggered_modifier = 198500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 198.000000 } }
+		add_province_triggered_modifier = 198000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 197.500000 } }
+		add_province_triggered_modifier = 197500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 197.000000 } }
+		add_province_triggered_modifier = 197000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 196.500000 } }
+		add_province_triggered_modifier = 196500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 196.000000 } }
+		add_province_triggered_modifier = 196000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 195.500000 } }
+		add_province_triggered_modifier = 195500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 195.000000 } }
+		add_province_triggered_modifier = 195000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 194.500000 } }
+		add_province_triggered_modifier = 194500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 194.000000 } }
+		add_province_triggered_modifier = 194000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 193.500000 } }
+		add_province_triggered_modifier = 193500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 193.000000 } }
+		add_province_triggered_modifier = 193000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 192.500000 } }
+		add_province_triggered_modifier = 192500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 192.000000 } }
+		add_province_triggered_modifier = 192000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 191.500000 } }
+		add_province_triggered_modifier = 191500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 191.000000 } }
+		add_province_triggered_modifier = 191000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 190.500000 } }
+		add_province_triggered_modifier = 190500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 190.000000 } }
+		add_province_triggered_modifier = 190000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 189.500000 } }
+		add_province_triggered_modifier = 189500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 189.000000 } }
+		add_province_triggered_modifier = 189000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 188.500000 } }
+		add_province_triggered_modifier = 188500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 188.000000 } }
+		add_province_triggered_modifier = 188000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 187.500000 } }
+		add_province_triggered_modifier = 187500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 187.000000 } }
+		add_province_triggered_modifier = 187000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 186.500000 } }
+		add_province_triggered_modifier = 186500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 186.000000 } }
+		add_province_triggered_modifier = 186000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 185.500000 } }
+		add_province_triggered_modifier = 185500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 185.000000 } }
+		add_province_triggered_modifier = 185000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 184.500000 } }
+		add_province_triggered_modifier = 184500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 184.000000 } }
+		add_province_triggered_modifier = 184000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 183.500000 } }
+		add_province_triggered_modifier = 183500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 183.000000 } }
+		add_province_triggered_modifier = 183000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 182.500000 } }
+		add_province_triggered_modifier = 182500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 182.000000 } }
+		add_province_triggered_modifier = 182000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 181.500000 } }
+		add_province_triggered_modifier = 181500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 181.000000 } }
+		add_province_triggered_modifier = 181000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 180.500000 } }
+		add_province_triggered_modifier = 180500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 180.000000 } }
+		add_province_triggered_modifier = 180000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 179.500000 } }
+		add_province_triggered_modifier = 179500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 179.000000 } }
+		add_province_triggered_modifier = 179000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 178.500000 } }
+		add_province_triggered_modifier = 178500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 178.000000 } }
+		add_province_triggered_modifier = 178000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 177.500000 } }
+		add_province_triggered_modifier = 177500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 177.000000 } }
+		add_province_triggered_modifier = 177000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 176.500000 } }
+		add_province_triggered_modifier = 176500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 176.000000 } }
+		add_province_triggered_modifier = 176000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 175.500000 } }
+		add_province_triggered_modifier = 175500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 175.000000 } }
+		add_province_triggered_modifier = 175000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 174.500000 } }
+		add_province_triggered_modifier = 174500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 174.000000 } }
+		add_province_triggered_modifier = 174000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 173.500000 } }
+		add_province_triggered_modifier = 173500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 173.000000 } }
+		add_province_triggered_modifier = 173000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 172.500000 } }
+		add_province_triggered_modifier = 172500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 172.000000 } }
+		add_province_triggered_modifier = 172000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 171.500000 } }
+		add_province_triggered_modifier = 171500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 171.000000 } }
+		add_province_triggered_modifier = 171000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 170.500000 } }
+		add_province_triggered_modifier = 170500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 170.000000 } }
+		add_province_triggered_modifier = 170000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 169.500000 } }
+		add_province_triggered_modifier = 169500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 169.000000 } }
+		add_province_triggered_modifier = 169000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 168.500000 } }
+		add_province_triggered_modifier = 168500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 168.000000 } }
+		add_province_triggered_modifier = 168000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 167.500000 } }
+		add_province_triggered_modifier = 167500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 167.000000 } }
+		add_province_triggered_modifier = 167000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 166.500000 } }
+		add_province_triggered_modifier = 166500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 166.000000 } }
+		add_province_triggered_modifier = 166000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 165.500000 } }
+		add_province_triggered_modifier = 165500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 165.000000 } }
+		add_province_triggered_modifier = 165000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 164.500000 } }
+		add_province_triggered_modifier = 164500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 164.000000 } }
+		add_province_triggered_modifier = 164000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 163.500000 } }
+		add_province_triggered_modifier = 163500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 163.000000 } }
+		add_province_triggered_modifier = 163000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 162.500000 } }
+		add_province_triggered_modifier = 162500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 162.000000 } }
+		add_province_triggered_modifier = 162000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 161.500000 } }
+		add_province_triggered_modifier = 161500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 161.000000 } }
+		add_province_triggered_modifier = 161000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 160.500000 } }
+		add_province_triggered_modifier = 160500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 160.000000 } }
+		add_province_triggered_modifier = 160000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 159.500000 } }
+		add_province_triggered_modifier = 159500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 159.000000 } }
+		add_province_triggered_modifier = 159000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 158.500000 } }
+		add_province_triggered_modifier = 158500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 158.000000 } }
+		add_province_triggered_modifier = 158000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 157.500000 } }
+		add_province_triggered_modifier = 157500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 157.000000 } }
+		add_province_triggered_modifier = 157000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 156.500000 } }
+		add_province_triggered_modifier = 156500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 156.000000 } }
+		add_province_triggered_modifier = 156000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 155.500000 } }
+		add_province_triggered_modifier = 155500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 155.000000 } }
+		add_province_triggered_modifier = 155000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 154.500000 } }
+		add_province_triggered_modifier = 154500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 154.000000 } }
+		add_province_triggered_modifier = 154000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 153.500000 } }
+		add_province_triggered_modifier = 153500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 153.000000 } }
+		add_province_triggered_modifier = 153000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 152.500000 } }
+		add_province_triggered_modifier = 152500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 152.000000 } }
+		add_province_triggered_modifier = 152000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 151.500000 } }
+		add_province_triggered_modifier = 151500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 151.000000 } }
+		add_province_triggered_modifier = 151000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 150.500000 } }
+		add_province_triggered_modifier = 150500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 150.000000 } }
+		add_province_triggered_modifier = 150000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 149.500000 } }
+		add_province_triggered_modifier = 149500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 149.000000 } }
+		add_province_triggered_modifier = 149000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 148.500000 } }
+		add_province_triggered_modifier = 148500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 148.000000 } }
+		add_province_triggered_modifier = 148000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 147.500000 } }
+		add_province_triggered_modifier = 147500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 147.000000 } }
+		add_province_triggered_modifier = 147000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 146.500000 } }
+		add_province_triggered_modifier = 146500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 146.000000 } }
+		add_province_triggered_modifier = 146000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 145.500000 } }
+		add_province_triggered_modifier = 145500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 145.000000 } }
+		add_province_triggered_modifier = 145000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 144.500000 } }
+		add_province_triggered_modifier = 144500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 144.000000 } }
+		add_province_triggered_modifier = 144000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 143.500000 } }
+		add_province_triggered_modifier = 143500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 143.000000 } }
+		add_province_triggered_modifier = 143000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 142.500000 } }
+		add_province_triggered_modifier = 142500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 142.000000 } }
+		add_province_triggered_modifier = 142000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 141.500000 } }
+		add_province_triggered_modifier = 141500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 141.000000 } }
+		add_province_triggered_modifier = 141000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 140.500000 } }
+		add_province_triggered_modifier = 140500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 140.000000 } }
+		add_province_triggered_modifier = 140000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 139.500000 } }
+		add_province_triggered_modifier = 139500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 139.000000 } }
+		add_province_triggered_modifier = 139000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 138.500000 } }
+		add_province_triggered_modifier = 138500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 138.000000 } }
+		add_province_triggered_modifier = 138000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 137.500000 } }
+		add_province_triggered_modifier = 137500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 137.000000 } }
+		add_province_triggered_modifier = 137000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 136.500000 } }
+		add_province_triggered_modifier = 136500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 136.000000 } }
+		add_province_triggered_modifier = 136000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 135.500000 } }
+		add_province_triggered_modifier = 135500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 135.000000 } }
+		add_province_triggered_modifier = 135000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 134.500000 } }
+		add_province_triggered_modifier = 134500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 134.000000 } }
+		add_province_triggered_modifier = 134000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 133.500000 } }
+		add_province_triggered_modifier = 133500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 133.000000 } }
+		add_province_triggered_modifier = 133000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 132.500000 } }
+		add_province_triggered_modifier = 132500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 132.000000 } }
+		add_province_triggered_modifier = 132000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 131.500000 } }
+		add_province_triggered_modifier = 131500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 131.000000 } }
+		add_province_triggered_modifier = 131000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 130.500000 } }
+		add_province_triggered_modifier = 130500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 130.000000 } }
+		add_province_triggered_modifier = 130000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 129.500000 } }
+		add_province_triggered_modifier = 129500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 129.000000 } }
+		add_province_triggered_modifier = 129000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 128.500000 } }
+		add_province_triggered_modifier = 128500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 128.000000 } }
+		add_province_triggered_modifier = 128000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 127.500000 } }
+		add_province_triggered_modifier = 127500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 127.000000 } }
+		add_province_triggered_modifier = 127000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 126.500000 } }
+		add_province_triggered_modifier = 126500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 126.000000 } }
+		add_province_triggered_modifier = 126000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 125.500000 } }
+		add_province_triggered_modifier = 125500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 125.000000 } }
+		add_province_triggered_modifier = 125000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 124.500000 } }
+		add_province_triggered_modifier = 124500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 124.000000 } }
+		add_province_triggered_modifier = 124000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 123.500000 } }
+		add_province_triggered_modifier = 123500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 123.000000 } }
+		add_province_triggered_modifier = 123000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 122.500000 } }
+		add_province_triggered_modifier = 122500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 122.000000 } }
+		add_province_triggered_modifier = 122000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 121.500000 } }
+		add_province_triggered_modifier = 121500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 121.000000 } }
+		add_province_triggered_modifier = 121000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 120.500000 } }
+		add_province_triggered_modifier = 120500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 120.000000 } }
+		add_province_triggered_modifier = 120000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 119.500000 } }
+		add_province_triggered_modifier = 119500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 119.000000 } }
+		add_province_triggered_modifier = 119000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 118.500000 } }
+		add_province_triggered_modifier = 118500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 118.000000 } }
+		add_province_triggered_modifier = 118000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 117.500000 } }
+		add_province_triggered_modifier = 117500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 117.000000 } }
+		add_province_triggered_modifier = 117000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 116.500000 } }
+		add_province_triggered_modifier = 116500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 116.000000 } }
+		add_province_triggered_modifier = 116000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 115.500000 } }
+		add_province_triggered_modifier = 115500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 115.000000 } }
+		add_province_triggered_modifier = 115000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 114.500000 } }
+		add_province_triggered_modifier = 114500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 114.000000 } }
+		add_province_triggered_modifier = 114000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 113.500000 } }
+		add_province_triggered_modifier = 113500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 113.000000 } }
+		add_province_triggered_modifier = 113000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 112.500000 } }
+		add_province_triggered_modifier = 112500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 112.000000 } }
+		add_province_triggered_modifier = 112000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 111.500000 } }
+		add_province_triggered_modifier = 111500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 111.000000 } }
+		add_province_triggered_modifier = 111000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 110.500000 } }
+		add_province_triggered_modifier = 110500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 110.000000 } }
+		add_province_triggered_modifier = 110000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 109.500000 } }
+		add_province_triggered_modifier = 109500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 109.000000 } }
+		add_province_triggered_modifier = 109000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 108.500000 } }
+		add_province_triggered_modifier = 108500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 108.000000 } }
+		add_province_triggered_modifier = 108000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 107.500000 } }
+		add_province_triggered_modifier = 107500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 107.000000 } }
+		add_province_triggered_modifier = 107000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 106.500000 } }
+		add_province_triggered_modifier = 106500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 106.000000 } }
+		add_province_triggered_modifier = 106000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 105.500000 } }
+		add_province_triggered_modifier = 105500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 105.000000 } }
+		add_province_triggered_modifier = 105000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 104.500000 } }
+		add_province_triggered_modifier = 104500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 104.000000 } }
+		add_province_triggered_modifier = 104000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 103.500000 } }
+		add_province_triggered_modifier = 103500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 103.000000 } }
+		add_province_triggered_modifier = 103000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 102.500000 } }
+		add_province_triggered_modifier = 102500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 102.000000 } }
+		add_province_triggered_modifier = 102000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 101.500000 } }
+		add_province_triggered_modifier = 101500_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 101.000000 } }
+		add_province_triggered_modifier = 101000_rural_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = rural_pop value = 100.500000 } }
+		add_province_triggered_modifier = 100500_rural_pop_modifier
+	}
 	else_if = { limit = { check_variable = { which = rural_pop value = 100.000000 } }
 		add_province_triggered_modifier = 100000_rural_pop_modifier
 	}
@@ -613,6 +1209,606 @@ update_rural_pop_modifiers = {
 
 #Rural Pop Clear Code
 clear_rural_pop_modifiers = {
+	else_if = { limit = { has_province_modifier = 200000_rural_pop_modifier }
+		remove_province_triggered_modifier = 200000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 199500_rural_pop_modifier }
+		remove_province_triggered_modifier = 199500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 199000_rural_pop_modifier }
+		remove_province_triggered_modifier = 199000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 198500_rural_pop_modifier }
+		remove_province_triggered_modifier = 198500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 198000_rural_pop_modifier }
+		remove_province_triggered_modifier = 198000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 197500_rural_pop_modifier }
+		remove_province_triggered_modifier = 197500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 197000_rural_pop_modifier }
+		remove_province_triggered_modifier = 197000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 196500_rural_pop_modifier }
+		remove_province_triggered_modifier = 196500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 196000_rural_pop_modifier }
+		remove_province_triggered_modifier = 196000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 195500_rural_pop_modifier }
+		remove_province_triggered_modifier = 195500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 195000_rural_pop_modifier }
+		remove_province_triggered_modifier = 195000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 194500_rural_pop_modifier }
+		remove_province_triggered_modifier = 194500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 194000_rural_pop_modifier }
+		remove_province_triggered_modifier = 194000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 193500_rural_pop_modifier }
+		remove_province_triggered_modifier = 193500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 193000_rural_pop_modifier }
+		remove_province_triggered_modifier = 193000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 192500_rural_pop_modifier }
+		remove_province_triggered_modifier = 192500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 192000_rural_pop_modifier }
+		remove_province_triggered_modifier = 192000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 191500_rural_pop_modifier }
+		remove_province_triggered_modifier = 191500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 191000_rural_pop_modifier }
+		remove_province_triggered_modifier = 191000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 190500_rural_pop_modifier }
+		remove_province_triggered_modifier = 190500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 190000_rural_pop_modifier }
+		remove_province_triggered_modifier = 190000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 189500_rural_pop_modifier }
+		remove_province_triggered_modifier = 189500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 189000_rural_pop_modifier }
+		remove_province_triggered_modifier = 189000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 188500_rural_pop_modifier }
+		remove_province_triggered_modifier = 188500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 188000_rural_pop_modifier }
+		remove_province_triggered_modifier = 188000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 187500_rural_pop_modifier }
+		remove_province_triggered_modifier = 187500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 187000_rural_pop_modifier }
+		remove_province_triggered_modifier = 187000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 186500_rural_pop_modifier }
+		remove_province_triggered_modifier = 186500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 186000_rural_pop_modifier }
+		remove_province_triggered_modifier = 186000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 185500_rural_pop_modifier }
+		remove_province_triggered_modifier = 185500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 185000_rural_pop_modifier }
+		remove_province_triggered_modifier = 185000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 184500_rural_pop_modifier }
+		remove_province_triggered_modifier = 184500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 184000_rural_pop_modifier }
+		remove_province_triggered_modifier = 184000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 183500_rural_pop_modifier }
+		remove_province_triggered_modifier = 183500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 183000_rural_pop_modifier }
+		remove_province_triggered_modifier = 183000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 182500_rural_pop_modifier }
+		remove_province_triggered_modifier = 182500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 182000_rural_pop_modifier }
+		remove_province_triggered_modifier = 182000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 181500_rural_pop_modifier }
+		remove_province_triggered_modifier = 181500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 181000_rural_pop_modifier }
+		remove_province_triggered_modifier = 181000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 180500_rural_pop_modifier }
+		remove_province_triggered_modifier = 180500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 180000_rural_pop_modifier }
+		remove_province_triggered_modifier = 180000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 179500_rural_pop_modifier }
+		remove_province_triggered_modifier = 179500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 179000_rural_pop_modifier }
+		remove_province_triggered_modifier = 179000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 178500_rural_pop_modifier }
+		remove_province_triggered_modifier = 178500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 178000_rural_pop_modifier }
+		remove_province_triggered_modifier = 178000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 177500_rural_pop_modifier }
+		remove_province_triggered_modifier = 177500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 177000_rural_pop_modifier }
+		remove_province_triggered_modifier = 177000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 176500_rural_pop_modifier }
+		remove_province_triggered_modifier = 176500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 176000_rural_pop_modifier }
+		remove_province_triggered_modifier = 176000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 175500_rural_pop_modifier }
+		remove_province_triggered_modifier = 175500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 175000_rural_pop_modifier }
+		remove_province_triggered_modifier = 175000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 174500_rural_pop_modifier }
+		remove_province_triggered_modifier = 174500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 174000_rural_pop_modifier }
+		remove_province_triggered_modifier = 174000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 173500_rural_pop_modifier }
+		remove_province_triggered_modifier = 173500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 173000_rural_pop_modifier }
+		remove_province_triggered_modifier = 173000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 172500_rural_pop_modifier }
+		remove_province_triggered_modifier = 172500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 172000_rural_pop_modifier }
+		remove_province_triggered_modifier = 172000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 171500_rural_pop_modifier }
+		remove_province_triggered_modifier = 171500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 171000_rural_pop_modifier }
+		remove_province_triggered_modifier = 171000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 170500_rural_pop_modifier }
+		remove_province_triggered_modifier = 170500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 170000_rural_pop_modifier }
+		remove_province_triggered_modifier = 170000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 169500_rural_pop_modifier }
+		remove_province_triggered_modifier = 169500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 169000_rural_pop_modifier }
+		remove_province_triggered_modifier = 169000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 168500_rural_pop_modifier }
+		remove_province_triggered_modifier = 168500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 168000_rural_pop_modifier }
+		remove_province_triggered_modifier = 168000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 167500_rural_pop_modifier }
+		remove_province_triggered_modifier = 167500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 167000_rural_pop_modifier }
+		remove_province_triggered_modifier = 167000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 166500_rural_pop_modifier }
+		remove_province_triggered_modifier = 166500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 166000_rural_pop_modifier }
+		remove_province_triggered_modifier = 166000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 165500_rural_pop_modifier }
+		remove_province_triggered_modifier = 165500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 165000_rural_pop_modifier }
+		remove_province_triggered_modifier = 165000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 164500_rural_pop_modifier }
+		remove_province_triggered_modifier = 164500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 164000_rural_pop_modifier }
+		remove_province_triggered_modifier = 164000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 163500_rural_pop_modifier }
+		remove_province_triggered_modifier = 163500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 163000_rural_pop_modifier }
+		remove_province_triggered_modifier = 163000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 162500_rural_pop_modifier }
+		remove_province_triggered_modifier = 162500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 162000_rural_pop_modifier }
+		remove_province_triggered_modifier = 162000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 161500_rural_pop_modifier }
+		remove_province_triggered_modifier = 161500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 161000_rural_pop_modifier }
+		remove_province_triggered_modifier = 161000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 160500_rural_pop_modifier }
+		remove_province_triggered_modifier = 160500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 160000_rural_pop_modifier }
+		remove_province_triggered_modifier = 160000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 159500_rural_pop_modifier }
+		remove_province_triggered_modifier = 159500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 159000_rural_pop_modifier }
+		remove_province_triggered_modifier = 159000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 158500_rural_pop_modifier }
+		remove_province_triggered_modifier = 158500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 158000_rural_pop_modifier }
+		remove_province_triggered_modifier = 158000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 157500_rural_pop_modifier }
+		remove_province_triggered_modifier = 157500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 157000_rural_pop_modifier }
+		remove_province_triggered_modifier = 157000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 156500_rural_pop_modifier }
+		remove_province_triggered_modifier = 156500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 156000_rural_pop_modifier }
+		remove_province_triggered_modifier = 156000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 155500_rural_pop_modifier }
+		remove_province_triggered_modifier = 155500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 155000_rural_pop_modifier }
+		remove_province_triggered_modifier = 155000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 154500_rural_pop_modifier }
+		remove_province_triggered_modifier = 154500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 154000_rural_pop_modifier }
+		remove_province_triggered_modifier = 154000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 153500_rural_pop_modifier }
+		remove_province_triggered_modifier = 153500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 153000_rural_pop_modifier }
+		remove_province_triggered_modifier = 153000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 152500_rural_pop_modifier }
+		remove_province_triggered_modifier = 152500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 152000_rural_pop_modifier }
+		remove_province_triggered_modifier = 152000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 151500_rural_pop_modifier }
+		remove_province_triggered_modifier = 151500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 151000_rural_pop_modifier }
+		remove_province_triggered_modifier = 151000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 150500_rural_pop_modifier }
+		remove_province_triggered_modifier = 150500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 150000_rural_pop_modifier }
+		remove_province_triggered_modifier = 150000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 149500_rural_pop_modifier }
+		remove_province_triggered_modifier = 149500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 149000_rural_pop_modifier }
+		remove_province_triggered_modifier = 149000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 148500_rural_pop_modifier }
+		remove_province_triggered_modifier = 148500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 148000_rural_pop_modifier }
+		remove_province_triggered_modifier = 148000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 147500_rural_pop_modifier }
+		remove_province_triggered_modifier = 147500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 147000_rural_pop_modifier }
+		remove_province_triggered_modifier = 147000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 146500_rural_pop_modifier }
+		remove_province_triggered_modifier = 146500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 146000_rural_pop_modifier }
+		remove_province_triggered_modifier = 146000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 145500_rural_pop_modifier }
+		remove_province_triggered_modifier = 145500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 145000_rural_pop_modifier }
+		remove_province_triggered_modifier = 145000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 144500_rural_pop_modifier }
+		remove_province_triggered_modifier = 144500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 144000_rural_pop_modifier }
+		remove_province_triggered_modifier = 144000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 143500_rural_pop_modifier }
+		remove_province_triggered_modifier = 143500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 143000_rural_pop_modifier }
+		remove_province_triggered_modifier = 143000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 142500_rural_pop_modifier }
+		remove_province_triggered_modifier = 142500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 142000_rural_pop_modifier }
+		remove_province_triggered_modifier = 142000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 141500_rural_pop_modifier }
+		remove_province_triggered_modifier = 141500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 141000_rural_pop_modifier }
+		remove_province_triggered_modifier = 141000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 140500_rural_pop_modifier }
+		remove_province_triggered_modifier = 140500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 140000_rural_pop_modifier }
+		remove_province_triggered_modifier = 140000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 139500_rural_pop_modifier }
+		remove_province_triggered_modifier = 139500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 139000_rural_pop_modifier }
+		remove_province_triggered_modifier = 139000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 138500_rural_pop_modifier }
+		remove_province_triggered_modifier = 138500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 138000_rural_pop_modifier }
+		remove_province_triggered_modifier = 138000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 137500_rural_pop_modifier }
+		remove_province_triggered_modifier = 137500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 137000_rural_pop_modifier }
+		remove_province_triggered_modifier = 137000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 136500_rural_pop_modifier }
+		remove_province_triggered_modifier = 136500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 136000_rural_pop_modifier }
+		remove_province_triggered_modifier = 136000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 135500_rural_pop_modifier }
+		remove_province_triggered_modifier = 135500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 135000_rural_pop_modifier }
+		remove_province_triggered_modifier = 135000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 134500_rural_pop_modifier }
+		remove_province_triggered_modifier = 134500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 134000_rural_pop_modifier }
+		remove_province_triggered_modifier = 134000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 133500_rural_pop_modifier }
+		remove_province_triggered_modifier = 133500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 133000_rural_pop_modifier }
+		remove_province_triggered_modifier = 133000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 132500_rural_pop_modifier }
+		remove_province_triggered_modifier = 132500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 132000_rural_pop_modifier }
+		remove_province_triggered_modifier = 132000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 131500_rural_pop_modifier }
+		remove_province_triggered_modifier = 131500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 131000_rural_pop_modifier }
+		remove_province_triggered_modifier = 131000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 130500_rural_pop_modifier }
+		remove_province_triggered_modifier = 130500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 130000_rural_pop_modifier }
+		remove_province_triggered_modifier = 130000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 129500_rural_pop_modifier }
+		remove_province_triggered_modifier = 129500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 129000_rural_pop_modifier }
+		remove_province_triggered_modifier = 129000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 128500_rural_pop_modifier }
+		remove_province_triggered_modifier = 128500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 128000_rural_pop_modifier }
+		remove_province_triggered_modifier = 128000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 127500_rural_pop_modifier }
+		remove_province_triggered_modifier = 127500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 127000_rural_pop_modifier }
+		remove_province_triggered_modifier = 127000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 126500_rural_pop_modifier }
+		remove_province_triggered_modifier = 126500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 126000_rural_pop_modifier }
+		remove_province_triggered_modifier = 126000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 125500_rural_pop_modifier }
+		remove_province_triggered_modifier = 125500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 125000_rural_pop_modifier }
+		remove_province_triggered_modifier = 125000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 124500_rural_pop_modifier }
+		remove_province_triggered_modifier = 124500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 124000_rural_pop_modifier }
+		remove_province_triggered_modifier = 124000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 123500_rural_pop_modifier }
+		remove_province_triggered_modifier = 123500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 123000_rural_pop_modifier }
+		remove_province_triggered_modifier = 123000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 122500_rural_pop_modifier }
+		remove_province_triggered_modifier = 122500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 122000_rural_pop_modifier }
+		remove_province_triggered_modifier = 122000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 121500_rural_pop_modifier }
+		remove_province_triggered_modifier = 121500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 121000_rural_pop_modifier }
+		remove_province_triggered_modifier = 121000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 120500_rural_pop_modifier }
+		remove_province_triggered_modifier = 120500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 120000_rural_pop_modifier }
+		remove_province_triggered_modifier = 120000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 119500_rural_pop_modifier }
+		remove_province_triggered_modifier = 119500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 119000_rural_pop_modifier }
+		remove_province_triggered_modifier = 119000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 118500_rural_pop_modifier }
+		remove_province_triggered_modifier = 118500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 118000_rural_pop_modifier }
+		remove_province_triggered_modifier = 118000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 117500_rural_pop_modifier }
+		remove_province_triggered_modifier = 117500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 117000_rural_pop_modifier }
+		remove_province_triggered_modifier = 117000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 116500_rural_pop_modifier }
+		remove_province_triggered_modifier = 116500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 116000_rural_pop_modifier }
+		remove_province_triggered_modifier = 116000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 115500_rural_pop_modifier }
+		remove_province_triggered_modifier = 115500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 115000_rural_pop_modifier }
+		remove_province_triggered_modifier = 115000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 114500_rural_pop_modifier }
+		remove_province_triggered_modifier = 114500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 114000_rural_pop_modifier }
+		remove_province_triggered_modifier = 114000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 113500_rural_pop_modifier }
+		remove_province_triggered_modifier = 113500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 113000_rural_pop_modifier }
+		remove_province_triggered_modifier = 113000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 112500_rural_pop_modifier }
+		remove_province_triggered_modifier = 112500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 112000_rural_pop_modifier }
+		remove_province_triggered_modifier = 112000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 111500_rural_pop_modifier }
+		remove_province_triggered_modifier = 111500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 111000_rural_pop_modifier }
+		remove_province_triggered_modifier = 111000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 110500_rural_pop_modifier }
+		remove_province_triggered_modifier = 110500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 110000_rural_pop_modifier }
+		remove_province_triggered_modifier = 110000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 109500_rural_pop_modifier }
+		remove_province_triggered_modifier = 109500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 109000_rural_pop_modifier }
+		remove_province_triggered_modifier = 109000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 108500_rural_pop_modifier }
+		remove_province_triggered_modifier = 108500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 108000_rural_pop_modifier }
+		remove_province_triggered_modifier = 108000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 107500_rural_pop_modifier }
+		remove_province_triggered_modifier = 107500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 107000_rural_pop_modifier }
+		remove_province_triggered_modifier = 107000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 106500_rural_pop_modifier }
+		remove_province_triggered_modifier = 106500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 106000_rural_pop_modifier }
+		remove_province_triggered_modifier = 106000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 105500_rural_pop_modifier }
+		remove_province_triggered_modifier = 105500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 105000_rural_pop_modifier }
+		remove_province_triggered_modifier = 105000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 104500_rural_pop_modifier }
+		remove_province_triggered_modifier = 104500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 104000_rural_pop_modifier }
+		remove_province_triggered_modifier = 104000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 103500_rural_pop_modifier }
+		remove_province_triggered_modifier = 103500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 103000_rural_pop_modifier }
+		remove_province_triggered_modifier = 103000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 102500_rural_pop_modifier }
+		remove_province_triggered_modifier = 102500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 102000_rural_pop_modifier }
+		remove_province_triggered_modifier = 102000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 101500_rural_pop_modifier }
+		remove_province_triggered_modifier = 101500_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 101000_rural_pop_modifier }
+		remove_province_triggered_modifier = 101000_rural_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 100500_rural_pop_modifier }
+		remove_province_triggered_modifier = 100500_rural_pop_modifier
+	}
 	else_if = { limit = { has_province_modifier = 100000_rural_pop_modifier }
 		remove_province_triggered_modifier = 100000_rural_pop_modifier
 	}
@@ -1221,6 +2417,606 @@ clear_rural_pop_modifiers = {
 #Urban Pop Create Code
 update_urban_pop_modifiers = {
 	clear_urban_pop_modifiers = yes
+	else_if = { limit = { check_variable = { which = urban_pop value = 200.000000 } }
+		add_province_triggered_modifier = 200000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 199.500000 } }
+		add_province_triggered_modifier = 199500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 199.000000 } }
+		add_province_triggered_modifier = 199000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 198.500000 } }
+		add_province_triggered_modifier = 198500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 198.000000 } }
+		add_province_triggered_modifier = 198000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 197.500000 } }
+		add_province_triggered_modifier = 197500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 197.000000 } }
+		add_province_triggered_modifier = 197000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 196.500000 } }
+		add_province_triggered_modifier = 196500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 196.000000 } }
+		add_province_triggered_modifier = 196000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 195.500000 } }
+		add_province_triggered_modifier = 195500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 195.000000 } }
+		add_province_triggered_modifier = 195000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 194.500000 } }
+		add_province_triggered_modifier = 194500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 194.000000 } }
+		add_province_triggered_modifier = 194000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 193.500000 } }
+		add_province_triggered_modifier = 193500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 193.000000 } }
+		add_province_triggered_modifier = 193000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 192.500000 } }
+		add_province_triggered_modifier = 192500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 192.000000 } }
+		add_province_triggered_modifier = 192000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 191.500000 } }
+		add_province_triggered_modifier = 191500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 191.000000 } }
+		add_province_triggered_modifier = 191000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 190.500000 } }
+		add_province_triggered_modifier = 190500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 190.000000 } }
+		add_province_triggered_modifier = 190000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 189.500000 } }
+		add_province_triggered_modifier = 189500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 189.000000 } }
+		add_province_triggered_modifier = 189000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 188.500000 } }
+		add_province_triggered_modifier = 188500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 188.000000 } }
+		add_province_triggered_modifier = 188000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 187.500000 } }
+		add_province_triggered_modifier = 187500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 187.000000 } }
+		add_province_triggered_modifier = 187000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 186.500000 } }
+		add_province_triggered_modifier = 186500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 186.000000 } }
+		add_province_triggered_modifier = 186000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 185.500000 } }
+		add_province_triggered_modifier = 185500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 185.000000 } }
+		add_province_triggered_modifier = 185000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 184.500000 } }
+		add_province_triggered_modifier = 184500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 184.000000 } }
+		add_province_triggered_modifier = 184000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 183.500000 } }
+		add_province_triggered_modifier = 183500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 183.000000 } }
+		add_province_triggered_modifier = 183000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 182.500000 } }
+		add_province_triggered_modifier = 182500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 182.000000 } }
+		add_province_triggered_modifier = 182000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 181.500000 } }
+		add_province_triggered_modifier = 181500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 181.000000 } }
+		add_province_triggered_modifier = 181000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 180.500000 } }
+		add_province_triggered_modifier = 180500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 180.000000 } }
+		add_province_triggered_modifier = 180000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 179.500000 } }
+		add_province_triggered_modifier = 179500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 179.000000 } }
+		add_province_triggered_modifier = 179000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 178.500000 } }
+		add_province_triggered_modifier = 178500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 178.000000 } }
+		add_province_triggered_modifier = 178000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 177.500000 } }
+		add_province_triggered_modifier = 177500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 177.000000 } }
+		add_province_triggered_modifier = 177000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 176.500000 } }
+		add_province_triggered_modifier = 176500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 176.000000 } }
+		add_province_triggered_modifier = 176000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 175.500000 } }
+		add_province_triggered_modifier = 175500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 175.000000 } }
+		add_province_triggered_modifier = 175000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 174.500000 } }
+		add_province_triggered_modifier = 174500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 174.000000 } }
+		add_province_triggered_modifier = 174000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 173.500000 } }
+		add_province_triggered_modifier = 173500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 173.000000 } }
+		add_province_triggered_modifier = 173000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 172.500000 } }
+		add_province_triggered_modifier = 172500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 172.000000 } }
+		add_province_triggered_modifier = 172000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 171.500000 } }
+		add_province_triggered_modifier = 171500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 171.000000 } }
+		add_province_triggered_modifier = 171000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 170.500000 } }
+		add_province_triggered_modifier = 170500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 170.000000 } }
+		add_province_triggered_modifier = 170000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 169.500000 } }
+		add_province_triggered_modifier = 169500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 169.000000 } }
+		add_province_triggered_modifier = 169000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 168.500000 } }
+		add_province_triggered_modifier = 168500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 168.000000 } }
+		add_province_triggered_modifier = 168000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 167.500000 } }
+		add_province_triggered_modifier = 167500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 167.000000 } }
+		add_province_triggered_modifier = 167000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 166.500000 } }
+		add_province_triggered_modifier = 166500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 166.000000 } }
+		add_province_triggered_modifier = 166000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 165.500000 } }
+		add_province_triggered_modifier = 165500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 165.000000 } }
+		add_province_triggered_modifier = 165000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 164.500000 } }
+		add_province_triggered_modifier = 164500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 164.000000 } }
+		add_province_triggered_modifier = 164000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 163.500000 } }
+		add_province_triggered_modifier = 163500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 163.000000 } }
+		add_province_triggered_modifier = 163000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 162.500000 } }
+		add_province_triggered_modifier = 162500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 162.000000 } }
+		add_province_triggered_modifier = 162000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 161.500000 } }
+		add_province_triggered_modifier = 161500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 161.000000 } }
+		add_province_triggered_modifier = 161000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 160.500000 } }
+		add_province_triggered_modifier = 160500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 160.000000 } }
+		add_province_triggered_modifier = 160000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 159.500000 } }
+		add_province_triggered_modifier = 159500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 159.000000 } }
+		add_province_triggered_modifier = 159000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 158.500000 } }
+		add_province_triggered_modifier = 158500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 158.000000 } }
+		add_province_triggered_modifier = 158000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 157.500000 } }
+		add_province_triggered_modifier = 157500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 157.000000 } }
+		add_province_triggered_modifier = 157000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 156.500000 } }
+		add_province_triggered_modifier = 156500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 156.000000 } }
+		add_province_triggered_modifier = 156000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 155.500000 } }
+		add_province_triggered_modifier = 155500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 155.000000 } }
+		add_province_triggered_modifier = 155000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 154.500000 } }
+		add_province_triggered_modifier = 154500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 154.000000 } }
+		add_province_triggered_modifier = 154000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 153.500000 } }
+		add_province_triggered_modifier = 153500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 153.000000 } }
+		add_province_triggered_modifier = 153000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 152.500000 } }
+		add_province_triggered_modifier = 152500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 152.000000 } }
+		add_province_triggered_modifier = 152000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 151.500000 } }
+		add_province_triggered_modifier = 151500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 151.000000 } }
+		add_province_triggered_modifier = 151000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 150.500000 } }
+		add_province_triggered_modifier = 150500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 150.000000 } }
+		add_province_triggered_modifier = 150000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 149.500000 } }
+		add_province_triggered_modifier = 149500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 149.000000 } }
+		add_province_triggered_modifier = 149000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 148.500000 } }
+		add_province_triggered_modifier = 148500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 148.000000 } }
+		add_province_triggered_modifier = 148000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 147.500000 } }
+		add_province_triggered_modifier = 147500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 147.000000 } }
+		add_province_triggered_modifier = 147000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 146.500000 } }
+		add_province_triggered_modifier = 146500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 146.000000 } }
+		add_province_triggered_modifier = 146000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 145.500000 } }
+		add_province_triggered_modifier = 145500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 145.000000 } }
+		add_province_triggered_modifier = 145000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 144.500000 } }
+		add_province_triggered_modifier = 144500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 144.000000 } }
+		add_province_triggered_modifier = 144000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 143.500000 } }
+		add_province_triggered_modifier = 143500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 143.000000 } }
+		add_province_triggered_modifier = 143000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 142.500000 } }
+		add_province_triggered_modifier = 142500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 142.000000 } }
+		add_province_triggered_modifier = 142000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 141.500000 } }
+		add_province_triggered_modifier = 141500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 141.000000 } }
+		add_province_triggered_modifier = 141000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 140.500000 } }
+		add_province_triggered_modifier = 140500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 140.000000 } }
+		add_province_triggered_modifier = 140000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 139.500000 } }
+		add_province_triggered_modifier = 139500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 139.000000 } }
+		add_province_triggered_modifier = 139000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 138.500000 } }
+		add_province_triggered_modifier = 138500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 138.000000 } }
+		add_province_triggered_modifier = 138000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 137.500000 } }
+		add_province_triggered_modifier = 137500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 137.000000 } }
+		add_province_triggered_modifier = 137000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 136.500000 } }
+		add_province_triggered_modifier = 136500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 136.000000 } }
+		add_province_triggered_modifier = 136000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 135.500000 } }
+		add_province_triggered_modifier = 135500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 135.000000 } }
+		add_province_triggered_modifier = 135000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 134.500000 } }
+		add_province_triggered_modifier = 134500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 134.000000 } }
+		add_province_triggered_modifier = 134000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 133.500000 } }
+		add_province_triggered_modifier = 133500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 133.000000 } }
+		add_province_triggered_modifier = 133000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 132.500000 } }
+		add_province_triggered_modifier = 132500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 132.000000 } }
+		add_province_triggered_modifier = 132000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 131.500000 } }
+		add_province_triggered_modifier = 131500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 131.000000 } }
+		add_province_triggered_modifier = 131000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 130.500000 } }
+		add_province_triggered_modifier = 130500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 130.000000 } }
+		add_province_triggered_modifier = 130000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 129.500000 } }
+		add_province_triggered_modifier = 129500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 129.000000 } }
+		add_province_triggered_modifier = 129000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 128.500000 } }
+		add_province_triggered_modifier = 128500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 128.000000 } }
+		add_province_triggered_modifier = 128000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 127.500000 } }
+		add_province_triggered_modifier = 127500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 127.000000 } }
+		add_province_triggered_modifier = 127000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 126.500000 } }
+		add_province_triggered_modifier = 126500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 126.000000 } }
+		add_province_triggered_modifier = 126000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 125.500000 } }
+		add_province_triggered_modifier = 125500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 125.000000 } }
+		add_province_triggered_modifier = 125000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 124.500000 } }
+		add_province_triggered_modifier = 124500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 124.000000 } }
+		add_province_triggered_modifier = 124000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 123.500000 } }
+		add_province_triggered_modifier = 123500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 123.000000 } }
+		add_province_triggered_modifier = 123000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 122.500000 } }
+		add_province_triggered_modifier = 122500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 122.000000 } }
+		add_province_triggered_modifier = 122000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 121.500000 } }
+		add_province_triggered_modifier = 121500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 121.000000 } }
+		add_province_triggered_modifier = 121000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 120.500000 } }
+		add_province_triggered_modifier = 120500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 120.000000 } }
+		add_province_triggered_modifier = 120000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 119.500000 } }
+		add_province_triggered_modifier = 119500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 119.000000 } }
+		add_province_triggered_modifier = 119000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 118.500000 } }
+		add_province_triggered_modifier = 118500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 118.000000 } }
+		add_province_triggered_modifier = 118000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 117.500000 } }
+		add_province_triggered_modifier = 117500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 117.000000 } }
+		add_province_triggered_modifier = 117000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 116.500000 } }
+		add_province_triggered_modifier = 116500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 116.000000 } }
+		add_province_triggered_modifier = 116000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 115.500000 } }
+		add_province_triggered_modifier = 115500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 115.000000 } }
+		add_province_triggered_modifier = 115000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 114.500000 } }
+		add_province_triggered_modifier = 114500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 114.000000 } }
+		add_province_triggered_modifier = 114000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 113.500000 } }
+		add_province_triggered_modifier = 113500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 113.000000 } }
+		add_province_triggered_modifier = 113000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 112.500000 } }
+		add_province_triggered_modifier = 112500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 112.000000 } }
+		add_province_triggered_modifier = 112000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 111.500000 } }
+		add_province_triggered_modifier = 111500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 111.000000 } }
+		add_province_triggered_modifier = 111000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 110.500000 } }
+		add_province_triggered_modifier = 110500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 110.000000 } }
+		add_province_triggered_modifier = 110000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 109.500000 } }
+		add_province_triggered_modifier = 109500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 109.000000 } }
+		add_province_triggered_modifier = 109000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 108.500000 } }
+		add_province_triggered_modifier = 108500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 108.000000 } }
+		add_province_triggered_modifier = 108000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 107.500000 } }
+		add_province_triggered_modifier = 107500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 107.000000 } }
+		add_province_triggered_modifier = 107000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 106.500000 } }
+		add_province_triggered_modifier = 106500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 106.000000 } }
+		add_province_triggered_modifier = 106000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 105.500000 } }
+		add_province_triggered_modifier = 105500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 105.000000 } }
+		add_province_triggered_modifier = 105000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 104.500000 } }
+		add_province_triggered_modifier = 104500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 104.000000 } }
+		add_province_triggered_modifier = 104000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 103.500000 } }
+		add_province_triggered_modifier = 103500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 103.000000 } }
+		add_province_triggered_modifier = 103000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 102.500000 } }
+		add_province_triggered_modifier = 102500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 102.000000 } }
+		add_province_triggered_modifier = 102000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 101.500000 } }
+		add_province_triggered_modifier = 101500_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 101.000000 } }
+		add_province_triggered_modifier = 101000_urban_pop_modifier
+	}
+	else_if = { limit = { check_variable = { which = urban_pop value = 100.500000 } }
+		add_province_triggered_modifier = 100500_urban_pop_modifier
+	}
 	else_if = { limit = { check_variable = { which = urban_pop value = 100.000000 } }
 		add_province_triggered_modifier = 100000_urban_pop_modifier
 	}
@@ -1828,6 +3624,606 @@ update_urban_pop_modifiers = {
 
 #Urban Pop Clear Code
 clear_urban_pop_modifiers = {
+	else_if = { limit = { has_province_modifier = 200000_urban_pop_modifier }
+		remove_province_triggered_modifier = 200000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 199500_urban_pop_modifier }
+		remove_province_triggered_modifier = 199500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 199000_urban_pop_modifier }
+		remove_province_triggered_modifier = 199000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 198500_urban_pop_modifier }
+		remove_province_triggered_modifier = 198500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 198000_urban_pop_modifier }
+		remove_province_triggered_modifier = 198000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 197500_urban_pop_modifier }
+		remove_province_triggered_modifier = 197500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 197000_urban_pop_modifier }
+		remove_province_triggered_modifier = 197000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 196500_urban_pop_modifier }
+		remove_province_triggered_modifier = 196500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 196000_urban_pop_modifier }
+		remove_province_triggered_modifier = 196000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 195500_urban_pop_modifier }
+		remove_province_triggered_modifier = 195500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 195000_urban_pop_modifier }
+		remove_province_triggered_modifier = 195000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 194500_urban_pop_modifier }
+		remove_province_triggered_modifier = 194500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 194000_urban_pop_modifier }
+		remove_province_triggered_modifier = 194000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 193500_urban_pop_modifier }
+		remove_province_triggered_modifier = 193500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 193000_urban_pop_modifier }
+		remove_province_triggered_modifier = 193000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 192500_urban_pop_modifier }
+		remove_province_triggered_modifier = 192500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 192000_urban_pop_modifier }
+		remove_province_triggered_modifier = 192000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 191500_urban_pop_modifier }
+		remove_province_triggered_modifier = 191500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 191000_urban_pop_modifier }
+		remove_province_triggered_modifier = 191000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 190500_urban_pop_modifier }
+		remove_province_triggered_modifier = 190500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 190000_urban_pop_modifier }
+		remove_province_triggered_modifier = 190000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 189500_urban_pop_modifier }
+		remove_province_triggered_modifier = 189500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 189000_urban_pop_modifier }
+		remove_province_triggered_modifier = 189000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 188500_urban_pop_modifier }
+		remove_province_triggered_modifier = 188500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 188000_urban_pop_modifier }
+		remove_province_triggered_modifier = 188000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 187500_urban_pop_modifier }
+		remove_province_triggered_modifier = 187500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 187000_urban_pop_modifier }
+		remove_province_triggered_modifier = 187000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 186500_urban_pop_modifier }
+		remove_province_triggered_modifier = 186500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 186000_urban_pop_modifier }
+		remove_province_triggered_modifier = 186000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 185500_urban_pop_modifier }
+		remove_province_triggered_modifier = 185500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 185000_urban_pop_modifier }
+		remove_province_triggered_modifier = 185000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 184500_urban_pop_modifier }
+		remove_province_triggered_modifier = 184500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 184000_urban_pop_modifier }
+		remove_province_triggered_modifier = 184000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 183500_urban_pop_modifier }
+		remove_province_triggered_modifier = 183500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 183000_urban_pop_modifier }
+		remove_province_triggered_modifier = 183000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 182500_urban_pop_modifier }
+		remove_province_triggered_modifier = 182500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 182000_urban_pop_modifier }
+		remove_province_triggered_modifier = 182000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 181500_urban_pop_modifier }
+		remove_province_triggered_modifier = 181500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 181000_urban_pop_modifier }
+		remove_province_triggered_modifier = 181000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 180500_urban_pop_modifier }
+		remove_province_triggered_modifier = 180500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 180000_urban_pop_modifier }
+		remove_province_triggered_modifier = 180000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 179500_urban_pop_modifier }
+		remove_province_triggered_modifier = 179500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 179000_urban_pop_modifier }
+		remove_province_triggered_modifier = 179000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 178500_urban_pop_modifier }
+		remove_province_triggered_modifier = 178500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 178000_urban_pop_modifier }
+		remove_province_triggered_modifier = 178000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 177500_urban_pop_modifier }
+		remove_province_triggered_modifier = 177500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 177000_urban_pop_modifier }
+		remove_province_triggered_modifier = 177000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 176500_urban_pop_modifier }
+		remove_province_triggered_modifier = 176500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 176000_urban_pop_modifier }
+		remove_province_triggered_modifier = 176000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 175500_urban_pop_modifier }
+		remove_province_triggered_modifier = 175500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 175000_urban_pop_modifier }
+		remove_province_triggered_modifier = 175000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 174500_urban_pop_modifier }
+		remove_province_triggered_modifier = 174500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 174000_urban_pop_modifier }
+		remove_province_triggered_modifier = 174000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 173500_urban_pop_modifier }
+		remove_province_triggered_modifier = 173500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 173000_urban_pop_modifier }
+		remove_province_triggered_modifier = 173000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 172500_urban_pop_modifier }
+		remove_province_triggered_modifier = 172500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 172000_urban_pop_modifier }
+		remove_province_triggered_modifier = 172000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 171500_urban_pop_modifier }
+		remove_province_triggered_modifier = 171500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 171000_urban_pop_modifier }
+		remove_province_triggered_modifier = 171000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 170500_urban_pop_modifier }
+		remove_province_triggered_modifier = 170500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 170000_urban_pop_modifier }
+		remove_province_triggered_modifier = 170000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 169500_urban_pop_modifier }
+		remove_province_triggered_modifier = 169500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 169000_urban_pop_modifier }
+		remove_province_triggered_modifier = 169000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 168500_urban_pop_modifier }
+		remove_province_triggered_modifier = 168500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 168000_urban_pop_modifier }
+		remove_province_triggered_modifier = 168000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 167500_urban_pop_modifier }
+		remove_province_triggered_modifier = 167500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 167000_urban_pop_modifier }
+		remove_province_triggered_modifier = 167000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 166500_urban_pop_modifier }
+		remove_province_triggered_modifier = 166500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 166000_urban_pop_modifier }
+		remove_province_triggered_modifier = 166000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 165500_urban_pop_modifier }
+		remove_province_triggered_modifier = 165500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 165000_urban_pop_modifier }
+		remove_province_triggered_modifier = 165000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 164500_urban_pop_modifier }
+		remove_province_triggered_modifier = 164500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 164000_urban_pop_modifier }
+		remove_province_triggered_modifier = 164000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 163500_urban_pop_modifier }
+		remove_province_triggered_modifier = 163500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 163000_urban_pop_modifier }
+		remove_province_triggered_modifier = 163000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 162500_urban_pop_modifier }
+		remove_province_triggered_modifier = 162500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 162000_urban_pop_modifier }
+		remove_province_triggered_modifier = 162000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 161500_urban_pop_modifier }
+		remove_province_triggered_modifier = 161500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 161000_urban_pop_modifier }
+		remove_province_triggered_modifier = 161000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 160500_urban_pop_modifier }
+		remove_province_triggered_modifier = 160500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 160000_urban_pop_modifier }
+		remove_province_triggered_modifier = 160000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 159500_urban_pop_modifier }
+		remove_province_triggered_modifier = 159500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 159000_urban_pop_modifier }
+		remove_province_triggered_modifier = 159000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 158500_urban_pop_modifier }
+		remove_province_triggered_modifier = 158500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 158000_urban_pop_modifier }
+		remove_province_triggered_modifier = 158000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 157500_urban_pop_modifier }
+		remove_province_triggered_modifier = 157500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 157000_urban_pop_modifier }
+		remove_province_triggered_modifier = 157000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 156500_urban_pop_modifier }
+		remove_province_triggered_modifier = 156500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 156000_urban_pop_modifier }
+		remove_province_triggered_modifier = 156000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 155500_urban_pop_modifier }
+		remove_province_triggered_modifier = 155500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 155000_urban_pop_modifier }
+		remove_province_triggered_modifier = 155000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 154500_urban_pop_modifier }
+		remove_province_triggered_modifier = 154500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 154000_urban_pop_modifier }
+		remove_province_triggered_modifier = 154000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 153500_urban_pop_modifier }
+		remove_province_triggered_modifier = 153500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 153000_urban_pop_modifier }
+		remove_province_triggered_modifier = 153000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 152500_urban_pop_modifier }
+		remove_province_triggered_modifier = 152500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 152000_urban_pop_modifier }
+		remove_province_triggered_modifier = 152000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 151500_urban_pop_modifier }
+		remove_province_triggered_modifier = 151500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 151000_urban_pop_modifier }
+		remove_province_triggered_modifier = 151000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 150500_urban_pop_modifier }
+		remove_province_triggered_modifier = 150500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 150000_urban_pop_modifier }
+		remove_province_triggered_modifier = 150000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 149500_urban_pop_modifier }
+		remove_province_triggered_modifier = 149500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 149000_urban_pop_modifier }
+		remove_province_triggered_modifier = 149000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 148500_urban_pop_modifier }
+		remove_province_triggered_modifier = 148500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 148000_urban_pop_modifier }
+		remove_province_triggered_modifier = 148000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 147500_urban_pop_modifier }
+		remove_province_triggered_modifier = 147500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 147000_urban_pop_modifier }
+		remove_province_triggered_modifier = 147000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 146500_urban_pop_modifier }
+		remove_province_triggered_modifier = 146500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 146000_urban_pop_modifier }
+		remove_province_triggered_modifier = 146000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 145500_urban_pop_modifier }
+		remove_province_triggered_modifier = 145500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 145000_urban_pop_modifier }
+		remove_province_triggered_modifier = 145000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 144500_urban_pop_modifier }
+		remove_province_triggered_modifier = 144500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 144000_urban_pop_modifier }
+		remove_province_triggered_modifier = 144000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 143500_urban_pop_modifier }
+		remove_province_triggered_modifier = 143500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 143000_urban_pop_modifier }
+		remove_province_triggered_modifier = 143000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 142500_urban_pop_modifier }
+		remove_province_triggered_modifier = 142500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 142000_urban_pop_modifier }
+		remove_province_triggered_modifier = 142000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 141500_urban_pop_modifier }
+		remove_province_triggered_modifier = 141500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 141000_urban_pop_modifier }
+		remove_province_triggered_modifier = 141000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 140500_urban_pop_modifier }
+		remove_province_triggered_modifier = 140500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 140000_urban_pop_modifier }
+		remove_province_triggered_modifier = 140000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 139500_urban_pop_modifier }
+		remove_province_triggered_modifier = 139500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 139000_urban_pop_modifier }
+		remove_province_triggered_modifier = 139000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 138500_urban_pop_modifier }
+		remove_province_triggered_modifier = 138500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 138000_urban_pop_modifier }
+		remove_province_triggered_modifier = 138000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 137500_urban_pop_modifier }
+		remove_province_triggered_modifier = 137500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 137000_urban_pop_modifier }
+		remove_province_triggered_modifier = 137000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 136500_urban_pop_modifier }
+		remove_province_triggered_modifier = 136500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 136000_urban_pop_modifier }
+		remove_province_triggered_modifier = 136000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 135500_urban_pop_modifier }
+		remove_province_triggered_modifier = 135500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 135000_urban_pop_modifier }
+		remove_province_triggered_modifier = 135000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 134500_urban_pop_modifier }
+		remove_province_triggered_modifier = 134500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 134000_urban_pop_modifier }
+		remove_province_triggered_modifier = 134000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 133500_urban_pop_modifier }
+		remove_province_triggered_modifier = 133500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 133000_urban_pop_modifier }
+		remove_province_triggered_modifier = 133000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 132500_urban_pop_modifier }
+		remove_province_triggered_modifier = 132500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 132000_urban_pop_modifier }
+		remove_province_triggered_modifier = 132000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 131500_urban_pop_modifier }
+		remove_province_triggered_modifier = 131500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 131000_urban_pop_modifier }
+		remove_province_triggered_modifier = 131000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 130500_urban_pop_modifier }
+		remove_province_triggered_modifier = 130500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 130000_urban_pop_modifier }
+		remove_province_triggered_modifier = 130000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 129500_urban_pop_modifier }
+		remove_province_triggered_modifier = 129500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 129000_urban_pop_modifier }
+		remove_province_triggered_modifier = 129000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 128500_urban_pop_modifier }
+		remove_province_triggered_modifier = 128500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 128000_urban_pop_modifier }
+		remove_province_triggered_modifier = 128000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 127500_urban_pop_modifier }
+		remove_province_triggered_modifier = 127500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 127000_urban_pop_modifier }
+		remove_province_triggered_modifier = 127000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 126500_urban_pop_modifier }
+		remove_province_triggered_modifier = 126500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 126000_urban_pop_modifier }
+		remove_province_triggered_modifier = 126000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 125500_urban_pop_modifier }
+		remove_province_triggered_modifier = 125500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 125000_urban_pop_modifier }
+		remove_province_triggered_modifier = 125000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 124500_urban_pop_modifier }
+		remove_province_triggered_modifier = 124500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 124000_urban_pop_modifier }
+		remove_province_triggered_modifier = 124000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 123500_urban_pop_modifier }
+		remove_province_triggered_modifier = 123500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 123000_urban_pop_modifier }
+		remove_province_triggered_modifier = 123000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 122500_urban_pop_modifier }
+		remove_province_triggered_modifier = 122500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 122000_urban_pop_modifier }
+		remove_province_triggered_modifier = 122000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 121500_urban_pop_modifier }
+		remove_province_triggered_modifier = 121500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 121000_urban_pop_modifier }
+		remove_province_triggered_modifier = 121000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 120500_urban_pop_modifier }
+		remove_province_triggered_modifier = 120500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 120000_urban_pop_modifier }
+		remove_province_triggered_modifier = 120000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 119500_urban_pop_modifier }
+		remove_province_triggered_modifier = 119500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 119000_urban_pop_modifier }
+		remove_province_triggered_modifier = 119000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 118500_urban_pop_modifier }
+		remove_province_triggered_modifier = 118500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 118000_urban_pop_modifier }
+		remove_province_triggered_modifier = 118000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 117500_urban_pop_modifier }
+		remove_province_triggered_modifier = 117500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 117000_urban_pop_modifier }
+		remove_province_triggered_modifier = 117000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 116500_urban_pop_modifier }
+		remove_province_triggered_modifier = 116500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 116000_urban_pop_modifier }
+		remove_province_triggered_modifier = 116000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 115500_urban_pop_modifier }
+		remove_province_triggered_modifier = 115500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 115000_urban_pop_modifier }
+		remove_province_triggered_modifier = 115000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 114500_urban_pop_modifier }
+		remove_province_triggered_modifier = 114500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 114000_urban_pop_modifier }
+		remove_province_triggered_modifier = 114000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 113500_urban_pop_modifier }
+		remove_province_triggered_modifier = 113500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 113000_urban_pop_modifier }
+		remove_province_triggered_modifier = 113000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 112500_urban_pop_modifier }
+		remove_province_triggered_modifier = 112500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 112000_urban_pop_modifier }
+		remove_province_triggered_modifier = 112000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 111500_urban_pop_modifier }
+		remove_province_triggered_modifier = 111500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 111000_urban_pop_modifier }
+		remove_province_triggered_modifier = 111000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 110500_urban_pop_modifier }
+		remove_province_triggered_modifier = 110500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 110000_urban_pop_modifier }
+		remove_province_triggered_modifier = 110000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 109500_urban_pop_modifier }
+		remove_province_triggered_modifier = 109500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 109000_urban_pop_modifier }
+		remove_province_triggered_modifier = 109000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 108500_urban_pop_modifier }
+		remove_province_triggered_modifier = 108500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 108000_urban_pop_modifier }
+		remove_province_triggered_modifier = 108000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 107500_urban_pop_modifier }
+		remove_province_triggered_modifier = 107500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 107000_urban_pop_modifier }
+		remove_province_triggered_modifier = 107000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 106500_urban_pop_modifier }
+		remove_province_triggered_modifier = 106500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 106000_urban_pop_modifier }
+		remove_province_triggered_modifier = 106000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 105500_urban_pop_modifier }
+		remove_province_triggered_modifier = 105500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 105000_urban_pop_modifier }
+		remove_province_triggered_modifier = 105000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 104500_urban_pop_modifier }
+		remove_province_triggered_modifier = 104500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 104000_urban_pop_modifier }
+		remove_province_triggered_modifier = 104000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 103500_urban_pop_modifier }
+		remove_province_triggered_modifier = 103500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 103000_urban_pop_modifier }
+		remove_province_triggered_modifier = 103000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 102500_urban_pop_modifier }
+		remove_province_triggered_modifier = 102500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 102000_urban_pop_modifier }
+		remove_province_triggered_modifier = 102000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 101500_urban_pop_modifier }
+		remove_province_triggered_modifier = 101500_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 101000_urban_pop_modifier }
+		remove_province_triggered_modifier = 101000_urban_pop_modifier
+	}
+	else_if = { limit = { has_province_modifier = 100500_urban_pop_modifier }
+		remove_province_triggered_modifier = 100500_urban_pop_modifier
+	}
 	else_if = { limit = { has_province_modifier = 100000_urban_pop_modifier }
 		remove_province_triggered_modifier = 100000_urban_pop_modifier
 	}
@@ -2836,6 +5232,406 @@ desc_99000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
 desc_99500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
 100000_rural_pop_modifier:0 "100000 Rural Population"
 desc_100000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+100500_rural_pop_modifier:0 "100500 Rural Population"
+desc_100500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+101000_rural_pop_modifier:0 "101000 Rural Population"
+desc_101000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+101500_rural_pop_modifier:0 "101500 Rural Population"
+desc_101500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+102000_rural_pop_modifier:0 "102000 Rural Population"
+desc_102000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+102500_rural_pop_modifier:0 "102500 Rural Population"
+desc_102500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+103000_rural_pop_modifier:0 "103000 Rural Population"
+desc_103000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+103500_rural_pop_modifier:0 "103500 Rural Population"
+desc_103500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+104000_rural_pop_modifier:0 "104000 Rural Population"
+desc_104000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+104500_rural_pop_modifier:0 "104500 Rural Population"
+desc_104500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+105000_rural_pop_modifier:0 "105000 Rural Population"
+desc_105000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+105500_rural_pop_modifier:0 "105500 Rural Population"
+desc_105500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+106000_rural_pop_modifier:0 "106000 Rural Population"
+desc_106000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+106500_rural_pop_modifier:0 "106500 Rural Population"
+desc_106500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+107000_rural_pop_modifier:0 "107000 Rural Population"
+desc_107000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+107500_rural_pop_modifier:0 "107500 Rural Population"
+desc_107500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+108000_rural_pop_modifier:0 "108000 Rural Population"
+desc_108000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+108500_rural_pop_modifier:0 "108500 Rural Population"
+desc_108500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+109000_rural_pop_modifier:0 "109000 Rural Population"
+desc_109000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+109500_rural_pop_modifier:0 "109500 Rural Population"
+desc_109500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+110000_rural_pop_modifier:0 "110000 Rural Population"
+desc_110000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+110500_rural_pop_modifier:0 "110500 Rural Population"
+desc_110500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+111000_rural_pop_modifier:0 "111000 Rural Population"
+desc_111000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+111500_rural_pop_modifier:0 "111500 Rural Population"
+desc_111500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+112000_rural_pop_modifier:0 "112000 Rural Population"
+desc_112000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+112500_rural_pop_modifier:0 "112500 Rural Population"
+desc_112500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+113000_rural_pop_modifier:0 "113000 Rural Population"
+desc_113000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+113500_rural_pop_modifier:0 "113500 Rural Population"
+desc_113500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+114000_rural_pop_modifier:0 "114000 Rural Population"
+desc_114000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+114500_rural_pop_modifier:0 "114500 Rural Population"
+desc_114500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+115000_rural_pop_modifier:0 "115000 Rural Population"
+desc_115000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+115500_rural_pop_modifier:0 "115500 Rural Population"
+desc_115500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+116000_rural_pop_modifier:0 "116000 Rural Population"
+desc_116000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+116500_rural_pop_modifier:0 "116500 Rural Population"
+desc_116500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+117000_rural_pop_modifier:0 "117000 Rural Population"
+desc_117000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+117500_rural_pop_modifier:0 "117500 Rural Population"
+desc_117500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+118000_rural_pop_modifier:0 "118000 Rural Population"
+desc_118000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+118500_rural_pop_modifier:0 "118500 Rural Population"
+desc_118500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+119000_rural_pop_modifier:0 "119000 Rural Population"
+desc_119000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+119500_rural_pop_modifier:0 "119500 Rural Population"
+desc_119500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+120000_rural_pop_modifier:0 "120000 Rural Population"
+desc_120000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+120500_rural_pop_modifier:0 "120500 Rural Population"
+desc_120500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+121000_rural_pop_modifier:0 "121000 Rural Population"
+desc_121000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+121500_rural_pop_modifier:0 "121500 Rural Population"
+desc_121500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+122000_rural_pop_modifier:0 "122000 Rural Population"
+desc_122000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+122500_rural_pop_modifier:0 "122500 Rural Population"
+desc_122500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+123000_rural_pop_modifier:0 "123000 Rural Population"
+desc_123000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+123500_rural_pop_modifier:0 "123500 Rural Population"
+desc_123500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+124000_rural_pop_modifier:0 "124000 Rural Population"
+desc_124000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+124500_rural_pop_modifier:0 "124500 Rural Population"
+desc_124500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+125000_rural_pop_modifier:0 "125000 Rural Population"
+desc_125000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+125500_rural_pop_modifier:0 "125500 Rural Population"
+desc_125500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+126000_rural_pop_modifier:0 "126000 Rural Population"
+desc_126000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+126500_rural_pop_modifier:0 "126500 Rural Population"
+desc_126500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+127000_rural_pop_modifier:0 "127000 Rural Population"
+desc_127000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+127500_rural_pop_modifier:0 "127500 Rural Population"
+desc_127500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+128000_rural_pop_modifier:0 "128000 Rural Population"
+desc_128000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+128500_rural_pop_modifier:0 "128500 Rural Population"
+desc_128500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+129000_rural_pop_modifier:0 "129000 Rural Population"
+desc_129000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+129500_rural_pop_modifier:0 "129500 Rural Population"
+desc_129500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+130000_rural_pop_modifier:0 "130000 Rural Population"
+desc_130000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+130500_rural_pop_modifier:0 "130500 Rural Population"
+desc_130500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+131000_rural_pop_modifier:0 "131000 Rural Population"
+desc_131000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+131500_rural_pop_modifier:0 "131500 Rural Population"
+desc_131500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+132000_rural_pop_modifier:0 "132000 Rural Population"
+desc_132000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+132500_rural_pop_modifier:0 "132500 Rural Population"
+desc_132500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+133000_rural_pop_modifier:0 "133000 Rural Population"
+desc_133000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+133500_rural_pop_modifier:0 "133500 Rural Population"
+desc_133500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+134000_rural_pop_modifier:0 "134000 Rural Population"
+desc_134000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+134500_rural_pop_modifier:0 "134500 Rural Population"
+desc_134500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+135000_rural_pop_modifier:0 "135000 Rural Population"
+desc_135000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+135500_rural_pop_modifier:0 "135500 Rural Population"
+desc_135500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+136000_rural_pop_modifier:0 "136000 Rural Population"
+desc_136000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+136500_rural_pop_modifier:0 "136500 Rural Population"
+desc_136500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+137000_rural_pop_modifier:0 "137000 Rural Population"
+desc_137000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+137500_rural_pop_modifier:0 "137500 Rural Population"
+desc_137500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+138000_rural_pop_modifier:0 "138000 Rural Population"
+desc_138000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+138500_rural_pop_modifier:0 "138500 Rural Population"
+desc_138500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+139000_rural_pop_modifier:0 "139000 Rural Population"
+desc_139000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+139500_rural_pop_modifier:0 "139500 Rural Population"
+desc_139500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+140000_rural_pop_modifier:0 "140000 Rural Population"
+desc_140000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+140500_rural_pop_modifier:0 "140500 Rural Population"
+desc_140500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+141000_rural_pop_modifier:0 "141000 Rural Population"
+desc_141000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+141500_rural_pop_modifier:0 "141500 Rural Population"
+desc_141500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+142000_rural_pop_modifier:0 "142000 Rural Population"
+desc_142000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+142500_rural_pop_modifier:0 "142500 Rural Population"
+desc_142500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+143000_rural_pop_modifier:0 "143000 Rural Population"
+desc_143000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+143500_rural_pop_modifier:0 "143500 Rural Population"
+desc_143500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+144000_rural_pop_modifier:0 "144000 Rural Population"
+desc_144000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+144500_rural_pop_modifier:0 "144500 Rural Population"
+desc_144500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+145000_rural_pop_modifier:0 "145000 Rural Population"
+desc_145000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+145500_rural_pop_modifier:0 "145500 Rural Population"
+desc_145500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+146000_rural_pop_modifier:0 "146000 Rural Population"
+desc_146000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+146500_rural_pop_modifier:0 "146500 Rural Population"
+desc_146500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+147000_rural_pop_modifier:0 "147000 Rural Population"
+desc_147000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+147500_rural_pop_modifier:0 "147500 Rural Population"
+desc_147500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+148000_rural_pop_modifier:0 "148000 Rural Population"
+desc_148000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+148500_rural_pop_modifier:0 "148500 Rural Population"
+desc_148500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+149000_rural_pop_modifier:0 "149000 Rural Population"
+desc_149000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+149500_rural_pop_modifier:0 "149500 Rural Population"
+desc_149500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+150000_rural_pop_modifier:0 "150000 Rural Population"
+desc_150000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+150500_rural_pop_modifier:0 "150500 Rural Population"
+desc_150500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+151000_rural_pop_modifier:0 "151000 Rural Population"
+desc_151000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+151500_rural_pop_modifier:0 "151500 Rural Population"
+desc_151500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+152000_rural_pop_modifier:0 "152000 Rural Population"
+desc_152000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+152500_rural_pop_modifier:0 "152500 Rural Population"
+desc_152500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+153000_rural_pop_modifier:0 "153000 Rural Population"
+desc_153000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+153500_rural_pop_modifier:0 "153500 Rural Population"
+desc_153500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+154000_rural_pop_modifier:0 "154000 Rural Population"
+desc_154000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+154500_rural_pop_modifier:0 "154500 Rural Population"
+desc_154500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+155000_rural_pop_modifier:0 "155000 Rural Population"
+desc_155000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+155500_rural_pop_modifier:0 "155500 Rural Population"
+desc_155500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+156000_rural_pop_modifier:0 "156000 Rural Population"
+desc_156000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+156500_rural_pop_modifier:0 "156500 Rural Population"
+desc_156500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+157000_rural_pop_modifier:0 "157000 Rural Population"
+desc_157000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+157500_rural_pop_modifier:0 "157500 Rural Population"
+desc_157500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+158000_rural_pop_modifier:0 "158000 Rural Population"
+desc_158000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+158500_rural_pop_modifier:0 "158500 Rural Population"
+desc_158500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+159000_rural_pop_modifier:0 "159000 Rural Population"
+desc_159000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+159500_rural_pop_modifier:0 "159500 Rural Population"
+desc_159500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+160000_rural_pop_modifier:0 "160000 Rural Population"
+desc_160000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+160500_rural_pop_modifier:0 "160500 Rural Population"
+desc_160500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+161000_rural_pop_modifier:0 "161000 Rural Population"
+desc_161000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+161500_rural_pop_modifier:0 "161500 Rural Population"
+desc_161500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+162000_rural_pop_modifier:0 "162000 Rural Population"
+desc_162000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+162500_rural_pop_modifier:0 "162500 Rural Population"
+desc_162500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+163000_rural_pop_modifier:0 "163000 Rural Population"
+desc_163000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+163500_rural_pop_modifier:0 "163500 Rural Population"
+desc_163500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+164000_rural_pop_modifier:0 "164000 Rural Population"
+desc_164000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+164500_rural_pop_modifier:0 "164500 Rural Population"
+desc_164500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+165000_rural_pop_modifier:0 "165000 Rural Population"
+desc_165000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+165500_rural_pop_modifier:0 "165500 Rural Population"
+desc_165500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+166000_rural_pop_modifier:0 "166000 Rural Population"
+desc_166000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+166500_rural_pop_modifier:0 "166500 Rural Population"
+desc_166500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+167000_rural_pop_modifier:0 "167000 Rural Population"
+desc_167000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+167500_rural_pop_modifier:0 "167500 Rural Population"
+desc_167500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+168000_rural_pop_modifier:0 "168000 Rural Population"
+desc_168000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+168500_rural_pop_modifier:0 "168500 Rural Population"
+desc_168500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+169000_rural_pop_modifier:0 "169000 Rural Population"
+desc_169000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+169500_rural_pop_modifier:0 "169500 Rural Population"
+desc_169500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+170000_rural_pop_modifier:0 "170000 Rural Population"
+desc_170000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+170500_rural_pop_modifier:0 "170500 Rural Population"
+desc_170500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+171000_rural_pop_modifier:0 "171000 Rural Population"
+desc_171000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+171500_rural_pop_modifier:0 "171500 Rural Population"
+desc_171500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+172000_rural_pop_modifier:0 "172000 Rural Population"
+desc_172000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+172500_rural_pop_modifier:0 "172500 Rural Population"
+desc_172500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+173000_rural_pop_modifier:0 "173000 Rural Population"
+desc_173000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+173500_rural_pop_modifier:0 "173500 Rural Population"
+desc_173500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+174000_rural_pop_modifier:0 "174000 Rural Population"
+desc_174000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+174500_rural_pop_modifier:0 "174500 Rural Population"
+desc_174500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+175000_rural_pop_modifier:0 "175000 Rural Population"
+desc_175000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+175500_rural_pop_modifier:0 "175500 Rural Population"
+desc_175500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+176000_rural_pop_modifier:0 "176000 Rural Population"
+desc_176000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+176500_rural_pop_modifier:0 "176500 Rural Population"
+desc_176500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+177000_rural_pop_modifier:0 "177000 Rural Population"
+desc_177000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+177500_rural_pop_modifier:0 "177500 Rural Population"
+desc_177500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+178000_rural_pop_modifier:0 "178000 Rural Population"
+desc_178000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+178500_rural_pop_modifier:0 "178500 Rural Population"
+desc_178500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+179000_rural_pop_modifier:0 "179000 Rural Population"
+desc_179000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+179500_rural_pop_modifier:0 "179500 Rural Population"
+desc_179500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+180000_rural_pop_modifier:0 "180000 Rural Population"
+desc_180000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+180500_rural_pop_modifier:0 "180500 Rural Population"
+desc_180500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+181000_rural_pop_modifier:0 "181000 Rural Population"
+desc_181000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+181500_rural_pop_modifier:0 "181500 Rural Population"
+desc_181500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+182000_rural_pop_modifier:0 "182000 Rural Population"
+desc_182000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+182500_rural_pop_modifier:0 "182500 Rural Population"
+desc_182500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+183000_rural_pop_modifier:0 "183000 Rural Population"
+desc_183000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+183500_rural_pop_modifier:0 "183500 Rural Population"
+desc_183500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+184000_rural_pop_modifier:0 "184000 Rural Population"
+desc_184000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+184500_rural_pop_modifier:0 "184500 Rural Population"
+desc_184500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+185000_rural_pop_modifier:0 "185000 Rural Population"
+desc_185000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+185500_rural_pop_modifier:0 "185500 Rural Population"
+desc_185500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+186000_rural_pop_modifier:0 "186000 Rural Population"
+desc_186000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+186500_rural_pop_modifier:0 "186500 Rural Population"
+desc_186500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+187000_rural_pop_modifier:0 "187000 Rural Population"
+desc_187000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+187500_rural_pop_modifier:0 "187500 Rural Population"
+desc_187500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+188000_rural_pop_modifier:0 "188000 Rural Population"
+desc_188000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+188500_rural_pop_modifier:0 "188500 Rural Population"
+desc_188500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+189000_rural_pop_modifier:0 "189000 Rural Population"
+desc_189000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+189500_rural_pop_modifier:0 "189500 Rural Population"
+desc_189500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+190000_rural_pop_modifier:0 "190000 Rural Population"
+desc_190000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+190500_rural_pop_modifier:0 "190500 Rural Population"
+desc_190500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+191000_rural_pop_modifier:0 "191000 Rural Population"
+desc_191000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+191500_rural_pop_modifier:0 "191500 Rural Population"
+desc_191500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+192000_rural_pop_modifier:0 "192000 Rural Population"
+desc_192000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+192500_rural_pop_modifier:0 "192500 Rural Population"
+desc_192500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+193000_rural_pop_modifier:0 "193000 Rural Population"
+desc_193000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+193500_rural_pop_modifier:0 "193500 Rural Population"
+desc_193500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+194000_rural_pop_modifier:0 "194000 Rural Population"
+desc_194000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+194500_rural_pop_modifier:0 "194500 Rural Population"
+desc_194500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+195000_rural_pop_modifier:0 "195000 Rural Population"
+desc_195000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+195500_rural_pop_modifier:0 "195500 Rural Population"
+desc_195500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+196000_rural_pop_modifier:0 "196000 Rural Population"
+desc_196000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+196500_rural_pop_modifier:0 "196500 Rural Population"
+desc_196500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+197000_rural_pop_modifier:0 "197000 Rural Population"
+desc_197000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+197500_rural_pop_modifier:0 "197500 Rural Population"
+desc_197500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+198000_rural_pop_modifier:0 "198000 Rural Population"
+desc_198000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+198500_rural_pop_modifier:0 "198500 Rural Population"
+desc_198500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+199000_rural_pop_modifier:0 "199000 Rural Population"
+desc_199000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+199500_rural_pop_modifier:0 "199500 Rural Population"
+desc_199500_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
+200000_rural_pop_modifier:0 "200000 Rural Population"
+desc_200000_rural_pop_modifier:0 "Rural Population: [rural_pop.GetValue]"
 
 0_urban_pop_modifier:0 "Insignificant Urban Population"
 desc_0_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
@@ -3239,4 +6035,404 @@ desc_99000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
 desc_99500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
 100000_urban_pop_modifier:0 "100000 Urban Population"
 desc_100000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+100500_urban_pop_modifier:0 "100500 Urban Population"
+desc_100500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+101000_urban_pop_modifier:0 "101000 Urban Population"
+desc_101000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+101500_urban_pop_modifier:0 "101500 Urban Population"
+desc_101500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+102000_urban_pop_modifier:0 "102000 Urban Population"
+desc_102000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+102500_urban_pop_modifier:0 "102500 Urban Population"
+desc_102500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+103000_urban_pop_modifier:0 "103000 Urban Population"
+desc_103000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+103500_urban_pop_modifier:0 "103500 Urban Population"
+desc_103500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+104000_urban_pop_modifier:0 "104000 Urban Population"
+desc_104000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+104500_urban_pop_modifier:0 "104500 Urban Population"
+desc_104500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+105000_urban_pop_modifier:0 "105000 Urban Population"
+desc_105000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+105500_urban_pop_modifier:0 "105500 Urban Population"
+desc_105500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+106000_urban_pop_modifier:0 "106000 Urban Population"
+desc_106000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+106500_urban_pop_modifier:0 "106500 Urban Population"
+desc_106500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+107000_urban_pop_modifier:0 "107000 Urban Population"
+desc_107000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+107500_urban_pop_modifier:0 "107500 Urban Population"
+desc_107500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+108000_urban_pop_modifier:0 "108000 Urban Population"
+desc_108000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+108500_urban_pop_modifier:0 "108500 Urban Population"
+desc_108500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+109000_urban_pop_modifier:0 "109000 Urban Population"
+desc_109000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+109500_urban_pop_modifier:0 "109500 Urban Population"
+desc_109500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+110000_urban_pop_modifier:0 "110000 Urban Population"
+desc_110000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+110500_urban_pop_modifier:0 "110500 Urban Population"
+desc_110500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+111000_urban_pop_modifier:0 "111000 Urban Population"
+desc_111000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+111500_urban_pop_modifier:0 "111500 Urban Population"
+desc_111500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+112000_urban_pop_modifier:0 "112000 Urban Population"
+desc_112000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+112500_urban_pop_modifier:0 "112500 Urban Population"
+desc_112500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+113000_urban_pop_modifier:0 "113000 Urban Population"
+desc_113000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+113500_urban_pop_modifier:0 "113500 Urban Population"
+desc_113500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+114000_urban_pop_modifier:0 "114000 Urban Population"
+desc_114000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+114500_urban_pop_modifier:0 "114500 Urban Population"
+desc_114500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+115000_urban_pop_modifier:0 "115000 Urban Population"
+desc_115000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+115500_urban_pop_modifier:0 "115500 Urban Population"
+desc_115500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+116000_urban_pop_modifier:0 "116000 Urban Population"
+desc_116000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+116500_urban_pop_modifier:0 "116500 Urban Population"
+desc_116500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+117000_urban_pop_modifier:0 "117000 Urban Population"
+desc_117000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+117500_urban_pop_modifier:0 "117500 Urban Population"
+desc_117500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+118000_urban_pop_modifier:0 "118000 Urban Population"
+desc_118000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+118500_urban_pop_modifier:0 "118500 Urban Population"
+desc_118500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+119000_urban_pop_modifier:0 "119000 Urban Population"
+desc_119000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+119500_urban_pop_modifier:0 "119500 Urban Population"
+desc_119500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+120000_urban_pop_modifier:0 "120000 Urban Population"
+desc_120000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+120500_urban_pop_modifier:0 "120500 Urban Population"
+desc_120500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+121000_urban_pop_modifier:0 "121000 Urban Population"
+desc_121000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+121500_urban_pop_modifier:0 "121500 Urban Population"
+desc_121500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+122000_urban_pop_modifier:0 "122000 Urban Population"
+desc_122000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+122500_urban_pop_modifier:0 "122500 Urban Population"
+desc_122500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+123000_urban_pop_modifier:0 "123000 Urban Population"
+desc_123000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+123500_urban_pop_modifier:0 "123500 Urban Population"
+desc_123500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+124000_urban_pop_modifier:0 "124000 Urban Population"
+desc_124000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+124500_urban_pop_modifier:0 "124500 Urban Population"
+desc_124500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+125000_urban_pop_modifier:0 "125000 Urban Population"
+desc_125000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+125500_urban_pop_modifier:0 "125500 Urban Population"
+desc_125500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+126000_urban_pop_modifier:0 "126000 Urban Population"
+desc_126000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+126500_urban_pop_modifier:0 "126500 Urban Population"
+desc_126500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+127000_urban_pop_modifier:0 "127000 Urban Population"
+desc_127000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+127500_urban_pop_modifier:0 "127500 Urban Population"
+desc_127500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+128000_urban_pop_modifier:0 "128000 Urban Population"
+desc_128000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+128500_urban_pop_modifier:0 "128500 Urban Population"
+desc_128500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+129000_urban_pop_modifier:0 "129000 Urban Population"
+desc_129000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+129500_urban_pop_modifier:0 "129500 Urban Population"
+desc_129500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+130000_urban_pop_modifier:0 "130000 Urban Population"
+desc_130000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+130500_urban_pop_modifier:0 "130500 Urban Population"
+desc_130500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+131000_urban_pop_modifier:0 "131000 Urban Population"
+desc_131000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+131500_urban_pop_modifier:0 "131500 Urban Population"
+desc_131500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+132000_urban_pop_modifier:0 "132000 Urban Population"
+desc_132000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+132500_urban_pop_modifier:0 "132500 Urban Population"
+desc_132500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+133000_urban_pop_modifier:0 "133000 Urban Population"
+desc_133000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+133500_urban_pop_modifier:0 "133500 Urban Population"
+desc_133500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+134000_urban_pop_modifier:0 "134000 Urban Population"
+desc_134000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+134500_urban_pop_modifier:0 "134500 Urban Population"
+desc_134500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+135000_urban_pop_modifier:0 "135000 Urban Population"
+desc_135000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+135500_urban_pop_modifier:0 "135500 Urban Population"
+desc_135500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+136000_urban_pop_modifier:0 "136000 Urban Population"
+desc_136000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+136500_urban_pop_modifier:0 "136500 Urban Population"
+desc_136500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+137000_urban_pop_modifier:0 "137000 Urban Population"
+desc_137000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+137500_urban_pop_modifier:0 "137500 Urban Population"
+desc_137500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+138000_urban_pop_modifier:0 "138000 Urban Population"
+desc_138000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+138500_urban_pop_modifier:0 "138500 Urban Population"
+desc_138500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+139000_urban_pop_modifier:0 "139000 Urban Population"
+desc_139000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+139500_urban_pop_modifier:0 "139500 Urban Population"
+desc_139500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+140000_urban_pop_modifier:0 "140000 Urban Population"
+desc_140000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+140500_urban_pop_modifier:0 "140500 Urban Population"
+desc_140500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+141000_urban_pop_modifier:0 "141000 Urban Population"
+desc_141000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+141500_urban_pop_modifier:0 "141500 Urban Population"
+desc_141500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+142000_urban_pop_modifier:0 "142000 Urban Population"
+desc_142000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+142500_urban_pop_modifier:0 "142500 Urban Population"
+desc_142500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+143000_urban_pop_modifier:0 "143000 Urban Population"
+desc_143000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+143500_urban_pop_modifier:0 "143500 Urban Population"
+desc_143500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+144000_urban_pop_modifier:0 "144000 Urban Population"
+desc_144000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+144500_urban_pop_modifier:0 "144500 Urban Population"
+desc_144500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+145000_urban_pop_modifier:0 "145000 Urban Population"
+desc_145000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+145500_urban_pop_modifier:0 "145500 Urban Population"
+desc_145500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+146000_urban_pop_modifier:0 "146000 Urban Population"
+desc_146000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+146500_urban_pop_modifier:0 "146500 Urban Population"
+desc_146500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+147000_urban_pop_modifier:0 "147000 Urban Population"
+desc_147000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+147500_urban_pop_modifier:0 "147500 Urban Population"
+desc_147500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+148000_urban_pop_modifier:0 "148000 Urban Population"
+desc_148000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+148500_urban_pop_modifier:0 "148500 Urban Population"
+desc_148500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+149000_urban_pop_modifier:0 "149000 Urban Population"
+desc_149000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+149500_urban_pop_modifier:0 "149500 Urban Population"
+desc_149500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+150000_urban_pop_modifier:0 "150000 Urban Population"
+desc_150000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+150500_urban_pop_modifier:0 "150500 Urban Population"
+desc_150500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+151000_urban_pop_modifier:0 "151000 Urban Population"
+desc_151000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+151500_urban_pop_modifier:0 "151500 Urban Population"
+desc_151500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+152000_urban_pop_modifier:0 "152000 Urban Population"
+desc_152000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+152500_urban_pop_modifier:0 "152500 Urban Population"
+desc_152500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+153000_urban_pop_modifier:0 "153000 Urban Population"
+desc_153000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+153500_urban_pop_modifier:0 "153500 Urban Population"
+desc_153500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+154000_urban_pop_modifier:0 "154000 Urban Population"
+desc_154000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+154500_urban_pop_modifier:0 "154500 Urban Population"
+desc_154500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+155000_urban_pop_modifier:0 "155000 Urban Population"
+desc_155000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+155500_urban_pop_modifier:0 "155500 Urban Population"
+desc_155500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+156000_urban_pop_modifier:0 "156000 Urban Population"
+desc_156000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+156500_urban_pop_modifier:0 "156500 Urban Population"
+desc_156500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+157000_urban_pop_modifier:0 "157000 Urban Population"
+desc_157000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+157500_urban_pop_modifier:0 "157500 Urban Population"
+desc_157500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+158000_urban_pop_modifier:0 "158000 Urban Population"
+desc_158000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+158500_urban_pop_modifier:0 "158500 Urban Population"
+desc_158500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+159000_urban_pop_modifier:0 "159000 Urban Population"
+desc_159000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+159500_urban_pop_modifier:0 "159500 Urban Population"
+desc_159500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+160000_urban_pop_modifier:0 "160000 Urban Population"
+desc_160000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+160500_urban_pop_modifier:0 "160500 Urban Population"
+desc_160500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+161000_urban_pop_modifier:0 "161000 Urban Population"
+desc_161000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+161500_urban_pop_modifier:0 "161500 Urban Population"
+desc_161500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+162000_urban_pop_modifier:0 "162000 Urban Population"
+desc_162000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+162500_urban_pop_modifier:0 "162500 Urban Population"
+desc_162500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+163000_urban_pop_modifier:0 "163000 Urban Population"
+desc_163000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+163500_urban_pop_modifier:0 "163500 Urban Population"
+desc_163500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+164000_urban_pop_modifier:0 "164000 Urban Population"
+desc_164000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+164500_urban_pop_modifier:0 "164500 Urban Population"
+desc_164500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+165000_urban_pop_modifier:0 "165000 Urban Population"
+desc_165000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+165500_urban_pop_modifier:0 "165500 Urban Population"
+desc_165500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+166000_urban_pop_modifier:0 "166000 Urban Population"
+desc_166000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+166500_urban_pop_modifier:0 "166500 Urban Population"
+desc_166500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+167000_urban_pop_modifier:0 "167000 Urban Population"
+desc_167000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+167500_urban_pop_modifier:0 "167500 Urban Population"
+desc_167500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+168000_urban_pop_modifier:0 "168000 Urban Population"
+desc_168000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+168500_urban_pop_modifier:0 "168500 Urban Population"
+desc_168500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+169000_urban_pop_modifier:0 "169000 Urban Population"
+desc_169000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+169500_urban_pop_modifier:0 "169500 Urban Population"
+desc_169500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+170000_urban_pop_modifier:0 "170000 Urban Population"
+desc_170000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+170500_urban_pop_modifier:0 "170500 Urban Population"
+desc_170500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+171000_urban_pop_modifier:0 "171000 Urban Population"
+desc_171000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+171500_urban_pop_modifier:0 "171500 Urban Population"
+desc_171500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+172000_urban_pop_modifier:0 "172000 Urban Population"
+desc_172000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+172500_urban_pop_modifier:0 "172500 Urban Population"
+desc_172500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+173000_urban_pop_modifier:0 "173000 Urban Population"
+desc_173000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+173500_urban_pop_modifier:0 "173500 Urban Population"
+desc_173500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+174000_urban_pop_modifier:0 "174000 Urban Population"
+desc_174000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+174500_urban_pop_modifier:0 "174500 Urban Population"
+desc_174500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+175000_urban_pop_modifier:0 "175000 Urban Population"
+desc_175000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+175500_urban_pop_modifier:0 "175500 Urban Population"
+desc_175500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+176000_urban_pop_modifier:0 "176000 Urban Population"
+desc_176000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+176500_urban_pop_modifier:0 "176500 Urban Population"
+desc_176500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+177000_urban_pop_modifier:0 "177000 Urban Population"
+desc_177000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+177500_urban_pop_modifier:0 "177500 Urban Population"
+desc_177500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+178000_urban_pop_modifier:0 "178000 Urban Population"
+desc_178000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+178500_urban_pop_modifier:0 "178500 Urban Population"
+desc_178500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+179000_urban_pop_modifier:0 "179000 Urban Population"
+desc_179000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+179500_urban_pop_modifier:0 "179500 Urban Population"
+desc_179500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+180000_urban_pop_modifier:0 "180000 Urban Population"
+desc_180000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+180500_urban_pop_modifier:0 "180500 Urban Population"
+desc_180500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+181000_urban_pop_modifier:0 "181000 Urban Population"
+desc_181000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+181500_urban_pop_modifier:0 "181500 Urban Population"
+desc_181500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+182000_urban_pop_modifier:0 "182000 Urban Population"
+desc_182000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+182500_urban_pop_modifier:0 "182500 Urban Population"
+desc_182500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+183000_urban_pop_modifier:0 "183000 Urban Population"
+desc_183000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+183500_urban_pop_modifier:0 "183500 Urban Population"
+desc_183500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+184000_urban_pop_modifier:0 "184000 Urban Population"
+desc_184000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+184500_urban_pop_modifier:0 "184500 Urban Population"
+desc_184500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+185000_urban_pop_modifier:0 "185000 Urban Population"
+desc_185000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+185500_urban_pop_modifier:0 "185500 Urban Population"
+desc_185500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+186000_urban_pop_modifier:0 "186000 Urban Population"
+desc_186000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+186500_urban_pop_modifier:0 "186500 Urban Population"
+desc_186500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+187000_urban_pop_modifier:0 "187000 Urban Population"
+desc_187000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+187500_urban_pop_modifier:0 "187500 Urban Population"
+desc_187500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+188000_urban_pop_modifier:0 "188000 Urban Population"
+desc_188000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+188500_urban_pop_modifier:0 "188500 Urban Population"
+desc_188500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+189000_urban_pop_modifier:0 "189000 Urban Population"
+desc_189000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+189500_urban_pop_modifier:0 "189500 Urban Population"
+desc_189500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+190000_urban_pop_modifier:0 "190000 Urban Population"
+desc_190000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+190500_urban_pop_modifier:0 "190500 Urban Population"
+desc_190500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+191000_urban_pop_modifier:0 "191000 Urban Population"
+desc_191000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+191500_urban_pop_modifier:0 "191500 Urban Population"
+desc_191500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+192000_urban_pop_modifier:0 "192000 Urban Population"
+desc_192000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+192500_urban_pop_modifier:0 "192500 Urban Population"
+desc_192500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+193000_urban_pop_modifier:0 "193000 Urban Population"
+desc_193000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+193500_urban_pop_modifier:0 "193500 Urban Population"
+desc_193500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+194000_urban_pop_modifier:0 "194000 Urban Population"
+desc_194000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+194500_urban_pop_modifier:0 "194500 Urban Population"
+desc_194500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+195000_urban_pop_modifier:0 "195000 Urban Population"
+desc_195000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+195500_urban_pop_modifier:0 "195500 Urban Population"
+desc_195500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+196000_urban_pop_modifier:0 "196000 Urban Population"
+desc_196000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+196500_urban_pop_modifier:0 "196500 Urban Population"
+desc_196500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+197000_urban_pop_modifier:0 "197000 Urban Population"
+desc_197000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+197500_urban_pop_modifier:0 "197500 Urban Population"
+desc_197500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+198000_urban_pop_modifier:0 "198000 Urban Population"
+desc_198000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+198500_urban_pop_modifier:0 "198500 Urban Population"
+desc_198500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+199000_urban_pop_modifier:0 "199000 Urban Population"
+desc_199000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+199500_urban_pop_modifier:0 "199500 Urban Population"
+desc_199500_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
+200000_urban_pop_modifier:0 "200000 Urban Population"
+desc_200000_urban_pop_modifier:0 "Urban Population: [urban_pop.GetValue]"
 

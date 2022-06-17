@@ -177,6 +177,8 @@ sea_zone = {
 }
 
 land_province = {
+	tax_income = 2
+	trade_goods_size = 0.4
 	max_attrition = 5						#Maximum Attrition is 5
 	local_manpower_modifier = 0.25			#25% of manpower.
 }
@@ -239,16 +241,16 @@ no_adjacent_controlled = {
 }
 
 provincial_tax_income = {
-	tax_income = -0.75
-	regiment_recruit_speed = -0.01
-	local_tax_modifier = 0.05
-	province_trade_power_modifier = 0.05
+	tax_income = -1
+	local_tax_modifier = 0.075
+	province_trade_power_modifier = 0.075
 }
 
 provincial_production_size = {
-	trade_goods_size = 0.1
+	trade_goods_size = 0.05
 	ship_recruit_speed = -0.01
-	trade_goods_size_modifier = 0.05
+	regiment_recruit_speed = -0.01
+	trade_goods_size_modifier = 0.075
 }
 
 knowledge_sharing = {
@@ -281,9 +283,8 @@ development = {
 	allowed_num_of_buildings = 0.2
 	supply_limit_modifier = 0.02
 	local_missionary_strength = -0.001
-	land_forcelimit	= 0.05			# special case, affected by autonomy
+	land_forcelimit	= 0.025			# special case, affected by autonomy
 	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
-	local_sailors = 30			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.066
 	local_build_cost = 0.02

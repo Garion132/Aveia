@@ -3086,10 +3086,10 @@ country_event = {#sweaping south
 				has_global_flag = talb_rebellion
 				has_global_flag = himbe_rebellion
 				OR = {
-					exists = HIM
+					exists = DER
 					exists = TAL
 				}
-				NOT = { war_with = HIM }
+				NOT = { war_with = DER }
 				NOT = { war_with = TAL }
 				tag = GUL
 			}

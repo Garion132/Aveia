@@ -1,6 +1,17 @@
 
 Pops_Setup = {
+    every_country = {
+        Pops_GetModifiers = yes
+    }
     every_province = {
+        add_province_triggered_modifier = province_mod
+        if = {
+            limit = {
+                is_empty = yes
+            }
+            set_province_flag = is_uncolonized
+        }
+
         Pops_GetBaseFoodProduction = yes
         
         if = {
@@ -45,7 +56,7 @@ Pops_Setup = {
             set_variable = { which = rural_pop value = 1 }
             divide_variable = { which = rural_pop which = fpp }
             log_e_times_100 = { value = rural_pop }
-            multiply_variable = { which = rural_pop value = 5 }
+            multiply_variable = { which = rural_pop value = 3.5 }
             
             set_variable = { which = t_0 which = agri_eff }
             divide_variable = { which = t_0 value = 100 }
@@ -84,7 +95,6 @@ Pops_Setup = {
                 }
                 set_variable = { which = rural_pop value = 0 }
             }
-            set_variable = { which = t_0 which = rural_pop }
 
             #Urban Population
             Pops_GetUrbanPercent = yes
@@ -103,6 +113,9 @@ Pops_Setup = {
                 change_variable = { which = t_0 value = 1 }
                 multiply_variable = { which = urban_pop which = t_0 }
             }
+            set_variable = { which = t_0 which = rural_pop }
+            divide_variable = { which = rural_pop value = 1.1 }
+            divide_variable = { which = urban_pop value = 1.2 }
             subtract_variable = { which = rural_pop which = urban_pop }
             subtract_variable = { which = rural_pop which = urban_pop } #Subtract Again b/c rural pop produces food & urban pop don't
 
@@ -124,79 +137,174 @@ Pops_Setup = {
         update_urban_pop_modifiers = yes
         update_pop_modifiers = yes
     }
+    set_global_flag = pop_pulse
     every_country = {
         Pops_GetNationalStats = yes
-    }
-}
 
-Pops_GetNationalStats = {
-    set_variable = { which = rural_pop value = 0 }
-    set_variable = { which = urban_pop value = 0 }
-    set_variable = { which = food_prod value = 0 }
-    every_owned_province = {
-        PREV = {
-            change_variable = { which = rural_pop which = PREV }
-            change_variable = { which = urban_pop which = PREV }
-            change_variable = { which = food_prod which = PREV }
+        set_variable = { which = r_0 which = rural_pop }
+        multiply_variable = { which = r_0 value = 0.01 }
+        
+        set_variable = { which = r_1 which = urban_pop }
+        multiply_variable = { which = r_1 value = 0.02 }
+
+        change_variable = { which = r_0 which = r_1 }
+        multiply_variable = { which = r_0 value = 0.75 }
+        while = {
+            limit = {
+                check_variable = { which = r_0 value = 0 }
+            }
+            capital_scope = {
+                infantry = PREV
+            }
+            subtract_variable = { which = r_0 value = 1 }
         }
+
+        set_variable = { which = r_0 which = total_pop }
+        multiply_variable = { which = r_0 value = 0.03 }
+        while = {
+            limit = {
+                check_variable = { which = r_0 value = 0 }
+            }
+            add_manpower = 1
+            subtract_variable = { which = r_0 value = 1 }
+        }
+        
+        set_variable = { which = r_0 value = 0 }
+        set_variable = { which = r_1 value = 0 }
+        Pops_DoNationalGrowth = yes
     }
-    set_variable = { which = total_pop which = rural_pop }
-    change_variable = { which = total_pop which = urban_pop }
 }
 
 Pops_DoNationalGrowth = {
 
+    Pops_GetModifiers = yes
+
     every_owned_province = {
+        if = {
+            limit = {
+                has_province_flag = is_uncolonized
+                is_empty = no
+                is_city = yes
+            }
+            clr_province_flag = is_uncolonized
+            change_variable = { rural_pop = 1 }
+        }
+
         Pops_GetFoodProduction = yes
         #Pops_GetWealth
         #Pops_GetMigrationFactors
     
-        #Sum Up Surplus
         #Sum Up Migrants
     }
+
+    Pops_GetNationalStats = yes #Sums up Urban/Rural & Food
     
     #Manage Migrant Factor
-    #Distribute Surplus
+    
+    set_variable = { which = food_surplus which = food_prod }
+    subtract_variable = { which = food_surplus which = total_pop }
+
+    #Imports/Exports
+
+    set_variable = { which = food_surplus_pp which = food_surplus }
+    divide_variable = { which = food_surplus_pp which = total_pop }
 
     every_owned_province = {
+        set_variable = { which = food_surplus_pp which = PREV }
+        if = {
+            limit = {
+                check_variable = { which = food_surplus_pp value = 0 }
+            }
+            set_variable = { which = natural_rural_pop_growth which = food_surplus_pp }
+            multiply_variable = { which = natural_rural_pop_growth which = rural_pop }
+            divide_variable = { which = natural_rural_pop_growth value = 4 }
+            change_variable = { which = rural_pop which = natural_rural_pop_growth }
+            
+            set_variable = { which = natural_urban_pop_growth which = food_surplus_pp }
+            multiply_variable = { which = natural_urban_pop_growth which = urban_pop }
+            divide_variable = { which = natural_urban_pop_growth value = 8 }
+            change_variable = { which = urban_pop which = natural_urban_pop_growth }
+
+            #Pops_GetUrbanPercent = yes
+            #
+        }
+        else = {
+            set_variable = { which = natural_rural_pop_growth value = 0 }
+            set_variable = { which = natural_urban_pop_growth value = 0 }
+        }
+        
+        set_variable = { which = food_surplus which = food_surplus_pp }
+        multiply_variable = { which = food_surplus which = total_pop }
+
+        set_variable = { which = food_surplus_pp value = 0 }
+
         #Pops_DoGrowth
         #Pops_DoMigration
+
+        Pops_GetPopStats = yes
+        Pops_GetFoodProduction = yes
+
+        update_rural_pop_modifiers = yes
+        update_urban_pop_modifiers = yes
+        update_pop_modifiers = yes
     }
 }
 
 Pops_GetBaseFoodProduction = {
     #Base Food Production Per Rural Pop
     # fpp = Food Per Rural Pop
-    set_variable = { which = fpp value = 1.02 }
+    set_variable = { which = fpp value = 1.01 }
     trigger_switch = {
         on_trigger = has_terrain
-        glacier = { set_variable = { which = fpp value = 1.04 } }
-        farmlands = { set_variable = { which = fpp value = 1.15 } }
-        forest = { set_variable = { which = fpp value = 1.06 } }
-        hills = { set_variable = { which = fpp value = 1.08 } }
-        woods = { set_variable = { which = fpp value = 1.09 } }
-        mountain = { set_variable = { which = fpp value = 1.04 } }
-        grasslands = { set_variable = { which = fpp value = 1.12 } }
-        jungle = { set_variable = { which = fpp value = 1.05 } }
-        marsh = { set_variable = { which = fpp value = 1.02 } }
-        desert = { set_variable = { which = fpp value = 1.02 } }
-        coastal_desert = { set_variable = { which = fpp value = 1.05 } }
-        coastline = { set_variable = { which = fpp value = 1.06 } }
-        drylands = { set_variable = { which = fpp value = 1.07 } }
-        highlands = { set_variable = { which = fpp value = 1.07 } }
-        savannah = { set_variable = { which = fpp value = 1.06 } }
-        steppe = { set_variable = { which = fpp value = 1.07 } }
-        deepwoods = { set_variable = { which = fpp value = 1.06 } }
-        deepwoods_city = { set_variable = { which = fpp value = 1.12 } }
-        glassy_plains = { set_variable = { which = fpp value = 1.01 } }
-        vitaite_hills = { set_variable = { which = fpp value = 1.03 } }
-        redmarsh = { set_variable = { which = fpp value = 1.06 } }
+        glacier = { set_variable = { which = fpp value = 1.07 } }
+        farmlands = { set_variable = { which = fpp value = 1.3 } }
+        forest = { set_variable = { which = fpp value = 1.13 } }
+        hills = { set_variable = { which = fpp value = 1.16 } }
+        woods = { set_variable = { which = fpp value = 1.18 } }
+        mountain = { set_variable = { which = fpp value = 1.08 } }
+        grasslands = { set_variable = { which = fpp value = 1.24 } }
+        jungle = { set_variable = { which = fpp value = 1.1 } }
+        marsh = { set_variable = { which = fpp value = 1.04 } }
+        desert = { set_variable = { which = fpp value = 1.04 } }
+        coastal_desert = { set_variable = { which = fpp value = 1.1 } }
+        coastline = { set_variable = { which = fpp value = 1.12 } }
+        drylands = { set_variable = { which = fpp value = 1.14 } }
+        highlands = { set_variable = { which = fpp value = 1.14 } }
+        savannah = { set_variable = { which = fpp value = 1.13 } }
+        steppe = { set_variable = { which = fpp value = 1.14 } }
+        deepwoods = { set_variable = { which = fpp value = 1.11 } }
+        deepwoods_city = { set_variable = { which = fpp value = 1.24 } }
+        glassy_plains = { set_variable = { which = fpp value = 1.02 } }
+        vitaite_hills = { set_variable = { which = fpp value = 1.06 } }
+        redmarsh = { set_variable = { which = fpp value = 1.11 } }
         great_bridge = { set_variable = { which = fpp value = 1.09 } }
-        great_mountain_pass = { set_variable = { which = fpp value = 1.05 } }
+        great_mountain_pass = { set_variable = { which = fpp value = 1.1 } }
     }
 
     # Food Production Bonuses/Maluses
     change_variable = { which = fpp value = -1 } #for applying multipliers
+
+    #Additive Tech
+    if = {
+        limit = {
+            is_empty = no
+        }
+        owner = {
+            PREV = {
+                set_variable = { which = fpp_add which = PREV }
+                change_variable = { which = fpp which = fpp_add }
+                set_variable = { which = fpp_add value = 0 }
+            }
+        }
+    }
+
+    #If Coastal, gain a boost
+    if = {
+        limit = {
+            is_port = yes
+        }
+        change_variable = { which = fpp value = 0.02 }
+    }
     
     #If producing some sort of food, gain a boost
     if = {
@@ -241,6 +349,21 @@ Pops_GetBaseFoodProduction = {
         multiply_variable = { which = fpp value = 1.1 }
     }
 
+    #Multiplicative Tech
+    if = {
+        limit = {
+            is_empty = no
+        }
+        owner = {
+            PREV = {
+                set_variable = { which = fpp_mod which = PREV }
+                change_variable = { which = fpp_mod value = 1 }
+                multiply_variable = { which = fpp which = fpp_mod }
+                set_variable = { which = fpp_mod value = 0 }
+            }
+        }
+    }
+
     change_variable = { which = fpp value = 1 } #for applying multipliers
 }
 
@@ -260,19 +383,18 @@ Pops_GetFoodProduction = {
     Pops_GetBaseFoodProduction = yes
     Pops_GetAgriculturalEfficiency = yes
 
-    # t_1 is the exponent & resulting value from e^( -(2 - Agri_Eff)*(Rural Pop) / 500 )
+    # t_1 is the exponent & resulting value from e^( -(2 - Agri_Eff)*(Rural Pop) / 350 )
     set_variable = { which = t_1 which = agri_eff }
     multiply_variable = { which = t_1 value = -0.01 }
     change_variable = { which = t_1 value = 2 }
     multiply_variable = { which = t_1 which = rural_pop }
-    divide_variable = { which = t_1 value = 500 }
+    divide_variable = { which = t_1 value = 350 }
     power_e = { value = t_1 }
 
-    set_variable = { which = food_prod which = t_1 }
-    multiply_variable = { which = food_prod which = fpp }
+    set_variable = { which = food_prod which = fpp }
     multiply_variable = { which = food_prod which = rural_pop }
+    divide_variable = { which = food_prod which = t_1 }
 
-    #set_variable = { which = fpp value = 0 }
     set_variable = { which = t_1 value = 0 }
 }
 
@@ -296,8 +418,8 @@ Pops_GetUrbanPercent = {
             which = t_3
             value = base_manpower
         }
-        multiply_variable = { which = t_1 value = 0.5 }
-        multiply_variable = { which = t_2 value = 0.5 }
+        multiply_variable = { which = t_1 value = 0.25 }
+        multiply_variable = { which = t_2 value = 0.25 }
         multiply_variable = { which = t_3 value = 1 }
 
         set_variable = { which = urban_percent which = t_1 }
@@ -322,10 +444,10 @@ Pops_GetUrbanPercent = {
                 limit = {
                     province_has_center_of_trade_of_level = 2
                 }
-                change_variable = { which = urban_percent value = 0.05 }
+                change_variable = { which = urban_percent value = 0.04 }
             }
             else = {
-                change_variable = { which = urban_percent value = 0.02 }
+                change_variable = { which = urban_percent value = 0.01 }
             }
         }
 
@@ -341,7 +463,7 @@ Pops_GetUrbanPercent = {
                     trade_goods = manufactured_goods
                 }
             }
-            change_variable = { which = urban_percent value = 0.05 }
+            change_variable = { which = urban_percent value = 0.02 }
         }
     }
 }
@@ -349,4 +471,120 @@ Pops_GetUrbanPercent = {
 Pops_GetPopStats = {
     set_variable = { which = total_pop which = rural_pop }
     change_variable = { which = total_pop which = urban_pop }
+}
+
+#National
+Pops_GetNationalStats = {
+    set_variable = { which = rural_pop value = 0 }
+    set_variable = { which = urban_pop value = 0 }
+    set_variable = { which = food_prod value = 0 }
+    every_owned_province = {
+        PREV = {
+            change_variable = { which = rural_pop which = PREV }
+            change_variable = { which = urban_pop which = PREV }
+            change_variable = { which = food_prod which = PREV }
+        }
+    }
+    set_variable = { which = total_pop which = rural_pop }
+    change_variable = { which = total_pop which = urban_pop }
+}
+
+Pops_GetModifiers = {
+    
+    set_variable = { which = fpp_add value = 0 }
+    set_variable = { which = fpp_mod value = 0 }
+    set_variable = { which = agri_eff_add value = 0 }
+    #Tech
+        #Adm
+        if = {
+            limit = {
+                adm_tech = 12 #Irrigation
+            }
+            change_variable = { which = fpp_add value = 0.01 }
+            if = {
+                limit = {
+                    adm_tech = 24 #Improved Drainage
+                }
+                change_variable = { which = fpp_add value = 0.02 }
+                if = {
+                    limit = {
+                        adm_tech = 36 #Land Clearance
+                    }
+                    change_variable = { which = fpp_add value = 0.03 }
+                }
+            }
+        }
+        if = {
+            limit = {
+                adm_tech = 11 #Simple Mechanisms
+            }
+            change_variable = { which = agri_eff_add value = 2.0 }
+            if = {
+                limit = {
+                    adm_tech = 20 #Steam Pumps
+                }
+                change_variable = { which = agri_eff_add value = 2.0 }
+                if = {
+                    limit = {
+                        adm_tech = 23 #Atmospheric Steam Engines
+                    }
+                    change_variable = { which = agri_eff_add value = 2.0 }
+                    if = {
+                        limit = {
+                            adm_tech = 38 #Industrial Production
+                        }
+                        change_variable = { which = agri_eff_add value = 4.0 }
+                        if = {
+                            limit = {
+                                adm_tech = 46 #Tractors
+                            }
+                            change_variable = { which = agri_eff_add value = 10.0 }
+                        }
+                    }
+                }
+            }
+        }
+        if = {
+            limit = {
+                adm_tech = 8 #Sickles
+            }
+            change_variable = { which = fpp_mod value = 0.1 }
+            if = {
+                limit = {
+                    adm_tech = 10 #Craftsmanship
+                }
+                change_variable = { which = fpp_mod value = 0.05 }
+                if = {
+                    limit = {
+                        adm_tech = 15 #Scythes
+                    }
+                    change_variable = { which = fpp_mod value = 0.15 }
+                    if = {
+                        limit = {
+                            adm_tech = 22 #Machinery
+                        }
+                        change_variable = { which = fpp_mod value = 0.05 }
+                        if = {
+                            limit = {
+                                adm_tech = 28 #Scientific Enquiry
+                            }
+                            change_variable = { which = fpp_mod value = 0.05 }
+                            if = {
+                                limit = {
+                                    adm_tech = 31 #Viatite Engineering
+                                }
+                                change_variable = { which = fpp_mod value = 0.05 }
+                                if = {
+                                    limit = {
+                                        adm_tech = 41 #Measurements and Weights
+                                    }
+                                    change_variable = { which = fpp_mod value = 0.05 }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    #
 }

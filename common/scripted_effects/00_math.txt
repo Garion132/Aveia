@@ -29,39 +29,34 @@ power_e = {
 }
 
 power_e_decimal = {
-    if = { limit = { check_variable = { which = $value$ value = 0 } }
-        set_variable = { which = $value$ value = 1 }
-    }
-    else = {
-        #Taylor Series Approximation
-        # At x = 1, with 5 terms, error is 0.3%
+    #Taylor Series Approximation
+    # At x = 1, with 5 terms, error is 0.3%
 
-        set_variable = { which = taylor_x which = $value$ }
+    set_variable = { which = taylor_x which = $value$ }
 
-        set_variable = { which = taylor_xx which = $value$ }
-        multiply_variable = { which = taylor_xx which = taylor_x }
+    set_variable = { which = taylor_xx which = $value$ }
+    multiply_variable = { which = taylor_xx which = taylor_x }
 
-        set_variable = { which = taylor_xxx which = $value$ }
-        multiply_variable = { which = taylor_xxx which = taylor_xx }
+    set_variable = { which = taylor_xxx which = $value$ }
+    multiply_variable = { which = taylor_xxx which = taylor_xx }
 
-        set_variable = { which = taylor_xxxx which = $value$ }
-        multiply_variable = { which = taylor_xxxx which = taylor_xxx }
+    set_variable = { which = taylor_xxxx which = $value$ }
+    multiply_variable = { which = taylor_xxxx which = taylor_xxx }
 
-        divide_variable = { which = taylor_xx value = 2 }
-        divide_variable = { which = taylor_xxx value = 6 }
-        divide_variable = { which = taylor_xxxx value = 24 }
+    divide_variable = { which = taylor_xx value = 2 }
+    divide_variable = { which = taylor_xxx value = 6 }
+    divide_variable = { which = taylor_xxxx value = 24 }
 
-        set_variable = { which = $value$ value = 1 }
-        change_variable = { which = $value$ which = taylor_x }
-        change_variable = { which = $value$ which = taylor_xx }
-        change_variable = { which = $value$ which = taylor_xxx }
-        change_variable = { which = $value$ which = taylor_xxxx }
+    set_variable = { which = $value$ value = 1 }
+    change_variable = { which = $value$ which = taylor_x }
+    change_variable = { which = $value$ which = taylor_xx }
+    change_variable = { which = $value$ which = taylor_xxx }
+    change_variable = { which = $value$ which = taylor_xxxx }
 
-        set_variable = { which = taylor_x value = 0 }
-        set_variable = { which = taylor_xx value = 0 }
-        set_variable = { which = taylor_xxx value = 0 }
-        set_variable = { which = taylor_xxxx value = 0 }
-    }
+    set_variable = { which = taylor_x value = 0 }
+    set_variable = { which = taylor_xx value = 0 }
+    set_variable = { which = taylor_xxx value = 0 }
+    set_variable = { which = taylor_xxxx value = 0 }
 }
 
 log_e = {

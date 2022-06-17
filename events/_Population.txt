@@ -1,9 +1,42 @@
 namespace = pop
 
+#Pulse Event
 country_event = {
 	id = pop.0
 	title = pop.0.t
 	desc = pop.0.d
+	picture = MERCHANTS_TALKING_eventPicture
+	hidden = yes
+	
+	trigger = {
+		had_global_flag = {
+			flag = pop_pulse
+			days = 365
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    immediate = {
+		clr_global_flag = pop_pulse
+		set_global_flag = pop_pulse
+		every_country = {
+			Pops_DoNationalGrowth = yes
+		}
+	}
+
+	option = { #I am not a guinea pig!
+		name = pop.1.op1
+	}
+}
+
+#Testing Event
+country_event = {
+	id = pop.777
+	title = pop.777.t
+	desc = pop.777.d
 	picture = MERCHANTS_TALKING_eventPicture
 
 	is_triggered_only = yes
