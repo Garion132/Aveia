@@ -885,6 +885,7 @@ iron_monarchy = {
 			reforms = {
 				ia_co_ruling_monarchy
 				ia_deligated_monarchy
+				ia_ghandian_horde
 			}
 		}
 		iron_societal_ties = {

@@ -26,6 +26,12 @@ spriteTypes = {
 			noOfFrames = 3
 			loadType = "INGAME"
 		}
+		spriteType = {
+			name = "GFX_disaster_fall_of_great_ghand"
+			texturefile = "gfx//interface//disasters//era_of_princes.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
 
 	##
 

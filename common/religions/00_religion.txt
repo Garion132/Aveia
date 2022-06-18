@@ -788,7 +788,7 @@ roresism_group = {
 				picture = "GFX_school_karnelian_church"
 
 				# religion_sub_modifier = no is possible, will hide icon in religious screen
-				discipline = 0.025
+				discipline = 0.03
 			}
 			rorest_school = {
 				potential_invite_scholar = {

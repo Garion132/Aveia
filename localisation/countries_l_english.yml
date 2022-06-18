@@ -751,6 +751,18 @@
  GRE_ADJ:0 "Grecarola"
  WRT:0 "Windrame"
  WRT_ADJ:0 "Windrame"
+ VUO:0 "Vulokrakahn"
+ VUO_ADJ:0 "Vulokrakahn"
+ ELT:0 "Eltankira"
+ ELT_ADJ:0 "Eltankira"
+ LTV:0 "Litvelgul"
+ LTV_ADJ:0 "Litvelgul"
+ KIL:0 "Kileriao"
+ KIL_ADJ:0 "Kileriao"
+ PRH:0 "Purple Horde"
+ PRH_ADJ:0 "Purple Horde"
+ 
+ 
  
  
  COLONIAL_KLAETIA_freygmia:0 "Freygmia"

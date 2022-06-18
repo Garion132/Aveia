@@ -1,0 +1,367 @@
+namespace = fall_of_ghand
+
+# ghand falls
+country_event = {
+	id = fall_of_ghand.1
+	title = "fall_of_ghand.EVTNAME1"
+	desc = "fall_of_ghand.EVTDESC10"
+	picture = PRAYING_eventPicture
+	
+	is_triggered_only = yes
+
+	# is_mtth_scaled_to_size = 1
+	immediate = {
+		hidden_effect={
+			##Vulokrakahn setup
+			every_owned_province = {
+				limit={
+					OR={
+						region = krorri_region
+						province_id = 1107
+						area = kentain
+						province_id = 1082
+						province_id = 1127
+						province_id = 1128 
+						province_id = 1132 
+						province_id = 1129
+						province_id = 1133
+						area = rauthyr_34
+						area = donamenz_3
+						area = donamenz_5
+						area = donamenz_27
+						area = donamenz_2
+						area = donamenz_35
+						area = donamenz_41
+						area = donamenz_42
+						area = donamenz_40
+						area = donamenz_39
+						area = donamenz_37
+						area = donamenz_38
+						area = donamenz_36
+						area = donamenz_43
+						province_id = 1138
+						province_id = 1139
+					}
+				}
+				cede_province = VUO
+				add_core = VUO
+				remove_core = GGD
+			}
+			VUO={
+				set_country_flag = GGD_successor
+				change_government = iron_monarchy
+				add_government_reform = ia_ghandian_horde
+				define_ruler = {
+					name = "Vulok"
+					dynasty = "Vulokra"
+					adm = 5
+					dip = 4
+					mil = 4
+					age = 47
+					claim = 95
+				}
+				set_dynasty = "Vulokra"
+				change_government_reform_progress = -2000
+			}
+			#eltankira setup
+			every_owned_province = {
+				limit={
+					OR={
+						province_id = 1117
+						province_id = 1118
+						province_id = 1119
+						province_id = 1114
+						province_id = 1120
+						province_id = 1121
+						province_id = 1131
+						province_id = 1130
+						province_id = 847
+						area = nytheas
+						area = amnaselalone
+						area = loirona
+						province_id = 806
+						province_id = 805
+						province_id = 804
+						province_id = 803
+						province_id = 802
+						province_id = 786
+						province_id = 821
+						province_id = 822
+						province_id = 823
+						province_id = 831
+						province_id = 830
+						area = draumyesi
+						province_id = 833
+						province_id = 834
+						province_id = 880
+						area = nylka
+						area = temidal_temple
+						province_id = 2563 
+						area = ollumien
+						area = klinma
+						province_id = 1123
+					}
+				}
+				cede_province = ELT
+				add_core = ELT
+				remove_core = GGD
+			}
+			ELT={
+				set_country_flag = GGD_successor
+				change_government = iron_monarchy
+				add_government_reform = ia_ghandian_horde
+				define_ruler = {
+					name = "Eltan"
+					adm = 4
+					dip = 5
+					mil = 4
+					age = 51
+					claim = 95
+				}
+				set_dynasty = "Eltani"
+				change_government_reform_progress = -2000
+			}
+			#kileriao setup
+			every_owned_province = {
+				limit={
+					OR={
+						area = west_wassad
+						area = east_wassad
+						area = shemsele
+						area = orionrahet
+						area = macreamsesa
+						area = kyathia_region
+						province_id = 881
+						province_id = 882 
+						province_id = 887
+						province_id = 888
+						area = elrinn
+						area = rauthyr_22
+						province_id = 1113
+						province_id = 1115
+						province_id = 1116
+						province_id = 1110
+						area = rauthyr_20
+						area = rauthyr_19
+						area = rauthyr_16
+						area = rauthyr_15
+						province_id = 844
+						province_id = 845
+						province_id = 846
+						area = south_jamlu
+						province_id = 807
+						area = ulilrana
+						province_id = 819
+						province_id = 2326
+						province_id = 814
+						province_id = 2328
+						area = rauthyr_13
+						province_id = 972
+						province_id = 976
+						province_id = 977
+						area = rauthyr_18
+						province_id = 960
+						province_id = 1065
+						province_id = 1063
+						province_id = 1064
+						province_id = 1068
+						province_id = 1070
+						province_id = 1106
+						province_id = 1104
+						province_id = 151
+						province_id = 1105
+						province_id = 1108
+						area = rauthyr_17
+						area = rauthyr_23
+						province_id = 1112
+						province_id = 1111
+						province_id = 1109
+					}
+				}
+				cede_province = KIL
+				add_core = KIL
+				remove_core = GGD
+			}
+			KIL={
+				set_country_flag = GGD_successor
+				change_government = iron_monarchy
+				add_government_reform = ia_ghandian_horde
+				define_ruler = {
+					name = "Kilai"
+					adm = 4
+					dip = 4
+					mil = 5
+					age = 47
+					claim = 95
+				}
+				set_dynasty = "Kilaio"
+				change_government_reform_progress = -2000
+			}
+			#purple horde setup
+			every_owned_province = {
+				limit={
+					OR={
+						region = lidoresi_marches_region
+						region = dreghei_region
+						region = rauthyr_region
+						region = great_gulba_region
+					}
+				}
+				cede_province = PRH
+				add_core = PRH
+				remove_core = GGD
+			}
+			PRH={
+				set_country_flag = GGD_successor
+				change_government = iron_monarchy
+				add_government_reform = ia_ghandian_horde
+				define_ruler = {
+					name = "Urioe"
+					adm = 5
+					dip = 4
+					mil = 4
+					age = 47
+					claim = 95
+				}
+				set_dynasty = "Urioeri"
+				change_government_reform_progress = -2000
+			}
+			#litvelgul setup
+			every_owned_province = {
+				limit={
+					OR={
+						region = greater_shires_region
+						area = elnore
+						area = chaun_4
+						area = donamenz_20
+						area = donamenz_45
+						area = donamenz_44
+						area = donamenz_21
+						area = donamenz_19
+						area = enyalasha
+						area = donamenz_18
+						province_id = 2653
+						province_id = 2652
+						province_id = 2646 
+						province_id = 2648 
+						province_id = 2647 
+						province_id = 2645 
+						province_id = 2644 
+						province_id = 2564
+					}
+				}
+				cede_province = LTV
+				add_core = LTV
+				remove_core = GGD
+			}
+			LTV={
+				set_country_flag = GGD_successor
+				change_government = iron_monarchy
+				add_government_reform = ia_ghandian_horde
+				define_ruler = {
+					name = "Litve"
+					adm = 4
+					dip = 4
+					mil = 4
+					age = 34
+					claim = 95
+				}
+				set_dynasty = "Litvel"
+				change_government_reform_progress = -2000
+			}
+			#ghand setup
+			every_owned_province = {
+				limit={
+					is_capital = no
+				}
+				cede_province = GHA
+				add_core = GHA
+				remove_core = GGD
+			}
+			exile_ruler_as = ghand_transfer
+			GHA={
+				set_country_flag = GGD_successor
+				change_government = iron_monarchy
+				add_government_reform = ia_ghandian_horde
+				set_ruler = ghand_transfer
+				change_government_reform_progress = -2000
+				set_government_rank = 3
+			}
+		}
+	}
+
+	option = {
+		name = "fall_of_ghand.EVTOPTA1"
+		trigger={
+			VUO={exists = yes}
+		}
+		switch_tag = VUO
+		hidden_effect={
+			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
+		}
+	}
+	option = {
+		name = "fall_of_ghand.EVTOPTA2"
+		trigger={
+			ELT={exists = yes}
+		}
+		switch_tag = ELT
+		hidden_effect={
+			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
+		}
+	}
+	option = {
+		name = "fall_of_ghand.EVTOPTA3"
+		trigger={
+			KIL={exists = yes}
+		}
+		switch_tag = KIL
+		hidden_effect={
+			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
+		}
+	}
+	option = {
+		name = "fall_of_ghand.EVTOPTA4"
+		trigger={
+			LTV={exists = yes}
+		}
+		switch_tag = LTV
+		hidden_effect={
+			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
+		}
+	}
+	option = {
+		name = "fall_of_ghand.EVTOPTA5"
+		trigger={
+			PRH={exists = yes}
+		}
+		switch_tag = PRH
+		hidden_effect={
+			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
+		}
+	}
+	option = {
+		name = "fall_of_ghand.EVTOPTA6"
+		switch_tag = GHA
+		hidden_effect={
+			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
+		}
+	}
+}
+# ghand annexs great ghand
+country_event = {
+	id = fall_of_ghand.2
+	title = "fall_of_ghand.EVTNAME2"
+	desc = "fall_of_ghand.EVTDESC10"
+	picture = PRAYING_eventPicture
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	immediate={
+		GGD={
+			capital_scope = {remove_core = GGD}
+		}
+		inherit = GGD
+	}
+}

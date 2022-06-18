@@ -1,0 +1,22 @@
+government = iron_monarchy
+add_government_reform = palace_economy
+primary_culture = ia_deligated_monarchy
+religion = uzvazism
+government_rank = 3
+technology_group = civilized_human_group
+capital = 1153 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+
+# 1240.9.16 = {
+	# monarch = {
+		# name = "Filler"
+		# dynasty = "Chugzag"
+		# birth_date = 1240.12.3
+		# adm = 3
+		# dip = 3
+		# mil = 3
+	# }
+# }

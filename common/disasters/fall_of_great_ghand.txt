@@ -1,0 +1,73 @@
+fall_of_great_ghand = {
+	potential = {
+		NOT = { has_country_flag = formed_great_ghand }
+		uses_doom = no
+		is_free_or_tributary_trigger = yes
+		tag = GGD
+	}
+	
+	can_start = {
+		NOT={has_ruler_flag = mannish_iron_crown}
+		NOT = {stability = 3}
+	}
+	
+	can_stop = {
+		has_ruler_flag = mannish_iron_crown
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 1
+			num_of_rebel_controlled_provinces = 3
+		}
+		modifier = {
+			factor = 3
+			num_of_rebel_controlled_provinces = 10
+		}
+		modifier = {
+			factor = 1
+			total_development = 1000
+		}
+		modifier = {
+			factor = 1
+			total_development = 900
+		}
+		modifier = {
+			factor = 1
+			total_development = 800
+		}
+		modifier = {
+			factor = -1
+			adm = 5
+		}
+		modifier = {
+			factor = -1
+			dip = 5
+		}
+		modifier = {
+			factor = -1
+			mil = 5
+		}
+	}
+	
+	can_end = {
+		always = no
+	}
+	
+
+	modifier = {
+		all_power_cost = 0.25
+	}
+	
+	on_start = fall_of_ghand.1
+	on_end = fall_of_ghand.1
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = {
+		}
+	}
+}
+

@@ -176,6 +176,13 @@ THL = "countries/Thilrana.txt"
 	LRT = "countries/Lurtros.txt"
 	GGD = "countries/Great Ghand.txt"
 	
+	#ghand stage 1 collapse
+	VUO = "countries/Vulokrakahn.txt"
+	ELT = "countries/Eltankira.txt"
+	LTV = "countries/Litvelgul.txt"
+	KIL = "countries/Kileriao.txt"
+	PRH = "countries/Purple Horde.txt"
+	
 ## Shirate fauns
 	XII = "countries/Xiipian.txt"
 	XAQ = "countries/Xaqi.txt"

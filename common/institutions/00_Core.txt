@@ -768,6 +768,7 @@ illuminare = {
 		custom_trigger_tooltip = {
 			tooltip = tooltip_illuminare_prov_prosperous
 			is_prosperous = yes
+			development = 10
 		}
 		
 	}
