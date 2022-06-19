@@ -1,7 +1,7 @@
 estate_nobles_land_rights = {
 	icon = privilege_grant_autonomy
-	land_share = 5
-	max_absolutism = -5
+	land_share = 2.5
+	max_absolutism = -2.5
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
@@ -11,7 +11,7 @@ estate_nobles_land_rights = {
 	penalties = {
 	}
 	benefits = {
-		governing_capacity = 100
+		governing_capacity = 50
 	}
 	ai_will_do = {
 		factor = 5
@@ -73,8 +73,8 @@ estate_nobles_land_rights = {
 
 estate_church_land_rights = {
 	icon = privilege_grant_autonomy
-	land_share = 5
-	max_absolutism = -5
+	land_share = 2.5
+	max_absolutism = -2.5
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
@@ -84,7 +84,7 @@ estate_church_land_rights = {
 	penalties = {
 	}
 	benefits = {
-		governing_capacity = 100
+		governing_capacity = 50
 	}
 	ai_will_do = {
 		factor = 5
@@ -146,8 +146,8 @@ estate_church_land_rights = {
 
 estate_burghers_land_rights = {
 	icon = privilege_grant_autonomy
-	land_share = 5
-	max_absolutism = -5
+	land_share = 2.5
+	max_absolutism = -2.5
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
@@ -157,7 +157,7 @@ estate_burghers_land_rights = {
 	penalties = {
 	}
 	benefits = {
-		governing_capacity = 100
+		governing_capacity = 50
 	}
 	ai_will_do = {
 		factor = 5
@@ -219,8 +219,8 @@ estate_burghers_land_rights = {
 
 estate_nomadic_tribes_land_rights = {
 	icon = privilege_grant_autonomy
-	land_share = 5
-	max_absolutism = -5
+	land_share = 2.5
+	max_absolutism = -2.5
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
@@ -230,7 +230,7 @@ estate_nomadic_tribes_land_rights = {
 	penalties = {
 	}
 	benefits = {
-		governing_capacity = 100
+		governing_capacity = 50
 	}
 	ai_will_do = {
 		factor = 5
@@ -301,7 +301,6 @@ estate_nobles_nobility_primacy = {
 			NOT = { has_estate_privilege = estate_rajput_military }
 			NOT = { has_estate_privilege = estate_maratha_military }
 		}
-		always = no
 	}
 	on_granted = {
 	}
@@ -311,7 +310,9 @@ estate_nobles_nobility_primacy = {
 		country_military_power = 1
 	}
 	is_valid = {
-		NOT={has_government = bronze_monarchy}
+		NOT={ government = bronze_monarchy }
+		NOT={ government = bronze_league }
+		NOT={ government = iron_monarchy }
 	}
 	ai_will_do = {
 		factor = 12
@@ -520,8 +521,6 @@ estate_church_religious_state = {
 	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
-		NOT={has_government = bronze_monarchy}
-		always = no
 	}
 	on_granted = {
 	}
@@ -531,7 +530,9 @@ estate_church_religious_state = {
 		country_admin_power = 1
 	}
 	is_valid = {
-		NOT={has_government = bronze_monarchy}
+		NOT={ government = bronze_monarchy }
+		NOT={ government = bronze_league }
+		NOT={ government = iron_monarchy }
 	}
 	ai_will_do = {
 		factor = 10
@@ -863,15 +864,15 @@ estate_burghers_land_of_commerce = {
 	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
-		NOT={has_government = bronze_monarchy}
-		always = no
 	}
 	on_granted = {
 	}
 	penalties = {
 	}
 	is_valid = {
-		NOT={has_government = bronze_monarchy}
+		NOT={ government = bronze_monarchy }
+		NOT={ government = bronze_league }
+		NOT={ government = iron_monarchy }
 	}
 	benefits = {
 		country_diplomatic_power = 1
@@ -996,11 +997,21 @@ estate_burghers_indebted_to_burghers = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_revoke = {
+		has_estate_loan = no
+	}
 	can_select={
-		NOT={has_government = bronze_monarchy}
+		if = {
+			limit = {
+				has_estate_privilege = estate_burghers_indebted_to_burghers
+			}
+			has_estate_loan = yes
+		}
 	}
 	is_valid = {
-		NOT={has_government = bronze_monarchy}
+		NOT={ government = bronze_monarchy }
+		NOT={ government = bronze_league }
+		NOT={ government = iron_monarchy }
 	}
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
