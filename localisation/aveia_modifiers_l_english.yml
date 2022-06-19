@@ -13,6 +13,15 @@
  tlaunorist_iwenlumy:0 "Control of the Heavens"
  rake_group_vulkiv:0 "Control of the Holy Imperial Throne"
  eternal_sun_golden_sun:0 "Control of the Golden Sun"
+ 
+ gov_cap_50:0 "Signficantly Under Governing Capacity"
+ gov_cap_100:0 "Over Governing Capacity"
+ gov_cap_150:0 "50% Over Governing Capacity"
+ gov_cap_200:0 "100% Over Governing Capacity"
+ GOV_CAP_50:0 "Governing Capacity Usage is less than 50%"
+ GOV_CAP_100:0 "Governing Capacity Usage is over 100%"
+ GOV_CAP_150:0 "Governing Capacity Usage is over 150%"
+ GOV_CAP_200:0 "Governing Capacity Usage is over 200%"
 
  economic_recession:0 "Economic Recession: Market Solution"
  desc_economic_recession:0 "The country has fallen into hard times as factories and businesses close, unemployment rates soar, and people go hungry. The response has been to let markets handle the problem, leading to general discontent."
@@ -51,6 +60,8 @@
  desc_iac_moderate_calamity:0 "We are suffering from the Iron Age Calamity"
  iac_severe_calamity:0 "Severe Calamity"
  desc_iac_severe_calamity:0 "We are suffering from the Iron Age Calamity"
+ iac_reduced_gov_cap:0 "Collapse of Governance"
+ desc_iac_reduced_gov_cap:0 "The capabilities of our state have been significantly reduced."
 
  gd_new_roll_modifier:0 "New Roll"
  gd_drafting_legislation:0 "Drafting Legislation"

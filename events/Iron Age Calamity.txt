@@ -2239,6 +2239,130 @@ country_event = {
 	}
 }
 
+#The Administration Buckles
+country_event = {
+	id = iron_age_calamity.153
+	title = "iron_age_calamity.153.t"
+	desc = "iron_age_calamity.153.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		has_country_flag = iron_age_calamity_possible
+		has_global_flag = iron_age_calamity
+		NOT = { has_country_flag = iron_age_calamity_govt_buckles }
+		NOT = {
+			OR = {
+				has_country_flag = had_iron_age_calamity
+				is_year = 1400
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 48
+	}
+
+	option = {
+		name = "iron_age_calamity.153.o1" #We need to get a handle on things
+		add_stability = -1
+		if = {
+			limit = {
+				adm_power = 800
+			}
+			add_adm_power = -100
+		}
+		else_if = {
+			limit = {
+				adm_power = 700
+			}
+			add_adm_power = -50
+		}
+		add_country_modifier = { 
+			name = iac_reduced_gov_cap
+			duration = 3650
+		}
+		set_country_flag = iron_age_calamity_govt_buckles
+	}
+}
+
+#We are Overstretched!
+country_event = {
+	id = iron_age_calamity.154
+	title = "iron_age_calamity.154.t"
+	desc = "iron_age_calamity.154.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		has_country_flag = iron_age_calamity_possible
+		has_global_flag = iron_age_calamity
+		NOT = {
+			OR = {
+				has_country_flag = had_iron_age_calamity
+				is_year = 1400
+			}
+		}
+		variable_arithmetic_trigger = {
+			custom_tooltip = GOV_CAP_100
+			
+			export_to_variable = {
+				which = gov_cap_per
+				value = trigger_value:governing_capacity_percentage
+				who = ROOT
+			}
+			
+			check_variable = {
+				which = gov_cap_per
+				value = 1.01
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 48
+
+		modifier = {
+			factor = 0.5
+			variable_arithmetic_trigger = {
+				custom_tooltip = GOV_CAP_150
+				
+				export_to_variable = {
+					which = gov_cap_per
+					value = trigger_value:governing_capacity_percentage
+					who = ROOT
+				}
+				
+				check_variable = {
+					which = gov_cap_per
+					value = 1.51
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			variable_arithmetic_trigger = {
+				custom_tooltip = GOV_CAP_200
+				
+				export_to_variable = {
+					which = gov_cap_per
+					value = trigger_value:governing_capacity_percentage
+					who = ROOT
+				}
+				
+				check_variable = {
+					which = gov_cap_per
+					value = 2.01
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "iron_age_calamity.154.o1" #Our domain is too large...
+		add_stability = -1
+	}
+}
+
+
 
 ######################
 

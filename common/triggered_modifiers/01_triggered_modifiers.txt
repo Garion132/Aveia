@@ -151,6 +151,133 @@ eternal_sun_golden_sun = {
 }
 
 ###########################################
+# Governing Cap
+###########################################
+gov_cap_50 = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		variable_arithmetic_trigger = {
+			custom_tooltip = GOV_CAP_50
+			
+			export_to_variable = {
+				which = gov_cap_per
+				value = trigger_value:governing_capacity_percentage
+				who = ROOT
+			}
+			
+			NOT = {
+				check_variable = {
+					which = gov_cap_per
+					value = 0.51
+				}
+			}
+		}
+	}
+	global_unrest = -2
+	all_power_cost = -0.05
+	stability_cost_modifier = -0.1
+	global_autonomy = -0.05
+	yearly_corruption = -0.05
+	discipline = 0.025
+	land_morale = 0.05
+}
+gov_cap_100 = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		variable_arithmetic_trigger = {
+			custom_tooltip = GOV_CAP_100
+			
+			export_to_variable = {
+				which = gov_cap_per
+				value = trigger_value:governing_capacity_percentage
+				who = ROOT
+			}
+			
+			check_variable = {
+				which = gov_cap_per
+				value = 1.01
+			}
+			NOT = {
+				check_variable = {
+					which = gov_cap_per
+					value = 1.51
+				}
+			}
+		}
+	}
+	global_unrest = 2
+	stability_cost_modifier = 0.1
+	yearly_corruption = 0.05
+}
+gov_cap_150 = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		variable_arithmetic_trigger = {
+			custom_tooltip = GOV_CAP_150
+			
+			export_to_variable = {
+				which = gov_cap_per
+				value = trigger_value:governing_capacity_percentage
+				who = ROOT
+			}
+			
+			check_variable = {
+				which = gov_cap_per
+				value = 1.51
+			}
+			NOT = {
+				check_variable = {
+					which = gov_cap_per
+					value = 2.01
+				}
+			}
+		}
+	}
+	global_unrest = 4
+	all_power_cost = 0.05
+	stability_cost_modifier = 0.25
+	global_autonomy = 0.025
+	yearly_corruption = 0.1
+	discipline = -0.025
+	land_morale = -0.05
+}
+gov_cap_200 = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		variable_arithmetic_trigger = {
+			custom_tooltip = GOV_CAP_200
+			
+			export_to_variable = {
+				which = gov_cap_per
+				value = trigger_value:governing_capacity_percentage
+				who = ROOT
+			}
+			
+			check_variable = {
+				which = gov_cap_per
+				value = 2.01
+			}
+		}
+	}
+	global_unrest = 6
+	all_power_cost = 0.1
+	stability_cost_modifier = 0.5
+	global_autonomy = 0.05
+	yearly_corruption = 0.15
+	discipline = -0.05
+	land_morale = -0.1
+}
+
+
+###########################################
 # Human Smithing
 ###########################################
 iron_smithing_modifier = {
