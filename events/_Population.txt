@@ -111,12 +111,20 @@ country_event = {
 			}
 			if = {
 				limit = {
-					has_global_flag = urban_rural_mm
+					has_global_flag = urban_mm
 				}
-				clr_global_flag = urban_rural_mm
+				clr_global_flag = urban_mm
+				every_province = {
+					clear_map_urban_pop_modifiers = yes
+				}
+			}
+			if = {
+				limit = {
+					has_global_flag = rural_mm
+				}
+				clr_global_flag = rural_mm
 				every_province = {
 					clear_map_rural_pop_modifiers = yes
-					clear_map_urban_pop_modifiers = yes
 				}
 			}
 		}
@@ -141,24 +149,42 @@ country_event = {
 			}
 		}
 	}
-	option = { #Urban & Rural Populations
+	option = { #Urban Populations
 		name = pop.2.op3
 		hidden_effect = {
 			if = {
 				limit = {
-					has_global_flag = urban_rural_mm
+					has_global_flag = urban_mm
 				}
-				clr_global_flag = urban_rural_mm
+				clr_global_flag = urban_mm
 				every_province = {
-					clear_map_rural_pop_modifiers = yes
 					clear_map_urban_pop_modifiers = yes
 				}
 			}
 			else = {
-				set_global_flag = urban_rural_mm
+				set_global_flag = urban_mm
+				every_province = {
+					update_map_urban_pop_modifiers = yes
+				}
+			}
+		}
+	}
+	option = { #Rural Populations
+		name = pop.2.op4
+		hidden_effect = {
+			if = {
+				limit = {
+					has_global_flag = rural_mm
+				}
+				clr_global_flag = rural_mm
+				every_province = {
+					clear_map_rural_pop_modifiers = yes
+				}
+			}
+			else = {
+				set_global_flag = rural_mm
 				every_province = {
 					update_map_rural_pop_modifiers = yes
-					update_map_urban_pop_modifiers = yes
 				}
 			}
 		}

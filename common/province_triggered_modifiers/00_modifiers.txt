@@ -45,6 +45,7 @@ province_mod = {
 
 	tax_income = -2
 	trade_goods_size = -0.4
+	land_forcelimit = -0.2
 	
 	#Province scope
 	on_activation = {

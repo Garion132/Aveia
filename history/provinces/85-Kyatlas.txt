@@ -21,3 +21,11 @@ discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 2
 fort_14th = yes
+gravel_roads = yes
+taxman = yes
+
+set_province_flag = manual_pop
+set_province_flag = manual_agri_eff
+set_variable = { which = rural_pop value = 32.0 }
+set_variable = { which = urban_pop value = 3.0 }
+set_variable = { which = agri_eff_base value = 15 }

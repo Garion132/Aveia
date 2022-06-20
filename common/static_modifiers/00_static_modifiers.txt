@@ -135,6 +135,7 @@ seat_in_parliament = {
 }
 
 non_coastal = {
+	local_sailors = -1000
 }
 
 coastal_sea = {
@@ -179,6 +180,7 @@ sea_zone = {
 land_province = {
 	tax_income = 2
 	trade_goods_size = 0.4
+	land_forcelimit = 0.2
 	max_attrition = 5						#Maximum Attrition is 5
 	local_manpower_modifier = 0.25			#25% of manpower.
 }

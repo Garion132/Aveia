@@ -23,3 +23,11 @@ center_of_trade = 3
 fort_14th = yes
 port = yes
 shipwright = yes
+gravel_roads = yes
+taxman = yes
+
+set_province_flag = manual_pop
+set_province_flag = manual_agri_eff
+set_variable = { which = rural_pop value = 31.0 }
+set_variable = { which = urban_pop value = 28.0 }
+set_variable = { which = agri_eff_base value = 20 }

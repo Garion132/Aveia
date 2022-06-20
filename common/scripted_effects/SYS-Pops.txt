@@ -148,10 +148,10 @@ Pops_Setup = {
         multiply_variable = { which = r_1 value = 0.02 }
 
         change_variable = { which = r_0 which = r_1 }
-        multiply_variable = { which = r_0 value = 0.75 }
+        multiply_variable = { which = r_0 value = 0.4 }
         while = {
             limit = {
-                check_variable = { which = r_0 value = 0 }
+                check_variable = { which = r_0 value = 1 }
             }
             capital_scope = {
                 infantry = PREV
@@ -159,14 +159,71 @@ Pops_Setup = {
             subtract_variable = { which = r_0 value = 1 }
         }
 
+		export_to_variable = {
+            which = r_0
+            value = trigger_value:average_autonomy
+        }
+        set_variable = { which = r_1 value = 100 }
+        subtract_variable = { which = r_1 which = r_0 }
+        
         set_variable = { which = r_0 which = total_pop }
         multiply_variable = { which = r_0 value = 0.03 }
-        while = {
+        multiply_variable = { which = r_0 which = r_1 }
+        multiply_variable = { which = r_0 value = 0.01 }
+       while = {
             limit = {
                 check_variable = { which = r_0 value = 0 }
             }
             add_manpower = 1
             subtract_variable = { which = r_0 value = 1 }
+        }
+
+        every_owned_province = {
+            limit = {
+                is_port = yes
+            }
+            if = {
+                limit = {
+                    NOT = { local_autonomy = 50 }
+                }
+                if = {
+                    limit = {
+                        check_variable = { which = urban_pop value = 20 }
+                    }
+                    PREv = {
+                        add_sailors = 1200
+                    }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = { which = urban_pop value = 6.5 }
+                    }
+                    PREv = {
+                        add_sailors = 600
+                    }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = { which = urban_pop value = 2.5 }
+                    }
+                    PREv = {
+                        add_sailors = 300
+                    }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = { which = urban_pop value = 1 }
+                    }
+                    PREv = {
+                        add_sailors = 150
+                    }
+                }
+                else = {
+                    PREv = {
+                        add_sailors = 75
+                    }
+                }
+            }
         }
         
         set_variable = { which = r_0 value = 0 }
