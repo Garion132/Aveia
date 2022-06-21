@@ -9,6 +9,7 @@ spriteTypes = {
 		name = "mission_iwenlumy_world_power"
 		texturefile = "gfx//interface//missions//mission_iwenlumy_world_power.dds"
 	}
+
 	###FRY MISSION TREE
 	spriteType = {
 		name = "FRY_mission_4_gfx"
@@ -29,5 +30,11 @@ spriteTypes = {
 	spriteType = {
 		name = "FRY_mission_32_gfx"
 		texturefile = "gfx//interface//missions//FRY_mission_32_gfx.dds"
+	}
+
+	#Kyath
+	spriteType = {
+		name = "mission_kyath_world_power"
+		texturefile = "gfx//interface//missions//mission_kyath_world_power.dds"
 	}
 }

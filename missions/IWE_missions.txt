@@ -180,7 +180,6 @@ IWE_economic_missions = {
 
 IWE_military_missions = {
 	slot = 2
-	ai = no
 	potential = {
 		tag = IWE
 	} #These are triggers for the entire series
@@ -210,7 +209,7 @@ IWE_military_missions = {
 				tooltip = gave_up_independence_tt
 				NOT = { has_country_flag = iwe_gave_up_independence }
 			}
-			share_of_starting_income = 0.9
+			share_of_starting_income = 1.2
 		}
 		effect = {
 			hidden_effect = {

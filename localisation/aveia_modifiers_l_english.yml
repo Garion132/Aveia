@@ -100,6 +100,21 @@
  unjustified_actions:0 "Unjustified Actions"
  desc_unjustified_actions:0 "We have partaken in actions that are unjustified. We are suffering diplomatically as a result."
 
+ renovated_city:0 "Renovated City"
+ desc_renovated_city:0 "This city has recently been renovated and thus is attracting additional attention and providing additional revenues."
+ wealthy_duchy:0 "Wealthy Duchy"
+ desc_wealthy_duchy:0 "Iwenlumy is now known across the world as the 'Wealthy Duchy' of Kyath. And wealthy it most certainly is."
+ KYA_ulsin:0 "Ulsin"
+ desc_KYA_ulsin:0 "Ulsin provides us with administrative bonuses"
+ KYA_yeltok:0 "Ulsin & Yeltok"
+ desc_KYA_yeltok:0 "Ulsin & Yeltok provide us with plentiful amounts of minerals and bureaucrats."
+ KYA_symana:0 "Symana"
+ desc_KYA_symana:0 "Symana holds a large silver mine with its local administration already quite competent in keeping inflation in check."
+ KYA_ulsin_symana:0 "Ulsin & Symana"
+ desc_KYA_ulsin_symana:0 "Ulsin & Symana provide us with plentiful amounts of silver and bureaucrats."
+ KYA_cradle_islands:0 "Cradle Islands"
+ desc_KYA_cradle_islands:0 "Ownership over the Cradle Islands grants us many benefits and have lent us many lessons to take forward with us."
+
  iron_age_calamity_recovery:0 "Iron Age Calamity Recovery"
  desc_iron_age_calamity_recovery:0 "We are in the midst of recovering from the Iron Age Calamity and its world-wide consequences."
  

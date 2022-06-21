@@ -1,0 +1,452 @@
+# Kyathian Bronze-Age Mission Tree
+# By Strat
+#Below are mission series, within them are the actual missions.
+
+KYA_economic_missions = {
+	slot = 1
+	potential = {
+		tag = KYA
+	}
+
+	KYA_tame_iwenlumy = {
+		icon = mission_iwenlumy_world_power
+		required_missions = { }
+		trigger = {
+			NOT = { exists = IWE }
+			owns_core_province = 82
+			owns_core_province = 80
+		}
+		effect = {
+			set_country_flag = renovating_iwenlumy
+			iydraf = {
+				add_permanent_claim = ROOT
+			}
+			763 = {
+				add_permanent_claim = ROOT
+			}
+			760 = {
+				add_permanent_claim = ROOT
+			}
+			761 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	KYA_birthplace_of_the_mortals = {
+		icon = mission_hands_praying
+		required_missions = { KYA_tame_iwenlumy }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = KYA_renovate_iwenlumy_decisions_completed
+				has_country_flag = renovated_iwenlumy
+			}
+			owns_core_province = 80
+			80 = {
+				development = 20
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			country_event = { id = kyath.100 }
+		}
+	}
+	
+	KYA_the_wealthy_duchy = {
+		icon = austria_prospers
+		required_missions = { KYA_birthplace_of_the_mortals }
+		trigger = {
+			development_in_provinces = {
+				value = 80
+				area = greater_iwenlumy_area
+			}
+			development_in_provinces = {
+				value = 50
+				area = lesser_iwenlumy_area
+			}
+			owns_all_provinces = {
+				OR = {
+					area = greater_iwenlumy_area
+					area = lesser_iwenlumy_area
+				}
+			}
+		}
+		effect = {
+			add_prestige = 20
+			80 = {
+				add_prosperity = 100
+			}
+			78 = {
+				add_prosperity = 100
+			}
+			greater_iwenlumy_area = {
+				add_province_modifier = { name = wealthy_duchy duration = 3650 }
+			}
+			lesser_iwenlumy_area = {
+				add_province_modifier = { name = wealthy_duchy duration = 3650 }
+			}
+		}
+	}
+
+	KYA_secure_cradle_trade = {
+		icon = mission_hanseatic_city
+		required_missions = { KYA_the_wealthy_duchy }
+		trigger = {
+			if = {
+				limit = {
+					owns = 53
+				}
+				53 = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = merchants_quarter
+						has_building = customs_house
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns = 58
+				}
+				58 = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = merchants_quarter
+						has_building = customs_house
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns = 80
+				}
+				80 = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = merchants_quarter
+						has_building = customs_house
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns = 760
+				}
+				760 = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = merchants_quarter
+						has_building = customs_house
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns = 762
+				}
+				762 = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = merchants_quarter
+						has_building = customs_house
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns = 771
+				}
+				771 = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = merchants_quarter
+						has_building = customs_house
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns = 881
+				}
+				881 = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = merchants_quarter
+						has_building = customs_house
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns = 885
+				}
+				885 = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = merchants_quarter
+						has_building = customs_house
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns = 896
+				}
+				896 = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = merchants_quarter
+						has_building = customs_house
+					}
+				}
+			}
+			num_of_light_ship = 30
+		}
+		effect = {
+			add_country_modifier = {
+				name = "trade_income_increase"
+				duration = 9125 #25 years
+			}
+			cradle_islands_2 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	KYA_monopolize_the_cradle = {
+		icon = mission_rb_grow_the_channel
+		required_missions = { KYA_secure_cradle_trade }
+		trigger = {
+			33 = { #Great Cradle
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "monopolized_the_cradle"
+				duration = -1
+			}
+		}
+	}
+	
+	KYA_heart_of_the_world = {
+		icon = mission_kyath_world_power
+		required_missions = { KYA_monopolize_the_cradle }
+		trigger = {
+			33 = { #Great Cradle
+				trade_share = {
+					country = ROOT
+					share = 90
+				}
+				highest_value_trade_node = yes
+			}
+		}
+		effect = {
+			remove_country_modifier = monopolized_the_cradle
+			add_country_modifier = {
+				name = "heart_of_the_world"
+				duration = -1
+			}
+		}
+	}
+}
+
+KYA_military_missions = {
+	slot = 2
+	potential = {
+		tag = KYA
+	} #These are triggers for the entire series
+	
+	KYA_secure_the_avenan_gap = {
+		icon = mission_retake_ceuta
+		position = 2
+		required_missions = { KYA_tame_iwenlumy }
+        provinces_to_highlight = {
+            OR = {
+				area = iydraf
+				province_id = 763
+				province_id = 760
+				province_id = 761
+			}
+        }
+		trigger = {
+			owns_or_subject_of = iydraf
+			owns_or_subject_of = 763
+			owns_or_subject_of = 760
+			owns_or_subject_of = 761
+		}
+		effect = {
+			762 = {
+				add_permanent_claim = ROOT
+			}
+			treivenia = {
+				add_permanent_claim = ROOT
+			}
+			767 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	KYA_secure_the_lower_nykla = {
+		icon = mission_advance_to_the_dnieper
+		position = 3
+		required_missions = { KYA_secure_the_avenan_gap }
+        provinces_to_highlight = {
+            OR = {
+				area = treivenia
+				province_id = 767
+				province_id = 762
+			}
+        }
+		trigger = {
+			owns_or_subject_of = treivenia
+			owns_or_subject_of = 767
+			owns_or_subject_of = 762
+		}
+		effect = {
+			shemsele = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	KYA_break_shemsele = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { KYA_secure_the_lower_nykla }
+        provinces_to_highlight = {
+			area = shemsele
+        }
+		trigger = {
+			owns_or_subject_of = shemsele
+		}
+		effect = {
+			ilfamenat = {
+				add_permanent_claim = ROOT
+			}
+			mythenaset = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	KYA_acquire_the_coastal_isles = {
+		icon = mission_claim_the_canaries
+		position = 5
+		required_missions = { KYA_secure_cradle_trade }
+        provinces_to_highlight = {
+			area = cradle_islands_2
+        }
+		trigger = {
+			owns_or_subject_of = cradle_islands_2
+		}
+		effect = {
+			cradle_islands_1 = { #Symana
+				add_permanent_claim = ROOT
+			}
+			cradle_islands_5 = { #Ulsin
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	KYA_conquer_ulsin = {
+		icon = mission_secure_hajj_ports
+		position = 6
+		required_missions = { KYA_acquire_the_coastal_isles }
+        provinces_to_highlight = {
+			area = cradle_islands_5
+        }
+		trigger = {
+			owns_or_subject_of = cradle_islands_5
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_modifier = KYA_symana
+				}
+				remove_country_modifier = KYA_symana
+				add_country_modifier = { name = KYA_ulsin_symana duration = -1 }
+			}
+			else = {
+				add_country_modifier = { name = KYA_ulsin duration = -1 }
+			}
+			cradle_islands_3 = { #Yeltok
+				add_permanent_claim = ROOT
+			}
+			cradle_islands_4 = { #Yeltok
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	KYA_conquer_yeltok = {
+		icon = mission_seize_the_bengal_coast
+		position = 7
+		required_missions = { KYA_conquer_ulsin }
+        provinces_to_highlight = {
+			OR = {
+				area = cradle_islands_3
+				area = cradle_islands_4
+			}
+        }
+		trigger = {
+			owns_or_subject_of = cradle_islands_3
+			owns_or_subject_of = cradle_islands_4
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_modifier = KYA_ulsin_symana
+				}
+				remove_country_modifier = KYA_ulsin_symana
+				add_country_modifier = { name = KYA_cradle_islands duration = -1 }
+			}
+			else = {
+				remove_country_modifier = KYA_ulsin
+				add_country_modifier = { name = KYA_yeltok duration = -1 }
+			}
+		}
+	}
+}
+
+
+#2nd mission series:
+KYA_diplomatic_missions = {
+	slot = 3
+	
+	potential = {
+		tag = KYA
+	}
+
+}
+
+ #3nd mission series:
+KYA_administrative_missions = {
+	slot = 4
+	
+	potential = {
+		tag = KYA
+	}
+
+}
+
+KYA_colonial_missions = {
+	slot = 5
+	
+	potential = {
+		tag = KYA
+	}
+	
+}

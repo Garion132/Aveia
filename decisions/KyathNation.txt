@@ -1,0 +1,177 @@
+country_decisions = {
+
+	KYA_renovate_iwenlumy_stage_1 = {
+		major = no
+		potential = {
+			has_country_flag = renovating_iwenlumy
+			NOT = { has_country_flag = renovated_iwenlumy_stage_1 }
+		}
+		allow = {
+			owns_core_province = 80
+			controls = 80
+			years_of_income = 0.5
+			80 = {
+				no_construction = yes
+			}
+		}
+		effect = {
+			set_country_flag = renovated_iwenlumy_stage_1
+			add_years_of_income = -0.5
+			80 = {
+				custom_tooltip = city_construction_2_tt
+				custom_tooltip = city_construction_tt
+				hidden_effect = { add_building_construction = { building = city_construction speed = 2 cost = 0 } }
+				add_province_modifier = {
+					name = "city_construction_modifier"
+					duration = 730
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	KYA_renovate_iwenlumy_stage_2 = {
+		major = no
+		potential = {
+			has_country_flag = renovating_iwenlumy
+			has_country_flag = renovated_iwenlumy_stage_1
+			NOT = { has_country_flag = renovated_iwenlumy_stage_2 }
+		}
+		allow = {
+			owns_core_province = 80
+			controls = 80
+			OR = {
+				treasury = 40
+				80 = {
+					OR = {
+						has_building = shrine
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+			}
+			80 = {
+				no_construction = yes
+				NOT = { has_province_modifier = city_construction_modifier }
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						80 = {
+							OR = {
+								has_building = shrine
+								has_building = temple
+								has_building = cathedral
+							}
+						}
+					}
+				}
+				add_treasury = -40
+				80 = {
+					add_building_construction = {
+						building = shrine
+						speed = 1
+						cost = 0
+					}
+					add_province_modifier = {
+						name = "city_construction_modifier"
+						duration = 240
+					}
+				}
+			}
+			set_country_flag = renovated_iwenlumy_stage_2
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	KYA_renovate_iwenlumy_stage_3 = {
+		major = no
+		potential = {
+			has_country_flag = renovating_iwenlumy
+			has_country_flag = renovated_iwenlumy_stage_2
+			NOT = { has_country_flag = renovated_iwenlumy_stage_3 }
+		}
+		allow = {
+			owns_core_province = 80
+			controls = 80
+			OR = {
+				treasury = 80
+				80 = {
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+			}
+			80 = {
+				no_construction = yes
+				NOT = { has_province_modifier = city_construction_modifier }
+			}
+		}
+		effect = {
+			set_country_flag = renovated_iwenlumy_stage_3
+			if = {
+				limit = {
+					NOT = {
+						80 = {
+							OR = {
+								has_building = temple
+								has_building = cathedral
+							}
+						}
+					}
+				}
+				add_treasury = -80
+				80 = {
+					add_building_construction = {
+						building = temple
+						speed = 1
+						cost = 0
+					}
+					add_province_modifier = {
+						name = "city_construction_modifier"
+						duration = 365
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	KYA_renovate_iwenlumy_stage_4 = {
+		major = no
+		potential = {
+			has_country_flag = renovating_iwenlumy
+			has_country_flag = renovated_iwenlumy_stage_3
+		}
+		allow = {
+			owns_core_province = 80
+			controls = 80
+			years_of_income = 0.5
+			80 = {
+				no_construction = yes
+				NOT = { has_province_modifier = city_construction_modifier }
+			}
+		}
+		effect = {
+			clr_country_flag = renovated_iwenlumy_stage_1
+			clr_country_flag = renovated_iwenlumy_stage_2
+			clr_country_flag = renovated_iwenlumy_stage_3
+			clr_country_flag = renovating_iwenlumy
+			set_country_flag = renovated_iwenlumy
+			add_years_of_income = -0.5
+			80 = {
+				add_province_modifier = { name = renovated_city duration = 3650 }
+			}
+			custom_tooltip = KYA_finish_renovation_tt
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

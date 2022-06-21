@@ -159,7 +159,7 @@
    ideagroups.2101.b:0 "Let the city handle it"
    city_construction_2_tt:0 "§YCity Construction§! begins, lasting §Y24§! Months."
    ideagroups.2101.c:0 "It's a waste of money"
-   city_construction_tt:0 "Adds §Y1§! Base Tax, §Y1§! Base Production, or §Y1§! Base Manpower when completed\n"
+   city_construction_tt:0 "Adds §Y1§! Commercial Development, §Y1§! Industrial Development, or §Y1§! Urban Development when completed\n"
   
   #Additional Event Options
   burghers_estate_events.12.c:0 "And what should we do about it?"

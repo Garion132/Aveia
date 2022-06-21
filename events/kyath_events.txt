@@ -1,0 +1,27 @@
+namespace = kyath
+
+#A City of Gods and Marble
+country_event = {
+	id = kyath.100
+	title = kyath.100.t
+	desc = kyath.100.d
+	picture = IMPORTANT_STATUE_eventPicture
+
+	is_triggered_only = yes
+
+	option = { #May the Gods hold us forever in their favor 
+		name = kyath.100.op1
+		highlight = yes
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+
+		add_legitimacy = 10
+		add_devotion = 20
+		add_prestige = 50
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

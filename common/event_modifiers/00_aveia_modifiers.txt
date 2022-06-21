@@ -266,6 +266,36 @@
 		technology_cost = -0.1
 		build_cost = -0.1
 	}
+
+	#Kyath
+	renovated_city = {
+		prestige = 0.1
+		local_tax_modifier = 0.15
+		local_production_efficiency = 0.05
+	}
+	wealthy_duchy = {
+		local_tax_modifier = 0.2
+	}
+	KYA_ulsin = {
+		governing_capacity_modifier = 0.1
+	}
+	KYA_yeltok = {
+		governing_capacity_modifier = 0.1
+		global_trade_goods_size_modifier = 0.05
+	}
+	KYA_symana = {
+		inflation_reduction = 0.03
+	}
+	KYA_ulsin_symana = {
+		inflation_reduction = 0.03
+		governing_capacity_modifier = 0.1
+	}
+	KYA_cradle_islands = {
+		inflation_reduction = 0.03
+		governing_capacity_modifier = 0.1
+		global_trade_goods_size_modifier = 0.05
+	}
+
 	
 
 
