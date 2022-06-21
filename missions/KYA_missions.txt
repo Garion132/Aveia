@@ -285,10 +285,14 @@ KYA_military_missions = {
 			}
         }
 		trigger = {
-			owns_or_subject_of = iydraf
-			owns_or_subject_of = 763
-			owns_or_subject_of = 760
-			owns_or_subject_of = 761
+			owns_all_provinces = {
+				OR = {
+					area = iydraf
+					province_id = 763
+					province_id = 760
+					province_id = 761
+				}
+			}
 		}
 		effect = {
 			762 = {
@@ -314,9 +318,13 @@ KYA_military_missions = {
 			}
         }
 		trigger = {
-			owns_or_subject_of = treivenia
-			owns_or_subject_of = 767
-			owns_or_subject_of = 762
+			owns_all_provinces = {
+				OR = {
+					area = treivenia
+					province_id = 767
+					province_id = 762
+				}
+			}
 		}
 		effect = {
 			shemsele = {
@@ -332,7 +340,9 @@ KYA_military_missions = {
 			area = shemsele
         }
 		trigger = {
-			owns_or_subject_of = shemsele
+			owns_all_provinces = {
+				area = shemsele
+			}
 		}
 		effect = {
 			ilfamenat = {
@@ -351,7 +361,9 @@ KYA_military_missions = {
 			area = cradle_islands_2
         }
 		trigger = {
-			owns_or_subject_of = cradle_islands_2
+			owns_all_provinces = {
+				area = cradle_islands_2
+			}
 		}
 		effect = {
 			cradle_islands_1 = { #Symana
@@ -370,7 +382,9 @@ KYA_military_missions = {
 			area = cradle_islands_5
         }
 		trigger = {
-			owns_or_subject_of = cradle_islands_5
+			owns_all_provinces = {
+				area = cradle_islands_5
+			}
 		}
 		effect = {
 			if = {
@@ -402,8 +416,12 @@ KYA_military_missions = {
 			}
         }
 		trigger = {
-			owns_or_subject_of = cradle_islands_3
-			owns_or_subject_of = cradle_islands_4
+			owns_all_provinces = {
+				area = cradle_islands_3
+			}
+			owns_all_provinces = {
+				area = cradle_islands_4
+			}
 		}
 		effect = {
 			if = {
