@@ -60,7 +60,7 @@ KYA_economic_missions = {
 		required_missions = { KYA_birthplace_of_the_mortals }
 		trigger = {
 			development_in_provinces = {
-				value = 80
+				value = 75
 				area = greater_iwenlumy_area
 			}
 			development_in_provinces = {
