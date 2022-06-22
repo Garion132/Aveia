@@ -1875,6 +1875,9 @@ on_five_year_pulse_2 = {
 		150 = tribal_estate_events.12 #Demands
 		150 = tribal_estate_events.13 #Demands
 		150 = tribal_estate_events.14 #Demands
+		
+		400 = rauthyr_estate_events.13
+		400 = rauthyr_estate_events.15
 
 
 		# Random

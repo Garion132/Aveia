@@ -1,7 +1,7 @@
 #Gugh
-add_core = GUG
-owner = GUG
-controller = GUG
+add_core = IBR
+owner = IBR
+controller = IBR
 culture = gugh
 religion = roresist
 hre = no

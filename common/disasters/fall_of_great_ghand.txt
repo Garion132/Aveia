@@ -18,12 +18,20 @@ fall_of_great_ghand = {
 	
 	progress = {
 		modifier = {
+			factor = 2
+			always = yes
+		}
+		modifier = {
 			factor = 1
 			num_of_rebel_controlled_provinces = 3
 		}
 		modifier = {
 			factor = 3
 			num_of_rebel_controlled_provinces = 10
+		}
+		modifier = {
+			factor = 1
+			NOT={stability = 0}
 		}
 		modifier = {
 			factor = 1
@@ -38,6 +46,14 @@ fall_of_great_ghand = {
 			total_development = 800
 		}
 		modifier = {
+			factor = 0.5
+			total_development = 700
+		}
+		modifier = {
+			factor = 0.5
+			total_development = 600
+		}
+		modifier = {
 			factor = -1
 			adm = 5
 		}
@@ -48,6 +64,10 @@ fall_of_great_ghand = {
 		modifier = {
 			factor = -1
 			mil = 5
+		}
+		modifier = {
+			factor = -1
+			stability = 3
 		}
 	}
 	

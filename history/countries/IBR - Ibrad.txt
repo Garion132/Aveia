@@ -1,23 +1,23 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
-primary_culture = adrari
+primary_culture = gugh
 religion = roresist
-religious_school = karnelia_school
 government_rank = 1
 technology_group = ork_group
-capital = 2870 # 
+religious_school = pirrarthim_school
+capital = 2731 # 
 #national_focus = DIP
 #historical_rival = HAB
-historical_friend = DRO
+
 
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
-		dynasty = "Gazludh"
+		name = "Eltro III"
+		dynasty = "Gugh"
 		birth_date = 1240.12.3
-		adm = 3
-		dip = 3
+		adm = 5
+		dip = 4
 		mil = 3
 	}
 }

@@ -1733,7 +1733,7 @@ country_event = {
 	desc = rauthyr_estate_events.13.desc
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
-	#is_triggered_only = yes
+	is_triggered_only = yes
 	trigger={
 		tag = RAU
 	}
@@ -2043,42 +2043,42 @@ country_event = {
 			limit = {has_country_flag = estate_house_kethai_bickering_house}
 			add_estate_loyalty = {
 				estate = estate_house_kethai
-				loyalty = -10
+				loyalty = -5
 			}
 		}
 		if={
 			limit = {has_country_flag = estate_house_etailia_bickering_house}
 			add_estate_loyalty = {
 				estate = estate_house_etailia
-				loyalty = -10
+				loyalty = -5
 			}
 		}
 		if={
 			limit = {has_country_flag = estate_house_nyletmi_bickering_house}
 			add_estate_loyalty = {
 				estate = estate_house_nyletmi
-				loyalty = -10
+				loyalty = -5
 			}
 		}
 		if={
 			limit = {has_country_flag = estate_house_draumi_bickering_house}
 			add_estate_loyalty = {
 				estate = estate_house_draumi
-				loyalty = -10
+				loyalty = -5
 			}
 		}
 		if={
 			limit = {has_country_flag = estate_house_lidori_bickering_house}
 			add_estate_loyalty = {
 				estate = estate_house_lidori
-				loyalty = -10
+				loyalty = -5
 			}
 		}
 		if={
 			limit = {has_country_flag = estate_house_celola_bickering_house}
 			add_estate_loyalty = {
 				estate = estate_house_celola
-				loyalty = -10
+				loyalty = -5
 			}
 		}
 		add_years_of_income = 0.25
@@ -2110,7 +2110,7 @@ country_event = {
 	desc = rauthyr_estate_events.15.desc
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
-	#is_triggered_only = yes
+	is_triggered_only = yes
 	trigger={
 		tag = RAU
 	}

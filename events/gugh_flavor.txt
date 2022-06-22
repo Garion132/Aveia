@@ -1,0 +1,132 @@
+namespace = gugh_regional
+
+# Dhodh is founded
+country_event = {
+	id = gugh_regional.1
+	title = gugh_regional.1.t
+	desc = gugh_regional.1.d
+	
+	trigger = {
+		DHO={exists = no}	
+		owns = 2731
+		is_year = 1298
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 25
+	}
+	immediate={
+		hidden_effect={
+			2736={
+				cede_province = DHO
+				add_core = DHO
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				change_religion = roresist
+			}
+			gugh_3={
+				cede_province = DHO
+				add_core = DHO
+			}
+			2732={
+				cede_province = DHO
+				add_core = DHO
+			}
+			2737={
+				cede_province = DHO
+				add_core = DHO
+			}
+			2738={
+				cede_province = DHO
+				add_core = DHO
+			}
+			2740={
+				cede_province = DHO
+				add_core = DHO
+			}
+			DHO={
+				add_treasury = 300
+				add_dip_power = 300
+			}
+		}
+	}
+
+	option = {
+		name = gugh_regional.1.a
+		#ok
+	}
+	option = {
+		name = gugh_regional.1.b
+		#tag switch
+		switch_tag = DHO
+	}
+}
+
+country_event = {
+	id = gugh_regional.2
+	title = gugh_regional.2.t
+	desc = gugh_regional.2.d
+	
+	trigger = {
+		BUL={exists = no}	
+		owns = 2731
+		is_year = 1304
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 25
+	}
+	immediate={
+		hidden_effect={
+			2743={
+				add_institution_embracement = {
+					which = organized_state
+					value = 100
+				}
+				add_institution_embracement = {
+					which = bronze_working
+					value = 100
+				}
+				change_religion = roresist
+			}
+			gugh_6={
+				cede_province = BUL
+				add_core = BUL
+			}
+			2739={
+				cede_province = BUL
+				add_core = BUL
+			}
+			2741={
+				cede_province = BUL
+				add_core = BUL
+			}
+			2742={
+				cede_province = BUL
+				add_core = DHO
+			}
+			BUL={
+				add_treasury = 300
+				add_dip_power = 300
+			}
+		}
+	}
+
+	option = {
+		name = gugh_regional.2.a
+		#ok
+	}
+	option = {
+		name = gugh_regional.2.b
+		#tag switch
+		switch_tag = BUL
+	}
+}
