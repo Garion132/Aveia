@@ -566,10 +566,10 @@ GRU_ideas = {
 	}
 	free = yes
 
-	gateway_to_the_world = {
+	gughite_acceptance = {
 		num_accepted_cultures = 1
 	}
-	dhizdian_scolars = {
+	grur_drill = {
 		infantry_shock = 0.3
 	}
 	bridgedocks = {

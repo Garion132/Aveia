@@ -2309,3 +2309,39 @@ country_event = {
 		add_stability = 1
 	}
 }
+
+#
+country_event = {
+	id = rauthyr_estate_events.17
+	title = rauthyr_estate_events.17.t
+	desc = rauthyr_estate_events.17.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	trigger={
+		tag = RAU
+		year = 1290
+	}
+	fire_only_once = yes
+	
+	immediate = {
+		1107={
+			unrest = 10
+		}
+	}
+	option = { 
+		name = rauthyr_estate_events.17.a #Let it be.
+		ai_chance = {
+			factor = 1
+		}
+		add_stability = -1
+	}
+	option = { 
+		name = rauthyr_estate_events.17.b #fight them off
+		ai_chance = {
+			factor = 1
+		}
+		1107={
+			heretic_rebels = 3
+		}
+	}
+}

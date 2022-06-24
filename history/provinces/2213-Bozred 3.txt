@@ -1,4 +1,7 @@
 #Yerina 
+latent_trade_goods = {
+	iron
+}
 
 add_core = BOZ
 owner = BOZ

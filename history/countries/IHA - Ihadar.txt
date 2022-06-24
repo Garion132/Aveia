@@ -21,13 +21,27 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1234.9.16 = {
 	monarch = {
 		name = "Talori"
 		dynasty = "Ihadrim"
-		birth_date = 1245.12.3
+		birth_date = 1234.12.3
 		adm = 5
 		dip = 5
 		mil = 4
+	}
+}
+
+1259.8.22 = {
+	heir = {
+		name = "Melia"
+		monarch_name = "Melia I"
+		dynasty = "Ihadrim"
+		birth_date = 1259.8.22
+		death_date = 1365.8.11
+		claim = 92
+		adm = 4
+		dip = 6
+		mil = 3
 	}
 }

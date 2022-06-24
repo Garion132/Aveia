@@ -32,3 +32,17 @@ change_estate_land_share = {
 		mil = 1
 	}
 }
+
+1266.4.22 = {
+	heir = {
+		name = "Melia"
+		monarch_name = "Melia II"
+		dynasty = "Yuras"
+		birth_date = 1266.4.22
+		death_date = 1375.8.11
+		claim = 79
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}

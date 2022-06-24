@@ -21,13 +21,26 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1251.11.27 = {
 	monarch = {
 		name = "Farloe"
 		dynasty = "Nadari"
-		birth_date = 1240.12.3
+		birth_date = 1251.11.27
 		adm = 1
 		dip = 1
 		mil = 6
+	}
+}
+1254.11.14 = {
+	heir = {
+		name = "Kaolir"
+		monarch_name = "Kaolir II"
+		dynasty = "Nadari"
+		birth_date = 1254.11.14
+		death_date = 1311.3.29
+		claim = 92
+		adm = 2
+		dip = 2
+		mil = 5
 	}
 }

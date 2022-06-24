@@ -3,6 +3,7 @@ add_government_reform = palace_economy
 primary_culture = topika
 religion = tlaunorist
 technology_group = ork_group
+government_rank = 1
 capital = 1554 # 
 #national_focus = DIP
 #historical_rival = HAB

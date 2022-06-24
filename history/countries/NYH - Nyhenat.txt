@@ -31,3 +31,16 @@ change_estate_land_share = {
 		mil = 2
 	}
 }
+1268.4.15 = {
+	heir = {
+		name = "Nolckat"
+		monarch_name = "Nolckat II"
+		dynasty = "Thyrin"
+		birth_date = 1268.4.15
+		death_date = 1348.10.9
+		claim = 90
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
