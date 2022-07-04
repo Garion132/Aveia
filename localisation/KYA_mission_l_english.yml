@@ -23,6 +23,8 @@
  KYA_renovate_iwenlumy_stage_4_desc:0 "When we found Iwenlumy, it was a city of brick and mortar. We shall leave it a metropolis of marble."
  KYA_finish_renovation_tt:0 "Renovations will be complete!" 
 
+ KYA_secure_the_western_border_title:0 "Secure the Western Border"
+ KYA_secure_the_western_border_desc:0 "Opportunities for expansion westward is minimal at best, but opportunities for our enemies to exploit it are excessive. If we manage to tighten our border or make an ally, we could focus eastwards to our greatest rival."
  KYA_secure_the_avenan_gap_title:0 "Secure the Avenan Gap"
  KYA_secure_the_avenan_gap_desc:0 "The Avenan Gap is the coastal plain at the thinnest point of the isthmus that links Kyathia and Shemsele. Our security relies upon seizing it."
  KYA_secure_the_lower_nykla_title:0 "Secure the Lower Nykla"
@@ -37,3 +39,10 @@
  KYA_conquer_yeltok_title:0 "Conquer Yeltok"
  KYA_conquer_yeltok_desc:0 "Yeltok, the centerpiece of the Great Cradle. Plentiful with mineral wealth and cities alike. They ought to be under our protection."
  
+ KYA_placate_the_gods_title:0 "Placate the Gods"
+ KYA_placate_the_gods_desc:0 "With us being so close to the home of the Gods, we ought to show them that we indeed do care for what they prescribe and do."
+ KYA_house_of_learning_title:0 "House of Learning"
+ KYA_house_of_learning_desc:0 "To live is to learn. So much is self evident."
+ KYA_deal_with_the_troublemaker_title:0 "Deal with the Troublemaker"
+ KYA_deal_with_the_troublemaker_desc:0 "Iwenlumy has long been a pain to reconcile with. Its wealth allows it to prolong its existence. Well, no longer! We will ensure their wealth is ours, completely."
+ KYA_deal_with_iwenlumy_decisions_completed:0 "Has dealt with Iwenlumy, the Troublemaker."

@@ -11,11 +11,11 @@ const static float RURAL_SAILORS = 5.0f;
 const static float RURAL_TRADE_POWER = 0.03f;
 const static float RURAL_FORCELIMIT = 0.01f;
 
-const static float URBAN_TAX = 0.5f;
-const static float URBAN_GOODS_PROD = 0.05f;
+const static float URBAN_TAX = 0.4f;
+const static float URBAN_GOODS_PROD = 0.04f;
 const static float URBAN_MANPOWER = 0.03f;
 const static float URBAN_SAILORS = 50.0f;
-const static float URBAN_TRADE_POWER = 0.6f;
+const static float URBAN_TRADE_POWER = 0.5f;
 const static float URBAN_FORCELIMIT = 0.02f;
 
 

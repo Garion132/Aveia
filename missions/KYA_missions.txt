@@ -34,7 +34,7 @@ KYA_economic_missions = {
 	}
 	
 	KYA_birthplace_of_the_mortals = {
-		icon = mission_hands_praying
+		icon = develop_our_capital
 		required_missions = { KYA_tame_iwenlumy }
 		trigger = {
 			custom_trigger_tooltip = {
@@ -272,10 +272,53 @@ KYA_military_missions = {
 		tag = KYA
 	} #These are triggers for the entire series
 	
+	KYA_secure_the_western_border = {
+		icon = fortress_switzerland
+		position = 1
+		required_missions = { }
+        provinces_to_highlight = {
+            OR = {
+				area = landir_area
+				area = ildahir_area
+				area = ihadar_lesser_area
+				area = ihadar_area
+				province_id = 500
+				province_id = 501
+				province_id = 515
+				province_id = 586
+				province_id = 585
+			}
+        }
+		trigger = {
+			OR = {
+				OR = {
+					alliance_with = PAR
+					alliance_with = LEL
+					alliance_with = IHA
+				}
+				owns_all_provinces = {
+					OR = {
+						area = landir_area
+						area = ildahir_area
+						area = ihadar_lesser_area
+						area = ihadar_area
+						province_id = 500
+						province_id = 501
+						province_id = 515
+						province_id = 586
+						province_id = 585
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = { name = secure_border duration = 7300 } #20 Yrs
+		}
+	}
 	KYA_secure_the_avenan_gap = {
 		icon = mission_retake_ceuta
 		position = 2
-		required_missions = { KYA_tame_iwenlumy }
+		required_missions = { KYA_tame_iwenlumy KYA_secure_the_western_border }
         provinces_to_highlight = {
             OR = {
 				area = iydraf
@@ -439,7 +482,6 @@ KYA_military_missions = {
 	}
 }
 
-
 #2nd mission series:
 KYA_diplomatic_missions = {
 	slot = 3
@@ -448,6 +490,74 @@ KYA_diplomatic_missions = {
 		tag = KYA
 	}
 
+	KYA_placate_the_gods = {
+		icon = mission_hands_praying
+		position = 1
+		required_missions = { }
+        provinces_to_highlight = { }
+		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 60
+			}
+			OR = {
+				has_reform = holy_clerks_reform
+				NOT = { government = bronze_monarchy }
+			}
+		}
+		effect = {
+			add_stability = 1
+			add_legitimacy = 10
+		}
+	}
+
+	KYA_house_of_learning = {
+		icon = mission_early_modern_university
+		position = 2
+		required_missions = { }
+        provinces_to_highlight = { }
+		trigger = {
+			owns_core_province = 53
+			53 = {
+				has_building = school
+			}
+			treasury = 100
+		}
+		effect = {
+			add_treasury = -100
+			add_country_modifier = { name = house_of_learning duration = 7300 }
+		}
+	}
+	
+	KYA_deal_with_the_troublemaker = {
+		icon = avoid_fragmentation
+		position = 3
+		required_missions = { }
+        provinces_to_highlight = { }
+		trigger = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = KYA_deal_with_iwenlumy_decisions_completed
+					has_country_flag = dealt_with_iwenlumy
+				}
+				NOT = { exists = IWE }
+				IWE = {
+					NOT = { vassal_of = ROOT }
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					exists = IWE
+					IWE = {
+						vassal_of = ROOT
+					}
+				}
+				inherit = IWE
+			}
+		}
+	}
 }
 
  #3nd mission series:
@@ -457,7 +567,7 @@ KYA_administrative_missions = {
 	potential = {
 		tag = KYA
 	}
-
+	#Dominate the Council - influence_the_princes
 }
 
 KYA_colonial_missions = {

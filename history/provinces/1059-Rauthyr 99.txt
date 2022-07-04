@@ -23,3 +23,9 @@ discovered_by = free_kolbolds_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+
+set_province_flag = manual_pop
+set_province_flag = manual_agri_eff
+set_variable = { which = rural_pop value = 40.0 }
+set_variable = { which = urban_pop value = 0.0 }
+set_variable = { which = agri_eff_base value = 15 }

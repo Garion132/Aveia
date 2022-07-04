@@ -5221,11 +5221,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 0.25
-		trade_goods_size = 0.025
+		tax_income = 0.2
+		trade_goods_size = 0.02
 		local_manpower = 0.015
 		local_sailors = 25
-		province_trade_power_value = 0.3
+		province_trade_power_value = 0.25
 		land_forcelimit = 0.01
 		on_activation = { }
 		on_deactivation  = { }
@@ -5234,11 +5234,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 0.5
-		trade_goods_size = 0.05
+		tax_income = 0.4
+		trade_goods_size = 0.04
 		local_manpower = 0.03
 		local_sailors = 50
-		province_trade_power_value = 0.6
+		province_trade_power_value = 0.5
 		land_forcelimit = 0.02
 		on_activation = { }
 		on_deactivation  = { }
@@ -5247,11 +5247,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 0.75
-		trade_goods_size = 0.075
+		tax_income = 0.6
+		trade_goods_size = 0.06
 		local_manpower = 0.045
 		local_sailors = 75
-		province_trade_power_value = 0.9
+		province_trade_power_value = 0.75
 		land_forcelimit = 0.03
 		on_activation = { }
 		on_deactivation  = { }
@@ -5260,11 +5260,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 1
-		trade_goods_size = 0.1
+		tax_income = 0.8
+		trade_goods_size = 0.08
 		local_manpower = 0.06
 		local_sailors = 100
-		province_trade_power_value = 1.2
+		province_trade_power_value = 1
 		land_forcelimit = 0.04
 		on_activation = { }
 		on_deactivation  = { }
@@ -5273,11 +5273,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 1.25
-		trade_goods_size = 0.125
+		tax_income = 1
+		trade_goods_size = 0.1
 		local_manpower = 0.075
 		local_sailors = 125
-		province_trade_power_value = 1.5
+		province_trade_power_value = 1.25
 		land_forcelimit = 0.05
 		on_activation = { }
 		on_deactivation  = { }
@@ -5286,11 +5286,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 1.5
-		trade_goods_size = 0.15
+		tax_income = 1.2
+		trade_goods_size = 0.12
 		local_manpower = 0.09
 		local_sailors = 150
-		province_trade_power_value = 1.8
+		province_trade_power_value = 1.5
 		land_forcelimit = 0.06
 		on_activation = { }
 		on_deactivation  = { }
@@ -5299,11 +5299,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 1.75
-		trade_goods_size = 0.175
+		tax_income = 1.4
+		trade_goods_size = 0.14
 		local_manpower = 0.105
 		local_sailors = 175
-		province_trade_power_value = 2.1
+		province_trade_power_value = 1.75
 		land_forcelimit = 0.07
 		on_activation = { }
 		on_deactivation  = { }
@@ -5312,11 +5312,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 2
-		trade_goods_size = 0.2
+		tax_income = 1.6
+		trade_goods_size = 0.16
 		local_manpower = 0.12
 		local_sailors = 200
-		province_trade_power_value = 2.4
+		province_trade_power_value = 2
 		land_forcelimit = 0.08
 		on_activation = { }
 		on_deactivation  = { }
@@ -5325,11 +5325,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 2.25
-		trade_goods_size = 0.225
+		tax_income = 1.8
+		trade_goods_size = 0.18
 		local_manpower = 0.135
 		local_sailors = 225
-		province_trade_power_value = 2.7
+		province_trade_power_value = 2.25
 		land_forcelimit = 0.09
 		on_activation = { }
 		on_deactivation  = { }
@@ -5338,11 +5338,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 2.5
-		trade_goods_size = 0.25
+		tax_income = 2
+		trade_goods_size = 0.2
 		local_manpower = 0.15
 		local_sailors = 250
-		province_trade_power_value = 3
+		province_trade_power_value = 2.5
 		land_forcelimit = 0.1
 		on_activation = { }
 		on_deactivation  = { }
@@ -5351,11 +5351,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 2.75
-		trade_goods_size = 0.275
+		tax_income = 2.2
+		trade_goods_size = 0.22
 		local_manpower = 0.165
 		local_sailors = 275
-		province_trade_power_value = 3.3
+		province_trade_power_value = 2.75
 		land_forcelimit = 0.11
 		on_activation = { }
 		on_deactivation  = { }
@@ -5364,11 +5364,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 3
-		trade_goods_size = 0.3
+		tax_income = 2.4
+		trade_goods_size = 0.24
 		local_manpower = 0.18
 		local_sailors = 300
-		province_trade_power_value = 3.6
+		province_trade_power_value = 3
 		land_forcelimit = 0.12
 		on_activation = { }
 		on_deactivation  = { }
@@ -5377,11 +5377,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 3.25
-		trade_goods_size = 0.325
+		tax_income = 2.6
+		trade_goods_size = 0.26
 		local_manpower = 0.195
 		local_sailors = 325
-		province_trade_power_value = 3.9
+		province_trade_power_value = 3.25
 		land_forcelimit = 0.13
 		on_activation = { }
 		on_deactivation  = { }
@@ -5390,11 +5390,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 3.5
-		trade_goods_size = 0.35
+		tax_income = 2.8
+		trade_goods_size = 0.28
 		local_manpower = 0.21
 		local_sailors = 350
-		province_trade_power_value = 4.2
+		province_trade_power_value = 3.5
 		land_forcelimit = 0.14
 		on_activation = { }
 		on_deactivation  = { }
@@ -5403,11 +5403,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 3.75
-		trade_goods_size = 0.375
+		tax_income = 3
+		trade_goods_size = 0.3
 		local_manpower = 0.225
 		local_sailors = 375
-		province_trade_power_value = 4.5
+		province_trade_power_value = 3.75
 		land_forcelimit = 0.15
 		on_activation = { }
 		on_deactivation  = { }
@@ -5416,11 +5416,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 4
-		trade_goods_size = 0.4
+		tax_income = 3.2
+		trade_goods_size = 0.32
 		local_manpower = 0.24
 		local_sailors = 400
-		province_trade_power_value = 4.8
+		province_trade_power_value = 4
 		land_forcelimit = 0.16
 		on_activation = { }
 		on_deactivation  = { }
@@ -5429,11 +5429,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 4.25
-		trade_goods_size = 0.425
+		tax_income = 3.4
+		trade_goods_size = 0.34
 		local_manpower = 0.255
 		local_sailors = 425
-		province_trade_power_value = 5.1
+		province_trade_power_value = 4.25
 		land_forcelimit = 0.17
 		on_activation = { }
 		on_deactivation  = { }
@@ -5442,11 +5442,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 4.5
-		trade_goods_size = 0.45
+		tax_income = 3.6
+		trade_goods_size = 0.36
 		local_manpower = 0.27
 		local_sailors = 450
-		province_trade_power_value = 5.4
+		province_trade_power_value = 4.5
 		land_forcelimit = 0.18
 		on_activation = { }
 		on_deactivation  = { }
@@ -5455,11 +5455,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 4.75
-		trade_goods_size = 0.475
+		tax_income = 3.8
+		trade_goods_size = 0.38
 		local_manpower = 0.285
 		local_sailors = 475
-		province_trade_power_value = 5.7
+		province_trade_power_value = 4.75
 		land_forcelimit = 0.19
 		on_activation = { }
 		on_deactivation  = { }
@@ -5468,11 +5468,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 5
-		trade_goods_size = 0.5
+		tax_income = 4
+		trade_goods_size = 0.4
 		local_manpower = 0.3
 		local_sailors = 500
-		province_trade_power_value = 6
+		province_trade_power_value = 5
 		land_forcelimit = 0.2
 		on_activation = { }
 		on_deactivation  = { }
@@ -5481,11 +5481,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 5.25
-		trade_goods_size = 0.525
+		tax_income = 4.2
+		trade_goods_size = 0.42
 		local_manpower = 0.315
 		local_sailors = 525
-		province_trade_power_value = 6.3
+		province_trade_power_value = 5.25
 		land_forcelimit = 0.21
 		on_activation = { }
 		on_deactivation  = { }
@@ -5494,11 +5494,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 5.5
-		trade_goods_size = 0.55
+		tax_income = 4.4
+		trade_goods_size = 0.44
 		local_manpower = 0.33
 		local_sailors = 550
-		province_trade_power_value = 6.6
+		province_trade_power_value = 5.5
 		land_forcelimit = 0.22
 		on_activation = { }
 		on_deactivation  = { }
@@ -5507,11 +5507,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 5.75
-		trade_goods_size = 0.575
+		tax_income = 4.6
+		trade_goods_size = 0.46
 		local_manpower = 0.345
 		local_sailors = 575
-		province_trade_power_value = 6.9
+		province_trade_power_value = 5.75
 		land_forcelimit = 0.23
 		on_activation = { }
 		on_deactivation  = { }
@@ -5520,11 +5520,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 6
-		trade_goods_size = 0.6
+		tax_income = 4.8
+		trade_goods_size = 0.48
 		local_manpower = 0.36
 		local_sailors = 600
-		province_trade_power_value = 7.2
+		province_trade_power_value = 6
 		land_forcelimit = 0.24
 		on_activation = { }
 		on_deactivation  = { }
@@ -5533,11 +5533,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 6.25
-		trade_goods_size = 0.625
+		tax_income = 5
+		trade_goods_size = 0.5
 		local_manpower = 0.375
 		local_sailors = 625
-		province_trade_power_value = 7.5
+		province_trade_power_value = 6.25
 		land_forcelimit = 0.25
 		on_activation = { }
 		on_deactivation  = { }
@@ -5546,11 +5546,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 6.5
-		trade_goods_size = 0.65
+		tax_income = 5.2
+		trade_goods_size = 0.52
 		local_manpower = 0.39
 		local_sailors = 650
-		province_trade_power_value = 7.8
+		province_trade_power_value = 6.5
 		land_forcelimit = 0.26
 		on_activation = { }
 		on_deactivation  = { }
@@ -5559,11 +5559,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 6.75
-		trade_goods_size = 0.675
+		tax_income = 5.4
+		trade_goods_size = 0.54
 		local_manpower = 0.405
 		local_sailors = 675
-		province_trade_power_value = 8.1
+		province_trade_power_value = 6.75
 		land_forcelimit = 0.27
 		on_activation = { }
 		on_deactivation  = { }
@@ -5572,11 +5572,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 7
-		trade_goods_size = 0.7
+		tax_income = 5.6
+		trade_goods_size = 0.56
 		local_manpower = 0.42
 		local_sailors = 700
-		province_trade_power_value = 8.4
+		province_trade_power_value = 7
 		land_forcelimit = 0.28
 		on_activation = { }
 		on_deactivation  = { }
@@ -5585,11 +5585,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 7.25
-		trade_goods_size = 0.725
+		tax_income = 5.8
+		trade_goods_size = 0.58
 		local_manpower = 0.435
 		local_sailors = 725
-		province_trade_power_value = 8.7
+		province_trade_power_value = 7.25
 		land_forcelimit = 0.29
 		on_activation = { }
 		on_deactivation  = { }
@@ -5598,11 +5598,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 7.5
-		trade_goods_size = 0.75
+		tax_income = 6
+		trade_goods_size = 0.6
 		local_manpower = 0.45
 		local_sailors = 750
-		province_trade_power_value = 9
+		province_trade_power_value = 7.5
 		land_forcelimit = 0.3
 		on_activation = { }
 		on_deactivation  = { }
@@ -5611,11 +5611,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 7.75
-		trade_goods_size = 0.775
+		tax_income = 6.2
+		trade_goods_size = 0.62
 		local_manpower = 0.465
 		local_sailors = 775
-		province_trade_power_value = 9.3
+		province_trade_power_value = 7.75
 		land_forcelimit = 0.31
 		on_activation = { }
 		on_deactivation  = { }
@@ -5624,11 +5624,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 8
-		trade_goods_size = 0.8
+		tax_income = 6.4
+		trade_goods_size = 0.64
 		local_manpower = 0.48
 		local_sailors = 800
-		province_trade_power_value = 9.6
+		province_trade_power_value = 8
 		land_forcelimit = 0.32
 		on_activation = { }
 		on_deactivation  = { }
@@ -5637,11 +5637,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 8.25
-		trade_goods_size = 0.825
+		tax_income = 6.6
+		trade_goods_size = 0.66
 		local_manpower = 0.495
 		local_sailors = 825
-		province_trade_power_value = 9.9
+		province_trade_power_value = 8.25
 		land_forcelimit = 0.33
 		on_activation = { }
 		on_deactivation  = { }
@@ -5650,11 +5650,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 8.5
-		trade_goods_size = 0.85
+		tax_income = 6.8
+		trade_goods_size = 0.68
 		local_manpower = 0.51
 		local_sailors = 850
-		province_trade_power_value = 10.2
+		province_trade_power_value = 8.5
 		land_forcelimit = 0.34
 		on_activation = { }
 		on_deactivation  = { }
@@ -5663,11 +5663,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 8.75
-		trade_goods_size = 0.875
+		tax_income = 7
+		trade_goods_size = 0.7
 		local_manpower = 0.525
 		local_sailors = 875
-		province_trade_power_value = 10.5
+		province_trade_power_value = 8.75
 		land_forcelimit = 0.35
 		on_activation = { }
 		on_deactivation  = { }
@@ -5676,11 +5676,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 9
-		trade_goods_size = 0.9
+		tax_income = 7.2
+		trade_goods_size = 0.72
 		local_manpower = 0.54
 		local_sailors = 900
-		province_trade_power_value = 10.8
+		province_trade_power_value = 9
 		land_forcelimit = 0.36
 		on_activation = { }
 		on_deactivation  = { }
@@ -5689,11 +5689,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 9.25
-		trade_goods_size = 0.925
+		tax_income = 7.4
+		trade_goods_size = 0.74
 		local_manpower = 0.555
 		local_sailors = 925
-		province_trade_power_value = 11.1
+		province_trade_power_value = 9.25
 		land_forcelimit = 0.37
 		on_activation = { }
 		on_deactivation  = { }
@@ -5702,11 +5702,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 9.5
-		trade_goods_size = 0.95
+		tax_income = 7.6
+		trade_goods_size = 0.76
 		local_manpower = 0.57
 		local_sailors = 950
-		province_trade_power_value = 11.4
+		province_trade_power_value = 9.5
 		land_forcelimit = 0.38
 		on_activation = { }
 		on_deactivation  = { }
@@ -5715,11 +5715,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 9.75
-		trade_goods_size = 0.975
+		tax_income = 7.8
+		trade_goods_size = 0.78
 		local_manpower = 0.585
 		local_sailors = 975
-		province_trade_power_value = 11.7
+		province_trade_power_value = 9.75
 		land_forcelimit = 0.39
 		on_activation = { }
 		on_deactivation  = { }
@@ -5728,11 +5728,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 10
-		trade_goods_size = 1
+		tax_income = 8
+		trade_goods_size = 0.8
 		local_manpower = 0.6
 		local_sailors = 1000
-		province_trade_power_value = 12
+		province_trade_power_value = 10
 		land_forcelimit = 0.4
 		on_activation = { }
 		on_deactivation  = { }
@@ -5741,11 +5741,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 10.25
-		trade_goods_size = 1.025
+		tax_income = 8.2
+		trade_goods_size = 0.82
 		local_manpower = 0.615
 		local_sailors = 1025
-		province_trade_power_value = 12.3
+		province_trade_power_value = 10.25
 		land_forcelimit = 0.41
 		on_activation = { }
 		on_deactivation  = { }
@@ -5754,11 +5754,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 10.5
-		trade_goods_size = 1.05
+		tax_income = 8.4
+		trade_goods_size = 0.84
 		local_manpower = 0.63
 		local_sailors = 1050
-		province_trade_power_value = 12.6
+		province_trade_power_value = 10.5
 		land_forcelimit = 0.42
 		on_activation = { }
 		on_deactivation  = { }
@@ -5767,11 +5767,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 10.75
-		trade_goods_size = 1.075
+		tax_income = 8.6
+		trade_goods_size = 0.86
 		local_manpower = 0.645
 		local_sailors = 1075
-		province_trade_power_value = 12.9
+		province_trade_power_value = 10.75
 		land_forcelimit = 0.43
 		on_activation = { }
 		on_deactivation  = { }
@@ -5780,11 +5780,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 11
-		trade_goods_size = 1.1
+		tax_income = 8.8
+		trade_goods_size = 0.88
 		local_manpower = 0.66
 		local_sailors = 1100
-		province_trade_power_value = 13.2
+		province_trade_power_value = 11
 		land_forcelimit = 0.44
 		on_activation = { }
 		on_deactivation  = { }
@@ -5793,11 +5793,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 11.25
-		trade_goods_size = 1.125
+		tax_income = 9
+		trade_goods_size = 0.9
 		local_manpower = 0.675
 		local_sailors = 1125
-		province_trade_power_value = 13.5
+		province_trade_power_value = 11.25
 		land_forcelimit = 0.45
 		on_activation = { }
 		on_deactivation  = { }
@@ -5806,11 +5806,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 11.5
-		trade_goods_size = 1.15
+		tax_income = 9.2
+		trade_goods_size = 0.92
 		local_manpower = 0.69
 		local_sailors = 1150
-		province_trade_power_value = 13.8
+		province_trade_power_value = 11.5
 		land_forcelimit = 0.46
 		on_activation = { }
 		on_deactivation  = { }
@@ -5819,11 +5819,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 11.75
-		trade_goods_size = 1.175
+		tax_income = 9.4
+		trade_goods_size = 0.94
 		local_manpower = 0.705
 		local_sailors = 1175
-		province_trade_power_value = 14.1
+		province_trade_power_value = 11.75
 		land_forcelimit = 0.47
 		on_activation = { }
 		on_deactivation  = { }
@@ -5832,11 +5832,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 12
-		trade_goods_size = 1.2
+		tax_income = 9.6
+		trade_goods_size = 0.96
 		local_manpower = 0.72
 		local_sailors = 1200
-		province_trade_power_value = 14.4
+		province_trade_power_value = 12
 		land_forcelimit = 0.48
 		on_activation = { }
 		on_deactivation  = { }
@@ -5845,11 +5845,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 12.25
-		trade_goods_size = 1.225
+		tax_income = 9.8
+		trade_goods_size = 0.98
 		local_manpower = 0.735
 		local_sailors = 1225
-		province_trade_power_value = 14.7
+		province_trade_power_value = 12.25
 		land_forcelimit = 0.49
 		on_activation = { }
 		on_deactivation  = { }
@@ -5858,11 +5858,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 12.5
-		trade_goods_size = 1.25
+		tax_income = 10
+		trade_goods_size = 1
 		local_manpower = 0.75
 		local_sailors = 1250
-		province_trade_power_value = 15
+		province_trade_power_value = 12.5
 		land_forcelimit = 0.5
 		on_activation = { }
 		on_deactivation  = { }
@@ -5871,11 +5871,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 12.75
-		trade_goods_size = 1.275
+		tax_income = 10.2
+		trade_goods_size = 1.02
 		local_manpower = 0.765
 		local_sailors = 1275
-		province_trade_power_value = 15.3
+		province_trade_power_value = 12.75
 		land_forcelimit = 0.51
 		on_activation = { }
 		on_deactivation  = { }
@@ -5884,11 +5884,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 13
-		trade_goods_size = 1.3
+		tax_income = 10.4
+		trade_goods_size = 1.04
 		local_manpower = 0.78
 		local_sailors = 1300
-		province_trade_power_value = 15.6
+		province_trade_power_value = 13
 		land_forcelimit = 0.52
 		on_activation = { }
 		on_deactivation  = { }
@@ -5897,11 +5897,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 13.25
-		trade_goods_size = 1.325
+		tax_income = 10.6
+		trade_goods_size = 1.06
 		local_manpower = 0.795
 		local_sailors = 1325
-		province_trade_power_value = 15.9
+		province_trade_power_value = 13.25
 		land_forcelimit = 0.53
 		on_activation = { }
 		on_deactivation  = { }
@@ -5910,11 +5910,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 13.5
-		trade_goods_size = 1.35
+		tax_income = 10.8
+		trade_goods_size = 1.08
 		local_manpower = 0.81
 		local_sailors = 1350
-		province_trade_power_value = 16.2
+		province_trade_power_value = 13.5
 		land_forcelimit = 0.54
 		on_activation = { }
 		on_deactivation  = { }
@@ -5923,11 +5923,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 13.75
-		trade_goods_size = 1.375
+		tax_income = 11
+		trade_goods_size = 1.1
 		local_manpower = 0.825
 		local_sailors = 1375
-		province_trade_power_value = 16.5
+		province_trade_power_value = 13.75
 		land_forcelimit = 0.55
 		on_activation = { }
 		on_deactivation  = { }
@@ -5936,11 +5936,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 14
-		trade_goods_size = 1.4
+		tax_income = 11.2
+		trade_goods_size = 1.12
 		local_manpower = 0.84
 		local_sailors = 1400
-		province_trade_power_value = 16.8
+		province_trade_power_value = 14
 		land_forcelimit = 0.56
 		on_activation = { }
 		on_deactivation  = { }
@@ -5949,11 +5949,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 14.25
-		trade_goods_size = 1.425
+		tax_income = 11.4
+		trade_goods_size = 1.14
 		local_manpower = 0.855
 		local_sailors = 1425
-		province_trade_power_value = 17.1
+		province_trade_power_value = 14.25
 		land_forcelimit = 0.57
 		on_activation = { }
 		on_deactivation  = { }
@@ -5962,11 +5962,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 14.5
-		trade_goods_size = 1.45
+		tax_income = 11.6
+		trade_goods_size = 1.16
 		local_manpower = 0.87
 		local_sailors = 1450
-		province_trade_power_value = 17.4
+		province_trade_power_value = 14.5
 		land_forcelimit = 0.58
 		on_activation = { }
 		on_deactivation  = { }
@@ -5975,11 +5975,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 14.75
-		trade_goods_size = 1.475
+		tax_income = 11.8
+		trade_goods_size = 1.18
 		local_manpower = 0.885
 		local_sailors = 1475
-		province_trade_power_value = 17.7
+		province_trade_power_value = 14.75
 		land_forcelimit = 0.59
 		on_activation = { }
 		on_deactivation  = { }
@@ -5988,11 +5988,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 15
-		trade_goods_size = 1.5
+		tax_income = 12
+		trade_goods_size = 1.2
 		local_manpower = 0.9
 		local_sailors = 1500
-		province_trade_power_value = 18
+		province_trade_power_value = 15
 		land_forcelimit = 0.6
 		on_activation = { }
 		on_deactivation  = { }
@@ -6001,11 +6001,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 15.25
-		trade_goods_size = 1.525
+		tax_income = 12.2
+		trade_goods_size = 1.22
 		local_manpower = 0.915
 		local_sailors = 1525
-		province_trade_power_value = 18.3
+		province_trade_power_value = 15.25
 		land_forcelimit = 0.61
 		on_activation = { }
 		on_deactivation  = { }
@@ -6014,11 +6014,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 15.5
-		trade_goods_size = 1.55
+		tax_income = 12.4
+		trade_goods_size = 1.24
 		local_manpower = 0.93
 		local_sailors = 1550
-		province_trade_power_value = 18.6
+		province_trade_power_value = 15.5
 		land_forcelimit = 0.62
 		on_activation = { }
 		on_deactivation  = { }
@@ -6027,11 +6027,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 15.75
-		trade_goods_size = 1.575
+		tax_income = 12.6
+		trade_goods_size = 1.26
 		local_manpower = 0.945
 		local_sailors = 1575
-		province_trade_power_value = 18.9
+		province_trade_power_value = 15.75
 		land_forcelimit = 0.63
 		on_activation = { }
 		on_deactivation  = { }
@@ -6040,11 +6040,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 16
-		trade_goods_size = 1.6
+		tax_income = 12.8
+		trade_goods_size = 1.28
 		local_manpower = 0.96
 		local_sailors = 1600
-		province_trade_power_value = 19.2
+		province_trade_power_value = 16
 		land_forcelimit = 0.64
 		on_activation = { }
 		on_deactivation  = { }
@@ -6053,11 +6053,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 16.25
-		trade_goods_size = 1.625
+		tax_income = 13
+		trade_goods_size = 1.3
 		local_manpower = 0.975
 		local_sailors = 1625
-		province_trade_power_value = 19.5
+		province_trade_power_value = 16.25
 		land_forcelimit = 0.65
 		on_activation = { }
 		on_deactivation  = { }
@@ -6066,11 +6066,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 16.5
-		trade_goods_size = 1.65
+		tax_income = 13.2
+		trade_goods_size = 1.32
 		local_manpower = 0.99
 		local_sailors = 1650
-		province_trade_power_value = 19.8
+		province_trade_power_value = 16.5
 		land_forcelimit = 0.66
 		on_activation = { }
 		on_deactivation  = { }
@@ -6079,11 +6079,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 16.75
-		trade_goods_size = 1.675
+		tax_income = 13.4
+		trade_goods_size = 1.34
 		local_manpower = 1.005
 		local_sailors = 1675
-		province_trade_power_value = 20.1
+		province_trade_power_value = 16.75
 		land_forcelimit = 0.67
 		on_activation = { }
 		on_deactivation  = { }
@@ -6092,11 +6092,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 17
-		trade_goods_size = 1.7
+		tax_income = 13.6
+		trade_goods_size = 1.36
 		local_manpower = 1.02
 		local_sailors = 1700
-		province_trade_power_value = 20.4
+		province_trade_power_value = 17
 		land_forcelimit = 0.68
 		on_activation = { }
 		on_deactivation  = { }
@@ -6105,11 +6105,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 17.25
-		trade_goods_size = 1.725
+		tax_income = 13.8
+		trade_goods_size = 1.38
 		local_manpower = 1.035
 		local_sailors = 1725
-		province_trade_power_value = 20.7
+		province_trade_power_value = 17.25
 		land_forcelimit = 0.69
 		on_activation = { }
 		on_deactivation  = { }
@@ -6118,11 +6118,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 17.5
-		trade_goods_size = 1.75
+		tax_income = 14
+		trade_goods_size = 1.4
 		local_manpower = 1.05
 		local_sailors = 1750
-		province_trade_power_value = 21
+		province_trade_power_value = 17.5
 		land_forcelimit = 0.7
 		on_activation = { }
 		on_deactivation  = { }
@@ -6131,11 +6131,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 17.75
-		trade_goods_size = 1.775
+		tax_income = 14.2
+		trade_goods_size = 1.42
 		local_manpower = 1.065
 		local_sailors = 1775
-		province_trade_power_value = 21.3
+		province_trade_power_value = 17.75
 		land_forcelimit = 0.71
 		on_activation = { }
 		on_deactivation  = { }
@@ -6144,11 +6144,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 18
-		trade_goods_size = 1.8
+		tax_income = 14.4
+		trade_goods_size = 1.44
 		local_manpower = 1.08
 		local_sailors = 1800
-		province_trade_power_value = 21.6
+		province_trade_power_value = 18
 		land_forcelimit = 0.72
 		on_activation = { }
 		on_deactivation  = { }
@@ -6157,11 +6157,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 18.25
-		trade_goods_size = 1.825
+		tax_income = 14.6
+		trade_goods_size = 1.46
 		local_manpower = 1.095
 		local_sailors = 1825
-		province_trade_power_value = 21.9
+		province_trade_power_value = 18.25
 		land_forcelimit = 0.73
 		on_activation = { }
 		on_deactivation  = { }
@@ -6170,11 +6170,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 18.5
-		trade_goods_size = 1.85
+		tax_income = 14.8
+		trade_goods_size = 1.48
 		local_manpower = 1.11
 		local_sailors = 1850
-		province_trade_power_value = 22.2
+		province_trade_power_value = 18.5
 		land_forcelimit = 0.74
 		on_activation = { }
 		on_deactivation  = { }
@@ -6183,11 +6183,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 18.75
-		trade_goods_size = 1.875
+		tax_income = 15
+		trade_goods_size = 1.5
 		local_manpower = 1.125
 		local_sailors = 1875
-		province_trade_power_value = 22.5
+		province_trade_power_value = 18.75
 		land_forcelimit = 0.75
 		on_activation = { }
 		on_deactivation  = { }
@@ -6196,11 +6196,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 19
-		trade_goods_size = 1.9
+		tax_income = 15.2
+		trade_goods_size = 1.52
 		local_manpower = 1.14
 		local_sailors = 1900
-		province_trade_power_value = 22.8
+		province_trade_power_value = 19
 		land_forcelimit = 0.76
 		on_activation = { }
 		on_deactivation  = { }
@@ -6209,11 +6209,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 19.25
-		trade_goods_size = 1.925
+		tax_income = 15.4
+		trade_goods_size = 1.54
 		local_manpower = 1.155
 		local_sailors = 1925
-		province_trade_power_value = 23.1
+		province_trade_power_value = 19.25
 		land_forcelimit = 0.77
 		on_activation = { }
 		on_deactivation  = { }
@@ -6222,11 +6222,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 19.5
-		trade_goods_size = 1.95
+		tax_income = 15.6
+		trade_goods_size = 1.56
 		local_manpower = 1.17
 		local_sailors = 1950
-		province_trade_power_value = 23.4
+		province_trade_power_value = 19.5
 		land_forcelimit = 0.78
 		on_activation = { }
 		on_deactivation  = { }
@@ -6235,11 +6235,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 19.75
-		trade_goods_size = 1.975
+		tax_income = 15.8
+		trade_goods_size = 1.58
 		local_manpower = 1.185
 		local_sailors = 1975
-		province_trade_power_value = 23.7
+		province_trade_power_value = 19.75
 		land_forcelimit = 0.79
 		on_activation = { }
 		on_deactivation  = { }
@@ -6248,11 +6248,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 20
-		trade_goods_size = 2
+		tax_income = 16
+		trade_goods_size = 1.6
 		local_manpower = 1.2
 		local_sailors = 2000
-		province_trade_power_value = 24
+		province_trade_power_value = 20
 		land_forcelimit = 0.8
 		on_activation = { }
 		on_deactivation  = { }
@@ -6261,11 +6261,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 20.25
-		trade_goods_size = 2.025
+		tax_income = 16.2
+		trade_goods_size = 1.62
 		local_manpower = 1.215
 		local_sailors = 2025
-		province_trade_power_value = 24.3
+		province_trade_power_value = 20.25
 		land_forcelimit = 0.81
 		on_activation = { }
 		on_deactivation  = { }
@@ -6274,11 +6274,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 20.5
-		trade_goods_size = 2.05
+		tax_income = 16.4
+		trade_goods_size = 1.64
 		local_manpower = 1.23
 		local_sailors = 2050
-		province_trade_power_value = 24.6
+		province_trade_power_value = 20.5
 		land_forcelimit = 0.82
 		on_activation = { }
 		on_deactivation  = { }
@@ -6287,11 +6287,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 20.75
-		trade_goods_size = 2.075
+		tax_income = 16.6
+		trade_goods_size = 1.66
 		local_manpower = 1.245
 		local_sailors = 2075
-		province_trade_power_value = 24.9
+		province_trade_power_value = 20.75
 		land_forcelimit = 0.83
 		on_activation = { }
 		on_deactivation  = { }
@@ -6300,11 +6300,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 21
-		trade_goods_size = 2.1
+		tax_income = 16.8
+		trade_goods_size = 1.68
 		local_manpower = 1.26
 		local_sailors = 2100
-		province_trade_power_value = 25.2
+		province_trade_power_value = 21
 		land_forcelimit = 0.84
 		on_activation = { }
 		on_deactivation  = { }
@@ -6313,11 +6313,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 21.25
-		trade_goods_size = 2.125
+		tax_income = 17
+		trade_goods_size = 1.7
 		local_manpower = 1.275
 		local_sailors = 2125
-		province_trade_power_value = 25.5
+		province_trade_power_value = 21.25
 		land_forcelimit = 0.85
 		on_activation = { }
 		on_deactivation  = { }
@@ -6326,11 +6326,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 21.5
-		trade_goods_size = 2.15
+		tax_income = 17.2
+		trade_goods_size = 1.72
 		local_manpower = 1.29
 		local_sailors = 2150
-		province_trade_power_value = 25.8
+		province_trade_power_value = 21.5
 		land_forcelimit = 0.86
 		on_activation = { }
 		on_deactivation  = { }
@@ -6339,11 +6339,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 21.75
-		trade_goods_size = 2.175
+		tax_income = 17.4
+		trade_goods_size = 1.74
 		local_manpower = 1.305
 		local_sailors = 2175
-		province_trade_power_value = 26.1
+		province_trade_power_value = 21.75
 		land_forcelimit = 0.87
 		on_activation = { }
 		on_deactivation  = { }
@@ -6352,11 +6352,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 22
-		trade_goods_size = 2.2
+		tax_income = 17.6
+		trade_goods_size = 1.76
 		local_manpower = 1.32
 		local_sailors = 2200
-		province_trade_power_value = 26.4
+		province_trade_power_value = 22
 		land_forcelimit = 0.88
 		on_activation = { }
 		on_deactivation  = { }
@@ -6365,11 +6365,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 22.25
-		trade_goods_size = 2.225
+		tax_income = 17.8
+		trade_goods_size = 1.78
 		local_manpower = 1.335
 		local_sailors = 2225
-		province_trade_power_value = 26.7
+		province_trade_power_value = 22.25
 		land_forcelimit = 0.89
 		on_activation = { }
 		on_deactivation  = { }
@@ -6378,11 +6378,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 22.5
-		trade_goods_size = 2.25
+		tax_income = 18
+		trade_goods_size = 1.8
 		local_manpower = 1.35
 		local_sailors = 2250
-		province_trade_power_value = 27
+		province_trade_power_value = 22.5
 		land_forcelimit = 0.9
 		on_activation = { }
 		on_deactivation  = { }
@@ -6391,11 +6391,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 22.75
-		trade_goods_size = 2.275
+		tax_income = 18.2
+		trade_goods_size = 1.82
 		local_manpower = 1.365
 		local_sailors = 2275
-		province_trade_power_value = 27.3
+		province_trade_power_value = 22.75
 		land_forcelimit = 0.91
 		on_activation = { }
 		on_deactivation  = { }
@@ -6404,11 +6404,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 23
-		trade_goods_size = 2.3
+		tax_income = 18.4
+		trade_goods_size = 1.84
 		local_manpower = 1.38
 		local_sailors = 2300
-		province_trade_power_value = 27.6
+		province_trade_power_value = 23
 		land_forcelimit = 0.92
 		on_activation = { }
 		on_deactivation  = { }
@@ -6417,11 +6417,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 23.25
-		trade_goods_size = 2.325
+		tax_income = 18.6
+		trade_goods_size = 1.86
 		local_manpower = 1.395
 		local_sailors = 2325
-		province_trade_power_value = 27.9
+		province_trade_power_value = 23.25
 		land_forcelimit = 0.93
 		on_activation = { }
 		on_deactivation  = { }
@@ -6430,11 +6430,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 23.5
-		trade_goods_size = 2.35
+		tax_income = 18.8
+		trade_goods_size = 1.88
 		local_manpower = 1.41
 		local_sailors = 2350
-		province_trade_power_value = 28.2
+		province_trade_power_value = 23.5
 		land_forcelimit = 0.94
 		on_activation = { }
 		on_deactivation  = { }
@@ -6443,11 +6443,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 23.75
-		trade_goods_size = 2.375
+		tax_income = 19
+		trade_goods_size = 1.9
 		local_manpower = 1.425
 		local_sailors = 2375
-		province_trade_power_value = 28.5
+		province_trade_power_value = 23.75
 		land_forcelimit = 0.95
 		on_activation = { }
 		on_deactivation  = { }
@@ -6456,11 +6456,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 24
-		trade_goods_size = 2.4
+		tax_income = 19.2
+		trade_goods_size = 1.92
 		local_manpower = 1.44
 		local_sailors = 2400
-		province_trade_power_value = 28.8
+		province_trade_power_value = 24
 		land_forcelimit = 0.96
 		on_activation = { }
 		on_deactivation  = { }
@@ -6469,11 +6469,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 24.25
-		trade_goods_size = 2.425
+		tax_income = 19.4
+		trade_goods_size = 1.94
 		local_manpower = 1.455
 		local_sailors = 2425
-		province_trade_power_value = 29.1
+		province_trade_power_value = 24.25
 		land_forcelimit = 0.97
 		on_activation = { }
 		on_deactivation  = { }
@@ -6482,11 +6482,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 24.5
-		trade_goods_size = 2.45
+		tax_income = 19.6
+		trade_goods_size = 1.96
 		local_manpower = 1.47
 		local_sailors = 2450
-		province_trade_power_value = 29.4
+		province_trade_power_value = 24.5
 		land_forcelimit = 0.98
 		on_activation = { }
 		on_deactivation  = { }
@@ -6495,11 +6495,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 24.75
-		trade_goods_size = 2.475
+		tax_income = 19.8
+		trade_goods_size = 1.98
 		local_manpower = 1.485
 		local_sailors = 2475
-		province_trade_power_value = 29.7
+		province_trade_power_value = 24.75
 		land_forcelimit = 0.99
 		on_activation = { }
 		on_deactivation  = { }
@@ -6508,11 +6508,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 25
-		trade_goods_size = 2.5
+		tax_income = 20
+		trade_goods_size = 2
 		local_manpower = 1.5
 		local_sailors = 2500
-		province_trade_power_value = 30
+		province_trade_power_value = 25
 		land_forcelimit = 1
 		on_activation = { }
 		on_deactivation  = { }
@@ -6521,11 +6521,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 25.25
-		trade_goods_size = 2.525
+		tax_income = 20.2
+		trade_goods_size = 2.02
 		local_manpower = 1.515
 		local_sailors = 2525
-		province_trade_power_value = 30.3
+		province_trade_power_value = 25.25
 		land_forcelimit = 1.01
 		on_activation = { }
 		on_deactivation  = { }
@@ -6534,11 +6534,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 25.5
-		trade_goods_size = 2.55
+		tax_income = 20.4
+		trade_goods_size = 2.04
 		local_manpower = 1.53
 		local_sailors = 2550
-		province_trade_power_value = 30.6
+		province_trade_power_value = 25.5
 		land_forcelimit = 1.02
 		on_activation = { }
 		on_deactivation  = { }
@@ -6547,11 +6547,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 25.75
-		trade_goods_size = 2.575
+		tax_income = 20.6
+		trade_goods_size = 2.06
 		local_manpower = 1.545
 		local_sailors = 2575
-		province_trade_power_value = 30.9
+		province_trade_power_value = 25.75
 		land_forcelimit = 1.03
 		on_activation = { }
 		on_deactivation  = { }
@@ -6560,11 +6560,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 26
-		trade_goods_size = 2.6
+		tax_income = 20.8
+		trade_goods_size = 2.08
 		local_manpower = 1.56
 		local_sailors = 2600
-		province_trade_power_value = 31.2
+		province_trade_power_value = 26
 		land_forcelimit = 1.04
 		on_activation = { }
 		on_deactivation  = { }
@@ -6573,11 +6573,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 26.25
-		trade_goods_size = 2.625
+		tax_income = 21
+		trade_goods_size = 2.1
 		local_manpower = 1.575
 		local_sailors = 2625
-		province_trade_power_value = 31.5
+		province_trade_power_value = 26.25
 		land_forcelimit = 1.05
 		on_activation = { }
 		on_deactivation  = { }
@@ -6586,11 +6586,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 26.5
-		trade_goods_size = 2.65
+		tax_income = 21.2
+		trade_goods_size = 2.12
 		local_manpower = 1.59
 		local_sailors = 2650
-		province_trade_power_value = 31.8
+		province_trade_power_value = 26.5
 		land_forcelimit = 1.06
 		on_activation = { }
 		on_deactivation  = { }
@@ -6599,11 +6599,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 26.75
-		trade_goods_size = 2.675
+		tax_income = 21.4
+		trade_goods_size = 2.14
 		local_manpower = 1.605
 		local_sailors = 2675
-		province_trade_power_value = 32.1
+		province_trade_power_value = 26.75
 		land_forcelimit = 1.07
 		on_activation = { }
 		on_deactivation  = { }
@@ -6612,11 +6612,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 27
-		trade_goods_size = 2.7
+		tax_income = 21.6
+		trade_goods_size = 2.16
 		local_manpower = 1.62
 		local_sailors = 2700
-		province_trade_power_value = 32.4
+		province_trade_power_value = 27
 		land_forcelimit = 1.08
 		on_activation = { }
 		on_deactivation  = { }
@@ -6625,11 +6625,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 27.25
-		trade_goods_size = 2.725
+		tax_income = 21.8
+		trade_goods_size = 2.18
 		local_manpower = 1.635
 		local_sailors = 2725
-		province_trade_power_value = 32.7
+		province_trade_power_value = 27.25
 		land_forcelimit = 1.09
 		on_activation = { }
 		on_deactivation  = { }
@@ -6638,11 +6638,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 27.5
-		trade_goods_size = 2.75
+		tax_income = 22
+		trade_goods_size = 2.2
 		local_manpower = 1.65
 		local_sailors = 2750
-		province_trade_power_value = 33
+		province_trade_power_value = 27.5
 		land_forcelimit = 1.1
 		on_activation = { }
 		on_deactivation  = { }
@@ -6651,11 +6651,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 27.75
-		trade_goods_size = 2.775
+		tax_income = 22.2
+		trade_goods_size = 2.22
 		local_manpower = 1.665
 		local_sailors = 2775
-		province_trade_power_value = 33.3
+		province_trade_power_value = 27.75
 		land_forcelimit = 1.11
 		on_activation = { }
 		on_deactivation  = { }
@@ -6664,11 +6664,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 28
-		trade_goods_size = 2.8
+		tax_income = 22.4
+		trade_goods_size = 2.24
 		local_manpower = 1.68
 		local_sailors = 2800
-		province_trade_power_value = 33.6
+		province_trade_power_value = 28
 		land_forcelimit = 1.12
 		on_activation = { }
 		on_deactivation  = { }
@@ -6677,11 +6677,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 28.25
-		trade_goods_size = 2.825
+		tax_income = 22.6
+		trade_goods_size = 2.26
 		local_manpower = 1.695
 		local_sailors = 2825
-		province_trade_power_value = 33.9
+		province_trade_power_value = 28.25
 		land_forcelimit = 1.13
 		on_activation = { }
 		on_deactivation  = { }
@@ -6690,11 +6690,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 28.5
-		trade_goods_size = 2.85
+		tax_income = 22.8
+		trade_goods_size = 2.28
 		local_manpower = 1.71
 		local_sailors = 2850
-		province_trade_power_value = 34.2
+		province_trade_power_value = 28.5
 		land_forcelimit = 1.14
 		on_activation = { }
 		on_deactivation  = { }
@@ -6703,11 +6703,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 28.75
-		trade_goods_size = 2.875
+		tax_income = 23
+		trade_goods_size = 2.3
 		local_manpower = 1.725
 		local_sailors = 2875
-		province_trade_power_value = 34.5
+		province_trade_power_value = 28.75
 		land_forcelimit = 1.15
 		on_activation = { }
 		on_deactivation  = { }
@@ -6716,11 +6716,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 29
-		trade_goods_size = 2.9
+		tax_income = 23.2
+		trade_goods_size = 2.32
 		local_manpower = 1.74
 		local_sailors = 2900
-		province_trade_power_value = 34.8
+		province_trade_power_value = 29
 		land_forcelimit = 1.16
 		on_activation = { }
 		on_deactivation  = { }
@@ -6729,11 +6729,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 29.25
-		trade_goods_size = 2.925
+		tax_income = 23.4
+		trade_goods_size = 2.34
 		local_manpower = 1.755
 		local_sailors = 2925
-		province_trade_power_value = 35.1
+		province_trade_power_value = 29.25
 		land_forcelimit = 1.17
 		on_activation = { }
 		on_deactivation  = { }
@@ -6742,11 +6742,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 29.5
-		trade_goods_size = 2.95
+		tax_income = 23.6
+		trade_goods_size = 2.36
 		local_manpower = 1.77
 		local_sailors = 2950
-		province_trade_power_value = 35.4
+		province_trade_power_value = 29.5
 		land_forcelimit = 1.18
 		on_activation = { }
 		on_deactivation  = { }
@@ -6755,11 +6755,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 29.75
-		trade_goods_size = 2.975
+		tax_income = 23.8
+		trade_goods_size = 2.38
 		local_manpower = 1.785
 		local_sailors = 2975
-		province_trade_power_value = 35.7
+		province_trade_power_value = 29.75
 		land_forcelimit = 1.19
 		on_activation = { }
 		on_deactivation  = { }
@@ -6768,11 +6768,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 30
-		trade_goods_size = 3
+		tax_income = 24
+		trade_goods_size = 2.4
 		local_manpower = 1.8
 		local_sailors = 3000
-		province_trade_power_value = 36
+		province_trade_power_value = 30
 		land_forcelimit = 1.2
 		on_activation = { }
 		on_deactivation  = { }
@@ -6781,11 +6781,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 30.25
-		trade_goods_size = 3.025
+		tax_income = 24.2
+		trade_goods_size = 2.42
 		local_manpower = 1.815
 		local_sailors = 3025
-		province_trade_power_value = 36.3
+		province_trade_power_value = 30.25
 		land_forcelimit = 1.21
 		on_activation = { }
 		on_deactivation  = { }
@@ -6794,11 +6794,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 30.5
-		trade_goods_size = 3.05
+		tax_income = 24.4
+		trade_goods_size = 2.44
 		local_manpower = 1.83
 		local_sailors = 3050
-		province_trade_power_value = 36.6
+		province_trade_power_value = 30.5
 		land_forcelimit = 1.22
 		on_activation = { }
 		on_deactivation  = { }
@@ -6807,11 +6807,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 30.75
-		trade_goods_size = 3.075
+		tax_income = 24.6
+		trade_goods_size = 2.46
 		local_manpower = 1.845
 		local_sailors = 3075
-		province_trade_power_value = 36.9
+		province_trade_power_value = 30.75
 		land_forcelimit = 1.23
 		on_activation = { }
 		on_deactivation  = { }
@@ -6820,11 +6820,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 31
-		trade_goods_size = 3.1
+		tax_income = 24.8
+		trade_goods_size = 2.48
 		local_manpower = 1.86
 		local_sailors = 3100
-		province_trade_power_value = 37.2
+		province_trade_power_value = 31
 		land_forcelimit = 1.24
 		on_activation = { }
 		on_deactivation  = { }
@@ -6833,11 +6833,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 31.25
-		trade_goods_size = 3.125
+		tax_income = 25
+		trade_goods_size = 2.5
 		local_manpower = 1.875
 		local_sailors = 3125
-		province_trade_power_value = 37.5
+		province_trade_power_value = 31.25
 		land_forcelimit = 1.25
 		on_activation = { }
 		on_deactivation  = { }
@@ -6846,11 +6846,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 31.5
-		trade_goods_size = 3.15
+		tax_income = 25.2
+		trade_goods_size = 2.52
 		local_manpower = 1.89
 		local_sailors = 3150
-		province_trade_power_value = 37.8
+		province_trade_power_value = 31.5
 		land_forcelimit = 1.26
 		on_activation = { }
 		on_deactivation  = { }
@@ -6859,11 +6859,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 31.75
-		trade_goods_size = 3.175
+		tax_income = 25.4
+		trade_goods_size = 2.54
 		local_manpower = 1.905
 		local_sailors = 3175
-		province_trade_power_value = 38.1
+		province_trade_power_value = 31.75
 		land_forcelimit = 1.27
 		on_activation = { }
 		on_deactivation  = { }
@@ -6872,11 +6872,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 32
-		trade_goods_size = 3.2
+		tax_income = 25.6
+		trade_goods_size = 2.56
 		local_manpower = 1.92
 		local_sailors = 3200
-		province_trade_power_value = 38.4
+		province_trade_power_value = 32
 		land_forcelimit = 1.28
 		on_activation = { }
 		on_deactivation  = { }
@@ -6885,11 +6885,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 32.25
-		trade_goods_size = 3.225
+		tax_income = 25.8
+		trade_goods_size = 2.58
 		local_manpower = 1.935
 		local_sailors = 3225
-		province_trade_power_value = 38.7
+		province_trade_power_value = 32.25
 		land_forcelimit = 1.29
 		on_activation = { }
 		on_deactivation  = { }
@@ -6898,11 +6898,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 32.5
-		trade_goods_size = 3.25
+		tax_income = 26
+		trade_goods_size = 2.6
 		local_manpower = 1.95
 		local_sailors = 3250
-		province_trade_power_value = 39
+		province_trade_power_value = 32.5
 		land_forcelimit = 1.3
 		on_activation = { }
 		on_deactivation  = { }
@@ -6911,11 +6911,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 32.75
-		trade_goods_size = 3.275
+		tax_income = 26.2
+		trade_goods_size = 2.62
 		local_manpower = 1.965
 		local_sailors = 3275
-		province_trade_power_value = 39.3
+		province_trade_power_value = 32.75
 		land_forcelimit = 1.31
 		on_activation = { }
 		on_deactivation  = { }
@@ -6924,11 +6924,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 33
-		trade_goods_size = 3.3
+		tax_income = 26.4
+		trade_goods_size = 2.64
 		local_manpower = 1.98
 		local_sailors = 3300
-		province_trade_power_value = 39.6
+		province_trade_power_value = 33
 		land_forcelimit = 1.32
 		on_activation = { }
 		on_deactivation  = { }
@@ -6937,11 +6937,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 33.25
-		trade_goods_size = 3.325
+		tax_income = 26.6
+		trade_goods_size = 2.66
 		local_manpower = 1.995
 		local_sailors = 3325
-		province_trade_power_value = 39.9
+		province_trade_power_value = 33.25
 		land_forcelimit = 1.33
 		on_activation = { }
 		on_deactivation  = { }
@@ -6950,11 +6950,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 33.5
-		trade_goods_size = 3.35
+		tax_income = 26.8
+		trade_goods_size = 2.68
 		local_manpower = 2.01
 		local_sailors = 3350
-		province_trade_power_value = 40.2
+		province_trade_power_value = 33.5
 		land_forcelimit = 1.34
 		on_activation = { }
 		on_deactivation  = { }
@@ -6963,11 +6963,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 33.75
-		trade_goods_size = 3.375
+		tax_income = 27
+		trade_goods_size = 2.7
 		local_manpower = 2.025
 		local_sailors = 3375
-		province_trade_power_value = 40.5
+		province_trade_power_value = 33.75
 		land_forcelimit = 1.35
 		on_activation = { }
 		on_deactivation  = { }
@@ -6976,11 +6976,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 34
-		trade_goods_size = 3.4
+		tax_income = 27.2
+		trade_goods_size = 2.72
 		local_manpower = 2.04
 		local_sailors = 3400
-		province_trade_power_value = 40.8
+		province_trade_power_value = 34
 		land_forcelimit = 1.36
 		on_activation = { }
 		on_deactivation  = { }
@@ -6989,11 +6989,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 34.25
-		trade_goods_size = 3.425
+		tax_income = 27.4
+		trade_goods_size = 2.74
 		local_manpower = 2.055
 		local_sailors = 3425
-		province_trade_power_value = 41.1
+		province_trade_power_value = 34.25
 		land_forcelimit = 1.37
 		on_activation = { }
 		on_deactivation  = { }
@@ -7002,11 +7002,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 34.5
-		trade_goods_size = 3.45
+		tax_income = 27.6
+		trade_goods_size = 2.76
 		local_manpower = 2.07
 		local_sailors = 3450
-		province_trade_power_value = 41.4
+		province_trade_power_value = 34.5
 		land_forcelimit = 1.38
 		on_activation = { }
 		on_deactivation  = { }
@@ -7015,11 +7015,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 34.75
-		trade_goods_size = 3.475
+		tax_income = 27.8
+		trade_goods_size = 2.78
 		local_manpower = 2.085
 		local_sailors = 3475
-		province_trade_power_value = 41.7
+		province_trade_power_value = 34.75
 		land_forcelimit = 1.39
 		on_activation = { }
 		on_deactivation  = { }
@@ -7028,11 +7028,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 35
-		trade_goods_size = 3.5
+		tax_income = 28
+		trade_goods_size = 2.8
 		local_manpower = 2.1
 		local_sailors = 3500
-		province_trade_power_value = 42
+		province_trade_power_value = 35
 		land_forcelimit = 1.4
 		on_activation = { }
 		on_deactivation  = { }
@@ -7041,11 +7041,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 35.25
-		trade_goods_size = 3.525
+		tax_income = 28.2
+		trade_goods_size = 2.82
 		local_manpower = 2.115
 		local_sailors = 3525
-		province_trade_power_value = 42.3
+		province_trade_power_value = 35.25
 		land_forcelimit = 1.41
 		on_activation = { }
 		on_deactivation  = { }
@@ -7054,11 +7054,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 35.5
-		trade_goods_size = 3.55
+		tax_income = 28.4
+		trade_goods_size = 2.84
 		local_manpower = 2.13
 		local_sailors = 3550
-		province_trade_power_value = 42.6
+		province_trade_power_value = 35.5
 		land_forcelimit = 1.42
 		on_activation = { }
 		on_deactivation  = { }
@@ -7067,11 +7067,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 35.75
-		trade_goods_size = 3.575
+		tax_income = 28.6
+		trade_goods_size = 2.86
 		local_manpower = 2.145
 		local_sailors = 3575
-		province_trade_power_value = 42.9
+		province_trade_power_value = 35.75
 		land_forcelimit = 1.43
 		on_activation = { }
 		on_deactivation  = { }
@@ -7080,11 +7080,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 36
-		trade_goods_size = 3.6
+		tax_income = 28.8
+		trade_goods_size = 2.88
 		local_manpower = 2.16
 		local_sailors = 3600
-		province_trade_power_value = 43.2
+		province_trade_power_value = 36
 		land_forcelimit = 1.44
 		on_activation = { }
 		on_deactivation  = { }
@@ -7093,11 +7093,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 36.25
-		trade_goods_size = 3.625
+		tax_income = 29
+		trade_goods_size = 2.9
 		local_manpower = 2.175
 		local_sailors = 3625
-		province_trade_power_value = 43.5
+		province_trade_power_value = 36.25
 		land_forcelimit = 1.45
 		on_activation = { }
 		on_deactivation  = { }
@@ -7106,11 +7106,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 36.5
-		trade_goods_size = 3.65
+		tax_income = 29.2
+		trade_goods_size = 2.92
 		local_manpower = 2.19
 		local_sailors = 3650
-		province_trade_power_value = 43.8
+		province_trade_power_value = 36.5
 		land_forcelimit = 1.46
 		on_activation = { }
 		on_deactivation  = { }
@@ -7119,11 +7119,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 36.75
-		trade_goods_size = 3.675
+		tax_income = 29.4
+		trade_goods_size = 2.94
 		local_manpower = 2.205
 		local_sailors = 3675
-		province_trade_power_value = 44.1
+		province_trade_power_value = 36.75
 		land_forcelimit = 1.47
 		on_activation = { }
 		on_deactivation  = { }
@@ -7132,11 +7132,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 37
-		trade_goods_size = 3.7
+		tax_income = 29.6
+		trade_goods_size = 2.96
 		local_manpower = 2.22
 		local_sailors = 3700
-		province_trade_power_value = 44.4
+		province_trade_power_value = 37
 		land_forcelimit = 1.48
 		on_activation = { }
 		on_deactivation  = { }
@@ -7145,11 +7145,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 37.25
-		trade_goods_size = 3.725
+		tax_income = 29.8
+		trade_goods_size = 2.98
 		local_manpower = 2.235
 		local_sailors = 3725
-		province_trade_power_value = 44.7
+		province_trade_power_value = 37.25
 		land_forcelimit = 1.49
 		on_activation = { }
 		on_deactivation  = { }
@@ -7158,11 +7158,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 37.5
-		trade_goods_size = 3.75
+		tax_income = 30
+		trade_goods_size = 3
 		local_manpower = 2.25
 		local_sailors = 3750
-		province_trade_power_value = 45
+		province_trade_power_value = 37.5
 		land_forcelimit = 1.5
 		on_activation = { }
 		on_deactivation  = { }
@@ -7171,11 +7171,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 37.75
-		trade_goods_size = 3.775
+		tax_income = 30.2
+		trade_goods_size = 3.02
 		local_manpower = 2.265
 		local_sailors = 3775
-		province_trade_power_value = 45.3
+		province_trade_power_value = 37.75
 		land_forcelimit = 1.51
 		on_activation = { }
 		on_deactivation  = { }
@@ -7184,11 +7184,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 38
-		trade_goods_size = 3.8
+		tax_income = 30.4
+		trade_goods_size = 3.04
 		local_manpower = 2.28
 		local_sailors = 3800
-		province_trade_power_value = 45.6
+		province_trade_power_value = 38
 		land_forcelimit = 1.52
 		on_activation = { }
 		on_deactivation  = { }
@@ -7197,11 +7197,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 38.25
-		trade_goods_size = 3.825
+		tax_income = 30.6
+		trade_goods_size = 3.06
 		local_manpower = 2.295
 		local_sailors = 3825
-		province_trade_power_value = 45.9
+		province_trade_power_value = 38.25
 		land_forcelimit = 1.53
 		on_activation = { }
 		on_deactivation  = { }
@@ -7210,11 +7210,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 38.5
-		trade_goods_size = 3.85
+		tax_income = 30.8
+		trade_goods_size = 3.08
 		local_manpower = 2.31
 		local_sailors = 3850
-		province_trade_power_value = 46.2
+		province_trade_power_value = 38.5
 		land_forcelimit = 1.54
 		on_activation = { }
 		on_deactivation  = { }
@@ -7223,11 +7223,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 38.75
-		trade_goods_size = 3.875
+		tax_income = 31
+		trade_goods_size = 3.1
 		local_manpower = 2.325
 		local_sailors = 3875
-		province_trade_power_value = 46.5
+		province_trade_power_value = 38.75
 		land_forcelimit = 1.55
 		on_activation = { }
 		on_deactivation  = { }
@@ -7236,11 +7236,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 39
-		trade_goods_size = 3.9
+		tax_income = 31.2
+		trade_goods_size = 3.12
 		local_manpower = 2.34
 		local_sailors = 3900
-		province_trade_power_value = 46.8
+		province_trade_power_value = 39
 		land_forcelimit = 1.56
 		on_activation = { }
 		on_deactivation  = { }
@@ -7249,11 +7249,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 39.25
-		trade_goods_size = 3.925
+		tax_income = 31.4
+		trade_goods_size = 3.14
 		local_manpower = 2.355
 		local_sailors = 3925
-		province_trade_power_value = 47.1
+		province_trade_power_value = 39.25
 		land_forcelimit = 1.57
 		on_activation = { }
 		on_deactivation  = { }
@@ -7262,11 +7262,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 39.5
-		trade_goods_size = 3.95
+		tax_income = 31.6
+		trade_goods_size = 3.16
 		local_manpower = 2.37
 		local_sailors = 3950
-		province_trade_power_value = 47.4
+		province_trade_power_value = 39.5
 		land_forcelimit = 1.58
 		on_activation = { }
 		on_deactivation  = { }
@@ -7275,11 +7275,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 39.75
-		trade_goods_size = 3.975
+		tax_income = 31.8
+		trade_goods_size = 3.18
 		local_manpower = 2.385
 		local_sailors = 3975
-		province_trade_power_value = 47.7
+		province_trade_power_value = 39.75
 		land_forcelimit = 1.59
 		on_activation = { }
 		on_deactivation  = { }
@@ -7288,11 +7288,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 40
-		trade_goods_size = 4
+		tax_income = 32
+		trade_goods_size = 3.2
 		local_manpower = 2.4
 		local_sailors = 4000
-		province_trade_power_value = 48
+		province_trade_power_value = 40
 		land_forcelimit = 1.6
 		on_activation = { }
 		on_deactivation  = { }
@@ -7301,11 +7301,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 40.25
-		trade_goods_size = 4.025
+		tax_income = 32.2
+		trade_goods_size = 3.22
 		local_manpower = 2.415
 		local_sailors = 4025
-		province_trade_power_value = 48.3
+		province_trade_power_value = 40.25
 		land_forcelimit = 1.61
 		on_activation = { }
 		on_deactivation  = { }
@@ -7314,11 +7314,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 40.5
-		trade_goods_size = 4.05
+		tax_income = 32.4
+		trade_goods_size = 3.24
 		local_manpower = 2.43
 		local_sailors = 4050
-		province_trade_power_value = 48.6
+		province_trade_power_value = 40.5
 		land_forcelimit = 1.62
 		on_activation = { }
 		on_deactivation  = { }
@@ -7327,11 +7327,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 40.75
-		trade_goods_size = 4.075
+		tax_income = 32.6
+		trade_goods_size = 3.26
 		local_manpower = 2.445
 		local_sailors = 4075
-		province_trade_power_value = 48.9
+		province_trade_power_value = 40.75
 		land_forcelimit = 1.63
 		on_activation = { }
 		on_deactivation  = { }
@@ -7340,11 +7340,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 41
-		trade_goods_size = 4.1
+		tax_income = 32.8
+		trade_goods_size = 3.28
 		local_manpower = 2.46
 		local_sailors = 4100
-		province_trade_power_value = 49.2
+		province_trade_power_value = 41
 		land_forcelimit = 1.64
 		on_activation = { }
 		on_deactivation  = { }
@@ -7353,11 +7353,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 41.25
-		trade_goods_size = 4.125
+		tax_income = 33
+		trade_goods_size = 3.3
 		local_manpower = 2.475
 		local_sailors = 4125
-		province_trade_power_value = 49.5
+		province_trade_power_value = 41.25
 		land_forcelimit = 1.65
 		on_activation = { }
 		on_deactivation  = { }
@@ -7366,11 +7366,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 41.5
-		trade_goods_size = 4.15
+		tax_income = 33.2
+		trade_goods_size = 3.32
 		local_manpower = 2.49
 		local_sailors = 4150
-		province_trade_power_value = 49.8
+		province_trade_power_value = 41.5
 		land_forcelimit = 1.66
 		on_activation = { }
 		on_deactivation  = { }
@@ -7379,11 +7379,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 41.75
-		trade_goods_size = 4.175
+		tax_income = 33.4
+		trade_goods_size = 3.34
 		local_manpower = 2.505
 		local_sailors = 4175
-		province_trade_power_value = 50.1
+		province_trade_power_value = 41.75
 		land_forcelimit = 1.67
 		on_activation = { }
 		on_deactivation  = { }
@@ -7392,11 +7392,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 42
-		trade_goods_size = 4.2
+		tax_income = 33.6
+		trade_goods_size = 3.36
 		local_manpower = 2.52
 		local_sailors = 4200
-		province_trade_power_value = 50.4
+		province_trade_power_value = 42
 		land_forcelimit = 1.68
 		on_activation = { }
 		on_deactivation  = { }
@@ -7405,11 +7405,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 42.25
-		trade_goods_size = 4.225
+		tax_income = 33.8
+		trade_goods_size = 3.38
 		local_manpower = 2.535
 		local_sailors = 4225
-		province_trade_power_value = 50.7
+		province_trade_power_value = 42.25
 		land_forcelimit = 1.69
 		on_activation = { }
 		on_deactivation  = { }
@@ -7418,11 +7418,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 42.5
-		trade_goods_size = 4.25
+		tax_income = 34
+		trade_goods_size = 3.4
 		local_manpower = 2.55
 		local_sailors = 4250
-		province_trade_power_value = 51
+		province_trade_power_value = 42.5
 		land_forcelimit = 1.7
 		on_activation = { }
 		on_deactivation  = { }
@@ -7431,11 +7431,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 42.75
-		trade_goods_size = 4.275
+		tax_income = 34.2
+		trade_goods_size = 3.42
 		local_manpower = 2.565
 		local_sailors = 4275
-		province_trade_power_value = 51.3
+		province_trade_power_value = 42.75
 		land_forcelimit = 1.71
 		on_activation = { }
 		on_deactivation  = { }
@@ -7444,11 +7444,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 43
-		trade_goods_size = 4.3
+		tax_income = 34.4
+		trade_goods_size = 3.44
 		local_manpower = 2.58
 		local_sailors = 4300
-		province_trade_power_value = 51.6
+		province_trade_power_value = 43
 		land_forcelimit = 1.72
 		on_activation = { }
 		on_deactivation  = { }
@@ -7457,11 +7457,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 43.25
-		trade_goods_size = 4.325
+		tax_income = 34.6
+		trade_goods_size = 3.46
 		local_manpower = 2.595
 		local_sailors = 4325
-		province_trade_power_value = 51.9
+		province_trade_power_value = 43.25
 		land_forcelimit = 1.73
 		on_activation = { }
 		on_deactivation  = { }
@@ -7470,11 +7470,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 43.5
-		trade_goods_size = 4.35
+		tax_income = 34.8
+		trade_goods_size = 3.48
 		local_manpower = 2.61
 		local_sailors = 4350
-		province_trade_power_value = 52.2
+		province_trade_power_value = 43.5
 		land_forcelimit = 1.74
 		on_activation = { }
 		on_deactivation  = { }
@@ -7483,11 +7483,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 43.75
-		trade_goods_size = 4.375
+		tax_income = 35
+		trade_goods_size = 3.5
 		local_manpower = 2.625
 		local_sailors = 4375
-		province_trade_power_value = 52.5
+		province_trade_power_value = 43.75
 		land_forcelimit = 1.75
 		on_activation = { }
 		on_deactivation  = { }
@@ -7496,11 +7496,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 44
-		trade_goods_size = 4.4
+		tax_income = 35.2
+		trade_goods_size = 3.52
 		local_manpower = 2.64
 		local_sailors = 4400
-		province_trade_power_value = 52.8
+		province_trade_power_value = 44
 		land_forcelimit = 1.76
 		on_activation = { }
 		on_deactivation  = { }
@@ -7509,11 +7509,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 44.25
-		trade_goods_size = 4.425
+		tax_income = 35.4
+		trade_goods_size = 3.54
 		local_manpower = 2.655
 		local_sailors = 4425
-		province_trade_power_value = 53.1
+		province_trade_power_value = 44.25
 		land_forcelimit = 1.77
 		on_activation = { }
 		on_deactivation  = { }
@@ -7522,11 +7522,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 44.5
-		trade_goods_size = 4.45
+		tax_income = 35.6
+		trade_goods_size = 3.56
 		local_manpower = 2.67
 		local_sailors = 4450
-		province_trade_power_value = 53.4
+		province_trade_power_value = 44.5
 		land_forcelimit = 1.78
 		on_activation = { }
 		on_deactivation  = { }
@@ -7535,11 +7535,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 44.75
-		trade_goods_size = 4.475
+		tax_income = 35.8
+		trade_goods_size = 3.58
 		local_manpower = 2.685
 		local_sailors = 4475
-		province_trade_power_value = 53.7
+		province_trade_power_value = 44.75
 		land_forcelimit = 1.79
 		on_activation = { }
 		on_deactivation  = { }
@@ -7548,11 +7548,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 45
-		trade_goods_size = 4.5
+		tax_income = 36
+		trade_goods_size = 3.6
 		local_manpower = 2.7
 		local_sailors = 4500
-		province_trade_power_value = 54
+		province_trade_power_value = 45
 		land_forcelimit = 1.8
 		on_activation = { }
 		on_deactivation  = { }
@@ -7561,11 +7561,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 45.25
-		trade_goods_size = 4.525
+		tax_income = 36.2
+		trade_goods_size = 3.62
 		local_manpower = 2.715
 		local_sailors = 4525
-		province_trade_power_value = 54.3
+		province_trade_power_value = 45.25
 		land_forcelimit = 1.81
 		on_activation = { }
 		on_deactivation  = { }
@@ -7574,11 +7574,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 45.5
-		trade_goods_size = 4.55
+		tax_income = 36.4
+		trade_goods_size = 3.64
 		local_manpower = 2.73
 		local_sailors = 4550
-		province_trade_power_value = 54.6
+		province_trade_power_value = 45.5
 		land_forcelimit = 1.82
 		on_activation = { }
 		on_deactivation  = { }
@@ -7587,11 +7587,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 45.75
-		trade_goods_size = 4.575
+		tax_income = 36.6
+		trade_goods_size = 3.66
 		local_manpower = 2.745
 		local_sailors = 4575
-		province_trade_power_value = 54.9
+		province_trade_power_value = 45.75
 		land_forcelimit = 1.83
 		on_activation = { }
 		on_deactivation  = { }
@@ -7600,11 +7600,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 46
-		trade_goods_size = 4.6
+		tax_income = 36.8
+		trade_goods_size = 3.68
 		local_manpower = 2.76
 		local_sailors = 4600
-		province_trade_power_value = 55.2
+		province_trade_power_value = 46
 		land_forcelimit = 1.84
 		on_activation = { }
 		on_deactivation  = { }
@@ -7613,11 +7613,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 46.25
-		trade_goods_size = 4.625
+		tax_income = 37
+		trade_goods_size = 3.7
 		local_manpower = 2.775
 		local_sailors = 4625
-		province_trade_power_value = 55.5
+		province_trade_power_value = 46.25
 		land_forcelimit = 1.85
 		on_activation = { }
 		on_deactivation  = { }
@@ -7626,11 +7626,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 46.5
-		trade_goods_size = 4.65
+		tax_income = 37.2
+		trade_goods_size = 3.72
 		local_manpower = 2.79
 		local_sailors = 4650
-		province_trade_power_value = 55.8
+		province_trade_power_value = 46.5
 		land_forcelimit = 1.86
 		on_activation = { }
 		on_deactivation  = { }
@@ -7639,11 +7639,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 46.75
-		trade_goods_size = 4.675
+		tax_income = 37.4
+		trade_goods_size = 3.74
 		local_manpower = 2.805
 		local_sailors = 4675
-		province_trade_power_value = 56.1
+		province_trade_power_value = 46.75
 		land_forcelimit = 1.87
 		on_activation = { }
 		on_deactivation  = { }
@@ -7652,11 +7652,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 47
-		trade_goods_size = 4.7
+		tax_income = 37.6
+		trade_goods_size = 3.76
 		local_manpower = 2.82
 		local_sailors = 4700
-		province_trade_power_value = 56.4
+		province_trade_power_value = 47
 		land_forcelimit = 1.88
 		on_activation = { }
 		on_deactivation  = { }
@@ -7665,11 +7665,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 47.25
-		trade_goods_size = 4.725
+		tax_income = 37.8
+		trade_goods_size = 3.78
 		local_manpower = 2.835
 		local_sailors = 4725
-		province_trade_power_value = 56.7
+		province_trade_power_value = 47.25
 		land_forcelimit = 1.89
 		on_activation = { }
 		on_deactivation  = { }
@@ -7678,11 +7678,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 47.5
-		trade_goods_size = 4.75
+		tax_income = 38
+		trade_goods_size = 3.8
 		local_manpower = 2.85
 		local_sailors = 4750
-		province_trade_power_value = 57
+		province_trade_power_value = 47.5
 		land_forcelimit = 1.9
 		on_activation = { }
 		on_deactivation  = { }
@@ -7691,11 +7691,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 47.75
-		trade_goods_size = 4.775
+		tax_income = 38.2
+		trade_goods_size = 3.82
 		local_manpower = 2.865
 		local_sailors = 4775
-		province_trade_power_value = 57.3
+		province_trade_power_value = 47.75
 		land_forcelimit = 1.91
 		on_activation = { }
 		on_deactivation  = { }
@@ -7704,11 +7704,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 48
-		trade_goods_size = 4.8
+		tax_income = 38.4
+		trade_goods_size = 3.84
 		local_manpower = 2.88
 		local_sailors = 4800
-		province_trade_power_value = 57.6
+		province_trade_power_value = 48
 		land_forcelimit = 1.92
 		on_activation = { }
 		on_deactivation  = { }
@@ -7717,11 +7717,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 48.25
-		trade_goods_size = 4.825
+		tax_income = 38.6
+		trade_goods_size = 3.86
 		local_manpower = 2.895
 		local_sailors = 4825
-		province_trade_power_value = 57.9
+		province_trade_power_value = 48.25
 		land_forcelimit = 1.93
 		on_activation = { }
 		on_deactivation  = { }
@@ -7730,11 +7730,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 48.5
-		trade_goods_size = 4.85
+		tax_income = 38.8
+		trade_goods_size = 3.88
 		local_manpower = 2.91
 		local_sailors = 4850
-		province_trade_power_value = 58.2
+		province_trade_power_value = 48.5
 		land_forcelimit = 1.94
 		on_activation = { }
 		on_deactivation  = { }
@@ -7743,11 +7743,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 48.75
-		trade_goods_size = 4.875
+		tax_income = 39
+		trade_goods_size = 3.9
 		local_manpower = 2.925
 		local_sailors = 4875
-		province_trade_power_value = 58.5
+		province_trade_power_value = 48.75
 		land_forcelimit = 1.95
 		on_activation = { }
 		on_deactivation  = { }
@@ -7756,11 +7756,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 49
-		trade_goods_size = 4.9
+		tax_income = 39.2
+		trade_goods_size = 3.92
 		local_manpower = 2.94
 		local_sailors = 4900
-		province_trade_power_value = 58.8
+		province_trade_power_value = 49
 		land_forcelimit = 1.96
 		on_activation = { }
 		on_deactivation  = { }
@@ -7769,11 +7769,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 49.25
-		trade_goods_size = 4.925
+		tax_income = 39.4
+		trade_goods_size = 3.94
 		local_manpower = 2.955
 		local_sailors = 4925
-		province_trade_power_value = 59.1
+		province_trade_power_value = 49.25
 		land_forcelimit = 1.97
 		on_activation = { }
 		on_deactivation  = { }
@@ -7782,11 +7782,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 49.5
-		trade_goods_size = 4.95
+		tax_income = 39.6
+		trade_goods_size = 3.96
 		local_manpower = 2.97
 		local_sailors = 4950
-		province_trade_power_value = 59.4
+		province_trade_power_value = 49.5
 		land_forcelimit = 1.98
 		on_activation = { }
 		on_deactivation  = { }
@@ -7795,11 +7795,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 49.75
-		trade_goods_size = 4.975
+		tax_income = 39.8
+		trade_goods_size = 3.98
 		local_manpower = 2.985
 		local_sailors = 4975
-		province_trade_power_value = 59.7
+		province_trade_power_value = 49.75
 		land_forcelimit = 1.99
 		on_activation = { }
 		on_deactivation  = { }
@@ -7808,11 +7808,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 50
-		trade_goods_size = 5
+		tax_income = 40
+		trade_goods_size = 4
 		local_manpower = 3
 		local_sailors = 5000
-		province_trade_power_value = 60
+		province_trade_power_value = 50
 		land_forcelimit = 2
 		on_activation = { }
 		on_deactivation  = { }
@@ -7821,11 +7821,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 50.25
-		trade_goods_size = 5.025
+		tax_income = 40.2
+		trade_goods_size = 4.02
 		local_manpower = 3.015
 		local_sailors = 5025
-		province_trade_power_value = 60.3
+		province_trade_power_value = 50.25
 		land_forcelimit = 2.01
 		on_activation = { }
 		on_deactivation  = { }
@@ -7834,11 +7834,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 50.5
-		trade_goods_size = 5.05
+		tax_income = 40.4
+		trade_goods_size = 4.04
 		local_manpower = 3.03
 		local_sailors = 5050
-		province_trade_power_value = 60.6
+		province_trade_power_value = 50.5
 		land_forcelimit = 2.02
 		on_activation = { }
 		on_deactivation  = { }
@@ -7847,11 +7847,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 50.75
-		trade_goods_size = 5.075
+		tax_income = 40.6
+		trade_goods_size = 4.06
 		local_manpower = 3.045
 		local_sailors = 5075
-		province_trade_power_value = 60.9
+		province_trade_power_value = 50.75
 		land_forcelimit = 2.03
 		on_activation = { }
 		on_deactivation  = { }
@@ -7860,11 +7860,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 51
-		trade_goods_size = 5.1
+		tax_income = 40.8
+		trade_goods_size = 4.08
 		local_manpower = 3.06
 		local_sailors = 5100
-		province_trade_power_value = 61.2
+		province_trade_power_value = 51
 		land_forcelimit = 2.04
 		on_activation = { }
 		on_deactivation  = { }
@@ -7873,11 +7873,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 51.25
-		trade_goods_size = 5.125
+		tax_income = 41
+		trade_goods_size = 4.1
 		local_manpower = 3.075
 		local_sailors = 5125
-		province_trade_power_value = 61.5
+		province_trade_power_value = 51.25
 		land_forcelimit = 2.05
 		on_activation = { }
 		on_deactivation  = { }
@@ -7886,11 +7886,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 51.5
-		trade_goods_size = 5.15
+		tax_income = 41.2
+		trade_goods_size = 4.12
 		local_manpower = 3.09
 		local_sailors = 5150
-		province_trade_power_value = 61.8
+		province_trade_power_value = 51.5
 		land_forcelimit = 2.06
 		on_activation = { }
 		on_deactivation  = { }
@@ -7899,11 +7899,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 51.75
-		trade_goods_size = 5.175
+		tax_income = 41.4
+		trade_goods_size = 4.14
 		local_manpower = 3.105
 		local_sailors = 5175
-		province_trade_power_value = 62.1
+		province_trade_power_value = 51.75
 		land_forcelimit = 2.07
 		on_activation = { }
 		on_deactivation  = { }
@@ -7912,11 +7912,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 52
-		trade_goods_size = 5.2
+		tax_income = 41.6
+		trade_goods_size = 4.16
 		local_manpower = 3.12
 		local_sailors = 5200
-		province_trade_power_value = 62.4
+		province_trade_power_value = 52
 		land_forcelimit = 2.08
 		on_activation = { }
 		on_deactivation  = { }
@@ -7925,11 +7925,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 52.25
-		trade_goods_size = 5.225
+		tax_income = 41.8
+		trade_goods_size = 4.18
 		local_manpower = 3.135
 		local_sailors = 5225
-		province_trade_power_value = 62.7
+		province_trade_power_value = 52.25
 		land_forcelimit = 2.09
 		on_activation = { }
 		on_deactivation  = { }
@@ -7938,11 +7938,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 52.5
-		trade_goods_size = 5.25
+		tax_income = 42
+		trade_goods_size = 4.2
 		local_manpower = 3.15
 		local_sailors = 5250
-		province_trade_power_value = 63
+		province_trade_power_value = 52.5
 		land_forcelimit = 2.1
 		on_activation = { }
 		on_deactivation  = { }
@@ -7951,11 +7951,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 52.75
-		trade_goods_size = 5.275
+		tax_income = 42.2
+		trade_goods_size = 4.22
 		local_manpower = 3.165
 		local_sailors = 5275
-		province_trade_power_value = 63.3
+		province_trade_power_value = 52.75
 		land_forcelimit = 2.11
 		on_activation = { }
 		on_deactivation  = { }
@@ -7964,11 +7964,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 53
-		trade_goods_size = 5.3
+		tax_income = 42.4
+		trade_goods_size = 4.24
 		local_manpower = 3.18
 		local_sailors = 5300
-		province_trade_power_value = 63.6
+		province_trade_power_value = 53
 		land_forcelimit = 2.12
 		on_activation = { }
 		on_deactivation  = { }
@@ -7977,11 +7977,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 53.25
-		trade_goods_size = 5.325
+		tax_income = 42.6
+		trade_goods_size = 4.26
 		local_manpower = 3.195
 		local_sailors = 5325
-		province_trade_power_value = 63.9
+		province_trade_power_value = 53.25
 		land_forcelimit = 2.13
 		on_activation = { }
 		on_deactivation  = { }
@@ -7990,11 +7990,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 53.5
-		trade_goods_size = 5.35
+		tax_income = 42.8
+		trade_goods_size = 4.28
 		local_manpower = 3.21
 		local_sailors = 5350
-		province_trade_power_value = 64.2
+		province_trade_power_value = 53.5
 		land_forcelimit = 2.14
 		on_activation = { }
 		on_deactivation  = { }
@@ -8003,11 +8003,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 53.75
-		trade_goods_size = 5.375
+		tax_income = 43
+		trade_goods_size = 4.3
 		local_manpower = 3.225
 		local_sailors = 5375
-		province_trade_power_value = 64.5
+		province_trade_power_value = 53.75
 		land_forcelimit = 2.15
 		on_activation = { }
 		on_deactivation  = { }
@@ -8016,11 +8016,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 54
-		trade_goods_size = 5.4
+		tax_income = 43.2
+		trade_goods_size = 4.32
 		local_manpower = 3.24
 		local_sailors = 5400
-		province_trade_power_value = 64.8
+		province_trade_power_value = 54
 		land_forcelimit = 2.16
 		on_activation = { }
 		on_deactivation  = { }
@@ -8029,11 +8029,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 54.25
-		trade_goods_size = 5.425
+		tax_income = 43.4
+		trade_goods_size = 4.34
 		local_manpower = 3.255
 		local_sailors = 5425
-		province_trade_power_value = 65.1
+		province_trade_power_value = 54.25
 		land_forcelimit = 2.17
 		on_activation = { }
 		on_deactivation  = { }
@@ -8042,11 +8042,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 54.5
-		trade_goods_size = 5.45
+		tax_income = 43.6
+		trade_goods_size = 4.36
 		local_manpower = 3.27
 		local_sailors = 5450
-		province_trade_power_value = 65.4
+		province_trade_power_value = 54.5
 		land_forcelimit = 2.18
 		on_activation = { }
 		on_deactivation  = { }
@@ -8055,11 +8055,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 54.75
-		trade_goods_size = 5.475
+		tax_income = 43.8
+		trade_goods_size = 4.38
 		local_manpower = 3.285
 		local_sailors = 5475
-		province_trade_power_value = 65.7
+		province_trade_power_value = 54.75
 		land_forcelimit = 2.19
 		on_activation = { }
 		on_deactivation  = { }
@@ -8068,11 +8068,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 55
-		trade_goods_size = 5.5
+		tax_income = 44
+		trade_goods_size = 4.4
 		local_manpower = 3.3
 		local_sailors = 5500
-		province_trade_power_value = 66
+		province_trade_power_value = 55
 		land_forcelimit = 2.2
 		on_activation = { }
 		on_deactivation  = { }
@@ -8081,11 +8081,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 55.25
-		trade_goods_size = 5.525
+		tax_income = 44.2
+		trade_goods_size = 4.42
 		local_manpower = 3.315
 		local_sailors = 5525
-		province_trade_power_value = 66.3
+		province_trade_power_value = 55.25
 		land_forcelimit = 2.21
 		on_activation = { }
 		on_deactivation  = { }
@@ -8094,11 +8094,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 55.5
-		trade_goods_size = 5.55
+		tax_income = 44.4
+		trade_goods_size = 4.44
 		local_manpower = 3.33
 		local_sailors = 5550
-		province_trade_power_value = 66.6
+		province_trade_power_value = 55.5
 		land_forcelimit = 2.22
 		on_activation = { }
 		on_deactivation  = { }
@@ -8107,11 +8107,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 55.75
-		trade_goods_size = 5.575
+		tax_income = 44.6
+		trade_goods_size = 4.46
 		local_manpower = 3.345
 		local_sailors = 5575
-		province_trade_power_value = 66.9
+		province_trade_power_value = 55.75
 		land_forcelimit = 2.23
 		on_activation = { }
 		on_deactivation  = { }
@@ -8120,11 +8120,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 56
-		trade_goods_size = 5.6
+		tax_income = 44.8
+		trade_goods_size = 4.48
 		local_manpower = 3.36
 		local_sailors = 5600
-		province_trade_power_value = 67.2
+		province_trade_power_value = 56
 		land_forcelimit = 2.24
 		on_activation = { }
 		on_deactivation  = { }
@@ -8133,11 +8133,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 56.25
-		trade_goods_size = 5.625
+		tax_income = 45
+		trade_goods_size = 4.5
 		local_manpower = 3.375
 		local_sailors = 5625
-		province_trade_power_value = 67.5
+		province_trade_power_value = 56.25
 		land_forcelimit = 2.25
 		on_activation = { }
 		on_deactivation  = { }
@@ -8146,11 +8146,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 56.5
-		trade_goods_size = 5.65
+		tax_income = 45.2
+		trade_goods_size = 4.52
 		local_manpower = 3.39
 		local_sailors = 5650
-		province_trade_power_value = 67.8
+		province_trade_power_value = 56.5
 		land_forcelimit = 2.26
 		on_activation = { }
 		on_deactivation  = { }
@@ -8159,11 +8159,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 56.75
-		trade_goods_size = 5.675
+		tax_income = 45.4
+		trade_goods_size = 4.54
 		local_manpower = 3.405
 		local_sailors = 5675
-		province_trade_power_value = 68.1
+		province_trade_power_value = 56.75
 		land_forcelimit = 2.27
 		on_activation = { }
 		on_deactivation  = { }
@@ -8172,11 +8172,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 57
-		trade_goods_size = 5.7
+		tax_income = 45.6
+		trade_goods_size = 4.56
 		local_manpower = 3.42
 		local_sailors = 5700
-		province_trade_power_value = 68.4
+		province_trade_power_value = 57
 		land_forcelimit = 2.28
 		on_activation = { }
 		on_deactivation  = { }
@@ -8185,11 +8185,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 57.25
-		trade_goods_size = 5.725
+		tax_income = 45.8
+		trade_goods_size = 4.58
 		local_manpower = 3.435
 		local_sailors = 5725
-		province_trade_power_value = 68.7
+		province_trade_power_value = 57.25
 		land_forcelimit = 2.29
 		on_activation = { }
 		on_deactivation  = { }
@@ -8198,11 +8198,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 57.5
-		trade_goods_size = 5.75
+		tax_income = 46
+		trade_goods_size = 4.6
 		local_manpower = 3.45
 		local_sailors = 5750
-		province_trade_power_value = 69
+		province_trade_power_value = 57.5
 		land_forcelimit = 2.3
 		on_activation = { }
 		on_deactivation  = { }
@@ -8211,11 +8211,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 57.75
-		trade_goods_size = 5.775
+		tax_income = 46.2
+		trade_goods_size = 4.62
 		local_manpower = 3.465
 		local_sailors = 5775
-		province_trade_power_value = 69.3
+		province_trade_power_value = 57.75
 		land_forcelimit = 2.31
 		on_activation = { }
 		on_deactivation  = { }
@@ -8224,11 +8224,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 58
-		trade_goods_size = 5.8
+		tax_income = 46.4
+		trade_goods_size = 4.64
 		local_manpower = 3.48
 		local_sailors = 5800
-		province_trade_power_value = 69.6
+		province_trade_power_value = 58
 		land_forcelimit = 2.32
 		on_activation = { }
 		on_deactivation  = { }
@@ -8237,11 +8237,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 58.25
-		trade_goods_size = 5.825
+		tax_income = 46.6
+		trade_goods_size = 4.66
 		local_manpower = 3.495
 		local_sailors = 5825
-		province_trade_power_value = 69.9
+		province_trade_power_value = 58.25
 		land_forcelimit = 2.33
 		on_activation = { }
 		on_deactivation  = { }
@@ -8250,11 +8250,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 58.5
-		trade_goods_size = 5.85
+		tax_income = 46.8
+		trade_goods_size = 4.68
 		local_manpower = 3.51
 		local_sailors = 5850
-		province_trade_power_value = 70.2
+		province_trade_power_value = 58.5
 		land_forcelimit = 2.34
 		on_activation = { }
 		on_deactivation  = { }
@@ -8263,11 +8263,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 58.75
-		trade_goods_size = 5.875
+		tax_income = 47
+		trade_goods_size = 4.7
 		local_manpower = 3.525
 		local_sailors = 5875
-		province_trade_power_value = 70.5
+		province_trade_power_value = 58.75
 		land_forcelimit = 2.35
 		on_activation = { }
 		on_deactivation  = { }
@@ -8276,11 +8276,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 59
-		trade_goods_size = 5.9
+		tax_income = 47.2
+		trade_goods_size = 4.72
 		local_manpower = 3.54
 		local_sailors = 5900
-		province_trade_power_value = 70.8
+		province_trade_power_value = 59
 		land_forcelimit = 2.36
 		on_activation = { }
 		on_deactivation  = { }
@@ -8289,11 +8289,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 59.25
-		trade_goods_size = 5.925
+		tax_income = 47.4
+		trade_goods_size = 4.74
 		local_manpower = 3.555
 		local_sailors = 5925
-		province_trade_power_value = 71.1
+		province_trade_power_value = 59.25
 		land_forcelimit = 2.37
 		on_activation = { }
 		on_deactivation  = { }
@@ -8302,11 +8302,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 59.5
-		trade_goods_size = 5.95
+		tax_income = 47.6
+		trade_goods_size = 4.76
 		local_manpower = 3.57
 		local_sailors = 5950
-		province_trade_power_value = 71.4
+		province_trade_power_value = 59.5
 		land_forcelimit = 2.38
 		on_activation = { }
 		on_deactivation  = { }
@@ -8315,11 +8315,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 59.75
-		trade_goods_size = 5.975
+		tax_income = 47.8
+		trade_goods_size = 4.78
 		local_manpower = 3.585
 		local_sailors = 5975
-		province_trade_power_value = 71.7
+		province_trade_power_value = 59.75
 		land_forcelimit = 2.39
 		on_activation = { }
 		on_deactivation  = { }
@@ -8328,11 +8328,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 60
-		trade_goods_size = 6
+		tax_income = 48
+		trade_goods_size = 4.8
 		local_manpower = 3.6
 		local_sailors = 6000
-		province_trade_power_value = 72
+		province_trade_power_value = 60
 		land_forcelimit = 2.4
 		on_activation = { }
 		on_deactivation  = { }
@@ -8341,11 +8341,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 60.25
-		trade_goods_size = 6.025
+		tax_income = 48.2
+		trade_goods_size = 4.82
 		local_manpower = 3.615
 		local_sailors = 6025
-		province_trade_power_value = 72.3
+		province_trade_power_value = 60.25
 		land_forcelimit = 2.41
 		on_activation = { }
 		on_deactivation  = { }
@@ -8354,11 +8354,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 60.5
-		trade_goods_size = 6.05
+		tax_income = 48.4
+		trade_goods_size = 4.84
 		local_manpower = 3.63
 		local_sailors = 6050
-		province_trade_power_value = 72.6
+		province_trade_power_value = 60.5
 		land_forcelimit = 2.42
 		on_activation = { }
 		on_deactivation  = { }
@@ -8367,11 +8367,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 60.75
-		trade_goods_size = 6.075
+		tax_income = 48.6
+		trade_goods_size = 4.86
 		local_manpower = 3.645
 		local_sailors = 6075
-		province_trade_power_value = 72.9
+		province_trade_power_value = 60.75
 		land_forcelimit = 2.43
 		on_activation = { }
 		on_deactivation  = { }
@@ -8380,11 +8380,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 61
-		trade_goods_size = 6.1
+		tax_income = 48.8
+		trade_goods_size = 4.88
 		local_manpower = 3.66
 		local_sailors = 6100
-		province_trade_power_value = 73.2
+		province_trade_power_value = 61
 		land_forcelimit = 2.44
 		on_activation = { }
 		on_deactivation  = { }
@@ -8393,11 +8393,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 61.25
-		trade_goods_size = 6.125
+		tax_income = 49
+		trade_goods_size = 4.9
 		local_manpower = 3.675
 		local_sailors = 6125
-		province_trade_power_value = 73.5
+		province_trade_power_value = 61.25
 		land_forcelimit = 2.45
 		on_activation = { }
 		on_deactivation  = { }
@@ -8406,11 +8406,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 61.5
-		trade_goods_size = 6.15
+		tax_income = 49.2
+		trade_goods_size = 4.92
 		local_manpower = 3.69
 		local_sailors = 6150
-		province_trade_power_value = 73.8
+		province_trade_power_value = 61.5
 		land_forcelimit = 2.46
 		on_activation = { }
 		on_deactivation  = { }
@@ -8419,11 +8419,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 61.75
-		trade_goods_size = 6.175
+		tax_income = 49.4
+		trade_goods_size = 4.94
 		local_manpower = 3.705
 		local_sailors = 6175
-		province_trade_power_value = 74.1
+		province_trade_power_value = 61.75
 		land_forcelimit = 2.47
 		on_activation = { }
 		on_deactivation  = { }
@@ -8432,11 +8432,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 62
-		trade_goods_size = 6.2
+		tax_income = 49.6
+		trade_goods_size = 4.96
 		local_manpower = 3.72
 		local_sailors = 6200
-		province_trade_power_value = 74.4
+		province_trade_power_value = 62
 		land_forcelimit = 2.48
 		on_activation = { }
 		on_deactivation  = { }
@@ -8445,11 +8445,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 62.25
-		trade_goods_size = 6.225
+		tax_income = 49.8
+		trade_goods_size = 4.98
 		local_manpower = 3.735
 		local_sailors = 6225
-		province_trade_power_value = 74.7
+		province_trade_power_value = 62.25
 		land_forcelimit = 2.49
 		on_activation = { }
 		on_deactivation  = { }
@@ -8458,11 +8458,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 62.5
-		trade_goods_size = 6.25
+		tax_income = 50
+		trade_goods_size = 5
 		local_manpower = 3.75
 		local_sailors = 6250
-		province_trade_power_value = 75
+		province_trade_power_value = 62.5
 		land_forcelimit = 2.5
 		on_activation = { }
 		on_deactivation  = { }
@@ -8471,11 +8471,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 62.75
-		trade_goods_size = 6.275
+		tax_income = 50.2
+		trade_goods_size = 5.02
 		local_manpower = 3.765
 		local_sailors = 6275
-		province_trade_power_value = 75.3
+		province_trade_power_value = 62.75
 		land_forcelimit = 2.51
 		on_activation = { }
 		on_deactivation  = { }
@@ -8484,11 +8484,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 63
-		trade_goods_size = 6.3
+		tax_income = 50.4
+		trade_goods_size = 5.04
 		local_manpower = 3.78
 		local_sailors = 6300
-		province_trade_power_value = 75.6
+		province_trade_power_value = 63
 		land_forcelimit = 2.52
 		on_activation = { }
 		on_deactivation  = { }
@@ -8497,11 +8497,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 63.25
-		trade_goods_size = 6.325
+		tax_income = 50.6
+		trade_goods_size = 5.06
 		local_manpower = 3.795
 		local_sailors = 6325
-		province_trade_power_value = 75.9
+		province_trade_power_value = 63.25
 		land_forcelimit = 2.53
 		on_activation = { }
 		on_deactivation  = { }
@@ -8510,11 +8510,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 63.5
-		trade_goods_size = 6.35
+		tax_income = 50.8
+		trade_goods_size = 5.08
 		local_manpower = 3.81
 		local_sailors = 6350
-		province_trade_power_value = 76.2
+		province_trade_power_value = 63.5
 		land_forcelimit = 2.54
 		on_activation = { }
 		on_deactivation  = { }
@@ -8523,11 +8523,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 63.75
-		trade_goods_size = 6.375
+		tax_income = 51
+		trade_goods_size = 5.1
 		local_manpower = 3.825
 		local_sailors = 6375
-		province_trade_power_value = 76.5
+		province_trade_power_value = 63.75
 		land_forcelimit = 2.55
 		on_activation = { }
 		on_deactivation  = { }
@@ -8536,11 +8536,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 64
-		trade_goods_size = 6.4
+		tax_income = 51.2
+		trade_goods_size = 5.12
 		local_manpower = 3.84
 		local_sailors = 6400
-		province_trade_power_value = 76.8
+		province_trade_power_value = 64
 		land_forcelimit = 2.56
 		on_activation = { }
 		on_deactivation  = { }
@@ -8549,11 +8549,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 64.25
-		trade_goods_size = 6.425
+		tax_income = 51.4
+		trade_goods_size = 5.14
 		local_manpower = 3.855
 		local_sailors = 6425
-		province_trade_power_value = 77.1
+		province_trade_power_value = 64.25
 		land_forcelimit = 2.57
 		on_activation = { }
 		on_deactivation  = { }
@@ -8562,11 +8562,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 64.5
-		trade_goods_size = 6.45
+		tax_income = 51.6
+		trade_goods_size = 5.16
 		local_manpower = 3.87
 		local_sailors = 6450
-		province_trade_power_value = 77.4
+		province_trade_power_value = 64.5
 		land_forcelimit = 2.58
 		on_activation = { }
 		on_deactivation  = { }
@@ -8575,11 +8575,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 64.75
-		trade_goods_size = 6.475
+		tax_income = 51.8
+		trade_goods_size = 5.18
 		local_manpower = 3.885
 		local_sailors = 6475
-		province_trade_power_value = 77.7
+		province_trade_power_value = 64.75
 		land_forcelimit = 2.59
 		on_activation = { }
 		on_deactivation  = { }
@@ -8588,11 +8588,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 65
-		trade_goods_size = 6.5
+		tax_income = 52
+		trade_goods_size = 5.2
 		local_manpower = 3.9
 		local_sailors = 6500
-		province_trade_power_value = 78
+		province_trade_power_value = 65
 		land_forcelimit = 2.6
 		on_activation = { }
 		on_deactivation  = { }
@@ -8601,11 +8601,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 65.25
-		trade_goods_size = 6.525
+		tax_income = 52.2
+		trade_goods_size = 5.22
 		local_manpower = 3.915
 		local_sailors = 6525
-		province_trade_power_value = 78.3
+		province_trade_power_value = 65.25
 		land_forcelimit = 2.61
 		on_activation = { }
 		on_deactivation  = { }
@@ -8614,11 +8614,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 65.5
-		trade_goods_size = 6.55
+		tax_income = 52.4
+		trade_goods_size = 5.24
 		local_manpower = 3.93
 		local_sailors = 6550
-		province_trade_power_value = 78.6
+		province_trade_power_value = 65.5
 		land_forcelimit = 2.62
 		on_activation = { }
 		on_deactivation  = { }
@@ -8627,11 +8627,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 65.75
-		trade_goods_size = 6.575
+		tax_income = 52.6
+		trade_goods_size = 5.26
 		local_manpower = 3.945
 		local_sailors = 6575
-		province_trade_power_value = 78.9
+		province_trade_power_value = 65.75
 		land_forcelimit = 2.63
 		on_activation = { }
 		on_deactivation  = { }
@@ -8640,11 +8640,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 66
-		trade_goods_size = 6.6
+		tax_income = 52.8
+		trade_goods_size = 5.28
 		local_manpower = 3.96
 		local_sailors = 6600
-		province_trade_power_value = 79.2
+		province_trade_power_value = 66
 		land_forcelimit = 2.64
 		on_activation = { }
 		on_deactivation  = { }
@@ -8653,11 +8653,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 66.25
-		trade_goods_size = 6.625
+		tax_income = 53
+		trade_goods_size = 5.3
 		local_manpower = 3.975
 		local_sailors = 6625
-		province_trade_power_value = 79.5
+		province_trade_power_value = 66.25
 		land_forcelimit = 2.65
 		on_activation = { }
 		on_deactivation  = { }
@@ -8666,11 +8666,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 66.5
-		trade_goods_size = 6.65
+		tax_income = 53.2
+		trade_goods_size = 5.32
 		local_manpower = 3.99
 		local_sailors = 6650
-		province_trade_power_value = 79.8
+		province_trade_power_value = 66.5
 		land_forcelimit = 2.66
 		on_activation = { }
 		on_deactivation  = { }
@@ -8679,11 +8679,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 66.75
-		trade_goods_size = 6.675
+		tax_income = 53.4
+		trade_goods_size = 5.34
 		local_manpower = 4.005
 		local_sailors = 6675
-		province_trade_power_value = 80.1
+		province_trade_power_value = 66.75
 		land_forcelimit = 2.67
 		on_activation = { }
 		on_deactivation  = { }
@@ -8692,11 +8692,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 67
-		trade_goods_size = 6.7
+		tax_income = 53.6
+		trade_goods_size = 5.36
 		local_manpower = 4.02
 		local_sailors = 6700
-		province_trade_power_value = 80.4
+		province_trade_power_value = 67
 		land_forcelimit = 2.68
 		on_activation = { }
 		on_deactivation  = { }
@@ -8705,11 +8705,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 67.25
-		trade_goods_size = 6.725
+		tax_income = 53.8
+		trade_goods_size = 5.38
 		local_manpower = 4.035
 		local_sailors = 6725
-		province_trade_power_value = 80.7
+		province_trade_power_value = 67.25
 		land_forcelimit = 2.69
 		on_activation = { }
 		on_deactivation  = { }
@@ -8718,11 +8718,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 67.5
-		trade_goods_size = 6.75
+		tax_income = 54
+		trade_goods_size = 5.4
 		local_manpower = 4.05
 		local_sailors = 6750
-		province_trade_power_value = 81
+		province_trade_power_value = 67.5
 		land_forcelimit = 2.7
 		on_activation = { }
 		on_deactivation  = { }
@@ -8731,11 +8731,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 67.75
-		trade_goods_size = 6.775
+		tax_income = 54.2
+		trade_goods_size = 5.42
 		local_manpower = 4.065
 		local_sailors = 6775
-		province_trade_power_value = 81.3
+		province_trade_power_value = 67.75
 		land_forcelimit = 2.71
 		on_activation = { }
 		on_deactivation  = { }
@@ -8744,11 +8744,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 68
-		trade_goods_size = 6.8
+		tax_income = 54.4
+		trade_goods_size = 5.44
 		local_manpower = 4.08
 		local_sailors = 6800
-		province_trade_power_value = 81.6
+		province_trade_power_value = 68
 		land_forcelimit = 2.72
 		on_activation = { }
 		on_deactivation  = { }
@@ -8757,11 +8757,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 68.25
-		trade_goods_size = 6.825
+		tax_income = 54.6
+		trade_goods_size = 5.46
 		local_manpower = 4.095
 		local_sailors = 6825
-		province_trade_power_value = 81.9
+		province_trade_power_value = 68.25
 		land_forcelimit = 2.73
 		on_activation = { }
 		on_deactivation  = { }
@@ -8770,11 +8770,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 68.5
-		trade_goods_size = 6.85
+		tax_income = 54.8
+		trade_goods_size = 5.48
 		local_manpower = 4.11
 		local_sailors = 6850
-		province_trade_power_value = 82.2
+		province_trade_power_value = 68.5
 		land_forcelimit = 2.74
 		on_activation = { }
 		on_deactivation  = { }
@@ -8783,11 +8783,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 68.75
-		trade_goods_size = 6.875
+		tax_income = 55
+		trade_goods_size = 5.5
 		local_manpower = 4.125
 		local_sailors = 6875
-		province_trade_power_value = 82.5
+		province_trade_power_value = 68.75
 		land_forcelimit = 2.75
 		on_activation = { }
 		on_deactivation  = { }
@@ -8796,11 +8796,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 69
-		trade_goods_size = 6.9
+		tax_income = 55.2
+		trade_goods_size = 5.52
 		local_manpower = 4.14
 		local_sailors = 6900
-		province_trade_power_value = 82.8
+		province_trade_power_value = 69
 		land_forcelimit = 2.76
 		on_activation = { }
 		on_deactivation  = { }
@@ -8809,11 +8809,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 69.25
-		trade_goods_size = 6.925
+		tax_income = 55.4
+		trade_goods_size = 5.54
 		local_manpower = 4.155
 		local_sailors = 6925
-		province_trade_power_value = 83.1
+		province_trade_power_value = 69.25
 		land_forcelimit = 2.77
 		on_activation = { }
 		on_deactivation  = { }
@@ -8822,11 +8822,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 69.5
-		trade_goods_size = 6.95
+		tax_income = 55.6
+		trade_goods_size = 5.56
 		local_manpower = 4.17
 		local_sailors = 6950
-		province_trade_power_value = 83.4
+		province_trade_power_value = 69.5
 		land_forcelimit = 2.78
 		on_activation = { }
 		on_deactivation  = { }
@@ -8835,11 +8835,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 69.75
-		trade_goods_size = 6.975
+		tax_income = 55.8
+		trade_goods_size = 5.58
 		local_manpower = 4.185
 		local_sailors = 6975
-		province_trade_power_value = 83.7
+		province_trade_power_value = 69.75
 		land_forcelimit = 2.79
 		on_activation = { }
 		on_deactivation  = { }
@@ -8848,11 +8848,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 70
-		trade_goods_size = 7
+		tax_income = 56
+		trade_goods_size = 5.6
 		local_manpower = 4.2
 		local_sailors = 7000
-		province_trade_power_value = 84
+		province_trade_power_value = 70
 		land_forcelimit = 2.8
 		on_activation = { }
 		on_deactivation  = { }
@@ -8861,11 +8861,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 70.25
-		trade_goods_size = 7.025
+		tax_income = 56.2
+		trade_goods_size = 5.62
 		local_manpower = 4.215
 		local_sailors = 7025
-		province_trade_power_value = 84.3
+		province_trade_power_value = 70.25
 		land_forcelimit = 2.81
 		on_activation = { }
 		on_deactivation  = { }
@@ -8874,11 +8874,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 70.5
-		trade_goods_size = 7.05
+		tax_income = 56.4
+		trade_goods_size = 5.64
 		local_manpower = 4.23
 		local_sailors = 7050
-		province_trade_power_value = 84.6
+		province_trade_power_value = 70.5
 		land_forcelimit = 2.82
 		on_activation = { }
 		on_deactivation  = { }
@@ -8887,11 +8887,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 70.75
-		trade_goods_size = 7.075
+		tax_income = 56.6
+		trade_goods_size = 5.66
 		local_manpower = 4.245
 		local_sailors = 7075
-		province_trade_power_value = 84.9
+		province_trade_power_value = 70.75
 		land_forcelimit = 2.83
 		on_activation = { }
 		on_deactivation  = { }
@@ -8900,11 +8900,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 71
-		trade_goods_size = 7.1
+		tax_income = 56.8
+		trade_goods_size = 5.68
 		local_manpower = 4.26
 		local_sailors = 7100
-		province_trade_power_value = 85.2
+		province_trade_power_value = 71
 		land_forcelimit = 2.84
 		on_activation = { }
 		on_deactivation  = { }
@@ -8913,11 +8913,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 71.25
-		trade_goods_size = 7.125
+		tax_income = 57
+		trade_goods_size = 5.7
 		local_manpower = 4.275
 		local_sailors = 7125
-		province_trade_power_value = 85.5
+		province_trade_power_value = 71.25
 		land_forcelimit = 2.85
 		on_activation = { }
 		on_deactivation  = { }
@@ -8926,11 +8926,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 71.5
-		trade_goods_size = 7.15
+		tax_income = 57.2
+		trade_goods_size = 5.72
 		local_manpower = 4.29
 		local_sailors = 7150
-		province_trade_power_value = 85.8
+		province_trade_power_value = 71.5
 		land_forcelimit = 2.86
 		on_activation = { }
 		on_deactivation  = { }
@@ -8939,11 +8939,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 71.75
-		trade_goods_size = 7.175
+		tax_income = 57.4
+		trade_goods_size = 5.74
 		local_manpower = 4.305
 		local_sailors = 7175
-		province_trade_power_value = 86.1
+		province_trade_power_value = 71.75
 		land_forcelimit = 2.87
 		on_activation = { }
 		on_deactivation  = { }
@@ -8952,11 +8952,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 72
-		trade_goods_size = 7.2
+		tax_income = 57.6
+		trade_goods_size = 5.76
 		local_manpower = 4.32
 		local_sailors = 7200
-		province_trade_power_value = 86.4
+		province_trade_power_value = 72
 		land_forcelimit = 2.88
 		on_activation = { }
 		on_deactivation  = { }
@@ -8965,11 +8965,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 72.25
-		trade_goods_size = 7.225
+		tax_income = 57.8
+		trade_goods_size = 5.78
 		local_manpower = 4.335
 		local_sailors = 7225
-		province_trade_power_value = 86.7
+		province_trade_power_value = 72.25
 		land_forcelimit = 2.89
 		on_activation = { }
 		on_deactivation  = { }
@@ -8978,11 +8978,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 72.5
-		trade_goods_size = 7.25
+		tax_income = 58
+		trade_goods_size = 5.8
 		local_manpower = 4.35
 		local_sailors = 7250
-		province_trade_power_value = 87
+		province_trade_power_value = 72.5
 		land_forcelimit = 2.9
 		on_activation = { }
 		on_deactivation  = { }
@@ -8991,11 +8991,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 72.75
-		trade_goods_size = 7.275
+		tax_income = 58.2
+		trade_goods_size = 5.82
 		local_manpower = 4.365
 		local_sailors = 7275
-		province_trade_power_value = 87.3
+		province_trade_power_value = 72.75
 		land_forcelimit = 2.91
 		on_activation = { }
 		on_deactivation  = { }
@@ -9004,11 +9004,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 73
-		trade_goods_size = 7.3
+		tax_income = 58.4
+		trade_goods_size = 5.84
 		local_manpower = 4.38
 		local_sailors = 7300
-		province_trade_power_value = 87.6
+		province_trade_power_value = 73
 		land_forcelimit = 2.92
 		on_activation = { }
 		on_deactivation  = { }
@@ -9017,11 +9017,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 73.25
-		trade_goods_size = 7.325
+		tax_income = 58.6
+		trade_goods_size = 5.86
 		local_manpower = 4.395
 		local_sailors = 7325
-		province_trade_power_value = 87.9
+		province_trade_power_value = 73.25
 		land_forcelimit = 2.93
 		on_activation = { }
 		on_deactivation  = { }
@@ -9030,11 +9030,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 73.5
-		trade_goods_size = 7.35
+		tax_income = 58.8
+		trade_goods_size = 5.88
 		local_manpower = 4.41
 		local_sailors = 7350
-		province_trade_power_value = 88.2
+		province_trade_power_value = 73.5
 		land_forcelimit = 2.94
 		on_activation = { }
 		on_deactivation  = { }
@@ -9043,11 +9043,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 73.75
-		trade_goods_size = 7.375
+		tax_income = 59
+		trade_goods_size = 5.9
 		local_manpower = 4.425
 		local_sailors = 7375
-		province_trade_power_value = 88.5
+		province_trade_power_value = 73.75
 		land_forcelimit = 2.95
 		on_activation = { }
 		on_deactivation  = { }
@@ -9056,11 +9056,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 74
-		trade_goods_size = 7.4
+		tax_income = 59.2
+		trade_goods_size = 5.92
 		local_manpower = 4.44
 		local_sailors = 7400
-		province_trade_power_value = 88.8
+		province_trade_power_value = 74
 		land_forcelimit = 2.96
 		on_activation = { }
 		on_deactivation  = { }
@@ -9069,11 +9069,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 74.25
-		trade_goods_size = 7.425
+		tax_income = 59.4
+		trade_goods_size = 5.94
 		local_manpower = 4.455
 		local_sailors = 7425
-		province_trade_power_value = 89.1
+		province_trade_power_value = 74.25
 		land_forcelimit = 2.97
 		on_activation = { }
 		on_deactivation  = { }
@@ -9082,11 +9082,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 74.5
-		trade_goods_size = 7.45
+		tax_income = 59.6
+		trade_goods_size = 5.96
 		local_manpower = 4.47
 		local_sailors = 7450
-		province_trade_power_value = 89.4
+		province_trade_power_value = 74.5
 		land_forcelimit = 2.98
 		on_activation = { }
 		on_deactivation  = { }
@@ -9095,11 +9095,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 74.75
-		trade_goods_size = 7.475
+		tax_income = 59.8
+		trade_goods_size = 5.98
 		local_manpower = 4.485
 		local_sailors = 7475
-		province_trade_power_value = 89.7
+		province_trade_power_value = 74.75
 		land_forcelimit = 2.99
 		on_activation = { }
 		on_deactivation  = { }
@@ -9108,11 +9108,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 75
-		trade_goods_size = 7.5
+		tax_income = 60
+		trade_goods_size = 6
 		local_manpower = 4.5
 		local_sailors = 7500
-		province_trade_power_value = 90
+		province_trade_power_value = 75
 		land_forcelimit = 3
 		on_activation = { }
 		on_deactivation  = { }
@@ -9121,11 +9121,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 75.25
-		trade_goods_size = 7.525
+		tax_income = 60.2
+		trade_goods_size = 6.02
 		local_manpower = 4.515
 		local_sailors = 7525
-		province_trade_power_value = 90.3
+		province_trade_power_value = 75.25
 		land_forcelimit = 3.01
 		on_activation = { }
 		on_deactivation  = { }
@@ -9134,11 +9134,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 75.5
-		trade_goods_size = 7.55
+		tax_income = 60.4
+		trade_goods_size = 6.04
 		local_manpower = 4.53
 		local_sailors = 7550
-		province_trade_power_value = 90.6
+		province_trade_power_value = 75.5
 		land_forcelimit = 3.02
 		on_activation = { }
 		on_deactivation  = { }
@@ -9147,11 +9147,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 75.75
-		trade_goods_size = 7.575
+		tax_income = 60.6
+		trade_goods_size = 6.06
 		local_manpower = 4.545
 		local_sailors = 7575
-		province_trade_power_value = 90.9
+		province_trade_power_value = 75.75
 		land_forcelimit = 3.03
 		on_activation = { }
 		on_deactivation  = { }
@@ -9160,11 +9160,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 76
-		trade_goods_size = 7.6
+		tax_income = 60.8
+		trade_goods_size = 6.08
 		local_manpower = 4.56
 		local_sailors = 7600
-		province_trade_power_value = 91.2
+		province_trade_power_value = 76
 		land_forcelimit = 3.04
 		on_activation = { }
 		on_deactivation  = { }
@@ -9173,11 +9173,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 76.25
-		trade_goods_size = 7.625
+		tax_income = 61
+		trade_goods_size = 6.1
 		local_manpower = 4.575
 		local_sailors = 7625
-		province_trade_power_value = 91.5
+		province_trade_power_value = 76.25
 		land_forcelimit = 3.05
 		on_activation = { }
 		on_deactivation  = { }
@@ -9186,11 +9186,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 76.5
-		trade_goods_size = 7.65
+		tax_income = 61.2
+		trade_goods_size = 6.12
 		local_manpower = 4.59
 		local_sailors = 7650
-		province_trade_power_value = 91.8
+		province_trade_power_value = 76.5
 		land_forcelimit = 3.06
 		on_activation = { }
 		on_deactivation  = { }
@@ -9199,11 +9199,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 76.75
-		trade_goods_size = 7.675
+		tax_income = 61.4
+		trade_goods_size = 6.14
 		local_manpower = 4.605
 		local_sailors = 7675
-		province_trade_power_value = 92.1
+		province_trade_power_value = 76.75
 		land_forcelimit = 3.07
 		on_activation = { }
 		on_deactivation  = { }
@@ -9212,11 +9212,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 77
-		trade_goods_size = 7.7
+		tax_income = 61.6
+		trade_goods_size = 6.16
 		local_manpower = 4.62
 		local_sailors = 7700
-		province_trade_power_value = 92.4
+		province_trade_power_value = 77
 		land_forcelimit = 3.08
 		on_activation = { }
 		on_deactivation  = { }
@@ -9225,11 +9225,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 77.25
-		trade_goods_size = 7.725
+		tax_income = 61.8
+		trade_goods_size = 6.18
 		local_manpower = 4.635
 		local_sailors = 7725
-		province_trade_power_value = 92.7
+		province_trade_power_value = 77.25
 		land_forcelimit = 3.09
 		on_activation = { }
 		on_deactivation  = { }
@@ -9238,11 +9238,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 77.5
-		trade_goods_size = 7.75
+		tax_income = 62
+		trade_goods_size = 6.2
 		local_manpower = 4.65
 		local_sailors = 7750
-		province_trade_power_value = 93
+		province_trade_power_value = 77.5
 		land_forcelimit = 3.1
 		on_activation = { }
 		on_deactivation  = { }
@@ -9251,11 +9251,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 77.75
-		trade_goods_size = 7.775
+		tax_income = 62.2
+		trade_goods_size = 6.22
 		local_manpower = 4.665
 		local_sailors = 7775
-		province_trade_power_value = 93.3
+		province_trade_power_value = 77.75
 		land_forcelimit = 3.11
 		on_activation = { }
 		on_deactivation  = { }
@@ -9264,11 +9264,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 78
-		trade_goods_size = 7.8
+		tax_income = 62.4
+		trade_goods_size = 6.24
 		local_manpower = 4.68
 		local_sailors = 7800
-		province_trade_power_value = 93.6
+		province_trade_power_value = 78
 		land_forcelimit = 3.12
 		on_activation = { }
 		on_deactivation  = { }
@@ -9277,11 +9277,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 78.25
-		trade_goods_size = 7.825
+		tax_income = 62.6
+		trade_goods_size = 6.26
 		local_manpower = 4.695
 		local_sailors = 7825
-		province_trade_power_value = 93.9
+		province_trade_power_value = 78.25
 		land_forcelimit = 3.13
 		on_activation = { }
 		on_deactivation  = { }
@@ -9290,11 +9290,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 78.5
-		trade_goods_size = 7.85
+		tax_income = 62.8
+		trade_goods_size = 6.28
 		local_manpower = 4.71
 		local_sailors = 7850
-		province_trade_power_value = 94.2
+		province_trade_power_value = 78.5
 		land_forcelimit = 3.14
 		on_activation = { }
 		on_deactivation  = { }
@@ -9303,11 +9303,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 78.75
-		trade_goods_size = 7.875
+		tax_income = 63
+		trade_goods_size = 6.3
 		local_manpower = 4.725
 		local_sailors = 7875
-		province_trade_power_value = 94.5
+		province_trade_power_value = 78.75
 		land_forcelimit = 3.15
 		on_activation = { }
 		on_deactivation  = { }
@@ -9316,11 +9316,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 79
-		trade_goods_size = 7.9
+		tax_income = 63.2
+		trade_goods_size = 6.32
 		local_manpower = 4.74
 		local_sailors = 7900
-		province_trade_power_value = 94.8
+		province_trade_power_value = 79
 		land_forcelimit = 3.16
 		on_activation = { }
 		on_deactivation  = { }
@@ -9329,11 +9329,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 79.25
-		trade_goods_size = 7.925
+		tax_income = 63.4
+		trade_goods_size = 6.34
 		local_manpower = 4.755
 		local_sailors = 7925
-		province_trade_power_value = 95.1
+		province_trade_power_value = 79.25
 		land_forcelimit = 3.17
 		on_activation = { }
 		on_deactivation  = { }
@@ -9342,11 +9342,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 79.5
-		trade_goods_size = 7.95
+		tax_income = 63.6
+		trade_goods_size = 6.36
 		local_manpower = 4.77
 		local_sailors = 7950
-		province_trade_power_value = 95.4
+		province_trade_power_value = 79.5
 		land_forcelimit = 3.18
 		on_activation = { }
 		on_deactivation  = { }
@@ -9355,11 +9355,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 79.75
-		trade_goods_size = 7.975
+		tax_income = 63.8
+		trade_goods_size = 6.38
 		local_manpower = 4.785
 		local_sailors = 7975
-		province_trade_power_value = 95.7
+		province_trade_power_value = 79.75
 		land_forcelimit = 3.19
 		on_activation = { }
 		on_deactivation  = { }
@@ -9368,11 +9368,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 80
-		trade_goods_size = 8
+		tax_income = 64
+		trade_goods_size = 6.4
 		local_manpower = 4.8
 		local_sailors = 8000
-		province_trade_power_value = 96
+		province_trade_power_value = 80
 		land_forcelimit = 3.2
 		on_activation = { }
 		on_deactivation  = { }
@@ -9381,11 +9381,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 80.25
-		trade_goods_size = 8.025
+		tax_income = 64.2
+		trade_goods_size = 6.42
 		local_manpower = 4.815
 		local_sailors = 8025
-		province_trade_power_value = 96.3
+		province_trade_power_value = 80.25
 		land_forcelimit = 3.21
 		on_activation = { }
 		on_deactivation  = { }
@@ -9394,11 +9394,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 80.5
-		trade_goods_size = 8.05
+		tax_income = 64.4
+		trade_goods_size = 6.44
 		local_manpower = 4.83
 		local_sailors = 8050
-		province_trade_power_value = 96.6
+		province_trade_power_value = 80.5
 		land_forcelimit = 3.22
 		on_activation = { }
 		on_deactivation  = { }
@@ -9407,11 +9407,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 80.75
-		trade_goods_size = 8.075
+		tax_income = 64.6
+		trade_goods_size = 6.46
 		local_manpower = 4.845
 		local_sailors = 8075
-		province_trade_power_value = 96.9
+		province_trade_power_value = 80.75
 		land_forcelimit = 3.23
 		on_activation = { }
 		on_deactivation  = { }
@@ -9420,11 +9420,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 81
-		trade_goods_size = 8.1
+		tax_income = 64.8
+		trade_goods_size = 6.48
 		local_manpower = 4.86
 		local_sailors = 8100
-		province_trade_power_value = 97.2
+		province_trade_power_value = 81
 		land_forcelimit = 3.24
 		on_activation = { }
 		on_deactivation  = { }
@@ -9433,11 +9433,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 81.25
-		trade_goods_size = 8.125
+		tax_income = 65
+		trade_goods_size = 6.5
 		local_manpower = 4.875
 		local_sailors = 8125
-		province_trade_power_value = 97.5
+		province_trade_power_value = 81.25
 		land_forcelimit = 3.25
 		on_activation = { }
 		on_deactivation  = { }
@@ -9446,11 +9446,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 81.5
-		trade_goods_size = 8.15
+		tax_income = 65.2
+		trade_goods_size = 6.52
 		local_manpower = 4.89
 		local_sailors = 8150
-		province_trade_power_value = 97.8
+		province_trade_power_value = 81.5
 		land_forcelimit = 3.26
 		on_activation = { }
 		on_deactivation  = { }
@@ -9459,11 +9459,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 81.75
-		trade_goods_size = 8.175
+		tax_income = 65.4
+		trade_goods_size = 6.54
 		local_manpower = 4.905
 		local_sailors = 8175
-		province_trade_power_value = 98.1
+		province_trade_power_value = 81.75
 		land_forcelimit = 3.27
 		on_activation = { }
 		on_deactivation  = { }
@@ -9472,11 +9472,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 82
-		trade_goods_size = 8.2
+		tax_income = 65.6
+		trade_goods_size = 6.56
 		local_manpower = 4.92
 		local_sailors = 8200
-		province_trade_power_value = 98.4
+		province_trade_power_value = 82
 		land_forcelimit = 3.28
 		on_activation = { }
 		on_deactivation  = { }
@@ -9485,11 +9485,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 82.25
-		trade_goods_size = 8.225
+		tax_income = 65.8
+		trade_goods_size = 6.58
 		local_manpower = 4.935
 		local_sailors = 8225
-		province_trade_power_value = 98.7
+		province_trade_power_value = 82.25
 		land_forcelimit = 3.29
 		on_activation = { }
 		on_deactivation  = { }
@@ -9498,11 +9498,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 82.5
-		trade_goods_size = 8.25
+		tax_income = 66
+		trade_goods_size = 6.6
 		local_manpower = 4.95
 		local_sailors = 8250
-		province_trade_power_value = 99
+		province_trade_power_value = 82.5
 		land_forcelimit = 3.3
 		on_activation = { }
 		on_deactivation  = { }
@@ -9511,11 +9511,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 82.75
-		trade_goods_size = 8.275
+		tax_income = 66.2
+		trade_goods_size = 6.62
 		local_manpower = 4.965
 		local_sailors = 8275
-		province_trade_power_value = 99.3
+		province_trade_power_value = 82.75
 		land_forcelimit = 3.31
 		on_activation = { }
 		on_deactivation  = { }
@@ -9524,11 +9524,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 83
-		trade_goods_size = 8.3
+		tax_income = 66.4
+		trade_goods_size = 6.64
 		local_manpower = 4.98
 		local_sailors = 8300
-		province_trade_power_value = 99.6
+		province_trade_power_value = 83
 		land_forcelimit = 3.32
 		on_activation = { }
 		on_deactivation  = { }
@@ -9537,11 +9537,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 83.25
-		trade_goods_size = 8.325
+		tax_income = 66.6
+		trade_goods_size = 6.66
 		local_manpower = 4.995
 		local_sailors = 8325
-		province_trade_power_value = 99.9
+		province_trade_power_value = 83.25
 		land_forcelimit = 3.33
 		on_activation = { }
 		on_deactivation  = { }
@@ -9550,11 +9550,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 83.5
-		trade_goods_size = 8.35
+		tax_income = 66.8
+		trade_goods_size = 6.68
 		local_manpower = 5.01
 		local_sailors = 8350
-		province_trade_power_value = 100.2
+		province_trade_power_value = 83.5
 		land_forcelimit = 3.34
 		on_activation = { }
 		on_deactivation  = { }
@@ -9563,11 +9563,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 83.75
-		trade_goods_size = 8.375
+		tax_income = 67
+		trade_goods_size = 6.7
 		local_manpower = 5.025
 		local_sailors = 8375
-		province_trade_power_value = 100.5
+		province_trade_power_value = 83.75
 		land_forcelimit = 3.35
 		on_activation = { }
 		on_deactivation  = { }
@@ -9576,11 +9576,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 84
-		trade_goods_size = 8.4
+		tax_income = 67.2
+		trade_goods_size = 6.72
 		local_manpower = 5.04
 		local_sailors = 8400
-		province_trade_power_value = 100.8
+		province_trade_power_value = 84
 		land_forcelimit = 3.36
 		on_activation = { }
 		on_deactivation  = { }
@@ -9589,11 +9589,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 84.25
-		trade_goods_size = 8.425
+		tax_income = 67.4
+		trade_goods_size = 6.74
 		local_manpower = 5.055
 		local_sailors = 8425
-		province_trade_power_value = 101.1
+		province_trade_power_value = 84.25
 		land_forcelimit = 3.37
 		on_activation = { }
 		on_deactivation  = { }
@@ -9602,11 +9602,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 84.5
-		trade_goods_size = 8.45
+		tax_income = 67.6
+		trade_goods_size = 6.76
 		local_manpower = 5.07
 		local_sailors = 8450
-		province_trade_power_value = 101.4
+		province_trade_power_value = 84.5
 		land_forcelimit = 3.38
 		on_activation = { }
 		on_deactivation  = { }
@@ -9615,11 +9615,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 84.75
-		trade_goods_size = 8.475
+		tax_income = 67.8
+		trade_goods_size = 6.78
 		local_manpower = 5.085
 		local_sailors = 8475
-		province_trade_power_value = 101.7
+		province_trade_power_value = 84.75
 		land_forcelimit = 3.39
 		on_activation = { }
 		on_deactivation  = { }
@@ -9628,11 +9628,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 85
-		trade_goods_size = 8.5
+		tax_income = 68
+		trade_goods_size = 6.8
 		local_manpower = 5.1
 		local_sailors = 8500
-		province_trade_power_value = 102
+		province_trade_power_value = 85
 		land_forcelimit = 3.4
 		on_activation = { }
 		on_deactivation  = { }
@@ -9641,11 +9641,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 85.25
-		trade_goods_size = 8.525
+		tax_income = 68.2
+		trade_goods_size = 6.82
 		local_manpower = 5.115
 		local_sailors = 8525
-		province_trade_power_value = 102.3
+		province_trade_power_value = 85.25
 		land_forcelimit = 3.41
 		on_activation = { }
 		on_deactivation  = { }
@@ -9654,11 +9654,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 85.5
-		trade_goods_size = 8.55
+		tax_income = 68.4
+		trade_goods_size = 6.84
 		local_manpower = 5.13
 		local_sailors = 8550
-		province_trade_power_value = 102.6
+		province_trade_power_value = 85.5
 		land_forcelimit = 3.42
 		on_activation = { }
 		on_deactivation  = { }
@@ -9667,11 +9667,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 85.75
-		trade_goods_size = 8.575
+		tax_income = 68.6
+		trade_goods_size = 6.86
 		local_manpower = 5.145
 		local_sailors = 8575
-		province_trade_power_value = 102.9
+		province_trade_power_value = 85.75
 		land_forcelimit = 3.43
 		on_activation = { }
 		on_deactivation  = { }
@@ -9680,11 +9680,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 86
-		trade_goods_size = 8.6
+		tax_income = 68.8
+		trade_goods_size = 6.88
 		local_manpower = 5.16
 		local_sailors = 8600
-		province_trade_power_value = 103.2
+		province_trade_power_value = 86
 		land_forcelimit = 3.44
 		on_activation = { }
 		on_deactivation  = { }
@@ -9693,11 +9693,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 86.25
-		trade_goods_size = 8.625
+		tax_income = 69
+		trade_goods_size = 6.9
 		local_manpower = 5.175
 		local_sailors = 8625
-		province_trade_power_value = 103.5
+		province_trade_power_value = 86.25
 		land_forcelimit = 3.45
 		on_activation = { }
 		on_deactivation  = { }
@@ -9706,11 +9706,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 86.5
-		trade_goods_size = 8.65
+		tax_income = 69.2
+		trade_goods_size = 6.92
 		local_manpower = 5.19
 		local_sailors = 8650
-		province_trade_power_value = 103.8
+		province_trade_power_value = 86.5
 		land_forcelimit = 3.46
 		on_activation = { }
 		on_deactivation  = { }
@@ -9719,11 +9719,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 86.75
-		trade_goods_size = 8.675
+		tax_income = 69.4
+		trade_goods_size = 6.94
 		local_manpower = 5.205
 		local_sailors = 8675
-		province_trade_power_value = 104.1
+		province_trade_power_value = 86.75
 		land_forcelimit = 3.47
 		on_activation = { }
 		on_deactivation  = { }
@@ -9732,11 +9732,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 87
-		trade_goods_size = 8.7
+		tax_income = 69.6
+		trade_goods_size = 6.96
 		local_manpower = 5.22
 		local_sailors = 8700
-		province_trade_power_value = 104.4
+		province_trade_power_value = 87
 		land_forcelimit = 3.48
 		on_activation = { }
 		on_deactivation  = { }
@@ -9745,11 +9745,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 87.25
-		trade_goods_size = 8.725
+		tax_income = 69.8
+		trade_goods_size = 6.98
 		local_manpower = 5.235
 		local_sailors = 8725
-		province_trade_power_value = 104.7
+		province_trade_power_value = 87.25
 		land_forcelimit = 3.49
 		on_activation = { }
 		on_deactivation  = { }
@@ -9758,11 +9758,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 87.5
-		trade_goods_size = 8.75
+		tax_income = 70
+		trade_goods_size = 7
 		local_manpower = 5.25
 		local_sailors = 8750
-		province_trade_power_value = 105
+		province_trade_power_value = 87.5
 		land_forcelimit = 3.5
 		on_activation = { }
 		on_deactivation  = { }
@@ -9771,11 +9771,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 87.75
-		trade_goods_size = 8.775
+		tax_income = 70.2
+		trade_goods_size = 7.02
 		local_manpower = 5.265
 		local_sailors = 8775
-		province_trade_power_value = 105.3
+		province_trade_power_value = 87.75
 		land_forcelimit = 3.51
 		on_activation = { }
 		on_deactivation  = { }
@@ -9784,11 +9784,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 88
-		trade_goods_size = 8.8
+		tax_income = 70.4
+		trade_goods_size = 7.04
 		local_manpower = 5.28
 		local_sailors = 8800
-		province_trade_power_value = 105.6
+		province_trade_power_value = 88
 		land_forcelimit = 3.52
 		on_activation = { }
 		on_deactivation  = { }
@@ -9797,11 +9797,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 88.25
-		trade_goods_size = 8.825
+		tax_income = 70.6
+		trade_goods_size = 7.06
 		local_manpower = 5.295
 		local_sailors = 8825
-		province_trade_power_value = 105.9
+		province_trade_power_value = 88.25
 		land_forcelimit = 3.53
 		on_activation = { }
 		on_deactivation  = { }
@@ -9810,11 +9810,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 88.5
-		trade_goods_size = 8.85
+		tax_income = 70.8
+		trade_goods_size = 7.08
 		local_manpower = 5.31
 		local_sailors = 8850
-		province_trade_power_value = 106.2
+		province_trade_power_value = 88.5
 		land_forcelimit = 3.54
 		on_activation = { }
 		on_deactivation  = { }
@@ -9823,11 +9823,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 88.75
-		trade_goods_size = 8.875
+		tax_income = 71
+		trade_goods_size = 7.1
 		local_manpower = 5.325
 		local_sailors = 8875
-		province_trade_power_value = 106.5
+		province_trade_power_value = 88.75
 		land_forcelimit = 3.55
 		on_activation = { }
 		on_deactivation  = { }
@@ -9836,11 +9836,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 89
-		trade_goods_size = 8.9
+		tax_income = 71.2
+		trade_goods_size = 7.12
 		local_manpower = 5.34
 		local_sailors = 8900
-		province_trade_power_value = 106.8
+		province_trade_power_value = 89
 		land_forcelimit = 3.56
 		on_activation = { }
 		on_deactivation  = { }
@@ -9849,11 +9849,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 89.25
-		trade_goods_size = 8.925
+		tax_income = 71.4
+		trade_goods_size = 7.14
 		local_manpower = 5.355
 		local_sailors = 8925
-		province_trade_power_value = 107.1
+		province_trade_power_value = 89.25
 		land_forcelimit = 3.57
 		on_activation = { }
 		on_deactivation  = { }
@@ -9862,11 +9862,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 89.5
-		trade_goods_size = 8.95
+		tax_income = 71.6
+		trade_goods_size = 7.16
 		local_manpower = 5.37
 		local_sailors = 8950
-		province_trade_power_value = 107.4
+		province_trade_power_value = 89.5
 		land_forcelimit = 3.58
 		on_activation = { }
 		on_deactivation  = { }
@@ -9875,11 +9875,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 89.75
-		trade_goods_size = 8.975
+		tax_income = 71.8
+		trade_goods_size = 7.18
 		local_manpower = 5.385
 		local_sailors = 8975
-		province_trade_power_value = 107.7
+		province_trade_power_value = 89.75
 		land_forcelimit = 3.59
 		on_activation = { }
 		on_deactivation  = { }
@@ -9888,11 +9888,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 90
-		trade_goods_size = 9
+		tax_income = 72
+		trade_goods_size = 7.2
 		local_manpower = 5.4
 		local_sailors = 9000
-		province_trade_power_value = 108
+		province_trade_power_value = 90
 		land_forcelimit = 3.6
 		on_activation = { }
 		on_deactivation  = { }
@@ -9901,11 +9901,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 90.25
-		trade_goods_size = 9.025
+		tax_income = 72.2
+		trade_goods_size = 7.22
 		local_manpower = 5.415
 		local_sailors = 9025
-		province_trade_power_value = 108.3
+		province_trade_power_value = 90.25
 		land_forcelimit = 3.61
 		on_activation = { }
 		on_deactivation  = { }
@@ -9914,11 +9914,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 90.5
-		trade_goods_size = 9.05
+		tax_income = 72.4
+		trade_goods_size = 7.24
 		local_manpower = 5.43
 		local_sailors = 9050
-		province_trade_power_value = 108.6
+		province_trade_power_value = 90.5
 		land_forcelimit = 3.62
 		on_activation = { }
 		on_deactivation  = { }
@@ -9927,11 +9927,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 90.75
-		trade_goods_size = 9.075
+		tax_income = 72.6
+		trade_goods_size = 7.26
 		local_manpower = 5.445
 		local_sailors = 9075
-		province_trade_power_value = 108.9
+		province_trade_power_value = 90.75
 		land_forcelimit = 3.63
 		on_activation = { }
 		on_deactivation  = { }
@@ -9940,11 +9940,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 91
-		trade_goods_size = 9.1
+		tax_income = 72.8
+		trade_goods_size = 7.28
 		local_manpower = 5.46
 		local_sailors = 9100
-		province_trade_power_value = 109.2
+		province_trade_power_value = 91
 		land_forcelimit = 3.64
 		on_activation = { }
 		on_deactivation  = { }
@@ -9953,11 +9953,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 91.25
-		trade_goods_size = 9.125
+		tax_income = 73
+		trade_goods_size = 7.3
 		local_manpower = 5.475
 		local_sailors = 9125
-		province_trade_power_value = 109.5
+		province_trade_power_value = 91.25
 		land_forcelimit = 3.65
 		on_activation = { }
 		on_deactivation  = { }
@@ -9966,11 +9966,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 91.5
-		trade_goods_size = 9.15
+		tax_income = 73.2
+		trade_goods_size = 7.32
 		local_manpower = 5.49
 		local_sailors = 9150
-		province_trade_power_value = 109.8
+		province_trade_power_value = 91.5
 		land_forcelimit = 3.66
 		on_activation = { }
 		on_deactivation  = { }
@@ -9979,11 +9979,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 91.75
-		trade_goods_size = 9.175
+		tax_income = 73.4
+		trade_goods_size = 7.34
 		local_manpower = 5.505
 		local_sailors = 9175
-		province_trade_power_value = 110.1
+		province_trade_power_value = 91.75
 		land_forcelimit = 3.67
 		on_activation = { }
 		on_deactivation  = { }
@@ -9992,11 +9992,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 92
-		trade_goods_size = 9.2
+		tax_income = 73.6
+		trade_goods_size = 7.36
 		local_manpower = 5.52
 		local_sailors = 9200
-		province_trade_power_value = 110.4
+		province_trade_power_value = 92
 		land_forcelimit = 3.68
 		on_activation = { }
 		on_deactivation  = { }
@@ -10005,11 +10005,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 92.25
-		trade_goods_size = 9.225
+		tax_income = 73.8
+		trade_goods_size = 7.38
 		local_manpower = 5.535
 		local_sailors = 9225
-		province_trade_power_value = 110.7
+		province_trade_power_value = 92.25
 		land_forcelimit = 3.69
 		on_activation = { }
 		on_deactivation  = { }
@@ -10018,11 +10018,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 92.5
-		trade_goods_size = 9.25
+		tax_income = 74
+		trade_goods_size = 7.4
 		local_manpower = 5.55
 		local_sailors = 9250
-		province_trade_power_value = 111
+		province_trade_power_value = 92.5
 		land_forcelimit = 3.7
 		on_activation = { }
 		on_deactivation  = { }
@@ -10031,11 +10031,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 92.75
-		trade_goods_size = 9.275
+		tax_income = 74.2
+		trade_goods_size = 7.42
 		local_manpower = 5.565
 		local_sailors = 9275
-		province_trade_power_value = 111.3
+		province_trade_power_value = 92.75
 		land_forcelimit = 3.71
 		on_activation = { }
 		on_deactivation  = { }
@@ -10044,11 +10044,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 93
-		trade_goods_size = 9.3
+		tax_income = 74.4
+		trade_goods_size = 7.44
 		local_manpower = 5.58
 		local_sailors = 9300
-		province_trade_power_value = 111.6
+		province_trade_power_value = 93
 		land_forcelimit = 3.72
 		on_activation = { }
 		on_deactivation  = { }
@@ -10057,11 +10057,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 93.25
-		trade_goods_size = 9.325
+		tax_income = 74.6
+		trade_goods_size = 7.46
 		local_manpower = 5.595
 		local_sailors = 9325
-		province_trade_power_value = 111.9
+		province_trade_power_value = 93.25
 		land_forcelimit = 3.73
 		on_activation = { }
 		on_deactivation  = { }
@@ -10070,11 +10070,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 93.5
-		trade_goods_size = 9.35
+		tax_income = 74.8
+		trade_goods_size = 7.48
 		local_manpower = 5.61
 		local_sailors = 9350
-		province_trade_power_value = 112.2
+		province_trade_power_value = 93.5
 		land_forcelimit = 3.74
 		on_activation = { }
 		on_deactivation  = { }
@@ -10083,11 +10083,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 93.75
-		trade_goods_size = 9.375
+		tax_income = 75
+		trade_goods_size = 7.5
 		local_manpower = 5.625
 		local_sailors = 9375
-		province_trade_power_value = 112.5
+		province_trade_power_value = 93.75
 		land_forcelimit = 3.75
 		on_activation = { }
 		on_deactivation  = { }
@@ -10096,11 +10096,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 94
-		trade_goods_size = 9.4
+		tax_income = 75.2
+		trade_goods_size = 7.52
 		local_manpower = 5.64
 		local_sailors = 9400
-		province_trade_power_value = 112.8
+		province_trade_power_value = 94
 		land_forcelimit = 3.76
 		on_activation = { }
 		on_deactivation  = { }
@@ -10109,11 +10109,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 94.25
-		trade_goods_size = 9.425
+		tax_income = 75.4
+		trade_goods_size = 7.54
 		local_manpower = 5.655
 		local_sailors = 9425
-		province_trade_power_value = 113.1
+		province_trade_power_value = 94.25
 		land_forcelimit = 3.77
 		on_activation = { }
 		on_deactivation  = { }
@@ -10122,11 +10122,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 94.5
-		trade_goods_size = 9.45
+		tax_income = 75.6
+		trade_goods_size = 7.56
 		local_manpower = 5.67
 		local_sailors = 9450
-		province_trade_power_value = 113.4
+		province_trade_power_value = 94.5
 		land_forcelimit = 3.78
 		on_activation = { }
 		on_deactivation  = { }
@@ -10135,11 +10135,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 94.75
-		trade_goods_size = 9.475
+		tax_income = 75.8
+		trade_goods_size = 7.58
 		local_manpower = 5.685
 		local_sailors = 9475
-		province_trade_power_value = 113.7
+		province_trade_power_value = 94.75
 		land_forcelimit = 3.79
 		on_activation = { }
 		on_deactivation  = { }
@@ -10148,11 +10148,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 95
-		trade_goods_size = 9.5
+		tax_income = 76
+		trade_goods_size = 7.6
 		local_manpower = 5.7
 		local_sailors = 9500
-		province_trade_power_value = 114
+		province_trade_power_value = 95
 		land_forcelimit = 3.8
 		on_activation = { }
 		on_deactivation  = { }
@@ -10161,11 +10161,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 95.25
-		trade_goods_size = 9.525
+		tax_income = 76.2
+		trade_goods_size = 7.62
 		local_manpower = 5.715
 		local_sailors = 9525
-		province_trade_power_value = 114.3
+		province_trade_power_value = 95.25
 		land_forcelimit = 3.81
 		on_activation = { }
 		on_deactivation  = { }
@@ -10174,11 +10174,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 95.5
-		trade_goods_size = 9.55
+		tax_income = 76.4
+		trade_goods_size = 7.64
 		local_manpower = 5.73
 		local_sailors = 9550
-		province_trade_power_value = 114.6
+		province_trade_power_value = 95.5
 		land_forcelimit = 3.82
 		on_activation = { }
 		on_deactivation  = { }
@@ -10187,11 +10187,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 95.75
-		trade_goods_size = 9.575
+		tax_income = 76.6
+		trade_goods_size = 7.66
 		local_manpower = 5.745
 		local_sailors = 9575
-		province_trade_power_value = 114.9
+		province_trade_power_value = 95.75
 		land_forcelimit = 3.83
 		on_activation = { }
 		on_deactivation  = { }
@@ -10200,11 +10200,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 96
-		trade_goods_size = 9.6
+		tax_income = 76.8
+		trade_goods_size = 7.68
 		local_manpower = 5.76
 		local_sailors = 9600
-		province_trade_power_value = 115.2
+		province_trade_power_value = 96
 		land_forcelimit = 3.84
 		on_activation = { }
 		on_deactivation  = { }
@@ -10213,11 +10213,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 96.25
-		trade_goods_size = 9.625
+		tax_income = 77
+		trade_goods_size = 7.7
 		local_manpower = 5.775
 		local_sailors = 9625
-		province_trade_power_value = 115.5
+		province_trade_power_value = 96.25
 		land_forcelimit = 3.85
 		on_activation = { }
 		on_deactivation  = { }
@@ -10226,11 +10226,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 96.5
-		trade_goods_size = 9.65
+		tax_income = 77.2
+		trade_goods_size = 7.72
 		local_manpower = 5.79
 		local_sailors = 9650
-		province_trade_power_value = 115.8
+		province_trade_power_value = 96.5
 		land_forcelimit = 3.86
 		on_activation = { }
 		on_deactivation  = { }
@@ -10239,11 +10239,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 96.75
-		trade_goods_size = 9.675
+		tax_income = 77.4
+		trade_goods_size = 7.74
 		local_manpower = 5.805
 		local_sailors = 9675
-		province_trade_power_value = 116.1
+		province_trade_power_value = 96.75
 		land_forcelimit = 3.87
 		on_activation = { }
 		on_deactivation  = { }
@@ -10252,11 +10252,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 97
-		trade_goods_size = 9.7
+		tax_income = 77.6
+		trade_goods_size = 7.76
 		local_manpower = 5.82
 		local_sailors = 9700
-		province_trade_power_value = 116.4
+		province_trade_power_value = 97
 		land_forcelimit = 3.88
 		on_activation = { }
 		on_deactivation  = { }
@@ -10265,11 +10265,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 97.25
-		trade_goods_size = 9.725
+		tax_income = 77.8
+		trade_goods_size = 7.78
 		local_manpower = 5.835
 		local_sailors = 9725
-		province_trade_power_value = 116.7
+		province_trade_power_value = 97.25
 		land_forcelimit = 3.89
 		on_activation = { }
 		on_deactivation  = { }
@@ -10278,11 +10278,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 97.5
-		trade_goods_size = 9.75
+		tax_income = 78
+		trade_goods_size = 7.8
 		local_manpower = 5.85
 		local_sailors = 9750
-		province_trade_power_value = 117
+		province_trade_power_value = 97.5
 		land_forcelimit = 3.9
 		on_activation = { }
 		on_deactivation  = { }
@@ -10291,11 +10291,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 97.75
-		trade_goods_size = 9.775
+		tax_income = 78.2
+		trade_goods_size = 7.82
 		local_manpower = 5.865
 		local_sailors = 9775
-		province_trade_power_value = 117.3
+		province_trade_power_value = 97.75
 		land_forcelimit = 3.91
 		on_activation = { }
 		on_deactivation  = { }
@@ -10304,11 +10304,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 98
-		trade_goods_size = 9.8
+		tax_income = 78.4
+		trade_goods_size = 7.84
 		local_manpower = 5.88
 		local_sailors = 9800
-		province_trade_power_value = 117.6
+		province_trade_power_value = 98
 		land_forcelimit = 3.92
 		on_activation = { }
 		on_deactivation  = { }
@@ -10317,11 +10317,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 98.25
-		trade_goods_size = 9.825
+		tax_income = 78.6
+		trade_goods_size = 7.86
 		local_manpower = 5.895
 		local_sailors = 9825
-		province_trade_power_value = 117.9
+		province_trade_power_value = 98.25
 		land_forcelimit = 3.93
 		on_activation = { }
 		on_deactivation  = { }
@@ -10330,11 +10330,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 98.5
-		trade_goods_size = 9.85
+		tax_income = 78.8
+		trade_goods_size = 7.88
 		local_manpower = 5.91
 		local_sailors = 9850
-		province_trade_power_value = 118.2
+		province_trade_power_value = 98.5
 		land_forcelimit = 3.94
 		on_activation = { }
 		on_deactivation  = { }
@@ -10343,11 +10343,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 98.75
-		trade_goods_size = 9.875
+		tax_income = 79
+		trade_goods_size = 7.9
 		local_manpower = 5.925
 		local_sailors = 9875
-		province_trade_power_value = 118.5
+		province_trade_power_value = 98.75
 		land_forcelimit = 3.95
 		on_activation = { }
 		on_deactivation  = { }
@@ -10356,11 +10356,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 99
-		trade_goods_size = 9.9
+		tax_income = 79.2
+		trade_goods_size = 7.92
 		local_manpower = 5.94
 		local_sailors = 9900
-		province_trade_power_value = 118.8
+		province_trade_power_value = 99
 		land_forcelimit = 3.96
 		on_activation = { }
 		on_deactivation  = { }
@@ -10369,11 +10369,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 99.25
-		trade_goods_size = 9.925
+		tax_income = 79.4
+		trade_goods_size = 7.94
 		local_manpower = 5.955
 		local_sailors = 9925
-		province_trade_power_value = 119.1
+		province_trade_power_value = 99.25
 		land_forcelimit = 3.97
 		on_activation = { }
 		on_deactivation  = { }
@@ -10382,11 +10382,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 99.5
-		trade_goods_size = 9.95
+		tax_income = 79.6
+		trade_goods_size = 7.96
 		local_manpower = 5.97
 		local_sailors = 9950
-		province_trade_power_value = 119.4
+		province_trade_power_value = 99.5
 		land_forcelimit = 3.98
 		on_activation = { }
 		on_deactivation  = { }
@@ -10395,11 +10395,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 99.75
-		trade_goods_size = 9.975
+		tax_income = 79.8
+		trade_goods_size = 7.98
 		local_manpower = 5.985
 		local_sailors = 9975
-		province_trade_power_value = 119.7
+		province_trade_power_value = 99.75
 		land_forcelimit = 3.99
 		on_activation = { }
 		on_deactivation  = { }
@@ -10408,11 +10408,11 @@
 		potential = { always = yes }
 		trigger = { always = yes }
 		hidden = yes
-		tax_income = 100
-		trade_goods_size = 10
+		tax_income = 80
+		trade_goods_size = 8
 		local_manpower = 6
 		local_sailors = 10000
-		province_trade_power_value = 120
+		province_trade_power_value = 100
 		land_forcelimit = 4
 		on_activation = { }
 		on_deactivation  = { }
