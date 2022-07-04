@@ -18,3 +18,9 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 center_of_trade = 1
 extra_cost = 8
+
+set_province_flag = manual_pop
+set_province_flag = manual_agri_eff
+set_variable = { which = rural_pop value = 22.5 }
+set_variable = { which = urban_pop value = 2.0 }
+set_variable = { which = agri_eff_base value = 30 }
