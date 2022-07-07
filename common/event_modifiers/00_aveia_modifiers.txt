@@ -451,6 +451,10 @@ crown_of_iron = {
 	global_unrest = -6
 }
 
+CYU_coring_cost_ILR = {
+	local_core_creation = -0.15
+}
+
 
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.

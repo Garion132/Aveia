@@ -1,0 +1,145 @@
+CYU_mid_colum_1 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYU
+	}
+
+	CYU_take_ilrazin = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = { 
+			controls = 720
+			controls = 713
+			ilrazin_lesser={
+				owned_by = CYU
+			}
+			ilrazin_greater={
+				owned_by = CYU
+			}
+		}
+		effect = { 
+			every_owned_province = { 
+				if={
+					limit = {
+						is_core = ILR
+						NOT={is_core = ROOT}
+					}
+					add_province_modifier  = { 
+						name = CYU_coring_cost_ILR
+						duration = 365
+					}
+				}
+			}
+			
+		}
+	}
+	CYU_legion = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { CYU_take_ilrazin }
+		trigger = { 
+			army_size = 25
+		}
+		effect = {
+			anoruine={
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+CYU_mid_left_colum_1 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYU
+	}
+
+	CYU_crush_menor = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { CYU_legion }
+		trigger = { 
+			controls = 645
+			controls = 646
+		}
+		provinces_to_highlight = {
+			OR={
+				province_id = 645
+				province_id = 646
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
+		effect = { 
+			add_adm_power = 300
+		}
+	}
+}
+CYU_mid_right_colum_1 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYU
+	}
+
+	CYU_crush_adralas = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { CYU_legion }
+		trigger = { 
+			controls = 649
+			controls = 648
+			controls = 647
+		}
+		provinces_to_highlight = {
+			OR={
+				province_id = 649
+				province_id = 648
+				province_id = 647
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
+		effect = { 
+			add_adm_power = 300
+		}
+	}
+}
+
+CYU_mid_colum_2 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYU
+	}
+
+	CYU_great_port_cities = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { CYU_crush_menor CYU_crush_adralas }
+		trigger = { 
+			is_state_core = 645
+			is_state_core = 648
+			is_state_core = 646
+			development_in_provinces = {
+				value = 80
+				area = anoruine
+			}
+		}
+		effect = { 
+			645={add_center_of_trade_level = 1}
+			648={add_center_of_trade_level = 1}
+			646={
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+		}
+	}
+}
