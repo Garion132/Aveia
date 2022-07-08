@@ -11,8 +11,7 @@ country_event = {
 		name = lumia_event.1.a
 
 		hidden_effect = {
-            change_government = republic
-            change_tag = LUM			
+            change_government = republic			
             swap_free_idea_group = yes
 			2416 = {
 				add_institution_embracement = {
