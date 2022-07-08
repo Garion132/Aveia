@@ -110,6 +110,7 @@ country_decisions = {
 					NOT = { has_idea_group = LUM_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
+				country_event = { id = lumia_event.1}
 			}
 			set_country_flag = formed_lumia_flag
 		}
