@@ -681,3 +681,8 @@
  forming_windrame_diplomatically_tooltip:0 "[Root.GetName] is the overlord in a vassalage or union between Wargle and Wiscome."
  fall_of_great_ghand:0 "Fall of Great Ghand"
  rauthyr_estate_events.17.t:0 "Revolt of Kavamor"
+ cb_establish_faun_federate:0 "Establish Federate"
+ CB_ALLOWED_po_become_federate:0 "Become $TAKERS$ Federate"
+ PEACE_po_become_federate:0 "@$GIVER$ $TAKER$ Federate"
+ po_become_federate_desc:0 "[From.GetName] becomes a [This.GetName] Federate"
+ ESTABLISH_FEDERATE_MISSION_WAR_NAME:0 "War to establish a Federate"

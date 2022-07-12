@@ -286,6 +286,9 @@ tolcar_federate = {
 	can_be_annexed = no
 	forms_trade_companies = no
 	can_have_subjects_of_other_types = yes
+	overlord_protects_external = yes
+	allows_taking_land_without_independence = yes
+	takes_diplo_slot = no
 	
 	relative_power_class = 1
 
@@ -293,6 +296,20 @@ tolcar_federate = {
 	# Subject Interactions:
 	subsidize_armies = yes
 	seize_territory = no
+	
+	can_fight = {
+		independent_nations = yes
+	}
+	can_rival = {
+		same_overlord = tolcar_federate
+		independent_nations = yes
+	}
+	can_ally = {
+		same_overlord = tolcar_federate
+	}
+	can_marry = {
+		same_overlord = tolcar_federate
+	}
 
 	
 

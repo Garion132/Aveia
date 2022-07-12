@@ -1831,3 +1831,33 @@ superiority_great_conquest = {
 	
 	war_name = GREAT_CONQUEST_WAR_NAME	
 }
+
+take_capital_federate = {
+	type = take_capital
+	
+	badboy_factor = 1
+	prestige_factor = 2
+	peace_cost_factor = 0.5
+	
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 0.75
+		
+		peace_options = {
+			po_become_federate
+		}
+	}
+	allowed_provinces = {
+		OR = {
+			is_core = ROOT
+			is_claim = ROOT
+			any_neighbor_province = {
+				owned_by = ROOT
+			}
+		}
+	}
+	
+	war_name = ESTABLISH_FEDERATE_MISSION_WAR_NAME
+}

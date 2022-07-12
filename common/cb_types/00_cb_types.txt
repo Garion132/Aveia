@@ -1256,3 +1256,30 @@ cb_mannish_great_conquest = {
 
 	war_goal = superiority_great_conquest
 }
+
+cb_establish_faun_federate = {
+	valid_for_subject = no
+
+	prerequisites = {
+		#has_ruler_flag = great_conquest_cb_user
+		tag = TLC
+		OR={
+			is_neighbor_of = FROM
+			any_subject_country={
+				OR={
+					is_neighbor_of = FROM
+					any_subject_country={
+						is_neighbor_of = FROM
+					}
+				}
+			}
+		}
+		religion_group = FROM
+		is_revolutionary = no
+		FROM = {
+			primary_culture = shireate
+		}
+	}
+
+	war_goal = take_capital_federate
+}
