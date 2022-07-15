@@ -282,7 +282,7 @@ tolcar_federate = {
 	diplomacy_subject_sprite = GFX_diplomacy_amvassal
 
 	# Properties:
-	base_liberty_desire = -5.0
+	base_liberty_desire = 10.0
 	can_be_annexed = no
 	forms_trade_companies = no
 	can_have_subjects_of_other_types = yes
@@ -298,6 +298,7 @@ tolcar_federate = {
 	seize_territory = no
 	
 	can_fight = {
+		same_overlord = tolcar_federate
 		independent_nations = yes
 	}
 	can_rival = {
@@ -317,7 +318,7 @@ tolcar_federate = {
 	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
 	modifier_subject = clear #Ditto
 	modifier_subject = {
-		modifier = subject_nation
+		modifier = federate_nation
 	}
 	modifier_overlord = {
 		modifier = vassal_subject

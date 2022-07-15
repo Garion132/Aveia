@@ -2580,7 +2580,7 @@ country_event = {#sweaping south
 				ai = yes
 			}
 			add_treasury = 1000
-			add_manpower = 30
+			add_manpower = 300
 			# if={
 				# limit={
 					# SHE={exists = yes}

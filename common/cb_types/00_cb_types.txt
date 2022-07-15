@@ -1262,7 +1262,7 @@ cb_establish_faun_federate = {
 
 	prerequisites = {
 		#has_ruler_flag = great_conquest_cb_user
-		tag = TLC
+		primary_culture = shireate
 		OR={
 			is_neighbor_of = FROM
 			any_subject_country={

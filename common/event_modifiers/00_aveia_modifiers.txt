@@ -454,6 +454,10 @@ crown_of_iron = {
 CYU_coring_cost_ILR = {
 	local_core_creation = -0.15
 }
+federate_nation={
+	global_tax_income = 12
+	land_forcelimit = 1
+}
 
 
 # Important river estuaries

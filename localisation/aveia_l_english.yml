@@ -686,3 +686,4 @@
  PEACE_po_become_federate:0 "@$GIVER$ $TAKER$ Federate"
  po_become_federate_desc:0 "[From.GetName] becomes a [This.GetName] Federate"
  ESTABLISH_FEDERATE_MISSION_WAR_NAME:0 "War to establish a Federate"
+ tolcar_federate_is_our:0 "§Y[From.GetName]§! is our Federate"
