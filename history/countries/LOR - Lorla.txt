@@ -22,13 +22,13 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1103.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Saprest"
 		dynasty = "Lorla"
-		birth_date = 1240.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		birth_date = 1103.12.3
+		adm = 4
+		dip = 3
+		mil = 3
 	}
 }
