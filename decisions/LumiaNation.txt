@@ -40,6 +40,7 @@ country_decisions = {
 				area = windsweaps_11
 				area = windsweaps_12
 				area = windsweaps_13
+				area = windsweaps_14
 				area = deerok_14
 			}
 			OR = {
@@ -78,6 +79,7 @@ country_decisions = {
 					area = windsweaps_11
 					area = windsweaps_12
 					area = windsweaps_13
+					area = windsweaps_14
 				}
 				is_core = ROOT
 				owned_by = ROOT

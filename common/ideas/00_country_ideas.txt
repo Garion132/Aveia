@@ -629,3 +629,44 @@ KYA_ideas = {
 		global_institution_spread = 0.25
 	}
 }
+
+PET_ideas = {
+	start = {
+		discipline = 0.1
+		shock_damage = 0.10
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		tag = PET
+	}
+	free = yes        #will be added at load.
+	
+	council_circles = {
+		state_maintenance_modifier = -0.25
+	}
+	teachings_of_eoch = {
+		relation_with_same_culture_group = 10
+		num_accepted_cultures = 1
+	}
+	deepwood_fighting = {
+		fire_damage_received = -0.05
+		defensiveness = 0.10
+	}
+	shelter_of_the_deepwoods = {
+		development_cost = -0.15
+	}
+	ironwood_artisans = {
+		production_efficiency = 0.10
+		all_power_cost = -0.02
+	}
+	ideals_of_freedom = {
+		local_years_of_nationalism = -5
+	}
+	hanging_gardens = {
+		global_tax_modifier = 0.10
+	}
+}

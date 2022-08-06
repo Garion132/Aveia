@@ -7,6 +7,7 @@ color = { 255 194 209 }
 revolutionary_colors = { 5 8 13 }
 
 historical_idea_groups = {
+	administrative_ideas
 	colonial_ideas
 	trade_ideas
 	religious_ideas
