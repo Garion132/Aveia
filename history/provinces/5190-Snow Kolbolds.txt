@@ -1,6 +1,6 @@
 #shires
 culture = silric
-religion = godly_sect
+religion = veliti
 capital = "colonial"
 trade_goods = unknown
 hre = no

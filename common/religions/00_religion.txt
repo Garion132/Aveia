@@ -708,6 +708,54 @@ rake_group = {
 		date = 1458.6.15
 		
 	}
+	
+	veliti = { #queen of ice
+		color = { 215 153 175 }
+		icon = 20
+		allowed_conversion = {
+			rethese
+		}
+		country = {
+			tolerance_own = 1
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			development_cost = -0.1
+			diplomats = 1
+		}
+		papacy = {
+			papal_tag = VYL
+			election_cost = 5
+			seat_of_papacy = 5206 # Velya
+		}
+		
+		heretic = { FOG_FATHER }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
+	suhar = { #suhar, diamond scale
+		color = { 171 177 195 }
+		icon = 21
+		allowed_conversion = {
+			rethese
+			vulikivite
+			veliti
+		}
+		country = {
+			heir_chance = 1.0
+			land_morale = 0.05
+		}
+		country_as_secondary = {
+			land_morale = 0.05
+			advisor_cost = -0.1
+		}
+		
+		heretic = { FOG_FATHER }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
 
 	crusade_name = CRUSADE
 }

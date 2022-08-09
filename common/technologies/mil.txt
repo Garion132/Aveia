@@ -381,6 +381,7 @@ technology = {
 
 	enable = crossbowmen #Elves
 	enable = faun_vulaebows
+	enable = faeswords
 }
 
 technology = {
@@ -548,6 +549,7 @@ technology = {
 	enable = kolbolds_at_arms_supported
 	enable = kolbold_sleeting_musketeers
 	enable = dunirr_compound_steamlocks #Dorfs
+	enable = suntouched_irregulars
 }
 
 technology = {
@@ -638,6 +640,7 @@ technology = {
 	enable = ork_shock_infantry #Orks
 	enable = human_greenback_infantry #Humans
 	enable = elven_light_musketeers #Elves
+	enable = suntouched_muskets
 
 	enable = squirrel_ironwood_arquebusiers
 	

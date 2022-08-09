@@ -1,7 +1,13 @@
 # Thyrian Archers
 
 type = infantry
-unit_type = lake_elves_group
+trigger = {
+    OR = { 
+		technology_group = lake_elves
+		technology_group = sun_elves
+		technology_group = moon_elves
+	}
+}
 
 maneuver = 1
 offensive_morale = 3

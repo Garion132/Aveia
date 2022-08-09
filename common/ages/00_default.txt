@@ -273,7 +273,10 @@ age_of_golden_sun = {
 	can_start = {
 		custom_trigger_tooltip = {
 			tooltip = golden_sun_discovered_tooltip
-			any_country = {has_discovered = 1006}
+			OR={
+				any_country = {has_discovered = 1006}
+				has_global_flag = golden_sun_discovered
+			}
 		}
 	}
 	

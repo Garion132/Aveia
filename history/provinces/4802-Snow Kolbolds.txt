@@ -1,6 +1,6 @@
 #shires
 culture = wisdram
-religion = godly_sect
+religion = suhar
 capital = "colonial"
 trade_goods = unknown
 hre = no

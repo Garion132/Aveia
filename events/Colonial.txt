@@ -86,7 +86,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		current_age = age_of_revolutions
+		current_age = age_of_progress
 		is_overseas = yes
 		is_colony = no
 		religion_group = owner
@@ -139,7 +139,7 @@ province_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		current_age = age_of_revolutions
+		current_age = age_of_progress
 		is_colony = no
 		is_overseas = yes
 		religion_group = christian
@@ -167,7 +167,7 @@ province_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		current_age = age_of_revolutions
+		current_age = age_of_progress
 		is_overseas = yes
 		is_colony = no
 		religion_group = owner
@@ -824,5 +824,82 @@ province_event = {
 		name = "colonial.19.a"
 
 		add_center_of_trade_level = 1
+	}
+}
+
+#Founding of the golden sun
+#a journey inland
+country_event = {
+	id = colonial.30
+	title = "colonial.30.t"
+	desc = "colonial.30.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = golden_sun_discovered
+	}
+	
+	option = {
+		name = "colonial.30.a"
+		FROM = {
+			add_years_of_income = -0.25
+			hidden_effect={
+				country_event = {id = colonial.31 days = 15}
+			}
+		}
+	}
+}
+
+country_event = {#a divine discovery
+	id = colonial.31
+	title = "colonial.31.t"
+	desc = "colonial.31.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		1006 = {
+			add_base_production = 5
+			add_base_tax = 2
+			add_base_manpower = 1
+			center_of_trade = 1
+			change_culture = ROOT
+			change_religion = ROOT
+			add_core = GSC
+			add_permanent_province_modifier = { 
+				name = golden_sun_1
+				duration = -1  
+			}
+		}
+		GSC={
+			change_primary_culture = ROOT
+			change_religion = ROOT
+			discover_country = ROOT
+		}
+	}
+	
+	option = {
+		name = "colonial.31.a"
+		1006 = {
+			cede_province = GSC
+		}
+		create_subject = {
+			subject_type = dominion_vassal
+			subject = GSC
+		}
+	}
+	option = {#play as them
+		name = "colonial.31.b"
+		1006 = {
+			cede_province = GSC
+		}
+		create_subject = {
+			subject_type = dominion_vassal
+			subject = GSC
+		}
+		switch_tag = GSC
 	}
 }

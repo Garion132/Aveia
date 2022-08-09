@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = silric
-religion = godly_sect
+religion = suhar
 government_rank = 1
 technology_group = free_kolbolds_group
 capital = 5183 # 

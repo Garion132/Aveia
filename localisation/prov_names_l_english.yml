@@ -119,6 +119,7 @@
  PROV364:0 "Yolris"
  
  PROV377:0 "Wester Bay"
+ PROV378:0 "Goldbay"
  
  PROV404:0 "Unfound Seas"
 
@@ -939,7 +940,7 @@
  
  PROV5138:0 "Hadna"
  PROV5139:0 "Atylasame"
- 
+ PROV5140:0 "Northarch"
  PROV5141:0 "Penshaw"
  
  PROV5144:0 "Oregla"

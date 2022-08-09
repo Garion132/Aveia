@@ -41,7 +41,7 @@ groups = {
 	}
 	sun_elves_group = {
 		start_level = 3
-		start_cost_modifier = 0.20
+		start_cost_modifier = 0
 	}
 	dunirr_group = {
 		start_level = 3
@@ -49,7 +49,7 @@ groups = {
 	}
 	moon_elves_group = {#expidition elves
 		start_level = 3
-		start_cost_modifier = 0.20
+		start_cost_modifier = 0
 	}
 	free_kolbolds_group = {#expidition kolbolds
 		start_level = 3

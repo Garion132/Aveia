@@ -436,5 +436,7 @@ RUT = "countries/Rutiroe.txt"
 WUL = "countries/Wulkildr.txt"
 VAL = "countries/Valtyue.txt"
 
+GSC = "countries/Golden Sun Colony.txt"
+
 #Crashes if this doesn't exist
 PAP = "countries/Yulikivian.txt"

@@ -322,3 +322,9 @@
  fall_of_ghand.EVTOPTA5:0 "Lead the Purple Flag south"
  fall_of_ghand.EVTOPTA6:0 "Remain with his dynasty"
  fall_of_ghand.EVTNAME1:0 "Fall of Great Ghand"
+ 
+ colonial.30.t:0 "A Glowing Beach"
+ colonial.30.d:0 "Our exploration fleet in the new world discovered a island in the middle of a sea. Unlike other islands discovered in the past the whole island is radiating a golden glow. The entraprising captian has landed and is organising a expition to discover the source of the glow."
+ colonial.30.a:0 "A quest inland"
+ colonial.31.t:0 "A Divine Discovery"
+ 
