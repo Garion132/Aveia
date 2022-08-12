@@ -878,6 +878,7 @@ country_event = {#a divine discovery
 			change_primary_culture = ROOT
 			change_religion = ROOT
 			discover_country = ROOT
+			country_event = {id = colonial.32 days = 150}
 		}
 	}
 	
@@ -901,5 +902,25 @@ country_event = {#a divine discovery
 			subject = GSC
 		}
 		switch_tag = GSC
+	}
+}
+#discovery of bryrine deposits
+country_event = {
+	id = colonial.32
+	title = "colonial.32.t"
+	desc = "colonial.32.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "colonial.32.a"
+		1006={
+			change_trade_goods = bryrine
+		}
+	}
+	option = {
+		name = "colonial.32.b"
+		add_years_of_income = 2.5
 	}
 }

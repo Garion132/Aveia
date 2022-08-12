@@ -554,7 +554,6 @@ thilrana_region={
 		thilrana_5
 		thilrana_6
 		thilrana_7
-		lonely_isles
 	}
 }
 donamenz_region={
@@ -819,6 +818,7 @@ greater_jalhorkan_region={
 		brightcoast_16
 		brightcoast_17
 		windsweaps_1
+		lonely_isles
 	}
 }
 windsweaps_region={
