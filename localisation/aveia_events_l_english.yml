@@ -81,6 +81,10 @@
  prices.120.a:0 "Marginal Lands Rejoice!"
  irrigation_dev_gain_tt:0 "Add §G1§! Base Production to all §YGrain§!, §YFruit§!, and §YWine§! Provinces\n"
 
+ prices.152.t:0 "Valei Khabaravor & Poito Escatra"
+ prices.152.d:0 "Valei Khabaravor, an alchemist within our lands, was apparently long obsessed with mysterious materials originating from the Gued mountains. During his spare time, he would work with the material to discover its properties. Apparently a metal which he named after the mountain range, Valei discovered that Guedina superheats any water it comes into contact with and tarnishes the surface. However, this water becomes steam and expands.\n\nWhen Valei invited his friend, Poito Escatra, over for a demonstration of guedina-heated steam pushing liquid through a tube, Poito, because of his interest in mechanisms, decided to try to create a pump that required neither a person nor animal to power. So, the Steam Pump was born."
+ prices.152.a:0 "An interesting metal with interesting applications"
+
  elteria_event.12.t:0 "Scramble for Elteria"
  elteria_event.12.d:0 "Elteria, long a land rife with rebel Fauns and dense Jungle, has a miracle herb in its densest forests: Ecriamin. This, along with new discoveries of silver deposits and great growing locations have led to a shocking realization amongst our merchants, our nobles, and our peasants alike: \n\nWhoever controls Elteria will control Aveia, for whoever controls Elteria controls the Ecriamin trade, and whoever controls the Ecriamin trade controls the health of kings."
  elteria_event.12.a:0 "Time for a Scramble"

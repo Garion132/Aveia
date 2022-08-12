@@ -527,7 +527,7 @@ country_event = {
 
 	trigger = {
 		NOT = { has_global_flag = calamity_recovery_happened }
-		had_global_flag = { flag = end_of_bronze_age_happened days = 7300 }
+		is_year = 1400
 		had_country_flag = { flag = had_iron_age_calamity days = 7300 }
 		NOT = { has_disaster = iron_age_calamity }
 		OR = {
@@ -539,7 +539,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 
 	option = {
@@ -595,13 +595,7 @@ country_event = {
 			every_country = {
 				limit = {
 					NOT = { tag = ROOT }
-					NOT = { 
-						OR = {
-							#People who couldn't get the disaster don't get this, and released countries get this
-							technology_group = northern_men_group
-							technology_group = free_fauns_group
-						}
-					}
+					has_country_flag = had_iron_age_calamity
 				}
 
 				country_event = { id = prices.106 days = 5 }
@@ -617,20 +611,12 @@ country_event = {
 	desc = prices.106.d
 	picture = TRADEGOODS_eventPicture
 
-	fire_only_once = yes
+	#fire_only_once = yes
 
 	is_triggered_only = yes
-	
-	# trigger = {
-		
-	# }
-	# mean_time_to_happen = {
-		# months = 1
-	# }
 
 	option = {
 		name = prices.106.a
-
 		add_country_modifier = { 
 			name = iron_age_calamity_recovery
 			duration = 36500
@@ -1829,12 +1815,46 @@ country_event = {
 #151: Glass Roofs (1807), +30% Glass
 	# James Hartley introduced the Rolled Plate method in 1847. This allowed a ribbed finish and was often used for extensive glass roofs such as within railway stations.
 
-#152: Valei Khabaravor (1482), +50% Guedina
-	# Dude who figures out the properties of Guedina & invents the steam pump
+#152: Valei Khabaravor & Poito Escatra (1482), +50% Guedina
+	# Dude who figures out the properties of Guedina & his friend invents the steam pump
+country_event = {
+	id = prices.152
+	title = prices.152.t
+	desc = prices.152.d
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = {
+		adm_tech = 20
+		OR = {
+			guedina = 1
+			any_owned_province = {
+				development = 30
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = { #An interesting metal with interesting applications
+		name = prices.152.a
+		add_adm_power = 100
+		change_price = {
+			trade_goods = guedina
+			key = DISCOVERY_OF_USE
+			value = 0.5
+			duration = -1
+		}
+	}
+}
 	
 #153: Airships (1651), +100% Guedina, +100% Vitaite, +25% Naval Supplies, +20% Cloth
 
-#154: Guedina-Powered Weapons (1560), +50% Guedina
+#154: Guedina-Powered Weapons (1560), +100% Guedina
 
 #155: Guedina Demand Peaks (1700), +75% Guedina (25 yrs), -50% Guedina, +30% Naval Supplies (25 yrs), +20% Coal
 	#People realize there's other products
