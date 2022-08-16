@@ -258,8 +258,8 @@ iron_age_republic_adv = {
 	}
 	effect = {
 		#set_country_flag = populists_in_government
-		#lose_reforms = 3
-		#change_government = republic
+		lose_reforms = 5
+		change_government = iron_republic
 	}
 	ai = {
 		factor = 0

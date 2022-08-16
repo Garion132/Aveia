@@ -30,6 +30,12 @@ country_event = {
 
 	option = {
 		name = solar_crisis_event.1.a
+		every_country={
+			limit={
+				has_personal_deity = rauthalor
+			}
+			country_event = {id = solar_crisis_event.11 days = 3}
+		}
 		enable_religion = essarania#the three main successors start fighting
 		random_owned_province = {
 			limit = {
@@ -99,6 +105,15 @@ country_event = {
 				culture_group = chaun_ugluk
 		}
 	}
+	immediate = {
+		every_country={
+			limit={
+				has_personal_deity = sifon
+			}
+			country_event = {id = solar_crisis_event.12 days = 3}
+		}
+	}
+	
 
 	option = {
 		name = solar_crisis_event.2.a
@@ -162,6 +177,15 @@ country_event = {
 		}
 		is_religion_enabled = essarania
 		religion_years = { essarania = 3 }
+	}
+	
+	immediate = {
+		every_country={
+			limit={
+				has_personal_deity = gualorhei
+			}
+			country_event = {id = solar_crisis_event.13 days = 3}
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -518,5 +542,218 @@ country_event = {
 				duration = 9000
 			}
 		}
+	}
+}
+
+country_event = {#golden Sun
+	id = solar_crisis_event.10
+	title = solar_crisis_event.10.t
+	desc = solar_crisis_event.10.d
+	
+	major = yes
+	
+	trigger = {
+		NOT = { is_religion_enabled = eternal_sun }
+		is_defender_of_faith = no
+		owns = 1006
+		any_owned_province = {
+			can_have_center_of_reformation_trigger = {
+				RELIGION = eternal_sun
+			}
+			has_port = yes
+		}
+		is_religion_enabled = essarania
+		religion_years = { essarania = 3 }
+	}
+	
+	mean_time_to_happen = {
+		months = 22
+	}
+	
+	immediate={
+		enable_religion = eternal_sun
+		1006={
+			change_religion = eternal_sun
+			add_reform_center = eternal_sun
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+		
+	}
+	option = {#The Sun is Eternal
+		name = solar_crisis_event.10.a
+		change_religion = eternal_sun
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	option = {#stay loyal, eternal sun will never appear again
+		name = solar_crisis_event.10.b
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}
+
+# rauthalor calls for ROOT to join her
+country_event = {
+	id = solar_crisis_event.11
+	title = solar_crisis_event.11.t
+	desc = solar_crisis_event.11.d
+	
+	
+	is_triggered_only = yes
+
+	option = {#back her
+		name = solar_crisis_event.11.a
+		change_religion = essarania
+		if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = essarania
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = essarania
+							}
+						}
+						change_religion = essarania
+						add_reform_center = essarania
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
+		capital_scope = {
+			change_religion = essarania
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+	}
+	option = {#stay loyal
+		name = solar_crisis_event.11.b
+		random_owned_province={
+			change_religion = essarania
+		}
+		set_country_flag = betrayed_rauthalor
+	}
+}
+# Sifon calls for ROOT to join her
+country_event = {
+	id = solar_crisis_event.12
+	title = solar_crisis_event.12.t
+	desc = solar_crisis_event.12.d
+	
+	
+	is_triggered_only = yes
+
+	option = {#back her
+		name = solar_crisis_event.12.a
+		change_religion = muthilian
+		if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = muthilian
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = muthilian
+							}
+						}
+						change_religion = muthilian
+						add_reform_center = muthilian
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
+		capital_scope = {
+			change_religion = muthilian
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+	}
+	option = {#stay loyal
+		name = solar_crisis_event.12.b
+		random_owned_province={
+			change_religion = muthilian
+		}
+		set_country_flag = betrayed_sifon
+	}
+}
+# gualorhei calls for ROOT to join her
+country_event = {
+	id = solar_crisis_event.13
+	title = solar_crisis_event.13.t
+	desc = solar_crisis_event.13.d
+	
+	
+	is_triggered_only = yes
+
+	option = {#back him
+		name = solar_crisis_event.13.a
+		change_religion = seriaralia
+		if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = seriaralia
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = seriaralia
+							}
+						}
+						change_religion = seriaralia
+						add_reform_center = seriaralia
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
+		capital_scope = {
+			change_religion = seriaralia
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+	}
+	option = {#stay loyal
+		name = solar_crisis_event.13.b
+		random_owned_province={
+			change_religion = seriaralia
+		}
+		set_country_flag = betrayed_gualorhei
 	}
 }

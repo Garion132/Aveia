@@ -434,79 +434,6 @@ tlaulunorism = {
 		
 		date = 1668.10.31
 	}
-	eternal_sun = {
-		color = { 219 190 0 }
-		icon = 7
-
-		allowed_conversion = {
-			cult_progress
-		}
-		allowed_center_conversion = {
-			tlaunorist
-			seriaralia
-			umesedilism
-			essarania
-			muthilian
-			vulikivite
-		}
-		country = {
-			global_tax_modifier = 0.1
-			improve_relation_modifier = 0.15
-			church_loyalty_modifier = 0.1
-		}
-		
-		country_as_secondary = {
-			idea_cost = -0.1
-		}
-		
-		will_get_center = { #Refered to even for initial CoR Spawn
-			any_owned_province = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = eternal_sun
-				}
-			}
-		}
-
-		on_convert = {
-			change_religion = eternal_sun
-			add_prestige = -100
-	
-			if = {
-				limit = {
-					NOT = {
-						calc_true_if = {
-							all_province = {
-								religion = eternal_sun
-								is_reformation_center = yes
-							}
-							amount = 3
-						}
-					}
-				}
-				hidden_effect = {
-					random_owned_province = {
-						limit = {
-							can_have_center_of_reformation_trigger = {
-								RELIGION = eternal_sun
-							}
-						}
-						change_religion = eternal_sun
-						add_reform_center = eternal_sun
-					}
-				}
-				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
-			}
-			
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
-		
-		date = 1668.10.31
-	}
 
 	godly_sect = {
 		color = { 244 104 75 }
@@ -602,6 +529,93 @@ tlaulunorism = {
 	}
 	
 	#harmonized_modifier = harmonized_christian
+	
+	crusade_name = CRUSADE
+}
+suntouched_faiths = {#tlaulunorist breakaways in the new world
+	defender_of_faith = yes
+	can_form_personal_unions = yes
+	
+	center_of_religion = 1006 # Iwenlumy
+
+	# Flag emblem values - Used for Dynamic Setup of Random Nations.
+	# Emblem texture: game/gfx/interface/client_state_symbols_large.dds
+	# Can be overridden per religion.
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+	eternal_sun = {
+		color = { 219 190 0 }
+		icon = 7
+
+		allowed_conversion = {
+			cult_progress
+		}
+		allowed_center_conversion = {
+			tlaunorist
+			seriaralia
+			umesedilism
+			essarania
+			muthilian
+			vulikivite
+		}
+		country = {
+			global_tax_modifier = 0.1
+			improve_relation_modifier = 0.15
+			church_loyalty_modifier = 0.1
+		}
+		
+		country_as_secondary = {
+			idea_cost = -0.1
+		}
+		
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = eternal_sun
+				}
+			}
+		}
+
+		on_convert = {
+			change_religion = eternal_sun
+			add_prestige = -100
+	
+			if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = eternal_sun
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = eternal_sun
+							}
+						}
+						change_religion = eternal_sun
+						add_reform_center = eternal_sun
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
+		
+		date = 1668.10.31
+	}
 	
 	crusade_name = CRUSADE
 }

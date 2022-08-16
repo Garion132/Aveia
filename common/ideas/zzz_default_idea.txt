@@ -13,9 +13,6 @@ default_ideas = {
 	
 	free = yes
 	
-	increase_discipline = {
-		discipline = 0.05
-	}
 	increase_taxation = {
 		global_tax_modifier = 0.1
 	}	
@@ -33,5 +30,8 @@ default_ideas = {
 	}
 	increased_production_income = {
 		production_efficiency = 0.1
+	}
+	default_morale_idea={
+		land_morale = 0.1
 	}
 }
