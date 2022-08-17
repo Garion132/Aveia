@@ -244,6 +244,44 @@ ba_aristocratic_military_reform = {
 		factor = 0.5 #generic
 	}
 }
+
+#City Rights:
+
+ba_local_rights_reform = {
+	icon = "monks"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		burghers_influence_modifier = 0.05
+		production_efficiency = 0.1
+	}
+	
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+#office selection:
+
+ba_random_draw_reform = {
+	icon = "monks"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		yearly_corruption = -0.1
+	}
+	custom_attributes = {
+		lottery_election = yes
+		election_on_death = yes
+	}
+	has_term_election = no
+	ai = {
+		factor = 1
+	}
+}
+
 iron_age_republic_adv = {
 	icon = "parliament_highlighted"
 	allow_normal_conversion = yes

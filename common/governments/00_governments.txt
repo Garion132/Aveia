@@ -837,7 +837,7 @@ bronze_league = {
 		}
 		city_rights = {
 			reforms = {
-				
+				ba_local_rights_reform
 			}
 		}
 		rights_to_forge = {
@@ -858,7 +858,13 @@ bronze_league = {
 		}
 		office_selection = {
 			reforms = {
-				
+				ba_random_draw_reform
+			}
+		}
+		advance_government_form = {
+			reforms = {
+				iron_age_monarchy_adv
+				iron_age_republic_adv
 			}
 		}
 	}
