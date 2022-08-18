@@ -29,3 +29,8 @@ discovered_by = free_fauns_group
 }
 
 center_of_trade = 2
+
+add_permanent_province_modifier = {
+	name = calecall_estuary_modifier
+	duration = -1
+}

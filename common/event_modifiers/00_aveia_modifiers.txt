@@ -517,6 +517,42 @@ deadwich_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
+valifor_estuary_modifier = {
+	province_trade_power_value = 15
+	picture = "estuary_icon"
+}
+brid_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+hobringai_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+calecall_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+sileed_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+scorross_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+bhogheg_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+thorfove_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+clearow_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
 
 
 calendor_island_modifier = {

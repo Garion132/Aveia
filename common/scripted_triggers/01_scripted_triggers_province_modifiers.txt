@@ -7,6 +7,25 @@ has_river_estuary_trigger = {
 		OR = {
 			has_province_modifier = river_estuary_modifier
 			has_province_modifier = enheasrion_estuary_modifier
+			has_province_modifier = moraler_estuary_modifier
+			has_province_modifier = changurdur_estuary_modifier
+			has_province_modifier = antyr_estuary_modifier
+			has_province_modifier = tavhe_estuary_modifier
+			has_province_modifier = selehilfa_estuary_modifier
+			has_province_modifier = efholumelion_estuary_modifier
+			has_province_modifier = llauggarwin_estuary_modifier
+			has_province_modifier = manoserora_estuary_modifier
+			has_province_modifier = eagburyard_estuary_modifier
+			has_province_modifier = deadwich_estuary_modifier
+			has_province_modifier = valifor_estuary_modifier
+			has_province_modifier = brid_estuary_modifier
+			has_province_modifier = hobringai_estuary_modifier
+			has_province_modifier = calecall_estuary_modifier
+			has_province_modifier = sileed_estuary_modifier
+			has_province_modifier = scorross_estuary_modifier
+			has_province_modifier = bhogheg_estuary_modifier
+			has_province_modifier = thorfove_estuary_modifier
+			has_province_modifier = clearow_estuary_modifier
 		}
 	}
 }
@@ -18,6 +37,25 @@ has_no_river_estuary_trigger = {
 		NOT = {
 			has_province_modifier = river_estuary_modifier
 			has_province_modifier = enheasrion_estuary_modifier
+			has_province_modifier = moraler_estuary_modifier
+			has_province_modifier = changurdur_estuary_modifier
+			has_province_modifier = antyr_estuary_modifier
+			has_province_modifier = tavhe_estuary_modifier
+			has_province_modifier = selehilfa_estuary_modifier
+			has_province_modifier = efholumelion_estuary_modifier
+			has_province_modifier = llauggarwin_estuary_modifier
+			has_province_modifier = manoserora_estuary_modifier
+			has_province_modifier = eagburyard_estuary_modifier
+			has_province_modifier = deadwich_estuary_modifier
+			has_province_modifier = valifor_estuary_modifier
+			has_province_modifier = brid_estuary_modifier
+			has_province_modifier = hobringai_estuary_modifier
+			has_province_modifier = calecall_estuary_modifier
+			has_province_modifier = sileed_estuary_modifier
+			has_province_modifier = scorross_estuary_modifier
+			has_province_modifier = bhogheg_estuary_modifier
+			has_province_modifier = thorfove_estuary_modifier
+			has_province_modifier = clearow_estuary_modifier
 		}
 	}
 }
@@ -34,6 +72,7 @@ province_without_special_goods_produced_trigger = {
 	NOT = {
 		has_province_modifier = asemont_copper_mines
 		has_latent_trade_goods = coal
+		has_latent_trade_goods = iron
 	}
 }
 
