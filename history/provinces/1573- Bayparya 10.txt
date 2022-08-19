@@ -3,7 +3,7 @@
 add_core = BAY
 owner = BAY
 controller = BAY
-culture = iyarzin
+culture = bayparya
 religion = tlaunorist
 hre = no
 base_tax = 1

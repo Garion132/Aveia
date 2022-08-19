@@ -1,8 +1,8 @@
 #Ziyalap
 
-add_core = ZIY
-owner = ZIY
-controller = ZIY
+add_core = BAY
+owner = BAY
+controller = BAY
 culture = topika
 religion = tlaunorist
 hre = no

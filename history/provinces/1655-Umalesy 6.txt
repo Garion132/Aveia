@@ -1,9 +1,9 @@
 #Umalesy
 
-add_core = UMA
-owner = UMA
-controller = UMA
-culture = terbi
+add_core = REY
+owner = REY
+controller = REY
+culture = reylanian
 religion = tlaunorist
 hre = no
 base_tax = 1

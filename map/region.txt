@@ -357,7 +357,6 @@ chaunluma_region={#
 		umalesy_2
 		umalesy_3
 		umalesy_4
-		matn_1
 		matn_2
 		matn_3
 		rauma_1
@@ -386,7 +385,6 @@ great_ziyalap_region={
 		ziyalap_13
 		ziyalap_14
 		ziyalap_15
-		ziyalap_16
 		bayparya_1
 		bayparya_2
 		bayparya_3
@@ -405,12 +403,12 @@ great_ziyalap_region={
 }
 morbin_region={
 	areas = {
+		gulba_11
 		gulba_12
 		gulba_13
 		gulba_14
 		gulba_15
 		gulba_16
-		gulba_17
 		gulba_18
 		gulba_19
 		gulba_20
@@ -436,7 +434,7 @@ great_gulba_region={
 		gulba_8
 		gulba_9
 		gulba_10
-		gulba_11
+		gulba_17
 		rauthyr_25
 		rauthyr_26
 	}
