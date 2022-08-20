@@ -68,6 +68,10 @@ groups = {
 		start_level = 3
 		start_cost_modifier = 0.20
 	}
+	eastern_men_group = {
+		start_level = 2
+		start_cost_modifier = 0.8
+	}
 
 	western = {
 		start_level = 3

@@ -139,6 +139,9 @@ can_colonize_province = {
 			OR = {
 				region = qirdud_region
 				region = anoric_region
+				region = vortingrad_region
+				region = wuloric_region
+				region = rogosian_heights_region
 				province_id = 2686
 				province_id = 2838
 			}

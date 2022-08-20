@@ -1,5 +1,10 @@
 #juilia
 capital = "Accra"
+add_core = EHL
+owner = EHL
+controller = EHL
+culture = anorian
+religion = tradowite
 trade_goods = unknown
 hre = no
 base_tax = 0

@@ -1,0 +1,22 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = anorian
+religion = shimmerian
+government_rank = 1
+technology_group = eastern_men_group
+capital = 4804 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+
+# 1240.9.16 = {
+	# monarch = {
+		# name = "Eltro III"
+		# dynasty = "Gugh"
+		# birth_date = 1240.12.3
+		# adm = 5
+		# dip = 4
+		# mil = 3
+	# }
+# }

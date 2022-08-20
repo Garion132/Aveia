@@ -92,6 +92,7 @@ CGZ = "countries/Chugzag.txt"
 IBR = "countries/Ibrad.txt"
 BUL = "countries/Bulraz.txt"
 DHO = "countries/Dhodh.txt"
+HJU = "countries/Herju.txt"
 
 LIR = "countries/Liretlet.txt"
 FAN = "countries/Fanilnemyel.txt"
@@ -427,6 +428,22 @@ SRA = "countries/Srandor.txt"
 
 #nagas
 	KEP = "countries/Kepjar.txt"
+	
+#Anorite human
+LOS = "countries/Loswath.txt"
+BOR = "countries/Borestia.txt"
+OXL = "countries/Oxligland.txt"
+EAR = "countries/Earh.txt"
+EMI = "countries/Eminborn.txt"
+TIM = "countries/Timberia.txt"
+CLU = "countries/Cloud.txt"
+GRC = "countries/Gricia.txt"
+QUI = "countries/Quick.txt"
+MOW = "countries/Mowindia.txt"
+MYT = "countries/Myttalia.txt"
+CRY = "countries/Crystalia.txt"
+EHL = "countries/Elhal.txt"
+
 
 #strongholder tags
 ALA = "countries/Alaritlu.txt"

@@ -699,7 +699,6 @@ vortingrad_region={
 		vortingrad_6
 		vortingrad_7
 		vortingrad_8
-		vortingrad_9
 		keril_43
 		keril_58
 		keril_46
@@ -722,13 +721,13 @@ vortingrad_region={
 
 borestia_region={
 	areas={
+		vortingrad_9
 		borestia_1
 		borestia_2
 		borestia_3
 		borestia_4
 		borestia_5
 		borestia_6
-		borestia_7
 		borestia_8
 		borestia_9
 		borestia_10
@@ -1374,13 +1373,13 @@ earh_region={
 		earh_12
 		earh_13
 		earh_14
-		earh_15
 	}
 }
 crystalia_region={
 	areas={
 		crystalia_1
 		crystalia_2
+		earh_15
 		earh_16
 		earh_17
 		earh_18
@@ -1399,6 +1398,7 @@ crystalia_region={
 		crystalia_16
 		crystalia_17
 		crystalia_18
+		borestia_7
 		
 	}
 }

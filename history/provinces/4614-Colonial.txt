@@ -1,5 +1,7 @@
 #juilia
 capital = "Accra"
+culture = anorian
+religion = uzvazism
 trade_goods = unknown
 hre = no
 base_tax = 0
@@ -9,3 +11,5 @@ native_size = 50
 native_ferocity = 6
 native_hostileness = 4
 extra_cost = 8
+
+discovered_by = eastern_men_group

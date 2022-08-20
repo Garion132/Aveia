@@ -3,7 +3,7 @@
 add_core = GUL
 owner = GUL
 controller = GUL
-culture = morbinite
+culture = talbin
 religion = tlaunorist
 hre = no
 base_tax = 4

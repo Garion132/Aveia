@@ -1205,6 +1205,98 @@ grayard_group = {#faiths of the east
 		harmonized_modifier = harmonized_buddhism
 		
 	}
+	
+	shimmerian = { #
+		color = { 183 51 135 }
+		icon = 22
+		country = {
+			development_cost = -0.1
+			religious_unity = 0.1
+		}
+		country_as_secondary = {
+			trade_efficiency = 0.1
+			diplomats = 1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { SKOZJIGIAN }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
+	falowi = { #
+		color = { 255 71 187 }
+		icon = 23
+		country = {
+			development_cost = -0.1
+			religious_unity = 0.1
+		}
+		country_as_secondary = {
+			trade_efficiency = 0.1
+			diplomats = 1
+		}
+		
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		misguided_heretic = yes		# Other eastern faiths hate them less
+		
+		heretic = { SKOZJIGIAN }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
+	loswain = { #
+		color = { 198 95 124 }
+		icon = 24
+		country = {
+			development_cost = -0.1
+			religious_unity = 0.1
+		}
+		country_as_secondary = {
+			trade_efficiency = 0.1
+			diplomats = 1
+		}
+		
+		holy_sites = { 4818 4618 4916 4828 4722 }
+
+		blessings = {
+			blessing_yasna
+			blessing_haoma
+			blessing_navjote
+			blessing_manthras
+			blessing_dakhma
+		}
+		
+		heretic = { SKOZJIGIAN }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
+	tradowite = { #
+		color = { 216 90 32 }
+		icon = 25
+		country = {
+			development_cost = -0.1
+			religious_unity = 0.1
+		}
+		country_as_secondary = {
+			trade_efficiency = 0.1
+			diplomats = 1
+		}
+		
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { SKOZJIGIAN }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+	}
 
 	crusade_name = CRUSADE
 }
