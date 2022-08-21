@@ -2,7 +2,6 @@ government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = anorian
 religion = falowi
-government_rank = 1
 technology_group = eastern_men_group
 capital = 4618 # 
 #national_focus = DIP
