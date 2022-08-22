@@ -9,45 +9,84 @@ crisis_of_the_12th_century = {
 
 
 	can_start = {
-		has_any_disaster = no
+		OR={
+			has_any_disaster = no
+			has_country_flag = RAU_crisis_12th_ongoing
+		}
 		OR={
 			unrest = 1
 			NOT = { stability = 0 }
 			calc_true_if = {
-				NOT = {
-					estate_loyalty = {
+				OR={
+					estate_influence = {
 						estate = estate_house_etailia
-						loyalty = 30
+						influence = 55
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_house_etailia
+							loyalty = 30
+						}
 					}
 				}
-				NOT = {
-					estate_loyalty = {
+				OR={
+					estate_influence = {
 						estate = estate_house_kethai
-						loyalty = 30
+						influence = 55
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_house_kethai
+							loyalty = 30
+						}
 					}
 				}
-				NOT = {
-					estate_loyalty = {
+				OR={
+					estate_influence = {
 						estate = estate_house_nyletmi
-						loyalty = 30
+						influence = 55
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_house_nyletmi
+							loyalty = 30
+						}
 					}
 				}
-				NOT = {
-					estate_loyalty = {
+				OR={
+					estate_influence = {
 						estate = estate_house_draumi
-						loyalty = 30
+						influence = 55
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_house_draumi
+							loyalty = 30
+						}
 					}
 				}
-				NOT = {
-					estate_loyalty = {
+				OR={
+					estate_influence = {
 						estate = estate_house_lidori
-						loyalty = 30
+						influence = 55
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_house_lidori
+							loyalty = 30
+						}
 					}
 				}
-				NOT = {
-					estate_loyalty = {
+				OR={
+					estate_influence = {
 						estate = estate_house_celola
-						loyalty = 30
+						influence = 55
+					}
+					NOT = {
+						estate_loyalty = {
+							estate = estate_house_celola
+							loyalty = 30
+						}
 					}
 				}
 				amount = 3
@@ -179,33 +218,36 @@ crisis_of_the_12th_century = {
 		hidden_trigger={
 			has_country_flag = RAU_crisis_12th
 		}
+		NOT={
+			has_country_flag = RAU_crisis_12th_ongoing
+		}
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		NOT = { num_of_rebel_armies = 1 }
 		NOT = { unrest = 1 }
-		stability = 1
+		stability = 3
 		estate_loyalty = {
 			estate = estate_house_etailia
-			loyalty = 25
+			loyalty = 50
 		}
 		estate_loyalty = {
 			estate = estate_house_kethai
-			loyalty = 25
+			loyalty = 50
 		}
 		estate_loyalty = {
 			estate = estate_house_nyletmi
-			loyalty = 25
+			loyalty = 50
 		}
 		estate_loyalty = {
 			estate = estate_house_draumi
-			loyalty = 25
+			loyalty = 50
 		}
 		estate_loyalty = {
 			estate = estate_house_lidori
-			loyalty = 25
+			loyalty = 50
 		}
 		estate_loyalty = {
 			estate = estate_house_celola
-			loyalty = 25
+			loyalty = 50
 		}
 	}
 	

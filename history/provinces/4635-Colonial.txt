@@ -1,6 +1,6 @@
 #juilia
 capital = "Accra"
-trade_goods = unknown
+trade_goods = naval_supplies
 culture = anorian
 religion = uzvazism
 hre = no

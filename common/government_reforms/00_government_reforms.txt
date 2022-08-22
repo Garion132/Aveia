@@ -413,7 +413,7 @@ rauosuan_hegemony = {
 		church_influence_modifier = -0.1
 		nobles_influence_modifier = -0.1
 		burghers_influence_modifier = -0.1
-		governing_capacity = 300
+		governing_capacity = 150
 	}
 	ai = {
 		factor = 1
@@ -449,7 +449,7 @@ rauosuan_hegemony_reform = {
 		church_influence_modifier = -0.1
 		nobles_influence_modifier = -0.1
 		burghers_influence_modifier = -0.1
-		governing_capacity = 300
+		governing_capacity = 150
 	}
 
 	custom_attributes = {

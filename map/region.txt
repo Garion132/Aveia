@@ -697,8 +697,6 @@ vortingrad_region={
 		vortingrad_4
 		vortingrad_5
 		vortingrad_6
-		vortingrad_7
-		vortingrad_8
 		keril_43
 		keril_58
 		keril_46
@@ -721,6 +719,8 @@ vortingrad_region={
 
 borestia_region={
 	areas={
+		vortingrad_7
+		vortingrad_8
 		vortingrad_9
 		borestia_1
 		borestia_2
