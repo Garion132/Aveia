@@ -25,7 +25,7 @@ technology = { #Shipbuilding
 	
 	merchants = yes
 	trade_range				=	100
-	range					= 	50
+	range					= 	20
 	enable = bireme
 	enable = trireme
 	shipwright = yes
@@ -39,10 +39,9 @@ technology = { #Sailing
 	}
 	
 	naval_morale			=	0.1
-	naval_maintenance		= 	0.1
 	enable = trade_ship
 	trade_range				=	50
-	range					= 	50
+	range					= 	30
 	port = yes
 
 	naval_engagement_width = 20
@@ -81,7 +80,7 @@ technology = { #Star Mapping
 	}
 	
 	trade_range				=	30
-	range = 40
+	range = 10
 	global_colonial_growth = 10
 	
 	
@@ -97,7 +96,7 @@ technology = { #Wind Spirits
 	
 	naval_morale = 0.3
 	trade_range = 20
-	range = 30
+	range = 20
 	global_colonial_growth = 10
 
 }
@@ -127,7 +126,7 @@ technology  = { #Optics
 	
 
 	trade_range				=	30
-	range					= 	50
+	range					= 	20
 	naval_engagement_width = 5
 	gatherers_hut = yes
 
@@ -143,10 +142,7 @@ technology = { #Lateen Sails
 		bronze_working = 0.5
 		crop_rotation = 0.35
 	}
-	
-	naval_maintenance		= 	0.1
-	range					=	30
-	
+		
 	#New light ship (Lenee)
 	#New galley (Galley)
 	enable = lenee
@@ -211,7 +207,7 @@ technology = { #Square Rigging
 		iron_working = 0.4
 	}
 	
-	naval_maintenance = 0.10
+	naval_maintenance = 0.1
 	naval_engagement_width = 5
 	
 	#New Heavy Ship (Carrack)
@@ -245,6 +241,7 @@ technology = { #Compass
 		illuminare = 0.1
 	}
 	
+	range = 30
 	trade_efficiency = 0.02
 	may_steal_maps = yes
 
@@ -317,8 +314,8 @@ technology = { #Naval Ambitions
 
 	impressment_offices 	= yes
 	
-	global_colonial_growth = 10
 	naval_maintenance = 0.1
+	global_colonial_growth = 10
 	naval_engagement_width = 10
 	
 	#New Transport (Navelta)
@@ -358,6 +355,7 @@ technology = { #Caravelling
 	}
 
 	trade_range = 30
+	range = 20
 	trade_efficiency = 0.02
 
 	#New light ship (Caravel)
@@ -411,7 +409,7 @@ technology = { #Steamers
 	
 	
 	range = 200
-	naval_maintenance = 0.25
+	naval_maintenance = 0.10
 	naval_morale = 0.25
 
 	global_colonial_growth = 10
@@ -497,8 +495,7 @@ technology = { #Screw Propeller
 		printing_press = 0.3
 	}
 
-	naval_maintenance = 0.25
-	range = 125
+	range = 100
 	naval_engagement_width = 5
 
 	#New Light Ship (Frigate)
@@ -525,7 +522,7 @@ technology = { #Merchantman
 	global_colonial_growth = 10
 	trade_range = 30
 	trade_efficiency = 0.02
-	range = 125
+	range = 100
 
 	#New transport (Merchantman)
 	enable = merchantman
@@ -546,9 +543,9 @@ technology = { #Vercroths
 		global_trade = 0.25
 	}
 	
-	naval_maintenance = 0.1
+	naval_maintenance = 0.10
 	naval_morale			=	0.5
-	range = 50
+	range = 100
 	naval_engagement_width = 10
 
 	trade_station = yes
@@ -638,8 +635,8 @@ technology = { #Steam Turbine
 	
 
 	global_colonial_growth = 10
-	naval_maintenance = 0.3
-	range = 250
+	naval_maintenance = 0.2
+	range = 200
 	may_sabotage_reputation = yes
 
 	#New light ship (Ironclad)
@@ -689,7 +686,6 @@ technology = { #All-or-Nothing Armor Scheme
 	}
 	
 
-	naval_maintenance = -0.1
 	#New Heavy Ship (Floating Fortress)
 	enable = floating_fortress
 	naval_engagement_width = 5
@@ -779,7 +775,6 @@ technology = { #Advertisements
 		industrialization = 0.5
 	}
 	
-	range = 100
 	num_accepted_cultures = 1
 	trade_efficiency = 0.05
 }
@@ -802,7 +797,7 @@ technology = { #Transport Ships
 	}
 	
 	global_colonial_growth = 25
-	range = 250
+	range = 200
 	trade_efficiency = 0.04
 	#New Transport (Transport Ship)
 	enable = transport_ship
@@ -828,7 +823,7 @@ technology = { #Cruisers
 	
 
 	trade_range = 50
-	naval_maintenance = 0.2
+	naval_maintenance = 0.1
 	naval_base = yes
 	naval_engagement_width = 5
 
@@ -858,7 +853,7 @@ technology = { #Battleships
 	#industrial_shipyard = yes
 	#Bigger Shipyard which provides more naval cap, less construction time
 
-	naval_maintenance = 0.3
+	naval_maintenance = 0.1
 	naval_engagement_width = 5
 	#New Heavy Ship (Early Battleship)
 	enable = early_battleship
@@ -928,7 +923,7 @@ technology = { #Superfiring Armaments
 		enlightenment = 0.5
 	}
 	
-	naval_maintenance = 0.2
+	naval_maintenance = 0.1
 	#New Light Ship (Armored Cruiser)
 	enable = armored_cruiser
 	#New Heavy Ship (Battleship)

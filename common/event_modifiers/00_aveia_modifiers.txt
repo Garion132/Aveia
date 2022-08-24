@@ -327,7 +327,6 @@ scramble_for_elteria = { #For colonial overlords
 	global_tax_income = -6
 	colonists = 1
 	global_colonial_growth = 20
-	range = 1
 }
 scramble_for_elteria_colony = { #For colonies
 	colonists = 1
