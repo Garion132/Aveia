@@ -1,4 +1,8 @@
 #juilia
+latent_trade_goods = {
+	iron
+}
+
 capital = "Accra"
 add_core = CRY
 owner = CRY

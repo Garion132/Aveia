@@ -1490,6 +1490,10 @@ udezer_wood = {
 			NOT = { has_climate = tropical }
 		}
 		modifier = {
+			factor = 0
+			NOT={continent = aveia}
+		}
+		modifier = {
 			factor = 2
 			has_climate = tropical
 		}
@@ -2243,6 +2247,13 @@ ironwood = {
 		}
 		modifier = {
 			factor = 0
+				NOT = { has_terrain = deepwoods }
+				NOT = { has_terrain = woods }
+				NOT = { has_terrain = forest }
+				NOT = { has_terrain = jungle }
+		}
+		modifier = {
+			factor = 0
 			NOT={continent = elteria}
 		}
 	}
@@ -2276,6 +2287,45 @@ kurrak = {
 				province_id = 4756
 				province_id = 4743
 			}
+		}
+	}
+}
+
+jade = {
+	color = { 0.29 0.40 0.32 }
+	modifier = {
+		development_cost = -0.05
+	}
+	province = {
+		local_development_cost = -0.1
+	}
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = steppe
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = drylands
+				has_terrain = savannah
+				has_terrain = coastline
+				has_terrain = glacier
+				has_terrain = farmlands
+			}
+		}
+		modifier = {
+			factor = 1.2
+			is_random_new_world = yes
+			OR = {
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT={region = earh_region}
+			NOT={region = foundersland_region}
 		}
 	}
 }

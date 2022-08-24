@@ -3469,3 +3469,24 @@ estate_draumi_grant_principlaity_rights = {
 		factor = 0
 	}
 }
+
+estate_rauthyr_right_of_counsel = {
+	icon = privilege_royal_authority
+	max_absolutism = -10
+	loyalty = 0.1
+	influence = 0.1
+	can_select = {
+		NOT={has_estate_privilege = estate_rauthyr_right_of_counsel}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}

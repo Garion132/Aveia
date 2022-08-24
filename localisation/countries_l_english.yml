@@ -797,6 +797,8 @@
  EHL_ADJ:0 "Elhal"
  HJU:0 "Herju"
  HJU_ADJ:0 "Herju"
+ BLK:0 "Bulkir"
+ BLK_ADJ:0 "Bulkir"
  
  
  
@@ -816,3 +818,9 @@
  COLONIAL_TERMINA_Laslesia_ADJ:0 "Laslesian"
  COLONIAL_TERMINA_Miwal:0 "Miwal"
  COLONIAL_TERMINA_Miwal_ADJ:0 "Miwal"
+ COLONIAL_MORREDH_Karnaiha:0 "Karnaiha"
+ COLONIAL_MORREDH_Karnaiha_ADJ:0 "Karnaiha"
+ COLONIAL_MORREDH_Kaminholme:0 "Kaminholme"
+ COLONIAL_MORREDH_Kaminholme_ADJ:0 "Kaminholme"
+ COLONIAL_MORREDH_Ralorie:0 "Ralorie"
+ COLONIAL_MORREDH_Ralorie_ADJ:0 "Ralorie"

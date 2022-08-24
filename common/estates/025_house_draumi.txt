@@ -119,7 +119,7 @@ estate_house_draumi ={
 	
 	privileges = {
 		estate_nobles_land_rights
-		estate_nobles_right_of_counsel
+		estate_rauthyr_right_of_counsel
 		estate_draumi_grant_principlaity_rights
 	}
 

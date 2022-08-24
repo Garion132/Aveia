@@ -23,6 +23,8 @@
  EST_ETA_THRONE_PU:0 "The Emperor is under a Foreign House: "
  EST_ETA_UNNOBLE_THRONE:0 "Unnoble Emperor: "
  EST_ETA_IND_DRA:0 "House is Independant: "
+ estate_rauthyr_right_of_counsel:0 "Right of Imperial Counsel"
+ estate_rauthyr_right_of_counsel_desc:0 "The Right of this house to speak openly to the Imperial Court without fear, only one house may be granted this privilege at a time"
 
  rauthyr_estate_events.1.a:0 "Leave them be"
  rauthyr_estate_events.1.b:0 "Force them to accept imperial authority"

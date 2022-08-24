@@ -13,3 +13,15 @@ trade_company_xirak = {
 		name = "TRADE_COMPANY_XIRAK_Haqsili_Trade_Company"
 	}
 }
+trade_company_haqsili = {
+	color = { 74 112 40  }
+	
+	provinces = {
+		3924 3925 3926 3927 3928 3929 3930 3931 3932 3933 3935 3936 3937 3938 3939 3940 3941 3942 3943 3944 3945 3946 3947 3948 3949 3950 3951 3952 3934
+	}
+
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_HAQSILI_Root_Culture_GetName"
+	}
+}

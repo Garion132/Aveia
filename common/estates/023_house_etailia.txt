@@ -105,7 +105,7 @@ estate_house_etailia ={
 	privileges = {
 		estate_nobles_land_rights
 		estate_nobles_officer_corp
-		estate_nobles_right_of_counsel
+		estate_rauthyr_right_of_counsel
 	}
 
 	agendas = {

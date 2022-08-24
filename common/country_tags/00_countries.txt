@@ -283,6 +283,7 @@ THL = "countries/Thilrana.txt"
     SKP = "countries/Salkeeple.txt"
 	
 	TAR = "countries/Taranan.txt"
+	BLK = "countries/Bulkir.txt"
 	
 ## scanian
 	OND = "countries/Onda.txt"

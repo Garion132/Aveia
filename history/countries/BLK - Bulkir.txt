@@ -1,0 +1,22 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = bulkirate
+religion = shamanism
+government_rank = 1
+technology_group = free_fauns_group
+capital = 2914 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+
+# 1240.9.16 = {
+	# monarch = {
+		# name = "Eltro III"
+		# dynasty = "Gugh"
+		# birth_date = 1240.12.3
+		# adm = 5
+		# dip = 4
+		# mil = 3
+	# }
+# }

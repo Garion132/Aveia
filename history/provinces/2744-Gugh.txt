@@ -1,4 +1,7 @@
 #Gugh
+latent_trade_goods = {
+	iron
+}
 culture = gugh
 religion = forebearist
 capital = "Accra"

@@ -190,6 +190,9 @@ ironwood = {
 kurrak = {
 	base_price = 4
 }
+jade = {
+	base_price = 4
+}
 
 unknown = {
 	base_price = 0

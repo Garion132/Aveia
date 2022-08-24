@@ -11,15 +11,23 @@ historical_rival = SHE
 
 change_estate_land_share = {
 	estate = estate_house_lidori
-	share = 10
+	share = 12
 }
 change_estate_land_share = {
 	estate = estate_house_etailia
-	share = 5
+	share = 7
 }
 change_estate_land_share = {
 	estate = estate_house_kethai
-	share = 7
+	share = 8
+}
+change_estate_land_share = {
+	estate = estate_house_draumi
+	share = 3
+}
+change_estate_land_share = {
+	estate = estate_house_nyletmi
+	share = 3
 }
 change_estate_land_share = {
 	estate = estate_church
@@ -27,7 +35,7 @@ change_estate_land_share = {
 }
 change_estate_land_share = {
 	estate = estate_house_celola
-	share = -5
+	share = -3
 }
 
 

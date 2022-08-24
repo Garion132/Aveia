@@ -552,6 +552,26 @@ clearow_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
+vanafold_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+eolipor_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+direthe_estuary_modifier = {
+	province_trade_power_value = 20
+	picture = "estuary_icon"
+}
+nylka_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+samylari_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
 
 
 calendor_island_modifier = {
