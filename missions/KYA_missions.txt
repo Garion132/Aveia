@@ -52,6 +52,7 @@ KYA_economic_missions = {
 		}
 		effect = {
 			country_event = { id = kyath.100 }
+			set_country_flag = improving_iwenlumy
 		}
 	}
 	
@@ -88,6 +89,7 @@ KYA_economic_missions = {
 			lesser_iwenlumy_area = {
 				add_province_modifier = { name = wealthy_duchy duration = 3650 }
 			}
+			clr_country_flag = improving_iwenlumy
 		}
 	}
 
@@ -514,8 +516,8 @@ KYA_diplomatic_missions = {
 	KYA_house_of_learning = {
 		icon = mission_early_modern_university
 		position = 2
-		required_missions = { }
-        provinces_to_highlight = { }
+		required_missions = { KYA_settle_in_the_new_capital }
+        provinces_to_highlight = { province_id = 53 }
 		trigger = {
 			owns_core_province = 53
 			53 = {
@@ -568,6 +570,44 @@ KYA_administrative_missions = {
 		tag = KYA
 	}
 	#Dominate the Council - influence_the_princes
+
+	KYA_settle_in_the_new_capital = {
+		icon = secure_the_republic
+        provinces_to_highlight = { province_id = 53 }
+		trigger = {
+			owns_core_province = 53
+			controls = 53
+
+			53 = {
+				development = 20
+				OR = {
+					has_building = mint
+					has_building = bank
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = workshop
+					has_building = artisans_guild
+					has_building = craftsmans_district
+					has_building = industrial_zone
+				}
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+					has_building = military_academy
+				}
+			}
+		}
+		effect = {
+			add_legitimacy = 5
+			53 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			set_country_flag = settled_into_capital
+		}
+	}
 }
 
 KYA_colonial_missions = {

@@ -23,6 +23,11 @@
  KYA_renovate_iwenlumy_stage_4_desc:0 "When we found Iwenlumy, it was a city of brick and mortar. We shall leave it a metropolis of marble."
  KYA_finish_renovation_tt:0 "Renovations will be complete!" 
 
+ KYA_improve_greater_iwenlumy_title:0 "Improve Greater Iwenlumy"
+ KYA_improve_greater_iwenlumy_desc:0 "Using state funds, we can improve the development of Greater Iwenlumy."
+ KYA_improve_lesser_iwenlumy_title:0 "Improve Lesser Iwenlumy"
+ KYA_improve_lesser_iwenlumy_desc:0 "Using state funds, we can improve the development of Lesser Iwenlumy."
+
  KYA_secure_the_western_border_title:0 "Secure the Western Border"
  KYA_secure_the_western_border_desc:0 "Opportunities for expansion westward is minimal at best, but opportunities for our enemies to exploit it are excessive. If we manage to tighten our border or make an ally, we could focus eastwards to our greatest rival."
  KYA_secure_the_avenan_gap_title:0 "Secure the Avenan Gap"
@@ -46,3 +51,6 @@
  KYA_deal_with_the_troublemaker_title:0 "Deal with the Troublemaker"
  KYA_deal_with_the_troublemaker_desc:0 "Iwenlumy has long been a pain to reconcile with. Its wealth allows it to prolong its existence. Well, no longer! We will ensure their wealth is ours, completely."
  KYA_deal_with_iwenlumy_decisions_completed:0 "Has dealt with Iwenlumy, the Troublemaker."
+
+ KYA_settle_in_the_new_capital_title:0 "Settle in the New Capital"
+ KYA_settle_in_the_new_capital_desc:0 "The Royal Court was moved by Charles VI to the city of Oruinyal. Improvements have to be made to make the city worthy of Kyath's capital and the home of her royalty."
