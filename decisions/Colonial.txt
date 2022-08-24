@@ -89,6 +89,11 @@ country_decisions = {
 				is_empty = yes
 				region = craine_islands
 			}
+			NOT = {
+				capital_scope = {
+					continent = elteria
+				}
+			}
 		}
 		provinces_to_highlight = {
 			is_empty = yes

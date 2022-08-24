@@ -37,4 +37,8 @@ spriteTypes = {
 		name = "mission_kyath_world_power"
 		texturefile = "gfx//interface//missions//mission_kyath_world_power.dds"
 	}
+	spriteType = {
+		name = "mission_continental_cradle_dominance"
+		texturefile = "gfx//interface//missions//mission_continental_cradle_dominance.dds"
+	}
 }

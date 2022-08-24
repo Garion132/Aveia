@@ -36,6 +36,9 @@
  KYA_secure_the_lower_nykla_desc:0 "The Nykla River is one of the two rivers that makes up Shemsele. It is the larger of the two rivers and controlling the estuary may provide us a further staging ground to the conquest of Shemsele as a whole."
  KYA_break_shemsele_title:0 "Break Shemsele"
  KYA_break_shemsele_desc:0 "The Kingdom of Shemsele has long been our rival in the Cradle. Its base of power now lies within our reach. We shall crush them to establish our hegemony over the Cradle."
+ KYA_continental_dominance_title:0 "Continental Dominance"
+ KYA_continental_dominance_desc:0 "We now have the Cradle in our grasp. All must go through us."
+ CONTINENTAL_CRADLE_DOMINANCE:0 "Continental Cradle Dominance"
 
  KYA_acquire_the_coastal_isles_title:0 "Acquire the Coastal Isles"
  KYA_acquire_the_coastal_isles_desc:0 "The islands off of the coast of Kyathia ought to be our first target in the Great Cradle Sea. They will act as a staging ground to attack the other islands."

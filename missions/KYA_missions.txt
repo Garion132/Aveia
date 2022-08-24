@@ -560,6 +560,37 @@ KYA_diplomatic_missions = {
 			}
 		}
 	}
+
+	KYA_continental_dominance = {
+		icon = mission_continental_cradle_dominance
+		position = 5
+		required_missions = { KYA_break_shemsele }
+        provinces_to_highlight = {
+			OR = {
+				area = ilfamenat
+				area = mythenaset
+			}
+        }
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = ilfamenat
+					area = mythenaset
+				}
+			}
+		}
+		effect = {
+			add_prestige = 50
+			80 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = -1
+					power = 50
+					key = CONTINENTAL_CRADLE_DOMINANCE
+				}
+			}
+		}
+	}
 }
 
  #3nd mission series:

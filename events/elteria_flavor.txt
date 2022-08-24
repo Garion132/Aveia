@@ -915,7 +915,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		is_year = 1319
+		is_year = 1300
 		OR = {
 			AND = {
 				NOT = { exists = KAF }
@@ -1040,7 +1040,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		is_year = 1339
+		is_year = 1329
 		has_country_modifier = scramble_for_elteria
 		any_owned_province = {
 			has_port = yes
