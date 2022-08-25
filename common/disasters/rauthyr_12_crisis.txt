@@ -257,6 +257,7 @@ crisis_of_the_12th_century = {
 		stability_cost_modifier = 0.5
 		advisor_cost = 0.75
 		global_trade_goods_size_modifier = -0.33
+		global_tax_modifier = -0.33
 		global_unrest = 5
 	}	
 	

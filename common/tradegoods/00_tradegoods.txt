@@ -1981,6 +1981,10 @@ bryrine = {
 			continent = new_world #Always in RNW
 		}
 		modifier = {
+			factor = 0.5
+			has_terrain = grasslands
+		}
+		modifier = {
 			factor = 0
 			NOT={continent = juluia}
 		}
@@ -2033,7 +2037,7 @@ marble = {
 		local_development_cost = -0.1
 	}
 	chance = {
-		factor = 5
+		factor = 9
 		modifier = {
 			factor = 0
 			OR = {
@@ -2155,7 +2159,7 @@ theiss = {
 	}
 
 	chance = {
-		factor = 8
+		factor = 23
 		modifier = {
 			factor = 0
 			OR={
@@ -2182,7 +2186,7 @@ erysim = {
 	}
 
 	chance = {
-		factor = 18
+		factor = 28
 		modifier = {
 			factor = 0
 			OR={
@@ -2234,7 +2238,7 @@ ironwood = {
 	}
 
 	chance = {
-		factor = 3
+		factor = 8
 
 		modifier = {
 			factor = 0
@@ -2300,7 +2304,7 @@ jade = {
 		local_development_cost = -0.1
 	}
 	chance = {
-		factor = 5
+		factor = 7
 		modifier = {
 			factor = 0
 			OR = {

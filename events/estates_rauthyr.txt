@@ -1553,6 +1553,52 @@ country_event = {
 		ai_chance = {
 			factor = 1
 		}
+		trigger={
+			OR={
+				AND={
+					has_country_flag = estate_house_kethai_pissed
+					estate_loyalty = {
+						estate = estate_house_kethai
+						loyalty = 10
+					}
+				}
+				AND={
+					has_country_flag = estate_house_etailia_pissed
+					estate_loyalty = {
+						estate = estate_house_etailia
+						loyalty = 10
+					}
+				}
+				AND={
+					has_country_flag = estate_house_nyletmi_pissed
+					estate_loyalty = {
+						estate = estate_house_nyletmi
+						loyalty = 10
+					}
+				}
+				AND={
+					has_country_flag = estate_house_draumi_pissed
+					estate_loyalty = {
+						estate = estate_house_draumi
+						loyalty = 10
+					}
+				}
+				AND={
+					has_country_flag = estate_house_lidori_pissed
+					estate_loyalty = {
+						estate = estate_house_lidori
+						loyalty = 10
+					}
+				}
+				AND={
+					has_country_flag = estate_house_celola_pissed
+					estate_loyalty = {
+						estate = estate_house_celola
+						loyalty = 10
+					}
+				}
+			}
+		}
 		if={
 			limit = {has_country_flag = estate_house_kethai_pissed}
 			add_estate_loyalty = {
@@ -1596,6 +1642,271 @@ country_event = {
 		}
 	}
 	option = { 
+		name = rauthyr_estate_events.10.c #Let it be. no loyalty
+		ai_chance = {
+			factor = 1
+		}
+		trigger={
+			OR={
+				AND={
+					has_country_flag = estate_house_kethai_pissed
+					NOT={
+						estate_loyalty = {
+							estate = estate_house_kethai
+							loyalty = 10
+						}
+					}
+				}
+				AND={
+					has_country_flag = estate_house_etailia_pissed
+					NOT={
+						estate_loyalty = {
+							estate = estate_house_etailia
+							loyalty = 10
+						}
+					}
+				}
+				AND={
+					has_country_flag = estate_house_nyletmi_pissed
+					NOT={
+						estate_loyalty = {
+							estate = estate_house_nyletmi
+							loyalty = 10
+						}
+					}
+				}
+				AND={
+					has_country_flag = estate_house_draumi_pissed
+					NOT={
+						estate_loyalty = {
+							estate = estate_house_draumi
+							loyalty = 10
+						}
+					}
+				}
+				AND={
+					has_country_flag = estate_house_lidori_pissed
+					NOT={
+						estate_loyalty = {
+							estate = estate_house_lidori
+							loyalty = 10
+						}
+					}
+				}
+				AND={
+					has_country_flag = estate_house_celola_pissed
+					NOT={
+						estate_loyalty = {
+							estate = estate_house_celola
+							loyalty = 10
+						}
+					}
+				}
+			}
+		}
+		if={
+			limit = {has_country_flag = estate_house_kethai_pissed}
+			add_estate_loyalty = {
+				estate = estate_house_kethai
+				loyalty = -10
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_etailia_pissed}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_etailia_estate_revolt
+							value = estate
+							estate = estate_house_etailia
+						}
+					}
+					any_owned_province = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_etailia_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_etailia_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_etailia_estate_revolt }
+					}
+					set_province_flag = house_etailia_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_etailia_estate_revolt }
+				clr_province_flag = house_etailia_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = etailia_pretender_rebels
+					size = 1
+					leader_dynasty = "Etailia"
+				}
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_nyletmi_pissed}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_nyletmi_estate_revolt
+							value = estate
+							estate = estate_house_nyletmi
+						}
+					}
+					any_owned_province = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_nyletmi_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_nyletmi_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_nyletmi_estate_revolt }
+					}
+					set_province_flag = house_nyletmi_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_nyletmi_estate_revolt }
+				clr_province_flag = house_nyletmi_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = nyletmi_pretender_rebels
+					size = 1
+					leader_dynasty = "Nyletmi"
+				}
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_draumi_pissed}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_draumi_estate_revolt
+							value = estate
+							estate = estate_house_draumi
+						}
+					}
+					any_owned_province = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_draumi_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_draumi_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_draumi_estate_revolt }
+					}
+					set_province_flag = house_draumi_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_draumi_estate_revolt }
+				clr_province_flag = house_draumi_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = etailia_pretender_rebels
+					size = 1
+					leader_dynasty = "Draumi"
+				}
+			}
+		}
+		else_if={
+			limit = {has_country_flag = estate_house_lidori_pissed}
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_lidori_estate_revolt
+							value = estate
+							estate = estate_house_lidori
+						}
+					}
+					any_owned_province = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_lidori_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_lidori_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_lidori_estate_revolt }
+					}
+					set_province_flag = house_lidori_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_lidori_estate_revolt }
+				clr_province_flag = house_lidori_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = etailia_pretender_rebels
+					size = 1
+					leader_dynasty = "Lidori"
+				}
+			}
+		}
+		else={
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = house_celola_estate_revolt
+							value = estate
+							estate = estate_house_celola
+						}
+					}
+					any_owned_province = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_celola_estate_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = house_celola_estate_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = house_celola_estate_revolt }
+					}
+					set_province_flag = house_celola_estate_revolt
+				}
+			}
+			every_owned_province = {
+				limit = { has_province_flag = house_celola_estate_revolt }
+				clr_province_flag = house_celola_estate_revolt
+				spawn_rebels = { #Always possible in noble province.
+					type = celola_pretender_rebels
+					size = 1
+					leader_dynasty = "Celola"
+				}
+			}
+		}
+	}
+	option = { 
 		name = rauthyr_estate_events.10.b #placate
 		ai_chance = {
 			factor =1
@@ -1604,6 +1915,16 @@ country_event = {
 			prestige = -20
 		}
 		add_prestige = -15
+	}
+	option = { 
+		name = rauthyr_estate_events.10.e #placate
+		ai_chance = {
+			factor =1
+		}
+		trigger={
+			years_of_income = 0.5
+		}
+		add_years_of_income = -0.5
 	}
 }
 

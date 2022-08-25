@@ -36,6 +36,11 @@
  rauthyr_estate_events.7.c:0 "The Empire needs a Administor"
  rauthyr_estate_events.7.f:0 "The Empire needs a Diplomat"
  rauthyr_estate_events.7.e:0 "The Empire needs a Military Leader"
+ rauthyr_estate_events.10.t:0 "House feels Slighted"
+ rauthyr_estate_events.10.a:0 "Leave them be"
+ rauthyr_estate_events.10.b:0 "Placate Them"
+ rauthyr_estate_events.10.c:0 "Supress the Troublemakers"
+ rauthyr_estate_events.10.e:0 "Give them a Token of Gratitude"
 
  #Industrialists
  estate_industrialists:0 "Industrialists"

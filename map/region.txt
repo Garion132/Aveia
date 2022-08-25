@@ -815,7 +815,6 @@ greater_jalhorkan_region={
 		brightcoast_16
 		brightcoast_17
 		windsweaps_1
-		lonely_isles
 	}
 }
 windsweaps_region={
@@ -1194,6 +1193,7 @@ vitaite_hills_region={
 		juluia_45
 		juluia_46
 		juluia_47
+		juluia_48
 		juluia_49
 		juluia_87
 		juluia_88
@@ -1260,7 +1260,6 @@ kaminda_region={
 }
 tilvena_sea_region={
 	areas = {
-		juluia_48
 		juluia_50
 		juluia_51
 		juluia_52
@@ -1437,6 +1436,15 @@ folyur_region={
 		folyur_8
 		folyur_9
 		folyur_10
+	}
+}
+
+talkia_region={
+	areas={
+		lonely_isles
+		talkia_1
+		talkia_2
+		talkia_3
 	}
 }
 
