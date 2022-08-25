@@ -846,6 +846,7 @@ windsweaps_region={
 		karnaiha_34
 		deerok_13
 		deerok_14
+		dredging_islands
 	}
 }
 palentai_bay_region={
