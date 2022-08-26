@@ -73,23 +73,30 @@ south_elteria_superregion={
 	palentai_bay_region
 	scuria_region
 }
+north_juluia_superregion={
+	talkia_region
+	tilvena_sea_region
+	saciril_region
+	alromita_region
+	cemnia_region
+}
+valmori_superregion={
+	kaminda_region
+	yulanir_region
+	broken_bays_region
+}
+laeite_superregion={
+	kandi_region
+	markford_plains_region
+	valkmora_region
+}
 juluia_superregion={
 	shield_isles_region
 	strivian_region
 	golden_bay_region
 	vitaite_hills_region
-	tilvena_sea_region
-	saciril_region
-	alromita_region
 	velima_plains_region
-	kaminda_region
 	altiron_reach_region
-	valkmora_region
-	kandi_region
-	markford_plains_region
-	yulanir_region
-	broken_bays_region
-	cemnia_region
 }
 
 new_world_superregion = {
