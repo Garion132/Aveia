@@ -104,16 +104,47 @@ iron_age_calamity = {
 	on_start = iron_age_calamity.100
 	on_end = iron_age_calamity.101
 	
+	#Decisions:
+	# Administration:
+	#  Allow commoners to become clerks
+	#  Bureaucratic Privilege
+	#  Simplify the Legal Code
+	#  Simplify the Tax Code
+	#  Abolish Tax Exemptions
+	#  Decentralize Power
+	#  >>Secularize the Bureaucracy<<
+	# Food Security:
+	#  Confiscate Unproductive Farms
+	#  Crack Down on Smuggling (exporters)
+	#  Encourage Food Smuggling (importers)
+	#  Raid Neighbors for Food (importers)
+	#  Institute Rationing
+	#  >>End of Famine<<
+	# Military:
+	#  Stop the Desertion
+	#  Slacken Military Standards
+	#  Introduce Iron Weaponry
+	#  Crack down on Rogue Generals
+	#  >>Duty to the Ruler<<
+	#
+	# Economic:
+	#  Establish Iron Mining
+	#  Policy of Self-Sufficiency
+	#  Protect Existing Trade Routes
+	#  Import Foreign Iron
+	#  Policy of Free Trade
+	#  >>Stabilize the Economy<<
+
 	on_monthly = {
 		events = {
 		}
 		random_events = { 
 			1000 = 0
-			60 = iron_age_calamity.102
-			70 = iron_age_calamity.103
-			80 = iron_age_calamity.104
-			60 = iron_age_calamity.105
-			250 = iron_age_calamity.106
+			60 = iron_age_calamity.102 #Peasants Revolt
+			70 = iron_age_calamity.103 #Nationalist Revolt
+			80 = iron_age_calamity.104 #Famine
+			60 = iron_age_calamity.105 #People Desert Cities
+			250 = iron_age_calamity.106 #Situation Gets Worse (if -3 stab)
 			#100 = internal_conflicts.5
 			#100 = internal_conflicts.6
 			#100 = internal_conflicts.7
