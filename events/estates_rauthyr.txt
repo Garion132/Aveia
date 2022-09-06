@@ -2700,8 +2700,11 @@ province_event = {#unguarded mannish frontier
 	trigger={
 		#owned_by = RAU
 		#controlled_by = RAU
-		controller={
-			owns = ROOT
+		owner={
+			ROOT={
+				controlled_by = PREV
+			}
+			NOT={culture = donamenz}
 		}
 		NOT={devastation = 45}
 		OR={
