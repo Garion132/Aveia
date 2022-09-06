@@ -1,0 +1,135 @@
+#Scripted effects relating to the iac.
+
+iac_add_country_devastation = {
+	# $all$, $min_dev$ $base_value$, $moderate_value$, $severe_value$
+
+	if = {
+		limit = {
+			has_country_modifier = iac_severe_calamity
+		}
+		[[all]
+			custom_tooltip = country_devastation_tt
+			hidden_effect = {
+				every_owned_province = {
+					iac_add_devastation = { value = $severe_value$ }
+				}
+			}
+		]
+		[[min_dev]
+			custom_tooltip = $min_dev$_dev_devastation_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						development = $min_dev$
+					}
+					iac_add_devastation = { value = $severe_value$ }
+				}
+			}
+		]
+		custom_tooltip = $severe_value$_devastation_tt
+	}
+	else_if = {
+		limit = {
+			has_country_modifier = iac_moderate_calamity
+		}
+		[[all]
+			custom_tooltip = country_devastation_tt
+			hidden_effect = {
+				every_owned_province = {
+					iac_add_devastation = { value = $moderate_value$ }
+				}
+			}
+		]
+		[[min_dev]
+			custom_tooltip = $min_dev$_dev_devastation_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						development = $min_dev$
+					}
+					iac_add_devastation = { value = $moderate_value$ }
+				}
+			}
+		]
+		custom_tooltip = $moderate_value$_devastation_tt
+	}
+	else = {
+		[[all]
+			custom_tooltip = country_devastation_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						development = $min_dev$
+					}
+					iac_add_devastation = { value = $base_value$ }
+				}
+			}
+		]
+		[[min_dev]
+			custom_tooltip = $min_dev$_dev_devastation_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						development = $min_dev$
+					}
+					iac_add_devastation = { value = $base_value$ }
+				}
+			}
+		]
+		custom_tooltip = $base_value$_devastation_tt
+	}
+	custom_tooltip = dev_loss_devastation_tt
+}
+
+iac_add_devastation = {
+	# $value$
+	if = {
+		limit = {
+			devastation = 50
+		}
+		add_devastation = -50
+		if = {
+			limit = {
+				base_manpower = 2
+			}
+			add_base_manpower = -1
+		}
+		if = {
+			limit = {
+				base_production = 2
+			}
+			add_base_production = -1
+		}
+		if = {
+			limit = {
+				base_tax = 2
+			}
+			add_base_tax = -1
+		}
+	}
+	add_devastation = $value$
+	if = {
+		limit = {
+			devastation = 50
+		}
+		add_devastation = -50
+		if = {
+			limit = {
+				base_manpower = 2
+			}
+			add_base_manpower = -1
+		}
+		if = {
+			limit = {
+				base_production = 2
+			}
+			add_base_production = -1
+		}
+		if = {
+			limit = {
+				base_tax = 2
+			}
+			add_base_tax = -1
+		}
+	}
+}
