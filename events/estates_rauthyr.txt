@@ -2436,7 +2436,7 @@ country_event = {
 		tag = RAU
 	}
 	mean_time_to_happen = {
-		days = 720
+		days = 3600
 	}
 	
 	immediate = {
@@ -2459,10 +2459,14 @@ country_event = {
 		trigger= { has_country_flag = estate_house_kethai_bickering_house }
 		ai_chance = {
 			factor = 1
+			modifier={
+				factor = 9
+				stability = 1
+			}
 		}
 		add_estate_loyalty = {
 			estate = estate_house_kethai
-			loyalty = 7
+			loyalty = 15
 		}
 		add_stability = -1
 	}
@@ -2471,10 +2475,14 @@ country_event = {
 		trigger= { has_country_flag = estate_house_etailia_bickering_house }
 		ai_chance = {
 			factor = 1
+			modifier={
+				factor = 9
+				stability = 1
+			}
 		}
 		add_estate_loyalty = {
 			estate = estate_house_etailia
-			loyalty = 7
+			loyalty = 15
 		}
 		add_stability = -1
 	}
@@ -2483,10 +2491,14 @@ country_event = {
 		trigger= { has_country_flag = estate_house_nyletmi_bickering_house }
 		ai_chance = {
 			factor = 1
+			modifier={
+				factor = 9
+				stability = 1
+			}
 		}
 		add_estate_loyalty = {
 			estate = estate_house_nyletmi
-			loyalty = 7
+			loyalty = 15
 		}
 		add_stability = -1
 	}
@@ -2495,10 +2507,14 @@ country_event = {
 		trigger= { has_country_flag = estate_house_draumi_bickering_house }
 		ai_chance = {
 			factor = 1
+			modifier={
+				factor = 9
+				stability = 1
+			}
 		}
 		add_estate_loyalty = {
 			estate = estate_house_draumi
-			loyalty = 7
+			loyalty = 15
 		}
 		add_stability = -1
 	}
@@ -2507,10 +2523,14 @@ country_event = {
 		trigger= { has_country_flag = estate_house_lidori_bickering_house }
 		ai_chance = {
 			factor = 1
+			modifier={
+				factor = 9
+				stability = 1
+			}
 		}
 		add_estate_loyalty = {
 			estate = estate_house_lidori
-			loyalty = 7
+			loyalty = 15
 		}
 		add_stability = -1
 	}
@@ -2519,17 +2539,21 @@ country_event = {
 		trigger= { has_country_flag = estate_house_celola_bickering_house }
 		ai_chance = {
 			factor = 1
+			modifier={
+				factor = 9
+				stability = 1
+			}
 		}
 		add_estate_loyalty = {
 			estate = estate_house_celola
-			loyalty = 7
+			loyalty = 15
 		}
 		add_stability = -1
 	}
 	option = { #neither
 		name = rauthyr_estate_events.15.g
 		ai_chance = {
-			factor = 1
+			factor = 10
 		}
 		
 		if={
@@ -2666,3 +2690,72 @@ country_event = {
 		}
 	}
 }
+
+province_event = {#unguarded mannish frontier
+	id = rauthyr_estate_events.18
+	title = rauthyr_estate_events.18.t
+	desc = rauthyr_estate_events.18.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	trigger={
+		#owned_by = RAU
+		#controlled_by = RAU
+		controller={
+			owns = ROOT
+		}
+		NOT={devastation = 45}
+		OR={
+			culture = donamenz
+			any_neighbor_province={
+				AND={
+					city = yes
+					culture = donamenz
+					owner={
+						has_reform = mannish_tribal_reform
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1440
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			has_disaster = crisis_of_the_12th_century
+		}
+		modifier = {
+			factor = 0.7
+			any_neighbor_country={
+				has_reform  = mannish_tribal_reform
+			}
+		}
+	}
+	
+	option = { 
+		name = rauthyr_estate_events.18.a #fight them
+		ai_chance = {
+			factor = 1
+		}
+		mannish_raiders_rebels = 2
+	}
+	option = { 
+		name = rauthyr_estate_events.18.b #pay them off
+		ai_chance = {
+			factor = 1
+		}
+		owner={
+			add_years_of_income = -0.5
+			any_neighbor_country={
+				limit = {has_reform  = mannish_tribal_reform}
+				add_years_of_income = 1.0
+			}
+		}
+	}
+}
+
+

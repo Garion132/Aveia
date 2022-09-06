@@ -1,0 +1,97 @@
+
+######################################################################
+# Tribal rebels. Very stronk.
+######################################################################
+mannish_raiders_rebels = {
+
+	color = { 210 195 35 }
+	
+	area = nation 					# Stays within the nation
+	has_reform = steppe_horde		# Don't care about gov type				
+	defection = none				# Will not defect
+	independence = none				# Does not strive for independence
+	gfx_type = culture_province
+	will_relocate = yes	
+
+	resilient = no					# Can retreat
+	reinforcing = yes				# Can reinforce
+	general = yes					# Does use generals
+	smart = yes						# Do assault forts, tactically withdraw from battle, etc.
+	unit_transfer = no				# Units do not remain after enforcing demands.
+	
+	artillery = 0.0
+	infantry = 1.0
+	cavalry = 0.0
+	
+	morale = 0.95
+	
+	# Possible handle actions
+	handle_action_negotiate = yes
+	handle_action_stability = yes	
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 0
+	}
+ 
+ 	# This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 2.0
+			is_capital = yes
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 2
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 4
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 6
+		}
+	}
+	
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 		NOT = { devastation = 100 }
+ 	}
+	siege_won_effect = {
+		add_devastation = 10
+	}	
+	
+	# Country scope
+	can_negotiate_trigger = {
+		always = yes
+	}
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+
+	# Localisation for their demands
+	demands_description = "tribal_rebels_demand"
+	
+	# Country scope
+	demands_enforced_effect = {
+		every_owned_province = {
+			limit = {
+				has_rebel_faction = REB
+			}
+			add_devastation = 100
+		}
+		add_prestige = -20
+	}
+}

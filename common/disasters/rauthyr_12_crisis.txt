@@ -20,7 +20,7 @@ crisis_of_the_12th_century = {
 				OR={
 					estate_influence = {
 						estate = estate_house_etailia
-						influence = 55
+						influence = 60
 					}
 					NOT = {
 						estate_loyalty = {
@@ -32,7 +32,7 @@ crisis_of_the_12th_century = {
 				OR={
 					estate_influence = {
 						estate = estate_house_kethai
-						influence = 55
+						influence = 60
 					}
 					NOT = {
 						estate_loyalty = {
@@ -44,7 +44,7 @@ crisis_of_the_12th_century = {
 				OR={
 					estate_influence = {
 						estate = estate_house_nyletmi
-						influence = 55
+						influence = 60
 					}
 					NOT = {
 						estate_loyalty = {
@@ -56,7 +56,7 @@ crisis_of_the_12th_century = {
 				OR={
 					estate_influence = {
 						estate = estate_house_draumi
-						influence = 55
+						influence = 60
 					}
 					NOT = {
 						estate_loyalty = {
@@ -68,7 +68,7 @@ crisis_of_the_12th_century = {
 				OR={
 					estate_influence = {
 						estate = estate_house_lidori
-						influence = 55
+						influence = 60
 					}
 					NOT = {
 						estate_loyalty = {
@@ -80,7 +80,7 @@ crisis_of_the_12th_century = {
 				OR={
 					estate_influence = {
 						estate = estate_house_celola
-						influence = 55
+						influence = 60
 					}
 					NOT = {
 						estate_loyalty = {
@@ -125,6 +125,7 @@ crisis_of_the_12th_century = {
 			estate = estate_house_celola
 			loyalty = 30
 		}
+		NOT={has_country_flag = RAU_crisis_12th_ongoing}
 	}
 	
 	
@@ -256,8 +257,8 @@ crisis_of_the_12th_century = {
 	modifier = {
 		stability_cost_modifier = 0.5
 		advisor_cost = 0.75
-		global_trade_goods_size_modifier = -0.33
-		global_tax_modifier = -0.33
+		global_trade_goods_size_modifier = -0.25
+		global_tax_modifier = -0.25
 		global_unrest = 2
 	}	
 	

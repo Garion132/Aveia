@@ -3,10 +3,9 @@ latent_trade_goods = {
 	iron
 }
 
-add_core = DRG
-owner = DRG
-controller = DRG
 add_core = VER
+owner = VER
+controller = VER
 culture = verike
 religion = tlaunorist
 hre = no
