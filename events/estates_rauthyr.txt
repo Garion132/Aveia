@@ -2700,29 +2700,28 @@ province_event = {#unguarded mannish frontier
 	trigger={
 		#owned_by = RAU
 		#controlled_by = RAU
+		
 		owner={
 			ROOT={
 				controlled_by = PREV
 			}
 			NOT={primary_culture = donamenz}
+			NOT={has_spawned_rebels = mannish_raiders_rebels}
 		}
 		NOT={devastation = 45}
-		OR={
-			culture = donamenz
-			any_neighbor_province={
-				AND={
-					city = yes
-					culture = donamenz
-					owner={
-						has_reform = mannish_tribal_reform
-					}
+		any_neighbor_province={
+			AND={
+				city = yes
+				culture = donamenz
+				owner={
+					has_reform = mannish_tribal_reform
 				}
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		days = 1440
+		days = 3600
 		modifier = {
 			factor = 0.9
 			NOT = { stability = 0 }
@@ -2744,7 +2743,7 @@ province_event = {#unguarded mannish frontier
 		ai_chance = {
 			factor = 1
 		}
-		mannish_raiders_rebels = 2
+		mannish_raiders_rebels = 1
 	}
 	option = { 
 		name = rauthyr_estate_events.18.b #pay them off
