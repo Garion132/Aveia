@@ -140,10 +140,10 @@ iron_age_calamity = {
 		}
 		random_events = { 
 			1000 = 0
-			60 = iron_age_calamity.102 #Peasants Revolt
-			70 = iron_age_calamity.103 #Nationalist Revolt
-			80 = iron_age_calamity.104 #Famine
-			60 = iron_age_calamity.105 #People Desert Cities
+			30 = iron_age_calamity.102 #Peasants Revolt
+			50 = iron_age_calamity.103 #Nationalist Revolt
+			#80 = iron_age_calamity.104 #Famine
+			50 = iron_age_calamity.105 #People Desert Cities
 			250 = iron_age_calamity.106 #Situation Gets Worse (if -3 stab)
 			#100 = internal_conflicts.5
 			#100 = internal_conflicts.6
