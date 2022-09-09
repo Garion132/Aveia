@@ -46,7 +46,7 @@ estate_house_lidori ={
 	}
 
 	# Influence modifiers
-	base_influence = 35
+	base_influence = 25
 	
 	# Influence modifiers from Events:
 	influence_modifier = {
@@ -100,7 +100,7 @@ estate_house_lidori ={
 	#Alternative naming of estates
 	
 	privileges = {
-		estate_nobles_land_rights
+		estate_rauthyr_land_rights
 		estate_nobles_officer_corp
 		estate_rauthyr_right_of_counsel
 	}

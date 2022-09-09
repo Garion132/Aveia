@@ -25,10 +25,13 @@
  EST_ETA_IND_DRA:0 "House is Independant: "
  estate_rauthyr_right_of_counsel:0 "Right of Imperial Counsel"
  estate_rauthyr_right_of_counsel_desc:0 "The Right of this house to speak openly to the Imperial Court without fear, only one house may be granted this privilege at a time"
-
+ estate_rauthyr_land_rights:0 "$ESTATE_NAME$ Land Rights"
+ estate_rauthyr_land_rights_desc:0 "The Nobles of $ESTATE_NAME$, have proven their merit and will be granted more land within our domain."
+ 
  rauthyr_estate_events.1.a:0 "Leave them be"
  rauthyr_estate_events.1.b:0 "Force them to accept imperial authority"
  estate_draumi_grant_principlaity_rights:0 "Grand Draumyuer Principlaity rights"
+ estate_draumi_grant_principlaity_rights_desc:0 "The House of Draumi has always been the most autonomus of the great houses, if we grant them the rule of a pricipality it will ensure their loyalty."
  rauthyr_estate_events.7.t:0 "Issues of Succession"
  rauthyr_estate_events.7.d:0 "As the empire currently has no sutible heir, The Imperial council of succession has started debates about who should be the imperial heir."
  rauthyr_estate_events.7.a:0 "[Root.heir.GetName] is our true heir"

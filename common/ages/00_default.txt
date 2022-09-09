@@ -1,5 +1,5 @@
 age_of_bronze = {
-	start = 1400
+	start = 1200
 	
 	can_start = {
 		always = yes
@@ -35,7 +35,10 @@ age_of_bronze = {
 				has_country_modifier = scramble_for_elteria
 			}
 		}
-			
+		obj_bronze_making_autarky = {
+	 		copper = 1
+			tin = 1
+		}
 	
 		
 	}		
