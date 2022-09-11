@@ -38,6 +38,21 @@ age_of_bronze = {
 		obj_bronze_making_autarky = {
 	 		copper = 1
 			tin = 1
+			has_institution = bronze_working
+		}
+		obj_properous_realm = {
+			custom_trigger_tooltip = {
+				tooltip = obj_every_state_prosperous_tooltip
+				all_state_province = {
+					is_prosperous = yes
+				}
+			}
+		}
+		obj_temple_loyalty = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 75
+			}
 		}
 	
 		
@@ -151,9 +166,20 @@ age_of_calamity  = {
 		
 		obj_two_unions = {
 			allow = {
-				religion_group = christian
+				religion_group = tlaunorist
 			}
-			personal_union  = 2
+			personal_union = 2
+		}
+		obj_fort_borders = {
+			calc_true_if = {
+				all_owned_province = {
+					fort_level = 1
+					any_neighbor_province = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+				amount = 3
+			}
 		}
 		
 		
