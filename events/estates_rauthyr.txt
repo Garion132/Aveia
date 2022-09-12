@@ -2419,7 +2419,7 @@ country_event = {
 		ai_chance = {
 			factor = 1
 		}
-		collapse_nation = yes
+		iac_collapse_nation = yes
 	}
 
 }

@@ -133,3 +133,84 @@ iac_add_devastation = {
 		}
 	}
 }
+
+
+iac_collapse_nation = {#will tag switch and hopefully clean up nations that collapse
+	if={#Kyath becomes Mytn
+		limit={
+			tag = KYA
+			controls = 56
+		}
+		set_capital = 56
+	}
+	if={#nations without events collapse
+		limit={
+			NOT={tag = RAU}
+			NOT={tag = GUL}
+		}
+		collapse_nation = yes#nation dies
+	}
+	release_all_subjects = yes#a dead nation can't have vassals
+	end_disaster = iron_age_calamity#iron calamity has done its job 
+	add_prestige = -50
+	add_stability = 1
+	add_adm_power = 100
+	add_dip_power = 100
+	add_mil_power = 100
+	if={#empires are gone
+		limit = {government_rank = 3}
+		set_government_rank = 2	
+	}
+	#country spesific tag switches
+	if={#kafethyr becomes Liora
+		limit={
+			tag = KAF
+		}
+		inherit = LIO
+		change_tag = LIO
+	}
+	if={#Rauthyr becomes Lindor
+		limit={
+			tag = RAU
+		}
+		country_event = {id = iron_age_calamity.1006}
+	}
+	if={#Gulba becomes Ugra
+		limit={
+			tag = GUL
+		}
+		country_event = {id = iron_age_calamity.1004}
+	}
+	if={#Kyath becomes Mytn
+		limit={
+			tag = KYA
+		}
+		47={ 
+			cede_province = YLA 
+			add_core = YLA
+			remove_core = KYA
+		}
+		46={ 
+			cede_province = YLA 
+			add_core = YLA
+			remove_core = KYA
+		}
+		inherit = MYN
+		change_tag = MYN
+	}
+	if={#Cyueg becomes Tlihel
+		limit={
+			tag = CYU
+		}
+		inherit = TLH
+		change_tag = TLH
+	}
+	if={#Leleth becomes Minhon
+		limit={
+			tag = LEL
+		}
+		inherit = MNN
+		change_tag = MNN
+		release = ORL
+	}
+}
