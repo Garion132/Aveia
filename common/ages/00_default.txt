@@ -65,7 +65,7 @@ age_of_bronze = {
 	abilities = {
 	
 		ab_colony_boost_development = {
-			rule = {
+			modifier = {
 				can_colony_boost_development = yes
 			}
 			ai_will_do = {
@@ -198,7 +198,7 @@ age_of_calamity  = {
 		}
 		
 		ab_transfer_vassal_wargoal = {
-			rule = {
+			modifier = {
 				can_transfer_vassal_wargoal = yes
 				can_chain_claim = yes
 			}
@@ -530,7 +530,7 @@ age_of_strife = {
 			}
 		}
 		ab_no_distance_for_core = {
-			rule = {
+			modifier = {
 				ignore_coring_distance = yes
 			}
 			ai_will_do = {
@@ -636,7 +636,7 @@ age_of_progress = {
 			}
 		}
 		ab_force_march = {
-			rule = {
+			modifier = {
 				force_march_free = yes
 			}
 			ai_will_do = {

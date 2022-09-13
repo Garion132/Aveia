@@ -277,7 +277,7 @@ north_mannish_ideas = {
 	free = yes
 
 	nm_clan_loyalties = {
-		may_establish_frontier = yes
+		
 		global_manpower_modifier = 0.15
 	}
 	war_for_wars_sake = {
