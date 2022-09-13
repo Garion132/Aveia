@@ -14,6 +14,7 @@ NAT = "countries/Natives.txt"
 	ELR = "countries/Elraithe.txt"
 	YLA = "countries/Ylasem.txt"
 	MYN = "countries/Mytn.txt"
+	SLD = "countries/Salemdor.txt"
 
 
 IHA = "countries/Ihadar.txt"
