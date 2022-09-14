@@ -19,9 +19,51 @@ philosopher = {
 	# Bonus
 	prestige = 1
 
-	skill_scaled_modifier = { 
-		#prestige = 0.1
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				has_government_attribute = republican_tradition_from_advisors
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+			republican_tradition = 0.02
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+		}
+	}	
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
 	}
 
 	chance = {
@@ -40,17 +82,58 @@ natural_scientist = {
 	# Bonus
 	production_efficiency = 0.10
 
-	skill_scaled_modifier = { 
-		#production_efficiency = 0.01
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				has_government_attribute = republican_tradition_from_advisors
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+			republican_tradition = 0.02
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+		}
+	}	
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1.2
 	}
 }
 
@@ -61,17 +144,66 @@ artist = {
 	# Bonus
 	stability_cost_modifier = -0.2
 
-	skill_scaled_modifier = { 
-		#stability_cost_modifier = -0.02
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				has_government_attribute = republican_tradition_from_advisors
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+			republican_tradition = 0.02
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+		}
+	}	
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
 	
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 1.2
+			NOT = { stability = 1 }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { stability = 0 }
+		}
 	}
 }
 
@@ -82,17 +214,58 @@ treasurer = {
 	# Bonus
 	global_tax_modifier = 0.1
 
-	skill_scaled_modifier = { 
-		#global_tax_modifier = 0.01
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				has_government_attribute = republican_tradition_from_advisors
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+			republican_tradition = 0.02
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+		}
+	}	
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1.5
 	}
 }
 
@@ -103,11 +276,52 @@ theologian = {
 	# Bonus
 	global_unrest = -2
 
-	skill_scaled_modifier = { 
-		#global_unrest = -0.2
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				has_government_attribute = republican_tradition_from_advisors
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+			republican_tradition = 0.02
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+		}
+	}	
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 
@@ -115,6 +329,14 @@ theologian = {
 	
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 1.5
+			unrest = -1
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 1
+		}
 	}
 }
 
@@ -125,24 +347,69 @@ master_of_mint = {
 	# Bonus
 	inflation_reduction = 0.10
 
-	skill_scaled_modifier = { 
-		#inflation_reduction = 0.01
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				has_government_attribute = republican_tradition_from_advisors
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+			republican_tradition = 0.02
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				has_country_flag = fin_fine_finances_flag 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = {
+			global_tax_modifier = 0.05
+			meritocracy = 0.25
+		}
+	}	
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_country_flag = fin_fine_finances_flag } 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1.2
+		modifier = {
+			factor = 0.5
+			NOT = { inflation = 1 }
+		}
 	}
 }
 
 ######################################################
 inquisitor = {
 	monarch_power = ADM
-	
+	allow_only_owner_religion = yes	
 	# Bonus
 	global_missionary_strength = 0.02
 
@@ -225,11 +492,25 @@ statesman = {
 	# Bonus
 	diplomatic_reputation = 1
 
-	skill_scaled_modifier = { 
-		#diplomatic_reputation = 0.1
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
@@ -247,11 +528,25 @@ naval_reformer = {
 	
 	naval_morale = 0.1 
 
-	skill_scaled_modifier = { 
-		#naval_morale = 0.01
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 		modifier = {
@@ -276,17 +571,62 @@ trader = {
 	# Bonus
 	trade_efficiency = 0.10
 
-	skill_scaled_modifier = { 
-		#trade_efficiency = 0.01
-		meritocracy = 0.25 
-	}	
-
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+				has_country_flag = enable_special_trader_flag
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+			mercantilism_cost = -0.05
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_country_flag = enable_special_trader_flag 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			mercantilism_cost = -0.05 
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				NOT = { has_country_flag = enable_special_trader_flag }
+				has_government_attribute = republican_tradition_from_advisors
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+				NOT = { has_country_flag = enable_special_trader_flag }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
 	
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 1.5
+			has_idea_group = trade_ideas
+		}
 	}
 }
 
@@ -297,17 +637,31 @@ spymaster = {
 	# Bonus
 	spy_offence = 0.25
 
-	skill_scaled_modifier = { 
-		#spy_offence = 0.025
-		meritocracy = 0.25 
-	}	
-
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 0.8
 	}
 }
 
@@ -318,11 +672,25 @@ colonial_governor = {
 	# Bonus
 	global_tariffs = 0.2
 
-	skill_scaled_modifier = { 
-		#global_tariffs = 0.01
-		meritocracy = 0.25 
-	}	
-
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
+	}
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 		modifier = {
@@ -462,11 +830,25 @@ army_reformer = {
 	# Bonus
 	land_morale = 0.10
 
-	skill_scaled_modifier = { 
-		#land_morale = 0.01
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
@@ -483,11 +865,25 @@ army_organiser = {
 	# Bonus
 	land_forcelimit_modifier = 0.10
 	
-	skill_scaled_modifier = { 
-		#land_forcelimit_modifier = 0.01
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
@@ -504,11 +900,25 @@ commandant = {
 	# Bonus
 	discipline = 0.05
 	
-	skill_scaled_modifier = { 
-		#discipline = 0.005
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
@@ -525,11 +935,25 @@ quartermaster = {
 	# Bonus
 	reinforce_speed = 0.33
 
-	skill_scaled_modifier = { 
-		#reinforce_speed = 0.033
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
@@ -550,17 +974,31 @@ recruitmaster = {
 	# Bonus
 	global_manpower_modifier = 0.2
 	
-	skill_scaled_modifier = { 
-		#global_manpower_modifier = 0.01
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1.1
 		modifier = {
 			factor = 1.5
 			is_at_war = no
@@ -576,11 +1014,25 @@ fortification_expert = {
 	defensiveness = 0.2
 	
 
-	skill_scaled_modifier = { 
-		#defensiveness = 0.02
-		meritocracy = 0.25 
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				has_government_attribute = republican_tradition_from_advisors 
+			}
+		}
+		modifier = { 
+			meritocracy = 0.25
+			republican_tradition = 0.02 
+		}
 	}
-
+	skill_scaled_modifier = {
+		trigger = { 
+			owner = { 
+				NOT = { has_government_attribute = republican_tradition_from_advisors }
+			}
+		}
+		modifier = { meritocracy = 0.25 }
+	}
 	chance = {
 		factor = 1
 		

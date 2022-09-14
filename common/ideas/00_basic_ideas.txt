@@ -100,7 +100,7 @@
 		#Focused on construction & buildings
 
 		bonus = {
-			artillery_bonus_vs_fort = 1
+			artillery_levels_available_vs_fort = 1
 		}
 
 		construction_techiques = {
@@ -326,7 +326,7 @@
 		#Tech cost, innovativeness, institutions, and various other bonuses (/w good late-game policies)
 		
 		trigger = {
-			has_early_idea = yesx
+			has_early_idea = yes
 			adm_tech = 16
 		}
 

@@ -15,7 +15,7 @@
 #######################################
 
 organized_state = {
-	penalty = 0.5
+	 
 	bonus = {
 		free_leader_pool = 1
 	}
@@ -178,7 +178,7 @@ organized_state = {
 }
 
 bronze_working = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		land_morale = 0.10
@@ -336,7 +336,7 @@ bronze_working = {
 }
 
 crop_rotation = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		development_cost = -0.05
@@ -543,7 +543,7 @@ crop_rotation = {
 #######################################
 
 iron_working = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		shock_damage = 0.05
@@ -682,7 +682,7 @@ iron_working = {
 			potential = {
 				OR={
 					has_latent_trade_goods = iron
-					has_trade_good = ironwood
+					trade_goods = ironwood
 				}
 			}
 			custom_trigger_tooltip = {
@@ -739,7 +739,7 @@ iron_working = {
 
 
 illuminare = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		development_cost = -0.05
@@ -893,7 +893,7 @@ illuminare = {
 # Colonising is good.. mkay.-.
 #######################################
 new_world_i = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		global_prov_trade_power_modifier = 0.10
@@ -1068,7 +1068,7 @@ new_world_i = {
 
 
 guedinan_revolution = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		development_cost = -0.05
@@ -1273,7 +1273,7 @@ guedinan_revolution = {
 # Printing Press
 #######################################
 printing_press = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		stability_cost_modifier = -0.05
@@ -1464,7 +1464,7 @@ printing_press = {
 # Global Trade
 #######################################
 global_trade = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		merchants = 1
@@ -1705,7 +1705,7 @@ global_trade = {
 # air_shipping
 #######################################
 air_shipping = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
@@ -2144,7 +2144,7 @@ air_shipping = {
 # Industrialisation
 #######################################
 industrialization = {
-	penalty = 0.5
+	 
 	
 	trade_company_efficiency = 2.0
 
@@ -2778,7 +2778,7 @@ industrialization = {
 # Byrinifacation
 #######################################
 enlightenment = {
-	penalty = 0.5
+	 
 
 	bonus = {
 		culture_conversion_cost = -0.25

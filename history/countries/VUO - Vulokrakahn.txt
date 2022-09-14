@@ -1,6 +1,6 @@
 government = iron_monarchy
-add_government_reform = palace_economy
-primary_culture = ia_deligated_monarchy
+add_government_reform = ia_deligated_monarchy
+primary_culture = donamenz
 religion = uzvazism
 government_rank = 3
 technology_group = civilized_human_group

@@ -94,7 +94,7 @@
             full_idea_group = propaganda_ideas
         }
 
-        advsior_pool = 1
+        advisor_pool = 1
         spy_offence = 0.1
         
         ai_will_do = {
@@ -1096,20 +1096,18 @@
         
         ai_will_do = {
             factor = 0.8
-            factor = {
-                modifier = {
-                    factor = 0
-                    NOT = { num_of_provinces_in_territories = 0 }
-                }
-                modifier = {
-                    factor = 1.5
-                    num_of_provinces_in_territories = 10
-                }
-                modifier = {
-                    factor = 1.5
-                    num_of_provinces_in_territories = 20
-                }
-            }
+            modifier = {
+				factor = 0
+				NOT = { num_of_provinces_in_territories = 0 }
+			}
+			modifier = {
+				factor = 1.5
+				num_of_provinces_in_territories = 10
+			}
+			modifier = {
+				factor = 1.5
+				num_of_provinces_in_territories = 20
+			}
         }
     }
     expansion_plutocracy = {
@@ -1174,7 +1172,7 @@
             factor = 1
             modifier = {
                 factor = 0.6
-                NOT = { colonies = 1 }
+                NOT = { num_of_colonies = 1 }
             }
         }
     }
@@ -1199,7 +1197,7 @@
             factor = 0.7
             modifier = {
                 factor = 0
-                NOT = { colonies = 1 }
+                NOT = { num_of_colonies = 1 }
             }
         }
     }
@@ -1587,7 +1585,7 @@
             factor = 0.6
             modifier = {
                 factor = 0
-                NOT = { colonies = 1 }
+                NOT = { num_of_colonies = 1 }
             }
         }
     }

@@ -640,7 +640,7 @@ technology = { #Steam Turbine
 	may_sabotage_reputation = yes
 
 	#New light ship (Ironclad)
-	enbable = ironclad
+	enable = ironclad
 	#New galley (gunboat)
 	enable = gunboat
 }

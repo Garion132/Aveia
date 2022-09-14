@@ -7,6 +7,6 @@ capital = 2325 #
 #national_focus = DIP
 #historical_rival = HAB
 
-1272.1.1=-{
+1272.1.1={
 	add_mil_tech = 1
 }

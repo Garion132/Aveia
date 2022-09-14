@@ -518,6 +518,8 @@
  PROV1792:0 "Reshyr"
 
  PROV1807:0 "Ehay"
+ 
+ PROV1810:0 "Spirilsand"
 
  PROV1828:0 "Guzunkurp"
 
@@ -990,6 +992,9 @@
  PROV5206:0 "Velya"
  
  PROV5215:0 "Tuslor sea"
+ 
+ PROV5221:0 "Istancan Desert"
+ PROV5222:0 "Glowing Wastes"
  
  PROV5237:0 "Borgon"
  PROV5238:0 "Ceratinani"

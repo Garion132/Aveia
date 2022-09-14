@@ -413,7 +413,6 @@ morbin_region={
 		gulba_19
 		gulba_20
 		gulba_21
-		yerina_1
 		yerina_2
 		yerina_4
 		yerina_5
@@ -1421,7 +1420,6 @@ wuloric_region={
 		wuloric_9
 		wuloric_10
 		wuloric_11
-		wuloric_12
 		crystalia_13
 	}
 }
@@ -1514,10 +1512,5 @@ juluious_ocean={
 		gurvian_flow
 		icebreaks
 		alromita_bays
-	}
-}
-ocean_region = {
-	areas = {
-		filler_sea
 	}
 }

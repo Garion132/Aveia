@@ -105,8 +105,14 @@ draumi_pretender_rebels = {
 			add_prestige = -200
 			add_legitimacy = 25
 		}
-		kill_heir = yes
-		kill_consort = yes
+		if = {
+			limit = { has_heir = yes }
+			kill_heir = { allow_new_heir = no }
+		}
+		if = {
+			limit = { has_consort = yes }
+			kill_consort = yes
+		}
 		set_country_flag = no_new_succession_crisis_if_pretender_rebels #This is used in the event that triggers from the on_action to ensure that you don't get new pretenders if these pretenders are happening because of a succession crisis.
 		define_ruler = {
 			rebel = yes
