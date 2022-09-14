@@ -137,6 +137,10 @@ on_war_lost = {
 		hidden = yes
 	}
 }
+on_main_war_lost = {
+}
+on_separate_war_lost = {
+}
 
 # country
 # root = winning country, from = loser country
@@ -363,6 +367,10 @@ on_regent = {
 	events = {
 		tribal_succession.1	# harsh anti-tribals.
 	}
+}
+
+# country
+on_extend_regency = {
 }
 
 # country
@@ -891,6 +899,18 @@ on_siberian_pulse = {
 
 
 # country random events
+on_monthly_pulse = {
+}
+on_yearly_pulse = {
+}
+on_yearly_pulse_2 = {
+}
+on_yearly_pulse_3 = {
+}
+on_yearly_pulse_4 = {
+}
+on_yearly_pulse_5 = {
+}
 on_bi_yearly_pulse = {
 	random_events = {
 		# randomevents.txt
@@ -2861,4 +2881,57 @@ on_expanded_infrastructure = {
 
 #ROOT = province that was centralized in
 on_centralized_state = {
+}
+monarch_on_shipwreck = {
+}
+heir_on_shipwreck = {
+}
+consort_on_shipwreck = {
+}
+
+#ROOT = country
+on_defender_of_faith_loss = {
+	clr_country_flag = claimed_defender_of_faith_flag
+	remove_country_modifier = liv_the_livonian_defender
+	remove_country_modifier = gov_improved_defender_of_faith_mod
+	remove_country_modifier = pol_shield_against_catholicism_modifier
+}
+on_defender_of_faith_claim = {
+}
+on_hre_dismantled = {
+}
+on_new_age = {
+}
+
+#ROOT = province
+on_adm_exploited = {
+	if = {
+		limit = { owner = { has_government_attribute = may_not_reduce_tax_on_exploitation } }
+		random = {
+			chance = 50
+			add_base_tax = 1
+		}
+	}
+	if = {
+		limit = { owner = { has_government_attribute = may_not_reduce_tax_on_own_exploitation culture_group = ROOT } }
+		random = {
+			chance = 25
+			add_base_tax = 1
+		}
+	}
+	if = {
+		limit = { owner = { has_government_attribute = may_not_reduce_tax_on_foreign_exploitation NOT = { culture_group = ROOT } } }
+		random = {
+			chance = 50
+			add_base_tax = 1
+		}
+	}
+}
+on_dip_exploited = {
+}
+on_mil_exploited = {
+}
+on_raze = {
+}
+on_concentrate_development = {
 }
