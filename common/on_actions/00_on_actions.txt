@@ -1956,6 +1956,14 @@ on_explore_coast = {
 	}
 }
 on_conquistador_empty = {
+	if = {
+		limit = {
+			NOT = {has_global_flag = golden_sun_discovered}
+			is_empty = yes
+			province_id = 1006
+		}
+		FROM={country_event = {id = colonial.30}}
+	}
 	random_events = {
 		# 10 = seven_cities_events.1
 		# 10 = seven_cities_events.2
