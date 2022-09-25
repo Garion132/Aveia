@@ -3,8 +3,8 @@ add_government_reform = palace_economy
 primary_culture = gugh
 religion = roresist
 government_rank = 1
-technology_group = eastern_men_group
-capital = 2750 # 
+technology_group = ork_group
+capital = 2752 # 
 #national_focus = DIP
 #historical_rival = HAB
 

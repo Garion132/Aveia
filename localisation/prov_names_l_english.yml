@@ -130,6 +130,7 @@
  PROV457:0 "Ventoral"
  
  PROV461:0 "Eastern Cryspimes"
+ PROV462:0 "Uliavoa"
  
  PROV490:0 "Mount Talior"
  
@@ -360,6 +361,8 @@
  PROV1244:0 "Iumerin"
  
  PROV1246:0 "Henil"
+ 
+ PROV1248:0 "Olkir"
 
  PROV1259:0 "Ymmargond"
 
@@ -380,6 +383,8 @@
  PROV1318:0 "Melion"
  PROV1319:0 "Eleim"
  PROV1320:0 "Nylrion"
+ 
+ PROV1324:0 "Bultrir"
 
  PROV1341:0 "Ertin"
 
@@ -453,10 +458,14 @@
  PROV1482:0 "Chorhaltu"
 
  PROV1501:0 "Esmilbis"
+ 
+ PROV1517:0 "Gantavir"
 
  PROV1523:0 "Nidyat"
 
  PROV1536:1 "Harbasya"
+ 
+ PROV1543:0 "Dolurie"
 
  PROV1554:0 "Chivgat"
  PROV1555:0 "Kahanavza"
@@ -478,6 +487,8 @@
  PROV1624:0 "Kirhemish"
  
  PROV1641:0 "Isherun"
+ 
+ PROV1647:0 "Beshek"
 
  PROV1649:0 "Kiziltu"
 
@@ -503,6 +514,9 @@
  PROV1718:0 "Tolos Point"
  
  PROV1721:0 "Rosci Point"
+ 
+ PROV1723:0 "Tanaveli"
+ PROV1724:0 "Tip of Valivan"
 
  PROV1732:0 "Symlar"
 
@@ -893,6 +907,7 @@
  PROV3918:0 "Illwind"
  PROV3919:0 "Voltur"
  PROV3920:0 "Pirtol"
+ PROV3921:0 "Alitar"
  
  PROV3929:0 "Shizhokno"
  
@@ -919,6 +934,10 @@
  PROV4669:0 "Freyster"
  
  PROV4673:0 "Whitjown"
+ 
+ PROV4741:0 "Aliort"
+ PROV4742:0 "Yiolier"
+ PROV4743:0 "Lortsed"
  
  PROV4758:0 "Rathau"
  PROV4759:0 "Vendre"

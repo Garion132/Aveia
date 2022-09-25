@@ -1,14 +1,18 @@
 #Gugh
+add_core = VLE
+owner = VLE
+controller = VLE
 culture = gugh
 religion = forebearist
 capital = "Accra"
-trade_goods = unknown
+trade_goods = slaves
 hre = no
-base_tax = 0
-base_production = 0
+base_tax = 2
+base_production = 2
 base_manpower = 1
 native_size = 90
 native_ferocity = 6
 native_hostileness = 11
 discovered_by = western
 extra_cost = 8
+discovered_by = ork_group

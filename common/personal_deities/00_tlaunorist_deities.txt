@@ -156,3 +156,26 @@ sifon =
 		}		
 	}
 }
+
+amirna =
+{
+	spy_offence = 0.1
+	tolerance_own = 0.5
+	
+	allow = { 
+		religion = tlaunorist 
+	}
+	sprite = 7
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_militarist
+		}		
+	}
+}

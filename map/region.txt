@@ -177,6 +177,7 @@ nylka_region={
 		donamenz_45	
 		chaun_3
 		chaun_4
+		yulorie
 	}
 }
 lildoresi_marches_region ={
