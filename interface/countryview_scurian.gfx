@@ -1,0 +1,449 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_artist"
+		texturefile = "gfx//interface//advisors//scuria//scuria4.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_philosopher"
+		texturefile = "gfx//interface//advisors//scuria//scuria1.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//scuria//scuria6.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_theologian"
+		texturefile = "gfx//interface//advisors//scuria//scuria6.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_inquisitor"
+		texturefile = "gfx//interface//advisors//scuria//scuria5.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//scuria//scuria3.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_treasurer"
+		texturefile = "gfx//interface//advisors//scuria//scuria2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_politician"
+		texturefile = "gfx//interface//advisors//scuria//scuria2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_economist"
+		texturefile = "gfx//interface//advisors//scuria//scuria2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_statesman"
+		texturefile = "gfx//interface//advisors//scuria//scuria2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//scuria//scuria3.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_diplomat"
+		texturefile = "gfx//interface//advisors//scuria//scuria2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//scuria//scuria7.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_navigator"
+		texturefile = "gfx//interface//advisors//scuria//scuria7.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_trader"
+		texturefile = "gfx//interface//advisors//scuria//scuria6.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_spymaster"
+		texturefile = "gfx//interface//advisors//scuria//scuria5.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_industrialist"
+		texturefile = "gfx//interface//advisors//scuria//scuria2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_colonialist"
+		texturefile = "gfx//interface//advisors//scuria//scuria2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_grand_captain"
+		texturefile = "gfx//interface//advisors//scuria//scuria8.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_commandant"
+		texturefile = "gfx//interface//advisors//scuria//scuria8.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_army_organiser"
+		texturefile = "gfx//interface//advisors//scuria//scuria7.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_army_reformer"
+		texturefile = "gfx//interface//advisors//scuria//scuria7.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//scuria//scuria7.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//scuria//scuria4.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_quartermaster"
+		texturefile = "gfx//interface//advisors//scuria//scuria4.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_tactician"
+		texturefile = "gfx//interface//advisors//scuria//scuria4.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_siege_specialist"
+		texturefile = "gfx//interface//advisors//scuria//scuria4.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_noAdvisorType"
+		texturefile = "gfx//interface//advisors//scuria//asian_noAdvisorType.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_artist_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_artist_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_philosopher_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_philosopher_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_natural_scientist_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_natural_scientist_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_theologian_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_theologian_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_inquisitor_female"
+		texturefile = "gfx//interface//advisors//scuria//scuria5_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_master_of_mint_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_master_of_mint_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_treasurer_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_treasurer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_statesman_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_statesman_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_colonial_governor_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_colonial_governor_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_diplomat_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_diplomat_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_naval_reformer_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_naval_reformer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_navigator_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_navigator_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_trader_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_trader_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_spymaster_female"
+		texturefile = "gfx//interface//advisors//scuria//scuria5_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_grand_captain_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_grand_captain_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_commandant_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_commandant_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_army_organiser_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_army_organiser_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_army_reformer_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_army_reformer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_recruitmaster_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_recruitmaster_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_fortification_expert_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_fortification_expert_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_quartermaster_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_quartermaster_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_scuriangfx_noAdvisorType_female"
+		texturefile = "gfx//interface//advisors//scuria//asian_noAdvisorType_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}	
+	
+}

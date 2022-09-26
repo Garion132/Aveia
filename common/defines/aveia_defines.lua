@@ -62,3 +62,7 @@ NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_3 = 341			-- Provinces for circumnav
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_4 = 267			-- Provinces for circumnavigation (hawaii sea)
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_5 = 406			-- Provinces for circumnavigation (hawaii sea)
 NDefines.NCountry.CIRCUMNAVIGATION_PROVINCE_6 = 256			-- Provinces for circumnavigation (cape of good hope)
+
+NDefines.NCountry.INSTITUTION_BONUS_FROM_IMP_DEVELOPMENT = 1
+NDefines.NCountry.INSTITUTION_CAP_IMP_DEVELOPMENT = 10
+NDefines.NCountry.INSTITUTION_BASE_IMP_DEVELOPMENT = 30

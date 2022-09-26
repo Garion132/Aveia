@@ -44,6 +44,7 @@ country_decisions = {
 			owns_or_non_sovereign_subject_of = 2731
 			owns_or_non_sovereign_subject_of = 2736
 			owns_or_non_sovereign_subject_of = 2743
+			owns_or_non_sovereign_subject_of = 2752
 			num_of_owned_provinces_with = {
 				value = 20
 				has_owner_accepted_culture = yes

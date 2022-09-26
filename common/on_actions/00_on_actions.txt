@@ -2191,8 +2191,6 @@ on_select_heir_from_harem = {
 }
 
 on_fetishist_cult_change = {
-	country_event = { id = fetishist_flavor.302 days = 10 } #removing tomb if incompatible cult is picked
-	country_event = { id = fetishist_flavor.304 days = 10 } #rebuilding tomb if lost
 	if = {
 		limit = {
 			has_country_flag = lost_ancestral_lands

@@ -1676,31 +1676,28 @@ dhizdia_scholar_modifier = {
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	merchants = 1
+	land_morale = 0.075
 }
 karnelia_scholar_modifier = {
 	religion_sub_modifier = yes # Will make icon placed next to religion modifier
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	shock_damage_received = -0.1
+	discipline = 0.03
 }
 rorest_scholar_modifier = {
 	religion_sub_modifier = yes # Will make icon placed next to religion modifier
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	adm_tech_cost_modifier = -0.05
+	global_trade_goods_size_modifier = 0.05
 }
 pirrarthim_scholar_modifier = {
 	religion_sub_modifier = yes # Will make icon placed next to religion modifier
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	horde_unity = 1
-	legitimacy = 1
-	republican_tradition = 0.5
-	devotion = 1
+	adm_tech_cost_modifier = -0.05
 }
 meanic_court_scholar_modifier= {
 	religion_sub_modifier = yes # Will make icon placed next to religion modifier
@@ -1722,6 +1719,13 @@ hulric_court_scholar_modifier= {
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
 	diplomatic_reputation = 1
+}
+herjite_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	global_trade_power = 0.1
 }
 
 #vanillia ones

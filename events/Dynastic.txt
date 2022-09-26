@@ -29,7 +29,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA9451"
-		kill_heir = yes
+		kill_heir = {}
 		random_owned_province = {
 			limit = {
 				NOT = {
@@ -44,7 +44,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB9451"
-		kill_heir = yes
+		kill_heir = { allow_new_heir = no }
 		define_heir = {
 			dynasty = ROOT
 			claim = 30
@@ -93,7 +93,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB9452"
-		kill_heir = yes
+		kill_heir = {}
 	}
 }
 
@@ -344,7 +344,7 @@ country_event = {
 		name = "EVTOPTA9456"
 		add_years_of_income = -0.2
 		random_list = {
-			50 = { kill_heir = yes }
+			50 = { kill_heir = {} }
 			50 = {
 				add_legitimacy = 5
 				add_horde_unity = 5
@@ -355,7 +355,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB9456"
 		random_list = {
-			75 = { kill_heir = yes}
+			75 = { kill_heir = {}}
 			25 = {
 				add_legitimacy = 30
 				add_horde_unity = 30
@@ -396,9 +396,9 @@ country_event = {
 		define_heir = {
 			claim = 20
 			dynasty = ROOT
-			adm = 1
-			dip = 1
-			mil = 1
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
 			male = yes
 			no_consort_with_heir = yes
 		}
@@ -451,7 +451,7 @@ country_event = {
 		random_list = {
 			50 = { add_years_of_income = 0.05 }
 			45 = { add_legitimacy = 20}
-			5 = { kill_heir = yes}
+			5 = { kill_heir = {}}
 		}
 	}
 	
@@ -485,12 +485,12 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTA9459"
-		kill_heir = yes
+		kill_heir = {}
 		add_stability = -1
 	}
 	option = {
 		name = "EVTOPTB9459"
-		kill_heir = yes
+		kill_heir = {}
 		add_prestige = -10
 	}
 }
@@ -504,7 +504,7 @@ country_event = {
 	picture = COURT_eventPicture
 	
 	trigger = {
-		religion_group = christian
+		always = no #religion_group = christian
 		has_heir = yes
 		heir_age = 15
 		is_lesser_in_union = no
@@ -652,7 +652,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA9468"
-		kill_heir = yes
+		kill_heir = { allow_new_heir = no }
 		define_ruler = {
 		}
 		if = {
@@ -928,7 +928,7 @@ country_event = {
 	# option = {
 		# name = "EVTOPTA9481"
 		# owner = {
-			# kill_heir = yes
+			# kill_heir = {}
 			# set_country_flag = murdering_bastard
 		# }
 	# }
@@ -1246,7 +1246,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB9488"
-		kill_heir = yes
+		kill_heir = {}
 		add_war_exhaustion = -2
 	}
 }
@@ -1447,6 +1447,10 @@ country_event = {
 			has_country_modifier = dyn_newborn_daughter
 		}
 		has_government_attribute = heir
+		OR = {
+			has_regency = no 
+			has_consort_regency = yes
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1555,9 +1559,9 @@ country_event = {
 		define_heir = {
 			dynasty = ROOT
 			age = 13
-			adm = 3
-			dip = 3
-			mil = 3
+			change_adm = 3
+			change_dip = 3
+			change_mil = 3
 			claim = 50
 			female = yes
 			no_consort_with_heir = yes
@@ -1596,7 +1600,7 @@ country_event = {
 		NOT = { has_reform = ottoman_government }
 		NOT = { has_reform = elective_monarchy }
 		NOT = { has_reform = mamluk_government }
-		religion_group = christian
+		always = no #religion_group = christian
 		any_known_country = {
 			government = monarchy
 			religion_group = christian
@@ -1722,6 +1726,7 @@ country_event = {
 	desc = dynastic_events.5.d
 	picture = DIPLOMACY_eventPicture
 	
+	is_triggered_only = yes 
 	trigger = {
 		has_heir = no
 		government = monarchy
@@ -1730,6 +1735,7 @@ country_event = {
 		NOT = { has_reform = elective_monarchy }
 		religion_group = christian
 		is_free_or_tributary_trigger = yes
+		has_consort = no
 		ruler_age = 16
 		NOT = {
 			ruler_age = 40
@@ -1781,7 +1787,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 500
+		days = 1 
 	}
 	
 	immediate = {
@@ -1894,13 +1900,20 @@ country_event = {
 	
 	option = {
 		name = dynastic_events.6.a
-		add_legitimacy = 20
+		add_prestige = 20
 		FROM = {
 			set_country_flag = dyn_pu_accepted_flag
 			create_union = ROOT
 			country_event = {
 				id = dynastic_events.7
 				tooltip = dynastic_events.7.t
+			}
+		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 4
+				NOT = { total_development = FROM }
 			}
 		}
 	}
@@ -1923,6 +1936,13 @@ country_event = {
 				tooltip = dynastic_events.7.t
 			}
 		}
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 4
+				total_development = FROM
+			}
+		}
 	}
 }
 
@@ -1941,10 +1961,14 @@ country_event = {
 			has_country_flag = dyn_pu_accepted_flag
 		}
 		add_legitimacy = 20
-		tooltip = {
-			create_union = FROM
+		define_consort = {
+			country_of_origin = FROM
+			dynasty = FROM
+			culture = FROM
+			religion = FROM
 		}
-	}
+		create_union = FROM
+			}
 	
 	option = {
 		name = dynastic_events.7.b
@@ -1961,6 +1985,12 @@ country_event = {
 				type = cb_insult
 				months = 12
 			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			clr_country_flag = dyn_pu_accepted_flag
+			clr_country_flag = dyn_pu_refused_flag
 		}
 	}
 }

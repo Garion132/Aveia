@@ -49,8 +49,7 @@ monarchy = {
 		}
 		bureaucracy = {
 			reforms = {
-				centralize_reform
-				centralize_empire_reform				
+				centralize_reform				
 				decentralize_reform
 				sidhi_recruitment
 				mansabdari_reform

@@ -2,6 +2,7 @@ government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = gugh
 religion = roresist
+religious_school = pirrarthim_school
 government_rank = 1
 technology_group = ork_group
 capital = 2743 # 

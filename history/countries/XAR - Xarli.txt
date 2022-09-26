@@ -5,4 +5,4 @@ religion = drethalumia
 technology_group = free_fauns_group
 capital = 2719 # 
 #national_focus = DIP
-#historical_rival = HAB
+historical_friend = CIL

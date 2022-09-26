@@ -358,8 +358,8 @@ FRY_mission_3 = {
 		}
 		trigger = {
 			2418 = {
-			has_city = yes
-			has_building = fort_14th
+				is_city = yes
+				has_building = fort_14th
 			}
 		}
 		effect = {

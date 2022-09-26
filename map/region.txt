@@ -119,7 +119,7 @@ otrcyueg_region ={
 		tlinhel
 		lyalolaluma
 		lamnelon
-		oramarnona
+		oramarno
 		omora
 		onorasanyn
 		miloran

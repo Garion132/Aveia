@@ -1,0 +1,13 @@
+westerngfx
+easterngfx
+muslimgfx
+indiangfx
+asiangfx
+africangfx
+northamericagfx
+southamericagfx
+inuitgfx
+aboriginalgfx
+polynesiangfx
+southeastasiangfx
+scuriangfx

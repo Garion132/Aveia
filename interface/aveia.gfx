@@ -37,6 +37,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//icon_muslim_school_rorest_church.dds"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_school_herjite_church"
+		texturefile = "gfx//interface//icon_muslim_school_herjite_church.dds"
+		loadType = "INGAME"
+	}
 	
 	#Buildings
 	spriteType = {

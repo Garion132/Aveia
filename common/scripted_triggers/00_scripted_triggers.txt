@@ -1178,8 +1178,9 @@ republic_with_female_rulers_trigger = {
 
 is_absolutism_active = {
 	OR = {
-		current_age = age_of_absolutism
-		current_age = age_of_revolutions
+		current_age = age_of_rosen_dawn
+		current_age = age_of_strife
+		current_age = age_of_progress
 	}
 }
 
@@ -1195,4 +1196,143 @@ no_construction = {
 	}
 	NOT = { has_construction = army } #For clarity
 	NOT = { has_construction = navy } #For clarity	
+}
+
+has_points_for_livonian_military_monarchy = {
+	check_variable = {
+		which = liv_mil
+		value = 5
+	}
+}
+has_points_for_livonian_naval_monarchy = {
+	check_variable = {
+		which = liv_dip
+		value = 5
+	}
+}
+has_points_for_livonian_trade_monarchy = {
+	check_variable = {
+		which = liv_adm
+		value = 3
+	}
+	check_variable = {
+		which = liv_dip
+		value = 3
+	}
+}
+has_points_for_livonian_constitutional_monarchy = {
+	is_variable_equal = {
+		which = liv_adm
+		value = 3
+	}
+}
+has_points_for_livonian_theocratic_monarchy = {
+	check_variable = {
+		which = liv_adm
+		value = 3
+	}
+	check_variable = {
+		which = liv_mil
+		value = 3
+	}
+}
+has_points_for_livonian_elective_monarchy = {
+	check_variable = {
+		which = liv_dip
+		value = 3
+	}
+}
+has_points_for_livonian_diplomatic_monarchy = {
+	check_variable = {
+		which = liv_dip
+		value = 4
+	}
+}
+has_points_for_livonian_administrative_monarchy = {
+	check_variable = {
+		which = liv_adm
+		value = 5
+	}
+}
+has_points_for_livonian_mercenary_monarchy = {
+	check_variable = {
+		which = liv_mil
+		value = 3
+	}
+}
+has_points_for_livonian_admiral_monarchy = {
+	check_variable = {
+		which = liv_dip
+		value = 4
+	}
+}
+has_points_for_livonian_naval_controlled_monarchy = {
+	check_variable = {
+		which = liv_dip
+		value = 3
+	}
+	check_variable = {
+		which = liv_mil
+		value = 3
+	}
+}
+has_points_for_livonian_general_controlled_monarchy = {
+	check_variable = {
+		which = liv_mil
+		value = 4
+	}
+}
+has_points_for_livonian_absolute_monarchy = {
+	check_variable = {
+		which = liv_adm
+		value = 4
+	}
+}
+has_points_for_livonian_enlightened_monarchy = {
+	is_variable_equal = {
+		which = liv_adm
+		value = 2
+	}
+	is_variable_equal = {
+		which = liv_dip
+		value = 2
+	}
+	is_variable_equal = {
+		which = liv_mil
+		value = 2
+	}
+}
+
+has_points_for_livonian_monarchy = {
+	has_points_for_$government_reform$ = yes
+}
+
+#Tooltip example: "Has passed at least §Y6§! issues in the parliament (§Y[Root.GetNumOfIssuesPassed]§!/§Y6§!)."
+num_of_issues_passed = {
+	if = {
+		limit = {
+			has_dlc = "Common Sense"
+		}
+		custom_trigger_tooltip = {
+			tooltip = $tooltip$
+			check_variable = {
+				which = issues_passed
+				value = $value$
+			}
+		}
+	}
+}
+
+is_allowed_to_recruit_mercenaries = {
+	custom_trigger_tooltip = {
+		tooltip = is_allowed_to_recruit_mercenaries_tt
+		NOT = { has_country_modifier = dan_sca_refocus_on_personal_armies }
+	}
+}
+
+halved_parliament_bribes = {
+	OR = {
+		has_country_flag = halved_parliament_bribe_costs
+		has_government_attribute = halved_parliament_bribes
+	}
 }

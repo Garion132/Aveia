@@ -639,7 +639,7 @@ eximiu = {
 }
 eximiu_reform = {
 	potential = {
-		primary_culture_group = arago
+		culture_group = arago
 	}
 
 	modifiers = {

@@ -2886,8 +2886,6 @@ mannish_raids = {
 			po_steer_trade
 		}
 	}
-	
-	transfer_trade_cost_factor = 0.5	
 }
 
 restore_order = {
@@ -2966,11 +2964,6 @@ superiority_great_conquest = {
 take_capital_federate = {
 	type = take_capital
 	
-	badboy_factor = 1
-	prestige_factor = 2
-	peace_cost_factor = 0.5
-	
-	
 	attacker = {
 		badboy_factor = 1
 		prestige_factor = 1
@@ -2979,13 +2972,18 @@ take_capital_federate = {
 		peace_options = {
 			po_become_federate
 		}
+		allowed_provinces = {
+			always = no
+		}
 	}
-	allowed_provinces = {
-		OR = {
-			is_core = ROOT
-			is_claim = ROOT
-			any_neighbor_province = {
-				owned_by = ROOT
+	defender={
+		allowed_provinces = {
+			OR = {
+				is_core = ROOT
+				is_claim = ROOT
+				any_neighbor_province = {
+					owned_by = ROOT
+				}
 			}
 		}
 	}

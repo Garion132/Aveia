@@ -5,7 +5,7 @@
 
 grand_sea_area = {
 	35 36 38 39 222 223 224 225
-	1893 226
+	1893 226 5215
 }
 elseois_fracture_area={
 	1887 195 196 221 218 269 1883
@@ -283,7 +283,7 @@ lyalolaluma={
 lamnelon={
 	658 659 660 661 662
 }
-oramarnona={
+oramarno={
 	663 664 665
 }
 omora={

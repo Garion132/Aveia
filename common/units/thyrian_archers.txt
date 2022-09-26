@@ -3,9 +3,9 @@
 type = infantry
 trigger = {
     OR = { 
-		technology_group = lake_elves
-		technology_group = sun_elves
-		technology_group = moon_elves
+		technology_group = lake_elves_group
+		technology_group = sun_elves_group
+		technology_group = moon_elves_group
 	}
 }
 

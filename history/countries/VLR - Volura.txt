@@ -1,5 +1,5 @@
 government = bronze_monarchy
-add_government_reform = drakonic_throne
+add_government_reform = dragonic_throne
 primary_culture = rake
 add_accepted_culture = vulikivian
 religion = vulikivite

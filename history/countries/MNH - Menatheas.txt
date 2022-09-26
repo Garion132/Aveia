@@ -22,13 +22,13 @@ change_estate_land_share = {
 }
 
 
-1251.9.16 = {
+1247.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Kavirl II"
 		dynasty = "Mendathin"
-		birth_date = 1250.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		birth_date = 1247.12.3
+		adm = 3
+		dip = 5
+		mil = 5
 	}
 }

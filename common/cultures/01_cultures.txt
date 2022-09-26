@@ -6482,7 +6482,7 @@ arago={#giant spiders
 }
 
 scurian = {
-	graphical_culture = westerngfx
+	graphical_culture = scuriangfx
 
 	male_names = { Gunther Rolf }
 	

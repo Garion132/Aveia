@@ -653,6 +653,7 @@
  meanic_court:0 "Meanic Court"
  keldic_court:0 "Keldic Court"
  hulric_court:0 "Hulric Court"
+ herjite_school:0 "Herjite Church"
  COLONIAL_EAST_LOCKED:0 "This area is currently under Glacial Ice"
  COLONIAL_THILRANA_BLOCKED:0 "Thilrana is too hostile to colonise"
  COLONIAL_ELTERIA_NO_DIRECT_COLONISATION_JULUIA:0 "Elterian Nations can't directly colonise Juluia"
@@ -704,3 +705,5 @@
  
  golden_sun_1:0 "The Golden Sun"
  golden_sun_1_desc:0 "A golden orb of light, the biggest known, gives off enormous amount of light and heat. The surrounding area due to this is untouched by seasons creating a ideal enviroment for growing crops, rasing animals."
+ 
+ obj_every_state_prosperous_tooltip:0 "All States:\n  Are §YProsperous§!"
