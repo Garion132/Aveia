@@ -54,15 +54,6 @@
  industrialists_strike:0 "Industrial Strike"
  desc_industrialists_strike:0 "The Industrialists have closed their factories in protest of government policies."
 
- iac_mild_calamity:0 "Mild Calamity"
- desc_iac_mild_calamity:0 "We are suffering from the Iron Age Calamity"
- iac_moderate_calamity:0 "Moderate Calamity"
- desc_iac_moderate_calamity:0 "We are suffering from the Iron Age Calamity"
- iac_severe_calamity:0 "Severe Calamity"
- desc_iac_severe_calamity:0 "We are suffering from the Iron Age Calamity"
- iac_reduced_gov_cap:0 "Collapse of Governance"
- desc_iac_reduced_gov_cap:0 "The capabilities of our state have been significantly reduced."
-
  gd_new_roll_modifier:0 "New Roll"
  gd_drafting_legislation:0 "Drafting Legislation"
  gd_banking_reform:0 "Banking Reform"

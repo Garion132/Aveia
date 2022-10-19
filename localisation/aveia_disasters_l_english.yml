@@ -78,6 +78,52 @@
 
  estate_nobles_land_reform:0 "Land Reform"
 
+ #Decisions
+  iac_allow_commoners_to_become_clerks_title:0 "Administration: ALlow Commoners to become Clerks"
+  iac_allow_commoners_to_become_clerks_desc:0 "During the history of our rule, nearly all clerks have originated within the clergy. Opening our doors to commoners who can read ought to solve the manpower problems within the administration. The Clergy views this with a certain weariness but some are open to the idea given the circumstances."
+  iac_bureaucratic_privilege_title:0 "Administration: Enact Bureaucratic Privilege"
+  iac_bureaucratic_privilege_desc:0 "By granting our bureaucrats flexibility and various emergency powers, we can ease the strain on the administration caused by the calamity."
+  iac_simplify_the_legal_code_title:0 "Administration: Simplify the Legal Code"
+  iac_simplify_the_legal_code_desc:0 "Over the years, the legal code has become a jumbled mess that only the clergy could interpret. Simplifying the code will ease strains but also weaken the clergy as even commoners will be able to parse through and understand it at a glance."
+  iac_simplify_the_tax_code_title:0 "Administration: Simplify the Tax Code"
+  iac_simplify_the_tax_code_desc:0 "Previously, attempts were made to make the tax code as efficient as possible in collecting as much taxes as possible. This made the tax code decently complicated but it was effective in tax collection. Now, its complexity is its biggest flaw. Simplifying the tax code will not only make collecting taxes easier, it will also increase revenues as it is easier to enforce."
+  iac_abolish_tax_exemptions_title:0 "Administration: Abolish Tax Exemptions"
+  iac_abolish_tax_exemptions_desc:0 "Many estates and powerful actors in our realm have tax exemptions granted in the past as privileges. Now that we are in much more difficult times, we need to remove those exemptions to bolster the treasury."
+  iac_decentralize_power_title:0 "Administration: Decentralize Power"
+  iac_decentralize_power_desc:0 "The centralized administration in the capital has proven to be too inflexible to deal with the crises that we have had to deal with during the calamity. In order to adjust for the future, we will need to decentralize power so that the rulers of the future can govern over a much more stable and flexible realm."
+  iac_secularize_the_bureaucracy_title:0 "Administration: Secularize the Bureaucracy"
+  iac_secularize_the_bureaucracy_desc:0 "The administration has generally always been aided by the clergy. Scribes and clerks both all originated from the clergy, but the limited amount of clergy combined with the excessive powers that they used (and abused) prior to the calamity proves that the need for a more secular style of government is needed. Not one completely separate from religion, but rather simply allowing much of the accounting and bureaucracy to be fulfilled by members outside the clergy. This final act of reform will finally fix our administrative problems, some of which we didn't even know we had prior to the calamity."
+
+  secularize_bureaucracy_unlock_tt:0 "Enacting this decision will eventually lead to §YSecularize the Bureaucracy§! which is a requirement to leave the §YIron Age Calamity!§!"
+  iron_age_calamity_req_tt:0 "This is a requirement to leave the §YIron Age Calamity!§"
+  #EST_VAL_CHURCH_COMMONER_CLERKS_LOYALTY:0 "Commoner Clerks: §R-10.0%§!"
+ #
+
+ #Modifiers
+
+  iac_mild_calamity:0 "Mild Calamity"
+  desc_iac_mild_calamity:0 "We are suffering from the Iron Age Calamity"
+  iac_moderate_calamity:0 "Moderate Calamity"
+  desc_iac_moderate_calamity:0 "We are suffering from the Iron Age Calamity"
+  iac_severe_calamity:0 "Severe Calamity"
+  desc_iac_severe_calamity:0 "We are suffering from the Iron Age Calamity"
+  iac_reduced_gov_cap:0 "Collapse of Governance"
+  desc_iac_reduced_gov_cap:0 "The capabilities of our state have been significantly reduced."
+
+  iac_starved_administration:0 "Starved Administration"
+  desc_iac_starved_administration:0 "The Administration is having trouble governing over our realm."
+  iac_commoner_clerks:0 "Commoner Clerks"
+  desc_iac_commoner_clerks:0 "Clerks are no longer limited to only being recruited from members of the Clergy."
+  iac_simplified_legal_code:0 "Simplified Legal Code"
+  desc_iac_simplified_legal_code:0 "The legalese in our realm have been simplified to only a few tablets."
+  iac_simplified_tax_code:0 "Simplified Tax Code"
+  desc_iac_simplified_tax_code:0 "Taxes reform has lead to a simplified tax code."
+  iac_decentralized_power:0 "Decentralized Power"
+  desc_iac_decentralized_power:0 "The crown has given up much of its power to local nobles and estates to govern more effectively and to allow flexibility in the face of adversity."
+  iac_secularized_bureaucracy:0 "Secularized Bureaucracy"
+  desc_iac_secularized_bureaucracy:0 "The Clergy has largely been ousted from the insides of the bureaucracy. No longer do they have a stranglehold over the admistrative abilities of the state."
+ #
+
  iron_age_calamity.1.t:0 "Comet Sighted"
  iron_age_calamity.1.d:0 "Every now and again, a peasant makes an observation of the night sky and spots a streak of light moving across the sky. They follow up by spreading rumors and causing a ruckus across the country. However, the most recent sighting hasn't dissappeared unlike previous sightings. INstead, the perturbation in the sky has grown larger and brighter than any other of the stars that dot the sky.\nRumors have spread that this is the end times. Our spiritual and political leaders have tried their best to dispell these rumors and ensure calm. However, some of them are starting to believe in the end times themselves."
  iron_age_calamity.1.opt.a:0 "The End is Nigh!"

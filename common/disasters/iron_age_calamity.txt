@@ -119,16 +119,25 @@ iron_age_calamity = {
 	#  Encourage Food Smuggling (importers)
 	#  Raid Neighbors for Food (importers)
 	#  Institute Rationing
+	#  Encourage the Seed Trade
+	#  Implement New Farming Techniques
 	#  >>End of Famine<<
 	# Military:
 	#  Stop the Desertion
+	#  Emergency Draft
 	#  Slacken Military Standards
+	#  Mandatory Conscription
 	#  Introduce Iron Weaponry
 	#  Crack down on Rogue Generals
-	#  >>Duty to the Ruler<<
+	#  Establish Secret Guard
+	#  >>Noble Duty<<
 	#
 	# Economic:
+	#  Tighten the Purse-Strings
+	#  Confiscate Currency
+	#  Implement Price Controls
 	#  Establish Iron Mining
+	#  Protect Domestic Markets
 	#  Policy of Self-Sufficiency
 	#  Protect Existing Trade Routes
 	#  Import Foreign Iron

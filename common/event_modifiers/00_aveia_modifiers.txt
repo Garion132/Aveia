@@ -131,6 +131,138 @@
 		governing_cost = 0.5
 	}
 
+	iac_widespread_famine = {
+		global_unrest = 4
+		legitimacy = -1
+		global_monthly_devastation = 0.05
+	}
+	iac_locusts = { #province
+		local_monthly_devastation = 0.2
+	}
+	iac_pestilence = { #province
+		local_monthly_devastation = 0.1
+		local_development_cost = 0.25
+		trade_goods_size_modifier = -0.10
+		local_manpower_modifier = -0.20
+		local_sailors_modifier = -0.30
+		supply_limit_modifier = -0.25
+	}
+
+	iac_starved_administration = {
+		administrative_efficiency = -0.25
+		stability_cost_modifier = 0.5
+	}
+	iac_commoner_clerks = {
+		expand_administration_cost = -0.25
+		governing_cost = -0.25
+		church_influence_modifier = -0.05
+		church_loyalty_modifier = -0.05
+	}
+	iac_simplified_legal_code = {
+		stability_cost_modifier = -0.3
+		administrative_efficiency = 0.05
+	}
+	iac_simplified_tax_code = {
+		global_tax_modifier = 0.2
+		administrative_efficiency = 0.05
+	}
+	iac_decentralized_power = {
+		expand_administration_cost = -0.25
+		stability_cost_modifier = -0.2
+		global_tax_modifier = 0.33
+		governing_cost = -0.1
+		church_influence_modifier = 0.05
+		nobles_influence_modifier = 0.10
+		burghers_influence_modifier = 0.05
+	}
+	iac_secularized_bureaucracy = {
+		all_power_cost = -0.05
+		governing_capacity_modifier = 0.2
+		country_admin_power = 1
+		church_influence_modifier = -0.2
+		church_loyalty_modifier = -0.1
+	}
+	
+	iac_rampant_army_desertion = {
+		manpower_recovery_speed = -0.33
+		global_manpower_modifier = -0.20
+	}
+	iac_outdated_military = {
+		shock_damage = -0.1
+		fire_damage = -0.1
+		shock_damage_received = 0.1
+		fire_damage_received = 0.1
+		siege_ability = -0.10
+	}
+	iac_lessened_standards = {
+		global_manpower_modifier = 0.25
+		infantry_combat_ability = -0.05
+	}
+	iac_mandatory_consription = {
+		global_manpower_modifier = 0.50
+		infantry_combat_ability = -0.1
+	}
+	iac_secret_guard = {
+		global_unrest = -2
+		land_maintenance_modifier = 0.10
+		#Also grants option to stifle rebel events using mil power
+	}
+	iac_feudalism = {
+		vassal_forcelimit_bonus = 0.5
+		land_morale = 0.1
+		global_manpower_modifier = 0.1
+		country_military_power = 1
+		nobles_influence_modifier = 0.05
+		nobles_loyalty_modifier = 0.05
+	}
+
+	iac_tightened_purse_strings_monetary = {
+		land_maintenance_modifier = -0.25
+		naval_maintenance_modifier = -0.25
+		fort_maintenance_modifier = -0.50
+		rival_border_fort_maintenance = 0.25
+		state_maintenance_modifier = -0.50
+	}
+	iac_tightened_purse_strings_effects = {
+		administrative_efficiency = -0.10
+		global_manpower_modifier = -0.25
+		garrison_size = -0.25
+		discipline = -0.05
+		land_morale = -0.1
+		naval_morale = -0.1
+	}
+	iac_price_controls = {
+		global_trade_goods_size_modifier = -0.1
+		inflation_reduction = 0.1
+		inflation_action_cost = -0.75
+	}
+	iac_protected_domestic_markets = {
+		trade_efficiency = -0.1
+		global_own_trade_power = 0.5
+		mercantilism_cost = -0.25
+	}
+	iac_self_sufficiency = {
+		trade_efficiency = -0.1
+		embargo_efficiency = 0.5
+		production_efficiency = 0.2
+	}
+	iac_protect_trade = {
+		global_trade_power = 0.1
+		global_ship_trade_power = 0.25
+		trade_steering = 0.25
+	}
+	iac_free_trade = {
+		trade_efficiency = 0.15
+	}
+	iac_stable_economy = {
+		development_cost = -0.1
+		inflation_reduction = 0.05
+		interest = -1
+		global_monthly_devastation = -0.2
+		global_prosperity_growth = 0.25
+		country_diplomatic_power = 1
+	}
+
 	#Great Depression
 	gd_new_roll_modifier = {
 		stability_cost_modifier = -0.1
