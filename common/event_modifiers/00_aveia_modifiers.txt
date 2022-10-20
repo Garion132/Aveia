@@ -110,9 +110,7 @@
 		reduced_liberty_desire = -75
 
 		global_monthly_devastation = 0.1
-		stability_cost_modifier = 0.25
         global_tax_modifier = -0.1
-        all_power_cost = 0.05
         trade_efficiency = -0.1
 	}
 	iac_severe_calamity = {
@@ -120,9 +118,7 @@
 		reduced_liberty_desire = -100
 		
 		global_monthly_devastation = 0.2
-		stability_cost_modifier = 0.5
         global_tax_modifier = -0.2
-        all_power_cost = 0.1
         trade_efficiency = -0.2
 	}
 	iac_reduced_gov_cap = {
@@ -150,6 +146,7 @@
 
 	iac_starved_administration = {
 		administrative_efficiency = -0.25
+		yearly_corruption = 0.1
 		stability_cost_modifier = 0.5
 	}
 	iac_commoner_clerks = {
@@ -186,6 +183,7 @@
 	iac_rampant_army_desertion = {
 		manpower_recovery_speed = -0.33
 		global_manpower_modifier = -0.20
+		yearly_corruption = 0.05
 	}
 	iac_outdated_military = {
 		shock_damage = -0.1
@@ -205,6 +203,7 @@
 	iac_secret_guard = {
 		global_unrest = -2
 		land_maintenance_modifier = 0.10
+		yearly_corruption = -0.05
 		#Also grants option to stifle rebel events using mil power
 	}
 	iac_feudalism = {
@@ -261,6 +260,14 @@
 		global_monthly_devastation = -0.2
 		global_prosperity_growth = 0.25
 		country_diplomatic_power = 1
+	}
+
+	iac_restricted_technology = {
+		advisor_cost = -0.1
+		technology_cost = 0.25
+		idea_cost = 0.25
+		global_institution_spread = -0.25
+		innovativeness_gain = -1
 	}
 
 	#Great Depression

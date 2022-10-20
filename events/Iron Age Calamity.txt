@@ -283,54 +283,7 @@ country_event = {
 		add_dip_power = -100
 		add_mil_power = -100
 
-		if = {
-			limit = {
-				capital_scope = {
-					OR = {
-						region = nylka_region
-						region = lildoresi_marches_region
-						region = rauthyr_region
-						region = nilenor_region
-						region = krorri_region
-						region = shemsele_region
-						region = great_gulba_region
-						region = cradle_islands
-					}
-				}
-			}
-			add_disaster_modifier = {
-				name = "iac_severe_calamity"
-				duration = -1
-				disaster = iron_age_calamity
-			}
-		}
-		else_if = {
-			limit = {
-				capital_scope = {
-					OR = {
-						superregion = aveia_superregion
-						superregion = kirloi_superregion
-						superregion = enheasrion_basin_superregion
-						region = greater_shires_region
-						region = lentira_region
-						region = kyathia_region
-						region = suirx_cresant_region
-					}
-				}
-			}
-			add_disaster_modifier = {
-				name = "iac_moderate_calamity"
-				duration = -1
-				disaster = iron_age_calamity
-			}
-		}
-		else = {
-			add_disaster_modifier = {
-				name = "iac_mild_calamity"
-				duration = -1
-				disaster = iron_age_calamity
-			}
-		}
+		iac_add_calamity_modifiers = yes
 
 		ai_chance = {
 			factor = 100
@@ -354,6 +307,9 @@ country_event = {
 		add_adm_power = 100
 		add_dip_power = 100
 		add_mil_power = 100
+
+		iac_add_calamity_modifiers = yes
+		
 		if = {
 			limit = {
 				adm = 6
@@ -424,7 +380,7 @@ country_event = {
 			random_owned_province = { 
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 3
+					size = 2
 					win = yes
 					unrest = 20
 				}
@@ -432,7 +388,7 @@ country_event = {
 			random_owned_province = { 
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 2
+					size = 1
 					win = yes
 					unrest = 10
 				}
@@ -445,7 +401,7 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 2
+					size = 1
 					win = yes
 					unrest = 15
 				}
@@ -467,7 +423,7 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 5
+					size = 4
 					win = yes
 					unrest = 5
 				}
@@ -481,7 +437,7 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 4
+					size = 3
 					win = yes
 					unrest = 5
 				}
@@ -494,7 +450,7 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 3
+					size = 2
 					win = yes
 					unrest = 5
 				}
@@ -508,7 +464,7 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 4
+					size = 3
 					win = yes
 					unrest = 5
 				}
@@ -521,7 +477,7 @@ country_event = {
 			random_owned_province = {
 				spawn_rebels = {
 					type = anti_tax_rebels
-					size = 2
+					size = 1
 					win = yes
 					unrest = 5
 				}
@@ -549,6 +505,7 @@ country_event = {
 	}
 	option = {	# Spare what we can
 		name = "iron_age_calamity.102.opt.b"
+		set_country_flag = calamity_peasants_revolt
 
 		add_years_of_income = -1
 		custom_tooltip = add_country_autonomy_10_tt
@@ -631,7 +588,7 @@ country_event = {
 			event_target:cultural_unrest_province = {
 				spawn_rebels = {
 					type = nationalist_rebels
-					size = 5
+					size = 4
 					unrest = 15
 					culture = THIS
 				}
@@ -644,7 +601,7 @@ country_event = {
 			event_target:cultural_unrest_province = {
 				spawn_rebels = {
 					type = nationalist_rebels
-					size = 4
+					size = 3
 					unrest = 10
 					culture = THIS
 				}
@@ -654,7 +611,7 @@ country_event = {
 			event_target:cultural_unrest_province = {
 				spawn_rebels = {
 					type = nationalist_rebels
-					size = 3
+					size = 2
 					unrest = 5
 					culture = THIS
 				}
@@ -1053,7 +1010,230 @@ country_event = {
 	}
 }
 
+#Army Desertion Reaches Critical Point
+country_event = {
+	id = iron_age_calamity.107
+	title = "iron_age_calamity.107.t"
+	desc = "iron_age_calamity.107.d"
+	picture = WOUNDED_SOLDIERS_eventPicture
+	
+	trigger = {
+		NOT = { has_country_modifier = iac_rampant_army_desertion }
+		NOT = { has_country_flag = iac_army_desertion_removed }
+	}
 
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.107.o1" #Well we can't do anything right now
+		
+		add_disaster_modifier = {
+			name = "iac_rampant_army_desertion"
+			duration = -1
+			disaster = iron_age_calamity
+		}
+		add_army_tradition = -5
+		iac_add_country_devastation = { all = yes base_value = 2 moderate_value = 3 severe_value = 5 }
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "iron_age_calamity.107.o2" #Execute the Traitors
+		trigger = {
+            adm_power = 25
+            mil_power = 100
+            years_of_income = 0.5
+		}
+		highlight = yes
+		add_adm_power = -25
+		add_mil_power = -100
+        add_years_of_income = -0.5
+		
+		set_country_flag = iac_army_desertion_removed
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Question of Technology
+country_event = {
+	id = iron_age_calamity.108
+	title = "iron_age_calamity.108.t"
+	desc = "iron_age_calamity.108.d"
+	picture = INVENTION_eventPicture
+	
+	trigger = {
+		NOT = { has_country_flag = iac_technology_question }
+	}
+
+	immediate = {
+		set_country_flag = iac_technology_question
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.108.o1" #We need to focus on keeping our realm together
+		
+		add_adm_power = 150
+		add_dip_power = 150
+		add_mil_power = 150
+        add_years_of_income = 0.5
+		add_disaster_modifier = {
+			name = "iac_restricted_technology"
+			duration = -1
+			disaster = iron_age_calamity
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "iron_age_calamity.108.o2" #We will continue funding our scientists and philosophers!
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Our Military is Outdated
+country_event = {
+	id = iron_age_calamity.109
+	title = "iron_age_calamity.109.t"
+	desc = "iron_age_calamity.109.d"
+	picture = INVENTION_eventPicture
+	
+	trigger = {
+		NOT = { has_country_flag = iac_outdated_military_flag }
+		has_global_flag = great_conquest_start
+	}
+
+	immediate = {
+		set_country_flag = iac_outdated_military_flag
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.109.o1" #We must secure iron resources
+
+		custom_tooltip = iac_iron_supply_need_tt
+		
+		add_mil_power = -50
+        add_disaster_modifier = {
+			name = "iac_outdated_military"
+			duration = -1
+			disaster = iron_age_calamity
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Rumors of an Ambitious Commander
+country_event = {
+	id = iron_age_calamity.110
+	title = "iron_age_calamity.110.t"
+	desc = "iron_age_calamity.110.d"
+	picture = MILITARY_CAMP_eventPicture
+	
+	trigger = {
+		NOT = { has_country_flag = iac_ambitious_commander }
+		NOT = { stability = 0 }
+		army_tradition = 20
+		army_size = 15
+	}
+
+	immediate = {
+		set_country_flag = iac_ambitious_commander
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.110.o1" #Worrying
+		
+		set_country_flag = iac_ambitious_commander
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Coup d'etat!
+country_event = {
+	id = iron_age_calamity.111
+	title = "iron_age_calamity.111.t"
+	desc = "iron_age_calamity.111.d"
+	picture = SIEGE_eventPicture
+	
+	trigger = {
+		has_country_flag = iac_ambitious_commander
+		NOT = { stability = 1 }
+		army_tradition = 15
+		army_size = 15
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.111.o1" #Death to the traitor!
+
+		hidden_effect = {
+			set_saved_name = {
+				key = rebel_general
+				type = leader
+				scope = ROOT
+			}
+		}
+		
+		clr_country_flag = iac_ambitious_commander
+		capital_scope = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 4
+				leader = rebel_general
+				religion = ROOT
+				should_take_capital = yes
+			}
+		}
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	after = {
+		clear_saved_name = rebel_general
+	}
+}
 
 
 #Events for countries not in the disaster
@@ -1451,9 +1631,9 @@ country_event = {#sweaping south
 	
 	#is_triggered_only = yes
 	
-	# immediate = {
-		# set_country_flag = had_iron_age_calamity
-	# }
+	immediate = {
+		set_global_flag = great_conquest_start
+	}
 	
 	trigger={
 		has_ruler_flag = mannish_iron_crown

@@ -1,5 +1,61 @@
 #Scripted effects relating to the iac.
 
+iac_add_calamity_modifiers = {
+	if = {
+		limit = {
+			capital_scope = {
+				OR = {
+					region = nylka_region
+					region = lildoresi_marches_region
+					region = rauthyr_region
+					region = nilenor_region
+					region = krorri_region
+					region = shemsele_region
+					region = great_gulba_region
+					region = cradle_islands
+				}
+			}
+		}
+		add_disaster_modifier = {
+			name = "iac_severe_calamity"
+			duration = -1
+			disaster = iron_age_calamity
+		}
+	}
+	else_if = {
+		limit = {
+			capital_scope = {
+				OR = {
+					superregion = aveia_superregion
+					superregion = kirloi_superregion
+					superregion = enheasrion_basin_superregion
+					region = greater_shires_region
+					region = lentira_region
+					region = kyathia_region
+					region = suirx_cresant_region
+				}
+			}
+		}
+		add_disaster_modifier = {
+			name = "iac_moderate_calamity"
+			duration = -1
+			disaster = iron_age_calamity
+		}
+	}
+	else = {
+		add_disaster_modifier = {
+			name = "iac_mild_calamity"
+			duration = -1
+			disaster = iron_age_calamity
+		}
+	}
+	add_disaster_modifier = {
+		name = "iac_starved_administration"
+		duration = -1
+		disaster = iron_age_calamity
+	}
+}
+
 iac_add_country_devastation = {
 	# $all$, $min_dev$ $base_value$, $moderate_value$, $severe_value$
 

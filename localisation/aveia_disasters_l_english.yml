@@ -70,7 +70,7 @@
     dev_loss_devastation_tt:0 "Every province with over §R50§! Devastation loses §Y3§! Development"
  #
  orbury_volcano_damage_tt:0 "Provinces near the §YOrbury Supervolcano§! lose up to §R6§! Development."
- add_country_autonomy_10_tt:0 "Gain §R+10.00%§! Autonomy in every province in §Y[ROOT.GetName]§!"
+ add_country_autonomy_10_tt:0 "Gain §R+10.00%§! Autonomy in every province"
  calamity_no_land_reform_tt:0 "\nYou will continue to recieve this recurring event.\nIn order to remove this recurring event, your §YNobility§! must have less than §Y20.00%§! land share and you must have at least §R-1§! Stability and you must choose the §YWide-Spread Land Reform§! option."
  calamity_land_reform_tt:0 "\nIn order to remove this recurring event, your §YNobility§! must have less than §Y20.00%§! land share and you must have at least §R-1§! Stability and you must choose the §YWide-Spread Land Reform§! option."
  calamity_final_land_reform_tt:0 "\n§GThis will remove this recurring event§!"
@@ -79,7 +79,7 @@
  estate_nobles_land_reform:0 "Land Reform"
 
  #Decisions
-  iac_allow_commoners_to_become_clerks_title:0 "Administration: ALlow Commoners to become Clerks"
+  iac_allow_commoners_to_become_clerks_title:0 "Administration: Commoners into Clerks"
   iac_allow_commoners_to_become_clerks_desc:0 "During the history of our rule, nearly all clerks have originated within the clergy. Opening our doors to commoners who can read ought to solve the manpower problems within the administration. The Clergy views this with a certain weariness but some are open to the idea given the circumstances."
   iac_bureaucratic_privilege_title:0 "Administration: Enact Bureaucratic Privilege"
   iac_bureaucratic_privilege_desc:0 "By granting our bureaucrats flexibility and various emergency powers, we can ease the strain on the administration caused by the calamity."
@@ -94,8 +94,13 @@
   iac_secularize_the_bureaucracy_title:0 "Administration: Secularize the Bureaucracy"
   iac_secularize_the_bureaucracy_desc:0 "The administration has generally always been aided by the clergy. Scribes and clerks both all originated from the clergy, but the limited amount of clergy combined with the excessive powers that they used (and abused) prior to the calamity proves that the need for a more secular style of government is needed. Not one completely separate from religion, but rather simply allowing much of the accounting and bureaucracy to be fulfilled by members outside the clergy. This final act of reform will finally fix our administrative problems, some of which we didn't even know we had prior to the calamity."
 
-  secularize_bureaucracy_unlock_tt:0 "Enacting this decision will eventually lead to §YSecularize the Bureaucracy§! which is a requirement to leave the §YIron Age Calamity!§!"
-  iron_age_calamity_req_tt:0 "This is a requirement to leave the §YIron Age Calamity!§"
+  iac_clamp_down_on_desertion_title:0 "Military: Clamp Down on Desertion"
+  iac_clamp_down_on_desertion_desc:0 "With the start of massive crises, many soldiers are deserting our ranks due to inconsistencies in pay and care. We must ensure that our military is fed and that deserters are properly found and executed."
+  iac_martial_law_title:0 "Military: Declare Martial Law"
+  iac_martial_law_desc:0 "Martial Law involves the state military having absolute authority to enforce order throughout our land. Typically, city guards would ensure stability, but in these trying times they are becoming succeptible to corruption and desertion. The military, thus, are the only ones able to properly enforce the law as descrobed."
+
+  secularize_bureaucracy_unlock_tt:0 "Enacting this decision will eventually lead to §YSecularize the Bureaucracy§! which is a requirement to leave the §YIron Age Calamity!§!\n"
+  iron_age_calamity_req_tt:0 "This is a requirement to leave the §YIron Age Calamity!§\n"
   #EST_VAL_CHURCH_COMMONER_CLERKS_LOYALTY:0 "Commoner Clerks: §R-10.0%§!"
  #
 
@@ -122,6 +127,9 @@
   desc_iac_decentralized_power:0 "The crown has given up much of its power to local nobles and estates to govern more effectively and to allow flexibility in the face of adversity."
   iac_secularized_bureaucracy:0 "Secularized Bureaucracy"
   desc_iac_secularized_bureaucracy:0 "The Clergy has largely been ousted from the insides of the bureaucracy. No longer do they have a stranglehold over the admistrative abilities of the state."
+
+  iac_restricted_technology:0 "Restricted Technology"
+  desc_iac_restricted_technology:0 "Technological progress has been restricted in favor of keeping the country together."
  #
 
  iron_age_calamity.1.t:0 "Comet Sighted"
@@ -164,7 +172,30 @@
 
  iron_age_calamity.106.t:0 "The Situation Gets Worse"
  iron_age_calamity.106.o1:0 "Didn't think that possible"
+
+ iron_age_calamity.107.t:0 "Army Desertion Reaches Critical Point"
+ iron_age_calamity.107.d:0 "The recent series of crises that has hit our realm has started affecting army recruitment and retention. Tightened money purses and corruption problems has resulted in heightened desertions. If we do not get a handle on this issue quickly, then we may find ourselves without an army!"
+ iron_age_calamity.107.o1:0 "Well we can't do anything right now"
+ iron_age_calamity.107.o2:0 "Execute the Traitors"
+
+ iron_age_calamity.108.t:0 "Question of Technology"
+ iron_age_calamity.108.d:0 "Continued state support of technological progress has left some scratching their heads. We find ourselves in the worst crises our nation has faced yet we are funding programs that may not provide any benefits at all. Many are calling for the scrapping of these programs to use the resources in the shorter term so we can stabilize the country and use our little-remaining silver reserves and tax revenues for more important things like the military and administration. However, others say that technological development may reduce costs in the long-term."
+ iron_age_calamity.108.o1:0 "We need to focus on keeping our realm together"
+ iron_age_calamity.108.o2:0 "We will continue funding our scientists and philosophers!"
+
+ iron_age_calamity.109.t:0 "Our Military is Outdated"
+ iron_age_calamity.109.d:0 "Reports from Rauthyr has indicated that our militaries are horrifically outmatched against new hardened iron weapons. Simply put, without stable supplies of copper and tin to make bronze, we have no hope to hold back any invasion against an enemy who uses iron weapons. We must acquire iron weaponry or else we may succumb to foreign invasion."
+ iron_age_calamity.109.o1:0 "We must secure an iron supply"
+ iac_iron_supply_need_tt:0 "To remove this modifier, you need to either §YEstablish Iron Mining§! or §YImport Iron§! then §YIntroduce Iron Weaponry§! through your decisions.\n"
  
+ iron_age_calamity.110.t:0 "Rumors of an Ambitious Commander"
+ iron_age_calamity.110.d:0 "There have been rumors that an ambitious military leader is seeking to claim the rulership of our realm. We do not know who this is, or what rank they hold, but they are apparently charismatic and are known for numerous exploits."
+ iron_age_calamity.110.o1:0 "Worrying"
+ 
+ iron_age_calamity.111.t:0 "Coup d'etat!"
+ iron_age_calamity.111.d:0 "The rumors about an ambitious general have turned true! There is now a strong pretender for the throne!"
+ iron_age_calamity.111.o1:0 "Death to the traitor!"
+
  iron_age_calamity.151.t:0 "Lives Uprooted"
  iron_age_calamity.151.o1:0 "Oh dear"
 

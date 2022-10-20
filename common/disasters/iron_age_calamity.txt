@@ -92,7 +92,7 @@ iron_age_calamity = {
 	
 
 	modifier = {
-		stability_cost_modifier = 1
+		stability_cost_modifier = 0.3
         global_tax_modifier = -0.15
         all_power_cost = 0.2
         monthly_splendor = -4
@@ -113,6 +113,7 @@ iron_age_calamity = {
 	#  Abolish Tax Exemptions
 	#  Decentralize Power
 	#  >>Secularize the Bureaucracy<<
+	#
 	# Food Security:
 	#  Confiscate Unproductive Farms
 	#  Crack Down on Smuggling (exporters)
@@ -122,6 +123,7 @@ iron_age_calamity = {
 	#  Encourage the Seed Trade
 	#  Implement New Farming Techniques
 	#  >>End of Famine<<
+	#
 	# Military:
 	#  Stop the Desertion
 	#  Emergency Draft
@@ -130,6 +132,7 @@ iron_age_calamity = {
 	#  Introduce Iron Weaponry
 	#  Crack down on Rogue Generals
 	#  Establish Secret Guard
+	#  Martial Law
 	#  >>Noble Duty<<
 	#
 	# Economic:
@@ -144,20 +147,38 @@ iron_age_calamity = {
 	#  Policy of Free Trade
 	#  >>Stabilize the Economy<<
 
+	# Disasters to cover:
+	#	Mannish Invasion
+	#	Volcano
+	#	Flooding from glaciers
+	#	Hurricane (from Mallitors into Dreghei, Great Ziyalap, and Chaunluma )
+	#	Temperature Changes
+	#	Famine
+	#	Peasant Rebellions
+	#	Rogue Generals
+	#	Nationalist Rebellions
+	#	Plagues
+
 	on_monthly = {
 		events = {
 		}
 		random_events = { 
 			1000 = 0
-			30 = iron_age_calamity.102 #Peasants Revolt
 			50 = iron_age_calamity.103 #Nationalist Revolt
 			#80 = iron_age_calamity.104 #Famine
 			50 = iron_age_calamity.105 #People Desert Cities
 			250 = iron_age_calamity.106 #Situation Gets Worse (if -3 stab)
+			30 = iron_age_calamity.110 #Rumors of an Ambitious General
+			100 = iron_age_calamity.111 #Coup d'etat
 			#100 = internal_conflicts.5
 			#100 = internal_conflicts.6
 			#100 = internal_conflicts.7
 
+			#One-time events
+			30 = iron_age_calamity.102 #Peasants Revolt
+			100 = iron_age_calamity.107 #Army Desertion
+			75 = iron_age_calamity.108 #Technology Question
+			150 = iron_age_calamity.109 #Outdated Military
 
 			#Breakaways
 			50 = iron_age_calamity.1000
