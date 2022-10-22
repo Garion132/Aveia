@@ -1,0 +1,135 @@
+namespace = death_awaits
+
+country_event = {
+	id = death_awaits.1
+	title = death_awaits.1.t
+	desc = death_awaits.1.d
+	picture = BATTLE_eventPicture
+
+	trigger = {
+		NOT={ruler_has_personality = immortal_personality}
+		ruler_race_is_dragon = no
+		always = no
+	}
+
+    immediate = {
+		kill_ruler = yes
+	}
+
+	mean_time_to_happen = {
+		months = 1800
+		modifier = {
+			factor = 0.8
+			ruler_age = 40
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 50
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 60
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 70
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 80
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 90
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 100
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 110
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 120
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 130
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 140
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 150
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 160
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 170
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 180
+		}
+		modifier = {
+			factor = 0.8
+			ruler_age = 190
+		}
+		modifier = {
+			factor = 0.5
+			ruler_age = 200
+		}
+		modifier = {
+			factor = 0.8
+			ruler_race_is_scurian = yes
+		}
+		modifier = {
+			factor = 0.8
+			ruler_race_is_faun = yes
+		}
+		modifier = {
+			factor = 2.2
+			ruler_race_is_elven = yes
+		}
+		modifier = {
+			factor = 2
+			ruler_race_is_dwarf = yes
+		}
+		modifier = {
+			factor = 1.5
+			ruler_race_is_ork = yes
+		}
+		modifier = {
+			factor = 0.5
+			ruler_age = 80
+			ruler_race_is_human = yes
+		}
+		modifier = {
+			factor = 0.5
+			ruler_age = 200
+			ruler_race_is_elven = yes
+		}
+		modifier = {
+			factor = 0.5
+			ruler_age = 160
+			ruler_race_is_dwarf = yes
+		}
+		modifier = {
+			factor = 0.5
+			ruler_age = 150
+			ruler_race_is_ork = yes
+		}
+	}
+
+	option = {
+		name = death_awaits.1.opt.a
+        	
+	}
+}

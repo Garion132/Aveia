@@ -361,3 +361,6 @@
  colonial.32.a:0 "Encorage the rush"
  colonial.32.b:0 "Maintain the current industry"
  
+ death_awaits.1.t:0 "Death of [Monarch.GetTitle][Monarch.GetName]"
+ death_awaits.1.d:0 "[Monarch.GetName] has died of natural causes"
+ 

@@ -161,6 +161,13 @@ union = {
 	end_date = 1381.8.3
 }
 
+royal_marriage = {
+	first = NYH
+	second = OLH
+	start_date = 1253.12.6
+	end_date = 1381.4.7
+}
+
 ####colonies workaround
 dependency = {
 	subject_type = "colony_elteria_start"
