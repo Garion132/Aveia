@@ -10,106 +10,121 @@ Provincial Capital # Money stored in province that can be used for improvements
 
 
 POPULATION OVERVIEW:
-    In order to provide a more controlled end-game income scheme, I've remade how development works. Instead of the old system where you had base tax, base production, and
-    base manpower, there are now three population types: Middle Class (Base Tax), Working Class (Base Production), and Lower Class (Base Manpower).
+    In order to provide a more controlled end-game income scheme, I've remade how development works. Instead of the old system where you had 
+    base tax, base production, and base manpower, there are now three population types: Middle Class (Base Tax), Working Class 
+    (Base Production), and Lower Class (Base Manpower).
 
     #Classes
-    The Middle Class population are your artisans, clerks, merchants, artists, officers, mechanics, shopkeepers, engineers, doctors, and so on. Essentially, the individuals 
-    with excess income to spend on non-essentials and occasional luxuries. So, they give the largest amount of tax income and edges out with the most goods production.
-    They are often literate and politically active lending to an unruly reform-friendly population. They are represented through base-tax because base-tax provides a 
-    base of 1 yearly tax income which can only be removed by adding a negative yearly income tax modifier thus making a very strange tooltip.
+    The Middle Class population are your artisans, clerks, merchants, artists, officers, mechanics, shopkeepers, engineers, doctors, and so on.
+    Essentially, the individuals with excess income to spend on non-essentials and occasional luxuries. So, they give the largest amount of tax 
+    income and edges out with the most goods production. They are often literate and politically active lending to an unruly reform-friendly 
+    population. They are represented through base-tax because base-tax provides a  base of 1 yearly tax income which can only be removed by 
+    adding a negative yearly income tax modifier thus making a very strange tooltip.
 
-    The Working Class population are generally your craftsmen, factory workers, laborers, and yeomen farmers. They are the people who didn't have the excess incomes of
-    the Middle Class but were well off enough to alleviate the worst of the suffering and stay fed. This means that they provide the most manpower of the three categories, 
-    while also providing much more tax and goods production than the lower class. This population generally desires to be literate if possible but are otherwise inert.
+    The Working Class population are generally your craftsmen, factory workers, laborers, and yeomen farmers. They are the people who didn't 
+    have the excess incomes of the Middle Class but were well off enough to alleviate the worst of the suffering and stay fed. This means that
+    they provide the most manpower of the three categories, while also providing much more tax and goods production than the lower class. 
+    This population generally desires to be literate if possible but are otherwise inert.
 
-    The Lower Class population include slaves, serfs, peasants, and the urban poor. This population either had to work day-to-day or simply had no soveriegnty. They provide
-    decent amounts of manpower but contribute little in terms of tax income or goods production. This population generally has no interest in becoming literate as their work 
-    requires no literacy and, combined with a lack of interest in politics outside of the price of food, wields little political power.
+    The Lower Class population include slaves, serfs, peasants, and the urban poor. This population either had to work day-to-day or simply 
+    had no soveriegnty. They provide decent amounts of manpower but contribute little in terms of tax income or goods production. This 
+    population generally has no interest in becoming literate as their work requires no literacy and, combined with a lack of interest in 
+    politics outside of the price of food, wields little political power.
 
-    There will also be provincial modifiers for provinces with minor populations of middle/working/lower class for 1k, 2k, 3k, 4k, 5k, 6k, 7k, 8k, and 9k each.
+    Each development represents 5k people.
+    There will also be provincial modifiers for provinces with minor populations of middle/working/lower class for 1k, 2k, 3k, and 4k each.
 
-    #Food & Agricultural Efficiency
-    There are several things which contribute to the distribution between these two classes. Firstly, population is split into Urban and Rural. Rural Pops produce food to feed
-    both the Urban & Rural population. If a country has a food surplus (where food production & imports - exports > food consumption) then population will grow. 
-    As the rural population in a province increases, the amount of food produced per pop is reduced, leading to diminishing returns. If a country has a food deficit, then
-    populations will stagnate or (at high enough deficits) decline.
-
-    Agricultural Efficiency increases the food output of highly populated regions. It does this by reducing the reduction of food production. 
-    
     #Capacities
-    There are also Urban and Rural capacities as well. When populations exceed this capacity, their growth gets significantly reduced and the local population 
-    may seek to migrate to other provinces. For rural populations, this is half of their total rural carrying capacity (where food output by rural pop equals food demanded
-    by rural pop) as half of the total rural carring capacity results in the highest food production per rural pop. Urban capacities are limited by buildings & provincial
-    modifiers.
+    There are capacities for each the Middle, Working, and Lower classes. When populations exceed this capacity, their growth gets 
+    significantly reduced and the local population may seek to migrate to other provinces. Capacities can be increased by buildings.
 
-    If you have a food deficit and excess rural capacity, then some urban population may turn into rural population for the purpose of producing food.
+    #Arable Land, Agricultural Efficiency, & Food
+    In each province, there is a set amount of 'arable land' that the province has. This determines its basic capacity. Each unit of 
+    arable land can sustain a certain number of 'farmers' (through capacities). Arable Land will only produce food if there are 
+    farmers (Lower class pops) to fulfill that role. If there happens to be 8 arable land in a province, then that province will have 
+    a base of 8 Lower Class Pop Capacity. If the population is in excess of its lower class capacity, then additional food will be grown 
+    (though with diminishing returns).
+
+    Arable Land can be set manually in each province. However, if it is not set manually, then the system will set it automatically
+    based upon terrain:
+        base - 0.5
+        glacier - 2.5
+        farmland - 9
+        forest - 4
+        hills - 5
+        woods - 6
+        mountain - 2.5
+        grasslands - 7.5
+        jungle - 3
+        marsh - 1.5
+        desert - 1.5
+        coastal_desert - 3.5
+        coastline - 4
+        drylands - 4.5
+        highlands - 4.5
+        savannah - 4
+        steppe - 4.5
+        deepwoods - 3.5
+        deepwoods_city - 7.5
+        glassy_plains - 0.5
+        vitaite_hills - 2
+        redmarsh - 3.5
+        great_bridge - 3
+        great_mountain_pass - 3
+        #NOTE: list could always be outdated. List used in-game is at SYS-Pops.txt under common/scripted_effects at Pops_GetArableLand
+
+    Agricultural Efficiency decreases the capacity that arable land provides & requires while increasing the food output, allowing 
+    for a wealthier province with less population required to grow its crops.
+
+    'Staffed' Arable Land will provide food. If a country has a food surplus (where food production & imports - exports > food consumption) 
+    then population will grow. If a country has a food deficit, then populations will stagnate or (at high enough deficits) decline.
 
     #Wealth
-    In order to determine the spread of the three classes, there is one last number to consider: Wealth. Wealth is a value that goes from 0 (mass poverty) to 100 (opulent
-    beyond imagination). As wealth increases, the distribution of classes improves: you end up with more Working & Middle class pops and less Lower class pops. You can
-    imagine the Middle, Working, and Lower Class population as functions of the Wealth of the province & the Urban and Rural populations of the province.
+    Wealth is a value that goes from 0 (mass poverty) to 100 (opulent beyond imagination). As wealth increases, tax income, goods production, 
+    and trade power increases. As a result, wealthy provinces will not only produce more, but also control more trade. Thus a wealthy Yhenil 
+    may end up outcompeting any neighboring province based on wealth alone. 
 
-    In addition to providing more working & middle class pops, Wealth also provides tax income modifier, goods production modifier, and trade power modifier bonuses. As a
-    result, wealthy provinces will not only produce more, but also control more trade. Thus a wealthy Yhenil may end up outcompeting any neighboring province based on
-    wealth alone. 
+    If a province is sieged, then some of its wealth may be pillaged. Each wealth pillaged will provide 2 ducats per pop while devastating
+    the province. 10% of a province's wealth will be pillaged while another 10% will be destroyed when occupied. Afterwards, it cannot be
+    pillaged for 5 years.
 
     #Capital
-    In addition to your country, provinces will also have income to spend as well. Provinces will earn a set rate of money based on capital generation. Capital
-    is produced by the urban population. Buildings may also produce additional capital. National modifiers may also 
+    In addition to your country, provinces will also have income to spend as well. Provinces will earn a set rate of money based on capital 
+    generation. Capital is produced by the different pop types. Buildings may also produce additional capital. National modifiers may also 
     affect capital generation. High autonomy will also increase this value.
 
-    Using this capital, they can use it to either A: Improve the wealth of the province, B: Maintain the wealth of the province, C: Improve the Agricultural Efficiency,
-    D: Maintain the current Agricultural Efficiency, or E: Build a Building. Improving provincial wealth/Agri Eff takes a lot of capital to do. Maintaining provincial 
-    wealth/Agri eff also takes a lot of capital to do. It is important to note that provinces will only use wealth created from autonomy on building buildings or 
+    Using this capital, they can use it to either A: Improve the wealth of the province, B: Maintain the wealth of the province, 
+    C: Improve the Agricultural Efficiency, D: Maintain the current Agricultural Efficiency, or E: Build a Building. 
+    Improving provincial wealth/Agri Eff takes a lot of capital to do. Maintaining provincial wealth/Agri eff also takes a lot 
+    of capital to do. It is important to note that provinces will only use wealth created from autonomy on building buildings or 
     maintaining existing wealth/Agri eff.
 
+    Each wealth value costs 0.1 capital to maintain per pop. Each percentage of Agricultural Efficiency takes 0.2 capital to maintain per
+    arable land. It takes 5.0 capital per pop to increase wealth by 1 and 5.0 capital per pop to increase Agricultural Efficiency by 1%.
+
     #Adding or Removing Population
-    To add population, you can do one of two things: Add middle/working/lower class population using the add_class_development scripted effect
-    or add urban/rural population by using the add_population scripted effect like so:
-    add_class_development = { middle = 1 working = 1 lower = 1 }
-    add_population = { total = 5.0 urban = 1.5 rural = 0.5 }
+    To add population, use the add_population scripted effect
+    add_population = { middle = 1 working = 1 lower = 1 }
 
     there is also remove
-    remove_class_development = { middle = 1 working = 1 lower = 1 }
-    remove_population = { total = 1.0 urban = 1.5 rural = 0.5 }
+    remove_population = { middle = 1 working = 1 lower = 1 }
     
-    For the technical details, add_class_development does not change population. 
+    For the technical details, add_population will add the respective development types while updating the province values.
+    Doing it through the normal add_base_tax/add_base_production/add_base_manpower will have the same end effect, but it will
+    not update the tooltip values to reflect changes. 
 
+    If you want to add/remove population as a pure number you can do that as well with the same effects.
+    add_population = { total_pop = 2.0 middle_pop = 1.2 working_pop = 1.4 lower_pop = 1.1 }
+    remove_population = { total_pop = 2.0 middle_pop = 1.2 working_pop = 1.4 lower_pop = 1.1 }
 
-    If you want to add populations weighted to what is present in the province, then use add_population.
+    You can also scale population. Basically each value gets multiplied by these. The multiplication compounds, so 
+    in this case middle_pop gets multiplied by 1.2*1.2 = 1.44.
+    scale_population = { total_pop = 1.2 middle_pop = 1.2 working_pop = 1.4 lower_pop = 1.1 }
 
-
-Wealth Values:      Urban Population (Avg Income)
-    0               0 / 80 / 20     (0.61)
-    10              10 / 80 / 10    (0.70)
-    20              20 / 80 / 0     (0.79)
-    30              30 / 70 / 0     (0.86)
-    40              40 / 60 / 0     (0.93)
-    50              50 / 50 / 0     (0.99)
-    60              60 / 40 / 0     (1.06)
-    70              70 / 30 / 0     (1.12)
-    80              80 / 20 / 0     (1.19)
-    90              90 / 10 / 0     (1.25)
-    100             100 / 0 / 0     (1.32)
-
-Wealth Values:      Rural Population (Avg Income)
-    0               0 / 0 / 100     (0.38)
-    10              0 / 10 / 90     (0.41)
-    20              0 / 20 / 80     (0.44)
-    30              0 / 30 / 70     (0.46)
-    40              0 / 40 / 60     (0.49)
-    50              0 / 50 / 50     (0.52)
-    60              0 / 60 / 40     (0.55)
-    70              0 / 70 / 30     (0.58)
-    80              0 / 80 / 20     (0.60)
-    90              0 / 90 / 10     (0.63)
-    100             0 / 100 / 0     (0.66)
-
-Pop Classes:        Tax Income (yrly)  Goods Produced    Manpower   Trade Power         TOTAL INCOME (yearly)
-    Middle Class:      1.0                  0.12           250         3.0                  1.315
-    Working Class:     0.4                  0.10           300         0.5                  0.663
-    Lower Class:       0.3                  0.04           200         0.1                  0.379
+Pop Classes:        Tax Income (yrly)  Goods Produced    Manpower   Trade Power         TOTAL INCOME (yearly)   Base Capital Generation
+    Middle Class:      1.0                  0.12           250         3.0                  1.315                       1.0
+    Working Class:     0.4                  0.10           300         0.5                  0.663                       0.5
+    Lower Class:       0.3                  0.04           200         0.1                  0.379                       0.25
 
 RESEARCH:
 
