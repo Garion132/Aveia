@@ -24,11 +24,12 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Shamoryc"
 		dynasty = "Shamor"
 		birth_date = 1240.12.3
 		adm = 2
 		dip = 4
 		mil = 3
 	}
+	add_ruler_personality = immortal_personality
 }

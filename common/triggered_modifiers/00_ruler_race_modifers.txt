@@ -9,7 +9,7 @@ elven_ruler = {
 	trigger = {
 		ruler_race_is_elven = yes
 	}
-	monarch_lifespan = 3000
+	monarch_lifespan = 30000
     heir_chance = -0.70
 }
 dunirrian_ruler = {
@@ -19,7 +19,7 @@ dunirrian_ruler = {
 	trigger = {
 		ruler_race_is_dwarf = yes
 	}
-	monarch_lifespan = 2500
+	monarch_lifespan = 25000
     heir_chance = -0.66
 }
 uglukish_ruler = {
@@ -29,7 +29,7 @@ uglukish_ruler = {
 	trigger = {
 		ruler_race_is_ork = yes
 	}
-	monarch_lifespan = 2000
+	monarch_lifespan = 20000
     heir_chance = -0.25
     global_manpower = 0.001
 }

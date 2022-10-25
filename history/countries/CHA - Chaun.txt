@@ -27,8 +27,8 @@ change_estate_land_share = {
 		name = "Filaine"
 		dynasty = "Chaunil"
 		birth_date = 1240.8.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 3
+		dip = 2
+		mil = 2
 	}
 }

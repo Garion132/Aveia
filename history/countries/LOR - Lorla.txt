@@ -31,4 +31,5 @@ change_estate_land_share = {
 		dip = 3
 		mil = 3
 	}
+	add_ruler_personality = immortal_personality
 }
