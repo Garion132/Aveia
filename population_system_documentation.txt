@@ -64,32 +64,47 @@ POPULATION OVERVIEW:
     wealth/Agri eff also takes a lot of capital to do. It is important to note that provinces will only use wealth created from autonomy on building buildings or 
     maintaining existing wealth/Agri eff.
 
+    #Adding or Removing Population
+    To add population, you can do one of two things: Add middle/working/lower class population using the add_class_development scripted effect
+    or add urban/rural population by using the add_population scripted effect like so:
+    add_class_development = { middle = 1 working = 1 lower = 1 }
+    add_population = { total = 5.0 urban = 1.5 rural = 0.5 }
+
+    there is also remove
+    remove_class_development = { middle = 1 working = 1 lower = 1 }
+    remove_population = { total = 1.0 urban = 1.5 rural = 0.5 }
+    
+    For the technical details, add_class_development does not change population. 
+
+
+    If you want to add populations weighted to what is present in the province, then use add_population.
+
 
 Wealth Values:      Urban Population (Avg Income)
-    0               0 / 20 / 80     (0.436)
-    10              5 / 30 / 65     (0.511)
-    20              10 / 40 / 50    (0.586)
-    30              15 / 50 / 35    (0.661)
-    40              20 / 60 / 20    (0.737)
-    50              25 / 70 / 5     (0.812)
-    60              40 / 60 / 0     (0.924)
-    70              55 / 45 / 0     (1.022)
-    80              70 / 30 / 0     (1.119)
-    90              85 / 15 / 0     (1.217)
-    100             100 / 0 / 0     (1.315)
+    0               0 / 80 / 20     (0.61)
+    10              10 / 80 / 10    (0.70)
+    20              20 / 80 / 0     (0.79)
+    30              30 / 70 / 0     (0.86)
+    40              40 / 60 / 0     (0.93)
+    50              50 / 50 / 0     (0.99)
+    60              60 / 40 / 0     (1.06)
+    70              70 / 30 / 0     (1.12)
+    80              80 / 20 / 0     (1.19)
+    90              90 / 10 / 0     (1.25)
+    100             100 / 0 / 0     (1.32)
 
 Wealth Values:      Rural Population (Avg Income)
-    0               0 / 0 / 100     (0.379)
-    10              0 / 10 / 90     (0.407)
-    20              0 / 20 / 80     (0.436)
-    30              0 / 30 / 70     (0.464)
-    40              0 / 40 / 60     (0.493)
-    50              5 / 45 / 50     (0.554)
-    60              5 / 55 / 40     (0.582)
-    70              5 / 65 / 30     (0.610)
-    80              5 / 75 / 20     (0.634)
-    90              10 / 80 / 10    (0.700)
-    100             10 / 90 / 0     (0.728)
+    0               0 / 0 / 100     (0.38)
+    10              0 / 10 / 90     (0.41)
+    20              0 / 20 / 80     (0.44)
+    30              0 / 30 / 70     (0.46)
+    40              0 / 40 / 60     (0.49)
+    50              0 / 50 / 50     (0.52)
+    60              0 / 60 / 40     (0.55)
+    70              0 / 70 / 30     (0.58)
+    80              0 / 80 / 20     (0.60)
+    90              0 / 90 / 10     (0.63)
+    100             0 / 100 / 0     (0.66)
 
 Pop Classes:        Tax Income (yrly)  Goods Produced    Manpower   Trade Power         TOTAL INCOME (yearly)
     Middle Class:      1.0                  0.12           250         3.0                  1.315
