@@ -9,10 +9,10 @@ controller = LUR
 culture = kyathian
 religion = tlaunorist
 hre = no
-base_tax = 4
-base_production = 5
+base_tax = 0
+base_production = 0
 trade_goods = fruit
-base_manpower = 4
+base_manpower = 6
 capital = "Lurt 4"
 is_city = yes
 discovered_by = lake_elves_group
@@ -24,8 +24,4 @@ discovered_by = dunirr_group
 extra_cost = 0
 gravel_roads = yes
 
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 19.0 }
-set_variable = { which = urban_pop value = 0.0 }
-set_variable = { which = agri_eff_base value = 15 }
+set_variable = { which = arable_land value = 6 }

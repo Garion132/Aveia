@@ -6,10 +6,10 @@ controller = ANO
 culture = kyathian
 religion = tlaunorist
 hre = no
-base_tax = 5
-base_production = 3
+base_tax = 2
+base_production = 5
 trade_goods = ceramics
-base_manpower = 7
+base_manpower = 11
 capital = "Tlind"
 is_city = yes
 discovered_by = lake_elves_group
@@ -20,12 +20,9 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 fort_14th = yes
-center_of_trade = 2
+center_of_trade = 3
 gravel_roads = yes
 taxman = yes
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 42.0 }
-set_variable = { which = urban_pop value = 22.5 }
-set_variable = { which = agri_eff_base value = 30 }
+town_square = yes
+mint = yes
+set_variable = { which = arable_land value = 11 }

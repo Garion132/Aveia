@@ -6,8 +6,8 @@ controller = KYA
 culture = kyathian
 religion = tlaunorist
 hre = no
-base_tax = 3
-base_production = 5
+base_tax = 0
+base_production = 0
 trade_goods = ceramics
 base_manpower = 4
 capital = "Kyath 15"
@@ -20,8 +20,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 22.1 }
-set_variable = { which = urban_pop value = 1.5 }
-set_variable = { which = agri_eff_base value = 18 }
+set_variable = { which = arable_land value = 4 }

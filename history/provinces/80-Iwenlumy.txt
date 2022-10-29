@@ -6,10 +6,10 @@ controller = IWE
 culture = iwen
 religion = tlaunorist
 hre = no
-base_tax = 8
-base_production = 6
+base_tax = 2
+base_production = 7
 trade_goods = cloth
-base_manpower = 4
+base_manpower = 11
 capital = "Iwenlumy"
 is_city = yes
 discovered_by = lake_elves_group
@@ -25,9 +25,6 @@ port = yes
 shipwright = yes
 gravel_roads = yes
 taxman = yes
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 31.0 }
-set_variable = { which = urban_pop value = 28.0 }
-set_variable = { which = agri_eff_base value = 20 }
+town_square = yes
+mint = yes
+set_variable = { which = arable_land value = 10 }

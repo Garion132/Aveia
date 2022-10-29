@@ -120,7 +120,7 @@
  HINT_MILTECH_TITLE:0 "Military Technology"
  HINT_MILTECH_TEXT:0 "Military Technology costs Military Power and is important for unlocking new units and Military-related Technologies. It also unlocks buildings from the Fort and Army building categories."
  HINT_TAXES_TITLE:0 "Taxes"
- HINT_TAXES_TEXT:1 "Taxes are collected from provinces and are directly connected to population and commercial development. The amount of tax collected depends on the population and development of the province, whether it is a core or not and how high the unrest in the province is. Tax Income is increased by Tax Efficiency."
+ HINT_TAXES_TEXT:1 "Taxes are collected from provinces and are directly connected to population. The amount of tax collected depends on the population and development of the province, whether it is a core or not and how high the unrest in the province is. Tax Income is increased by Tax Efficiency."
  HINT_TRADE_TITLE:0 "Trade"
  HINT_TRADE_TEXT:0 "Trade can be a major source of income for a country. The world is split up into Trade Nodes and all Trade Value produced in provinces is transported to their associated Trade Node. You can either steer trade or collect income from a Trade Node. Trade Power influences how much of a Trade Node you can control, and is therefore very important. Trade Income is directly modified by Trade Efficiency."
  HINT_INCOME_TITLE:0 "Income"

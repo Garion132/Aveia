@@ -151,14 +151,9 @@ marketplace = {
 	cost = 75
 	time = 12
 
-	build_trigger = {
-		development = 3
-	}
-
 	modifier = {
 		province_trade_power_value = 1.0
 		province_trade_power_modifier = 0.2
-		local_development_cost = -0.025
 	}
 
 	ai_will_do = {
@@ -171,14 +166,9 @@ trade_depot = {
 
 	make_obsolete = marketplace
 
-	build_trigger = {
-		development = 6
-	}
-
 	modifier = {
 		province_trade_power_value = 2.0
 		province_trade_power_modifier = 0.33
-		local_development_cost = -0.05
 	}
 
 	ai_will_do = {
@@ -191,14 +181,9 @@ merchants_quarter = {
 
 	make_obsolete = trade_depot
 
-	build_trigger = {
-		development = 12
-	}
-
 	modifier = {
 		province_trade_power_value = 3.0
 		province_trade_power_modifier = 0.5
-		local_development_cost = -0.075
 	}
 
 	ai_will_do = {
@@ -211,14 +196,9 @@ customs_house = {
 
 	make_obsolete = merchants_quarter
 
-	build_trigger = {
-		development = 21
-	}
-
 	modifier = {
 		province_trade_power_value = 5.0
-		province_trade_power_modifier = 0.8
-		local_development_cost = -0.1
+		province_trade_power_modifier = 1.0
 	}
 
 	ai_will_do = {
@@ -230,15 +210,10 @@ mint = {
 	cost = 75
 	time = 12
 
-	build_trigger = {
-		development = 9
-	}
-
 	modifier = {
 		tax_income = 0.5
 		province_trade_power_modifier = 0.1
 		trade_value = 0.5
-		local_development_cost = -0.025
 	}
 
 	ai_will_do = {
@@ -251,15 +226,10 @@ bank = {
 
 	make_obsolete = mint
 
-	build_trigger = {
-		development = 15
-	}
-
 	modifier = {
 		tax_income = 1.0
 		province_trade_power_modifier = 0.2
 		trade_value = 1.0
-		local_development_cost = -0.05
 	}
 
 	ai_will_do = {
@@ -272,19 +242,14 @@ stock_exchange = {
 
 	make_obsolete = bank
 
-	build_trigger = {
-		development = 21
-	}
-
 	modifier = {
 		tax_income = 1.5
 		province_trade_power_modifier = 0.4
 		trade_value = 2.0
-		local_development_cost = -0.1
 	}
 
 	ai_will_do = {
-		factor = 2.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+		factor = 2.8 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
 	}
 }
 
@@ -296,9 +261,6 @@ stock_exchange = {
 airdock = {
 	cost = 200
 	time = 12
-	build_trigger = {
-		development = 15
-	}
 	modifier = {
 		global_tax_income = -2
 		cavalry_power = 0.025
@@ -312,13 +274,9 @@ airship_maintenance_bay = {
 	cost = 500
 	time = 18
 	make_obsolete = airdock
-	build_trigger = {
-		development = 21
-	}
 	modifier = {
 		global_tax_income = -6
 		cavalry_power = 0.05
-		local_development_cost = -0.05
 	}
 
 	ai_will_do = {
@@ -329,13 +287,9 @@ airship_terminal = {
 	cost = 1000
 	time = 24
 	make_obsolete = airship_maintenance_bay
-	build_trigger = {
-		development = 30
-	}
 	modifier = {
 		global_tax_income = -24
 		cavalry_power = 0.1
-		local_development_cost = -0.2
 	}
 
 	ai_will_do = {
@@ -350,9 +304,6 @@ airship_terminal = {
 shrine = {
 	cost = 50
 	time = 8
-	build_trigger = {
-		development = 3
-	}
 	modifier = {
 		local_unrest = -0.5
 		local_missionary_strength = 0.01
@@ -368,14 +319,10 @@ temple = {
 
 	cost = 100
 	time = 12
-	build_trigger = {
-		development = 6
-	}
 	modifier = {
 		local_unrest = -1
 		local_missionary_strength = 0.02
 		local_tax_modifier = 0.10
-		local_development_cost = -0.025
 	}
 
 	ai_will_do = {
@@ -387,14 +334,10 @@ cathedral = {
 
 	cost = 200
 	time = 16
-	build_trigger = {
-		development = 12
-	}
 	modifier = {
 		local_unrest = -1.5
 		local_missionary_strength = 0.03
 		local_tax_modifier = 0.15
-		local_development_cost = -0.05
 	}
 
 	ai_will_do = {
@@ -409,14 +352,10 @@ cathedral = {
 town_square = {
 	cost = 40
 	time = 6
-	build_trigger = {
-		development = 6
-	}
 	modifier = {
 		#local_autonomy = -0.025
 		local_state_maintenance_modifier = -0.15
 		local_governing_cost = -0.15
-		local_development_cost = -0.025
 	}
 
 	ai_will_do = {
@@ -430,14 +369,10 @@ courthouse = {
 
 	make_obsolete = town_square
 
-	build_trigger = {
-		development = 9
-	}
 	modifier = {
 		local_state_maintenance_modifier = -0.25
 		local_autonomy = -0.025
 		local_governing_cost = -0.2
-		local_development_cost = -0.05
 	}
 
 	ai_will_do = {
@@ -451,14 +386,10 @@ town_hall = {
 
 	make_obsolete = courthouse
 
-	build_trigger = {
-		development = 12
-	}
 	modifier = {
 		local_state_maintenance_modifier = -0.4
 		local_autonomy = -0.05
 		local_governing_cost = -0.3
-		local_development_cost = -0.075
 	}
 
 	ai_will_do = {
@@ -472,14 +403,10 @@ post_office = {
 
 	make_obsolete = town_hall
 
-	build_trigger = {
-		development = 15
-	}
 	modifier = {
 		local_state_maintenance_modifier = -0.66
 		local_autonomy = -0.05
 		local_governing_cost = -0.33
-		local_development_cost = -0.125
 	}
 
 	ai_will_do = {
@@ -493,14 +420,10 @@ city_hall = {
 
 	make_obsolete = post_office
 
-	build_trigger = {
-		development = 21
-	}
 	modifier = {
 		local_state_maintenance_modifier = -0.8
 		local_autonomy = -0.1
 		local_governing_cost = -0.66
-		local_development_cost = -0.15
 	}
 
 	ai_will_do = {
@@ -518,14 +441,12 @@ port = {
 	time = 6
 	build_trigger = {
 		has_port = yes
-		development = 6
 	}
 	modifier = {
 		province_trade_power_value = 0.5
 		naval_forcelimit = 0.25
 		local_sailors_modifier = 0.33
 		supply_limit_modifier = 0.20
-		local_development_cost = -0.025
 	}
 
 	ai_will_do = {
@@ -542,14 +463,12 @@ dockland = {
 	make_obsolete = port
 	build_trigger = {
 		has_port = yes
-		development = 9
 	}
 	modifier = {
 		province_trade_power_value = 1
 		naval_forcelimit = 0.5
 		local_sailors_modifier = 0.66
 		supply_limit_modifier = 0.45
-		local_development_cost = -0.05
 	}
 
 	ai_will_do = {
@@ -566,14 +485,12 @@ wharf = {
 	make_obsolete = dockland
 	build_trigger = {
 		has_port = yes
-		development = 12
 	}
 	modifier = {
 		province_trade_power_value = 2
 		naval_forcelimit = 0.75
 		local_sailors_modifier = 1
 		supply_limit_modifier = 0.6
-		local_development_cost = -0.075
 	}
 
 	ai_will_do = {
@@ -590,14 +507,12 @@ harbor_district = {
 	make_obsolete = wharf
 	build_trigger = {
 		has_port = yes
-		development = 21
 	}
 	modifier = {
 		province_trade_power_value = 5
 		naval_forcelimit = 1
 		local_sailors_modifier = 2
 		supply_limit_modifier = 0.75
-		local_development_cost = -0.15
 	}
 
 	ai_will_do = {
@@ -615,7 +530,6 @@ shipwright = {
 
 	build_trigger = {
 		has_port = yes
-		development = 9
 	}
 
 	modifier = {
@@ -648,7 +562,6 @@ drydock = {
 
 	build_trigger = {
 		has_port = yes
-		development = 12
 	}
 
 	modifier = {
@@ -679,7 +592,6 @@ naval_arsenal = {
 	make_obsolete = drydock
 	build_trigger = {
 		has_port = yes
-		development = 18
 	}
 	modifier = {
 		naval_forcelimit = 3
@@ -711,7 +623,6 @@ naval_base = {
 
 	build_trigger = {
 		has_port = yes
-		development = 21
 	}
 	modifier = {
 		naval_forcelimit = 6
@@ -743,30 +654,8 @@ naval_base = {
 workshop = {
 	cost = 100
 	time = 12
-	build_trigger = {
-		development = 9
-	}
 	modifier = {
-		local_production_efficiency = 0.2
-		local_development_cost = -0.025
-	}
-
-	allow_in_gold_provinces = no
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-artisans_guild = {
-	cost = 250
-	time = 18
-	make_obsolete = workshop
-	build_trigger = {
-		development = 12
-	}
-	modifier = {
-		local_production_efficiency = 0.45
-		local_development_cost = -0.05
+		local_production_efficiency = 0.1
 	}
 
 	allow_in_gold_provinces = no
@@ -775,35 +664,12 @@ artisans_guild = {
 		factor = 2
 	}
 }
-craftsmans_district = {
-	cost = 600
-	time = 36
-	make_obsolete = artisans_guild
-	build_trigger = {
-		development = 15
-	}
+artisans_guild = {
+	cost = 250
+	time = 18
+	make_obsolete = workshop
 	modifier = {
-		local_production_efficiency = 0.75
-		local_development_cost = -0.1
-	}
-
-	allow_in_gold_provinces = no
-
-	ai_will_do = {
-		factor = 3
-	}
-}
-industrial_zone = {
-	cost = 1200
-	time = 60
-	make_obsolete = craftsmans_district
-	build_trigger = {
-		development = 21
-	}
-	modifier = {
-		local_production_efficiency = 1
-		trade_goods_size_modifier = 0.2
-		local_development_cost = -0.2
+		local_production_efficiency = 0.2
 	}
 
 	allow_in_gold_provinces = no
@@ -812,40 +678,61 @@ industrial_zone = {
 		factor = 4
 	}
 }
-
-alchemist_shop = {
-	cost = 200
-	time = 12
-	build_trigger = {
-		development = 9
-	}
+craftsmans_district = {
+	cost = 600
+	time = 36
+	make_obsolete = artisans_guild
 	modifier = {
-		trade_value_modifier = 0.15
-		local_development_cost = -0.025
+		local_production_efficiency = 0.35
 	}
 
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor = 2
+		factor = 6
+	}
+}
+industrial_zone = {
+	cost = 1200
+	time = 60
+	make_obsolete = craftsmans_district
+	modifier = {
+		local_production_efficiency = 0.5
+		trade_goods_size_modifier = 0.1
+	}
+
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 8
+	}
+}
+
+alchemist_shop = {
+	cost = 200
+	time = 12
+	modifier = {
+		trade_value_modifier = 0.1
+	}
+
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 3
 	}
 }
 transfumatory = {
 	cost = 600
 	time = 36
 	make_obsolete = alchemist_shop
-	build_trigger = {
-		development = 21
-	}
 	modifier = {
-		trade_value_modifier = 0.5
-		local_development_cost = -0.05
+		trade_value_modifier = 0.25
 	}
 
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor = 2
+		factor = 5
 	}
 }
 
@@ -857,9 +744,6 @@ barracks = {
 	cost = 75
 	time = 12
 
-	build_trigger = {
-		development = 9
-	}
 	modifier = {
 		local_manpower = 0.1
 		local_manpower_modifier = 0.25
@@ -875,9 +759,6 @@ training_fields = {
 
 	make_obsolete = barracks
 
-	build_trigger = {
-		development = 18
-	}
 	modifier = {
 		local_manpower = 0.2
 		local_manpower_modifier = 0.5
@@ -901,9 +782,6 @@ military_academy = {
 
 	make_obsolete = training_fields
 
-	build_trigger = {
-		development = 30
-	}
 	modifier = {
 		local_manpower = 0.4
 		local_manpower_modifier = 1
@@ -918,9 +796,6 @@ regimental_camp = {
 	cost = 200
 	time = 18
 
-	build_trigger = {
-		development = 15
-	}
 	modifier = {
 		land_forcelimit = 1
 		regiment_recruit_speed = -0.1
@@ -945,9 +820,6 @@ conscription_center = {
 
 	make_obsolete = regimental_camp
 
-	build_trigger = {
-		development = 24
-	}
 	modifier = {
 		land_forcelimit = 2
 		regiment_recruit_speed = -0.2
@@ -972,9 +844,6 @@ mobilization_system = {
 
 	make_obsolete = conscription_center
 
-	build_trigger = {
-		development = 36
-	}
 	modifier = {
 		land_forcelimit = 3
 		regiment_recruit_speed = -0.3
@@ -1002,18 +871,14 @@ taxman = {
 	cost = 100
 	time = 12
 
-	build_trigger = {
-		development = 9
-	}
 	modifier = {
-		tax_income = 0.75
+		tax_income = 0.25
 		local_tax_modifier = 0.1
-		local_development_cost = 0.15
 		local_unrest = 1
 	}
 
 	ai_will_do = {
-		factor = 0.9
+		factor = 1.5
 	}
 }
 tax_office = {
@@ -1022,18 +887,14 @@ tax_office = {
 
 	make_obsolete = taxman
 
-	build_trigger = {
-		development = 15
-	}
 	modifier = {
-		tax_income = 2
-		local_tax_modifier = 0.33
-		local_development_cost = 0.33
+		tax_income = 0.5
+		local_tax_modifier = 0.15
 		local_unrest = 2
 	}
 
 	ai_will_do = {
-		factor = 0.85
+		factor = 2.0
 	}
 }
 tax_agency = {
@@ -1042,19 +903,14 @@ tax_agency = {
 
 	make_obsolete = tax_office
 
-	build_trigger = {
-		development = 27
-	}
 	modifier = {
-		tax_income = 4
-		local_tax_modifier = 0.75
-		global_tax_modifier = 0.05
-		local_development_cost = 0.66
+		tax_income = 1
+		local_tax_modifier = 0.25
 		local_unrest = 3
 	}
 
 	ai_will_do = {
-		factor = 0.8
+		factor = 3.0
 	}
 }
 revenue_department = {
@@ -1063,19 +919,15 @@ revenue_department = {
 
 	make_obsolete = tax_agency
 
-	build_trigger = {
-		development = 42
-	}
 	modifier = {
-		tax_income = 6
-		local_tax_modifier = 2
-		global_tax_modifier = 0.1
-		local_development_cost = 1
+		tax_income = 2
+		local_tax_modifier = 0.4
+		global_tax_modifier = 0.05
 		local_unrest = 4
 	}
 
 	ai_will_do = {
-		factor = 0.7
+		factor = 4.0
 	}
 }
 
@@ -1279,7 +1131,6 @@ gravel_roads = {
 		supply_limit = 0.25
 		province_trade_power_value = 0.1
 		province_trade_power_modifier = 0.05
-		local_development_cost = -0.05
 		allowed_num_of_buildings = 1
 	}
 
@@ -1300,7 +1151,6 @@ paved_roads = {
 		supply_limit = 0.5
 		province_trade_power_value = 0.2
 		province_trade_power_modifier = 0.1
-		local_development_cost = -0.1
 		allowed_num_of_buildings = 1
 	}
 
@@ -1321,7 +1171,6 @@ highways = {
 		supply_limit = 1
 		province_trade_power_value = 0.5
 		province_trade_power_modifier = 0.15
-		local_development_cost = -0.15
 		allowed_num_of_buildings = 1
 	}
 
@@ -1347,7 +1196,6 @@ canals = {
 	}
 	modifier = {
 		supply_limit = 0.25
-		local_development_cost = -0.1
 		allowed_num_of_buildings = 2
 	}
 
@@ -1369,7 +1217,6 @@ railroads = {
 		supply_limit = 0.5
 		province_trade_power_value = 0.5
 		province_trade_power_modifier = 0.1
-		local_development_cost = -0.15
 		allowed_num_of_buildings = 2
 	}
 
@@ -1391,7 +1238,6 @@ railroad_network = {
 		supply_limit = 1
 		province_trade_power_value = 1
 		province_trade_power_modifier = 0.2
-		local_development_cost = -0.3
 		allowed_num_of_buildings = 2
 	}
 
@@ -1412,13 +1258,8 @@ school = {
 	cost = 100
 	time = 12
 
-	
-	build_trigger = {
-		development = 9
-	}
 	modifier = {
 		local_institution_spread = 0.25
-		local_development_cost = -0.05
 	}
 
 	ai_will_do = {
@@ -1431,12 +1272,8 @@ university = {
 
 	make_obsolete = school
 
-	build_trigger = {
-		base_tax = 6
-	}
 	modifier = {
 		global_tax_income = -6
-		local_development_cost = -0.1
 		local_institution_spread = 0.66
 		technology_cost = -0.025
 	}
@@ -1451,12 +1288,8 @@ research_center = {
 
 	make_obsolete = university
 
-	build_trigger = {
-		base_tax = 12
-	}
 	modifier = {
 		global_tax_income = -12
-		local_development_cost = -0.15
 		local_institution_spread = 1
 		technology_cost = -0.05
 	}

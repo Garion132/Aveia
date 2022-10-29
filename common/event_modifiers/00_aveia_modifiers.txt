@@ -97,6 +97,7 @@
 	}
 
 
+#
 #Disasters
 	#Iron Age Calamity
 	iac_mild_calamity = {
@@ -332,6 +333,7 @@
 		trade_goods_size_modifier = 0.05
 	}
 
+#
 #Missions
 
 	#Iwenlumy
@@ -450,279 +452,302 @@
 	
 
 
+#
 #Events
-iron_age_calamity_recovery = {
-	stability_cost_modifier = -0.25
-	global_unrest = -2
-	development_cost = -0.10
-	global_manpower_modifier = -0.25
-	land_maintenance_modifier = -0.05
-	embracement_cost = -0.25
-	global_institution_spread = 0.25
-	center_of_trade_upgrade_cost = -0.25
-	global_monthly_devastation = -0.05
-}
+	iron_age_calamity_recovery = {
+		stability_cost_modifier = -0.25
+		global_unrest = -2
+		development_cost = -0.10
+		global_manpower_modifier = -0.25
+		land_maintenance_modifier = -0.05
+		embracement_cost = -0.25
+		global_institution_spread = 0.25
+		center_of_trade_upgrade_cost = -0.25
+		global_monthly_devastation = -0.05
+	}
 
-elteria_colonial_rush = { #For colonizing Elteria in a reasonable amount of time
-	local_colonial_growth = 50
-	local_colonist_placement_chance = 0.10
-}
-scramble_for_elteria = { #For colonial overlords
-	global_tax_income = -6
-	colonists = 1
-	global_colonial_growth = 20
-}
-scramble_for_elteria_colony = { #For colonies
-	colonists = 1
-}
-elteria_colonial_office = {
-	global_tax_income = -6
-	global_colonial_growth = 10
-	colonist_placement_chance = 0.10
-}
+	elteria_colonial_rush = { #For colonizing Elteria in a reasonable amount of time
+		local_colonial_growth = 50
+		local_colonist_placement_chance = 0.10
+	}
+	scramble_for_elteria = { #For colonial overlords
+		global_tax_income = -6
+		colonists = 1
+		global_colonial_growth = 20
+	}
+	scramble_for_elteria_colony = { #For colonies
+		colonists = 1
+	}
+	elteria_colonial_office = {
+		global_tax_income = -6
+		global_colonial_growth = 10
+		colonist_placement_chance = 0.10
+	}
 
-tinflation = {
-	inflation_reduction = -0.02
-	global_tax_income = 4
-}
+	tinflation = {
+		inflation_reduction = -0.02
+		global_tax_income = 4
+	}
 
-wonderous_spark = {
-	idea_cost = -0.1
-}
-divine_spark = {
-	idea_cost = -0.15
-}
-philosophers_school = {
-	technology_cost = -0.05
-}
+	wonderous_spark = {
+		idea_cost = -0.1
+	}
+	divine_spark = {
+		idea_cost = -0.15
+	}
+	philosophers_school = {
+		technology_cost = -0.05
+	}
 
-aqueduct = {
-	local_prosperity_growth = 0.1
-	local_development_cost = -0.05
-	local_tax_modifier = 0.05
-}
-
+	aqueduct = {
+		local_prosperity_growth = 0.1
+		local_development_cost = -0.05
+		local_tax_modifier = 0.05
+	}
+#
 #Important Locations
-asemont_copper_mines = { #Asemont Copper Mines (in the Cradle)
-	trade_goods_size = 5.0
-}
-asemont_fortress_complex = {
-	local_defensiveness = 1
-	max_attrition = 1
-	local_hostile_attrition = 2
-	local_state_maintenance_modifier = 4
-	tax_income = -6
-}
-yhenil_bridge = {
-	tax_income = 6
-	trade_goods_size = 1
-	local_development_cost = -1
-	local_institution_spread = 0.5
-	province_trade_power_value = 15
-	allowed_num_of_buildings = 1
-	naval_forcelimit = 10
-	blockade_force_required = 4
-	hostile_fleet_attrition = 2
-	hostile_disembark_speed = -0.5
-}
-kushedean_lighthouse = {
-	global_trade_power = 0.05
-	province_trade_power_value = 25
-	local_institution_spread = 0.5
-	naval_forcelimit = 3
-}
-dreghei_mines = {
-	trade_goods_size_modifier = 0.05
-}
-doninas_city = {
-	trade_goods_size = 5.0
-	trade_goods_size_modifier = 0.25
-	local_defensiveness = 0.25
-	province_trade_power_value = 10
-}
-eiheilaurt_grand_dockyards = {
-	ship_recruit_speed = -0.25
-	local_ship_repair = 0.1
-	local_ship_cost = -0.15
-	local_sailors_modifier = 0.50
-	local_manpower_modifier = -0.50
-	sailors_recovery_speed = 0.1
-	naval_forcelimit = 5
-}
+	asemont_copper_mines = { #Asemont Copper Mines (in the Cradle)
+		trade_goods_size = 5.0
+	}
+	asemont_fortress_complex = {
+		local_defensiveness = 0.5
+		max_attrition = 1
+		local_hostile_attrition = 2
+		local_state_maintenance_modifier = 1.5
+	}
+	yhenil_bridge = {
+		tax_income = 6
+		trade_goods_size = 1
+		local_development_cost = -1
+		local_institution_spread = 0.5
+		province_trade_power_value = 15
+		allowed_num_of_buildings = 1
+		naval_forcelimit = 10
+		blockade_force_required = 4
+		hostile_fleet_attrition = 2
+		hostile_disembark_speed = -0.5
+	}
+	kushedean_lighthouse = {
+		global_trade_power = 0.05
+		province_trade_power_value = 25
+		local_institution_spread = 0.5
+		naval_forcelimit = 3
+	}
+	dreghei_mines = {
+		trade_goods_size_modifier = 0.05
+	}
+	doninas_city = {
+		trade_goods_size = 5.0
+		trade_goods_size_modifier = 0.25
+		local_defensiveness = 0.25
+		province_trade_power_value = 10
+	}
+	eiheilaurt_grand_dockyards = {
+		ship_recruit_speed = -0.25
+		local_ship_repair = 0.1
+		local_ship_cost = -0.15
+		local_sailors_modifier = 0.50
+		local_manpower_modifier = -0.50
+		sailors_recovery_speed = 0.1
+		naval_forcelimit = 5
+	}
 
-temple_of_the_sea_god = {
-	prestige_from_naval = 0.25
-	naval_morale = 0.1
-	prestige = 0.25
-	dip_tech_cost_modifier = -0.1
-	province_trade_power_value = 10
-}
-aniliti_heart = {
-	gold_depletion_chance_modifier = -1.0 #add later
-	development_cost = -0.1
-	legitimacy = 1
-	diplomatic_upkeep = 1
-}
-golden_sun_1 = {
-	tax_income = 12
-	province_trade_power_value = 25
-	local_institution_spread = 0.5
-	land_forcelimit = 5
-	idea_cost = -0.05
-}
+	temple_of_the_sea_god = {
+		prestige_from_naval = 0.25
+		naval_morale = 0.1
+		prestige = 0.25
+		dip_tech_cost_modifier = -0.1
+		province_trade_power_value = 10
+	}
+	aniliti_heart = {
+		gold_depletion_chance_modifier = -1.0 #add later
+		development_cost = -0.1
+		legitimacy = 1
+		diplomatic_upkeep = 1
+	}
+	golden_sun_1 = {
+		tax_income = 12
+		province_trade_power_value = 25
+		local_institution_spread = 0.5
+		land_forcelimit = 5
+		idea_cost = -0.05
+	}
 
-kafethyrian_soil = {
-	trade_goods_size = 0.75
-}
+	kafethyrian_soil = {
+		trade_goods_size = 0.75
+	}
 
-remote_lands_of_juluia = { #Colonizing Juluia is difficult
-	local_colonial_growth = -75
-	local_colonist_placement_chance = -0.10
-}
+	remote_lands_of_juluia = { #Colonizing Juluia is difficult
+		local_colonial_growth = -75
+		local_colonist_placement_chance = -0.10
+	}
 
-shirea_slave_port = {
-	province_trade_power_value = 15
-	trade_goods_size = 5
-}
-#new instituions
-birthplace_of_crop_rotation = {
-	trade_goods_size = 0.5
-}
-birthplace_of_iron_working = {
-	local_development_cost = -0.05
-}
-birthplace_of_illuminare = {
-	idea_cost = -0.05
-}
-birthplace_of_the_guedinan_revolution = {
-	fire_damage = 0.10
-}
-crown_of_iron = {
-	global_unrest = -6
-}
+	shirea_slave_port = {
+		province_trade_power_value = 15
+		trade_goods_size = 5
+	}
+#
+#New instituions
+	birthplace_of_crop_rotation = {
+		trade_goods_size = 0.5
+	}
+	birthplace_of_iron_working = {
+		local_development_cost = -0.05
+	}
+	birthplace_of_illuminare = {
+		idea_cost = -0.05
+	}
+	birthplace_of_the_guedinan_revolution = {
+		fire_damage = 0.10
+	}
+	crown_of_iron = {
+		global_unrest = -6
+	}
 
-CYU_coring_cost_ILR = {
-	local_core_creation = -0.15
-}
-federate_nation={
-	global_tax_income = 12
-	land_forcelimit = 1
-}
+	CYU_coring_cost_ILR = {
+		local_core_creation = -0.15
+	}
+	federate_nation={
+		global_tax_income = 12
+		land_forcelimit = 1
+	}
+#
 
+#Modifiers that use the Pop system
+	#Make sure to include the pop effect in the description of the modiifer.
+	#If you want to add a modifier here, then make sure to add the modifier to one of the lists in SYS-Modifiers
+
+	#Potential Modifiers you can use right now:
+		### STATE ###
+		# middle_cap_base - Middle Class Capacity, adds middle class capacity to a province
+		# middle_cap_modifier - Middle Class Capacity Modifier, adds a percentage effect to the middle class capacity of a province
+		# working_cap_base
+		# working_cap_modifier
+		# lower_cap_base
+		# lower_cap_modifier
+	#
+
+	enheasrion_plains = {
+		# lower_cap_modifier = -0.5
+		trade_goods_size_modifier = -0.25
+		picture = "plains_icon"
+	}
+#
 
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.
-enheasrion_estuary_modifier = {
-	province_trade_power_value = 15
-	picture = "estuary_icon"
-}
-anillelerien_strait_modifier = { #I know this technically isn't an estuary, but it's still an important point
-	province_trade_power_value = 25
-	picture = "estuary_icon"
-}
-moraler_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-changurdur_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-antyr_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-tavhe_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-selehilfa_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-efholumelion_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-llauggarwin_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-manoserora_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-eagburyard_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-deadwich_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-valifor_estuary_modifier = {
-	province_trade_power_value = 15
-	picture = "estuary_icon"
-}
-brid_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-hobringai_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-calecall_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-sileed_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-scorross_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-bhogheg_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-thorfove_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-clearow_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-vanafold_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-eolipor_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-direthe_estuary_modifier = {
-	province_trade_power_value = 20
-	picture = "estuary_icon"
-}
-nylka_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-samylari_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
-alatar_estuary_modifier = {
-	province_trade_power_value = 10
-	picture = "estuary_icon"
-}
+	enheasrion_estuary_modifier = {
+		province_trade_power_value = 15
+		picture = "estuary_icon"
+	}
+	anillelerien_strait_modifier = { #I know this technically isn't an estuary, but it's still an important point
+		province_trade_power_value = 25
+		picture = "estuary_icon"
+	}
+	moraler_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	changurdur_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	antyr_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	tavhe_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	selehilfa_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	efholumelion_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	llauggarwin_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	manoserora_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	eagburyard_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	deadwich_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	valifor_estuary_modifier = {
+		province_trade_power_value = 15
+		picture = "estuary_icon"
+	}
+	brid_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	hobringai_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	calecall_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	sileed_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	scorross_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	bhogheg_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	thorfove_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	clearow_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	vanafold_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	eolipor_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	direthe_estuary_modifier = {
+		province_trade_power_value = 20
+		picture = "estuary_icon"
+	}
+	nylka_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	samylari_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
+	alatar_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
 
 
-calendor_island_modifier = {
-	province_trade_power_value = 5
-	picture = "estuary_icon"
-}
+	calendor_island_modifier = {
+		province_trade_power_value = 5
+		picture = "estuary_icon"
+	}
+#

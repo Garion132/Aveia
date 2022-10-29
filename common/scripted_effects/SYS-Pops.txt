@@ -1,10 +1,9 @@
 
 Pops_Setup = {
-    every_country = {
-        Pops_GetModifiers = yes
-    }
+    # every_country = {
+    #     Pops_GetModifiers = yes
+    # }
     every_province = {
-        add_province_triggered_modifier = province_mod
         if = {
             limit = {
                 is_empty = yes
@@ -12,223 +11,44 @@ Pops_Setup = {
             set_province_flag = is_uncolonized
         }
 
-        Pops_GetBaseFoodProduction = yes
-        
+
+
+        # export_to_variable = {
+        #     which = t_1
+        #     value = base_tax
+        # }
+        # export_to_variable = {
+        #     which = t_2
+        #     value = base_production
+        # }
+        # export_to_variable = {
+        #     which = t_3
+        #     value = base_manpower
+        # }
+
+        # update_rural_pop_modifiers = yes
+        # update_urban_pop_modifiers = yes
         if = {
             limit = {
-                has_province_flag = manual_agri_eff
+                NOT = { check_variable = { which = arable_land value = 0.1 } }
             }
-            clr_province_flag = manual_agri_eff
+            arable_land_calc = yes
         }
-        else = {
-            #Agri Efficiency Setup
-            export_to_variable = {
-                which = t_1
-                value = base_tax
-            }
-            export_to_variable = {
-                which = t_2
-                value = base_production
-            }
-            export_to_variable = {
-                which = t_3
-                value = base_manpower
-            }
-            set_variable = { which = agri_eff_base which = t_1 }
-            change_variable = { which = agri_eff_base which = t_2 }
-            change_variable = { which = agri_eff_base which = t_3 }
-            set_variable = { which = t_1 value = 0 }
-            set_variable = { which = t_2 value = 0 }
-            set_variable = { which = t_3 value = 0 }
-        }
+        agri_eff_calc = yes
 
-        Pops_GetAgriculturalEfficiency = yes
-        
-        if = {
-            limit = {
-                has_province_flag = manual_pop
-            }
-            clr_province_flag = manual_pop
-        }
-        else = {
-            #Population Approximation:
-            # 500 * ln(1/fpp) / ( agri_eff - 2 )
-            set_variable = { which = rural_pop value = 1 }
-            divide_variable = { which = rural_pop which = fpp }
-            log_e_times_100 = { value = rural_pop }
-            multiply_variable = { which = rural_pop value = 3.5 }
-            
-            set_variable = { which = t_0 which = agri_eff }
-            divide_variable = { which = t_0 value = 100 }
-            subtract_variable = { which = t_0 value = 2 }
-            divide_variable = { which = rural_pop which = t_0 }
+        update_pop_total = yes
+        lower_cap_calc = yes
+        working_cap_calc = yes
+        middle_cap_calc = yes
 
-            export_to_variable = {
-                which = t_0
-                value = development
-            }
-            if = {
-                limit = {
-                    NOT = { development = 20 }
-                }
-                if = {
-                    limit = {
-                        development = 10
-                    }
-                    subtract_variable = { which = t_0 value = 20 }
-                    divide_variable = { which = t_0 value = 40 }
-                    change_variable = { which = t_0 value = 1 }
-                    multiply_variable = { which = rural_pop which = t_0 }
-                }
-                else = {
-                    subtract_variable = { which = t_0 value = 10 }
-                    divide_variable = { which = t_0 value = 10 }
-                    change_variable = { which = t_0 value = 1 }
-                    multiply_variable = { which = rural_pop value = 0.75 }
-                    multiply_variable = { which = rural_pop which = t_0 }
-                }
-            }
-
-            if = {
-                limit = {
-                    culture = no_culture
-                }
-                set_variable = { which = rural_pop value = 0 }
-            }
-
-            #Urban Population
-            Pops_GetUrbanPercent = yes
-            set_variable = { which = urban_pop which = rural_pop }
-            multiply_variable = { which = urban_pop which = urban_percent }
-            export_to_variable = {
-                which = t_0
-                value = development
-            }
-            if = {
-                limit = {
-                    NOT = { development = 10 }
-                }
-                subtract_variable = { which = t_0 value = 10 }
-                divide_variable = { which = t_0 value = 20 }
-                change_variable = { which = t_0 value = 1 }
-                multiply_variable = { which = urban_pop which = t_0 }
-            }
-            set_variable = { which = t_0 which = rural_pop }
-            divide_variable = { which = rural_pop value = 1.1 }
-            divide_variable = { which = urban_pop value = 1.2 }
-            subtract_variable = { which = rural_pop which = urban_pop }
-            subtract_variable = { which = rural_pop which = urban_pop } #Subtract Again b/c rural pop produces food & urban pop don't
-
-            divide_variable = { which = t_0 value = 2 }
-            if = {
-                limit = {
-                    NOT = { check_variable = { which = rural_pop value = t_0 } }
-                }
-                set_variable = { which = rural_pop which = t_0 }
-            }
-
-            set_variable = { which = t_0 value = 0 }
-        }
-
-        Pops_GetPopStats = yes
-        Pops_GetFoodProduction = yes
-
-        update_rural_pop_modifiers = yes
-        update_urban_pop_modifiers = yes
         update_pop_modifiers = yes
     }
     set_global_flag = pop_pulse
-    every_country = {
-        Pops_GetNationalStats = yes
-
-        set_variable = { which = r_0 which = rural_pop }
-        multiply_variable = { which = r_0 value = 0.01 }
-        
-        set_variable = { which = r_1 which = urban_pop }
-        multiply_variable = { which = r_1 value = 0.02 }
-
-        change_variable = { which = r_0 which = r_1 }
-        multiply_variable = { which = r_0 value = 0.4 }
-        while = {
-            limit = {
-                check_variable = { which = r_0 value = 1 }
-            }
-            capital_scope = {
-                infantry = PREV
-            }
-            subtract_variable = { which = r_0 value = 1 }
-        }
-
-		export_to_variable = {
-            which = r_0
-            value = trigger_value:average_autonomy
-        }
-        set_variable = { which = r_1 value = 100 }
-        subtract_variable = { which = r_1 which = r_0 }
-        
-        set_variable = { which = r_0 which = total_pop }
-        multiply_variable = { which = r_0 value = 0.03 }
-        multiply_variable = { which = r_0 which = r_1 }
-        multiply_variable = { which = r_0 value = 0.01 }
-       while = {
-            limit = {
-                check_variable = { which = r_0 value = 0 }
-            }
-            add_manpower = 1
-            subtract_variable = { which = r_0 value = 1 }
-        }
-
-        every_owned_province = {
-            limit = {
-                is_port = yes
-            }
-            if = {
-                limit = {
-                    NOT = { local_autonomy = 50 }
-                }
-                if = {
-                    limit = {
-                        check_variable = { which = urban_pop value = 20 }
-                    }
-                    PREv = {
-                        add_sailors = 1200
-                    }
-                }
-                else_if = {
-                    limit = {
-                        check_variable = { which = urban_pop value = 6.5 }
-                    }
-                    PREv = {
-                        add_sailors = 600
-                    }
-                }
-                else_if = {
-                    limit = {
-                        check_variable = { which = urban_pop value = 2.5 }
-                    }
-                    PREv = {
-                        add_sailors = 300
-                    }
-                }
-                else_if = {
-                    limit = {
-                        check_variable = { which = urban_pop value = 1 }
-                    }
-                    PREv = {
-                        add_sailors = 150
-                    }
-                }
-                else = {
-                    PREv = {
-                        add_sailors = 75
-                    }
-                }
-            }
-        }
-        
-        set_variable = { which = r_0 value = 0 }
-        set_variable = { which = r_1 value = 0 }
-        Pops_DoNationalGrowth = yes
+    
+    every_province = {
+        set_variable = { which = fbp value = 0.1 }
+        pops_growth_calc = { food_balance_percentage = fbp }
+        set_variable = { which = fbp value = 0 }
     }
 }
 
@@ -307,60 +127,66 @@ Pops_DoNationalGrowth = {
     }
 }
 
-Pops_GetBaseFoodProduction = {
-    #Base Food Production Per Rural Pop
-    # fpp = Food Per Rural Pop
-    set_variable = { which = fpp value = 1.01 }
+Pops_GetFoodProduction = {
+    # t_1 is the exponent & resulting value from e^( -(2 - Agri_Eff)*(Rural Pop) / 350 )
+    set_variable = { which = t_1 which = agri_eff }
+    multiply_variable = { which = t_1 value = -0.01 }
+    change_variable = { which = t_1 value = 2 }
+    multiply_variable = { which = t_1 which = rural_pop }
+    divide_variable = { which = t_1 value = 350 }
+    power_e = { value = t_1 }
+
+    set_variable = { which = food_prod which = fpp }
+    multiply_variable = { which = food_prod which = rural_pop }
+    divide_variable = { which = food_prod which = t_1 }
+
+    set_variable = { which = t_1 value = 0 }
+}
+
+update_pop_stats = {
+    set_variable = { which = total_pop which = rural_pop }
+    change_variable = { which = total_pop which = urban_pop }
+}
+
+
+arable_land_calc = {
+    #Arable Land Amount
+    # ONLY RUN EFFECT IF ARABLE LAND IS NOT ALREADY SET
+    # arable_land = Amount of arable land in a province
+    set_variable = { which = arable_land value = 0.5 }
     trigger_switch = {
         on_trigger = has_terrain
-        glacier = { set_variable = { which = fpp value = 1.07 } }
-        farmlands = { set_variable = { which = fpp value = 1.3 } }
-        forest = { set_variable = { which = fpp value = 1.13 } }
-        hills = { set_variable = { which = fpp value = 1.16 } }
-        woods = { set_variable = { which = fpp value = 1.18 } }
-        mountain = { set_variable = { which = fpp value = 1.08 } }
-        grasslands = { set_variable = { which = fpp value = 1.24 } }
-        jungle = { set_variable = { which = fpp value = 1.1 } }
-        marsh = { set_variable = { which = fpp value = 1.04 } }
-        desert = { set_variable = { which = fpp value = 1.04 } }
-        coastal_desert = { set_variable = { which = fpp value = 1.1 } }
-        coastline = { set_variable = { which = fpp value = 1.12 } }
-        drylands = { set_variable = { which = fpp value = 1.14 } }
-        highlands = { set_variable = { which = fpp value = 1.14 } }
-        savannah = { set_variable = { which = fpp value = 1.13 } }
-        steppe = { set_variable = { which = fpp value = 1.14 } }
-        deepwoods = { set_variable = { which = fpp value = 1.11 } }
-        deepwoods_city = { set_variable = { which = fpp value = 1.24 } }
-        glassy_plains = { set_variable = { which = fpp value = 1.02 } }
-        vitaite_hills = { set_variable = { which = fpp value = 1.06 } }
-        redmarsh = { set_variable = { which = fpp value = 1.11 } }
-        great_bridge = { set_variable = { which = fpp value = 1.09 } }
-        great_mountain_pass = { set_variable = { which = fpp value = 1.1 } }
+        glacier = { set_variable = { which = arable_land value = 2.5 } }
+        farmlands = { set_variable = { which = arable_land value = 9 } }
+        forest = { set_variable = { which = arable_land value = 4 } }
+        hills = { set_variable = { which = arable_land value = 5 } }
+        woods = { set_variable = { which = arable_land value = 6 } }
+        mountain = { set_variable = { which = arable_land value = 2.5 } }
+        grasslands = { set_variable = { which = arable_land value = 7.5 } }
+        jungle = { set_variable = { which = arable_land value = 3 } }
+        marsh = { set_variable = { which = arable_land value = 1.5 } }
+        desert = { set_variable = { which = arable_land value = 1.5 } }
+        coastal_desert = { set_variable = { which = arable_land value = 3.5 } }
+        coastline = { set_variable = { which = arable_land value = 4 } }
+        drylands = { set_variable = { which = arable_land value = 4.5 } }
+        highlands = { set_variable = { which = arable_land value = 4.5 } }
+        savannah = { set_variable = { which = arable_land value = 4 } }
+        steppe = { set_variable = { which = arable_land value = 4.5 } }
+        deepwoods = { set_variable = { which = arable_land value = 3.5 } }
+        deepwoods_city = { set_variable = { which = arable_land value = 7.5 } }
+        glassy_plains = { set_variable = { which = arable_land value = 0.5 } }
+        vitaite_hills = { set_variable = { which = arable_land value = 2 } }
+        redmarsh = { set_variable = { which = arable_land value = 3.5 } }
+        great_bridge = { set_variable = { which = arable_land value = 3 } }
+        great_mountain_pass = { set_variable = { which = arable_land value = 3 } }
     }
 
-    # Food Production Bonuses/Maluses
-    change_variable = { which = fpp value = -1 } #for applying multipliers
-
-    #Additive Tech
+    #If Coastal, increase arable land by 1
     if = {
         limit = {
-            is_empty = no
+            has_port = yes
         }
-        owner = {
-            PREV = {
-                set_variable = { which = fpp_add which = PREV }
-                change_variable = { which = fpp which = fpp_add }
-                set_variable = { which = fpp_add value = 0 }
-            }
-        }
-    }
-
-    #If Coastal, gain a boost
-    if = {
-        limit = {
-            is_port = yes
-        }
-        change_variable = { which = fpp value = 0.02 }
+        change_variable = { which = arable_land value = 1 }
     }
     
     #If producing some sort of food, gain a boost
@@ -383,57 +209,18 @@ Pops_GetBaseFoodProduction = {
                 trade_goods = kurrak
             }
         }
-        change_variable = { which = fpp value = 0.01 }
-        multiply_variable = { which = fpp value = 1.25 }
+        change_variable = { which = arable_land value = 1 }
     }
 
-    if = {
-        limit = {
-            has_climate = arctic
-        }
-        multiply_variable = { which = fpp value = 0.66 }
-    }
-    if = {
-        limit = {
-            has_climate = arid
-        }
-        multiply_variable = { which = fpp value = 0.75 }
-    }
-    if = {
-        limit = {
-            has_climate = tropical
-        }
-        multiply_variable = { which = fpp value = 1.1 }
-    }
-
-    #Multiplicative Tech
-    if = {
-        limit = {
-            is_empty = no
-        }
-        owner = {
-            PREV = {
-                set_variable = { which = fpp_mod which = PREV }
-                change_variable = { which = fpp_mod value = 1 }
-                multiply_variable = { which = fpp which = fpp_mod }
-                set_variable = { which = fpp_mod value = 0 }
-            }
-        }
-    }
-
-    change_variable = { which = fpp value = 1 } #for applying multipliers
+	trigger_switch = {
+		on_trigger = has_climate
+		arctic = { subtract_variable = { which = arable_land value = 1.0 } }
+		arid = { subtract_variable = { which = arable_land value = 1.0 } }
+		tropical = { change_variable = { which = arable_land value = 1.0 } }
+	}
 }
-
-Pops_GetAgriculturalEfficiency = {
+agri_eff_calc = {
     set_variable = { which = agri_eff which = agri_eff_base }
-    
-    export_to_variable = {
-        which = t_2
-        value = base_production
-    }
-    multiply_variable = { which = t_2 value = 1 }
-    change_variable = { which = agri_eff which = t_2 }
-    set_variable = { which = t_2 value = 0 }
     
     #Additive Tech
     if = {
@@ -450,98 +237,643 @@ Pops_GetAgriculturalEfficiency = {
     }
 }
 
-Pops_GetFoodProduction = {
-    Pops_GetBaseFoodProduction = yes
-    Pops_GetAgriculturalEfficiency = yes
+update_pop_total = {
+    
+    export_to_variable = {
+        which = middle_pop_total
+        value = base_tax
+    }
+    export_to_variable = {
+        which = working_pop_total
+        value = base_production
+    }
+    export_to_variable = {
+        which = lower_pop_total
+        value = base_manpower
+    }
 
-    # t_1 is the exponent & resulting value from e^( -(2 - Agri_Eff)*(Rural Pop) / 350 )
-    set_variable = { which = t_1 which = agri_eff }
-    multiply_variable = { which = t_1 value = -0.01 }
-    change_variable = { which = t_1 value = 2 }
-    multiply_variable = { which = t_1 which = rural_pop }
-    divide_variable = { which = t_1 value = 350 }
-    power_e = { value = t_1 }
-
-    set_variable = { which = food_prod which = fpp }
-    multiply_variable = { which = food_prod which = rural_pop }
-    divide_variable = { which = food_prod which = t_1 }
-
-    set_variable = { which = t_1 value = 0 }
+    change_variable = { which = middle_pop_total which = middle_growth }
+    change_variable = { which = working_pop_total which = working_growth }
+    change_variable = { which = lower_pop_total which = lower_growth }
+    
+	set_variable = { which = total_pop which = middle_pop_total }
+	change_variable = { which = total_pop which = working_pop_total }
+	change_variable = { which = total_pop which = lower_pop_total }
+	multiply_variable = { which = total_pop value = 5 }
 }
 
-Pops_GetUrbanPercent = {
+lower_cap_calc = {
+    set_variable = { which = lower_cap_base which = arable_land }
+    set_variable = { which = lower_cap_modifier value = 1 }
+    
+    set_variable = { which = t_0 value = 100 }
+    change_variable = { which = t_0 which = agri_eff }
+    divide_variable = { which = t_0 value = 100 }
+    divide_variable = { which = lower_cap_base which = t_0 }
+    set_variable = { which = t_0 value = 0 }
+
+	##################################################################################################################################################################
+	
+	### SOURCES ###													### LOWER CLASS CAPACITY BASE ###
+	
+	trigger_switch = {
+		on_trigger = has_building
+		port = { change_variable = { which = lower_cap_base value = 1.0 } }
+		dockland = { change_variable = { which = lower_cap_base value = 2.0 } }
+		wharf = { change_variable = { which = lower_cap_base value = 3.0 } }
+		harbor_district = { change_variable = { which = lower_cap_base value = 4.0 } }
+	}
+
+    lower_cap_modifiers = yes
+
+    set_variable = { which = lower_cap_total which = lower_cap_base }
+    multiply_variable = { which = lower_cap_total which = lower_cap_modifier }
+}
+working_cap_calc = {
+    set_variable = { which = working_cap_base value = 0 }
+    set_variable = { which = working_cap_modifier value = 1 }
+
+	##################################################################################################################################################################
+	
+	### SOURCES ###													### WORKING CLASS CAPACITY BASE ###
+
+	trigger_switch = {
+		on_trigger = province_has_center_of_trade_of_level
+		3 = { change_variable = { which = working_cap_base value = 2.0 } change_variable = { which = working_cap_modifier value = 0.3 } }
+		2 = { change_variable = { which = working_cap_base value = 1.0 } change_variable = { which = working_cap_modifier value = 0.2 } }
+		1 = { change_variable = { which = working_cap_base value = 0.5 } change_variable = { which = working_cap_modifier value = 0.1 } }
+	}
+
     if = {
         limit = {
-            has_terrain = great_bridge
+            has_province_modifier = yhenil_bridge
         }
-        set_variable = { which = urban_percent value = 1 }
+        change_variable = { which = working_cap_base value = 1.0 }
     }
-    else = {
-        export_to_variable = {
-            which = t_1
-            value = base_tax
-        }
-        export_to_variable = {
-            which = t_2
-            value = base_production
-        }
-        export_to_variable = {
-            which = t_3
-            value = base_manpower
-        }
-        multiply_variable = { which = t_1 value = 0.25 }
-        multiply_variable = { which = t_2 value = 0.25 }
-        multiply_variable = { which = t_3 value = 1 }
 
-        set_variable = { which = urban_percent which = t_1 }
-        change_variable = { which = urban_percent which = t_2 }
-        change_variable = { which = urban_percent which = t_3 }
-        divide_variable = { which = urban_percent value = 100 }
-        set_variable = { which = t_1 value = 0 }
-        set_variable = { which = t_2 value = 0 }
-        set_variable = { which = t_3 value = 0 }
 
-        if = {
-            limit = {
-                province_has_center_of_trade_of_level = 1
-            }
-            if = {
-                limit = {
-                    province_has_center_of_trade_of_level = 3
-                }
-                change_variable = { which = urban_percent value = 0.1 }
-            }
-            else_if = {
-                limit = {
-                    province_has_center_of_trade_of_level = 2
-                }
-                change_variable = { which = urban_percent value = 0.04 }
-            }
-            else = {
-                change_variable = { which = urban_percent value = 0.01 }
-            }
-        }
+    ### BUILDINGS ###
 
-        if = {
-            limit = {
-                OR = {
-                    trade_goods = cloth
-                    trade_goods = machinery
-                    trade_goods = spirl
-                    trade_goods = glass
-                    trade_goods = paper
-                    trade_goods = ceramics
-                    trade_goods = manufactured_goods
-                }
-            }
-            change_variable = { which = urban_percent value = 0.02 }
+	trigger_switch = {
+		on_trigger = has_building
+		marketplace = { change_variable = { which = working_cap_base value = 0.5 } change_variable = { which = working_cap_modifier value = 0.1 } }
+		trade_depot = { change_variable = { which = working_cap_base value = 1.0 } change_variable = { which = working_cap_modifier value = 0.15 } }
+		merchants_quarter = { change_variable = { which = working_cap_base value = 1.5 } change_variable = { which = working_cap_modifier value = 0.15 } }
+		customs_house = { change_variable = { which = working_cap_base value = 2.0 } change_variable = { which = working_cap_modifier value = 0.15 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		mint = { change_variable = { which = working_cap_base value = 0.3 } }
+		bank = { change_variable = { which = working_cap_base value = 0.5 } }
+		stock_exchange = { change_variable = { which = working_cap_base value = 0.5 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		airdock = { change_variable = { which = working_cap_base value = 0.2 } }
+		airship_maintenance_bay = { change_variable = { which = working_cap_base value = 0.3 } }
+		airship_terminal = { change_variable = { which = working_cap_base value = 0.8 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		shrine = { change_variable = { which = working_cap_base value = 0.2 } }
+		temple = { change_variable = { which = working_cap_base value = 0.3 } }
+		cathedral = { change_variable = { which = working_cap_base value = 0.4 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		town_square = { change_variable = { which = working_cap_base value = 1.0 } }
+		courthouse = { change_variable = { which = working_cap_base value = 1.5 } }
+		town_hall = { change_variable = { which = working_cap_base value = 2.0 } }
+		post_office = { change_variable = { which = working_cap_base value = 3.0 } }
+		city_hall = { change_variable = { which = working_cap_base value = 4.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		port = { change_variable = { which = working_cap_base value = 0.5 } }
+		dockland = { change_variable = { which = working_cap_base value = 1.5 } }
+		wharf = { change_variable = { which = working_cap_base value = 3.0 } }
+		harbor_district = { change_variable = { which = working_cap_base value = 5.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		shipwright = { change_variable = { which = working_cap_base value = 0.5 } }
+		drydock = { change_variable = { which = working_cap_base value = 1.5 } }
+		naval_arsenal = { change_variable = { which = working_cap_base value = 3.0 } }
+		naval_base = { change_variable = { which = working_cap_base value = 5.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		workshop = { change_variable = { which = working_cap_base value = 1.0 } }
+		artisans_guild = { change_variable = { which = working_cap_base value = 2.0 } }
+		craftsmans_district = { change_variable = { which = working_cap_base value = 5.0 } }
+		industrial_zone = { change_variable = { which = working_cap_base value = 10.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		alchemist_shop = { change_variable = { which = working_cap_base value = 1.0 } }
+		transfumatory = { change_variable = { which = working_cap_base value = 2.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		barracks = { change_variable = { which = working_cap_base value = 0.4 } }
+		training_fields = { change_variable = { which = working_cap_base value = 1.0 } }
+		military_academy = { change_variable = { which = working_cap_base value = 2.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		regimental_camp = { change_variable = { which = working_cap_base value = 0.5 } }
+		conscription_center = { change_variable = { which = working_cap_base value = 1.0 } }
+		mobilization_system = { change_variable = { which = working_cap_base value = 1.5 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		taxman = { change_variable = { which = working_cap_base value = 0.4 } }
+		tax_office = { change_variable = { which = working_cap_base value = 0.8 } }
+		tax_agency = { change_variable = { which = working_cap_base value = 1.2 } }
+		revenue_department = { change_variable = { which = working_cap_base value = 1.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		fort_14th = { change_variable = { which = working_cap_base value = 0.1 } }
+		fort_15th = { change_variable = { which = working_cap_base value = 0.2 } }
+		fort_16th = { change_variable = { which = working_cap_base value = 0.4 } }
+		fort_17th = { change_variable = { which = working_cap_base value = 0.6 } }
+		fort_18th = { change_variable = { which = working_cap_base value = 0.8 } }
+		fort_19th = { change_variable = { which = working_cap_base value = 1.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		coastal_defence = { change_variable = { which = working_cap_base value = 0.1 } }
+		naval_battery = { change_variable = { which = working_cap_base value = 0.2 } }
+		naval_fortification = { change_variable = { which = working_cap_base value = 0.4 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		gravel_roads = { change_variable = { which = working_cap_base value = 0.2 } change_variable = { which = working_cap_modifier value = 0.1 } }
+		paved_roads = { change_variable = { which = working_cap_base value = 0.4 } change_variable = { which = working_cap_modifier value = 0.2 } }
+		highways = { change_variable = { which = working_cap_base value = 0.8 } change_variable = { which = working_cap_modifier value = 0.3 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		canals = { change_variable = { which = working_cap_base value = 0.5 } change_variable = { which = working_cap_modifier value = 0.05 } }
+		railroads = { change_variable = { which = working_cap_base value = 1.0 } change_variable = { which = working_cap_modifier value = 0.15 } }
+		railroad_network = { change_variable = { which = working_cap_base value = 2.0 } change_variable = { which = working_cap_modifier value = 0.3 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		school = { change_variable = { which = working_cap_base value = 0.5 } }
+		university = { change_variable = { which = working_cap_base value = 0.5 } }
+		research_center = { change_variable = { which = working_cap_base value = 0.5 } }
+	}
+
+	# trigger_switch = {
+	# 	on_trigger = has_building
+	# 	art_corporation = { change_variable = { which = urban_gravity_base value = 0.2 } change_variable = { which = urban_gravity_percentage value = 0.05 } change_variable = { which = wealth_urban_as_asset value = 200 } }
+	# 	fine_arts_academy = { change_variable = { which = urban_gravity_base value = 0.4 } change_variable = { which = urban_gravity_percentage value = 0.10 } change_variable = { which = wealth_urban_as_asset value = 500 } }
+	# 	opera = { change_variable = { which = urban_gravity_base value = 0.6 } change_variable = { which = urban_gravity_percentage value = 0.15 } change_variable = { which = wealth_urban_as_asset value = 900 } }
+	# }
+
+    working_cap_modifiers = yes
+    
+    set_variable = { which = working_cap_total which = working_cap_base }
+    multiply_variable = { which = working_cap_total which = working_cap_modifier }
+}
+middle_cap_calc = {
+    set_variable = { which = middle_cap_base value = 0 }
+    set_variable = { which = middle_cap_modifier value = 1 }
+
+	##################################################################################################################################################################
+	
+	### SOURCES ###													### MIDDLE CLASS CAPACITY BASE ###
+
+	trigger_switch = {
+		on_trigger = province_has_center_of_trade_of_level
+		3 = { change_variable = { which = middle_cap_base value = 1.0 } change_variable = { which = middle_cap_modifier value = 0.3 } }
+		2 = { change_variable = { which = middle_cap_base value = 0.5 } change_variable = { which = middle_cap_modifier value = 0.2 } }
+		1 = { change_variable = { which = middle_cap_base value = 0.0 } change_variable = { which = middle_cap_modifier value = 0.1 } }
+	}
+
+    if = {
+        limit = {
+            has_province_modifier = yhenil_bridge
         }
+        change_variable = { which = middle_cap_base value = 1.0 }
     }
+
+
+    ### BUILDINGS ###
+
+	trigger_switch = {
+		on_trigger = has_building
+		marketplace = { change_variable = { which = middle_cap_base value = 0.2 } change_variable = { which = middle_cap_modifier value = 0.05 } }
+		trade_depot = { change_variable = { which = middle_cap_base value = 0.5 } change_variable = { which = middle_cap_modifier value = 0.05 } }
+		merchants_quarter = { change_variable = { which = middle_cap_base value = 1.0 } change_variable = { which = middle_cap_modifier value = 0.1 } }
+		customs_house = { change_variable = { which = middle_cap_base value = 3.0 } change_variable = { which = middle_cap_modifier value = 0.15 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		mint = { change_variable = { which = middle_cap_base value = 0.0 } }
+		bank = { change_variable = { which = middle_cap_base value = 0.5 } }
+		stock_exchange = { change_variable = { which = middle_cap_base value = 2.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		airdock = { change_variable = { which = middle_cap_base value = 0.2 } change_variable = { which = middle_cap_modifier value = 0.05 } }
+		airship_maintenance_bay = { change_variable = { which = middle_cap_base value = 0.5 } change_variable = { which = middle_cap_modifier value = 0.1 } }
+		airship_terminal = { change_variable = { which = middle_cap_base value = 2.0 } change_variable = { which = middle_cap_modifier value = 0.2 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		shrine = { change_variable = { which = middle_cap_base value = 0.0 } }
+		temple = { change_variable = { which = middle_cap_base value = 0.1 } }
+		cathedral = { change_variable = { which = middle_cap_base value = 0.2 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		town_square = { change_variable = { which = middle_cap_base value = 0.1 } }
+		courthouse = { change_variable = { which = middle_cap_base value = 0.5 } }
+		town_hall = { change_variable = { which = middle_cap_base value = 1.0 } }
+		post_office = { change_variable = { which = middle_cap_base value = 2.0 } }
+		city_hall = { change_variable = { which = middle_cap_base value = 4.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		port = { change_variable = { which = middle_cap_base value = 0.1 } }
+		dockland = { change_variable = { which = middle_cap_base value = 0.5 } }
+		wharf = { change_variable = { which = middle_cap_base value = 1.0 } }
+		harbor_district = { change_variable = { which = middle_cap_base value = 3.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		shipwright = { change_variable = { which = middle_cap_base value = 0.1 } }
+		drydock = { change_variable = { which = middle_cap_base value = 0.3 } }
+		naval_arsenal = { change_variable = { which = middle_cap_base value = 0.8 } }
+		naval_base = { change_variable = { which = middle_cap_base value = 2.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		workshop = { change_variable = { which = middle_cap_base value = 0.2 } }
+		artisans_guild = { change_variable = { which = middle_cap_base value = 0.5 } }
+		craftsmans_district = { change_variable = { which = middle_cap_base value = 2.0 } }
+		industrial_zone = { change_variable = { which = middle_cap_base value = 5.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		alchemist_shop = { change_variable = { which = middle_cap_base value = 1.0 } }
+		transfumatory = { change_variable = { which = middle_cap_base value = 5.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		barracks = { change_variable = { which = middle_cap_base value = 0.0 } }
+		training_fields = { change_variable = { which = middle_cap_base value = 0.2 } }
+		military_academy = { change_variable = { which = middle_cap_base value = 1.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		regimental_camp = { change_variable = { which = middle_cap_base value = 0.1 } }
+		conscription_center = { change_variable = { which = middle_cap_base value = 0.5 } }
+		mobilization_system = { change_variable = { which = middle_cap_base value = 1.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		taxman = { change_variable = { which = middle_cap_base value = 0.1 } }
+		tax_office = { change_variable = { which = middle_cap_base value = 0.2 } }
+		tax_agency = { change_variable = { which = middle_cap_base value = 0.5 } }
+		revenue_department = { change_variable = { which = middle_cap_base value = 1.0 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		fort_14th = { change_variable = { which = middle_cap_base value = 0.0 } }
+		fort_15th = { change_variable = { which = middle_cap_base value = 0.0 } }
+		fort_16th = { change_variable = { which = middle_cap_base value = 0.1 } }
+		fort_17th = { change_variable = { which = middle_cap_base value = 0.2 } }
+		fort_18th = { change_variable = { which = middle_cap_base value = 0.3 } }
+		fort_19th = { change_variable = { which = middle_cap_base value = 0.5 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		coastal_defence = { change_variable = { which = middle_cap_base value = 0.0 } }
+		naval_battery = { change_variable = { which = middle_cap_base value = 0.0 } }
+		naval_fortification = { change_variable = { which = middle_cap_base value = 0.1 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		gravel_roads = { change_variable = { which = middle_cap_base value = 0.0 } change_variable = { which = middle_cap_modifier value = 0.05 } }
+		paved_roads = { change_variable = { which = middle_cap_base value = 0.1 } change_variable = { which = middle_cap_modifier value = 0.1 } }
+		highways = { change_variable = { which = middle_cap_base value = 0.5 } change_variable = { which = middle_cap_modifier value = 0.15 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		canals = { change_variable = { which = middle_cap_base value = 0.3 } change_variable = { which = middle_cap_modifier value = 0.05 } }
+		railroads = { change_variable = { which = middle_cap_base value = 1.0 } change_variable = { which = middle_cap_modifier value = 0.15 } }
+		railroad_network = { change_variable = { which = middle_cap_base value = 3.0 } change_variable = { which = middle_cap_modifier value = 0.3 } }
+	}
+
+	trigger_switch = {
+		on_trigger = has_building
+		school = { change_variable = { which = middle_cap_base value = 0.5 } change_variable = { which = middle_cap_modifier value = 0.05 } }
+		university = { change_variable = { which = middle_cap_base value = 2.0 } change_variable = { which = middle_cap_modifier value = 0.15 } }
+		research_center = { change_variable = { which = middle_cap_base value = 4.0 } change_variable = { which = middle_cap_modifier value = 0.20 } }
+	}
+
+	# trigger_switch = {
+	# 	on_trigger = has_building
+	# 	art_corporation = { change_variable = { which = urban_gravity_base value = 0.2 } change_variable = { which = urban_gravity_percentage value = 0.05 } change_variable = { which = wealth_urban_as_asset value = 200 } }
+	# 	fine_arts_academy = { change_variable = { which = urban_gravity_base value = 0.4 } change_variable = { which = urban_gravity_percentage value = 0.10 } change_variable = { which = wealth_urban_as_asset value = 500 } }
+	# 	opera = { change_variable = { which = urban_gravity_base value = 0.6 } change_variable = { which = urban_gravity_percentage value = 0.15 } change_variable = { which = wealth_urban_as_asset value = 900 } }
+	# }
+
+    middle_cap_modifiers = yes
+    
+    set_variable = { which = middle_cap_total which = middle_cap_base }
+    multiply_variable = { which = middle_cap_total which = middle_cap_modifier }
 }
 
-Pops_GetPopStats = {
-    set_variable = { which = total_pop which = rural_pop }
-    change_variable = { which = total_pop which = urban_pop }
+pops_growth_calc = {
+    # $food_balance_percentage$
+
+    if = {
+        limit = {
+            check_variable = { which = $food_balance_percentage$ value = 0 }
+        }
+        #Growth
+        set_variable = { which = middle_growth_rate which = middle_pop_total }
+        multiply_variable = { which = middle_growth_rate value = 0.01 } # 1% yearly growth rate
+
+        set_variable = { which = t_0 which = middle_cap_total }
+        subtract_variable = { which = t_0 which = middle_pop_total }
+        if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 0 } }
+            }
+            multiply_variable = { which = middle_growth_rate value = 0.25 }
+            if = {
+                limit = {
+                    NOT = { check_variable = { which = t_0 value = -1 } }
+                }
+                multiply_variable = { which = middle_growth_rate value = 0.4 }
+                if = {
+                    limit = {
+                        NOT = { check_variable = { which = t_0 value = -2 } }
+                    }
+                    multiply_variable = { which = middle_growth_rate value = 0.5 }
+                }
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 1.0 } }
+            }
+            multiply_variable = { which = middle_growth_rate value = 0.5 }
+        }
+
+        set_variable = { which = working_growth_rate which = working_pop_total }
+        multiply_variable = { which = working_growth_rate value = 0.03 } # 3% yearly growth rate
+
+        set_variable = { which = t_0 which = working_cap_total }
+        subtract_variable = { which = t_0 which = working_pop_total }
+        if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 0 } }
+            }
+            multiply_variable = { which = working_growth_rate value = 0.1 }
+            if = {
+                limit = {
+                    NOT = { check_variable = { which = t_0 value = -1 } }
+                }
+                multiply_variable = { which = working_growth_rate value = 0.1 }
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 1.0 } }
+            }
+            multiply_variable = { which = working_growth_rate value = 0.5 }
+        }
+        
+        set_variable = { which = lower_growth_rate which = lower_pop_total }
+        multiply_variable = { which = lower_growth_rate value = 0.06 } # 6% yearly growth rate
+
+        set_variable = { which = t_0 which = lower_cap_total }
+        subtract_variable = { which = t_0 which = lower_pop_total }
+        if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 0 } }
+            }
+            multiply_variable = { which = lower_growth_rate value = 0.1 }
+            if = {
+                limit = {
+                    NOT = { check_variable = { which = t_0 value = -1 } }
+                }
+                multiply_variable = { which = lower_growth_rate value = 0.1 }
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 1.0 } }
+            }
+            multiply_variable = { which = lower_growth_rate value = 0.5 }
+        }
+        else_if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 2.0 } }
+            }
+            multiply_variable = { which = lower_growth_rate value = 0.25 }
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = { which = $food_balance_percentage$ value = -0.25 }
+        }
+        #Stagnation
+        set_variable = { which = middle_growth_rate value = 0 }
+        set_variable = { which = working_growth_rate which = 0 }
+
+        set_variable = { which = lower_growth_rate which = lower_pop_total }
+        multiply_variable = { which = lower_growth_rate value = 0.01 } # 1% yearly growth rate
+
+        set_variable = { which = t_0 which = lower_cap_total }
+        subtract_variable = { which = t_0 which = lower_pop_total }
+        if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 0 } }
+            }
+            multiply_variable = { which = lower_growth_rate value = 0.1 }
+            if = {
+                limit = {
+                    NOT = { check_variable = { which = t_0 value = -1 } }
+                }
+                multiply_variable = { which = lower_growth_rate value = 0.1 }
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 1.0 } }
+            }
+            multiply_variable = { which = lower_growth_rate value = 0.5 }
+        }
+        else_if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 2.0 } }
+            }
+            multiply_variable = { which = lower_growth_rate value = 0.25 }
+        }
+
+    }
+    else = {
+        #Starvation
+        set_variable = { which = middle_growth_rate which = middle_pop_total }
+        multiply_variable = { which = middle_growth_rate value = -0.07 } # -7% yearly growth rate
+        set_variable = { which = t_0 which = middle_cap_total }
+        subtract_variable = { which = t_0 which = middle_pop_total }
+        if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 0 } }
+            }
+            subtract_variable = { which = middle_growth_rate value = 0.05 } #-12%
+            if = {
+                limit = {
+                    NOT = { check_variable = { which = t_0 value = -1 } }
+                }
+                subtract_variable = { which = middle_growth_rate value = 0.08 } #-20%
+            }
+        }
+
+        set_variable = { which = working_growth_rate which = working_pop_total }
+        multiply_variable = { which = working_growth_rate value = -0.1 } # -10% yearly growth rate
+        set_variable = { which = t_0 which = working_cap_total }
+        subtract_variable = { which = t_0 which = working_pop_total }
+        if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 0 } }
+            }
+            subtract_variable = { which = working_growth_rate value = 0.05 } #-15%
+            if = {
+                limit = {
+                    NOT = { check_variable = { which = t_0 value = -1 } }
+                }
+                subtract_variable = { which = working_growth_rate value = 0.1 } #-25%
+            }
+        }
+
+        
+        set_variable = { which = lower_growth_rate which = lower_pop_total }
+        multiply_variable = { which = lower_growth_rate value = -0.05 } # -5% yearly growth rate
+        set_variable = { which = t_0 which = lower_cap_total }
+        subtract_variable = { which = t_0 which = lower_pop_total }
+        if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = 0 } }
+            }
+            subtract_variable = { which = lower_growth_rate value = 0.05 } #-10%
+            if = {
+                limit = {
+                    NOT = { check_variable = { which = t_0 value = -2 } }
+                }
+                subtract_variable = { which = lower_growth_rate value = 0.05 } #-15%
+            }
+        }
+
+        if = {
+            limit = {
+                NOT = { check_variable = { which = $food_balance_percentage$ value = -0.5 } }
+            }
+            #Double the rate
+            multiply_variable = { which = middle_growth_rate value = 2 }
+            multiply_variable = { which = working_growth_rate value = 2 }
+            multiply_variable = { which = lower_growth_rate value = 2 }
+            if = {
+                limit = {
+                    NOT = { check_variable = { which = $food_balance_percentage$ value = -0.75 } }
+                }
+                #Double the rate again
+                multiply_variable = { which = middle_growth_rate value = 2 }
+                multiply_variable = { which = working_growth_rate value = 2 }
+                multiply_variable = { which = lower_growth_rate value = 2 }
+            }
+        }
+    }
+    
+    change_variable = { which = middle_growth which = middle_growth_rate }
+    if = {
+        limit = {
+            check_variable = { which = middle_growth value = 1 }
+        }
+        subtract_variable = { which = middle_growth value = 1 }
+        add_base_tax = 1
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { which = middle_growth value = 0 } }
+        }
+        change_variable = { which = middle_growth value = 1 }
+        add_base_tax = -1
+    }
+
+    change_variable = { which = working_growth which = working_growth_rate }
+    if = {
+        limit = {
+            check_variable = { which = working_growth value = 1 }
+        }
+        subtract_variable = { which = working_growth value = 1 }
+        add_base_production = 1
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { which = working_growth value = 0 } }
+        }
+        change_variable = { which = working_growth value = 1 }
+        add_base_production = -1
+    }
+
+    change_variable = { which = lower_growth which = lower_growth_rate }
+    if = {
+        limit = {
+            check_variable = { which = lower_growth value = 1 }
+        }
+        subtract_variable = { which = lower_growth value = 1 }
+        add_base_manpower = 1
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { which = lower_growth value = 0 } }
+        }
+        change_variable = { which = lower_growth value = 1 }
+        add_base_manpower = -1
+    }
+
+    update_pop_total = yes
 }
 
 #National

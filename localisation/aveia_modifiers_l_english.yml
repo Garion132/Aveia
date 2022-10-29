@@ -119,7 +119,7 @@
  asemont_fortress_complex:0 "Asemont Fortress Complex"
  desc_asemont_fortress_complex:0 "Surrounding the Asemont Copper Mines are a series of fortresses built in strategic locations. The complex boasts professional garrisons, modern weaponry, along with supplies to last. Additionally, A series of beacons to the capitol have been built so any major threat to the mines can be relayed instantly. The copper must flow."
  yhenil_bridge:0 "Yhenil Bridge"
- desc_yhenil_bridge:0 "The Yhenil Bridge provides passage over the 25 mile wide mouth of the Anillelerien River. It is constructed with massive stone archways that support houses, shops, and industries alike. Four large wooden drawbridges allow sailing ships to pass through the bridge. Each side is guarded by massive stone gates protecting the entrances to the city. The centerpiece is the Elisilon Palace, which sits atop the middle of the north-side bridge and gazes out upon the ocean. It has given desperately needed breathing room for the rapidly expanding trade hub, however, further widening of the bridge may be necessary."
+ desc_yhenil_bridge:0 "Working Class Capacity: §G+1.0§!\nMiddle Class Capacity: §G+1.0§!\n\nThe Yhenil Bridge provides passage over the 25 mile wide mouth of the Anillelerien River. It is constructed with massive stone archways that support houses, shops, and industries alike. Four large wooden drawbridges allow sailing ships to pass through the bridge. Each side is guarded by massive stone gates protecting the entrances to the city. The centerpiece is the Elisilon Palace, which sits atop the middle of the north-side bridge and gazes out upon the ocean. It has given desperately needed breathing room for the rapidly expanding trade hub, however, further widening of the bridge may be necessary."
  dreghei_mines:0 "Dreghei Mines"
  desc_dreghei_mines:0 "The Dunirrian Mines in Dreghei provide much of the world's source of tin, copper, silver, and various other metals and mined materials."
  doninas_city:0 "Doninas City"
@@ -152,6 +152,9 @@
  desc_elteria_colonial_office:0 "We have opened a colonial office to allow settlers in our homeland to more easily access funds for a voyage to Elteria/"
  remote_lands_of_juluia:0 "Remote Lands of Juluia"
  desc_remote_lands_of_juluia:0 "Juluia's remoteness on the other side of the globe from civilization makes it remarkably difficult to colonize."
+
+ enheasrion_plains:0 "Enheasrion Plains"
+ desc_enheasrion_plains:0 "Lower Class Capacity Modifier: §R-50.0%§!\n\nThe plains of the Enheasrion Basin can be tough to farm and difficult to work with. While rainfall is decent, only the areas around the rivers themselves are soft enough to easily plow. In addition to the hard soils, the soils beyond the rivers also seem to not have many plants that are able to be farmed there. Many of the grains and vegetables grown in the Lower Basin are hard to grow in the Upper Basin or simply fail to grow at all.\n\nOnly if we can find better plows and more suitable crops can we truly farm and live in these regions."
 
 
  changurdur_estuary_modifier:0 "Changurdur Estuary"

@@ -8,9 +8,9 @@ religion = tlaunorist #Fetishism
 capital = "Ventoral"
 trade_goods = naval_supplies
 hre = no
-base_tax = 3
-base_production = 4
-base_manpower = 1
+base_tax = 0
+base_production = 1
+base_manpower = 9
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group
 discovered_by = free_kolbolds_group
@@ -19,3 +19,6 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 center_of_trade = 1
 extra_cost = 8
+
+port = yes
+set_variable = { which = arable_land value = 8 }

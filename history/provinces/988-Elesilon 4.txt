@@ -6,10 +6,10 @@ controller = ELE
 culture = edailian
 religion = tlaunorist
 hre = no
-base_tax = 20
-base_production = 6
+base_tax = 4
+base_production = 11
 trade_goods = dyes
-base_manpower = 9
+base_manpower = 4
 capital = "Yhenil"
 is_city = yes
 discovered_by = lake_elves_group
@@ -21,9 +21,14 @@ discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 3
 fort_14th = yes
+marketplace = yes
+workshop = yes
 port = yes
 shipwright = yes
+gravel_roads = yes
+taxman = yes
 town_square = yes
+mint = yes
 
 add_permanent_province_modifier = {
 	name = yhenil_bridge
@@ -34,8 +39,5 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-set_province_flag = manual_pop
 set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 13.4 }
-set_variable = { which = urban_pop value = 24.2 }
 set_variable = { which = agri_eff_base value = 20 }

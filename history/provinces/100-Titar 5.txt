@@ -6,10 +6,10 @@ controller = MAT
 culture = kyathian
 religion = tlaunorist
 hre = no
-base_tax = 3
-base_production =3
+base_tax = 0
+base_production = 0
 trade_goods = ceramics
-base_manpower = 4
+base_manpower = 7
 capital = "Titar 5"
 is_city = yes
 discovered_by = lake_elves_group
@@ -19,9 +19,5 @@ discovered_by = free_kolbolds_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 18.0 }
-set_variable = { which = urban_pop value = 0.5 }
-set_variable = { which = agri_eff_base value = 10 }
+gravel_roads = yes
+set_variable = { which = arable_land value = 7 }

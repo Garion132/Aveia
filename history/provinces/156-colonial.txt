@@ -7,12 +7,14 @@ religion = drethalumia #Fetishism
 capital = "Accra"
 trade_goods = silver
 hre = no
-base_tax = 2
-base_production = 3
-base_manpower = 2
+base_tax = 0
+base_production = 1
+base_manpower = 6
 native_size = 50
 native_ferocity = 4
 native_hostileness = 9
 discovered_by = free_fauns_group
 extra_cost = 8
-
+gravel_roads = yes
+town_square = yes
+set_variable = { which = arable_land value = 6 }

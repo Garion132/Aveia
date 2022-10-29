@@ -6,10 +6,10 @@ controller = KYA
 culture = kyathian
 religion = tlaunorist
 hre = no
-base_tax = 6
-base_production = 5
+base_tax = 1
+base_production = 4
 trade_goods = paper
-base_manpower = 8
+base_manpower = 10
 capital = "Kajhyrhei"
 is_city = yes
 discovered_by = lake_elves_group
@@ -22,11 +22,9 @@ extra_cost = 0
 center_of_trade = 2
 fort_14th = yes
 port = yes
-taxman = yes
+shipwright = yes
 gravel_roads = yes
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 29.7 }
-set_variable = { which = urban_pop value = 19.8 }
-set_variable = { which = agri_eff_base value = 20 }
+taxman = yes
+town_square = yes
+mint = yes
+set_variable = { which = arable_land value = 10 }

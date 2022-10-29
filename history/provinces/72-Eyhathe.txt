@@ -11,8 +11,8 @@ add_core = IND
 culture = indorran
 religion = tlaunorist
 hre = no
-base_tax = 3
-base_production = 3
+base_tax = 0
+base_production = 2
 trade_goods = naval_supplies
 base_manpower = 4
 capital = "Eyhathe"
@@ -26,9 +26,6 @@ discovered_by = dunirr_group
 extra_cost = 0
 fort_14th = yes
 center_of_trade = 1
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 7.4 }
-set_variable = { which = urban_pop value = 4.4 }
-set_variable = { which = agri_eff_base value = 7 }
+gravel_roads = yes
+town_square = yes
+set_variable = { which = arable_land value = 4 }

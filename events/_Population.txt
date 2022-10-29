@@ -22,8 +22,16 @@ country_event = {
     immediate = {
 		clr_global_flag = pop_pulse
 		set_global_flag = pop_pulse
-		every_country = {
-			Pops_DoNationalGrowth = yes
+		every_province = {
+			if = {
+				limit = {
+					is_empty = no
+				}
+				set_variable = { which = fbp value = 0.1 }
+				pops_growth_calc = { food_balance_percentage = fbp }
+				set_variable = { which = fbp value = 0 }
+        		update_pop_modifiers = yes
+			}
 		}
 	}
 
@@ -56,6 +64,24 @@ country_event = {
 
 	option = { #I am not a guinea pig!
 		name = pop.1.op1
+		every_owned_province = {
+			set_variable = { which = fbp value = 0.1 }
+			pops_growth_calc = { food_balance_percentage = fbp }
+		}
+	}
+	option = { #I am not a guinea pig!
+		name = pop.1.op2
+		every_owned_province = {
+			set_variable = { which = fbp value = -0.1 }
+			pops_growth_calc = { food_balance_percentage = fbp }
+		}
+	}
+	option = { #I am not a guinea pig!
+		name = pop.1.op3
+		every_owned_province = {
+			set_variable = { which = fbp value = -0.3 }
+			pops_growth_calc = { food_balance_percentage = fbp }
+		}
 	}
 }
 

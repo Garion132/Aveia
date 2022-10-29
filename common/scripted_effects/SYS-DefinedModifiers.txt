@@ -1,0 +1,23 @@
+# Use a trigger switch if the modifiers are mutually exclusive. Otherwise use if-statements.
+
+
+## PROVINCE ##
+    lower_cap_modifiers = {
+        # lower_cap_base
+        # lower_cap_modifier
+        if = {
+            limit = {
+                has_province_modifier = enheasrion_plains
+            }
+            change_variable = { which = lower_cap_modifier value = -0.5 }
+        }
+    }
+    working_cap_modifiers = {
+        # working_cap_base
+        # working_cap_modifier
+    }
+    middle_cap_modifiers = {
+        # middle_cap_base
+        # middle_cap_modifier
+    }
+#

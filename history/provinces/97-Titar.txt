@@ -6,10 +6,10 @@ controller = TIT
 culture = kyathian
 religion = tlaunorist
 hre = no
-base_tax = 4
-base_production = 3
+base_tax = 0
+base_production = 1
 trade_goods = fish
-base_manpower = 4
+base_manpower = 5
 capital = "Titar"
 is_city = yes
 discovered_by = lake_elves_group
@@ -22,9 +22,4 @@ extra_cost = 0
 fort_14th = yes
 gravel_roads = yes
 taxman = yes
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 16.0 }
-set_variable = { which = urban_pop value = 2.0 }
-set_variable = { which = agri_eff_base value = 10 }
+set_variable = { which = arable_land value = 5 }

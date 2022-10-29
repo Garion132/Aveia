@@ -4,9 +4,9 @@ controller = IWE
 culture = yelioan
 religion = tlaunorist
 hre = no
-base_tax = 4
-base_production =1
-base_manpower = 2
+base_tax = 0
+base_production =0
+base_manpower = 3
 trade_goods = fish
 capital = "Sal 3"
 is_city = yes
@@ -19,8 +19,5 @@ discovered_by = dunirr_group
 extra_cost = 0
 fort_14th = yes
 
-set_province_flag = manual_pop
 set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 15.0 }
-set_variable = { which = urban_pop value = 0.0 }
 set_variable = { which = agri_eff_base value = 5 }

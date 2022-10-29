@@ -79,7 +79,7 @@
  MP_EDITING_CUSTOM_NATION:1 "$PLAYER|Y$ is editing a Custom Nation."
  MP_COUNTRY_INVALID:0 "The country selected by $PLAYER|Y$ does not exist anymore."
  PLAYER_NOW_IN_GAME:0 "$PLAYER|Y$ is now in the game."
- CONDENSED_PROV_MOD_PAPAL:0 "Commercial Development and buildings: $VAL$"
+ CONDENSED_PROV_MOD_PAPAL:0 "Middle Class Pop and buildings: $VAL$"
  CONDENSED_PROV_MOD:0 "Buildings in $NUM$ Provinces: $VAL$"
  ADMINISTRATIVE_EFFICIENCY:0 "Administrative Efficiency"
  April:0 "April"

@@ -6,10 +6,10 @@ controller = KYA
 culture = iwen
 religion = tlaunorist
 hre = no
-base_tax = 6
-base_production = 6
+base_tax = 1
+base_production = 5
 trade_goods = cloth
-base_manpower = 5
+base_manpower = 9
 capital = "Nalean"
 is_city = yes
 discovered_by = lake_elves_group
@@ -21,12 +21,10 @@ discovered_by = dunirr_group
 extra_cost = 0
 fort_14th = yes
 center_of_trade = 2
-taxman = yes
 port = yes
+shipwright = yes
 gravel_roads = yes
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 33.5 }
-set_variable = { which = urban_pop value = 13.6 }
-set_variable = { which = agri_eff_base value = 25 }
+taxman = yes
+town_square = yes
+mint = yes
+set_variable = { which = arable_land value = 9 }

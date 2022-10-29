@@ -7,9 +7,9 @@ add_core = KET
 culture = kenahi
 religion = tlaunorist
 hre = no
-base_tax = 4
-base_production = 5
-base_manpower = 4
+base_tax = 1
+base_production = 3
+base_manpower = 14
 trade_goods = copper
 capital = "Rau 3"
 is_city = yes
@@ -22,9 +22,8 @@ discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 2
 fort_14th = yes
+gravel_roads = yes
+taxman = yes
+town_square = yes
 
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 37.0 }
-set_variable = { which = urban_pop value = 5.5 }
-set_variable = { which = agri_eff_base value = 20 }
+set_variable = { which = arable_land value = 14 }

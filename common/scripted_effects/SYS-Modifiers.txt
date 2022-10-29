@@ -1,58 +1,59 @@
 #Visible Pop Modifier Code
 update_pop_modifiers = {
 	clear_pop_modifiers = yes
+
 	if = {
-		limit = { check_variable = { which = total_pop value = 8 } }
+		limit = { check_variable = { which = total_pop value = 16 } }
 		if = {
-			limit = { check_variable = { which = total_pop value = 32 } }
+			limit = { check_variable = { which = total_pop value = 64 } }
 			if = {
-				limit = { check_variable = { which = total_pop value = 128 } }
+				limit = { check_variable = { which = total_pop value = 256 } }
 				if = {
-					limit = { check_variable = { which = total_pop value = 256 } }
-					add_permanent_province_modifier = { name = pop_modifier_9 duration = -1 } # 256K
+					limit = { check_variable = { which = total_pop value = 512 } }
+					add_permanent_province_modifier = { name = pop_modifier_9 duration = -1 } # 512K
 				}
 				else = {
-					add_permanent_province_modifier = { name = pop_modifier_8 duration = -1 } # 128K
+					add_permanent_province_modifier = { name = pop_modifier_8 duration = -1 } # 256K
 				}
 			}
 			else = {
 				if = {
-					limit = { check_variable = { which = total_pop value = 64 } }
-					add_permanent_province_modifier = { name = pop_modifier_7 duration = -1 } # 64K
+					limit = { check_variable = { which = total_pop value = 128 } }
+					add_permanent_province_modifier = { name = pop_modifier_7 duration = -1 } # 128K
 				}
 				else = {
-					add_permanent_province_modifier = { name = pop_modifier_6 duration = -1 } # 32K
+					add_permanent_province_modifier = { name = pop_modifier_6 duration = -1 } # 64K
 				}
 			}
 		}
 		else = {
 			if = {
-				limit = { check_variable = { which = total_pop value = 16 } }
-				add_permanent_province_modifier = { name = pop_modifier_5 duration = -1 } # 16K
+				limit = { check_variable = { which = total_pop value = 32 } }
+				add_permanent_province_modifier = { name = pop_modifier_5 duration = -1 } # 32K
 			}
 			else = {
-				add_permanent_province_modifier = { name = pop_modifier_4 duration = -1 } # 8K
+				add_permanent_province_modifier = { name = pop_modifier_4 duration = -1 } # 16K
 			}
 		}
 	}
 	else = {
 		if = {
-			limit = { check_variable = { which = total_pop value = 2 } }
+			limit = { check_variable = { which = total_pop value = 4 } }
 			if = {
-				limit = { check_variable = { which = total_pop value = 4 } }
-				add_permanent_province_modifier = { name = pop_modifier_3 duration = -1 } # 4K
+				limit = { check_variable = { which = total_pop value = 8 } }
+				add_permanent_province_modifier = { name = pop_modifier_3 duration = -1 } # 8K
 			}
 			else = {
-				add_permanent_province_modifier = { name = pop_modifier_2 duration = -1 } # 2K
+				add_permanent_province_modifier = { name = pop_modifier_2 duration = -1 } # 4K
 			}
 		}
 		else = {
 			if = {
-				limit = { check_variable = { which = total_pop value = 1 } }
-				add_permanent_province_modifier = { name = pop_modifier_1 duration = -1 } # 1K
+				limit = { check_variable = { which = total_pop value = 2 } }
+				add_permanent_province_modifier = { name = pop_modifier_1 duration = -1 } # 2K
 			}
 			else = {
-				add_permanent_province_modifier = { name = pop_modifier_0 duration = -1 } #<1K
+				add_permanent_province_modifier = { name = pop_modifier_0 duration = -1 } # 1K
 			}
 		}
 	}

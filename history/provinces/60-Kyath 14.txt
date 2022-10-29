@@ -6,8 +6,8 @@ controller = KYA
 culture = iwen
 religion = tlaunorist
 hre = no
-base_tax = 3
-base_production = 6
+base_tax = 0
+base_production = 1
 trade_goods = copper
 base_manpower = 4
 capital = "Kyath 14"
@@ -19,9 +19,5 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 16.5 }
-set_variable = { which = urban_pop value = 0.7 }
-set_variable = { which = agri_eff_base value = 12 }
+town_square = yes
+set_variable = { which = arable_land value = 4 }
