@@ -3,7 +3,7 @@
 add_core = OLH
 owner = OLH
 controller = OLH
-culture = dregheian
+culture = nyhenat
 religion = tlaunorist
 hre = no
 base_tax = 2

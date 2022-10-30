@@ -62,13 +62,6 @@ greater_shires_region = {
 		shires_4
 		shires_5
 		yransa_area
-		chaun_1
-		chaun_2
-		chaun_5
-		chaun_6
-		chaun_7
-		chaun_8
-		chaun_9
 		east_shires_1
 		east_shires_2
 		east_shires_3
@@ -78,14 +71,26 @@ greater_shires_region = {
 		east_shires_7
 		east_shires_8
 		north_shires_1
-		north_shires_2
-		donamenz_46	
-		donamenz_47	
-		donamenz_48
 		shires_6
 		shires_7
 		shires_11
 		vulkivian_24
+	}
+}
+chaun_region = {
+	areas = {
+		chaun_1
+		chaun_2
+		chaun_5
+		chaun_6
+		chaun_7
+		chaun_8
+		chaun_9
+		north_shires_2
+		donamenz_46	
+		donamenz_47	
+		donamenz_48
+		elnore
 	}
 }
 krashyrvil_midlands_region = {
@@ -155,7 +160,6 @@ shemsele_region ={
 		east_wassad
 		north_jamlu
 		south_jamlu
-		elnore
 		olsyaren
 	}
 }

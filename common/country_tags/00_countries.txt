@@ -466,6 +466,7 @@ KAR = "countries/Karyne.txt"
 RUT = "countries/Rutiroe.txt"
 WUL = "countries/Wulkildr.txt"
 VAL = "countries/Valtyue.txt"
+VLT = "countries/Venltir.txt"
 
 GSC = "countries/Golden Sun Colony.txt"
 

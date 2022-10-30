@@ -2969,6 +2969,10 @@ take_capital_federate = {
 		prestige_factor = 1
 		peace_cost_factor = 0.75
 		
+		required_treaty_to_take_provinces = {
+			po_become_federate
+		}
+		
 		peace_options = {
 			po_become_federate
 		}

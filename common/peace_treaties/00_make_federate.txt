@@ -4,13 +4,13 @@ po_become_federate = {
 	power_projection = vassalized_rival # "power_projection" will only be applied if giver is your rival.
 	power_cost_base = 1.0 # Base factor for diplomatic power cost when treaty is not allowed by casus belli. Scales with war score cost.
 	prestige_base = 0.1 # Base factor for prestige gain and loss. Scales with war score cost.
-	ae_base = 0.8 # Base factor for aggressive expansion. Scales with war score cost.
+	ae_base = 0.3 # Base factor for aggressive expansion. Scales with war score cost.
 	warscore_cost = {
 		# Which of the giver's provinces' war score costs are included and by how much. All entries default to 0. Any combination of entries can be used. Try negative values at your own risk.
-		all_provinces = 1.0 # All the giver's provinces
-		no_provinces = 20.0 # This is just a constant. Equivalent to a single province with with war score cost 1
+		all_provinces = 0.0 # All the giver's provinces
+		no_provinces = 85.0 # This is just a constant. Equivalent to a single province with with war score cost 1
 		owner_keeps = 0.0 # The provinces that are not of any of the types below
-		conquered = 1.0 # Provinces that are selected by a Demand Province treaty
+		conquered = 0.0 # Provinces that are selected by a Demand Province treaty
 		returned_core = 0.0 # Provinces that are selected by a Return Core treaty
 		released_nation = 0.0 # Provinces that will become a part of a selected released-to-be nation
 		cancelled_subject = 0.0 # This one should not be relevant here since Giver can't be a cancelled subject. Including anyway for completeness
@@ -38,14 +38,23 @@ po_become_federate = {
 			who = FROM
 			modifier = they_force_vassalized_us
 		}
+		FROM={
+			every_war_enemy_country={
+				limit={
+					FROM={offensive_war_with = PREV}
+				}
+				white_peace = FROM
+			}
+		}
+		join_all_defensive_wars_of = FROM
 	}
 	ai_weight = { # Defaults to always evaluate to 0
 		export_to_variable = {
 			variable_name = ai_value # Mandatory to have entry called "ai_value". Its value at the end of the ai_weight scope is what will be used
-			value = 10000
+			value = 1000
 		}
 		limit = { # if limit evaluates false, ai_weight will evaluate to 0 regardless
-			owns_core_province = 1
+			always = yes
 		}
 	}
 }

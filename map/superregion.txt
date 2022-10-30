@@ -1,21 +1,25 @@
 #the "west", around the great sea
 aveia_superregion = { 
 
-	#restrict_charter	# harder to get TC here.
-
+	restrict_charter	# harder to get TC here.
 	
 	shemsele_region
 	donamenz_region
 	nylka_region
 	nilenor_region
+	chaun_region
 }
 kirloi_superregion = { 
+	restrict_charter	# harder to get TC here.
+	
 	morbin_region
 	chaunluma_region
 	great_ziyalap_region
 	gugh_region
 }
 enheasrion_basin_superregion={
+	restrict_charter	# harder to get TC here.
+	
 	lildoresi_marches_region
 	dreghei_region
 	rauthyr_region
@@ -25,6 +29,8 @@ enheasrion_basin_superregion={
 }
 #"europe"
 west_aveia_superregion={
+	restrict_charter	# harder to get TC here.
+	
 	thilrana_region
 	vulkivian_region
 	krashyrvil_midlands_region
