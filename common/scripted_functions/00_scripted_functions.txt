@@ -87,21 +87,78 @@ can_abandon_state = {
 }
 
 can_improve_tax = {
+	condition = {
+		tooltip = "CANT_IMPROVE_TAX"
+		potential = {
+		}
+		allow = {
+			FROM = {
+				treasury = 100
+			}
+		}
+	}
+	condition = {
+		tooltip = "CANT_IMPROVE"
+		potential = {
+		}
+		allow = {
+			owned_by = FROM
+		}
+	}
 }
 
 can_improve_production = {
+	condition = {
+		tooltip = "CANT_IMPROVE_PRODUCTION"
+		potential = {
+		}
+		allow = {
+			FROM = {
+				treasury = 50
+			}
+		}
+	}
+	condition = {
+		tooltip = "CANT_IMPROVE"
+		potential = {
+		}
+		allow = {
+			owned_by = FROM
+		}
+	}
 }
 
 can_improve_manpower = {
+	condition = {
+		tooltip = "CANT_IMPROVE_MANPOWER"
+		potential = {
+		}
+		allow = {
+			FROM = {
+				treasury = 25
+			}
+		}
+	}
+	condition = {
+		tooltip = "CANT_IMPROVE"
+		potential = {
+		}
+		allow = {
+			owned_by = FROM
+		}
+	}
 }
 
 can_exploit_tax = {
+	always = no
 }
 
 can_exploit_production = {
+	always = no
 }
 
 can_exploit_manpower = {
+	always = no
 }
 
 can_change_culture = {

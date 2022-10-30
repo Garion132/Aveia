@@ -675,6 +675,11 @@
  keldic_court:0 "Keldic Court"
  hulric_court:0 "Hulric Court"
  herjite_school:0 "Herjite Church"
+
+ CANT_IMPROVE_TAX:0 "§RYou do not have the §Y100§! ducats required to Increase Middle Class Population in this province.§!"
+ CANT_IMPROVE_PRODUCTION:0 "§RYou do not have the §Y50§! ducats required to Increase Working Class Population in this province.§!"
+ CANT_IMPROVE_MANPOWER:0 "§RYou do not have the §Y25§! ducats required to Increase Lower Class Population in this province.§!"
+ CANT_IMPROVE:0 "You may only develop your own directly-owned provinces."
  COLONIAL_EAST_LOCKED:0 "This area is currently under Glacial Ice"
  COLONIAL_THILRANA_BLOCKED:0 "Thilrana is too hostile to colonise"
  COLONIAL_ELTERIA_NO_DIRECT_COLONISATION_JULUIA:0 "Elterian Nations can't directly colonise Juluia"
