@@ -102,6 +102,11 @@ POPULATION OVERVIEW:
     Each wealth value costs 0.1 capital to maintain per pop. Each percentage of Agricultural Efficiency takes 0.2 capital to maintain per
     arable land. It takes 5.0 capital per pop to increase wealth by 1 and 5.0 capital per pop to increase Agricultural Efficiency by 1%.
 
+    Each Middle Class pop generates 1.2 capital and devotes all of it to improving & maintaining Wealth/Buildings, each Working Class pop
+    generates 0.6 capital and devotes half to Wealth/Buildings and the other half to Agricultural Efficiency, and each Lower Class pop
+    generates 0.3 capital and devotes all of it to AE. Agricultural efficiency will increase the amount of wealth Lower Class pops generate
+    so at 100% efficiency Lower Class pops generate double their wealth value.
+
     #Adding or Removing Population
     To add population, use the add_population scripted effect
     add_population = { middle = 1 working = 1 lower = 1 }

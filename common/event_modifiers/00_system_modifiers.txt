@@ -165,4 +165,133 @@
 		province_trade_power_value = 0.1
 		picture = "population_b_9"
 	}
+	
+	MAP_arable_land_modifier_0 = {
+		province_trade_power_value = 0.1
+		picture = "number_0"
+	}
+	MAP_arable_land_modifier_1 = {
+		province_trade_power_value = 0.1
+		picture = "number_1"
+	}
+	MAP_arable_land_modifier_2 = {
+		province_trade_power_value = 0.1
+		picture = "number_2"
+	}
+	MAP_arable_land_modifier_3 = {
+		province_trade_power_value = 0.1
+		picture = "number_3"
+	}
+	MAP_arable_land_modifier_4 = {
+		province_trade_power_value = 0.1
+		picture = "number_4"
+	}
+	MAP_arable_land_modifier_5 = {
+		province_trade_power_value = 0.1
+		picture = "number_5"
+	}
+	MAP_arable_land_modifier_6 = {
+		province_trade_power_value = 0.1
+		picture = "number_6"
+	}
+	MAP_arable_land_modifier_7 = {
+		province_trade_power_value = 0.1
+		picture = "number_7"
+	}
+	MAP_arable_land_modifier_8 = {
+		province_trade_power_value = 0.1
+		picture = "number_8"
+	}
+	MAP_arable_land_modifier_9 = {
+		province_trade_power_value = 0.1
+		picture = "number_9"
+	}
+	MAP_arable_land_modifier_10 = {
+		province_trade_power_value = 0.1
+		picture = "number_10"
+	}
+	MAP_arable_land_modifier_11 = {
+		province_trade_power_value = 0.1
+		picture = "number_11"
+	}
+	MAP_arable_land_modifier_12 = {
+		province_trade_power_value = 0.1
+		picture = "number_12"
+	}
+	MAP_arable_land_modifier_13 = {
+		province_trade_power_value = 0.1
+		picture = "number_13"
+	}
+	MAP_arable_land_modifier_14 = {
+		province_trade_power_value = 0.1
+		picture = "number_14"
+	}
+	MAP_arable_land_modifier_15 = {
+		province_trade_power_value = 0.1
+		picture = "number_15"
+	}
+	MAP_arable_land_modifier_16 = {
+		province_trade_power_value = 0.1
+		picture = "number_16"
+	}
+	MAP_arable_land_modifier_17 = {
+		province_trade_power_value = 0.1
+		picture = "number_17"
+	}
+	MAP_arable_land_modifier_18 = {
+		province_trade_power_value = 0.1
+		picture = "number_18"
+	}
+	MAP_arable_land_modifier_19 = {
+		province_trade_power_value = 0.1
+		picture = "number_19"
+	}
+	MAP_arable_land_modifier_20 = {
+		province_trade_power_value = 0.1
+		picture = "number_20"
+	}
+	MAP_arable_land_modifier_21 = {
+		province_trade_power_value = 0.1
+		picture = "number_21"
+	}
+	MAP_arable_land_modifier_22 = {
+		province_trade_power_value = 0.1
+		picture = "number_22"
+	}
+	MAP_arable_land_modifier_23 = {
+		province_trade_power_value = 0.1
+		picture = "number_23"
+	}
+	MAP_arable_land_modifier_24 = {
+		province_trade_power_value = 0.1
+		picture = "number_24"
+	}
+	MAP_arable_land_modifier_25 = {
+		province_trade_power_value = 0.1
+		picture = "number_25"
+	}
+	MAP_arable_land_modifier_26 = {
+		province_trade_power_value = 0.1
+		picture = "number_26"
+	}
+	MAP_arable_land_modifier_27 = {
+		province_trade_power_value = 0.1
+		picture = "number_27"
+	}
+	MAP_arable_land_modifier_28 = {
+		province_trade_power_value = 0.1
+		picture = "number_28"
+	}
+	MAP_arable_land_modifier_29 = {
+		province_trade_power_value = 0.1
+		picture = "number_29"
+	}
+	MAP_arable_land_modifier_30 = {
+		province_trade_power_value = 0.1
+		picture = "number_30"
+	}
+	MAP_arable_land_modifier_31 = {
+		province_trade_power_value = 0.1
+		picture = "number_null"
+	}
 #

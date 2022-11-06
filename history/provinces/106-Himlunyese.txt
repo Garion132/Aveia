@@ -9,7 +9,7 @@ hre = no
 base_tax = 1
 base_production = 4
 trade_goods = cloth
-base_manpower = 8
+base_manpower = 10
 capital = "Himlunyese"
 is_city = yes
 discovered_by = lake_elves_group
@@ -26,4 +26,4 @@ taxman = yes
 town_square = yes
 mint = yes
 
-set_variable = { which = arable_land value = 8 }
+set_variable = { which = arable_land value = 10 }

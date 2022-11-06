@@ -279,9 +279,9 @@ lower_cap_calc = {
 	trigger_switch = {
 		on_trigger = has_building
 		port = { change_variable = { which = lower_cap_base value = 1.0 } }
-		dockland = { change_variable = { which = lower_cap_base value = 2.0 } }
-		wharf = { change_variable = { which = lower_cap_base value = 3.0 } }
-		harbor_district = { change_variable = { which = lower_cap_base value = 4.0 } }
+		dockland = { change_variable = { which = lower_cap_base value = 1.5 } }
+		wharf = { change_variable = { which = lower_cap_base value = 2.0 } }
+		harbor_district = { change_variable = { which = lower_cap_base value = 3.0 } }
 	}
 
     lower_cap_modifiers = yes
@@ -303,14 +303,6 @@ working_cap_calc = {
 		2 = { change_variable = { which = working_cap_base value = 1.0 } change_variable = { which = working_cap_modifier value = 0.2 } }
 		1 = { change_variable = { which = working_cap_base value = 0.5 } change_variable = { which = working_cap_modifier value = 0.1 } }
 	}
-
-    if = {
-        limit = {
-            has_province_modifier = yhenil_bridge
-        }
-        change_variable = { which = working_cap_base value = 1.0 }
-    }
-
 
     ### BUILDINGS ###
 
@@ -468,14 +460,6 @@ middle_cap_calc = {
 		2 = { change_variable = { which = middle_cap_base value = 0.5 } change_variable = { which = middle_cap_modifier value = 0.2 } }
 		1 = { change_variable = { which = middle_cap_base value = 0.0 } change_variable = { which = middle_cap_modifier value = 0.1 } }
 	}
-
-    if = {
-        limit = {
-            has_province_modifier = yhenil_bridge
-        }
-        change_variable = { which = middle_cap_base value = 1.0 }
-    }
-
 
     ### BUILDINGS ###
 

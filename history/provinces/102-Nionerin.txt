@@ -9,7 +9,7 @@ hre = no
 base_tax = 1
 base_production = 5
 trade_goods = cloth
-base_manpower = 12
+base_manpower = 16
 capital = "Nionerin"
 is_city = yes
 discovered_by = lake_elves_group
@@ -27,4 +27,4 @@ gravel_roads = yes
 taxman = yes
 town_square = yes
 mint = yes
-set_variable = { which = arable_land value = 11 }
+set_variable = { which = arable_land value = 15 }

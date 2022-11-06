@@ -516,6 +516,8 @@
 		local_state_maintenance_modifier = 1.5
 	}
 	yhenil_bridge = {
+		# middle_cap_base = 1.0
+		# working_cap_base = 1.0
 		tax_income = 6
 		trade_goods_size = 1
 		local_development_cost = -0.1
@@ -537,8 +539,10 @@
 		trade_goods_size_modifier = 0.05
 	}
 	doninas_city = {
-		trade_goods_size = 5.0
-		trade_goods_size_modifier = 0.25
+		# middle_cap_base = 0.2
+		# working_cap_base = 1.0
+		trade_goods_size = 2.0
+		trade_goods_size_modifier = 0.1
 		local_defensiveness = 0.25
 		province_trade_power_value = 10
 	}

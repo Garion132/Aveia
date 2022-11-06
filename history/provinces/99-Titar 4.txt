@@ -9,7 +9,7 @@ hre = no
 base_tax = 0
 base_production = 0
 trade_goods = fruit
-base_manpower = 7
+base_manpower = 9
 capital = "Titar 4"
 is_city = yes
 discovered_by = lake_elves_group
@@ -20,4 +20,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 port = yes
-set_variable = { which = arable_land value = 6 }
+set_variable = { which = arable_land value = 8 }

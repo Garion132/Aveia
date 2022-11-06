@@ -128,11 +128,11 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_global_flag = population_mm
+					has_global_flag = arable_land_mm
 				}
-				clr_global_flag = population_mm
+				clr_global_flag = arable_land_mm
 				every_province = {
-					clear_map_pop_modifiers = yes
+					clear_map_arable_land_modifiers = yes
 				}
 			}
 			if = {
@@ -155,22 +155,22 @@ country_event = {
 			}
 		}
 	}
-	option = { #Population
+	option = { #Arable Land
 		name = pop.2.op2
 		hidden_effect = {
 			if = {
 				limit = {
-					has_global_flag = population_mm
+					has_global_flag = arable_land_mm
 				}
-				clr_global_flag = population_mm
+				clr_global_flag = arable_land_mm
 				every_province = {
-					clear_map_pop_modifiers = yes
+					clear_map_arable_land_modifiers = yes
 				}
 			}
 			else = {
-				set_global_flag = population_mm
+				set_global_flag = arable_land_mm
 				every_province = {
-					update_map_pop_modifiers = yes
+					update_map_arable_land_modifiers = yes
 				}
 			}
 		}

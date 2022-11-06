@@ -9,7 +9,7 @@ hre = no
 base_tax = 0
 base_production =2
 trade_goods = fish
-base_manpower = 5
+base_manpower = 7
 capital = "Matle"
 is_city = yes
 discovered_by = lake_elves_group
@@ -24,4 +24,4 @@ gravel_roads = yes
 taxman = yes
 town_square = yes
 
-set_variable = { which = arable_land value = 5 }
+set_variable = { which = arable_land value = 7 }

@@ -9,7 +9,7 @@ hre = no
 base_tax = 0
 base_production =0
 trade_goods = naval_supplies
-base_manpower = 5
+base_manpower = 6
 capital = "Titar 3"
 is_city = yes
 discovered_by = lake_elves_group
@@ -19,4 +19,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-set_variable = { which = arable_land value = 5 }
+set_variable = { which = arable_land value = 6 }

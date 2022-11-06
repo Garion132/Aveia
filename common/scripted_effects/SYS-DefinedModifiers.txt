@@ -15,9 +15,33 @@
     working_cap_modifiers = {
         # working_cap_base
         # working_cap_modifier
+        if = {
+            limit = {
+                has_province_modifier = yhenil_bridge
+            }
+            change_variable = { which = working_cap_base value = 1.0 }
+        }
+        if = {
+            limit = {
+                has_province_modifier = doninas_city
+            }
+            change_variable = { which = working_cap_base value = 1.0 }
+        }
     }
     middle_cap_modifiers = {
         # middle_cap_base
         # middle_cap_modifier
+        if = {
+            limit = {
+                has_province_modifier = yhenil_bridge
+            }
+            change_variable = { which = middle_cap_base value = 1.0 }
+        }
+        if = {
+            limit = {
+                has_province_modifier = doninas_city
+            }
+            change_variable = { which = middle_cap_base value = 0.2 }
+        }
     }
 #

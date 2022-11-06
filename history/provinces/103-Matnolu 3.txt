@@ -9,7 +9,7 @@ hre = no
 base_tax = 0
 base_production = 1
 trade_goods = fruit
-base_manpower = 12
+base_manpower = 14
 capital = "Matnolu 3"
 is_city = yes
 discovered_by = lake_elves_group
@@ -21,4 +21,4 @@ discovered_by = dunirr_group
 extra_cost = 0
 port = yes
 gravel_roads = yes
-set_variable = { which = arable_land value = 11 }
+set_variable = { which = arable_land value = 13 }
