@@ -9,7 +9,7 @@ hre = no
 base_tax = 0
 base_production = 1
 trade_goods = fish
-base_manpower = 5
+base_manpower = 7
 capital = "Titar"
 is_city = yes
 discovered_by = lake_elves_group
@@ -22,4 +22,4 @@ extra_cost = 0
 fort_14th = yes
 gravel_roads = yes
 taxman = yes
-set_variable = { which = arable_land value = 5 }
+set_variable = { which = arable_land value = 7 }

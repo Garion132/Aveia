@@ -99,7 +99,7 @@ POPULATION OVERVIEW:
     of capital to do. It is important to note that provinces will only use wealth created from autonomy on building buildings or 
     maintaining existing wealth/Agri eff.
 
-    Each wealth value costs 0.1 capital to maintain per pop. Each percentage of Agricultural Efficiency takes 0.2 capital to maintain per
+    Each wealth value costs 0.1 capital to maintain per pop. Each percentage of Agricultural Efficiency takes 0.1 capital to maintain per
     arable land. It takes 5.0 capital per pop to increase wealth by 1 and 5.0 capital per pop to increase Agricultural Efficiency by 1%.
 
     Each Middle Class pop generates 1.2 capital and devotes all of it to improving & maintaining Wealth/Buildings, each Working Class pop

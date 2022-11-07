@@ -6,10 +6,10 @@ controller = PAR
 culture = ellorhasian
 religion = tlaunorist
 hre = no
-base_tax = 3
-base_production =5
+base_tax = 0
+base_production = 1
 trade_goods = ceramics
-base_manpower = 4
+base_manpower = 13
 capital = "PAR 6"
 is_city = yes
 discovered_by = lake_elves_group
@@ -19,6 +19,11 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+port = yes
+shipwright = yes
+gravel_roads = yes
+taxman = yes
+set_variable = { which = arable_land value = 12 }
 
 add_permanent_province_modifier = {
 	name = moraler_estuary_modifier

@@ -305,7 +305,7 @@ shrine = {
 	cost = 50
 	time = 8
 	modifier = {
-		local_unrest = -0.5
+		local_unrest = -1.0
 		local_missionary_strength = 0.01
 		local_tax_modifier = 0.05
 	}
@@ -320,7 +320,7 @@ temple = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_unrest = -1
+		local_unrest = -2
 		local_missionary_strength = 0.02
 		local_tax_modifier = 0.10
 	}
@@ -335,7 +335,7 @@ cathedral = {
 	cost = 200
 	time = 16
 	modifier = {
-		local_unrest = -1.5
+		local_unrest = -3.0
 		local_missionary_strength = 0.03
 		local_tax_modifier = 0.15
 	}

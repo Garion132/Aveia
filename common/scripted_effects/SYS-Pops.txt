@@ -28,6 +28,8 @@ Pops_Setup = {
 
         # update_rural_pop_modifiers = yes
         # update_urban_pop_modifiers = yes
+        update_pop_total = yes
+
         if = {
             limit = {
                 NOT = { check_variable = { which = arable_land value = 0.1 } }
@@ -35,12 +37,13 @@ Pops_Setup = {
             arable_land_calc = yes
         }
         agri_eff_calc = yes
+        wealth_calc = yes
 
-        update_pop_total = yes
         lower_cap_calc = yes
         working_cap_calc = yes
         middle_cap_calc = yes
 
+        capital_generation_calc = yes
         update_pop_modifiers = yes
     }
     set_global_flag = pop_pulse
@@ -222,6 +225,10 @@ arable_land_calc = {
 agri_eff_calc = {
     set_variable = { which = agri_eff which = agri_eff_base }
     
+    set_variable = { which = agri_eff_maintenance which = agri_eff_base }
+    multiply_variable = { which = agri_eff_maintenance value = 0.1 }
+    multiply_variable = { which = agri_eff_maintenance which = arable_land }
+
     #Additive Tech
     if = {
         limit = {
@@ -235,6 +242,45 @@ agri_eff_calc = {
             }
         }
     }
+}
+wealth_calc = {
+    set_variable = { which = wealth which = wealth_base }
+    
+    set_variable = { which = wealth_maintenance which = wealth_base }
+    multiply_variable = { which = wealth_maintenance value = 0.1 }
+    multiply_variable = { which = wealth_maintenance which = total_pop }
+    divide_variable = { which = wealth_maintenance value = 5 }
+}
+capital_generation_calc = {
+    export_to_variable = {
+        which = middle_pop_capital
+        value = base_tax
+    }
+    export_to_variable = {
+        which = working_pop_capital
+        value = base_production
+    }
+    export_to_variable = {
+        which = lower_pop_capital
+        value = base_manpower
+    }
+
+    multiply_variable = { which = middle_pop_capital value = 1.2 }
+    multiply_variable = { which = working_pop_capital value = 0.6 }
+    multiply_variable = { which = lower_pop_capital value = 0.3 }
+    
+    set_variable = { which = capital_generation value = 0 }
+    change_variable = { which = capital_generation which = middle_pop_capital }
+    change_variable = { which = capital_generation which = working_pop_capital }
+    change_variable = { which = capital_generation which = lower_pop_capital }
+    
+    set_variable = { which = wealth_spending which = working_pop_capital }
+    multiply_variable = { which = wealth_spending value = 0.5 }
+    change_variable = { which = wealth_spending which = middle_pop_capital }
+    
+    set_variable = { which = agri_eff_spending which = working_pop_capital }
+    multiply_variable = { which = agri_eff_spending value = 0.5 }
+    change_variable = { which = agri_eff_spending which = lower_pop_capital }
 }
 
 update_pop_total = {

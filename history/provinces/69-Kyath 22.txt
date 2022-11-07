@@ -13,7 +13,7 @@ hre = no
 base_tax = 0
 base_production =1
 trade_goods = livestock
-base_manpower = 8
+base_manpower = 10
 capital = "Kyath 22"
 is_city = yes
 discovered_by = lake_elves_group
@@ -26,4 +26,4 @@ extra_cost = 0
 gravel_roads = yes
 taxman = yes
 town_square = yes
-set_variable = { which = arable_land value = 8 }
+set_variable = { which = arable_land value = 10 }

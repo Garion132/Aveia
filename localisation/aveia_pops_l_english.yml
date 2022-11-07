@@ -21,7 +21,7 @@
 
  #Modifiers
    pop_modifier:0 "Population:"
-   desc_pop_modifier:0 "Total Population: §M[total_pop.GetValue]K§!\n\nMiddle Class Pops: §Y[middle_pop_total.GetValue]§!/§Y[middle_cap_total.GetValue]§! (§Y[middle_growth_rate.GetValue]§!)\nWorking Class Pops: §Y[working_pop_total.GetValue]§!/§Y[working_cap_total.GetValue]§! (§Y[working_growth_rate.GetValue]§!)\nLower Class Pops: §Y[lower_pop_total.GetValue]§!/§Y[lower_cap_total.GetValue]§! (§Y[lower_growth_rate.GetValue]§!)\n\nArable Land: §Y[arable_land.GetValue]§!\nAgricultural Efficiency: §M[agri_eff.GetValue]%§!"
+   desc_pop_modifier:0 "Total Population: §M[total_pop.GetValue]K§!\n\nMiddle Class Pops: §Y[middle_pop_total.GetValue]§!/§Y[middle_cap_total.GetValue]§! (§Y[middle_growth_rate.GetValue]§!)\nWorking Class Pops: §Y[working_pop_total.GetValue]§!/§Y[working_cap_total.GetValue]§! (§Y[working_growth_rate.GetValue]§!)\nLower Class Pops: §Y[lower_pop_total.GetValue]§!/§Y[lower_cap_total.GetValue]§! (§Y[lower_growth_rate.GetValue]§!)\n\nArable Land: §Y[arable_land.GetValue]§!\nAgricultural Efficiency: §M[agri_eff.GetValue]%§!\nWealth: §M[wealth.GetValue]§!\n\nCapital Generation: §G+[capital_generation.GetValue]§!\n   M: §G+[middle_pop_capital.GetValue]§!\n   W: §G+[working_pop_capital.GetValue]§!\n   L: §G+[lower_pop_capital.GetValue]§!\n\nWealth Spending: §R-[wealth_spending.GetValue]§!\nAgri-Eff Spending: §R-[agri_eff_spending.GetValue]§!"
 
    pop_modifier_0:0 "Population:"
    desc_pop_modifier_0:0 "[GetPopDesc]"
