@@ -249,8 +249,8 @@ wealth_calc = {
     set_variable = { which = wealth_maintenance which = wealth_base }
     multiply_variable = { which = wealth_maintenance value = 0.1 }
     multiply_variable = { which = wealth_maintenance which = total_pop }
-    divide_variable = { which = wealth_maintenance value = 5 }
 }
+
 capital_generation_calc = {
     export_to_variable = {
         which = middle_pop_capital
@@ -282,6 +282,31 @@ capital_generation_calc = {
     multiply_variable = { which = agri_eff_spending value = 0.5 }
     change_variable = { which = agri_eff_spending which = lower_pop_capital }
 }
+food_production_calc = {
+    set_variable = { which = food_prod which = lower_pop_total }
+    if = {
+        limit = {
+            check_variable = { which = food_prod which = arable_land }
+        }
+        set_variable = { which = t_0 which = food_prod }
+        subtract_variable = { which = t_0 which = arable_land }
+        divide_variable = { which = t_0 value = 2 }
+        subtract_variable = { which = food_prod which = t_0 }
+    }
+    set_variable = { which = fpp value = 1.1 }
+    set_variable = { which = food_prod_mod value = 1.0 }
+    food_production_modifiers = yes
+
+    set_variable = { which = t_0 which = agri_eff }
+    divide_variable = { which = t_0 value = 100 }
+    change_variable = { which = t_0 value = 1 }
+    multiply_variable = { which = fpp which = t_0 }
+
+    multiply_variable = { which = fpp which = food_prod_mod }
+    multiply_variable = { which = food_prod which = fpp }
+    
+    set_variable = { which = t_0 value = 0 }
+}
 
 update_pop_total = {
     
@@ -305,7 +330,9 @@ update_pop_total = {
 	set_variable = { which = total_pop which = middle_pop_total }
 	change_variable = { which = total_pop which = working_pop_total }
 	change_variable = { which = total_pop which = lower_pop_total }
-	multiply_variable = { which = total_pop value = 5 }
+    
+	set_variable = { which = population which = total_pop }
+	multiply_variable = { which = population value = 5 }
 }
 
 lower_cap_calc = {
@@ -904,6 +931,9 @@ pops_growth_calc = {
     }
 
     update_pop_total = yes
+    update_lower_pop_modifiers = yes
+    update_working_pop_modifiers = yes
+    update_middle_pop_modifiers = yes
 }
 
 #National

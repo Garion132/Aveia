@@ -507,6 +507,7 @@
 #
 #Important Locations
 	asemont_copper_mines = { #Asemont Copper Mines (in the Cradle)
+		# working_cap_base = 0.5
 		trade_goods_size = 5.0
 	}
 	asemont_fortress_complex = {
@@ -546,7 +547,16 @@
 		local_defensiveness = 0.25
 		province_trade_power_value = 10
 	}
+	lindor = {
+		# middle_cap_base = 1.0
+		# working_cap_base = 2.0
+		# working_cap_modifier = 0.1
+		prestige = 0.25
+		province_trade_power_value = 5
+	}
 	eiheilaurt_grand_dockyards = {
+		# middle_cap_base = 0.2
+		# working_cap_base = 1.0
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.1
 		local_ship_cost = -0.15

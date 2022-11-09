@@ -27,6 +27,25 @@
             }
             change_variable = { which = working_cap_base value = 1.0 }
         }
+        if = {
+            limit = {
+                has_province_modifier = lindor
+            }
+            change_variable = { which = working_cap_base value = 2.0 }
+            change_variable = { which = working_cap_modifier value = 0.1 }
+        }
+        if = {
+            limit = {
+                has_province_modifier = eiheilaurt_grand_dockyards
+            }
+            change_variable = { which = working_cap_base value = 1.0 }
+        }
+        if = {
+            limit = {
+                has_province_modifier = asemont_copper_mines
+            }
+            change_variable = { which = working_cap_base value = 0.5 }
+        }
     }
     middle_cap_modifiers = {
         # middle_cap_base
@@ -42,6 +61,28 @@
                 has_province_modifier = doninas_city
             }
             change_variable = { which = middle_cap_base value = 0.2 }
+        }
+        if = {
+            limit = {
+                has_province_modifier = lindor
+            }
+            change_variable = { which = middle_cap_base value = 1.0 }
+        }
+        if = {
+            limit = {
+                has_province_modifier = eiheilaurt_grand_dockyards
+            }
+            change_variable = { which = middle_cap_base value = 0.2 }
+        }
+    }
+
+    food_production_modifiers = {
+        # food_prod_mod
+        if = {
+            limit = {
+                has_province_modifier = kafethyrian_soil
+            }
+            change_variable = { which = food_prod_mod value = 0.2 }
         }
     }
 #
