@@ -417,6 +417,7 @@ technology = { #Modern Metallurgy
 	}
 
 	production_efficiency = 0.02
+	paved_roads = yes
 }
 
 technology = { #Scientific Enquiry
@@ -593,7 +594,6 @@ technology = { #Land Clearance
 
 	production_efficiency 	=	0.03
 	mechanized_farm = yes
-	paved_roads = yes
 }
 
 technology = { #Rights of Mortals

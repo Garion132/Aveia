@@ -553,6 +553,7 @@
 		# working_cap_modifier = 0.1
 		prestige = 0.25
 		province_trade_power_value = 5
+		local_gold_depletion_chance_modifier = -1.0
 	}
 	eiheilaurt_grand_dockyards = {
 		# middle_cap_base = 0.2

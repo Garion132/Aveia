@@ -20,4 +20,5 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+gravel_roads = yes
 set_variable = { which = arable_land value = 10 }
