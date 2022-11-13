@@ -2,9 +2,9 @@ namespace = pop
 
 #Pulse Event
 country_event = {
-	id = pop.0
-	title = pop.0.t
-	desc = pop.0.d
+	id = pop.1
+	title = pop.1.t
+	desc = pop.1.d
 	picture = MERCHANTS_TALKING_eventPicture
 	hidden = yes
 	
@@ -20,23 +20,15 @@ country_event = {
 	}
 
     immediate = {
-		clr_global_flag = pop_pulse
-		set_global_flag = pop_pulse
-		every_province = {
-			if = {
-				limit = {
-					is_empty = no
-				}
-				set_variable = { which = fbp value = 0.1 }
-				pops_growth_calc = { food_balance_percentage = fbp }
-				set_variable = { which = fbp value = 0 }
-        		update_pop_modifiers = yes
-			}
+		hidden_effect = {
+			clr_global_flag = pop_pulse
+			set_global_flag = pop_pulse
+			pops_tick = yes
 		}
 	}
 
 	option = { #I am not a guinea pig!
-		name = pop.1.op1
+		name = pop.2.op1
 	}
 }
 
@@ -63,21 +55,21 @@ country_event = {
 	}
 
 	option = { #I am not a guinea pig!
-		name = pop.1.op1
+		name = pop.2.op1
 		every_owned_province = {
 			set_variable = { which = fbp value = 0.1 }
 			pops_growth_calc = { food_balance_percentage = fbp }
 		}
 	}
 	option = { #I am not a guinea pig!
-		name = pop.1.op2
+		name = pop.2.op2
 		every_owned_province = {
 			set_variable = { which = fbp value = -0.1 }
 			pops_growth_calc = { food_balance_percentage = fbp }
 		}
 	}
 	option = { #I am not a guinea pig!
-		name = pop.1.op3
+		name = pop.2.op3
 		every_owned_province = {
 			set_variable = { which = fbp value = -0.3 }
 			pops_growth_calc = { food_balance_percentage = fbp }
@@ -87,34 +79,34 @@ country_event = {
 
 #Census
 country_event = {
-	id = pop.1
-	title = pop.1.t
-	desc = pop.1.d
+	id = pop.2
+	title = pop.2.t
+	desc = pop.2.d
 	picture = MERCHANTS_TALKING_eventPicture
 
 	is_triggered_only = yes
 
     immediate = {
         hidden_effect = {
-            Pops_GetNationalStats = yes
+            update_national_pop_stats = yes
         }
     }
 
 	option = { #Enable Mapmodes
-		name = pop.1.op2
-		country_event = { id = pop.2 }
+		name = pop.2.op2
+		country_event = { id = pop.3 }
 	}
 	option = { #Close
 		highlight = yes
-		name = pop.1.op1
+		name = pop.2.op1
 	}
 }
 
 #Mapmodes
 country_event = {
-	id = pop.2
-	title = pop.2.t
-	desc = pop.2.d
+	id = pop.3
+	title = pop.3.t
+	desc = pop.3.d
 	picture = MERCHANTS_TALKING_eventPicture
 
 	is_triggered_only = yes
@@ -124,7 +116,7 @@ country_event = {
     }
 
 	option = { #Disable All Mapmodes
-		name = pop.2.op1
+		name = pop.3.op1
 		hidden_effect = {
 			if = {
 				limit = {
@@ -156,7 +148,7 @@ country_event = {
 		}
 	}
 	option = { #Arable Land
-		name = pop.2.op2
+		name = pop.3.op2
 		hidden_effect = {
 			if = {
 				limit = {
@@ -176,7 +168,7 @@ country_event = {
 		}
 	}
 	option = { #Urban Populations
-		name = pop.2.op3
+		name = pop.3.op3
 		hidden_effect = {
 			if = {
 				limit = {
@@ -196,7 +188,7 @@ country_event = {
 		}
 	}
 	option = { #Rural Populations
-		name = pop.2.op4
+		name = pop.3.op4
 		hidden_effect = {
 			if = {
 				limit = {
@@ -216,8 +208,144 @@ country_event = {
 		}
 	}
 	option = { #Back
-		name = pop.2.b
+		name = pop.3.b
 		highlight = yes
-		country_event = { id = pop.1 }
+		country_event = { id = pop.2 }
+	}
+}
+
+#Food Policy
+country_event = {
+	id = pop.4
+	title = pop.4.t
+	desc = pop.4.d
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+
+    immediate = {
+		hidden_effect = {
+			1 = {
+				PREV = {
+					set_variable = { which = global_food_price which = PREV }
+				}
+			}
+			
+			update_national_pop_stats = yes
+		}
+    }
+
+	option = { #Adjust Trade Policy
+		name = pop.4.op1
+		country_event = { id = pop.5 }
+	}
+	option = { #DEBUG: Calculate Trade
+		name = pop.4.op3
+		hidden_effect = {
+			trade_amount_calc = yes
+			trade_value_calc = yes
+			update_national_food_balance = yes
+		}
+	}
+	option = { #Close
+		highlight = yes
+		name = pop.2.op1
+	}
+}
+
+#Adjusting Export Policy
+country_event = {
+	id = pop.5
+	title = pop.5.t
+	desc = pop.5.d
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+
+    immediate = {
+		hidden_effect = {
+			1 = {
+				PREV = {
+					set_variable = { which = global_food_price which = PREV }
+				}
+			}
+
+			set_variable = { which = t_fbp which = food_prod }
+			divide_variable = { which = t_fbp which = total_pop }
+			subtract_variable = { which = t_fbp value = 1 }
+
+
+			set_variable = { which = trade_export_amount value = -0.1 }
+			subtract_variable = { which = trade_export_amount which = t_fbp }
+			multiply_variable = { which = trade_export_amount which = total_pop }
+
+			set_variable = { which = trade_export_value which = trade_export_amount }
+			multiply_variable = { which = trade_export_value which = global_food_price }
+			multiply_variable = { which = trade_export_value value = -1 }
+			
+
+			set_variable = { which = trade_normal_amount value = 0.0 }
+			subtract_variable = { which = trade_normal_amount which = t_fbp }
+			multiply_variable = { which = trade_normal_amount which = total_pop }
+
+			set_variable = { which = trade_normal_value which = trade_normal_amount }
+			multiply_variable = { which = trade_normal_value which = global_food_price }
+			multiply_variable = { which = trade_normal_value value = -1 }
+			
+
+			set_variable = { which = trade_import_amount value = 0.1 }
+			subtract_variable = { which = trade_import_amount which = t_fbp }
+			multiply_variable = { which = trade_import_amount which = total_pop }
+
+			set_variable = { which = trade_import_value which = trade_import_amount }
+			multiply_variable = { which = trade_import_value which = global_food_price }
+			multiply_variable = { which = trade_import_value value = -1 }
+		}
+    }
+
+	option = { # Enact a Trade Embargo
+		name = pop.5.op1
+		custom_tooltip = trade_embargo_tt
+		hidden_effect = {
+			set_country_flag = trade_embargo
+			clr_country_flag = trade_export
+			clr_country_flag = trade_import
+			country_event = { id = pop.4 }
+		}
+	}
+	option = { # Export Focus
+		name = pop.5.op2
+		custom_tooltip = trade_export_tt
+		hidden_effect = {
+			set_country_flag = trade_export
+			clr_country_flag = trade_embargo
+			clr_country_flag = trade_import
+			country_event = { id = pop.4 }
+		}
+	}
+	option = { # Normalize Trade
+		name = pop.5.op3
+		custom_tooltip = trade_normal_tt
+		hidden_effect = {
+			clr_country_flag = trade_export
+			clr_country_flag = trade_embargo
+			clr_country_flag = trade_import
+			country_event = { id = pop.4 }
+		}
+	}
+	option = { # Import Focus
+		name = pop.5.op4
+		custom_tooltip = trade_import_tt
+		hidden_effect = {
+			set_country_flag = trade_import
+			clr_country_flag = trade_export
+			clr_country_flag = trade_embargo
+			country_event = { id = pop.4 }
+		}
+	}
+	option = { #Close
+		highlight = yes
+		name = pop.3.b
+		country_event = { id = pop.4 }
 	}
 }

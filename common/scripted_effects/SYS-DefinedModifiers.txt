@@ -78,11 +78,132 @@
 
     food_production_modifiers = {
         # food_prod_mod
+        # food_prod_add
         if = {
             limit = {
                 has_province_modifier = kafethyrian_soil
             }
             change_variable = { which = food_prod_mod value = 0.2 }
         }
+    }
+#
+
+## COUNTRY ##
+    get_national_modifiers = {
+        set_variable = { which = food_prod_add value = 0 }
+        set_variable = { which = agri_eff_add value = 0 }
+        set_variable = { which = lower_cap_modifier value = 0 }
+
+        #Tech
+            #Adm
+            if = {
+                limit = {
+                    adm_tech = 0 #Agriculture
+                }
+                change_variable = { which = food_prod_add value = 0.05 }
+                if = {
+                    limit = {
+                        adm_tech = 1 #Domestication
+                    }
+                    change_variable = { which = food_prod_add value = 0.05 }
+                    if = {
+                        limit = {
+                            adm_tech = 12 #Irrigation
+                        }
+                        change_variable = { which = food_prod_add value = 0.05 }
+                        if = {
+                            limit = {
+                                adm_tech = 24 #Improved Drainage
+                            }
+                            change_variable = { which = food_prod_add value = 0.1 }
+                            if = {
+                                limit = {
+                                    adm_tech = 36 #Land Clearance
+                                }
+                                change_variable = { which = food_prod_add value = 0.1 }
+                                if = {
+                                    limit = {
+                                        adm_tech = 45 #Chemistry
+                                    }
+                                    change_variable = { which = food_prod_add value = 0.25 }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    adm_tech = 8 #Sickles
+                }
+                change_variable = { which = agri_eff_add value = 5.0 }
+                if = {
+                    limit = {
+                        adm_tech = 15 #Scythes
+                    }
+                    change_variable = { which = agri_eff_add value = 2.5 }
+                    if = {
+                        limit = {
+                            adm_tech = 22 #Machinery
+                        }
+                        change_variable = { which = agri_eff_add value = 2.5 }
+                        if = {
+                            limit = {
+                                adm_tech = 38 #Industrial Production
+                            }
+                            change_variable = { which = agri_eff_add value = 5.0 }
+                            if = {
+                                limit = {
+                                    adm_tech = 46 #Tractors
+                                }
+                                change_variable = { which = agri_eff_add value = 10.0 }
+                            }
+                        }
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    adm_tech = 5 #Recordkeeping
+                }
+                change_variable = { which = lower_cap_modifier value = 0.1 }
+                if = {
+                    limit = {
+                        adm_tech = 12 #Irrigation
+                    }
+                    change_variable = { which = lower_cap_modifier value = 0.2 }
+                    if = {
+                        limit = {
+                            adm_tech = 14 #Feudal Thought
+                        }
+                        change_variable = { which = lower_cap_modifier value = 0.10 }
+                        if = {
+                            limit = {
+                                adm_tech = 24 #Improve Drainage
+                            }
+                            change_variable = { which = lower_cap_modifier value = 0.20 }
+                            if = {
+                                limit = {
+                                    adm_tech = 28 #Scientific Enquiry
+                                }
+                                change_variable = { which = lower_cap_modifier value = 0.1 }
+                                if = {
+                                    limit = {
+                                        adm_tech = 36 #Land Clearance
+                                    }
+                                    change_variable = { which = lower_cap_modifier value = 0.1 }
+                                    if = {
+                                        limit = {
+                                            adm_tech = 45 #Chemistry
+                                        }
+                                        change_variable = { which = lower_cap_modifier value = 0.25 }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        #
     }
 #

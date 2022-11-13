@@ -1,8 +1,12 @@
 
 Pops_Setup = {
-    # every_country = {
-    #     Pops_GetModifiers = yes
-    # }
+    every_country = {
+        get_national_modifiers = yes
+        set_variable = { which = fbp value = 0 }
+    }
+    1 = {
+		set_variable = { which = global_food_price value = 0.5 }
+    }
     every_province = {
         if = {
             limit = {
@@ -44,15 +48,11 @@ Pops_Setup = {
         middle_cap_calc = yes
 
         capital_generation_calc = yes
-        update_pop_modifiers = yes
+        food_production_calc = yes
     }
     set_global_flag = pop_pulse
     
-    every_province = {
-        set_variable = { which = fbp value = 0.1 }
-        pops_growth_calc = { food_balance_percentage = fbp }
-        set_variable = { which = fbp value = 0 }
-    }
+    pops_tick = yes
 }
 
 Pops_DoNationalGrowth = {
@@ -286,16 +286,28 @@ food_production_calc = {
     set_variable = { which = food_prod which = lower_pop_total }
     if = {
         limit = {
-            check_variable = { which = food_prod which = arable_land }
+            check_variable = { which = food_prod which = lower_cap_total }
         }
         set_variable = { which = t_0 which = food_prod }
-        subtract_variable = { which = t_0 which = arable_land }
+        subtract_variable = { which = t_0 which = lower_cap_total }
         divide_variable = { which = t_0 value = 2 }
         subtract_variable = { which = food_prod which = t_0 }
     }
-    set_variable = { which = fpp value = 1.1 }
+    set_variable = { which = fpp value = 1.0 }
     set_variable = { which = food_prod_mod value = 1.0 }
+    set_variable = { which = food_prod_add value = 0.0 }
     food_production_modifiers = yes
+    if = {
+        limit = {
+            is_empty = no
+        }
+        owner = {
+            PREV = {
+                change_variable = { which = food_prod_add which = PREV }
+            }
+        }
+    }
+    change_variable = { which = fpp which = food_prod_add }
 
     set_variable = { which = t_0 which = agri_eff }
     divide_variable = { which = t_0 value = 100 }
@@ -305,6 +317,8 @@ food_production_calc = {
     multiply_variable = { which = fpp which = food_prod_mod }
     multiply_variable = { which = food_prod which = fpp }
     
+    set_variable = { which = food_prod_add value = 0 }
+    set_variable = { which = food_prod_mod value = 0 }
     set_variable = { which = t_0 value = 0 }
 }
 
@@ -338,12 +352,6 @@ update_pop_total = {
 lower_cap_calc = {
     set_variable = { which = lower_cap_base which = arable_land }
     set_variable = { which = lower_cap_modifier value = 1 }
-    
-    set_variable = { which = t_0 value = 100 }
-    change_variable = { which = t_0 which = agri_eff }
-    divide_variable = { which = t_0 value = 100 }
-    divide_variable = { which = lower_cap_base which = t_0 }
-    set_variable = { which = t_0 value = 0 }
 
 	##################################################################################################################################################################
 	
@@ -358,6 +366,23 @@ lower_cap_calc = {
 	}
 
     lower_cap_modifiers = yes
+    
+    if = {
+        limit = {
+            is_empty = no
+        }
+        owner = {
+            PREV = {
+                change_variable = { which = lower_cap_modifier which = PREV }
+            }
+        }
+    }
+    
+    set_variable = { which = t_0 value = 100 }
+    change_variable = { which = t_0 which = agri_eff }
+    divide_variable = { which = t_0 value = 100 }
+    divide_variable = { which = lower_cap_base which = t_0 }
+    set_variable = { which = t_0 value = 0 }
 
     set_variable = { which = lower_cap_total which = lower_cap_base }
     multiply_variable = { which = lower_cap_total which = lower_cap_modifier }
@@ -677,6 +702,64 @@ middle_cap_calc = {
     multiply_variable = { which = middle_cap_total which = middle_cap_modifier }
 }
 
+pops_tick = {
+    1 = {
+        set_variable = { which = food_imports value = 1000 }
+        set_variable = { which = food_exports value = 1000 }
+    }
+    every_country = {
+        get_national_modifiers = yes
+
+        every_owned_province = {
+            agri_eff_calc = yes
+            wealth_calc = yes
+
+            lower_cap_calc = yes
+            working_cap_calc = yes
+            middle_cap_calc = yes
+
+            set_variable = { which = fbp which = PREV }
+            pops_growth_calc = { food_balance_percentage = fbp }
+            set_variable = { which = fbp value = 0 }
+            update_pop_modifiers = yes
+
+            food_production_calc = yes
+            capital_generation_calc = yes
+        }
+        update_national_pop_stats = yes
+        trade_amount_calc = yes
+
+        1 = {
+            PREV = {
+                if = {
+                    limit = {
+                        check_variable = { which = food_trade value = 0 }
+                    }
+                    set_variable = { which = food_imports which = food_trade }
+                    set_variable = { which = food_exports value = 0 }
+                }
+                else = {
+                    set_variable = { which = food_exports which = food_trade }
+                    set_variable = { which = food_imports value = 0 }
+                }
+            }
+            change_variable = { which = food_imports which = PREV }
+            subtract_variable = { which = food_exports which = PREV }
+            PREV = {
+                set_variable = { which = food_exports value = 0 }
+                set_variable = { which = food_imports value = 0 }
+            }
+        }
+    }
+    1 = {
+        set_variable = { which = global_food_price value = 0.5 }
+        multiply_variable = { which = global_food_price which = food_imports }
+        divide_variable = { which = global_food_price which = food_exports }
+    }
+    every_country = {
+        trade_value_calc = yes
+    }
+}
 pops_growth_calc = {
     # $food_balance_percentage$
 
@@ -686,7 +769,7 @@ pops_growth_calc = {
         }
         #Growth
         set_variable = { which = middle_growth_rate which = middle_pop_total }
-        multiply_variable = { which = middle_growth_rate value = 0.01 } # 1% yearly growth rate
+        multiply_variable = { which = middle_growth_rate value = 0.008 } # 0.8% yearly growth rate
 
         set_variable = { which = t_0 which = middle_cap_total }
         subtract_variable = { which = t_0 which = middle_pop_total }
@@ -716,7 +799,7 @@ pops_growth_calc = {
         }
 
         set_variable = { which = working_growth_rate which = working_pop_total }
-        multiply_variable = { which = working_growth_rate value = 0.03 } # 3% yearly growth rate
+        multiply_variable = { which = working_growth_rate value = 0.02 } # 2% yearly growth rate
 
         set_variable = { which = t_0 which = working_cap_total }
         subtract_variable = { which = t_0 which = working_pop_total }
@@ -740,7 +823,7 @@ pops_growth_calc = {
         }
         
         set_variable = { which = lower_growth_rate which = lower_pop_total }
-        multiply_variable = { which = lower_growth_rate value = 0.06 } # 6% yearly growth rate
+        multiply_variable = { which = lower_growth_rate value = 0.03 } # 3% yearly growth rate
 
         set_variable = { which = t_0 which = lower_cap_total }
         subtract_variable = { which = t_0 which = lower_pop_total }
@@ -768,10 +851,27 @@ pops_growth_calc = {
             }
             multiply_variable = { which = lower_growth_rate value = 0.25 }
         }
+        
+        if = {
+            limit = {
+                check_variable = { which = $food_balance_percentage$ value = 20 }
+            }
+            multiply_variable = { which = middle_growth_rate value = 1.25 } # Max: 1.0%
+            multiply_variable = { which = working_growth_rate value = 1.5 } # Max: 3.0%
+            multiply_variable = { which = lower_growth_rate value = 2.0 } # Max: 6.0%
+        }
+        else_if = {
+            limit = {
+                check_variable = { which = $food_balance_percentage$ value = 10 }
+            }
+            multiply_variable = { which = middle_growth_rate value = 1.125 }  # Max: 0.9%
+            multiply_variable = { which = working_growth_rate value = 1.25 }  # Max: 2.5%
+            multiply_variable = { which = lower_growth_rate value = 1.33 }  # Max: 4.0%
+        }
     }
     else_if = {
         limit = {
-            check_variable = { which = $food_balance_percentage$ value = -0.25 }
+            check_variable = { which = $food_balance_percentage$ value = -10 }
         }
         #Stagnation
         set_variable = { which = middle_growth_rate value = 0 }
@@ -864,7 +964,7 @@ pops_growth_calc = {
 
         if = {
             limit = {
-                NOT = { check_variable = { which = $food_balance_percentage$ value = -0.5 } }
+                NOT = { check_variable = { which = $food_balance_percentage$ value = -20 } }
             }
             #Double the rate
             multiply_variable = { which = middle_growth_rate value = 2 }
@@ -872,7 +972,7 @@ pops_growth_calc = {
             multiply_variable = { which = lower_growth_rate value = 2 }
             if = {
                 limit = {
-                    NOT = { check_variable = { which = $food_balance_percentage$ value = -0.75 } }
+                    NOT = { check_variable = { which = $food_balance_percentage$ value = -30 } }
                 }
                 #Double the rate again
                 multiply_variable = { which = middle_growth_rate value = 2 }
@@ -936,118 +1036,97 @@ pops_growth_calc = {
     update_middle_pop_modifiers = yes
 }
 
+trade_amount_calc = {
+
+    set_variable = { which = t_fbp which = food_prod }
+    divide_variable = { which = t_fbp which = total_pop }
+    subtract_variable = { which = t_fbp value = 1 }
+    
+    set_variable = { which = food_trade value = 0 }
+    if = {
+        limit = {
+            has_country_flag = trade_import
+        }
+        set_variable = { which = food_trade value = 0.1 }
+        subtract_variable = { which = food_trade which = t_fbp }
+        multiply_variable = { which = food_trade which = total_pop }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = trade_export
+        }
+        set_variable = { which = food_trade value = -0.1 }
+        subtract_variable = { which = food_trade which = t_fbp }
+        multiply_variable = { which = food_trade which = total_pop }
+    }
+    else_if = {
+        limit = {
+            NOT = { has_country_flag = trade_embargo }
+        }
+        set_variable = { which = food_trade value = 0.0 }
+        subtract_variable = { which = food_trade which = t_fbp }
+        multiply_variable = { which = food_trade which = total_pop }
+    }
+}
+trade_value_calc = {
+    1 = {
+        PREV = {
+            set_variable = { which = global_food_price which = PREV }
+        }
+    }
+
+    set_variable = { which = food_trade_income which = food_trade }
+    multiply_variable = { which = food_trade_income which = global_food_price }
+    multiply_variable = { which = food_trade_income value = -1 }
+}
+
 #National
-Pops_GetNationalStats = {
-    set_variable = { which = rural_pop value = 0 }
-    set_variable = { which = urban_pop value = 0 }
+update_national_pop_stats = {
+    set_variable = { which = middle_pop_total value = 0 }
+    set_variable = { which = working_pop_total value = 0 }
+    set_variable = { which = lower_pop_total value = 0 }
     set_variable = { which = food_prod value = 0 }
     every_owned_province = {
         PREV = {
-            change_variable = { which = rural_pop which = PREV }
-            change_variable = { which = urban_pop which = PREV }
+            change_variable = { which = middle_pop_total which = PREV }
+            change_variable = { which = working_pop_total which = PREV }
+            change_variable = { which = lower_pop_total which = PREV }
             change_variable = { which = food_prod which = PREV }
         }
     }
-    set_variable = { which = total_pop which = rural_pop }
-    change_variable = { which = total_pop which = urban_pop }
+	set_variable = { which = total_pop which = middle_pop_total }
+	change_variable = { which = total_pop which = working_pop_total }
+	change_variable = { which = total_pop which = lower_pop_total }
+    
+	set_variable = { which = population which = total_pop }
+	multiply_variable = { which = population value = 5 }
 }
 
-Pops_GetModifiers = {
+update_national_food_balance = {
+    set_variable = { which = food_balance which = food_prod }
+    subtract_variable = { which = food_balance which = total_pop }
+    change_variable = { which = food_balance which = food_trade }
     
-    set_variable = { which = fpp_add value = 0 }
-    set_variable = { which = fpp_mod value = 0 }
-    set_variable = { which = agri_eff_add value = 0 }
-    #Tech
-        #Adm
-        if = {
-            limit = {
-                adm_tech = 12 #Irrigation
-            }
-            change_variable = { which = fpp_add value = 0.01 }
-            if = {
-                limit = {
-                    adm_tech = 24 #Improved Drainage
-                }
-                change_variable = { which = fpp_add value = 0.02 }
-                if = {
-                    limit = {
-                        adm_tech = 36 #Land Clearance
-                    }
-                    change_variable = { which = fpp_add value = 0.03 }
-                }
-            }
+    set_variable = { which = fbp which = food_balance }
+    divide_variable = { which = fbp which = total_pop }
+    multiply_variable = { which = fbp value = 100 }
+
+    if = {
+        limit = {
+            has_country_flag = trade_export
         }
-        if = {
-            limit = {
-                adm_tech = 11 #Simple Mechanisms
-            }
-            change_variable = { which = agri_eff_add value = 2.0 }
-            if = {
-                limit = {
-                    adm_tech = 20 #Steam Pumps
-                }
-                change_variable = { which = agri_eff_add value = 2.0 }
-                if = {
-                    limit = {
-                        adm_tech = 23 #Atmospheric Steam Engines
-                    }
-                    change_variable = { which = agri_eff_add value = 2.0 }
-                    if = {
-                        limit = {
-                            adm_tech = 38 #Industrial Production
-                        }
-                        change_variable = { which = agri_eff_add value = 4.0 }
-                        if = {
-                            limit = {
-                                adm_tech = 46 #Tractors
-                            }
-                            change_variable = { which = agri_eff_add value = 10.0 }
-                        }
-                    }
-                }
-            }
+        set_variable = { which = fbp value = -10 }
+    }
+    else_if = {
+        limit = {
+            has_country_flag = trade_import
         }
-        if = {
-            limit = {
-                adm_tech = 8 #Sickles
-            }
-            change_variable = { which = fpp_mod value = 0.1 }
-            if = {
-                limit = {
-                    adm_tech = 10 #Craftsmanship
-                }
-                change_variable = { which = fpp_mod value = 0.05 }
-                if = {
-                    limit = {
-                        adm_tech = 15 #Scythes
-                    }
-                    change_variable = { which = fpp_mod value = 0.15 }
-                    if = {
-                        limit = {
-                            adm_tech = 22 #Machinery
-                        }
-                        change_variable = { which = fpp_mod value = 0.05 }
-                        if = {
-                            limit = {
-                                adm_tech = 28 #Scientific Enquiry
-                            }
-                            change_variable = { which = fpp_mod value = 0.05 }
-                            if = {
-                                limit = {
-                                    adm_tech = 31 #Viatite Engineering
-                                }
-                                change_variable = { which = fpp_mod value = 0.05 }
-                                if = {
-                                    limit = {
-                                        adm_tech = 41 #Measurements and Weights
-                                    }
-                                    change_variable = { which = fpp_mod value = 0.05 }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+        set_variable = { which = fbp value = 10 }
+    }
+    else_if = {
+        limit = {
+            NOT = { has_country_flag = trade_embargo }
         }
-    #
+        set_variable = { which = fbp value = 0 }
+    }
 }

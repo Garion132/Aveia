@@ -15,3 +15,68 @@ defined_text = {
         }
     }
 }
+
+defined_text = {
+    name = GetTradePolicy
+    random = no
+
+    text = {
+        trigger = {
+            has_country_flag = trade_embargo
+        }
+        localisation_key = trade_embargo_policy_loc
+    }
+    text = {
+        trigger = {
+            has_country_flag = trade_export
+        }
+        localisation_key = export_focus_policy_loc
+    }
+    text = {
+        trigger = {
+            has_country_flag = trade_import
+        }
+        localisation_key = import_focus_policy_loc
+    }
+    text = {
+        trigger = {
+            always = yes
+        }
+        localisation_key = normalized_trade_policy_loc
+    }
+}
+
+defined_text = {
+    name = GetNetTradeColor
+    random = no
+
+    text = {
+        trigger = {
+            check_variable = { which = food_trade value = 0 }
+        }
+        localisation_key = green_loc
+    }
+    text = {
+        trigger = {
+            always = yes
+        }
+        localisation_key = red_loc
+    }
+}
+defined_text = {
+    name = GetNetTradeIncome
+    random = no
+
+    text = {
+        trigger = {
+            check_variable = { which = food_trade_income value = 0 }
+        }
+        localisation_key = positive_net_trade_loc
+    }
+    text = {
+        trigger = {
+            always = yes
+        }
+        localisation_key = negative_net_trade_loc
+    }
+}

@@ -9,7 +9,19 @@ country_decisions = {
 			always = yes
 		}
 		effect = {
-			country_event = { id = pop.1 }
+			country_event = { id = pop.2 }
+		}
+	}
+	food_policy = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			country_event = { id = pop.4 }
 		}
 	}
 }
