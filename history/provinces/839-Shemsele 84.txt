@@ -9,7 +9,7 @@ culture = loironan
 religion = tlaunorist
 hre = no
 base_tax = 0
-base_production =1
+base_production =0
 base_manpower = 1
 trade_goods = fur
 capital = "She 3"
@@ -22,3 +22,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 discovered_by = northern_men_group
 extra_cost = 0
+set_variable = { which = arable_land value = 4 }

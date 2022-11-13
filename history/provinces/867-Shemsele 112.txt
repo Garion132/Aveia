@@ -10,9 +10,9 @@ controller = SHE
 culture = loironan
 religion = tlaunorist
 hre = no
-base_tax = 1
-base_production =2
-base_manpower = 1
+base_tax = 0
+base_production =0
+base_manpower = 2
 trade_goods = wool
 capital = "She 3"
 is_city = yes
@@ -23,3 +23,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+set_variable = { which = arable_land value = 2 }

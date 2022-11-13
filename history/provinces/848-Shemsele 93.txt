@@ -8,8 +8,8 @@ culture = nilenorian
 religion = tlaunorist
 hre = no
 base_tax = 0
-base_production =1
-base_manpower = 1
+base_production =0
+base_manpower = 3
 trade_goods = naval_supplies
 capital = "She 3"
 is_city = yes
@@ -20,3 +20,8 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+set_variable = { which = arable_land value = 7 }
+add_permanent_province_modifier = {
+	name = enheasrion_plains
+	duration = -1
+}

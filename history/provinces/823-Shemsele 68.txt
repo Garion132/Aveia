@@ -7,9 +7,9 @@ controller = SHE
 culture = ulilran
 religion = tlaunorist
 hre = no
-base_tax = 2
-base_production =3
-base_manpower = 3
+base_tax = 0
+base_production =0
+base_manpower = 5
 trade_goods = fur
 capital = "She 3"
 is_city = yes
@@ -21,3 +21,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 1
+set_variable = { which = arable_land value = 8 }
