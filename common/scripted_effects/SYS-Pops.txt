@@ -229,6 +229,8 @@ agri_eff_calc = {
     multiply_variable = { which = agri_eff_maintenance value = 0.1 }
     multiply_variable = { which = agri_eff_maintenance which = arable_land }
 
+    agri_eff_modifiers = yes
+
     #Additive Tech
     if = {
         limit = {
@@ -363,6 +365,20 @@ lower_cap_calc = {
 		dockland = { change_variable = { which = lower_cap_base value = 1.5 } }
 		wharf = { change_variable = { which = lower_cap_base value = 2.0 } }
 		harbor_district = { change_variable = { which = lower_cap_base value = 3.0 } }
+	}
+    
+	trigger_switch = {
+		on_trigger = has_building
+		irrigated_fields = { change_variable = { which = lower_cap_base value = 1.0 } change_variable = { which = lower_cap_modifier value = 0.1 } }
+		farm = { change_variable = { which = lower_cap_base value = 2.0 } change_variable = { which = lower_cap_modifier value = 0.05 } }
+		mechanized_farm = { change_variable = { which = lower_cap_base value = 3.0 } }
+	}
+    
+	trigger_switch = {
+		on_trigger = has_building
+		gatherers_hut = { change_variable = { which = lower_cap_base value = 1.0 } }
+		plantation = { change_variable = { which = lower_cap_base value = 2.0 } change_variable = { which = lower_cap_modifier value = 0.05 } }
+		trade_station = { change_variable = { which = lower_cap_base value = 3.0 } change_variable = { which = lower_cap_modifier value = 0.1 } }
 	}
 
     lower_cap_modifiers = yes
@@ -531,13 +547,20 @@ working_cap_calc = {
 		university = { change_variable = { which = working_cap_base value = 0.5 } }
 		research_center = { change_variable = { which = working_cap_base value = 0.5 } }
 	}
-
-	# trigger_switch = {
-	# 	on_trigger = has_building
-	# 	art_corporation = { change_variable = { which = urban_gravity_base value = 0.2 } change_variable = { which = urban_gravity_percentage value = 0.05 } change_variable = { which = wealth_urban_as_asset value = 200 } }
-	# 	fine_arts_academy = { change_variable = { which = urban_gravity_base value = 0.4 } change_variable = { which = urban_gravity_percentage value = 0.10 } change_variable = { which = wealth_urban_as_asset value = 500 } }
-	# 	opera = { change_variable = { which = urban_gravity_base value = 0.6 } change_variable = { which = urban_gravity_percentage value = 0.15 } change_variable = { which = wealth_urban_as_asset value = 900 } }
-	# }
+    
+	trigger_switch = {
+		on_trigger = has_building
+		craftsman = { change_variable = { which = working_cap_base value = 1.0 } }
+		early_factory = { change_variable = { which = working_cap_base value = 2.0 } }
+		late_factory = { change_variable = { which = working_cap_base value = 3.0 } }
+	}
+    
+	trigger_switch = {
+		on_trigger = has_building
+		mine = { change_variable = { which = working_cap_base value = 0.5 } }
+		mining_complex = { change_variable = { which = working_cap_base value = 1.0 } }
+		mechanized_mine = { change_variable = { which = working_cap_base value = 1.5 } }
+	}
 
     working_cap_modifiers = yes
     
@@ -688,13 +711,12 @@ middle_cap_calc = {
 		university = { change_variable = { which = middle_cap_base value = 2.0 } change_variable = { which = middle_cap_modifier value = 0.15 } }
 		research_center = { change_variable = { which = middle_cap_base value = 4.0 } change_variable = { which = middle_cap_modifier value = 0.20 } }
 	}
-
-	# trigger_switch = {
-	# 	on_trigger = has_building
-	# 	art_corporation = { change_variable = { which = urban_gravity_base value = 0.2 } change_variable = { which = urban_gravity_percentage value = 0.05 } change_variable = { which = wealth_urban_as_asset value = 200 } }
-	# 	fine_arts_academy = { change_variable = { which = urban_gravity_base value = 0.4 } change_variable = { which = urban_gravity_percentage value = 0.10 } change_variable = { which = wealth_urban_as_asset value = 500 } }
-	# 	opera = { change_variable = { which = urban_gravity_base value = 0.6 } change_variable = { which = urban_gravity_percentage value = 0.15 } change_variable = { which = wealth_urban_as_asset value = 900 } }
-	# }
+    
+	trigger_switch = {
+		on_trigger = has_building
+		refinery = { change_variable = { which = middle_cap_base value = 1.0 } }
+		processing_plant = { change_variable = { which = middle_cap_base value = 2.0 } }
+    }
 
     middle_cap_modifiers = yes
     

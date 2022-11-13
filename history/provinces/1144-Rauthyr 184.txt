@@ -10,8 +10,8 @@ controller = RAU
 culture = galen
 religion = tlaunorist
 hre = no
-base_tax = 1
-base_production =3
+base_tax = 0
+base_production =0
 base_manpower = 1
 trade_goods = gold_knot
 capital = "Rau 3"
@@ -24,9 +24,8 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 discovered_by = northern_men_group
 extra_cost = 0
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 4.0 }
-set_variable = { which = urban_pop value = 0.0 }
-set_variable = { which = agri_eff_base value = 5 }
+set_variable = { which = arable_land value = 11 }
+add_permanent_province_modifier = {
+	name = enheasrion_plains
+	duration = -1
+}

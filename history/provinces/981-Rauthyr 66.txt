@@ -7,9 +7,9 @@ add_core = DRA
 culture = draumi
 religion = tlaunorist
 hre = no
-base_tax = 2
-base_production =3
-base_manpower = 3
+base_tax = 0
+base_production =0
+base_manpower = 12
 trade_goods = grain
 capital = "Rau 3"
 is_city = yes
@@ -19,9 +19,5 @@ discovered_by = free_kolbolds_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 22.0 }
-set_variable = { which = urban_pop value = 0.0 }
-set_variable = { which = agri_eff_base value = 10 }
+gravel_roads = yes
+set_variable = { which = arable_land value = 12 }

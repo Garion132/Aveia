@@ -6,9 +6,9 @@ controller = RAU
 culture = lidoran
 religion = tlaunorist
 hre = no
-base_tax = 10
-base_production =5
-base_manpower = 10
+base_tax = 3
+base_production = 12
+base_manpower = 24
 trade_goods = silver
 capital = "Lindoremy"
 is_city = yes
@@ -21,9 +21,16 @@ discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 3
 fort_14th = yes
+gravel_roads = yes
+taxman = yes
+town_square = yes
+mint = yes
+marketplace = yes
+barracks = yes
+shrine = yes
+set_variable = { which = arable_land value = 24 }
 
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 41.5 }
-set_variable = { which = urban_pop value = 28.5 }
-set_variable = { which = agri_eff_base value = 30 }
+add_permanent_province_modifier = {
+	name = lindor
+	duration = -1
+}

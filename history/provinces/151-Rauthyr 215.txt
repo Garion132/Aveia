@@ -9,7 +9,7 @@ religion = tlaunorist
 hre = no
 base_tax = 1
 base_production = 3
-base_manpower = 14
+base_manpower = 20
 trade_goods = copper
 capital = "Rau 3"
 is_city = yes
@@ -26,4 +26,4 @@ gravel_roads = yes
 taxman = yes
 town_square = yes
 
-set_variable = { which = arable_land value = 14 }
+set_variable = { which = arable_land value = 20 }

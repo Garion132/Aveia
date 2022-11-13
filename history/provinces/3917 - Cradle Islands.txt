@@ -4,9 +4,9 @@ controller = SAL
 culture = salorian
 religion = tlaunorist
 hre = no
-base_tax = 3
-base_production =3
-base_manpower = 2
+base_tax = 0
+base_production =0
+base_manpower = 5
 trade_goods = fish
 capital = "Sal 3"
 is_city = yes
@@ -17,9 +17,5 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 18.0 }
-set_variable = { which = urban_pop value = 0.0 }
-set_variable = { which = agri_eff_base value = 10 }
+port = yes
+set_variable = { which = arable_land value = 4 }

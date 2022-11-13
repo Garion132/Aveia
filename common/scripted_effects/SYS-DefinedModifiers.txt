@@ -86,6 +86,16 @@
             change_variable = { which = food_prod_mod value = 0.2 }
         }
     }
+    agri_eff_modifiers = {
+        # agri_eff
+
+        trigger_switch = {
+            on_trigger = has_building
+            irrigated_fields = { change_variable = { which = agri_eff value = 5 } }
+            farm = { change_variable = { which = agri_eff value = 10 } }
+            mechanized_farm = { change_variable = { which = agri_eff value = 20 } }
+        }
+    }
 #
 
 ## COUNTRY ##
@@ -100,7 +110,7 @@
                 limit = {
                     adm_tech = 0 #Agriculture
                 }
-                change_variable = { which = food_prod_add value = 0.05 }
+                change_variable = { which = food_prod_add value = 0.1 }
                 if = {
                     limit = {
                         adm_tech = 1 #Domestication
@@ -125,7 +135,7 @@
                                     limit = {
                                         adm_tech = 45 #Chemistry
                                     }
-                                    change_variable = { which = food_prod_add value = 0.25 }
+                                    change_variable = { which = food_prod_add value = 0.2 }
                                 }
                             }
                         }

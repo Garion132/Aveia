@@ -8,8 +8,8 @@ culture = ollunian
 religion = tlaunorist
 hre = no
 base_tax = 0
-base_production =1
-base_manpower = 0
+base_production =0
+base_manpower = 1
 trade_goods = fur
 capital = "Rau 3"
 is_city = yes
@@ -20,9 +20,8 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 1.0 }
-set_variable = { which = urban_pop value = 0.0 }
-set_variable = { which = agri_eff_base value = 0 }
+set_variable = { which = arable_land value = 4 }
+add_permanent_province_modifier = {
+	name = enheasrion_plains
+	duration = -1
+}

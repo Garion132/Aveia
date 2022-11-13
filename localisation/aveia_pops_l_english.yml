@@ -17,7 +17,7 @@
  pop.3.b:0 "Back"
 
  pop.4.t:0 "Food Policy"
- pop.4.d:0 "Food Production: §G[food_prod.GetValue]§!\nFood Trade: [GetNetTradeColor][food_trade.GetValue]§!\nConsumption: §R[total_pop.GetValue]§!\nFood Balance: [food_balance.GetValue] ([fbp.GetValue]%)\n\nCurrent Trade Policy: [Root.GetTradePolicy]\nNet Income from Food Trade: [GetNetTradeIncome]\n\nGlobal Food Price: [global_food_price.GetValue]¤\nGlobal Food Supply: [1.food_exports.GetValue]\nGlobal Food Demand: [1.food_imports.GetValue]"
+ pop.4.d:0 "Food Production: §G[food_prod.GetValue]§!\nFood Trade: [GetNetTradeColor][food_trade.GetValue]§!\nConsumption: §R[total_pop.GetValue]§!\nFood Balance: [food_balance.GetValue] ([fbp.GetValue]%)\n\nCurrent Trade Policy: [Root.GetTradePolicy]\nYearly Net Income from Food Trade: [GetNetTradeIncome]\n\nGlobal Food Price: [global_food_price.GetValue]¤\nGlobal Food Supply: [1.food_exports.GetValue]\nGlobal Food Demand: [1.food_imports.GetValue]"
  pop.4.op1:0 "Adjust Trade Policy"
  pop.4.op3:0 "DEBUG: Calculate Trade"
 
