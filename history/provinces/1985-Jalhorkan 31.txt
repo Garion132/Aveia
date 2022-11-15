@@ -3,8 +3,8 @@
 culture = noxivate
 religion = tlaunorist
 hre = no
-base_tax = 2
-base_production =2
+base_tax = 0
+base_production =0
 base_manpower = 3
 trade_goods = unknown
 capital = "KAF"
@@ -20,6 +20,8 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 
 center_of_trade = 1
+
+set_variable = { which = arable_land value = 11 }
 
 1200.1.1={
 	add_core = ELI

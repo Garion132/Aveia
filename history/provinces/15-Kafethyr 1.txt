@@ -8,7 +8,7 @@ religion = tlaunorist
 hre = no
 base_tax = 1
 base_production = 3
-base_manpower = 6
+base_manpower = 7
 trade_goods = cloth
 capital = "kaf 3"
 is_city = yes
@@ -23,4 +23,4 @@ center_of_trade = 2
 gravel_roads = yes
 taxman = yes
 town_square = yes
-set_variable = { which = arable_land value = 6 }
+set_variable = { which = arable_land value = 8 }

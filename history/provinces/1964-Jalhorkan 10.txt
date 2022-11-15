@@ -3,9 +3,9 @@
 culture = kafathi
 religion = tlaunorist
 hre = no
-base_tax = 5
-base_production =5
-base_manpower = 4
+base_tax = 0
+base_production =3
+base_manpower = 5
 trade_goods = unknown
 capital = "KAF"
 native_size = 25
@@ -20,6 +20,10 @@ discovered_by = free_kolbolds_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
+
+set_variable = { which = arable_land value = 11 }
+port = yes
+town_square = yes
 
 1200.1.1={
 	add_core = KAF

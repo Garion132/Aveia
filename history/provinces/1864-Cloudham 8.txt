@@ -3,10 +3,10 @@
 culture = kafathi
 religion = tlaunorist 
 hre = no
-base_tax = 3
+base_tax = 0
 base_production =2
-base_manpower = 3
-trade_goods = unknown
+base_manpower = 6
+trade_goods = ecriamin
 capital = "Sal"
 native_size = 25
 native_ferocity = 2
@@ -19,6 +19,11 @@ discovered_by = free_kolbolds_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
+
+port = yes
+shipwright = yes
+town_square = yes
+set_variable = { which = arable_land value = 12 }
 
 1200.1.1={
 	add_core = CLO

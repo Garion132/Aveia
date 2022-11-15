@@ -589,7 +589,12 @@
 	}
 
 	kafethyrian_soil = {
+		# food_prod_mod = 0.2
 		trade_goods_size = 0.75
+	}
+	kafethyrian_soil_2 = {
+		# food_prod_mod = 0.2
+		trade_goods_size = 0.05
 	}
 
 	remote_lands_of_juluia = { #Colonizing Juluia is difficult

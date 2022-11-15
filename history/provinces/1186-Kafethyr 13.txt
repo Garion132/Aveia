@@ -6,9 +6,9 @@ controller = KAF
 culture = kafathi
 religion = tlaunorist
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 0
+base_production = 1
+base_manpower = 7
 trade_goods = ceramics
 capital = "kaf 3"
 is_city = yes
@@ -21,3 +21,9 @@ discovered_by = dunirr_group
 extra_cost = 0
 port = yes
 shipwright = yes
+gravel_roads = yes
+add_permanent_province_modifier = {
+	name = kafethyrian_soil_2
+	duration = -1
+}
+set_variable = { which = arable_land value = 11 }

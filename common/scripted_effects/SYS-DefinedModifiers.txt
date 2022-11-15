@@ -85,6 +85,12 @@
             }
             change_variable = { which = food_prod_mod value = 0.2 }
         }
+        if = {
+            limit = {
+                has_province_modifier = kafethyrian_soil_2
+            }
+            change_variable = { which = food_prod_mod value = 0.2 }
+        }
     }
     agri_eff_modifiers = {
         # agri_eff

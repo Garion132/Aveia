@@ -1,11 +1,11 @@
 #cloudham
 
-culture = kaletian
+culture = kafathi
 religion = tlaunorist
 hre = no
-base_tax = 4
-base_production =5
-base_manpower = 2
+base_tax = 0
+base_production =1
+base_manpower = 3
 trade_goods = paper
 capital = "Sal"
 native_size = 25
@@ -19,6 +19,9 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 discovered_by = free_fauns_group
+
+town_square = yes
+set_variable = { which = arable_land value = 10 }
 
 1200.1.1={
 	add_core = CLO
