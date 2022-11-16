@@ -1781,7 +1781,7 @@
  desert_desc:0 "Desert terrain represents desolate and arid areas with little or no vegetation, often in a very warm climate."
  coastal_desert_desc:0 "Coastal Desert terrain represents areas where the desert meets the ocean, resulting in a milder and less inhospitable climate."
  coastline_desc:0 "Coastline terrain represents the narrow areas where land and sea meet, comprised of cliffs or sand dunes."
- farmlands_desc:0 "Farmlands terrain represents highly cultivated areas where the landscape is dominated by agriculture and towns or villages."
+ farmlands_desc:0 "Food Production: §G+10.0%§!\n\nFarmlands terrain represents highly cultivated areas where the landscape is dominated by agriculture and towns or villages."
  glacier:0 "Glacial"
  glacier_desc:0 "The Glacial terrain represents areas with very harsh and cold conditions often with permanent snow coverage and glaciers. Areas with Glacial terrain are very inhospitable for human settlement or military maneuvers."
  drylands_desc:0 "Drylands represents large areas of dry, flat or rolling treeless land."

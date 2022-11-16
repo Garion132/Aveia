@@ -81,15 +81,21 @@
         # food_prod_add
         if = {
             limit = {
+                has_terrain = farmlands
+            }
+            change_variable = { which = food_prod_mod value = 0.1 }
+        }
+        if = {
+            limit = {
                 has_province_modifier = kafethyrian_soil
             }
-            change_variable = { which = food_prod_mod value = 0.2 }
+            change_variable = { which = food_prod_mod value = 0.1 }
         }
         if = {
             limit = {
                 has_province_modifier = kafethyrian_soil_2
             }
-            change_variable = { which = food_prod_mod value = 0.2 }
+            change_variable = { which = food_prod_mod value = 0.1 }
         }
     }
     agri_eff_modifiers = {
