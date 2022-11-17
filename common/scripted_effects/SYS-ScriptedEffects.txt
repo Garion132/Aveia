@@ -1,0 +1,155 @@
+scale_population = {
+    # $total_pop$
+    # $middle_pop$
+    # $working_pop$
+    # $lower_pop$
+    
+    hidden_effect = {
+        [[total_pop]
+            export_to_variable = {
+                which = sp_t2
+                value = base_tax
+            }
+            set_variable = { which = sp_t which = middle_pop_total }
+            multiply_variable = { which = sp_t value = $total_pop$ }
+            subtract_variable = { which = sp_t which = sp_t2 }
+            change_variable = { which = middle_growth which = sp_t }
+            
+            export_to_variable = {
+                which = sp_t2
+                value = base_production
+            }
+            set_variable = { which = sp_t which = working_pop_total }
+            multiply_variable = { which = sp_t value = $total_pop$ }
+            subtract_variable = { which = sp_t which = sp_t2 }
+            change_variable = { which = working_growth which = sp_t }
+            
+            export_to_variable = {
+                which = sp_t2
+                value = base_manpower
+            }
+            set_variable = { which = sp_t which = lower_pop_total }
+            multiply_variable = { which = sp_t value = $total_pop$ }
+            subtract_variable = { which = sp_t which = sp_t2 }
+            change_variable = { which = lower_growth which = sp_t }
+            
+            update_pop_total = yes
+        ]
+
+        [[middle_pop]
+            export_to_variable = {
+                which = sp_t2
+                value = base_tax
+            }
+            set_variable = { which = sp_t which = middle_pop_total }
+            multiply_variable = { which = sp_t value = $total_pop$ }
+            subtract_variable = { which = sp_t which = sp_t2 }
+            change_variable = { which = middle_growth which = sp_t }
+        ]
+        [[working_pop]
+            export_to_variable = {
+                which = sp_t2
+                value = base_production
+            }
+            set_variable = { which = sp_t which = working_pop_total }
+            multiply_variable = { which = sp_t value = $total_pop$ }
+            subtract_variable = { which = sp_t which = sp_t2 }
+            change_variable = { which = working_growth which = sp_t }
+        ]
+        [[lower_pop]
+            export_to_variable = {
+                which = sp_t2
+                value = base_manpower
+            }
+            set_variable = { which = sp_t which = lower_pop_total }
+            multiply_variable = { which = sp_t value = $total_pop$ }
+            subtract_variable = { which = sp_t which = sp_t2 }
+            change_variable = { which = lower_growth which = sp_t }
+        ]
+        update_pop_total = yes 
+        set_variable = { which = sp_t value = 0 }
+        set_variable = { which = sp_t2 value = 0 }  
+    }
+}
+change_population = {
+    # Population
+    # $total_pop$
+    # $middle_pop$
+    # $working_pop$
+    # $lower_pop$
+
+    hidden_effect = {
+        [[total_pop]
+            set_variable = { which = cp_t value = $total_pop$ }
+            divide_variable = { which = cp_t which = population }
+            change_variable = { which = cp_t value = 1 }
+            scale_population = { total_pop = cp_t }
+            update_pop_total = yes
+        ]
+        [[middle_pop]
+            set_variable = { which = cp_t value = $middle_pop$ }
+            divide_variable = { which = cp_t which = middle_pop_total }
+            divide_variable = { which = cp_t value = 5 }
+            change_variable = { which = cp_t value = 1 }
+            scale_population = { middle_pop = cp_t }
+        ]
+        [[working_pop]
+            set_variable = { which = cp_t value = $working_pop$ }
+            divide_variable = { which = cp_t which = working_pop_total }
+            divide_variable = { which = cp_t value = 5 }
+            change_variable = { which = cp_t value = 1 }
+            scale_population = { working_pop = cp_t }
+        ]
+        [[lower_pop]
+            set_variable = { which = cp_t value = $lower_pop$ }
+            divide_variable = { which = cp_t which = lower_pop_total }
+            divide_variable = { which = cp_t value = 5 }
+            change_variable = { which = cp_t value = 1 }
+            scale_population = { lower_pop = cp_t }
+        ]
+        update_pop_total = yes
+        set_variable = { which = cp_t value = 0 }
+    }
+}
+change_pop = {
+    # Pops
+    # $middle$
+    # $working$
+    # $lower$
+
+    [[middle]
+        add_base_tax = $middle$
+    ]
+    [[working]
+        add_base_production = $middle$
+    ]
+    [[lower]
+        add_base_manpower = $middle$
+    ]
+    hidden_effect = {
+        update_pop_total = yes   
+    }
+}
+
+change_agricultural_efficiency = {
+    # Note: 1.0 = 1%
+    # $value$
+    # $which$
+
+    hidden_effect = {
+        [[value]
+            change_variable = { which = agri_eff_base value = $value$ }
+        ]
+        [[which]
+            change_variable = { which = agri_eff_base which = $which$ }
+        ]
+        if = {
+            limit = {
+                NOT = { check_variable = { which = agri_eff_base value = 0 } }
+            }
+            set_variable = { which = agri_eff_base value = 0 }
+        }
+        agri_eff_calc = yes
+        update_pop_total = yes   
+    }
+}

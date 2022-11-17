@@ -32,7 +32,6 @@ Pops_Setup = {
 
         # update_rural_pop_modifiers = yes
         # update_urban_pop_modifiers = yes
-        update_pop_total = yes
 
         if = {
             limit = {
@@ -41,13 +40,9 @@ Pops_Setup = {
             arable_land_calc = yes
         }
         agri_eff_calc = yes
-        wealth_calc = yes
 
-        lower_cap_calc = yes
-        working_cap_calc = yes
-        middle_cap_calc = yes
+        update_pops = yes
 
-        capital_generation_calc = yes
         food_production_calc = yes
     }
     set_global_flag = pop_pulse
@@ -224,10 +219,6 @@ arable_land_calc = {
 }
 agri_eff_calc = {
     set_variable = { which = agri_eff which = agri_eff_base }
-    
-    set_variable = { which = agri_eff_maintenance which = agri_eff_base }
-    multiply_variable = { which = agri_eff_maintenance value = 0.1 }
-    multiply_variable = { which = agri_eff_maintenance which = arable_land }
 
     agri_eff_modifiers = yes
 
@@ -245,45 +236,7 @@ agri_eff_calc = {
         }
     }
 }
-wealth_calc = {
-    set_variable = { which = wealth which = wealth_base }
-    
-    set_variable = { which = wealth_maintenance which = wealth_base }
-    multiply_variable = { which = wealth_maintenance value = 0.1 }
-    multiply_variable = { which = wealth_maintenance which = total_pop }
-}
 
-capital_generation_calc = {
-    export_to_variable = {
-        which = middle_pop_capital
-        value = base_tax
-    }
-    export_to_variable = {
-        which = working_pop_capital
-        value = base_production
-    }
-    export_to_variable = {
-        which = lower_pop_capital
-        value = base_manpower
-    }
-
-    multiply_variable = { which = middle_pop_capital value = 1.2 }
-    multiply_variable = { which = working_pop_capital value = 0.6 }
-    multiply_variable = { which = lower_pop_capital value = 0.3 }
-    
-    set_variable = { which = capital_generation value = 0 }
-    change_variable = { which = capital_generation which = middle_pop_capital }
-    change_variable = { which = capital_generation which = working_pop_capital }
-    change_variable = { which = capital_generation which = lower_pop_capital }
-    
-    set_variable = { which = wealth_spending which = working_pop_capital }
-    multiply_variable = { which = wealth_spending value = 0.5 }
-    change_variable = { which = wealth_spending which = middle_pop_capital }
-    
-    set_variable = { which = agri_eff_spending which = working_pop_capital }
-    multiply_variable = { which = agri_eff_spending value = 0.5 }
-    change_variable = { which = agri_eff_spending which = lower_pop_capital }
-}
 food_production_calc = {
     set_variable = { which = food_prod which = lower_pop_total }
     if = {
@@ -324,8 +277,82 @@ food_production_calc = {
     set_variable = { which = t_0 value = 0 }
 }
 
-update_pop_total = {
+update_pops = {
     
+    #Updating Development
+    while = {
+        limit = {
+            check_variable = { which = middle_growth value = 1 }
+        }
+        subtract_variable = { which = middle_growth value = 1 }
+        add_base_tax = 1
+    }
+    while = {
+        limit = {
+            base_tax = 1
+            NOT = { check_variable = { which = middle_growth value = 0 } }
+        }
+        change_variable = { which = middle_growth value = 1 }
+        add_base_tax = -1
+    }
+    if = {
+        limit = {
+            NOT = { check_variable = { which = middle_growth value = 0 } }
+        }
+        set_variable = { which = middle_growth value = 0 }
+    }
+    
+    while = {
+        limit = {
+            check_variable = { which = working_growth value = 1 }
+        }
+        subtract_variable = { which = working_growth value = 1 }
+        add_base_production = 1
+    }
+    while = {
+        limit = {
+            base_production = 1
+            NOT = { check_variable = { which = working_growth value = 0 } }
+        }
+        change_variable = { which = working_growth value = 1 }
+        add_base_production = -1
+    }
+    if = {
+        limit = {
+            NOT = { check_variable = { which = working_growth value = 0 } }
+        }
+        set_variable = { which = working_growth value = 0 }
+    }
+    
+    while = {
+        limit = {
+            check_variable = { which = lower_growth value = 1 }
+        }
+        subtract_variable = { which = lower_growth value = 1 }
+        add_base_manpower = 1
+    }
+    while = {
+        limit = {
+            base_manpower = 1
+            NOT = { check_variable = { which = lower_growth value = 0 } }
+        }
+        change_variable = { which = lower_growth value = 1 }
+        add_base_manpower = -1
+    }
+    if = {
+        limit = {
+            NOT = { check_variable = { which = lower_growth value = 0 } }
+        }
+        set_variable = { which = lower_growth value = 0 }
+    }
+    if = {
+        limit = {
+            NOT = { base_manpower = 1 }
+        }
+        add_base_manpower = 1
+    }
+    
+    # Pop Total
     export_to_variable = {
         which = middle_pop_total
         value = base_tax
@@ -347,8 +374,19 @@ update_pop_total = {
 	change_variable = { which = total_pop which = working_pop_total }
 	change_variable = { which = total_pop which = lower_pop_total }
     
+    #Modifiers
+    update_lower_pop_modifiers = yes
+    update_working_pop_modifiers = yes
+    update_middle_pop_modifiers = yes
+    
+    # Population
 	set_variable = { which = population which = total_pop }
 	multiply_variable = { which = population value = 5 }
+    
+    #Capacities
+    lower_cap_calc = yes
+    working_cap_calc = yes
+    middle_cap_calc = yes
 }
 
 lower_cap_calc = {
@@ -734,7 +772,6 @@ pops_tick = {
 
         every_owned_province = {
             agri_eff_calc = yes
-            wealth_calc = yes
 
             lower_cap_calc = yes
             working_cap_calc = yes
@@ -746,7 +783,6 @@ pops_tick = {
             update_pop_modifiers = yes
 
             food_production_calc = yes
-            capital_generation_calc = yes
         }
         update_national_pop_stats = yes
         trade_amount_calc = yes
@@ -1005,57 +1041,10 @@ pops_growth_calc = {
     }
     
     change_variable = { which = middle_growth which = middle_growth_rate }
-    if = {
-        limit = {
-            check_variable = { which = middle_growth value = 1 }
-        }
-        subtract_variable = { which = middle_growth value = 1 }
-        add_base_tax = 1
-    }
-    else_if = {
-        limit = {
-            NOT = { check_variable = { which = middle_growth value = 0 } }
-        }
-        change_variable = { which = middle_growth value = 1 }
-        add_base_tax = -1
-    }
-
     change_variable = { which = working_growth which = working_growth_rate }
-    if = {
-        limit = {
-            check_variable = { which = working_growth value = 1 }
-        }
-        subtract_variable = { which = working_growth value = 1 }
-        add_base_production = 1
-    }
-    else_if = {
-        limit = {
-            NOT = { check_variable = { which = working_growth value = 0 } }
-        }
-        change_variable = { which = working_growth value = 1 }
-        add_base_production = -1
-    }
-
     change_variable = { which = lower_growth which = lower_growth_rate }
-    if = {
-        limit = {
-            check_variable = { which = lower_growth value = 1 }
-        }
-        subtract_variable = { which = lower_growth value = 1 }
-        add_base_manpower = 1
-    }
-    else_if = {
-        limit = {
-            NOT = { check_variable = { which = lower_growth value = 0 } }
-        }
-        change_variable = { which = lower_growth value = 1 }
-        add_base_manpower = -1
-    }
 
-    update_pop_total = yes
-    update_lower_pop_modifiers = yes
-    update_working_pop_modifiers = yes
-    update_middle_pop_modifiers = yes
+    update_pops = yes
 }
 
 trade_amount_calc = {

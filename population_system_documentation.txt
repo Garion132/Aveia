@@ -76,60 +76,47 @@ POPULATION OVERVIEW:
     Agricultural Efficiency decreases the capacity that arable land provides & requires while increasing the food output, allowing 
     for a wealthier province with less population required to grow its crops.
 
-    'Staffed' Arable Land will provide food. If a country has a food surplus (where food production & imports - exports > food consumption) 
+    Lower Class pops under their capacity will provide food. If a country has a food surplus (where food production & imports - exports > food consumption) 
     then population will grow. If a country has a food deficit, then populations will stagnate or (at high enough deficits) decline.
 
-    #Wealth
-    Wealth is a value that goes from 0 (mass poverty) to 100 (opulent beyond imagination). As wealth increases, tax income, goods production, 
-    and trade power increases. As a result, wealthy provinces will not only produce more, but also control more trade. Thus a wealthy Yhenil 
-    may end up outcompeting any neighboring province based on wealth alone. 
-
-    If a province is sieged, then some of its wealth may be pillaged. Each wealth pillaged will provide 2 ducats per pop while devastating
-    the province. 10% of a province's wealth will be pillaged while another 10% will be destroyed when occupied. Afterwards, it cannot be
-    pillaged for 5 years.
-
-    #Capital
-    In addition to your country, provinces will also have income to spend as well. Provinces will earn a set rate of money based on capital 
-    generation. Capital is produced by the different pop types. Buildings may also produce additional capital. National modifiers may also 
-    affect capital generation. High autonomy will also increase this value.
-
-    Using this capital, they can use it to either A: Improve the wealth of the province, B: Maintain the wealth of the province, 
-    C: Improve the Agricultural Efficiency, D: Maintain the current Agricultural Efficiency, or E: Build a Building. 
-    Improving provincial wealth/Agri Eff takes a lot of capital to do. Maintaining provincial wealth/Agri eff also takes a lot 
-    of capital to do. It is important to note that provinces will only use wealth created from autonomy on building buildings or 
-    maintaining existing wealth/Agri eff.
-
-    Each wealth value costs 0.1 capital to maintain per pop. Each percentage of Agricultural Efficiency takes 0.1 capital to maintain per
-    arable land. It takes 5.0 capital per pop to increase wealth by 1 and 5.0 capital per pop to increase Agricultural Efficiency by 1%.
-
-    Each Middle Class pop generates 1.2 capital and devotes all of it to improving & maintaining Wealth/Buildings, each Working Class pop
-    generates 0.6 capital and devotes half to Wealth/Buildings and the other half to Agricultural Efficiency, and each Lower Class pop
-    generates 0.3 capital and devotes all of it to AE. Agricultural efficiency will increase the amount of wealth Lower Class pops generate
-    so at 100% efficiency Lower Class pops generate double their wealth value.
+    # Food Trade
+    You may trade for food. Exporting food will provide tax income while importing food will reduce tax income.
+    
+    For this, there are four different trade policies you can enact: Trade Embargo, Export Focus, Balanced Trade, Import Focus
+        Trade Embargo - No trade occurs. Your food balance depends wholly upon your own ability to grow food.
+        Export Focus - Balance is set to -10%. Your population will stagnate (only Lower Class pops grow at a base of 1% per year).
+        Balanced Trade - Balance is set to 0%. All sections of your population will grow at the normal rate.
+        Import Focus - Balance is set to +10%. Your population will grow at double the normal rate.
+    
+    Export Focus is good for when you are lacking in funds and so either need to import less (if you are a large food
+    importer) or export more. However, it is detrimental to do over long stretches of time.
+    Balanced Trade is the default and provides a good middle ground between money & growth.
+    Import focus is good for when you want to grow your population rapidly (Especially after the IAC)
 
     #Adding or Removing Population
-    To add population, use the add_population scripted effect
-    add_population = { middle = 1 working = 1 lower = 1 }
+    To add or remove population, use the change_population scripted effect
+    change_population = { middle = 1 working = 1 lower = 1 }
 
-    there is also remove
-    remove_population = { middle = 1 working = 1 lower = 1 }
+    if you want to remove population, use negative values
+    remove_population = { middle = =1 working = -1 lower = -1 }
     
     For the technical details, add_population will add the respective development types while updating the province values.
     Doing it through the normal add_base_tax/add_base_production/add_base_manpower will have the same end effect, but it will
     not update the tooltip values to reflect changes. 
 
     If you want to add/remove population as a pure number you can do that as well with the same effects.
-    add_population = { total_pop = 2.0 middle_pop = 1.2 working_pop = 1.4 lower_pop = 1.1 }
-    remove_population = { total_pop = 2.0 middle_pop = 1.2 working_pop = 1.4 lower_pop = 1.1 }
+    NOTE: total_pop is added FIRST and is added to each category weighted by their relative population
+    add_population = { total_pop = 2.0 middle_pop = -1.2 working_pop = 1.4 lower_pop = 1.1 }
 
     You can also scale population. Basically each value gets multiplied by these. The multiplication compounds, so 
     in this case middle_pop gets multiplied by 1.2*1.2 = 1.44.
+    NOTE: total_pop is scaled FIRST
     scale_population = { total_pop = 1.2 middle_pop = 1.2 working_pop = 1.4 lower_pop = 1.1 }
 
-Pop Classes:        Tax Income (yrly)  Goods Produced    Manpower   Trade Power         TOTAL INCOME (yearly)   Base Capital Generation
-    Middle Class:      1.0                  0.12           250         3.0                  1.315                       1.0
-    Working Class:     0.4                  0.10           300         0.5                  0.663                       0.5
-    Lower Class:       0.3                  0.04           200         0.1                  0.379                       0.25
+Pop Classes:        Tax Income (yrly)  Goods Produced    Manpower   Trade Power         TOTAL INCOME (yearly)
+    Middle Class:      1.0                  0.12           250         3.0                  1.315
+    Working Class:     0.4                  0.10           300         0.5                  0.663
+    Lower Class:       0.3                  0.04           200         0.1                  0.379
 
 RESEARCH:
 
@@ -173,11 +160,8 @@ Variables:
     urban_pop_cap       #Urban Population Capacity
 
     food_prod           #Food Production
-    agri_eff_base       #Base Agricultural Efficiency. Has to be maintained by local population.
+    agri_eff_base       #Base Agricultural Efficiency. Can be adjusted at will.
     agri_eff            #Agricultural Efficiency. Actual agricultural efficiency value used
-    wealth              #Wealth
-    wealth_expense      #Wealth Expense - Amount required to maintain wealth level
-    capital             #Capital - Money stored
 
     middle_pop          #Middle Class Population (in population count)
     working_pop         #Working Class Population (in population count)

@@ -848,6 +848,7 @@ on_adm_development = {
 	owner = {
 		add_treasury = -100
 	}
+	update_pops = yes
 }
 
 # province
@@ -861,6 +862,7 @@ on_dip_development = {
 	owner = {
 		add_treasury = -50
 	}
+	update_pops = yes
 }
 
 # province
@@ -868,6 +870,7 @@ on_mil_development = {
 	owner = {
 		add_treasury = -25
 	}
+	update_pops = yes
 }
 
 on_overextension_pulse = {
