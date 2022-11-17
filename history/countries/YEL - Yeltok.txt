@@ -1,10 +1,10 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
-primary_culture = borestian
-religion = shimmerian
+primary_culture = yelioan
+religion = tlaunorist
 government_rank = 1
-technology_group = eastern_men_group
-capital = 4818 # 
+technology_group = lake_elves_group
+capital = 63 # 
 #national_focus = DIP
 #historical_rival = HAB
 

@@ -733,3 +733,6 @@
  golden_sun_1_desc:0 "A golden orb of light, the biggest known, gives off enormous amount of light and heat. The surrounding area due to this is untouched by seasons creating a ideal enviroment for growing crops, rasing animals."
  
  obj_every_state_prosperous_tooltip:0 "All States:\n  Are §YProsperous§!"
+ 
+ yeltok_nation_title:0 "Form Yeltok"
+ gugh_nation_title:0 "Form Gugh"

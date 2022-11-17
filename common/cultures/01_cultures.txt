@@ -4894,7 +4894,314 @@ gughite_ugluk = {
 }
 
 
-humans = {
+anorian = {
+	graphical_culture = westerngfx
+
+	male_names = { Gunther Rolf }
+	borestian = {
+		#primary = NYH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir  Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jir� George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikol�s Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin  
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw  
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda  Malgorzata Marcelina Maria Mark�ta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			
+		}
+	}
+	timberian = {
+		#primary = NYH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir  Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jir� George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikol�s Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin  
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw  
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda  Malgorzata Marcelina Maria Mark�ta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			
+		}
+	}
+	earheran = {
+		#primary = NYH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir  Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jir� George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikol�s Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin  
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw  
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda  Malgorzata Marcelina Maria Mark�ta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			
+		}
+	}
+	molisir = {
+		#primary = NYH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir  Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jir� George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikol�s Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin  
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw  
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda  Malgorzata Marcelina Maria Mark�ta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			
+		}
+	}
+	cloudlander = {
+		#primary = NYH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir  Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jir� George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikol�s Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin  
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw  
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda  Malgorzata Marcelina Maria Mark�ta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			
+		}
+	}
+	crystalian = {
+		#primary = NYH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir  Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jir� George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikol�s Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin  
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw  
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda  Malgorzata Marcelina Maria Mark�ta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			
+		}
+	}
+	ehalian = {
+		#primary = NYH
+		male_names = {
+			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
+			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
+			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
+			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
+			Bartosz Bartolomeus Bedrich 
+			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
+			Boriwoj Borijov Bozydar Theodat Branimir Branislav
+			Bretislav Bretislaus Casimir  Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
+			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
+			Janusz John Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jir� George Jozef Joseph 
+			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
+			Koloman Kornel Cornelius Kresimir Krzeslaw
+			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
+			Martin Mateusz Matthew Mieszko Mikol�s Nicholas Miloslaw Milosz Miroslaw 
+			Mscislaw Mstislav Msciwoj
+			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
+			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
+			Stanislaw
+			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
+			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin  
+			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
+			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw  
+			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
+		}
+		female_names = {
+			Gabriela Helena Janina
+			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
+			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
+			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
+			Ludmila Magda  Malgorzata Marcelina Maria Mark�ta Martyna 
+			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
+			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		dynasty_names = {
+			
+		}
+	}
+}
+
+donamenz_group = {
 	graphical_culture = westerngfx
 
 	male_names = { Gunther Rolf }
@@ -4925,49 +5232,6 @@ humans = {
 			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin  
 			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
 			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw 
-			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
-		}
-		female_names = {
-			Gabriela Helena Janina
-			Agnieszka Agnes Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy 
-			Dobroniega Dorota Dorothy Dragomira Edyta Ewa Geira Gertruda Gertrude
-			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Judith Kamila 
-			Katarina Catherine Kenna Kornelia Krystyna Christina Ksenia Lidia
-			Ludmila Magda  Malgorzata Marcelina Maria Mark�ta Martyna 
-			Mateja Matylda Matilda Milena Miroslava Pechna R�za Radomila Radomira Radoslava
-			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Stephania Svetlana Urszula V�clava 
-			Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
-		}
-		dynasty_names = {
-			"Malricn" "Bechshar" "Marvor" "Valendich" "Achnir" "Dukkindid" "Ulracct" "Calgorn" "Eshden"
-		}
-	}
-	anorian = {
-		#primary = NYH
-		male_names = {
-			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
-			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
-			Gustav Harald Hendryk Herbert Hermann Jochem Maximiliam Reinhold 
-			Siegfried Walter Wilhelm Alexander Andrzej Antoni Antoninus Aron 
-			Bartosz Bartolomeus Bedrich 
-			Frederick Bezprzym Blazej Blaise Bogislaw Bohdan Bogdan Bohumir Boleslaw Boleslav 
-			Boriwoj Borijov Bozydar Theodat Branimir Branislav
-			Bretislav Bretislaus Casimir  Dobieslaw Dobromil Drosuk Dytryk Thierry Frantisek 
-			Francis Gawel Grzegorz Gregory Havel Gallus Jacenty Hyacinth Jakub Jakusz Jacob 
-			Janusz John Jaromar
-			Jaromil Jaromir Jaroslav Jedrzej Jindrich Henry Jir� George Jozef Joseph 
-			Juliusz Julian Kajetan Kamil Camillus Karel Charles Kasper Kazimierz Kliment Clement Kolman 
-			Koloman Kornel Cornelius Kresimir Krzeslaw
-			Krzysztof Christopher Lech Leszek Lubomir Lucjan Lucius Ludvik Louis Marek Marcus Marian Marius 
-			Martin Mateusz Matthew Mieszko Mikol�s Nicholas Miloslaw Milosz Miroslaw 
-			Mscislaw Mstislav Msciwoj
-			Oldrich Ulrich Ondrej Andrew Otokar Patryk Patrick Pawel Paul Piotr Peter Prendota Przemysl 
-			Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard Richard Sambor Sobieslav Sobeslaus 
-			Stanislaw
-			Strasz Swietopelk Svatopluk Swietoslaw Sviatoslav Szczepan Stephen Szczesny Szymon Tadeusz 
-			Theodore Tomasz Thomas Udalrich Urjasz Vojtech Albert Waclaw Walenty Valentin  
-			Vratislav Wawrzyniec Laurence Wenceslaw Vaclav
-			Wincenty Vincent Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw  
 			Zbigniew Zbynek Zdenek Zdislav Zygmunt Sigmund
 		}
 		female_names = {

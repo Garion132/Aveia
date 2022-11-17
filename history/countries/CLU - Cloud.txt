@@ -1,6 +1,6 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
-primary_culture = anorian
+primary_culture = cloudlander
 religion = falowi
 government_rank = 1
 technology_group = eastern_men_group

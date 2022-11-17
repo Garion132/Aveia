@@ -1,6 +1,6 @@
 #juilia
 capital = "Accra"
-culture = anorian
+culture = cloudlander
 religion = uzvazism
 trade_goods = unknown
 hre = no
