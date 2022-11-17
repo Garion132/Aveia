@@ -6,8 +6,8 @@ owner = ELS
 controller = ELS
 culture = yelioan
 religion = tlaunorist
-base_tax = 2
-base_production = 3
+base_tax = 0
+base_production = 0
 base_manpower = 3
 trade_goods = fish
 native_size = 0
@@ -20,9 +20,6 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 8
+port = yes
 
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 25.0 }
-set_variable = { which = urban_pop value = 1.0 }
-set_variable = { which = agri_eff_base value = 15 }
+set_variable = { which = arable_land value = 2 }

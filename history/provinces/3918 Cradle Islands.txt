@@ -7,9 +7,9 @@ owner = SYM
 controller = SYM
 culture = yelioan
 religion = tlaunorist
-base_tax = 6
-base_production = 8
-base_manpower = 4
+base_tax = 0
+base_production = 1
+base_manpower = 12
 trade_goods = tin
 native_size = 0
 native_ferocity = 0
@@ -22,9 +22,6 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 center_of_trade = 1
 extra_cost = 8
+port = yes
 
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 35.0 }
-set_variable = { which = urban_pop value = 1.5 }
-set_variable = { which = agri_eff_base value = 25 }
+set_variable = { which = arable_land value = 11 }

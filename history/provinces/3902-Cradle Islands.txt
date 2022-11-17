@@ -6,9 +6,9 @@ owner = KML
 controller = KML
 culture = yelioan
 religion = tlaunorist
-base_tax = 8
-base_production = 7
-base_manpower = 6
+base_tax = 0
+base_production = 4
+base_manpower = 7
 trade_goods = ceramics
 native_size = 0
 native_ferocity = 0
@@ -21,9 +21,11 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 center_of_trade = 1
 extra_cost = 8
+port = yes
+shipwright = yes
+gravel_roads = yes
+town_square = yes
+taxman = yes
+mint = yes
 
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 33.0 }
-set_variable = { which = urban_pop value = 16.5 }
-set_variable = { which = agri_eff_base value = 25 }
+set_variable = { which = arable_land value = 6 }

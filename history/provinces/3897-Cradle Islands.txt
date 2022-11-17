@@ -7,9 +7,9 @@ culture = yelioan
 religion = tlaunorist
 trade_goods = salt
 hre = no
-base_tax = 6
-base_production = 8
-base_manpower = 6
+base_tax = 1
+base_production = 5
+base_manpower = 9
 native_size = 0
 native_ferocity = 0
 native_hostileness = 0
@@ -21,9 +21,12 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 center_of_trade = 1
 extra_cost = 8
+port = yes
+shipwright = yes
+gravel_roads = yes
+town_square = yes
+workshop = yes
+taxman = yes
+mint = yes
 
-set_province_flag = manual_pop
-set_province_flag = manual_agri_eff
-set_variable = { which = rural_pop value = 46.0 }
-set_variable = { which = urban_pop value = 11.5 }
-set_variable = { which = agri_eff_base value = 25 }
+set_variable = { which = arable_land value = 8 }
