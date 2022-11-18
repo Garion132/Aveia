@@ -21,8 +21,8 @@ discovered_by = dunirr_group
 discovered_by = free_fauns_group
 
 1200.1.1={
-	add_core = SAL
-	owner = SAL
-	controller = SAL
+	add_core = SRI
+	owner = SRI
+	controller = SRI
 	is_city = yes
 }

@@ -22,8 +22,8 @@ discovered_by = dunirr_group
 set_variable = { which = arable_land value = 7 }
 
 1200.1.1={
-	add_core = KAF
-	owner = KAF
-	controller = KAF
+	add_core = CLO
+	owner = CLO
+	controller = CLO
 	is_city = yes
 }

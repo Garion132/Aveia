@@ -24,8 +24,8 @@ town_square = yes
 set_variable = { which = arable_land value = 11 }
 
 1200.1.1={
-	add_core = KAF
-	owner = KAF
-	controller = KAF
+	add_core = CLO
+	owner = CLO
+	controller = CLO
 	is_city = yes
 }
