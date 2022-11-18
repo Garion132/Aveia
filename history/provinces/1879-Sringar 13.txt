@@ -20,9 +20,9 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 
 1200.1.1={
-	add_core = SRI
-	owner = SRI
-	controller = SRI
+	add_core = SAL
+	owner = SAL
+	controller = SAL
 	is_city = yes
 }
 add_permanent_province_modifier = {

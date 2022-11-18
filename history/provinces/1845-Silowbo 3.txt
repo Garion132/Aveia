@@ -21,9 +21,9 @@ discovered_by = dunirr_group
 discovered_by = free_fauns_group
 
 1200.1.1={
-	add_core = SIL
-	owner = SIL
-	controller = SIL
+	add_core = ATH
+	owner = ATH
+	controller = ATH
 	is_city = yes
 	religion = tlaunorist
 	culture = athanilan

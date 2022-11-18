@@ -22,9 +22,9 @@ discovered_by = dunirr_group
 discovered_by = free_fauns_group
 
 1200.1.1={
-	add_core = FYG
-	owner = FYG
-	controller = FYG
+	add_core = KEA
+	owner = KEA
+	controller = KEA
 	is_city = yes
 }
 
