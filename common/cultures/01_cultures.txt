@@ -5201,7 +5201,7 @@ anorian = {
 	}
 }
 
-donamenz_group = {
+humans = {
 	graphical_culture = westerngfx
 
 	male_names = { Gunther Rolf }
