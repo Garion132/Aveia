@@ -653,7 +653,7 @@ colony = {
 colony_elteria_start = {
 	copy_from = colony
 	count = colony
-	is_colony_subtype = yes
+	#is_colony_subtype = yes
 	
 	# Graphics:
 	sprite = GFX_subject_colony_icon
