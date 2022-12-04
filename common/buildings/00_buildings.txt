@@ -157,10 +157,14 @@ marketplace = {
 	}
 
 	on_built = {
-		update_pops = yes
+		hidden_effect = {
+			update_pops = yes
+		}
 	}
 	on_destroyed = {
-		update_pops = yes
+		hidden_effect = {
+			update_pops = yes
+		}
 	}
 
 	ai_will_do = {
