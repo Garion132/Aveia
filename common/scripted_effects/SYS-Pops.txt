@@ -769,7 +769,8 @@ pops_tick = {
     }
     every_country = {
         get_national_modifiers = yes
-
+        update_national_food_balance = yes
+        
         every_owned_province = {
             agri_eff_calc = yes
 

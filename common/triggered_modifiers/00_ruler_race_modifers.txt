@@ -10,7 +10,7 @@ elven_ruler = {
 		ruler_race_is_elven = yes
 	}
 	monarch_lifespan = 30000
-    heir_chance = -0.70
+    heir_chance = -0.5
 }
 dunirrian_ruler = {
 	potential = {
@@ -20,7 +20,7 @@ dunirrian_ruler = {
 		ruler_race_is_dwarf = yes
 	}
 	monarch_lifespan = 25000
-    heir_chance = -0.66
+    heir_chance = -0.33
 }
 uglukish_ruler = {
 	potential = {
@@ -30,6 +30,6 @@ uglukish_ruler = {
 		ruler_race_is_ork = yes
 	}
 	monarch_lifespan = 20000
-    heir_chance = -0.25
+    heir_chance = -0.15
     global_manpower = 0.001
 }
