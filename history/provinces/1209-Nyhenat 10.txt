@@ -19,8 +19,10 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+gravel_roads = yes
 
 add_permanent_province_modifier = {
 	name = dreghei_mines
 	duration = -1
 }
+set_variable = { which = arable_land value = 8 }

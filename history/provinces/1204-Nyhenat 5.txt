@@ -6,9 +6,9 @@ controller = NYH
 culture = nyhenat
 religion = tlaunorist
 hre = no
-base_tax = 2
-base_production =3
-base_manpower = 2
+base_tax = 0
+base_production =0
+base_manpower = 5
 trade_goods = fruit
 capital = "Nyh 3"
 is_city = yes
@@ -19,3 +19,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+set_variable = { which = arable_land value = 5 }
