@@ -1,6 +1,16 @@
 ﻿l_english:
- SOH_ideas:0 "Sohoremyfan Ideas"
  north_mannish_ideas:0 "Mannish Tribal Ideas"
+ 
+ SOH_ideas:0 "Sohoremyfan Ideas"
+ SOH_ideas_start:0 "Sohoremyfan Traditions"
+ SOH_ideas_bonus:0 "Sohoremyfan Ambitions"
+ SOH_colonial_primacy:0 "Colonial Primacy"
+ SOH_colonial_primacy_desc:0 ""
+ SOH_scions_of_the_sea:0 "Scions of the Sea"
+ SOH_scions_of_the_sea_desc:0 ""
+ SOH_patroler_of_demina:0 "Patroler of Demina"
+ SOH_patroler_of_demina_desc:0 ""
+ 
  
  IWE_ideas:0 "Iwen Ideas"
  IWE_ideas_start:0 "Iwen Traditions"
@@ -30,6 +40,22 @@
  merchants_of_yhenil:0 "Merchants of Yhenil"
  acts_of_protection:0 "Acts of Protection"
  fathers_of_global_trade:0 "Fathers of Global Trade"
+ 
+ birthplace_of_elves:0 "Birthplace of Elves"
+ birthplace_of_elves_desc:0 ""
+ local_dynasts:0 "Local Dynasts"
+ local_dynasts_desc:0 ""
+ edict_of_mythanis:0 ""
+ edict_of_mythanis_desc:0 ""
+ new_nalean_contract:0 "New Nalean Contract"
+ new_nalean_contract_desc:0 ""
+ spirit_of_kyathi:0 "Spirit of Kyathi"
+ spirit_of_kyathi_desc:0 ""
+ cradle_trading_company:0 "Cradle Trading Company"
+ cradle_trading_company_desc:0 ""
+ university_of_oruinyal:0 "University of Oruinyal"
+ university_of_oruinyal_desc:0 ""
+ 
 
  #Generics
  has_early_idea_tooltip:0 "Has a Bronze-Age Idea Group"

@@ -5,7 +5,7 @@ religion = tlaunorist
 technology_group = dunirr_group
 capital = 1202 # 
 #national_focus = DIP
-#historical_rival = HAB
+historical_rival = DRG
 
 change_estate_land_share = {
 	estate = estate_nobles

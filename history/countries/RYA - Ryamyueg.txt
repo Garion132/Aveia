@@ -24,7 +24,7 @@ change_estate_land_share = {
 1200.9.16 = {
 	monarch = {
 		name = "Raean"
-		dynasty = "Thyrin"
+		dynasty = "Ryam"
 		birth_date = 1200.12.3
 		adm = 4
 		dip = 2
@@ -41,6 +41,6 @@ change_estate_land_share = {
 		adm = 3
 		dip = 5
 		mil = 4
-		dynasty = "Thyrin"		
+		dynasty = "Ryam"		
 	}
 }

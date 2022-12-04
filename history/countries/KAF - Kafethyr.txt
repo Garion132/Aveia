@@ -21,13 +21,26 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1230.9.16 = {
 	monarch = {
 		name = "Murentin"
-		dynasty = "Thyr"
-		birth_date = 1234.3.27
+		dynasty = "Yoluktor"
+		birth_date = 1224.3.27
 		adm = 2
 		dip = 5
+		mil = 2
+	}
+}
+1269.9.24 = {
+	heir = {
+		name = "Kardil"
+		monarch_name = "Kardil II"
+		dynasty = "Yoluktor"
+		birth_date = 1269.9.24
+		death_date = 1472.1.1
+		claim = 98
+		adm = 3
+		dip = 3
 		mil = 2
 	}
 }

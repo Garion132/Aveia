@@ -11,6 +11,7 @@ country_event = {
 		ruler_race_is_dragon = no
 		always = no
 	}
+	is_triggered_only = yes
 
     immediate = {
 		kill_ruler = yes

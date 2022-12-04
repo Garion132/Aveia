@@ -20,21 +20,21 @@ SOH_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	colonial_primacy = {
+	SOH_colonial_primacy = {
 		global_colonial_growth = 25
 	}
-	scions_of_the_sea = {
+	SOH_scions_of_the_sea = {
 		ship_power_propagation = 0.1
 		light_ship_power = 0.33
 	}
-	patroler_of_demina= {
+	SOH_patroler_of_demina= {
 		trade_steering = 0.1
 	}
 	soh_marine_tradition = {
 		allowed_marine_fraction = 0.15
 		land_morale = 0.10
 	}
-	reform_of_comission_buying = {
+	SOH_reform_of_comission_buying = {
 		discipline = 0.05
 	}
 	soh_gateway_to_the_east = {
