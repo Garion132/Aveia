@@ -1258,7 +1258,7 @@ NMilitary = {
 	MOVE_LOCK_PERCENTAGE = 0.5,						-- Unit movement is locked after this percentage of progress
 	REGULAR_LEADER_POWER = 1,						-- Used for generals & admirals (affects total pips)
 	EXPLORER_LEADER_POWER = 0.8,					-- Used for conquistadors & explorers (affects total pips)
-	BASE_MP_TO_MANPOWER = 0.20,		-- 250 men per manpower
+	BASE_MP_TO_MANPOWER = 0.08,		-- 80 men per manpower
 	SIEGE_ATTRITION = 1,
 	SIEGE_DISEASE_IMPACT = 0.05,						-- Fraction of besieging soldiers lost in a disease outbraek
 	ARMY_ATTRITION_AT_COAST = 1,					-- How many percent attrition units take while loaded onto ships along the coast
@@ -1290,7 +1290,7 @@ NMilitary = {
 	GALLEY_SHIP_SAILORS_COST = 50,					-- 1 = 1 men in cost.
 	TRANSPORT_SHIP_SAILORS_COST = 50,				-- 1 = 1 men in cost.
 	MAX_MANPOWER = 10, 								-- years in mp pool
-	MIN_MONTHLY_MANPOWER = 0.1,						-- 100 men/month is minimum
+	MIN_MONTHLY_MANPOWER = 0.05,						-- 50 men/month is minimum
 	MAX_SAILORS = 10, 								-- years in mp pool
 	MIN_MONTHLY_SAILORS = 5,						-- 5 sailors/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						--
@@ -1305,9 +1305,9 @@ NMilitary = {
 	CAVALRY_SPEED = 0.8, 							-- _MDEF_CAVALRY_SPEED = 10,
 	ARTILLERY_SPEED = 0.7, 							-- _MDEF_ARTILLERY_SPEED = 10,
 
-	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,
-	CAVALRY_COST = 100.0, 							-- _MDEF_CAVALRY_COST = 10,
-	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,
+	INFANTRY_COST = 20.0, 							-- _MDEF_INFANTRY_COST = 10,
+	CAVALRY_COST = 200.0, 							-- _MDEF_CAVALRY_COST = 10,
+	ARTILLERY_COST = 60.0, 							-- _MDEF_ARTILLERY_COST = 10,
 	FORTRESS_COST = 0.5,							-- base fort cost
 	HEAVY_SHIP_COST = 100, 							-- _MDEF_HEAVY_SHIP_COST = 10,
 	LIGHT_SHIP_COST = 40, 							-- _MDEF_LIGHT_SHIP_COST = 10,

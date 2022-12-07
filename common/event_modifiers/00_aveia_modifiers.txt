@@ -448,6 +448,11 @@
 		technology_cost = -0.05
 		idea_cost = -0.1
 	}
+	loyal_military = {
+		stability_cost_modifier = -0.1
+		land_morale = 0.1
+		naval_morale = 0.1
+	}
 
 	
 

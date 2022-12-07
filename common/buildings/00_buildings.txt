@@ -1397,6 +1397,7 @@ fort_14th = {
 	time = 30
 	modifier = {
 		fort_level = 1
+		allowed_num_of_buildings = 1
 	}
 
 	onmap = yes
@@ -1423,6 +1424,7 @@ fort_15th = {
 	make_obsolete = fort_14th
 	modifier = {
 		fort_level = 2
+		allowed_num_of_buildings = 1
 	}
 
 	onmap = yes
@@ -1449,6 +1451,7 @@ fort_16th = {
 	make_obsolete = fort_15th
 	modifier = {
 		fort_level = 4
+		allowed_num_of_buildings = 1
 	}
 
 	onmap = yes
@@ -1478,6 +1481,7 @@ fort_17th = {
 
 	modifier = {
 		fort_level = 6
+		allowed_num_of_buildings = 1
 	}
 
 	onmap = yes
@@ -1508,12 +1512,13 @@ fort_18th = {
 
 	modifier = {
 		fort_level = 8
+		allowed_num_of_buildings = 1
 	}
 
 	onmap = yes
 
 	influencing_fort = yes
-	
+
 	on_built = {
 		hidden_effect = {
 			update_pops = yes	
@@ -1539,6 +1544,7 @@ fort_19th = {
 	modifier = {
 		fort_level = 10
 		local_defensiveness = 0.25
+		allowed_num_of_buildings = 1
 	}
 
 	onmap = yes
@@ -1681,7 +1687,7 @@ gravel_roads = {
 		supply_limit = 0.25
 		province_trade_power_value = 0.1
 		province_trade_power_modifier = 0.05
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 	}
 	
 	on_built = {
@@ -1712,7 +1718,7 @@ paved_roads = {
 		supply_limit = 0.5
 		province_trade_power_value = 0.2
 		province_trade_power_modifier = 0.1
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 3
 	}
 	
 	on_built = {
@@ -1743,7 +1749,7 @@ highways = {
 		supply_limit = 1
 		province_trade_power_value = 0.5
 		province_trade_power_modifier = 0.15
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 4
 	}
 	
 	on_built = {
@@ -1811,7 +1817,7 @@ railroads = {
 		supply_limit = 0.5
 		province_trade_power_value = 0.5
 		province_trade_power_modifier = 0.1
-		allowed_num_of_buildings = 2
+		allowed_num_of_buildings = 3
 	}
 	
 	on_built = {
@@ -1843,7 +1849,7 @@ railroad_network = {
 		supply_limit = 1
 		province_trade_power_value = 1
 		province_trade_power_modifier = 0.2
-		allowed_num_of_buildings = 2
+		allowed_num_of_buildings = 4
 	}
 	
 	on_built = {
@@ -2748,17 +2754,7 @@ city_construction = { #When adding, make sure to add city_construction_modifier 
 		hidden_effect = {
 			remove_building = city_construction
 			remove_province_modifier = city_construction_modifier
-			random_list = {
-				33 = {
-					add_base_tax = 1
-				}
-				33 = {
-					add_base_production = 1
-				}
-				33 = {
-					add_base_manpower = 1
-				}
-			}
+			change_pop = { working = 1 }
 		}
     }
 	

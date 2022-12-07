@@ -101,7 +101,7 @@ difficulty_very_hard_ai = {
 
 city = {
 	local_tax_modifier = 0.5
-	allowed_num_of_buildings = 2
+	allowed_num_of_buildings = 3
 	local_sailors_modifier = 0.5
 	garrison_growth = 0.05
 	allowed_num_of_manufactories = 1
@@ -242,19 +242,21 @@ no_adjacent_controlled = {
 provincial_tax_income = {
 	#tax_income = 1.0
 	trade_goods_size = 0.12
-	local_manpower = 0.20
-	local_sailors = 40
+	local_manpower = 0.08
+	local_sailors = 15
 	province_trade_power_value = 3.0
 	local_build_cost = 0.02
+	land_forcelimit	= 0.05
 }
 
 provincial_production_size = {
 	tax_income = 0.4
 	trade_goods_size = 0.1
-	local_manpower = 0.25
-	local_sailors = 50
+	local_manpower = 0.1
+	local_sailors = 20
 	province_trade_power_value = 0.5
 	local_build_cost = 0.01
+	land_forcelimit	= 0.02
 }
 
 knowledge_sharing = {
@@ -268,8 +270,8 @@ cardinals_spread_institution = {
 manpower = {
 	tax_income = 0.3
 	trade_goods_size = 0.04
-	#local_manpower = 0.2
-	local_sailors = 25
+	#local_manpower = 0.08
+	local_sailors = 5
 	province_trade_power_value = 0.1
 }
 
@@ -284,19 +286,19 @@ province_razed = {
 }
 
 development = {
-	allowed_num_of_buildings = 0.2
+	allowed_num_of_buildings = 0.01
 	supply_limit_modifier = 0.02
 	local_missionary_strength = -0.001
-	land_forcelimit	= 0.1			# special case, affected by autonomy
-	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
-	local_amount_of_banners = 0.066
-	local_amount_of_cawa = 0.125
-	local_amount_of_carolean = 0.1
-	local_amount_of_hussars = 0.01
+	land_forcelimit	= 0.05			# special case, affected by autonomy
+	naval_forcelimit = 0.05			# special case, affected by autonomy & set to 0 by code if not port
+	local_amount_of_banners = 0.033
+	local_amount_of_cawa = 0.0625
+	local_amount_of_carolean = 0.05
+	local_amount_of_hussars = 0.005
 }
 
 development_scaled = {
-	local_development_cost = 0.03
+	local_development_cost = 0.02
 }
 
 capital_city = {
@@ -589,7 +591,7 @@ base_values = {
 	tolerance_heathen = -3
 	tolerance_heretic = -2
 	global_missionary_strength = 0.02
-	global_manpower = 5.0
+	global_manpower = 2.5
 	advisor_pool = 3
 	colonist_placement_chance = 0.05
 	free_leader_pool = 1

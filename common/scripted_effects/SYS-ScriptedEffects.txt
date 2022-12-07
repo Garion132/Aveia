@@ -42,7 +42,7 @@ scale_population = {
                 value = base_tax
             }
             set_variable = { which = sp_t which = middle_pop_total }
-            multiply_variable = { which = sp_t value = $total_pop$ }
+            multiply_variable = { which = sp_t value = $middle_pop$ }
             subtract_variable = { which = sp_t which = sp_t2 }
             change_variable = { which = middle_growth which = sp_t }
         ]
@@ -52,7 +52,7 @@ scale_population = {
                 value = base_production
             }
             set_variable = { which = sp_t which = working_pop_total }
-            multiply_variable = { which = sp_t value = $total_pop$ }
+            multiply_variable = { which = sp_t value = $working_pop$ }
             subtract_variable = { which = sp_t which = sp_t2 }
             change_variable = { which = working_growth which = sp_t }
         ]
@@ -62,7 +62,7 @@ scale_population = {
                 value = base_manpower
             }
             set_variable = { which = sp_t which = lower_pop_total }
-            multiply_variable = { which = sp_t value = $total_pop$ }
+            multiply_variable = { which = sp_t value = $lower_pop$ }
             subtract_variable = { which = sp_t which = sp_t2 }
             change_variable = { which = lower_growth which = sp_t }
         ]
@@ -121,10 +121,10 @@ change_pop = {
         add_base_tax = $middle$
     ]
     [[working]
-        add_base_production = $middle$
+        add_base_production = $working$
     ]
     [[lower]
-        add_base_manpower = $middle$
+        add_base_manpower = $lower$
     ]
     hidden_effect = {
         update_pop_total = yes   

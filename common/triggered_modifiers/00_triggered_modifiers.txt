@@ -856,7 +856,7 @@ mannish_tax_10_to_20 = {
 	}
 
 	global_tax_income = 12
-	land_forcelimit = 5
+	land_forcelimit = 2.5
 	#icon = 9
 }
 mannish_tax_20_to_30 = {
@@ -871,7 +871,7 @@ mannish_tax_20_to_30 = {
 	}
 
 	global_tax_income = 24
-	land_forcelimit = 5
+	land_forcelimit = 2.5
 	#icon = 9
 }
 mannish_tax_30_to_40 = {
@@ -886,7 +886,7 @@ mannish_tax_30_to_40 = {
 	}
 
 	global_tax_income = 36
-	land_forcelimit = 10
+	land_forcelimit = 5
 	#icon = 9
 }
 mannish_tax_40_to_50 = {
@@ -901,7 +901,7 @@ mannish_tax_40_to_50 = {
 	}
 
 	global_tax_income = 48
-	land_forcelimit = 10
+	land_forcelimit = 5
 	#icon = 9
 }
 mannish_tax_50_to_60 = {
@@ -916,7 +916,7 @@ mannish_tax_50_to_60 = {
 	}
 
 	global_tax_income = 60
-	land_forcelimit = 15
+	land_forcelimit = 7.5
 	#icon = 9
 }
 mannish_tax_60_to_70 = {
@@ -931,7 +931,7 @@ mannish_tax_60_to_70 = {
 	}
 
 	global_tax_income = 72
-	land_forcelimit = 15
+	land_forcelimit = 7.5
 	#icon = 9
 }
 mannish_tax_70_on = {
@@ -945,6 +945,6 @@ mannish_tax_70_on = {
 	}
 
 	global_tax_income = 84
-	land_forcelimit = 20
+	land_forcelimit = 10
 	#icon = 9
 }

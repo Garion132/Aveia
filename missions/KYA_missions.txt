@@ -43,7 +43,7 @@ KYA_economic_missions = {
 			}
 			owns_core_province = 80
 			80 = {
-				development = 20
+				base_production = 9
 				OR = {
 					has_building = temple
 					has_building = cathedral
@@ -60,13 +60,52 @@ KYA_economic_missions = {
 		icon = austria_prospers
 		required_missions = { KYA_birthplace_of_the_mortals }
 		trigger = {
-			development_in_provinces = {
-				value = 75
-				area = greater_iwenlumy_area
+			custom_trigger_tooltip = {
+				tooltip = KYA_wealthy_duchy_trigger_prod_tt
+				calc_true_if = {
+					all_owned_province = {
+						OR = {
+							area = greater_iwenlumy_area
+							area = lesser_iwenlumy_area
+						}
+						has_production_building_trigger = yes
+					}
+					amount = 4
+				}
 			}
-			development_in_provinces = {
-				value = 50
-				area = lesser_iwenlumy_area
+			custom_trigger_tooltip = {
+				tooltip = KYA_wealthy_duchy_trigger_finance_tt
+				calc_true_if = {
+					all_owned_province = {
+						OR = {
+							area = greater_iwenlumy_area
+							area = lesser_iwenlumy_area
+						}
+						has_finance_building_trigger = yes
+					}
+					amount = 4
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = KYA_wealthy_duchy_trigger_asemont_tt
+				82 = {
+					has_alchemy_building_trigger = yes
+					has_manufactory_trigger = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = KYA_wealthy_duchy_trigger_naval_tt
+				any_owned_province = {
+					OR = {
+						area = greater_iwenlumy_area
+						area = lesser_iwenlumy_area
+					}
+					OR = {
+						has_building = dockland
+						has_building = wharf
+						has_building = harbor_district
+					}
+				}
 			}
 			owns_all_provinces = {
 				OR = {
@@ -102,12 +141,7 @@ KYA_economic_missions = {
 					owns = 53
 				}
 				53 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = merchants_quarter
-						has_building = customs_house
-					}
+					has_trade_building_trigger = yes
 				}
 			}
 			if = {
@@ -115,12 +149,7 @@ KYA_economic_missions = {
 					owns = 58
 				}
 				58 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = merchants_quarter
-						has_building = customs_house
-					}
+					has_trade_building_trigger = yes
 				}
 			}
 			if = {
@@ -128,12 +157,7 @@ KYA_economic_missions = {
 					owns = 80
 				}
 				80 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = merchants_quarter
-						has_building = customs_house
-					}
+					has_trade_building_trigger = yes
 				}
 			}
 			if = {
@@ -141,12 +165,7 @@ KYA_economic_missions = {
 					owns = 760
 				}
 				760 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = merchants_quarter
-						has_building = customs_house
-					}
+					has_trade_building_trigger = yes
 				}
 			}
 			if = {
@@ -154,12 +173,7 @@ KYA_economic_missions = {
 					owns = 762
 				}
 				762 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = merchants_quarter
-						has_building = customs_house
-					}
+					has_trade_building_trigger = yes
 				}
 			}
 			if = {
@@ -167,12 +181,7 @@ KYA_economic_missions = {
 					owns = 771
 				}
 				771 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = merchants_quarter
-						has_building = customs_house
-					}
+					has_trade_building_trigger = yes
 				}
 			}
 			if = {
@@ -180,12 +189,7 @@ KYA_economic_missions = {
 					owns = 881
 				}
 				881 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = merchants_quarter
-						has_building = customs_house
-					}
+					has_trade_building_trigger = yes
 				}
 			}
 			if = {
@@ -193,12 +197,7 @@ KYA_economic_missions = {
 					owns = 885
 				}
 				885 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = merchants_quarter
-						has_building = customs_house
-					}
+					has_trade_building_trigger = yes
 				}
 			}
 			if = {
@@ -206,12 +205,7 @@ KYA_economic_missions = {
 					owns = 896
 				}
 				896 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = merchants_quarter
-						has_building = customs_house
-					}
+					has_trade_building_trigger = yes
 				}
 			}
 			num_of_light_ship = 30
@@ -502,9 +496,10 @@ KYA_diplomatic_missions = {
 				estate = estate_church
 				loyalty = 60
 			}
+			has_estate_privilege = estate_church_clerical_oversight
 			OR = {
 				has_reform = holy_clerks_reform
-				NOT = { government = bronze_monarchy }
+				has_estate_privilege = estate_church_land_rights
 			}
 		}
 		effect = {
@@ -521,7 +516,7 @@ KYA_diplomatic_missions = {
 		trigger = {
 			owns_core_province = 53
 			53 = {
-				has_building = school
+				has_education_building_trigger = yes
 			}
 			treasury = 100
 		}
@@ -534,7 +529,7 @@ KYA_diplomatic_missions = {
 	KYA_deal_with_the_troublemaker = {
 		icon = avoid_fragmentation
 		position = 3
-		required_missions = { }
+		required_missions = { KYA_reassure_the_council }
         provinces_to_highlight = { }
 		trigger = {
 			OR = {
@@ -610,33 +605,93 @@ KYA_administrative_missions = {
 			controls = 53
 
 			53 = {
-				development = 20
-				OR = {
-					has_building = mint
-					has_building = bank
-					has_building = stock_exchange
-				}
-				OR = {
-					has_building = workshop
-					has_building = artisans_guild
-					has_building = craftsmans_district
-					has_building = industrial_zone
-				}
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-					has_building = military_academy
-				}
+				is_capital_of = ROOT
+				has_production_building_trigger = yes
+				has_manpower_building_trigger = yes
 			}
 		}
 		effect = {
 			add_legitimacy = 5
 			53 = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+				change_pop = { working = 1 lower = 1 }
 			}
 			set_country_flag = settled_into_capital
+		}
+	}
+
+	KYA_reassure_the_council = {
+		icon = strengthen_the_vroedschappen
+		required_missions = { KYA_settle_in_the_new_capital }
+		trigger = {
+			dip_power = 100
+		}
+		effect = {
+			add_dip_power = -100
+			set_country_flag = reassured_council
+		}
+	}
+
+	KYA_acquire_loyalty_of_the_military = {
+		icon = mission_italian_condottiere
+		required_missions = { KYA_reassure_the_council }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = KYA_loyal_military_tt
+				has_country_flag = loyal_military
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "loyal_military"
+				duration = 9125
+			}
+		}
+	}
+
+	KYA_dominate_the_council = {
+		icon = influence_the_princes
+		required_missions = { KYA_acquire_loyalty_of_the_military KYA_deal_with_the_troublemaker }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = KYA_dominate_council_tt
+				has_country_flag = dominated_council
+			}
+		}
+		effect = {
+			add_legitimacy = 10
+		}
+	}
+
+	KYA_centralize_the_kingdom = {
+		icon = centralize_france
+		required_missions = { KYA_dominate_the_council }
+		trigger = {
+			NOT = { exists = ANO }
+			NOT = { exists = KYT }
+			NOT = { exists = TIT }
+			NOT = { exists = MAT }
+			NOT = { exists = LUR }
+		}
+		effect = {
+			add_country_modifier = {
+				name = "centralised_state"
+				duration = 9125
+			}
+			landir_area = {
+				add_permanent_claim = ROOT
+			}
+			ildahir_area = {
+				add_permanent_claim = ROOT
+			}
+			ihadar_area = {
+				add_permanent_claim = ROOT
+			}
+			ihadar_lesser_area = {
+				add_permanent_claim = ROOT
+			}
+			ildahir_area = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 }

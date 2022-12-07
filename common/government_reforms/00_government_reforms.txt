@@ -129,7 +129,8 @@ donamenz_chiefdom_reform = {
 	modifiers = {
     	governing_capacity = 150
 		development_cost = 0.7
-		land_forcelimit = 10
+		land_forcelimit = 5
+		global_manpower = 5
 	}
 	ai = {
 		factor = 1
@@ -158,7 +159,8 @@ iron_crown_reform = {
 	modifiers = {
     	governing_capacity = 300
 		development_cost = 0.5
-		land_forcelimit = 20
+		land_forcelimit = 10
+		global_manpower = 10
 		manpower_recovery_speed = 0.25
 	}
 	ai = {

@@ -55,7 +55,7 @@ categories =  {
 		movement_cost = 1.10
 		local_development_cost = -0.10
 		supply_limit = 10
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		nation_designer_cost_multiplier = 1.05
 		
 		terrain_override = {
@@ -109,6 +109,7 @@ categories =  {
 		movement_cost = 1.25
 		defence = 1
 		supply_limit = 4
+		allowed_num_of_buildings = 1
 		local_development_cost = 0.2
 		nation_designer_cost_multiplier = 0.9
 		
@@ -136,6 +137,7 @@ categories =  {
 		defence = 1
 		local_defensiveness = 0.1
 		local_development_cost = 0.25
+		allowed_num_of_buildings = 1
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
 		
@@ -164,6 +166,7 @@ categories =  {
 		movement_cost = 1.10
 		defence = 1
 		local_development_cost = 0.15
+		allowed_num_of_buildings = 1
 		nation_designer_cost_multiplier = 0.9
 		supply_limit = 6
 		
@@ -253,7 +256,7 @@ categories =  {
 
 		movement_cost = 1.0
 		supply_limit = 8
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 		nation_designer_cost_multiplier = 1
 		
 		terrain_override = {
@@ -322,7 +325,8 @@ categories =  {
 
 		movement_cost = 1.0
 		local_development_cost = 0.25
-		nation_designer_cost_multiplier = 0.9		
+		nation_designer_cost_multiplier = 0.9
+		allowed_num_of_buildings = 1
 		supply_limit = 4
 
 		terrain_override = {
@@ -337,7 +341,8 @@ categories =  {
 
 		movement_cost = 1.0
 		local_development_cost = 0.15
-		nation_designer_cost_multiplier = 0.85		
+		nation_designer_cost_multiplier = 0.85
+		allowed_num_of_buildings = 1
 		supply_limit = 6 
 		
 		terrain_override = {
@@ -355,7 +360,7 @@ categories =  {
 		local_development_cost = 0.05
 		nation_designer_cost_multiplier = 0.95
 		supply_limit = 7
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 2
 
 		terrain_override = {
 			#Krorri
@@ -374,6 +379,7 @@ categories =  {
 		defence = 1
 		local_defensiveness = 0.1
 		local_development_cost = 0.2
+		allowed_num_of_buildings = 1
 		nation_designer_cost_multiplier = 0.9	
 
 		terrain_override = {
@@ -389,6 +395,7 @@ categories =  {
 		supply_limit = 6
 		movement_cost = 1.00
 		local_development_cost = 0.15
+		allowed_num_of_buildings = 1
 		nation_designer_cost_multiplier = 0.95	
 		
 		terrain_override = {
@@ -406,6 +413,7 @@ categories =  {
 		movement_cost = 1.00
 		local_development_cost = 0.2
 		nation_designer_cost_multiplier = 0.9	
+		allowed_num_of_buildings = 1
 		supply_limit = 6
 		
 		terrain_override = {
@@ -447,6 +455,7 @@ categories =  {
 		movement_cost = 1
 		defence = 3
 		supply_limit = 2
+		allowed_num_of_buildings = 2
 		nation_designer_cost_multiplier = 0.8
 		
 		terrain_override = { 
@@ -515,6 +524,7 @@ categories =  {
 		supply_limit = 12
 		local_development_cost = -0.2
 		nation_designer_cost_multiplier = 1.5
+		allowed_num_of_buildings = 3
 		
 		terrain_override = { 
 			#Yhenil

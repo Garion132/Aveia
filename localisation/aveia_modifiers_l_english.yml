@@ -109,6 +109,8 @@
  desc_KYA_cradle_islands:0 "Ownership over the Cradle Islands grants us many benefits and have lent us many lessons to take forward with us."
  house_of_learning:0 "House of Learning"
  desc_house_of_learning:0 "We have constructed a great House of Learning for all to come study philosophy, the sciences, to debate, and to learn."
+ loyal_military:0 "Loyal Military"
+ desc_loyal_military:0 "Our military is loyal to and only to our state. None else shall dissuade them from service."
 
  iron_age_calamity_recovery:0 "Iron Age Calamity Recovery"
  desc_iron_age_calamity_recovery:0 "We are in the midst of recovering from the Iron Age Calamity and its world-wide consequences."

@@ -506,18 +506,24 @@ has_manufactory_trigger = { #Province Scope
 	custom_trigger_tooltip = {
 		tooltip = has_manufactory_trigger_tooltip
 		OR = {
-			has_building = wharf
-			has_building = weapons
-			has_building = textile
-			has_building = tradecompany
-			has_building = farm_estate
-			has_building = mills
-			has_building = furnace
-			has_building = plantations
-			has_building = ramparts
-			has_building = soldier_households
-			has_building = impressment_offices
-			has_building = state_house
+			has_building = irrigated_fields
+			has_building = farm
+			has_building = mechanized_farm
+			
+			has_building = gatherers_hut
+			has_building = plantation
+			has_building = trade_station
+			
+			has_building = craftsman
+			has_building = early_factory
+			has_building = late_factory
+			
+			has_building = mine
+			has_building = mining_complex
+			has_building = mechanized_mine
+			
+			has_building = refinery
+			has_building = processing_plant
 		}
 	}
 }
@@ -869,10 +875,20 @@ same_govt_as_root_trigger = {
 
 # Building triggers
 
-has_tax_building_trigger = {
+has_religious_building_trigger = {
 	OR = {
 		has_building = temple
+		has_building = temple
 		has_building = cathedral
+	}
+}
+
+has_tax_building_trigger = {
+	OR = {
+		has_building = taxman
+		has_building = tax_office
+		has_building = tax_agency
+		has_building = revenue_department
 	}
 }
 
@@ -880,29 +896,51 @@ has_trade_building_trigger = {
 	OR = {
 		has_building = marketplace
 		has_building = trade_depot
+		has_building = merchants_quarter
+		has_building = customs_house
+	}
+}
+
+has_finance_building_trigger = {
+	OR = {
+		has_building = mint
+		has_building = bank
 		has_building = stock_exchange
 	}
 }
 
 has_production_building_trigger = {
-	has_building = workshop
+	OR = {
+		has_building = workshop
+		has_building = artisans_guild
+		has_building = craftsmans_district
+		has_building = industrial_zone
+	}
 }
 
 has_manpower_building_trigger = {
 	OR = {
 		has_building = barracks
 		has_building = training_fields
+		has_building = military_academy
 	}
 }
 
 has_shipyard_building_trigger = {
-	always = no
+	OR = {
+		has_building = shipwright
+		has_building = drydock
+		has_building = naval_arsenal
+		has_building = naval_base
+	}
 }
 
 has_dock_building_trigger = {
 	OR = {
-		has_building = dock
-		has_building = drydock
+		has_building = port
+		has_building = dockland
+		has_building = wharf
+		has_building = harbor_district
 	}
 }
 
@@ -910,13 +948,75 @@ has_forcelimit_building_trigger = {
 	OR = {
 		has_building = regimental_camp
 		has_building = conscription_center
+		has_building = mobilization_system
 	}
 }
 
 has_courthouse_building_trigger = {
 	OR = {	
+		has_building = town_square
 		has_building = courthouse
 		has_building = town_hall
+		has_building = post_office
+		has_building = city_hall
+	}
+}
+
+has_airship_building_trigger = {
+	OR = {	
+		has_building = airdock
+		has_building = airship_maintenance_bay
+		has_building = airship_terminal
+	}
+}
+
+has_alchemy_building_trigger = {
+	OR = {	
+		has_building = alchemist_shop
+		has_building = transfumatory
+	}
+}
+
+has_fort_building_trigger = {
+	OR = {	
+		has_building = fort_14th
+		has_building = fort_15th
+		has_building = fort_16th
+		has_building = fort_17th
+		has_building = fort_18th
+		has_building = fort_19th
+	}
+}
+
+has_coastal_building_trigger = {
+	OR = {	
+		has_building = coastal_defence
+		has_building = naval_battery
+		has_building = naval_fortification
+	}
+}
+
+has_road_building_trigger = {
+	OR = {	
+		has_building = gravel_roads
+		has_building = paved_roads
+		has_building = highways
+	}
+}
+
+has_rail_building_trigger = {
+	OR = {	
+		has_building = canals
+		has_building = railroads
+		has_building = railroad_network
+	}
+}
+
+has_education_building_trigger = {
+	OR = {	
+		has_building = school
+		has_building = university
+		has_building = research_center
 	}
 }
 
@@ -973,7 +1073,18 @@ province_has_current_tech_fort_trigger = {
 		if = {
 			limit = {
 				owner = {
-					NOT = { mil_tech = 14 }
+					NOT = { mil_tech = 12 }
+				}12
+			}
+			has_building = fort_14th
+		}
+		else_if = {
+			limit = {
+				owner = {
+					AND = {
+						mil_tech = 12
+						NOT = { mil_tech = 24 }
+					}
 				}
 			}
 			has_building = fort_15th
@@ -982,8 +1093,8 @@ province_has_current_tech_fort_trigger = {
 			limit = {
 				owner = {
 					AND = {
-						mil_tech = 14
-						NOT = { mil_tech = 19 }
+						mil_tech = 24
+						NOT = { mil_tech = 34 }
 					}
 				}
 			}
@@ -993,8 +1104,8 @@ province_has_current_tech_fort_trigger = {
 			limit = {
 				owner = {
 					AND = {
-						mil_tech = 19
-						NOT = { mil_tech = 24 }
+						mil_tech = 34
+						NOT = { mil_tech = 41 }
 					}
 				}
 			}
@@ -1003,10 +1114,21 @@ province_has_current_tech_fort_trigger = {
 		else_if = {
 			limit = {
 				owner = {
-					mil_tech = 24
+					AND = {
+						mil_tech = 41
+						NOT = { mil_tech = 46 }
+					}
 				}
 			}
 			has_building = fort_18th
+		}
+		else_if = {
+			limit = {
+				owner = {
+					mil_tech = 46
+				}
+			}
+			has_building = fort_19th
 		}
 	}
 }
