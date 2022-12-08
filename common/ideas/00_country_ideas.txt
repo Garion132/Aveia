@@ -1074,3 +1074,43 @@ GUL_ideas = {
 	}
 	
 }
+CYU_ideas = {
+	start = {
+		church_loyalty_modifier = 0.1
+		morale_damage_received = -0.075
+	}
+
+	bonus = {
+		land_maintenance_modifier = -0.15
+	}
+	
+	trigger = {
+		tag = CYU
+	}
+	free = yes		#will be added at load.
+	
+	CYU_tin_lands = {
+		can_transfer_vassal_wargoal = yes
+		diplomatic_upkeep = 1
+	}
+	CYU_ship_cycling= {
+		global_tax_modifier = 0.15
+	}
+	CYU_temple_education = {
+		garrison_size = 0.2
+		global_manpower_modifier = 0.1
+	}
+	CYU_guards_of_doninas = {
+		embargo_efficiency = 0.2
+	}
+	CYU_crop_singers = {
+		global_unrest = -1
+	}
+	CYU_military_educators = {
+		artillery_cost = -0.15
+	}
+	CYU_trade_lines = {
+		global_prov_trade_power_modifier = 0.15
+	}
+	
+}

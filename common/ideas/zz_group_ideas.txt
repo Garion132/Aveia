@@ -557,3 +557,79 @@ rake_imperium_ideas = {
 		nobles_loyalty_modifier = 0.1
 	}
 }
+cradle_islander_ideas = {
+	start = {
+		galley_cost = -0.20
+		global_trade_power = 0.20
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.15
+	}
+	
+	trigger = {
+		primary_culture = yelioan
+	}
+	free = yes        #will be added at load.
+	
+	cradle_islander_logic_of_the_stars = {
+		merc_maintenance_modifier = -0.15
+		mercenary_manpower = 0.25
+	}
+	cradle_islander_war_in_blood = {
+		reform_progress_growth = 0.15
+	}
+	cradle_islander_lords_of_war = {
+		fort_maintenance_modifier = -0.2
+		mercenary_cost = -0.025
+	}
+	cradle_islander_pathways_towards_dawn = {
+		naval_morale = 0.20
+	}
+	cradle_islander_lore_masters = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	cradle_islander_mark_of_blades = {
+		advisor_cost = -0.1
+	}
+	cradle_islander_tales_of_trade = {
+		trade_efficiency = 0.175
+	}
+}
+lake_elves_ideas = {
+	start = {
+		fire_damage = 0.10
+		global_trade_power = 0.15
+	}
+	
+	bonus = {
+		general_cost = -0.33
+	}
+	
+	trigger = {
+		technology_group = lake_elves_group
+	}
+	free = yes        #will be added at load.
+	
+	lake_elves_logic_of_the_stars = {
+		idea_cost = -0.05
+	}
+	lake_elves_war_in_blood = {
+		war_exhaustion = -0.10
+	}
+	lake_elves_lords_of_war = {
+		land_morale = 0.15
+	}
+	lake_elves_pathways_towards_dawn = {
+		innovativeness_gain = 0.75
+	}
+	lake_elves_lore_masters = {
+		monarch_admin_power = 1
+	}
+	lake_elves_mark_of_blades = {
+		discipline = 0.05
+	}
+	lake_elves_tales_of_trade = {
+		trade_efficiency = 0.15
+	}
+}

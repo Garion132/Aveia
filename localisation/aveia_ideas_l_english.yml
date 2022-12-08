@@ -55,6 +55,22 @@
  GUL_ideas_start:0 "Gulban Traditions"
  GUL_ideas_bonus:0 "Gulban Ambitions"
  
+ lake_elves_ideas:0 "Lake Elves Ideas"
+ lake_elves_ideas_start:0 "Lake Elves Traditions"
+ lake_elves_ideas_bonus:0 "Lake Elves Ambitions"
+ 
+ cradle_islander_ideas:0 "Cradle Islander Ideas"
+ cradle_islander_ideas_start:0 "Cradle Islander Traditions"
+ cradle_islander_ideas_bonus:0 "Cradle Islander Ambitions"
+ 
+ faun_ideas:0 "Faun Ideas"
+ faun_ideas_start:0 "Faun Traditions"
+ faun_ideas_bonus:0 "Faun Ambitions"
+ 
+ CYU_ideas:0 "Cyuegian Ideas"
+ CYU_ideas_start:0 "Cyuegian Traditions"
+ CYU_ideas_bonus:0 "Cyuegian Ambitions"
+ 
  IWE_ideas:0 "Iwen Ideas"
  IWE_ideas_start:0 "Iwen Traditions"
  IWE_ideas_bonus:0 "Iwen Ambitions"
