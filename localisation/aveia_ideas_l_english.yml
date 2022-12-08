@@ -11,6 +11,49 @@
  SOH_patroler_of_demina:0 "Patroler of Demina"
  SOH_patroler_of_demina_desc:0 ""
  
+ YER_ideas:0 "Yerinan Ideas"
+ YER_ideas_start:0 "Yerinan Traditions"
+ YER_ideas_bonus:0 "Yerinan Ambitions"
+ 
+ SHE_ideas:0 "Shemselese Ideas"
+ SHE_ideas_start:0 "Shemselese Traditions"
+ SHE_ideas_bonus:0 "Shemselese Ambitions"
+ 
+ RAU_ideas:0 "Rauosuan Ideas"
+ RAU_ideas_start:0 "Rauosuan Traditions"
+ RAU_ideas_bonus:0 "Rauosuan Ambitions"
+ 
+ KAF_ideas:0 "Kafethyrian Ideas"
+ KAF_ideas_start:0 "Kafethyrian Traditions"
+ KAF_ideas_bonus:0 "Kafethyrian Ambitions"
+ 
+ DRG_ideas:0 "Dregheian Ideas"
+ DRG_ideas_start:0 "Dregheian Traditions"
+ DRG_ideas_bonus:0 "Dregheian Ambitions"
+ 
+ NYH_ideas:0 "Nyhenat Ideas"
+ NYH_ideas_start:0 "Nyhenat Traditions"
+ NYH_ideas_bonus:0 "Nyhenat Ambitions"
+ 
+ FRS_ideas:0 "Free Shirers Ideas"
+ FRS_ideas_start:0 "Free Shirers Traditions"
+ FRS_ideas_bonus:0 "Free Shirers Ambitions"
+ 
+ rake_imperium_ideas:0 "Vulikivite Minor Ideas"
+ rake_imperium_ideas_start:0 "Vulikivite Minor Traditions"
+ rake_imperium_ideas_bonus:0 "Vulikivite Minor Ambitions"
+ 
+ SAL_ideas:0 "Salor Ideas"
+ SAL_ideas_start:0 "Salor Traditions"
+ SAL_ideas_bonus:0 "Salor Ambitions"
+ 
+ LEL_ideas:0 "Leleth Ideas"
+ LEL_ideas_start:0 "Leleth Traditions"
+ LEL_ideas_bonus:0 "Leleth Ambitions"
+ 
+ GUL_ideas:0 "Gulban Ideas"
+ GUL_ideas_start:0 "Gulban Traditions"
+ GUL_ideas_bonus:0 "Gulban Ambitions"
  
  IWE_ideas:0 "Iwen Ideas"
  IWE_ideas_start:0 "Iwen Traditions"

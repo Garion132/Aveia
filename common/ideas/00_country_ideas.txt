@@ -688,12 +688,13 @@ RAU_ideas = {
 	
 	rau_vanacri_barges = {
 		caravan_power = 0.2
+		movement_speed = 0.10
 	}
 	rau_mucklev_shield = {
 		shock_damage_received = -0.10
 	}
 	rau_landholder_eastes= {
-		production_efficiency = 0.05
+		production_efficiency = 0.125
 	}
 	rau_rauosuan_courts = {
 		prestige = 0.75
@@ -790,6 +791,286 @@ YIR_ideas = {
 	}
 	yir_cradle_trading = {
 		trade_steering = 0.25
+	}
+	
+}
+
+YER_ideas = {
+	start = {
+		allow_free_estate_privilege_revocation = yes
+		manpower_in_own_culture_provinces = 0.25
+	}
+
+	bonus = {
+		advisor_cost = -0.125
+	}
+	
+	trigger = {
+		tag = YER
+	}
+	free = yes		#will be added at load.
+	
+	YER_ring_of_forgiveness = {
+		tolerance_of_heretics_capacity = 1
+	}
+	YER_dance_of_the_sands = {
+		can_bypass_forts = yes
+	}
+	YER_council_of_the_great_tribes= {
+		stability_cost_modifier = -0.15
+	}
+	YER_sisters_in_the_desert = {
+		culture_conversion_cost = -0.05
+	}
+	YER_obligation_of_a_prince = {
+		monthly_heir_claim_increase = 0.6
+	}
+	YER_dance_of_the_path = {
+		leader_land_manuever = 1
+	}
+	YER_caravans = {
+		trade_efficiency = 0.1
+	}
+	
+}
+
+DRG_ideas = {
+	start = {
+		production_efficiency = 0.2
+		diplomatic_reputation = 2
+	}
+
+	bonus = {
+		cavalry_cost = -0.20
+	}
+	
+	trigger = {
+		tag = DRG
+	}
+	free = yes		#will be added at load.
+	
+	DRG_fine_metalworking = {
+		monthly_gold_inflation_modifier = -0.33
+	}
+	DRG_dunirr_artillery_corps = {
+		backrow_artillery_damage = 0.1
+	}
+	DRG_loyalty_programs= {
+		global_spy_defence = 0.4
+	}
+	DRG_federation_of_strongholds = {
+		administrative_efficiency = 0.1
+	}
+	DRG_dynastic_ties = {
+		diplomatic_annexation_cost = -0.15
+		monthly_favor_modifier = 0.125
+	}
+	DRG_bronze_touched = {
+		discipline = 0.075
+	}
+	DRG_rewarding_austerity = {
+		war_taxes_cost_modifier = -1.0
+	}
+	
+}
+
+NYH_ideas = {
+	start = {
+		state_maintenance_modifier = -0.2
+		global_foreign_trade_power = 0.2
+	}
+
+	bonus = {
+		build_time = -0.3
+	}
+	
+	trigger = {
+		tag = NYH
+	}
+	free = yes		#will be added at load.
+	
+	NYH_quitamarines = {
+		galley_power = 0.15
+	}
+	NYH_debate_college = {
+		prestige_decay = -0.01
+		improve_relation_modifier = 0.075
+	}
+	NYH_loyalty_programs= {
+		drill_gain_modifier = 0.33
+		infantry_power = 0.05
+	}
+	NYH_meritocratic_captains = {
+		naval_morale = 0.15
+	}
+	NYH_educated_court = {
+		advisor_cost = -0.15
+	}
+	NYH_state_merchantmen = {
+		trade_efficiency = 0.2
+	}
+	NYH_skywrought_construction = {
+		cavalry_shock = 2
+	}
+	
+}
+
+FRS_ideas = {
+	start = {
+		own_territory_dice_roll_bonus = 1
+		global_trade_power = 0.2
+	}
+
+	bonus = {
+		global_manpower_modifier = 0.3
+	}
+	
+	trigger = {
+		tag = FRS
+	}
+	free = yes		#will be added at load.
+	
+	FRS_layered_defence = {
+		defensiveness = 0.2
+		hostile_attrition = 1
+	}
+	FRS_federation_of_the_free = {
+		diplomatic_upkeep = 2
+	}
+	FRS_faun_education = {
+		same_culture_advisor_cost = -0.15
+	}
+	FRS_checks_and_balances= {
+		yearly_corruption = -0.15
+	}
+	FRS_of_the_free_for_the_free = {
+		global_unrest = -1.5
+	}
+	FRS_legicy_of_the_skirmish = {
+		fire_damage = 0.1
+	}
+	FRS_true_natives = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+	}
+	
+}
+SAL_ideas = {
+	start = {
+		range = 0.40
+		trade_range_modifier = 0.4
+		global_ship_cost = -0.15
+	}
+
+	bonus = {
+		heavy_ship_power = 0.2
+	}
+	
+	trigger = {
+		tag = SAL
+	}
+	free = yes		#will be added at load.
+	
+	SAL_quickdraw_bows = {
+		infantry_power = 0.15
+	}
+	SAL_salors_colonies= {
+		naval_morale = 0.15
+		global_colonial_growth = 10
+	}
+	SAL_caravans_from_the_basin = {
+		caravan_power = 0.4
+	}
+	SAL_iflamne_court = {
+		free_adm_policy = 1
+	}
+	SAL_actrival_logs = {
+		military_tactics = 0.05
+	}
+	SAL_great_silver_fleet = {
+		naval_forcelimit_modifier = 0.15
+	}
+	SAL_naval_bombardment = {
+		siege_blockade_progress = 1
+	}
+	
+}
+
+LEL_ideas = {
+	start = {
+		yearly_army_professionalism = 0.01
+		trade_steering = 0.15
+	}
+
+	bonus = {
+		adm_tech_cost_modifier  = -0.1
+	}
+	
+	trigger = {
+		tag = LEL
+	}
+	free = yes		#will be added at load.
+	
+	LEL_tin_lands = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	LEL_ship_cycling= {
+		recover_naval_morale_speed = 0.15
+		disengagement_chance = 0.1
+	}
+	LEL_temple_education = {
+		institution_spread_from_true_faith = 0.4
+	}
+	LEL_guards_of_doninas = {
+		infantry_power = 0.20
+	}
+	LEL_crop_singers = {
+		global_prosperity_growth = 0.05
+	}
+	LEL_military_educators = {
+		mil_tech_cost_modifier  = -0.1
+	}
+	LEL_trade_lines = {
+		trade_efficiency = 0.1
+	}
+	
+}
+GUL_ideas = {
+	start = {
+		reserves_organisation = 0.45
+		global_own_trade_power = 0.20
+	}
+
+	bonus = {
+		global_supply_limit_modifier = 0.2
+	}
+	
+	trigger = {
+		tag = GUL
+	}
+	free = yes		#will be added at load.
+	
+	GUL_tin_lands = {
+		interest = -1.0
+	}
+	GUL_ship_cycling= {
+		shock_damage_received = -0.15
+	}
+	GUL_temple_education = {
+		production_efficiency = 0.1
+	}
+	GUL_guards_of_doninas = {
+		trade_steering = 0.15
+	}
+	GUL_crop_singers = {
+		global_tax_modifier = 0.15
+	}
+	GUL_military_educators = {
+		infantry_shock = 1
+	}
+	GUL_trade_lines = {
+		trade_efficiency = 0.15
 	}
 	
 }

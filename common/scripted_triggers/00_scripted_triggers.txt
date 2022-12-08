@@ -1452,6 +1452,13 @@ is_allowed_to_recruit_mercenaries = {
 	}
 }
 
+is_not_free_merc_company = {
+	ROOT = {
+		NOT = { mercenary_company = merc_bridge_guard }
+		
+	}
+}
+
 halved_parliament_bribes = {
 	OR = {
 		has_country_flag = halved_parliament_bribe_costs

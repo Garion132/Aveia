@@ -2,7 +2,7 @@
  elves_bookmark:0 "High Bronze Age"
  elves_bookmark_desc:0 "Vanadium plz do description."
  enheasrion_basin_bookmark:0 "Riches of the Enheasrion Basin"
- enheasrion_basin_bookmark_desc:0 "Vanadium plz do description."
+ enheasrion_basin_bookmark_desc:0 "The Enheasrion Basin, overflowing with wealth of both food and mineral and the homeland of most of the greatest states of the known world. in the south-west the Dunirr, masters of craft and forge populate the rich mountainous river valleys of southern enheasrion dominiated by the dreghei dominion which slowly streches its influence over all other dunirr states. In the center sits the preminate state of all the world, Rauthyr. The Hegemony sits on ....finish plz"
  kirloi_bookmark:0 "Civilizations of Kirloi"
  kirloi_bookmark_desc:0 "Vanadium plz do description."
  colonial_bookmark:0 "Mists of Elteria"
@@ -736,3 +736,9 @@
  
  yeltok_nation_title:0 "Form Yeltok"
  gugh_nation_title:0 "Form Gugh"
+ 
+ merc_bridge_guard:0 "Bridge Guard"
+ merc_bronzeclad:0 "The Bronzeclad"
+ merc_havervim:0 "Havervim"
+ merc_actirvin_brothers:0 "Actirvin Brothers"
+ merc_pink_arrows:0 "Pink Arrows"

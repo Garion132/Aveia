@@ -518,3 +518,42 @@ scurian_ideas = {
 		global_tax_modifier = 0.10
 	}
 }
+
+rake_imperium_ideas = {
+	start = {
+		advisor_cost = -0.2
+		prestige_from_land = 0.5
+	}
+	
+	bonus = {
+		core_creation = -0.15
+	}
+	
+	trigger = {
+		is_part_of_hre = yes
+	}
+	free = yes        #will be added at load.
+	
+	imperium_united_in_faith = {
+		tolerance_own = 2
+	}
+	imperium_princely_armys = {
+		possible_condottieri = 0.75
+		land_morale = 0.025
+	}
+	imperium_rulers_of_the_skies = {
+		cavalry_cost = -0.1
+	}
+	imperium_valley_towns = {
+		global_own_trade_power = 0.15
+	}
+	imperium_rake_patrols = {
+		caravan_power = 0.3
+	}
+	imperium_long_memories = {
+		army_tradition_decay = -0.01
+	}
+	imperium_rake_lords = {
+		nobles_loyalty_modifier = 0.1
+	}
+}

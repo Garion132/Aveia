@@ -15,6 +15,103 @@ merc_ardaran_guard = {
 	}
 }
 
+# Bridge Guard
+merc_bridge_guard = {
+    regiments_per_development = 0.07
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 988
+	sprites = { westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		tag = ELE
+		# custom_trigger_tooltip = {
+			# tooltip = swiss_guard_activated
+			# has_country_flag = enable_swiss_guard
+		# }
+	}
+    cost_modifier = 0.5
+	modifier = {
+		discipline = 0.025
+	}
+}
+
+# first independant army clad fully in bronze
+merc_bronzeclad = {
+    regiments_per_development = 0.03
+    home_province = 82
+	sprites = { fra_base_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			ruler_race_is_elven = yes
+			capital_scope = { 
+				OR = {
+					region = kyathia_region
+					region = ientira_region
+				}
+			}
+		}
+		current_age = age_of_bronze
+	}
+	modifier = {
+		shock_damage_received = -0.075
+	}
+}
+
+merc_havervim = {
+    regiments_per_development = 0.025
+    home_province = 564
+	sprites = { easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		any_owned_province = {
+			region = krashyrvil_midlands_region
+		}
+	}
+	modifier = { }
+}
+
+merc_actirvin_brothers = {
+    regiments_per_development = 0.025
+    home_province = 754
+	sprites = { easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		capital_scope = { super_region = west_aveia_superregion }
+	}
+	modifier = { }
+}
+
+merc_pink_arrows = {
+    regiments_per_development = 0.03
+    home_province = 550
+	sprites = { dlc087_sco_sprite_pack dlc001_sco_sprite_pack sco_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			any_owned_province = {
+				region = ientira_region
+			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+	modifier = {
+		shock_damage = 0.05
+	}
+}
+
+merc_iumerium_striders = {
+    regiments_per_development = 0.025
+    home_province = 1244
+	sprites = { easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		capital_scope = { region = dreghei_region }
+	}
+	modifier = { }
+}
+
 rnw_modifier_weights = {
 	shock_damage = {
 		min = 0.05

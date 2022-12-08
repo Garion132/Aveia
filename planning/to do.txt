@@ -24,6 +24,7 @@ national ideas:
 	kafethyr
 	faun group
 	free faun group
+	free fauns
 	lake elf group
 	cradle island group
 	salor

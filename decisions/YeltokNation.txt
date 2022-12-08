@@ -33,7 +33,7 @@ country_decisions = {
 			NOT = { exists = YEL }
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
-			religion = roresist
+			religion = tlaunorist
 			is_nomad = no
 			num_of_owned_provinces_with = {
 				value = 11

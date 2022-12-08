@@ -90,6 +90,22 @@ dependency = {
 	start_date = 1272.1.1
 	end_date = 1532.4.22
 }
+# Ohil Fed.
+dependency = {
+	subject_type = "tolcar_federate"
+	first = OHI
+	second = TRE
+	start_date = 1272.1.1
+	end_date = 1532.4.22
+}
+dependency = {
+	subject_type = "tolcar_federate"
+	first = OHI
+	second = VAN
+	start_date = 1272.1.1
+	end_date = 1532.4.22
+}
+
 #semiol union over Uremia
 union = {
 	first = SEM
@@ -102,6 +118,13 @@ dependency = {
 	subject_type = "tributary_state"
 	first = MEN
 	second = FRY
+	start_date = 1257.1.1
+	end_date = 1370.4.22
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = CHA
+	second = MLF
 	start_date = 1257.1.1
 	end_date = 1370.4.22
 }
