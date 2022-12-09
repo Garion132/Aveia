@@ -278,6 +278,7 @@ technology = { #Guilds
 	}
 	
 	artisans_guild = yes
+	paved_roads = yes
 }
 
 technology = { #Steam Pumps
@@ -417,7 +418,6 @@ technology = { #Modern Metallurgy
 	}
 
 	production_efficiency = 0.02
-	paved_roads = yes
 }
 
 technology = { #Scientific Enquiry
@@ -638,6 +638,7 @@ technology = { #Industrial Production
 
 	production_efficiency 	=	0.05
 	late_factory = yes
+	highways = yes
 }
 
 technology = { #Economic Theory
@@ -797,8 +798,6 @@ technology = { #Urbanization
 	research_center = yes
 	production_efficiency = 0.05
 	development_efficiency = 0.1
-
-	highways = yes
 }
 
 technology = { #Tractors

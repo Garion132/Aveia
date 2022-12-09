@@ -623,11 +623,23 @@ KYA_administrative_missions = {
 		icon = strengthen_the_vroedschappen
 		required_missions = { KYA_settle_in_the_new_capital }
 		trigger = {
-			dip_power = 100
+			dip_power = 200
 		}
 		effect = {
-			add_dip_power = -100
+			add_dip_power = -200
+			every_subject_country = {
+				limit = {
+					is_vassal = yes
+				}
+				add_liberty_desire = -5
+				add_opinion  = {
+					who = ROOT
+					modifier = opinion_kya_council_reassured
+				}
+			}
 			set_country_flag = reassured_council
+			
+			country_event = { id = kyath.2 }
 		}
 	}
 

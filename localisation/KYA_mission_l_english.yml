@@ -27,6 +27,10 @@
  KYA_renovate_iwenlumy_stage_4_desc:0 "When we found Iwenlumy, it was a city of brick and mortar. We shall leave it a metropolis of marble."
  KYA_finish_renovation_tt:0 "Renovations will be complete!" 
 
+ KYA_subdue_iwenlumy_title:0 "Subdue Iwenlumy"
+ KYA_subdue_iwenlumy_desc:0 "Iwenlumy has been obstructing our government for far too long. However, current circumstances has given us the opportunity to consolidate Iwenlumy and remove any pretense of independence. This will upset the other vassal states, but it is necessary to ensure long-term stability."
+ KYA_deal_with_iwenlumy_tt:0 "Allows completing the §YDeal with the Troublemaker§! mission."
+
  KYA_improve_greater_iwenlumy_title:0 "Improve Greater Iwenlumy"
  KYA_improve_greater_iwenlumy_desc:0 "Using state funds, we can improve the development of Greater Iwenlumy."
  KYA_improve_lesser_iwenlumy_title:0 "Improve Lesser Iwenlumy"

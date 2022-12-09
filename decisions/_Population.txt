@@ -1,7 +1,7 @@
 country_decisions = {
 
 	census = {
-		major = yes
+		major = no
 		potential = {
 			ai = no
 		}

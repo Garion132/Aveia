@@ -10,3 +10,12 @@ opinion_iwe_compromise_breaker = {
 	opinion = -15
 	yearly_decay = 1
 }
+
+opinion_kya_council_reassured = {
+	opinion = 10
+	yearly_decay = 2
+}
+opinion_kya_subdued_iwenlumy = {
+	opinion = -50
+	yearly_decay = 2
+}

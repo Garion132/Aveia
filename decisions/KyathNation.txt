@@ -175,49 +175,60 @@ country_decisions = {
 		}
 	}
 
-	#AI Decisions to help AI fulfill mission tree
-		KYA_AI_settle_new_capital_mint = {
-			
-			potential = {
-				tag = KYA
-				ai = yes
-				NOT = { has_country_flag = settled_into_capital }
-				owns_core_province = 53
-				NOT = {
-					53 = {
-						OR = {
-							has_building = mint
-							has_building = bank
-							has_building = stock_exchange
-						}
-					}
-				}
-				adm_tech = 3
+	KYA_subdue_iwenlumy = {
+		major = yes
+		potential = {
+			has_country_flag = reassured_council
+			exists = IWE
+			IWE = {
+				vassal_of = ROOT
 			}
-			allow = {
-				owns_core_province = 53
-				controls = 53
-				treasury = 80
-				53 = {
-					no_construction = yes
-					num_free_building_slots = 1
+			NOT = { has_country_flag = dealt_with_iwenlumy }
+		}
+		allow = {
+			legitimacy_equivalent = 90
+			reverse_has_opinion = {
+				who = IWE
+				value = 50
+			}
+			IWE = {
+				NOT = { liberty_desire = 30 }
+			}
+			stability = 1
+			dip_power = 100
+			is_at_war = no
+		}
+		effect = {
+			custom_tooltip = KYA_deal_with_iwenlumy_tt
+			set_country_flag = dealt_with_iwenlumy
+			add_stability = -1
+			add_dip_power = -100
+			every_subject_country = {
+				limit = {
+					is_vassal = yes
+					NOT = { tag = IWE }
+				}
+				add_liberty_desire = 20
+				add_opinion  = {
+					who = ROOT
+					modifier = opinion_kya_subdued_iwenlumy
 				}
 			}
-			effect = {
-				add_treasury = -80
-				53 = {
-					add_building_construction = {
-						building = mint
-						speed = 1
-						cost = 0
-					}
-				}
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -10
 			}
-
-			ai_will_do = {
-				factor = 20
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -5
 			}
 		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	#AI Decisions to help AI fulfill mission tree
 		KYA_AI_settle_new_capital_workshop = {
 			
 			potential = {
@@ -301,45 +312,6 @@ country_decisions = {
 
 			ai_will_do = {
 				factor = 20
-			}
-		}
-		KYA_AI_settle_new_capital_development = {
-			
-			potential = {
-				tag = KYA
-				ai = yes
-				NOT = { has_country_flag = settled_into_capital }
-				owns_core_province = 53
-				NOT = {
-					53 = {
-						development = 20
-					}
-				}
-			}
-			allow = {
-				owns_core_province = 53
-				controls = 53
-				treasury = 100
-				53 = {
-					no_construction = yes
-					NOT = { has_province_modifier = city_construction_modifier }
-				}
-			}
-			effect = {
-				add_treasury = -100
-				53 = {
-					custom_tooltip = city_construction_2_tt
-					custom_tooltip = city_construction_tt
-					hidden_effect = { add_building_construction = { building = city_construction speed = 2 cost = 0 } }
-					add_province_modifier = {
-						name = "city_construction_modifier"
-						duration = 730
-					}
-				}
-			}
-
-			ai_will_do = {
-				factor = 15
 			}
 		}
 	#

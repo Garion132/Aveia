@@ -31,6 +31,25 @@ country_event = {
 	}
 }
 
+#Establishing Control
+country_event = {
+	id = kyath.2
+	title = kyath.2.t
+	desc = kyath.2.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+
+	option = { #Understood
+		name = kyath.2.op1
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+
 #A City of Gods and Marble
 country_event = {
 	id = kyath.100
