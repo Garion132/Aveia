@@ -1089,7 +1089,7 @@ CYU_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	CYU_tin_lands = {
+	CYU_right_of_vassalage = {
 		can_transfer_vassal_wargoal = yes
 		diplomatic_upkeep = 1
 	}
@@ -1100,7 +1100,7 @@ CYU_ideas = {
 		garrison_size = 0.2
 		global_manpower_modifier = 0.1
 	}
-	CYU_guards_of_doninas = {
+	CYU_secure_penisular = {
 		embargo_efficiency = 0.2
 	}
 	CYU_crop_singers = {
