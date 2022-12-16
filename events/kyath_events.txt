@@ -49,6 +49,59 @@ country_event = {
 	}
 }
 
+## CONCESSIONS ##
+	# Iwenlumy reminds us of the Contract of Nalean
+	country_event = {
+		id = kyath.50
+		title = kyath.50.t
+		desc = kyath.50.d
+		picture = BAD_WITH_MONARCH_eventPicture
+
+		fire_only_once = yes
+
+		trigger = {
+			tag = KYA
+			IWE = {
+				is_subject_of = PREV
+				liberty_desire = 75
+			}
+			NOT = { has_country_flag = IWE_rowdy_duchy }
+			NOT = { is_year = 1360 }
+		}	
+
+		mean_time_to_happen = {
+			days = 100
+		}
+
+		option = { #Yes, we are bound to the terms
+			name = kyath.50.op1
+
+			set_country_flag = KYA_upheld_treaty
+			custom_tooltip = uphold_contract_of_nalean_tt
+			add_dip_power = -25
+			IWE = {
+				add_liberty_desire = -10
+			}
+
+			ai_chance = {
+				factor = 90
+			}
+		}
+		option = { #Just make vague promises to uphold the treaty
+			name = kyath.50.op2
+
+			add_dip_power = -10
+			add_legitimacy = -5
+			IWE = {
+				add_liberty_desire = 5
+			}
+
+			ai_chance = {
+				factor = 10
+			}
+		}
+	}
+
 
 #A City of Gods and Marble
 country_event = {

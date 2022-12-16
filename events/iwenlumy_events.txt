@@ -28,6 +28,7 @@ country_event = {
 	option = { #Push on our Claim
 		name = iwenlumy.1.b
 		trigger = {
+			NOT = { has_country_flag = KYA_upheld_treaty }
 			NOT = { has_country_flag = IWE_push_claim }
 		}
 		set_country_flag = IWE_push_claim

@@ -361,7 +361,12 @@ kyathian_council = {
 	modifiers = {
 		global_manpower_modifier = 0.1
 		diplomatic_upkeep = 2
-		vassal_income = 0.25
+		vassal_income = 0.5
+		reduced_liberty_desire_on_same_continent = 5
+		diplomatic_annexation_cost = 0.25
+		nobles_influence_modifier = 0.05
+		church_influence_modifier = 0.05
+		burghers_influence_modifier = -0.05
 	}
 	ai = {
 		factor = 1
@@ -386,7 +391,12 @@ kyathian_council_reform = {
 	modifiers = {
 		global_manpower_modifier = 0.1
 		diplomatic_upkeep = 2
-		vassal_income = 0.25
+		vassal_income = 0.5
+		reduced_liberty_desire_on_same_continent = 5
+		diplomatic_annexation_cost = 0.25
+		nobles_influence_modifier = 0.05
+		church_influence_modifier = 0.05
+		burghers_influence_modifier = -0.05
 	}
 	monarchy = yes
 	valid_for_nation_designer = no
