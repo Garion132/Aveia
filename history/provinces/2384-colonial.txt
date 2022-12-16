@@ -2,7 +2,7 @@
 add_core = TEL
 owner = TEL
 controller = TEL
-culture = shireate
+culture = uplander
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

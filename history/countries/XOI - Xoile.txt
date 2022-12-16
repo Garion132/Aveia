@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 government_rank = 1
-primary_culture = shireate
+primary_culture = xoilan
 religion = drethalumia
 technology_group = free_fauns_group
 capital = 2356 # 

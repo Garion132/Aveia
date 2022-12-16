@@ -2,7 +2,7 @@
 add_core = SAE
 owner = SAE
 controller = SAE
-culture = shireate
+culture = xuari
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

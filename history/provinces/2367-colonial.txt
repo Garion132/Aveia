@@ -2,7 +2,7 @@
 add_core = VAI
 owner = VAI
 controller = VAI
-culture = shireate
+culture = sariltine
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

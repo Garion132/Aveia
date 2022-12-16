@@ -2,7 +2,7 @@
 add_core = CAN
 owner = CAN
 controller = CAN
-culture = shireate
+culture = canian
 religion = drethalumia
 capital = "colonial"
 trade_goods = grain

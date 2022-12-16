@@ -54,3 +54,37 @@ namespace = religious_events
 		# change_religion = hinduism
 	# }
 # }
+# Festival of the Stars
+country_event = {
+	id = religious_events.20
+	title = "religious_events.EVTNAME20"
+	desc = "religious_events.EVTDESC20"
+	picture = PRAYING_eventPicture
+
+	trigger = {
+		religion = tlaunorist
+		NOT = {
+			has_global_flag = iron_age_calamity_eruption
+		}
+	}
+	is_triggered_only = yes
+	option = {
+		name = "religious_events.EVTOPTA20"
+		add_legitimacy = 5
+	}
+	option = {
+		name = "religious_events.EVTOPTB20"
+		add_prestige = 10
+		add_years_of_income = -0.5
+	}
+	option = {
+		name = "religious_events.EVTOPTC20"
+		trigger={
+			NOT = {
+				has_global_flag = iron_age_calamity_eruption
+			}
+		}
+		add_stability = 1
+		add_years_of_income = -1.5
+	}
+}

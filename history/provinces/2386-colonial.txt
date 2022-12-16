@@ -2,7 +2,7 @@
 add_core = MLF
 owner = MLF
 controller = MLF
-culture = shireate
+culture = uplander
 religion = tlaunorist
 capital = "colonial"
 trade_goods = silver

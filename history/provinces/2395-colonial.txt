@@ -2,7 +2,7 @@
 add_core = RAN
 owner = RAN
 controller = RAN
-culture = shireate
+culture = canian
 religion = tlaunorist
 capital = "colonial"
 trade_goods = unknown

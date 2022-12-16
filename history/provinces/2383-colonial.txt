@@ -2,7 +2,7 @@
 add_core = TLK
 owner = TLK
 controller = TLK
-culture = shireate
+culture = uplander
 religion = tlaunorist
 capital = "colonial"
 trade_goods = unknown

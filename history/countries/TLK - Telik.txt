@@ -1,6 +1,6 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
-primary_culture = shireate
+primary_culture = uplander
 religion = tlaunorist
 government_rank = 1
 technology_group = free_fauns_group

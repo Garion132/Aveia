@@ -2,7 +2,7 @@
 add_core = RAN
 owner = RAN
 controller = RAN
-culture = shireate
+culture = cenanian
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

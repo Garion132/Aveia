@@ -2,7 +2,7 @@
 add_core = TLC
 owner = TLC
 controller = TLC
-culture = shireate
+culture = tolcorite
 religion = drethalumia
 capital = "colonial"
 trade_goods = fur

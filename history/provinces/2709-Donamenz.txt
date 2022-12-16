@@ -2,8 +2,8 @@
 add_core = CIL
 owner = CIL
 controller = CIL
-culture = shireate
-religion = tlaunorist
+culture = xoilan
+religion = drethalumia
 capital = "Accra"
 trade_goods = unknown
 hre = no

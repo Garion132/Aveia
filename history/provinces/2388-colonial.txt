@@ -2,7 +2,7 @@
 add_core = SUO
 owner = SUO
 controller = SUO
-culture = shireate
+culture = uplander
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

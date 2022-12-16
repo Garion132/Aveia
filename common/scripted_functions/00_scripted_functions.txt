@@ -256,6 +256,7 @@ can_colonize_province_siberian_frontier = {
 					area = donamenz_46
 					area = donamenz_48
 				}
+				province_id = 2686
 			}
 		}
 		allow = {

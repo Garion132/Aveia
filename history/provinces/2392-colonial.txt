@@ -2,7 +2,7 @@
 add_core = XCI
 owner = XCI
 controller = XCI
-culture = shireate
+culture = uplander
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

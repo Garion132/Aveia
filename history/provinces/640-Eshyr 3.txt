@@ -3,7 +3,7 @@
 add_core = ESH
 owner = ESH
 controller = ESH
-culture = cyuean
+culture = erityian
 religion = tlaunorist
 hre = no
 base_tax = 0

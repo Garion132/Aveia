@@ -2,7 +2,7 @@
 add_core = YSE
 owner = YSE
 controller = YSE
-culture = shireate
+culture = sariltine
 religion = tlaunorist
 capital = "colonial"
 trade_goods = grain

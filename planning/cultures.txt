@@ -65,10 +65,3 @@ Donamenz
 	ridgewalker
 	frostcaller
 	valdoch
-	
-shirate
-	canian
-	cenanian
-	tolcorite
-	xuari
-	uplander

@@ -2,7 +2,7 @@
 add_core = OHI
 owner = OHI
 controller = OHI
-culture = shireate
+culture = sariltine
 religion = tlaunorist
 capital = "colonial"
 trade_goods = unknown

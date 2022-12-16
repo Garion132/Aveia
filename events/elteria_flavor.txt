@@ -1408,3 +1408,471 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
+
+# province_event = {#Elterian Elves form own group
+	# id = elteria_event.23
+	# title = elteria_event.23.t
+	# desc = elteria_event.23.d
+	
+	
+	# #major = yes
+	
+	# trigger = {
+		# is_year = 1280
+		# OR={
+			# culture = cyuean
+		# }
+		# region = brightcoast_region
+	# }
+	# #fire_only_once = yes
+	
+	# mean_time_to_happen = {
+		# months = 50
+	# }
+
+	# option = {
+		# name = elteria_event.23.a
+		# change_culture = villwinder 
+		# ai_chance = { factor = 5 }
+	# }
+	# option = {#embrace it
+		# name = elteria_event.23.a
+		# trigger = {
+			# is_capital = yes
+		# }
+		# ai_chance = { factor = 95 }
+		# change_culture = villwinder
+		# owner = {change_primary_culture = villwinder }
+	# }
+# }
+
+country_event = {#Elterian Elves form own group
+	id = elteria_event.23
+	title = "random_event.EVTNAME2"
+	desc = { # Sringar
+		trigger = {
+			culture_group = plains_elf
+			any_owned_province = {
+				continent = elteria
+				OR = {
+					culture = salorian
+					culture = nelsi
+					culture = menathean
+				}
+			}
+		}
+		desc = "elteria_event.EVTDESC23"
+	}
+	desc = { # Miwali
+		trigger = {
+			OR = {
+				primary_culture = cyuean
+				primary_culture = vilwinder
+			}
+			any_owned_province = {
+				continent = elteria
+				NOT={region = windsweaps_region}
+				culture = cyuean
+			}
+		}
+		desc = "elteria_event.EVTDESC23B"
+	}
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		capital_scope = {
+			continent = elteria
+		}
+		is_year = 1320
+		NOT = { has_country_flag = rejected_new_colonial_culture }
+		OR = {
+			# Eligible for Sringar culture
+			AND = {
+				culture_group = plains_elf
+				any_owned_province = {
+					continent = elteria
+					OR = {
+						culture = salorian
+						culture = nelsi
+						culture = menathean
+					}
+				}
+			}
+			# Eligible for Miwali culture
+			AND = {
+				OR = {
+					primary_culture = cyuean
+					primary_culture = vilwinder
+				}
+				any_owned_province = {
+					continent = elteria
+					NOT={region = windsweaps_region}
+					culture = cyuean
+				}
+			}
+			# Eligible for Eriluan culture (cloudham+silowbo)
+			AND = {
+				culture_group = sea_elf
+				NOT = { primary_culture = sohor }
+				any_owned_province = {
+					continent = elteria
+					NOT={colonial_region = colonial_termina}
+					OR = {
+						culture = kafathi
+						culture = athanilan
+						culture = yelioan
+						culture = inzedian
+					}
+				}
+			}
+			# Eligible for Oagerae culture
+			AND = {
+				culture_group = lake_elf
+				NOT = { primary_culture = shemsele }
+				NOT = { primary_culture = kyathian }
+				any_owned_province = {
+					continent = elteria
+					OR = {
+						culture = ientiran
+						culture = erityian
+						culture = edailian
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					OR={
+						culture_group = plains_elf
+						culture_group = elterian_elf
+					}
+					any_owned_province = {
+						continent = elteria
+						OR = {
+							culture = salorian
+							culture = nelsi
+							culture = menathean
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						continent = elteria
+						OR = {
+							culture = salorian
+							culture = nelsi
+							culture = menathean
+						}
+					}
+					save_event_target_as = sringar_province
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						primary_culture = cyuean
+						primary_culture = vilwinder
+						culture_group = elterian_elf
+					}
+					any_owned_province = {
+						continent = elteria
+						NOT={region = windsweaps_region}
+						culture = cyuean
+					}
+				}
+				random_owned_province = {
+					limit = {
+						continent = elteria
+						culture = cyuean
+					}
+					save_event_target_as = miwali_province
+				}
+			}
+			if = {
+				limit = {
+					OR={
+						culture_group = sea_elf
+						culture_group = elterian_elf
+					}
+					NOT = { primary_culture = sohor }
+					any_owned_province = {
+						continent = elteria
+						NOT={colonial_region = colonial_termina}
+						OR = {
+							culture = kafathi
+							culture = athanilan
+							culture = yelioan
+							culture = inzedian
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						continent = elteria
+						NOT={colonial_region = colonial_termina}
+						OR = {
+							culture = kafathi
+							culture = athanilan
+							culture = yelioan
+							culture = inzedian
+						}
+					}
+					save_event_target_as = eriluan_province
+				}
+			}
+			if = {
+				limit = {
+					OR={
+						culture_group = lake_elf
+						culture_group = elterian_elf
+					}
+					NOT = { primary_culture = shemsele }
+					NOT = { primary_culture = kyathian }
+					any_owned_province = {
+						continent = elteria
+						OR = {
+							culture = ientiran
+							culture = erityian
+							culture = edailian
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						continent = elteria
+						OR = {
+							culture = ientiran
+							culture = erityian
+							culture = edailian
+						}
+					}
+					save_event_target_as = oagerae_province
+				}
+			}
+		}
+	}
+	option = { # Become Sringar
+		trigger = {
+			culture_group = plains_elf
+		}
+		name = "elteria_event.EVTOPTA23"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = sringar
+				}
+			}
+			change_primary_culture = sringar
+		}
+		event_target:sringar_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					OR = {
+						culture = salorian
+						culture = nelsi
+						culture = menathean
+					}
+				}
+				change_culture = sringar
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Reject Sringar
+		trigger = {
+			culture_group = plains_elf
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:sringar_province = {
+			change_culture = sringar
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+	option = { # Become Miwali
+		trigger = {
+			any_owned_province = {
+				continent = north_america
+				culture = cyuean
+			}
+			OR={
+				primary_culture = cyuean
+				primary_culture = vilwinder
+			}
+		}
+		name = "elteria_event.EVTOPTE23"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = miwali
+				}
+			}
+			change_primary_culture = miwali
+		}
+		event_target:miwali_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					culture = cyuean
+				}
+				change_culture = miwali
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Resist cultural change
+		trigger = {
+			any_owned_province = {
+				continent = north_america
+				culture = cyuean
+			}
+			culture_group = penisular_elf
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+			NOT = { primary_culture = miwali }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:miwali_province = {
+			change_culture = miwali
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+	option = { # Become Eriluan
+		trigger = {
+			any_owned_province = {
+				continent = elteria
+				NOT={colonial_region = colonial_termina}
+				OR={
+					culture = kafathi
+					culture = athanilan
+					culture = yelioan
+					culture = inzedian
+				}
+			}
+			culture_group = sea_elf
+			NOT = { primary_culture = sohor }
+		}
+		name = "elteria_event.EVTOPTF23"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = eriluan
+				}
+			}
+			change_primary_culture = eriluan
+		}
+		event_target:eriluan_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					OR = {
+						culture = kafathi
+						culture = athanilan
+						culture = yelioan
+						culture = inzedian
+					}
+				}
+				change_culture = eriluan
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Resist cultural change
+		trigger = {
+			any_owned_province = {
+				continent = elteria
+				NOT={colonial_region = colonial_termina}
+				OR={
+					culture = kafathi
+					culture = athanilan
+					culture = yelioan
+					culture = inzedian
+				}
+			}
+			culture_group = sea_elf
+			NOT = { primary_culture = sohor }
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+			NOT = { primary_culture = eriluan }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:eriluan_province = {
+			change_culture = eriluan
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+	option = { # Become Oagerae
+		trigger = {
+			culture_group = lake_elf
+			NOT = { primary_culture = shemsele }
+			NOT = { primary_culture = kyathian }
+			any_owned_province = {
+				continent = elteria
+				OR = {
+					culture = ientiran
+					culture = erityian
+					culture = edailian
+				}
+			}
+		}
+		name = "elteria_event.EVTOPTG23"
+		if = {
+			limit = {
+				NOT = {
+					primary_culture = oagerae
+				}
+			}
+			change_primary_culture = oagerae
+		}
+		event_target:oagerae_province = {
+			area = {
+				limit = {
+					owned_by = ROOT
+					OR = {
+						culture = ientiran
+						culture = erityian
+						culture = edailian
+					}
+				}
+				change_culture = oagerae
+			}
+		}
+		set_country_flag = embraced_new_colonial_culture
+	}
+	option = { # Resist cultural change
+		trigger = {
+			culture_group = lake_elf
+			NOT = { primary_culture = shemsele }
+			NOT = { primary_culture = kyathian }
+			any_owned_province = {
+				continent = elteria
+				OR = {
+					culture = ientiran
+					culture = erityian
+					culture = edallian
+				}
+			}
+			ai = no
+			NOT = { has_country_flag = embraced_new_colonial_culture }
+			NOT = { primary_culture = oagerae }
+		}
+		name = "random_event.EVTOPTB2"
+		event_target:oagerae_province = {
+			change_culture = oagerae
+		}
+		set_country_flag = rejected_new_colonial_culture
+	}
+}
+
+

@@ -2,7 +2,7 @@
 add_core = XIT
 owner = XIT
 controller = XIT
-culture = shireate
+culture = canian
 religion = drethalumia
 capital = "colonial"
 trade_goods = guedina

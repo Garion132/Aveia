@@ -2,7 +2,7 @@
 add_core = TIL
 owner = TIL
 controller = TIL
-culture = shireate
+culture = xuari
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

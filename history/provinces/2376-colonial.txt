@@ -2,7 +2,7 @@
 add_core = VAN
 owner = VAN
 controller = VAN
-culture = shireate
+culture = tolcorite
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

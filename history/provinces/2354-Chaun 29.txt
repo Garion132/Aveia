@@ -3,7 +3,7 @@
 add_core = CHA
 owner = CHA
 controller = CHA
-culture = shireate
+culture = xoilan
 religion = tlaunorist
 hre = no
 base_tax = 2

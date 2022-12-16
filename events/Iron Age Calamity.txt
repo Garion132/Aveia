@@ -2473,6 +2473,96 @@ country_event = {#sweaping south
 		
 	#
 	
+	country_event = {#Rauthyr collapses to ghand
+			id = iron_age_calamity.1005
+			title = "iron_age_calamity.1005.t"
+			desc = "iron_age_calamity.1005.d"
+			picture = ANGRY_MOB_eventPicture
+			
+			major = yes
+			
+			#is_triggered_only = yes
+
+			trigger = {
+				OR={
+					NOT={total_development = 500}
+					capital = {controlled_by = GGD}
+				}
+				defensive_war_with = GGD
+				tag = RAU
+			}
+			fire_only_once = yes
+			
+			immediate = {
+				hidden_effect = {
+					set_global_flag = rauthyr_collapse
+					every_subject_country={
+						GGD={inherit = PREV}
+					}
+					every_owned_province={
+						limit={
+							NOT={
+								OR={
+									area = rauthyr_5
+									area = rauthyr_6
+									area = rauthyr_7
+									area = rauthyr_8
+								}
+							}
+						}
+						cede_province = GGD
+						add_territorial_core = GGD
+					}
+					every_province = {
+						limit = {
+							NOT = {
+								owned_by = RAU
+							}
+						}
+						remove_core = RAU
+					}
+					every_province = {
+						limit = {
+							owned_by = RAU
+							NOT = { is_core = RAU }
+						}
+						add_core = RAU
+					}
+				}
+			}
+			
+			mean_time_to_happen = {
+				days = 1
+			}
+			
+			option = {	# The old Empire is gone
+				name = "iron_age_calamity.1006.a"
+
+				end_disaster = iron_age_calamity
+				end_disaster = crisis_of_the_12th_century
+				change_tag = LIN
+				set_government_rank = 2
+				
+				add_prestige = -50
+				add_stability = 1
+				add_adm_power = 100
+				add_dip_power = 100
+				add_mil_power = 100
+
+				949 = {#cut lindoremy down to size
+					if = {
+						limit = {
+							has_building = fort_14th
+						}
+						remove_building = fort_14th
+					}
+					add_base_tax = -4 
+					add_center_of_trade_level = -1
+				}
+
+			}
+		}
+	
 	country_event = {#Rauthyr collapses to internal issues
 			id = iron_age_calamity.1006
 			title = "iron_age_calamity.1006.t"
@@ -2521,7 +2611,7 @@ country_event = {#sweaping south
 				days = 1
 			}
 			
-			option = {	# The old Kingdom is gone
+			option = {	# The old Empire is gone
 				name = "iron_age_calamity.1006.a"
 
 				end_disaster = iron_age_calamity

@@ -2,7 +2,7 @@
 add_core = CVC
 owner = CVC
 controller = CVC
-culture = shireate
+culture = uplander
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

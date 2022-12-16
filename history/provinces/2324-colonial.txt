@@ -2,7 +2,7 @@
 add_core = ZEM
 owner = ZEM
 controller = ZEM
-culture = shireate
+culture = xuari
 religion = drethalumia
 capital = "colonial"
 trade_goods = fur

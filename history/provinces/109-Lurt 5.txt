@@ -3,7 +3,7 @@
 add_core = LUR
 owner = LUR
 controller = LUR
-culture = kyathian
+culture = irenaso
 religion = tlaunorist
 hre = no
 base_tax = 1

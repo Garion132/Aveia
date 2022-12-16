@@ -2,7 +2,7 @@
 add_core = XUR
 owner = XUR
 controller = XUR
-culture = shireate
+culture = xuari
 religion = drethalumia
 capital = "colonial"
 trade_goods = guedina

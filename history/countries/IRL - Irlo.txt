@@ -1,6 +1,6 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
-primary_culture = shireate
+primary_culture = xuari
 religion = drethalumia
 technology_group = free_fauns_group
 capital = 2325 # 

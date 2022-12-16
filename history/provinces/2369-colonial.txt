@@ -2,7 +2,7 @@
 add_core = XII
 owner = XII
 controller = XII
-culture = shireate
+culture = sariltine
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

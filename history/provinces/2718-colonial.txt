@@ -2,7 +2,7 @@
 add_core = XAR
 owner = XAR
 controller = XAR
-culture = shireate
+culture = uplander
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

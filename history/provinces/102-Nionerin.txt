@@ -3,7 +3,7 @@
 add_core = MAT
 owner = MAT
 controller = MAT
-culture = kyathian
+culture = irenaso
 religion = tlaunorist
 hre = no
 base_tax = 1

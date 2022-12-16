@@ -3,7 +3,7 @@
 add_core = TIT
 owner = TIT
 controller = TIT
-culture = kyathian
+culture = irenaso
 religion = tlaunorist
 hre = no
 base_tax = 0

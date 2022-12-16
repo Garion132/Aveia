@@ -2,7 +2,7 @@
 add_core = XAQ
 owner = XAQ
 controller = XAQ
-culture = shireate
+culture = uplander
 religion = tlaunorist
 capital = "colonial"
 trade_goods = unknown

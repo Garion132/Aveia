@@ -2,7 +2,7 @@
 add_core = ZXE
 owner = ZXE
 controller = ZXE
-culture = shireate
+culture = xuari
 religion = drethalumia
 capital = "colonial"
 trade_goods = unknown

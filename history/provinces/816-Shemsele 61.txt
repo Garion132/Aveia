@@ -1,11 +1,11 @@
 #Shemsele
 
 add_core = SHE
-add_core = ELN
+add_core = RAH
 owner = SHE
 controller = SHE
-culture = chaunese
-religion = tlaunorist
+culture = rahen
+religion = orionrahetia
 hre = no
 base_tax = 0
 base_production =0

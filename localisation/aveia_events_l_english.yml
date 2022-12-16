@@ -364,3 +364,8 @@
  death_awaits.1.t:0 "Death of [Monarch.GetTitle][Monarch.GetName]"
  death_awaits.1.d:0 "[Monarch.GetName] has died of natural causes"
  
+ religious_events.EVTNAME20:0 "Festival of the Stars"
+ religious_events.EVTDESC20:0 "Every five years the Salta Vulorike, the Festival of Stars, is held. Hosted over the five days when the star Vana becomes visible in the skies above, singifiying the pact between the gods and the civilized races. The festival is tradionally heralded by a great religious ceramony hosted by the local Temple of Tlaunor and then continues with feasts, parties and prayers until the star disapears again."
+ religious_events.EVTOPTA20:0 "Praise the Gods"
+ religious_events.EVTOPTB20:0 "Help organise the festival"
+ religious_events.EVTOPTC20:0 "Make it the biggest we can"
