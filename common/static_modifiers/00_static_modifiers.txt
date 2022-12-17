@@ -246,7 +246,6 @@ provincial_tax_income = {
 	local_sailors = 25
 	province_trade_power_value = 3.0
 	local_build_cost = 0.02
-	land_forcelimit	= 0.1
 }
 
 provincial_production_size = {
@@ -256,7 +255,6 @@ provincial_production_size = {
 	local_sailors = 30
 	province_trade_power_value = 0.5
 	local_build_cost = 0.01
-	land_forcelimit	= 0.05
 }
 
 knowledge_sharing = {
@@ -273,6 +271,7 @@ manpower = {
 	#local_manpower = 0.08
 	local_sailors = 5
 	province_trade_power_value = 0.1
+	naval_forcelimit = -0.05
 }
 
 

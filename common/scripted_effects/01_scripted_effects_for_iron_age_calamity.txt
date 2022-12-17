@@ -190,6 +190,96 @@ iac_add_devastation = {
 	}
 }
 
+iac_upgrade_reform = {
+	custom_tooltip = iac_upgrade_reform_tt
+	if = {
+		limit = {
+			has_country_flag = iac_great_reform
+		}
+		set_country_flag = iac_excellent_reform
+		clr_country_flag = iac_great_reform
+	}
+	else_if = {
+		limit = {
+			has_country_flag = iac_good_reform
+		}
+		set_country_flag = iac_great_reform
+		clr_country_flag = iac_good_reform
+	}
+	else_if = {
+		limit = {
+			has_country_flag = iac_bad_reform
+		}
+		clr_country_flag = iac_bad_reform
+	}
+	else_if = {
+		limit = {
+			has_country_flag = iac_terrible_reform
+		}
+		set_country_flag = iac_bad_reform
+		clr_country_flag = iac_terrible_reform
+	}
+	else_if = {
+		limit = {
+			has_country_flag = iac_pointless_reform
+		}
+		set_country_flag = iac_terrible_reform
+		clr_country_flag = iac_pointless_reform
+	}
+	else = {
+		set_country_flag = iac_good_reform
+	}
+}
+iac_downgrade_reform = {
+	custom_tooltip = iac_downgrade_reform_tt
+	if = {
+		limit = {
+			has_country_flag = iac_excellent_reform
+		}
+		set_country_flag = iac_great_reform
+		clr_country_flag = iac_excellent_reform
+	}
+	else_if = {
+		limit = {
+			has_country_flag = iac_great_reform
+		}
+		set_country_flag = iac_good_reform
+		clr_country_flag = iac_great_reform
+	}
+	else_if = {
+		limit = {
+			has_country_flag = iac_good_reform
+		}
+		clr_country_flag = iac_good_reform
+	}
+	else_if = {
+		limit = {
+			has_country_flag = iac_bad_reform
+		}
+		set_country_flag = iac_terrible_reform
+		clr_country_flag = iac_bad_reform
+	}
+	else_if = {
+		limit = {
+			has_country_flag = iac_terrible_reform
+		}
+		set_country_flag = iac_pointless_reform
+		clr_country_flag = iac_terrible_reform
+	}
+	else = {
+		set_country_flag = iac_bad_reform
+	}
+}
+iac_reset_reform = {
+	clr_country_flag = iac_excellent_reform
+	clr_country_flag = iac_great_reform
+	clr_country_flag = iac_good_reform
+	# no flag is ok reform
+	clr_country_flag = iac_bad_reform
+	clr_country_flag = iac_terrible_reform
+	clr_country_flag = iac_pointless_reform
+}
+
 
 iac_collapse_nation = {#will tag switch and hopefully clean up nations that collapse
 	if={#Kyath becomes Mytn

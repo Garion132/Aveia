@@ -10,6 +10,20 @@
  industrial_age_navy:0 "Industrial Age Navy"
  modern_age_navy:0 "Modern Age Navy"
 
+ high_bronze_age_administration:0 "High Bronze Age Administration"
+ iron_age_administration:0 "Iron Age Administration"
+ steam_age_administration:0 "Steam Age Administration"
+ steel_age_administration:0 "Steel Age Administration"
+ industrial_age_administration:0 "Industrial Age Administration"
+ modern_age_administration:0 "Modern Age Administration"
+
+ high_bronze_age_army:0 "High Bronze Age Army"
+ iron_age_army:0 "Iron Age Army"
+ steam_age_army:0 "Steam Age Army"
+ steel_age_army:0 "Steel Age Army"
+ industrial_age_army:0 "Industrial Age Army"
+ modern_age_army:0 "Modern Age Army"
+
  tlaunorist_iwenlumy:0 "Control of the Heavens"
  rake_group_vulkiv:0 "Control of the Holy Imperial Throne"
  eternal_sun_golden_sun:0 "Control of the Golden Sun"

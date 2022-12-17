@@ -256,7 +256,8 @@ country_event = {
 
 #######################
 
-#Disaster Events
+#Random Disaster Events
+# 100-149
 
 #Beginning of an End
 country_event = {
@@ -1235,7 +1236,7 @@ country_event = {
 	}
 }
 
- #subject declares independance
+#Subject Declares Independence
 country_event = {
 	id = iron_age_calamity.112
 	title = "iron_age_calamity.112.t"
@@ -1262,8 +1263,10 @@ country_event = {
 	}
 }
 
+######################
 
-#Events for countries not in the disaster
+#Events for being out of calamity
+# 150-199
 
 #Lives Uprooted
 country_event = {
@@ -1477,7 +1480,8 @@ country_event = {
 
 ######################
 
-#Human Horde Event
+#Human Horde Events
+# 200-249
 
 #rise of the Iron King
 country_event = {
@@ -1722,7 +1726,290 @@ country_event = {#sweaping south
 
 #######################
 
-#Country Release Events
+#Disaster Events Continued (Specifically relating to Decisions)
+# 250-399
+
+#Commoners becoming Clerks
+country_event = {
+	id = iron_age_calamity.250
+	title = "iron_age_calamity.250.t"
+	desc = "iron_age_calamity.250.d"
+	picture = REFORM_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #We must pursue this reform
+		name = "iron_age_calamity.250.o1"
+		add_adm_power = -25
+		country_event = { id = iron_age_calamity.251 days = 30 }
+	}
+	option = { #Perhaps later
+		name = "iron_age_calamity.250.o2"
+		clr_country_flag = iac_reform_in_progress
+	}
+}
+
+#Concerns of the Clergy
+country_event = {
+	id = iron_age_calamity.251
+	title = "iron_age_calamity.251.t"
+	desc = "iron_age_calamity.251.d"
+	picture = CHURCH_ESTATE_1_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #We must move forward regardless of what the Clergy say
+		name = "iron_age_calamity.251.o1"
+		iac_upgrade_reform = yes
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -5
+		}
+		country_event = { id = iron_age_calamity.253 days = 30 }
+		country_event = { id = iron_age_calamity.252 days = 90 }
+	}
+	option = { #Adopt a compromise solution
+		name = "iron_age_calamity.251.o2"
+		custom_tooltip = iac_same_reform_tt
+		add_dip_power = -20
+		random_list = {
+			50 = {
+				country_event = { id = iron_age_calamity.253 days = 30 }
+			}
+			50 = {
+				
+			}
+		}
+		country_event = { id = iron_age_calamity.252 days = 90 }
+	}
+	option = { #Appease the radicals as much as possible
+		name = "iron_age_calamity.251.o3"
+		iac_downgrade_reform = yes
+		add_adm_power = -30
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 5
+		}
+		country_event = { id = iron_age_calamity.252 days = 90 }
+	}
+}
+
+#Practical Considerations
+country_event = {
+	id = iron_age_calamity.252
+	title = "iron_age_calamity.252.t"
+	desc = "iron_age_calamity.252.d"
+	picture = REFORM_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #Provide a lump-sum up-front
+		name = "iron_age_calamity.252.o1"
+		iac_upgrade_reform = yes
+		country_event = { id = iron_age_calamity.254 days = 90 }
+		add_years_of_income = -0.5
+	}
+	option = { #Pay for it over time
+		name = "iron_age_calamity.252.o2"
+		custom_tooltip = iac_same_reform_tt
+		country_event = { id = iron_age_calamity.254 days = 365 }
+		add_disaster_modifier = {
+			name = iac_long_term_payment
+			duration = 365
+			disaster = iron_age_calamity
+		}
+	}
+	option = { #Skim off other programs
+		name = "iron_age_calamity.252.o3"
+		custom_tooltip = iac_same_reform_tt
+		country_event = { id = iron_age_calamity.254 days = 180 }
+		add_disaster_modifier = {
+			name = iac_redirect_money
+			duration = 180
+			disaster = iron_age_calamity
+		}
+	}
+	option = { #I know a few who can keep a secret...
+		name = "iron_age_calamity.252.o4"
+		custom_tooltip = iac_same_reform_tt
+		country_event = { id = iron_age_calamity.254 days = 90 }
+		add_dip_power = -10
+		add_corruption = 1
+	}
+	option = { #Maybe we can keep the budget tight
+		name = "iron_age_calamity.252.o5"
+		iac_downgrade_reform = yes
+		country_event = { id = iron_age_calamity.254 days = 120 }
+		add_years_of_income = -0.25
+	}
+}
+
+#Clerical Radicals Revolt!
+country_event = {
+	id = iron_age_calamity.253
+	title = "iron_age_calamity.253.t"
+	desc = "iron_age_calamity.253.d"
+	picture = RELIGIOUS_TURMOIL_eventPicture
+	goto = unrest_province
+		
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_island = no
+					has_owner_religion = yes
+					is_overseas = no
+					is_state = yes
+					is_city = yes
+				}
+				save_event_target_as = unrest_province
+			}
+		}
+	}
+	
+	option = { #They cannot be reasoned with
+		name = "iron_age_calamity.253.o1"
+		custom_tooltip = iac_same_reform_tt
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -5
+		}
+		event_target:unrest_province = {
+			spawn_rebels = {
+				type = particularist_rebels
+				size = 4
+			}
+		}
+	}
+	option = { #Attempt a compromise
+		name = "iron_age_calamity.253.o2"
+		custom_tooltip = iac_same_reform_tt
+		add_dip_power = -50
+		random_list = {
+			50 = {
+				event_target:unrest_province = {
+					spawn_rebels = {
+						type = particularist_rebels
+						size = 3
+					}
+				}
+			}
+			50 = {
+
+			}
+		}
+	}
+	option = { #Adopt most of their demands
+		name = "iron_age_calamity.253.o3"
+		iac_downgrade_reform = yes
+		add_dip_power = -25
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 5
+		}
+	}
+	option = { #Perhaps they could be bribed?
+		name = "iron_age_calamity.253.o4"
+		custom_tooltip = iac_same_reform_tt
+		add_corruption = 1
+	}
+}
+
+#Commoner Clerks in Effect
+country_event = {
+	id = iron_age_calamity.254
+	title = "iron_age_calamity.254.t"
+	desc = "iron_age_calamity.254.d"
+	picture = REFORM_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = {
+		name = "iron_age_calamity.254.o1"
+		if = {
+			limit = {
+				OR = {
+					has_country_flag = iac_excellent_reform
+					has_country_flag = iac_great_reform
+				}
+			}
+			change_government_reform_progress = 10
+			add_disaster_modifier = {
+				name = iac_great_commoner_clerks
+				duration = -1
+				disaster = iron_age_calamity
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = iac_good_reform
+			}
+			change_government_reform_progress = 5
+			add_disaster_modifier = {
+				name = iac_good_commoner_clerks
+				duration = -1
+				disaster = iron_age_calamity
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = iac_bad_reform
+			}
+			add_disaster_modifier = {
+				name = iac_bad_commoner_clerks
+				duration = -1
+				disaster = iron_age_calamity
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_country_flag = iac_terrible_reform
+					has_country_flag = iac_pointless_reform
+				}
+			}
+			change_government_reform_progress = -5
+			add_disaster_modifier = {
+				name = iac_terrible_commoner_clerks
+				duration = -1
+				disaster = iron_age_calamity
+			}
+		}
+		else = {
+			add_disaster_modifier = {
+				name = iac_commoner_clerks
+				duration = -1
+				disaster = iron_age_calamity
+			}
+		}
+		set_country_flag = iac_commoner_clerks_reform
+		iac_reset_reform = yes
+	}
+}
+
+
+#######################
+
+#Country Release Events: 1000+
 	
 	#Gulba
 		#Morbir Breaks Free!

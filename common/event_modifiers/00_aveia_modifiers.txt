@@ -150,11 +150,41 @@
 		yearly_corruption = 0.1
 		stability_cost_modifier = 0.5
 	}
-	iac_commoner_clerks = {
-		expand_administration_cost = -0.25
-		governing_cost = -0.25
+	iac_great_commoner_clerks = {
+		expand_administration_cost = -0.4
+		governing_cost = -0.2
 		church_influence_modifier = -0.05
 		church_loyalty_modifier = -0.05
+	}
+	iac_good_commoner_clerks = {
+		expand_administration_cost = -0.3
+		governing_cost = -0.15
+		church_influence_modifier = -0.03
+		church_loyalty_modifier = -0.05
+	}
+	iac_commoner_clerks = {
+		expand_administration_cost = -0.2
+		governing_cost = -0.1
+		church_influence_modifier = -0.01
+		church_loyalty_modifier = -0.03
+	}
+	iac_bad_commoner_clerks = {
+		expand_administration_cost = -0.1
+		governing_cost = -0.05
+	}
+	iac_terrible_commoner_clerks = {
+		expand_administration_cost = -0.05
+	}
+	iac_long_term_payment = {
+		global_tax_modifier = -0.75
+		yearly_corruption = 0.1
+	}
+	iac_redirect_money = {
+		fire_damage = -0.1
+		shock_damage = -0.1
+		garrison_size = -0.25
+		ship_durability = -0.1
+		yearly_corruption = 0.5
 	}
 	iac_simplified_legal_code = {
 		stability_cost_modifier = -0.3

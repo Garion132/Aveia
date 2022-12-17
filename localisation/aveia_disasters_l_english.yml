@@ -79,6 +79,8 @@
  estate_nobles_land_reform:0 "Land Reform"
 
  #Decisions
+  iac_no_reform_in_progress:0 "No Reform is in Progress"
+
   iac_allow_commoners_to_become_clerks_title:0 "Administration: Commoners into Clerks"
   iac_allow_commoners_to_become_clerks_desc:0 "During the history of our rule, nearly all clerks have originated within the clergy. Opening our doors to commoners who can read ought to solve the manpower problems within the administration. The Clergy views this with a certain weariness but some are open to the idea given the circumstances."
   iac_bureaucratic_privilege_title:0 "Administration: Enact Bureaucratic Privilege"
@@ -117,8 +119,20 @@
 
   iac_starved_administration:0 "Starved Administration"
   desc_iac_starved_administration:0 "The Administration is having trouble governing over our realm."
-  iac_commoner_clerks:0 "Commoner Clerks"
+  iac_great_commoner_clerks:0 "Commoner Clerks: Great Reform"
+  desc_iac_great_commoner_clerks:0 "Clerks are no longer limited to only being recruited from members of the Clergy."
+  iac_good_commoner_clerks:0 "Commoner Clerks: Good Reform"
+  desc_iac_good_commoner_clerks:0 "Clerks are no longer limited to only being recruited from members of the Clergy."
+  iac_commoner_clerks:0 "Commoner Clerks: Okay Reform"
   desc_iac_commoner_clerks:0 "Clerks are no longer limited to only being recruited from members of the Clergy."
+  iac_bad_commoner_clerks:0 "Commoner Clerks: Bad Reform"
+  desc_bad_commoner_clerks:0 "Clerks are no longer limited to only being recruited from members of the Clergy."
+  iac_terrible_commoner_clerks:0 "Commoner Clerks: Terrible Reform"
+  desc_terrible_commoner_clerks:0 "Clerks are no longer limited to only being recruited from members of the Clergy."
+  iac_long_term_payment:0 "Long-Term Payment"
+  desc_iac_long_term_payment:0 "We have chosen to pay for a reform over a length of time instead of a lump sum."
+  iac_redirect_money:0 "Redirect Money"
+  desc_iac_redirect_money:0 "We have chosen to redirect money towards a reform over a length of time."
   iac_simplified_legal_code:0 "Simplified Legal Code"
   desc_iac_simplified_legal_code:0 "The legalese in our realm have been simplified to only a few tablets."
   iac_simplified_tax_code:0 "Simplified Tax Code"
@@ -131,83 +145,155 @@
   iac_restricted_technology:0 "Restricted Technology"
   desc_iac_restricted_technology:0 "Technological progress has been restricted in favor of keeping the country together."
  #
-
- iron_age_calamity.1.t:0 "Comet Sighted"
- iron_age_calamity.1.d:0 "Every now and again, a peasant makes an observation of the night sky and spots a streak of light moving across the sky. They follow up by spreading rumors and causing a ruckus across the country. However, the most recent sighting hasn't dissappeared unlike previous sightings. INstead, the perturbation in the sky has grown larger and brighter than any other of the stars that dot the sky.\nRumors have spread that this is the end times. Our spiritual and political leaders have tried their best to dispell these rumors and ensure calm. However, some of them are starting to believe in the end times themselves."
- iron_age_calamity.1.opt.a:0 "The End is Nigh!"
- iron_age_calamity.1.opt.b:0 "The Economy, Fools!"
- iron_age_calamity.1.opt.c:0 "We can weather any storm."
- #iron_age_calamity.2 doesn't have loc as it uses the same loc as 1
- iron_age_calamity.3.t:0 "THE END TIMES"
- iron_age_calamity.3.d:0 "The streak in the sky disappeared like any other comet that has disturbed our realm into the horizon. Worries subsided and it seemed like reason triumphed over baseless superstition. Until the ground shook and rocks started falling from the skies." #TODO - finish
- iron_age_calamity.3.opt.a:0 "Aveia Trembles"
- iron_age_calamity.3.opt.b:0 "The Heavens are Falling"
-
- iron_age_calamity.100.t:0 "Beginning of an End"
- iron_age_calamity.100.d:0 "We have created a great civilization. It may not be perfect, but it is well and above better than any other. Yet now, circumstances beyond our explanation are now testing us more than any other time in history. We shall persevere or perish."
- iron_age_calamity.100.opt.a:0 "O Gods, what have we done to suffer such a fate?"
- iron_age_calamity.100.opt.b:0 "Ye mighty and faithful... Follow me! Through the darkness and into the light!"
- iron_age_calamity.101.t:0 "End of a New Beginning"
- iron_age_calamity.101.d:0 "The time of trial is over. We are victorious, yet are severely weakened. Some say we merely survived. Whatever it may be, we can finally look towards future affairs."
- iron_age_calamity.101.opt.a:0 "Huzzah!"
-
- iron_age_calamity.102.t:0 "Peasants Revolt!"
- iron_age_calamity.102.d:0 "The famine caused by the darkening of the sky and cooling of the world has caused many uppity peasants to threaten to revolt against our rule. They demand food aid and lower taxes to alleviate their dire situation, ignoring our own desperate situation.\n\nWhat shall we do?"
- iron_age_calamity.102.opt.a:0 "Crush them!"
- iron_age_calamity.102.opt.b:0 "Spare what we can"
- iron_age_calamity.103.t:0 "Nationalists Revolt!"
- iron_age_calamity.103.d:0 "Nationalists Revolt"
- iron_age_calamity.103.opt.a:0 "Crush them!"
-
- iron_age_calamity.104.t:0 "Famine"
- iron_age_calamity.104.d:0 "With the calamity, famine has become the norm across the country as peasants and cityfolk starve. However, much of the situation could be alleviated by taking much of the nobility's land used for pleasure and hunting and instead using it as farmland. Much of our most fertile land rests within these pleasure-providers.\n\nWe can also lessen trade restrictions and try to import food from where there is some amount of excess, yet this is a temporary solution as others kingdoms will do the same and dilute the global food supply. Siezing land will greatly upset the nobility, yet it may prove to be the only way to permanently stop this downward spiral."
- iron_age_calamity.104.opt.a:0 "They'll just have to suffer for now"
- iron_age_calamity.104.opt.b:0 "Conduct Land Reform"
- iron_age_calamity.104.opt.c:0 "Confiscate land for reform"
- iron_age_calamity.104.opt.d:0 "Conduct widespread Land Reform so this never happens again!"
- iron_age_calamity.104.opt.e:0 "Lower trade barriers to alleviate the suffering"
-
- iron_age_calamity.105.t:0 "People Desert Cities"
- iron_age_calamity.105.o1:0 "We didn't need them anyway"
-
- iron_age_calamity.106.t:0 "The Situation Gets Worse"
- iron_age_calamity.106.o1:0 "Didn't think that possible"
-
- iron_age_calamity.107.t:0 "Army Desertion Reaches Critical Point"
- iron_age_calamity.107.d:0 "The recent series of crises that has hit our realm has started affecting army recruitment and retention. Tightened money purses and corruption problems has resulted in heightened desertions. If we do not get a handle on this issue quickly, then we may find ourselves without an army!"
- iron_age_calamity.107.o1:0 "Well we can't do anything right now"
- iron_age_calamity.107.o2:0 "Execute the Traitors"
-
- iron_age_calamity.108.t:0 "Question of Technology"
- iron_age_calamity.108.d:0 "Continued state support of technological progress has left some scratching their heads. We find ourselves in the worst crises our nation has faced yet we are funding programs that may not provide any benefits at all. Many are calling for the scrapping of these programs to use the resources in the shorter term so we can stabilize the country and use our little-remaining silver reserves and tax revenues for more important things like the military and administration. However, others say that technological development may reduce costs in the long-term."
- iron_age_calamity.108.o1:0 "We need to focus on keeping our realm together"
- iron_age_calamity.108.o2:0 "We will continue funding our scientists and philosophers!"
-
- iron_age_calamity.109.t:0 "Our Military is Outdated"
- iron_age_calamity.109.d:0 "Reports from Rauthyr has indicated that our militaries are horrifically outmatched against new hardened iron weapons. Simply put, without stable supplies of copper and tin to make bronze, we have no hope to hold back any invasion against an enemy who uses iron weapons. We must acquire iron weaponry or else we may succumb to foreign invasion."
- iron_age_calamity.109.o1:0 "We must secure an iron supply"
- iac_iron_supply_need_tt:0 "To remove this modifier, you need to either §YEstablish Iron Mining§! or §YImport Iron§! then §YIntroduce Iron Weaponry§! through your decisions.\n"
  
- iron_age_calamity.110.t:0 "Rumors of an Ambitious Commander"
- iron_age_calamity.110.d:0 "There have been rumors that an ambitious military leader is seeking to claim the rulership of our realm. We do not know who this is, or what rank they hold, but they are apparently charismatic and are known for numerous exploits."
- iron_age_calamity.110.o1:0 "Worrying"
+ #Events
+  iron_age_calamity.1.t:0 "Comet Sighted"
+  iron_age_calamity.1.d:0 "Every now and again, a peasant makes an observation of the night sky and spots a streak of light moving across the sky. They follow up by spreading rumors and  causing a ruckus across the country. However, the most recent sighting hasn't dissappeared unlike previous sightings. INstead, the perturbation in the sky has grown larger and brighter than  any other of the stars that dot the sky.\nRumors have spread that this is the end times. Our spiritual and political leaders have tried their best to dispell these rumors and ensure calm.  However, some of them are starting to believe in the end times themselves."
+  iron_age_calamity.1.opt.a:0 "The End is Nigh!"
+  iron_age_calamity.1.opt.b:0 "The Economy, Fools!"
+  iron_age_calamity.1.opt.c:0 "We can weather any storm."
+  #iron_age_calamity.2 doesn't have loc as it uses the same loc as 1
+  iron_age_calamity.3.t:0 "THE END TIMES"
+  iron_age_calamity.3.d:0 "The streak in the sky disappeared like any other comet that has disturbed our realm into the horizon. Worries subsided and it seemed like reason triumphed over  baseless superstition. Until the ground shook and rocks started falling from the skies." #TODO - finish
+  iron_age_calamity.3.opt.a:0 "Aveia Trembles"
+  iron_age_calamity.3.opt.b:0 "The Heavens are Falling"
  
- iron_age_calamity.111.t:0 "Coup d'etat!"
- iron_age_calamity.111.d:0 "The rumors about an ambitious general have turned true! There is now a strong pretender for the throne!"
- iron_age_calamity.111.o1:0 "Death to the traitor!"
+  iron_age_calamity.100.t:0 "Beginning of an End"
+  iron_age_calamity.100.d:0 "We have created a great civilization. It may not be perfect, but it is well and above better than any other. Yet now, circumstances beyond our explanation are now  testing us more than any other time in history. We shall persevere or perish."
+  iron_age_calamity.100.opt.a:0 "O Gods, what have we done to suffer such a fate?"
+  iron_age_calamity.100.opt.b:0 "Ye mighty and faithful... Follow me! Through the darkness and into the light!"
+  iron_age_calamity.101.t:0 "End of a New Beginning"
+  iron_age_calamity.101.d:0 "The time of trial is over. We are victorious, yet are severely weakened. Some say we merely survived. Whatever it may be, we can finally look towards future  affairs."
+  iron_age_calamity.101.opt.a:0 "Huzzah!"
+ 
+  iron_age_calamity.102.t:0 "Peasants Revolt!"
+  iron_age_calamity.102.d:0 "The famine caused by the darkening of the sky and cooling of the world has caused many uppity peasants to threaten to revolt against our rule. They demand food aid  and lower taxes to alleviate their dire situation, ignoring our own desperate situation.\n\nWhat shall we do?"
+  iron_age_calamity.102.opt.a:0 "Crush them!"
+  iron_age_calamity.102.opt.b:0 "Spare what we can"
+  iron_age_calamity.103.t:0 "Nationalists Revolt!"
+  iron_age_calamity.103.d:0 "Nationalists Revolt"
+  iron_age_calamity.103.opt.a:0 "Crush them!"
+ 
+  iron_age_calamity.104.t:0 "Famine"
+  iron_age_calamity.104.d:0 "With the calamity, famine has become the norm across the country as peasants and cityfolk starve. However, much of the situation could be alleviated by taking much  of the nobility's land used for pleasure and hunting and instead using it as farmland. Much of our most fertile land rests within these pleasure-providers.\n\nWe can also lessen trade  restrictions and try to import food from where there is some amount of excess, yet this is a temporary solution as others kingdoms will do the same and dilute the global food supply. Siezing  land will greatly upset the nobility, yet it may prove to be the only way to permanently stop this downward spiral."
+  iron_age_calamity.104.opt.a:0 "They'll just have to suffer for now"
+  iron_age_calamity.104.opt.b:0 "Conduct Land Reform"
+  iron_age_calamity.104.opt.c:0 "Confiscate land for reform"
+  iron_age_calamity.104.opt.d:0 "Conduct widespread Land Reform so this never happens again!"
+  iron_age_calamity.104.opt.e:0 "Lower trade barriers to alleviate the suffering"
+ 
+  iron_age_calamity.105.t:0 "People Desert Cities"
+  iron_age_calamity.105.o1:0 "We didn't need them anyway"
+ 
+  iron_age_calamity.106.t:0 "The Situation Gets Worse"
+  iron_age_calamity.106.o1:0 "Didn't think that possible"
+ 
+  iron_age_calamity.107.t:0 "Army Desertion Reaches Critical Point"
+  iron_age_calamity.107.d:0 "The recent series of crises that has hit our realm has started affecting army recruitment and retention. Tightened money purses and corruption problems has  resulted in heightened desertions. If we do not get a handle on this issue quickly, then we may find ourselves without an army!"
+  iron_age_calamity.107.o1:0 "Well we can't do anything right now"
+  iron_age_calamity.107.o2:0 "Execute the Traitors"
+ 
+  iron_age_calamity.108.t:0 "Question of Technology"
+  iron_age_calamity.108.d:0 "Continued state support of technological progress has left some scratching their heads. We find ourselves in the worst crises our nation has faced yet we are  funding programs that may not provide any benefits at all. Many are calling for the scrapping of these programs to use the resources in the shorter term so we can stabilize the country and  use our little-remaining silver reserves and tax revenues for more important things like the military and administration. However, others say that technological development may reduce costs  in the long-term."
+  iron_age_calamity.108.o1:0 "We need to focus on keeping our realm together"
+  iron_age_calamity.108.o2:0 "We will continue funding our scientists and philosophers!"
+ 
+  iron_age_calamity.109.t:0 "Our Military is Outdated"
+  iron_age_calamity.109.d:0 "Reports from Rauthyr has indicated that our militaries are horrifically outmatched against new hardened iron weapons. Simply put, without stable supplies of copper  and tin to make bronze, we have no hope to hold back any invasion against an enemy who uses iron weapons. We must acquire iron weaponry or else we may succumb to foreign invasion."
+  iron_age_calamity.109.o1:0 "We must secure an iron supply"
+  iac_iron_supply_need_tt:0 "To remove this modifier, you need to either §YEstablish Iron Mining§! or §YImport Iron§! then §YIntroduce Iron Weaponry§! through your decisions.\n"
+  
+  iron_age_calamity.110.t:0 "Rumors of an Ambitious Commander"
+  iron_age_calamity.110.d:0 "There have been rumors that an ambitious military leader is seeking to claim the rulership of our realm. We do not know who this is, or what rank they hold, but  they are apparently charismatic and are known for numerous exploits."
+  iron_age_calamity.110.o1:0 "Worrying"
+  
+  iron_age_calamity.111.t:0 "Coup d'etat!"
+  iron_age_calamity.111.d:0 "The rumors about an ambitious general have turned true! There is now a strong pretender for the throne!"
+  iron_age_calamity.111.o1:0 "Death to the traitor!"
 
- iron_age_calamity.151.t:0 "Lives Uprooted"
- iron_age_calamity.151.o1:0 "Oh dear"
+  #What with the end-times apparently having arrived, some of the Clergy have gone mad. Now, with some of their power being threatened, the radicals have taken up arms and appear to be revolting, lest we give in to their demands
+ 
+  iron_age_calamity.151.t:0 "Lives Uprooted"
+  iron_age_calamity.151.o1:0 "Oh dear"
+ 
+  iron_age_calamity.152.t:0 "Neighbors are Unstable"
+  iron_age_calamity.152.o1:0 "If only our neighbors were more stable"
+ 
+  iron_age_calamity.153.t:0 "The Administration Buckles"
+  iron_age_calamity.153.d:0 "With the calamity in full swing, our administrators have found it much more difficult to do their duties. Administering far-off lands has become much more  difficult."
+  iron_age_calamity.153.o1:0 "We need to get a handle on things"
+ 
+  iron_age_calamity.154.t:0 "We are Overstretched!"
+  iron_age_calamity.154.o1:0 "Our domain is too large..."
+ #
 
- iron_age_calamity.152.t:0 "Neighbors are Unstable"
- iron_age_calamity.152.o1:0 "If only our neighbors were more stable"
+ #Decision Events
+  iac_upgrade_reform_tt:0 "§YActive Reform§! becomes §Gbetter§!\n"
+  iac_same_reform_tt:0 "§YActive Reform§! becomes neither better nor worse\n"
+  iac_downgrade_reform_tt:0 "§YActive Reform§! becomes §Rworse§!\n"
+  #Commoner Clerks
+  iron_age_calamity.250.t:0 "Commoners Becoming Clerks"
+  iron_age_calamity.250.d:0 "During the Age of Bronze, nearly all clerks and scribes originated from within the clergy. These clerks and scribes keep documentation about not only the religious affairs of rituals and festivals but also more secular affairs like simple recordkeeping. With the growth of the state, there were discussions of allowing the training of commonfolk to keep track of records, taxes, and stockpiles. However, never was there a truly serious discussion about it until now when the state is struggling to stay afloat.\n\nThe idea is that making more people eligible to become clerks, we can ease the bureaucratic strain on our state. The clergy and many current scribes have argued against this proposal, projecting that if we adopt such a policy that the newcomers will not be as experienced. Some even say it'd be an insult to the Gods themselves."
+  iron_age_calamity.250.o1:0 "We must pursue this reform"
+  iron_age_calamity.250.o2:0 "Perhaps later"
+  
+  iron_age_calamity.251.t:0 "Concerns of the Clergy"
+  iron_age_calamity.251.d:0 "The Clergy are concerned with the current reform being proposed. The more reasonable argue that if we adopt such a policy, the newcomers will not be as experienced as the current scribes, who were trained from a young age. Not only that, but training new scribes would be an expensive affair for the state to manage especially in these times. The more radical of the Clergy insist that if we adopt such a policy that it would be an insult to the Gods themselves."
+  iron_age_calamity.251.o1:0 "We must move forward regardless of what the Clergy say"
+  iron_age_calamity.251.o2:0 "Adopt a compromise solution"
+  iron_age_calamity.251.o3:0 "Appease the radicals as much as possible"
+  
+  iron_age_calamity.252.t:0 "Practical Considerations"
+  iron_age_calamity.252.d:0 "With the Clergy's concerns mostly addressed, we must move on to actually funding this venture. There are multiple avenues to provide funding. One is to provide a short cash-infusion which will drain the coffers quickly but put the reform on an accelerated time-frame. Another is to provide funding over an entire year, thus spreading out the costs and likely resulting in a slightly more efficient spending program. The last option would be to skim resources off of other areas of the government to make room, though this will likely impede efforts to stabilize the country elsewhere. We can also try and secretly get money for the project, or just try and run a reduced program, though that might cause issues in the long run."
+  iron_age_calamity.252.o1:0 "Provide a lump-sum up-front"
+  iron_age_calamity.252.o2:0 "Pay for it over time"
+  iron_age_calamity.252.o3:0 "Skim off other programs"
+  iron_age_calamity.252.o4:0 "I know a few who can keep a secret..."
+  iron_age_calamity.252.o5:0 "Maybe we can keep the budget tight"
+  
+  iron_age_calamity.253.t:0 "Clerical Radicals Revolt!"
+  iron_age_calamity.253.d:0 "The radicals within the Clergy, a small minority of them, have appeared to be taking up arms in revolt against the crown. They argue that by pursuing this reform, we are directly insulting the Gods and thus we are threatening to plunge ourselves into worse conditions. Our first option is to deal with them with force. We could also attempt to compromise or adopt some of their demands. Alternatively, we could bribe enough of them to make the problem dissappear."
+  iron_age_calamity.253.o1:0 "They cannot be reasoned with"
+  iron_age_calamity.253.o2:0 "Attempt a compromise"
+  iron_age_calamity.253.o3:0 "Adopt most of their demands"
+  iron_age_calamity.253.o4:0 "Perhaps they could be bribed?"
+  
+  iron_age_calamity.254.t:0 "Commoner Clerks in Effect"
+  iron_age_calamity.254.d:0 "We have made strides in reforming how the selection process for the bureaucracy functions. Recordkeeping of storage facilities and taxation can now be performed by commoners trained by the Clergy. There are still reforms needed to be done, but with this in place we can move our focus to other critical areas."
+  iron_age_calamity.254.o1:0 "Excellent"
+  
+  #Bureaucratic Privilege
+  iron_age_calamity.255.t:0 "Enacting Bureaucratic Privilege"
+  iron_age_calamity.255.d:0 "Prior to the crisis, our bureaucrats had no issues with carrying out the duties of the state. Nowadays, they are struggling to even maintain the most basic of governmental functions. One easy reform to pursue would be to provide them with the powers necessary to overrule others and circumvent normal processes to more effectively manage the state. Such a reform would be generally unpopular, but seen as necessary, so not many should complain about it."
+  iron_age_calamity.255.o1:0 "We must pursue this reform"
+  iron_age_calamity.255.o2:0 "Perhaps later"
+  
+  iron_age_calamity.256.t:0 "Extra Provisions"
+  iron_age_calamity.256.d:0 "With many areas of our land lacking proper supplies of food, and where it is available it is much more expensive, it appears necessary to provide extra provisions to our agents. We can provide these directly or give our clerks the ability to confiscate the necessary supplies themselves."
+  iron_age_calamity.256.o1:0 "Provide what is necessary"
+  iron_age_calamity.256.o2:0 "Grant the powers to confiscate what is necessary"
+  iron_age_calamity.256.o3:0 "Attempt to cut corners"
+  
+  iron_age_calamity.257.t:0 "Emergency Powers"
+  iron_age_calamity.257.d:0 "Oftentimes, our tax collectors and bureaucrats have been unable to get the necessary information they needed. If this is to be rectified, they must be given additional powers to supplement the ones they currently have. It would make their jobs easier and make the functions of state perform better. The question is to what degree. Granting unlimited powers might solve any immediate issues, but could leave room for abuse that could easily cascade later, though we may have little choice. On the other hand, providing few additional powers would not do anything."
+  iron_age_calamity.257.o1:0 "Grant unlimited powers temporarily, until the crisis subsides"
+  iron_age_calamity.257.o2:0 "Add a few additional powers"
+  iron_age_calamity.257.o2:0 "Just extend the current system"
+  
+  iron_age_calamity.258.t:0 "Bureaucratic Privilege in Effect"
+  iron_age_calamity.258.d:0 "Now with our bureaucracy free to act, we can now stabilize the governing situation and restore some sort of order to the realm. Thus, we can move on to other reforms."
+  iron_age_calamity.258.o1:0 "Excellent"
 
- iron_age_calamity.153.t:0 "The Administration Buckles"
- iron_age_calamity.153.d:0 "With the calamity in full swing, our administrators have found it much more difficult to do their duties. Administering far-off lands has become much more difficult."
- iron_age_calamity.153.o1:0 "We need to get a handle on things"
+  #Simplify the Legal Code
 
- iron_age_calamity.154.t:0 "We are Overstretched!"
- iron_age_calamity.154.o1:0 "Our domain is too large..."
+  #Simplify the Tax Code
+
+  #Abolish Tax Exemptions
+
+  #Decentralize Power
+
+  #Secularize the Bureaucracy
+ #
 
  #Iron Age Calamity Breakaways
  iron_age_calamity.breakaway.op1:0 "We must crush them now!"
