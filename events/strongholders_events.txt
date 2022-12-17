@@ -1,0 +1,959 @@
+namespace = strongholders_event
+
+# country_event = {#rise of the strongholders
+	# id = strongholders_event.1
+	# title = strongholders_event.1.t
+	# desc = strongholders_event.1.d
+	
+	
+	
+	# is_triggered_only = yes
+
+	# option = {#the Stronghold is supreme
+		# name = strongholders_event.1.a
+		
+	# }
+# }
+country_event = {#founding of the strongholder culture, dregheis capital
+	id = strongholders_event.2
+	title = strongholders_event.2.t
+	desc = strongholders_event.2.d
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {#Alaritlu is first
+		name = strongholders_event.2.a
+		1272={
+			if={
+				limit={
+					is_capital = no
+				}
+				owner={
+					ROOT={
+						add_core = ALA
+						cede_province = ALA
+						PREV={
+							create_subject = {
+								subject_type = strongholder_vassal
+								subject = ALA
+							}
+						}
+					}
+				}
+			}
+			add_permanent_province_modifier = { 
+				name = dunirr_stronghold
+				duration = -1  
+				desc = dunirr_stronghold_tooltip
+			}
+		}
+		hidden_effect={#Ullis is next
+			1268 = {
+				province_event = { 
+					id = strongholders_event.3
+				}
+			}
+		}
+	}
+}
+
+province_event = {#Ullis
+	id = strongholders_event.3
+	title = strongholders_event.3.t
+	desc = strongholders_event.3.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.3.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = ULL
+					cede_province = ULL
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = ULL
+						}
+					}
+				}
+			}
+		}
+		1271 = {
+			province_event = { 
+				id = strongholders_event.4 days = 2
+			}
+		}
+		1269 = {
+			province_event = { 
+				id = strongholders_event.5 days = 3
+			}
+		}
+		1260 = {
+			province_event = { 
+				id = strongholders_event.6 days = 3
+			}
+		}
+		1217 = {
+			province_event = { 
+				id = strongholders_event.7 days = 4
+			}
+		}
+	}
+}
+province_event = {#Wulkildr
+	id = strongholders_event.4
+	title = strongholders_event.4.t
+	desc = strongholders_event.4.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.4.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = WUL
+					cede_province = WUL
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = WUL
+						}
+					}
+				}
+			}
+		}
+		1265 = {
+			province_event = { 
+				id = strongholders_event.8 days = 67
+			}
+		}
+	}
+}
+province_event = {#Rutiroe
+	id = strongholders_event.5
+	title = strongholders_event.5.t
+	desc = strongholders_event.5.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.5.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = RUT
+					cede_province = RUT
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = RUT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Xarbur
+	id = strongholders_event.6
+	title = strongholders_event.6.t
+	desc = strongholders_event.6.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.6.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = XRB
+					cede_province = XRB
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = XRB
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Wiquar
+	id = strongholders_event.7
+	title = strongholders_event.7.t
+	desc = strongholders_event.7.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.7.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = WIQ
+					cede_province = WIQ
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = WIQ
+						}
+					}
+				}
+			}
+			1215={
+				add_core = WIQ
+				cede_province = WIQ
+			}
+		}
+	}
+}
+province_event = {#Hloienor
+	id = strongholders_event.8
+	title = strongholders_event.8.t
+	desc = strongholders_event.8.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.8.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = HLO
+					cede_province = HLO
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = HLO
+						}
+					}
+				}
+			}
+			1266={
+				add_core = HLO
+				cede_province = HLO
+			}
+		}
+		1270 = {
+			province_event = { 
+				id = strongholders_event.9 days = 2
+			}
+		}
+		1273 = {
+			province_event = { 
+				id = strongholders_event.10 days = 35
+			}
+		}
+	}
+}
+province_event = {#karyne
+	id = strongholders_event.9
+	title = strongholders_event.9.t
+	desc = strongholders_event.9.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.9.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = KAR
+					cede_province = KAR
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = KAR
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Valtyue
+	id = strongholders_event.10
+	title = strongholders_event.10.t
+	desc = strongholders_event.10.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.10.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = VAL
+					cede_province = VAL
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = VAL
+						}
+					}
+				}
+			}
+			1275={
+				add_core = VAL
+				cede_province = VAL
+			}
+		}
+		1276 = {
+			province_event = { 
+				id = strongholders_event.11 days = 7
+			}
+		}
+		1274 = {
+			province_event = { 
+				id = strongholders_event.12 days = 9
+			}
+		}
+		1284 = {
+			province_event = { 
+				id = strongholders_event.13 days = 41
+			}
+		}
+	}
+}
+province_event = {#Venltir
+	id = strongholders_event.11
+	title = strongholders_event.11.t
+	desc = strongholders_event.11.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.11.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = VLT
+					cede_province = VLT
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = VLT
+						}
+					}
+				}
+			}
+			1278={
+				add_core = VLT
+				cede_province = VLT
+			}
+			1280={
+				add_core = VLT
+				cede_province = VLT
+			}
+		}
+	}
+}
+province_event = {#Druitl
+	id = strongholders_event.12
+	title = strongholders_event.12.t
+	desc = strongholders_event.12.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.12.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = DRU
+					cede_province = DRU
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = DRU
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Kkaran
+	id = strongholders_event.13
+	title = strongholders_event.13.t
+	desc = strongholders_event.13.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.13.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = KKA
+					cede_province = KKA
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = KKA
+						}
+					}
+				}
+			}
+			1285={
+				add_core = KKA
+				cede_province = KKA
+			}
+		}
+		1277 = {
+			province_event = { 
+				id = strongholders_event.14 days = 3
+			}
+		}
+		1279 = {
+			province_event = { 
+				id = strongholders_event.15 days = 8
+			}
+		}
+		1282 = {
+			province_event = { 
+				id = strongholders_event.16 days = 11
+			}
+		}
+		1283 = {
+			province_event = { 
+				id = strongholders_event.17 days = 46
+			}
+		}
+	}
+}
+province_event = {#Vuaril
+	id = strongholders_event.14
+	title = strongholders_event.14.t
+	desc = strongholders_event.14.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.14.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = VUA
+					cede_province = VUA
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = VUA
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Burkan
+	id = strongholders_event.15
+	title = strongholders_event.15.t
+	desc = strongholders_event.15.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.15.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = BRK
+					cede_province = BRK
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = BRK
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Duruk
+	id = strongholders_event.16
+	title = strongholders_event.16.t
+	desc = strongholders_event.16.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.16.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = DUR
+					cede_province = DUR
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = DUR
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Kaukof
+	id = strongholders_event.17
+	title = strongholders_event.17.t
+	desc = strongholders_event.17.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.17.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = KAU
+					cede_province = KAU
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = KAU
+						}
+					}
+				}
+			}
+		}
+		1286 = {
+			province_event = { 
+				id = strongholders_event.18 days = 6
+			}
+		}
+		1347 = {
+			province_event = { 
+				id = strongholders_event.19 days = 7
+			}
+		}
+		1349 = {
+			province_event = { 
+				id = strongholders_event.20 days = 7
+			}
+		}
+		1264 = {
+			province_event = { 
+				id = strongholders_event.21 days = 38
+			}
+		}
+	}
+}
+province_event = {#Iskisarlu
+	id = strongholders_event.18
+	title = strongholders_event.18.t
+	desc = strongholders_event.18.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.18.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = ISK
+					cede_province = ISK
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = ISK
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Hlorie
+	id = strongholders_event.19
+	title = strongholders_event.19.t
+	desc = strongholders_event.19.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.19.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = HIE
+					cede_province = HIE
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = HIE
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Alorpx
+	id = strongholders_event.20
+	title = strongholders_event.20.t
+	desc = strongholders_event.20.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.20.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = ALO
+					cede_province = ALO
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = ALO
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Gurlo
+	id = strongholders_event.21
+	title = strongholders_event.21.t
+	desc = strongholders_event.21.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.21.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = GUR
+					cede_province = GUR
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = GUR
+						}
+					}
+				}
+			}
+		}
+		1267 = {
+			province_event = { 
+				id = strongholders_event.22 days = 6
+			}
+		}
+		1346 = {
+			province_event = { 
+				id = strongholders_event.23 days = 7
+			}
+		}
+		1344 = {
+			province_event = { 
+				id = strongholders_event.24 days = 7
+			}
+		}
+		1256 = {
+			province_event = { 
+				id = strongholders_event.25 days = 53
+			}
+		}
+	}
+}
+province_event = {#Unolit
+	id = strongholders_event.22
+	title = strongholders_event.22.t
+	desc = strongholders_event.22.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.22.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = UNL
+					cede_province = UNL
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = UNL
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Kunlun
+	id = strongholders_event.23
+	title = strongholders_event.23.t
+	desc = strongholders_event.23.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.23.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = KUN
+					cede_province = KUN
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = KUN
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Beriksarya
+	id = strongholders_event.24
+	title = strongholders_event.24.t
+	desc = strongholders_event.24.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.24.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				BER={exists = no}
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = BER
+					cede_province = BER
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = BER
+						}
+					}
+				}
+			}
+		}
+	}
+}
+province_event = {#Seriko
+	id = strongholders_event.25
+	title = strongholders_event.25.t
+	desc = strongholders_event.25.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = strongholders_event.25.a
+		add_permanent_province_modifier = { 
+			name = dunirr_stronghold
+			duration = -1  
+			desc = dunirr_stronghold_tooltip
+		}
+		if={
+			limit={
+				is_capital = no
+			}
+			owner={
+				ROOT={
+					add_core = SRK
+					cede_province = SRK
+					PREV={
+						create_subject = {
+							subject_type = strongholder_vassal
+							subject = SRK
+						}
+					}
+				}
+			}
+			1263={
+				add_core = SRK
+				cede_province = SRK
+			}
+		}
+	}
+}

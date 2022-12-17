@@ -691,4 +691,30 @@ country_decisions = {
             }
         }
     }
+	iac_unilateraly_declare_independance = {
+        potential = {
+			is_subject = yes
+			overlord={
+				has_disaster = iron_age_calamity
+			}
+			liberty_desire = 75
+            stability = 0
+        }
+
+        allow = {
+            stability = 0
+			liberty_desire = 100
+        }
+
+        effect = {
+            overlord={
+				free_vassal = ROOT
+				country_event = {id = iron_age_calamity.112}
+			}
+        }
+
+        ai_will_do = {
+            factor = 100
+        }
+    }
 }

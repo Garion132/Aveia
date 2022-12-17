@@ -1235,6 +1235,33 @@ country_event = {
 	}
 }
 
+ #subject declares independance
+country_event = {
+	id = iron_age_calamity.112
+	title = "iron_age_calamity.112.t"
+	desc = "iron_age_calamity.112.d"
+	picture = SIEGE_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "iron_age_calamity.112.a" #we can't fight
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "iron_age_calamity.112.b" #fight them
+		trigger={
+			same_continent = FROM
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
 
 #Events for countries not in the disaster
 
@@ -2485,11 +2512,14 @@ country_event = {#sweaping south
 
 			trigger = {
 				OR={
-					NOT={total_development = 500}
-					capital = {controlled_by = GGD}
+					NOT={total_development = 600}
+					capital_scope = {controlled_by = GGD}
 				}
 				defensive_war_with = GGD
 				tag = RAU
+				NOT={
+					has_global_flag = rauthyr_collapse
+				}
 			}
 			fire_only_once = yes
 			
@@ -2513,6 +2543,21 @@ country_event = {#sweaping south
 						cede_province = GGD
 						add_territorial_core = GGD
 					}
+					GGD={
+						every_owned_province={
+							limit={
+								OR={
+									area = rauthyr_5
+									area = rauthyr_6
+									area = rauthyr_7
+									area = rauthyr_8
+								}
+							}
+							cede_province = RAU
+							add_core = RAU
+						}
+					}
+					white_peace = GGD
 					every_province = {
 						limit = {
 							NOT = {
@@ -2536,7 +2581,7 @@ country_event = {#sweaping south
 			}
 			
 			option = {	# The old Empire is gone
-				name = "iron_age_calamity.1006.a"
+				name = "iron_age_calamity.1005.a"
 
 				end_disaster = iron_age_calamity
 				end_disaster = crisis_of_the_12th_century
@@ -2581,6 +2626,9 @@ country_event = {#sweaping south
 				}
 				NOT={defensive_war_with = GGD}
 				tag = RAU
+				NOT={
+					has_global_flag = rauthyr_collapse
+				}
 			}
 			fire_only_once = yes
 			

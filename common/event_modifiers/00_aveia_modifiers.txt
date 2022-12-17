@@ -626,7 +626,8 @@
 		fire_damage = 0.10
 	}
 	crown_of_iron = {
-		global_unrest = -6
+		global_unrest = -10
+		core_creation = -3.0
 	}
 
 	CYU_coring_cost_ILR = {
@@ -658,6 +659,15 @@
 		picture = "plains_icon"
 	}
 #
+
+	dunirr_stronghold = {
+		tax_income = 12
+		local_defensiveness = 5.0
+		max_attrition = 1
+		local_hostile_attrition = 1
+		fort_level = 3
+		allowed_num_of_buildings = 1
+	}
 
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.

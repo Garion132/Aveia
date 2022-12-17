@@ -761,16 +761,17 @@ illuminare = {
 		is_state = yes
 		is_island = no
 		OR = {
-			development = 20
+			development = 25
 			is_capital = yes
 			normal_or_historical_nations = no
 		}
 		custom_trigger_tooltip = {
 			tooltip = tooltip_illuminare_prov_prosperous
 			is_prosperous = yes
-			development = 10
+			development = 15
 		}
-		
+		#province_has_center_of_trade_of_level = 1
+		continent = aveia
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	
