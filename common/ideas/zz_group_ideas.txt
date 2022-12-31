@@ -448,7 +448,7 @@ faun_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = shireate
+		culture_group = shireate_group
 	}
 	free = yes        #will be added at load.
 	
