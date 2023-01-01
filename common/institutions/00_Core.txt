@@ -1080,7 +1080,7 @@ guedinan_revolution = {
 	trade_company_efficiency = 0.4
 
 
-	historical_start_date = 1300.1.1
+	historical_start_date = 1500.1.1
 	historical_start_province = 2120 # Florence
 
 	history = {
@@ -1103,11 +1103,11 @@ guedinan_revolution = {
 			culture_group = imperial_purple_kolbold
 			
 		}
-		is_year = 1300
+		is_year = 1500
 	}
 	
 	can_start = {
-		is_year = 1300
+		is_year = 1500
 		is_state = yes
 		is_island = no
 		OR={
