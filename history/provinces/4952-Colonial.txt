@@ -1,6 +1,6 @@
 #juilia
 capital = "Accra"
-culture = borestian
+culture = crystalian
 religion = tradowite
 trade_goods = unknown
 hre = no

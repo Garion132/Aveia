@@ -3,11 +3,11 @@ latent_trade_goods = {
 	iron
 }
 
-capital = "Accra"
+capital = "Oxligt"
 add_core = OXL
 owner = OXL
 controller = OXL
-culture = borestian
+culture = earheran
 religion = shimmerian
 trade_goods = fruit
 hre = no

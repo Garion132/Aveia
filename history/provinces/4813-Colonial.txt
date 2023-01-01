@@ -1,9 +1,9 @@
 #juilia
-capital = "Accra"
+capital = "Motal"
 add_core = MYT
 owner = MYT
 controller = MYT
-culture = borestian
+culture = earheran
 religion = shimmerian
 trade_goods = fruit
 hre = no

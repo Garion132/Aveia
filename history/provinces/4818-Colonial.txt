@@ -1,9 +1,9 @@
 #juilia
-capital = "Accra"
+capital = "Ladve"
 add_core = EAR
 owner = EAR
 controller = EAR
-culture = borestian
+culture = earheran
 religion = shimmerian
 trade_goods = icorine
 hre = no
@@ -16,3 +16,5 @@ native_hostileness = 4
 extra_cost = 8
 
 discovered_by = eastern_men_group
+
+add_province_triggered_modifier = religious_center

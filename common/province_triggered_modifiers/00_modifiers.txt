@@ -64,7 +64,57 @@ religious_center = {
 	#}
 	
 	trigger = {
-		always = no
+		if = {
+			limit = {
+				province_id = 4828 #
+			}
+			religion = loswain
+		}
+		else_if = {
+			limit = {
+				province_id = 4818 # 
+			}
+			OR={
+				religion = loswain
+				religion = falowi
+				religion = shimmerian
+			}
+		}
+		else_if = {
+			limit = {
+				province_id = 4618 # 
+			}
+			OR={
+				religion = loswain
+				religion = falowi
+				religion = shimmerian
+			}
+		}
+		else_if = {
+			limit = {
+				province_id = 3912 # 
+			}
+			religion = tlaunorist
+		}
+		else_if = {
+			limit = {
+				province_id = 2040 # 
+			}
+			religion = vulikivite
+		}
+		else_if = {
+			limit = {
+				OR={
+					province_id = 1250 # 
+					province_id = 779 # 
+				}
+			}
+			religion = orionrahetia
+		}
+		
+		else={
+			always = no
+		}
 	}
 
 	local_missionary_strength = -0.05

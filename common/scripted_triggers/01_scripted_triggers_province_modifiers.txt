@@ -77,5 +77,15 @@ province_without_special_goods_produced_trigger = {
 }
 
 is_religious_center_province = {
-	always = no
+	OR = {
+		province_id = 4828
+		province_id = 4818
+		province_id = 4618
+		province_id = 3912
+		province_id = 2040
+		province_id = 779
+		province_id = 1250
+		province_id = 5206
+		province_id = 3948
+	}
 }

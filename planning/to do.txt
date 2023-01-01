@@ -1,9 +1,10 @@
 Thilrana formation decision if dies
 split the human culture group up
-add a culture to the kyath vassals
 eastern exbitions
 strongholders
 buff fauns during the bronze age
+fix PROV1906 positisioning
+add "incompatable biology" as a restriction to royal marriages
 
 national ideas:
 	Rauthyr
@@ -34,3 +35,17 @@ national ideas:
 	imperial group
 	siniersi group
 	anorian group
+	ugluk group
+	adrar
+	gugh
+	ihadar
+	keathene
+	boluroya
+	bayparya
+	nfanatha
+	inzedia
+	sun elf group
+	moon elf group
+	
+	
+	

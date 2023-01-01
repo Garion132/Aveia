@@ -589,6 +589,7 @@ iron_working = {
 					culture_group = aviean_red_kolbold
 					culture_group = imperial_purple_kolbold
 					culture_group = faun
+					culture_group = anorian
 				}
 			}
 			is_year = 1365

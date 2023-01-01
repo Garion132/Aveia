@@ -19,3 +19,5 @@ discovered_by = dunirr_group
 extra_cost = 0
 fort_14th = yes
 set_variable = { which = arable_land value = 3 }
+
+add_province_triggered_modifier = religious_center

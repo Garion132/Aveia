@@ -1,7 +1,7 @@
 #juilia
 capital = "Accra"
 trade_goods = naval_supplies
-culture = borestian
+culture = ehalian
 religion = uzvazism
 hre = no
 base_tax = 0

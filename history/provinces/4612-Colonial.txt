@@ -1,6 +1,6 @@
 #juilia
 capital = "Accra"
-culture = borestian
+culture = ehalian
 religion = uzvazism
 trade_goods = fruit
 hre = no

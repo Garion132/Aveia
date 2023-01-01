@@ -42,3 +42,16 @@ change_estate_land_share = {
 	add_ruler_personality = infertile_personality
 	add_ruler_personality = tactical_genius_personality
 }
+1199.9.18 = {
+	heir = {
+		name = "Karnur"
+		monarch_name = "Karnur"
+		birth_date = 1199.9.18
+		death_date = 1303.10.13
+		claim = 68
+		adm = 1
+		dip = 0
+		mil = 2
+		dynasty = "Thyrin"		
+	}
+}
