@@ -186,9 +186,48 @@
 		ship_durability = -0.1
 		yearly_corruption = 0.5
 	}
-	iac_simplified_legal_code = {
+	iac_confiscating_food = {
+		global_unrest = 2
+		global_prosperity_growth = -0.25
+	}
+	iac_ahead_of_time_legal_system = {
+		global_unrest = -1
+		stability_cost_modifier = -0.1
+		republican_tradition = 0.2
+		monthly_reform_progress_modifier = 0.1
+	}
+	iac_ahead_of_time_policing = {
+		global_unrest = -1
+		yearly_corruption = -0.05
+		global_monthly_devastation = -0.1
+		global_tax_modifier = -0.10
+		garrison_size = -0.10
+	}
+	iac_excellent_legal_reform = {
+		stability_cost_modifier = -0.4
+		global_unrest = -3.0
+	}
+	iac_great_legal_reform = {
 		stability_cost_modifier = -0.3
-		administrative_efficiency = 0.05
+		global_unrest = -2.5
+	}
+	iac_good_legal_reform = {
+		stability_cost_modifier = -0.2
+		global_unrest = -2.0
+	}
+	iac_okay_legal_reform = {
+		stability_cost_modifier = -0.1
+		global_unrest = -1.5
+	}
+	iac_bad_legal_reform = {
+		stability_cost_modifier = -0.05
+		global_unrest = -1.0
+	}
+	iac_terrible_legal_reform = {
+		global_unrest = -0.5
+	}
+	iac_pointless_legal_reform = {
+		stability_cost_modifier = 0.1
 	}
 	iac_simplified_tax_code = {
 		global_tax_modifier = 0.2
@@ -657,7 +696,8 @@
 	}
 	crown_of_iron = {
 		global_unrest = -10
-		core_creation = -3.0
+		administrative_efficiency = 0.5
+		core_creation = -1.0
 	}
 
 	CYU_coring_cost_ILR = {

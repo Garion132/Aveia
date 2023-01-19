@@ -9,7 +9,7 @@ country_decisions = {
         }
 
         allow = {
-            stability = 1
+            stability = 0
             adm_power = 25
             custom_trigger_tooltip = {
                 tooltip = iac_no_reform_in_progress
@@ -19,6 +19,7 @@ country_decisions = {
 
         effect = {
             custom_tooltip = secularize_bureaucracy_unlock_tt
+            custom_tooltip = iac_allow_commoners_to_become_clerks_tt
 		    set_country_flag = iac_reform_in_progress
 		    country_event = { id = iron_age_calamity.250 }
         }
@@ -35,26 +36,15 @@ country_decisions = {
         }
 
         allow = {
-            adm_power = 50
-            dip_power = 25
-            mil_power = 50
+            stability = -1
+            adm_power = 25
         }
 
         effect = {
             custom_tooltip = secularize_bureaucracy_unlock_tt
-            remove_country_modifier = iac_reduced_gov_cap
-            add_adm_power = -50
-            add_dip_power = -25
-            add_mil_power = -50
-            if = {
-                limit = {
-                    OR = {
-                        government = bronze_monarchy
-                        government = bronze_league
-                    }
-                }
-                change_government_reform_progress = 10
-            }
+            custom_tooltip = iac_bureaucratic_privilege_tt
+		    set_country_flag = iac_reform_in_progress
+		    country_event = { id = iron_age_calamity.255 }
         }
 
         ai_will_do = {
@@ -77,6 +67,7 @@ country_decisions = {
 
         effect = {
             custom_tooltip = secularize_bureaucracy_unlock_tt
+            custom_tooltip = iac_simplify_the_legal_code_tt
             add_stability = 1
 
             add_disaster_modifier = {

@@ -83,10 +83,13 @@
 
   iac_allow_commoners_to_become_clerks_title:0 "Administration: Commoners into Clerks"
   iac_allow_commoners_to_become_clerks_desc:0 "During the history of our rule, nearly all clerks have originated within the clergy. Opening our doors to commoners who can read ought to solve the manpower problems within the administration. The Clergy views this with a certain weariness but some are open to the idea given the circumstances."
+  iac_allow_commoners_to_become_clerks_tt:0 "Reduces §YGoverning Cost§! and §YExpand Administration Cost§!\nMay cost §Rstability§! and provoke a §Rrevolt!§!\n"
   iac_bureaucratic_privilege_title:0 "Administration: Enact Bureaucratic Privilege"
   iac_bureaucratic_privilege_desc:0 "By granting our bureaucrats flexibility and various emergency powers, we can ease the strain on the administration caused by the calamity."
-  iac_simplify_the_legal_code_title:0 "Administration: Simplify the Legal Code"
-  iac_simplify_the_legal_code_desc:0 "Over the years, the legal code has become a jumbled mess that only the clergy could interpret. Simplifying the code will ease strains but also weaken the clergy as even commoners will be able to parse through and understand it at a glance."
+  iac_bureaucratic_privilege_tt:0 "Removes §YStarved Administration§!\n"
+  iac_simplify_the_legal_code_title:0 "Administration: Reform the Legal Code"
+  iac_simplify_the_legal_code_desc:0 "Over the years, the legal code has become a jumbled mess that only the clergy could interpret. Reforming the code will ease strains and provide meaningful justice in our realm."
+  iac_simplify_the_legal_code_tt:0 "Reduces §YStability Cost§! and §YGlobal Unrest§!, Grants §YGovernment Reform Progress§!"
   iac_simplify_the_tax_code_title:0 "Administration: Simplify the Tax Code"
   iac_simplify_the_tax_code_desc:0 "Previously, attempts were made to make the tax code as efficient as possible in collecting as much taxes as possible. This made the tax code decently complicated but it was effective in tax collection. Now, its complexity is its biggest flaw. Simplifying the tax code will not only make collecting taxes easier, it will also increase revenues as it is easier to enforce."
   iac_abolish_tax_exemptions_title:0 "Administration: Abolish Tax Exemptions"
@@ -133,6 +136,12 @@
   desc_iac_long_term_payment:0 "We have chosen to pay for a reform over a length of time instead of a lump sum."
   iac_redirect_money:0 "Redirect Money"
   desc_iac_redirect_money:0 "We have chosen to redirect money towards a reform over a length of time."
+  iac_confiscating_food:0 "Confiscating Food"
+  desc_iac_confiscating_food:0 "Officials have been given the ability to confiscate food and supplies when necessary. The populace is not happy."
+  iac_ahead_of_time_legal_system:0 "Ahead of Time Legal System"
+  desc_iac_ahead_of_time_legal_system:0 "Due to farsighted reforms, our legal system now has elements that are centuries ahead of their time."
+  iac_ahead_of_time_policing:0 "Ahead of Time Policing"
+  desc_iac_ahead_of_time_policing:0 "Instead of local guards enforcing the Crown's and city laws, a dedicated force has been established to ensure that criminals are caught and brought to justice."
   iac_simplified_legal_code:0 "Simplified Legal Code"
   desc_iac_simplified_legal_code:0 "The legalese in our realm have been simplified to only a few tablets."
   iac_simplified_tax_code:0 "Simplified Tax Code"
@@ -278,13 +287,47 @@
   iron_age_calamity.257.d:0 "Oftentimes, our tax collectors and bureaucrats have been unable to get the necessary information they needed. If this is to be rectified, they must be given additional powers to supplement the ones they currently have. It would make their jobs easier and make the functions of state perform better. The question is to what degree. Granting unlimited powers might solve any immediate issues, but could leave room for abuse that could easily cascade later, though we may have little choice. On the other hand, providing few additional powers would not do anything."
   iron_age_calamity.257.o1:0 "Grant unlimited powers temporarily, until the crisis subsides"
   iron_age_calamity.257.o2:0 "Add a few additional powers"
-  iron_age_calamity.257.o2:0 "Just extend the current system"
+  iron_age_calamity.257.o3:0 "Just extend the current system"
   
   iron_age_calamity.258.t:0 "Bureaucratic Privilege in Effect"
   iron_age_calamity.258.d:0 "Now with our bureaucracy free to act, we can now stabilize the governing situation and restore some sort of order to the realm. Thus, we can move on to other reforms."
   iron_age_calamity.258.o1:0 "Excellent"
 
-  #Simplify the Legal Code
+  #Reforming the Legal Code
+  iron_age_calamity.259.t:0 "Reforming the Legal Code"
+  iron_age_calamity.259.d:0 "The legal code of our current state is a mess and simply cannot handle the current affairs of society. It varies from province to province, city to city, and even person to person. A series of reforms could re-establish a semblance of stability and trust in governance that is desperately needed in these times. Not to mention easing pressures on the state and catching evil-doers."
+  iron_age_calamity.259.o1:0 "We must pursue this reform"
+  iron_age_calamity.259.o2:0 "Perhaps later"
+  
+  iron_age_calamity.260.t:0 "Criminal Code"
+  iron_age_calamity.260.d:0 "The primary point of laws is to establish order. Criminals directly undermine that via theft, murder, rape, to even simply disorderly conduct. Most punishments are currently summary executions, but crueler punishments like beatings and amputation for minor crimes could help discourage those crimes as the perpetrator must live with the punishment. To allieviate the state, we could temporarily suspend punishment for petty crimes, though would result in a crime wave."
+  iron_age_calamity.260.o1:0 "Opt for the crueler punishments"
+  iron_age_calamity.260.o2:0 "Continue with Capital Punishment"
+  iron_age_calamity.260.o3:0 "Temporarily suspend prosecution for minor crimes"
+  iron_age_calamity.260.o4:0 "I have a few ideas myself..." #IF leader is cruel
+  
+  iron_age_calamity.261.t:0 "Mediation"
+  iron_age_calamity.261.d:0 "Disputes may occur between two parties. To that end, there must be a way to resolve these disputes peacefully. To that end, individuals have often taken up the role to mediate greviances and settle matters before they escalate to violence. However, serious disputes between parties do not yet have an official route to resolve differences. To establish a system to handle those matters may be expensive, but may help resolve serious issues in the long run."
+  iron_age_calamity.261.o1:0 "Establish Civil Courts and Procedures"
+  iron_age_calamity.261.o2:0 "Grant legitimacy to the current system"
+  iron_age_calamity.261.o3:0 "This would be a waste of money"
+  
+  iron_age_calamity.262.t:0 "Judicial Process"
+  iron_age_calamity.262.d:0 "As of current, individuals are held to account by the City Guardsmen or whomever may be responsible for upholding the rule of law in a city or area. The official then will make his own judgement on whether or not the individual is guilty or not. This has led to corruption and improper procedures. Instead, certain individuals have advocated for a trial system, where a trail is held against the defendant where the defendant is allowed to argue his case infront of a jury of his peers and the law official must argue a case against the defendant and convince a majority of the jury that the defendant is guilty. Such a system would be much more difficult to corrupt and would likely lead to a fairer society, but may end up complicating catching and prosecuting criminals."
+  iron_age_calamity.262.o1:0 "Institute Trial by Jury"
+  iron_age_calamity.262.o2:0 "Well trials sound nice, but what about a judge instead?"
+  iron_age_calamity.262.o3:0 "Just pay the guardsmen more!"
+  iron_age_calamity.262.o4:0 "This will just let criminals go free"
+  iron_age_calamity.262.o5:0 "Yes! Guilty only if beyond a resonable doubt!" #IF leader is just
+  
+  iron_age_calamity.263.t:0 "Policing"
+  iron_age_calamity.263.d:0 "As of current, individuals are held to account by the City Guardsmen or whomever may be responsible for upholding the rule of law in an area. However, these individuals must both focus on defense of the city, maintaining order, whilst catching criminals. We could establish a dedicated force for catching criminals given how rampant they are in these times. However the expense of pursuing this might be well beyond what is reasonable."
+  iron_age_calamity.263.o1:0 "Dedicated officals to combat criminals is a must!"
+  iron_age_calamity.263.o2:0 "What!? Are you crazy?"
+  
+  iron_age_calamity.264.t:0 "Legal Reforms in Effect"
+  iron_age_calamity.264.d:0 "The legal reforms for our realm have been completed. The new system may help save us in these trying times. We can now move on to other reforms."
+  iron_age_calamity.264.o1:0 "Excellent"
 
   #Simplify the Tax Code
 

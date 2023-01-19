@@ -1,0 +1,82 @@
+#Ruler Personalities
+#1st personality will be assigned at 15 years of age.
+#2nd personality will be assigned after ruling for 10 years.
+#3rd personality will be assigned after ruling for 25 years.
+#Most personalities are always available (unless contradictory to existing personality), a few are restricted to good rulers.
+
+###############################################
+# Good
+###############################################
+
+great_conquerer_personality = {
+	ruler_allow = {
+		allow = {
+			adm = 6
+			dip = 6
+			mil = 6
+		}
+	
+		chance = {
+			# modifier = {
+			# 	factor = 1
+			# 	NOT = { num_of_cities = 10 }
+			# }
+		}
+	}
+
+	heir_allow = {
+		allow = {
+			heir_adm = 6
+			heir_dip = 6
+			heir_mil = 6
+		}
+	
+		chance = {
+			# modifier = {
+			# 	factor = 1
+			# 	NOT = { num_of_cities = 10 }
+			# }
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+			always = no
+		}
+	
+		chance = {
+		}
+	}
+	
+	allow = {
+		
+	}
+	
+	chance = {
+	}
+	
+	easy_war_chance_multiplier = 2
+	war_chance_multiplier = 50.0
+	enemy_strength_multiplier = 0.25
+	gift_chance = -50
+	wants_land = yes
+	underestimate_ae = yes
+	
+	years_of_nationalism = -10
+	administrative_efficiency = 0.25
+	war_exhaustion = -0.1
+	core_creation = -0.5
+	ignore_coring_distance = yes
+	nation_designer_cost = 400
+	
+	war_priority = {
+		modifier = {
+			factor = 5
+			is_neighbor_of = ROOT
+		}
+	}
+}
+
+###############################################
+# Bad
+###############################################

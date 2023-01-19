@@ -1640,7 +1640,7 @@ cb_enforce_electorate_right = {
 #	war_goal = superiority_grand_crusade
 #}
 #cb_grand_crusade: "Grand Crusade"
-#cb_grand_crusade_desc: "They are accursed yet powerful infidels, and a threat to the Christian world!\n§YCatholic and the enemy's brethren of faith can join their respected side mid this war.§!\n§RCannot declare other wars while using this casus belli.§!"
+#cb_grand_crusade_desc: "They are accursed yet powerful infidels, and a threat to the Christian world!\nï¿½YCatholic and the enemy's brethren of faith can join their respected side mid this war.ï¿½!\nï¿½RCannot declare other wars while using this casus belli.ï¿½!"
 
 # Unite the Balkans cb - dangerously close to fantasy here
 cb_unite_balkans = {
@@ -1680,7 +1680,7 @@ cb_mannish_great_conquest = {
 	valid_for_subject = no
 	
 	prerequisites = {
-		has_ruler_flag = great_conquest_cb_user
+		ruler_has_personality = great_conquerer_personality
 		is_neighbor_of = FROM
 		NOT = { religion_group = FROM }
 		NOT = {	has_matching_religion = FROM }
@@ -1694,7 +1694,7 @@ cb_establish_faun_federate = {
 	valid_for_subject = no
 
 	prerequisites = {
-		#has_ruler_flag = great_conquest_cb_user
+		#has_ruler_flag = great_conquerer_personality
 		primary_culture = shireate
 		OR={
 			is_neighbor_of = FROM

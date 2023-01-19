@@ -1519,9 +1519,9 @@ country_event = {
 			dip = 6
 			mil = 6
 		}
-		add_ruler_personality = expansionist_personality
-		add_ruler_personality = conqueror_personality
-		add_ruler_personality = zealot_personality
+		add_ruler_personality = great_conquerer_personality
+		add_ruler_personality = inspiring_leader_personality
+		add_ruler_personality = bold_fighter_personality
 					
 		hidden_effect={
 			country_event = {id = iron_age_calamity.201 days = 100}
@@ -1689,7 +1689,7 @@ country_event = {#sweaping south
 		trigger={
 			has_ruler_flag = mannish_iron_crown
 		}
-		set_ruler_flag = great_conquest_cb_user
+		ruler_has_personality = great_conquerer_personality
 		if={
 			limit = {
 				ai = yes
@@ -2006,6 +2006,429 @@ country_event = {
 	}
 }
 
+
+
+#Enacting Bureaucratic Privilege
+country_event = {
+	id = iron_age_calamity.255
+	title = "iron_age_calamity.255.t"
+	desc = "iron_age_calamity.255.d"
+	picture = REFORM_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #We must pursue this reform
+		name = "iron_age_calamity.255.o1"
+		add_adm_power = -25
+		country_event = { id = iron_age_calamity.256 days = 30 }
+	}
+	option = { #Perhaps later
+		name = "iron_age_calamity.255.o2"
+		clr_country_flag = iac_reform_in_progress
+	}
+}
+
+#Extra Provisions
+country_event = {
+	id = iron_age_calamity.256
+	title = "iron_age_calamity.256.t"
+	desc = "iron_age_calamity.256.d"
+	picture = TRADEGOODS_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #Provide what is necessary
+		name = "iron_age_calamity.256.o1"
+		iac_upgrade_reform = yes
+		add_years_of_income = -1
+		country_event = { id = iron_age_calamity.257 days = 90 }
+	}
+	option = { #Grant the powers to confiscate what is necessary
+		name = "iron_age_calamity.256.o2"
+		custom_tooltip = iac_same_reform_tt
+		add_mil_power = -25
+		add_disaster_modifier = {
+			name = iac_confiscating_food
+			duration = -1
+			disaster = iron_age_calamity
+		}
+		country_event = { id = iron_age_calamity.257 days = 90 }
+	}
+	option = { #Attempt to cut corners
+		name = "iron_age_calamity.256.o3"
+		iac_downgrade_reform = yes
+		add_corruption = 1
+		country_event = { id = iron_age_calamity.257 days = 90 }
+	}
+}
+
+#Emergency Powers
+country_event = {
+	id = iron_age_calamity.257
+	title = "iron_age_calamity.257.t"
+	desc = "iron_age_calamity.257.d"
+	picture = LIBERUM_VETO_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #Grant unlimited powers temporarily, until the crisis subsides
+		name = "iron_age_calamity.257.o1"
+		iac_upgrade_reform = yes
+		add_corruption = 2
+		add_mil_power = -25
+		country_event = { id = iron_age_calamity.258 days = 90 }
+	}
+	option = { #Add a few additional powers
+		name = "iron_age_calamity.257.o2"
+		custom_tooltip = iac_same_reform_tt
+		add_adm_power = -25
+		country_event = { id = iron_age_calamity.258 days = 90 }
+	}
+	option = { #Just extend the current system
+		name = "iron_age_calamity.257.o3"
+		iac_downgrade_reform = yes
+		country_event = { id = iron_age_calamity.258 days = 90 }
+	}
+}
+
+#Bureaucratic Privilege in Effect
+country_event = {
+	id = iron_age_calamity.258
+	title = "iron_age_calamity.258.t"
+	desc = "iron_age_calamity.258.d"
+	picture = REFORM_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #Excellent
+		name = "iron_age_calamity.258.o1"
+		if = {
+			limit = {
+				OR = {
+					has_country_flag = iac_excellent_reform
+					has_country_flag = iac_great_reform
+				}
+			}
+			change_government_reform_progress = 15
+			add_stability = 1
+		}
+		else_if = {
+			limit = {
+				has_country_flag = iac_good_reform
+			}
+			change_government_reform_progress = 10
+			add_adm_power = 25
+			add_corruption = 0.25
+		}
+		else_if = {
+			limit = {
+				has_country_flag = iac_bad_reform
+			}
+			add_corruption = 0.75
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_country_flag = iac_terrible_reform
+					has_country_flag = iac_pointless_reform
+				}
+			}
+			change_government_reform_progress = -5
+			add_corruption = 1
+		}
+		else = { #Okay Reform
+			change_government_reform_progress = 5
+			add_corruption = 0.5
+		}
+		remove_country_modifier = iac_reduced_gov_cap
+		iac_reset_reform = yes
+	}
+}
+
+
+#Reforming the Legal Code
+country_event = {
+	id = iron_age_calamity.259
+	title = "iron_age_calamity.259.t"
+	desc = "iron_age_calamity.259.d"
+	picture = REFORM_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #We must pursue this reform
+		name = "iron_age_calamity.259.o1"
+		add_adm_power = -25
+		country_event = { id = iron_age_calamity.260 days = 30 }
+	}
+	option = { #Perhaps later
+		name = "iron_age_calamity.259.o2"
+		clr_country_flag = iac_reform_in_progress
+	}
+}
+
+#Criminal Code
+country_event = {
+	id = iron_age_calamity.260
+	title = "iron_age_calamity.260.t"
+	desc = "iron_age_calamity.260.d"
+	picture = BIG_BOOK_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #Opt for the crueler punishments
+		name = "iron_age_calamity.260.o1"
+		iac_upgrade_reform = yes
+		add_years_of_income = -0.5
+		add_yearly_manpower = -0.25
+		
+		country_event = { id = iron_age_calamity.261 days = 90 }
+	}
+	option = { #Continue with Capital Punishment
+		name = "iron_age_calamity.260.o2"
+		custom_tooltip = iac_same_reform_tt
+		country_event = { id = iron_age_calamity.261 days = 90 }
+	}
+	option = { #Temporarily suspend prosecution for minor crimes
+		name = "iron_age_calamity.260.o3"
+		iac_downgrade_reform = yes
+		add_yearly_manpower = 0.25
+		country_event = { id = iron_age_calamity.261 days = 90 }
+	}
+	option = { #I have a few ideas myself...
+		name = "iron_age_calamity.260.o4"
+		trigger = {
+			ruler_has_personality = cruel_personality
+		}
+		highlight = yes
+
+		iac_upgrade_reform = yes
+		add_mil_power = -50
+
+		country_event = { id = iron_age_calamity.261 days = 90 }
+	}
+}
+
+#Mediation
+country_event = {
+	id = iron_age_calamity.261
+	title = "iron_age_calamity.261.t"
+	desc = "iron_age_calamity.261.d"
+	picture = DIPLOMACY_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #Establish Civil Courts and Procedures
+		name = "iron_age_calamity.261.o1"
+		iac_upgrade_reform = yes
+		add_years_of_income = -0.5
+		add_adm_power = -100
+		add_stability = 1
+		
+		country_event = { id = iron_age_calamity.261 days = 90 }
+	}
+	option = { #Grant legitimacy to the current system
+		name = "iron_age_calamity.261.o2"
+		custom_tooltip = iac_same_reform_tt
+		add_corruption = 2
+		country_event = { id = iron_age_calamity.261 days = 90 }
+	}
+	option = { #This would be a waste of money
+		name = "iron_age_calamity.261.o3"
+		iac_downgrade_reform = yes
+		add_legitimacy = -5
+		country_event = { id = iron_age_calamity.261 days = 90 }
+	}
+}
+
+#Judicial Process
+country_event = {
+	id = iron_age_calamity.262
+	title = "iron_age_calamity.262.t"
+	desc = "iron_age_calamity.262.d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #Institute Trial by Jury
+		name = "iron_age_calamity.262.o1"
+		iac_upgrade_reform = yes
+		add_years_of_income = -0.5
+		add_legitimacy = -10
+		country_event = { id = iron_age_calamity.263 days = 90 }
+	}
+	option = { #Well trials sound nice, but what about a judge instead?
+		name = "iron_age_calamity.262.o2"
+		iac_upgrade_reform = yes
+		add_years_of_income = -0.5
+		add_corruption = 1
+		country_event = { id = iron_age_calamity.263 days = 90 }
+	}
+	option = { #Just pay the guardsmen more!
+		name = "iron_age_calamity.262.o3"
+		custom_tooltip = iac_same_reform_tt
+		add_years_of_income = -0.25
+		add_corruption = 2
+		country_event = { id = iron_age_calamity.263 days = 90 }
+	}
+	option = { #This will just let criminals go free
+		name = "iron_age_calamity.262.o4"
+		iac_downgrade_reform = yes
+		country_event = { id = iron_age_calamity.263 days = 90 }
+	}
+	option = { #Yes! Guilty only if beyond a resonable doubt!
+		name = "iron_age_calamity.262.o5"
+		trigger = {
+			ruler_has_personality = just_personality
+			stability = -2
+		}
+		highlight = yes
+		iac_upgrade_reform = yes
+		add_years_of_income = -0.5
+		add_stability = -1
+		add_country_modifier = {
+			name = iac_ahead_of_time_legal_system
+			duration = -1
+		}
+		country_event = { id = iron_age_calamity.263 days = 90 }
+	}
+}
+
+#Policing
+country_event = {
+	id = iron_age_calamity.263
+	title = "iron_age_calamity.263.t"
+	desc = "iron_age_calamity.263.d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #Dedicated officals to combat criminals is a must!
+		name = "iron_age_calamity.263.o1"
+		if = {
+			limit = {
+				has_country_flag = iac_excellent_reform
+			}
+			add_stability = 1
+		}
+		else = {
+			iac_upgrade_reform = yes
+		}
+		add_years_of_income = -1
+		add_adm_power = -50
+		add_mil_power = -25
+		add_country_modifier = {
+			name = iac_ahead_of_time_policing
+			duration = -1
+		}
+		add_ruler_personality = lawgiver_personality
+		country_event = { id = iron_age_calamity.264 days = 90 }
+	}
+	option = { #What!? Are you crazy?
+		name = "iron_age_calamity.263.o2"
+		custom_tooltip = iac_same_reform_tt
+		country_event = { id = iron_age_calamity.264 days = 90 }
+	}
+}
+
+#Legal Reform in Effect
+country_event = {
+	id = iron_age_calamity.264
+	title = "iron_age_calamity.264.t"
+	desc = "iron_age_calamity.264.d"
+	picture = REFORM_eventPicture
+		
+	is_triggered_only = yes
+	
+	# immediate = {
+		# set_country_flag = had_iron_age_calamity
+	# }
+	
+	option = { #Excellent
+		name = "iron_age_calamity.264.o1"
+		if = {
+			limit = {
+				has_country_flag = iac_excellent_reform
+			}
+			change_government_reform_progress = 20
+			add_corruption = -2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = iac_great_reform
+			}
+			change_government_reform_progress = 15
+			add_corruption = -1
+		}
+		else_if = {
+			limit = {
+				has_country_flag = iac_good_reform
+			}
+			change_government_reform_progress = 10
+			add_corruption = -0.5
+		}
+		else_if = {
+			limit = {
+				has_country_flag = iac_bad_reform
+			}
+			add_corruption = 0.5
+		}
+		else_if = {
+			limit = {
+				has_country_flag = iac_pointless_reform
+			}
+			change_government_reform_progress = -5
+			add_corruption = 1
+		}
+		else_if = {
+			limit = {
+				has_country_flag = iac_pointless_reform
+			}
+			change_government_reform_progress = -10
+			add_corruption = 2
+		}
+		else = { #Okay Reform
+			change_government_reform_progress = 5
+		}
+		remove_country_modifier = iac_reduced_gov_cap
+		iac_reset_reform = yes
+	}
+}
 
 #######################
 

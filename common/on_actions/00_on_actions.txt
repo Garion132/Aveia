@@ -235,26 +235,26 @@ on_siege_won_country = {
 	#province effects for the great conquest
 	if={
 		limit={
-			has_ruler_flag = great_conquest_cb_user
+			ruler_has_personality = great_conquerer_personality
 			from={
 				owner = {defensive_war_with = ROOT}
 				is_capital = no
 			}
 		}
 		from={
-			cede_province = root
-			add_territorial_core = root
+			cede_province = ROOT
+			add_territorial_core = ROOT
 		}
 	}
 	if={
 		limit={
 			from={
-				owner={has_ruler_flag = great_conquest_cb_user}
+				owner={ ruler_has_personality = great_conquerer_personality }
 				is_capital = no
 			}
-			is_core_of = root
+			is_core_of = ROOT
 		}
-		from={cede_province = root}
+		from={cede_province = ROOT}
 	}
 }
 
