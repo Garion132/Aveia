@@ -1,5 +1,5 @@
 #tradewind_islands
-capital = "Accra"
+capital = "Cynota"
 hre = no
 add_core = SMO
 owner = SMO
