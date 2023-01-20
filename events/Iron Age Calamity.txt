@@ -2203,7 +2203,7 @@ country_event = {
 		name = "iron_age_calamity.260.o1"
 		iac_upgrade_reform = yes
 		add_years_of_income = -0.5
-		add_yearly_manpower = -0.25
+		add_yearly_manpower = -1
 		
 		country_event = { id = iron_age_calamity.261 days = 90 }
 	}
@@ -2215,7 +2215,7 @@ country_event = {
 	option = { #Temporarily suspend prosecution for minor crimes
 		name = "iron_age_calamity.260.o3"
 		iac_downgrade_reform = yes
-		add_yearly_manpower = 0.25
+		add_yearly_manpower = 1
 		country_event = { id = iron_age_calamity.261 days = 90 }
 	}
 	option = { #I have a few ideas myself...
@@ -2258,19 +2258,19 @@ country_event = {
 			}
 		}
 		
-		country_event = { id = iron_age_calamity.261 days = 90 }
+		country_event = { id = iron_age_calamity.262 days = 90 }
 	}
 	option = { #Grant legitimacy to the current system
 		name = "iron_age_calamity.261.o2"
 		custom_tooltip = iac_same_reform_tt
 		add_corruption = 2
-		country_event = { id = iron_age_calamity.261 days = 90 }
+		country_event = { id = iron_age_calamity.262 days = 90 }
 	}
 	option = { #This would be a waste of money
 		name = "iron_age_calamity.261.o3"
 		iac_downgrade_reform = yes
 		add_legitimacy = -5
-		country_event = { id = iron_age_calamity.261 days = 90 }
+		country_event = { id = iron_age_calamity.262 days = 90 }
 	}
 }
 

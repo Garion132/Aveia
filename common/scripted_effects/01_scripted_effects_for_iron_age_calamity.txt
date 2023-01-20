@@ -271,6 +271,7 @@ iac_downgrade_reform = {
 	}
 }
 iac_reset_reform = {
+	clr_country_flag = iac_reform_in_progress
 	clr_country_flag = iac_excellent_reform
 	clr_country_flag = iac_great_reform
 	clr_country_flag = iac_good_reform
