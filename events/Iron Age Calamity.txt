@@ -2251,6 +2251,12 @@ country_event = {
 		add_years_of_income = -0.5
 		add_adm_power = -100
 		add_stability = 1
+		custom_tooltip = add_country_autonomy_10_tt
+		hidden_effect = {
+			every_owned_province = {
+				add_local_autonomy = 10
+			}
+		}
 		
 		country_event = { id = iron_age_calamity.261 days = 90 }
 	}
@@ -2387,6 +2393,11 @@ country_event = {
 			}
 			change_government_reform_progress = 20
 			add_corruption = -2
+			add_disaster_modifier = {
+				name = "iac_excellent_legal_reform"
+				disaster = iron_age_calamity
+				duration = -1
+			}
 		}
 		else_if = {
 			limit = {
@@ -2394,6 +2405,11 @@ country_event = {
 			}
 			change_government_reform_progress = 15
 			add_corruption = -1
+			add_disaster_modifier = {
+				name = "iac_great_legal_reform"
+				disaster = iron_age_calamity
+				duration = -1
+			}
 		}
 		else_if = {
 			limit = {
@@ -2401,19 +2417,34 @@ country_event = {
 			}
 			change_government_reform_progress = 10
 			add_corruption = -0.5
+			add_disaster_modifier = {
+				name = "iac_good_legal_reform"
+				disaster = iron_age_calamity
+				duration = -1
+			}
 		}
 		else_if = {
 			limit = {
 				has_country_flag = iac_bad_reform
 			}
 			add_corruption = 0.5
+			add_disaster_modifier = {
+				name = "iac_bad_legal_reform"
+				disaster = iron_age_calamity
+				duration = -1
+			}
 		}
 		else_if = {
 			limit = {
-				has_country_flag = iac_pointless_reform
+				has_country_flag = iac_terrible_reform
 			}
 			change_government_reform_progress = -5
 			add_corruption = 1
+			add_disaster_modifier = {
+				name = "iac_terrible_legal_reform"
+				disaster = iron_age_calamity
+				duration = -1
+			}
 		}
 		else_if = {
 			limit = {
@@ -2421,9 +2452,19 @@ country_event = {
 			}
 			change_government_reform_progress = -10
 			add_corruption = 2
+			add_disaster_modifier = {
+				name = "iac_pointless_legal_reform"
+				disaster = iron_age_calamity
+				duration = -1
+			}
 		}
 		else = { #Okay Reform
 			change_government_reform_progress = 5
+			add_disaster_modifier = {
+				name = "iac_okay_legal_reform"
+				disaster = iron_age_calamity
+				duration = -1
+			}
 		}
 		remove_country_modifier = iac_reduced_gov_cap
 		iac_reset_reform = yes

@@ -206,28 +206,41 @@
 	iac_excellent_legal_reform = {
 		stability_cost_modifier = -0.4
 		global_unrest = -3.0
+		global_autonomy = -0.05
+		autonomy_change_time = -0.5
 	}
 	iac_great_legal_reform = {
 		stability_cost_modifier = -0.3
 		global_unrest = -2.5
+		global_autonomy = -0.03
+		autonomy_change_time = -0.25
 	}
 	iac_good_legal_reform = {
 		stability_cost_modifier = -0.2
 		global_unrest = -2.0
+		global_autonomy = -0.01
 	}
 	iac_okay_legal_reform = {
 		stability_cost_modifier = -0.1
 		global_unrest = -1.5
+		global_autonomy = 0.01
+		autonomy_change_time = 0.25
 	}
 	iac_bad_legal_reform = {
 		stability_cost_modifier = -0.05
 		global_unrest = -1.0
+		global_autonomy = 0.02
+		autonomy_change_time = 0.5
 	}
 	iac_terrible_legal_reform = {
 		global_unrest = -0.5
+		global_autonomy = 0.33
+		autonomy_change_time = 0.75
 	}
 	iac_pointless_legal_reform = {
 		stability_cost_modifier = 0.1
+		global_autonomy = 0.05
+		autonomy_change_time = 1
 	}
 	iac_simplified_tax_code = {
 		global_tax_modifier = 0.2

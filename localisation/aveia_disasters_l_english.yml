@@ -71,6 +71,7 @@
  #
  orbury_volcano_damage_tt:0 "Provinces near the §YOrbury Supervolcano§! lose up to §R6§! Development."
  add_country_autonomy_10_tt:0 "Gain §R+10.00%§! Autonomy in every province"
+ add_country_autonomy_10_tt:0 "Gain §R+5.00%§! Autonomy in every province"
  calamity_no_land_reform_tt:0 "\nYou will continue to recieve this recurring event.\nIn order to remove this recurring event, your §YNobility§! must have less than §Y20.00%§! land share and you must have at least §R-1§! Stability and you must choose the §YWide-Spread Land Reform§! option."
  calamity_land_reform_tt:0 "\nIn order to remove this recurring event, your §YNobility§! must have less than §Y20.00%§! land share and you must have at least §R-1§! Stability and you must choose the §YWide-Spread Land Reform§! option."
  calamity_final_land_reform_tt:0 "\n§GThis will remove this recurring event§!"

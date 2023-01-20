@@ -60,34 +60,14 @@ country_decisions = {
         }
 
         allow = {
-            adm_power = 150
-            dip_power = 75
-            mil_power = 25
+            adm_power = 25
         }
 
         effect = {
             custom_tooltip = secularize_bureaucracy_unlock_tt
             custom_tooltip = iac_simplify_the_legal_code_tt
-            add_stability = 1
-
-            add_disaster_modifier = {
-                name = iac_simplified_legal_code
-                duration = -1
-                disaster = iron_age_calamity
-            }
-
-            if = {
-                limit = {
-                    OR = {
-                        government = bronze_monarchy
-                        government = bronze_league
-                    }
-                }
-                change_government_reform_progress = 25
-            }
-            add_adm_power = -150
-            add_dip_power = -75
-            add_mil_power = -25
+		    set_country_flag = iac_reform_in_progress
+		    country_event = { id = iron_age_calamity.259 }
         }
 
         ai_will_do = {
