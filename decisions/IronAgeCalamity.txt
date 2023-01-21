@@ -33,6 +33,7 @@ country_decisions = {
             has_disaster = iron_age_calamity
             has_country_modifier = iac_reduced_gov_cap
             NOT = { has_country_flag = iac_reform_in_progress }
+            NOT = { has_country_flag = iac_bureaucratic_privilege }
         }
 
         allow = {
@@ -55,7 +56,7 @@ country_decisions = {
         potential = {
             has_disaster = iron_age_calamity
             has_country_modifier = iac_starved_administration
-            NOT = { has_country_modifier = iac_simplified_legal_code }
+            NOT = { has_country_flag = iac_legal_reforms }
             NOT = { has_country_flag = iac_reform_in_progress }
         }
 

@@ -12,7 +12,7 @@ iron_age_calamity = {
 	can_start = {
 		OR = {
 			NOT = { stability = 2 }
-			total_development = 500
+			total_development = 750
 			AND = {
 				is_at_war = yes
 				is_in_deficit = yes
@@ -53,18 +53,14 @@ iron_age_calamity = {
 		}
 		modifier = {
 			factor = 2
-			total_development = 100
+			total_development = 200
 		}
 		modifier = {
 			factor = 3
-			total_development = 250
+			total_development = 500
 		}
 		modifier = {
 			factor = 5
-			total_development = 500
-		}
-		modifier = { #Basically anti-Rauthyr
-			factor = 10
 			total_development = 1000
 		}
 	}
@@ -72,13 +68,9 @@ iron_age_calamity = {
 	can_end = {
 		OR={
 			AND={
-				stability = 1
+				stability = 3
 				NOT = { num_of_rebel_controlled_provinces = 1 }
 				is_at_war = no
-				manpower_percentage = 0.25
-				NOT = { corruption = 5 }
-				NOT = { num_of_loans = 1 }
-				is_bankrupt = no
 				custom_trigger_tooltip = {
 					tooltip = disaster_active_for_15_years_tooltip
 					had_country_flag = { flag = had_iron_age_calamity days = 5475 }
@@ -93,12 +85,14 @@ iron_age_calamity = {
 
 	modifier = {
 		stability_cost_modifier = 0.3
-        global_tax_modifier = -0.3
-		production_efficiency = -0.3
-		global_trade_goods_size_modifier = -0.25
         all_power_cost = 0.2
+
+		advisor_cost = 0.5
+		build_cost = 0.5
+		fort_maintenance_modifier = 0.25
+		state_maintenance_modifier = 1.0
+		
         monthly_splendor = -4
-        trade_efficiency = -0.4
 		global_prosperity_growth = -1
 	}	
 	
@@ -110,9 +104,8 @@ iron_age_calamity = {
 	# Administration:
 	#  Allow commoners to become clerks
 	#  Bureaucratic Privilege
-	#  Simplify the Legal Code
-	#  Simplify the Tax Code
-	#  Abolish Tax Exemptions
+	#  Reform the Legal Code
+	#  Reform the Tax Code
 	#  Decentralize Power
 	#  >>Secularize the Bureaucracy<<
 	#

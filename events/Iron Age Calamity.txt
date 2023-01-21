@@ -2467,6 +2467,7 @@ country_event = {
 			}
 		}
 		remove_country_modifier = iac_reduced_gov_cap
+		set_country_flag = iac_legal_reforms
 		iac_reset_reform = yes
 	}
 }
