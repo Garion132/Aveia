@@ -1143,7 +1143,8 @@ self_governing_colony_government = {
 		}
 	}
 	duration = 4
-}dutch_republic = {
+}
+dutch_republic = {
 	icon = "dutch_republic"
 	allow_normal_conversion = yes
 	potential = {

@@ -283,11 +283,37 @@ ba_random_draw_reform = {
 	}
 }
 
+iron_age_monarchy_adv = {
+	icon = "king_2_highlighted"
+	allow_normal_conversion = yes
+	potential = {
+		is_revolutionary = no
+	}
+	trigger = {
+		NOT = { has_government_attribute_short_desc = locked_government_type }
+		NOT = { is_lesser_in_union = yes }
+		NOT= {current_age = age_of_bronze}
+	}
+	effect = {
+		#set_country_flag = populists_in_government
+		lose_reforms = 5
+		change_government_reform_progress = -1000
+		change_government = iron_monarchy
+		#ia_deligated_monarchy
+	}
+	ai = {
+		factor = 2
+		modifier={
+			factor = 20
+			has_reform = bronze_monarchy_mechanic
+		}
+	}
+}
 iron_age_republic_adv = {
 	icon = "parliament_highlighted"
 	allow_normal_conversion = yes
 	potential = {
-		is_revolutionary = no
+		is_revolutionary  =no
 	}
 	trigger = {
 		NOT = { has_government_attribute_short_desc = locked_government_type }
@@ -298,35 +324,19 @@ iron_age_republic_adv = {
 	effect = {
 		#set_country_flag = populists_in_government
 		lose_reforms = 5
+		change_government_reform_progress = -1000
 		change_government = iron_republic
 	}
 	ai = {
-		factor = 0
-	}
-}
-iron_age_monarchy_adv = {
-	icon = "parliament_highlighted"
-	allow_normal_conversion = yes
-	potential = {
-		is_revolutionary = no
-	}
-	trigger = {
-		NOT = { has_government_attribute_short_desc = locked_government_type }
-		NOT = { is_lesser_in_union = yes }
-		NOT= {current_age = age_of_bronze}
-	}
-	effect = {
-		#set_country_flag = populists_in_government
-		lose_reforms = 5
-		change_government = iron_monarchy
-		#ia_deligated_monarchy
-	}
-	ai = {
-		factor = 2
+		factor = 1
+		modifier={
+			factor = 20
+			has_reform = bronze_league_mechanic
+		}
 	}
 }
 iron_age_theocracy_adv = {
-	icon = "parliament_highlighted"
+	icon = "religious_leader_highlighted"
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
@@ -340,6 +350,7 @@ iron_age_theocracy_adv = {
 	effect = {
 		#set_country_flag = populists_in_government
 		#lose_reforms = 3
+		#change_government_reform_progress = -1000
 		#change_government = republic
 	}
 	ai = {

@@ -1,56 +1,6 @@
 # Fallback defaults
 # Will pick the first valid one it finds in list
 
-default_monarchy = {
-	rank = {
-		1 = DUCHY
-		2 = KINGDOM
-		3 = EMPIRE
-	}
-
-	ruler_male = {
-		1 = DUKE
-		2 = KING
-		3 = EMPEROR
-	}
-
-	ruler_female = {
-		1 = DUCHESS
-		2 = QUEEN
-		3 = EMPRESS
-	}
-
-	consort_male  = {
-		1 = PRINCE_CONSORT
-		2 = PRINCE_CONSORT
-		3 = PRINCE_CONSORT
-	}
-
-	consort_female = {
-		1 = CONSORT
-		2 = QUEEN_CONSORT
-		3 = EMPRESS_CONSORT
-	}
-
-	heir_male = {
-		1 = HEIR
-		2 = HEIR
-		3 = HEIR
-	}
-
-	heir_female = {
-		1 = HEIR_fem
-		2 = HEIR_fem
-		3 = HEIR_fem
-	}
-
-	government_reform = monarchy_mechanic
-
-	trigger = {
-		has_reform = monarchy_mechanic
-	}
-}
-
 default_bronze_monarchy = {
 	rank = {
 		1 = DUCHY
@@ -175,6 +125,31 @@ default_bronze_league= {
 		has_reform = bronze_league_mechanic
 	}
 }
+default_iron_republic = {
+	rank = {
+		1 = REPUBLIC
+		2 = GRAND_REPUBLIC
+		3 = GREAT_REPUBLIC
+	}
+
+	ruler_male = {
+		1 = CONSUL
+		2 = GRAND_CONSUL
+		3 = GREAT_CONSUL
+	}
+
+	ruler_female = {
+		1 = CONSULESS
+		2 = GRAND_CONSULESS
+		3 = GREAT_CONSULESS
+	}
+
+	government_reform = iron_republic_mechanic
+
+	trigger = {
+		has_reform = iron_republic_mechanic
+	}
+}
 default_eximiu_colony = {
 	rank = {
 		1 = ANILIU
@@ -225,6 +200,55 @@ default_eximiu_colony = {
 	}
 }
 
+default_monarchy = {
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = DUKE
+		2 = KING
+		3 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = DUCHESS
+		2 = QUEEN
+		3 = EMPRESS
+	}
+
+	consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = QUEEN_CONSORT
+		3 = EMPRESS_CONSORT
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	government_reform = monarchy_mechanic
+
+	trigger = {
+		has_reform = monarchy_mechanic
+	}
+}
 
 default_republic = {
 	rank = {

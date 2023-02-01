@@ -1,6 +1,6 @@
 #haqsili
 capital = "Haqsili"
-trade_goods = spirl
+trade_goods = fish
 culture = yorrokian
 religion = roresist
 add_core = RHI

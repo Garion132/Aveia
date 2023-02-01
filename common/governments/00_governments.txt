@@ -885,7 +885,7 @@ bronze_league = {
 		
 	# }
 
-	color = { 48 113 160 }
+	color = { 42 99 140 }
 }
 
 iron_monarchy = {
@@ -895,6 +895,7 @@ iron_monarchy = {
 				ia_co_ruling_monarchy
 				ia_deligated_monarchy
 				ia_ghandian_horde
+				ia_god_king
 			}
 		}
 		iron_societal_ties = {
@@ -912,7 +913,9 @@ iron_monarchy = {
 		}
 		iron_administrative_class = {
 			reforms = {
-				
+				ia_clergy_in_administration_reform
+				ia_of_noble_bearing_reform
+				ia_meritocratic_focus_reform
 			}
 		}
 		iron_bureaucracy = {
@@ -935,6 +938,11 @@ iron_monarchy = {
 	exclusive_reforms = {
 		ia_deligated_monarchy
 		ia_co_ruling_monarchy
+		ia_god_king
+	}
+	exclusive_reforms = {
+		ia_god_king
+		ia_noble_right_reform
 	}
 
 	color = { 127 95 113 }
@@ -943,9 +951,10 @@ iron_republic = {
 	reform_levels = {
 		feudalism_vs_autocracy = {
 			reforms = {
-				ia_co_ruling_monarchy
-				ia_deligated_monarchy
-				ia_ghandian_horde
+				ia_city_state
+				ia_senate_republic
+				ia_princely_republic
+				ia_lumian_patricanate
 			}
 		}
 		iron_societal_ties = {
@@ -957,12 +966,16 @@ iron_republic = {
 		}
 		iron_voting_class = {
 			reforms = {
-				
+				ia_landed_reform
+				ia_male_citizen_reform
+				ia_touched_by_talunor_reform
 			}
 		}
 		iron_administrative_class = {
 			reforms = {
-				
+				ia_clergy_in_administration_reform
+				ia_of_noble_bearing_reform
+				ia_meritocratic_focus_reform
 			}
 		}
 		iron_bureaucracy = {
@@ -972,22 +985,26 @@ iron_republic = {
 		}
 	}
 
-	basic_reform = iron_monarchy_mechanic
+	basic_reform = iron_republic_mechanic
 
 	legacy_government = {
-		ia_co_ruling_monarchy
-		ia_deligated_monarchy
+		ia_city_state
+		ia_senate_republic
+		ia_princely_republic
+		ia_lumian_patricanate
 	}
 
 	# Each group of exclusive reforms are mutually exclusive to each other
 
 	#for any reforms that should be exclusive
 	exclusive_reforms = {
-		ia_deligated_monarchy
-		ia_co_ruling_monarchy
+		ia_city_state
+		ia_senate_republic
+		ia_princely_republic
+		ia_lumian_patricanate
 	}
 
-	color = { 127 95 113 }
+	color = { 55 130 183 }
 }
 
 eximiu_colony = {

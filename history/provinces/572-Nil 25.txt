@@ -3,7 +3,7 @@
 add_core = NIL
 owner = NIL
 controller = NIL
-culture = ellorhasian
+culture = tealclaw
 religion = godly_sect
 hre = no
 base_tax = 1

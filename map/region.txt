@@ -1460,6 +1460,7 @@ mallitors_region = {
 		kafethyr_sea_area
 		salioc_bay_area
 		cradle_cresant_area
+		irrilanra_area
 	}
 }
 western_divide_region={
