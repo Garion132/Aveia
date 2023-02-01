@@ -330,11 +330,45 @@
   iron_age_calamity.264.d:0 "The legal reforms for our realm have been completed. The new system may help save us in these trying times. We can now move on to other reforms."
   iron_age_calamity.264.o1:0 "Excellent"
 
-  #Simplify the Tax Code
-
-  #Abolish Tax Exemptions
+  #Reforming the Tax Code
+  iron_age_calamity.265.t:0 "Reforming the Tax Code"
+  iron_age_calamity.265.d:0 "Taxes in our country were originally set up to be the most optimized to collect the optimum amount of taxes. However, with the country in crisis, it seems like our tax structure may need a revisit."
+  iron_age_calamity.265.o1:0 "We must pursue this reform"
+  iron_age_calamity.265.o2:0 "Perhaps later"
+  
+  iron_age_calamity.266.t:0 "Simplification"
+  iron_age_calamity.266.d:0 "Taxes in our country were originally set up to be the most optimized to collect the optimum amount of taxes. However, with the country in crisis, it seems like our tax structure may need a revisit."
+  iron_age_calamity.266.o1:0 "Focus on a 'Poll Tax'"
+  iron_age_calamity.266.o2:0 "Focus on consumption taxes"
+  iron_age_calamity.266.o3:0 "Focus on land taxes"
+  iron_age_calamity.266.o4:0 "Keep the multilayered framework"
+  
+  iron_age_calamity.267.t:0 "Tax Exemptions"
+  iron_age_calamity.267.d:0 "Taxes in our country were originally set up to be the most optimized to collect the optimum amount of taxes. However, with the country in crisis, it seems like our tax structure may need a revisit."
+  iron_age_calamity.267.o1:0 "Remove all Tax Exemptions'"
+  iron_age_calamity.267.o2:0 "Keep the Clergy tax-exempt but not the others"
+  iron_age_calamity.267.o3:0 "Let's not rock the boat too much"
+  
+  iron_age_calamity.268.t:0 "Tax Collection"
+  iron_age_calamity.268.d:0 "Taxes in our country were originally set up to be the most optimized to collect the optimum amount of taxes. However, with the country in crisis, it seems like our tax struecture may need a revisit."
+  iron_age_calamity.268.o1:0 "Expand Tax Collection Authority"
+  iron_age_calamity.268.o2:0 "Delegate Tax Collection to Local Authorities"
+  iron_age_calamity.268.o3:0 "The Palace must kep its control"
+  
+  iron_age_calamity.269.t:0 "Tax Reforms in Effect"
+  iron_age_calamity.269.d:0 "The tax reforms for our realm have been completed. The new tax-collection apparatus may help us fund our state in these trying times."
+  iron_age_calamity.269.o1:0 "Excellent"
 
   #Decentralize Power
+  iron_age_calamity.270.t:0 "Decentralizing the State"
+  iron_age_calamity.270.d:0 "Todo"
+  iron_age_calamity.270.o1:0 "We must pursue this reform"
+  iron_age_calamity.270.o2:0 "Perhaps later"
+  
+  iron_age_calamity.271.t:0 "Decentralizing the State"
+  iron_age_calamity.271.d:0 "Todo"
+  iron_age_calamity.271.o1:0 "We must pursue this reform"
+  iron_age_calamity.271.o2:0 "Perhaps later"
 
   #Secularize the Bureaucracy
  #
