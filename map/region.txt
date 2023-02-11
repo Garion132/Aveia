@@ -51,8 +51,6 @@ lentira_region = {
 }
 greater_shires_region = {
 	areas = {
-		oramarnona_area
-		zornazar_area
 		lower_parhama
 		upper_parhama
 		vellitnarland
@@ -61,7 +59,6 @@ greater_shires_region = {
 		shires_3
 		shires_4
 		shires_5
-		yransa_area
 		east_shires_1
 		east_shires_2
 		east_shires_3
@@ -114,6 +111,9 @@ krashyrvil_midlands_region = {
 		vulkivian_2
 		vulkivian_7
 		vulkivian_28
+		yransa_area
+		oramarnona_area
+		zornazar_area
 	}
 }
 otrcyueg_region ={
@@ -253,6 +253,7 @@ krorri_region={
 		donamenz_1
 		donamenz_49
 		donamenz_50
+		donamenz_53
 	}
 }
 
@@ -397,7 +398,6 @@ great_ziyalap_region={
 		bayparya_5
 		bayparya_6
 		douan_1
-		douan_2
 		douan_3
 		douan_4
 		douan_5
@@ -436,11 +436,12 @@ great_gulba_region={
 		gulba_6
 		gulba_7
 		gulba_8
-		gulba_9
 		gulba_10
 		gulba_17
 		rauthyr_25
 		rauthyr_26
+		donamenz_51
+		donamenz_52
 	}
 }
 tailwind_islands_region={
@@ -455,7 +456,6 @@ gugh_region={
 		grur_1
 		grur_2
 		grur_3
-		grur_4
 		grur_5
 		grur_6
 		bozred_1

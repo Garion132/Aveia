@@ -6,3 +6,27 @@ technology_group = free_fauns_group
 capital = 2394 # 
 #national_focus = DIP
 #historical_rival = HAB
+
+1238.9.16 = {
+	monarch = {
+		name = "Murdam I"
+		dynasty = "Ranzia"
+		birth_date = 1238.12.3
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+1269.12.5 = {
+	heir = {
+		name = "Vuxil"
+		monarch_name = "Vuxil III"
+		dynasty = "Ranzia"
+		birth_date = 1269.12.5
+		death_date = 1320.5.4
+		claim = 88
+		adm = 1
+		dip = 5
+		mil = 3
+	}
+}

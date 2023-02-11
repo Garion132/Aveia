@@ -3,7 +3,7 @@ add_government_reform = palace_economy
 primary_culture = ientiran
 religion = tlaunorist
 technology_group = lake_elves_group
-capital = 538 # Iwenlumy
+capital = 531 # Iwenlumy
 #national_focus = DIP
 #historical_rival = HAB
 

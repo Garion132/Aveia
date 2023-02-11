@@ -1,14 +1,20 @@
 #Windsweaps
-culture = donamenz
-religion = uzvazism
+culture = maren
+religion = tlaunorist
 capital = "Accra"
-trade_goods = unknown
+trade_goods = gold_knot
 hre = no
 base_tax = 0
 base_production = 0
 base_manpower = 1
-native_size = 90
-native_ferocity = 6
-native_hostileness = 11
-discovered_by = northern_men_group
+add_core = MRN
+owner = MRN
+controller = MRN
+is_city = yes
+discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = free_kolbolds_group
+discovered_by = sea_elves_group
+discovered_by = ork_group
+discovered_by = dunirr_group
 extra_cost = 8

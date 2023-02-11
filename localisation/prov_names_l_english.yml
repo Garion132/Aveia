@@ -70,12 +70,17 @@
  PROV83:0 "Uepella"
  PROV84:0 "Olagina"
  PROV85:0 "Kyatlas"
+ PROV86:0 "Santra"
 
  PROV91:0 "Tlind"
+ 
+ PROV94:0 "Uilori"
 
+ PROV96:1 "Vantium"
  PROV97:1 "Titar"
  PROV98:1 "Wixdrim"
-
+ PROV99:1 "Ailir"
+ PROV100:1 "Kroei"
  PROV101:0 "Kalante"
  PROV102:0 "Nionerin"
 
@@ -150,6 +155,7 @@
 
  PROV520:0 "Thanorase"
 
+ PROV526:1 "Tolinroi"
  PROV527:1 "Doninas"
 
  PROV531:0 "Sellalra"
@@ -182,6 +188,7 @@
  PROV601:0 "Kavar"
 
  PROV616:0 "Enoresath"
+ PROV617:0 "Talima"
 
  PROV632:0 "Enaleanlume"
 
@@ -219,11 +226,13 @@
 
  PROV744:0 "Thamel"
 
+ PROV759:0 "Tamulir"
  PROV760:0 "Drelnora"
  
  PROV762:0 "Olosa"
 
  PROV771:0 "Shemsele"
+ PROV772:0 "Shamatoth"
 
  PROV778:0 "Orionrahet"
  PROV779:0 "Vultur Fork"
@@ -250,6 +259,8 @@
 
  PROV875:0 "Aymnerineiae"
 
+ PROV881:0 "Slorie"
+ 
  PROV883:0 "Arliso"
  PROV885:0 "Ilfamenat"
 
@@ -338,7 +349,7 @@
  PROV1189:0 "Thyuetha"
  PROV1190:0 "Rauthelsyara"
  PROV1191:0 "Liora"
-
+ PROV1192:0 "Tumilur"
  PROV1193:0 "Keilari"
  PROV1194:0 "Elhel"
  PROV1195:0 "Afsenonaly"
@@ -671,6 +682,8 @@
  PROV2124:0 "Semiola"
 
  PROV2150:0 "Garumor"
+ 
+ PROV2153:0 "Kruitaxs"
 
  PROV2159:0 "Samish"
 

@@ -1,8 +1,8 @@
 #Windsweaps
-culture = maren
-religion = tlaunorist
+culture = solbon
+religion = forebearist
 capital = "Accra"
-trade_goods = wine
+trade_goods = sunspot
 hre = no
 base_tax = 0
 base_production = 0

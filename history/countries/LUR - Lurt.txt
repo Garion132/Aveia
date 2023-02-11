@@ -23,11 +23,11 @@ add_liberty_desire = -10
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Yulrie"
 		dynasty = "Kyathi"
 		birth_date = 1248.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		adm = 3
+		dip = 2
+		mil = 2
 	}
 }

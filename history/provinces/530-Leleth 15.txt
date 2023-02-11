@@ -1,7 +1,6 @@
 #Leleth 15
 
 add_core = LEL
-add_core = SEL
 owner = LEL
 controller = LEL
 culture = ientiran

@@ -101,3 +101,24 @@ country_event = {#dragons are biologically immortal, but can still die, but this
 		add_ruler_personality = immortal_personality
 	}
 }
+country_event = {#enable reiglious leagues
+	id = vulkiv_empire_events.4
+	title = vulkiv_empire_events.4.t
+	desc = vulkiv_empire_events.4.d
+	picture = REFORM_eventPicture
+	
+	trigger={
+		calc_true_if = {
+			all_country = {
+				religion = rethese
+			}
+			amount = 10
+		}
+		religion = rethese
+	}
+	
+	option = {
+		name = vulkiv_empire_events.4.a #
+		enable_hre_leagues = yes
+	}
+}

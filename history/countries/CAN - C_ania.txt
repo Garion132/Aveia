@@ -6,3 +6,27 @@ technology_group = free_fauns_group
 capital = 3684 # 
 #national_focus = DIP
 #historical_rival = HAB
+
+1248.9.16 = {
+	monarch = {
+		name = "Molrix IV"
+		dynasty = "C'era"
+		birth_date = 1258.12.3
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1268.5.5 = {
+	heir = {
+		name = "Molrix"
+		monarch_name = "Molrix V"
+		dynasty = "C'era"
+		birth_date = 1268.5.5
+		death_date = 1320.5.4
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}

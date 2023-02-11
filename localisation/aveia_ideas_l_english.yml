@@ -77,6 +77,13 @@
  CYU_ideas:0 "Cyuegian Ideas"
  CYU_ideas_start:0 "Cyuegian Traditions"
  CYU_ideas_bonus:0 "Cyuegian Ambitions"
+ CYU_right_of_vassalage:0 "Right of Vassalage"
+ CYU_ship_cycling:0 "Ship Cycling"
+ CYU_temple_education:0 "Temple Education"
+ CYU_secure_penisular:0 "Secure Penisular"
+ CYU_crop_singers:0 "Crop Singers"
+ CYU_military_educators:0 "Military Educators"
+ CYU_trade_lines:0 "Cyuegian Trade Lines"
  
  VUL_ideas:0 "Vulikiv Ideas"
  VUL_ideas_start:0 "Vulikiv Traditions"

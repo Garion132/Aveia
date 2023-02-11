@@ -352,12 +352,13 @@ iac_collapse_nation = {#will tag switch and hopefully clean up nations that coll
 		inherit = TLH
 		change_tag = TLH
 	}
-	if={#Leleth becomes Minhon
+	if={#Leleth becomes Sellalra
 		limit={
 			tag = LEL
 		}
-		inherit = MNN
-		change_tag = MNN
+		inherit = SEL
+		change_tag = SEL
 		release = ORL
+		release = DON
 	}
 }

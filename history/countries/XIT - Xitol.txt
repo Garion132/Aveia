@@ -6,3 +6,27 @@ technology_group = free_fauns_group
 capital = 3700 # 
 #national_focus = DIP
 #historical_rival = HAB
+
+1224.9.16 = {
+	monarch = {
+		name = "Unroiw II"
+		dynasty = "Xitol"
+		birth_date = 1224.12.3
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+1262.12.5 = {
+	heir = {
+		name = "Wotvie"
+		monarch_name = "Wotvie I"
+		dynasty = "Xitol"
+		birth_date = 1262.12.5
+		death_date = 1320.5.4
+		claim = 88
+		adm = 1
+		dip = 5
+		mil = 3
+	}
+}
