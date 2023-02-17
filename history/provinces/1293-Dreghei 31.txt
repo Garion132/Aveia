@@ -6,9 +6,9 @@ controller = DRG
 culture = dregheian
 religion = tlaunorist
 hre = no
-base_tax = 2
-base_production =3
-base_manpower = 2
+base_tax = 0
+base_production =1
+base_manpower = 13
 trade_goods = ceramics
 capital = "Drg 3"
 is_city = yes
@@ -21,3 +21,4 @@ discovered_by = dunirr_group
 extra_cost = 0
 fort_14th = yes
 center_of_trade = 1
+set_variable = { which = arable_land value = 13 }

@@ -9,9 +9,9 @@ controller = DRG
 culture = dregheian
 religion = tlaunorist
 hre = no
-base_tax = 5
-base_production = 4
-base_manpower = 5
+base_tax = 0
+base_production = 0
+base_manpower = 14
 trade_goods = fruit
 capital = "Drg 3"
 is_city = yes
@@ -23,3 +23,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 fort_14th = yes
+set_variable = { which = arable_land value = 14 }
