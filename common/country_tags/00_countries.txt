@@ -372,6 +372,9 @@ THL = "countries/Thilrana.txt"
     BRU = "countries/Brur.txt"
     ORK = "countries/Orkodh.txt"
     UGR = "countries/Ugru.txt"
+	ZOL = "countries/Zolani.txt"
+	SLF = "countries/Sulfira.txt"
+	SUI = "countries/Suixtu.txt"
 	
 	#Ientira
 	RYN = "countries/Ryndos.txt"

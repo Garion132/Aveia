@@ -4,7 +4,7 @@
  PROV3:1 "Unnamed 3"
  PROV4:0 "Unnamed 4"
  PROV5:0 "Unnamed 5"
- PROV6:1 "Unnamed 6"
+ PROV6:1 "Maktui Dunes"
  PROV7:1 "Unnamed 7"
  PROV8:0 "Unnamed 8"
  PROV9:0 "Morb"
@@ -90,12 +90,15 @@
  PROV108:0 "Tweua"
  PROV109:0 "Rindol"
  PROV110:0 "Tylort Strait"
+ 
+ PROV119:0 "Silverspine"
 
  PROV120:0 "Hinnocrin"
  
  PROV126:0 "Gued Mountains"
  
  PROV138:0 "Saetar"
+ PROV139:0 "Silverspine"
 
  PROV147:0 "Ifranhil"
  
@@ -686,6 +689,8 @@
  PROV2153:0 "Kruitaxs"
 
  PROV2159:0 "Samish"
+ 
+ PROV2162:0 "Yurkarin Barrens"
 
  PROV2179:0 "Karneli"
 
@@ -1107,7 +1112,7 @@
  
  PROV5221:0 "Istancan Desert"
  PROV5222:0 "Glowing Wastes"
- 
+ PROV5223:0 "Maktui Dunes"
  PROV5224:0 "Lake Vulor"
  
  PROV5237:0 "Borgon"
@@ -1143,7 +1148,9 @@
  PROV5286:0 "North Iyfadirian"
  PROV5287:0 "North Irrilanra"
  
-
+ PROV5297:0 "Maktui Dunes"
+ 
+ PROV5304:0 "Maktui Dunes"
  
  test_province_name:0 "Test Province Name"
  other_province_name:0 "Other Province Name"

@@ -1,8 +1,8 @@
 #Gulba
 
-add_core = GUL
-owner = GUL
-controller = GUL
+add_core = SLF
+owner = SLF
+controller = SLF
 culture = talbin
 religion = forebearist
 hre = no

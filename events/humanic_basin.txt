@@ -8,6 +8,7 @@ country_event = {
 	picture = PRAYING_eventPicture
 	
 	is_triggered_only = yes
+	hidden = yes
 
 	# is_mtth_scaled_to_size = 1
 	immediate = {
@@ -46,6 +47,7 @@ country_event = {
 				cede_province = VUO
 				add_core = VUO
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -80,6 +82,7 @@ country_event = {
 				cede_province = VUO
 				add_core = VUO
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -114,6 +117,7 @@ country_event = {
 				cede_province = VUO
 				add_core = VUO
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -148,6 +152,7 @@ country_event = {
 				cede_province = VUO
 				add_core = VUO
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -182,6 +187,7 @@ country_event = {
 				cede_province = VUO
 				add_core = VUO
 				remove_core = GGD
+				add_unrest = -15
 			}
 			VUO={
 				set_country_flag = GGD_successor
@@ -198,6 +204,50 @@ country_event = {
 				}
 				set_dynasty = "Vulokra"
 				change_government_reform_progress = -2000
+				capital_scope = {
+					VUO = {
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+					}
+				}
 			}
 			#eltankira setup
 			every_owned_province = {
@@ -242,6 +292,7 @@ country_event = {
 				cede_province = ELT
 				add_core = ELT
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -285,6 +336,7 @@ country_event = {
 				cede_province = ELT
 				add_core = ELT
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -328,6 +380,7 @@ country_event = {
 				cede_province = ELT
 				add_core = ELT
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -371,6 +424,7 @@ country_event = {
 				cede_province = ELT
 				add_core = ELT
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -414,6 +468,7 @@ country_event = {
 				cede_province = ELT
 				add_core = ELT
 				remove_core = GGD
+				add_unrest = -15
 			}
 			ELT={
 				set_country_flag = GGD_successor
@@ -421,6 +476,7 @@ country_event = {
 				add_government_reform = ia_ghandian_horde
 				define_ruler = {
 					name = "Eltan"
+					dynasty = "Eltani"
 					adm = 4
 					dip = 5
 					mil = 4
@@ -429,6 +485,50 @@ country_event = {
 				}
 				set_dynasty = "Eltani"
 				change_government_reform_progress = -2000
+				capital_scope = {
+					ELT = {
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+					}
+				}
 			}
 			#kileriao setup
 			every_owned_province = {
@@ -439,7 +539,8 @@ country_event = {
 						area = shemsele
 						area = orionrahet
 						area = macreamsesa
-						area = kyathia_region
+						region = kyathia_region
+						area = treivenia
 						province_id = 881
 						province_id = 882 
 						province_id = 887
@@ -490,6 +591,7 @@ country_event = {
 				cede_province = KIL
 				add_core = KIL
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -499,7 +601,8 @@ country_event = {
 						area = shemsele
 						area = orionrahet
 						area = macreamsesa
-						area = kyathia_region
+						region = kyathia_region
+						area = treivenia
 						province_id = 881
 						province_id = 882 
 						province_id = 887
@@ -550,6 +653,7 @@ country_event = {
 				cede_province = KIL
 				add_core = KIL
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -559,7 +663,8 @@ country_event = {
 						area = shemsele
 						area = orionrahet
 						area = macreamsesa
-						area = kyathia_region
+						region = kyathia_region
+						area = treivenia
 						province_id = 881
 						province_id = 882 
 						province_id = 887
@@ -610,6 +715,7 @@ country_event = {
 				cede_province = KIL
 				add_core = KIL
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -619,7 +725,8 @@ country_event = {
 						area = shemsele
 						area = orionrahet
 						area = macreamsesa
-						area = kyathia_region
+						region = kyathia_region
+						area = treivenia
 						province_id = 881
 						province_id = 882 
 						province_id = 887
@@ -670,6 +777,7 @@ country_event = {
 				cede_province = KIL
 				add_core = KIL
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -679,7 +787,8 @@ country_event = {
 						area = shemsele
 						area = orionrahet
 						area = macreamsesa
-						area = kyathia_region
+						region = kyathia_region
+						area = treivenia
 						province_id = 881
 						province_id = 882 
 						province_id = 887
@@ -730,6 +839,7 @@ country_event = {
 				cede_province = KIL
 				add_core = KIL
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -739,7 +849,8 @@ country_event = {
 						area = shemsele
 						area = orionrahet
 						area = macreamsesa
-						area = kyathia_region
+						region = kyathia_region
+						area = treivenia
 						province_id = 881
 						province_id = 882 
 						province_id = 887
@@ -790,6 +901,7 @@ country_event = {
 				cede_province = KIL
 				add_core = KIL
 				remove_core = GGD
+				add_unrest = -15
 			}
 
 			KIL={
@@ -798,6 +910,7 @@ country_event = {
 				add_government_reform = ia_ghandian_horde
 				define_ruler = {
 					name = "Kilai"
+					dynasty = "Kilaio"
 					adm = 4
 					dip = 4
 					mil = 5
@@ -806,6 +919,50 @@ country_event = {
 				}
 				set_dynasty = "Kilaio"
 				change_government_reform_progress = -2000
+				capital_scope = {
+					KIL = {
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+					}
+				}
 			}
 			#purple horde setup
 			every_owned_province = {
@@ -820,6 +977,7 @@ country_event = {
 				cede_province = PRH
 				add_core = PRH
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -833,6 +991,7 @@ country_event = {
 				cede_province = PRH
 				add_core = PRH
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -846,6 +1005,7 @@ country_event = {
 				cede_province = PRH
 				add_core = PRH
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -859,6 +1019,7 @@ country_event = {
 				cede_province = PRH
 				add_core = PRH
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -872,6 +1033,7 @@ country_event = {
 				cede_province = PRH
 				add_core = PRH
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -885,6 +1047,7 @@ country_event = {
 				cede_province = PRH
 				add_core = PRH
 				remove_core = GGD
+				add_unrest = -15
 			}
 
 			PRH={
@@ -893,6 +1056,7 @@ country_event = {
 				add_government_reform = ia_ghandian_horde
 				define_ruler = {
 					name = "Urioe"
+					dynasty = "Urioeri"
 					adm = 5
 					dip = 4
 					mil = 4
@@ -901,6 +1065,50 @@ country_event = {
 				}
 				set_dynasty = "Urioeri"
 				change_government_reform_progress = -2000
+				capital_scope = {
+					PRH = {
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+					}
+				}
 			}
 			#litvelgul setup
 			every_owned_province = {
@@ -918,6 +1126,7 @@ country_event = {
 						area = donamenz_19
 						area = enyalasha
 						area = donamenz_18
+						area = yulorie
 						province_id = 2653
 						province_id = 2652
 						province_id = 2646 
@@ -933,6 +1142,7 @@ country_event = {
 				cede_province = LTV
 				add_core = LTV
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -949,6 +1159,7 @@ country_event = {
 						area = donamenz_19
 						area = enyalasha
 						area = donamenz_18
+						area = yulorie
 						province_id = 2653
 						province_id = 2652
 						province_id = 2646 
@@ -964,6 +1175,7 @@ country_event = {
 				cede_province = LTV
 				add_core = LTV
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -980,6 +1192,7 @@ country_event = {
 						area = donamenz_19
 						area = enyalasha
 						area = donamenz_18
+						area = yulorie
 						province_id = 2653
 						province_id = 2652
 						province_id = 2646 
@@ -995,6 +1208,7 @@ country_event = {
 				cede_province = LTV
 				add_core = LTV
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -1011,6 +1225,7 @@ country_event = {
 						area = donamenz_19
 						area = enyalasha
 						area = donamenz_18
+						area = yulorie
 						province_id = 2653
 						province_id = 2652
 						province_id = 2646 
@@ -1026,6 +1241,7 @@ country_event = {
 				cede_province = LTV
 				add_core = LTV
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -1042,6 +1258,7 @@ country_event = {
 						area = donamenz_19
 						area = enyalasha
 						area = donamenz_18
+						area = yulorie
 						province_id = 2653
 						province_id = 2652
 						province_id = 2646 
@@ -1057,6 +1274,7 @@ country_event = {
 				cede_province = LTV
 				add_core = LTV
 				remove_core = GGD
+				add_unrest = -15
 			}
 			every_owned_province = {
 				limit={
@@ -1073,6 +1291,7 @@ country_event = {
 						area = donamenz_19
 						area = enyalasha
 						area = donamenz_18
+						area = yulorie
 						province_id = 2653
 						province_id = 2652
 						province_id = 2646 
@@ -1088,6 +1307,7 @@ country_event = {
 				cede_province = LTV
 				add_core = LTV
 				remove_core = GGD
+				add_unrest = -15
 			}
 			LTV={
 				set_country_flag = GGD_successor
@@ -1095,6 +1315,7 @@ country_event = {
 				add_government_reform = ia_ghandian_horde
 				define_ruler = {
 					name = "Litve"
+					dynasty = "Litvel"
 					adm = 4
 					dip = 4
 					mil = 4
@@ -1103,6 +1324,50 @@ country_event = {
 				}
 				set_dynasty = "Litvel"
 				change_government_reform_progress = -2000
+				capital_scope = {
+					LTV = {
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+					}
+				}
 			}
 			#ghand setup
 			every_owned_province = {
@@ -1112,8 +1377,10 @@ country_event = {
 				cede_province = GHA
 				add_core = GHA
 				remove_core = GGD
+				add_unrest = -15
 			}
 			exile_ruler_as = ghand_transfer
+			set_country_flag = GGD_is_dead
 			GHA={
 				set_country_flag = GGD_successor
 				change_government = iron_monarchy
@@ -1121,83 +1388,173 @@ country_event = {
 				set_ruler = ghand_transfer
 				change_government_reform_progress = -2000
 				set_government_rank = 3
+				capital_scope = {
+					GHA = {
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+						infantry = PREV
+					}
+				}
 			}
+			country_event = {id = fall_of_ghand.2}
 		}
 	}
 
-	option = {
-		name = "fall_of_ghand.EVTOPTA1"
-		trigger={
-			VUO={exists = yes}
-		}
-		switch_tag = VUO
-		hidden_effect={
-			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
-		}
-	}
-	option = {
-		name = "fall_of_ghand.EVTOPTA2"
-		trigger={
-			ELT={exists = yes}
-		}
-		switch_tag = ELT
-		hidden_effect={
-			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
-		}
-	}
-	option = {
-		name = "fall_of_ghand.EVTOPTA3"
-		trigger={
-			KIL={exists = yes}
-		}
-		switch_tag = KIL
-		hidden_effect={
-			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
-		}
-	}
-	option = {
-		name = "fall_of_ghand.EVTOPTA4"
-		trigger={
-			LTV={exists = yes}
-		}
-		switch_tag = LTV
-		hidden_effect={
-			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
-		}
-	}
-	option = {
-		name = "fall_of_ghand.EVTOPTA5"
-		trigger={
-			PRH={exists = yes}
-		}
-		switch_tag = PRH
-		hidden_effect={
-			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
-		}
-	}
-	option = {
-		name = "fall_of_ghand.EVTOPTA6"
-		switch_tag = GHA
-		hidden_effect={
-			GHA={country_event = {id = fall_of_ghand.2 days = 1}}
-		}
-	}
+	
 }
 # ghand annexs great ghand
 country_event = {
 	id = fall_of_ghand.2
-	title = "fall_of_ghand.EVTNAME2"
-	desc = "fall_of_ghand.EVTDESC10"
+	title = "fall_of_ghand.2.EVTNAME2"
+	desc = "fall_of_ghand.2.EVTDESC10"
 	picture = PRAYING_eventPicture
 	
-	hidden = yes
+	#hidden = yes
 	
 	is_triggered_only = yes
+	# trigger={
+		# tag = GGD
+		# has_country_flag = GGD_is_dead
+	# }
 	option = {
-		name = "fall_of_ghand.EVTOPTA6"
-		GGD={
-			capital_scope = {remove_core = GGD}
+		name = fall_of_ghand.1.a
+		trigger={
+			VUO={exists = yes}
 		}
-		inherit = GGD
+		switch_tag = VUO
+	}
+	option = {
+		name = fall_of_ghand.1.b
+		trigger={
+			ELT={exists = yes}
+		}
+		switch_tag = ELT
+	}
+	option = {
+		name = fall_of_ghand.1.c
+		trigger={
+			KIL={exists = yes}
+		}
+		switch_tag = KIL
+	}
+	option = {
+		name = fall_of_ghand.1.d
+		trigger={
+			LTV={exists = yes}
+		}
+		switch_tag = LTV
+	}
+	option = {
+		name = fall_of_ghand.1.e
+		trigger={
+			PRH={exists = yes}
+		}
+		switch_tag = PRH
+	}
+	option = {
+		name = fall_of_ghand.1.f
+		switch_tag = GHA
+		
+	}
+	after = {
+		hidden_effect={
+			GGD={country_event = {id = fall_of_ghand.3 days =1}}
+		}
+		
+	}
+}
+country_event = {
+	id = fall_of_ghand.3
+	title = "fall_of_ghand.3.EVTNAME2"
+	desc = "fall_of_ghand.3.EVTDESC10"
+	picture = PRAYING_eventPicture
+	is_triggered_only = yes
+	immediate = {
+		capital_scope = {remove_core = GGD}
+		GHA = {inherit = GGD}
+	}
+	option = {
+		name = fall_of_ghand.3.a
+		
+	}
+}
+province_event = {#forced displacement of civilized races
+	id = fall_of_ghand.4
+	title = "fall_of_ghand.4.EVTNAME2"
+	desc = "fall_of_ghand.4.EVTDESC10"
+	picture = PRAYING_eventPicture
+	mean_time_to_happen = {
+		days = 720
+	}
+	trigger={
+		owner = {tag = GGD}
+		OR={
+			culture_group = basin_elf
+			culture_group = snow_elf
+			culture_group = basin_ugluk
+			culture_group = plains_elf
+			culture_group = lake_elf
+		}
+	}
+	option = {
+		name = fall_of_ghand.4.a
+		add_nationalism = -50
+		change_culture = donamenz
+		change_religion = uzvazism
+		set_base_tax = 0
+		set_base_production = 1
+		set_base_manpower = 2
+	}
+}
+country_event = {
+	id = fall_of_ghand.5
+	title = "fall_of_ghand.5.EVTNAME2"
+	desc = "fall_of_ghand.5.EVTDESC10"
+	picture = PRAYING_eventPicture
+	is_triggered_only = yes
+	# immediate = {
+		# capital_scope = {remove_core = GGD}
+		# GHA = {inherit = GGD}
+	# }
+	option = {
+		name = fall_of_ghand.5.a
+		
 	}
 }

@@ -4,7 +4,7 @@ primary_culture = yelioan
 religion = tlaunorist
 government_rank = 1
 technology_group = lake_elves_group
-capital = 63 # 
+capital = 3908 # 
 #national_focus = DIP
 #historical_rival = HAB
 

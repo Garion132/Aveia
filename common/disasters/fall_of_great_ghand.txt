@@ -35,23 +35,23 @@ fall_of_great_ghand = {
 		}
 		modifier = {
 			factor = 1
+			total_development = 1750
+		}
+		modifier = {
+			factor = 1
+			total_development = 1500
+		}
+		modifier = {
+			factor = 1
+			total_development = 1250
+		}
+		modifier = {
+			factor = 0.5
 			total_development = 1000
 		}
 		modifier = {
-			factor = 1
-			total_development = 900
-		}
-		modifier = {
-			factor = 1
-			total_development = 800
-		}
-		modifier = {
 			factor = 0.5
-			total_development = 700
-		}
-		modifier = {
-			factor = 0.5
-			total_development = 600
+			total_development = 750
 		}
 		modifier = {
 			factor = -1

@@ -250,14 +250,16 @@ can_colonize_province_siberian_frontier = {
 			}
 			NOT={
 				OR={
-					superregion = aveia_superregion
+					AND={
+						superregion = aveia_superregion
+						NOT={province_id = 2686}
+					}
 					area = donamenz_1
 					area = donamenz_47
 					area = donamenz_46
 					area = donamenz_48
 				}
 			}
-			NOT={province_id = 2686}
 		}
 		allow = {
 			always = no

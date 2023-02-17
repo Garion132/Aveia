@@ -298,6 +298,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/obj_win_religious_war.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_obj_iron_working"
+		texturefile = "gfx/interface/ages/obj_iron_working.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_iron_working"
+		texturefile = "gfx/interface/ages/obj_iron_working.dds"
+	}
+	
 	
 	
 	# Age of Revolutions Objectives
