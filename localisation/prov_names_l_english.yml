@@ -5,7 +5,7 @@
  PROV4:0 "Unnamed 4"
  PROV5:0 "Unnamed 5"
  PROV6:1 "Maktui Dunes"
- PROV7:1 "Unnamed 7"
+ PROV7:1 "Silverspine"
  PROV8:0 "Unnamed 8"
  PROV9:0 "Morb"
  PROV10:0 "Unnamed 10"
@@ -153,6 +153,7 @@
 
  PROV504:0 "Ihadar"
  
+ PROV513:0 "Hopura"
  PROV514:0 "Villos"
  PROV515:0 "Fortivzins"
 
@@ -233,6 +234,8 @@
  PROV760:0 "Drelnora"
  
  PROV762:0 "Olosa"
+ 
+ PROV764:0 "Torliuna"
 
  PROV771:0 "Shemsele"
  PROV772:0 "Shamatoth"
@@ -660,6 +663,7 @@
 
  PROV1972:0 "Narkud"
 
+ PROV1974:0 "Vilora"
  PROV1975:0 "Haava"
  
  PROV1977:0 "Harhozava"
@@ -763,6 +767,7 @@
  PROV2370:0 "Xaqi"
  PROV2371:0 "Ohil"
  PROV2372:0 "Tolcor"
+ PROV2373:0 "Falstar Point"
  
  PROV2376:0 "Vanae"
  PROV2377:0 "Soldid"

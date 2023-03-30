@@ -11,7 +11,11 @@ namespace = strongholders_event
 
 	# option = {#the Stronghold is supreme
 		# name = strongholders_event.1.a
-		
+		# 1272={
+			# owner={
+				# country_event = {id = strongholders_event.2}
+			# }
+		# }
 	# }
 # }
 country_event = {#founding of the strongholder culture, dregheis capital

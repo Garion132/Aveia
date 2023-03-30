@@ -53,13 +53,13 @@ greater_shires_region = {
 	areas = {
 		lower_parhama
 		upper_parhama
+		zornazar_area
 		vellitnarland
 		shires_1
 		shires_2
 		shires_3
 		shires_4
 		shires_5
-		east_shires_1
 		east_shires_2
 		east_shires_3
 		east_shires_4
@@ -77,13 +77,11 @@ greater_shires_region = {
 chaun_region = {
 	areas = {
 		chaun_1
-		chaun_2
 		chaun_5
 		chaun_6
 		chaun_7
 		chaun_8
 		chaun_9
-		north_shires_2
 		donamenz_46	
 		donamenz_47	
 		donamenz_48
@@ -113,7 +111,6 @@ krashyrvil_midlands_region = {
 		vulkivian_28
 		yransa_area
 		oramarnona_area
-		zornazar_area
 	}
 }
 otrcyueg_region ={

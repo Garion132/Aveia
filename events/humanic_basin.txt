@@ -204,6 +204,8 @@ country_event = {
 				}
 				set_dynasty = "Vulokra"
 				change_government_reform_progress = -2000
+				add_treasury = 500
+				add_manpower = 40
 				capital_scope = {
 					VUO = {
 						infantry = PREV
@@ -485,6 +487,8 @@ country_event = {
 				}
 				set_dynasty = "Eltani"
 				change_government_reform_progress = -2000
+				add_treasury = 500
+				add_manpower = 40
 				capital_scope = {
 					ELT = {
 						infantry = PREV
@@ -919,6 +923,8 @@ country_event = {
 				}
 				set_dynasty = "Kilaio"
 				change_government_reform_progress = -2000
+				add_treasury = 500
+				add_manpower = 40
 				capital_scope = {
 					KIL = {
 						infantry = PREV
@@ -1065,6 +1071,8 @@ country_event = {
 				}
 				set_dynasty = "Urioeri"
 				change_government_reform_progress = -2000
+				add_treasury = 500
+				add_manpower = 40
 				capital_scope = {
 					PRH = {
 						infantry = PREV
@@ -1324,6 +1332,8 @@ country_event = {
 				}
 				set_dynasty = "Litvel"
 				change_government_reform_progress = -2000
+				add_treasury = 500
+				add_manpower = 40
 				capital_scope = {
 					LTV = {
 						infantry = PREV
@@ -1384,9 +1394,11 @@ country_event = {
 			GHA={
 				set_country_flag = GGD_successor
 				change_government = iron_monarchy
-				add_government_reform = ia_ghandian_horde
+				change_government_via_reform = ia_ghandian_horde
 				set_ruler = ghand_transfer
 				change_government_reform_progress = -2000
+				add_treasury = 500
+				add_manpower = 40
 				set_government_rank = 3
 				capital_scope = {
 					GHA = {
@@ -1515,13 +1527,13 @@ country_event = {
 		
 	}
 }
-province_event = {#forced displacement of civilized races
+province_event = {#GGD - forced displacement of civilized races
 	id = fall_of_ghand.4
 	title = "fall_of_ghand.4.EVTNAME2"
 	desc = "fall_of_ghand.4.EVTDESC10"
 	picture = PRAYING_eventPicture
 	mean_time_to_happen = {
-		days = 720
+		days = 1440
 	}
 	trigger={
 		owner = {tag = GGD}

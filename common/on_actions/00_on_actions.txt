@@ -2516,7 +2516,13 @@ on_flagship_destroyed = {
 
 # this = Released country, FROM = Releasing country
 on_country_released = {
-
+	if={
+		limit={
+			NOT={primary_culture = donamenz}
+			goverment = mannish_tribal
+		}
+		change_government = bronze_age_monarchy
+	}
 }
 
 # ROOT = province, FROM = country
