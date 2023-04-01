@@ -458,7 +458,6 @@ gugh_region={
 		bozred_1
 		bozred_2
 		kizipru
-		yerina_7
 		yerina_8
 		yerina_3
 		gugh_1

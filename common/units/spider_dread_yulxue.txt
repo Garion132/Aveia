@@ -1,0 +1,12 @@
+# Spider dread-yulxue
+
+type = infantry
+unit_type = great_spiders_group
+
+maneuver = 4
+offensive_morale = 6
+defensive_morale = 8
+offensive_fire = 4
+defensive_fire = 5
+offensive_shock = 6
+defensive_shock = 6

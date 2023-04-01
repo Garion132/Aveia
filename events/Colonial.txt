@@ -837,13 +837,17 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	trigger={
+		NOT = has_global_flag = golden_sun_discovered
+	}
+	
 	immediate = {
 		set_global_flag = golden_sun_discovered
 	}
 	
 	option = {
 		name = "colonial.30.a"
-			add_years_of_income = -0.25
+		add_years_of_income = -0.25
 		hidden_effect={
 			country_event = {id = colonial.31 days = 15}
 		}
@@ -860,8 +864,8 @@ country_event = {#a divine discovery
 	
 	immediate = {
 		1006 = {
-			add_base_production = 1
-			add_base_tax = 2
+			add_base_tax = 1
+			add_base_production = 2
 			add_base_manpower = 5
 			center_of_trade = 1
 			change_culture = ROOT

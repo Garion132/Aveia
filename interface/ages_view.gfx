@@ -41,6 +41,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_age_of_bronze"
+		texturefile = "gfx/interface/ages/age_high_bronze.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_age_of_absolutism"
 		texturefile = "gfx/interface/ages/age_of_absolutism.dds"
 	}
@@ -180,6 +185,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_obj_discover_america"
 		texturefile = "gfx/interface/ages/obj_discover_america.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_300_development"
+		texturefile = "gfx/interface/ages/obj_300_development.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_crop_rotation"
+		texturefile = "gfx/interface/ages/obj_crop_rotation.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_bronze_making_autarky"
+		texturefile = "gfx/interface/ages/obj_bronze_making_autarky.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_temple_loyalty"
+		texturefile = "gfx/interface/ages/obj_temple_loyalty.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_properous_realm"
+		texturefile = "gfx/interface/ages/obj_properous_realm.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_patisipate_scramble"
+		texturefile = "gfx/interface/ages/obj_patisipate_scramble.dds"
 	}
 	
 	spriteType = {
@@ -372,6 +401,28 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ab_warscore_vs_religion"
 		texturefile = "gfx/interface/ages/ab_warscore_vs_religion.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_ab_secured_trade_routes"
+		texturefile = "gfx/interface/ages/ab_secured_trade_routes.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_great_works"
+		texturefile = "gfx/interface/ages/ab_great_works.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_breadbaskets"
+		texturefile = "gfx/interface/ages/ab_breadbaskets.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_expert_artisans"
+		texturefile = "gfx/interface/ages/ab_expert_artisans.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_bronze_age_drill"
+		texturefile = "gfx/interface/ages/ab_bronze_age_drill.dds"
 	}
 
 

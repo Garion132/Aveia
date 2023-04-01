@@ -3,7 +3,6 @@ type = infantry
 unit_type = sun_elves_group
 
 
-
 maneuver = 2
 offensive_morale = 3
 defensive_morale = 2

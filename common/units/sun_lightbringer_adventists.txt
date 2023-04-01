@@ -1,0 +1,12 @@
+# Lightbringer Adventists
+type = infantry
+unit_type = sun_elves_group
+
+
+maneuver = 3
+offensive_morale = 4
+defensive_morale = 8
+offensive_fire = 9
+defensive_fire = 9
+offensive_shock = 3
+defensive_shock = 4

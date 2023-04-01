@@ -1,0 +1,12 @@
+# Goldback Infantry
+type = infantry
+unit_type = sun_elves_group
+
+
+maneuver = 3
+offensive_morale = 4
+defensive_morale = 5
+offensive_fire = 8
+defensive_fire = 7
+offensive_shock = 3
+defensive_shock = 4

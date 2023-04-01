@@ -3562,3 +3562,102 @@ estate_rauthyr_land_rights = {
 		}
 	}
 }
+
+
+estate_lidori_monopoly_of_paper = {
+	icon = privilege_monopoly_of_goods_paper
+	max_absolutism = -10
+	loyalty = 0.1
+	is_valid = {
+		has_dlc = "Emperor"
+		any_owned_province = {
+			trade_goods = paper
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				paper = 1
+			}
+			add_mercantilism = 1
+		}
+		add_years_of_owned_provinces_production_income = {
+			years = 8
+			trigger = {
+				trade_goods = paper
+			}
+			custom_tooltip = MONOPOLY_INCOME_PAPER_DESC
+		}
+		custom_tooltip = estate_lidori_monopoly_of_paper_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = paper
+			}
+			add_province_modifier = {
+				name = estate_lidori_monopoly_of_paper_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_lidori_monopoly_of_paper_mod
+			}
+			remove_province_modifier = estate_lidori_monopoly_of_paper_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_lidori_monopoly_of_paper_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_lidori_monopoly_of_paper_mod
+			}
+			remove_province_modifier = estate_lidori_monopoly_of_paper_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_lidori_monopoly_of_paper_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_lidori_monopoly_of_paper_mod
+			}
+			remove_province_modifier = estate_lidori_monopoly_of_paper_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+
+	cooldown_years = 10
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.4 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}

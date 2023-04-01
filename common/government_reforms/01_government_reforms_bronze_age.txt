@@ -291,7 +291,6 @@ iron_age_monarchy_adv = {
 	}
 	trigger = {
 		NOT = { has_government_attribute_short_desc = locked_government_type }
-		NOT = { is_lesser_in_union = yes }
 		NOT= {current_age = age_of_bronze}
 	}
 	effect = {

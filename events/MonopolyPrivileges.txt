@@ -57,3 +57,59 @@ namespace = monopoly_privileges
 # 		}
 # 	}
 # }
+
+# Extension of Paper Monopoly
+country_event = {
+	id = monopoly_privileges.4
+	title = monopoly_privileges.4.t
+	desc = {
+		trigger = { has_estate_privilege = estate_burghers_monopoly_of_paper }
+		desc = monopoly_privileges.4.d.burghers
+	}
+	desc = {
+		trigger = { has_estate_privilege = estate_vaisyas_monopoly_of_paper }
+		desc = monopoly_privileges.4.d.vaisyas
+	}
+	desc = {
+		trigger = { has_estate_privilege = estate_jains_monopoly_of_paper }
+		desc = monopoly_privileges.4.d.jains
+	}
+	desc = {
+		trigger = { has_estate_privilege = estate_lidori_monopoly_of_paper }
+		desc = monopoly_privileges.4.d.lidori
+	}
+	picture = TRADEGOODS_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = {
+		remove_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_paper }
+		remove_estate_monopoly_modifier = { privilege = estate_lidori_monopoly_of_paper }
+		remove_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_paper }
+		remove_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_paper }
+	}
+	
+	option = {
+		name = monopoly_privileges.1.a
+		reapply_estate_privilege = { privilege = estate_burghers_monopoly_of_paper }
+		reapply_estate_privilege = { privilege = estate_lidori_monopoly_of_paper }
+		reapply_estate_privilege = { privilege = estate_vaisyas_monopoly_of_paper }
+		reapply_estate_privilege = { privilege = estate_jains_monopoly_of_paper }
+	}
+	option = {
+		name = monopoly_privileges.1.b
+		custom_tooltip = monopoly_privileges.4.b.tooltip
+
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = paper
+				}
+				apply_estate_monopoly_modifier = { privilege = estate_burghers_monopoly_of_paper }
+				apply_estate_monopoly_modifier = { privilege = estate_lidori_monopoly_of_paper }
+				apply_estate_monopoly_modifier = { privilege = estate_vaisyas_monopoly_of_paper }
+				apply_estate_monopoly_modifier = { privilege = estate_jains_monopoly_of_paper }
+			}
+		}
+	}
+}

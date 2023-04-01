@@ -7999,6 +7999,7 @@ country_event = {
 	
 	trigger = {
 		num_of_merchants = 2
+		capital_scope = { continent = aveia }
 		any_active_trade_node = {
 			has_merchant = PREV
 			NOT = { 
@@ -8023,6 +8024,7 @@ country_event = {
 		hidden_effect = {
 			random_active_trade_node = {
 				limit = {
+					continent = kaltros
 					has_merchant = PREV
 					NOT = { 
 						has_trade_modifier = {
@@ -8031,10 +8033,11 @@ country_event = {
 						}
 					}
 				}
-				save_event_target_as = asia_node
+				save_event_target_as = kaltros_node
 			}
 			random_active_trade_node = {
 				limit = {
+					continent = aveia
 					has_merchant = PREV
 					NOT = { 
 						has_trade_modifier = {
@@ -8043,7 +8046,7 @@ country_event = {
 						}
 					}
 				}
-				save_event_target_as = europe_node
+				save_event_target_as = aveia_node
 			}
 		}
 	}
@@ -8054,13 +8057,14 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA863"
-		goto = asia_node
+		goto = kaltros_node
 		ai_chance = {
 			factor = 33
 		}
 		trigger = {
 			any_active_trade_node = {
 				has_merchant = PREV
+				continent = kaltros
 				NOT = { 
 					has_trade_modifier = {
 						who = ROOT
@@ -8071,6 +8075,7 @@ country_event = {
 		}
 		random_active_trade_node = {
 			limit = {
+				continent = kaltros
 				has_merchant = PREV
 				NOT = { 
 					has_trade_modifier = {
@@ -8089,13 +8094,14 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB863"
-		goto = europe_node
+		goto = aveia_node
 		ai_chance = {
 			factor = 33
 		}
 		trigger = {
 			any_active_trade_node = {
 				has_merchant = PREV
+				continent = aveia
 				NOT = { 
 					has_trade_modifier = {
 						who = ROOT
@@ -8106,6 +8112,7 @@ country_event = {
 		}		
 		random_active_trade_node = {
 			limit = {
+				continent = aveia
 				has_merchant = PREV
 				NOT = { 
 					has_trade_modifier = {

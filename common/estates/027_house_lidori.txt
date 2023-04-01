@@ -103,6 +103,7 @@ estate_house_lidori ={
 		estate_rauthyr_land_rights
 		estate_nobles_officer_corp
 		estate_rauthyr_right_of_counsel
+		estate_lidori_monopoly_of_paper
 	}
 
 	agendas = {

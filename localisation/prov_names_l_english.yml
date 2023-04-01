@@ -3,7 +3,7 @@
  PROV2:0 "Unnamed 2"
  PROV3:1 "Unnamed 3"
  PROV4:0 "Unnamed 4"
- PROV5:0 "Unnamed 5"
+ PROV5:0 "Reunle"
  PROV6:1 "Maktui Dunes"
  PROV7:1 "Silverspine"
  PROV8:0 "Unnamed 8"
@@ -29,7 +29,6 @@
  PROV28:0 "Oleml"
  PROV29:0 "Toliut Reas"
  PROV30:0 "South Irrilanra"
-
  PROV31:0 "Hetriondee Lake"
  PROV32:0 "Guroth Lake"
  PROV33:0 "Great Cradle"
@@ -47,12 +46,12 @@
  PROV49:0 "Parnti"
  PROV50:0 "Oruin"
  PROV51:0 "Bluehiethe"
-
+ PROV52:0 "Heilor"
  PROV53:0 "Oruinyal"
  PROV54:0 "Ovilias"
  PROV55:0 "Parii"
  PROV56:0 "Windos"
-
+ PROV57:0 "Luraid"
  PROV58:0 "Nalean"
  
  PROV62:0 "Kyathi"
@@ -111,6 +110,9 @@
 
  PROV167:0 "Noster Bay"
  
+ PROV180:0 "Ventorals"
+ 
+ PROV182:0 "West Thilranan Coast"
  PROV183:0 "Ilrazin Tides"
  
  PROV185:0 "Floxens Lake"
@@ -121,9 +123,17 @@
 
  PROV207:0 "Kushedean Bay"
  
+ PROV211:0 "Baltalif"
+ 
  PROV215:0 "Oliprua"
 
  PROV217:0 "Elnorei Pass"
+ 
+ PROV220:0 "Jularoe"
+ 
+ PROV224:0 "Saroltir"
+
+ PROV282:0 "Symania Sea"
 
  PROV285:0 "Yhenil Sea"
 
@@ -146,6 +156,8 @@
  
  PROV461:0 "Eastern Cryspimes"
  PROV462:0 "Uliavoa"
+ 
+ PROV466:0 "Isla Unral"
  
  PROV490:0 "Mount Talior"
  
@@ -272,6 +284,7 @@
 
  PROV895:0 "Naleenyafet"
  PROV896:0 "Wetlemyve"
+ PROV897:0 "Olunorie"
 
  PROV902:0 "Boraloris"
 
@@ -447,6 +460,7 @@
  PROV1324:0 "Bultrir"
  PROV1325:0 "Ryuase"
  PROV1326:0 "Scistif"
+ PROV1327:0 "Karich"
  
  PROV1331:0 "Flaehuld"
 
@@ -573,18 +587,21 @@
  PROV1695:0 "Belienolana"
 
  PROV1699:0 "Elhera"
+ PROV1700:0 "Olriar"
+
+ PROV1704:1 "Tolos"
 
  PROV1708:1 "Yuegroth"
  
  PROV1712:0 "Holita"
- 
+ PROV1713:0 "Yolrtra"
+ PROV1714:0 "Orerai"
  PROV1715:0 "Elinetia"
  PROV1716:0 "Sraneas"
-
+ PROV1717:0 "Alhiuma"
  PROV1718:0 "Cyhnor"
- 
- PROV1718:0 "Tolos Point"
- 
+ PROV1719:0 "Uloriae"
+ PROV1720:0 "Saolrue"
  PROV1721:0 "Rosci Point"
  
  PROV1723:0 "Tanaveli"
@@ -631,14 +648,17 @@
  PROV1880:0 "Atolor"
  PROV1881:0 "Teilort"
  PROV1882:0 "Western Cryspimes"
+ PROV1883:0 "Uroarl Bay"
  PROV1884:0 "Garen Gulf"
  PROV1885:0 "Cinderbyr Bay"
  PROV1886:0 "Lesman Svrea"
+ PROV1887:0 "Kharns Passage"
  
  PROV1889:0 "Palentai"
  PROV1890:0 "Vinika Sea"
  PROV1891:0 "Nadarite Coast"
  
+ PROV1894:0 "Tolirar sea"
  PROV1895:0 "Orgithadenes Lake"
  PROV1896:0 "Khueur Lake"
  PROV1897:0 "Faveligt"
@@ -1112,9 +1132,10 @@
  
  PROV5215:0 "Tuslor sea"
  PROV5216:0 "Cyoloai Ridge"
- 
+ PROV5217:0 "Chaunluman Mts."
  PROV5218:0 "Mt. Toule"
- 
+ PROV5219:0 "Ziyalap Ridge"
+ PROV5220:0 "Ziyalap Ridge"
  PROV5221:0 "Istancan Desert"
  PROV5222:0 "Glowing Wastes"
  PROV5223:0 "Maktui Dunes"

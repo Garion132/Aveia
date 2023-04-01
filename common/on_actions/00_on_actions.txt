@@ -1969,7 +1969,7 @@ on_explore_coast = {
 	if = {
 		limit = {
 			NOT = {has_global_flag = golden_sun_discovered}
-			is_empty = yes
+			#is_empty = yes
 			province_id = 1006
 		}
 		FROM={country_event = {id = colonial.30}}
@@ -1979,7 +1979,7 @@ on_conquistador_empty = {
 	if = {
 		limit = {
 			NOT = {has_global_flag = golden_sun_discovered}
-			is_empty = yes
+			#is_empty = yes
 			province_id = 1006
 		}
 		FROM={country_event = {id = colonial.30}}
@@ -2250,6 +2250,13 @@ on_convert_by_trade_policy = {
 # province
 # FROM = old owner
 on_province_owner_change = {
+	if = {
+		limit = {
+			NOT = {has_global_flag = golden_sun_discovered}
+			province_id = 1006
+		}
+		owner={country_event = {id = colonial.30}}
+	}
 }
 
 # country

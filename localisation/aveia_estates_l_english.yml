@@ -27,6 +27,11 @@
  estate_rauthyr_right_of_counsel_desc:0 "The Right of this house to speak openly to the Imperial Court without fear, only one house may be granted this privilege at a time"
  estate_rauthyr_land_rights:0 "$ESTATE_NAME$ Land Rights"
  estate_rauthyr_land_rights_desc:0 "The Nobles of $ESTATE_NAME$, have proven their merit and will be granted more land within our domain."
+ estate_lidori_monopoly_of_paper: "Grant House Lidori a Monopoly on Paper"
+ estate_lidori_monopoly_of_paper_desc:0 "In our newly literate society, there is greater need for paper. So much so, in fact, that entrepreneurs among House Lidori covet direct control over the revenues associated with its production."
+ estate_lidori_monopoly_of_paper_mod:1 "Monopoly on Paper"
+ desc_estate_lidori_monopoly_of_paper_mod:1 "The state has granted the Lidori House monopoly rights over paper production."
+ estate_lidori_monopoly_of_paper_effect_tooltip:2 "§RNo income from §YPaper§!§!"
  
  rauthyr_estate_events.1.a:0 "Leave them be"
  rauthyr_estate_events.1.b:0 "Force them to accept imperial authority"

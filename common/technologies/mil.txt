@@ -804,6 +804,7 @@ technology = {
 	enable = spider_armored_vilexu_infantry
 	enable = kolbold_ankonclaw_fusilers
 	enable = dunirr_armored_riflers
+	enable = suntouched_rifles
 
 	enable = flying_battery
 }
@@ -922,6 +923,7 @@ technology = {
 	enable = faun_twinhorn_infantry
 	enable = kolbold_purpleback_infantry
 	enable = kolbold_blacksash_infantry
+	enable = sun_goldback_infantry
 
 	enable = squirrel_steelwood_riflescur
 	enable = squirrel_scurian_rangers
@@ -1035,6 +1037,7 @@ technology = {
 	enable = kolbold_blacksash_rifles
 	enable = kolbold_purplecloak_horned_rifles
 	enable = dwarven_lile_riflers
+	enable = sun_lightbringer_rifles
 }
 
 technology = {
@@ -1090,4 +1093,8 @@ technology = {
 	cavalry_shock = 2.0
 	
 	fort_19th = yes
+	
+	#sun elves and spiders get a bonus infantry tier
+	enable = sun_lightbringer_adventists
+	enable = spider_dread_yulxue
 }
