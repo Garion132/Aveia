@@ -952,7 +952,16 @@ slaves = {
 		modifier = {
 			factor = 0
 			region = thilrana_region
-		}		
+		}	
+		modifier = {
+			factor = 0
+			superregion = kaltros_superregion
+			NOT={region = kepjar_region}
+		}
+		modifier = {
+			factor = 0
+			continent = juluia
+		}
 		modifier = {
 			factor = 0
 			OR={

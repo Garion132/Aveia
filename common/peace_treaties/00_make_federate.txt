@@ -26,7 +26,7 @@ po_become_federate = {
 	}
 	is_allowed = { # Defaults to equivalent of "always = yes"
 		FROM = {
-			primary_culture = shireate
+			culture_group = shireate_group
 		}
 	}
 	effect = { # Defaults to empty effect (which makes error log entry but is safe)

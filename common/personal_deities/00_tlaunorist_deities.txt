@@ -179,3 +179,26 @@ amirna =
 		}		
 	}
 }
+
+xoheia =
+{
+	yearly_corruption = -0.1
+	manpower_recovery_speed = 0.10
+	
+	allow = { 
+		religion = tlaunorist 
+	}
+	sprite = 8
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_militarist
+		}		
+	}
+}

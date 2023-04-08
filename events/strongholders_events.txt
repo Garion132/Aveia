@@ -1,23 +1,37 @@
 namespace = strongholders_event
 
-# country_event = {#rise of the strongholders
-	# id = strongholders_event.1
-	# title = strongholders_event.1.t
-	# desc = strongholders_event.1.d
+country_event = {#rise of the strongholders
+	id = strongholders_event.1
+	title = strongholders_event.1.t
+	desc = strongholders_event.1.d
 	
-	
-	
-	# is_triggered_only = yes
+	trigger={
+		owns = 1272
+		is_year = 1355
+	}
+	fire_only_once = yes
+	#is_triggered_only = yes
 
-	# option = {#the Stronghold is supreme
-		# name = strongholders_event.1.a
-		# 1272={
-			# owner={
-				# country_event = {id = strongholders_event.2}
-			# }
-		# }
-	# }
-# }
+	option = {#the Stronghold is supreme
+		name = strongholders_event.1.a
+		define_advisor = {
+			type = fortification_expert
+			name = "Valires Aloruea"
+			location = 1272
+			skill = 3
+			discount = yes
+			cost_multiplier = 0.25
+			culture = dregheian
+		}
+		hidden_effect={
+			1272={
+				owner={
+					country_event = {id = strongholders_event.2 days = 300}
+				}
+			}
+		}
+	}
+}
 country_event = {#founding of the strongholder culture, dregheis capital
 	id = strongholders_event.2
 	title = strongholders_event.2.t

@@ -714,6 +714,10 @@
 				}
 				has_idea_group = colonialism_ideas
 			}
+			OR={
+				is_year = 1500
+				NOT={technology_group = eastern_men_group}
+			}
 		}
 
 		bonus = {

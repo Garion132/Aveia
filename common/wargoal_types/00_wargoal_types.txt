@@ -2938,6 +2938,7 @@ superiority_great_conquest = {
 		
 		country_desc = ALL_INFIDELS
 		prov_desc = ALL_PROVS
+		deny_annex = yes
 	}
 	
 	defender = {
@@ -2979,6 +2980,7 @@ take_capital_federate = {
 		allowed_provinces = {
 			always = no
 		}
+		deny_annex = yes
 	}
 	defender={
 		allowed_provinces = {

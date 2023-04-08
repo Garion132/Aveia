@@ -1,14 +1,20 @@
 #Gugh
+latent_trade_goods = {
+	coal
+}
+add_core = MAP
+owner = MAP
+controller = MAP
 culture = zsorji
-religion = forebearist
+religion = sharhial_adventists
 capital = "Accra"
-trade_goods = unknown
+trade_goods = tin
 hre = no
 base_tax = 0
-base_production = 0
-base_manpower = 1
+base_production = 1
+base_manpower = 5
 native_size = 90
 native_ferocity = 6
 native_hostileness = 11
-discovered_by = western
+discovered_by = naga_group
 extra_cost = 8

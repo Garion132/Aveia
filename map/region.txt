@@ -815,6 +815,7 @@ greater_jalhorkan_region={
 		brightcoast_16
 		brightcoast_17
 		windsweaps_1
+		deepgroves_1
 	}
 }
 windsweaps_region={
@@ -847,6 +848,12 @@ windsweaps_region={
 		deerok_13
 		deerok_14
 		dredging_islands
+		deepgroves_2
+		deepgroves_3
+		deepgroves_4
+		deepgroves_5
+		deepgroves_6
+		
 	}
 }
 palentai_bay_region={

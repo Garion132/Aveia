@@ -227,3 +227,28 @@ royal_marriage = {
 	start_date = 1253.12.6
 	end_date = 1381.4.7
 }
+
+vassal = {
+	first = MUY
+	second = ANS
+	start_date = 1263.1.1
+	end_date = 1532.8.3
+}
+vassal = {
+	first = MUY
+	second = XAS
+	start_date = 1263.1.1
+	end_date = 1532.8.3
+}
+vassal = {
+	first = MUY
+	second = MLS
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+vassal = {
+	first = MUY
+	second = LDR
+	start_date = 1246.1.1
+	end_date = 1532.8.3
+}

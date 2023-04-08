@@ -33,8 +33,8 @@
 
 
  #All
- warrior_infantry:0 "(3) Warrior Infantry"
- heavy_infantry:0 "(2) Heavy Infantry"
+ warrior_infantry:0 "(2) Warrior Infantry"
+ heavy_infantry:0 "(3) Heavy Infantry"
 
  #Elves
  elven_bowmen:0 "(5) Elven Bowmen"
@@ -740,7 +740,7 @@
  CB_ALLOWED_po_become_federate:0 "Become $TAKERS$ Federate"
  PEACE_po_become_federate:0 "@$GIVER$ $TAKER$ Federate"
  po_become_federate_desc:0 "[From.GetName] becomes a [This.GetName] Federate"
- ESTABLISH_FEDERATE_MISSION_WAR_NAME:0 "War to establish a Federate"
+ ESTABLISH_FEDERATE_MISSION_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ Federate War"
  tolcar_federate_is_our:0 "§Y[From.GetName]§! is our Federate"
  
  golden_sun_1:0 "The Golden Sun"
@@ -760,3 +760,4 @@
  ruler_race_is_elven_tooltip:0 "Ruler is a Elf"
  obj_300_development: "Developed Country"
  obj_300_development_desc: "Country has over 300 Development"
+ string_start_rauthyr: "Raulor I of House Lidori established the §YRauosuan Hegemony§! in 983, commonly known across Aveia as Rauthyr (Eastern State) by subjugating the other Elven houses in the Enheasrion River Basin. since then the houses of Rauthyr have consoladated into the Six Great Houses;\n§YHouse Kethai§!, the heartland of the empires industry fueled by the rich copper deposits in the Kethas region\n§YHouse Etailia§!, A very devout house and the origin of a large amount of the Hegemonies scribes and priests.\n§YHouse Nyletmi§!, \n§YHouse Draumi§!, based in the principality of Draumyuer this house has always been the most independant minded of the houses. but it is also the source of the most loyal and capible Generals\n§YHouse Lidori§!, the founding house of the empire. Based around the old kingdom of lidori, House Lidori derives most of their power from the paper and silver produced from the region. The Seat of this house, Lindoremy is also the capital of the Empire.\n§YHouse Celola§!. \n\nUnlike his ilustrious ancestor, the current Emperor, §YRalior II§!, is struggling to keep the empire together. While the previous emperor Evalir I Kethai had left the empire rich and prosperous the start of Ralior's reign has been one of disaters. Starting in 1254 with a great plague that devistasted the populus and then numerous military blunders culminating in the defeat of the northern expedition to the barely civilized and inferor human tribes. Many are starting to doubt the emperors rule and they may be a crisis looming in the Hegemonies future."

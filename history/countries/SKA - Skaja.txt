@@ -1,0 +1,22 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = zsorji
+religion = forebearist
+government_rank = 1
+technology_group = naga_group
+capital = 2769 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+
+# 1240.9.16 = {
+	# monarch = {
+		# name = "Eltro III"
+		# dynasty = "Gugh"
+		# birth_date = 1240.12.3
+		# adm = 5
+		# dip = 4
+		# mil = 3
+	# }
+# }

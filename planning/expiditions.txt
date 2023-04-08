@@ -1,9 +1,9 @@
 EAST - 53
 977 -  - Celolian,talunorist
-2133 -  -tmiik,rusite
+2133 - Fraiik -tmiik,rusite
 1793 -  -Deresunite,Tlaunorist
 1244 -  -unolaan,tlaunorist
-666 -  -omoran,tlaunorist
+666 - Olmorus -omoran,tlaunorist
 
 =Ve'nara Company
 =Cradle Trade Company - 988,53,80,760,3913,3898,3905,896,885,771 - Indorran
@@ -35,18 +35,18 @@ Culinvale
 Shempeak
 =Selehei
 =Uleina
+Gruoala Company
+Olursg - ugluk
 
 Formables:
 	Rogos
 	Ligrim
 	Vulich
 	Manitel
-	Vaogh
+	Vazogh
 	Zurion
 	Mowindia
 	Arakan
-	Borestia
-	Earh
 
 
 JULILA - 

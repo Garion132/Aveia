@@ -26,10 +26,10 @@ monarch_names = {
 	"Ralior #0" = 40
 	"Veinir #0" = 40
 	"Taliros #0" = 20
-	"Ulimr #0" = 5
-	"Oliras #0" = 5
-	"Krasir #0" = 5
-	"Ralira #0" = 5
+	"Ulimr #0" = 20
+	"Oliras #0" = 20
+	"Krasir #0" = 10
+	"Ralira #0" = 10
 	
 	"Ailora #0" = -15
 	"Margaret #0" = -1

@@ -751,6 +751,13 @@
 		fort_level = 3
 		allowed_num_of_buildings = 1
 	}
+	hirdam_stronghold_1 = {
+		tax_income = 6
+		local_defensiveness = 5.0
+		max_attrition = 1
+		local_hostile_attrition = 1
+		fort_level = 2
+	}
 
 # Important river estuaries
 # If you add any be sure to update the has_river_estuary_trigger scripted trigger too.

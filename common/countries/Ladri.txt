@@ -1,0 +1,68 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 198 174 239}
+
+revolutionary_colors = { 15 1 15 }
+
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	warrior_infantry
+}
+
+monarch_names = {
+	"Shethar #0" = 40
+	"Ratsada #0" = 40 
+	"Chairacha #0" = 40 
+	"Mahin #0" = 40 
+	"Songtham #0" = 40 
+	"Chettha #0" = 40 
+	"Narai #0" = 20 
+	"Phetracha #0" = 20
+	"Taksin #0" = 20
+	"Kaeo #0" = 20
+	"Ket #0" = 20
+	"Saikham #0" = 10 
+	"Idjer #0" = 10 
+	"Irjile #0" = 10 
+	"Pana #0" = 10 
+	"Sacu #0" = 10
+
+	"Amporn #0" = -15 
+	"Sri #0" = -15 
+	"Komol #0" = -10 
+	"Dara #0" = -10
+	"Mya #0" = -5
+	"Yasa #0" = -5
+}
+
+leader_names = {
+	Hamengku
+	Agung
+	Slamet
+	Budi
+	Harto
+	Karno
+	Wani
+	Mas
+	Kencono
+	Ratri
+}
+
+ship_names = {
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
+}

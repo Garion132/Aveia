@@ -837,9 +837,9 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	trigger={
-		NOT = has_global_flag = golden_sun_discovered
-	}
+	# trigger={
+		# NOT = has_global_flag = golden_sun_discovered
+	# }
 	
 	immediate = {
 		set_global_flag = golden_sun_discovered

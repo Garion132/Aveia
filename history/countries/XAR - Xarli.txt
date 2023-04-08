@@ -6,3 +6,14 @@ technology_group = free_fauns_group
 capital = 2719 # 
 #national_focus = DIP
 historical_friend = CIL
+
+1251.9.16 = {
+	monarch = {
+		name = "X'afyo"
+		dynasty = "Aklus"
+		birth_date = 1251.12.3
+		adm = 4
+		dip = 0
+		mil = 3
+	}
+}

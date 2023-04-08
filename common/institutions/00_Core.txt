@@ -686,6 +686,20 @@ iron_working = {
 				culture_group = humans
 			}
 		}
+		modifier = {
+			factor = 1
+			potential = {
+				province_id = 1006
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_crop_rotation_embraced
+				is_owned_by_trade_company = no
+				owner = {
+					has_institution = crop_rotation
+				}
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
@@ -834,6 +848,20 @@ illuminare = {
 				is_owned_by_trade_company = no
 				owner = {
 					has_institution = illuminare
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			potential = {
+				province_id = 1006
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_illuminare_embraced
+				is_owned_by_trade_company = no
+				owner = {
+					has_institution = iron_working
 				}
 			}
 		}

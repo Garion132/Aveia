@@ -1695,23 +1695,22 @@ cb_establish_faun_federate = {
 
 	prerequisites = {
 		#has_ruler_flag = great_conquerer_personality
-		primary_culture = shireate
+		culture_group = shireate_group
 		OR={
 			is_neighbor_of = FROM
 			any_subject_country={
-				OR={
-					is_neighbor_of = FROM
-					any_subject_country={
-						is_neighbor_of = FROM
-					}
-				}
+				is_neighbor_of = FROM
 			}
 		}
-		religion_group = FROM
 		is_revolutionary = no
 		FROM = {
-			primary_culture = shireate
+			culture_group = shireate_group
+			is_subject = no
 		}
+	}
+	
+	attacker_disabled_po = {
+		po_demand_provinces
 	}
 
 	war_goal = take_capital_federate

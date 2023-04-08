@@ -1284,10 +1284,13 @@ country_event = {
 				is_year = 1400
 			}
 		}
+		capital_scope={
+			continent = aveia
+		}
 	}
 
 	mean_time_to_happen = {
-		months = 48
+		months = 60
 
 		modifier = {
 			factor = 0.5

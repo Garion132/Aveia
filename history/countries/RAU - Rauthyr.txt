@@ -39,11 +39,11 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1220.9.16 = {
 	monarch = {
 		name = "Ralior II"
 		dynasty = "Lidori"
-		birth_date = 1240.12.3
+		birth_date = 1220.12.3
 		adm = 3
 		dip = 4
 		mil = 1

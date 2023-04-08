@@ -1,5 +1,5 @@
 #Agaruz
-culture = kaletian
+culture = aragate
 religion = shamanism
 capital = "Accra"
 trade_goods = unknown

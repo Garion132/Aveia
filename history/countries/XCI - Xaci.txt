@@ -7,3 +7,14 @@ technology_group = free_fauns_group
 capital = 2392 # 
 #national_focus = DIP
 #historical_rival = HAB
+
+1251.9.16 = {
+	monarch = {
+		name = "Hamuys II"
+		dynasty = "Xaci"
+		birth_date = 1251.12.3
+		adm = 4
+		dip = 0
+		mil = 3
+	}
+}
