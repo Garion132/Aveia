@@ -1,0 +1,34 @@
+incident_death_of_prophet = {
+
+	frame = 1
+	variable_initial = 0
+
+	potential = {
+		has_dlc = "Mandate of Heaven"
+		religion = sharhial_adventists
+	}
+
+	trigger = {
+		OR={
+			AND={
+				tag = KEP
+				NOT = { has_ruler = "Sasreja 'the Prophet'" }
+			}
+			has_global_flag = saserjial_dead
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate_effect = {
+		if={
+			limit={
+				tag = KEP
+			}
+			country_event = { id = kepjar_flavor.3 }
+		}
+		set_country_flag = active_incident_flag
+	}
+}

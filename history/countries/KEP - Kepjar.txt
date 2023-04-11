@@ -8,12 +8,30 @@ capital = 2809 #
 #national_focus = DIP
 #historical_rival = HAB
 
-
-
-1211.2.8 = {
+1178.2.8 = {
+	monarch = {
+		name = "Ssaolre I"
+		dynasty = "Kepra"
+		birth_date = 1157.2.8
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+1229.2.8 = {
+	monarch = {
+		name = "Ssaolre II"
+		dynasty = "Kepra"
+		birth_date = 1201.2.8
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+1257.2.8 = {
 	monarch = {
 		name = "Sasreja 'the Prophet'"
-		dynasty = "Kepra"
+		dynasty = "Jaleris"
 		birth_date = 1211.2.8
 		adm = 3
 		dip = 6
@@ -23,15 +41,13 @@ capital = 2809 #
 		add_ruler_personality = righteous_personality
 		add_ruler_personality = zealot_personality
 	}
-}
-1246.7.15 ={
 	heir = {
 		name = "Ket"
 		monarch_name = "Ket II"
-		dynasty = "Kepra"
+		dynasty = "Jaleris"
 		birth_date = 1246.7.15
 		death_date = 1331.9.16
-		claim = 98
+		claim = 57
 		adm = 3
 		dip = 2
 		mil = 5

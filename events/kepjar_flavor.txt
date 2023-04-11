@@ -1,0 +1,89 @@
+namespace = kepjar_flavor
+
+#
+country_event = {
+	id = kepjar_flavor.1
+	title = kepjar_flavor.1.t
+	desc = kepjar_flavor.1.d
+	
+	is_triggered_only = yes
+	immediate = {
+		2798={
+			remove_reform_center = sharhial_adventists
+		}
+	}
+
+	option = {
+		name = kepjar_flavor.1.a
+		country_event = {id = kepjar_flavor.6 days = 180}
+	}
+}
+country_event = {
+	id = kepjar_flavor.2
+	title = kepjar_flavor.2.t
+	desc = kepjar_flavor.2.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kepjar_flavor.2.a
+
+	}
+}
+country_event = {#death of Sasreja
+	id = kepjar_flavor.3
+	title = kepjar_flavor.3.t
+	desc = kepjar_flavor.3.d
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = kepjar_flavor.3.a
+		add_prestige = -10
+		set_global_flag = saserjial_dead
+	}
+}
+country_event = {#uprising of Ssaolre Kepra
+	id = kepjar_flavor.6
+	title = kepjar_flavor.6.t
+	desc = kepjar_flavor.6.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kepjar_flavor.6.a
+		random_owned_province={
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 2
+				leader = "Ssaolre"
+				leader_dynasty = "Kepra"
+				win = yes
+				should_take_capital = yes
+			}
+		}
+	}
+	option = {
+		name = kepjar_flavor.6.b
+		#exile_ruler_as = { name = sasreja_heir }
+		define_ruler = {
+			name = "Ssaolre III"
+			dynasty = "Kepra"
+			adm = 5
+			dip = 4
+			mil = 4
+			age = 21
+			claim = 95
+			fixed = yes
+		}
+		capital_scope={
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 2
+				leader = "Ket II"
+				leader_dynasty = "Jaleris"
+			}
+		}
+	}
+}

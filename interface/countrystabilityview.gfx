@@ -32,6 +32,12 @@ spriteTypes = {
 			noOfFrames = 3
 			loadType = "INGAME"
 		}
+		spriteType = {
+			name = "GFX_disaster_saserjial_disunity"
+			texturefile = "gfx//interface//disasters//saserjial_disunity.dds"
+			noOfFrames = 3
+			loadType = "INGAME"
+		}
 
 	##
 

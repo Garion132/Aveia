@@ -1,0 +1,68 @@
+saserjial_disunity = {
+	potential = {
+		tag = KEP
+		2798={
+			is_reformation_center = yes
+		}
+	}
+
+
+	can_start = {
+		NOT = { has_ruler = "Sasreja 'the Prophet'" }
+	}
+	
+	can_stop = {
+        has_country_flag = KEP_religious_fervor
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 1
+			always = yes
+		}
+		modifier = {
+			factor = 1
+			NOT = { religious_unity = 0.75 }
+		}
+		modifier = {
+			factor = -1
+			dip = 5
+		}
+		modifier = {
+			factor = -1
+			dip = 6
+		}
+		modifier = {
+			factor = 2
+			NOT = {legitimacy_equivalent = 80}
+		}
+		modifier = {
+			factor = 1
+			NOT = { stability = 1 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { stability = -1 }
+		}
+	}
+	
+	can_end = {
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		NOT = { has_spawned_rebels = pretender_rebels }
+		has_country_flag = KEP_solved_disunity
+	}
+	
+
+	
+
+	modifier = {
+		global_missionary_strength = -0.025
+	}
+	
+	
+	on_start = kepjar_flavor.1
+	on_end = kepjar_flavor.2
+
+}
+

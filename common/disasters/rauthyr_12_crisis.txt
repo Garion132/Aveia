@@ -98,6 +98,8 @@ crisis_of_the_12th_century = {
 		}
 	}
 	
+	ended_by_country_breaking_to_rebels = no
+	
 	can_stop = {
 		NOT = { unrest = 0 }
 		stability = 0
