@@ -1,5 +1,6 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
+government_rank = 1
 primary_culture = rake
 add_accepted_culture = liret
 religion = vulikivite

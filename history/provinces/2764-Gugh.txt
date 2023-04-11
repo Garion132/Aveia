@@ -2,7 +2,7 @@
 add_core = LDR
 owner = LDR
 controller = LDR
-culture = zsorji
+culture = sumjira
 religion = forebearist
 capital = "Accra"
 trade_goods = fruit

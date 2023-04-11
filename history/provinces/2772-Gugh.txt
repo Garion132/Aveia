@@ -2,7 +2,7 @@
 add_core = GRR
 owner = GRR
 controller = GRR
-culture = zsorji
+culture = sasuri
 religion = forebearist
 capital = "Accra"
 trade_goods = naval_supplies

@@ -95,6 +95,10 @@
 		global_unrest = 4
 		interest = 4
 	}
+	
+estate_church_monopoly_of_bronze_mod = {
+	local_production_efficiency = -10
+}
 
 
 #

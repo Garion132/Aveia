@@ -2,7 +2,7 @@
 add_core = PAJ
 owner = PAJ
 controller = PAJ
-culture = zsorji
+culture = pajeise
 religion = sharhial_adventists
 capital = "Accra"
 trade_goods = fish

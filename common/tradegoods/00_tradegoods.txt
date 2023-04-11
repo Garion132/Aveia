@@ -1827,10 +1827,10 @@ coal = {
 			}
 		}
 		provincial_institution_progress = {
-			which = enlightenment
+			which = industrialization
 			value = 100
 		}
-		owner = { has_institution = enlightenment }
+		owner = { has_institution = industrialization }
 	}
 	
 	modifier = {

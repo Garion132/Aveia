@@ -498,6 +498,8 @@ SRA = "countries/Srandor.txt"
 	XAS = "countries/Xasul.txt"
 	ANS = "countries/Anossur.txt"
 	LDR = "countries/Ladri.txt"
+	DAN = "countries/Dansjra.txt"
+	OPI = "countries/Opijsjaj.txt"
 	
 #Anorite human
 LOS = "countries/Loswath.txt"

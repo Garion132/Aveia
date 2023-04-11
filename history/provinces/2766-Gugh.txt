@@ -2,7 +2,7 @@
 add_core = MUY
 owner = MUY
 controller = MUY
-culture = zsorji
+culture = sumjira
 religion = forebearist
 capital = "Accra"
 trade_goods = spices

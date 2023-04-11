@@ -62,22 +62,16 @@ guiTypes = {
 				frame = 4
 				}
 			iconType = {
-				name ="icon_age_of_rosen_dawn"
+				name ="icon_age_of_strife"
 				spriteType = "GFX_icon_age_s"
 				position = { x= -30 y = 120 }
 				frame = 5
 				}
 			iconType = {
-				name ="icon_age_of_strife"
+				name ="icon_age_of_progress"
 				spriteType = "GFX_icon_age_s"
 				position = { x= 0 y = 140 }
 				frame = 6
-				}
-			iconType = {
-				name ="icon_age_of_progress"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 160 }
-				frame = 7
 				}
 		}
 
@@ -97,41 +91,35 @@ guiTypes = {
 				position = { x= -26 y = 9 }
 				frame = 2
 				}
-			iconType = {
-				name ="icon_age_of_bronze"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 60 }
-				frame = 1
-				}
+			# iconType = {
+				# name ="icon_age_of_bronze"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 60 }
+				# frame = 1
+				# }
 			iconType = {
 				name ="icon_age_of_exodus"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 80 }
+				position = { x= 0 y = 60 }
 				frame = 3
 				}
 			iconType = {
 				name ="icon_age_of_golden_sun"
 				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 100 }
+				position = { x= -30 y = 80 }
 				frame = 4
-				}
-			iconType = {
-				name ="icon_age_of_rosen_dawn"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 120 }
-				frame = 5
 				}
 			iconType = {
 				name ="icon_age_of_strife"
 				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 140 }
-				frame = 6
+				position = { x= -0 y = 100 }
+				frame = 5
 				}
 			iconType = {
 				name ="icon_age_of_progress"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 160 }
-				frame = 7
+				position = { x= -30 y = 120 }
+				frame = 6
 				}
 		}
 		WindowType = {
@@ -150,41 +138,35 @@ guiTypes = {
 				position = { x= -26 y = 9 }
 				frame = 3
 				}
-			iconType = {
-				name ="icon_age_of_calamity"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 60 }
-				frame = 2
-				}
-			iconType = {
-				name ="icon_age_of_bronze"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 80 }
-				frame = 1
-				}
+			# iconType = {
+				# name ="icon_age_of_calamity"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 60 }
+				# frame = 2
+				# }
+			# iconType = {
+				# name ="icon_age_of_bronze"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= -30 y = 80 }
+				# frame = 1
+				# }
 			iconType = {
 				name ="icon_age_of_golden_sun"
 				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 100 }
+				position = { x= 0 y = 60 }
 				frame = 4
-				}
-			iconType = {
-				name ="icon_age_of_rosen_dawn"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 120 }
-				frame = 5
 				}
 			iconType = {
 				name ="icon_age_of_strife"
 				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 140 }
-				frame = 6
+				position = { x= -30 y = 80 }
+				frame = 5
 				}
 			iconType = {
 				name ="icon_age_of_progress"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 160 }
-				frame = 7
+				position = { x= 0 y = 100 }
+				frame = 6
 				}
 		}
 		WindowType = {
@@ -201,96 +183,37 @@ guiTypes = {
 				name ="icon_age_of_golden_sun"
 				spriteType = "GFX_icon_age_l"
 				position = { x= -26 y = 9 }
-				frame = 3
-				}
-			iconType = {
-				name ="icon_age_of_calamity"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 60 }
-				frame = 2
-				}
-			iconType = {
-				name ="icon_age_of_exodus"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 80 }
-				frame = 1
-				}
-			iconType = {
-				name ="icon_age_of_bronze"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 100 }
 				frame = 4
 				}
-			iconType = {
-				name ="icon_age_of_rosen_dawn"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 120 }
-				frame = 5
-				}
+			# iconType = {
+				# name ="icon_age_of_calamity"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 60 }
+				# frame = 2
+				# }
+			# iconType = {
+				# name ="icon_age_of_exodus"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= -30 y = 80 }
+				# frame = 1
+				# }
+			# iconType = {
+				# name ="icon_age_of_bronze"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 100 }
+				# frame = 4
+				# }
 			iconType = {
 				name ="icon_age_of_strife"
 				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 140 }
-				frame = 6
+				position = { x= 0 y = 60 }
+				frame = 5
 				}
 			iconType = {
 				name ="icon_age_of_progress"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 160 }
-				frame = 7
-				}
-		}
-		WindowType = {
-			name = "age_of_rosen_dawn"
-			position = { x= 35 y = -29}
-			upsound = age_of_discovery
-
-			iconType = {
-				name ="frame"
-				spriteType = "GFX_age_indicator_1"
-				position = { x= -35 y = 46 }
-				}
-			iconType = {
-				name ="icon_age_of_rosen_dawn"
-				spriteType = "GFX_icon_age_l"
-				position = { x= -26 y = 9 }
-				frame = 5
-				}
-			iconType = {
-				name ="icon_age_of_calamity"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 60 }
-				frame = 2
-				}
-			iconType = {
-				name ="icon_age_of_exodus"
-				spriteType = "GFX_icon_age_s"
 				position = { x= -30 y = 80 }
-				frame = 3
-				}
-			iconType = {
-				name ="icon_age_of_golden_sun"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 100 }
-				frame = 4
-				}
-			iconType = {
-				name ="icon_age_of_bronze"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 120 }
-				frame = 1
-				}
-			iconType = {
-				name ="icon_age_of_strife"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 140 }
 				frame = 6
-				}
-			iconType = {
-				name ="icon_age_of_progress"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 160 }
-				frame = 7
 				}
 		}
 		WindowType = {
@@ -307,43 +230,37 @@ guiTypes = {
 				name ="icon_age_of_strife"
 				spriteType = "GFX_icon_age_l"
 				position = { x= -26 y = 9 }
-				frame = 6
-				}
-			iconType = {
-				name ="icon_age_of_calamity"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 60 }
-				frame = 2
-				}
-			iconType = {
-				name ="icon_age_of_exodus"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 80 }
-				frame = 3
-				}
-			iconType = {
-				name ="icon_age_of_golden_sun"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 100 }
-				frame = 4
-				}
-			iconType = {
-				name ="icon_age_of_rosen_dawn"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 120 }
 				frame = 5
 				}
-			iconType = {
-				name ="icon_age_of_bronze"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 140 }
-				frame = 1
-				}
+			# iconType = {
+				# name ="icon_age_of_calamity"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 60 }
+				# frame = 2
+				# }
+			# iconType = {
+				# name ="icon_age_of_exodus"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= -30 y = 80 }
+				# frame = 3
+				# }
+			# iconType = {
+				# name ="icon_age_of_golden_sun"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 100 }
+				# frame = 4
+				# }
+			# iconType = {
+				# name ="icon_age_of_bronze"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 140 }
+				# frame = 1
+				# }
 			iconType = {
 				name ="icon_age_of_progress"
 				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 160 }
-				frame = 7
+				position = { x= 0 y = 60 }
+				frame = 6
 				}
 		}
 		WindowType = {
@@ -360,44 +277,38 @@ guiTypes = {
 				name ="icon_age_of_progress"
 				spriteType = "GFX_icon_age_l"
 				position = { x= -26 y = 9 }
-				frame = 7
-				}
-			iconType = {
-				name ="icon_age_of_calamity"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 60 }
-				frame = 2
-				}
-			iconType = {
-				name ="icon_age_of_exodus"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 80 }
-				frame = 3
-				}
-			iconType = {
-				name ="icon_age_of_golden_sun"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 100 }
-				frame = 4
-				}
-			iconType = {
-				name ="icon_age_of_rosen_dawn"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 120 }
-				frame = 5
-				}
-			iconType = {
-				name ="icon_age_of_strife"
-				spriteType = "GFX_icon_age_s"
-				position = { x= 0 y = 140 }
 				frame = 6
 				}
-			iconType = {
-				name ="icon_age_of_bronze"
-				spriteType = "GFX_icon_age_s"
-				position = { x= -30 y = 160 }
-				frame = 1
-				}
+			# iconType = {
+				# name ="icon_age_of_calamity"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 60 }
+				# frame = 2
+				# }
+			# iconType = {
+				# name ="icon_age_of_exodus"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= -30 y = 80 }
+				# frame = 3
+				# }
+			# iconType = {
+				# name ="icon_age_of_golden_sun"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 100 }
+				# frame = 4
+				# }
+			# iconType = {
+				# name ="icon_age_of_strife"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= 0 y = 140 }
+				# frame = 5
+				# }
+			# iconType = {
+				# name ="icon_age_of_bronze"
+				# spriteType = "GFX_icon_age_s"
+				# position = { x= -30 y = 160 }
+				# frame = 1
+				# }
 		}
 		
 		instantTextBoxType = {
@@ -535,11 +446,6 @@ guiTypes = {
 
 
 	}
-	
-	
-	
-	
-	
 	
 	###### OBJECTIVES ENTRY
 	windowType = {

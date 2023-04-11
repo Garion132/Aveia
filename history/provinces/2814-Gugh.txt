@@ -2,7 +2,7 @@
 add_core = SOR
 owner = SOR
 controller = SOR
-culture = zsorji
+culture = deep_scales
 religion = forebearist
 capital = "Accra"
 trade_goods = silver

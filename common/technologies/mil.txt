@@ -405,6 +405,7 @@ technology = {
 	enable = ork_western_pike_infantry #Orks
 	enable = ork_eastern_pike_infantry
 	enable = dunirr_stacked_strongholders #Dunirr
+	enable = naga_glaive_square #Naga
 }
 
 technology = {
@@ -519,6 +520,7 @@ technology = {
 	combat_width = 4
 	
 	enable = spider_organised_infantry
+	enable = naga_blessed_infantry
 }
 
 technology = {
@@ -670,6 +672,8 @@ technology = {
 	
 	enable = spider_vilexu_infantry
 	enable = faun_vandue_chargers
+	enable = naga_kepjari_infantry
+	enable = naga_deep_scale_ambushers
 }
 
 technology = {
@@ -836,6 +840,7 @@ technology = {
 	enable = squirrel_gliding_scurians
 	enable = faun_gurirelare
 	enable = kolbold_reformed_stormguard
+	enable = naga_ankoni_glaves
 }
 
 technology = {
@@ -924,6 +929,7 @@ technology = {
 	enable = kolbold_purpleback_infantry
 	enable = kolbold_blacksash_infantry
 	enable = sun_goldback_infantry
+	enable = naga_silverscale_infantry
 
 	enable = squirrel_steelwood_riflescur
 	enable = squirrel_scurian_rangers
@@ -1038,6 +1044,7 @@ technology = {
 	enable = kolbold_purplecloak_horned_rifles
 	enable = dwarven_lile_riflers
 	enable = sun_lightbringer_rifles
+	enable = naga_silverscale_rifles
 }
 
 technology = {

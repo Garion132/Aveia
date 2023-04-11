@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_kingdom
-primary_culture = zsorji
+primary_culture = pajeise
 religion = sharhial_adventists
 government_rank = 1
 technology_group = naga_group

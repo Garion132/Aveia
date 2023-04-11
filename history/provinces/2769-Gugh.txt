@@ -2,7 +2,7 @@
 add_core = SKA
 owner = SKA
 controller = SKA
-culture = zsorji
+culture = sasuri
 religion = forebearist
 capital = "Accra"
 trade_goods = spices

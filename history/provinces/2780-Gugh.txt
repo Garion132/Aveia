@@ -1,5 +1,8 @@
 #Gugh
-culture = adrari
+add_core = DAN
+owner = DAN
+controller = DAN
+culture = highland_naga
 religion = forebearist
 capital = "Accra"
 trade_goods = unknown

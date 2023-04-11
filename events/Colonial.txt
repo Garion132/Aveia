@@ -837,6 +837,8 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	fire_only_once = yes
+	
 	# trigger={
 		# NOT = has_global_flag = golden_sun_discovered
 	# }
@@ -924,5 +926,32 @@ country_event = {
 	option = {
 		name = "colonial.32.b"
 		add_years_of_income = 2.5
+	}
+}
+
+country_event = {
+	id = colonial.33
+	title = "colonial.30.t"
+	desc = "colonial.30.d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger={
+		NOT = has_global_flag = golden_sun_discovered
+		has_discovered = 313
+	}
+	fire_only_once = yes
+	
+	immediate = {
+		set_global_flag = golden_sun_discovered
+	}
+	
+	option = {
+		name = "colonial.30.a"
+		add_years_of_income = -0.25
+		hidden_effect={
+			country_event = {id = colonial.31 days = 15}
+		}
 	}
 }

@@ -32,11 +32,11 @@ groups = {
 		start_cost_modifier = 0.5
 	}
 	great_spiders_group = {
-		start_level = 3
+		start_level = 2
 		start_cost_modifier = 0.5
 	}
 	naga_group = {
-		start_level = 3
+		start_level = 2
 		start_cost_modifier = 0.20
 	}
 	sun_elves_group = {

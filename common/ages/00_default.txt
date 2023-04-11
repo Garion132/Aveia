@@ -170,6 +170,12 @@ age_of_calamity  = {
 			}
 			personal_union = 2
 		}
+		obj_legitimate_state = {
+			allow = {
+				NOT = { religion_group = tlaunorist }
+			}
+			legitimacy_equivalent = 95
+		}		
 		obj_fort_borders = {
 			calc_true_if = {
 				all_owned_province = {
@@ -181,7 +187,13 @@ age_of_calamity  = {
 				amount = 3
 			}
 		}
-		
+		obj_sactified_monuments = {
+			NOT={has_country_flag = defiled_monuments}
+			has_country_flag = statisfied_monument_demand
+		}
+		obj_experienced_army = {
+			army_tradition = 60
+		}
 		
 	}	
 	
@@ -252,7 +264,60 @@ age_of_exodus = {
 		obj_primary_culture_in_east={
 			kaltros_superregion={
 				culture = root
+				owner={
+					primary_culture = root
+				}
 			}
+		}
+		obj_grand_fleet={
+			num_of_heavy_ship = 30
+		}
+		obj_trading_companies={
+			OR={
+				num_of_strong_trade_companies = 2
+				has_country_flag = trade_company_base
+				mercantilism = 75
+			}
+		}
+		obj_hold_thalassocracy={
+			OR={
+				3912 = { #cradle
+					trade_share = {
+						country = ROOT
+						share = 50
+					}
+				}
+				723 = { #Ilrazin
+					trade_share = {
+						country = ROOT
+						share = 50
+					}
+				}
+				1721 = { #Demina strait
+					trade_share = {
+						country = ROOT
+						share = 50
+					}
+				}
+				3272 = { #Liglen
+					trade_share = {
+						country = ROOT
+						share = 50
+					}
+				}
+				1962 = { #Hounfair
+					trade_share = {
+						country = ROOT
+						share = 50
+					}
+				}
+			}
+		}
+		obj_global_trade_embraced = {
+	 		has_institution = global_trade
+	 		all_state_province = {
+	 			global_trade = 100
+	 		}
 		}
 		
 	}	
@@ -346,6 +411,29 @@ age_of_golden_sun = {
 					controls = 3948
 					controls = 1480
 					controls = 1006
+					controls = 4916
+				}
+			}
+		}
+		obj_cultures_accepted = {
+			num_accepted_cultures = 5
+		}
+		obj_colonial_empire = {
+			colony = 5
+		}
+		obj_magical_materials = {
+			OR={
+				production_leader = {
+					trade_goods = ankon
+				}
+				production_leader = {
+					trade_goods = vitaite
+				}
+				production_leader = {
+					trade_goods = bryrine
+				}
+				production_leader = {
+					trade_goods = guedina
 				}
 			}
 		}
@@ -377,69 +465,6 @@ age_of_golden_sun = {
 	
 
 	
-}
-age_of_rosen_dawn = {
-	start = 1638
-	
-	can_start = {
-		OR={
-			custom_trigger_tooltip = {
-				tooltip = rosen_dawn_tooltip
-				has_global_flag = ROSEN_DAWN
-			}
-			is_institution_enabled = air_shipping
-		}
-	}
-	
-	
-	religious_conflicts = yes
-	absolutism = {
-		harsh_treatment = 1
-		stability = 1
-		decrease_autonomy_command = 1
-		strengthen_government = 2
-		
-		increase_autonomy_command = -2
-		debase_currency = -1
-		execute_rebel_acceptance_command = -10
-		seat_in_parliament = -3
-		war_exhaustion = -1
-	}
-	papacy = 1.25
-	
-	objectives = {
-		
-		obj_cultures_accepted = {
-			num_accepted_cultures = 5
-		}
-		obj_colonial_empire = {
-			colony = 5
-		}
-		obj_magical_materials = {
-			OR={
-				production_leader = {
-					trade_goods = ankon
-				}
-				production_leader = {
-					trade_goods = vitaite
-				}
-				production_leader = {
-					trade_goods = bryrine
-				}
-				production_leader = {
-					trade_goods = guedina
-				}
-			}
-		}
-	}	
-	
-	
-	abilities = {
-	
-		
-	
-	}
-
 }
 age_of_strife = {
 	start = 1670
@@ -500,6 +525,9 @@ age_of_strife = {
 				religion = muthilian
 				religion = seriaralia
 			}
+		}
+		obj_large_forcelimit = {
+			land_forcelimit = 200
 		}
 	}	
 	

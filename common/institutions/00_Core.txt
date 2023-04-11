@@ -31,6 +31,36 @@ organized_state = {
 				culture_group = scurian
 			}
 		}
+		OR={
+			province_id = 493
+			NOT={
+				culture_group = aj_snaga
+			}
+		}
+		NOT={
+			culture_group = aj_lamadi
+		}
+		NOT={
+			culture_group = humans
+		}
+		OR={
+			province_id = 5206
+			NOT={
+				culture_group = aviean_white_kolbold
+			}
+		}
+		OR={		
+			province_id = 3376
+			NOT={
+				culture_group = faun
+			}
+		}
+		OR={
+			province_id = 2372
+			NOT={
+				culture_group = shireate_group
+			}
+		}
 	}
 	
 	# no need for events, as its there from the start.

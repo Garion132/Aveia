@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_kingdom
-primary_culture = zsorji
+primary_culture = sumjira
 religion = forebearist
 government_rank = 2
 technology_group = naga_group
@@ -10,13 +10,13 @@ capital = 2762 #
 
 
 
-# 1240.9.16 = {
-	# monarch = {
-		# name = "Eltro III"
-		# dynasty = "Gugh"
-		# birth_date = 1240.12.3
-		# adm = 5
-		# dip = 4
-		# mil = 3
-	# }
-# }
+1247.3.11 = {
+	monarch = {
+		name = "Ratsada II"
+		dynasty = "Asuraoji"
+		birth_date = 1247.3.11
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}

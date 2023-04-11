@@ -188,6 +188,13 @@ defined_text = {
         }
     }
 	
+	text = { #Kyath
+        localisation_key = string_start_kyath
+        trigger = {
+			tag = KYA
+        }
+    }
+	
 	text = {#Fallback
         localisation_key = string_start_tag_generic
 		trigger = {

@@ -4,7 +4,7 @@
 vassal = {
 	first = KYA
 	second = TIT
-	start_date = 1272.1.1
+	start_date = 1160.8.20
 	end_date = 1532.8.3
 }
 # Kyath-Iwenlumy
@@ -18,28 +18,28 @@ vassal = {
 vassal = {
 	first = KYA
 	second = KYT
-	start_date = 1272.1.1
+	start_date = 1160.8.20
 	end_date = 1532.8.3
 }
 # Kyath-Anores
 vassal = {
 	first = KYA
 	second = ANO
-	start_date = 1272.1.1
+	start_date = 1160.8.20
 	end_date = 1532.8.3
 }
 # Kyath-Matnolu
 vassal = {
 	first = KYA
 	second = MAT
-	start_date = 1272.1.1
+	start_date = 1160.8.20
 	end_date = 1532.8.3
 }
 # Kyath-Lurt
 vassal = {
 	first = KYA
 	second = LUR
-	start_date = 1272.1.1
+	start_date = 1160.8.20
 	end_date = 1532.8.3
 }
 
@@ -228,25 +228,29 @@ royal_marriage = {
 	end_date = 1381.4.7
 }
 
-vassal = {
+dependency = {
+	subject_type = "tributary_state"
 	first = MUY
 	second = ANS
 	start_date = 1263.1.1
 	end_date = 1532.8.3
 }
-vassal = {
+dependency = {
+	subject_type = "tributary_state"
 	first = MUY
 	second = XAS
 	start_date = 1263.1.1
 	end_date = 1532.8.3
 }
-vassal = {
+dependency = {
+	subject_type = "tributary_state"
 	first = MUY
 	second = MLS
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
-vassal = {
+dependency = {
+	subject_type = "tributary_state"
 	first = MUY
 	second = LDR
 	start_date = 1246.1.1

@@ -1,5 +1,6 @@
 government = bronze_monarchy
 add_government_reform = dragonic_throne
+government_rank = 1
 primary_culture = rake
 religion = vulikivite
 government_rank = 1

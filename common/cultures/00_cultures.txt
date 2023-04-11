@@ -7004,7 +7004,7 @@ humans = {
 aj_snaga={#naga
 	graphical_culture = southeastasiangfx
 	second_graphical_culture = asiangfx
-	kepjari = {
+	sumjira = {
 		#primary = SOH
 		dynasty_names = { 
 			Pilat Chokak Haatraa Adircee Idslix Sridat Izjar
@@ -7047,6 +7047,39 @@ aj_snaga={#naga
 		}
 	}
 	sasuri = {
+		#primary = SOH
+		dynasty_names = { 
+			Pilat Chokak Haatraa Adircee Idslix Sridat Izjar
+		}
+		male_names = {
+			"Shethar" "Ratsada" "Chairacha" "Mahin"  "Songtham" "Chettha" 
+			"Narai" "Phetracha" "Taksin" "Kaeo" "Ket" "Saikham" 
+			"Idjer" "Irjile" "Pana" "Sacu"
+		}
+		female_names = {
+			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa"
+		}
+	}
+}
+
+aj_lamadi={#naga
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
+	highland_naga = {
+		#primary = SOH
+		dynasty_names = { 
+			Pilat Chokak Haatraa Adircee Idslix Sridat Izjar
+		}
+		male_names = {
+			"Shethar" "Ratsada" "Chairacha" "Mahin"  "Songtham" "Chettha" 
+			"Narai" "Phetracha" "Taksin" "Kaeo" "Ket" "Saikham" 
+			"Idjer" "Irjile" "Pana" "Sacu"
+		}
+		female_names = {
+			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa"
+		}
+	}
+	deep_scales = {
 		#primary = SOH
 		dynasty_names = { 
 			Pilat Chokak Haatraa Adircee Idslix Sridat Izjar

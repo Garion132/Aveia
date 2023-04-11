@@ -44,6 +44,10 @@ spriteTypes = {
 		name = "GFX_age_of_bronze"
 		texturefile = "gfx/interface/ages/age_high_bronze.dds"
 	}
+	spriteType = {
+		name = "GFX_age_of_golden_sun"
+		texturefile = "gfx/interface/ages/age_of_golden_sun.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_age_of_absolutism"
@@ -63,6 +67,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_age_of_revolutions"
 		texturefile = "gfx/interface/ages/age_of_revolutions.dds"
+	}
+	spriteType = {
+		name = "GFX_age_of_progress"
+		texturefile = "gfx/interface/ages/age_of_progress.dds"
+	}
+	spriteType = {
+		name = "GFX_age_of_calamity"
+		texturefile = "gfx/interface/ages/age_of_calamity.dds"
+	}
+	spriteType = {
+		name = "GFX_age_of_exodus"
+		texturefile = "gfx/interface/ages/age_of_exodus.dds"
 	}
 	
 	spriteType = {
@@ -209,6 +225,38 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_obj_patisipate_scramble"
 		texturefile = "gfx/interface/ages/obj_patisipate_scramble.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_hold_great_light"
+		texturefile = "gfx/interface/ages/obj_hold_great_light.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_stable_state"
+		texturefile = "gfx/interface/ages/obj_stable_state.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_strong_industrialists"
+		texturefile = "gfx/interface/ages/obj_strong_industrialists.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_theology_progress"
+		texturefile = "gfx/interface/ages/obj_theology_progress.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_trading_companies"
+		texturefile = "gfx/interface/ages/obj_3_trade_companies.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_global_trade_embraced"
+		texturefile = "gfx/interface/ages/obj_5_centers_of_trade.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_primary_culture_in_east"
+		texturefile = "gfx/interface/ages/obj_primary_culture_in_east.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_grand_fleet"
+		texturefile = "gfx/interface/ages/obj_grand_fleet.dds"
 	}
 	
 	spriteType = {

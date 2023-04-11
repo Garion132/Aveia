@@ -2,7 +2,7 @@
 add_core = RTH
 owner = RTH
 controller = RTH
-culture = zsorji
+culture = pajeise
 religion = forebearist
 capital = "Accra"
 trade_goods = spices

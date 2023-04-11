@@ -57,6 +57,7 @@
  
  PROV62:0 "Kyathi"
 
+ PROV65:0 "Elrait"
  PROV66:0 "Matle"
 
  PROV69:1 "Indoranas"
@@ -258,7 +259,7 @@
  PROV760:0 "Drelnora"
  
  PROV762:0 "Olosa"
- 
+ PROV763:0 "Avena"
  PROV764:0 "Torliuna"
 
  PROV771:0 "Shemsele"
@@ -1199,6 +1200,9 @@
  PROV5222:0 "Glowing Wastes"
  PROV5223:0 "Maktui Dunes"
  PROV5224:0 "Lake Vulor"
+ 
+ PROV5232:0 "Huoarue Ridges"
+ PROV5233:0 "Mount Varoleir"
  
  PROV5237:0 "Borgon"
  PROV5238:0 "Ceratinani"

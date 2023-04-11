@@ -2,12 +2,12 @@
 add_core = XAS
 owner = XAS
 controller = XAS
-culture = zsorji
+culture = sumjira
 religion = forebearist
 capital = "Accra"
 trade_goods = fruit
 hre = no
-base_tax = 1
+base_tax = 0
 base_production =3
 base_manpower = 7
 native_size = 90

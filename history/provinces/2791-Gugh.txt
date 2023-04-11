@@ -2,7 +2,7 @@
 add_core = MTS
 owner = MTS
 controller = MTS
-culture = zsorji
+culture = highland_naga
 religion = forebearist
 capital = "Accra"
 trade_goods = quedarma_horns

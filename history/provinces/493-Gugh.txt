@@ -2,7 +2,7 @@
 add_core = MLS
 owner = MLS
 controller = MLS
-culture = zsorji
+culture = sumjira
 religion = roresist
 capital = "Accra"
 trade_goods = slaves

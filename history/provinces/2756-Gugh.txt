@@ -2,7 +2,7 @@
 add_core = ANS
 owner = ANS
 controller = ANS
-culture = zsorji
+culture = sumjira
 religion = forebearist
 capital = "Accra"
 trade_goods = slaves

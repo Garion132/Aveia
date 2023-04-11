@@ -549,4 +549,10 @@ spriteTypes = {
 		name = "privilege_devotion_yellow"
 		texturefile = "gfx/interface/privileges/privilege_devotion_yellow.dds"
 	}
+	spriteType = {
+		name = "privilege_monopoly_of_goods_bronze"
+		texturefile = "gfx/interface/privileges/privilege_monopoly_of_goods_bronze.dds"
+	}
+	
+	
 }

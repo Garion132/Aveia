@@ -2,7 +2,7 @@
 add_core = SRG
 owner = SRG
 controller = SRG
-culture = zsorji
+culture = highland_naga
 religion = sharhial_adventists
 capital = "Accra"
 trade_goods = spices
