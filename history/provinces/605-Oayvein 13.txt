@@ -1,8 +1,8 @@
 #Oayvein 13
 
-add_core = OAY
-owner = OAY
-controller = OAY
+add_core = ALI
+owner = ALI
+controller = ALI
 culture = soilseeders
 religion = godly_sect
 hre = no

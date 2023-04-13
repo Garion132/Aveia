@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = seaseekers
 religion = tlaunorist
 technology_group = free_kolbolds_group
-capital = 601 # 
+capital = 611 # 
 #national_focus = DIP
 #historical_rival = HAB
 

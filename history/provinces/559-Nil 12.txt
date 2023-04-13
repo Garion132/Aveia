@@ -1,9 +1,9 @@
 #Nil 12
 
-add_core = NIL
-add_core = RYN
-owner = NIL
-controller = NIL
+add_core = ERI
+add_core = TEE
+owner = TEE
+controller = TEE
 culture = erityian
 religion = tlaunorist
 hre = no

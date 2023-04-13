@@ -3,8 +3,8 @@ add_government_reform = palace_economy
 government_rank = 2
 primary_culture = ryndoan
 religion = tlaunorist
-technology_group = free_fauns_group
-capital = 2308 # 
+technology_group = lake_elves_group
+capital = 548 # 
 #national_focus = DIP
 #historical_rival = HAB
 

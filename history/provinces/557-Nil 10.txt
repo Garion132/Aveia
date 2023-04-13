@@ -3,10 +3,9 @@ latent_trade_goods = {
 	iron
 }
 
-add_core = NIL
-add_core = RYN
-owner = NIL
-controller = NIL
+add_core = LYA
+owner = LYA
+controller = LYA
 culture = ryndoan
 religion = tlaunorist
 hre = no

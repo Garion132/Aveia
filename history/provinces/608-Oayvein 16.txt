@@ -4,8 +4,9 @@ latent_trade_goods = {
 }
 
 add_core = OAY
-owner = OAY
-controller = OAY
+add_core = KAV
+owner = KAV
+controller = KAV
 culture = soilseeders
 religion = tlaunorist
 hre = no

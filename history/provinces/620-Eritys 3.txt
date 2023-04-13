@@ -1,8 +1,9 @@
 #Etitys 3
 
 add_core = ERI
-owner = ERI
-controller = ERI
+add_core = TEE
+owner = TEE
+controller = TEE
 culture = erityian
 religion = tlaunorist
 hre = no

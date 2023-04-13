@@ -1,7 +1,7 @@
 #Nil 3
 
-add_core = NIL
 add_core = RYN
+add_core = NIL
 owner = NIL
 controller = NIL
 culture = ryndoan

@@ -1,10 +1,10 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
-government_rank = 2
+government_rank = 1
 primary_culture = sradoan
 religion = tlaunorist
-technology_group = free_fauns_group
-capital = 2308 # 
+technology_group = lake_elves_group
+capital = 565 # 
 #national_focus = DIP
 #historical_rival = HAB
 

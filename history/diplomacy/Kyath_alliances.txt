@@ -256,3 +256,60 @@ dependency = {
 	start_date = 1246.1.1
 	end_date = 1532.8.3
 }
+
+#nilaurhalin rework
+dependency = {
+	subject_type = "tributary_state"
+	first = NIL
+	second = ATE
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = NIL
+	second = UAL
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+union = {
+	first = NIL
+	second = LYA
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = NIL
+	second = RYN
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = NIL
+	second = SRA
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = NIL
+	second = TEE
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = NIL
+	second = YRA
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+
+union = {
+	first = OAY
+	second = KAV
+	start_date = 1272.1.1
+	end_date = 1381.8.3
+}

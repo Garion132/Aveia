@@ -1,9 +1,9 @@
 #Nil 17
 
-add_core = NIL
-add_core = SRA
-owner = NIL
-controller = NIL
+add_core = ERI
+add_core = TEE
+owner = TEE
+controller = TEE
 culture = erityian
 religion = godly_sect
 hre = no

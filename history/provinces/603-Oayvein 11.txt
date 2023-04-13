@@ -1,8 +1,8 @@
 #Oayvein 11
 
-add_core = OAY
-owner = OAY
-controller = OAY
+add_core = ALI
+owner = ALI
+controller = ALI
 culture = soilseeders
 religion = tlaunorist
 hre = no

@@ -1,8 +1,9 @@
 #Etitys 11
 
 add_core = ERI
-owner = ERI
-controller = ERI
+add_core = ALI
+owner = ALI
+controller = ALI
 culture = erityian
 religion = tlaunorist
 hre = no

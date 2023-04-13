@@ -1,8 +1,9 @@
 #Oayvein 10
 
 add_core = OAY
-owner = OAY
-controller = OAY
+add_core = NIL
+owner = NIL
+controller = NIL
 culture = soilseeders
 religion = tlaunorist
 hre = no

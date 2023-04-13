@@ -1,0 +1,22 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = erityian
+religion = tlaunorist
+government_rank = 1
+technology_group = lake_elves_group
+capital = 619 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+
+1227.9.16 = {
+	monarch = {
+		name = "Uliare"
+		dynasty = "Eritier"
+		birth_date = 1227.12.3
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}

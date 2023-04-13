@@ -1,8 +1,9 @@
 #Oayvein 9
 
 add_core = OAY
-owner = OAY
-controller = OAY
+add_core = KAV
+owner = KAV
+controller = KAV
 culture = tealclaw
 religion = godly_sect
 hre = no

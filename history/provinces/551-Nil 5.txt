@@ -1,9 +1,8 @@
 #Nil 5
 
-add_core = NIL
 add_core = RYN
-owner = NIL
-controller = NIL
+owner = RYN
+controller = RYN
 culture = ryndoan
 religion = tlaunorist
 hre = no

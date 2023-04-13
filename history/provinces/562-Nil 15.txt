@@ -1,9 +1,9 @@
 #Nil 15
 
-add_core = NIL
+add_core = ATE
 add_core = SRA
-owner = NIL
-controller = NIL
+owner = ATE
+controller = ATE
 culture = sradoan
 religion = tlaunorist
 hre = no

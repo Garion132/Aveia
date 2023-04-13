@@ -1,0 +1,22 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = sradoan
+religion = tlaunorist
+government_rank = 1
+technology_group = lake_elves_group
+capital = 563 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+
+# 1240.9.16 = {
+	# monarch = {
+		# name = "Eltro III"
+		# dynasty = "Gugh"
+		# birth_date = 1240.12.3
+		# adm = 5
+		# dip = 4
+		# mil = 3
+	# }
+# }
