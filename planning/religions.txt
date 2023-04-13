@@ -30,11 +30,11 @@ Xoheia - psychopomp/ goddess of death- ascended from a mortal family, f, ugluk(o
 
 Seserjial:
 centralisation 0-7 starts at 3, the more centralised the better boni although low centralisation is better for followers
-0 - forebearist cult, all relgions members convert to forebearist and forebearist gains a new cult
+0 - cult, all relgions members convert to forebearist and forebearist gains a new cult
 1 - fractured
 2 - regional
 3 - lax
-4 - 
+4 - leading
 5 - organised
 6 - centralised
 7 - dominaring

@@ -1089,7 +1089,8 @@ roresism_group = {
 		color = { 175 150 213 }
 		icon = 13
 		allowed_conversion = {
-			rethese
+			roresist
+			sharhial_adventists
 		}
 		country = {
 			tolerance_heretic = 2
@@ -1207,6 +1208,7 @@ roresism_group = {
 		
 		heretic = { SKOZJIGIAN }
 		uses_isolationism = yes
+		defender_of_faith = yes
 		
 	}
 

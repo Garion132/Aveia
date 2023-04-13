@@ -28,7 +28,41 @@ incident_death_of_prophet = {
 				tag = KEP
 			}
 			country_event = { id = kepjar_flavor.3 }
+			# else={
+				# country_event = { id = kepjar_flavor.4 }
+			# }
 		}
+		set_country_flag = active_incident_flag
+	}
+}
+incident_northern_temptation = {
+
+	frame = 2
+	variable_initial = 0
+
+	potential = {
+		has_dlc = "Mandate of Heaven"
+		religion = sharhial_adventists
+	}
+
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = shinto_incident_recent_tooltip
+			NOT = { is_incident_active = yes }
+			OR = {
+				NOT = { has_country_flag = shinto_incident_recent }
+				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+			}
+		}
+		has_global_flag = EASTERN_SCRAMBLE
+	}
+
+	mean_time_to_happen = {
+		months = 200
+	}
+
+	immediate_effect = {
+		country_event = { id = kepjar_flavor.7 }
 		set_country_flag = active_incident_flag
 	}
 }

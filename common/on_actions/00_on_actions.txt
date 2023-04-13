@@ -51,6 +51,12 @@ on_startup = {
 		}
 	}
 	initialize_schools_effect = yes
+	# if={
+		# limit={
+			# religion = sharhial_adventists
+		# }
+		# set_isolationism = 2
+	# }
 }
 
 # country

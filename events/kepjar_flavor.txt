@@ -87,3 +87,44 @@ country_event = {#uprising of Ssaolre Kepra
 		}
 	}
 }
+country_event = {
+	id = kepjar_flavor.7
+	title = kepjar_flavor.7.t
+	desc = kepjar_flavor.7.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kepjar_flavor.7.a
+
+	}
+}
+country_event = {
+	id = kepjar_flavor.8
+	title = kepjar_flavor.8.t
+	desc = kepjar_flavor.8.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kepjar_flavor.8.a
+		every_country={
+			limit
+			add_isolationism = 1
+		}
+	}
+}
+country_event = {
+	id = kepjar_flavor.9
+	title = kepjar_flavor.9.t
+	desc = kepjar_flavor.9.d
+	
+	trigger={
+		isolationism = 0
+	}
+
+	option = {
+		name = kepjar_flavor.9.a
+		change_religion = forebearist
+	}
+}
