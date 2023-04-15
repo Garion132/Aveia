@@ -46,9 +46,7 @@ THL_military_missions = { #Series name is displayed over the slot?
 		}
 		effect = {
 			capital_scope = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+				add_base_manpower = 3
 				area = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
@@ -57,6 +55,17 @@ THL_military_missions = { #Series name is displayed over the slot?
 					}
 				}
 			}
+		}
+	}
+	THL_build_army_united_state = {
+		icon = mission_assemble_an_army
+		position = 6
+		required_missions = { unite_THL_island }
+		trigger = {
+			army_size = 30
+		}
+		effect = {
+			add_army_professionalism = 0.05
 		}
 	}
 
@@ -110,7 +119,7 @@ THL_unifaction = { #Series name is displayed over the slot?
 	}
 	THL_relclaim_east = { #Localized as reclaim_maine_title and reclaim_maine_desc
 		icon = mission_build_up_to_force_limit
-		position = 3
+		position = 4
 		required_missions = { THL_relclaim_west } #None
 		provinces_to_highlight = {
 			OR={
@@ -152,7 +161,8 @@ THL_unifaction = { #Series name is displayed over the slot?
 		}
 	}
 	unite_THL_island = { #Localized as reclaim_maine_title and reclaim_maine_desc
-		icon = mission_build_up_to_force_limit
+		icon = mission_invade_island
+		position = 5
 		required_missions = { THL_relclaim_east } #None
 		provinces_to_highlight = {
 			OR={
@@ -182,6 +192,7 @@ THL_unifaction = { #Series name is displayed over the slot?
 				name = "hegemonic_ambition"
 				duration = 9125 #25 years
 			}
+			remove_country_modifier = THL_liberating_thilrana
 		}
 	}
 	
@@ -280,42 +291,78 @@ THL_diplomatic_missions = {
 			}
 		}
 	}
+	THL_upholding_our_oath_to_elves = {
+		icon = mission_alliances
+		required_missions = { THL_return_celulil }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 5
+				culture = siniersi
+			}
+			every_owned_province={
+				limit={
+					culture = siniersi
+				}
+				unrest = 0
+			}
+		}
+		effect = {
+			add_accepted_culture = siniersi
+		}
+	}
 	
 }
 
  #3nd mission series:
-# THL_administrative_missions = {
-	# slot = 4
+THL_administrative_missions = {
+	slot = 4
 	
-	# has_country_shield = yes
+	has_country_shield = yes
 	
-	# potential = {
-		# tag = THL
-	# } #These are triggers for the entire series
-	# THL_high_income_mission = {
-		# icon = mission_high_income
-		# required_missions = {  } #None
-		# trigger = { share_of_starting_income = 1.5 }
-		# effect = {
-			# add_country_modifier = {
-				# name = "growing_economy"
-				# duration = 9125 #25 years
-			# }
-		# }
-	# }
-	# build_temples = {
-		# icon = mission_early_game_buildings
-		# required_missions = { high_income_mission }
-		# trigger = {
-			# temple = 5
-			# workshop = 5
-		# }
-		# effect = {
-			# add_adm_power = 50
-			# add_country_modifier = {
-				# name = "building_spree"
-				# duration = 9125
-			# }
-		# }
-	# }
-# }
+	potential = {
+		tag = THL
+	} #These are triggers for the entire series
+	THL_high_income_mission = {
+		icon = mission_high_income
+		required_missions = {  } #None
+		trigger = { share_of_starting_income = 3 }
+		effect = {
+			add_country_modifier = {
+				name = "growing_economy"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	THL_build_temples = {
+		icon = mission_early_game_buildings
+		required_missions = { THL_becoming_a_proper_kingdom THL_high_income_mission }
+		trigger = {
+			temple = 20
+		}
+		effect = {
+			add_adm_power = 50
+			add_country_modifier = {
+				name = "THL_thilranan_syncretism"
+				duration = 9125 #25 years
+			 }
+		}
+	}
+}
+ 
+THL_growth_missions = {
+	slot = 5
+	
+	has_country_shield = yes
+	
+	potential = {
+		tag = THL
+	}
+	THL_becoming_a_proper_kingdom = {
+		icon = mission_high_income
+		required_missions = {  } #None
+		trigger = { total_development = 200 }
+		effect = {
+			add_legitimacy = 25
+		}
+	}
+}

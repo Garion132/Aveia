@@ -3680,11 +3680,7 @@ aviean_red_kolbold = {
 			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 		dynasty_names = {
-			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
-			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
-			"Enxisys" "Leopeiros" "Ravalynn" "Oladi" "Neristina" "Elisen" "Perhorn"
-			"Roshia" "Dasyria" "Quilar" "Cithrel" "Beilamin" "Yesric" "Xilfaren" "Dazumin" 
-			"Faedove" "Edea" "Shakas" "Phisys" "Trisralei"
+			"Thilrana" "Sitera" "Namuar"
 		}
 	}
 	liret={

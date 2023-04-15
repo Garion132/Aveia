@@ -539,6 +539,17 @@ estate_church_monopoly_of_bronze_mod = {
 		land_morale = 0.1
 		naval_morale = 0.1
 	}
+	
+	
+	THL_liberating_thilrana = {
+		may_establish_frontier = yes
+		infantry_cost = -0.25
+		global_unrest = -2
+	}
+	THL_thilranan_syncretism = {
+		legitimacy = 0.1
+		global_unrest = -1
+	}
 
 	
 

@@ -12,7 +12,7 @@ country_decisions = {
 					num_of_cities = 3 #
 				}
 			}
-			culture_group = yelioan
+			primary_culture = yelioan
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no

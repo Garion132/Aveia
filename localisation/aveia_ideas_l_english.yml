@@ -64,6 +64,14 @@
  LEL_ideas:0 "Leleth Ideas"
  LEL_ideas_start:0 "Leleth Traditions"
  LEL_ideas_bonus:0 "Leleth Ambitions"
+ LEL_tin_lands: "Tin Lands"
+ LEL_ship_cycling: "Ship Cycling"
+ LEL_ship_cycling_desc: "If we cycle our ships in and out of battle, we can keep our ships intact while wearing down our opponents."
+ LEL_temple_education: "Temple Education"
+ LEL_guards_of_doninas: "Guards of Doninas"
+ LEL_crop_singers: "Crop Singers"
+ LEL_military_educators: "Military Educators"
+ LEL_trade_lines: "Trade Lines"
  
  GUL_ideas:0 "Gulban Ideas"
  GUL_ideas_start:0 "Gulban Traditions"
@@ -146,6 +154,10 @@
  cradle_trading_company_desc:0 ""
  university_of_oruinyal:0 "University of Oruinyal"
  university_of_oruinyal_desc:0 ""
+ 
+ OAY_ideas:0 "Oayvein Ideas"
+ OAY_ideas_start:0 "Oayvein Traditions"
+ OAY_ideas_bonus:0 "Oayvein Ambitions"
  
 
  #Generics

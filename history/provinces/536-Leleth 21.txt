@@ -3,10 +3,10 @@ latent_trade_goods = {
 	iron
 }
 
-add_core = LEL
+add_core = UAL
 add_core = MNN
-owner = LEL
-controller = LEL
+owner = UAL
+controller = UAL
 culture = sradoan
 religion = tlaunorist
 hre = no

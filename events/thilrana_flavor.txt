@@ -53,6 +53,11 @@ country_event = {
 			THL={
 				add_treasury = 300
 				add_dip_power = 300
+				add_country_modifier = { 
+					name = THL_liberating_thilrana
+					duration = -1  
+					#desc = PROPER_OLD_WAYS_DESC_TOOLTIP
+				}
 			}
 		}
 	}
