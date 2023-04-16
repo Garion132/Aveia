@@ -5,7 +5,7 @@
 THL_military_missions = { #Series name is displayed over the slot?
 	slot = 1 #ie, second upper left column
 	has_country_shield = yes
-	ai = no #Can exist under the series itself or within individual missions.
+	ai = yes #Can exist under the series itself or within individual missions.
 	potential = {
 		tag = THL
 	} #These are triggers for the entire series
@@ -74,7 +74,7 @@ THL_military_missions = { #Series name is displayed over the slot?
 THL_unifaction = { #Series name is displayed over the slot?
 	slot = 2 #ie, second upper left column
 	has_country_shield = yes
-	ai = no #Can exist under the series itself or within individual missions.
+	ai = yes #Can exist under the series itself or within individual missions.
 	potential = {
 		tag = THL
 	} #These are triggers for the entire series
@@ -202,12 +202,12 @@ THL_unifaction = { #Series name is displayed over the slot?
 #2nd mission series:
 THL_diplomatic_missions = {
 	slot = 3
-	
+	ai = yes
 	has_country_shield = yes
 	
 	potential = {
 		tag = THL
-	} #These are triggers for the entire series
+	}
 	THL_establish_high_seas_navy = {
 		icon = mission_establish_high_seas_navy
 		trigger = { 
@@ -307,7 +307,7 @@ THL_diplomatic_missions = {
 			}
 		}
 		effect = {
-			add_accepted_culture = siniersi
+			
 		}
 	}
 	
@@ -316,12 +316,12 @@ THL_diplomatic_missions = {
  #3nd mission series:
 THL_administrative_missions = {
 	slot = 4
-	
+	ai = yes
 	has_country_shield = yes
 	
 	potential = {
 		tag = THL
-	} #These are triggers for the entire series
+	} 
 	THL_high_income_mission = {
 		icon = mission_high_income
 		required_missions = {  } #None
@@ -351,7 +351,7 @@ THL_administrative_missions = {
  
 THL_growth_missions = {
 	slot = 5
-	
+	ai = yes
 	has_country_shield = yes
 	
 	potential = {

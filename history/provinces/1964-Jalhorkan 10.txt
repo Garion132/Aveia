@@ -26,10 +26,9 @@ port = yes
 town_square = yes
 
 1200.1.1={
-	add_core = KAF
 	add_core = SEV
-	owner = KAF
-	controller = KAF
+	owner = SEV
+	controller = SEV
 	is_city = yes
 	port = yes
 }

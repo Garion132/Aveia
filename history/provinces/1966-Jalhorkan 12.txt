@@ -22,9 +22,8 @@ discovered_by = dunirr_group
 set_variable = { which = arable_land value = 8 }
 
 1200.1.1={
-	add_core = KAF
 	add_core = SFX
-	owner = KAF
-	controller = KAF
+	owner = SFX
+	controller = SFX
 	is_city = yes
 }

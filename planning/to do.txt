@@ -5,6 +5,10 @@ strongholders
 buff fauns during the bronze age
 fix PROV1906 positisioning
 add "incompatable biology" as a restriction to royal marriages
+fixing the scramble
+krashvil formable?
+
+
 
 national ideas:
 	Rauthyr

@@ -155,6 +155,8 @@
  PROV160:0 "Suirx Bay"
  PROV161:0 "Semiltide"
 
+ PROV163:0 "Miwal Coast"
+
  PROV165:0 "Massege Coast"
 
  PROV167:0 "Noster Bay"
@@ -165,12 +167,13 @@
  PROV177:0 "Saluoter"
  
  PROV180:0 "Ventorals"
- 
+ PROV181:0 "Scalding Deeps"
  PROV182:0 "West Thilranan Coast"
  PROV183:0 "Ilrazin Tides"
- 
+ PROV184:0 "Hounfair"
  PROV185:0 "Floxens Lake"
  
+ PROV189:0 "Simlasard"
  PROV190:0 "Starlight Coast"
 
  PROV196:0 "Sevilor Straits"
@@ -988,6 +991,7 @@
  
  PROV2254:0 "Umalian"
 
+ PROV2257:0 "Umilao"
  PROV2258:0 "Thana"
  PROV2259:0 "Bririonlinsa"
 
@@ -1005,16 +1009,34 @@
  PROV2275:0 "Sinor"
  PROV2276:0 "Lunios"
  PROV2277:0 "Irgotr"
-
+ PROV2278:0 "Vuimaro"
+ PROV2279:0 "Fuarlaik"
+ PROV2280:0 "Tuoarsin"
+ PROV2281:0 "Namiur"
+ PROV2282:0 "Rumoaaw"
+ PROV2283:0 "Umyaro"
  PROV2284:0 "Ketheas"
-
+ PROV2285:0 "Setalseru"
+ PROV2286:0 "Tarrtu"
+ PROV2287:0 "Meploar"
+ PROV2288:0 "Kolairu"
  PROV2289:0 "Edillean"
- 
+ PROV2290:0 "Gulopar"
+ PROV2291:0 "Hunarrt"
+ PROV2292:0 "Doairea"
+ PROV2293:0 "Baisujir"
+ PROV2294:0 "Vimoamr"
+ PROV2295:0 "Ciwoaert"
  PROV2296:0 "Kuiarot"
  PROV2297:0 "Thil"
  PROV2298:0 "Tarminon"
  PROV2299:0 "Bethyr"
  PROV2300:0 "Enisin"
+ PROV2301:0 "Emikiat"
+ PROV2302:0 "Saselwood"
+ PROV2303:0 "Viusave"
+ PROV2304:0 "Baksorua"
+ PROV2305:0 "Hullaic"
 
  PROV2308:1 "Falunarion"
 
@@ -1398,6 +1420,7 @@
  
  PROV4000:0 "Sietirrar"
  
+ PROV4023:0 "Jalorkan Bay"
  PROV4024:0 "Dorhanor Lake"
  PROV4025:0 "Charaydis Lake"
  
@@ -1533,6 +1556,8 @@
  PROV5167:0 "Dancaron"
  PROV5168:0 "Holbeck"
  
+ PROV5179:0 "Koloair Ridge"
+ 
  PROV5206:0 "Velya"
  
  PROV5215:0 "Tuslor sea"
@@ -1613,6 +1638,9 @@
  
  PROV5338:0 "Guartei"
  PROV5339:0 "Minnarp"
+ PROV5340:0 "Vanatith Gap"
+ PROV5341:0 "Aslon Coast"
+ PROV5342:0 "Solutaai"
  
  test_province_name:0 "Test Province Name"
  other_province_name:0 "Other Province Name"

@@ -1,14 +1,13 @@
 namespace = thilrana_rises
 
-# Thilrana is founded
+# Reclaiming Thilrana
 country_event = {
 	id = thilrana_rises.1
 	title = thilrana_rises.1.t
 	desc = thilrana_rises.1.d
 	
 	trigger = {
-		THL={exists = no}	
-		tag = SIN
+		tag = THL
 		is_year = 1285
 	}
 	fire_only_once = yes
@@ -18,17 +17,6 @@ country_event = {
 	}
 	immediate={
 		hidden_effect={
-			2297={
-				cede_province = THL
-				add_institution_embracement = {
-					which = organized_state
-					value = 100
-				}
-				add_institution_embracement = {
-					which = bronze_working
-					value = 100
-				}
-			}
 			thilrana_6={
 				add_core = THL
 			}
@@ -65,11 +53,6 @@ country_event = {
 	option = {
 		name = thilrana_rises.1.a
 		#ok
-	}
-	option = {
-		name = thilrana_rises.1.b
-		#tag switch
-		switch_tag = THL
 	}
 }
 ###incident event

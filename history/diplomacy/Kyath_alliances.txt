@@ -192,6 +192,19 @@ vassal = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
+vassal = {
+	first = JAL
+	second = SEV
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+vassal = {
+	first = KAF
+	second = SFX
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+
 #vulkivian baston against the whites
 vassal = {
 	first = VUL
