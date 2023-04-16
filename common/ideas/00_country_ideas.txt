@@ -141,7 +141,7 @@ LUM_ideas = {
 	}
 
 	bonus = {
-		country_admin_power = 1
+		country_admin_power = 2
 		cavalry_cost = -0.10
 	}
 	
