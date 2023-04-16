@@ -528,10 +528,10 @@ FRY_mission_5 = {
 		position = 9
 		required_missions = { FRY_mission_5_1 }
 		trigger = {
-			development_in_provinces = {
-			value = 65
-			region = windsweaps
-			}
+			#development_in_provinces = {
+			#value = 65
+			#region = windsweaps
+			#}
 		}
 		effect = {
 			change_heir_mil = 1

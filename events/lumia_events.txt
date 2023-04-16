@@ -11,7 +11,8 @@ country_event = {
 		name = lumia_event.1.a
 
 		hidden_effect = {
-            change_government = republic			
+            change_government = iron_republic
+			add_government_reform = ia_lumian_patricianate			
             swap_free_idea_group = yes
 			2416 = {
 				add_institution_embracement = {
@@ -20,7 +21,7 @@ country_event = {
 				}
 				add_institution_embracement = {
 					which = iron_working 
-					value = 5
+					value = 25
 				}
 			}
 		}
