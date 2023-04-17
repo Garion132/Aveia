@@ -40,18 +40,19 @@ red_scale_nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			tag = THL
+			owner = THL
 		}
 		modifier = {
 			factor = 70
+			culture_group = aviean_red_kolbold
 			is_core = THL
-			NOT={tag = THL}
+			NOT={owner = THL}
 		}
 		modifier = {
 			factor = 5
 			culture_group = aviean_red_kolbold
 			THL = {exists = yes}
-			NOT={tag = THL}
+			NOT={owner = THL}
 		}
 	}
  

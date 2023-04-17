@@ -90,7 +90,7 @@ mannish_raiders_rebels = {
 			limit = {
 				has_rebel_faction = REB
 			}
-			add_devastation = 100
+			add_devastation = 20
 		}
 		add_prestige = -20
 	}

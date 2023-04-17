@@ -1,5 +1,5 @@
 government = bronze_monarchy
-add_government_reform = palace_economy
+add_government_reform = dragonic_throne_reform
 government_rank = 1
 primary_culture = rake
 add_accepted_culture = liret

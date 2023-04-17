@@ -7,6 +7,7 @@ dona - north
 shiri
 hei - land
 dreg - dwarves?
+thyr - state
 
 emyfa - people?
 Salta - Star
