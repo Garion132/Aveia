@@ -90,9 +90,6 @@ parliamentary_reform = {
 		give_estate_land_share_init = { estate = estate_nobles }
 	}
 
-	custom_attributes = {
-		blocked_call_diet = yes
-	}
 }
 
 # Upgraded Indian estate reforms

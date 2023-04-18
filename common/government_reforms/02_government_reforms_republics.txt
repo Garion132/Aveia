@@ -94,7 +94,7 @@ protectorate_parliament_reform = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		blocked_call_diet = yes
+		cannot_become_dictatorship = yes
 	}
 }
 
@@ -134,7 +134,6 @@ prussian_republic_reform = {
 	
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
 	}
 	
 	custom_attributes = {
@@ -897,7 +896,6 @@ federal_republic = {
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		blocked_call_diet = yes
 	}
 	conditional = {
 		allow = {
