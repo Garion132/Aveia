@@ -154,7 +154,7 @@
  PROV159:0 "Vulikiv Coast"
  PROV160:0 "Suirx Bay"
  PROV161:0 "Semiltide"
-
+ PROV162:0 "Rainy Tides"
  PROV163:0 "Miwal Coast"
 
  PROV165:0 "Massege Coast"
@@ -194,9 +194,10 @@
  PROV220:0 "Jularoe"
  
  PROV222:0 "Lostlight Sea"
- 
+ PROV223:0 "Canaorit Tides"
  PROV224:0 "Saroltir"
  PROV225:0 "Blight of Hyreno"
+ PROV226:0 "Faefear Blight"
  
  PROV230:0 "Teusmd Rift"
  
@@ -438,15 +439,23 @@
  PROV701:0 "Oliartu"
  PROV702:0 "Colirea"
 
+ PROV710:0 "Bumoari"
  PROV711:0 "Eamis Pass"
- 
+ PROV712:0 "Hatea"
+ PROV713:0 "Viltare"
  PROV714:0 "Nymalas"
- 
+ PROV715:0 "Juasrae"
  PROV716:0 "Senitha"
 
+ PROV719:0 "Suarese"
+ PROV720:0 "Lojair"
+ PROV721:0 "Gumoarti"
+ PROV722:0 "Munair"
  PROV723:0 "Ilrazin"
  PROV724:0 "Sultrins Tor"
-
+ PROV725:0 "Olieura"
+ PROV726:0 "Afulosr"
+ PROV727:0 "Hokair"
  PROV728:0 "Caaimor"
  PROV728:0 "Holuri"
  PROV729:0 "Ulhora"
@@ -1445,6 +1454,7 @@
  
  PROV4679:0 "Vatalunum"
  
+ PROV4740:0 "Kpoloiar"
  PROV4741:0 "Aliort"
  PROV4742:0 "Yiolier"
  PROV4743:0 "Lortsed"

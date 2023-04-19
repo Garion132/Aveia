@@ -290,7 +290,12 @@ iron_age_monarchy_adv = {
 		is_revolutionary = no
 	}
 	trigger = {
-		NOT = { has_government_attribute_short_desc = locked_government_type }
+		if={
+			limit={
+				has_reform = bronze_league_mechanic
+			}
+			NOT = { has_government_attribute_short_desc = locked_government_type }
+		}
 		NOT= {current_age = age_of_bronze}
 	}
 	effect = {
@@ -315,7 +320,12 @@ iron_age_republic_adv = {
 		is_revolutionary  =no
 	}
 	trigger = {
-		NOT = { has_government_attribute_short_desc = locked_government_type }
+		if={
+			limit={
+				has_reform = bronze_monarchy_mechanic
+			}
+			NOT = { has_government_attribute_short_desc = locked_government_type }
+		}
 		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
 		NOT= {current_age = age_of_bronze}

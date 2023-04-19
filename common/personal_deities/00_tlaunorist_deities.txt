@@ -1,18 +1,21 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new dieties, make sure they are uniquely named.
 
-tlaulunore =
-{
+tlaulunore ={
 	legitimacy = 0.1
 	horde_unity = 0.1
 	core_creation = -0.10
 	
-	allow = { 
+	potential = { 
 		religion = tlaunorist 
+	}
+	trigger={
 		NOT={has_global_flag = "death_of_tlaulunore" }
 	}
 	sprite = 1
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 5
 		modifier = {
@@ -26,14 +29,17 @@ tlaulunore =
 	}
 }
 
-lylse =
-{
+lylse ={
 	technology_cost = -0.05
 	#build_cost = -0.1
 	
-	allow = { religion = tlaunorist }
+	potential = { 
+		religion = tlaunorist 
+	}
 	sprite = 2
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -47,17 +53,20 @@ lylse =
 	}
 }
 
-gualorhei =
-{
+gualorhei ={
 	global_sailors_modifier = 0.10
 	global_naval_engagement_modifier = 0.1
 	
-	allow = { 
-		religion = tlaunorist
+	potential = { 
+		religion = tlaunorist 
+	}
+	trigger={
 		NOT={is_religion_enabled = seriaralia}
 	}
 	sprite = 3
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -83,14 +92,17 @@ gualorhei =
 	}
 }
 
-mocrad =
-{
+mocrad ={
 	leader_land_shock = 1
 	defensiveness = 0.1
 	
-	allow = { religion = tlaunorist }
+	potential = { 
+		religion = tlaunorist 
+	}
 	sprite = 4
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -104,17 +116,20 @@ mocrad =
 	}
 }
 
-rauthalor =
-{
+rauthalor ={
 	discipline = 0.025
 	ae_impact = -0.025
 	
-	allow = { 
+	potential = { 
 		religion = tlaunorist 
+	}
+	trigger={
 		NOT={is_religion_enabled = essarania}
 	}
 	sprite = 5
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -133,17 +148,20 @@ rauthalor =
 }
 
 
-sifon =
-{
+sifon ={
 	global_tax_modifier = 0.1
 	development_cost = -0.025
 	
-	allow = { 
+	potential = { 
 		religion = tlaunorist 
+	}
+	trigger={
 		NOT = { is_religion_enabled = muthilian }
 	}
 	sprite = 6
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -157,16 +175,17 @@ sifon =
 	}
 }
 
-amirna =
-{
+amirna ={
 	spy_offence = 0.1
 	tolerance_own = 0.5
 	
-	allow = { 
+	potential = { 
 		religion = tlaunorist 
 	}
 	sprite = 7
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -180,16 +199,17 @@ amirna =
 	}
 }
 
-xoheia =
-{
+xoheia ={
 	yearly_corruption = -0.1
 	manpower_recovery_speed = 0.10
 	
-	allow = { 
+	potential = { 
 		religion = tlaunorist 
 	}
 	sprite = 8
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
