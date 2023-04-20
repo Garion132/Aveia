@@ -158,14 +158,18 @@
  PROV163:0 "Miwal Coast"
 
  PROV165:0 "Massege Coast"
-
+ PROV166:0 "Caumorn Tides"
  PROV167:0 "Noster Bay"
  PROV168:0 "East Talkian Coast"
  
+ PROV171:0 "Oliaruira"
+ 
  PROV174:0 "South Talkian Coast"
+ PROV175:0 "Falirse Depths"
  
  PROV177:0 "Saluoter"
  
+ PROV179:0 "Olokiar Exspance"
  PROV180:0 "Ventorals"
  PROV181:0 "Scalding Deeps"
  PROV182:0 "West Thilranan Coast"
@@ -210,6 +214,7 @@
  PROV283:0 "Vanafold Passage"
 
  PROV285:0 "Yhenil Sea"
+ PROV286:0 "Sartuumi"
 
  PROV308:0 "Sonhud Bay"
  
@@ -230,6 +235,8 @@
  PROV450:0 "Grurite Peaks"
 
  PROV452:0 "Faungrave Lake"
+ 
+ PROV454:0 "Anoam"
 
  PROV457:0 "Ventoral"
  
@@ -552,6 +559,7 @@
 
  PROV1006:0 "The Golden Sun"
 
+ PROV1032:0 "Mulikoar"
  PROV1033:0 "Himben"
 
  PROV1038:0 "Draumyuer"
@@ -906,7 +914,7 @@
  PROV1889:0 "Palentai"
  PROV1890:0 "Vinika Sea"
  PROV1891:0 "Nadarite Coast"
- 
+ PROV1892:0 "Lomara Gap"
  PROV1893:0 "Eritine Bay"
  PROV1894:0 "Tolirar sea"
  PROV1895:0 "Orgithadenes Lake"
@@ -917,8 +925,13 @@
  
  PROV1902:0 "Aetarens Eye"
  PROV1903:0 "Enoarth Cresant"
- 
+ PROV1904:0 "Shauman Bay"
+ PROV1905:0 "Iceburg Sounds"
  PROV1906:0 "Gughite Bay"
+ 
+ PROV1912:0 "Victuran Entrance"
+ 
+ PROV1921:0 "Samanin Sea"
  
  PROV1924:0 "Ecal"
 
@@ -1265,6 +1278,14 @@
  PROV3027:0 "Elnorei Mountain"
  PROV3028:0 "Selmic"
  PROV3029:0 "Holtic"
+ PROV3030:0 "Dolair"
+ PROV3031:0 "Cunvoar"
+ PROV3032:0 "Joliarru"
+ PROV3033:0 "Shielded Sea"
+ 
+ PROV3036:0 "Koliaur"
+ 
+ PROV3060:0 "Guoliarut"
  
  PROV3204:0 "Tealgrass"
  
@@ -1433,6 +1454,9 @@
  PROV4024:0 "Dorhanor Lake"
  PROV4025:0 "Charaydis Lake"
  
+ PROV4120:0 "Aupoeri"
+ PROV4121:0 "Ilpoair"
+ 
  PROV4256:0 "Trinari's Breach"
  
  PROV4382:0 "Grovenshield"
@@ -1531,6 +1555,8 @@
  PROV4869:0 "Midside"
  
  PROV4879:0 "Bani"
+ 
+ PROV4888:0 "Greyclif"
  
  PROV4950:0 "Bayan"
  PROV4951:0 "Handun"
