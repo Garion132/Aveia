@@ -476,8 +476,8 @@
  PROV739:0 "Sanaloe"
  PROV740:0 "Evular"
  PROV741:0 "Savumai"
- PROV742:0 "Salatu Point"
  
+ PROV743:0 "Salatu Point"
  PROV744:0 "Thamel"
 
  PROV759:0 "Tamulir"
@@ -793,6 +793,8 @@
  PROV1482:0 "Chorhaltu"
 
  PROV1501:0 "Esmilbis"
+ PROV1502:0 "Nareat"
+ PROV1503:0 "Jarmard"
  
  PROV1517:0 "Gantavir"
 
@@ -1677,6 +1679,7 @@
  PROV5340:0 "Vanatith Gap"
  PROV5341:0 "Aslon Coast"
  PROV5342:0 "Solutaai"
+ PROV5343:0 "Gazludh Peak"
  
  test_province_name:0 "Test Province Name"
  other_province_name:0 "Other Province Name"

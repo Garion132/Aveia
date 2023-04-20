@@ -567,7 +567,7 @@ NCountry = {
 	COUNTRY_DEVELOPMENT_SCALE = 600,
 	OVERSEAS_CLIENT_STATES = 0,					-- Allow overseas client states?
 
-	ESTATE_DROP_LOYALTY_IF_LOST_PRIVILEDGE = -20,
+	ESTATE_DROP_LOYALTY_IF_LOST_PRIVILEDGE = -0.2,
 	ESTATE_ANGRY_THRESHOLD = 30,
 	ESTATE_HAPPY_THRESHOLD = 60,
 	ESTATE_LOYALTY_DECAY_BASE_MIN = 2.0,		-- Loyalty change per year at middle level.
@@ -782,7 +782,6 @@ NCountry = {
 	PS_REMOVE_ACCEPTED_CULTURE = 10,
 	PS_REMOVE_ACCEPTED_CULTURE_UNREST_DURATION = 5,
 	PS_STRENGTHEN_GOVERNMENT = 100,
-	PS_BOOST_MILITARIZATION = 50,
 	PS_ESTABLISH_SIBERIAN_FRONTIER = 20,
 
 
@@ -791,8 +790,6 @@ NCountry = {
 	STRENGTHEN_GOVERNMENT_HORDE_UNITY = 10,
 	STRENGTHEN_GOVERNMENT_DEVOTION = 10,
 	STRENGTHEN_GOVERNMENT_MERITOCRACY = 10,
-
-	MIL_SOCIETY_BOOST_SIZE = 10,
 
 	CORE_COLONY = 0.5,								-- Multiplied with development, colonized by country or overseas
 	CORE_OVERSEAS = 0.5,							-- Multiplied with development, colonized by country or overseas
@@ -1518,7 +1515,7 @@ NMilitary = {
 	NAVAL_DOCTRINE_SAILORS_COST = 0.1,				-- Cost for switching naval doctrine (Share of sailors)
 	NAVAL_DOCTRINE_MIN_FORCE_LIMIT = 20,			-- Minimum naval force limit to be able to select a naval doctrine
 	LEAGUE_LEADER_CHANGE_SCORE_THRESHOLD = 1.5,		-- Score * factor needed for leader change (Compared to current leader)
-	MAX_DRILL_DECAY = 0.9,							-- Drill can never Decay with more than this value.
+	MAX_DRILL_DECAY = -0.9,							-- Drill can never Decay with more than this value.
 	MIN_DRILL_DECAY = 0,							-- Drill can never Decay with less than this value.
 	AREA_REBEL_SUPPRESSION_MULTIPLIER = 5.0,		-- Armies suppressing rebels in areas adds this/<number of suppressed provinces> to rebel suppression in affected provinces.
 
