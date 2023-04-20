@@ -25,7 +25,7 @@ technology = { #Shipbuilding
 	
 	merchants = yes
 	trade_range				=	100
-	range					= 	20
+	range					= 	50
 	enable = bireme
 	enable = trireme
 	shipwright = yes
@@ -41,7 +41,7 @@ technology = { #Sailing
 	naval_morale			=	0.1
 	enable = trade_ship
 	trade_range				=	50
-	range					= 	30
+	range					= 	50
 	port = yes
 
 	naval_engagement_width = 20
@@ -80,7 +80,7 @@ technology = { #Star Mapping
 	}
 	
 	trade_range				=	30
-	range = 10
+	range = 20
 	global_colonial_growth = 10
 	
 	
@@ -126,7 +126,7 @@ technology  = { #Optics
 	
 
 	trade_range				=	30
-	range					= 	20
+	range					= 	30
 	naval_engagement_width = 5
 	gatherers_hut = yes
 
@@ -433,7 +433,7 @@ technology = { #Colonial Charters
 		guedinan_revolution = 0.5
 	}
 
-	range = 150
+	range = 80
 	merchants_quarter = yes 
 	global_colonial_growth = 25
 	may_agitate_for_liberty = yes

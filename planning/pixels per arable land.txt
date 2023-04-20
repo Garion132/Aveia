@@ -1,0 +1,8 @@
+P/A
+
+Pixels per Arable land
+
+ID      Prov                    Pixels      Arable Land     P/A
+771     Shemsele                480         19              25
+949     Lindoremy               725         24              30
+1219    Bethyr                  348         11              32
