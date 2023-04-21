@@ -1149,7 +1149,7 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0 
-				current_income_balance = 5
+				monthly_income = 25
 			}
 		}
 	}
@@ -1167,7 +1167,7 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 0 
-				current_income_balance = 10
+				monthly_income = 50
 			}
 		}
 	}
@@ -1185,7 +1185,7 @@ country_event = {
 			factor = 30
 			modifier = {
 				factor = 0 
-				NOT = { current_income_balance = 5 }
+				NOT = { monthly_income = 25 }
 			}
 		}
 	}

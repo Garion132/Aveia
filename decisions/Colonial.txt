@@ -9,7 +9,10 @@ country_decisions = {
             }
             is_subject = no
 			is_colonial_nation = no
-            technology_group = lake_elves_group
+			OR = {
+            	technology_group = lake_elves_group
+				num_of_colonists = 1
+			}
             any_owned_province = {
                 has_port = yes
             }
@@ -44,11 +47,11 @@ country_decisions = {
 			factor = 5
             modifier = {
                 factor = 0.2
-                NOT = { current_income_balance = 10 }
+                NOT = { current_income_balance = 5 }
             }
             modifier = {
                 factor = 0
-                NOT = { current_income_balance = 6 }
+                NOT = { current_income_balance = 3 }
             }
             modifier = {
                 factor = 0
@@ -408,11 +411,11 @@ country_decisions = {
             }
             modifier = {
                 factor = 0.2
-                NOT = { current_income_balance = 8 }
+                NOT = { current_income_balance = 6 }
             }
             modifier = {
                 factor = 0
-                NOT = { current_income_balance = 3 }
+                NOT = { current_income_balance = 2 }
             }
 		}
 	}
@@ -443,9 +446,20 @@ country_decisions = {
 			has_country_modifier = scramble_for_elteria
 			navy_size = 1
 
-			any_owned_province = {
-				region = craine_islands
-				is_city = yes
+			OR = {
+				any_owned_province = {
+					region = craine_islands
+					is_city = yes
+				}
+				AND = {
+					is_year = 1300
+					total_development = 200
+				}
+				AND = {
+					is_year = 1310
+					total_development = 100
+				}
+				is_year = 1320
 			}
 			NOT = { has_country_flag = planned_colonial_expedition }
 			NOT = { has_country_flag = sent_colonial_expedition }
@@ -466,14 +480,28 @@ country_decisions = {
 		}
 
 		ai_will_do = {
-			factor = 5
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					treasury = 700
+					monthly_income = 25
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					treasury = 500
+					monthly_income = 15
+				}
+			}
 			modifier = {
 				factor = 0
 				NOT = {
 					adm_power = 150
 					dip_power = 75
 					mil_power = 150
-					treasury = 500
+					treasury = 300
 				}
 			}
 		}
@@ -1715,10 +1743,6 @@ country_decisions = {
 				factor = 0
 				navy_size = 1
 				has_country_modifier = scramble_for_elteria
-				any_owned_province = {
-					region = craine_islands
-					is_city = yes
-				}
 				NOT = { has_global_flag = palentai_full }
 				NOT = { has_global_flag = deerok_full }
 				NOT = { has_global_flag = morredh_full }
@@ -1745,11 +1769,11 @@ country_decisions = {
 		}
 		allow = {
 			adm_power = 100
-			treasury = 300
+			treasury = 200
 		}
 		effect = {
 			add_adm_power = -100
-			add_treasury = -300
+			add_treasury = -200
             add_country_modifier = { 
                 name = elteria_colonial_office
                 duration = 18220
