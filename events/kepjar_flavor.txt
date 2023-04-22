@@ -126,5 +126,6 @@ country_event = {
 	option = {
 		name = kepjar_flavor.9.a
 		change_religion = forebearist
+		set_country_flag = was_saserjial
 	}
 }

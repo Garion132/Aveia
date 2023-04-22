@@ -1,0 +1,41 @@
+northern_spirit = {
+	global_unrest = -1
+
+	allow = {
+		religion = forebearist
+	}
+	sprite = 8
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}
+saserjial = {
+	legitimacy = 0.1
+
+	allow = {
+		religion = forebearist
+		has_country_flag = was_saserjial
+	}
+	sprite = 3
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}

@@ -476,7 +476,7 @@
  PROV739:0 "Sanaloe"
  PROV740:0 "Evular"
  PROV741:0 "Savumai"
- 
+ PROV742:0 "Uayutrea"
  PROV743:0 "Salatu Point"
  PROV744:0 "Thamel"
 
@@ -1680,6 +1680,8 @@
  PROV5341:0 "Aslon Coast"
  PROV5342:0 "Solutaai"
  PROV5343:0 "Gazludh Peak"
+ 
+ PROV5350:0 "Cyoloai Ridge"
  
  test_province_name:0 "Test Province Name"
  other_province_name:0 "Other Province Name"
