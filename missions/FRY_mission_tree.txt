@@ -314,7 +314,11 @@ FRY_mission_5 = {
 
         }
         effect = {
-
+            add_country_modifier = { 
+                name = strong_army
+                duration = -1  
+                hidden = yes
+            }
         }
     }
     FRY_Recruit_Van_De_Brasse = {
@@ -346,7 +350,11 @@ FRY_mission_5 = {
 
         }
         effect = {
-
+            add_country_modifier = { 
+                name = strong_navy
+                duration = -1  
+                hidden = yes
+            }
         }
     }
     FRY_For_The_Coming_Storm = {

@@ -68,4 +68,12 @@ enhanced_production = {
     production_efficiency = 0.05
     state_maintenance_modifier = 0.05
 }
+strong_army = {
+    may_recruit_female_generals = yes
+    land_forcelimit_modifier = 0.3
+}
+strong_navy = {
+    naval_maintenance_modifier = -0.1
+    naval_forcelimit_modifier = 0.3
+}
 
