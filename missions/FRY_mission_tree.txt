@@ -115,7 +115,7 @@ FRY_mission_2 = {
     }
 }
 FRY_mission_3 ={
-    slot = 2
+    slot = 1
     generic = no
     ai = yes
     potential = {
@@ -167,7 +167,7 @@ FRY_mission_3 ={
     }
 }
 FRY_mission_4 = {
-    slot = 1
+    slot = 3
     generic = no
     ai = yes
     potential = {
@@ -317,7 +317,7 @@ FRY_mission_5 = {
     }
 }
 FRY_mission_6 = {
-    slot = 3
+    slot = 1
     generic = no
     ai = yes
     potential = {
