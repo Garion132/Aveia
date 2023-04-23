@@ -1502,7 +1502,18 @@ country_event = {
 	# }
 	
 	trigger={
-		owns = 2554
+		technology_group = northern_men_group
+		OR={
+			AND={
+				2554={
+					owner = {
+						NOT={technology_group = northern_men_group}
+					}
+				}
+				owns = 2617
+			}
+			owns = 2554
+		}
 		has_global_flag = iron_age_calamity
 	}
 	fire_only_once = yes
