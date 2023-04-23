@@ -28,7 +28,7 @@ change_estate_land_share = {
 		dynasty = "Freyer"
 		birth_date = 1238.12.3
 		adm = 5
-		dip = 2
+		dip = 3
 		mil = 3
 	}
 	heir = {
