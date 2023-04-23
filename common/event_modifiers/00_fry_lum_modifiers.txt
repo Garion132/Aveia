@@ -1,0 +1,49 @@
+##FRY MODIFIERS##
+
+#Spectres
+spectre_of_menor = {
+
+}
+
+#Colonialism mission
+colonial_promotion = {
+	colonist_placement_chance = 0.10
+    global_colonial_growth = 10
+}
+colonial_enthusiasm = {
+    colonist_placement_chance = 0.15
+    global_colonial_growth = 20
+}
+colonial_frenzy = {
+    colonist_placement_chance = 0.20
+    global_colonial_growth = 25
+}
+taente = {
+    colonist_placement_chance = 0.25
+    global_colonial_growth = 40
+}
+
+#Development mission
+enriched_people = {
+
+}
+enriched_cities = {
+
+}
+enriched_land = {
+
+}
+enriched_military = {
+
+}
+
+#Advancement mission
+advance_in_thought = {
+
+}
+advance_in_speech = {
+
+}
+advance_in_will = {
+
+}
