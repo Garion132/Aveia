@@ -10,7 +10,7 @@ CYU_mid_colum_1 = {
 		icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
-		trigger = { 
+		trigger = {
 			controls = 720
 			controls = 713
 			ilrazin_lesser={
@@ -20,27 +20,26 @@ CYU_mid_colum_1 = {
 				owned_by = CYU
 			}
 		}
-		effect = { 
-			every_owned_province = { 
+		effect = {
+			every_owned_province = {
 				if={
 					limit = {
 						is_core = ILR
 						NOT={is_core = ROOT}
 					}
-					add_province_modifier  = { 
+					add_province_modifier  = {
 						name = CYU_coring_cost_ILR
 						duration = 365
 					}
 				}
 			}
-			
 		}
 	}
 	CYU_legion = {
 		icon = mission_build_up_to_force_limit
 		position = 2
 		required_missions = { CYU_take_ilrazin }
-		trigger = { 
+		trigger = {
 			army_size = 25
 		}
 		effect = {
@@ -63,10 +62,6 @@ CYU_mid_left_colum_1 = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { CYU_legion }
-		trigger = { 
-			controls = 645
-			controls = 646
-		}
 		provinces_to_highlight = {
 			OR={
 				province_id = 645
@@ -74,11 +69,23 @@ CYU_mid_left_colum_1 = {
 			}
 			NOT={country_or_non_sovereign_subject_holds = ROOT}
 		}
-		effect = { 
+		trigger = {
+			controls = 645
+			controls = 646
+		}
+		effect = {
 			add_adm_power = 300
 		}
 	}
+	CYU_waves_of_the_elves = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { CYU_peninsular_power }
+		trigger = { }
+		effect = { }
+	}
 }
+
 CYU_mid_right_colum_1 = {
 	slot = 4
 	generic = no
@@ -91,11 +98,6 @@ CYU_mid_right_colum_1 = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { CYU_legion }
-		trigger = { 
-			controls = 649
-			controls = 648
-			controls = 647
-		}
 		provinces_to_highlight = {
 			OR={
 				province_id = 649
@@ -104,9 +106,21 @@ CYU_mid_right_colum_1 = {
 			}
 			NOT={country_or_non_sovereign_subject_holds = ROOT}
 		}
-		effect = { 
+		trigger = {
+			controls = 649
+			controls = 648
+			controls = 647
+		}
+		effect = {
 			add_adm_power = 300
 		}
+	}
+	CYU_power_of_cyuegian_state = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { CYU_peninsular_power }
+		trigger = { }
+		effect = { }
 	}
 }
 
@@ -122,7 +136,7 @@ CYU_mid_colum_2 = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { CYU_crush_menor CYU_crush_adralas }
-		trigger = { 
+		trigger = {
 			is_state_core = 645
 			is_state_core = 648
 			is_state_core = 646
@@ -131,7 +145,7 @@ CYU_mid_colum_2 = {
 				area = anoruine
 			}
 		}
-		effect = { 
+		effect = {
 			645={add_center_of_trade_level = 1}
 			648={add_center_of_trade_level = 1}
 			646={
@@ -139,7 +153,140 @@ CYU_mid_colum_2 = {
 				add_base_production = 1
 				add_base_manpower = 1
 			}
-			
 		}
 	}
+	CYU_peninsular_power = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { CYU_great_port_cities CYU_dominate_peninsular_trade }
+		trigger = { }
+		effect = { }
+	}
 }
+
+CYU_left_colum_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYU
+	}
+
+	CYU_integrate_ilrazin = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { CYU_take_ilrazin }
+		provinces_to_highlight = {
+			is_core = ILR
+			NOT={ is_core = CYU}
+		}
+		trigger = {
+			ILR={
+				all_core_province={
+					is_core = CYU
+				}
+			}
+		}
+		effect = { }
+	}
+	CYU_build_navy = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { CYU_integrate_ilrazin }
+		trigger = {
+			OR={
+							num_of_galley = 20
+							num_of_light_ship = 20
+						}
+		}
+		effect = { }
+	}
+	CYU_dominate_peninsular_trade = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { CYU_build_navy }
+		trigger = { }
+		effect = { }
+	}
+	CYU_elterian_colony = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { CYU_peninsular_power }
+		trigger = { }
+		effect = { }
+	}
+}
+
+CYU_right_colum_1 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = CYU
+	}
+
+	CYU_stance_on_NAD = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { CYU_take_ilrazin }
+		trigger = {
+			OR={
+				AND={
+					alliance_with = NAD
+					NAD={
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}
+					}
+				}
+				is_rival = NAD
+			}
+		}
+		effect = {
+			if={
+				limit={
+					alliance_with = NAD
+				}
+				add_trust = {
+					who = NAD
+					value = 25
+					mutual = yes
+				}
+			}
+			else={
+				hinnocrin={
+					add_permanent_claim = CYU
+				}
+				nadarme={
+					add_permanent_claim = CYU
+				}
+				myranhasanar={
+					add_permanent_claim = CYU
+				}
+			}
+		}
+	}
+	CYU_march_cyloa = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { CYU_legion CYU_stance_on_NAD }
+		trigger = { }
+		effect = { }
+	}
+	CYU_fields_of_otrcyueg = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { CYU_peninsular_power }
+		trigger = { }
+		effect = { }
+	}
+	CYU_breadbasket_of_the_west = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { CYU_fields_of_otrcyueg }
+		trigger = { }
+		effect = { }
+	}
+}
+

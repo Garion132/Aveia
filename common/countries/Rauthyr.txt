@@ -56,19 +56,7 @@ ship_names = {
 }
 
 leader_names = {
-        d'Alenduy d'Artigoity d'Arzilli�res
-        "de Balatier" "de Balayne" "de Baleine" "Beaufort de Pothemont" "de Beaurepaire" "Bellot de Ferreux" "de Brancourt" "de Brienne" "de Broye" "de Bruce"
-        "Cauchon de Vercinay" "de Charbogne" "de Chassy" "du Ch�telet" "de Ch�tillon" Clausse "de Coucy" "de Courtenay" "de Cr�cy" "de Croy"
-        d'Espinoy
-        "de Failly"
-        "de Grandpr�" "de Grignon"
-        "du Hamel" "de Houx"
-        "de Joigny" "de Joinville"
-        "de La Fontaine" "de Lalaing" "de Lantages" "de Lavis�" "de Lezines" "de Lom�nie"
-        P�rignon "de Plancy" "du Prat"
-        "de Rethel" "de Roucy" "de Rumigny"
-        "de Saint Belin" "de Saint Cheron" "de Sergine"
-        "de Vauclerois" "de Vergy" "de Verri�res" "de Villeprouv�e"
+        "Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
 }
 
 army_names = {

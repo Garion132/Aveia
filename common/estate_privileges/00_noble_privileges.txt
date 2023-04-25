@@ -627,7 +627,8 @@ estate_draumi_grant_principlaity_rights = {
 		DRA = {exists = no}
 	}
 	on_granted = {
-		create_vassal = DRA
+		release = DRA
+		create_march = DRA
 	}
 	on_revoked = {
 		inherit = DRA
