@@ -258,7 +258,11 @@ FRY_mission_4 = {
 
         }
         effect = {
-
+            add_country_modifier = { 
+                name = unhappy_clergy
+                duration = 180  
+                hidden = no
+            }
         }
     }
     FRY_Introduce_Standard_Banking = {
@@ -410,7 +414,11 @@ FRY_mission_6 = {
 
         }
         effect = {
-
+            add_country_modifier = { 
+                name = merchant_collusion
+                duration = 240 
+                hidden = no
+            }
         }
     }
     FRY_Promote_Unified_Culture = {
