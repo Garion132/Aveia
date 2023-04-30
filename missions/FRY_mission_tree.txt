@@ -22,7 +22,7 @@ FRY_mission_1 = {
         position = 2
         required_missions = { FRY_The_Grand_Dream }
         trigger = {
-
+            dip_power = 300
         }
         effect = {
             add_country_modifier = { 
@@ -30,6 +30,7 @@ FRY_mission_1 = {
                 duration = -1  
                 hidden = yes
             }
+            add_dip_power = -300
         }
     }
     FRY_Enriching_The_Cities = {
@@ -221,7 +222,13 @@ FRY_mission_4 = {
             2406 = {
                 change_trade_goods = grain
             }
-            add_next_institution_embracement = 10
+            2417 = {
+                change_trade_goods = grain
+            }
+            2408 = {
+                change_trade_goods = grain
+            }
+            add_institution_embracement = { which = crop_rotation value = 1 }
         }
     }
     FRY_Advance_In_Thought = {
@@ -315,7 +322,7 @@ FRY_mission_5 = {
         position = 8
         required_missions = {FRY_Advance_In_Will}
         trigger = {
-
+            army_professionalism = 0.10
         }
         effect = {
             add_country_modifier = { 
@@ -429,7 +436,11 @@ FRY_mission_6 = {
 
         }
         effect = {
-
+            add_country_modifier = { 
+                name = unified_culture
+                duration = 240 
+                hidden = no
+            }
         }
     }
     FRY_Establish_The_Merchant_Bank = {
@@ -444,5 +455,5 @@ FRY_mission_6 = {
         }
     }
 }
-}
+
 
