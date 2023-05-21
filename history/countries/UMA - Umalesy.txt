@@ -3,7 +3,7 @@ add_government_reform = palace_economy
 primary_culture = doneri
 religion = tlaunorist
 technology_group = ork_group
-capital = 1657 # 
+capital = 1665 # 
 #national_focus = DIP
 #historical_rival = HAB
 

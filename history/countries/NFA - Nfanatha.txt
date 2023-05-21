@@ -21,22 +21,22 @@ change_estate_land_share = {
 }
 
 
-1234.9.16 = {
+1194.9.16 = {
 	monarch = {
 		name = "Eloric III"
 		dynasty = "Nfana"
-		birth_date = 1234.12.3
+		birth_date = 1134.12.3
 		adm = 4
 		dip = 3
 		mil = 3
 	}
 }
-1257.4.3 ={
+1227.4.3 ={
 	heir = {
 		name = "Eloric"
 		monarch_name = "Eloric IV"
-		dynasty = "Thyrin"
-		birth_date = 1257.4.3
+		dynasty = "Nfana"
+		birth_date = 1227.4.3
 		death_date = 1388.12.22
 		claim = 95
 		adm = 3
