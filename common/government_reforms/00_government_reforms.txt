@@ -248,6 +248,9 @@ palace_economy = {
 		global_tax_modifier = 0.05
 		global_autonomy = -0.025
 	}
+	government_abilities = {
+		monumentality_mechanic
+	}
 	ai = {
 		factor = 1
 		modifier = {
@@ -276,6 +279,9 @@ oayvein_grand_dutchy_legacy = {
 	nation_designer_trigger = {
 		always = no
 	}
+	government_abilities = {
+		monumentality_mechanic
+	}
 
     fixed_rank = 1
 	modifiers = {
@@ -297,6 +303,9 @@ oayvein_grand_dutchy_reform = {
 		governing_capacity = 150
 		global_unrest = -1
 		global_tax_modifier = 0.05
+	}
+	government_abilities = {
+		monumentality_mechanic
 	}
 	fixed_rank = 1
 	monarchy = yes
@@ -373,6 +382,9 @@ kyathian_council = {
 		church_influence_modifier = 0.05
 		burghers_influence_modifier = -0.05
 	}
+	government_abilities = {
+		monumentality_mechanic
+	}
 	ai = {
 		factor = 1
 		modifier = {
@@ -403,6 +415,9 @@ kyathian_council_reform = {
 		church_influence_modifier = 0.05
 		burghers_influence_modifier = -0.05
 	}
+	government_abilities = {
+		monumentality_mechanic
+	}
 	monarchy = yes
 	valid_for_nation_designer = no
 	icon = "castle"
@@ -432,6 +447,9 @@ rauosuan_hegemony = {
 		nobles_influence_modifier = -0.1
 		burghers_influence_modifier = -0.1
 		governing_capacity = 150
+	}
+	government_abilities = {
+		monumentality_mechanic
 	}
 	ai = {
 		factor = 1
@@ -469,6 +487,9 @@ rauosuan_hegemony_reform = {
 		burghers_influence_modifier = -0.1
 		governing_capacity = 150
 	}
+	government_abilities = {
+		monumentality_mechanic
+	}
 
 	custom_attributes = {
 		locked_government_type = yes
@@ -492,6 +513,9 @@ faun_confederation = {
 		nobles_influence_modifier = -0.1
 		burghers_influence_modifier = -0.1
 		governing_capacity = 300
+	}
+	government_abilities = {
+		monumentality_mechanic
 	}
 	ai = {
 		factor = 1
@@ -524,6 +548,9 @@ faun_confederation_reform = {
 		production_efficiency = 0.1
 		global_tax_modifier = 0.05
 		global_autonomy = -0.025
+	}
+	government_abilities = {
+		monumentality_mechanic
 	}
 	ai = {
 		factor = 1

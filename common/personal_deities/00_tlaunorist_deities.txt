@@ -2,8 +2,7 @@
 # If adding new dieties, make sure they are uniquely named.
 
 tlaulunore ={
-	legitimacy = 0.1
-	horde_unity = 0.1
+	monthly_godly_favor = 0.1
 	core_creation = -0.10
 	
 	potential = { 

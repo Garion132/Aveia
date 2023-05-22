@@ -166,6 +166,7 @@
 			devotion = 0.5
 			monthly_fervor_increase = 0.25
 			church_power_modifier = 0.1
+			monthly_godly_favor = 0.2
 		}
 		religious_tradition = {
 			prestige = 1
