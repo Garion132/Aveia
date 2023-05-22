@@ -200,6 +200,19 @@
   iron_age_calamity.203.t:0 "The Iron Crown"
   iron_age_calamity.203.opt.a:0 "Let Them Know War"
   
+  iron_age_calamity.248.t:0 "Humans Gather at the Frontier"
+  iron_age_calamity.248.d:0 "After seizing Ghand, humans loyal to us have warned us of large troop movements beyond our borders within the Donamenz. They advise us that taking control of the capital of the most notable human tribe is not only an unwise decision but likely to end in our ruin. The reports are corroborated by testimonies from border garrisons that have noted an increase in scouting all along the frontier.\n\nIt is likely that if we stay in Ghand that we will face an army that we may not be able to deal with. However, if we abandon our lands in Donamenz, then we may be able to avoid conflict."
+  iron_age_calamity.248.opt.a:0 "Let Them Know War"
+  iron_age_calamity.248.opt.b:0 "Appease them by vacating Ghand"
+  iron_age_calamity.248.opt.c:0 "Get out of there!"
+  ghand_taken_stay_tt:0 "Every §YHuman Tribe§! gains §R100§! Aggressive Expansion, §R10,000§! Manpower, §R50.00§! Ducats, and §R1§! Military Tech§!"
+  ghand_taken_vacate_tt:0 "Every §YHuman Tribe§! gains §R30§! Aggressive Expansion"
+  ghand_taken_leave_tt:0 "Every Province in §YDonamenz§! is given to §YGhand§!."
+
+  iron_age_calamity.249.t:0 "Lost Control of Ghand"
+  iron_age_calamity.249.d:0 "In our conflict against the human hordes, we have lost control of the centerpiece, Ghand. Thus, our lands in the Donamenz have been completely lost."
+  iron_age_calamity.249.opt.a:0 "We have lost control"
+  
  institution_events.1.t:0 "Crop Rotation!"
  institution_events.2.t:0 "Iron Working!"
  institution_events.2.d:0 "Since the 14th century, the wealthy and powerful in the Italian City states have been patronizing artists and scholars willing to explore the old Roman and Greek societies of their forefathers. As a cultural movement the Renaissance already encompasses most of the region and has had a profound impact on literature, art, philosophy and music. Humanist scholars are also analyzing the society in which they live, comparing it to the ideals of the classical philosophers. At the turn of $YEAR$ Renaissance humanism has grown into a more mature movement, ready to permeate all aspects of society. A new ideal for rulers as well as those who are ruled is spreading as quickly as the early printers can distribute copies of these new ideas. A true Renaissance humanist is an expert on everything from politics and philosophy to art, textual analysis, music and architecture. The Renaissance is now ready to reshape the world to better fit the classical ideals."

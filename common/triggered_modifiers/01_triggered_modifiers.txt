@@ -485,6 +485,18 @@ iron_smithing_modifier = {
 	}
 	technology_cost = -0.5
 }
+human_homeland_defense = {
+	potential = {
+		NOT = { is_year = 1370 }
+		technology_group = northern_men_group
+	}
+	trigger = {
+		NOT = { is_year = 1370 }
+		technology_group = northern_men_group
+		at_war_with_religious_enemy = yes
+	}
+	own_territory_dice_roll_bonus = 5
+}
 
 fix_colonial_ai_modifier = {
 	potential = {

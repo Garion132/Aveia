@@ -1738,6 +1738,205 @@ country_event = {#sweaping south
 	}
 }
 
+# Non-Human Owning Ghand (Humans Gather at the Frontier)
+country_event = {
+	id = iron_age_calamity.248
+	title = "iron_age_calamity.248.t"
+	desc = "iron_age_calamity.248.d"
+	picture = NATIVES_eventPicture
+	
+	major = yes #Everyone gets this
+	
+	#is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = ghand_taken
+	}
+	
+	trigger={
+		NOT = { has_global_flag = iron_age_calamity_eruption }
+		NOT = { is_year = 1370 }
+		owns = 2556 # Ghand
+		NOT = { technology_group = northern_men_group }
+		NOT = { has_country_flag = ghand_taken }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {	# Let Them Know War
+		name = "iron_age_calamity.248.opt.a"
+		highlight = yes
+		add_prestige = 50
+
+		2556 = {
+			add_building = fort_15th
+		}
+
+		custom_tooltip = ghand_taken_stay_tt
+		hidden_effect = {
+			every_country = {
+				limit = {
+					culture = donamenz
+				}
+				add_aggressive_expansion = {
+					who = PREV
+					value = 100
+					apply_calc = no
+				}
+				add_manpower = 10
+				add_treasury = 50
+				add_mil_tech = 1
+			}
+		}
+	}
+	option = {	# Appease them by vacating Ghand
+		name = "iron_age_calamity.248.opt.b"
+		clr_country_flag = ghand_taken
+		add_prestige = -5
+
+		2556 = {
+			add_core = GHA
+			cede_province = GHA
+			remove_core = PREV
+			hidden_effect = {
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+			}
+		}
+		hidden_effect = {
+			GHA = {
+				set_capital = 2556
+				add_manpower = 10
+			}
+		}
+
+		custom_tooltip = ghand_taken_vacate_tt
+		hidden_effect = {
+			every_country = {
+				limit = {
+					culture = donamenz
+				}
+				add_aggressive_expansion = {
+					who = PREV
+					value = 30
+					apply_calc = no
+				}
+			}
+		}
+	}
+	option = {	# Get out of there!
+		name = "iron_age_calamity.248.opt.c"
+		clr_country_flag = ghand_taken
+		add_prestige = -15
+
+		custom_tooltip = ghand_taken_leave_tt
+		hidden_effect = {
+			donamenz_region = {
+				limit = {
+					owned_by = PREV
+				}
+				
+				add_core = GHA
+				cede_province = GHA
+				remove_core = PREV
+			}
+			GHA = {
+				set_capital = 2556
+				add_manpower = 20
+			}
+			2556 = {
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+				infantry = GHA
+			}
+			every_country = {
+				limit = {
+					culture = donamenz
+				}
+				add_aggressive_expansion = {
+					who = PREV
+					value = -30
+					apply_calc = no
+				}
+			}
+		}
+	}
+}
+# Lost Control of Ghand
+country_event = {
+	id = iron_age_calamity.249
+	title = "iron_age_calamity.249.t"
+	desc = "iron_age_calamity.249.d"
+	picture = NATIVES_eventPicture
+	
+	#major = yes #Everyone gets this
+	
+	#is_triggered_only = yes
+	
+	trigger={
+		NOT = { is_year = 1380 }
+		has_country_flag = ghand_taken
+		is_at_war = yes
+		NOT = {
+			controls = 2556 # Ghand
+		}
+		2556 = {
+			controller = {
+				culture = donamenz
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {	# We have lost control
+		name = "iron_age_calamity.249.opt.a"
+		clr_country_flag = ghand_taken
+		add_prestige = -20
+
+		custom_tooltip = ghand_taken_leave_tt
+		hidden_effect = {
+			donamenz_region = {
+				limit = {
+					owned_by = PREV
+				}
+				
+				add_core = GHA
+				cede_province = GHA
+				remove_core = PREV
+			}
+			GHA = {
+				set_capital = 2556
+				add_manpower = 20
+			}
+			every_country = {
+				limit = {
+					culture = donamenz
+				}
+				add_aggressive_expansion = {
+					who = PREV
+					value = -60
+					apply_calc = no
+				}
+			}
+		}
+	}
+}
+
 #######################
 
 #Disaster Events Continued (Specifically relating to Decisions)

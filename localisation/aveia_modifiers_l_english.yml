@@ -37,6 +37,9 @@
  GOV_CAP_150:0 "Governing Capacity Usage is over 150%"
  GOV_CAP_200:0 "Governing Capacity Usage is over 200%"
 
+ iron_smithing_modifier:0 "Iron Smithing"
+ human_homeland_defense:0 "Human Homeland Defense"
+
  economic_recession:0 "Economic Recession: Market Solution"
  desc_economic_recession:0 "The country has fallen into hard times as factories and businesses close, unemployment rates soar, and people go hungry. The response has been to let markets handle the problem, leading to general discontent."
  economic_recession_bailouts:0 "Economic Recession: Bailouts"
