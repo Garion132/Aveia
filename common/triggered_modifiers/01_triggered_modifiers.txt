@@ -294,17 +294,16 @@ modern_age_army = {
 tlaunorist_iwenlumy = {
 	potential = {
 		normal_or_historical_nations = yes
-		has_discovered = 80	# Iwenlumy
+		has_discovered = 3912 # Kaleere
 		religion_group = tlaulunorism
 		NOT = { religion = cult_progress }
 	}
 
 	trigger = {	
-		owns_or_vassal_of = 80 # Iwenlumy
+		owns_or_vassal_of = 3912 # Kaleere
 	}
 
-	tolerance_own = 1
-	monthly_splendor = 4
+	monthly_godly_favor = 0.1
 	prestige_decay = -0.01
 	diplomatic_reputation = 2
 	#icon = 9
