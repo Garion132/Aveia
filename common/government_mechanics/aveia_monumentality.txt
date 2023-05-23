@@ -9,6 +9,7 @@ monumentality_mechanic = {
 
 	powers = {
 		godly_favor = {
+			gui = monumentality_gov_mech_power
 			max = 100
 			default = 80
 			base_monthly_growth = -0.2
@@ -78,7 +79,7 @@ monumentality_mechanic = {
 	
 	interactions = {
 		offer_sacrifice = {
-			#gui = militarization_gov_mech
+			gui = monumentality_gov_mech_sacc
 			cost_type = godly_favor
 			center = no
 			trigger = {
@@ -132,7 +133,7 @@ monumentality_mechanic = {
 			}
 		}
 		build_monument = {
-			#gui = militarization_gov_mech
+			gui = monumentality_gov_mech_build_1
 			cost_type = godly_favor
 			center = no
 			trigger = {
@@ -191,7 +192,7 @@ monumentality_mechanic = {
 			}
 		}
 		start_grand_project = {
-			#gui = militarization_gov_mech
+			gui = monumentality_gov_mech_build_2
 			cost_type = godly_favor
 			center = no
 			trigger = {
@@ -227,6 +228,72 @@ monumentality_mechanic = {
 					treasury = 300
 					years_of_income = 1.5
 				}
+			}
+		}
+		raid_monument = {
+			gui = monumentality_gov_mech_pay_1
+			center = no
+			trigger = {
+				has_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 10
+				}
+			}
+			effect = { 
+				add_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = -10
+				}
+			}
+			cooldown_years = 0
+			ai_chance = {
+				factor = 0
+			}
+		}
+		godly_blessing = {
+			gui = monumentality_gov_mech_pay_2
+			center = no
+			trigger = {
+				has_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 10
+				}
+			}
+			effect = { 
+				add_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = -10
+				}
+			}
+			cooldown_years = 0
+			ai_chance = {
+				factor = 0
+			}
+		}
+		bless_dynasty = {
+			gui = monumentality_gov_mech_pay_3
+			center = no
+			trigger = {
+				has_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 10
+				}
+			}
+			effect = { 
+				add_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = -10
+				}
+			}
+			cooldown_years = 0
+			ai_chance = {
+				factor = 0
 			}
 		}
 	}

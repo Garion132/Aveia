@@ -453,4 +453,56 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+	progressbartype = {
+		name = "GFX_monumentality_power_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/monumentality/monumentality_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/monumentality/monumentality_progress_bar_empty.dds"
+		size = { x = 260 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	spriteType = {
+		name = "GFX_monumentality_frame"
+		texturefile = "gfx//interface//government_mechanics/monumentality/monumentality_frame.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_monumentality_favor_spend_blessing"
+		texturefile = "gfx//interface//government_mechanics/monumentality/monumentality_favor_spend_blessing.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_monumentality_favor_spend_dynastic"
+		texturefile = "gfx//interface//government_mechanics/monumentality/monumentality_favor_spend_dynastic.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_monumentality_favor_spend_raid_m"
+		texturefile = "gfx//interface//government_mechanics/monumentality/monumentality_favor_spend_raid_m.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_monumentality_sacc"
+		texturefile = "gfx//interface//government_mechanics/monumentality/monumentality_sacc.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_monumentality_favor_gain_monument"
+		texturefile = "gfx//interface//government_mechanics/monumentality/monumentality_build_monument_button.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_monumentality_favor_gain_great_project"
+		texturefile = "gfx//interface//government_mechanics/monumentality/monumentality_grand_project_button.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_monumentality_gov_mech_build"
+		texturefile = "gfx//interface//government_mechanics/monumentality/monumentality_constuction_strip.dds"
+		noOfFrames = 4
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 }

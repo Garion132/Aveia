@@ -1,0 +1,94 @@
+guiTypes = {
+	windowType = {
+		name = "monumentality_gov_mech_power"
+		size = { x = 300 y = 31 }
+		moveable = 0
+                
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = { 
+			name = "government_power_bar"
+			spriteType = "GFX_monumentality_power_bar"
+			position = { x = 18 y = 4 }
+		}       
+
+		# Frame
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_monumentality_frame"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}       
+	}
+	windowType = {
+		name = "monumentality_gov_mech_sacc"
+		size = { x = 202 y = 52 }
+		moveable = 0
+               
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_monumentality_sacc"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}      
+	}
+	windowType = {
+		name = "monumentality_gov_mech_build_1"
+		size = { x = 48 y = 44 }
+		moveable = 0
+               
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_monumentality_favor_gain_monument"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "monumentality_gov_mech_build_2"
+		size = { x = 48 y = 44 }
+		moveable = 0
+               
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_monumentality_favor_gain_great_project"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "monumentality_gov_mech_pay_1"
+		size = { x = 71 y = 37 }
+		moveable = 0
+               
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_monumentality_favor_spend_raid_m"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "monumentality_gov_mech_pay_2"
+		size = { x = 71 y = 37 }
+		moveable = 0
+               
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_monumentality_favor_spend_blessing"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "monumentality_gov_mech_pay_3"
+		size = { x = 71 y = 37 }
+		moveable = 0
+               
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_monumentality_favor_spend_dynastic"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+}
