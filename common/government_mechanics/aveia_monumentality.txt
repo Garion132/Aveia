@@ -86,9 +86,9 @@ monumentality_mechanic = {
 			cost_type = godly_favor
 			center = no
 			trigger = {
-				adm_power = 24
-				dip_power = 24
-				mil_power = 24
+				adm_power = 50
+				dip_power = 50
+				mil_power = 50
 				not = {
 					has_government_power = {
 						mechanic_type = monumentality_mechanic
@@ -98,16 +98,16 @@ monumentality_mechanic = {
 				}
 			}
 			effect = { 
-				add_adm_power = -24
-				add_dip_power = -24
-				add_mil_power = -24
+				add_adm_power = -50
+				add_dip_power = -50
+				add_mil_power = -50
 				add_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
-					value = 5
+					value = 10
 				}
 			}
-			cooldown_years = 2
+			cooldown_years = 4
 			ai_chance = {
 				factor = 10
 				modifier = {
@@ -116,7 +116,7 @@ monumentality_mechanic = {
 						has_government_power = {
 							mechanic_type = monumentality_mechanic
 							power_type = godly_favor
-							value = 80
+							value = 90
 						}
 					}
 					adm_power = 200
@@ -237,13 +237,15 @@ monumentality_mechanic = {
 			gui = monumentality_gov_mech_pay_1
 			center = no
 			trigger = {
+				has_any_disaster = yes
 				has_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
 					value = 10
 				}
 			}
-			effect = { 
+			effect = {
+				add_years_of_income = 0.25
 				add_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
@@ -262,17 +264,114 @@ monumentality_mechanic = {
 				has_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
-					value = 10
+					value = 25
+				}
+				OR = {
+					NOT = { religion = tlaunorist }
+					has_personal_deity = tlaulunore
+					has_personal_deity = lylse
+					has_personal_deity = gualorhei
+					has_personal_deity = mocrad
+					has_personal_deity = rauthalor
+					has_personal_deity = sifon
+					has_personal_deity = amirna
+					has_personal_deity = xoheia
 				}
 			}
 			effect = { 
+				if = {
+					limit = {
+						uses_personal_deities = yes
+					}
+					if = {
+						limit = {
+							has_personal_deity = tlaulunore
+						}
+						add_country_modifier = {
+							name = tlaulunore_blessing_modifier
+							duration = 3650
+						}
+					}
+					else_if = {
+						limit = {
+							has_personal_deity = lylse
+						}
+						add_country_modifier = {
+							name = lylse_blessing_modifier
+							duration = 3650
+						}
+					}
+					else_if = {
+						limit = {
+							has_personal_deity = gualorhei
+						}
+						add_country_modifier = {
+							name = gaulorhei_blessing_modifier
+							duration = 3650
+						}
+					}
+					else_if = {
+						limit = {
+							has_personal_deity = mocrad
+						}
+						add_country_modifier = {
+							name = mocrad_blessing_modifier
+							duration = 3650
+						}
+					}
+					else_if = {
+						limit = {
+							has_personal_deity = rauthalor
+						}
+						add_country_modifier = {
+							name = rauthalor_blessing_modifier
+							duration = 3650
+						}
+					}
+					else_if = {
+						limit = {
+							has_personal_deity = sifon
+						}
+						add_country_modifier = {
+							name = sifon_blessing_modifier
+							duration = 3650
+						}
+					}
+					else_if = {
+						limit = {
+							has_personal_deity = amirna
+						}
+						add_country_modifier = {
+							name = amirna_blessing_modifier
+							duration = 3650
+						}
+					}
+					else_if = {
+						limit = {
+							has_personal_deity = xoheia
+						}
+						add_country_modifier = {
+							name = xoheia_blessing_modifier
+							duration = 3650
+						}
+					}
+					else = {
+						custom_tooltip = monumentality_assign_deity_tt
+					}
+				}
+				else = {
+					add_country_modifier = {
+						name = godly_blessing_modifier
+						duration = 3650
+					}
+				}
 				add_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
-					value = -10
+					value = -25
 				}
 			}
-			cooldown_years = 0
+			cooldown_years = 10
 			ai_chance = {
 				factor = 0
 			}
@@ -281,6 +380,7 @@ monumentality_mechanic = {
 			gui = monumentality_gov_mech_pay_3
 			center = no
 			trigger = {
+				NOT = { legitimacy_equivalent = 100 }
 				has_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
@@ -288,13 +388,18 @@ monumentality_mechanic = {
 				}
 			}
 			effect = { 
+				add_legitimacy = 10
+				add_republican_tradition = 4
+				add_devotion = 10
+				add_horde_unity = 10
+				add_meritocracy = 10
 				add_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
 					value = -10
 				}
 			}
-			cooldown_years = 0
+			cooldown_years = 5
 			ai_chance = {
 				factor = 0
 			}

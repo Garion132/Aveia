@@ -736,6 +736,43 @@ estate_church_monopoly_of_bronze_mod = {
 		land_forcelimit = 1
 	}
 #
+#Godly Blessings
+	godly_blessing_modifier = { # Generic for non-Tlaunorist countries
+		prestige = 1
+		monthly_splendor = 2
+	}
+	tlaulunore_blessing_modifier = {
+		core_creation = -0.1
+		monthly_godly_favor = 0.1
+	}
+	lylse_blessing_modifier = {
+		technology_cost = -0.05
+	}
+	gaulorhei_blessing_modifier = {
+		global_sailors_modifier = 0.10
+		global_naval_engagement_modifier = 0.1
+	}
+	mocrad_blessing_modifier = {
+		leader_land_shock = 1
+		defensiveness = 0.1
+	}
+	rauthalor_blessing_modifier = {
+		discipline = 0.025
+		ae_impact = -0.025
+	}
+	sifon_blessing_modifier = {
+		global_tax_modifier = 0.1
+		development_cost = -0.025
+	}
+	amirna_blessing_modifier = {
+		spy_offence = 0.1
+		tolerance_own = 0.5
+	}
+	xoheia_blessing_modifier = {
+		yearly_corruption = -0.1
+		manpower_recovery_speed = 0.10
+	}
+#
 
 #Modifiers that use the Pop system
 	#Make sure to include the pop effect in the description of the modiifer.
