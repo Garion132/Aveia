@@ -57,11 +57,11 @@ monumentality_mechanic = {
 					always = yes
 				}
 				modifier = {
-					legitimacy = -2.5
-					republican_tradition = -1
-					devotion = -2.5
-					horde_unity = -2.5
-					meritocracy = -2.5
+					legitimacy = -1.0
+					republican_tradition = -0.5
+					devotion = -1.0
+					horde_unity = -1.0
+					meritocracy = -1.0
 				}
 			}
 			on_min_reached = {
