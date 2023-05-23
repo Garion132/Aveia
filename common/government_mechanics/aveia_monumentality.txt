@@ -57,6 +57,9 @@ monumentality_mechanic = {
 					always = yes
 				}
 				modifier = {
+					monthly_splendor = -2
+					tolerance_own = -1
+					stability_cost_modifier = 0.2
 					legitimacy = -1.0
 					republican_tradition = -0.5
 					devotion = -1.0
