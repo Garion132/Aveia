@@ -1,0 +1,65 @@
+divine_excomunication = {
+	potential = {
+		religion_group = tlaunorist
+		has_government_mechanic = monumentality_mechanic
+	}
+
+	
+	
+	can_start = {
+		NOT={
+			has_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = 10
+			}
+		}
+	}
+	
+	
+	can_stop = {
+		has_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = 25
+		}
+	}
+	
+	
+	
+	progress = {
+		modifier = {
+			factor = 25
+			always = yes
+		}
+	}
+	
+	
+	can_end = {
+		has_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = 50
+		}
+	}
+	
+
+	
+	on_start = religious_turmoil.1
+	on_end = religious_turmoil.2
+	
+	on_monthly = {
+		events = {
+		}
+		
+		random_events = { 
+			1200 = 0
+			10 = religious_turmoil.3
+			10 = religious_turmoil.4
+			10 = religious_turmoil.5
+			10 = religious_turmoil.6
+		
+		}
+	}
+}
+

@@ -8,7 +8,7 @@ guiTypes = {
 		iconType = { 
 			name = "government_power_bar"
 			spriteType = "GFX_monumentality_power_bar"
-			position = { x = 18 y = 4 }
+			position = { x = 16 y = 4 }
 		}       
 
 		# Frame
@@ -57,7 +57,7 @@ guiTypes = {
 	}
 	windowType = {
 		name = "monumentality_gov_mech_pay_1"
-		size = { x = 71 y = 37 }
+		size = { x = 121 y = 37 }
 		moveable = 0
                
 		guiButtonType = {
@@ -65,6 +65,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_monumentality_favor_spend_raid_m"
 			buttonFont = "vic_18"
 			clicksound = back_click
+			position = { x = 50 y = 0 }
 		}
 	}
 	windowType = {
