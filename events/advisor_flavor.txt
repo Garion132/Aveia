@@ -1,0 +1,244 @@
+namespace = advisor_flavor
+
+# Barusard Caluri
+country_event = {
+	id = advisor_flavor.1
+	title = advisor_flavor.1.t
+	desc = advisor_flavor.1.d
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		capital_scope = {
+			region = krashyrvil_midlands_region
+		}
+		is_year = 1298
+		NOT={is_year = 1366}
+		NOT={has_country_flag = has_regected_barusard }
+		NOT={
+			has_global_flag = has_hired_barusard
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 25
+	}
+
+	option = {
+		name = advisor_flavor.1.a
+		define_advisor = {
+			type = treasurer
+			name = "Barusard Caluri"
+			discount = yes
+			skill = 3
+			culture = erityian
+			religion = tlaunorist
+		}
+		set_global_flag = has_hired_barusard
+	}
+	option = {
+		name = advisor_flavor.1.b
+		add_prestige = 5
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 5
+		}
+		set_country_flag = has_regected_barusard
+	}
+	option = {
+		name = advisor_flavor.1.c
+		add_years_of_income = -1.0
+		country_event = {id = advisor_flavor.2}
+		set_global_flag = has_hired_barusard
+	}
+}
+
+country_event = {
+	id = advisor_flavor.2
+	title = advisor_flavor.2.t
+	desc = advisor_flavor.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = advisor_flavor.2.a
+		
+	}
+}
+
+# Cantarun heritics
+country_event = {
+	id = advisor_flavor.10
+	title = advisor_flavor.10.t
+	desc = advisor_flavor.10.d
+	
+	trigger = {
+		any_owned_province={
+			religion = godly_sect
+		}
+		is_year = 1298
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 25
+	}
+	immediate={
+		
+	}
+
+	option = {#stop him
+		name = advisor_flavor.10.a
+		trigger={
+			NOT={religion = godly_sect}
+		}
+		random_owned_province={
+			limit={
+				religion = godly_sect
+			}
+			spawn_rebels = {
+				type = godly_sect_rebels
+				leader = "Cantarun Silisa"
+				size = 2
+				religion = godly_sect
+				should_take_capital = yes
+			}
+		}
+		random_owned_province={
+			limit={
+				religion = godly_sect
+			}
+			spawn_rebels = {
+				type = godly_sect_rebels
+				size = 2
+				religion = godly_sect
+				should_take_capital = yes
+			}
+		}
+		random_owned_province={
+			limit={
+				religion = godly_sect
+			}
+			spawn_rebels = {
+				type = godly_sect_rebels
+				size = 2
+				religion = godly_sect
+				should_take_capital = yes
+			}
+		}
+	}
+	option = {#join him
+		name = advisor_flavor.10.b
+		trigger={
+			NOT={religion = godly_sect}
+		}
+		change_religion = godly_sect
+		if={
+			limit={
+				has_government_mechanic = monumentality_mechanic
+			}
+			add_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = -50
+			}
+		}
+		random_owned_province={
+			limit={
+				religion = tlaunorist
+			}
+			spawn_rebels = {
+				type = tlaunorist_rebels
+				size = 2
+				religion = tlaunorist
+				should_take_capital = yes
+			}
+		}
+		random_owned_province={
+			limit={
+				religion = tlaunorist
+			}
+			spawn_rebels = {
+				type = tlaunorist_rebels
+				size = 2
+				religion = tlaunorist
+				should_take_capital = yes
+			}
+		}
+		every_neighbor_country = { 
+			limit={
+				NOT={religion = godly_sect}
+			}
+			country_event = {id = advisor_flavor.11}
+		}
+		define_advisor = {
+			type = inquisitor
+			name = "Cantarun Silisa"
+			discount = yes
+			skill = 2
+			religion = godly_sect
+			
+		}
+	}
+	option = {#already godly sect
+		name = advisor_flavor.10.c
+		trigger={
+			religion = godly_sect
+		}
+		define_advisor = {
+			type = inquisitor
+			name = "Cantarun Silisa"
+			discount = yes
+			skill = 2
+			religion = godly_sect
+		}
+	}
+}
+country_event = {
+	id = advisor_flavor.11
+	title = advisor_flavor.11.t
+	desc = advisor_flavor.11.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = advisor_flavor.11.a
+		
+	}
+}
+
+country_event = {
+	id = advisor_flavor.20
+	title = advisor_flavor.20.t
+	desc = advisor_flavor.20.d
+	picture = BIG_BOOK_eventPicture
+	
+	trigger = {
+		capital_scope = {
+			region = krashyrvil_midlands_region
+		}
+		is_year = 1305
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 25
+	}
+	immediate={
+		
+	}
+
+	option = {
+		name = advisor_flavor.20.a
+		define_advisor = {
+			type = politician
+			name = "Daesra Ulaise"
+			discount = yes
+			skill = 2
+			female = yes
+		}
+	}
+	option = {
+		name = advisor_flavor.20.b
+		add_adm_power = 100
+	}
+}

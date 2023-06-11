@@ -787,6 +787,7 @@ roresism_group = {
 			dhizdia_school = {
 				potential_invite_scholar = {
 					knows_of_scholar_country_capital_trigger = yes
+					religion = roresist
 				}
 
 				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
@@ -822,6 +823,7 @@ roresism_group = {
 			karnelia_school = {
 				potential_invite_scholar = {
 					knows_of_scholar_country_capital_trigger = yes
+					religion = roresist
 				}
 
 				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
@@ -857,6 +859,7 @@ roresism_group = {
 			rorest_school = {
 				potential_invite_scholar = {
 					knows_of_scholar_country_capital_trigger = yes
+					religion = roresist
 				}
 
 				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
@@ -892,6 +895,7 @@ roresism_group = {
 			pirrarthim_school = {
 				potential_invite_scholar = {
 					knows_of_scholar_country_capital_trigger = yes
+					religion = roresist
 				}
 
 				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
@@ -927,6 +931,7 @@ roresism_group = {
 			herjite_school = {
 				potential_invite_scholar = {
 					knows_of_scholar_country_capital_trigger = yes
+					religion = roresist
 				}
 
 				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
@@ -962,6 +967,7 @@ roresism_group = {
 			meanic_court = {
 				potential_invite_scholar = {
 					knows_of_scholar_country_capital_trigger = yes
+					religion = roresist
 				}
 
 				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
@@ -997,6 +1003,7 @@ roresism_group = {
 			hulric_court = {
 				potential_invite_scholar = {
 					knows_of_scholar_country_capital_trigger = yes
+					religion = roresist
 				}
 
 				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
@@ -1032,6 +1039,7 @@ roresism_group = {
 			keldic_court = {
 				potential_invite_scholar = {
 					knows_of_scholar_country_capital_trigger = yes
+					religion = roresist
 				}
 
 				# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
