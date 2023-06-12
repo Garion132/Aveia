@@ -239,4 +239,87 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = religious_turmoil.7
+	title = "EVTNAME2031"
+	desc = "EVTDESC2031"
+	picture = RELIGIOUS_WARS_eventPicture
+	
+	major = yes
+	
+	is_triggered_only = yes
 
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = { set_country_flag = active_religious_turmoil }
+		excommunicate = ROOT
+	}
+	
+	option = {
+		name = "EVTOPTA2031"				# Eradicate the heretics to bring peace
+		random_owned_province = {
+			limit = {
+				religion_group = tlaunorism
+				has_owner_religion = no
+			}
+			spawn_rebels = {
+				type = religious_rebels
+				size = 3
+				win = yes
+			}
+		}
+		if = {
+			limit = {
+				has_disaster = religious_turmoil
+			}
+			add_country_modifier = {
+				name = "intolerant_society"
+				duration = -1
+				desc = "END_OF_REL_CIV_DIS"
+			}
+		}		
+	}
+	option = {
+		name = "EVTOPTB2031"				# We should strive for a tolerant society
+		if = {
+			limit = {
+				has_disaster = religious_turmoil
+			}
+			add_country_modifier = {
+				name = "tolerant_society"
+				duration = -1
+				desc = "END_OF_REL_CIV_DIS"
+			}
+		}		
+	}
+}
+
+# End of Religious Turmoil
+country_event = {
+	id = religious_turmoil.8
+	title = "EVTNAME2038"
+	desc = "EVTDESC2038"
+	picture = RELIGIOUS_WARS_eventPicture
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = { clr_country_flag = active_religious_turmoil }
+	}
+
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+	option = {
+		name = "EVTOPTA2038"				# One Faith
+		excommunicate = ROOT
+	}
+}

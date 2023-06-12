@@ -66,3 +66,70 @@ incident_northern_temptation = {
 		set_country_flag = active_incident_flag
 	}
 }
+incident_fracturing_churches = {
+
+	frame = 3
+	variable_initial = 0
+
+	potential = {
+		has_dlc = "Mandate of Heaven"
+		religion = sharhial_adventists
+	}
+
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = shinto_incident_recent_tooltip
+			NOT = { is_incident_active = yes }
+			OR = {
+				NOT = { has_country_flag = shinto_incident_recent }
+				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+			}
+		}
+		has_global_flag = saserjial_dead
+	}
+
+	mean_time_to_happen = {
+		months = 200
+	}
+
+	immediate_effect = {
+		country_event = { id = kepjar_flavor.10 }
+		set_country_flag = active_incident_flag
+	}
+}
+incident_council_of_sajsaoer = {
+
+	frame = 4
+	variable_initial = 0
+
+	potential = {
+		has_dlc = "Mandate of Heaven"
+		religion = sharhial_adventists
+	}
+
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = shinto_incident_recent_tooltip
+			NOT = { is_incident_active = yes }
+			OR = {
+				NOT = { has_country_flag = shinto_incident_recent }
+				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+			}
+		}
+		has_global_flag = council_of_sajsaoer
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate_effect = {
+		if={
+			limit={
+			
+			}
+			country_event = { id = kepjar_flavor.11 }
+		}
+		set_country_flag = active_incident_flag
+	}
+}

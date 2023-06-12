@@ -674,7 +674,7 @@ PET_ideas = {
 RAU_ideas = {
 	start = {
 		governing_cost = -0.15
-		legitimacy = 1
+		monthly_godly_favor = 0.15
 	}
 
 	bonus = {

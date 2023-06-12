@@ -27,7 +27,16 @@ country_event = {
 
 	option = {
 		name = kepjar_flavor.2.a
-
+		end_incident = incident_death_of_prophet
+		set_country_flag = shinto_incident_recent
+		clr_country_flag = active_incident_flag
+		every_known_country={
+			limit={
+				religion = sharhial_adventists
+				is_incident_active = incident_death_of_prophet
+			}
+			country_event = {id = kepjar_flavor.13}
+		}
 	}
 }
 country_event = {#death of Sasreja
@@ -109,7 +118,9 @@ country_event = {
 	option = {
 		name = kepjar_flavor.8.a
 		every_country={
-			limit
+			limit={
+				religion = sharhial_adventists
+			}
 			add_isolationism = 1
 		}
 	}
@@ -121,11 +132,62 @@ country_event = {
 	
 	trigger={
 		isolationism = 0
+		NOT={isolationism = 1}
 	}
 
 	option = {
 		name = kepjar_flavor.9.a
 		change_religion = forebearist
 		set_country_flag = was_saserjial
+	}
+}
+country_event = {
+	id = kepjar_flavor.10
+	title = kepjar_flavor.10.t
+	desc = kepjar_flavor.10.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kepjar_flavor.10.a
+
+	}
+}
+country_event = {
+	id = kepjar_flavor.11
+	title = kepjar_flavor.11.t
+	desc = kepjar_flavor.11.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kepjar_flavor.11.a
+
+	}
+}
+country_event = {
+	id = kepjar_flavor.12
+	title = kepjar_flavor.12.t
+	desc = kepjar_flavor.12.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kepjar_flavor.12.a
+
+	}
+}
+country_event = {
+	id = kepjar_flavor.13
+	title = kepjar_flavor.13.t
+	desc = kepjar_flavor.13.d
+	
+	is_triggered_only = yes
+
+	option = {
+		name = kepjar_flavor.13.a
+		end_incident = incident_death_of_prophet
+		set_country_flag = shinto_incident_recent
+		clr_country_flag = active_incident_flag
 	}
 }
