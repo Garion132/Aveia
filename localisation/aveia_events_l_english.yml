@@ -1,4 +1,28 @@
 ﻿l_english:
+ # Random Events
+ random_event.100.t:0 "A God Praises Us"
+ random_event.100.d:0 "One of the gods has gone out of their way to praise us. They say that our devotion to them is worthy of it and that other kingdoms and polities ought to replicate our fervor."
+ random_event.100.a:0 "Our work has been rewarded"
+ random_event.101.t:0 "Heathen Smited"
+ random_event.101.d:0 "A heathen started preaching in one of our cities, blaspheming our gods, while we were offering sacrifices to the gods in a deliberate attempt to sow disorder. However, one of the gods noticed him and ended his existence. The crowds were amazed by the sight and fervently worshipped the god."
+ random_event.101.a:0 "Divine justice"
+ random_event.102.t:0 "Dedication Questioned"
+ random_event.102.d:0 "One of the gods have implied that our dedication to them is subpar. He stated that rulers like ours only care for themselves and not for the gods who made their power possible and indirectly warned us that if we slipped further then we could see our ruler potentially deposed."
+ random_event.102.a:0 "We have other important matters to attend to"
+ random_event.102.b:0 "Quickly dedicate a monument!"
+ random_event.103.t:0 "Temple Construction"
+ random_event.103.d:0 "We have gotten a recent opportunity to please the gods. A skilled architect was passing through our lands offering his services. His idea was for a massive and magnificent temple to the gods that would certainly garner their attention. Alternatively, we could hire him for our court. Or we could simply dismiss him."
+ random_event.103.a:0 "Give him what is necessary to complete this project"
+ random_event.103.b:0 "He would do well in our court"
+ random_event.103.c:0 "We don't need his services"
+ random_event.104.t:0 "The Gods Side With Us!"
+ random_event.104.d:0 "While the gods do not directly interfere in wars, they often speak in favor of one or the other side. In our war, Rauthalor himself has sided with us because of our dedication to the gods against our enemies who have shown that they do not care. This has been a massive boon to our troops while our enemies tremble."
+ random_event.104.a:0 "The gods are great!"
+ random_event.105.t:0 "The Gods Side Against Us!"
+ random_event.105.d:0 "While the gods do not directly interfere in wars, they often speak in favor of one or the other side. In our war, Rauthalor has sided with our traitorous enemy stating that their dedication to the gods is greater than ours. Not only is this a massive insult, it also has inspired their troops whilst disillusioning many of ours."
+ random_event.105.a:0 "What have we done to deserve this?"
+ 
+ # Price Events
  prices.100.t:0 "Raining Ash"
  prices.100.d:0 "A great darkness filled the sky. Clouds of gods-know-what roamed over our vast fields and choked them of sunlight. Now our harvests yield nothing.\nFamine is rampant in a land once of plenty. The populace is starving. Peasants keep what they can grow. Troops cannot be fed. Even nobles find it difficult to find food. Rats and mice are found cannibalizing each other.\nTemperatures have dropped and, in parts of our land where no snow has touched, blizzards breach once-warm towns and villages. In the great city of Lindoremy, shells of once proud elven beings wander the streets, lie down, and freeze and die in place."
  prices.100.a:0 "It will be a long... long... winter."

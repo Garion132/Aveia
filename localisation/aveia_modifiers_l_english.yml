@@ -129,9 +129,13 @@
  loyal_military:0 "Loyal Military"
  desc_loyal_military:0 "Our military is loyal to and only to our state. None else shall dissuade them from service."
 
+ gods_are_with_us:0 "The Gods are with Us!"
+ desc_gods_are_with_us:0 "The gods have come out in verbal support of our cause. Our troops now fight with heads held higher and greater fervor."
+ gods_are_against_us:0 "The Gods are against Us!"
+ desc_gods_are_against_us:0 "The gods have come out in verbal support of our enemies. We face greater desertion as many do not wish to go against the gods."
+
  iron_age_calamity_recovery:0 "Iron Age Calamity Recovery"
  desc_iron_age_calamity_recovery:0 "We are in the midst of recovering from the Iron Age Calamity and its world-wide consequences."
- 
 
  asemont_copper_mines:0 "Asemont Copper Mines"
  desc_asemont_copper_mines:0 "Working Class Capacity: §G+0.5§!\n\nThe Asemont Copper Mines are the largest among the few copper mines in the known world. These mines are the linchpin of the global economy and any disruption to production would be a catastrophe to the entirety of civilization."

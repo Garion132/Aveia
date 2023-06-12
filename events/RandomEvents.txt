@@ -10328,7 +10328,370 @@ country_event = {
 	}
 }
 
+### Aveia Random Events ###
 
+# A God Praises Us
+country_event = {
+	id = random_event.100
+	title = random_event.100.t
+	desc = random_event.100.d
+	picture = POPE_PREACHING_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion_group = tlaulunorism
+		NOT = { religion = cult_progress }
+		has_government_mechanic = monumentality_mechanic
+		has_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = 75
+		}
+		NOT = {
+			has_stability = 3
+		}
+	}
+	
+	option = {
+		name = random_event.100.a
+		add_stability_or_adm_power = yes
+	}
+}
+
+# Heathen Smited
+country_event = {
+	id = random_event.101
+	title = random_event.101.t
+	desc = random_event.101.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion_group = tlaulunorism
+		NOT = { religion = cult_progress }
+		has_government_mechanic = monumentality_mechanic
+		NOT = {
+			has_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = 95
+			}
+		}
+	}
+	
+	option = {
+		name = random_event.101.a
+		add_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = 5
+		}
+	}
+}
+
+# Dedication Questioned
+country_event = {
+	id = random_event.102
+	title = random_event.102.t
+	desc = random_event.102.d
+	picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion_group = tlaulunorism
+		NOT = { religion = cult_progress }
+		has_government_mechanic = monumentality_mechanic
+		NOT = {
+			has_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = 50
+			}
+		}
+	}
+	
+	option = {
+		name = random_event.102.a
+		add_prestige = -5
+		add_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = -5
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_government_power = {
+						mechanic_type = monumentality_mechanic
+						power_type = godly_favor
+						value = 15
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = random_event.102.b
+		add_years_of_income = -0.25
+		add_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = 5
+		}
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.1
+				NOT = { years_of_income = 0.25 }
+			}
+			modifier = {
+				factor = 2
+				years_of_income = 0.5
+			}
+			modifier = {
+				factor = 5
+				years_of_income = 1.0
+			}
+		}
+	}
+}
+
+# Temple Construction
+country_event = {
+	id = random_event.103
+	title = random_event.103.t
+	desc = random_event.103.d
+	picture = ST_PETERS_CHURCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion_group = tlaulunorism
+		NOT = { religion = cult_progress }
+		has_government_mechanic = monumentality_mechanic
+		any_known_country = {
+			religion_group = tlaulunorism
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_known_country = {
+				limit = { religion_group = tlaulunorism }
+				save_event_target_as = engineer_country
+				root = {
+					set_saved_name = {
+						key = engineer_name
+						type = advisor
+						scope = prev
+					}
+				}
+			}
+		}
+	}
+	after = {
+		clear_saved_name = engineer_name
+	}
+	
+	option = {
+		name = random_event.103.a
+		add_prestige = 10
+		add_legitimacy = 10
+		add_republican_tradition = 4
+		add_years_of_income = -0.5
+		add_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = 25
+		}
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { years_of_income = 0.5 }
+			}
+			modifier = {
+				factor = 0
+				has_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 75
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					has_government_power = {
+						mechanic_type = monumentality_mechanic
+						power_type = godly_favor
+						value = 25
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = random_event.103.b
+		add_years_of_income = -0.25
+		add_mil_power = 40
+		define_advisor = {
+			type = fortification_expert
+			name = engineer_name
+			culture = event_target:engineer_country
+			religion = event_target:engineer_country
+			skill = 2
+			discount = yes
+		}
+
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				advisor = fortification_expert
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { years_of_income = 0.2 }
+			}
+		}
+	}
+	option = {
+		name = random_event.103.b
+		add_prestige = 5
+
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# The Gods Side With Us!
+country_event = {
+	id = random_event.104
+	title = random_event.104.t
+	desc = random_event.104.d
+	picture = RELIGIOUS_WARS_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = gods_are_with_us
+		}
+		religion_group = tlaulunorism
+		NOT = { religion = cult_progress }
+		is_at_war = yes
+		any_enemy_country = {
+			OR = {
+				NOT = {	religion_group = tlaulunorism }
+				religion = cult_progress
+				AND = {
+					religion_group = tlaulunorism
+					NOT = { religion = cult_progress }
+					if = {
+						limit = {
+							has_government_mechanic = monumentality_mechanic
+						}
+						NOT = {
+							has_government_power = {
+								mechanic_type = monumentality_mechanic
+								power_type = godly_favor
+								value = 50
+							}
+						}
+					}
+				}
+			}
+		}
+		OR = {
+			AND = {
+				has_government_mechanic = monumentality_mechanic
+				has_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 75
+				}
+			}
+			any_enemy_country = {
+				OR = {
+					NOT = {	religion_group = tlaulunorism }
+					religion = cult_progress
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = random_event.104.a
+		add_country_modifier = {
+			name = gods_are_with_us
+			duration = 1825 # 5 Years
+		}
+		hidden_effect = {
+			every_enemy_country = {
+				limit = {
+					religion_group = tlaulunorism
+					NOT = { religion = cult_progress }
+					NOT = { has_country_modifier = gods_are_against_us }
+					if = {
+						limit = {
+							has_government_mechanic = monumentality_mechanic
+						}
+						NOT = {
+							has_government_power = {
+								mechanic_type = monumentality_mechanic
+								power_type = godly_favor
+								value = 50
+							}
+						}
+					}
+				}
+				country_event = {
+					id = random_event.105
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+# The Gods Side Against Us!
+country_event = {
+	id = random_event.105
+	title = random_event.105.t
+	desc = random_event.105.d
+	picture = RELIGIOUS_WARS_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			has_country_modifier = gods_are_against_us
+		}
+		religion_group = tlaulunorism
+		NOT = { religion = cult_progress }
+		is_at_war = yes
+		# Should only be triggered by random_event.104 anyway
+	}
+	
+	option = {
+		name = random_event.104.a
+		add_yearly_manpower = -0.5
+		add_yearly_sailors = -0.5
+		add_country_modifier = {
+			name = gods_are_against_us
+			duration = 1825 # 5 Years
+		}
+	}
+}
 
 ######### Product Events #######
 

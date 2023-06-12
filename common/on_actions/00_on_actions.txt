@@ -923,6 +923,46 @@ on_siberian_pulse = {
 
 
 # country random events
+	# Random Event Ideas:
+	#	A God Praises Us
+	#	Heathen Smited
+	#	Dedication Questioned
+	#	Temple Construction
+	#	The Gods Side With Us!
+	#	The Gods Side Against Us!
+	#	
+	#	Murder Spree
+	#	Urban Diseases
+	#	Building on Good Soil
+	#
+	# Trade:
+	#	Bronze Trade Threatened
+	#	Highway Robbers
+	#	Price Differences
+	#	Merchant Wanted!
+	#	Slave Markets
+	#	
+	# Trade Good Events
+	#	Bronze Profits (Has Copper or Tin. Tin is least, Copper is more, Both is most)
+	#	Tin Conspiracies
+	#	Ecriamin Craze
+	#	Made of Marble
+	#
+	# Sailor events
+	#	Enslaved Oarsmen
+	#	Ship Disappeared!
+	#	
+	# Corruption
+	#	Money Makes Right
+	#	Corrupt Official Exposed
+	#
+	# Institution Events
+	#	Foreign Secrets Exposed (Bronze Working)
+	#	Field Experiments (Crop Rotation)
+	#	Crop Failure (Crop Rotation)
+	#	Commoner Forges (Iron Working)
+	#	Banishing Iron Smiths (Iron Working)
+
 on_monthly_pulse = {
 }
 on_yearly_pulse = {
@@ -937,6 +977,12 @@ on_yearly_pulse_5 = {
 }
 on_bi_yearly_pulse = {
 	random_events = {
+
+		100 = random_event.100 # A God Praises Us
+		100 = random_event.101 # Heathen Smited
+		100 = random_event.102 # Dedication Questioned
+		100 = random_event.103 # Temple Construction
+		400 = random_event.104 # The Gods Side With Us!
 
 		100 = random_event.26
 
