@@ -10564,7 +10564,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = random_event.103.b
+		name = random_event.103.c
 		add_prestige = 5
 
 		ai_chance = {
@@ -10683,7 +10683,7 @@ country_event = {
 	}
 	
 	option = {
-		name = random_event.104.a
+		name = random_event.105.a
 		add_yearly_manpower = -0.5
 		add_yearly_sailors = -0.5
 		add_country_modifier = {
