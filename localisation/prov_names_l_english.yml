@@ -204,6 +204,10 @@
  PROV226:0 "Faefear Blight"
  
  PROV230:0 "Teusmd Rift"
+ PROV231:0 "Lilraqra"
+ 
+ PROV236:0 "Xeeknor"
+ PROV237:0 "Yiqas Sea"
  
  PROV249:0 "Ximuar Bay"
  
@@ -244,6 +248,8 @@
  PROV461:0 "Eastern Cryspimes"
  PROV462:0 "Uliavoa"
  
+ PROV464:0 "Szekri"
+ PROV465:0 "Shravhosh"
  PROV466:0 "Isla Unral"
  PROV467:0 "Kujri"
  PROV468:0 "Kruztax"
@@ -1495,9 +1501,30 @@
  PROV3995:0 "Zuiarx"
  PROV3996:0 "Zuanoir"
  PROV3997:0 "Sriuntri"
- 
- 
+ PROV3998:0 "Sorzur"
+ PROV3999:0 "Rhair"
  PROV4000:0 "Sietirrar"
+ PROV4001:0 "Rhiazu"
+ PROV4002:0 "Qavhath"
+ PROV4003:0 "Ravos"
+ PROV4004:0 "Zha"
+ PROV4005:0 "Zheqo"
+ PROV4006:0 "Zhath'i"
+ PROV4007:0 "Khevhath"
+ PROV4008:0 "Lek'zox"
+ PROV4009:0 "Chach"
+ PROV4010:0 "Ratarch"
+ PROV4011:0 "Laik'ticur"
+ PROV4012:0 "Cher"
+ PROV4013:0 "Canch"
+ PROV4014:0 "Chix"
+ PROV4015:0 "Khiir"
+ PROV4016:0 "Nench"
+ PROV4017:0 "Ziakur"
+ PROV4018:0 "Zhaze"
+ PROV4019:0 "Eoib"
+ PROV4020:0 "Nakeese"
+ PROV4021:0 "Haqs"
  
  PROV4023:0 "Jalorkan Bay"
  PROV4024:0 "Dorhanor Lake"

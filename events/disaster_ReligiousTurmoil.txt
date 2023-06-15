@@ -270,29 +270,6 @@ country_event = {
 				size = 3
 				win = yes
 			}
-		}
-		if = {
-			limit = {
-				has_disaster = religious_turmoil
-			}
-			add_country_modifier = {
-				name = "intolerant_society"
-				duration = -1
-				desc = "END_OF_REL_CIV_DIS"
-			}
-		}		
-	}
-	option = {
-		name = "EVTOPTB2031"				# We should strive for a tolerant society
-		if = {
-			limit = {
-				has_disaster = religious_turmoil
-			}
-			add_country_modifier = {
-				name = "tolerant_society"
-				duration = -1
-				desc = "END_OF_REL_CIV_DIS"
-			}
 		}		
 	}
 }
@@ -312,11 +289,9 @@ country_event = {
 		hidden_effect = { clr_country_flag = active_religious_turmoil }
 	}
 
-
 	mean_time_to_happen = {
 		days = 1
 	}
-	
 	
 	option = {
 		name = "EVTOPTA2038"				# One Faith
