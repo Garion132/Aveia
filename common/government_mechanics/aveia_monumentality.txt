@@ -161,6 +161,14 @@ monumentality_mechanic = {
 			ai_chance = {
 				factor = 10
 				modifier = {
+					factor = 0.5
+					monthly_income = 50
+				}
+				modifier = {
+					factor = 0.5
+					monthly_income = 25
+				}
+				modifier = {
 					factor = 10
 					not = {
 						has_government_power = {
@@ -220,6 +228,18 @@ monumentality_mechanic = {
 			ai_chance = {
 				factor = 10
 				modifier = {
+					factor = 0
+					NOT = { monthly_income = 10 }
+				}
+				modifier = {
+					factor = 2
+					monthly_income = 50
+				}
+				modifier = {
+					factor = 2
+					monthly_income = 25
+				}
+				modifier = {
 					factor = 10
 					not = {
 						has_government_power = {
@@ -228,8 +248,6 @@ monumentality_mechanic = {
 							value = 50
 						}
 					}
-					treasury = 300
-					years_of_income = 1.5
 				}
 			}
 		}
