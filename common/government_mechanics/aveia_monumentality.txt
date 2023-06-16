@@ -96,6 +96,52 @@ monumentality_mechanic = {
 						value = 100
 					}
 				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = {
+						any_neighbor_country = {
+							tech_difference = 4
+						}
+					}
+					if = {
+						limit = {
+							has_government_power = {
+								mechanic_type = monumentality_mechanic
+								power_type = godly_favor
+								value = 70
+							}
+						}
+						adm_power = 700
+						dip_power = 700
+						mil_power = 700
+					}
+					if = {
+						limit = {
+							has_government_power = {
+								mechanic_type = monumentality_mechanic
+								power_type = godly_favor
+								value = 50
+							}
+						}
+						adm_power = 450
+						dip_power = 450
+						mil_power = 450
+					}
+					if = {
+						limit = {
+							has_government_power = {
+								mechanic_type = monumentality_mechanic
+								power_type = godly_favor
+								value = 25
+							}
+						}
+						adm_power = 200
+						dip_power = 200
+						mil_power = 200
+					}
+				}
 			}
 			effect = { 
 				add_adm_power = -25
@@ -107,54 +153,14 @@ monumentality_mechanic = {
 					value = 5
 				}
 			}
-			#cooldown_years = 4
+			cooldown_years = 0
 			ai_chance = {
 				factor = 5
-				modifier = {
-					factor = 0
-					any_neighbor_country = {
-						tech_difference = 4
-					} 
-				}
 				modifier = {
 					factor = 0.5
 					any_neighbor_country = {
 						tech_difference = 2
 					} 
-				}
-				modifier = {
-					factor = 0
-					has_government_power = {
-						mechanic_type = monumentality_mechanic
-						power_type = godly_favor
-						value = 95
-					}
-				}
-				modifier = {
-					factor = 2
-					not = {
-						has_government_power = {
-							mechanic_type = monumentality_mechanic
-							power_type = godly_favor
-							value = 90
-						}
-					}
-					adm_power = 600
-					dip_power = 600
-					mil_power = 600
-				}
-				modifier = {
-					factor = 2
-					not = {
-						has_government_power = {
-							mechanic_type = monumentality_mechanic
-							power_type = godly_favor
-							value = 75
-						}
-					}
-					adm_power = 300
-					dip_power = 300
-					mil_power = 300
 				}
 				modifier = {
 					factor = 2
@@ -163,6 +169,26 @@ monumentality_mechanic = {
 							mechanic_type = monumentality_mechanic
 							power_type = godly_favor
 							value = 50
+						}
+					}
+				}
+				modifier = {
+					factor = 2
+					not = {
+						has_government_power = {
+							mechanic_type = monumentality_mechanic
+							power_type = godly_favor
+							value = 25
+						}
+					}
+				}
+				modifier = {
+					factor = 10
+					not = {
+						has_government_power = {
+							mechanic_type = monumentality_mechanic
+							power_type = godly_favor
+							value = 10
 						}
 					}
 				}
@@ -181,6 +207,80 @@ monumentality_mechanic = {
 						value = 100
 					}
 				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					if = {
+						limit = { monthly_income = 50 }
+						NOT = {
+							has_government_power = {
+								mechanic_type = monumentality_mechanic
+								power_type = godly_favor
+								value = 20
+							}
+						}
+					}
+					else_if = {
+						limit = { monthly_income = 30 }
+						NOT = {
+							has_government_power = {
+								mechanic_type = monumentality_mechanic
+								power_type = godly_favor
+								value = 70
+							}
+						}
+						if = {
+							limit = { num_of_loans = 1 }
+							NOT = {
+								has_government_power = {
+									mechanic_type = monumentality_mechanic
+									power_type = godly_favor
+									value = 55
+								}
+							}
+						}
+						if = {
+							limit = { num_of_loans = 5 }
+							NOT = {
+								has_government_power = {
+									mechanic_type = monumentality_mechanic
+									power_type = godly_favor
+									value = 40
+								}
+							}
+						}
+					}
+					else = {
+						NOT = {
+							has_government_power = {
+								mechanic_type = monumentality_mechanic
+								power_type = godly_favor
+								value = 85
+							}
+						}
+						if = {
+							limit = { num_of_loans = 1 }
+							NOT = {
+								has_government_power = {
+									mechanic_type = monumentality_mechanic
+									power_type = godly_favor
+									value = 75
+								}
+							}
+						}
+						if = {
+							limit = { num_of_loans = 5 }
+							NOT = {
+								has_government_power = {
+									mechanic_type = monumentality_mechanic
+									power_type = godly_favor
+									value = 65
+								}
+							}
+						}
+					}
+				}
 			}
 			effect = { 
 				add_years_of_income = -0.25
@@ -193,10 +293,6 @@ monumentality_mechanic = {
 			cooldown_years = 3
 			ai_chance = {
 				factor = 10
-				modifier = {
-					factor = 0.5
-					monthly_income = 50
-				}
 				modifier = {
 					factor = 0.5
 					monthly_income = 25
@@ -248,6 +344,39 @@ monumentality_mechanic = {
 						value = 100
 					}
 				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					monthly_income = 10
+					NOT = {
+						has_government_power = {
+							mechanic_type = monumentality_mechanic
+							power_type = godly_favor
+							value = 75
+						}
+					}
+					if = {
+						limit = { num_of_loans = 1 }
+							NOT = {
+								has_government_power = {
+									mechanic_type = monumentality_mechanic
+									power_type = godly_favor
+									value = 60
+								}
+							}
+					}
+					if = {
+						limit = { num_of_loans = 5 }
+						NOT = {
+							has_government_power = {
+								mechanic_type = monumentality_mechanic
+								power_type = godly_favor
+								value = 45
+							}
+						}
+					}
+				}
 			}
 			effect = { 
 				add_treasury = -500
@@ -260,10 +389,6 @@ monumentality_mechanic = {
 			cooldown_years = 5
 			ai_chance = {
 				factor = 10
-				modifier = {
-					factor = 0
-					NOT = { monthly_income = 10 }
-				}
 				modifier = {
 					factor = 2
 					monthly_income = 50
