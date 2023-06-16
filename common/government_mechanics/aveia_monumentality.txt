@@ -86,9 +86,9 @@ monumentality_mechanic = {
 			cost_type = godly_favor
 			center = no
 			trigger = {
-				adm_power = 50
-				dip_power = 50
-				mil_power = 50
+				adm_power = 25
+				dip_power = 25
+				mil_power = 25
 				not = {
 					has_government_power = {
 						mechanic_type = monumentality_mechanic
@@ -98,16 +98,16 @@ monumentality_mechanic = {
 				}
 			}
 			effect = { 
-				add_adm_power = -50
-				add_dip_power = -50
-				add_mil_power = -50
+				add_adm_power = -25
+				add_dip_power = -25
+				add_mil_power = -25
 				add_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
-					value = 10
+					value = 5
 				}
 			}
-			cooldown_years = 4
+			#cooldown_years = 4
 			ai_chance = {
 				factor = 10
 				modifier = {
@@ -157,7 +157,7 @@ monumentality_mechanic = {
 					value = 10
 				}
 			}
-			cooldown_years = 5
+			cooldown_years = 3
 			ai_chance = {
 				factor = 10
 				modifier = {
@@ -216,7 +216,7 @@ monumentality_mechanic = {
 					value = 25
 				}
 			}
-			cooldown_years = 10
+			cooldown_years = 5
 			ai_chance = {
 				factor = 10
 				modifier = {
