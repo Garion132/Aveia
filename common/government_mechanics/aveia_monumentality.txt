@@ -109,9 +109,29 @@ monumentality_mechanic = {
 			}
 			#cooldown_years = 4
 			ai_chance = {
-				factor = 10
+				factor = 5
 				modifier = {
-					factor = 10
+					factor = 0
+					any_neighbor_country = {
+						tech_difference = 4
+					} 
+				}
+				modifier = {
+					factor = 0.5
+					any_neighbor_country = {
+						tech_difference = 2
+					} 
+				}
+				modifier = {
+					factor = 0
+					has_government_power = {
+						mechanic_type = monumentality_mechanic
+						power_type = godly_favor
+						value = 95
+					}
+				}
+				modifier = {
+					factor = 2
 					not = {
 						has_government_power = {
 							mechanic_type = monumentality_mechanic
@@ -119,12 +139,25 @@ monumentality_mechanic = {
 							value = 90
 						}
 					}
-					adm_power = 200
-					dip_power = 200
-					mil_power = 200
+					adm_power = 600
+					dip_power = 600
+					mil_power = 600
 				}
 				modifier = {
-					factor = 10
+					factor = 2
+					not = {
+						has_government_power = {
+							mechanic_type = monumentality_mechanic
+							power_type = godly_favor
+							value = 75
+						}
+					}
+					adm_power = 300
+					dip_power = 300
+					mil_power = 300
+				}
+				modifier = {
+					factor = 2
 					not = {
 						has_government_power = {
 							mechanic_type = monumentality_mechanic
