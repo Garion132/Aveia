@@ -215,4 +215,5 @@
  estate_church_monopoly_of_bronze_mod:1 "Monopoly on Mining and Smelting"
  desc_estate_church_monopoly_of_bronze_mod:1 "The state has granted the [Root.Owner.GetClergyName] monopoly rights over Bronze production."
  estate_church_monopoly_of_bronze_desc:0 "Without bronze, our armies would be toothless. Only the [Root.GetClergyName] can be trusted with administering its production, for it is they who have the divine knowledge of its creation"
+ estate_kethai_export_rights: "Kethai Export Rights"
  MONOPOLY_INCOME_BRONZE_DESC:0 "from tin or copper production."

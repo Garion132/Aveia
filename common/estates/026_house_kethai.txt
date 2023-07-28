@@ -104,6 +104,7 @@ estate_house_kethai ={
 		estate_rauthyr_land_rights
 		estate_nobles_officer_corp
 		estate_rauthyr_right_of_counsel
+		estate_kethai_export_rights
 	}
 
 	agendas = {

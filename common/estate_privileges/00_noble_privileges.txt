@@ -534,8 +534,8 @@ estate_rauthyr_right_of_counsel = {
 }
 estate_rauthyr_land_rights = {
 	icon = privilege_grant_autonomy
-	land_share = 2.5
-	max_absolutism = -2.5
+	land_share = 2
+	max_absolutism = -2
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
@@ -545,7 +545,7 @@ estate_rauthyr_land_rights = {
 	penalties = {
 	}
 	benefits = {
-		governing_capacity = 10
+		governing_capacity = 25
 	}
 	ai_will_do = {
 		factor = 5
@@ -739,6 +739,31 @@ estate_lidori_monopoly_of_paper = {
 	cooldown_years = 10
 	on_cooldown_expires = {
 		country_event = { id = monopoly_privileges.4 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_kethai_export_rights = {
+	icon = privilege_goods_produced
+	max_absolutism = -10
+	influence = 0.05
+	loyalty = 0.05
+	is_valid = {
+		
+	}
+	can_select = {
+		
+	}
+	on_granted = {
+		add_mercantilism = -2
+	}
+	penalties = {
+		mercantilism_cost = 0.25
+	}
+	benefits = {
+		global_own_trade_power = 0.1
 	}
 	ai_will_do = {
 		factor = 0
