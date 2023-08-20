@@ -1,8 +1,9 @@
 #Nadara
 
 add_core = NAD
-owner = NAD
-controller = NAD
+add_core = ELE
+owner = ELE
+controller = ELE
 culture = nadarian
 religion = tlaunorist
 hre = no

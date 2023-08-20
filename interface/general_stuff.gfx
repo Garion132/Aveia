@@ -479,17 +479,17 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_icon_vassal"
-		texturefile = "gfx/interface/icon_vassal.dds"
+		texturefile = "gfx/interface/subjects/icon_vassal.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_icon_march"
-		texturefile = "gfx/interface/icon_march.dds"
+		texturefile = "gfx/interface/subjects/icon_march.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_icon_protectorate"
-		texturefile = "gfx/interface/icon_protectorate.dds"
+		texturefile = "gfx/interface/subjects/icon_protectorate.dds"
 	}
 	
 	spriteType = {
@@ -1830,5 +1830,52 @@ spriteTypes = {
 		name = "GFX_sort_180"
 		texturefile = "gfx/interface/macro_states_sort/sort_button_180.dds"
 	}	
-	
+	spriteType = {
+		name = "GFX_icon_dominion"
+		texturefile = "gfx/interface/subjects/subject_dominion_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_dominion_lead"
+		texturefile = "gfx/interface/subjects/subject_dominion_lead_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_dominion_follow"
+		texturefile = "gfx/interface/subjects/subject_dominion_follow_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_subject_strongholder"
+		texturefile = "gfx/interface/subjects/icon_protectorate.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_leadstrongholder"
+		texturefile = "gfx/interface/subjects/diplomacy_leadprotectorates.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_amstrongholder"
+		texturefile = "gfx/interface/subjects/diplomacy_inprotectorate.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_feudal_dignitary"
+		texturefile = "gfx/interface/subjects/subject_feudal_dignitary_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_leadfeudal_dignitary"
+		texturefile = "gfx/interface/subjects/subject_feudal_dignitary_lead_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_amfeudal_dignitary"
+		texturefile = "gfx/interface/subjects/subject_feudal_dignitary_follow_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_federate"
+		texturefile = "gfx/interface/subjects/subject_federate_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_leadfederate"
+		texturefile = "gfx/interface/subjects/subject_federate_lead_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_amfederate"
+		texturefile = "gfx/interface/subjects/subject_federate_follow_icon.dds"
+	}
 }

@@ -166,9 +166,9 @@
  
  PROV174:0 "South Talkian Coast"
  PROV175:0 "Falirse Depths"
- 
+ PROV176:0 "Deepening Gulf"
  PROV177:0 "Saluoter"
- 
+ PROV178:0 "Garuram"
  PROV179:0 "Olokiar Exspance"
  PROV180:0 "Ventorals"
  PROV181:0 "Scalding Deeps"
@@ -184,7 +184,7 @@
  PROV196:0 "Sevilor Straits"
 
  PROV207:0 "Kushedean Bay"
- 
+ PROV208:0 "Borazed Gulf"
  PROV209:0 "Karduar"
  
  PROV211:0 "Baltalif"
@@ -210,6 +210,8 @@
  
  PROV236:0 "Xeeknor"
  PROV237:0 "Yiqas Sea"
+ 
+ PROV239:0 "Tailwind Seas"
  
  PROV249:0 "Ximuar Bay"
  
@@ -239,6 +241,8 @@
  
  PROV377:0 "Wester Bay"
  PROV378:0 "Goldbay"
+ 
+ PROV389:0 "Crimson Tides"
  
  PROV404:0 "Unfound Seas"
 
@@ -281,8 +285,11 @@
  PROV498:0 "Glacial Wastes"
  PROV499:0 "Orbury"
  PROV500:0 "Senika"
+ PROV501: "Satanai"
  
  PROV504:0 "Ihadar"
+ 
+ PROV509: "Julkioa"
  
  PROV513:0 "Hopura"
  PROV514:0 "Villos"
@@ -651,6 +658,14 @@
  PROV989:0 "Anillelerien"
 
  PROV1006:0 "The Golden Sun"
+ 
+ PROV1008:0 "Grandfell Desert"
+ 
+ PROV1010:0 "Grandfell Desert"
+ PROV1011:0 "Grandfell Desert"
+ 
+ PROV1021:0 "Grandfell Desert"
+ PROV1022:0 "Grandfell Desert"
 
  PROV1032:0 "Mulikoar"
  PROV1033:0 "Himben"
@@ -883,10 +898,15 @@
  PROV1424:1 "Elnorei"
  PROV1425:1 "Essarana"
  PROV1426:0 "Sahloresi"
- PROV1426:0 "Kaneria"
- 
+ PROV1427:0 "Kaneria"
+ PROV1428:0 "Raoute"
+ PROV1429:0 "Nuklausr"
+ PROV1430:0 "Luiasajr"
  PROV1431:0 "New Inzed"
-
+ PROV1432:0 "Ropoaut"
+ PROV1433:0 "Fularu"
+ PROV1434:0 "Moianur"
+ PROV1435:0 "Munair"
  PROV1436:0 "Niolaritnor"
  PROV1437:1 "Unlansi"
  PROV1438:1 "Ymnessea"
@@ -958,14 +978,44 @@
  
  PROV1660:0 "Elhonyma"
  
+ PROV1665:0 "Houaseri"
+ PROV1666:0 "Dalrieu"
+ PROV1667:0 "Nasaepa"
+ PROV1668:0 "Vuili"
+ PROV1669:0 "Dashea"
+ PROV1670:0 "Oaerta"
+ PROV1671:0 "Irtaeo"
+ PROV1672:0 "Maytn"
+ PROV1673:0 "Haraet"
+ PROV1674:0 "Reateau"
+ PROV1675:0 "Yateai"
+ PROV1676:0 "Guareau"
  PROV1677:0 "Sulrori"
-
+ PROV1678:0 "Koisryi"
+ PROV1679:0 "Arheota"
+ PROV1680:0 "Ataetri"
+ PROV1681:0 "Orsuder"
+ PROV1682:0 "Huawsa"
+ PROV1683:0 "Yasera"
+ PROV1684:0 "Numyaus"
+ PROV1685:0 "Kasyte"
+ PROV1686:0 "Raewyas"
+ PROV1687:0 "Reuraad"
+ PROV1688:0 "Ruatrak"
+ PROV1689:0 "Bukmraho"
+ PROV1690:0 "Liilasre"
+ PROV1691:0 "Vulaurii"
+ PROV1692:0 "Gouaure"
+ PROV1693:0 "Eroarre"
+ PROV1694:0 "Wroauwi"
  PROV1695:0 "Belienolana"
-
+ PROV1696:0 "Tuouas"
+ PROV1697:0 "Fuarit"
+ PROV1698:0 "Uiuyasr"
  PROV1699:0 "Elhera"
  PROV1700:0 "Olriar"
  PROV1701:0 "Toitaur"
-
+ PROV1702:0 "Oijoaus"
  PROV1703:1 "Unkanisr"
  PROV1704:1 "Tolos"
  PROV1705:1 "Joluas"
@@ -1023,18 +1073,37 @@
  PROV1845:0 "Cuttrol"
  PROV1846:0 "Britwath"
  PROV1847:0 "Silowbo"
-
+ PROV1848:0 "Rumais"
+ PROV1849:0 "Hoiasa"
+ PROV1850:0 "Unliasr"
+ PROV1851:0 "Olauire"
+ PROV1852:0 "Namaoipai"
  PROV1853:0 "Oagemins"
-
+ PROV1854:0 "Vipoai"
+ PROV1855:0 "Satario"
+ PROV1856:0 "Kulakail"
+ PROV1857:0 "Baniye"
+ PROV1858:0 "Raertart"
+ PROV1859:0 "Gujesedt"
  PROV1860:0 "Weslif"
-
+ PROV1861:0 "Tealvine"
+ PROV1862:0 "Yarea"
+ PROV1863:0 "Vuaerab"
  PROV1864:0 "Cloudham"
-
+ PROV1865:0 "Cuoiaur"
+ PROV1866:0 "Gluasre"
+ PROV1867:0 "Wurere"
  PROV1868:0 "Sringar"
-
+ PROV1869:0 "Taumas"
+ PROV1870:0 "Ililise"
  PROV1871:0 "Grahear"
  PROV1872:0 "Ligwell"
- 
+ PROV1873:0 "Funmsewa"
+ PROV1874:0 "Cuedrea"
+ PROV1875:0 "Tutase"
+ PROV1876:0 "Camdut"
+ PROV1877:0 "Julityta"
+ PROV1878:0 "Caminya"
  PROV1879:0 "Eagbur"
  PROV1880:0 "Atolor"
  PROV1881:0 "Teilort"
@@ -1054,30 +1123,50 @@
  PROV1895:0 "Orgithadenes Lake"
  PROV1896:0 "Khueur Lake"
  PROV1897:0 "Faveligt"
- 
+ PROV1898:0 "Salis Lake"
  PROV1899:0 "Wesle"
- 
+ PROV1900:0 "Aminir Lakes"
  PROV1901:0 "Unkaesir"
  PROV1902:0 "Aetarens Eye"
  PROV1903:0 "Enoarth Cresant"
  PROV1904:0 "Shauman Bay"
  PROV1905:0 "Iceburg Sounds"
  PROV1906:0 "Gughite Bay"
+ PROV1907:0 "Sanis Coast"
+ PROV1908:0 "Akmakan Passage"
  
  PROV1912:0 "Victuran Entrance"
  
  PROV1921:0 "Samanin Sea"
  
  PROV1924:0 "Ecal"
-
+ PROV1925:0 "Faretum"
+ PROV1926:0 "Melnas"
  PROV1927:0 "Vumoaiya"
  PROV1928:0 "Bunaire"
  PROV1929:0 "Elivor"
  PROV1930:0 "Grimchall"
  PROV1931:0 "Pidevagon"
  PROV1932:0 "Cuaputr"
-
+ PROV1933:0 "Camsiper"
+ PROV1934:0 "Namaner"
+ PROV1935:0 "Lijasir"
+ PROV1936:0 "Hampuere"
+ PROV1937:0 "Jluasre"
+ PROV1938:0 "Kaliasjoi"
+ PROV1939:0 "Uluasre"
+ PROV1940:0 "Iopuiah"
+ PROV1941:0 "Uitaer"
+ PROV1942:0 "Lanaiei"
+ PROV1943:0 "Malnase"
+ PROV1944:0 "Muilasi"
+ PROV1945:0 "Anamai"
+ PROV1946:0 "Uiereyr"
+ PROV1947:0 "Manbuer"
+ PROV1948:0 "Etroiaw"
+ PROV1949:0 "Nyntare"
  PROV1950:0 "Winpass"
+ PROV1951:0 "Muljunasr"
  
  PROV1953:0 "Miwal"
  PROV1954:0 "Cuoria"
@@ -1098,6 +1187,9 @@
  
  PROV1985:0 "Octrol Point"
  PROV1986:0 "Eliar"
+ 
+ PROV1992:0 "Sansisor"
+ PROV1993:0 "Lepijasir"
  
  PROV2027:0 "Pranax"
 
@@ -1128,7 +1220,10 @@
  PROV2181:0 "Gazludh"
 
  PROV2189:0 "Kizipru"
- 
+ PROV2190:0 "Julukar"
+ PROV2191:0 "Hoasre"
+ PROV2192:0 "Fouasrek"
+ PROV2193:0 "Veniuat"
  PROV2194:0 "Turinoff"
 
  PROV2202:1 "Sapintor"
@@ -1476,17 +1571,22 @@
  PROV3399:0 "Solfield"
  PROV3400:0 "Ilinsa"
  
+ PROV3403:0 "Rushwater"
+ 
  PROV3405:0 "Drakew"
  
+ PROV3408:0 "Ultwead"
  PROV3409:0 "Cumoara"
  PROV3410:0 "Haliase"
- 
+ PROV3411:0 "Podlosi"
+ PROV3412:0 "Mepoais"
  PROV3413:0 "Saeminae"
  PROV3414:0 "Vaultis"
  PROV3415:0 "Cimor"
  PROV3416:0 "Bluegrass"
- 
+ PROV3417:0 "Tc'iase"
  PROV3418:0 "Stormit"
+ PROV3419:0 "Juoaeou"
  
  PROV3422:0 "Mostale"
  
@@ -1823,6 +1923,7 @@
  PROV5257:0 "Lake Matifi"
  PROV5258:0 "Slyard Lake"
  PROV5259:0 "Kilgulf Lake"
+ PROV5260:0 "Sandside Lake"
  
  PROV5262:0 "Nidielle"
  
@@ -1839,6 +1940,10 @@
  PROV5276:0 "Echimune Peak"
  PROV5277:0 "Mount Kliora"
  
+ PROV5279:0 "Monausie"
+ PROV5280:0 "Orlierius Ridge"
+ PROV5281:0 "Orlierius Ridge"
+ PROV5282:0 "Orlierius Ridge"
  PROV5283:0 "Soarpillar Cliffs"
  PROV5284:0 "Soarpillar Cliffs"
  PROV5285:0 "Central Iyfadirian"
@@ -1860,7 +1965,7 @@
  PROV5322:0 "Wiltock"
  
  PROV5325:0 "Lmeven"
- PROV5326:0 "Mostale"
+ PROV5326:0 "Claron Path"
  
  PROV5333:0 "Ecasum"
  

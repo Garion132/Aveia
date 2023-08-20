@@ -43,19 +43,13 @@ The Golden Sun (1540 - 1638)
 		present on two continents
 		discover jululia
 		control centers of trade
+		create a colonial empire
 		hold a great light (kusedean,golden sun,)
+		Magical materials (gain trade bonus from gudenia, ankon, vitaite or byrine)
+		multicultural nation
 	boni:
 		Harsher Treatment
 		Efficient Autonomy
-Rosen Dawn (1638-1670)
-	obj:
-		create a colonial empire
-		Magical materials (gain trade bonus from gudenia, ankon, vitaite or byrine)
-		multicultural nation
-		Steam Airships (mil 35)
-	boni:
-		Naval Engagement
-		great fleet
 Solar Strife (1670-1712)
 	obj:
 		convert prov
@@ -63,11 +57,14 @@ Solar Strife (1670-1712)
 		take a side (choose one of the succesor religions or declare allienge to the true tlaunorist)
 		absolutism
 		large capital
+		Steam Airships (mil 35)
 	boni:
 		religious wars
 		institutional spread
 		absolute government
 		Unrestricted Conquest
+		Naval Engagement
+		great fleet
 Age of Progress (1712-)
 	obj:
 		parliment

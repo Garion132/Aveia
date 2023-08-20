@@ -19,7 +19,6 @@ change_estate_land_share = {
 	estate = estate_burghers
 	share = 15
 }
-add_liberty_desire = 10
 
 1260.1.1 = {
 	monarch = {

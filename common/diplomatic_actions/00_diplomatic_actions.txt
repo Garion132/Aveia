@@ -120,24 +120,14 @@ annexationaction = {
 		tooltip = ANNEXINVALID_KYA
 		potential = {
 			FROM = {
-				vassal_of = ROOT
-				OR={
-					tag = KYT
-					tag = ANO
-					tag = LUR
-					tag = MAT
-					tag = TIT
-				}
+				is_subject_of_type = feudal_dignitary
 			}
 			ROOT={
 				has_reform = kyathian_council_reform
 			}
 		}
 		allow = {
-			OR={
-				is_year = 1360
-				has_country_flag = KYA_broke_contract_nalean
-			}
+			has_country_flag = KYA_broke_contract_nalean
 		}
 	}
 	#condition = {

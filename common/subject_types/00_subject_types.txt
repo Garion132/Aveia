@@ -33,6 +33,7 @@ vassal = {}
 tolcar_federate = {}
 march = {}
 daimyo_vassal = {}
+feudal_dignitary = {}
 personal_union = {}
 client_vassal = {}
 client_march = {}
@@ -331,9 +332,9 @@ tolcar_federate = {
 	copy_from = vassal
 	
 	# Graphics:
-	sprite = GFX_icon_vassal
-	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
-	diplomacy_subject_sprite = GFX_diplomacy_amvassal
+	sprite = GFX_icon_federate
+	diplomacy_overlord_sprite = GFX_diplomacy_leadfederate
+	diplomacy_subject_sprite = GFX_diplomacy_amfederate
 
 	# Properties:
 	base_liberty_desire = 10.0
@@ -373,6 +374,54 @@ tolcar_federate = {
 	modifier_subject = clear #Ditto
 	modifier_subject = {
 		modifier = federate_nation
+	}
+	modifier_overlord = {
+		modifier = vassal_subject
+	}
+}
+feudal_dignitary = {
+	copy_from = vassal
+	
+	# Graphics:
+	sprite = GFX_icon_feudal_dignitary
+	diplomacy_overlord_sprite = GFX_diplomacy_leadfeudal_dignitary
+	diplomacy_subject_sprite = GFX_diplomacy_amfeudal_dignitary
+
+	# Properties:
+	base_liberty_desire = -5.0
+	can_be_annexed = yes
+	forms_trade_companies = no
+	overlord_protects_external = yes
+	allows_taking_land_without_independence = yes
+	takes_diplo_slot = no
+	
+	relative_power_class = 2
+
+	# Subject Interactions:
+	subsidize_armies = yes
+	seize_territory = no
+	
+	can_fight = {
+		same_overlord = feudal_dignitary
+		independent_nations = yes
+	}
+	can_rival = {
+		same_overlord = feudal_dignitary
+		independent_nations = yes
+	}
+	can_ally = {
+		same_overlord = feudal_dignitary
+	}
+	can_marry = {
+		same_overlord = feudal_dignitary
+	}
+	place_relative_on_throne = no
+
+	# Modifiers:
+	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+	modifier_subject = clear #Ditto
+	modifier_subject = {
+		modifier = feudal_dignitary_nation
 	}
 	modifier_overlord = {
 		modifier = vassal_subject
@@ -460,9 +509,9 @@ dominion_vassal = {
 	is_colony_subtype = yes
 	
 	# Graphics:
-	sprite = GFX_subject_colony_icon
-	diplomacy_overlord_sprite = GFX_diplomacy_leadcolony
-	diplomacy_subject_sprite = GFX_diplomacy_subjectcolony
+	sprite = GFX_icon_dominion
+	diplomacy_overlord_sprite = GFX_icon_dominion_lead
+	diplomacy_subject_sprite = GFX_icon_dominion_follow
 	
 	# Properties:
 	has_power_projection = yes
@@ -980,9 +1029,9 @@ strongholder_vassal = {
 	# }
 	
 	# Graphics:
-	sprite = GFX_subject_tributary_state
-	diplomacy_overlord_sprite = GFX_diplomacy_leadtributary
-	diplomacy_subject_sprite = GFX_diplomacy_amtributary
+	sprite = GFX_subject_strongholder
+	diplomacy_overlord_sprite = GFX_diplomacy_leadstrongholder
+	diplomacy_subject_sprite = GFX_diplomacy_amstrongholder
 
 	# Properties:
 	joins_overlords_wars = no

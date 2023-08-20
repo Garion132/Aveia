@@ -3879,3 +3879,28 @@ rauthyr_bronze_monarchy = {
 		has_reform = rauosuan_hegemony_reform
 	}
 }
+lumian_patricanate = {
+	rank = {
+		1 = PATRICIATE
+		2 = GRAND_PATRICIATE
+		3 = GREAT_PATRICIATE
+	}
+
+	ruler_male = {
+		1 = PATRICIAN
+		2 = PATRICIAN
+		3 = GRANDPATRICIAN
+	}
+
+	ruler_female = {
+		1 = PATRICIAN_fem
+		2 = PATRICIAN_fem
+		3 = GRANDPATRICIAN_fem
+	}
+
+	government_reform = iron_republic_mechanic
+
+	trigger = {
+		has_reform = ia_lumian_patricanate
+	}
+}

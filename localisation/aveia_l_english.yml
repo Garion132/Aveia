@@ -675,12 +675,6 @@
  rauthyr_estate_events.18.t:0 "Mannish raiders arrive in [Root.GetName]"
  rauthyr_estate_events.18.a:0 "Fight them back"
  rauthyr_estate_events.18.b:0 "Pay them off"
- cb_establish_faun_federate:0 "Establish Federate"
- CB_ALLOWED_po_become_federate:0 "Become $TAKERS$ Federate"
- PEACE_po_become_federate:0 "@$GIVER$ $TAKER$ Federate"
- po_become_federate_desc:0 "[From.GetName] becomes a [This.GetName] Federate"
- ESTABLISH_FEDERATE_MISSION_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ Federate War"
- tolcar_federate_is_our:0 "§Y[From.GetName]§! is our Federate"
  
  golden_sun_1:0 "The Golden Sun"
  golden_sun_1_desc:0 "A golden orb of light, the biggest Orb known, gives off enormous amount of light and heat. The surrounding area due to this is pratically untouched by seasons creating a ideal enviroment for growing crops and rasing animals."
@@ -703,3 +697,15 @@
  string_start_kyath: "The kingdom of Kyath is among the oldest elvish nation states in the world, Founded by Charles Kyathi along the coast of lake Oleml, Kyath has slowly expanded into its neighbors. In 1060 the then king of Kyath, Charles IV, brought together the surrounding dukes under the Contract of Nalean, guaranting the rights and privilages of the new vassals and their voices in the Kyathian Council in what would become the first feudal state of the Civilised Races. While there have been tensions with the largest of the duchies, Iwenlumy, the Contract has held among the other lords of the Kyathian Council."
  orionrahetia_rebels_name: "Orionrahetian Zealots"
  godly_sect_rebels_name: "Godly Sect Zealots"
+ 
+ feudal_dignitary_is_our: "§Y$NAME|Y$§! is our Feudal Dignitary"
+ feudal_dignitary_title: "Feudal Dignitary"
+ feudal_dignitary_title_plural: "Feudal Dignitaries"
+ cb_establish_faun_federate:0 "Establish Federate"
+ CB_ALLOWED_po_become_federate:0 "Become $TAKERS$ Federate"
+ PEACE_po_become_federate:0 "@$GIVER$ $TAKER$ Federate"
+ po_become_federate_desc:0 "[From.GetName] becomes a [This.GetName] Federate"
+ ESTABLISH_FEDERATE_MISSION_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ Federate War"
+ tolcar_federate_is_our:0 "§Y$NAME|Y$§! is our Federate"
+ 
+ 

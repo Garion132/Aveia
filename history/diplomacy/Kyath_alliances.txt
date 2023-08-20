@@ -1,7 +1,8 @@
 ## Kyath vassals
 
 # Kyath-Titar
-vassal = {
+dependency = {
+	subject_type = "feudal_dignitary"
 	first = KYA
 	second = TIT
 	start_date = 1160.8.20
@@ -15,28 +16,32 @@ vassal = {
 	end_date = 1532.8.3
 }
 # Kyath-Kyatlasian Theocracy
-vassal = {
+dependency = {
+	subject_type = "feudal_dignitary"
 	first = KYA
 	second = KYT
 	start_date = 1160.8.20
 	end_date = 1532.8.3
 }
 # Kyath-Anores
-vassal = {
+dependency = {
+	subject_type = "feudal_dignitary"
 	first = KYA
 	second = ANO
 	start_date = 1160.8.20
 	end_date = 1532.8.3
 }
 # Kyath-Matnolu
-vassal = {
+dependency = {
+	subject_type = "feudal_dignitary"
 	first = KYA
 	second = MAT
 	start_date = 1160.8.20
 	end_date = 1532.8.3
 }
 # Kyath-Lurt
-vassal = {
+dependency = {
+	subject_type = "feudal_dignitary"
 	first = KYA
 	second = LUR
 	start_date = 1160.8.20

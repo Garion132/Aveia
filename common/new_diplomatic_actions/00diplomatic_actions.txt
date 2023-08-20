@@ -144,3 +144,321 @@
 #		always = no
 #	}
 #}
+
+offer_contract_addition = {
+	category = influence
+
+	alert_index = 40
+	alert_tooltip = demand_dummy_alert_tooltip
+
+	require_acceptance = yes # Whether the recipient gets an option to decline
+
+	is_visible = {
+		has_government_mechanic = nalean_contract_mechanic
+		is_subject = no
+		FROM = {
+			is_subject = no
+			same_continent = ROOT
+			#is_neighbor_of = ROOT
+		}
+	}
+	is_allowed = {
+		custom_trigger_tooltip = {
+			tooltip = KYA_NC_normal_vassal_conditions
+			alliance_with = FROM
+			FROM={
+				has_opinion = {
+					who = ROOT
+					value = 190
+				}
+				is_at_war = no
+			}
+			has_government_power = {
+				mechanic_type = nalean_contract_mechanic
+				power_type = contract_experation
+				value = 30
+			}
+		}
+		
+	}
+	on_accept = {
+		add_trust = {
+			who = FROM
+			value = 10
+			mutual = yes
+		}
+		create_subject = {
+			subject_type = feudal_dignitary
+			subject = FROM
+		}
+		add_government_power = { # adds the specified amount of power
+			mechanic_type = nalean_contract_mechanic
+			power_type = contract_experation
+			value = -25
+		}
+	}
+	on_decline ={
+		add_trust = {
+			who = FROM
+			value = -15
+			mutual = no
+		}
+	}
+
+	ai_acceptance = { # This works similarly to variable_arithmetic_trigger, but does not support triggers generally. Instead, "limit" will be evaluated first and the rest ignored if it isn't passed.
+		add_entry = {
+			name = TRUST
+			export_to_variable = {
+				variable_name = ai_value # Each "add_entry" must create one variable called "ai_value", the value of which will be extracted after executing all effects
+				value = trust
+				who = FROM
+				with = THIS
+			}
+			subtract_variable = { which = ai_value value = 50 }
+			multiply_variable = { which = ai_value value = 2 }
+		}
+		#vassalization acceptance reasons modifier
+		add_entry = {
+			name = NCvassalizationreasons
+			limit = {always = yes}
+			export_to_variable = {
+				which = ai_value
+				value = modifier:accept_vassalization_reasons
+				who = ROOT
+			}
+
+		}
+		#ruler diplo skill
+		add_entry = {
+			name = NCRulerDip
+			limit = {dip = 3}
+			export_to_variable = {
+				which = ai_value
+				value = DIP
+				who = ROOT
+			}
+			multiply_variable = { which = ai_value value = 2 }
+
+		}
+		#diplomatic repuation
+		add_entry = {
+			name = NCdipRep
+			limit = {always = yes}
+			export_to_variable = {
+				which = ai_value
+				value = modifier:diplomatic_reputation
+				who = ROOT
+			}
+			multiply_variable = { which = ai_value value = 2 }
+
+		}
+		#development comparision
+		add_entry = {
+			name = NCSize
+			limit = {
+				always = yes
+			}
+			export_to_variable = {
+				which = ai_value
+				value = total_development
+				who = ROOT
+			}
+			divide_variable = { which = ai_value value = 3.5 }
+			export_to_variable = {
+				which = from_value
+				value = total_development
+				who = FROM
+			}
+			multiply_variable = { which = from_value value = -1 }
+			change_variable = {
+				which = ai_value
+				which = from_value
+			}
+		}
+		add_entry = {
+			name = NCTooBig
+			limit = {
+				FROM = {total_development = 100}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = -1000
+			}
+		}
+		add_entry = {
+			name = NCSmallDistance
+			limit = {
+				FROM = {
+					capital_distance = {
+						who = ROOT
+						distance = 100
+					}
+					NOT={
+						capital_distance = {
+							who = ROOT
+							distance = 150
+						}
+					}
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = -10
+			}
+		}
+		add_entry = {
+			name = NCOutsideKyathia
+			limit = {
+				FROM = {
+					capital_distance = {
+						who = ROOT
+						distance = 150
+					}
+					NOT={
+						capital_distance = {
+							who = ROOT
+							distance = 200
+						}
+					}
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = -35
+			}
+		}
+		add_entry = {
+			name = NCVeryFar
+			limit = {
+				FROM = {
+					capital_distance = {
+						who = ROOT
+						distance = 200
+					}
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = -100
+			}
+		}
+		#high prestige
+		add_entry = {
+			name = NCPrestigeous
+			limit = {
+				ROOT = {prestige = 50}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = prestige
+			}
+			divide_variable = { which = ai_value value = 4 }
+		}
+		#power projection
+		add_entry = {
+			name = NCAssertive
+			limit = {
+				ROOT = {power_projection = 50}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = 15
+			}
+		}
+		#your army is a good ammount larger than theirs
+		add_entry = {
+			name = NCPowerful
+			limit = {
+				ROOT = {
+					army_strength = {
+					who = FROM
+					value = 1.5
+					}
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = 15
+			}
+		}
+		#your army is too small
+		add_entry = {
+			name = NCWeak
+			limit = {
+				ROOT = {
+					NOT = {
+						army_strength = {
+							who = FROM
+							value = 0.6
+						}
+					}
+					
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = -45
+			}
+		}
+		#base -45
+		add_entry = {
+			name = NCBase
+			limit = {
+				always = yes
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = -45
+			}
+			
+		}
+		#has subjects
+		add_entry = {
+			name = NCOverlord
+			limit = {
+				FROM={
+					num_of_subjects = 1
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = -50
+			}
+			
+		}
+	}
+
+	ai_will_do = { # this is a trigger
+		has_opinion_modifier = {
+			modifier = insulted
+			who = FROM
+		}
+	}
+}

@@ -79,6 +79,10 @@ country_event = {
 			set_country_flag = KYA_upheld_treaty
 			custom_tooltip = uphold_contract_of_nalean_tt
 			add_dip_power = -25
+			create_subject = {
+				subject_type = feudal_dignitary
+				subject = IWE
+			}
 			IWE = {
 				add_liberty_desire = -10
 			}

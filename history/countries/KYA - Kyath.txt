@@ -20,7 +20,6 @@ change_estate_land_share = {
 	estate = estate_burghers
 	share = -5
 }
-set_estate_privilege = estate_nobles_strong_duchies
 
 1240.9.16 = {
 	monarch = {

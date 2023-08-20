@@ -1,0 +1,70 @@
+nalean_contract_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 17
+
+	# Needs to be tested
+	available = {
+		NOT = {has_country_flag = KYA_broke_contract_nalean}
+	}
+
+	powers = {
+		contract_experation = {
+			#gui = monumentality_gov_mech_power
+			max = 100
+			default = 0
+			base_monthly_growth = 0.1
+			scaled_modifier = {
+				start_value = 50
+				modifier = {
+					stability_cost_modifier = -0.2
+				}
+			}
+			reverse_scaled_modifier = {
+				end_value = 50
+                modifier = {
+                    reduced_liberty_desire = 5
+                }
+            }
+			on_max_reached = {
+				custom_tooltip = KYA_contract_nalean_expires
+				set_country_flag = KYA_broke_contract_nalean
+				hidden_effect={
+					freeze_government_power = {
+						mechanic_type = nalean_contract_mechanic
+						power_type = contract_experation
+					}
+				}
+			}
+			is_good = yes
+		}
+	}
+	
+	interactions = {
+		extend_contract = {
+			#gui = monumentality_gov_mech_sacc
+			cost_type = contract_experation
+			center = no
+			trigger = {
+				has_government_power = {
+					mechanic_type = nalean_contract_mechanic
+					power_type = contract_experation
+					value = 12
+				}
+			}
+			effect = { 
+				every_subject_country = {
+					add_liberty_desire = -5
+				}
+				add_government_power = { 
+					mechanic_type = nalean_contract_mechanic
+					power_type = contract_experation
+					value = -12
+				}
+			}
+			cooldown_years = 0
+			ai_chance = {
+				factor = 0
+			}
+		}
+	}
+}

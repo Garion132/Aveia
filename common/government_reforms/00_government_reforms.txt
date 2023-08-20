@@ -374,9 +374,7 @@ kyathian_council = {
 	monarchy = yes
 	modifiers = {
 		global_manpower_modifier = 0.1
-		diplomatic_upkeep = 2
 		vassal_income = 0.5
-		reduced_liberty_desire_on_same_continent = 5
 		diplomatic_annexation_cost = 0.25
 		nobles_influence_modifier = 0.05
 		church_influence_modifier = 0.05
@@ -384,6 +382,7 @@ kyathian_council = {
 	}
 	government_abilities = {
 		monumentality_mechanic
+		nalean_contract_mechanic
 	}
 	ai = {
 		factor = 1
@@ -407,9 +406,7 @@ kyathian_council_reform = {
 
 	modifiers = {
 		global_manpower_modifier = 0.1
-		diplomatic_upkeep = 2
 		vassal_income = 0.5
-		reduced_liberty_desire_on_same_continent = 5
 		diplomatic_annexation_cost = 0.25
 		nobles_influence_modifier = 0.05
 		church_influence_modifier = 0.05
@@ -417,6 +414,7 @@ kyathian_council_reform = {
 	}
 	government_abilities = {
 		monumentality_mechanic
+		nalean_contract_mechanic
 	}
 	monarchy = yes
 	valid_for_nation_designer = no
