@@ -452,6 +452,14 @@ can_have_center_of_reformation_trigger = { #Province Scope
 			religion = $RELIGION$
 		}
 	}
+	NOT = { has_climate = arctic }
+	NOT = { has_climate = arid }
+	NOT = { has_terrain = coastline }
+	NOT = { has_terrain = coastal_desert }
+	NOT = { has_terrain = steppe }
+	NOT = { has_terrain = desert }
+	NOT = { has_terrain = glacier }
+	NOT = { has_climate = tropical }
 }
 
 province_viable_for_industrialization_events_trigger = { #Province Scope
@@ -1303,6 +1311,279 @@ is_absolutism_active = {
 		current_age = age_of_rosen_dawn
 		current_age = age_of_strife
 		current_age = age_of_progress
+	}
+}
+
+
+#Country scope
+is_or_was_tag = {
+	OR = {
+		tag = $tag$
+		was_tag = $tag$
+	}
+}
+
+has_any_colonist_idea = {
+	OR = {
+		has_idea = colonial_ventures
+		has_idea = additional_colonists
+		has_idea = general_colonization_law
+		has_idea = pioneer_spirit
+		has_idea = manifest_destiny
+		has_idea = settling_the_interior
+		has_idea = cab_carib_seafaring
+		has_idea = lon_conquistadores
+		has_idea = nzh_expand_to_the_east
+		has_idea = hdr_distant_diplomacy	#Colonist is in the ambition
+		has_idea = AUS_outback_stations
+		has_idea = NZL_pokarekare_ana	#Colonist is in the ambition
+		has_idea = WSI_Colonial_Legacy	#Colonist is in the ambition
+		has_idea = asu_colonialism
+		has_idea = adu_expeditionary_sentiment
+		has_idea = ICE_nationalism	#Colonist is in the ambition
+		has_idea = maj_nusa_tenggara
+	}
+}
+
+has_completed_idea_group_of_category = {
+	[[adm_ideas]
+		custom_trigger_tooltip = {
+			tooltip = has_completed_one_adm_idea_group
+			OR = {
+				full_idea_group = administrative_ideas
+				full_idea_group = philosophical_ideas
+				full_idea_group = engineering_ideas
+				full_idea_group = religious_ideas
+				full_idea_group = bureaucratic_ideas
+				full_idea_group = humanist_ideas
+				full_idea_group = innovativeness_ideas
+				full_idea_group = economic_ideas
+				full_idea_group = expansion_ideas
+				full_idea_group = industrial_ideas
+				full_idea_group = magical_ideas
+				full_idea_group = capitalist_ideas
+			}
+		}
+	]
+	[[dip_ideas]
+		custom_trigger_tooltip = {
+			tooltip = has_completed_one_dip_idea_group
+			OR = {
+				full_idea_group = trade_ideaseas
+				full_idea_group = colonialism_ideas
+				full_idea_group = maritime_ideas
+				full_idea_group = diplomatic_ideas
+				full_idea_group = influence_ideas
+				full_idea_group = spy_ideas
+				full_idea_group = exploration_ideas
+				full_idea_group = business_ideas
+				full_idea_group = propaganda_ideas
+				full_idea_group = imperialist_ideas
+				full_idea_group = nationalist_ideas
+				full_idea_group = geopolitical_ideas
+			}
+		}
+	]
+	[[mil_ideas]
+		custom_trigger_tooltip = {
+			tooltip = has_completed_one_mil_idea_group
+			OR = {
+				full_idea_group = offensive_ideas
+				full_idea_group = defensive_ideas
+				full_idea_group = leadership_ideas
+				full_idea_group = logistic_ideas
+				full_idea_group = aristocracy_ideas
+				full_idea_group = plutocracy_ideas
+				full_idea_group = quality_ideas
+				full_idea_group = quantity_ideas
+				full_idea_group = mercenary_ideas
+				full_idea_group = naval_ideas
+				full_idea_group = combined_arms_ideas
+				full_idea_group = mass_production_ideas
+				full_idea_group = procurement_ideas
+			}
+		}
+	]
+}
+
+num_of_completed_idea_groups_adm = {
+	calc_true_if = {
+		desc = num_of_completed_idea_groups_adm_tt
+		full_idea_group = administrative_ideas
+		full_idea_group = philosophical_ideas
+		full_idea_group = engineering_ideas
+		full_idea_group = religious_ideas
+		full_idea_group = bureaucratic_ideas
+		full_idea_group = humanist_ideas
+		full_idea_group = innovativeness_ideas
+		full_idea_group = economic_ideas
+		full_idea_group = expansion_ideas
+		full_idea_group = industrial_ideas
+		full_idea_group = magical_ideas
+		full_idea_group = capitalist_ideas
+		amount = $amount$
+	}
+}
+
+num_of_completed_idea_groups_dip = {
+	calc_true_if = {
+		desc = num_of_completed_idea_groups_dip_tt
+		full_idea_group = trade_ideaseas
+		full_idea_group = colonialism_ideas
+		full_idea_group = maritime_ideas
+		full_idea_group = diplomatic_ideas
+		full_idea_group = influence_ideas
+		full_idea_group = spy_ideas
+		full_idea_group = exploration_ideas
+		full_idea_group = business_ideas
+		full_idea_group = propaganda_ideas
+		full_idea_group = imperialist_ideas
+		full_idea_group = nationalist_ideas
+		full_idea_group = geopolitical_ideas
+		amount = $amount$
+	}
+}
+
+num_of_completed_idea_groups_mil = {
+	calc_true_if = {
+		desc = num_of_completed_idea_groups_mil_tt
+		full_idea_group = offensive_ideas
+		full_idea_group = defensive_ideas
+		full_idea_group = leadership_ideas
+		full_idea_group = logistic_ideas
+		full_idea_group = aristocracy_ideas
+		full_idea_group = plutocracy_ideas
+		full_idea_group = quality_ideas
+		full_idea_group = quantity_ideas
+		full_idea_group = mercenary_ideas
+		full_idea_group = naval_ideas
+		full_idea_group = combined_arms_ideas
+		full_idea_group = mass_production_ideas
+		full_idea_group = procurement_ideas
+		amount = $amount$
+	}
+}
+
+num_of_completed_idea_groups_by_category = {
+	num_of_completed_idea_groups_$type$ = { amount = $amount$ }
+}
+
+
+mal_will_accept_offer = {
+	$province$ = {
+		owner = {
+			OR = {
+				alliance_with = ROOT
+				is_subject_of = ROOT
+				has_opinion = {
+					who = ROOT
+					value = 100
+				}
+			}
+		}
+	}
+}
+
+mal_very_highly_to_accept_offer = {
+	$province$ = {
+		owner = {
+			has_opinion = {
+				who = ROOT
+				value = 50
+			}
+		}
+	}
+}
+
+mal_might_or_might_not_accept_offer = {
+	$province$ = {
+		owner = {
+			has_opinion = {
+				who = ROOT
+				value = -50
+			}
+			NOT = {
+				has_opinion = {
+					who = ROOT
+					value = 50
+				}
+			}
+		}
+	}
+}
+
+mal_very_likely_to_not_accept_offer = {
+	$province$ = {
+		owner = {
+			NOT = {
+				has_opinion = {
+					who = ROOT
+					value = 50
+				}
+			}
+		}
+	}
+}
+
+mal_will_never_accept_offer = {
+	$province$ = {
+		owner = {
+			OR = {
+				is_rival = ROOT
+				is_enemy = ROOT
+				NOT = {
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			}
+		}
+	}
+}
+
+province_is_or_accepts_culture = {
+	OR = {
+		has_owner_culture = yes
+		has_owner_accepted_culture = yes
+	}
+}
+
+province_is_or_accepts_religion_group = { 
+	custom_trigger_tooltip = {
+		tooltip = province_is_or_accepts_$religion_group$_tt
+		OR = {
+			AND = {
+				religion_group = $religion_group$
+				has_owner_religion = yes
+			}
+			AND = {
+				owner = { secondary_religion_group = $religion_group$ }
+				OR = {
+					religion_group = $religion_group$
+					has_owner_religion = yes
+				}
+			}
+		}
+	}
+}
+
+province_is_or_accepts_religion = {
+	custom_trigger_tooltip = {
+		tooltip = province_is_or_accepts_$religion$_tt
+		OR = {
+			AND = {
+				religion = $religion$
+				has_owner_religion = yes
+			}
+			AND = {
+				owner = { secondary_religion = $religion$ }
+				OR = {
+					religion = $religion$
+					has_owner_religion = yes
+				}
+			}
+		}
 	}
 }
 

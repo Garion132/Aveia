@@ -166,6 +166,13 @@
  gugh_10: "Lajdri"
  gugh_17: "Matiria"
  gugh_19: "Kepjar'ia"
+ colonial_laei: "Colonial Laei"
+ colonial_yulanir: "Colonial Yulanir"
+ colonial_golden_basin: "Colonial Golden Basin"
+ colonial_strivian: "Colonial Strivian"
+ colonial_shield: "Colonial Shield"
+ colonial_tilvena: "Colonial Tilvena"
+ colonial_icewatch: "Colonial Icewatch"
 
  state:0 ""
  state_name:0 ""

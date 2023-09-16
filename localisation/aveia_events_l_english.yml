@@ -166,6 +166,8 @@
  athanila.2.a:0 "Offer some concessions"
  athanila.2.a:0 "Crush this revolt!"
  
+ eastern_scramble.1.t: "Passage of Ice and Ash"
+ 
  eastern_scramble.4.t:0 "Citizens in [Root.GetName] leave to join the CTC"
  eastern_scramble.4.a:0 "Prevent them"
  eastern_scramble.4.e:0 "Let them go"

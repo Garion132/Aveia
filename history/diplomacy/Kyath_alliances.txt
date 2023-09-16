@@ -144,35 +144,35 @@ dependency = {
 
 ####colonies workaround
 dependency = {
-	subject_type = "dominion_vassal"
+	subject_type = "colony_elteria_start"
 	first = ATH
 	second = SIL
 	start_date = 1257.1.1
 	end_date = 1370.4.22
 }
 dependency = {
-	subject_type = "dominion_vassal"
+	subject_type = "colony_elteria_start"
 	first = LEL
 	second = OAG
 	start_date = 1257.1.1
 	end_date = 1370.4.22
 }
 dependency = {
-	subject_type = "dominion_vassal"
+	subject_type = "colony_elteria_start"
 	first = KAF
 	second = CLO
 	start_date = 1257.1.1
 	end_date = 1370.4.22
 }
 dependency = {
-	subject_type = "dominion_vassal"
+	subject_type = "colony_elteria_start"
 	first = KEA
 	second = FYG
 	start_date = 1257.1.1
 	end_date = 1370.4.22
 }
 dependency = {
-	subject_type = "dominion_vassal"
+	subject_type = "colony_elteria_start"
 	first = SAL
 	second = SRI
 	start_date = 1257.1.1
@@ -203,7 +203,8 @@ vassal = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
-vassal = {
+dependency = {
+	subject_type = "trade_protectorate"
 	first = KAF
 	second = SFX
 	start_date = 1272.1.1

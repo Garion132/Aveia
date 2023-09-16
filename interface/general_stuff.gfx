@@ -562,6 +562,128 @@ spriteTypes = {
 		texturefile = "gfx/interface/icon_transit_hub.dds"
 	}
 
+	### Domination Icons
+
+	spriteType = {
+		name = "GFX_icon_appanage"
+		texturefile = "gfx/interface/subjects/icon_appanage.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_appanage"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_appanage.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_appanage"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_appanage.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_eyalet"
+		texturefile = "gfx/interface/subjects/icon_eyalet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_eyalet"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_eyalet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_eyalet"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_eyalet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_core_eyalet"
+		texturefile = "gfx/interface/subjects/icon_core_eyalet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_core_eyalet"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_core_eyalet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_core_eyalet"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_core_eyalet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_commercial_enterprise"
+		texturefile = "gfx/interface/subjects/icon_commercial_enterprise.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_commercial_enterprise"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_commercial_enterprise.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_commercial_enterprise"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_commercial_enterprise.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_trade_protectorate"
+		texturefile = "gfx/interface/subjects/trade_protectorate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_trade_protectorate"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_trade_protectorate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_trade_protectorate"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_trade_protectorate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_crown_colony"
+		texturefile = "gfx/interface/subjects/icon_crown_colony.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_crown_colony"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_crown_colony.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_crown_colony"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_crown_colony.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_private_enterprise"
+		texturefile = "gfx/interface/subjects/icon_private_enterprise.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_private_enterprise"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_private_enterprise.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_private_enterprise"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_private_enterprise.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_self_governing_colony"
+		texturefile = "gfx/interface/subjects/icon_self_governing_colony.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_self_governing_colony"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_self_governing_colony.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_self_governing_colony"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_self_governing_colony.dds"
+	}
+
 	### BARS
 	
 	progressbartype = {

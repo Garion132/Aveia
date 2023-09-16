@@ -1,0 +1,15 @@
+bookmark = {
+	name = "rake_bookmark"
+	desc = "rake_bookmark_desc"
+	date = 1272.8.6
+	
+	center = 2040
+	
+	easy_country = VUL
+	country = VUL
+	country = VYL
+	country = VEN
+	country = GAR
+	country = VII
+	country = OAY
+}

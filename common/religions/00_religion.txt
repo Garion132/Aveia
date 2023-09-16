@@ -666,9 +666,11 @@ rake_group = {
 		}
 		allowed_conversion = {
 			vulikivite
+			veliti
 		}
 		allowed_center_conversion = {
 			vulikivite
+			veliti
 		}
 		on_convert = {
 			change_religion = rethese

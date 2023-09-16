@@ -78,6 +78,7 @@ expiditionary_state_ideas = {
 			tag = ULE
 			tag = KEL
 			tag = RAE
+			tag = TLA
 		}
 	}
 	free = yes		#will be added at load.
