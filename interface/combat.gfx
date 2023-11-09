@@ -29,7 +29,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "gfx_battlemodifiers"
-		texturefile = "gfx//interface//battle_modifiers.tga"
+		texturefile = "gfx//interface//battle_modifiers.dds"
 		noOfFrames = 8
 	}
 
@@ -282,7 +282,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_combat_modifier_small_strip"	
 		texturefile = "gfx\\interface\\combat_modifier_small_strip.dds"
-		noOfFrames = 8
+		noOfFrames =9
 	}
 
 

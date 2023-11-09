@@ -1,6 +1,6 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
-primary_culture = kyathian
+primary_culture = irenaso
 religion = tlaunorist
 technology_group = lake_elves_group
 capital = 91 # Tlind

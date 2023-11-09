@@ -21,8 +21,12 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 port = yes
-
-add_permanent_province_modifier = {
-	name = kushedean_lighthouse
-	duration = -1
+if={
+	limit={
+		NOT={has_dlc = "Leviathan"}
+	}
+	add_permanent_province_modifier = {
+		name = kushedean_lighthouse
+		duration = -1
+	}
 }

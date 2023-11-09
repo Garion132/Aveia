@@ -706,6 +706,7 @@
  feudal_dignitary_is_our: "§Y$NAME|Y$§! is our Feudal Dignitary"
  feudal_dignitary_title: "Feudal Dignitary"
  feudal_dignitary_title_plural: "Feudal Dignitaries"
+ feudal_dignitary_long_desc: "A Feudal Dignitary will follow their overlord to war and cannot make certain diplomatic actions. However a Feudal Dignitary cannot be annexed while the §YContract of Nalean§! is in effect."
  cb_establish_faun_federate:0 "Establish Federate"
  CB_ALLOWED_po_become_federate:0 "Become $TAKERS$ Federate"
  PEACE_po_become_federate:0 "@$GIVER$ $TAKER$ Federate"
