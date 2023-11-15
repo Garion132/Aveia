@@ -153,7 +153,7 @@ marketplace = {
 
 	modifier = {
 		province_trade_power_value = 1.0
-		province_trade_power_modifier = 0.2
+		province_trade_power_modifier = 0.33
 	}
 
 	on_built = {
@@ -179,7 +179,7 @@ trade_depot = {
 
 	modifier = {
 		province_trade_power_value = 2.0
-		province_trade_power_modifier = 0.33
+		province_trade_power_modifier = 0.66
 	}
 	
 	on_built = {
@@ -205,7 +205,7 @@ merchants_quarter = {
 
 	modifier = {
 		province_trade_power_value = 3.0
-		province_trade_power_modifier = 0.5
+		province_trade_power_modifier = 1.0
 	}
 	
 	on_built = {
@@ -231,7 +231,7 @@ customs_house = {
 
 	modifier = {
 		province_trade_power_value = 5.0
-		province_trade_power_modifier = 1.0
+		province_trade_power_modifier = 2.0
 	}
 	
 	on_built = {
@@ -256,8 +256,7 @@ mint = {
 
 	modifier = {
 		tax_income = 0.5
-		province_trade_power_modifier = 0.1
-		trade_value = 0.5
+		province_trade_power_modifier = 0.25
 	}
 	
 	on_built = {
@@ -283,8 +282,7 @@ bank = {
 
 	modifier = {
 		tax_income = 1.0
-		province_trade_power_modifier = 0.2
-		trade_value = 1.0
+		province_trade_power_modifier = 0.5
 	}
 	
 	on_built = {
@@ -309,9 +307,8 @@ stock_exchange = {
 	make_obsolete = bank
 
 	modifier = {
-		tax_income = 1.5
-		province_trade_power_modifier = 0.4
-		trade_value = 2.0
+		tax_income = 2.0
+		province_trade_power_modifier = 1.0
 	}
 	
 	on_built = {
@@ -339,8 +336,7 @@ airdock = {
 	cost = 200
 	time = 12
 	modifier = {
-		global_tax_income = -2
-		cavalry_power = 0.025
+		cavalry_power = 0.005
 	}
 	
 	on_built = {
@@ -363,8 +359,7 @@ airship_maintenance_bay = {
 	time = 18
 	make_obsolete = airdock
 	modifier = {
-		global_tax_income = -6
-		cavalry_power = 0.05
+		cavalry_power = 0.01
 	}
 	
 	on_built = {
@@ -387,8 +382,7 @@ airship_terminal = {
 	time = 24
 	make_obsolete = airship_maintenance_bay
 	modifier = {
-		global_tax_income = -24
-		cavalry_power = 0.1
+		cavalry_power = 0.025
 	}
 	
 	on_built = {
@@ -415,8 +409,9 @@ shrine = {
 	cost = 50
 	time = 8
 	modifier = {
-		local_unrest = -1.0
+		local_unrest = -2.0
 		local_missionary_strength = 0.01
+		local_missionary_maintenance_cost = -0.2
 		local_tax_modifier = 0.05
 	}
 	
@@ -441,8 +436,9 @@ temple = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_unrest = -2
+		local_unrest = -3
 		local_missionary_strength = 0.02
+		local_missionary_maintenance_cost = -0.33
 		local_tax_modifier = 0.10
 	}
 	
@@ -467,9 +463,10 @@ cathedral = {
 	cost = 200
 	time = 16
 	modifier = {
-		local_unrest = -3.0
+		local_unrest = -4.0
 		local_missionary_strength = 0.03
-		local_tax_modifier = 0.15
+		local_missionary_maintenance_cost = -0.5
+		local_tax_modifier = 0.2
 	}
 	
 	on_built = {
@@ -497,8 +494,8 @@ town_square = {
 	time = 6
 	modifier = {
 		#local_autonomy = -0.025
-		local_state_maintenance_modifier = -0.15
-		local_governing_cost = -0.15
+		local_state_maintenance_modifier = -0.2
+		local_governing_cost = -0.2
 	}
 
 	ai_will_do = {
@@ -513,9 +510,9 @@ courthouse = {
 	make_obsolete = town_square
 
 	modifier = {
-		local_state_maintenance_modifier = -0.25
+		local_state_maintenance_modifier = -0.3
 		local_autonomy = -0.025
-		local_governing_cost = -0.2
+		local_governing_cost = -0.3
 	}
 	
 	on_built = {
@@ -543,7 +540,7 @@ town_hall = {
 	modifier = {
 		local_state_maintenance_modifier = -0.4
 		local_autonomy = -0.05
-		local_governing_cost = -0.3
+		local_governing_cost = -0.4
 	}
 	
 	on_built = {
@@ -569,9 +566,9 @@ post_office = {
 	make_obsolete = town_hall
 
 	modifier = {
-		local_state_maintenance_modifier = -0.66
+		local_state_maintenance_modifier = -0.5
 		local_autonomy = -0.05
-		local_governing_cost = -0.33
+		local_governing_cost = -0.5
 	}
 	
 	on_built = {
@@ -597,7 +594,7 @@ city_hall = {
 	make_obsolete = post_office
 
 	modifier = {
-		local_state_maintenance_modifier = -0.8
+		local_state_maintenance_modifier = -0.66
 		local_autonomy = -0.1
 		local_governing_cost = -0.66
 	}
@@ -630,7 +627,7 @@ port = {
 		has_port = yes
 	}
 	modifier = {
-		province_trade_power_value = 0.5
+		province_trade_power_value = 1.0
 		naval_forcelimit = 0.25
 		local_sailors_modifier = 0.33
 		supply_limit_modifier = 0.20
@@ -663,9 +660,9 @@ dockland = {
 		has_port = yes
 	}
 	modifier = {
-		province_trade_power_value = 1
+		province_trade_power_value = 2
 		naval_forcelimit = 0.5
-		local_sailors_modifier = 0.66
+		local_sailors_modifier = 0.75
 		supply_limit_modifier = 0.45
 	}
 	
@@ -696,9 +693,9 @@ wharf = {
 		has_port = yes
 	}
 	modifier = {
-		province_trade_power_value = 2
+		province_trade_power_value = 5
 		naval_forcelimit = 0.75
-		local_sailors_modifier = 1
+		local_sailors_modifier = 1.25
 		supply_limit_modifier = 0.6
 	}
 	
@@ -729,7 +726,7 @@ harbor_district = {
 		has_port = yes
 	}
 	modifier = {
-		province_trade_power_value = 5
+		province_trade_power_value = 10
 		naval_forcelimit = 1
 		local_sailors_modifier = 2
 		supply_limit_modifier = 0.75
@@ -809,7 +806,7 @@ drydock = {
 	modifier = {
 		naval_forcelimit = 1.5
 		ship_recruit_speed = -0.6
-		local_ship_repair = 0.8
+		local_ship_repair = 0.75
 	}
 	
 	on_built = {
@@ -848,7 +845,7 @@ naval_arsenal = {
 	}
 	modifier = {
 		naval_forcelimit = 3
-		ship_recruit_speed = -0.65
+		ship_recruit_speed = -0.8
 		local_ship_repair = 1
 	}
 	
@@ -890,7 +887,7 @@ naval_base = {
 	}
 	modifier = {
 		naval_forcelimit = 6
-		ship_recruit_speed = -0.7
+		ship_recruit_speed = -1.0
 		local_ship_repair = 1.25
 	}
 	
@@ -930,7 +927,7 @@ workshop = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.2
 	}
 
 	allow_in_gold_provinces = no
@@ -955,7 +952,7 @@ artisans_guild = {
 	time = 18
 	make_obsolete = workshop
 	modifier = {
-		local_production_efficiency = 0.2
+		local_production_efficiency = 0.4
 	}
 
 	allow_in_gold_provinces = no
@@ -980,7 +977,7 @@ craftsmans_district = {
 	time = 36
 	make_obsolete = artisans_guild
 	modifier = {
-		local_production_efficiency = 0.35
+		local_production_efficiency = 0.7
 	}
 
 	allow_in_gold_provinces = no
@@ -1005,7 +1002,7 @@ industrial_zone = {
 	time = 60
 	make_obsolete = craftsmans_district
 	modifier = {
-		local_production_efficiency = 0.5
+		local_production_efficiency = 1.0
 		trade_goods_size_modifier = 0.1
 	}
 
@@ -1087,7 +1084,7 @@ barracks = {
 
 	modifier = {
 		local_manpower = 0.1
-		local_manpower_modifier = 0.25
+		local_manpower_modifier = 0.5
 	}
 	
 	on_built = {
@@ -1113,7 +1110,7 @@ training_fields = {
 
 	modifier = {
 		local_manpower = 0.2
-		local_manpower_modifier = 0.5
+		local_manpower_modifier = 1.0
 	}
 	
 	on_built = {
@@ -1146,8 +1143,8 @@ military_academy = {
 	make_obsolete = training_fields
 
 	modifier = {
-		local_manpower = 0.4
-		local_manpower_modifier = 1
+		local_manpower = 0.3
+		local_manpower_modifier = 2
 	}
 	
 	on_built = {
@@ -1307,7 +1304,7 @@ tax_office = {
 
 	modifier = {
 		tax_income = 0.5
-		local_tax_modifier = 0.15
+		local_tax_modifier = 0.25
 		local_unrest = 2
 	}
 	
@@ -1334,7 +1331,7 @@ tax_agency = {
 
 	modifier = {
 		tax_income = 1
-		local_tax_modifier = 0.25
+		local_tax_modifier = 0.4
 		local_unrest = 3
 	}
 	
@@ -1361,8 +1358,7 @@ revenue_department = {
 
 	modifier = {
 		tax_income = 2
-		local_tax_modifier = 0.4
-		global_tax_modifier = 0.05
+		local_tax_modifier = 0.75
 		local_unrest = 4
 	}
 	
@@ -1685,7 +1681,7 @@ gravel_roads = {
 		local_hostile_movement_speed = 0.15
 		local_institution_spread = 0.15
 		supply_limit = 0.25
-		province_trade_power_value = 0.1
+		province_trade_power_value = 0.2
 		province_trade_power_modifier = 0.05
 		allowed_num_of_buildings = 2
 	}
@@ -1716,7 +1712,7 @@ paved_roads = {
 		local_hostile_movement_speed = 0.30
 		local_institution_spread = 0.25
 		supply_limit = 0.5
-		province_trade_power_value = 0.2
+		province_trade_power_value = 0.5
 		province_trade_power_modifier = 0.1
 		allowed_num_of_buildings = 3
 	}
@@ -1747,7 +1743,7 @@ highways = {
 		local_hostile_movement_speed = 0.5
 		local_institution_spread = 0.33
 		supply_limit = 1
-		province_trade_power_value = 0.5
+		province_trade_power_value = 1.0
 		province_trade_power_modifier = 0.15
 		allowed_num_of_buildings = 4
 	}
@@ -1815,7 +1811,7 @@ railroads = {
 		local_hostile_movement_speed = 0.1
 		local_institution_spread = 0.15
 		supply_limit = 0.5
-		province_trade_power_value = 0.5
+		province_trade_power_value = 1.0
 		province_trade_power_modifier = 0.1
 		allowed_num_of_buildings = 3
 	}
@@ -1847,7 +1843,7 @@ railroad_network = {
 		local_hostile_movement_speed = 0.25
 		local_institution_spread = 0.3
 		supply_limit = 1
-		province_trade_power_value = 1
+		province_trade_power_value = 2
 		province_trade_power_modifier = 0.2
 		allowed_num_of_buildings = 4
 	}
@@ -1881,7 +1877,7 @@ school = {
 	time = 12
 
 	modifier = {
-		local_institution_spread = 0.25
+		local_institution_spread = 0.50
 	}
 	
 	on_built = {
@@ -1906,9 +1902,8 @@ university = {
 	make_obsolete = school
 
 	modifier = {
-		global_tax_income = -6
-		local_institution_spread = 0.66
-		technology_cost = -0.025
+		local_institution_spread = 0.75
+		technology_cost = -0.01
 	}
 	
 	on_built = {
@@ -1923,7 +1918,7 @@ university = {
 	}
 
 	ai_will_do = {
-		factor = 250
+		factor = 100
 	}
 }
 research_center = {
@@ -1933,9 +1928,8 @@ research_center = {
 	make_obsolete = university
 
 	modifier = {
-		global_tax_income = -12
 		local_institution_spread = 1
-		technology_cost = -0.05
+		technology_cost = -0.02
 	}
 	
 	on_built = {
@@ -1950,7 +1944,7 @@ research_center = {
 	}
 
 	ai_will_do = {
-		factor = 1000
+		factor = 200
 	}
 }
 

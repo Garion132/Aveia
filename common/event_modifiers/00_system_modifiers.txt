@@ -4,7 +4,7 @@
 
 # Construction Event Stuff
 	city_construction_modifier = {
-		local_tax_modifier = -0.1
+		local_tax_modifier = -0.05
 		local_state_maintenance_modifier = 1
 	}
 

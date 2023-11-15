@@ -1,0 +1,635 @@
+Economy Planning
+
+    POP TYPES           PER POP (5k)        PER K
+            TYPE        Amount  (Ducats)    (Ducats)
+        Lower [Manpower]        (0.25)      (0.5)
+        Working [Production]    (0.5)      (1.0)
+        Middle [Tax]            (1.0)      (2.0)
+        Upper [Modifiers]       (2.0)      (4.0)
+
+
+    BUILDING TYPES
+        Wealth is just money generation
+        [Productivity] (Additional Tax Income) 
+
+        Upgradable Buildings
+            Urban Center
+                Each Size:
+                +2 Jobs
+                +5 Earnings [0.5] (0)
+                400 Ducats
+                
+            Rural Infrastructure
+                Each Size:
+                +1 Max RGO Size [0.54 - 4.32]
+                +1.0 Arable Land
+                600 Ducats
+
+        Trade
+            Marketplace
+                +1.0 Local Trade Power
+                +33% Local Trade Power
+            
+                +1 Jobs
+                +0.2k Upper
+                +5 Earnings [0.96] (0.5)
+
+                Unlocks Urban Center I
+                
+            Trade Depot
+                +2.0 Local Trade Power
+                +66% Local Trade Power
+            
+                +1 Jobs
+                +0.3k Upper
+                +8 Earnings [1.51] (1.1)
+
+                Unlocks Urban Center II
+                
+            Merchant's Quarter
+                +3.0 Local Trade Power
+                +100% Local Trade Power
+            
+                +2 Jobs
+                +1.0k Upper
+                +25 Earnings [2.27] (4.0)
+
+                Unlocks Urban Center III
+                
+            Custom's House
+                +5.0 Local Trade Power
+                +150% Local Trade Power
+            
+                +3 Jobs
+                +2.0k Upper
+                +39 Earnings [2.29] (6.5)
+
+                Unlocks Urban Center IV
+
+
+        Finance
+            Mint
+                +25% Local Trade Power
+                +0.5 Yearly Tax Income
+            
+                +1 Jobs
+                +0.1k Upper
+                +5 Earnings [0.96] (0.5)
+                
+            Bank
+                +50% Local Trade Power
+                +1.0 Yearly Tax Income
+            
+                +1 Jobs
+                +0.5k Upper
+                +11 Earnings [1.63] (1.3)
+                
+            Stock Exchange
+                +100% Local Trade Power
+                +2.0 Yearly Tax Income
+            
+                +2 Jobs
+                +1.0k Upper
+                +24 Earnings [2.18] (2.3)
+
+        Harbor
+            Port
+                +1.0 Local Trade Power
+                +33% Sailors
+                +0.25 Naval Force Limit
+                +20% Supply Limit
+            
+                +1 Jobs
+                +0.1k Upper
+                +3 Earnings [0.58] (0.1)
+                
+            Dockland
+                +2.0 Local Trade Power
+                +75% Sailors
+                +0.5 Naval Force Limit
+                +45% Supply Limit
+            
+                +2 Jobs
+                +0.2k Upper
+                +8 Earnings [0.78] (0.6)
+            
+            Wharf
+                +5.0 Local Trade Power
+                +125% Sailors
+                +1.0 Naval Force Limit
+                +60% Supply Limit
+            
+                +3 Jobs
+                +0.5k Upper
+                +16 Earnings [1.03] (1.7)
+
+
+            Harbor District
+                +10.0 Local Trade Power
+                +200% Sailors
+                +2.0 Naval Force Limit
+                +80% Supply Limit
+            
+                +5 Jobs
+                +1.0k Upper
+                +35 Earnings [1.35] (4.5)
+
+        Shipyard
+            Shipwright
+                +1.0 Naval Force Limit
+                -40% Local Shipbuilding Time
+                +50% Local Ship Repair
+                
+            Drydock
+                +1.5 Naval Force Limit
+                -60% Local Shipbuilding Time
+                +75% Local Ship Repair
+                
+            Naval Arsenal
+                +3.0 Naval Force Limit
+                -80% Local Shipbuilding Time
+                +100% Local Ship Repair
+                
+            Naval Base
+                +6.0 Naval Force Limit
+                -100% Local Shipbuilding Time
+                +125% Local Ship Repair
+
+        Training
+            Barracks
+                +100 Manpower
+                +50% Local Manpower Modifier
+            Training Fields
+                +200 Manpower
+                +100% Local Manpower Modifier
+            Military Academy
+                +300 Manpower
+                +200% Local Manpower Modifier
+        
+        Recruitment
+            Regimental Camp
+                +1 Land Forcelimit
+                -10% Local Recruitment Time
+            Conscription Center
+                +2 Land Forcelimit
+                -20% Local Recruitment Time
+            Mobilization System
+                +3 Land Forcelimit
+                -30% Local Recruitment Time
+
+        Religion
+            Shrine
+                -2 Local Unrest
+                +5% Local Tax Modifier
+                +1% Local Missionary Strength
+            Temple
+                -3 Local Unrest
+                +10% Local Tax Modifier
+                +2% Local Missionary Strength
+            Cathedral
+                -4 Local Unrest
+                +20% Local Tax Modifier
+                +3% Local Missionary Strength
+
+        Defense
+            Fortification
+                +1 Fort Level
+                +1 Possible Buildings
+            Castle
+                +2 Fort Level
+                +1 Possible Buildings
+            Bastion
+                +4 Fort Level
+                +1 Possible Buildings
+            Star Fort
+                +6 Fort Level
+                +1 Possible Buildings
+            Fortress
+                +8 Fort Level
+                +1 Possible Buildings
+            Point Defense
+                +10 Fort Level
+                +1 Possible Buildings
+                +25% Local Defensiveness
+
+        Coastal
+            Coastal Defense
+                +50% Blockade Force Required
+                +100% Hostile Disembark Time
+            Naval Battery
+                +10% Local Defensiveness
+                +100% Blockade Force Required
+                +200% Hostile Disembark Time
+                +3 Hostile Fleet Attrition
+            Naval Fortification
+                +1 Fort Level
+                +20% Local Defensiveness
+                +200% Blockade Force Required
+                +300% Hostile Disembark Time
+                +6 Hostile Fleet Attrition
+
+        Government
+            Town Square
+                -20% State Maintenance
+                -20% Province Governance Cost
+                
+                +1 Max RGO Size [0.54 - 4.32]
+            
+                +1 Jobs
+                +0.1k Upper
+                +3.5 Earnings [0.69] (0.1)
+
+                Unlocks Urban Center I
+
+            Courthouse
+                -30% State Maintenance
+                -0.025 Monthly Autonomy
+                -30% Province Governance Cost
+                
+                +1 Max RGO Size [0.54 - 4.32]
+            
+                +2 Jobs
+                +0.2k Upper
+                +9 Earnings [0.88] (0.6)
+
+                Unlocks Urban Center II
+
+            Town Hall
+                -40% State Maintenance
+                -0.05 Monthly Autonomy
+                -40% Province Governance Cost
+                
+                +2 Max RGO Size [0.54 - 4.32]
+            
+                +4 Jobs
+                +0.6k Upper
+                +22 Earnings [1.07] (2.2)
+
+                Unlocks Urban Center III
+
+            Post Office
+                -50% State Maintenance
+                -0.05 Monthly Autonomy
+                -50% Province Governance Cost
+                
+                +2 Max RGO Size [0.54 - 4.32 ]
+            
+                +5 Jobs
+                +1.0k Upper
+                +35 Earnings [1.35] (4.5)
+
+                Unlocks Urban Center III
+            
+            City Hall
+                -66% State Maintenance
+                -0.1 Monthly Autonomy
+                -66% Province Governance Cost
+                
+                +3 Max RGO Size [0.54 - 4.32]
+
+                +6 Jobs
+                +1.5k Upper
+                +45 Earnings [1.43] (6.0)
+
+                Unlocks Urban Center IV
+
+        Production
+            Workshop
+                +20% Production Efficiency
+                            
+                +2 Jobs
+                +0.4k Upper
+                +8 Earnings [0.77] (0.6)
+                +1 Trade Value (1.0)
+
+                Unlocks Urban Center I
+                
+            Artisan's Guild
+                +40% Production Efficiency
+                        
+                +5 Jobs
+                +1.5k Upper
+                +22 Earnings [0.83] (1.9)
+                +2.5 Trade Value (2.5)
+
+                Unlocks Urban Center II
+                
+            Craftsman's District
+                +70% Production Efficiency
+                            
+                +8 Jobs
+                +3.0k Upper
+                +40 Earnings [0.93] (4.0)
+                +4.0 Trade Value (4.0)
+
+                Unlocks Urban Center III
+                
+            Industrial Zone
+                +100% Production Efficiency
+                +10% Goods Produced
+                            
+                +15 Jobs
+                +6.0k Upper
+                +80 Earnings [0.99] (8.5)
+                +15.0 Trade Value (15.0)
+
+                Unlocks Urban Center IV
+
+        Alchemy
+            Alchemist Shop
+                +10% Trade Value
+                            
+                +2 Jobs
+                +0.5k Upper
+                +12 Earnings [1.14] (1.4)
+
+            Transfumatory
+                +25% Trade Value
+                            
+                +5 Jobs
+                +2.5k Upper
+                +60 Earnings [2.18] (9.5)
+
+
+        Airport
+            Airdock
+                +0.5% Cavalry Combat
+
+                +1 Jobs
+                +0.5k Upper
+                +8 Earnings [1.45] (1.1)
+                
+            Airship Maintenance Bay
+                +1.0% Cavalry Combat
+                
+                +1 Jobs
+                +1.0k Upper
+                +11 Earnings [1.83] (1.7)
+                
+            Airship Terminal
+                +2.5% Cavalry Combat
+                
+                +2 Jobs
+                +3.0k Upper
+                +30 Earnings [2.3] (5.0)
+
+        Taxation
+            Taxman
+                +1 Local Unrest
+                0.25 Yearly Tax Income
+                +10% Local Tax Modifier
+                +20% Tax Burden
+                            
+                +1 Jobs
+                +0.1k Upper
+                +5 Earnings [0.98] (0.5)
+
+                Unlocks Urban Center I
+                
+            Tax Office
+                +2 Local Unrest
+                0.5 Yearly Tax Income
+                +25% Local Tax Modifier
+                +40% Tax Burden
+                            
+                +1 Jobs
+                +0.2k Upper
+                +6 Earnings [1.15] (0.7)
+
+                Unlocks Urban Center II
+                
+            Tax Agency
+                +3 Local Unrest
+                1.0 Yearly Tax Income
+                +40% Local Tax Modifier
+                +60% Tax Burden
+                            
+                +2 Jobs
+                +0.5k Upper
+                +14 Earnings [1.33] (1.4)
+
+                Unlocks Urban Center III
+                
+            Revenue Department
+                +4 Local Unrest
+                2.0 Yearly Tax Income
+                +75% Local Tax Modifier
+                +100% Tax Burden
+                            
+                +2 Jobs
+                +1.0k Upper
+                +18 Earnings [1.63] (2.6)
+
+                Unlocks Urban Center IV
+
+        Roads
+            Gravel Roads
+                +0.2 Local Trade Power
+                +5% Local Trade Power
+                +0.25 Supply Limit
+                +15% Friendly Movement Speed
+                +15% Hostile Movement Speed
+                +2 Possible Number of Buildings
+                +15% Institution Spread
+
+                +1 Max RGO Size [0.54 - 4.32]
+                
+            Paved Roads
+                +0.5 Local Trade Power
+                +10% Local Trade Power
+                +0.5 Supply Limit
+                +30% Friendly Movement Speed
+                +30% Hostile Movement Speed
+                +3 Possible Number of Buildings
+                +25% Institution Spread
+
+                +2 Max RGO Size [0.54 - 4.32]
+                
+            Highways
+                +1.0 Local Trade Power
+                +20% Local Trade Power
+                +1.0 Supply Limit
+                +50% Friendly Movement Speed
+                +50% Hostile Movement Speed
+                +4 Possible Number of Buildings
+                +33% Institution Spread
+
+                +3 Max RGO Size [0.54 - 4.32]
+
+        Railroads
+            Canals
+                +0.25 Supply Limit
+                +2 Possible Number of Buildings
+                            
+                +1 Jobs
+                +0.1k Upper
+                +5 Earnings [0.98] (0.5)
+                
+            Railroads
+                +1.0 Local Trade Power
+                +10% Local Trade Power
+                +0.5 Supply Limit
+                +30% Friendly Movement Speed
+                +10% Hostile Movement Speed
+                +3 Possible Number of Buildings
+                +15% Institution Spread
+                            
+                +2 Jobs
+                +0.5k Upper
+                +14 Earnings [1.33] (1.8)
+                
+            Railroad Network
+                +2.0 Local Trade Power
+                +20% Local Trade Power
+                +1.0 Supply Limit
+                +50% Friendly Movement Speed
+                +25% Hostile Movement Speed
+                +4 Possible Number of Buildings
+                +30% Institution Spread
+                            
+                +4 Jobs
+                +2.0k Upper
+                +35 Earnings [1.59] (5.0)
+
+        Schools
+            School
+                +50% Institution Spread
+                            
+                +1 Jobs
+                +1.0k Upper
+                +9 Earnings [1.5] (1.2)
+
+            University
+                +75% Institution Spread
+                -1% Tech Cost
+                            
+                +2 Jobs
+                +4.0k Upper
+                +28 Earnings [2.0] (4.2)
+
+            Research Center
+                +100% Institution Spread
+                -2% Tech Cost
+                            
+                +3 Jobs
+                +5.0k Upper
+                +50 Earnings [2.5] (10.0)
+
+        Farms (Manufactory)
+            Irrigated Fields:
+                +0.33 Goods Produced
+                
+                +3 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+
+            Farm Estate:
+                +0.66 Goods Produced
+                +5% Local Goods Produced
+                
+                +6 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+                
+            Mechanized Farm:
+                +1.00 Goods Produced
+                +10% Local Goods Produced
+                
+                +10 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+
+        Plantation (Manufactory)
+            Gatherer's Hut:
+                +0.33 Goods Produced
+                
+                +3 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+
+            Plantation:
+                +0.66 Goods Produced
+                +5% Local Goods Produced
+                
+                +6 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+                
+            Trade Station:
+                +1.00 Goods Produced
+                +10% Local Goods Produced
+                
+                +10 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+
+        Factory (Manufactory)
+            Craftsmen:
+                +0.33 Goods Produced
+                
+                +3 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+
+            Manufactory:
+                +0.66 Goods Produced
+                +5% Local Goods Produced
+                
+                +6 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+                
+            Factory:
+                +1.00 Goods Produced
+                +10% Local Goods Produced
+                
+                +10 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+
+        Mine (Manufactory)
+            Mine:
+                +0.33 Goods Produced
+                
+                +3 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+
+            Mining Complex:
+                +0.66 Goods Produced
+                +5% Local Goods Produced
+                
+                +6 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+                
+            Mechanized Mine:
+                +1.00 Goods Produced
+                +10% Local Goods Produced
+                
+                +10 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+
+        Refinery (Manufactory)
+            Refinery:
+                +0.5 Goods Produced
+                +25% Trade Value
+                
+                +5 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+                
+            Processing Plant:
+                +1.00 Goods Produced
+                +50% Trade Value
+                
+                +10 Max RGO Size [0.54 - 4.32]
+                Unlocks Rural Development
+
+
+
+
+    Pops in a province earn money from working as Farmers, RGOs, or in Buildings
+        Farmers produce Food. Pops which cannot get jobs elsewhere will become Farmers
+        RGOs will produce 1.8 of the good in their province (and an additional 0.2 will become available on the trade map).
+            If it is a 'Food' good, then the good gets converted over to be sold as food
+
+    They either can be Lower, Working, or Middle. If pops earn more money than they spend, then, after enough time, Lower will upgrade to Working. Working to Middle.
+    Number of Middle Class pops is determined by productivity of buildings in the state. If a building has a productivity > 1 then province will begin to generate Middle Class Pops
+
+    Building owners are Upper Class. The excess money that they get from buildings will go to building & expanding buildings. The money gets pooled in a provincial 'wealth' pool that can
+    be raided/pillaged if the province is occupied.
+
+
+Taxation:
+    0% to +100% modifier
+    Starts at like -50%
+

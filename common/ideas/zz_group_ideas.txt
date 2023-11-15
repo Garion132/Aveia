@@ -19,7 +19,7 @@ client_ideas = {
 		global_unrest = -2
 	}
 	foreign_tax_collectors = {	
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.05
 	}
 	fortified_borders = {
 		defensiveness = 0.15
@@ -46,7 +46,7 @@ expiditionary_state_ideas = {
 	}
 
 	bonus = {
-		global_tax_modifier = 0.2
+		global_tax_modifier = 0.1
 	}
 	
 	trigger = {
@@ -90,7 +90,7 @@ expiditionary_state_ideas = {
 		land_morale = 0.1
 	}
 	increase_taxation = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.05
 	}	
 	cheaper_mercenaries = {
 		merc_maintenance_modifier = -0.2
@@ -344,7 +344,7 @@ theocracy_ideas = {
 		hostile_attrition = 1
 	}
 	render_unto_ceasar = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.05
 	}
 }
 
@@ -427,7 +427,7 @@ vilwinder_ideas = {
 	}
 	city_and_state = {
 		development_cost = -0.1
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.05
 	}
 	tlauor_and_his_people = {
 		tolerance_own = 2
@@ -475,7 +475,7 @@ faun_ideas = {
 		local_years_of_nationalism = -5
 	}
 	shire_farming_system = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.075
 	}
 }
 
@@ -517,7 +517,7 @@ scurian_ideas = {
 		local_years_of_nationalism = -5
 	}
 	hanging_gardens = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.05
 	}
 }
 

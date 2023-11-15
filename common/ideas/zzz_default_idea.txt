@@ -8,13 +8,13 @@ default_ideas = {
 	}
 	
 	bonus = {
-		global_tax_modifier = 0.2
+		global_tax_modifier = 0.1
 	}
 	
 	free = yes
 	
 	increase_taxation = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.05
 	}	
 	cheaper_mercenaries = {
 		merc_maintenance_modifier = -0.2

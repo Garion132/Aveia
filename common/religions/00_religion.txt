@@ -75,7 +75,7 @@ tlaulunorism = {
 			tlaunorist
 		}
 		country = {
-			global_tax_modifier = 0.1
+			global_tax_modifier = 0.05
 			improve_relation_modifier = 0.15
 			church_loyalty_modifier = 0.1
 		}
@@ -147,7 +147,7 @@ tlaulunorism = {
 			tlaunorist
 		}
 		country = {
-			global_tax_modifier = 0.1
+			global_tax_modifier = 0.05
 			improve_relation_modifier = 0.15
 			church_loyalty_modifier = 0.1
 		}
@@ -219,7 +219,7 @@ tlaulunorism = {
 			tlaunorist
 		}
 		country = {
-			global_tax_modifier = 0.1
+			global_tax_modifier = 0.05
 			improve_relation_modifier = 0.15
 			church_loyalty_modifier = 0.1
 		}
@@ -292,7 +292,7 @@ tlaulunorism = {
 			tlaunorist
 		}
 		country = {
-			global_tax_modifier = 0.1
+			global_tax_modifier = 0.05
 			improve_relation_modifier = 0.15
 			church_loyalty_modifier = 0.1
 		}
@@ -368,7 +368,7 @@ tlaulunorism = {
 			vulikivite
 		}
 		country = {
-			global_tax_modifier = 0.1
+			global_tax_modifier = 0.05
 			improve_relation_modifier = 0.15
 			church_loyalty_modifier = 0.1
 		}
@@ -559,7 +559,7 @@ suntouched_faiths = {#tlaulunorist breakaways in the new world
 			vulikivite
 		}
 		country = {
-			global_tax_modifier = 0.1
+			global_tax_modifier = 0.05
 			improve_relation_modifier = 0.15
 			church_loyalty_modifier = 0.1
 		}
@@ -1748,7 +1748,7 @@ christian = {
 			catholic
 		}
 		country = {
-			global_tax_modifier = 0.1
+			global_tax_modifier = 0.05
 			improve_relation_modifier = 0.15
 			church_loyalty_modifier = 0.1
 		}
@@ -2322,7 +2322,7 @@ eastern = {
 			idea_cost = -0.05
 		}
 		country_as_secondary = {
-			global_tax_modifier = 0.1
+			global_tax_modifier = 0.05
 			tolerance_heathen = 2
 		}
 		on_convert = {

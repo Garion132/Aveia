@@ -160,7 +160,7 @@ estate_nobles_levies = {
 	max_absolutism = -5
 	influence = 0.1
 	modifier_by_land_ownership = {
-		global_tax_modifier = -0.25
+		global_tax_modifier = -0.15
 		global_manpower_modifier = 1
 	}
 	penalties = {

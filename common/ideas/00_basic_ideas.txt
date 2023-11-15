@@ -389,7 +389,7 @@
 		}
 
 		bureaucracy = {
-			global_tax_modifier = 0.15
+			global_tax_modifier = 0.1
 		}
 		organised_construction = {
 			build_time = -0.1

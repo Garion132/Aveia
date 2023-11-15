@@ -461,7 +461,7 @@ crusader = {
 	}
 
 	global_manpower_modifier = 0.3
-	global_tax_modifier = 0.1
+	global_tax_modifier = 0.05
 	land_morale = 0.10
 	prestige = 1
 	papal_influence = 1
@@ -765,7 +765,7 @@ great_peasants_war_concessions_triggered_modifier = {
 		is_part_of_hre = yes
 		NOT = { has_reform = peasants_republic }
 	}
-	global_tax_modifier = -0.05
+	global_tax_modifier = -0.025
 }
 
 ######################################

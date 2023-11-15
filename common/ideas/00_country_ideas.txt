@@ -122,7 +122,7 @@ FRY_ideas = {
 	}
 	city_and_state = {
 		development_cost = -0.1
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.05
 	}
 	freyglen_rights_bill = {
 		global_unrest = -2
@@ -162,7 +162,7 @@ LUM_ideas = {
 		merc_maintenance_modifier = -0.33
 	}
 	LUM_idea_5 = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.05
 	}
 	LUM_idea_6 = {
 		development_cost = -0.25
@@ -194,7 +194,7 @@ MTN_ideas = {
 		discipline = 0.05
 	}
 	increase_taxation = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.05
 	}	
 	cheaper_mercenaries = {
 		merc_maintenance_modifier = -0.2
@@ -376,7 +376,7 @@ VIL_ideas = {
 	}
 	city_and_state = {
 		development_cost = -0.1
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.05
 	}
 	tlauor_and_his_people = {
 		tolerance_own = 2
@@ -554,7 +554,7 @@ ELE_ideas = {
 GRU_ideas = {
 	start = {
 		army_tradition_from_battle = 0.01
-		global_tax_modifier = 0.075
+		global_tax_modifier = 0.05
 	}
 
 	bonus = {
@@ -667,7 +667,7 @@ PET_ideas = {
 		local_years_of_nationalism = -5
 	}
 	hanging_gardens = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.05
 	}
 }
 
@@ -707,7 +707,7 @@ RAU_ideas = {
 	}
 	rau_wealth_of_enhearsrion = {
 		global_trade_goods_size_modifier = 0.1
-		global_tax_modifier = 0.05
+		global_tax_modifier = 0.025
 	}
 	
 }
@@ -1064,7 +1064,7 @@ GUL_ideas = {
 		trade_steering = 0.15
 	}
 	GUL_crop_singers = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.075
 	}
 	GUL_military_educators = {
 		infantry_shock = 1
@@ -1094,7 +1094,7 @@ CYU_ideas = {
 		diplomatic_upkeep = 1
 	}
 	CYU_ship_cycling= {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.075
 	}
 	CYU_temple_education = {
 		garrison_size = 0.2

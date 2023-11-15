@@ -557,7 +557,7 @@ NCountry = {
 	EMBRACE_INSTITUTION_COST = 2.5,				-- 2.5 per development (autonomy modified)
 	MAXIMUM_CONDOTTIERI = 20,					-- Base number of units you can rent out
 	CORRUPTION_COST = 0.075,						-- cost for monthly combat per development
-	STATE_MAINTENANCE_DEV_FACTOR = 0.02,		-- per dev
+	STATE_MAINTENANCE_DEV_FACTOR = 0.012,		-- per dev
 	STATE_MAINTENANCE_DISTANCE_FACTOR = 0.002,	-- distance
 	STATE_MAINTENANCE_CONTINENT_FACTOR = 0.25,	-- different continet
 	STATE_MAINTENANCE_CULTURE_FACTOR = 0.25,		-- non accepted culture
@@ -874,7 +874,7 @@ NCountry = {
 	STARTING_ARMY_SIZE = 0.75,						-- Percentage of force limit
 	STARTING_ARMY_SIZE_AT_WAR = 1.0,				-- Percentage of force limit
 	STARTING_ARMY_SIZE_REBEL_THREAT = 0.05,			-- Percentage of rebel threat added to percentage of force limit
-	STARTING_FLEET_SIZE = 1.8, 						-- Starting fleet (as percentage of forcelimits)
+	STARTING_FLEET_SIZE = 1.0, 						-- Starting fleet (as percentage of forcelimits)
 	GALLEY_INLAND_SEA_COAST_RATIO = 0.75, 			-- % of ports that need to be inland seas for galleys to be considered important
 	REBEL_BREAK_STABILITY_SET = 0,					-- Stability will be set to this value when rebels break country.
 	REBEL_BREAK_EXHAUSTION_SET = 0, 				-- Exhaustion will be set to this value when rebels break country.
@@ -1268,7 +1268,7 @@ NMilitary = {
 	MOVE_LOCK_PERCENTAGE = 0.5,						-- Unit movement is locked after this percentage of progress
 	REGULAR_LEADER_POWER = 1,						-- Used for generals & admirals (affects total pips)
 	EXPLORER_LEADER_POWER = 0.8,					-- Used for conquistadors & explorers (affects total pips)
-	BASE_MP_TO_MANPOWER = 0.15,		-- 150 men per manpower
+	BASE_MP_TO_MANPOWER = 0.1,		-- 100 men per manpower
 	SIEGE_ATTRITION = 1,
 	SIEGE_DISEASE_IMPACT = 0.05,						-- Fraction of besieging soldiers lost in a disease outbraek
 	ARMY_ATTRITION_AT_COAST = 1,					-- How many percent attrition units take while loaded onto ships along the coast
@@ -1315,10 +1315,10 @@ NMilitary = {
 	CAVALRY_SPEED = 0.8, 							-- _MDEF_CAVALRY_SPEED = 10,
 	ARTILLERY_SPEED = 0.7, 							-- _MDEF_ARTILLERY_SPEED = 10,
 
-	INFANTRY_COST = 12.0, 							-- _MDEF_INFANTRY_COST = 10,
-	CAVALRY_COST = 120.0, 							-- _MDEF_CAVALRY_COST = 10,
-	ARTILLERY_COST = 40.0, 							-- _MDEF_ARTILLERY_COST = 10,
-	FORTRESS_COST = 0.5,							-- base fort cost
+	INFANTRY_COST = 8.0, 							-- _MDEF_INFANTRY_COST = 10,
+	CAVALRY_COST = 100.0, 							-- _MDEF_CAVALRY_COST = 10,
+	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,
+	FORTRESS_COST = 0.4,							-- base fort cost
 	HEAVY_SHIP_COST = 100, 							-- _MDEF_HEAVY_SHIP_COST = 10,
 	LIGHT_SHIP_COST = 40, 							-- _MDEF_LIGHT_SHIP_COST = 10,
 	GALLEY_COST = 20, 								-- _MDEF_GALLEY_COST = 10,
@@ -2442,16 +2442,16 @@ NMacroBuildColors = {
 },
 
 NFrontend = {
-	CAMERA_LOOKAT_X = 2958.0, 						-- Rotation point in main menu
+	CAMERA_LOOKAT_X = 1258.0, 						-- Rotation point in main menu
 	CAMERA_LOOKAT_Y = 0.0,
 	CAMERA_LOOKAT_Z = 1519.0,
-	CAMERA_LOOKAT_SETTINGS_X = 2958.0, 				-- Rotation point in settings
+	CAMERA_LOOKAT_SETTINGS_X = 1258.0, 				-- Rotation point in settings
 	CAMERA_LOOKAT_SETTINGS_Y = 0.0,					-- Y is height
 	CAMERA_LOOKAT_SETTINGS_Z = 1519.0,
-	CAMERA_START_X = 2958.0,						-- Initial position in main menu
+	CAMERA_START_X = 1258.0,						-- Initial position in main menu
 	CAMERA_START_Y = 800,							-- Y is height
 	CAMERA_START_Z = 1400.0,
-	CAMERA_END_X = 2958.0,							-- Move to position in main menu
+	CAMERA_END_X = 1258.0,							-- Move to position in main menu
 	CAMERA_END_Y = 900.0,
 	CAMERA_END_Z = 1400.0,
 	CAMERA_MIN_DIST_FOR_ROTATE = 800.0, 			-- Controlls when rotation starts. When camera is close enought it starts
@@ -2469,45 +2469,45 @@ NFrontend = {
 
 	CAMERA_SPEED_IN_MENUS = 0.1,
 
-	FRONTEND_POS_X = 2958.0,
+	FRONTEND_POS_X = 1258.0,
 	FRONTEND_POS_Y = 900.0,
 	FRONTEND_POS_Z = 1500.0,
-	FRONTEND_LOOK_X = 2958.0,
+	FRONTEND_LOOK_X = 1258.0,
 	FRONTEND_LOOK_Y = 0.0,
 	FRONTEND_LOOK_Z = 1519.0,
 
-	SETTINGS_POS_X = 2958.0,
+	SETTINGS_POS_X = 1258.0,
 	SETTINGS_POS_Y = 551.0,
 	SETTINGS_POS_Z = 978.0,
-	SETTINGS_LOOK_X = 2998.0,
+	SETTINGS_LOOK_X = 1298.0,
 	SETTINGS_LOOK_Y = 0.0,
 	SETTINGS_LOOK_Z = 1364.0,
 
-	MP_OPTIONS_POS_X = 2958.0,
+	MP_OPTIONS_POS_X = 1258.0,
 	MP_OPTIONS_POS_Y = 922.0,
 	MP_OPTIONS_POS_Z = 1048.0,
-	MP_OPTIONS_LOOK_X = 2958.0,
+	MP_OPTIONS_LOOK_X = 1258.0,
 	MP_OPTIONS_LOOK_Y = 0.0,
 	MP_OPTIONS_LOOK_Z = 1159.0,
 
-	TUTORIAL_POS_X = 2894.0,
+	TUTORIAL_POS_X = 1194.0,
 	TUTORIAL_POS_Y = 124.0,
 	TUTORIAL_POS_Z = 1319.0,
-	TUTORIAL_LOOK_X = 2881.0,
+	TUTORIAL_LOOK_X = 1181.0,
 	TUTORIAL_LOOK_Y = 21.0,
 	TUTORIAL_LOOK_Z = 1463.0,
 
-	CONTENT_POS_X = 2958.0,
+	CONTENT_POS_X = 1258.0,
 	CONTENT_POS_Y = 922.0,
 	CONTENT_POS_Z = 1308.0,
-	CONTENT_LOOK_X = 2958.0,
+	CONTENT_LOOK_X = 1258.0,
 	CONTENT_LOOK_Y = 0.0,
 	CONTENT_LOOK_Z = 1519.0,
 
-	CREDITS_POS_X = 3077.0,
+	CREDITS_POS_X = 1377.0,
 	CREDITS_POS_Y = 231.0,
 	CREDITS_POS_Z = 1508.0,
-	CREDITS_LOOK_X = 3080.0,
+	CREDITS_LOOK_X = 1380.0,
 	CREDITS_LOOK_Y = 19.0,
 	CREDITS_LOOK_Z = 1720.0,
 },

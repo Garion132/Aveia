@@ -498,34 +498,37 @@ yhenil_bridge = {
 	tier_1 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 120
+			months = 360
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			trade_goods_size = 1
 			local_development_cost = -0.1
-			local_institution_spread = 0.5
 			province_trade_power_value = 15
-			allowed_num_of_buildings = 1
-			blockade_force_required = 4
-			hostile_fleet_attrition = 2
+			blockade_force_required = 2
+			hostile_fleet_attrition = 1
 			hostile_disembark_speed = -0.5
+
+			block_slave_raid = yes
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.05
+			local_tax_modifier = 0.05
+			province_trade_power_value = 2.5
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tax_income = 6
 			naval_forcelimit = 10
+			prestige = 0.25
+			prestige_decay = -0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -536,34 +539,39 @@ yhenil_bridge = {
 	tier_2 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 240
+			months = 600
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 10000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			trade_goods_size = 1
-			local_development_cost = -0.1
-			local_institution_spread = 0.5
-			province_trade_power_value = 15
-			allowed_num_of_buildings = 1
-			blockade_force_required = 4
+			local_development_cost = -0.3
+			province_trade_power_value = 25
+			blockade_force_required = 3
 			hostile_fleet_attrition = 2
 			hostile_disembark_speed = -0.5
+
+			local_defender_dice_roll_bonus = 1
+			block_slave_raid = yes
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.1
+			local_tax_modifier = 0.1
+			province_trade_power_value = 5
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tax_income = 6
-			naval_forcelimit = 10
+			merchants = 1
+			naval_forcelimit = 20
+			prestige = 0.5
+			prestige_decay = -0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -574,35 +582,41 @@ yhenil_bridge = {
 	tier_3 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 480
+			months = 1200
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 20000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			trade_goods_size = 1
-			local_development_cost = -0.1
-			local_institution_spread = 0.5
-			province_trade_power_value = 15
-			allowed_num_of_buildings = 1
+			local_development_cost = -0.5
+			local_development_cost_modifier = -0.25
+			province_trade_power_value = 30
 			blockade_force_required = 4
-			hostile_fleet_attrition = 2
+			hostile_fleet_attrition = 3
 			hostile_disembark_speed = -0.5
+
+			local_defender_dice_roll_bonus = 1
+			local_own_coast_naval_combat_bonus = 1	
+			block_slave_raid = yes
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.2
+			local_tax_modifier = 0.2
 			province_trade_power_value = 10
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tax_income = 6
-			naval_forcelimit = 10
+			merchants = 2
+			naval_forcelimit = 30
+			prestige = 1.0
+			prestige_decay = -0.01
 		}
 
 		#what effects happen when this tier is achieved

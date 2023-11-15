@@ -100,7 +100,7 @@ difficulty_very_hard_ai = {
 ##########################################################################
 
 city = {
-	local_tax_modifier = 0.5
+	local_tax_modifier = 0.25
 	allowed_num_of_buildings = 3
 	local_sailors_modifier = 0.5
 	garrison_growth = 0.05
@@ -239,22 +239,25 @@ no_adjacent_controlled = {
 	local_colonial_growth = -5
 }
 
-provincial_tax_income = {
+provincial_tax_income = { # 1.3 ducats per year
 	#tax_income = 1.0
-	trade_goods_size = 0.12
+	trade_goods_size = 0.1
 	local_manpower = 0.15
 	local_sailors = 25
-	province_trade_power_value = 3.0
-	local_build_cost = 0.02
+	province_trade_power_value = 1.0
+	land_forcelimit	= 0.05
+	naval_forcelimit = 0.05
+	local_build_cost = 0.04
 }
 
-provincial_production_size = {
-	tax_income = 0.4
-	trade_goods_size = 0.1
+provincial_production_size = { # 0.65 ducats per year
+	tax_income = 0.5
+	trade_goods_size = 0.05
 	local_manpower = 0.2
 	local_sailors = 30
-	province_trade_power_value = 0.5
-	local_build_cost = 0.01
+	province_trade_power_value = 0.4
+	land_forcelimit	= 0.025
+	local_build_cost = 0.02
 }
 
 knowledge_sharing = {
@@ -265,13 +268,13 @@ cardinals_spread_institution = {
 	institution_growth = 20
 }
 
-manpower = {
-	tax_income = 0.3
-	trade_goods_size = 0.04
+manpower = { # 0.31 ducats per year
+	tax_income = 0.25
+	trade_goods_size = 0.02
 	#local_manpower = 0.08
 	local_sailors = 5
 	province_trade_power_value = 0.1
-	naval_forcelimit = -0.05
+	naval_forcelimit = -0.025
 }
 
 
@@ -288,8 +291,8 @@ development = {
 	allowed_num_of_buildings = 0.01
 	supply_limit_modifier = 0.02
 	local_missionary_strength = -0.001
-	land_forcelimit	= 0.1			# special case, affected by autonomy
-	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
+	land_forcelimit	= 0.05			# special case, affected by autonomy
+	naval_forcelimit = 0.05			# special case, affected by autonomy & set to 0 by code if not port
 	local_amount_of_banners = 0.066
 	local_amount_of_cawa = 0.125
 	local_amount_of_carolean = 0.1
@@ -344,7 +347,7 @@ native_aggressiveness = {
 }
 
 core = {
-	local_tax_modifier = 0.5				#90% more in a core
+	local_tax_modifier = 0.25				#90% more in a core
 	local_manpower_modifier = 0.5			#75% more in a core
 	local_sailors_modifier = 0.5
 	trade_goods_size_modifier = 0.1
@@ -357,7 +360,7 @@ non_core = {
 }
 
 colonial_core = {
-	local_tax_modifier = 0.5				#90% more in a core
+	local_tax_modifier = 0.25				#90% more in a core
 	local_manpower_modifier = 0.5			#75% more in a core
 	local_sailors_modifier = 0.5
 	local_missionary_strength = -0.02
@@ -365,7 +368,7 @@ colonial_core = {
 	local_governing_cost = -0.5
 }
 territory_core = {
-	local_tax_modifier = 0.5				#90% more in a core
+	local_tax_modifier = 0.25				#90% more in a core
 	local_manpower_modifier = 0.5			#75% more in a core
 	local_sailors_modifier = 0.5
 	local_missionary_strength = -0.02
@@ -409,13 +412,13 @@ pu_overlord_bonus = {
 	global_sailors_modifier = 0.05
 }
 same_culture_group = {
-	local_tax_modifier = -0.3				#10% penalty if same culture group but nothing else. Not applied if the controller is the Union Tag of the culture group, or has culture_group_union set.
+	local_tax_modifier = -0.15				#10% penalty if same culture group but nothing else. Not applied if the controller is the Union Tag of the culture group, or has culture_group_union set.
 	local_manpower_modifier = -0.3
 	local_sailors_modifier = -0.2
 }
 
 non_accepted_culture = {
-	local_tax_modifier = -0.5
+	local_tax_modifier = -0.25
 	local_missionary_strength = -0.02
 	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.4
@@ -429,7 +432,7 @@ accepted_culture_demoted = {
 
 # Special modifier to the above, for non-tribal republics
 non_accepted_culture_republic = {
-	local_tax_modifier = 0.2
+	local_tax_modifier = 0.1
 	local_manpower_modifier = 0.2
 	local_sailors_modifier = 0.1
 	trade_goods_size_modifier = 0.1
@@ -437,7 +440,7 @@ non_accepted_culture_republic = {
 }
 
 occupied = {
-	local_tax_modifier = -0.5
+	local_tax_modifier = -0.25
 	local_production_efficiency = -0.5
 	province_trade_power_modifier = -0.5
 	local_manpower_modifier = -0.5
@@ -486,7 +489,7 @@ tolerance = {
 # Multiplied with negative religious tolerance
 intolerance = {
 	local_unrest = -1.25
-	local_tax_modifier = 0.15
+	local_tax_modifier = 0.075
 	trade_goods_size_modifier = 0.15
 	local_manpower_modifier = 0.05
 }
@@ -832,7 +835,7 @@ navy_tradition = {
 positive_piety = { #As of 1.23 Legalism
 	technology_cost = -0.1
 	global_manpower_modifier = 0.20
-	global_tax_modifier = 0.20
+	global_tax_modifier = 0.1
 	church_loyalty_modifier = 0.1
 }
 
@@ -968,7 +971,7 @@ devotion = {
 	papal_influence = 2
 	church_power_modifier = 0.25
 	prestige = 2
-	global_tax_modifier = 0.50
+	global_tax_modifier = 0.25
 	church_loyalty_modifier = 0.05
 }
 
@@ -1006,7 +1009,7 @@ root_out_corruption = {
 }
 
 recovery_motivation = {
-	global_tax_modifier = 0.5
+	global_tax_modifier = 0.25
 	defensiveness = 0.25
 	manpower_recovery_speed = 0.5
 	army_tradition = 1
@@ -1355,7 +1358,7 @@ pirate_subject = {
 }
 
 subject_tax_modifier = {
-	global_tax_modifier = 0.25
+	global_tax_modifier = 0.1
 }
 #scales to amount of up-to-date forts compared to total development
 maintained_forts = {
@@ -1644,7 +1647,7 @@ supply_depot_area = {
 ########################################
 
 efficient_tax_farming_modifier = {
-	global_tax_modifier = 0.15
+	global_tax_modifier = 0.075
 }
 
 land_acquisition_modifier = {
@@ -1878,7 +1881,7 @@ raiding_parties_modifier = {
 }
 
 serfs_recieved_by_cossacks = {
-	global_tax_modifier = -0.1
+	global_tax_modifier = -0.05
 }
 
 cossacks_modifier = {
@@ -1921,7 +1924,7 @@ expanded_infrastructure = {
 	garrison_growth = 0.05
 	local_development_cost = -0.05
 	local_production_efficiency = 0.05
-	local_tax_modifier = 0.1
+	local_tax_modifier = 0.05
 	local_manpower_modifier = 0.05
 	local_sailors_modifier = 0.05
 	local_ship_repair = 0.05

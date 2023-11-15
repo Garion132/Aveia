@@ -18,7 +18,7 @@ regional_centralisation = {
 
 	modifier = {
 		global_missionary_strength = -0.005
-		global_tax_modifier = 0.05
+		global_tax_modifier = 0.025
 	}
 }
 lax_centralisation = {
@@ -54,6 +54,6 @@ dominaring_centralisation = {
 
 	modifier = {
 		global_missionary_strength = 0.01
-		global_tax_modifier = -0.05
+		global_tax_modifier = -0.025
 	}
 }

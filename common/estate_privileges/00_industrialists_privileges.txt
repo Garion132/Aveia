@@ -236,7 +236,7 @@ estate_industrialists_subsidies = {
 	on_granted = {
 	}
 	penalties = {
-		global_tax_modifier = -0.2
+		global_tax_modifier = -0.1
 		yearly_corruption = 0.05
 	}
 	benefits = {
