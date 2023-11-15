@@ -1,4 +1,29 @@
 iron_age_calamity = {
+	# How the Disaster Works:
+	# After the asteroid hits the Orbury Supervolcano and the effects are felt a year later,
+	# this disaster gets enabled for everyone
+	# High Stability + High Legitimacy allows you to stay out of the disaster. Depending on where you are, and
+	# how big you are, the effects become less/more severe
+	#
+	# Legitimacy is used as a proxy for your country's integrity. You get 50 legitimacy at the start of the disaster.
+	# Excess legitimacy is turned into monarch power (like the prestige effect)
+	# 
+	# High legitimacy during the disaster will enable certain actions that will grant a bonus but decrease legitimacy
+	#
+	# If you have low legitimacy, you can take certain actions to increase legitimacy, but at a long term cost
+	#	these modifiers & effects get applied after the disaster is over
+	#
+	# Stability also acts in a similar fashion. Hitting -3 stability will reduce your legitimacy & increase your stab.
+	#
+	# If you are at -3 stab & has low legitimacy, then you will get the collapse disaster where your country will start
+	# breaking apart
+	#
+	# Old version had disaster severity by country. Instead, it's going to be by province. Severely effected provinces will 
+	# lower legitimacy, increase stab cost, increase local unrest, dev cost, and reduce local tax, manpower, and goods produced
+	# Moderately affected will have less severe modifiers. Mild will not have any legitimacy modifier.
+	#
+	# In order to get out of the Calamity, you must pass a series of reforms in addition to having high stab and not low legitimacy.
+
 	potential = {
 		has_global_flag = iron_age_calamity
 		has_country_flag = iron_age_calamity_possible #Set in iron_age_calamity.3 country event
@@ -12,17 +37,20 @@ iron_age_calamity = {
 	can_start = {
 		OR = {
 			NOT = { stability = 2 }
+			NOT = { legitimacy_equivalent = 50 }
 			total_development = 750
 			AND = {
 				is_at_war = yes
 				is_in_deficit = yes
 			}
 		}
+		NOT = { legitimacy_equivalent = 75 }
 		NOT = { stability = 3 }
 	}
 	
 	can_stop = {
         stability = 3
+		legitimacy_equivalent = 90
 		OR = {
 			is_at_war = no
 			is_in_deficit = no
@@ -32,7 +60,7 @@ iron_age_calamity = {
 	
 	progress = {
 		modifier = {
-			factor = 2
+			factor = 1
 			always = yes
 		}
 		modifier = {
@@ -52,15 +80,27 @@ iron_age_calamity = {
 			NOT = { stability = -2 }
 		}
 		modifier = {
-			factor = 2
+			factor = 1
+			NOT = { legitimacy_equivalent = 95 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { legitimacy_equivalent = 75 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { legitimacy_equivalent = 50 }
+		}
+		modifier = {
+			factor = 1
 			total_development = 200
 		}
 		modifier = {
-			factor = 3
+			factor = 2
 			total_development = 500
 		}
 		modifier = {
-			factor = 5
+			factor = 3
 			total_development = 1000
 		}
 	}
@@ -69,6 +109,7 @@ iron_age_calamity = {
 		OR={
 			AND={
 				stability = 3
+				legitimacy_equivalent = 50
 				NOT = { num_of_rebel_controlled_provinces = 1 }
 				is_at_war = no
 				custom_trigger_tooltip = {
@@ -86,14 +127,12 @@ iron_age_calamity = {
 	modifier = {
 		stability_cost_modifier = 0.3
         all_power_cost = 0.2
-
-		advisor_cost = 0.5
-		build_cost = 0.5
-		fort_maintenance_modifier = 0.25
-		state_maintenance_modifier = 1.0
+		legitimacy = -0.5
+		republican_tradition = -0.2
 		
         monthly_splendor = -4
 		global_prosperity_growth = -1
+		reduced_liberty_desire = -50
 	}	
 	
 	
