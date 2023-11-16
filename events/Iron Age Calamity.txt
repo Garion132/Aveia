@@ -1514,32 +1514,37 @@ country_event = {
 
 		custom_tooltip = temporary_calimity_tt
 		hidden_effect = {
-			set_province_flag = temporary_calamity
 			every_owned_province = {
 				limit = {
 					has_province_modifier = iac_mild_calamity
+					NOT = { has_province_flag = temporary_calamity }
 				}
 				remove_province_modifier = iac_mild_calamity
+				set_province_flag = temporary_calamity
 			}
 			every_owned_province = {
 				limit = {
 					has_province_modifier = iac_moderate_calamity
+					NOT = { has_province_flag = temporary_calamity }
 				}
 				remove_province_modifier = iac_moderate_calamity
 				add_permanent_province_modifier = {
 					name = iac_mild_calamity
 					duration = 3650
 				}
+				set_province_flag = temporary_calamity
 			}
 			every_owned_province = {
 				limit = {
 					has_province_modifier = iac_severe_calamity
+					NOT = { has_province_flag = temporary_calamity }
 				}
 				remove_province_modifier = iac_severe_calamity
 				add_permanent_province_modifier = {
 					name = iac_moderate_calamity
 					duration = 3650
 				}
+				set_province_flag = temporary_calamity
 			}
 		}
 	}
