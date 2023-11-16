@@ -104,6 +104,7 @@ estate_house_nyletmi ={
 		estate_rauthyr_land_rights
 		estate_nobles_officer_corp
 		estate_rauthyr_right_of_counsel
+		estate_nyletmi_enforced_oath_loyalty
 	}
 
 	agendas = {
