@@ -1300,6 +1300,8 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.151.o1" #Oh dear
 		add_stability = -1
+		add_legitimacy = -10
+		add_republican_tradition = -5
 
 		iac_add_country_devastation = { all = yes base_value = 5 }
 	}
@@ -1390,6 +1392,8 @@ country_event = {
 			}
 			add_adm_power = -50
 		}
+		add_legitimacy = -20
+		add_republican_tradition = -10
 		add_country_modifier = { 
 			name = iac_reduced_gov_cap
 			duration = 3650
@@ -1473,6 +1477,8 @@ country_event = {
 		name = "iron_age_calamity.154.o1" #Our domain is too large...
 		add_stability = -1
 
+		add_legitimacy = -20
+		add_republican_tradition = -10
 		iac_add_country_devastation = { all = yes base_value = 5 moderate_value = 8 severe_value = 10 }
 		iac_add_country_devastation = { min_dev = 10 base_value = 3 moderate_value = 4 severe_value = 5 }
 	}
@@ -1488,11 +1494,6 @@ country_event = {
 	trigger = {
 		has_global_flag = iron_age_calamity
 		is_year = 1385
-		OR = {
-			NOT = { has_country_flag = iron_age_calamity_possible }
-			has_country_flag = had_iron_age_calamity
-			is_year = 1400
-		}
 		has_any_disaster = no
 		any_owned_province = {
 			OR = {
