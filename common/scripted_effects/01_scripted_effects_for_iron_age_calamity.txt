@@ -1,9 +1,9 @@
 #Scripted effects relating to the iac.
 
 iac_add_calamity_modifiers = {
-	if = {
-		limit = {
-			capital_scope = {
+	every_owned_province = {
+		if = {
+			limit = {
 				OR = {
 					region = nylka_region
 					region = lildoresi_marches_region
@@ -14,17 +14,15 @@ iac_add_calamity_modifiers = {
 					region = great_gulba_region
 					region = cradle_islands
 				}
+			
+			}
+			add_province_modifier = {
+				name = "iac_severe_calamity"
+				duration = -1
 			}
 		}
-		add_disaster_modifier = {
-			name = "iac_severe_calamity"
-			duration = -1
-			disaster = iron_age_calamity
-		}
-	}
-	else_if = {
-		limit = {
-			capital_scope = {
+		else_if = {
+			limit = {
 				OR = {
 					superregion = aveia_superregion
 					superregion = kirloi_superregion
@@ -35,24 +33,17 @@ iac_add_calamity_modifiers = {
 					region = suirx_cresant_region
 				}
 			}
+			add_province_modifier = {
+				name = "iac_moderate_calamity"
+				duration = -1
+			}
 		}
-		add_disaster_modifier = {
-			name = "iac_moderate_calamity"
-			duration = -1
-			disaster = iron_age_calamity
+		else = {
+			add_province_modifier = {
+				name = "iac_mild_calamity"
+				duration = -1
+			}
 		}
-	}
-	else = {
-		add_disaster_modifier = {
-			name = "iac_mild_calamity"
-			duration = -1
-			disaster = iron_age_calamity
-		}
-	}
-	add_disaster_modifier = {
-		name = "iac_starved_administration"
-		duration = -1
-		disaster = iron_age_calamity
 	}
 }
 

@@ -111,6 +111,9 @@ country_event = {
 				}
 			}
 			set_country_flag = iron_age_calamity_possible
+			hidden_effect = {
+				iac_add_calamity_modifiers = yes
+			}
 		}
 	}
 
@@ -284,8 +287,6 @@ country_event = {
 		add_dip_power = -100
 		add_mil_power = -100
 
-		iac_add_calamity_modifiers = yes
-
 		ai_chance = {
 			factor = 100
 
@@ -308,8 +309,6 @@ country_event = {
 		add_adm_power = 100
 		add_dip_power = 100
 		add_mil_power = 100
-
-		iac_add_calamity_modifiers = yes
 		
 		if = {
 			limit = {
@@ -1476,6 +1475,72 @@ country_event = {
 
 		iac_add_country_devastation = { all = yes base_value = 5 moderate_value = 8 severe_value = 10 }
 		iac_add_country_devastation = { min_dev = 10 base_value = 3 moderate_value = 4 severe_value = 5 }
+	}
+}
+
+# Calamity Effects Weaken
+country_event = {
+	id = iron_age_calamity.155
+	title = "iron_age_calamity.155.t"
+	desc = "iron_age_calamity.155.d"
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		has_global_flag = iron_age_calamity
+		is_year = 1385
+		OR = {
+			NOT = { has_country_flag = iron_age_calamity_possible }
+			has_country_flag = had_iron_age_calamity
+			is_year = 1400
+		}
+		has_any_disaster = no
+		any_owned_province = {
+			OR = {
+				has_province_modifier = iac_mild_calamity
+				has_province_modifier = iac_moderate_calamity
+				has_province_modifier = iac_severe_calamity
+			}
+			NOT = { has_province_flag = temporary_calamity }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 48
+	}
+
+	option = {
+		name = "iron_age_calamity.155.o1" # Nature is beginning to heal
+
+		custom_tooltip = temporary_calimity_tt
+		hidden_effect = {
+			set_province_flag = temporary_calamity
+			every_owned_province = {
+				limit = {
+					has_province_modifier = iac_mild_calamity
+				}
+				remove_province_modifier = iac_mild_calamity
+			}
+			every_owned_province = {
+				limit = {
+					has_province_modifier = iac_moderate_calamity
+				}
+				remove_province_modifier = iac_moderate_calamity
+				add_province_modifier = {
+					name = iac_mild_calamity
+					duration = 3650
+				}
+			}
+			every_owned_province = {
+				limit = {
+					has_province_modifier = iac_severe_calamity
+				}
+				remove_province_modifier = iac_severe_calamity
+				add_province_modifier = {
+					name = iac_moderate_calamity
+					duration = 3650
+				}
+			}
+		}
 	}
 }
 

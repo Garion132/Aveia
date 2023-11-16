@@ -93,7 +93,7 @@ iron_age_calamity = {
 		}
 		modifier = {
 			factor = 1
-			total_development = 200
+			governing_capacity_percentage = 1
 		}
 		modifier = {
 			factor = 2
