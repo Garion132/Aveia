@@ -1525,7 +1525,7 @@ country_event = {
 					has_province_modifier = iac_moderate_calamity
 				}
 				remove_province_modifier = iac_moderate_calamity
-				add_province_modifier = {
+				add_permanent_province_modifier = {
 					name = iac_mild_calamity
 					duration = 3650
 				}
@@ -1535,7 +1535,7 @@ country_event = {
 					has_province_modifier = iac_severe_calamity
 				}
 				remove_province_modifier = iac_severe_calamity
-				add_province_modifier = {
+				add_permanent_province_modifier = {
 					name = iac_moderate_calamity
 					duration = 3650
 				}
