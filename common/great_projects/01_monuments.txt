@@ -1026,6 +1026,351 @@ asemont_fortress_complex = {
 	}
 }
 
+eiheilaurt_grand_dockyards = {
+	start = 1188 #Eiheilaurt
+	date = 1000.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			ship_recruit_speed = -0.25
+			local_ship_repair = 0.1
+			local_ship_cost = -0.15
+			local_sailors_modifier = 0.50
+			local_manpower_modifier = -0.50
+			sailors_recovery_speed = 0.1
+			
+		}
+		area_modifier = {
+		
+		}
+		country_modifiers = {	
+			naval_forcelimit = 5
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			ship_recruit_speed = -0.25
+			local_ship_repair = 0.1
+			local_ship_cost = -0.15
+			local_sailors_modifier = 0.60
+			local_manpower_modifier = -0.60
+			sailors_recovery_speed = 0.125
+			
+		}
+		area_modifier = {
+		
+		}
+		country_modifiers = {	
+			naval_forcelimit = 10
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			ship_recruit_speed = -0.25
+			local_ship_repair = 0.1
+			local_ship_cost = -0.15
+			local_sailors_modifier = 0.75
+			local_manpower_modifier = -0.75
+			sailors_recovery_speed = 0.15
+			
+		}
+		area_modifier = {
+		
+		}
+		country_modifiers = {	
+			naval_forcelimit = 15
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+temple_of_the_sea_god = {
+	start = 1715 #Elinetia
+	date = 1000.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 2
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			province_trade_power_value = 5
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			prestige_from_naval = 0.1
+			naval_morale = 0.05
+			prestige = 0.1
+			dip_tech_cost_modifier = -0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			province_trade_power_value = 10
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			prestige_from_naval = 0.25
+			naval_morale = 0.1
+			prestige = 0.25
+			dip_tech_cost_modifier = -0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			province_trade_power_value = 25
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			prestige_from_naval = 0.25
+			naval_morale = 0.15
+			prestige = 0.3
+			dip_tech_cost_modifier = -0.15
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+doninas_city = {
+	start = 527 #Doninas
+	date = 1000.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			trade_goods_size = 2.0
+			trade_goods_size_modifier = 0.1
+			local_defensiveness = 0.25
+			province_trade_power_value = 10
+		}
+		area_modifier = {
+		}
+		country_modifiers = {			
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			trade_goods_size = 4.0
+			trade_goods_size_modifier = 0.15
+			local_defensiveness = 0.25
+			province_trade_power_value = 15
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			trade_goods_size = 6.0
+			local_defensiveness = 0.25
+			province_trade_power_value = 20
+		}
+		area_modifier = {
+			trade_goods_size_modifier = 0.15
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+}
+
 #Kaltros
 
 #julilia

@@ -126,7 +126,7 @@
  PROV125:0 "Uniaru"
  PROV126:0 "Gued Mountains"
  PROV127:0 "Simocre Ridge"
- 
+ PROV127: "Orbury"
  PROV129:0 "Orbury"
  PROV130:0 "Deepwoods"
  PROV131:0 "Bluegroves"
@@ -140,9 +140,11 @@
  PROV139:0 "Silverspine"
  PROV140:0 "Orbury"
  PROV141:0 "Glacial Wastes"
-
+ PROV142:0 "Graintlin Plains"
+ PROV143:0 "Glacial Ridge"
+ PROV144:0 "Greatsands"
  PROV145:0 "Lesser Orbury"
- 
+ PROV146:0 "Orbury"
  PROV147:0 "Ifranhil"
  PROV148:0 "Glacial Ridge"
  
@@ -164,7 +166,9 @@
  PROV167:0 "Noster Bay"
  PROV168:0 "East Talkian Coast"
  
+ 
  PROV171:0 "Oliaruira"
+ 
  
  PROV174:0 "South Talkian Coast"
  PROV175:0 "Falirse Depths"
@@ -1076,8 +1080,9 @@
  
  PROV1641:0 "Isherun"
  
+ PROV1646:0 "Labash"
  PROV1647:0 "Beshek"
-
+ PROV1648:0 "Nanuayr"
  PROV1649:0 "Kiziltu"
 
  PROV1652:0 "Terbi"
@@ -1363,6 +1368,8 @@
  PROV2051:0 "Susmerio"
 
  PROV2054:0 "Viindararyn"
+ 
+ PROV2058:0 "Siinbras"
 
  PROV2064:0 "Tenub"
  
