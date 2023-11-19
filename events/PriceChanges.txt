@@ -455,6 +455,13 @@ country_event = {
 
 			remove_province_modifier = asemont_copper_mines
 			remove_province_modifier = asemont_fortress_complex
+			add_great_project_tier = {
+				type = asemont_copper_mines
+				tier = -2
+			}
+			destroy_great_project = {
+				type = asemont_fortress_complex
+			}
 		}
 
 		set_global_flag = end_of_asemont_happened

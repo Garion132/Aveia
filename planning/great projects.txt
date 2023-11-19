@@ -1,7 +1,7 @@
 Great projects,location (Y means added)
 Eliherit dockards
 temple of the sea god
-Palace of the divine(Kalree)
+Palace of the divine,Kalree
 great lights:
 	Golden Sun ;Y
 	Antili Heart ;Y
@@ -12,14 +12,13 @@ great lights:
 	-
 Masridu Fort (himben order's fort)
 Yhenil Bridge ;Y
-Lumian Palace of the Patrican [Make it only apply if your capital is here & culture is Elterian elf]
+Lumian Palace of the Patrican [Make it only apply if your capital is here & culture is Elterian elf.{also republic}]
 Academy of Shining Lights (Lumia)
 Asemont Copper Mine
 Asemont Fortress Complex
 Rauthyr's Estate Houses
 Lindor Palace (Rauthyr) [Make it only apply if your capital is here & culture is Lindor]
 Doninas City (Leleth)
-Iron Throne (Ghand) [Make it only apply if your capital is here & culture is North Human]
 House of Learning (Kyath)
 Gungar's Air Ship Factory (Dreghei, moveable)
 Enheasrion Grand Dam (Dreghei)

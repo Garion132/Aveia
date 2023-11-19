@@ -1,0 +1,27 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_great_project_place_holder"	
+		texturefile = "gfx//interface//great_projects//great_project_place_holder.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_golden_sun"	
+		texturefile = "gfx//interface//great_projects//great_light_golden_sun.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_asemont_copper_mine"	
+		texturefile = "gfx//interface//great_projects//asemont_copper_mine.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_LUM_academy_of_arts"	
+		texturefile = "gfx//interface//great_projects//LUM_academy_of_arts.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_LUM_national_airship_factory"	
+		texturefile = "gfx//interface//great_projects//LUM_national_airship_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_LUM_patricianate_palace"	
+		texturefile = "gfx//interface//great_projects//LUM_patricianate_palace.dds"
+	}
+}

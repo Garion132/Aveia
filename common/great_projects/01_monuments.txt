@@ -1,3 +1,4 @@
+#the Lights
 aniliti_heart = {
 	# province it starts in
 	start = 3948
@@ -401,6 +402,197 @@ golden_sun = {
 	}
 }
 
+kushedean_lighthouse= {
+	# province it starts in
+	start = 1480
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	date = -2500.01.01
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 2
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 2
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		always = yes
+	}
+
+	#what to do when it's built
+	on_built = {
+		#show_ambient_object = stonehenge
+		remove_province_modifier = kushedean_lighthouse
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		add_province_modifier = { 
+			name = kushedean_lighthouse
+			duration = -1  
+		}
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		always = yes
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			province_trade_power_value = 25
+			local_institution_spread = 0.5
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			global_trade_power = 0.05
+			naval_forcelimit = 3
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 120
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			province_trade_power_value = 25
+			local_institution_spread = 0.5
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			global_trade_power = 0.05
+			naval_forcelimit = 3
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			province_trade_power_value = 25
+			local_institution_spread = 0.5
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			global_trade_power = 0.05
+			naval_forcelimit = 3
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			province_trade_power_value = 25
+			local_institution_spread = 0.5
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			global_trade_power = 0.05
+			naval_forcelimit = 3
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+}
+
+#Aveia
 yhenil_bridge = {
 	# province it starts in
 	start = 988
@@ -625,192 +817,222 @@ yhenil_bridge = {
 	}
 }
 
-kushedean_lighthouse= {
-	# province it starts in
-	start = 1480
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = -2500.01.01
-	
-	#time to build
-	time = {
-		months = 0
-	}
-	
-	#how much to build one
+asemont_copper_mine = {
+	start = 82 #Asemont
+	date = 1000.01.01
+	time = { months = 0	}
 	build_cost = 0
-	
-	#can we move it?
 	can_be_moved = no
-	
-	#time to move the project one unit of distance, in days
-	move_days_per_unit_distance = 2
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	move_days_per_unit_distance = 10
 	starting_tier = 2
-	
-	#project type
 	type = monument
 
-	#can we build it?
 	build_trigger = {
-		always = yes
 	}
 
-	#what to do when it's built
 	on_built = {
-		#show_ambient_object = stonehenge
-		remove_province_modifier = kushedean_lighthouse
 	}
-	
-	#what to do when it's destroyed
+
 	on_destroyed = {
-		add_province_modifier = { 
-			name = kushedean_lighthouse
-			duration = -1  
-		}
 	}
 
-	#can our country use it?
 	can_use_modifiers_trigger = {
-		always = yes
 	}
 
-	#can our country upgrade it?
 	can_upgrade_trigger = {
-		
 	}
 
-	#can our country keep it or is it destroyed when we get hold of it?
 	keep_trigger = {
 	}
 
-	#tier data
 	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
 			months = 0
 		}
-
-		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
 			factor = 0
 		}
-
-		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			province_trade_power_value = 25
-			local_institution_spread = 0.5
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
 		}
-
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_trade_power = 0.05
-			naval_forcelimit = 3
 		}
-
-		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
 
 	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
 			months = 120
 		}
-
-		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
 			factor = 1000
 		}
-
-		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			province_trade_power_value = 25
-			local_institution_spread = 0.5
+			trade_goods_size = 2.0
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
 		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-			naval_forcelimit = 3
+		country_modifiers = {			
 		}
-
-		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
 
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
 			months = 240
 		}
-
-		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
 			factor = 2500
 		}
-
-		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			province_trade_power_value = 25
-			local_institution_spread = 0.5
+			trade_goods_size = 5.0
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
 		}
-
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_trade_power = 0.05
-			naval_forcelimit = 3
 		}
-
-		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
 
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
 			months = 480
 		}
-
-		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
 			factor = 5000
 		}
-
-		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			province_trade_power_value = 25
-			local_institution_spread = 0.5
+			trade_goods_size = 7.0
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
 		}
-
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_trade_power = 0.05
-			naval_forcelimit = 3
 		}
-
-		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
 }
+
+asemont_fortress_complex = {
+	start = 82 #Asemont
+	date = 1000.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_defensiveness = 0.5
+			max_attrition = 1
+			local_hostile_attrition = 2
+			local_state_maintenance_modifier = 1.5
+		}
+		area_modifier = {
+		}
+		country_modifiers = {			
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_defensiveness = 0.5
+			max_attrition = 1
+			local_hostile_attrition = 2
+			local_state_maintenance_modifier = 1.5
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_defensiveness = 0.5
+			max_attrition = 1
+			local_hostile_attrition = 2
+			local_state_maintenance_modifier = 1.5
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+#Kaltros
+
+#julilia
+
+#Elteria
+
+#Hasqili
+
+#Valator
+

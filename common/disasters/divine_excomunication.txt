@@ -42,7 +42,11 @@ divine_excomunication = {
 			value = 50
 		}
 	}
-	
+	modifier = {
+		tolerance_own = -8
+		tolerance_heretic = -5
+		religious_unity = -0.33
+	}	
 
 	
 	on_start = religious_turmoil.1

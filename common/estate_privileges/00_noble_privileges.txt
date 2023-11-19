@@ -140,6 +140,7 @@ estate_nobles_officer_corp = {
 	influence = 0.05
 	can_select = {
 		army_tradition = 30
+		NOT={has_estate_privilege = estate_nobles_officer_corp}
 	}
 	on_granted = {
 		add_army_tradition = -15
