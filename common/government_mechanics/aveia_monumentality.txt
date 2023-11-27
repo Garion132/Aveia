@@ -52,6 +52,14 @@ monumentality_mechanic = {
 					stability_cost_modifier = -0.2
 				}
 			}
+			scaled_modifier = {
+				trigger = {
+					is_ai = yes
+				}
+				modifier = {
+					monthly_godly_favor = 0.1
+				}
+			}
 			reverse_scaled_modifier = {
 				trigger = {
 					always = yes

@@ -1574,6 +1574,7 @@ country_event = {
 	
 	trigger={
 		technology_group = northern_men_group
+		primary_culture = donamenz
 		OR={
 			AND={
 				2554={
@@ -1598,7 +1599,7 @@ country_event = {
 		grant_independence = yes
 		define_ruler = {
 			dynasty = "Ghandrim"
-			culture = ROOT
+			culture = donamenz
 			religion = ROOT
 			adm = 6
 			dip = 6

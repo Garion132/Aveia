@@ -13,6 +13,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//asemont_copper_mine.dds"
 	}
 	spriteType = {
+		name = "GFX_great_project_masridu_fort"	
+		texturefile = "gfx//interface//great_projects//masridu_fort.dds"
+	}
+	spriteType = {
 		name = "GFX_great_project_LUM_academy_of_arts"	
 		texturefile = "gfx//interface//great_projects//LUM_academy_of_arts.dds"
 	}

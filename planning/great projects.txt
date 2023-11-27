@@ -10,7 +10,7 @@ great lights:
 	- ,4916
 	-
 	-
-Masridu Fort (himben order's fort)
+Masridu Fort (himben order's fort) ;Y
 Yhenil Bridge ;Y
 Lumian Palace of the Patrican [Make it only apply if your capital is here & culture is Elterian elf.{also republic}]
 Academy of Shining Lights (Lumia)
@@ -22,3 +22,4 @@ Doninas City (Leleth) ;Y
 House of Learning (Kyath)
 Gungar's Air Ship Factory (Dreghei, moveable)
 Enheasrion Grand Dam (Dreghei)
+Malicrieit, Flooded Garden ;Y

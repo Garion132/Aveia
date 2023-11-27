@@ -43,8 +43,8 @@ divine_excomunication = {
 		}
 	}
 	modifier = {
-		tolerance_own = -8
-		tolerance_heretic = -5
+		tolerance_own = -3
+		tolerance_heretic = -2
 		religious_unity = -0.33
 	}	
 

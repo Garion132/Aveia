@@ -7,7 +7,7 @@
 # graphical_culture = westerngfx
 # second_graphical_culture = muslimgfx (fallback if the first does not exist)
 
-
+#Elves
 lake_elf = {
 	graphical_culture = westerngfx
 	
@@ -2624,7 +2624,7 @@ elterian_elf = {
 	}
 }
 
-faun = {
+faun = {#kaletian Faun
 	graphical_culture = westerngfx
 
 	male_names = { Gunther Rolf }
@@ -2875,7 +2875,7 @@ faun = {
 		}
 	}
 }
-shireate_group = {
+shireate_group = {#Aveian Faun
 	graphical_culture = westerngfx
 
 	male_names = { Gunther Rolf }
