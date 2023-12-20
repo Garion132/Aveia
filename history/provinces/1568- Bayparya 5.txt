@@ -3,9 +3,9 @@ latent_trade_goods = {
     iron
 }
 
-add_core = BAY
-owner = BAY
-controller = BAY
+add_core = MLD
+owner = MLD
+controller = MLD
 culture = iyarzin
 religion = tlaunorist
 hre = no

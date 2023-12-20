@@ -1,1525 +1,471 @@
 # A province can only belong to one region!
-
 # random_new_world_region is used for RNW. Must be first in this list.
-random_new_world_region = {
+kyathia_region = { 
+	areas = { 
+		ylasemyva_area oruinyal_area lower_mytn_area upper_mytn_area old_kyath_area elraithe_area upper_indoranas_area lower_indoranas_area lesser_iwenlumy_area greater_iwenlumy_area
+		kyatlasia_area anores_area liren_area titar_area matnolu_area lurt_area ildahir_area landir_area iydraf drelnora
+		treivenia 
+	}
 }
+lentira_region = { 
+	areas = { 
+		ihadar_area ihadar_lesser_area elesilon_area himlunelo_area north_doninas_area south_doninas_area sellalra_area iarion_area olores_area parian_area
+		kanzan_area eastern_srandor_area 
+	}
+}
+greater_shires_region = { 
+	areas = { 
+		lower_parhama upper_parhama zornazar_area vellitnarland shires_1 shires_2 shires_3 shires_4 shires_5 east_shires_2
+		east_shires_3 east_shires_4 east_shires_5 east_shires_6 east_shires_7 east_shires_8 north_shires_1 shires_6 shires_7 shires_11
+		vulkivian_24 
+	}
+}
+chaun_region = { 
+	areas = { 
+		chaun_1 chaun_5 chaun_6 chaun_7 chaun_8 chaun_9 donamenz_46 donamenz_47 donamenz_48 elnore
+	}
+}
+krashyrvil_midlands_region = { 
+	areas = { 
+		ortvein_outlands krashyrvil tanhurzel lamnas_valley oayvein telsnien oflorhan lyllumana filsad insase
+		enaleanlume eritys upper_oramarnona_area western_srandor_area nilaur_area vulkivian_1 vulkivian_2 vulkivian_7 vulkivian_28 yransa_area
+		oramarnona_area 
+	}
+}
+otrcyueg_region = { 
+	areas = { 
+		eshyr sahlune anoruine tlinhel lyalolaluma lamnelon oramarno omora onorasanyn miloran
+		cyoloai kilnelir tarlon maneloa elinalm witharl taenir nythond mathei kilrane
+		ilrazin_greater ilrazin_lesser hinnocrin myranhasanar erinheas lylletvanas ihaa thamel mashrina nadarme
+	}
+}
+shemsele_region = { 
+	areas = { 
+		shemsele orionrahet macreamsesa ulilrana west_wassad east_wassad north_jamlu south_jamlu olsyaren 
+	}
+}
+nylka_region = { 
+	areas = { 
+		enyalasha umantien ollumien draumyesi nylka temidal_temple donamenz_13 donamenz_18 donamenz_19 donamenz_20
+		donamenz_21 donamenz_33 donamenz_44 donamenz_45 chaun_3 chaun_4 yulorie 
+	}
+}
+lildoresi_marches_region = { 
+	areas = { 
+		menatheas ilfamenat gafdorethe naleenyafet mythenaset boraloris y_mahilne rauthyr_1 rauthyr_2 rauthyr_3
+		rauthyr_4 rauthyr_11 rauthyr_13 rauthyr_14 
+	}
+}
+rauthyr_region = { 
+	areas = { 
+		rauthyr_5 rauthyr_6 rauthyr_7 rauthyr_8 rauthyr_9 rauthyr_10 rauthyr_12 rauthyr_15 rauthyr_16 rauthyr_17
+		rauthyr_18 rauthyr_19 rauthyr_20 rauthyr_21 rauthyr_24 rauthyr_28 rauthyr_29 
+	}
+}
+nilenor_region = { 
+	areas = { 
+		rauthyr_22 rauthyr_23 rauthyr_30 rauthyr_31 rauthyr_32 rauthyr_33 rauthyr_34 nynthin nytheas klinma
+		amnaselalone loirona aymnerinelie 
+	}
+}
+krorri_region = { 
+	areas = { 
+		rauthyr_27 rauthyr_35 rauthyr_36 rauthyr_37 rauthyr_38 rauthyr_39 donamenz_1 donamenz_49 donamenz_50 donamenz_53
+	}
+}
+dreghei_region = { 
+	areas = { 
+		nyhenat_1 nyhenat_2 nyhenat_3 nyhenat_4 olhoreireelu_1 olhoreireelu_2 keathene_1 keathene_2 keathene_3 unolad_1
+		unolad_2 unolad_3 onebelho_1 onebelho_2 onebelho_3 dreghei_1 dreghei_2 dreghei_3 dreghei_4 dreghei_5
+		dreghei_6 dreghei_7 dreghei_8 dreghei_9 dreghei_10 ryamyueg_1 ryamyueg_2 ryamyueg_3 ryamyueg_4 ryamyueg_5
+		beriksarya_1 beriksarya_2 beriksarya_3 ertin_area boluroya_1 boluroya_2 boluroya_3 boluroya_4 boluroya_5 lower_beycu
+		upper_beycu athanila_1 athanila_2 athanila_3 athanila_4 athanila_5 athanila_6 athanila_7 athanila_8 athanila_9
+	}
+}
+craine_islands = {  #includes kafethyr
 
-########################################
-# AVEIA                                #
-########################################
-
-kyathia_region = {
-	areas = {
-		ylasemyva_area
-		oruinyal_area
-		lower_mytn_area
-		upper_mytn_area
-		old_kyath_area
-		elraithe_area
-		upper_indoranas_area
-		lower_indoranas_area
-		lesser_iwenlumy_area
-		greater_iwenlumy_area
-		kyatlasia_area
-		anores_area
-		liren_area
-		titar_area
-		matnolu_area
-		lurt_area
-		ildahir_area
-		landir_area
-		iydraf
-		drelnora
-		treivenia
+	areas = { 
+		calendor_islands malkros_islands cryspimes_area kafethyr_1 kafethyr_2 kafethyr_3 kafethyr_4 kafethyr_5 kafethyr_6 craine_islands_2
+		craine_islands_3 craine_islands_4 
 	}
 }
-lentira_region = {
-	areas = {
-		ihadar_area
-		ihadar_lesser_area
-		elesilon_area
-		himlunelo_area
-		north_doninas_area
-		south_doninas_area
-		sellalra_area
-		iarion_area
-		olores_area
-		parian_area
-		kanzan_area
-		eastern_srandor_area
+chaunluma_region = { 
+	areas = { 
+		inzedia_1 inzedia_2 inzedia_3 inzedia_4 lurlesy neanatha_1 neanatha_2 neanatha_3 neanatha_4 neanatha_5
+		neanatha_6 neanatha_7 neanatha_8 neanatha_9 neanatha_10 neanatha_11 neanatha_12 beshek reylanlya_1 reylanlya_2
+		reylanlya_3 reylanlya_4 reylanlya_5 reylanlya_6 sohoremyfa_1 sohoremyfa_2 sohoremyfa_3 sohoremyfa_4 sohoremyfa_5 umalesy_1
+		umalesy_2 umalesy_3 umalesy_4 matn_2 matn_3 rauma_1 rauma_2 isesiralne_1 isesiralne_2 isesiralne_3
+		elhera 
 	}
 }
-greater_shires_region = {
-	areas = {
-		lower_parhama
-		upper_parhama
-		zornazar_area
-		vellitnarland
-		shires_1
-		shires_2
-		shires_3
-		shires_4
-		shires_5
-		east_shires_2
-		east_shires_3
-		east_shires_4
-		east_shires_5
-		east_shires_6
-		east_shires_7
-		east_shires_8
-		north_shires_1
-		shires_6
-		shires_7
-		shires_11
-		vulkivian_24
+great_ziyalap_region = { 
+	areas = { 
+		ziyalap_1 ziyalap_2 ziyalap_3 ziyalap_4 ziyalap_5 ziyalap_6 ziyalap_7 ziyalap_8 ziyalap_9 ziyalap_10
+		ziyalap_11 ziyalap_12 ziyalap_13 ziyalap_14 ziyalap_15 ziyalap_16 ziyalap_17 ziyalap_18 ziyalap_19 bayparya_1
+		bayparya_2 bayparya_3 bayparya_4 bayparya_5 bayparya_6 douan_1 douan_3 douan_4 douan_5 douan_6
+		douan_7 douan_8 
 	}
 }
-chaun_region = {
-	areas = {
-		chaun_1
-		chaun_5
-		chaun_6
-		chaun_7
-		chaun_8
-		chaun_9
-		donamenz_46	
-		donamenz_47	
-		donamenz_48
-		elnore
+morbin_region = { 
+	areas = { 
+		gulba_11 gulba_12 gulba_13 gulba_14 gulba_15 gulba_16 gulba_18 gulba_19 gulba_20 gulba_21
+		yerina_2 yerina_4 yerina_5 yerina_6 yerina_9 yerina_10 
 	}
 }
-krashyrvil_midlands_region = {
-	areas = {
-		ortvein_outlands
-		krashyrvil
-		tanhurzel
-		lamnas_valley
-		oayvein
-		telsnien
-		oflorhan
-		lyllumana
-		filsad
-		insase
-		enaleanlume
-		eritys
-		upper_oramarnona_area
-		western_srandor_area
-		nilaur_area
-		vulkivian_1
-		vulkivian_2
-		vulkivian_7
-		vulkivian_28
-		yransa_area
-		oramarnona_area
+great_gulba_region = { 
+	areas = { 
+		gulba_1 gulba_2 gulba_3 gulba_4 gulba_5 gulba_6 gulba_7 gulba_8 gulba_10 gulba_17
+		rauthyr_25 rauthyr_26 donamenz_51 donamenz_52 
 	}
 }
-otrcyueg_region ={
-	areas = {
-		eshyr
-		sahlune
-		anoruine
-		tlinhel
-		lyalolaluma
-		lamnelon
-		oramarno
-		omora
-		onorasanyn
-		miloran
-		cyoloai
-		kilnelir
-		tarlon
-		maneloa
-		elinalm
-		witharl
-		taenir
-		nythond
-		mathei
-		kilrane
-		ilrazin_greater
-		ilrazin_lesser
-		hinnocrin
-		myranhasanar
-		erinheas
-		lylletvanas
-		ihaa
-		thamel
-		mashrina
-		nadarme
+tailwind_islands_region = { 
+	areas = { 
+		salrton_chain trailing_islands forlorn_islands jagged_isles 
 	}
 }
-shemsele_region ={
-	areas = {
-		shemsele
-		orionrahet
-		macreamsesa
-		ulilrana
-		west_wassad
-		east_wassad
-		north_jamlu
-		south_jamlu
-		olsyaren
+gugh_region = { 
+	areas = { 
+		grur_1 grur_2 grur_3 grur_5 grur_6 bozred_1 bozred_2 kizipru yerina_8 yerina_3
+		gugh_1 gugh_2 gugh_3 gugh_4 gugh_5 gugh_6 gugh_30 gugh_31 gugh_32 gugh_33
+		gugh_34 
 	}
 }
-nylka_region={
-	areas = {
-		enyalasha
-		umantien
-		ollumien
-		draumyesi
-		nylka
-		temidal_temple
-		donamenz_13
-		donamenz_18
-		donamenz_19
-		donamenz_20
-		donamenz_21
-		donamenz_33
-		donamenz_44	
-		donamenz_45	
-		chaun_3
-		chaun_4
-		yulorie
+kepjar_region = { 
+	areas = { 
+		gugh_7 gugh_8 gugh_9 gugh_10 gugh_11 gugh_12 gugh_13 gugh_14 gugh_15 gugh_16
+		gugh_17 gugh_18 gugh_19 gugh_20 gugh_21 gugh_22 gugh_23 gugh_24 gugh_25 gugh_26
+		gugh_27 gugh_28 gugh_29 
 	}
 }
-lildoresi_marches_region ={
-	areas = {
-		menatheas
-		ilfamenat
-		gafdorethe
-		naleenyafet
-		mythenaset
-		boraloris
-		y_mahilne
-		rauthyr_1
-		rauthyr_2
-		rauthyr_3
-		rauthyr_4
-		rauthyr_11
-		rauthyr_13
-		rauthyr_14
+vulkivian_region = { 
+	areas = { 
+		vulkivian_3 vulkivian_4 vulkivian_5 vulkivian_6 vulkivian_8 vulkivian_9 vulkivian_10 vulkivian_11 vulkivian_12 vulkivian_13
+		vulkivian_14 vulkivian_15 vulkivian_16 vulkivian_17 vulkivian_18 vulkivian_19 vulkivian_20 vulkivian_21 vulkivian_22 vulkivian_23
+		vulkivian_25 vulkivian_26 vulkivian_27 
 	}
 }
-rauthyr_region ={
-	areas = {
-		rauthyr_5
-		rauthyr_6
-		rauthyr_7
-		rauthyr_8
-		rauthyr_9
-		rauthyr_10
-		rauthyr_12
-		rauthyr_15
-		rauthyr_16
-		rauthyr_17
-		rauthyr_18
-		rauthyr_19
-		rauthyr_20
-		rauthyr_21
-		
-		rauthyr_24
-		
-		rauthyr_28
-		rauthyr_29
+thilrana_region = { 
+	areas = { 
+		liretlet fanilnemyel_1 fanilnemyel_2 shaumanyn_1 shaumanyn_2 shaumanyn_3 nathion_1 nathion_2 nathion_3 thilmaren_1
+		asfereth celulil sineri bririon thilrana_1 thilrana_2 thilrana_3 thilrana_4 thilrana_5 thilrana_6
+		thilrana_7 
 	}
 }
-nilenor_region={
-	areas = {
-		rauthyr_22
-		rauthyr_23
-		rauthyr_30
-		rauthyr_31
-		rauthyr_32
-		rauthyr_33
-		rauthyr_34
-		nynthin
-		nytheas
-		klinma
-		amnaselalone
-		loirona
-		aymnerinelie
+donamenz_region = { 
+	areas = { 
+		donamenz_2 donamenz_3 donamenz_4 donamenz_5 donamenz_6 donamenz_7 donamenz_8 donamenz_9 donamenz_10 donamenz_11
+		donamenz_12 donamenz_14 donamenz_15 donamenz_16 donamenz_17 donamenz_22 donamenz_23 donamenz_24 donamenz_25 donamenz_26
+		donamenz_27 donamenz_28 donamenz_29 donamenz_30 donamenz_31 donamenz_32 donamenz_34 donamenz_35 donamenz_36 donamenz_37
+		donamenz_38 donamenz_39 donamenz_40 donamenz_41 donamenz_42 donamenz_43 
 	}
 }
-krorri_region={
-	areas = {
-		rauthyr_27
-		rauthyr_35
-		rauthyr_36
-		rauthyr_37
-		rauthyr_38
-		rauthyr_39
-		donamenz_1
-		donamenz_49
-		donamenz_50
-		donamenz_53
+qirdud_region = { 
+	areas = { 
+		qirdud_1 qirdud_2 qirdud_3 qirdud_4 keril_1 keril_2 keril_3 keril_4 keril_5 keril_6
+		keril_7 keril_8 keril_9 keril_10 keril_11 keril_12 keril_13 keril_14 keril_15 keril_16
+		keril_17 keril_18 keril_19 keril_20 keril_21 keril_22 keril_23 keril_26 keril_29 keril_30
+		keril_31 
 	}
 }
-
-dreghei_region={#
-	areas = {
-		nyhenat_1
-		nyhenat_2
-		nyhenat_3
-		nyhenat_4
-		olhoreireelu_1
-		olhoreireelu_2
-		keathene_1
-		keathene_2
-		unolad_1
-		unolad_2
-		unolad_3
-		onebelho_1
-		onebelho_2
-		onebelho_3
-		dreghei_1
-		dreghei_2
-		dreghei_3
-		dreghei_4
-		dreghei_5
-		dreghei_6
-		dreghei_7
-		dreghei_8
-		dreghei_9
-		dreghei_10
-		ryamyueg_1
-		ryamyueg_2
-		ryamyueg_3
-		ryamyueg_4
-		ryamyueg_5
-		beriksarya_1
-		beriksarya_2
-		beriksarya_3
-		ertin_area
-		boluroya_1
-		boluroya_2
-		boluroya_3
-		boluroya_4
-		boluroya_5
-		lower_beycu
-		upper_beycu
-		athanila_1
-		athanila_2
-		athanila_3
-		athanila_4
-		athanila_5
-		athanila_6
-		athanila_7
-		athanila_8
-		athanila_9
+anoric_region = { 
+	areas = { 
+		keril_24 keril_25 keril_27 keril_28 keril_32 keril_33 keril_34 keril_35 keril_36 keril_37
+		keril_38 keril_39 keril_40 keril_41 keril_42 keril_44 keril_48 keril_49 keril_50 keril_51
+		keril_52 keril_59 keril_60 keril_61 
 	}
 }
-
-craine_islands={#includes kafethyr
-	areas = {
-		calendor_islands
-		malkros_islands
-		cryspimes_area
-		kafethyr_1
-		kafethyr_2
-		kafethyr_3
-		kafethyr_4
-		kafethyr_5
-		kafethyr_6
-		craine_islands_2
-		craine_islands_3
-		craine_islands_4
+rogosian_heights_region = { 
+	areas = { 
+		keril_62 rogosian_1 rogosian_2 rogosian_3 rogosian_4 rogosian_5 rogosian_6 rogosian_7 rogosian_8 rogosian_9
+		rogosian_10 rogosian_11 rogosian_12 rogosian_13 rogosian_14 rogosian_15 rogosian_16 rogosian_17 rogosian_18 rogosian_19
+		rogosian_20 rogosian_21 rogosian_22 rogosian_23 rogosian_24 
 	}
 }
-
-chaunluma_region={#
-	areas = {
-		inzedia_1
-		inzedia_2
-		inzedia_3
-		inzedia_4
-		lurlesy
-		neanatha_1
-		neanatha_2
-		neanatha_3
-		neanatha_4
-		neanatha_5
-		neanatha_6
-		neanatha_7
-		neanatha_8
-		neanatha_9
-		neanatha_10
-		neanatha_11
-		neanatha_12
-		beshek
-		reylanlya_1
-		reylanlya_2
-		reylanlya_3
-		reylanlya_4
-		reylanlya_5
-		reylanlya_6
-		sohoremyfa_1
-		sohoremyfa_2
-		sohoremyfa_3
-		sohoremyfa_4
-		sohoremyfa_5
-		umalesy_1
-		umalesy_2
-		umalesy_3
-		umalesy_4
-		matn_2
-		matn_3
-		rauma_1
-		rauma_2
-		isesiralne_1
-		isesiralne_2
-		isesiralne_3
-		elhera
+vortingrad_region = { 
+	areas = { 
+		vortingrad_1 vortingrad_2 vortingrad_3 vortingrad_4 vortingrad_5 vortingrad_6 keril_43 keril_58 keril_46 keril_45
+		keril_47 keril_53 keril_63 keril_54 keril_55 keril_56 keril_57 vortingrad_10 vortingrad_11 vortingrad_12
+		vortingrad_13 vortingrad_14 borestia_13 
 	}
 }
-
-great_ziyalap_region={
-	areas = {
-		ziyalap_1
-		ziyalap_2
-		ziyalap_3
-		ziyalap_4
-		ziyalap_5
-		ziyalap_6
-		ziyalap_7
-		ziyalap_8
-		ziyalap_9
-		ziyalap_10
-		ziyalap_11
-		ziyalap_12
-		ziyalap_13
-		ziyalap_14
-		ziyalap_15
-		bayparya_1
-		bayparya_2
-		bayparya_3
-		bayparya_4
-		bayparya_5
-		bayparya_6
-		douan_1
-		douan_3
-		douan_4
-		douan_5
-		douan_6
-		douan_7
-		douan_8
-	}
-}
-morbin_region={
-	areas = {
-		gulba_11
-		gulba_12
-		gulba_13
-		gulba_14
-		gulba_15
-		gulba_16
-		gulba_18
-		gulba_19
-		gulba_20
-		gulba_21
-		yerina_2
-		yerina_4
-		yerina_5
-		yerina_6
-		yerina_9
-		yerina_10
-	}
-}
-great_gulba_region={
-	areas = {
-		gulba_1
-		gulba_2
-		gulba_3
-		gulba_4
-		gulba_5
-		gulba_6
-		gulba_7
-		gulba_8
-		gulba_10
-		gulba_17
-		rauthyr_25
-		rauthyr_26
-		donamenz_51
-		donamenz_52
-	}
-}
-tailwind_islands_region={
-	areas = {
-		salrton_chain
-		trailing_islands
-		forlorn_islands
-	}
-}
-gugh_region={
-	areas = {
-		grur_1
-		grur_2
-		grur_3
-		grur_5
-		grur_6
-		bozred_1
-		bozred_2
-		kizipru
-		yerina_8
-		yerina_3
-		gugh_1
-		gugh_2
-		gugh_3
-		gugh_4
-		gugh_5
-		gugh_6
-		gugh_30
-		gugh_31
-		gugh_32
-		gugh_33
-		gugh_34
-	}
-}
-kepjar_region={
-	areas={
-		gugh_7
-		gugh_8
-		gugh_9
-		gugh_10
-		gugh_11
-		gugh_12
-		gugh_13
-		gugh_14
-		gugh_15
-		gugh_16
-		gugh_17
-		gugh_18
-		gugh_19
-		gugh_20
-		gugh_21
-		gugh_22
-		gugh_23
-		gugh_24
-		gugh_25
-		gugh_26
-		gugh_27
-		gugh_28
-		gugh_29
-	}
-}
-
-
-vulkivian_region={
-	areas={
-		vulkivian_3
-		vulkivian_4
-		vulkivian_5
-		vulkivian_6
-		vulkivian_8
-		vulkivian_9
-		vulkivian_10
-		vulkivian_11
-		vulkivian_12
-		vulkivian_13
-		vulkivian_14
-		vulkivian_15
-		vulkivian_16
-		vulkivian_17
-		vulkivian_18
-		vulkivian_19
-		vulkivian_20
-		vulkivian_21
-		vulkivian_22
-		vulkivian_23
-		vulkivian_25
-		vulkivian_26
-		vulkivian_27
-	}
-}
-thilrana_region={
-	areas={
-		liretlet
-		fanilnemyel_1
-		fanilnemyel_2
-		shaumanyn_1
-		shaumanyn_2
-		shaumanyn_3
-		nathion_1
-		nathion_2
-		nathion_3
-		thilmaren_1
-		asfereth
-		celulil
-		sineri
-		bririon
-		thilrana_1
-		thilrana_2
-		thilrana_3
-		thilrana_4
-		thilrana_5
-		thilrana_6
-		thilrana_7
-	}
-}
-donamenz_region={
-	areas={
-		donamenz_2
-		donamenz_3
-		donamenz_4
-		donamenz_5
-		donamenz_6
-		donamenz_7
-		donamenz_8
-		donamenz_9
-		donamenz_10
-		donamenz_11
-		donamenz_12
-		donamenz_14
-		donamenz_15
-		donamenz_16
-		donamenz_17
-		donamenz_22
-		donamenz_23
-		donamenz_24
-		donamenz_25
-		donamenz_26
-		donamenz_27	
-		donamenz_28	
-		donamenz_29	
-		donamenz_30
-		donamenz_31
-		donamenz_32	
-		donamenz_34	
-		donamenz_35	
-		donamenz_36	
-		donamenz_37	
-		donamenz_38	
-		donamenz_39
-		donamenz_40	
-		donamenz_41	
-		donamenz_42
-		donamenz_43		
-	}
-}
-qirdud_region={
-	areas={
-		qirdud_1
-		qirdud_2
-		qirdud_3
-		qirdud_4
-		keril_1
-		keril_2
-		keril_3
-		keril_4
-		keril_5
-		keril_6
-		keril_7
-		keril_8
-		keril_9
-		keril_10
-		keril_11
-		keril_12
-		keril_13
-		keril_14
-		keril_15
-		keril_16
-		keril_17
-		keril_18
-		keril_19
-		keril_20
-		keril_21
-		keril_22
-		keril_23
-		keril_26
-		keril_29
-		keril_30
-		keril_31
-		
-	}
-}
-
-anoric_region={
-	areas={
-		keril_24
-		keril_25
-		keril_27
-		keril_28
-		keril_32
-		keril_33
-		keril_34
-		keril_35
-		keril_36
-		keril_37
-		keril_38
-		keril_39
-		keril_40
-		keril_41
-		keril_42
-		keril_44
-		keril_48
-		keril_49
-		keril_50
-		keril_51
-		keril_52
-		keril_59
-		keril_60
-		keril_61
-	}
-}
-
-rogosian_heights_region={
-	areas={
-		keril_62
-		rogosian_1
-		rogosian_2
-		rogosian_3
-		rogosian_4
-		rogosian_5
-		rogosian_6
-		rogosian_7
-		rogosian_8
-		rogosian_9
-		rogosian_10
-		rogosian_11
-		rogosian_12
-		rogosian_13
-		rogosian_14
-		rogosian_15
-		rogosian_16
-		rogosian_17
-		rogosian_18
-		rogosian_19
-		rogosian_20
-		rogosian_21
-		rogosian_22
-		rogosian_23
-		rogosian_24
-	}
-}
-vortingrad_region={
-	areas={
-		vortingrad_1
-		vortingrad_2
-		vortingrad_3
-		vortingrad_4
-		vortingrad_5
-		vortingrad_6
-		keril_43
-		keril_58
-		keril_46
-		keril_45
-		keril_47
-		keril_53
-		keril_63
-		keril_54
-		keril_55
-		keril_56
-		keril_57
-		vortingrad_10
-		vortingrad_11
-		vortingrad_12
-		vortingrad_13
-		vortingrad_14
-		borestia_13
-	}
-}
-
-borestia_region={
-	areas={
-		vortingrad_7
-		vortingrad_8
-		vortingrad_9
-		borestia_1
-		borestia_2
-		borestia_3
-		borestia_4
-		borestia_5
-		borestia_6
-		borestia_8
-		borestia_9
-		borestia_10
-		borestia_11
-		borestia_12
-		borestia_14
-		borestia_15
-		borestia_16
-		borestia_17
-		borestia_18
+borestia_region = { 
+	areas = { 
+		vortingrad_7 vortingrad_8 vortingrad_9 borestia_1 borestia_2 borestia_3 borestia_4 borestia_5 borestia_6 borestia_8
+		borestia_9 borestia_10 borestia_11 borestia_12 borestia_14 borestia_15 borestia_16 borestia_17 borestia_18 
 	}
 }
 ##Karnaiha
-
-karnaiha_region = {
-	areas = {
-		sohoremyfa_6
-		sohoremyfa_8
-		karnaiha_2
-		karnaiha_3
-		karnaiha_4
-		karnaiha_5
-		karnaiha_6
-		karnaiha_7
-		karnaiha_8
-		karnaiha_9
-		karnaiha_10
-		karnaiha_11
-		feltdon_1
-		deerok_1
-		deerok_9
+karnaiha_region = { 
+	areas = { 
+		sohoremyfa_6 sohoremyfa_8 karnaiha_2 karnaiha_3 karnaiha_4 karnaiha_5 karnaiha_6 karnaiha_7 karnaiha_8 karnaiha_9
+		karnaiha_10 karnaiha_11 feltdon_1 deerok_1 deerok_9 
 	}
 }
-
-brightcoast_region={
-	areas = {
-		freygmia
-		silowbo
-		lower_oagemins
-		upper_oagemins
-		weslif
-		cloudham
-		sringar
-		grahear
-		ligwell
-		eagburya
-		chilton
-		brightcoast_1
-		brightcoast_2
-		brightcoast_3
-		brightcoast_4
-		brightcoast_5
-		brightcoast_6
-		brightcoast_7
-		karnaiha_25
-		karnaiha_26
-		karnaiha_27
+brightcoast_region = { 
+	areas = { 
+		freygmia silowbo lower_oagemins upper_oagemins weslif cloudham sringar grahear ligwell eagburya
+		chilton brightcoast_1 brightcoast_2 brightcoast_3 brightcoast_4 brightcoast_5 brightcoast_6 brightcoast_7 karnaiha_25 karnaiha_26
+		karnaiha_27 
 	}
 }
-
-greater_jalhorkan_region={
-	areas = {
-		laslesia
-		miwal
-		jalhorkan_1
-		jalhorkan_2
-		jalhorkan_3
-		jalhorkan_4
-		jalhorkan_5
-		jalhorkan_6
-		jalhorkan_7
-		jalhorkan_8
-		jalhorkan_9
-		jalhorkan_10
-		jalhorkan_11
-		brightcoast_8
-		brightcoast_9
-		brightcoast_10
-		brightcoast_11
-		brightcoast_12
-		ventoral_islands
-		brightcoast_13
-		brightcoast_14
-		brightcoast_15
-		brightcoast_16
-		brightcoast_17
-		windsweaps_1
-		deepgroves_1
+greater_jalhorkan_region = { 
+	areas = { 
+		laslesia miwal jalhorkan_1 jalhorkan_2 jalhorkan_3 jalhorkan_4 jalhorkan_5 jalhorkan_6 jalhorkan_7 jalhorkan_8
+		jalhorkan_9 jalhorkan_10 jalhorkan_11 brightcoast_8 brightcoast_9 brightcoast_10 brightcoast_11 brightcoast_12 ventoral_islands brightcoast_13
+		brightcoast_14 brightcoast_15 brightcoast_16 brightcoast_17 windsweaps_1 deepgroves_1 
 	}
 }
-windsweaps_region={
-	areas = {
-		windsweaps_2
-		windsweaps_3
-		windsweaps_4
-		windsweaps_5
-		windsweaps_6
-		windsweaps_7
-		windsweaps_8
-		windsweaps_9
-		windsweaps_10
-		windsweaps_11
-		windsweaps_12
-		windsweaps_13
-		windsweaps_14
-		windsweaps_15
-		windsweaps_16
-		windsweaps_17
-		windsweaps_18
-		windsweaps_19
-		windsweaps_20
-		windsweaps_21
-		windsweaps_22
-		windsweaps_23
-		windsweaps_24
-		karnaiha_12
-		karnaiha_34
-		deerok_13
-		deerok_14
-		dredging_islands
-		deepgroves_2
-		deepgroves_3
-		deepgroves_4
-		deepgroves_5
-		deepgroves_6
-		
+windsweaps_region = { 
+	areas = { 
+		windsweaps_2 windsweaps_3 windsweaps_4 windsweaps_5 windsweaps_6 windsweaps_7 windsweaps_8 windsweaps_9 windsweaps_10 windsweaps_11
+		windsweaps_12 windsweaps_13 windsweaps_14 windsweaps_15 windsweaps_16 windsweaps_17 windsweaps_18 windsweaps_19 windsweaps_20 windsweaps_21
+		windsweaps_22 windsweaps_23 windsweaps_24 karnaiha_12 karnaiha_34 deerok_13 deerok_14 dredging_islands deepgroves_2 deepgroves_3
+		deepgroves_4 deepgroves_5 deepgroves_6 
 	}
 }
-palentai_bay_region={
-	areas = {
-		palentai_bay_1
-		palentai_bay_2
-		palentai_bay_3
-		palentai_bay_4
-		palentai_bay_5
-		palentai_bay_6
-		palentai_bay_7
-		palentai_bay_8
-		palentai_bay_9
-		palentai_bay_10
-		palentai_bay_11
-		palentai_bay_12
-		palentai_bay_13
-		palentai_bay_14
-		palentai_bay_15
-		
+palentai_bay_region = { 
+	areas = { 
+		palentai_bay_1 palentai_bay_2 palentai_bay_3 palentai_bay_4 palentai_bay_5 palentai_bay_6 palentai_bay_7 palentai_bay_8 palentai_bay_9 palentai_bay_10
+		palentai_bay_11 palentai_bay_12 palentai_bay_13 palentai_bay_14 palentai_bay_15 
 	}
 }
-
-catecalde_region={
-	areas = {
-		karnaiha_17
-		karnaiha_18
-		karnaiha_19
-		karnaiha_20
-		karnaiha_21
-		karnaiha_22
-		karnaiha_14
-		karnaiha_15
-		karnaiha_23
-		karnaiha_24
-		karnaiha_28
-		karnaiha_29
-		karnaiha_30
-		karnaiha_31
-		karnaiha_13
-		karnaiha_32
-		karnaiha_33
-		karnaiha_35
+catecalde_region = { 
+	areas = { 
+		karnaiha_17 karnaiha_18 karnaiha_19 karnaiha_20 karnaiha_21 karnaiha_22 karnaiha_14 karnaiha_15 karnaiha_23 karnaiha_24
+		karnaiha_28 karnaiha_29 karnaiha_30 karnaiha_31 karnaiha_13 karnaiha_32 karnaiha_33 karnaiha_35 
 	}
 }
-
-bulkir_region={
-	areas = {
-		bulkir_1
-		bulkir_2
-		bulkir_3
-		bulkir_4
-		bulkir_5
-		bulkir_6
-		bulkir_7
-		bulkir_8
-		bulkir_9
-		bulkir_10
-		bulkir_11
-		bulkir_12
-		sohoremyfa_7
+bulkir_region = { 
+	areas = { 
+		bulkir_1 bulkir_2 bulkir_3 bulkir_4 bulkir_5 bulkir_6 bulkir_7 bulkir_8 bulkir_9 bulkir_10
+		bulkir_11 bulkir_12 sohoremyfa_7 
 	}
 }
-feltdon_region={
-	areas = {
-		feltdon_2
-		feltdon_3
-		feltdon_4
-		feltdon_5
-		feltdon_6
-		feltdon_19
-		feltdon_20
-		feltdon_21
-		feltdon_24
-		scuria_12
+feltdon_region = { 
+	areas = { 
+		feltdon_2 feltdon_3 feltdon_4 feltdon_5 feltdon_6 feltdon_19 feltdon_20 feltdon_21 feltdon_24 scuria_12
 	}
 }
-scuria_region={
-	areas = {
-		scuria_1
-		scuria_2
-		scuria_4
-		scuria_5
-		scuria_6
-		scuria_7
-		scuria_8
-		scuria_9
-		scuria_10
-		scuria_11
-		scuria_13
-		feltdon_7
-		feltdon_8
-		feltdon_18
-		feltdon_23
+scuria_region = { 
+	areas = { 
+		scuria_1 scuria_2 scuria_4 scuria_5 scuria_6 scuria_7 scuria_8 scuria_9 scuria_10 scuria_11
+		scuria_13 feltdon_7 feltdon_8 feltdon_18 feltdon_23 
 	}
 }
-deerok_region={
-	areas = {
-		deerok_2
-		deerok_3
-		deerok_4
-		deerok_5
-		deerok_6
-		deerok_7
-		deerok_8
-		deerok_10
-		deerok_11
-		deerok_12
-		feltdon_9
-		feltdon_10
-		feltdon_11
-		feltdon_12
-		feltdon_13
-		feltdon_14
-		feltdon_15
-		feltdon_16
-		feltdon_17
+deerok_region = { 
+	areas = { 
+		deerok_2 deerok_3 deerok_4 deerok_5 deerok_6 deerok_7 deerok_8 deerok_10 deerok_11 deerok_12
+		feltdon_9 feltdon_10 feltdon_11 feltdon_12 feltdon_17 
 	}
 }
-suirx_cresant_region={
-	areas = {
-		suirx_cresant_1
-		suirx_cresant_2
-		suirx_cresant_3
-		suirx_cresant_4
-		suirx_cresant_5
-		suirx_cresant_6
-		suirx_cresant_7
-		suirx_cresant_8
-		suirx_cresant_9
-		suirx_cresant_10
-		shires_9
-		shires_10
-		suirx_cresant_11
-		suirx_cresant_12
-		suirx_cresant_13
-		suirx_cresant_14
-		suirx_cresant_15
-		suirx_cresant_16
-		suirx_cresant_17
-		suirx_cresant_18
-		suirx_cresant_19
+suirx_cresant_region = { 
+	areas = { 
+		suirx_cresant_1 suirx_cresant_2 suirx_cresant_3 suirx_cresant_4 suirx_cresant_5 suirx_cresant_6 suirx_cresant_7 suirx_cresant_8 suirx_cresant_9 suirx_cresant_10
+		shires_9 shires_10 suirx_cresant_11 suirx_cresant_12 suirx_cresant_13 suirx_cresant_14 suirx_cresant_15 suirx_cresant_16 suirx_cresant_17 suirx_cresant_18
+		suirx_cresant_19 
 	}
 }
-
-shield_isles_region={
-	areas = {
-		juluia_1
-		juluia_2
-		juluia_3
-		juluia_4
-		juluia_5
-		juluia_6
-		juluia_7
-		juluia_8
-		juluia_9
-		juluia_10
-		juluia_11
-		juluia_12
-		juluia_13
-		juluia_14
-		juluia_15
-		juluia_16
-		juluia_17
-		juluia_18
-		juluia_19
-		juluia_20
-		juluia_21
+shield_isles_region = { 
+	areas = { 
+		juluia_1 juluia_2 juluia_3 juluia_4 juluia_5 juluia_6 juluia_7 juluia_8 juluia_9 juluia_10
+		juluia_11 juluia_12 juluia_13 juluia_14 juluia_15 juluia_16 juluia_17 juluia_18 juluia_19 juluia_20
+		juluia_21 
 	}
 }
-strivian_region={
-	areas = {
-		juluia_22
-		juluia_23
-		juluia_24
-		juluia_25
-		juluia_26
-		juluia_27
-		juluia_28
-		juluia_29
-		juluia_31
-		juluia_32
-		juluia_33
-		juluia_34
-		juluia_35
-		juluia_36
-		juluia_37
-		juluia_38
-		juluia_39
+strivian_region = { 
+	areas = { 
+		juluia_22 juluia_23 juluia_24 juluia_25 juluia_26 juluia_27 juluia_28 juluia_29 juluia_31 juluia_32
+		juluia_33 juluia_34 juluia_35 juluia_36 juluia_37 juluia_38 juluia_39 
 	}
 }
-golden_bay_region={
-	areas = {
-		juluia_30
-		juluia_40
-		juluia_41
-		juluia_42
-		juluia_43
-		juluia_44
-		juluia_66
-		juluia_67
-		juluia_68
-		juluia_69
-		juluia_70
-		juluia_71
-		juluia_72
-		juluia_73
-		juluia_76
-		juluia_77
-		juluia_78
-		golden_basin_18
+golden_bay_region = { 
+	areas = { 
+		juluia_30 juluia_40 juluia_41 juluia_42 juluia_43 juluia_44 juluia_66 juluia_67 juluia_68 juluia_69
+		juluia_70 juluia_71 juluia_72 juluia_73 juluia_76 juluia_77 juluia_78 golden_basin_18 
 	}
 }
-valkmora_region={
-	areas = {
-		veltoc_cities
-		valkmora_1
-		valkmora_2
-		valkmora_3
-		valkmora_4
-		valkmora_5
-		valkmora_6
-		valkmora_7
-		valkmora_8
-		valkmora_9
-		valkmora_10
-		valkmora_11
-		valkmora_12
+valkmora_region = { 
+	areas = { 
+		veltoc_cities valkmora_1 valkmora_2 valkmora_3 valkmora_4 valkmora_5 valkmora_6 valkmora_7 valkmora_8 valkmora_9
+		valkmora_10 valkmora_11 valkmora_12 
 	}
 }
-markford_plains_region={
-	areas = {
-		valkmora_17
-		valkmora_14
-		valkmora_15
-		valkmora_16
-		valkmora_19
-		valkmora_20
-		valkmora_34
-		valkmora_35
-		valkmora_36
-		valkmora_37
-		valkmora_38
-		valkmora_21
+markford_plains_region = { 
+	areas = { 
+		valkmora_17 valkmora_14 valkmora_15 valkmora_16 valkmora_19 valkmora_20 valkmora_34 valkmora_35 valkmora_36 valkmora_37
+		valkmora_38 valkmora_21 
 	}
 }
-kandi_region={
-	areas = {
-		valkmora_22
-		valkmora_23
-		valkmora_24
-		valkmora_25
-		valkmora_26
-		valkmora_27
-		valkmora_28
-		valkmora_29
-		valkmora_30
-		valkmora_31
-		valkmora_32
-		valkmora_33
-		valkmora_40
-		valkmora_41
-		valkmora_42
-		valkmora_43
-		yulanir_17
+kandi_region = { 
+	areas = { 
+		valkmora_22 valkmora_23 valkmora_24 valkmora_25 valkmora_26 valkmora_27 valkmora_28 valkmora_29 valkmora_30 valkmora_31
+		valkmora_32 valkmora_33 valkmora_40 valkmora_41 valkmora_42 valkmora_43 yulanir_17 
 	}
 }
-yulanir_region={
-	areas = {
-		valkmora_39
-		yulanir_1
-		yulanir_2
-		yulanir_3
-		yulanir_4
-		yulanir_5
-		yulanir_6
-		yulanir_7
-		yulanir_8
-		yulanir_9
-		yulanir_10
-		yulanir_11
-		yulanir_12
-		yulanir_13
-		yulanir_14
-		yulanir_15
-		yulanir_16
-		yulanir_19
+yulanir_region = { 
+	areas = { 
+		valkmora_39 yulanir_1 yulanir_2 yulanir_3 yulanir_4 yulanir_5 yulanir_6 yulanir_7 yulanir_8 yulanir_9
+		yulanir_10 yulanir_11 yulanir_12 yulanir_13 yulanir_14 yulanir_15 yulanir_16 yulanir_19 
 	}
 }
-broken_bays_region={
-	areas = {
-		epirauna_1
-		epirauna_2
-		epirauna_3
-		epirauna_4
-		epirauna_7
-		epirauna_8
-		epirauna_9
-		epirauna_10
-		epirauna_11
-		epirauna_12
-		yulanir_18
+broken_bays_region = { 
+	areas = { 
+		epirauna_1 epirauna_2 epirauna_3 epirauna_4 epirauna_7 epirauna_8 epirauna_9 epirauna_10 epirauna_11 epirauna_12
+		yulanir_18 
 	}
 }
-velima_plains_region={
-	areas = {
-		juluia_74
-		juluia_75
-		juluia_79
-		juluia_80
-		juluia_81
-		juluia_82
-		juluia_83
-		juluia_84
-		juluia_85
-		juluia_86
-		golden_basin_1
-		golden_basin_2
-		golden_basin_3
-		golden_basin_4
-		golden_basin_5
-		golden_basin_6
-		golden_basin_7
-		golden_basin_8
-		golden_basin_9
+velima_plains_region = { 
+	areas = { 
+		juluia_74 juluia_75 juluia_79 juluia_80 juluia_81 juluia_82 juluia_83 juluia_84 juluia_85 juluia_86
+		golden_basin_1 golden_basin_2 golden_basin_3 golden_basin_4 golden_basin_5 golden_basin_6 golden_basin_7 golden_basin_8 golden_basin_9 
 	}
 }
-altiron_reach_region={
-	areas = {
-		golden_basin_10
-		golden_basin_11
-		golden_basin_12
-		golden_basin_13
-		golden_basin_14
-		golden_basin_15
-		golden_basin_16
-		golden_basin_17
-		golden_basin_19
-		golden_basin_20
-		golden_basin_21
+altiron_reach_region = { 
+	areas = { 
+		golden_basin_10 golden_basin_11 golden_basin_12 golden_basin_13 golden_basin_14 golden_basin_15 golden_basin_16 golden_basin_17 golden_basin_19 golden_basin_20
+		golden_basin_21 
 	}
 }
-vitaite_hills_region={
-	areas = {
-		juluia_45
-		juluia_46
-		juluia_47
-		juluia_48
-		juluia_49
-		juluia_87
-		juluia_88
+vitaite_hills_region = { 
+	areas = { 
+		juluia_45 juluia_46 juluia_47 juluia_48 juluia_49 juluia_87 juluia_88 
 	}
 }
-haqsili_region={
-	areas = {
-		haqsili_1
-		haqsili_2
-		haqsili_3
-		haqsili_4
-		haqsili_5
-		haqsili_6
-		haqsili_7
-		haqsili_8
-		haqsili_9
-		haqsili_10
-		haqsili_11
-		haqsili_12
-		haqsili_13
-		haqsili_14
-		haqsili_15
-		haqsili_16
-		haqsili_17
-		haqsili_18
-		haqsili_19
-		haqsili_20
-		haqsili_21
+haqsili_region = { 
+	areas = { 
+		haqsili_1 haqsili_2 haqsili_3 haqsili_4 haqsili_5 haqsili_6 haqsili_7 haqsili_8 haqsili_9 haqsili_10
+		haqsili_11 haqsili_12 haqsili_13 haqsili_14 haqsili_15 haqsili_16 haqsili_17 haqsili_18 haqsili_19 haqsili_20
+		haqsili_21 
 	}
 }
-carenil_region={
-	areas = {
-		carenil_1
-		carenil_2
-		carenil_3
-		carenil_4
-		carenil_5
-		carenil_6
-		carenil_7
+carenil_region = { 
+	areas = { 
+		carenil_1 carenil_2 carenil_3 carenil_4 carenil_5 carenil_6 carenil_7 
 	}
 }
-alromita_region={
-	areas = {
-		juluia_90
-		juluia_91
-		juluia_92
-		juluia_93
-		juluia_94
-		juluia_95
-		juluia_96
-		juluia_97
-		juluia_98
+alromita_region = { 
+	areas = { 
+		juluia_90 juluia_91 juluia_92 juluia_93 juluia_94 juluia_95 juluia_96 juluia_97 juluia_98 
 	}
 }
-kaminda_region={
-	areas = {
-		juluia_89
-		kellitos
-		epirauna_5
-		epirauna_6
-		epirauna_13
-		epirauna_14
+kaminda_region = { 
+	areas = { 
+		juluia_89 kellitos epirauna_5 epirauna_6 epirauna_13 epirauna_14 
 	}
 }
-tilvena_sea_region={
-	areas = {
-		juluia_50
-		juluia_51
-		juluia_52
-		juluia_53
-		juluia_54
-		juluia_55
-		juluia_56
-		juluia_57
+tilvena_sea_region = { 
+	areas = { 
+		juluia_50 juluia_51 juluia_52 juluia_53 juluia_54 juluia_55 juluia_56 juluia_57 
 	}
 }
-saciril_region={
-	areas = {
-		juluia_58
-		juluia_59
-		juluia_60
-		juluia_61
-		juluia_62
-		juluia_63
-		juluia_64
-		juluia_65
-		cemnia_1
-		cemnia_2
-		cemnia_3
-		cemnia_4
-		cemnia_5
-		cemnia_11
-		cemnia_12
-		cemnia_14
-		cemnia_26
-		cemnia_27
-		cemnia_28
-		cemnia_29
-		cemnia_30
-		cemnia_31
-		cemnia_32
+saciril_region = { 
+	areas = { 
+		juluia_58 juluia_59 juluia_60 juluia_61 juluia_62 juluia_63 juluia_64 juluia_65 cemnia_1 cemnia_2
+		cemnia_3 cemnia_4 cemnia_5 cemnia_11 cemnia_12 cemnia_14 cemnia_26 cemnia_27 cemnia_28 cemnia_29
+		cemnia_30 cemnia_31 cemnia_32 
 	}
 }
-cemnia_region={
-	areas={
-		cemnia_6
-		cemnia_7
-		cemnia_8
-		cemnia_9
-		cemnia_10
-		cemnia_13
-		cemnia_16
-		cemnia_17
-		cemnia_18
-		cemnia_19
-		cemnia_20
-		cemnia_21
-		cemnia_22
-		cemnia_23
-		cemnia_24
-		cemnia_25
+cemnia_region = { 
+	areas = { 
+		cemnia_6 cemnia_7 cemnia_8 cemnia_9 cemnia_10 cemnia_13 cemnia_16 cemnia_17 cemnia_18 cemnia_19
+		cemnia_20 cemnia_21 cemnia_22 cemnia_23 cemnia_24 cemnia_25 
 	}
 }
-cradle_islands={
-	areas={
-		cradle_islands_1
-		cradle_islands_2
-		cradle_islands_3
-		cradle_islands_4
-		cradle_islands_5
-		cradle_islands_6
+cradle_islands = { 
+	areas = { 
+		cradle_islands_1 cradle_islands_2 cradle_islands_3 cradle_islands_4 cradle_islands_5 cradle_islands_6 
 	}
 }
-foundersland_region={
-	areas={
-		foundersland_1
-		foundersland_2
-		foundersland_3
-		foundersland_4
-		foundersland_5
-		foundersland_6
+foundersland_region = { 
+	areas = { 
+		foundersland_1 foundersland_2 foundersland_3 foundersland_4 foundersland_5 foundersland_6 foundersland_7 foundersland_8 foundersland_9 foundersland_10
+		foundersland_11 foundersland_12 foundersland_13 
 	}
 }
-lostmoth_region={
-	areas={
-		lostmoth_1
-		lostmoth_2
-		lostmoth_3
-		lostmoth_4
+lostmoth_region = { 
+	areas = { 
+		lostmoth_1 lostmoth_2 lostmoth_3 lostmoth_4 
 	}
 }
-rarlone_region={
-	areas={
-		rarlone_1
-		rarlone_2
-		rarlone_3
-		rarlone_4
-		rarlone_5
-		rarlone_6
-		rarlone_7
+rarlone_region = { 
+	areas = { 
+		rarlone_1 rarlone_2 rarlone_3 rarlone_4 rarlone_5 rarlone_6 rarlone_7 rarlone_8 rarlone_9 rarlone_10
+		rarlone_11 rarlone_12 feltdon_13 feltdon_14 feltdon_15 feltdon_16 
 	}
 }
-earh_region={
-	areas={
-		earh_1
-		earh_2
-		earh_3
-		earh_4
-		earh_5
-		earh_6
-		earh_7
-		earh_8
-		earh_9
-		earh_10
-		earh_11
-		earh_12
-		earh_13
-		earh_14
+salisia_region = { 
+	areas = { 
+		salisia_1 salisia_2 salisia_3 salisia_4 salisia_5 salisia_6 salisia_7 salisia_8 salisia_9 salisia_10
+		salisia_11 salisia_12 salisia_13 salisia_14 salisia_15 salisia_16 salisia_17 salisia_18 e salisia_20
+		salisia_21 salisia_22 salisia_23 
 	}
 }
-crystalia_region={
-	areas={
-		crystalia_1
-		crystalia_2
-		earh_15
-		earh_16
-		earh_17
-		earh_18
-		crystalia_3
-		crystalia_4
-		crystalia_5
-		crystalia_6
-		crystalia_7
-		crystalia_8
-		crystalia_9
-		crystalia_10
-		crystalia_11
-		crystalia_12
-		crystalia_14
-		crystalia_15
-		crystalia_16
-		crystalia_17
-		crystalia_18
-		borestia_7
-		
+earh_region = { 
+	areas = { 
+		earh_1 earh_2 earh_3 earh_4 earh_5 earh_6 earh_7 earh_8 earh_9 earh_10
+		earh_11 earh_12 earh_13 earh_14 
 	}
 }
-wuloric_region={
-	areas={
-		crystalia_19
-		crystalia_20
-		crystalia_21
-		crystalia_22
-		crystalia_23
-		crystalia_24
-		wuloric_1
-		wuloric_2
-		wuloric_3
-		wuloric_4
-		wuloric_5
-		wuloric_6
-		wuloric_7
-		wuloric_8
-		wuloric_9
-		wuloric_10
-		wuloric_11
-		crystalia_13
+crystalia_region = { 
+	areas = { 
+		crystalia_1 crystalia_2 earh_15 earh_16 earh_17 earh_18 crystalia_3 crystalia_4 crystalia_5 crystalia_6
+		crystalia_7 crystalia_8 crystalia_9 crystalia_10 crystalia_11 crystalia_12 crystalia_14 crystalia_15 crystalia_16 crystalia_17
+		crystalia_18 borestia_7 
 	}
 }
-folyur_region={
-	areas={
-		folyur_1
-		folyur_2
-		folyur_3
-		folyur_4
-		folyur_5
-		folyur_6
-		folyur_7
-		folyur_8
-		folyur_9
-		folyur_10
+wuloric_region = { 
+	areas = { 
+		crystalia_19 crystalia_20 crystalia_21 crystalia_22 crystalia_23 crystalia_24 wuloric_1 wuloric_2 wuloric_3 wuloric_4
+		wuloric_5 wuloric_6 wuloric_7 wuloric_8 wuloric_9 wuloric_10 wuloric_11 crystalia_13 
 	}
 }
-
-talkia_region={
-	areas={
-		lonely_isles
-		talkia_1
-		talkia_2
-		talkia_3
+folyur_region = { 
+	areas = { 
+		folyur_1 folyur_2 folyur_3 folyur_4 folyur_5 folyur_6 folyur_7 folyur_8 folyur_9 folyur_10
 	}
 }
-
-mallitors_region = {
-	areas = {
-		grand_sea_area
-		elseois_fracture_area
-		palentals_area
-		kafethyr_sea_area
-		salioc_bay_area
-		cradle_cresant_area
-		irrilanra_area
+talkia_region = { 
+	areas = { 
+		lonely_isles talkia_1 talkia_2 talkia_3 
 	}
 }
-western_divide_region={
-	areas={
-		dividing_sea
-		shielding_waters
-		yellowtide_sea
-		chilcreast_sea
-		kollori_flow
+mallitors_region = { 
+	areas = { 
+		grand_sea_area elseois_fracture_area palentals_area kafethyr_sea_area salioc_bay_area cradle_cresant_area irrilanra_area 
 	}
 }
-eastern_divide_region={
-	areas={
-		tervimos_sea_area
-		dredging_tides_sea_area
-		windsweaps_sea_area
-		felton_sea
-		vulkivite_sea_area
+western_divide_region = { 
+	areas = { 
+		dividing_sea shielding_waters yellowtide_sea chilcreast_sea kollori_flow 
 	}
 }
-laeite_cape_region={
-	areas={
-		yulmortron_sea
-		salitore
-		omathos_current
+eastern_divide_region = { 
+	areas = { 
+		tervimos_sea_area dredging_tides_sea_area windsweaps_sea_area felton_sea vulkivite_sea_area 
 	}
 }
-barking_winds_region={
-	areas={
-		tundasta_bay
-		salrtonis
-		scalie_sea
-		lost_hope_sea
+laeite_cape_region = { 
+	areas = { 
+		yulmortron_sea salitore omathos_current 
 	}
 }
-greatide_region={
-	areas={
-		palmoric_tides
-		redwater_sea
-		valkian_ridge
-		saltways_sea
-		foliura_breach
+barking_winds_region = { 
+	areas = { 
+		tundasta_bay salrtonis scalie_sea lost_hope_sea 
 	}
 }
-ulidin_ocean={
-	areas={
-		lietite_bay
-		moltoc_sea
-		kepmora_sea
+greatide_region = { 
+	areas = { 
+		palmoric_tides redwater_sea valkian_ridge saltways_sea foliura_breach 
 	}
 }
-juluious_ocean={
-	areas={
-		loswath_coast
-		gurvian_flow
-		icebreaks
-		alromita_bays
+ulidin_ocean = { 
+	areas = { 
+		lietite_bay moltoc_sea kepmora_sea 
+	}
+}
+juluious_ocean = { 
+	areas = { 
+		loswath_coast gurvian_flow icebreaks alromita_bays 
 	}
 }

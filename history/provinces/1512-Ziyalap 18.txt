@@ -3,7 +3,7 @@
 add_core = ZIY
 owner = ZIY
 controller = ZIY
-culture = esmilba
+culture = ziyala
 religion = tlaunorist
 hre = no
 base_tax = 0
@@ -19,5 +19,5 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-center_of_trade = 2
+center_of_trade = 1
 fort_14th = yes

@@ -1,15 +1,15 @@
 #Ziyalap
 
-add_core = ZIY
-owner = ZIY
-controller = ZIY
-culture = ziyala
+add_core = CAA
+owner = CAA
+controller = CAA
+culture = shadikiri
 religion = tlaunorist
 hre = no
-base_tax = 0
-base_production =3
+base_tax = 1
+base_production =4
 base_manpower = 8
-trade_goods = livestock
+trade_goods = ceramics
 capital = "Ziy"
 is_city = yes
 discovered_by = lake_elves_group

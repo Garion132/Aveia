@@ -10,7 +10,7 @@ base_tax = 0
 base_production =1
 base_manpower = 13
 trade_goods = wine
-capital = "Kea 3"
+capital = "Keathene"
 is_city = yes
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group
@@ -21,4 +21,5 @@ discovered_by = dunirr_group
 extra_cost = 0
 port = yes
 shipwright = yes
+center_of_trade = 2
 set_variable = { which = arable_land value = 12 }

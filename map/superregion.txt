@@ -64,6 +64,7 @@ valkator_superregion={
 	rarlone_region
 	lostmoth_region
 	foundersland_region
+	salisia_region
 }
 #new world-1st colonial target
 north_elteria_superregion={

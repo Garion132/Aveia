@@ -1,0 +1,22 @@
+#Ziyalap
+
+add_core = ZIY
+owner = ZIY
+controller = ZIY
+culture = ziyala
+religion = tlaunorist
+hre = no
+base_tax = 0
+base_production =1
+base_manpower = 6
+trade_goods = livestock
+capital = "Ziy"
+is_city = yes
+center_of_trade = 1
+discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = free_kolbolds_group
+discovered_by = sea_elves_group
+discovered_by = ork_group
+discovered_by = dunirr_group
+extra_cost = 0

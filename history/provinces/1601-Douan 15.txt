@@ -3,7 +3,7 @@
 add_core = DOU
 owner = DOU
 controller = DOU
-culture = muthil
+culture = douan
 religion = tlaunorist
 hre = no
 base_tax = 0

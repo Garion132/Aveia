@@ -1,9 +1,9 @@
 #Nfanatha
 
-add_core = NFA
-owner = NFA
-controller = NFA
-culture = douan
+add_core = PAS
+owner = PAS
+controller = PAS
+culture = shadikiri
 religion = tlaunorist
 hre = no
 base_tax = 0

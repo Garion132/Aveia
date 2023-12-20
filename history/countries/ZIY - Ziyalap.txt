@@ -3,7 +3,7 @@ add_government_reform = palace_economy
 primary_culture = ziyala
 religion = tlaunorist
 technology_group = ork_group
-capital = 1523 # 
+capital = 1520 # 
 #national_focus = DIP
 #historical_rival = HAB
 

@@ -1,0 +1,34 @@
+government = bronze_league
+add_government_reform = league_of_cities_reform
+primary_culture = shadikiri
+religion = tlaunorist
+government_rank = 1
+technology_group = ork_group
+capital = 1535 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1240.9.16 = {
+	monarch = {
+		name = "Filler"
+		dynasty = "Filler"
+		birth_date = 1240.12.3
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

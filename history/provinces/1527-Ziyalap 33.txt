@@ -1,9 +1,9 @@
 #Ziyalap
 
-add_core = ZIY
-owner = ZIY
-controller = ZIY
-culture = ziyala
+add_core = VKK
+owner = VKK
+controller = VKK
+culture = shadikiri
 religion = tlaunorist
 hre = no
 base_tax = 1

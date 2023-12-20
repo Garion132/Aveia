@@ -1,15 +1,15 @@
 #Ziyalap
 
-add_core = ZIY
-owner = ZIY
-controller = ZIY
-culture = ziyala
+add_core = MLD
+owner = MLD
+controller = MLD
+culture = iyarzin
 religion = tlaunorist
 hre = no
 base_tax = 1
 base_production =3
 base_manpower = 9
-trade_goods = ceramics
+trade_goods = livestock
 capital = "Ziy"
 is_city = yes
 discovered_by = lake_elves_group
@@ -21,4 +21,3 @@ discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 2
 fort_14th = yes
-port = yes

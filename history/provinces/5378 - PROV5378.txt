@@ -1,0 +1,18 @@
+#Gugh
+add_core = NAS
+owner = NAS
+controller = NAS
+culture = pajeise
+religion = forebearist
+capital = "Accra"
+trade_goods = fish
+hre = no
+base_tax = 0
+base_production = 1
+base_manpower = 3
+native_size = 90
+native_ferocity = 6
+native_hostileness = 11
+discovered_by = naga_group
+extra_cost = 8
+center_of_trade = 1

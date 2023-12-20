@@ -1,9 +1,9 @@
 #Douan
 
-add_core = DOU
-owner = DOU
-controller = DOU
-culture = douan
+add_core = PAS
+owner = PAS
+controller = PAS
+culture = shadikiri
 religion = tlaunorist
 hre = no
 base_tax = 0

@@ -1,5 +1,7 @@
 #tradewind_islands
 capital = "Accra"
+culture = sumjira
+religion = roresist
 trade_goods = unknown
 hre = no
 base_tax = 0

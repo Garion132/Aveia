@@ -198,8 +198,9 @@ league_of_cities = {
 
 	republican_name = yes
 	royal_marriage = yes
+	can_form_trade_league = yes
 
-	monarchy = yes
+	republic = yes
 	modifiers = {
 		tolerance_heretic = 1
 		land_morale = 0.1
@@ -221,8 +222,9 @@ league_of_cities_reform = {
 
 	republican_name = yes
 	royal_marriage = yes
+	can_form_trade_league = yes
 
-	monarchy = yes
+	republic = yes
 	modifiers = {
 		tolerance_heretic = 1
 		land_morale = 0.1

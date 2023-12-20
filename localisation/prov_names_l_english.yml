@@ -278,6 +278,7 @@
  PROV467:0 "Kujri"
  PROV468:0 "Kruztax"
  PROV469:0 "Amalireu"
+ PROV470:0 "Losnest"
  
  PROV480:0 "Etonia"
  PROV481:0 "Amosier"
@@ -1049,8 +1050,16 @@
  PROV1516:0 "Calanest"
  PROV1517:0 "Gantavir"
 
+ PROV1522:0 "Binaesat"
  PROV1523:0 "Nidyat"
+ 
+ PROV1525:0 "Selionae"
+ PROV1526:0 "Vulkrak"
+ 
+ PROV1529:0 "Senrit"
+ PROV1530:0 "Rastair"
 
+ PROV1535:1 "Caanir"
  PROV1536:1 "Harbasya"
  
  PROV1543:0 "Dolurie"
@@ -1060,6 +1069,8 @@
  PROV1554:0 "Chivgat"
  PROV1555:0 "Kahanavza"
  PROV1556:0 "Topikin"
+ 
+ PROV1559:0 "Basvik"
 
  PROV1563:0 "Julairea"
 
@@ -2380,6 +2391,24 @@
  PROV5348:0 "Cenrisui"
  PROV5349:0 "Armani Hills"
  PROV5350:0 "Cyoloai Ridge"
+ PROV5351:0 "Sevinar"
+ 
+ PROV5353:0 "Ulioal"
+ PROV5354:0 "Minaliur"
+ 
+ PROV5358:0 "Volarrik"
+ PROV5359:0 "Basvik"
+ PROV5360:0 "Tenpuia"
+ 
+ PROV5362:0 "Masira"
+ 
+ PROV5371:0 "Vasvari Spur"
+ 
+ PROV5377:0 "Vissnavaris"
+ PROV5378:0 "Ssumac"
+ PROV5379:0 "Fouinissa"
+ 
+ PROV5381:0 "Annivmaa"
  
  test_province_name:0 "Test Province Name"
  other_province_name:0 "Other Province Name"

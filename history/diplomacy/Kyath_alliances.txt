@@ -339,3 +339,32 @@ vassal = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
+#Vulkrak League
+alliance = {
+	first = VKK
+	second = SEN
+	trade_league = 1
+	start_date = 1180.1.1
+	end_date = 1381.1.1
+}
+alliance = {
+	first = VKK
+	second = CAA
+	trade_league = 1
+	start_date = 1180.1.1
+	end_date = 1381.1.1
+}
+alliance = {
+	first = VKK
+	second = BAT
+	trade_league = 1
+	start_date = 1180.1.1
+	end_date = 1381.1.1
+}
+alliance = {
+	first = VKK
+	second = BSV
+	trade_league = 1
+	start_date = 1180.1.1
+	end_date = 1381.1.1
+}

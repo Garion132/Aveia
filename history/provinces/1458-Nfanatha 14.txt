@@ -3,7 +3,7 @@
 add_core = NFA
 owner = NFA
 controller = NFA
-culture = douan
+culture = shadikiri
 religion = tlaunorist
 hre = no
 base_tax = 0

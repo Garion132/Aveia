@@ -13,13 +13,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3032;3047;sea;3033;-1;-1;-1;-1;chain islands
 3051;1032;sea;279;-1;-1;-1;-1;chain islands
 3110;3062;sea;1913;-1;-1;-1;-1;chain islands
-2875;2876;sea;239;-1;-1;-1;-1;chain islands
+2874;2873;sea;239;-1;-1;-1;-1;chain islands
 2874;2876;sea;239;-1;-1;-1;-1;chain islands
 2873;2872;sea;210;-1;-1;-1;-1;chain islands
 3490;3481;sea;3501;-1;-1;-1;-1;chain islands#
 3495;3481;sea;3501;-1;-1;-1;-1;chain islands
 3483;3492;sea;3501;-1;-1;-1;-1;chain islands#
 3535;3434;sea;283;-1;-1;-1;-1;chain islands#
+5379;2765;sea;5380;-1;-1;-1;-1;chain islands#
+5371;2767;sea;5380;-1;-1;-1;-1;chain islands#
 3538;1006;sea;378;-1;-1;-1;-1;path of the golden sun#
 3899;3897;sea;364;-1;-1;-1;-1;cradle islands#
 3901;3902;sea;34;-1;-1;-1;-1;cradle islands#
@@ -53,4 +55,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 736;737;sea;213;-1;-1;-1;-1;calendor islands#
 736;738;sea;213;-1;-1;-1;-1;calendor islands#
 741;742;sea;38;-1;-1;-1;-1;calendor islands#
+1229;5351;sea;35;-1;-1;-1;-1;Keathene#
+1230;5351;sea;5215;-1;-1;-1;-1;Keathene#
+5351;1233;sea;5215;-1;-1;-1;-1;Keathene#
+1233;1231;sea;5215;-1;-1;-1;-1;Keathene#
+1526;1529;sea;165;-1;-1;-1;-1;Ziya Islands#
+1528;1527;sea;1886;-1;-1;-1;-1;Ziya Islands#
+2207;2206;sea;29;-1;-1;-1;-1;Loiaub-Vinimuaya#
+1840;1837;sea;438;-1;-1;-1;-1;Freygmia river crossing#
 -1;-1;;-1;-1;-1;-1;-1;-1;

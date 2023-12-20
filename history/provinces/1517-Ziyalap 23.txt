@@ -1,9 +1,9 @@
 #Ziyalap
 
-add_core = ZIY
-owner = ZIY
-controller = ZIY
-culture = esmilba
+add_core = GAN
+owner = GAN
+controller = GAN
+culture = ziyala
 religion = tlaunorist
 hre = no
 base_tax = 0

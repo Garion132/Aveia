@@ -1,13 +1,11 @@
 #Douan
-
 add_core = DOU
-owner = DOU
-controller = DOU
-culture = douan
+owner = PAS
+controller = PAS
+culture = shadikiri
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 6
 trade_goods = fruit
 capital = "Dou"

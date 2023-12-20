@@ -1,8 +1,8 @@
 #Bayparya
 
-add_core = BAY
-owner = BAY
-controller = BAY
+add_core = MLD
+owner = MLD
+controller = MLD
 culture = bayparya
 religion = tlaunorist
 hre = no
