@@ -1180,21 +1180,35 @@
  PROV1745:0 "Tolat"
 
  PROV1749:0 "Gulbas"
+ PROV1750:0 "Tilmardi"
 
  PROV1764:0 "Deresunga"
+ 
+ PROV1767:0 "Sarisadik"
  
  PROV1779:0 "Lulecik"
  PROV1780:0 "Roausawt"
  PROV1781:0 "Sisiaoit"
- 
+ PROV1782:0 "Liuljor"
+ PROV1783:0 "Rulavioct"
+ PROV1784:0 "Arcail"
+ PROV1785:0 "Milioye"
  PROV1786:0 "Iugherta"
+ PROV1787:0 "Insaeki"
 
+ PROV1790:0 "Hilruoc"
  PROV1791:0 "Istancan"
  PROV1792:0 "Reshyr"
+ PROV1793:0 "Cuoirrui"
+ PROV1794:0 "Tohueri"
+ PROV1795:0 "Klijaso"
+ PROV1796:0 "Dresltin Gultch"
 
+ PROV1805:0 "Guilok"
+ PROV1806:0 "Ilureak"
  PROV1807:0 "Ehay"
  PROV1808:0 "Eularet"
- 
+ PROV1809:0 "Boanreah"
  PROV1810:0 "Spirilsand"
  PROV1811:0 "Lajluas"
  PROV1812:0 "Akaset"
@@ -2177,6 +2191,10 @@
  
  PROV4679:0 "Vatalunum"
  
+ PROV4705:0 "Mandoc"
+ 
+ PROV4728:0 "Solisanna"
+ 
  PROV4740:0 "Kpoloiar"
  PROV4741:0 "Aliort"
  PROV4742:0 "Yiolier"
@@ -2256,6 +2274,8 @@
  PROV4879:0 "Bani"
  
  PROV4888:0 "Greyclif"
+ 
+ PROV4916:0 "Silicsas Hope"
  
  PROV4950:0 "Bayan"
  PROV4951:0 "Handun"

@@ -38,6 +38,7 @@ JAL_mid_colum = {
 			add_country_modifier = { 
 				name = new_world_company
 				duration = 3650
+			}
 		}
 	}
 }

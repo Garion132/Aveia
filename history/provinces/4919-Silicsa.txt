@@ -1,0 +1,11 @@
+#juilia
+capital = "Silicsa"
+trade_goods = unknown
+hre = no
+base_tax = 0
+base_production = 7
+base_manpower = 4
+native_size = 50
+native_ferocity = 6
+native_hostileness = 4
+extra_cost = 8

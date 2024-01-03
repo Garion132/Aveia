@@ -39,3 +39,23 @@ country_event = {
         }	
 	}
 }
+
+country_event = {
+	id = memes.2
+	title = memes.2.t
+	desc = memes.2.d
+	picture = BATTLE_eventPicture
+
+	trigger = {
+		always = no
+	}
+
+	option = {
+		name = memes.2.opt.a
+        hide_ambient_object = icesheet_entity
+	}
+	option = {
+		name = memes.2.opt.b
+        show_ambient_object = icesheet_entity
+	}
+}

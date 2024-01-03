@@ -1,0 +1,8 @@
+objectTypes = {
+	pdxmesh = {
+		name = "icesheet_mesh"
+		file = "gfx/models/Mapitems/icesheet.mesh"
+		scale = 1.5
+		cull_distance = 99999999.0f
+	}
+}

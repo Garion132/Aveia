@@ -432,6 +432,8 @@ categories =  {
 		terrain_override = {
 			#Shemsele
 			799 806 808 809 810 811 812 813 844 846 848 849 858
+			#Solisanna
+			4728
 		}	
 	}	
 

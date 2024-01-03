@@ -233,3 +233,21 @@ type={
 		}
 	}
 }
+type={
+	type="icesheet_entity"
+	use_animation=no
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	scale=0.695000
+	object={
+		name="icesheet_entity"
+		hidden_on_start=no
+		position={
+			2201.000 -1.200 928.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
