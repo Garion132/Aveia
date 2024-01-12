@@ -12,6 +12,8 @@ country_event = {
 		is_lesser_in_union = no
 		has_regency = no
 		government = monarchy
+		NOT = { tag = FRY }
+		NOT = { tag = LUM }
 		NOT = { has_reform = elective_monarchy }
 		NOT = { has_reform = mamluk_government }
 		NOT = { has_reform = ottoman_government }
@@ -226,7 +228,7 @@ country_event = {
 	}
 }
 
-# Soirée
+# Soirï¿½e
 country_event = {
 	id = 9455
 	title = "EVTNAME9455"
@@ -478,6 +480,8 @@ country_event = {
 		has_heir = yes
 		heir_age = 15
 		is_lesser_in_union = no
+		NOT = { tag = FRY }
+		NOT = { tag = LUM }
 		NOT = { has_reform = elective_monarchy }
 	}
 	mean_time_to_happen = {
@@ -1328,7 +1332,7 @@ country_event = {
 	}
 }
 
-### Suggestions by Ex Mudder, scripted by Sara Wendel-Örtqvist
+### Suggestions by Ex Mudder, scripted by Sara Wendel-ï¿½rtqvist
 
 namespace = dynastic_events
 
