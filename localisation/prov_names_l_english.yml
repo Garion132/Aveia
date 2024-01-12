@@ -720,6 +720,11 @@
  PROV931:0 "Hiutasa"
  PROV932:0 "Muliua"
  PROV933:0 "Celolaluna"
+ 
+ PROV938:0 "Palisma"
+ PROV939:0 "Limpase"
+ PROV940:0 "Loinjas"
+ PROV941:0 "Awojas"
 
  PROV949:0 "Lindoremy"
  PROV950:0 "Silisare"
@@ -947,20 +952,28 @@
  PROV1332:0 "Kurlak"
  PROV1333:0 "Tuyrae"
  PROV1334:0 "Ljuolaui"
- 
+ PROV1335:0 "Julismar"
+ PROV1336:0 "Namoiae"
+ PROV1337:0 "Oluanisa"
+ PROV1338:0 "Nimaaet"
+ PROV1339:0 "Ciumonta"
  PROV1340:0 "Iuhsaeu"
  PROV1341:0 "Ertin"
  PROV1342:0 "Lioarje"
  PROV1343:0 "Himms"
  PROV1344:0 "Beriksar"
- 
+ PROV1345:0 "Hliar"
  PROV1346:0 "Kunlun"
  PROV1347:0 "Hlorie"
- 
+ PROV1348:0 "Cleimar"
  PROV1349:0 "Alorpx"
-
+ PROV1350:0 "Nyanu"
+ PROV1351:0 "Vinuea"
  PROV1352:0 "Lymaland"
 
+ PROV1361:1 "Timarea"
+ PROV1362:1 "Buraelt"
+ PROV1363:1 "Kimbrea"
  PROV1364:1 "Guldashis"
  
  PROV1371:1 "Akh"
@@ -2380,7 +2393,15 @@
  PROV5285:0 "Central Iyfadirian"
  PROV5286:0 "North Iyfadirian"
  PROV5287:0 "North Irrilanra"
+ PROV5288:0 "Juratx"
+ PROV5289:0 "Vulist"
  
+ PROV5291:0 "Kunnak"
+ PROV5292:0 "Tuartik"
+ PROV5293:0 "Masasi"
+ 
+ PROV5295:0 "Goinast"
+ PROV5296:0 "Suixtua"
  PROV5297:0 "Maktui Dunes"
  PROV5298:0 "Maluorik"
  PROV5299:0 "Karankai"
@@ -2429,6 +2450,14 @@
  PROV5379:0 "Fouinissa"
  
  PROV5381:0 "Annivmaa"
+ 
+ PROV5549:0 "Enheasrion River"
+ PROV5550:0 "Enheasrion River"
+ PROV5551:0 "Enheasrion River"
+ PROV5552:0 "Enheasrion River"
+ PROV5553:0 "Enheasrion River"
+ PROV5554:0 "Enheasrion River"
+ PROV5555:0 "Enheasrion River"
  
  test_province_name:0 "Test Province Name"
  other_province_name:0 "Other Province Name"

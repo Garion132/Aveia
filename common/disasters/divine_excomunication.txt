@@ -58,10 +58,8 @@ divine_excomunication = {
 		
 		random_events = { 
 			1200 = 0
-			10 = religious_turmoil.3
-			10 = religious_turmoil.4
-			10 = religious_turmoil.5
-			10 = religious_turmoil.6
+			10 = religious_turmoil.10
+			10 = religious_turmoil.11
 		
 		}
 	}

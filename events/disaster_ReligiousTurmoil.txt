@@ -298,3 +298,80 @@ country_event = {
 		excommunicate = ROOT
 	}
 }
+
+# Divine Excomunication events
+country_event = {#gods demand extra worship
+	id = religious_turmoil.10
+	title = "religious_turmoil.10.t"
+	desc = "religious_turmoil.10.d"
+	picture = RELIGIOUS_WARS_eventPicture
+	
+	# trigger = {
+		# has_country_modifier = intolerant_society
+	# }
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {				# Increase funding to suppress the heretics.
+		name = "religious_turmoil.10.a"
+		add_years_of_income = -0.33
+		add_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = 5
+		}
+		
+	}
+	option = {				# Ignore them.
+		name = "EVTOPTB2033"
+		
+	}
+}
+
+country_event = {#gods demand advisor sac
+	id = religious_turmoil.11
+	title = "religious_turmoil.11.t"
+	desc = "religious_turmoil.11.d"
+	picture = RELIGIOUS_WARS_eventPicture
+	
+	trigger = {
+		OR = {
+			has_adm_advisor = yes
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+		}
+	}
+	
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {				# kill them
+		name = "religious_turmoil.11.a"
+		ai_chance={
+			factor = 95
+		}
+		kill_advisor = random
+		add_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = 15
+		}
+		
+	}
+	option = {				# we need them
+		name = "religious_turmoil.11.b"
+		ai_chance={
+			factor = 5
+		}
+		add_government_power = {
+			mechanic_type = monumentality_mechanic
+			power_type = godly_favor
+			value = -5
+		}
+	}
+}

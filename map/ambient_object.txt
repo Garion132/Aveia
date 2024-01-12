@@ -244,7 +244,7 @@ type={
 		name="icesheet_entity"
 		hidden_on_start=no
 		position={
-			2201.000 -1.200 928.000 
+			2201.000 -23.200 928.000 
 		}
 		rotation={
 			0.000 0.000 0.000 

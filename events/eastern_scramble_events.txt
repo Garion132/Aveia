@@ -483,6 +483,7 @@ country_event = {#start of the CTC chain 988
 	option = {#support it
 		name = eastern_scramble.3.b
 		add_treasury = -25
+		set_country_flag = CTC_shareholder
 		3272={
 			change_variable = {
 				which = CTC_funding_level
@@ -714,6 +715,7 @@ country_event = {#start of the CTC chain 988
 				value = 2
 			}
 		}
+		set_country_flag = CTC_shareholder
 		add_treasury = -50
 		ROOT={save_global_event_target_as = CTC_tag_switch_nation}
 		set_global_flag = CTC_sponsor_found
@@ -1416,6 +1418,7 @@ province_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,3
 				value = 1
 			}
 		}
+		set_country_flag = CTC_shareholder
 		if={
 			limit={
 				3272={
@@ -1647,6 +1650,7 @@ province_event = {#CTC chains through the supporter cities 53,80,760,3913,3898,3
 				value = 2
 			}
 		}
+		set_country_flag = CTC_shareholder
 		if={
 			limit={
 				3272={

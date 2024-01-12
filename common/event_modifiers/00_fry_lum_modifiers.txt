@@ -8,20 +8,16 @@ spectre_of_menor = {
 
 #Colonialism mission
 colonial_promotion = {
-	colonist_placement_chance = 0.10
     global_colonial_growth = 10
 }
 colonial_enthusiasm = {
-    colonist_placement_chance = 0.15
-    global_colonial_growth = 20
+    global_colonial_growth = 15
 }
 colonial_frenzy = {
-    colonist_placement_chance = 0.20
-    global_colonial_growth = 25
+    global_colonial_growth = 20
 }
 taente = {
-    colonist_placement_chance = 0.25
-    global_colonial_growth = 40
+    global_colonial_growth = 25
 }
 
 #Development mission
