@@ -85,3 +85,24 @@ unified_culture = {
     global_unrest = -2
     global_autonomy = -0.10
 }
+the_merchant_bank = {
+    colony_development_boost = 1
+    caravan_power = 0.2
+    colony_cost_modifier
+}
+
+#Scurrian refugees
+scurrians_assisted = {
+
+}
+scurrians_integrated = {
+    hostile_attrition = 1
+    has_musketeer = yes
+    allowed_musketeer_fraction = 0.25
+}
+musketeer_modifier = {
+    discipline = 0.05
+    movement_speed = 0.20
+    recover_army_morale_speed = 0.20
+    is_musketeers_modifier = yes
+}
