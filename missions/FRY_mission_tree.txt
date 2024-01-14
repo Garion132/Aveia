@@ -313,7 +313,7 @@ FRY_mission_5 = {
             add_country_modifier = { 
                 name = advance_in_will
                 duration = -1  
-                hidden = yes
+                hidden = no
             }
         }
     }
@@ -328,7 +328,7 @@ FRY_mission_5 = {
             add_country_modifier = { 
                 name = strong_army
                 duration = -1  
-                hidden = yes
+                hidden = no
             }
         }
     }
@@ -364,7 +364,7 @@ FRY_mission_5 = {
             add_country_modifier = { 
                 name = strong_navy
                 duration = -1  
-                hidden = yes
+                hidden = no
             }
         }
     }
@@ -398,7 +398,7 @@ FRY_mission_6 = {
             add_country_modifier = { 
                 name = advance_in_speech
                 duration = -1  
-                hidden = yes
+                hidden = no
             }
         }
     }
