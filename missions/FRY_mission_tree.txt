@@ -95,6 +95,7 @@ FRY_mission_2 = {
         }
         effect = {
             change_heir_mil = 1
+            change_heir_dip = 1
         }
     }
     FRY_Military_Education = {
@@ -130,6 +131,7 @@ FRY_mission_2 = {
         effect = {
             change_heir_mil = 1
             change_heir_dip = 1
+            kill_ruler = yes
         }
     }
 }
