@@ -171,6 +171,11 @@
  lumia_event.5.a:0 "Well? I want to be remembered as a monumentalist!"
  lumia_event.5.b:0 "Sounds expensive though... "
 
+ lumia_event.6.t:0 ""
+ lumia_event.6.d:0 ""
+ lumia_event.6.a:0 ""
+ lumia_event.6.b:0 ""
+
  athanila.1.t:0 "No clue what this event does"
  athanila.1.d:0 "Vanadium, fix this"
  athanila.1.a:0 "fuck you van"

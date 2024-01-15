@@ -115,6 +115,30 @@ country_event = {
 	}
 	option = {
 		name = lumia_event.5.b
+
+	}
+}
+country_event = {
+	id = lumie_event.6
+	title = lumia_event.6.t
+	desc = lumia_event.6.d
+
+	is_triggered_only = yes
+
+	trigger{
 		
+	}
+
+	option = {
+		name = lumia_event.6.a
+		add_great_project = {
+			type = national_airship_laboratory
+			instant = no
+		}
+	}
+	option = {
+		name = lumia_event.6.b
+		
+
 	}
 }
