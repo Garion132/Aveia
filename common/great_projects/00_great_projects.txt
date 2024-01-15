@@ -35,7 +35,7 @@ lumian_patricianate = {
             months = 12
         }
         cost_to_upgrade = {
-            factor = 500
+            factor = 1500
         }
         province_modifiers = {
             local_tax_modifier = 0.25
@@ -63,7 +63,7 @@ lumian_patricianate = {
             months = 12
         }
         cost_to_upgrade = {
-            factor = 1000
+            factor = 1500
         }
         province_modifiers = {
             local_tax_modifier = 0.3
@@ -95,7 +95,7 @@ lumian_patricianate = {
             months = 12
         }
         cost_to_upgrade = {
-            factor = 1000
+            factor = 1500
         }
         province_modifiers = {
             local_tax_modifier = 0.35
