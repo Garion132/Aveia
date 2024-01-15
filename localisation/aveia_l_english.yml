@@ -32,7 +32,7 @@
  tactician:0 "Tactician"
  tactician_desc:0 "Militaries constantly create new or update old tactics to use and combat new equipment and to fight other militaries. And there is no better way to defeat another military than by crushing it on the field of battle."
  electromancer:0 "The Electromancer"
- electromancer_desc:0 "The Electromancer is... LANCER DO DESCRIPTION"
+ electromancer_desc:0 "A long time ago, an inventor once considered mad scaled the great glacier, and travelled east atop it. In the east, on the other side of the ice, he discovered Byrine, and began a campaign of experimentation to unlock it's secrets. The Electromancer is the product of these experiments. Made of Brass and Steel, and uniquely intelligent and sophisticated for a Golem, The Electromancer was created by Laveas The Mad to assist him in his research and store his findings. This makes him not only a startling example of artificial life, but a living encyclopedia of Byrine and it's properties."
 
 
  #All
@@ -657,6 +657,8 @@
  tolcar_federate:0 "Federate"
  tolcar_federate_title:0 "Federate"
  tolcar_federate_title_plural:0 "Federates"
+
+ lumian_patricianate:0 "Lumian Patricianate"
  
  me_qar:0 "Me'qar"
  
