@@ -85,6 +85,8 @@ country_decisions = {
 				owned_by = ROOT
 			}
 			#is_month = 11 #flavour says december, so december it is
+			is_year = 1345
+
 		}
 		effect = {
 			#set_capital = 3948
