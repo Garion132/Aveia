@@ -137,6 +137,9 @@ FRY_ideas = {
 LUM_ideas = {
 	start = {
 		colonists = 2
+		global_colonial_growth = 33
+		range = -0.8
+		global_tax_income = 18
 	}
 
 	bonus = {
@@ -151,6 +154,7 @@ LUM_ideas = {
 
 	LUM_idea_1 = {
 		trade_steering = 0.25
+		production_efficiency = 0.25
 	}
 	LUM_idea_2 = {
 		native_assimilation = 0.125
