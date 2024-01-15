@@ -17,15 +17,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//masridu_fort.dds"
 	}
 	spriteType = {
-		name = "GFX_great_project_LUM_academy_of_arts"	
-		texturefile = "gfx//interface//great_projects//LUM_academy_of_arts.dds"
+		name = "GFX_great_project_national_airship_laboratory"	
+		texturefile = "gfx//interface//great_projects//great_project_national_airship_laboratory.dds"
 	}
 	spriteType = {
-		name = "GFX_great_project_LUM_national_airship_factory"	
-		texturefile = "gfx//interface//great_projects//LUM_national_airship_factory.dds"
-	}
-	spriteType = {
-		name = "GFX_great_project_LUM_patricianate_palace"	
-		texturefile = "gfx//interface//great_projects//LUM_patricianate_palace.dds"
+		name = "GFX_great_project_lumian_patricianate"	
+		texturefile = "gfx//interface//great_projects//great_project_lumian_patricianate.dds"
 	}
 }

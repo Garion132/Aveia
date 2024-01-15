@@ -155,15 +155,21 @@
 
  lumia_event.2.t:0 "The Migrant Scurrians"
  lumia_event.2.d:0 ""
- lumia_event.2.a:0 ""
+ lumia_event.2.a:0 "OwO, New friends!"
+ lumia_event.2.b:0 "Ew furries no"
 
  lumia_event.3.t:0 "Integrating Squirrels"
  lumia_event.3.d:0 ""
- lumia_event.3.a:0 ""
+ lumia_event.3.a:0 "Hee hoo flying squirrels"
 
  lumia_event.4.t:0 "The First Parade Of The Lichtkommando"
  lumia_event.4.d:0 ""
- lumia_event.4.a:0 ""
+ lumia_event.4.a:0 "Oh boy, these guys are gonna make Jalhorkan uncomfortable!"
+
+ lumia_event.5.t:0 "The Blueprints"
+ lumia_event.5.d:0 ""
+ lumia_event.5.a:0 "Well? I want to be remembered as a monumentalist!"
+ lumia_event.5.b:0 "Sounds expensive though... "
 
  athanila.1.t:0 "No clue what this event does"
  athanila.1.d:0 "Vanadium, fix this"

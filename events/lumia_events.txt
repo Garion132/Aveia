@@ -11,7 +11,6 @@ country_event = {
 		name = lumia_event.1.a
 
 		hidden_effect = {
-			set_flag = LUMIA_MASTER
             change_government = iron_republic
 			add_government_reform = ia_lumian_patricianate			
             swap_free_idea_group = yes
@@ -25,6 +24,14 @@ country_event = {
 					value = 25
 				}
 			}
+			country_event = { 
+    			id = lumia_event.2
+    			days = 30
+			}
+			country_event = { 
+    			id = lumia_event.5
+    			days = 500
+			}
 		}
 	}
 }
@@ -33,9 +40,9 @@ country_event = {
 	title = lumia_event.2.t
 	desc = lumia_event.2.d
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	trigger = {
-		has_country_flag = LUMIA_MASTER
+
 	}
 	option = {
 		name = lumia_event.2.a
@@ -90,5 +97,24 @@ country_event = {
 				duration = -1
 			}
 		}
+	}
+}
+country_event = {
+	id = lumia_event.5
+	title = lumia_event.5.t
+	desc = lumia_event.5.d
+
+	is_triggered_only = yes
+
+	option = { 
+		name = lumia_event.5.a
+		add_great_project = {
+    		type = lumian_patricianate
+    		instant = no 
+		}
+	}
+	option = {
+		name = lumia_event.5.b
+		
 	}
 }

@@ -225,4 +225,14 @@
  city_construction_modifier:0 "City Construction"
  desc_city_construction_modifier:0 "The local city is conducting a large construction program in this province."
 
+ #lumia freyglen shit
+ scurrians_assited:0 "Scurrians Assisted"
+ desc_scurrians_assisted:0 ""
+ scurrians_integrated:0 "Scurrians Integrated"
+ desc_scurrians_integrated:0 ""
+ musketeer_modifier:0 "Lichtkommando Troops"
+ desc_musketeer_modifier:0 ""
+ lumian_monumentalist:0 "Lumian Monumentalist"
+ desc_lumian_monumentalist:0 "As long as it has existed, the Patricianate of Lumia has taken a great deal of pride in it's constructions. Throughout the lands you will find even the lowliest tavern adorned with bright lights and stained glass, and emblazoned with brightly coloured signage. And the easiest way to prove yourself to the population is to build something big, bright, and technologically impressive. "
+
  

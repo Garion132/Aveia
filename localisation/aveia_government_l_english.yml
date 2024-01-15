@@ -79,6 +79,9 @@
  GREAT_PATRICIATE: "Great Patriciate"
  PATRICIAN: "Patrician"
  GRANDPATRICIAN: "Grand Patrician"
+ PATRICIAN_fem: "Patricienne"
+ PATRICIAN_fem: "Patricienne"
+ GRANDPATRICIAN_fem: "Grand Patricienne"
  
  # Government Mechanics
  ability_monumentality_mechanic:0 "Monumentality"

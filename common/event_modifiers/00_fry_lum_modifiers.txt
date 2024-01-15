@@ -106,3 +106,10 @@ musketeer_modifier = {
     recover_army_morale_speed = 0.20
     is_musketeers_modifier = yes
 }
+
+#lumian mounumentalism
+lumian_monumentalist = {
+    development_cost = -0.5
+    production_efficiency = 0.1
+    administrative_efficiency = 0.2
+}
