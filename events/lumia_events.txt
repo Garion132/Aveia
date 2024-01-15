@@ -36,8 +36,6 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		has_country_flag = LUMIA_MASTER
-		controls = 3837
-
 	}
 	option = {
 		name = lumia_event.2.a
