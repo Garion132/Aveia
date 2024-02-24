@@ -1,0 +1,35 @@
+government = bronze_monarchy
+add_government_reform = dragonic_throne_reform
+government_rank = 1
+primary_culture = rake
+add_accepted_culture = loroik
+religion = vulikivite
+technology_group = northern_drake_group
+capital = 2129 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+1187.9.16 = {
+	monarch = {
+		name = "Teudei"
+		dynasty = "Teuesia"
+		birth_date = 1187.12.3
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = immortal_personality
+}

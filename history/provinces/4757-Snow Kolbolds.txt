@@ -1,7 +1,7 @@
 #shires
-add_core = VEN
-owner = VEN
-controller = VEN
+add_core = VLR
+owner = VLR
+controller = VLR
 culture = vendram
 religion = suhar
 capital = "colonial"

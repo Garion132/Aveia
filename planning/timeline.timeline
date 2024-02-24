@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+  <version>2.9.0 (385f17ad49c8 2023-09-01)</version>
+  <timetype>gregoriantime</timetype>
+  <eras>
+    <era>
+      <name>game span</name>
+      <start>1272-08-06 00:00:00</start>
+      <end>1821-01-01 00:00:00</end>
+      <color>200,200,200</color>
+      <ends_today>False</ends_today>
+    </era>
+  </eras>
+  <categories>
+  </categories>
+  <events>
+    <event>
+      <start>1272-08-06 09:49:00</start>
+      <end>1272-08-06 09:49:00</end>
+      <text></text>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <description>Startdate</description>
+      <default_color>255,255,128</default_color>
+      <milestone>True</milestone>
+    </event>
+  </events>
+  <view>
+    <displayed_period>
+      <start>1270-04-18 01:50:47</start>
+      <end>1280-04-18 01:50:47</end>
+    </displayed_period>
+    <hidden_categories>
+    </hidden_categories>
+  </view>
+</timeline>

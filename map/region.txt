@@ -77,7 +77,7 @@ dreghei_region = {
 	areas = { 
 		nyhenat_1 nyhenat_2 nyhenat_3 nyhenat_4 olhoreireelu_1 olhoreireelu_2 keathene_1 keathene_2 keathene_3 unolad_1
 		unolad_2 unolad_3 onebelho_1 onebelho_2 onebelho_3 dreghei_1 dreghei_2 dreghei_3 dreghei_4 dreghei_5
-		dreghei_6 dreghei_7 dreghei_8 dreghei_9 dreghei_10 ryamyueg_1 ryamyueg_2 ryamyueg_3 ryamyueg_4 ryamyueg_5
+		dreghei_6 dreghei_7 dreghei_8 dreghei_9 dreghei_10 dreghei_11 ryamyueg_1 ryamyueg_2 ryamyueg_3 ryamyueg_4 ryamyueg_5
 		beriksarya_1 beriksarya_2 beriksarya_3 ertin_area boluroya_1 boluroya_2 boluroya_3 boluroya_4 boluroya_5 lower_beycu
 		upper_beycu athanila_1 athanila_2 athanila_3 athanila_4 athanila_5 athanila_6 athanila_7 athanila_8 athanila_9
 	}
@@ -141,7 +141,7 @@ vulkivian_region = {
 	areas = { 
 		vulkivian_3 vulkivian_4 vulkivian_5 vulkivian_6 vulkivian_8 vulkivian_9 vulkivian_10 vulkivian_11 vulkivian_12 vulkivian_13
 		vulkivian_14 vulkivian_15 vulkivian_16 vulkivian_17 vulkivian_18 vulkivian_19 vulkivian_20 vulkivian_21 vulkivian_22 vulkivian_23
-		vulkivian_25 vulkivian_26 vulkivian_27 
+		vulkivian_25 vulkivian_26 vulkivian_27 vulkivian_29
 	}
 }
 thilrana_region = { 

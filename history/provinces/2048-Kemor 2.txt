@@ -1,8 +1,8 @@
 #Kemor
 
-add_core = KEM
-owner = KEM
-controller = KEM
+add_core = XAL
+owner = XAL
+controller = XAL
 culture = vulikivian
 religion = vulikivite
 hre = yes

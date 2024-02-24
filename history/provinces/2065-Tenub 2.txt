@@ -1,8 +1,8 @@
 #Tenub
 
-add_core = TEN
-owner = TEN
-controller = TEN
+add_core = BHE
+owner = BHE
+controller = BHE
 culture = loroik
 religion = vulikivite
 hre = yes
