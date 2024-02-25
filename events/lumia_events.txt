@@ -1,4 +1,5 @@
 namespace = lumia_event
+namespace = lumia_endgame
 
 country_event = {
 	id = lumia_event.1
@@ -140,5 +141,102 @@ country_event = {
 		name = lumia_event.6.b
 		
 
+	}
+}
+###THE GREATEST GAME OF ALL###
+country_event = {
+	id = lumia_event.7
+	title = lumia_event.7.t
+	desc = lumia_event.7.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = LUM
+		5329 = { #Bluegroves
+			trade_share = {
+				country = LUM
+				share = 50
+			}
+		}
+		192 = { #Greenstain
+			trade_share = {
+				country = LUM
+				share = 25
+			}
+		}
+		army_strength = {
+			who = KAF
+			value = 0.66
+		}
+	}
+
+	option = { #try to calm the situation
+		name = lumia_event.7.a
+		country_event = { 
+    		id = lumia_event.8
+    		days = 30
+		}
+	}
+	option = { #Purposefully piss off kafethyr
+		name = lumia_event.7.b
+		country_event = { 
+    		id = lumia_event.9
+    		days = 15
+		}
+	}
+}
+country_event = {
+	id = lumia_event.8
+	name = lumia_event.8.t
+	desc = lumia_event.8.d
+
+	is_triggered_only = yes
+
+	option = { #We can only molify them for so long
+		name = lumia_event.8.a
+		country_event = { 
+    		id = lumia_event.10
+    		days = 50
+		}
+	}
+}
+country_event = {
+	id = lumia_event.9
+	name = lumia_event.9.t
+	desc = lumia_event.9.d
+
+	is_triggered_only = yes
+
+	option = { #So it's animosity then
+		name = lumia_event.9.a
+		country_event = { 
+    		id = lumia_event.10
+    		days = 10
+		}
+	}
+}
+country_event = {
+	id = lumia_event.10
+	name = lumia_event.10.t
+	desc = lumia_event.10.d
+
+	is_triggered_only = yes
+
+	option = { #The game begins
+		name = lumia_event.10.a
+	}
+}
+
+###ENDGAME!###
+country_event = {
+	id = lumia_endgame.1
+	name = lumia_endgame.1.t
+	desc = lumia_endgame.1.d
+
+	is_triggered_only = yes
+
+	option = { #Oh boy it's war time!
+		name = lumia_endgame.10.a
 	}
 }

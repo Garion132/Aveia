@@ -1,0 +1,91 @@
+guiTypes = {
+    windowType = {
+        name = "greatestgame_gov_mech_power"
+        size = { x = 300 y = 31 }
+        moveable = 0
+        iconType = {
+            "government_tension_bar"
+            spriteType = "GFX_greatestgame_tension_bar"
+            position = { x = 16 y = 4 }
+        }
+        iconType = {
+            "government_tension_bar_frame"
+            spriteType = "GFX_greatestgame_frame"
+            position = { x = 0 y = 0 }
+            alwaystransparent = yes
+        }
+    }
+    windowType = {
+        name = "greatestgame_gov_mech_1"
+        size = { x = 202 y = 52 }
+        moveable = 0
+
+        guiButtonType = {
+            name = "government_interaction_button"
+            quadTextureSprite = "GFX_greatestgame_1"
+            buttonFont = "vic_18"
+            clicksound = back_click
+        }
+    }
+    windowType = {
+        name = "greatestgame_gov_mech_2"
+        size = { x = 202 y = 52 }
+        moveable = 0
+
+        guiButtonType = {
+            name = "government_interaction_button"
+            quadTextureSprite = "GFX_greatestgame_2"
+            buttonFont = "vic_18"
+            clicksound = back_click
+        }
+    }
+    windowType = {
+        name = "greatestgame_gov_mech_3"
+        size = { x = 48 y = 44 }
+        moveable = 0
+        
+        guiButtonType = {
+            name = "government_interaction_button"
+            quadTextureSprite = "GFX_greatestgame_3"
+            buttonFont = "vic_18"
+            clicksound = back_click
+        }
+    }
+    windowType = {
+		name = "greatestgame_gov_mech_4"
+		size = { x = 121 y = 37 }
+		moveable = 0
+               
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_greatestgame_4"
+			buttonFont = "vic_18"
+			clicksound = back_click
+			position = { x = 50 y = 0 }
+		}
+    }
+    windowType = {
+		name = "greatestgame_gov_mech_5"
+		size = { x = 71 y = 37 }
+		moveable = 0
+               
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_greatestgame_5"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+    }
+    windowType = {
+		name = "greatestgame_gov_mech_6"
+		size = { x = 71 y = 37 }
+		moveable = 0
+               
+		guiButtonType = {
+			name = "government_interaction_button"
+			quadTextureSprite = "GFX_greatestgame_6"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+    }
+}

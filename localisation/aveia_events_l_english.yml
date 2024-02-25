@@ -176,6 +176,23 @@
  lumia_event.6.a:0 ""
  lumia_event.6.b:0 ""
 
+ lumia_event.7.t:0 "The Kafethyrian Challenge"
+ lumia_event.7.d:0 "Recently, through our remaining allies on the continent, we have learnt that Kafethyr is heading calls to form a trade league opposing our ascendancy on Elteria. When pressed, Kafethyr has maintained that it is a mere treaty to maintain the balance of trade in the area and preserve peace in the realm. However, we can see it for what it truly is, an attempt to cut us down to size. Kafethyr and it's northen allies have long since grumbled over the ascendancy of the republic, and this appears to be the first of many attempts to hinder our growth in trade and force. As has long been the case, the old western state fears the rise of the 'godless' republic. Many in Freyglen call for a civilised and measured approach, to prevent conflic, while others argue that Kafethyr cannot be mollified forever, and the most effective course of action is to instigate on our own terms."
+ lumia_event.7.a:0 "We Should Attempt To Try And Calm Things"
+ lumia_event.7.b:0 "Send Them A Heinous Diplomatic Insult"
+
+ lumia_event.8.t:0 "Kafethyr Relents...For Now"
+ lumia_event.8.d:0 ""
+ lumia_event.8.a:0 "We Can Only Appease Them For So Long"
+
+ lumia_event.9.t:0 "Western State In Uproar"
+ lumia_event.9.d:0 "The Patrician's chamber has remarkable taste in insults. They sent the king and his court a box of poisonous snakes, with the words 'UP YOURS' carved into the lid, wrapped in papers that proved the infidelity of key members of the court. Needless to say, they are scandalised, outraged, and judging by the handwriting of their response, rather out of breath. Diplomatic insults come and go, but this will surely stick."
+ lumia_event.9.a:0 "See? They're Faster To Respond When They're Angry"
+
+ lumia_event.10.t:0 "The Greatest Game Of All"
+ lumia_event.10.d:0 ""
+ lumia_event.10.a:0 "Animosity It Is, Then"
+
  athanila.1.t:0 "No clue what this event does"
  athanila.1.d:0 "Vanadium, fix this"
  athanila.1.a:0 "fuck you van"
