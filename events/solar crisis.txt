@@ -704,7 +704,7 @@ country_event = {
 		set_country_flag = betrayed_sifon
 	}
 }
-# gualorhei calls for ROOT to join her
+# gualorhei calls for ROOT to join him
 country_event = {
 	id = solar_crisis_event.13
 	title = solar_crisis_event.13.t

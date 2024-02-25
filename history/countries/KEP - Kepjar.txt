@@ -28,7 +28,7 @@ capital = 2809 #
 		mil = 2
 	}
 }
-1257.2.8 = {
+1257.5.17 = {
 	monarch = {
 		name = "Sasreja 'the Prophet'"
 		dynasty = "Jaleris"

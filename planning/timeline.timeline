@@ -12,8 +12,92 @@
     </era>
   </eras>
   <categories>
+    <category>
+      <name>Rauthyr</name>
+      <color>118,248,244</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Kyathia</name>
+      <color>255,128,192</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Cyeug</name>
+      <color>192,192,192</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Calamity</name>
+      <color>255,128,64</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>255,0,0</font_color>
+    </category>
+    <category>
+      <name>Vulikiv</name>
+      <color>221,111,0</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>CoP</name>
+      <color>243,241,148</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Great People</name>
+      <color>255,255,255</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Kepjar</name>
+      <color>255,184,149</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
+    <category>
+      <name>Mythological</name>
+      <color>255,0,0</color>
+      <progress_color>255,153,153</progress_color>
+      <done_color>255,153,153</done_color>
+      <font_color>0,0,0</font_color>
+    </category>
   </categories>
   <events>
+    <event>
+      <start>1670-01-01 00:00:00</start>
+      <end>1686-03-19 00:00:00</end>
+      <text>[8]Solar Crisis</text>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Calamity</category>
+    </event>
+    <event>
+      <start>1440-01-01 00:00:00</start>
+      <end>1441-06-04 00:00:00</end>
+      <text>[40]Eastern Scramble</text>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+    </event>
     <event>
       <start>1272-08-06 09:49:00</start>
       <end>1272-08-06 09:49:00</end>
@@ -27,11 +111,892 @@
       <default_color>255,255,128</default_color>
       <milestone>True</milestone>
     </event>
+    <event>
+      <start>1670-01-01 00:00:00</start>
+      <end>1670-01-01 00:00:00</end>
+      <text>(8)Tlaulunor Found Dead</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Calamity</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1673-04-08 00:00:00</start>
+      <end>1673-04-08 00:00:00</end>
+      <text>(8)Sifon Declears as Pretender</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1673-11-09 00:00:00</start>
+      <end>1673-11-09 00:00:00</end>
+      <text>(8)Gualorhei Delcares as Pretender</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1680-01-01 00:00:00</start>
+      <end>1680-01-01 00:00:00</end>
+      <text>(8)Umesedilism Returns</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1685-08-08 00:00:00</start>
+      <end>1685-08-08 00:00:00</end>
+      <text>(8)Cult Of Progress is Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>CoP</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1685-12-07 00:00:00</start>
+      <end>1685-12-07 00:00:00</end>
+      <text>(8)Cult of Progress apears in Elesilion</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>CoP</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1686-03-19 00:00:00</start>
+      <end>1686-03-19 00:00:00</end>
+      <text>(8)CoP appears in Gulba</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>CoP</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1677-07-12 00:00:00</start>
+      <end>1677-07-12 00:00:00</end>
+      <text>(8)Plea of the Sea God to Sohoremyfa</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1674-09-22 00:00:00</start>
+      <end>1674-09-22 00:00:00</end>
+      <text>(8)Golden Sun is Worshipped over the gods in Julilia</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1670-01-17 00:00:00</start>
+      <end>1670-01-17 00:00:00</end>
+      <text>(8)Rauthalor Declears herself pretender</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-01-07 00:00:00</start>
+      <end>1440-01-07 00:00:00</end>
+      <text>(40)Eastern Scramble Starts</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-01-01 00:00:00</start>
+      <end>1440-01-01 00:00:00</end>
+      <text>(40)Passage of Ash and Ice</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <description>Discovery of the great pass</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-02-15 00:00:00</start>
+      <end>1440-02-15 00:00:00</end>
+      <text>(40)Creation of the CTC</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-03-25 00:00:00</start>
+      <end>1440-03-25 00:00:00</end>
+      <text>(40)Fauns from the Shires start a new life in the east</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-03-02 00:00:00</start>
+      <end>1440-03-02 00:00:00</end>
+      <text>(40)Nobles from Nadara</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-03-26 00:00:00</start>
+      <end>1440-03-26 00:00:00</end>
+      <text>(40)Beycu natives flee east</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-08-29 00:00:00</start>
+      <end>1440-08-29 00:00:00</end>
+      <text>(40)Vulikivists from Thilrana flee east</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-10-05 00:00:00</start>
+      <end>1440-10-05 00:00:00</end>
+      <text>(40)Garumok Kolbolds flee east</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1441-02-19 00:00:00</start>
+      <end>1441-02-19 00:00:00</end>
+      <text>(40)Chivgans Trek east</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-10-20 00:00:00</start>
+      <end>1440-10-20 00:00:00</end>
+      <text>(40)Gulbans seek new lands</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-09-02 00:00:00</start>
+      <end>1440-09-02 00:00:00</end>
+      <text>(40)a citystate from Nadara sends a colony</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1441-04-17 00:00:00</start>
+      <end>1441-04-17 00:00:00</end>
+      <text>(40)Parhaman Merchant founds a colony</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1441-04-01 00:00:00</start>
+      <end>1441-04-01 00:00:00</end>
+      <text>(40)Soilseed Godly Sect worshippers from Eminlir flee east</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-11-01 00:00:00</start>
+      <end>1440-11-01 00:00:00</end>
+      <text>(40)morbinites set out east</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-10-14 00:00:00</start>
+      <end>1440-10-14 00:00:00</end>
+      <text>(40)Velnoi and Quanil Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <description>Cultists of a new religion flee persucution</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-07-07 00:00:00</start>
+      <end>1440-07-07 00:00:00</end>
+      <text>(40)Expition from Se sets out</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1441-04-25 00:00:00</start>
+      <end>1441-04-25 00:00:00</end>
+      <text>(40)Orionrathetians flee persuction</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1441-06-04 00:00:00</start>
+      <end>1441-06-04 00:00:00</end>
+      <text>(40)Ve'nara Company is Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-12-06 00:00:00</start>
+      <end>1440-12-06 00:00:00</end>
+      <text>(40)Nelsyari sends colony</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-03-21 00:00:00</start>
+      <end>1440-03-21 00:00:00</end>
+      <text>(40)Guldashi expitition</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-04-01 00:00:00</start>
+      <end>1440-04-01 00:00:00</end>
+      <text>(40)Shemsele Expidition founds Selehei</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-04-12 00:00:00</start>
+      <end>1440-04-12 00:00:00</end>
+      <text>(40)Belfune Expidition</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-04-09 00:00:00</start>
+      <end>1440-04-09 00:00:00</end>
+      <text>(40)Keathene Expidition founds Kelrau</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-05-15 00:00:00</start>
+      <end>1440-05-15 00:00:00</end>
+      <text>(40)Gruoala, Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-05-07 00:00:00</start>
+      <end>1440-05-07 00:00:00</end>
+      <text>(40)Tidrea Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-08-29 00:00:00</start>
+      <end>1440-08-29 00:00:00</end>
+      <text>(40)Telairn Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-04-03 00:00:00</start>
+      <end>1440-04-03 00:00:00</end>
+      <text>(40)Telafell Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1440-07-06 00:00:00</start>
+      <end>1440-07-06 00:00:00</end>
+      <text>(40)Raeatar Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1271-09-30 00:00:00</start>
+      <end>1272-03-07 00:00:00</end>
+      <text>Cyeug- Ilrazin War</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Cyeug</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1-01-01 00:00:00</start>
+      <end>1-01-01 00:00:00</end>
+      <text>Creation of the Civilized races</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Mythological</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>400-01-01 00:00:00</start>
+      <end>400-01-01 00:00:00</end>
+      <text>Defeat of Hyreno</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Mythological</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>983-02-05 00:00:00</start>
+      <end>983-02-05 00:00:00</end>
+      <text>Unifaction of Rauthyr</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Rauthyr</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1060-04-08 00:00:00</start>
+      <end>1060-04-08 00:00:00</end>
+      <text>Treaty of Nalean</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Kyathia</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1113-06-07 00:00:00</start>
+      <end>1113-06-07 00:00:00</end>
+      <text>"A History of Species"</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <description>Kalads book is published</description>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1220-01-01 00:00:00</start>
+      <end>1220-01-01 00:00:00</end>
+      <text>Ralior II Crowned Emperor of Rauthyr</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Rauthyr</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1254-01-01 00:00:00</start>
+      <end>1254-01-01 00:00:00</end>
+      <text>Rauthyrian Plague</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Rauthyr</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1270-09-16 00:00:00</start>
+      <end>1270-09-16 00:00:00</end>
+      <text>Charles VI crowned King</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Kyathia</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1272-06-14 00:00:00</start>
+      <end>1272-06-14 00:00:00</end>
+      <text>Raliors Folly</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Rauthyr</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1368-08-01 00:00:00</start>
+      <end>1368-08-01 00:00:00</end>
+      <text>Orbury Super Eruption</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Calamity</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1458-01-01 00:00:00</start>
+      <end>1458-01-01 00:00:00</end>
+      <text>Death of Vadalor Vulikiv</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Vulikiv</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1134-08-09 00:00:00</start>
+      <end>1134-08-09 00:00:00</end>
+      <text>Aldarri Crowned King</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Kyathia</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1013-08-07 00:00:00</start>
+      <end>1013-08-07 00:00:00</end>
+      <text>Charles IV crowned King</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Kyathia</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1078-09-30 00:00:00</start>
+      <end>1078-09-30 00:00:00</end>
+      <text>Evalir I Crowned Emperor</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Rauthyr</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1281-01-01 00:00:00</start>
+      <end>1281-01-01 00:00:00</end>
+      <text>Villou Settled</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1279-05-05 00:00:00</start>
+      <end>1279-05-05 00:00:00</end>
+      <text>Camilor Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1274-12-01 00:00:00</start>
+      <end>1274-12-01 00:00:00</end>
+      <text>Newtower Founded</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1298-01-01 00:00:00</start>
+      <end>1298-01-01 00:00:00</end>
+      <text>Barusard Caluri</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Great People</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1298-01-01 00:00:00</start>
+      <end>1298-01-01 00:00:00</end>
+      <text>Preacer Cantarun Silisa revives godly sect</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Great People</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1305-01-01 00:00:00</start>
+      <end>1305-01-01 00:00:00</end>
+      <text>Daesra Ulaise</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Great People</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1178-02-08 00:00:00</start>
+      <end>1178-02-08 00:00:00</end>
+      <text>Ssaolre I Crowned</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Kepjar</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1229-02-08 00:00:00</start>
+      <end>1229-02-08 00:00:00</end>
+      <text>Ssaolre II Crowned</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Kepjar</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1257-05-17 00:00:00</start>
+      <end>1257-05-17 00:00:00</end>
+      <text>Prophet Sasreja Jaleris seizes control over the kingdom of Kepjar</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Kepjar</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1370-01-01 00:00:00</start>
+      <end>1370-01-01 00:00:00</end>
+      <text>Crown of Iron</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Calamity</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1479-01-01 00:00:00</start>
+      <end>1479-01-01 00:00:00</end>
+      <text>Discovery of the aplications of guedinia</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1488-01-01 00:00:00</start>
+      <end>1488-01-01 00:00:00</end>
+      <text>guns first invented</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1536-01-01 00:00:00</start>
+      <end>1536-01-01 00:00:00</end>
+      <text>Steam engines using guendina invented</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1610-01-01 00:00:00</start>
+      <end>1610-01-01 00:00:00</end>
+      <text>Viatite Discovered</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1638-01-01 00:00:00</start>
+      <end>1638-01-01 00:00:00</end>
+      <text>First Airship</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1540-01-01 00:00:00</start>
+      <end>1540-01-01 00:00:00</end>
+      <text>Julilia discovered</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1272-01-01 00:00:00</start>
+      <end>1272-01-01 00:00:00</end>
+      <text>Capital of Kyath moved to Oruninyal</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Kyathia</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1672-01-01 00:00:00</start>
+      <end>1672-01-01 00:00:00</end>
+      <text>Steam powered airships</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <default_color>192,192,192</default_color>
+    </event>
   </events>
   <view>
     <displayed_period>
-      <start>1270-04-18 01:50:47</start>
-      <end>1280-04-18 01:50:47</end>
+      <start>1179-06-20 16:38:37</start>
+      <end>1279-06-19 16:38:37</end>
     </displayed_period>
     <hidden_categories>
     </hidden_categories>

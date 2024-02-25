@@ -3050,7 +3050,7 @@ country_event = {#Oltos
 	}
 	option = {
 		name = eastern_scramble.24.b
-		switch_tag = SRR
+		switch_tag = OTL
 	}
 }
 

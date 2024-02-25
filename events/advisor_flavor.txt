@@ -217,6 +217,7 @@ country_event = {
 			region = krashyrvil_midlands_region
 		}
 		is_year = 1305
+		NOT={has_global_flag = daesra_ulaise}
 	}
 	fire_only_once = yes
 	
@@ -224,7 +225,7 @@ country_event = {
 		months = 25
 	}
 	immediate={
-		
+		set_global_flag = daesra_ulaise
 	}
 
 	option = {

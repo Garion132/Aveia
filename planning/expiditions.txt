@@ -9,10 +9,10 @@ EAST - 53
 =Cradle Trade Company - 988,53,80,760,3913,3898,3905,896,885,771 - Indorran
 =Imperial Kaltros Company
 =Gulta
-Telafell
+=Telafell
 =Quanil
-Telairn
-Tidrea
+=Telairn
+=Tidrea
 =Zelfea
 =Calharn
 =Alvedi
