@@ -160,7 +160,40 @@ greatestgame_mechanic = {
                 }
             }
             cooldown_years = 0
-            
         }
+        incite_tensions = {
+            gui = greatestgame_gov_mech_2
+            cost_type = tension
+            center = no
+            trigger = {
+
+            }
+            effect = {
+
+            }
+        }
+        gain_assurances = {
+            gui = greatestgame_gov_mech_3
+            cost_type = tension
+            center = no
+            trigger = {
+
+            }
+            effect = {
+
+            }
+        }
+        sabotage_reputation = {
+            gui = greatestgame_gov_mech_4
+            cost_type = tension
+            center = no
+            trigger = {
+
+            }
+            effect = {
+
+            }
+        }
+        
     }
 }
