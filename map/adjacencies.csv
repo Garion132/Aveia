@@ -63,6 +63,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1528;1527;sea;1886;-1;-1;-1;-1;Ziya Islands#
 2207;2206;sea;29;-1;-1;-1;-1;Loiaub-Vinimuaya#
 1840;1837;sea;438;-1;-1;-1;-1;Freygmia river crossing#
+1889;197;canal;2497;-1;-1;-1;-1;palentai_canal
+345;376;canal;3465;-1;-1;-1;-1;tilvenan_canal
 1273;1275;lakes;5549;-1;-1;-1;-1;Enhersion river crossing#
 1278;1274;lakes;5550;-1;-1;-1;-1;Enhersion river crossing#
 1278;1277;lakes;5550;-1;-1;-1;-1;Enhersion river crossing#

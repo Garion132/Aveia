@@ -552,11 +552,11 @@ WIQ = "countries/Wiquar.txt"
 YUL = "countries/Yulroa.txt"
 GSC = "countries/Golden Sun Colony.txt"
 KLA = "countries/Klaetia.txt"
-#Crashes if this doesn't exist
-PAP = "countries/Yulikivian.txt"
 TEE = "countries/Taree.txt"
 LYA = "countries/Lyan.txt"
 UAL = "countries/Ualrie.txt"
 ATE = "countries/Ateaes.txt"
 ALI = "countries/Alilfu.txt"
 KAV = "countries/Kavar.txt"
+#Crashes if this doesn't exist
+PAP = "countries/Yulikivian.txt"

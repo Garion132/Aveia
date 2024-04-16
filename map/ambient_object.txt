@@ -251,3 +251,39 @@ type={
 		}
 	}
 }
+type={
+	type="panama_canal"
+	use_animation=no
+	scale=1.150000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="palentai_canal"
+		hidden_on_start=yes
+		position={
+			3843.800 1.000 389.980 
+		}
+		rotation={
+			0.000 90.500 0.000 
+		}
+	}
+}
+type={
+	type="panama_canal"
+	use_animation=no
+	scale=1.150000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="tilvenan_canal"
+		hidden_on_start=yes
+		position={
+			3843.800 1.000 389.980 
+		}
+		rotation={
+			0.000 90.500 0.000 
+		}
+	}
+}

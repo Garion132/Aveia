@@ -717,4 +717,8 @@
  ESTABLISH_FEDERATE_MISSION_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ Federate War"
  tolcar_federate_is_our:0 "§Y$NAME|Y$§! is our Federate"
  
+ asemont_copper_mine: "Asemont Copper Mine"
+ palentai_canal: "Palentai Canal"
+ tilvenan_canal: "Tilvenan Canal"
+ malicrieit: "Malicrieit"
  

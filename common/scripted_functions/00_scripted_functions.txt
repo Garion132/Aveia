@@ -226,6 +226,86 @@ can_colonize_province = {
 				}
 			}
 			continent = juluia
+			NOT={region = talkia_region}
+			OR={
+				AND={
+					colonial_region = colonial_shield
+					NOT={
+						any_subject_country ={
+							is_colonial_nation = yes
+							capital_scope = { 
+								colonial_region = colonial_shield
+							}
+						}
+					}
+				}
+				AND={
+					colonial_region = colonial_strivian
+					NOT={
+						any_subject_country ={
+							is_colonial_nation = yes
+							capital_scope = { 
+								colonial_region = colonial_strivian
+							}
+						}
+					}
+				}
+				AND={
+					colonial_region = colonial_golden_basin
+					NOT={
+						any_subject_country ={
+							is_colonial_nation = yes
+							capital_scope = { 
+								colonial_region = colonial_golden_basin
+							}
+						}
+					}
+				}
+				AND={
+					colonial_region = colonial_tilvena
+					NOT={
+						any_subject_country ={
+							is_colonial_nation = yes
+							capital_scope = { 
+								colonial_region = colonial_tilvena
+							}
+						}
+					}
+				}
+				AND={
+					colonial_region = colonial_laei
+					NOT={
+						any_subject_country ={
+							is_colonial_nation = yes
+							capital_scope = { 
+								colonial_region = colonial_laei
+							}
+						}
+					}
+				}
+				AND={
+					colonial_region = colonial_yulanir
+					NOT={
+						any_subject_country ={
+							is_colonial_nation = yes
+							capital_scope = { 
+								colonial_region = colonial_yulanir
+							}
+						}
+					}
+				}
+				AND={
+					colonial_region = colonial_icewatch
+					NOT={
+						any_subject_country ={
+							is_colonial_nation = yes
+							capital_scope = { 
+								colonial_region = colonial_icewatch
+							}
+						}
+					}
+				}
+			}
 		}
 		allow = {
 			always = no

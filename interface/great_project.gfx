@@ -24,4 +24,16 @@ spriteTypes = {
 		name = "GFX_great_project_lumian_patricianate"	
 		texturefile = "gfx//interface//great_projects//great_project_lumian_patricianate.dds"
 	}
+	spriteType = {
+		name = "GFX_great_project_tilvenan_canal"	
+		texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_palentai_canal"	
+		texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_palace_lindor"	
+		texturefile = "gfx//interface//great_projects//great_project_palace_lindor.dds"
+	}
 }

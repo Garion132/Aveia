@@ -61,6 +61,16 @@ canal_definition = {
 	x = 2937
 	y = 1597
 }
+canal_definition = {
+	name = "palentai_canal"
+	x = 628
+	y = 573
+}
+canal_definition = {
+	name = "tilvenan_canal"
+	x = 4429
+	y = 1131
+}
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 7 10 }
