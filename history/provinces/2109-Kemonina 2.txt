@@ -1,8 +1,7 @@
 #Kemonina 
-
-add_core = KMO
-owner = KMO
-controller = KMO
+add_core = MEU
+owner = MEU
+controller = MEU
 culture = karilos
 religion = suhar
 hre = yes

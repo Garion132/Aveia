@@ -162,6 +162,14 @@ can_exploit_manpower = {
 }
 
 can_change_culture = {
+	condition = {
+		potential = {
+			primary_culture = rake
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_move_capital = {

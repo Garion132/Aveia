@@ -1,7 +1,7 @@
 #
-add_core = VII
-owner = VII
-controller = VII
+add_core = AMB
+owner = AMB
+controller = AMB
 culture = loroik
 religion = vulikivite
 hre = yes

@@ -1,5 +1,7 @@
 #
-
+add_core = TKH
+owner = TKH
+controller = TKH
 culture = kerandarayn
 religion = vulikivite
 hre = yes

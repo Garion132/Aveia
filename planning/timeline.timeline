@@ -80,7 +80,7 @@
     <event>
       <start>1670-01-01 00:00:00</start>
       <end>1686-03-19 00:00:00</end>
-      <text>[8]Solar Crisis</text>
+      <text>[11]Solar Crisis</text>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
       <fuzzy_end>False</fuzzy_end>
@@ -91,7 +91,7 @@
     <event>
       <start>1440-01-01 00:00:00</start>
       <end>1441-06-04 00:00:00</end>
-      <text>[40]Eastern Scramble</text>
+      <text>[12]Eastern Scramble</text>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
       <fuzzy_end>False</fuzzy_end>
@@ -114,7 +114,7 @@
     <event>
       <start>1670-01-01 00:00:00</start>
       <end>1670-01-01 00:00:00</end>
-      <text>(8)Tlaulunor Found Dead</text>
+      <text>(11)Tlaulunor Found Dead</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -127,7 +127,7 @@
     <event>
       <start>1673-04-08 00:00:00</start>
       <end>1673-04-08 00:00:00</end>
-      <text>(8)Sifon Declears as Pretender</text>
+      <text>(11)Sifon Declears as Pretender</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -139,7 +139,7 @@
     <event>
       <start>1673-11-09 00:00:00</start>
       <end>1673-11-09 00:00:00</end>
-      <text>(8)Gualorhei Delcares as Pretender</text>
+      <text>(11)Gualorhei Delcares as Pretender</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -151,7 +151,7 @@
     <event>
       <start>1680-01-01 00:00:00</start>
       <end>1680-01-01 00:00:00</end>
-      <text>(8)Umesedilism Returns</text>
+      <text>(11)Umesedilism Returns</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -163,7 +163,7 @@
     <event>
       <start>1685-08-08 00:00:00</start>
       <end>1685-08-08 00:00:00</end>
-      <text>(8)Cult Of Progress is Founded</text>
+      <text>(11)Cult Of Progress is Founded</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -176,7 +176,7 @@
     <event>
       <start>1685-12-07 00:00:00</start>
       <end>1685-12-07 00:00:00</end>
-      <text>(8)Cult of Progress apears in Elesilion</text>
+      <text>(11)Cult of Progress apears in Elesilion</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -189,7 +189,7 @@
     <event>
       <start>1686-03-19 00:00:00</start>
       <end>1686-03-19 00:00:00</end>
-      <text>(8)CoP appears in Gulba</text>
+      <text>(11)CoP appears in Gulba</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -202,7 +202,7 @@
     <event>
       <start>1677-07-12 00:00:00</start>
       <end>1677-07-12 00:00:00</end>
-      <text>(8)Plea of the Sea God to Sohoremyfa</text>
+      <text>(11)Plea of the Sea God to Sohoremyfa</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -214,7 +214,7 @@
     <event>
       <start>1674-09-22 00:00:00</start>
       <end>1674-09-22 00:00:00</end>
-      <text>(8)Golden Sun is Worshipped over the gods in Julilia</text>
+      <text>(11)Golden Sun is Worshipped over the gods in Julilia</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -226,7 +226,7 @@
     <event>
       <start>1670-01-17 00:00:00</start>
       <end>1670-01-17 00:00:00</end>
-      <text>(8)Rauthalor Declears herself pretender</text>
+      <text>(11)Rauthalor Declears herself pretender</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -238,7 +238,7 @@
     <event>
       <start>1440-01-07 00:00:00</start>
       <end>1440-01-07 00:00:00</end>
-      <text>(40)Eastern Scramble Starts</text>
+      <text>(12)Eastern Scramble Starts</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -250,10 +250,10 @@
     <event>
       <start>1440-01-01 00:00:00</start>
       <end>1440-01-01 00:00:00</end>
-      <text>(40)Passage of Ash and Ice</text>
+      <text>(12)Passage of Ash and Ice</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
-      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_start>False</fuzzy_start>
       <fuzzy_end>False</fuzzy_end>
       <locked>False</locked>
       <ends_today>False</ends_today>
@@ -263,7 +263,7 @@
     <event>
       <start>1440-02-15 00:00:00</start>
       <end>1440-02-15 00:00:00</end>
-      <text>(40)Creation of the CTC</text>
+      <text>(12)Creation of the CTC</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -275,7 +275,7 @@
     <event>
       <start>1440-03-25 00:00:00</start>
       <end>1440-03-25 00:00:00</end>
-      <text>(40)Fauns from the Shires start a new life in the east</text>
+      <text>(12)Fauns from the Shires start a new life in the east</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -287,7 +287,7 @@
     <event>
       <start>1440-03-02 00:00:00</start>
       <end>1440-03-02 00:00:00</end>
-      <text>(40)Nobles from Nadara</text>
+      <text>(12)Nobles from Nadara</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -299,7 +299,7 @@
     <event>
       <start>1440-03-26 00:00:00</start>
       <end>1440-03-26 00:00:00</end>
-      <text>(40)Beycu natives flee east</text>
+      <text>(12)Beycu natives flee east</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -311,7 +311,7 @@
     <event>
       <start>1440-08-29 00:00:00</start>
       <end>1440-08-29 00:00:00</end>
-      <text>(40)Vulikivists from Thilrana flee east</text>
+      <text>(12)Vulikivists from Thilrana flee east</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -323,7 +323,7 @@
     <event>
       <start>1440-10-05 00:00:00</start>
       <end>1440-10-05 00:00:00</end>
-      <text>(40)Garumok Kolbolds flee east</text>
+      <text>(12)Garumok Kolbolds flee east</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -335,7 +335,7 @@
     <event>
       <start>1441-02-19 00:00:00</start>
       <end>1441-02-19 00:00:00</end>
-      <text>(40)Chivgans Trek east</text>
+      <text>(12)Chivgans Trek east</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -347,7 +347,7 @@
     <event>
       <start>1440-10-20 00:00:00</start>
       <end>1440-10-20 00:00:00</end>
-      <text>(40)Gulbans seek new lands</text>
+      <text>(12)Gulbans seek new lands</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -359,7 +359,7 @@
     <event>
       <start>1440-09-02 00:00:00</start>
       <end>1440-09-02 00:00:00</end>
-      <text>(40)a citystate from Nadara sends a colony</text>
+      <text>(12)a citystate from Nadara sends a colony</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -371,7 +371,7 @@
     <event>
       <start>1441-04-17 00:00:00</start>
       <end>1441-04-17 00:00:00</end>
-      <text>(40)Parhaman Merchant founds a colony</text>
+      <text>(12)Parhaman Merchant founds a colony</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -383,7 +383,7 @@
     <event>
       <start>1441-04-01 00:00:00</start>
       <end>1441-04-01 00:00:00</end>
-      <text>(40)Soilseed Godly Sect worshippers from Eminlir flee east</text>
+      <text>(12)Soilseed Godly Sect worshippers from Eminlir flee east</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -395,7 +395,7 @@
     <event>
       <start>1440-11-01 00:00:00</start>
       <end>1440-11-01 00:00:00</end>
-      <text>(40)morbinites set out east</text>
+      <text>(12)morbinites set out east</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -407,7 +407,7 @@
     <event>
       <start>1440-10-14 00:00:00</start>
       <end>1440-10-14 00:00:00</end>
-      <text>(40)Velnoi and Quanil Founded</text>
+      <text>(12)Velnoi and Quanil Founded</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -420,7 +420,7 @@
     <event>
       <start>1440-07-07 00:00:00</start>
       <end>1440-07-07 00:00:00</end>
-      <text>(40)Expition from Se sets out</text>
+      <text>(12)Expition from Se sets out</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -432,7 +432,7 @@
     <event>
       <start>1441-04-25 00:00:00</start>
       <end>1441-04-25 00:00:00</end>
-      <text>(40)Orionrathetians flee persuction</text>
+      <text>(12)Orionrathetians flee persuction</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -444,7 +444,7 @@
     <event>
       <start>1441-06-04 00:00:00</start>
       <end>1441-06-04 00:00:00</end>
-      <text>(40)Ve'nara Company is Founded</text>
+      <text>(12)Ve'nara Company is Founded</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -456,7 +456,7 @@
     <event>
       <start>1440-12-06 00:00:00</start>
       <end>1440-12-06 00:00:00</end>
-      <text>(40)Nelsyari sends colony</text>
+      <text>(12)Nelsyari sends colony</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -468,7 +468,7 @@
     <event>
       <start>1440-03-21 00:00:00</start>
       <end>1440-03-21 00:00:00</end>
-      <text>(40)Guldashi expitition</text>
+      <text>(12)Guldashi expitition</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -480,7 +480,7 @@
     <event>
       <start>1440-04-01 00:00:00</start>
       <end>1440-04-01 00:00:00</end>
-      <text>(40)Shemsele Expidition founds Selehei</text>
+      <text>(12)Shemsele Expidition founds Selehei</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -492,7 +492,7 @@
     <event>
       <start>1440-04-12 00:00:00</start>
       <end>1440-04-12 00:00:00</end>
-      <text>(40)Belfune Expidition</text>
+      <text>(12)Belfune Expidition</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -504,7 +504,7 @@
     <event>
       <start>1440-04-09 00:00:00</start>
       <end>1440-04-09 00:00:00</end>
-      <text>(40)Keathene Expidition founds Kelrau</text>
+      <text>(12)Keathene Expidition founds Kelrau</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -516,7 +516,7 @@
     <event>
       <start>1440-05-15 00:00:00</start>
       <end>1440-05-15 00:00:00</end>
-      <text>(40)Gruoala, Founded</text>
+      <text>(12)Gruoala, Founded</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -528,7 +528,7 @@
     <event>
       <start>1440-05-07 00:00:00</start>
       <end>1440-05-07 00:00:00</end>
-      <text>(40)Tidrea Founded</text>
+      <text>(12)Tidrea Founded</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -540,7 +540,7 @@
     <event>
       <start>1440-08-29 00:00:00</start>
       <end>1440-08-29 00:00:00</end>
-      <text>(40)Telairn Founded</text>
+      <text>(12)Telairn Founded</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -552,7 +552,7 @@
     <event>
       <start>1440-04-03 00:00:00</start>
       <end>1440-04-03 00:00:00</end>
-      <text>(40)Telafell Founded</text>
+      <text>(12)Telafell Founded</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -564,7 +564,7 @@
     <event>
       <start>1440-07-06 00:00:00</start>
       <end>1440-07-06 00:00:00</end>
-      <text>(40)Raeatar Founded</text>
+      <text>(12)Raeatar Founded</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -820,7 +820,7 @@
     <event>
       <start>1298-01-01 00:00:00</start>
       <end>1298-01-01 00:00:00</end>
-      <text>Preacer Cantarun Silisa revives godly sect</text>
+      <text>Preacher Cantarun Silisa revives godly sect</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>True</fuzzy_start>
@@ -898,7 +898,7 @@
     <event>
       <start>1479-01-01 00:00:00</start>
       <end>1479-01-01 00:00:00</end>
-      <text>Discovery of the aplications of guedinia</text>
+      <text>Discovery of the applications of guedinia</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>True</fuzzy_start>
@@ -934,7 +934,7 @@
     <event>
       <start>1610-01-01 00:00:00</start>
       <end>1610-01-01 00:00:00</end>
-      <text>Viatite Discovered</text>
+      <text>Viatite harnested</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
       <fuzzy_start>True</fuzzy_start>
@@ -995,8 +995,8 @@
   </events>
   <view>
     <displayed_period>
-      <start>1179-06-20 16:38:37</start>
-      <end>1279-06-19 16:38:37</end>
+      <start>1227-01-12 07:05:37</start>
+      <end>1327-01-12 07:05:37</end>
     </displayed_period>
     <hidden_categories>
     </hidden_categories>

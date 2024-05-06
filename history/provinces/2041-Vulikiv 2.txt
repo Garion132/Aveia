@@ -1,8 +1,7 @@
 #Vulikiv
-
-add_core = VUL
-owner = VUL
-controller = VUL
+add_core = KAS
+owner = KAS
+controller = KAS
 culture = vulikivian
 religion = vulikivite
 hre = yes

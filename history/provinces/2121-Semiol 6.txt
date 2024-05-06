@@ -3,7 +3,7 @@
 add_core = URE
 owner = URE
 controller = URE
-culture = karilos
+culture = tesmon
 religion = vulikivite
 hre = yes
 base_tax = 2

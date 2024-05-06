@@ -1,8 +1,7 @@
 #Kemonina 
-
-add_core = KMO
-owner = KMO
-controller = KMO
+add_core = SHM
+owner = SHM
+controller = SHM
 culture = karilos
 religion = vulikivite
 hre = yes

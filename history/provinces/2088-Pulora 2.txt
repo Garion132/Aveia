@@ -1,9 +1,8 @@
 #Pulora 
-
-add_core = PUL
-owner = PUL
-controller = PUL
-culture = terismao
+add_core = ITE
+owner = ITE
+controller = ITE
+culture = cosel
 religion = vulikivite
 hre = yes
 base_tax = 1

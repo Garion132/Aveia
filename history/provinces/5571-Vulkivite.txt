@@ -1,7 +1,10 @@
 #
-add_core = TEN
-owner = TEN
-controller = TEN
+latent_trade_goods = {
+    iron
+}
+add_core = LOR
+owner = LOR
+controller = LOR
 culture = loroik
 religion = vulikivite
 hre = yes

@@ -1,8 +1,7 @@
 #Shamorgath
-
-add_core = SHA
-owner = SHA
-controller = SHA
+add_core = DRS
+owner = DRS
+controller = DRS
 culture = krasolik
 religion = vulikivite
 hre = yes

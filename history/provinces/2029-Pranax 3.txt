@@ -1,9 +1,8 @@
 #Pranax
-
-add_core = PRA
-owner = PRA
-controller = PRA
-culture = krasolik
+add_core = ISX
+owner = ISX
+controller = ISX
+culture = tmiik
 religion = vulikivite
 hre = yes
 base_tax = 3

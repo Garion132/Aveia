@@ -1,8 +1,8 @@
 #Lorla 
 
-add_core = LOR
-owner = LOR
-controller = LOR
+add_core = QIL
+owner = QIL
+controller = QIL
 culture = loroik
 religion = vulikivite
 hre = yes

@@ -1,8 +1,7 @@
 #Termina
-
-add_core = TER
-owner = TER
-controller = TER
+add_core = SAU
+owner = SAU
+controller = SAU
 culture = vealam
 religion = vulikivite
 hre = yes

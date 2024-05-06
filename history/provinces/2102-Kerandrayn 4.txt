@@ -1,8 +1,7 @@
 #Kerandarayn 
-
-add_core = KER
-owner = KER
-controller = KER
+add_core = MEU
+owner = MEU
+controller = MEU
 culture = kerandarayn
 religion = suhar
 hre = yes

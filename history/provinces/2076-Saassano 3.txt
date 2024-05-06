@@ -1,9 +1,9 @@
 #Saassano
 
-add_core = SAA
-owner = SAA
-controller = SAA
-culture = vealam
+add_core = WIS
+owner = WIS
+controller = WIS
+culture = wisma
 religion = vulikivite
 hre = yes
 base_tax = 2

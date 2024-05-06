@@ -1,5 +1,7 @@
 #Huras 
-
+latent_trade_goods = {
+    iron
+}
 add_core = HUR
 owner = HUR
 controller = HUR

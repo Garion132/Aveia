@@ -1,9 +1,8 @@
 #
-
-add_core = URE
-owner = URE
-controller = URE
-culture = cosel
+add_core = ARE
+owner = ARE
+controller = ARE
+culture = wisma
 religion = vulikivite
 hre = yes
 base_tax = 0

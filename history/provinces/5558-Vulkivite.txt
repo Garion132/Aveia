@@ -1,14 +1,14 @@
 #
-add_core = XAL
-owner = XAL
-controller = XAL
+add_core = BHE
+owner = BHE
+controller = BHE
 culture = loroik
 religion = vulikivite
 hre = yes
 base_tax = 0
 base_production =1
 base_manpower = 5
-trade_goods = grain
+trade_goods = naval_supplies
 capital = "Sal"
 is_city = yes
 discovered_by = lake_elves_group

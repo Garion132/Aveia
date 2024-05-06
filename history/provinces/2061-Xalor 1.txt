@@ -1,9 +1,8 @@
 #Xalor
-
-add_core = XAL
-owner = XAL
-controller = XAL
-culture = loroik
+add_core = TEV
+owner = TEV
+controller = TEV
+culture = vulikivian
 religion = vulikivite
 hre = yes
 base_tax = 3

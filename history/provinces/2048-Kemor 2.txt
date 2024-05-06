@@ -1,8 +1,7 @@
 #Kemor
-
-add_core = XAL
-owner = XAL
-controller = XAL
+add_core = DHE
+owner = DHE
+controller = DHE
 culture = vulikivian
 religion = vulikivite
 hre = yes

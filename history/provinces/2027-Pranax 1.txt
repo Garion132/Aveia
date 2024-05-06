@@ -3,7 +3,7 @@
 add_core = PRA
 owner = PRA
 controller = PRA
-culture = krasolik
+culture = tmiik
 religion = vulikivite
 hre = yes
 base_tax = 3

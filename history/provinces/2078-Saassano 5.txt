@@ -1,8 +1,7 @@
 #Saassano
-
-add_core = SAA
-owner = SAA
-controller = SAA
+add_core = ILA
+owner = ILA
+controller = ILA
 culture = wisma
 religion = vulikivite
 hre = yes

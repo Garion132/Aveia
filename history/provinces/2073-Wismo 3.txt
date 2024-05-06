@@ -1,8 +1,7 @@
 #Wismo
-
-add_core = WIS
-owner = WIS
-controller = WIS
+add_core = GHY
+owner = GHY
+controller = GHY
 culture = wisma
 religion = vulikivite
 hre = yes

@@ -1,15 +1,16 @@
 #Khamar
-
-add_core = KHA
-owner = KHA
-controller = KHA
+latent_trade_goods = {
+	coal
+}
+add_core = MAD
+owner = MAD
+controller = MAD
 culture = tmiik
-religion = vulikivite
-hre = yes
+religion = godly_sect
 base_tax = 2
 base_production =3
 base_manpower = 2
-trade_goods = grain
+trade_goods = livestock
 capital = "Sal"
 is_city = yes
 discovered_by = lake_elves_group

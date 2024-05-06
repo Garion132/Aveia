@@ -22,3 +22,20 @@ Antili -green
 -Orange
 -
 -
+
+
+Basic race "traits"
+Elves: Religious,Explorers eg. bronze age Egypt, Myceane
+Dunirr: Materialist,Craftsmen eg. NY,
+Uglik: Scolar,Merchants eg. Babylon, Persia
+Northern Humans: Warlike, Individulist, Empire builders eg. German tribes/Huns/Scythians -> Uk, Germany, Russia
+eastern Humans: Engineers, Religious eg. Inca
+Shireite Fauns: Diplomatic, Communial
+Giant Spiders: Religious Castes eg. india
+Elterian Faun: Individulist eg. Haiti
+Naga: Explorers, Merchants eg. Majapahit
+Free Kolbolds: "highland Scots"
+Rakes: Bureaucratic, Diplomatic
+Scurians: Naturalist, Isolationist
+Sun Elves: Religious, Empire Builders
+Kaltros Uglik: Materialist, Merchants eg. Americans

@@ -1,8 +1,7 @@
 #Susmemero
-
-add_core = UNH
-owner = UNH
-controller = UNH
+add_core = BKU
+owner = BKU
+controller = BKU
 culture = tealclaw
 religion = vulikivite
 hre = yes

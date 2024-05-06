@@ -1,8 +1,7 @@
 #Teris 
-
-add_core = TEI
-owner = TEI
-controller = TEI
+add_core = MAM
+owner = MAM
+controller = MAM
 culture = cosel
 religion = vulikivite
 hre = yes

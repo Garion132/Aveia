@@ -2,10 +2,9 @@
 latent_trade_goods = {
     coal
 }
-
-add_core = TSE
-owner = TSE
-controller = TSE
+add_core = ACY
+owner = ACY
+controller = ACY
 culture = krasolik
 religion = vulikivite
 hre = yes

@@ -1,7 +1,7 @@
 #
-add_core = QIL
-owner = QIL
-controller = QIL
+add_core = SEM
+owner = SEM
+controller = SEM
 culture = tesmon
 religion = vulikivite
 hre = yes

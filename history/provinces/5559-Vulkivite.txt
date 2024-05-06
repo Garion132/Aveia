@@ -1,7 +1,7 @@
 #
-add_core = VII
-owner = VII
-controller = VII
+add_core = TEV
+owner = TEV
+controller = TEV
 culture = loroik
 religion = vulikivite
 hre = yes

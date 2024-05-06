@@ -1,8 +1,7 @@
 #Susmemero
-
-add_core = SUS
-owner = SUS
-controller = SUS
+add_core = TRR
+owner = TRR
+controller = TRR
 culture = tmiik
 religion = vulikivite
 hre = yes

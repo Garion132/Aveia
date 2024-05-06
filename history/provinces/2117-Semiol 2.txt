@@ -1,8 +1,7 @@
 #Semiol 
-
-add_core = URE
-owner = URE
-controller = URE
+add_core = GHY
+owner = GHY
+controller = GHY
 culture = wisma
 religion = vulikivite
 hre = yes

@@ -1,9 +1,8 @@
 #Demina 
-
-add_core = TAU
-owner = TAU
-controller = TAU
-culture = tesmon
+add_core = MAK
+owner = MAK
+controller = MAK
+culture = garumok
 religion = vulikivite
 hre = yes
 base_tax = 2

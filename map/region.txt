@@ -29,7 +29,7 @@ krashyrvil_midlands_region = {
 	areas = { 
 		ortvein_outlands krashyrvil tanhurzel lamnas_valley oayvein telsnien oflorhan lyllumana filsad insase
 		enaleanlume eritys upper_oramarnona_area western_srandor_area nilaur_area vulkivian_1 vulkivian_2 vulkivian_7 vulkivian_28 yransa_area
-		oramarnona_area 
+		oramarnona_area vulkivian_30
 	}
 }
 otrcyueg_region = { 
@@ -141,7 +141,8 @@ vulkivian_region = {
 	areas = { 
 		vulkivian_3 vulkivian_4 vulkivian_5 vulkivian_6 vulkivian_8 vulkivian_9 vulkivian_10 vulkivian_11 vulkivian_12 vulkivian_13
 		vulkivian_14 vulkivian_15 vulkivian_16 vulkivian_17 vulkivian_18 vulkivian_19 vulkivian_20 vulkivian_21 vulkivian_22 vulkivian_23
-		vulkivian_25 vulkivian_26 vulkivian_27 vulkivian_29
+		vulkivian_25 vulkivian_26 vulkivian_27 vulkivian_29 vulkivian_31 vulkivian_32 vulkivian_33 vulkivian_34 vulkivian_35 
+		vulkivian_36 vulkivian_37 vulkivian_38 vulkivian_39 vulkivian_40 vulkivian_41 vulkivian_42
 	}
 }
 thilrana_region = { 
@@ -396,7 +397,7 @@ rarlone_region = {
 salisia_region = { 
 	areas = { 
 		salisia_1 salisia_2 salisia_3 salisia_4 salisia_5 salisia_6 salisia_7 salisia_8 salisia_9 salisia_10
-		salisia_11 salisia_12 salisia_13 salisia_14 salisia_15 salisia_16 salisia_17 salisia_18 e salisia_20
+		salisia_11 salisia_12 salisia_13 salisia_14 salisia_15 salisia_16 salisia_17 salisia_18 salisia_19 salisia_20
 		salisia_21 salisia_22 salisia_23 
 	}
 }

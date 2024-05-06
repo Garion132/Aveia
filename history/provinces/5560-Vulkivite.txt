@@ -1,8 +1,7 @@
 #
-
-add_core = VII
-owner = VII
-controller = VII
+add_core = UGA
+owner = UGA
+controller = UGA
 culture = viindarik
 religion = vulikivite
 hre = yes

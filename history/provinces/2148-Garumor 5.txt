@@ -1,8 +1,7 @@
 #Garumor 
-
-add_core = GAR
-owner = GAR
-controller = GAR
+add_core = ZRU
+owner = ZRU
+controller = ZRU
 culture = garumok
 religion = vulikivite
 hre = yes

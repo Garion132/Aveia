@@ -1,8 +1,8 @@
 #
-add_core = TEU
-owner = TEU
-controller = TEU
-culture = loroik
+add_core = URE
+owner = URE
+controller = URE
+culture = tesmon
 religion = vulikivite
 hre = yes
 base_tax = 0

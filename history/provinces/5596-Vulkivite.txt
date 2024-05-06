@@ -1,0 +1,20 @@
+#
+add_core = PNC
+owner = PNC
+controller = PNC
+culture = vulikivian
+religion = vulikivite
+hre = yes
+base_tax = 0
+base_production =0
+base_manpower = 4
+trade_goods = fruit
+capital = "Sal"
+is_city = yes
+discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = free_kolbolds_group
+discovered_by = sea_elves_group
+discovered_by = ork_group
+discovered_by = dunirr_group
+extra_cost = 0

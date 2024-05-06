@@ -1,8 +1,7 @@
 #
-
-add_core = TER
-owner = TER
-controller = TER
+add_core = ZRV
+owner = ZRV
+controller = ZRV
 culture = vealam
 religion = vulikivite
 hre = yes

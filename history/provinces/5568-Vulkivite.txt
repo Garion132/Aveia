@@ -1,8 +1,8 @@
 #
 
-add_core = BHE
-owner = BHE
-controller = BHE
+add_core = SAA
+owner = SAA
+controller = SAA
 culture = vealam
 religion = vulikivite
 hre = yes

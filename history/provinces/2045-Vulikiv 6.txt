@@ -2,10 +2,9 @@
 latent_trade_goods = {
     iron
 }
-
-add_core = VUL
-owner = VUL
-controller = VUL
+add_core = VRI
+owner = VRI
+controller = VRI
 culture = vulikivian
 religion = vulikivite
 hre = yes

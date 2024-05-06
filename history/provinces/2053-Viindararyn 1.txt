@@ -1,8 +1,7 @@
 #Viindararyn
-
-add_core = VII
-owner = VII
-controller = VII
+add_core = SBP
+owner = SBP
+controller = SBP
 culture = viindarik
 religion = vulikivite
 hre = yes

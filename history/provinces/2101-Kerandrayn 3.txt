@@ -1,8 +1,7 @@
 #Kerandarayn 
-
-add_core = KER
-owner = KER
-controller = KER
+add_core = KRH
+owner = KRH
+controller = KRH
 culture = kerandarayn
 religion = vulikivite
 hre = yes

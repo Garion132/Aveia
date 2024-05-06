@@ -1,8 +1,7 @@
 #Garumor 
-
-add_core = UNH
-owner = UNH
-controller = UNH
+add_core = PRT
+owner = PRT
+controller = PRT
 culture = tealclaw
 religion = vulikivite
 hre = yes

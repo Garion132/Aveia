@@ -1,9 +1,8 @@
 #Huras 
-
-add_core = HUR
-owner = HUR
-controller = HUR
-culture = cosel
+add_core = ILA
+owner = ILA
+controller = ILA
+culture = wisma
 religion = vulikivite
 hre = yes
 base_tax = 1

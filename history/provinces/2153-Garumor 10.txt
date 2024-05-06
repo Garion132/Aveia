@@ -1,11 +1,9 @@
 #Garumor 
-
-add_core = UNH
-owner = UNH
-controller = UNH
-culture = rake
-religion = vulikivite
-hre = yes
+add_core = KAK
+owner = KAK
+controller = KAK
+culture = tealclaw
+religion = godly_sect
 base_tax = 2
 base_production =6
 base_manpower = 2

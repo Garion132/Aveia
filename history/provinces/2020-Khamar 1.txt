@@ -1,8 +1,7 @@
 #Khamar
-
-add_core = KHA
-owner = KHA
-controller = KHA
+add_core = CHO
+owner = CHO
+controller = CHO
 culture = tmiik
 religion = vulikivite
 hre = yes

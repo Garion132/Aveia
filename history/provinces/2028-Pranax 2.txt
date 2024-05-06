@@ -1,9 +1,8 @@
 #Pranax
-
-add_core = PRA
-owner = PRA
-controller = PRA
-culture = krasolik
+add_core = HRR
+owner = HRR
+controller = HRR
+culture = vulikivian
 religion = vulikivite
 hre = yes
 base_tax = 4

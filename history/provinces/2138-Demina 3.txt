@@ -1,8 +1,8 @@
 #Demina 
 
-add_core = TAU
-owner = TAU
-controller = TAU
+add_core = QIL
+owner = QIL
+controller = QIL
 culture = tesmon
 religion = vulikivite
 hre = yes

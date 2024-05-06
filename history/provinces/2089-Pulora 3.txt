@@ -1,8 +1,7 @@
 #Pulora 
-
-add_core = PUL
-owner = PUL
-controller = PUL
+add_core = QEA
+owner = QEA
+controller = QEA
 culture = cosel
 religion = vulikivite
 hre = yes

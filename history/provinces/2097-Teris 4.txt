@@ -1,8 +1,7 @@
 #Teris 
-
-add_core = TEI
-owner = TEI
-controller = TEI
+add_core = GRM
+owner = GRM
+controller = GRM
 culture = kerandarayn
 religion = suhar
 hre = yes

@@ -1,8 +1,7 @@
 #Huras 
-
-add_core = HUR
-owner = HUR
-controller = HUR
+add_core = MEU
+owner = MEU
+controller = MEU
 culture = cosel
 religion = vulikivite
 hre = yes
