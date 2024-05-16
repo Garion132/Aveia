@@ -74,6 +74,8 @@
  ia_god_king:0 "God King"
  ia_god_king_desc:0 "Our ruler is seen as divine being, being considered either a avatar of a god, a demi-god, or simply a god in their own right. no one in our country doubts our rulers ties to divinity."
  ia_lumian_patricanate: "Lumian Patricianate"
+ donamenz_chiefdom_reform: "Donamenz Chiefdom"
+ expansion_path: "Expansion Path"
  PATRICIATE: "Patriciate"
  GRAND_PATRICIATE: "Grand Patriciate"
  GREAT_PATRICIATE: "Great Patriciate"
@@ -82,6 +84,13 @@
  PATRICIAN_fem: "Patricienne"
  PATRICIAN_fem: "Patricienne"
  GRANDPATRICIAN_fem: "Grand Patricienne"
+ 
+ DRAGONIC_LORDSHIP: "Dragonic Lordship"
+ GRAND_DRAGONIC_LORDSHIP: "Grand Dragonic Lordship"
+ DRAGON_LORD: "Dragon Lord"
+ GREATER_DRAGON_LORD: "Great Dragon Lord"
+ DRAGON_LADY: "Dragon Lady"
+ GREATER_DRAGON_LADY: "Great Dragon Lady"
  
  # Government Mechanics
  ability_monumentality_mechanic:0 "Monumentality"

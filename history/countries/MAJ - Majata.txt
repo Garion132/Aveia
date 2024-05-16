@@ -10,13 +10,27 @@ capital = 2788 #
 
 
 
-# 1240.9.16 = {
-	# monarch = {
-		# name = "Eltro III"
-		# dynasty = "Gugh"
-		# birth_date = 1240.12.3
-		# adm = 5
-		# dip = 4
-		# mil = 3
-	# }
-# }
+1234.8.30 = {
+	monarch = {
+		name = "Mya II"
+		dynasty = "Ruruitu"
+		birth_date = 1211.9.24
+		adm = 3
+		dip = 2
+		mil = 5
+		female = yes
+	}
+}
+1253.9.6={
+	heir = {
+		name = "Mahin"
+		monarch_name = "Mahin"
+		dynasty = "Ruruitu"
+		birth_date = 1253.9.6
+		death_date = 1331.9.16
+		claim = 78
+		adm = 5
+		dip = 1
+		mil = 2
+	}
+}
