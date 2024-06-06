@@ -7,3 +7,14 @@ technology_group = free_fauns_group
 capital = 2380 # 
 #national_focus = DIP
 #historical_rival = HAB
+
+1237.11.6 = {
+	monarch = {
+		name = "C'anima II"
+		dynasty = "Solistae"
+		birth_date = 1227.2.22
+		adm = 5
+		dip = 6
+		mil = 2
+	}
+}

@@ -64,4 +64,6 @@
  ab_expert_artisans: "Expert Artisans"
  ab_bronze_age_drill: "Bronze Age Drill"
  age_of_bronze_desc: "For thousands of years the Bronze age has been the world order ever since its alloying was discovered by the Rakes. An age dominiated by heavily interconected and centralised states and the temple scribes vital to administrating them."
+ obj_global_trade_embraced: "Global Trade Embraced"
+ obj_global_trade_embraced_desc: "Embrace Global Trade and have it established in every owned province."
  

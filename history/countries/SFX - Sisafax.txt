@@ -10,13 +10,26 @@ capital = 1955 #
 
 
 
-# 1240.9.16 = {
-	# monarch = {
-		# name = "Filler"
-		# dynasty = "Unhar"
-		# birth_date = 1240.12.3
-		# adm = 3
-		# dip = 3
-		# mil = 3
-	# }
-# }
+1271.2.27 = {
+	monarch = {
+		name = "Cae'nar II"
+		dynasty = "Calindi"
+		birth_date = 1251.3.24
+		adm = 4
+		dip = 5
+		mil = 0
+	}
+}
+1272.2.1={
+	heir = {
+		name = "Xarmica"
+		monarch_name = "Xarmica IV"
+		dynasty = "Calindi"
+		birth_date = 1272.2.1
+		death_date = 1320.5.4
+		claim = 76
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}

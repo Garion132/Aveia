@@ -25,11 +25,15 @@ Iron Calamity (1367-1440)
 		feudal de jure law
 		mercenary dicipline
 		protecting forts
-		
+		--
+		--
+		--
 		
 Eastern Exodus (1440-1540)
 	obj:
 		(have your primary culture in the east)
+		slave holder
+		grand state 300 provs
 	boni:
 		higher developed colonies 2.0
 		floating batteries
@@ -65,6 +69,7 @@ Solar Strife (1670-1712)
 		Unrestricted Conquest
 		Naval Engagement
 		great fleet
+		divine guidence (religious unity)
 Age of Progress (1712-)
 	obj:
 		parliment

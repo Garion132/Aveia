@@ -258,6 +258,10 @@ spriteTypes = {
 		name = "GFX_obj_grand_fleet"
 		texturefile = "gfx/interface/ages/obj_grand_fleet.dds"
 	}
+	spriteType = {
+		name = "GFX_obj_fort_borders"
+		texturefile = "gfx/interface/ages/obj_border_protection.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_obj_5_centers_of_trade"
@@ -714,5 +718,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ab_napoleonic_warfare"
 		texturefile = "gfx/interface/ages/ab_napoleonic_warfare.dds"
-	}	
+	}
 }

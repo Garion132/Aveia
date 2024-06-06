@@ -237,6 +237,15 @@ age_of_calamity  = {
 				factor = 10
 			}
 		}
+		ab_established_castles = {
+			modifier = {
+				defensiveness = 0.05
+				fort_maintenance_modifier = -0.10
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
 	
 	}
 	
@@ -324,7 +333,18 @@ age_of_exodus = {
 	
 	
 	abilities = {
-	
+		ab_colony_boost_development_2 = {
+			modifier = {
+				colony_development_boost = 1
+			}
+			ai_will_do = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { num_of_colonists = 1 }
+				}
+			}
+		}
 		ab_siege_blockades = {
 			modifier = {
 				siege_blockade_progress = 1
@@ -560,6 +580,22 @@ age_of_strife = {
 		ab_no_distance_for_core = {
 			modifier = {
 				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_naval_engagement = {
+			modifier = {
+				global_naval_engagement = 1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_great_fleet = {
+			modifier = {
+				naval_forcelimit_modifier = 0.15
 			}
 			ai_will_do = {
 				factor = 10

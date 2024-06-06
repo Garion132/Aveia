@@ -25,7 +25,7 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Guldarc"
 		dynasty = "Vulvek"
 		birth_date = 1240.12.3
 		adm = 3
