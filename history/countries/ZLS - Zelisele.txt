@@ -1,0 +1,34 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+government_rank = 1
+primary_culture = edailian
+religion = tlaunorist
+technology_group = lake_elves_group
+capital = 5508 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1235.3.27 = {
+	monarch = {
+		name = "Reawu"
+		dynasty = "Zelisele"
+		birth_date = 1197.6.14
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

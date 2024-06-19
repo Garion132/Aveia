@@ -104,4 +104,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 942;1734;lakes;5553;-1;-1;-1;-1;Enhersion river crossing#
 943;944;lakes;5553;-1;-1;-1;-1;Enhersion river crossing#
 943;948;lakes;5553;-1;-1;-1;-1;Enhersion river crossing#
+581;582;sea;5287;-1;-1;-1;-1;Irrilanra crossing#
+582;546;sea;5287;-1;-1;-1;-1;Irrilanra crossing#
+546;5507;sea;5287;-1;-1;-1;-1;Irrilanra crossing#
+546;583;sea;5287;-1;-1;-1;-1;Irrilanra crossing#
 -1;-1;;-1;-1;-1;-1;-1;-1;

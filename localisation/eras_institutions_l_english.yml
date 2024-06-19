@@ -39,7 +39,7 @@
  obj_theology_progress: "Theology of Progress"
  obj_theology_progress_desc: "Embrace Cult of Progress or Eternal Sun as your state religion"
  obj_strong_industrialists: "Strong Industrialists"
- obj_strong_industrialists_desc: "Have the Industrialists estate with at least 60 loyalty."
+ obj_strong_industrialists_desc: "Have the Industrialists estate with at least 60 loyalty and 60 Influence."
  obj_legitimate_state: "Legitimate State"
  obj_legitimate_state_desc: "Have Legitimacy higher than 95"
  obj_experienced_army: "Experienced Army"
@@ -66,4 +66,10 @@
  age_of_bronze_desc: "For thousands of years the Bronze age has been the world order ever since its alloying was discovered by the Rakes. An age dominiated by heavily interconected and centralised states and the temple scribes vital to administrating them."
  obj_global_trade_embraced: "Global Trade Embraced"
  obj_global_trade_embraced_desc: "Embrace Global Trade and have it established in every owned province."
+ obj_controls_great_light_tooltip: "Controls one of the 7 Great Orbs of Light"
+ obj_large_forcelimit_300: "Protential for a Large Army"
+ obj_large_forcelimit_300_desc: "Have a land force limit of at least 300 regiments"
+ obj_take_a_side: "Take a Side"
+ obj_take_a_side_desc: "Either side with one of the Talunorist Pretenders or pleage your allengece to the true successor of Talunor."
+ 
  

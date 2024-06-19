@@ -5,6 +5,9 @@ High Bronze Age (start-1367)
 		crop rotation
 		large city
 		Patisipate in the Scramble (have a province/colony in elteria or have the modififer "scramble for elteria")
+		Bronze Autarky
+		prosperous realm
+		temple loyalty
 	boni:
 		higher developed colonies
 		justified wars
@@ -19,6 +22,9 @@ Iron Calamity (1367-1440)
 		iron working
 		stable state
 		hold three thrones
+		Border Protection
+		Experienced Army
+		Sancitified Monuments
 	boni:
 		war taxes
 		transfer subject
@@ -27,20 +33,24 @@ Iron Calamity (1367-1440)
 		protecting forts
 		--
 		--
-		--
 		
 Eastern Exodus (1440-1540)
 	obj:
 		(have your primary culture in the east)
 		slave holder
-		grand state 300 provs
+		grand state (300 provs)
+		Grand Fleet
+		Trading Companies
+		Global Trade
+		Hold Thalassocracy
 	boni:
 		higher developed colonies 2.0
 		floating batteries
 		powerful tradeships
-		
-		
-		
+		--
+		--
+		--
+		--
 		
 The Golden Sun (1540 - 1638)
 	obj:
@@ -54,6 +64,11 @@ The Golden Sun (1540 - 1638)
 	boni:
 		Harsher Treatment
 		Efficient Autonomy
+		--
+		--
+		--
+		--
+		--
 Solar Strife (1670-1712)
 	obj:
 		convert prov
@@ -62,6 +77,7 @@ Solar Strife (1670-1712)
 		absolutism
 		large capital
 		Steam Airships (mil 35)
+		Large Army
 	boni:
 		religious wars
 		institutional spread
@@ -84,6 +100,10 @@ Age of Progress (1712-)
 		Improved Force March
 		Anti-Revolutionary Zeal
 		Loyal Subjects
+		-- (+1 max general fire)
+		--
+		--
+		
 #Institutions:
 1200/start - Organized State (start)
 1250/start - Bronze Working (west only)

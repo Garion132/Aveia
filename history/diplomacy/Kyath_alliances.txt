@@ -316,6 +316,13 @@ dependency = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
+dependency = {
+	subject_type = "tributary_state"
+	first = NIL
+	second = ZLS
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
 
 union = {
 	first = OAY
@@ -371,6 +378,27 @@ dependency = {
 	subject_type = "tributary_state"
 	first = CYU
 	second = MEN
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = ZIY
+	second = NIY
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = ZIY
+	second = MAS
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = ZIY
+	second = GAN
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }

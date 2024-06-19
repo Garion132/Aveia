@@ -1,0 +1,23 @@
+#Yransa 3
+
+add_core = PAR
+owner = PAR
+controller = PAR
+culture = edailian
+religion = tlaunorist
+hre = no
+base_tax = 0
+base_production = 1
+trade_goods = fish
+base_manpower = 8
+capital = "Yransa 3"
+is_city = yes
+discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = free_kolbolds_group
+discovered_by = sea_elves_group
+discovered_by = ork_group
+discovered_by = dunirr_group
+extra_cost = 0
+gravel_roads = yes
+set_variable = { which = arable_land value = 10 }

@@ -1744,7 +1744,8 @@ air_shipping = {
 	 
 
 	bonus = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.05
+		reduced_trade_penalty_on_non_main_tradenode = 0.25
 	}
 
 	trade_company_efficiency = 1.25
