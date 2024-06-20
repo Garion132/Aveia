@@ -10,7 +10,7 @@ kyathia_region = {
 lentira_region = { 
 	areas = { 
 		elesilon_area himlunelo_area north_doninas_area south_doninas_area sellalra_area iarion_area olores_area parian_area
-		kanzan_area eastern_srandor_area 
+		kanzan_area eastern_srandor_area yransa_area
 	}
 }
 greater_shires_region = { 
@@ -28,7 +28,7 @@ chaun_region = {
 krashyrvil_midlands_region = { 
 	areas = { 
 		ortvein_outlands krashyrvil tanhurzel lamnas_valley oayvein telsnien oflorhan lyllumana filsad insase
-		enaleanlume eritys upper_oramarnona_area western_srandor_area nilaur_area vulkivian_1 vulkivian_2 vulkivian_7 vulkivian_28 yransa_area
+		enaleanlume eritys upper_oramarnona_area western_srandor_area nilaur_area vulkivian_1 vulkivian_2 vulkivian_7 vulkivian_28
 		oramarnona_area vulkivian_30
 	}
 }

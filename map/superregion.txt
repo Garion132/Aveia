@@ -3,11 +3,11 @@ aveia_superregion = {
 
 	restrict_charter	# harder to get TC here.
 	
-	shemsele_region
+	
 	donamenz_region
 	nylka_region
 	nilenor_region
-	chaun_region
+	
 }
 kirloi_superregion = { 
 	restrict_charter	# harder to get TC here.
@@ -16,6 +16,7 @@ kirloi_superregion = {
 	chaunluma_region
 	great_ziyalap_region
 	gugh_region
+	kepjar_region
 }
 enheasrion_basin_superregion={
 	restrict_charter	# harder to get TC here.
@@ -34,25 +35,30 @@ west_aveia_superregion={
 	thilrana_region
 	vulkivian_region
 	krashyrvil_midlands_region
-	greater_shires_region
-	lentira_region
-	kyathia_region
 	otrcyueg_region
-	craine_islands
-	cradle_islands
+	craine_islands	
 	suirx_cresant_region
 }
-kaltros_superregion={
-	qirdud_region
-	anoric_region
-	kepjar_region
-	vortingrad_region
+great_lakes_superregion={
+	greater_shires_region
+	chaun_region
+	lentira_region
+	kyathia_region
+	cradle_islands
+	shemsele_region
+}
+east_kaltros_superregion={
 	rogosian_heights_region
 	borestia_region
 	earh_region
 	crystalia_region
 	wuloric_region
 	folyur_region
+}
+liglen_superregion={
+	qirdud_region
+	anoric_region
+	vortingrad_region
 }
 haqsili_chain_superregion={
 	haqsili_region
@@ -82,7 +88,6 @@ south_elteria_superregion={
 }
 north_juluia_superregion={
 	talkia_region
-	tilvena_sea_region
 	saciril_region
 	alromita_region
 	cemnia_region
@@ -97,14 +102,16 @@ laeite_superregion={
 	markford_plains_region
 	valkmora_region
 }
-juluia_superregion={
-	shield_isles_region
-	strivian_region
+golden_bay_superregion={
 	golden_bay_region
-	vitaite_hills_region
 	velima_plains_region
 	altiron_reach_region
 }
-
+great_shield_coast_superregion={
+	tilvena_sea_region
+	shield_isles_region
+	strivian_region
+	vitaite_hills_region
+}
 new_world_superregion = {
 }
