@@ -612,7 +612,7 @@ base_values = {
 	monthly_heir_claim_increase = 0.208
 	tolerance_of_heretics_capacity = 3
 	tolerance_of_heathens_capacity = 3
-}
+	administrative_efficiency = -0.1
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
 ai_nation = {
@@ -647,6 +647,7 @@ positive_stability = {
 	yearly_corruption = -0.02
 	global_institution_spread = 0.05
 	yearly_harmony = 0.25
+	monthly_godly_favor = 0.03
 }
 
 privateering = {
@@ -661,6 +662,7 @@ negative_stability = {
 	devotion = 1
 	caravan_power = 0.05
 	yearly_harmony = 0.25
+	monthly_godly_favor = 0.05
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
@@ -1893,8 +1895,8 @@ cossacks_modifier = {
 ########################################
 
 expand_administation_modifier = {
-	expand_administration_cost = 0.20
-	governing_capacity = 20
+	expand_administration_cost = 0.10
+	governing_capacity = 25
 }
 
 # At 100% over capacity, this modifier will be fully used

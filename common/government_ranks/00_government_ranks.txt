@@ -11,4 +11,5 @@
 	max_absolutism = 5
 	free_leader_pool = 1
 	diplomats = 1
+	merchants = 1
 }

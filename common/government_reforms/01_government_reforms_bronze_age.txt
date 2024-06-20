@@ -10,6 +10,7 @@ bronze_monarchy_mechanic = {
 		enables_aristocratic_idea_group = yes
 	}
 	modifiers = {
+		governing_capacity = 100
 		church_influence_modifier = 0.1
 		development_cost = 0.2
 	}
@@ -27,6 +28,7 @@ bronze_league_mechanic = {
 	}
 
 	modifiers = {
+		governing_capacity = 100
 		burghers_influence_modifier = 0.15
 		development_cost = 0.2
 	}

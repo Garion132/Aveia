@@ -54,6 +54,7 @@ steam_age_navy = {
 	naval_forcelimit_modifier = 0.05
 	naval_maintenance_modifier = 0.33
 	global_naval_barrage_cost = 0.5
+	merchants = 1
 }
 steel_age_navy = {
 	potential = {
@@ -71,6 +72,7 @@ steel_age_navy = {
 	naval_forcelimit_modifier = -0.1
 	naval_maintenance_modifier = 0.1
 	global_naval_barrage_cost = 0.25
+	merchants = 1
 }
 industrial_age_navy = {
 	potential = {
@@ -87,6 +89,7 @@ industrial_age_navy = {
 	global_ship_recruit_speed = 0.1
 	global_ship_repair = -0.5
 	naval_forcelimit_modifier = -0.25
+	merchants = 2
 }
 modern_age_navy = {
 	potential = {
@@ -102,6 +105,7 @@ modern_age_navy = {
 	global_ship_repair = -0.75
 	naval_forcelimit_modifier = -0.4
 	global_naval_barrage_cost = -0.25
+	merchants = 2
 }
 
 high_bronze_age_administration = {
@@ -113,9 +117,9 @@ high_bronze_age_administration = {
 		NOT = { adm_tech = 13 }
 	}
 
-	governing_capacity = 100
-	governing_capacity_modifier = 0.1
-	administrative_efficiency = -0.1
+	overextension_impact_modifier = 0.25
+	min_autonomy = 20
+	global_autonomy = 0.05
 	state_maintenance_modifier = -0.33
 	colony_cost_modifier  = -0.4
 }
@@ -130,7 +134,8 @@ iron_age_administration = {
 	}
 
 	national_focus_years = -1
-	administrative_efficiency = -0.05
+	min_autonomy = 10
+	global_autonomy = 0.05
 	state_maintenance_modifier = -0.2
 	colony_cost_modifier  = -0.2
 }
@@ -147,6 +152,8 @@ steam_age_administration = {
 
 	national_focus_years = -2
 	yearly_corruption = -0.04
+	min_autonomy = 5
+	global_autonomy = 0.025
 	state_maintenance_modifier = -0.05
 }
 steel_age_administration = {
@@ -177,6 +184,7 @@ industrial_age_administration = {
 
 	national_focus_years = -4
 	yearly_corruption = -0.12
+	can_claim_states = yes
 	state_maintenance_modifier = 0.25
 }
 modern_age_administration = {
@@ -191,6 +199,8 @@ modern_age_administration = {
 	national_focus_years = -5
 	yearly_corruption = -0.15
 	state_maintenance_modifier = 0.5
+	can_claim_states = yes
+	no_claim_cost_increasement = yes
 }
 
 high_bronze_age_army = {
@@ -203,6 +213,8 @@ high_bronze_age_army = {
 	}
 
 	artillery_levels_available_vs_fort = -3
+	artillery_level_modifier = -0.5
+	artillery_barrage_cost = 1
 	drill_gain_modifier = -0.50
 	yearly_army_professionalism = -0.002
 	shock_damage_received = -0.10
@@ -223,6 +235,8 @@ iron_age_army = {
 	}
 
 	artillery_levels_available_vs_fort = -2
+	artillery_level_modifier = -0.25
+	artillery_barrage_cost = 0.5
 	drill_gain_modifier = -0.25
 	yearly_army_professionalism = -0.002
 	shock_damage_received = -0.05
@@ -260,7 +274,10 @@ steel_age_army = {
 		mil_tech = 34
 		NOT = { mil_tech = 42 }
 	}
-
+	
+	may_refill_garrison = yes
+	movement_speed = 0.1
+	siege_ability = 0.1
 	land_forcelimit_modifier = 0.15
 	global_manpower_modifier = -0.1
 	fort_maintenance_modifier = -0.1
@@ -276,6 +293,10 @@ industrial_age_army = {
 		NOT = { mil_tech = 46 }
 	}
 
+	may_refill_garrison = yes
+	may_return_manpower_on_disband = yes
+	movement_speed = 0.2
+	siege_ability = 0.2
 	land_forcelimit_modifier = 0.2
 	global_manpower_modifier = -0.05
 	yearly_army_professionalism = 0.001
@@ -289,6 +310,12 @@ modern_age_army = {
 		mil_tech = 46
 	}
 
+	may_refill_garrison = yes
+	may_return_manpower_on_disband = yes
+	artillery_level_modifier = 0.5
+	artillery_barrage_cost = -0.5
+	movement_speed = 0.3
+	siege_ability = 0.3
 	global_manpower_modifier = 0.05
 	land_forcelimit_modifier = 0.25
 	yearly_army_professionalism = 0.002
@@ -501,6 +528,29 @@ human_homeland_defense = {
 		at_war_with_religious_enemy = yes
 	}
 	own_territory_dice_roll_bonus = 5
+}
+
+behind_in_government = {
+	potential = {
+		has_institution = iron_working
+		OR = {
+			government = bronze_monarchy
+			government = bronze_league
+		}
+	}
+	trigger = {
+		has_institution = iron_working
+		OR = {
+			government = bronze_monarchy
+			government = bronze_league
+		}
+	}
+	monthly_reform_progress = 1
+	all_power_cost = 0.1
+	prestige_decay = 0.01
+	legitimacy = -0.5
+	republican_tradition = -0.2
+	expand_administration_cost = 1
 }
 
 fix_colonial_ai_modifier = {
