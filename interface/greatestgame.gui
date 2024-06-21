@@ -4,12 +4,12 @@ guiTypes = {
         size = { x = 300 y = 31 }
         moveable = 0
         iconType = {
-            "government_tension_bar"
+            name = "government_tension_bar"
             spriteType = "GFX_greatestgame_tension_bar"
             position = { x = 16 y = 4 }
         }
         iconType = {
-            "government_tension_bar_frame"
+            name = "government_tension_bar_frame"
             spriteType = "GFX_greatestgame_frame"
             position = { x = 0 y = 0 }
             alwaystransparent = yes

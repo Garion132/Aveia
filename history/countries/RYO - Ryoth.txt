@@ -1,0 +1,21 @@
+government = default_bronze_league
+add_government_reform = ia_trading_company
+primary_culture = unolaan
+religion = tlaunorist
+technology_group = dunirr_group
+capital = 5643 #
+national_focus = DIP
+historical_rival = ZNT
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -15
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = 5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 10
+}

@@ -1,9 +1,9 @@
 #Unolad
 
-add_core = RYO
-owner = RYO
-controller = RYO
-culture = wlariquar
+add_core = ZNT
+owner = ZNT
+controller = ZNT
+culture = unolaan
 religion = tlaunorist
 hre = no
 

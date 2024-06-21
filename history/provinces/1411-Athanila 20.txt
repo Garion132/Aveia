@@ -1,8 +1,8 @@
 #Athanila
 
-add_core = ATH
-owner = ATH
-controller = ATH
+add_core = RYO
+owner = RYO
+controller = RYO
 culture = wlariquar
 religion = tlaunorist
 hre = no
@@ -19,4 +19,3 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-center_of_trade = 1
