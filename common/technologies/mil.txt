@@ -121,6 +121,7 @@ technology = {
 	
 	#Elven Fletching
 	infantry_fire 		= 	0.10
+	maneuver_value = 0.25
 	
 	enable = thyrian_archers #Elves
 	enable = cyeugite_heroes
@@ -378,6 +379,7 @@ technology = {
 	#Crossbows
 	land_morale = 0.25
 	infantry_fire = 0.2
+	maneuver_value = 0.25
 
 	enable = crossbowmen #Elves
 	enable = faun_vulaebows
@@ -450,6 +452,7 @@ technology = {
 	#Arquebus
 	infantry_fire = 0.2
 	infantry_shock = 0.1
+	maneuver_value = 0.25
 	
 	enable = arquebusiers #Elves
 	enable = squirrel_ironwood_arquebow
@@ -541,6 +544,7 @@ technology = {
 	sprite_level = 2
 
 	infantry_fire = 0.5
+	maneuver_value = 0.25
 
 	training_fields = yes
 
@@ -746,7 +750,6 @@ technology = {
 	
 	#Killing Grounds
 	infantry_fire = 0.5
-	maneuver_value = 0.25
 
 	combat_width = 4
 	fort_17th = yes
@@ -770,6 +773,7 @@ technology = {
 	
 	#Steam Airships
 	cavalry_shock = 5.0
+	maneuver_value = 0.25
 
 	#TODO new cav
 	enable = steam_airship
@@ -1031,7 +1035,7 @@ technology = {
 	#Lile Rifles
 	infantry_fire = 1.0
 	supply_limit = 0.5
-	maneuver_value = 0.25
+	maneuver_value = 0.5
 
 	#TODO new inf
 	enable = ork_reformed_shock_infantry

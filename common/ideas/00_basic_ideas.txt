@@ -494,13 +494,14 @@
 	}
 
 	#Late (1700+)
-	industrial_ideas = { # 24
+	industrial_ideas = { # 25
 		category = ADM
 		#Goods Produced, Dev Cost, Construction Time, all things Industrial Revolution
 
 		trigger = {
 			has_middle_idea = yes
 			adm_tech = 37
+			NOT = { has_idea_group = magical_ideas }
 		}
 
 		bonus = {
@@ -512,9 +513,9 @@
 		}
 		industrialization = {
 			global_trade_goods_size_modifier = 0.15 # +4
-			#Unlocks Industrialists Estate
+			#Unlocks Industrialists Estate # +4
 		}
-		centralization_idea = {
+		centralization = {
 			max_absolutism = 5 # +1
 			max_revolutionary_zeal = 5
 		}
@@ -528,44 +529,47 @@
 			movement_speed = 0.05 # +1
 		}
 		economic_growth = {
-			development_cost = -0.2 # +10
+			development_cost = -0.1 # +3
+			development_cost_modifier = -0.05 # +4
 		}
 		
 		ai_will_do = {
 			factor = 1.4
 		}
 	}
-	magical_ideas = { # 31
+	magical_ideas = { # 26
 		category = ADM
 		#Mana cost, tech cost, advisors, & more
 
 		trigger = {
 			has_middle_idea = yes
 			adm_tech = 37
+			NOT = { has_idea_group = industrial_ideas }
 		}
 
 		bonus = {
-			all_power_cost = -0.05 # +10
+			all_power_cost = -0.05 # +4
 		}
 
 		
 		magical_theory = {
-			idea_cost = -0.15 # +3
+			idea_cost = -0.2 # +2
 		}
 		guedina_working = {
 			artillery_fire = 0.5 # +3
+			cavalry_fire = 1 # +3
 		}
 		alchemy = {
 			global_trade_goods_size_modifier = 0.05 # +2
 		}
 		magical_science = {
-			technology_cost = -0.2 # +4
+			technology_cost = -0.3 # +3
 		}
 		byrinification = {
-			development_cost = -0.05 # +2
+			development_cost = -0.1 # +3
 		}
 		knowledgable_advisors = {
-			advisor_cost = -0.10 # +3
+			advisor_cost = -0.20 # +3
 		}
 		airship_optimization = {
 			cavalry_cost = -0.10 # +2
@@ -578,7 +582,7 @@
 	}
 
 	#Combinations
-	capitalist_ideas = { # 29
+	capitalist_ideas = { # 33
 		category = ADM
 		#Money & Development (Basically tall player's dream)
 		
@@ -592,6 +596,8 @@
 				has_idea_group = trade_ideas
 				has_idea_group = business_ideas
 			}
+			NOT = { has_idea_group = geopolitical_ideas }
+			NOT = { has_idea_group = procurement_ideas }
 		}
 
 		bonus = {
@@ -625,7 +631,7 @@
 			development_cost_modifier = -0.1 # +10
 			interest = -1
 			industrialists_influence_modifier = 0.05 # -1
-			#Unlocks Industrialists Estate
+			#Unlocks Industrialists Estate # +4
 		}
 		
 		ai_will_do = {
@@ -1179,7 +1185,7 @@
 			merchants = 1 # +3
 		}
 
-		country_of_laws = {
+		land_of_entreprenuers = {
 			merchants = 1 # +3
 		}
 		shrewd_commerce_practise = {
@@ -1262,7 +1268,7 @@
 	}
 
 	#Late (1700+)
-	imperialist_ideas = { # 27
+	imperialist_ideas = { # 25
 		category = DIP
 		#Global Empire stuff
 
@@ -1273,18 +1279,19 @@
 		}
 
 		bonus = {
-			unjustified_demands = -1.0 # +4
+			governing_capacity_modifier = 0.1 # +2
+			envoy_travel_time = -0.25
 		}
 		
 		convoys = {
-			sailor_maintenance_modifer = -0.2 # +3
+			transport_hull_size_modifier = 1.0 # +3
 		}
 		imperial_administration = {
-			territories_governing_cost = -0.1 # +3
-			# trade_company_governing_cost = -0.25 # +0
+			territories_governing_cost = -0.1 # +2
+			trade_company_governing_cost = -0.25 # +2
 		}
 		global_trade = {
-			trade_range_modifier = 0.5 # +2
+			trade_range_modifier = 0.5 # +1
 			merchants = 1 # +3
 		}
 		global_navy = {
@@ -1292,12 +1299,12 @@
 			naval_forcelimit_modifier = 0.25 # +2
 		}
 		global_military = {
-			transport_cost = -0.5 # +2
+			sailor_maintenance_modifer = -0.1 # +2
 			free_leader_pool = 1 # +2
 		}
 		global_empire_idea = {
-			global_colonial_growth = 50 # +2
-			range = 0.5 # +1
+			global_colonial_growth = 50 # +1
+			range = 0.5 # +0
 		}
 		direct_rule = {
 			max_absolutism = 20 # +4
@@ -1369,6 +1376,8 @@
 				has_idea_group = naval_ideas
 				has_idea_group = offensive_ideas
 			}
+			NOT = { has_idea_group = capitalist_ideas }
+			NOT = { has_idea_group = procurement_ideas }
 		}
 
 		bonus = {
@@ -1540,6 +1549,7 @@
 
 		bonus = {
 			movement_speed = 0.10
+			movement_speed_in_fleet_modifier = 1
 		}
 
 		supply_trains = {
@@ -1555,7 +1565,8 @@
 			global_supply_limit_modifier = 0.25
 		}
 		stocked_voyages = {
-			naval_attrition = -0.33
+			naval_attrition = -0.25
+			range = 0.25
 		}
 		rest_and_recreation = {
 			reserves_organisation = 0.25
@@ -1756,7 +1767,8 @@
 		#Cheapening Mercs & making them better
 
 		bonus = {
-			possible_condottieri = 1
+			mercenary_discipline = 0.05
+			possible_condottieri = 1 
 		}
 
 		trigger = {
@@ -1764,26 +1776,30 @@
 			adm_tech = 16
 		}
 		
+
 		organised_mercenary_payment = {
-			mercenary_cost = -0.15
+			mercenary_cost = -0.25
 		}
-		hired_leaders = {
-			free_leader_pool = 1
+		war_council = {
+			mil_advisor_cost = -0.25
+			merc_independent_from_trade_range = yes
+		}
+		expanded_contracts = {
+			merc_maintenance_modifier = -0.25
+		}
+		nation_of_war = {
+			mil_tech_cost_modifier = -0.1
 		}
 		benefits_for_mercenaries = {
-			merc_maintenance_modifier = -0.15
+			war_taxes_cost_modifier = -0.5
+			merc_leader_army_tradition = 0.5
 		}
-		organised_mercenary_recruitment = {
-			mercenary_manpower = 0.25
+		seasoned_veterans = {
+			infantry_power = 0.1
 		}
-		elite_mercenaries = {
-			mercenary_discipline = 0.05
-		}
-		hired_garrision = {
-			garrison_size = 0.10
-		}
-		mercenary_integration = {
-			land_forcelimit_modifier = 0.10
+		organised_mercenary_recruitment = { 
+			mercenary_manpower = 0.3
+			allow_mercenary_drill = yes
 		}
 		
 		ai_will_do = {
@@ -1800,12 +1816,13 @@
 		}
 
 		bonus = {
-			ship_durability = 0.1
-			allowed_marine_fraction = 0.05
+			global_naval_barrage_cost = -1
+			disengagement_chance = 0.15
 		}
 
 		boarding_parties = {
 			leader_naval_shock = 1
+			landing_penalty = -1
 		}
 		improved_rams = {
 			galley_power = 0.25
@@ -1816,9 +1833,11 @@
 		}
 		naval_glory = {
 			navy_tradition = 1
+			siege_blockade_progress = 1
 		}
 		press_gangs = {
 			sailors_recovery_speed = 0.25
+			allowed_marine_fraction = 0.25
 		}
 		oak_forests_for_ships = {
 			heavy_ship_power = 0.20
@@ -1895,8 +1914,8 @@
 		shock_and_awe = {
 			artillery_power = 0.10 # +3
 		}
-		professional_army = {
-			yearly_army_professionalism = 0.01 # +3
+		flexible_operations = {
+			possible_mil_policy = 1 # +3
 		}
 		general_staff = {
 			army_tradition = 0.5 # +3
@@ -1967,6 +1986,8 @@
 				has_idea_group = economic_ideas
 				has_idea_group = innovativeness_ideas
 			}
+			NOT = { has_idea_group = geopolitical_ideas }
+			NOT = { has_idea_group = capitalist_ideas }
 		}
 
 		bonus = {

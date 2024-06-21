@@ -55,6 +55,7 @@ steam_age_navy = {
 	naval_maintenance_modifier = 0.33
 	global_naval_barrage_cost = 0.5
 	merchants = 1
+	envoy_travel_time = -0.1
 }
 steel_age_navy = {
 	potential = {
@@ -73,6 +74,7 @@ steel_age_navy = {
 	naval_maintenance_modifier = 0.1
 	global_naval_barrage_cost = 0.25
 	merchants = 1
+	envoy_travel_time = -0.2
 }
 industrial_age_navy = {
 	potential = {
@@ -90,6 +92,7 @@ industrial_age_navy = {
 	global_ship_repair = -0.5
 	naval_forcelimit_modifier = -0.25
 	merchants = 2
+	envoy_travel_time = -0.3
 }
 modern_age_navy = {
 	potential = {
@@ -106,6 +109,7 @@ modern_age_navy = {
 	naval_forcelimit_modifier = -0.4
 	global_naval_barrage_cost = -0.25
 	merchants = 2
+	envoy_travel_time = -0.4
 }
 
 high_bronze_age_administration = {
