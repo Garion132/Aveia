@@ -246,6 +246,23 @@ age_of_calamity  = {
 				factor = 10
 			}
 		}
+		ab_delegated_diplomacy = {
+			modifier = {
+				accept_vassalization_reasons = 5
+				diplomatic_upkeep = 1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_measures_against_corruption = {
+			modifier = {
+				yearly_corruption = -0.15
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
 	
 	}
 	
@@ -271,10 +288,18 @@ age_of_exodus = {
 	
 	objectives = {
 		obj_primary_culture_in_east={
-			kaltros_superregion={
-				culture = root
-				owner={
-					primary_culture = root
+			OR={
+				liglen_superregion={
+					culture = root
+					owner={
+						primary_culture = root
+					}
+				}
+				east_kaltros_superregion={
+					culture = root
+					owner={
+						primary_culture = root
+					}
 				}
 			}
 		}
@@ -609,7 +634,7 @@ age_of_strife = {
 		}
 		ab_naval_engagement = {
 			modifier = {
-				global_naval_engagement = 1
+				global_naval_engagement = 4
 			}
 			ai_will_do = {
 				factor = 10
@@ -758,7 +783,7 @@ age_of_progress = {
 				}
 			}
 		}
-		ab_force_march = {
+		ab_fire_by_rank = {
 			modifier = {
 				max_general_fire = 1
 			}

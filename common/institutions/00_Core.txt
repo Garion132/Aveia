@@ -406,6 +406,7 @@ crop_rotation = {
 		is_year = 1300
 		is_state = yes
 		is_island = no
+		development = 5
 		#OR={
 			bronze_working = 100
 			#iron_working = 100
@@ -1167,7 +1168,7 @@ guedinan_revolution = {
 	start_chance = 5		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.2
+	on_start = institution_events.5
 	
 	
 	
@@ -1334,12 +1335,14 @@ printing_press = {
 			is_capital = yes
 			trade_goods = paper
 		}
-
+		owner = { 
+			has_institution = illuminare 
+		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.4
+	on_start = institution_events.6
 	
 	
 	can_embrace = {
@@ -1542,7 +1545,7 @@ global_trade = {
 	start_chance = 25		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.5
+	on_start = institution_events.7
 	
 	
 	can_embrace = {
@@ -1788,7 +1791,7 @@ air_shipping = {
 	start_chance = 10		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.6
+	on_start = institution_events.8
 	
 	
 	can_embrace = {
@@ -2190,7 +2193,7 @@ industrialization = {
 		global_tax_modifier = 0.1
 	}
 
-	historical_start_date = 1750.1.1
+	historical_start_date = 1700.1.1
 	historical_start_province = 1272 #Lancashire
 
 	history = {
@@ -2248,7 +2251,7 @@ industrialization = {
 	start_chance = 100		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.80
+	on_start = institution_events.9
 	
 	
 	can_embrace = {
@@ -2823,7 +2826,7 @@ enlightenment = {
 
 	trade_company_efficiency = 1.5
 
-	historical_start_date = 1700.1.1
+	historical_start_date = 1750.1.1
 	historical_start_province = 1006 #London
 
 	history = {
@@ -2845,13 +2848,16 @@ enlightenment = {
 			has_building = school
 			has_building = university
 			has_building = research_center
-			
 		}
+		owner = { 
+			has_institution = printing_press 
+		}
+		
 	}
 	start_chance = 10		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.7
+	on_start = institution_events.10
 	
 	
 	can_embrace = {

@@ -1,5 +1,7 @@
 #juilia
 capital = "Accra"
+culture = ehalian
+religion = tradowite
 trade_goods = unknown
 hre = no
 base_tax = 0

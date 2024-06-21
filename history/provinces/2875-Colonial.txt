@@ -1,5 +1,7 @@
 #juilia
 capital = "Accra"
+culture = athaju
+religion = forebearist 
 trade_goods = unknown
 hre = no
 base_tax = 4

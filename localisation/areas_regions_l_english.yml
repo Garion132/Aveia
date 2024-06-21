@@ -175,6 +175,8 @@
  colonial_shield: "Colonial Shield"
  colonial_tilvena: "Colonial Tilvena"
  colonial_icewatch: "Colonial Icewatch"
+ liglen_superregion: "West Kaltros"
+ east_kaltros_superregion: "East Kaltros"
 
  state:0 ""
  state_name:0 ""

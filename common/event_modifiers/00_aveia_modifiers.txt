@@ -745,7 +745,7 @@ estate_church_monopoly_of_bronze_mod = {
 		trade_goods_size = 5
 	}
 #
-#New instituions
+#Institution Birthplaces
 	birthplace_of_crop_rotation = {
 		trade_goods_size = 0.5
 	}
@@ -755,9 +755,40 @@ estate_church_monopoly_of_bronze_mod = {
 	birthplace_of_illuminare = {
 		idea_cost = -0.05
 	}
+
+	birthplace_of_the_new_world = {
+		province_trade_power_value = 5
+	}
+	
 	birthplace_of_the_guedinan_revolution = {
 		fire_damage = 0.10
 	}
+
+	birthplace_of_printing_press = {
+		local_institution_spread = 0.1
+	}
+
+	birthplace_of_global_trade = {
+		province_trade_power_modifier = 0.1
+	}
+
+	birthplace_of_air_shipping = {
+		trade_goods_size = 0.5
+	}
+	
+	birthplace_of_industrialization = {
+		allowed_num_of_buildings = 1
+	}
+
+	birthplace_of_byrinifaction = {
+		local_autonomy = -0.05
+	}
+
+	
+	
+	
+	
+#
 	crown_of_iron = {
 		legitimacy = 2
 		stability_cost_modifier = -0.5

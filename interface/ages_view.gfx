@@ -80,6 +80,11 @@ spriteTypes = {
 		name = "GFX_age_of_exodus"
 		texturefile = "gfx/interface/ages/age_of_exodus.dds"
 	}
+	spriteType = {
+		name = "GFX_age_of_strife"
+		texturefile = "gfx/interface/ages/age_of_revolutions.dds"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_age_can_unlock"
@@ -302,6 +307,27 @@ spriteTypes = {
 		name = "GFX_obj_many_vassals"		
 		texturefile = "gfx/interface/ages/obj_many_vassals.dds"
 	}
+	spriteType = {
+		name = "GFX_obj_experienced_army"		
+		texturefile = "gfx/interface/ages/obj_experienced_army.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_slave_holdings"		
+		texturefile = "gfx/interface/ages/obj_slave_holdings.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_grand_state"		
+		texturefile = "gfx/interface/ages/obj_grand_state.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_magical_materials"		
+		texturefile = "gfx/interface/ages/obj_magical_materials.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_large_forcelimit_300"		
+		texturefile = "gfx/interface/ages/obj_large_forcelimit.dds"
+	}
+	
 
 
 
@@ -476,6 +502,10 @@ spriteTypes = {
 		name = "GFX_ab_bronze_age_drill"
 		texturefile = "gfx/interface/ages/ab_bronze_age_drill.dds"
 	}
+	spriteType = {
+		name = "GFX_ab_established_castles"
+		texturefile = "gfx/interface/ages/ab_established_castles.dds"
+	}
 
 
 	
@@ -508,6 +538,11 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_ab_colony_boost_development"
+		texturefile = "gfx/interface/ages/ab_colony_boost_development.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ab_colony_boost_development_2"
 		texturefile = "gfx/interface/ages/ab_colony_boost_development.dds"
 	}
 	
@@ -657,6 +692,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ab_manchu_banner.dds"
 	}	
 	
+	spriteType = {
+		name = "GFX_ab_fire_by_rank"
+		texturefile = "gfx/interface/ages/ab_fire_by_rank.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_naval_engagement"
+		texturefile = "gfx/interface/ages/ab_naval_engagement.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_great_fleet"
+		texturefile = "gfx/interface/ages/ab_great_fleet.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_air_routes"
+		texturefile = "gfx/interface/ages/ab_air_routes.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_delegated_diplomacy"
+		texturefile = "gfx/interface/ages/ab_delegated_diplomacy.dds"
+	}
 
 	
 	# Age of Revolutions Abilities
