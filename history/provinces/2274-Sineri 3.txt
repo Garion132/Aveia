@@ -3,11 +3,11 @@ latent_trade_goods = {
 	iron
 }
 
-add_core = SIN
-owner = SIN
-controller = SIN
-culture = siniersi
-religion = tlaunorist
+add_core = SLS
+owner = SLS
+controller = SLS
+culture = belfos
+religion = suhar
 hre = no
 base_tax = 2
 base_production =3

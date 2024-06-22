@@ -1,6 +1,9 @@
 #Brightcoast
+add_core = TLN
+owner = TLN
+controller = TLN
 culture = thilranan
-religion = shamanism #Fetishism
+religion = suhar
 capital = "colonial"
 trade_goods = naval_supplies
 hre = no

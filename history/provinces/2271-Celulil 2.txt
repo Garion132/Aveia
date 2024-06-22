@@ -1,8 +1,8 @@
 #Yerina 
 
-add_core = CEL
-owner = CEL
-controller = CEL
+add_core = SIN
+owner = SIN
+controller = SIN
 culture = siniersi
 religion = tlaunorist
 hre = no

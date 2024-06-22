@@ -1,11 +1,11 @@
 #Yerina 
 
-add_core = NTH
-owner = NTH
-controller = NTH
-culture = nathioan
-religion = shamanism
-hre = yes
+add_core = THI
+owner = THI
+controller = THI
+culture = thilranan
+religion = suhar
+hre = no
 base_tax = 2
 base_production =1
 base_manpower = 2

@@ -1,11 +1,10 @@
 #Yerina 
-
-add_core = FAN
-owner = FAN
-controller = FAN
+add_core = HAN
+owner = HAN
+controller = HAN
 culture = liret
-religion = vulikivite
-hre = yes
+religion = suhar
+hre = no
 base_tax = 2
 base_production =3
 base_manpower = 4

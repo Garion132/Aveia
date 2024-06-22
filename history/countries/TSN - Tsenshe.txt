@@ -5,7 +5,7 @@ primary_culture = rake
 add_accepted_culture = krasolik
 religion = vulikivite
 technology_group = northern_drake_group
-capital = 1535 # 
+capital = 2245 # 
 #national_focus = DIP
 #historical_rival = HAB
 

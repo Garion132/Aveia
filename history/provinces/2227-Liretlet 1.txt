@@ -1,8 +1,8 @@
 #Yerina 
-
 add_core = LIR
-owner = LIR
-controller = LIR
+add_core = TSE
+owner = TSE
+controller = TSE
 culture = liret
 religion = vulikivite
 hre = yes

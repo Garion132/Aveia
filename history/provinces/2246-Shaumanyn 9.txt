@@ -1,9 +1,9 @@
 #Yerina 
 
-add_core = SHU
-owner = SHU
-controller = SHU
-culture = nathioan
+add_core = ZRV
+owner = ZRV
+controller = ZRV
+culture = vealam
 religion = vulikivite
 hre = yes
 base_tax = 2

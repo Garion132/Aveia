@@ -3,8 +3,11 @@ latent_trade_goods = {
 	iron
 }
 
-culture = thilranan
-religion = shamanism #Fetishism
+add_core = THL
+owner = THL
+controller = THL
+culture = siniersi
+religion = tlaunorist
 capital = "colonial"
 trade_goods = fish
 hre = no

@@ -1,11 +1,9 @@
 #Yerina 
-
-add_core = FAN
-owner = FAN
-controller = FAN
-culture = liret
-religion = vulikivite
-hre = yes
+add_core = MLL
+owner = MLL
+controller = MLL
+culture = siniersi
+religion = tlaunorist
 base_tax = 2
 base_production =2
 base_manpower = 3

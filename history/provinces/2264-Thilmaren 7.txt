@@ -1,8 +1,8 @@
 #Yerina 
 
-add_core = THI
-owner = THI
-controller = THI
+add_core = ASF
+owner = ASF
+controller = ASF
 culture = siniersi
 religion = tlaunorist
 hre = no

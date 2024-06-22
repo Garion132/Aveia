@@ -1,9 +1,9 @@
 #Yerina 
-
 add_core = LIR
-owner = LIR
-controller = LIR
-culture = liret
+add_core = ACE
+owner = ACE
+controller = ACE
+culture = krasolik
 religion = vulikivite
 hre = yes
 base_tax = 2

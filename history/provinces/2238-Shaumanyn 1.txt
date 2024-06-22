@@ -1,11 +1,10 @@
 #Yerina 
-
-add_core = SHU
-owner = SHU
-controller = SHU
+add_core = FLN
+owner = FLN
+controller = FLN
 culture = liret
-religion = vulikivite
-hre = yes
+religion = suhar
+hre = no
 base_tax = 3
 base_production =4
 base_manpower = 3

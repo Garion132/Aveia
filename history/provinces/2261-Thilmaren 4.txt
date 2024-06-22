@@ -1,8 +1,7 @@
 #Yerina 
-
-add_core = THI
-owner = THI
-controller = THI
+add_core = OLE
+owner = OLE
+controller = OLE
 culture = siniersi
 religion = tlaunorist
 hre = no

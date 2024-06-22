@@ -1,11 +1,10 @@
 #Yerina 
-
-add_core = NTH
-owner = NTH
-controller = NTH
+add_core = CLN
+owner = CLN
+controller = CLN
 culture = nathioan
-religion = vulikivite
-hre = yes
+religion = suhar
+hre = no
 base_tax = 2
 base_production =3
 base_manpower = 2

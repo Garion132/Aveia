@@ -1,10 +1,9 @@
 #Yerina 
-
-add_core = ASF
-owner = ASF
-controller = ASF
-culture = siniersi
-religion = tlaunorist
+add_core = SLZ
+owner = SLZ
+controller = SLZ
+culture = belfos
+religion = suhar
 hre = no
 base_tax = 2
 base_production =2

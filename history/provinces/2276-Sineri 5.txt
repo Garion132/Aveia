@@ -1,10 +1,9 @@
 #Yerina 
-
-add_core = SIN
-owner = SIN
-controller = SIN
+add_core = SLS
+owner = SLS
+controller = SLS
 culture = belfos
-religion = tlaunorist
+religion = suhar
 hre = no
 base_tax = 1
 base_production =2

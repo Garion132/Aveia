@@ -402,3 +402,53 @@ dependency = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
+
+dependency = {
+	subject_type = "tributary_state"
+	first = SIN
+	second = ASF
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = SIN
+	second = CEL
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = SIN
+	second = PLS
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = SIN
+	second = TSP
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = SIN
+	second = OLE
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = SIN
+	second = CHL
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = TUI
+	second = TOU
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}

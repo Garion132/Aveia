@@ -3,12 +3,11 @@ latent_trade_goods = {
 	iron
 }
 
-
-add_core = BRI
-owner = BRI
-controller = BRI
+add_core = CLM
+owner = CLM
+controller = CLM
 culture = belfos
-religion = tlaunorist
+religion = suhar
 hre = no
 base_tax = 4
 base_production =4

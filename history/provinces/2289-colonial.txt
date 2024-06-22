@@ -2,8 +2,11 @@
 latent_trade_goods = {
 	coal
 }
+add_core = THL
+owner = THL
+controller = THL
 culture = thilranan
-religion = shamanism #Fetishism
+religion = suhar
 capital = "colonial"
 trade_goods = silver
 hre = no

@@ -1,8 +1,7 @@
 #Yerina 
-
-add_core = BRI
-owner = BRI
-controller = BRI
+add_core = KYR
+owner = KYR
+controller = KYR
 culture = siniersi
 religion = tlaunorist
 hre = no

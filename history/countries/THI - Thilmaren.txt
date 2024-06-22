@@ -1,9 +1,9 @@
-government = bronze_league
-add_government_reform = league_of_cities_reform
+government = bronze_monarchy
+add_government_reform = palace_economy
 government_rank = 1
-primary_culture = siniersi
+primary_culture = thilranan
 religion = tlaunorist
-technology_group = lake_elves_group
+technology_group = free_kolbolds_group
 capital = 2262 # 
 #national_focus = DIP
 #historical_rival = HAB

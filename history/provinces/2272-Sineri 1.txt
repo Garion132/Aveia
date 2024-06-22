@@ -1,10 +1,9 @@
 #Yerina 
-
-add_core = SIN
-owner = SIN
-controller = SIN
-culture = siniersi
-religion = tlaunorist
+add_core = SLZ
+owner = SLZ
+controller = SLZ
+culture = belfos
+religion = suhar
 hre = no
 base_tax = 1
 base_production =2

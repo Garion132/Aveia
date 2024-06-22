@@ -1,8 +1,8 @@
 #Yerina 
-
-add_core = SHU
-owner = SHU
-controller = SHU
+add_core = CLT
+add_core = TSN
+owner = TSN
+controller = TSN
 culture = liret
 religion = vulikivite
 hre = yes
@@ -19,4 +19,3 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-center_of_trade = 1

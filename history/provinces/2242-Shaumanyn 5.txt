@@ -2,13 +2,12 @@
 latent_trade_goods = {
 	iron
 }
-
-add_core = SHU
-owner = SHU
-controller = SHU
+add_core = CLT
+owner = CLT
+controller = CLT
 culture = liret
-religion = vulikivite
-hre = yes
+religion = suhar
+hre = no
 base_tax = 2
 base_production =3
 base_manpower = 1

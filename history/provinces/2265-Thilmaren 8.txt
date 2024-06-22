@@ -1,10 +1,10 @@
 #Yerina 
 
-add_core = THI
-owner = THI
-controller = THI
-culture = siniersi
-religion = tlaunorist
+add_core = BRI
+owner = BRI
+controller = BRI
+culture = belfos
+religion = suhar
 hre = no
 base_tax = 3
 base_production =3

@@ -4,10 +4,10 @@ latent_trade_goods = {
 }
 
 
-add_core = FAN
-owner = FAN
-controller = FAN
-culture = liret
+add_core = VRI
+owner = VRI
+controller = VRI
+culture = vulikivian
 religion = vulikivite
 hre = yes
 base_tax = 4

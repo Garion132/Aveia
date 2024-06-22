@@ -1,9 +1,8 @@
 #Yerina 
-
-add_core = BRI
-owner = BRI
-controller = BRI
-culture = siniersi
+add_core = DLT
+owner = DLT
+controller = DLT
+culture = belfos
 religion = tlaunorist
 hre = no
 base_tax = 4

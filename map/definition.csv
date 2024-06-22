@@ -5227,7 +5227,7 @@ province;red;green;blue;x;x
 5226;211;169;78;Gulban Desert;x#viatite hills
 5227;209;204;112;Gulban Desert;x
 5228;209;169;69;Gulban Desert;x
-5229;209;191;54;Gulban Desert;x
+5229;84;95;102;Gulban Desert;x
 5230;122;155;127;Gulban Desert;x#couple of extra viatite provs
 5231;147;153;126;Gulban Desert;x
 5232;227;232;199;Gulban Desert;x
@@ -5453,7 +5453,7 @@ province;red;green;blue;x;x
 5452;137;181;138;valkator;x
 5453;146;77;181;valkator;x
 5454;181;61;69;valkator;x
-5455;115;144;181;valkator;x
+5455;142;49;110;valkator;x
 5456;181;98;76;valkator;x
 5457;135;181;132;valkator;x
 5458;181;110;97;valkator;x
@@ -5642,7 +5642,7 @@ province;red;green;blue;x;x
 5641;124;72;51;Athanila;x
 5642;124;123;121;Athanila;x
 5643;119;124;54;Athanila;x
-5644;124;98;80;Athanila;x
+5644;74;142;116;Athanila;x
 5645;124;87;123;Athanila;x
 5646;255;109;99;Athanila;x
 5647;145;255;154;Athanila;x
@@ -5661,3 +5661,55 @@ province;red;green;blue;x;x
 5660;90;158;95;Athanila;x
 5661;158;80;85;Athanila;x
 5662;147;158;116;Athanila;x
+5663;119;85;64;Thilrana;x###
+5664;89;119;103;Thilrana;x
+5665;89;77;119;Thilrana;x
+5666;94;119;119;Thilrana;x
+5667;119;59;50;Thilrana;x
+5668;106;119;68;Thilrana;x
+5669;76;69;119;Thilrana;x
+5670;181;74;104;Thilrana;x
+5671;115;105;181;Thilrana;x
+5672;181;10;22;Thilrana;x
+5673;158;181;155;Thilrana;x
+5674;181;79;56;Thilrana;x
+5675;181;97;164;Thilrana;x
+5676;116;144;181;Thilrana;x
+5677;181;79;110;Thilrana;x
+5678;163;115;181;Thilrana;x
+5679;144;179;181;Thilrana;x
+5680;181;77;77;Thilrana;x
+5681;161;124;181;Thilrana;x
+5682;181;101;85;Thilrana;x
+5683;86;181;181;Thilrana;x
+5684;90;150;145;Thilrana;x
+5685;150;122;84;Thilrana;x
+5686;123;132;150;Thilrana;x
+5687;175;114;59;Thilrana;x
+5688;162;188;239;Thilrana;x
+5689;239;93;122;Thilrana;x
+5690;124;239;210;Thilrana;x
+5691;239;129;107;Thilrana;x
+5692;172;239;228;Thilrana;x
+5693;213;167;239;Thilrana;x
+5694;239;104;55;Thilrana;x
+5695;141;239;177;Thilrana;x
+5696;134;93;239;Thilrana;x
+5697;239;105;147;Thilrana;x
+5698;181;76;132;Thilrana;x
+5699;117;166;181;Thilrana;x
+5700;181;92;138;Thilrana;x
+5701;115;181;123;Thilrana;x
+5702;181;65;152;Thilrana;x
+5703;112;138;181;Thilrana;x
+5704;133;181;132;Thilrana;x
+5705;117;129;181;Thilrana;x
+5706;143;181;106;Thilrana;x
+5707;181;130;132;Thilrana;x
+5708;181;57;176;Thilrana;x
+5709;181;64;47;Thilrana;x
+5710;132;181;150;Thilrana;x
+5711;134;181;114;Thilrana;x
+5712;183;104;144;Thilrana;x
+5713;56;39;234;Thilrana;x
+5714;152;191;209;Thilrana;x
