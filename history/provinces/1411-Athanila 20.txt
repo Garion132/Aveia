@@ -3,7 +3,7 @@
 add_core = RYO
 owner = RYO
 controller = RYO
-culture = athanek
+culture = athan
 religion = tlaunorist
 hre = no
 base_tax = 0
