@@ -4,7 +4,7 @@ latent_trade_goods = {
 }
 
 add_core = ATH
-add_core = ANT
+add_core = AUT
 owner = ATH
 controller = ATH
 culture = athanilan

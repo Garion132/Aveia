@@ -1,10 +1,10 @@
 #Athanila
 
 add_core = ATH
-add_core = UNU
+add_core = WLA
 owner = ATH
 controller = ATH
-culture = unolaan
+culture = wlariquar
 religion = tlaunorist
 hre = no
 
