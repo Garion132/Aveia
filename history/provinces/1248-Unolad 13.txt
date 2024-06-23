@@ -3,7 +3,7 @@
 add_core = UNO
 owner = UNO
 controller = UNO
-culture = wlariquar
+culture = unolaan
 religion = tlaunorist
 hre = no
 base_tax = 0
