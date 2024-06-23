@@ -1,6 +1,7 @@
 #Dreghei
 
 add_core = DRG
+add_core = AUT
 owner = DRG
 controller = DRG
 culture = anthyrian

@@ -21,4 +21,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 set_variable = { which = arable_land value = 7 }
-center_of_trade = 1
+center_of_trade = 2
