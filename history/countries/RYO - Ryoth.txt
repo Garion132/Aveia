@@ -3,6 +3,7 @@ add_government_reform = league_of_cities_reform
 primary_culture = unolaan
 religion = tlaunorist
 technology_group = dunirr_group
+government_rank = 1
 capital = 5643 #
 national_focus = DIP
 historical_rival = ZNT

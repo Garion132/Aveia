@@ -838,6 +838,7 @@ bronze_league = {
 		feudalism_vs_autocracy = {
 			reforms = {
 				league_of_cities_reform
+				ba_pirate_republic_reform
 			}
 		}
 		city_rights = {

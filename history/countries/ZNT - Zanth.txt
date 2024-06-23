@@ -1,8 +1,9 @@
 government = bronze_league
-add_government_reform = league_of_cities_reform
+add_government_reform = ba_pirate_republic_reform
 primary_culture = unolaan
 religion = tlaunorist
 technology_group = dunirr_group
+government_rank = 1
 capital = 5642 # 
 national_focus = MIL
 historical_rival = ATH
