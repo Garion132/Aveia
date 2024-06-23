@@ -39,6 +39,7 @@ iron_republic_mechanic = {
 ####
 #gov types
 ###
+#Monarchy
 ia_deligated_monarchy = {
 	# government mechanics flags go here
 	icon = "paper_with_seal"
@@ -47,6 +48,9 @@ ia_deligated_monarchy = {
 	valid_for_new_country = yes
 	valid_for_nation_designer = no
 	monarchy = yes
+	potential={
+		NOT={have_had_reform = dragonic_throne_reform}
+	}
 	modifiers = {
 		governing_capacity = 75#iron age gives a larger gov
 		global_autonomy = -0.05
@@ -72,6 +76,9 @@ ia_co_ruling_monarchy = {
 	valid_for_new_country = yes
 	valid_for_nation_designer = no
 	monarchy = yes
+	potential={
+		NOT={have_had_reform = dragonic_throne_reform}
+	}
 	modifiers = {
 		governing_capacity = 75#iron age gives a larger gov
 		heir_chance = 0.25
@@ -108,7 +115,12 @@ ia_god_king = {
 		
 	}
 	potential = {
-		#has_country_flag = pre_ia_state
+		OR={
+			have_had_reform = palace_economy
+			have_had_reform = kyathian_council_reform
+			have_had_reform = rauosuan_hegemony_reform
+		}
+		NOT={have_had_reform = dragonic_throne_reform}
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -155,8 +167,30 @@ ia_ghandian_horde = {
 		locked_government_type = yes
 	}
 }
+ia_dragonic_throne_reform = {
+	potential = {
+		primary_culture = rake
+		OR={
+			have_had_reform = ia_dragonic_throne_reform
+			have_had_reform = dragonic_throne_reform
+		}
+	}
 
+	modifiers = {
+		governing_capacity = 85
+		global_autonomy = -0.05
+		num_accepted_cultures = 2
+	}
+	rulers_can_be_generals = no
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "parliament_hall"
+	allow_normal_conversion = yes
+	legacy_equivalent = dragonic_throne
+	allow_convert = no
+}
 
+#Republic
 ia_lumian_patricanate= {
 	icon = "people_walking"
 	allow_normal_conversion = yes
@@ -209,7 +243,7 @@ ia_lumian_patricanate= {
 	}
 	
 	ai = {
-		factor = 0.0 #
+		factor = 10.0 #
 	}
 }
 ia_city_state= {
@@ -292,7 +326,6 @@ ia_princely_republic= {
 		factor = 0.5 #generic
 	}
 }
-
 ia_trading_company= {
 	icon = "people_walking"
 	allow_normal_conversion = yes

@@ -752,6 +752,7 @@ mannish_tribal = {
 			reforms = {
 				donamenz_chiefdom_reform
 				iron_crown_reform
+				take_this_to_switch_reform
 			}
 		}
 		expansion_path={

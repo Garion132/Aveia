@@ -36,6 +36,459 @@ bronze_league_mechanic = {
 	valid_for_nation_designer = no
 }
 
+####################################
+#
+#bronze age governments
+#
+####################################
+###leagues
+league_of_cities = {
+	# government mechanics flags go here
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	duration = 4
+
+	republican_name = yes
+	royal_marriage = yes
+	can_form_trade_league = yes
+
+	republic = yes
+	modifiers = {
+		tolerance_heretic = 1
+		land_morale = 0.1
+		max_absolutism = -40
+	}
+
+	ai = {
+		factor = 0
+	}
+}
+league_of_cities_reform = {
+	# government mechanics flags go here
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	legacy_equivalent = league_of_cities
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	duration = 4
+
+	republican_name = yes
+	royal_marriage = yes
+	can_form_trade_league = yes
+
+	republic = yes
+	modifiers = {
+		tolerance_heretic = 1
+		land_morale = 0.1
+		max_absolutism = -40
+	}
+
+	ai = {
+		factor = 0
+	}
+}
+ba_pirate_republic_reform = {
+	icon = "pirate_republic"
+	allow_normal_conversion = no
+	legacy_equivalent = pirate_republic
+	lock_level_when_selected = yes
+	modifiers = {
+		republican_tradition = -1
+		max_absolutism = 10
+		naval_forcelimit_modifier = 0.5
+		capture_ship_chance = 0.33
+		state_governing_cost = 0.75
+		may_perform_slave_raid_on_same_religion = yes
+		allowed_marine_fraction = 0.5
+		coast_raid_range = -2
+	}
+	trigger = {
+		OR = {
+			has_government_attribute = is_pirate_republic_reform
+			crown_stronger_than_estate = { estate = all }
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	can_form_trade_league = no
+	
+	nation_designer_trigger = {
+		OR = {
+			has_dlc = "Lions of the North"
+			has_dlc = "Golden Century"
+		}
+		capital_scope = {
+			has_port = yes
+			OR = {
+				province_is_on_an_island = yes
+				tag = ZNT
+			}
+		}
+	}
+
+	removed_effect = {
+		clr_country_flag = pirate_mutineer_council
+	}
+	
+	potential = {
+		has_reform = ba_pirate_republic_reform
+		OR = {
+			has_dlc = "Lions of the North"
+			has_dlc = "Golden Century"
+		}
+	}
+	
+	factions_frame = 9
+	factions = {
+		pr_buccaneers
+		pr_smugglers
+		pr_captains
+	}
+	
+	duration = 4
+	
+	custom_attributes = {
+		locked_government_type = yes
+		force_admiral_leader = yes
+		is_pirate_republic_reform = yes
+		elections_increase_factions_influence = yes
+		cannot_become_dictatorship = yes
+	}
+	
+}
+###monarchy
+palace_economy = {
+	# government mechanics flags go here
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	monarchy = yes
+	modifiers = {
+		production_efficiency = 0.1
+		global_tax_modifier = 0.05
+		global_autonomy = -0.025
+	}
+	government_abilities = {
+		monumentality_mechanic
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}
+
+oayvein_grand_dutchy_legacy = {
+	# government mechanics flags go here
+	icon = "crown"
+	legacy_government = yes
+	monarchy = yes
+	allow_normal_conversion = no
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 5
+	nation_designer_trigger = {
+		always = no
+	}
+	government_abilities = {
+		monumentality_mechanic
+	}
+
+    fixed_rank = 1
+	modifiers = {
+		governing_capacity = 150
+		global_unrest = -1
+		global_tax_modifier = 0.05
+	}
+
+	ai = {
+		factor = 5
+	}
+}
+oayvein_grand_dutchy_reform = {
+	potential = {
+		tag = OAY
+	}
+
+	modifiers = {
+		governing_capacity = 150
+		global_unrest = -1
+		global_tax_modifier = 0.05
+	}
+	government_abilities = {
+		monumentality_mechanic
+	}
+	fixed_rank = 1
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "crown"
+	allow_normal_conversion = no
+	legacy_equivalent = oayvein_grand_dutchy_legacy
+	allow_convert = no
+}
+
+dragonic_throne = {
+	# government mechanics flags go here
+	icon = "parliament_hall"
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	modifiers = {
+    	governing_capacity = 60
+		global_autonomy = -0.05
+		num_accepted_cultures = 2
+	}
+	# potential = {
+		# primary_culture = rake
+	# }
+	rulers_can_be_generals = no
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}
+dragonic_throne_reform = {
+	potential = {
+		primary_culture = rake
+	}
+
+	modifiers = {
+		governing_capacity = 60
+		global_autonomy = -0.05
+		num_accepted_cultures = 2
+	}
+	rulers_can_be_generals = no
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "parliament_hall"
+	allow_normal_conversion = yes
+	legacy_equivalent = dragonic_throne
+	allow_convert = no
+}
+
+kyathian_council = {
+	# government mechanics flags go here
+	icon = "castle"
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	modifiers = {
+		global_manpower_modifier = 0.1
+		vassal_income = 0.5
+		diplomatic_annexation_cost = 0.25
+		nobles_influence_modifier = 0.05
+		church_influence_modifier = 0.05
+		burghers_influence_modifier = -0.05
+	}
+	government_abilities = {
+		monumentality_mechanic
+		nalean_contract_mechanic
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+kyathian_council_reform = {
+	potential = {
+		tag = KYA
+	}
+
+	modifiers = {
+		global_manpower_modifier = 0.1
+		vassal_income = 0.5
+		diplomatic_annexation_cost = 0.25
+		nobles_influence_modifier = 0.05
+		church_influence_modifier = 0.05
+		burghers_influence_modifier = -0.05
+	}
+	government_abilities = {
+		monumentality_mechanic
+		nalean_contract_mechanic
+	}
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "castle"
+	allow_normal_conversion = yes
+	legacy_equivalent = kyathian_council
+	allow_convert = yes
+	lock_level_when_selected = yes
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+rauosuan_hegemony = {
+	# government mechanics flags go here
+	icon = "castle"
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	allow_force_tributary = yes
+	modifiers = {
+		prestige = 0.5
+		church_influence_modifier = -0.1
+		nobles_influence_modifier = -0.1
+		burghers_influence_modifier = -0.1
+		governing_capacity = 150
+	}
+	government_abilities = {
+		monumentality_mechanic
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+rauosuan_hegemony_reform = {
+	potential = {
+		tag = RAU
+	}
+	
+	lock_level_when_selected = yes
+	fixed_rank = 3
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "castle"
+	allow_normal_conversion = yes
+	legacy_equivalent = rauosuan_hegemony
+	allow_convert = yes
+	allow_force_tributary = yes
+	modifiers = {
+		prestige = 0.5
+		church_influence_modifier = -0.1
+		burghers_influence_modifier = -0.1
+		governing_capacity = 150
+	}
+	government_abilities = {
+		monumentality_mechanic
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+faun_confederation = {
+	# government mechanics flags go here
+	icon = "castle"
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	allow_force_tributary = yes
+	native_mechanic = yes
+	modifiers = {
+		prestige = 0.5
+		church_influence_modifier = -0.1
+		nobles_influence_modifier = -0.1
+		burghers_influence_modifier = -0.1
+		governing_capacity = 300
+	}
+	government_abilities = {
+		monumentality_mechanic
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+faun_confederation_reform = {
+	potential = {
+		primary_culture = shireate
+	}
+
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	legacy_equivalent = faun_confederation
+	monarchy = yes
+	modifiers = {
+		production_efficiency = 0.1
+		global_tax_modifier = 0.05
+		global_autonomy = -0.025
+	}
+	government_abilities = {
+		monumentality_mechanic
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}
+
 #Temple Rights:
 
 holy_clerks_reform = {

@@ -61,3 +61,92 @@ mannish_tribal_reform = {
 	}
 	valid_for_nation_designer = no
 }
+
+
+###
+donamenz_chiefdom_reform = {
+	# government mechanics flags go here
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	monarchy = yes
+	modifiers = {
+    	governing_capacity = 150
+		development_cost = 0.7
+		land_forcelimit = 10
+		global_manpower = 10
+	}
+	potential = {
+		culture_group = humans
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}
+iron_crown_reform = {
+	# government mechanics flags go here
+	potential = {
+		tag = GGD
+	}
+	icon = "paper_with_seal"
+	allow_normal_conversion = no
+	allow_convert = no
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	monarchy = yes
+	modifiers = {
+    	governing_capacity = 300
+		development_cost = 0.5
+		land_forcelimit = 20
+		global_manpower = 20
+		manpower_recovery_speed = 0.25
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}
+take_this_to_switch_reform = {
+	# government mechanics flags go here
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	monarchy = yes
+	potential = {
+		NOT={ culture_group = humans }
+	}
+	effect = {
+		change_government = bronze_monarchy
+	}
+	ai = {
+		factor = 100
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}

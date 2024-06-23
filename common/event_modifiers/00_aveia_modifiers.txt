@@ -559,7 +559,6 @@ estate_church_monopoly_of_bronze_mod = {
 	
 	
 	THL_liberating_thilrana = {
-		may_establish_frontier = yes
 		infantry_cost = -0.25
 		global_unrest = -2
 	}
