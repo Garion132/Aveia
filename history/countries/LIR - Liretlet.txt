@@ -1,10 +1,9 @@
 government = bronze_monarchy
 add_government_reform = dragonic_throne_reform
 government_rank = 1
-primary_culture = rake
-add_accepted_culture = liret
-religion = vulikivite
-technology_group = northern_drake_group
+primary_culture = liret
+religion = suhar
+technology_group = free_kolbolds_group
 capital = 2228 # 
 #national_focus = DIP
 #historical_rival = HAB

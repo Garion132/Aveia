@@ -1,4 +1,5 @@
-government = pirate_government
+government = bronze_league
+add_government_reform = league_of_cities_reform
 primary_culture = unolaan
 religion = tlaunorist
 technology_group = dunirr_group

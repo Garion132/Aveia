@@ -336,6 +336,7 @@ dragonic_throne = {
 	# potential = {
 		# primary_culture = rake
 	# }
+	rulers_can_be_generals = no
 	ai = {
 		factor = 1
 		modifier = {
@@ -358,6 +359,7 @@ dragonic_throne_reform = {
 		global_autonomy = -0.05
 		num_accepted_cultures = 2
 	}
+	rulers_can_be_generals = no
 	monarchy = yes
 	valid_for_nation_designer = no
 	icon = "parliament_hall"
