@@ -1,7 +1,7 @@
 #Athanila
 
 add_core = ATH
-add_core = AUT
+add_core = ATN
 owner = ATH
 controller = ATH
 culture = anthan
