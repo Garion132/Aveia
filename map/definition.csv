@@ -1412,9 +1412,9 @@ province;red;green;blue;x;x
 1411;55;102;51;Great Barrier Reef;x
 1412;102;45;37;Capricorn Bay;x
 1413;37;102;52;Cape Howe;x
-1414;102;95;28;Bass Strait;x#
+1414;102;95;29;Bass Strait;x#
 1415;145;91;15;Kangaroo Island;x
-1416;114;145;90;Great Australian Bight;x
+1416;114;145;91;Great Australian Bight;x
 1417;145;37;53;Cape Leuwiin;x
 1418;85;126;145;Shark Bay;x
 1419;130;145;47;Northwest Cape;x#
@@ -5713,3 +5713,5 @@ province;red;green;blue;x;x
 5712;183;104;144;Thilrana;x
 5713;56;39;234;Thilrana;x
 5714;152;191;209;Thilrana;x
+5715;65;169;127;ImpassableAnthanila;x
+5716;65;169;129;ImpassableAnthanila;x

@@ -79,7 +79,11 @@ dreghei_region = {
 		unolad_2 unolad_3 onebelho_1 onebelho_2 onebelho_3 dreghei_1 dreghei_2 dreghei_3 dreghei_4 dreghei_5
 		dreghei_6 dreghei_7 dreghei_8 dreghei_9 dreghei_10 dreghei_11 ryamyueg_1 ryamyueg_2 ryamyueg_3 ryamyueg_4 ryamyueg_5
 		beriksarya_1 beriksarya_2 beriksarya_3 ertin_area boluroya_1 boluroya_2 boluroya_3 boluroya_4 boluroya_5 lower_beycu
-		upper_beycu athanila_1 athanila_2 athanila_3 athanila_4 athanila_5 athanila_6 athanila_7 athanila_8 athanila_9
+		upper_beycu 
+
+		athanek_area mrentale_area cinderbyr_bay_area cindervyr_coast_area wlariquaron_area abrolhos_area ryoth_area
+		nimyalak_area arafyr_area unoeug_area authyr_cliffs_area authyr_area authyr_marshes_area
+
 	}
 }
 craine_islands = {  #includes kafethyr
@@ -91,11 +95,13 @@ craine_islands = {  #includes kafethyr
 }
 chaunluma_region = { 
 	areas = { 
-		inzedia_1 inzedia_2 inzedia_3 inzedia_4 lurlesy neanatha_1 neanatha_2 neanatha_3 neanatha_4 neanatha_5
+		inzedia_2 inzedia_3 inzedia_4 lurlesy neanatha_1 neanatha_2 neanatha_3 neanatha_4 neanatha_5
 		neanatha_6 neanatha_7 neanatha_8 neanatha_9 neanatha_10 neanatha_11 neanatha_12 beshek reylanlya_1 reylanlya_2
 		reylanlya_3 reylanlya_4 reylanlya_5 reylanlya_6 sohoremyfa_1 sohoremyfa_2 sohoremyfa_3 sohoremyfa_4 sohoremyfa_5 umalesy_1
 		umalesy_2 umalesy_3 umalesy_4 matn_2 matn_3 rauma_1 rauma_2 isesiralne_1 isesiralne_2 isesiralne_3
 		elhera 
+
+		sahloresi_area dynlu_area
 	}
 }
 great_ziyalap_region = { 

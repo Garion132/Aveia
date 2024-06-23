@@ -1,0 +1,22 @@
+
+add_core = ATH
+owner = ATH
+controller = ATH
+culture = athanilan
+religion = tlaunorist
+hre = no
+base_tax = 2
+base_production = 6
+base_manpower = 2
+trade_goods = fish
+capital = "Old Elnorei"
+is_city = yes
+discovered_by = lake_elves_group
+discovered_by = northern_drake_group
+discovered_by = free_kolbolds_group
+discovered_by = sea_elves_group
+discovered_by = ork_group
+discovered_by = dunirr_group
+extra_cost = 0
+center_of_trade = 1
+port = yes

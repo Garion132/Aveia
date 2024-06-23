@@ -1,6 +1,7 @@
 #Athanila
 
 add_core = ATH
+add_core = KAB
 owner = ATH
 controller = ATH
 culture = anthan

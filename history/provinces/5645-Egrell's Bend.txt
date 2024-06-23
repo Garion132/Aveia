@@ -1,15 +1,17 @@
+#Unolad
 
-add_core = ATH
-owner = ATH
-controller = ATH
-culture = athanilan
+add_core = RYO
+owner = RYO
+controller = RYO
+culture = unolaan
 religion = tlaunorist
 hre = no
-base_tax = 0
-base_production =2
-base_manpower = 7
-trade_goods = fish
-capital = "Selburn"
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = livestock
+capital = "Meeyl"
 is_city = yes
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group
@@ -18,5 +20,3 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-center_of_trade = 1
-port = yes

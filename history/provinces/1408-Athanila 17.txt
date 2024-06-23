@@ -1,9 +1,9 @@
 #Athanila
 
-add_core = ATH
-owner = ATH
-controller = ATH
-culture = wlariquar
+add_core = RYG
+owner = RYG
+controller = RYG
+culture = unolaan
 religion = tlaunorist
 hre = no
 base_tax = 0
