@@ -1,8 +1,9 @@
 
 add_core = ATH
+add_core = ELN
 owner = ATH
 controller = ATH
-culture = athanilan
+culture = elnoreian
 religion = tlaunorist
 hre = no
 base_tax = 2

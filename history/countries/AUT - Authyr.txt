@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 government_rank = 2
-primary_culture = anthyrian
+primary_culture = authyrian
 religion = tlaunorist
 technology_group = dunirr_group
 capital = 1392 #

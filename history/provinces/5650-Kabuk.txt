@@ -4,7 +4,7 @@ add_core = ATH
 add_core = KAB
 owner = ATH
 controller = ATH
-culture = anthan
+culture = athan
 religion = tlaunorist
 hre = no
 
