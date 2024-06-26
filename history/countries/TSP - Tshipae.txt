@@ -1,5 +1,5 @@
-government = bronze_monarchy
-add_government_reform = palace_economy
+government = bronze_league
+add_government_reform = league_of_cities_reform
 government_rank = 1
 primary_culture = siniersi
 religion = tlaunorist

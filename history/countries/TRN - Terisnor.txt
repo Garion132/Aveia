@@ -23,13 +23,14 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+930.4.30 = {
 	monarch = {
-		name = "Filler"
+		name = "Samrk"
 		dynasty = "Teris"
-		birth_date = 1240.12.3
-		adm = 0
-		dip = 0
-		mil = 0
+		birth_date = 880.2.7
+		adm = 3
+		dip = 5
+		mil = 2
 	}
+	add_ruler_personality = immortal_personality
 }

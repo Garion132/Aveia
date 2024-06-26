@@ -1,5 +1,5 @@
-government = bronze_monarchy
-add_government_reform = palace_economy
+government = tribal
+add_government_reform = tribal_kingdom
 primary_culture = vendram
 religion = suhar
 technology_group = free_kolbolds_group

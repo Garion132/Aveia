@@ -5,7 +5,6 @@ THL_military_missions = {
 	potential = {
 		tag = THL
 	}
-	has_country_shield = yes
 
 	THL_build_army_mission = {
 		icon = mission_build_up_to_force_limit
@@ -19,6 +18,9 @@ THL_military_missions = {
 				name = "thriving_arms_industry"
 				duration = 9125
 			}
+			thilrana_7={
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	THL_expand_country_mission = {
@@ -26,18 +28,14 @@ THL_military_missions = {
 		position = 2
 		required_missions = { THL_build_army_mission }
 		provinces_to_highlight = {
-			area_for_scope_province = {
-				is_capital_of = ROOT
-			}
+			area = thilrana_7
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			capital_scope = {
-				area_for_scope_province = {
-					type = all
-					owned_by = ROOT
-					is_city = yes
-				}
+			thilrana_7={
+				type = all
+				owned_by = ROOT
+				is_city = yes
 			}
 		}
 		effect = {
@@ -64,7 +62,6 @@ THL_military_missions = {
 			add_army_professionalism = 0.05
 		}
 	}
-	has_country_shield = yes
 }
 
 THL_unifaction = {
@@ -74,7 +71,6 @@ THL_unifaction = {
 	potential = {
 		tag = THL
 	}
-	has_country_shield = yes
 
 	THL_relclaim_west = {
 		icon = mission_build_up_to_force_limit
@@ -95,7 +91,7 @@ THL_unifaction = {
 			NOT={country_or_non_sovereign_subject_holds = ROOT}
 		}
 		trigger = {
-			thilmaren_1={
+			thilrana_11={
 				country_or_non_sovereign_subject_holds = ROOT
 				type = all
 			}
@@ -103,7 +99,11 @@ THL_unifaction = {
 				country_or_non_sovereign_subject_holds = ROOT
 				type = all
 			}
-			bririon={
+			thilrana_12={
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			thilrana_13={
 				country_or_non_sovereign_subject_holds = ROOT
 				type = all
 			}
@@ -197,7 +197,6 @@ THL_diplomatic_missions = {
 	potential = {
 		tag = THL
 	}
-	has_country_shield = yes
 
 	THL_establish_high_seas_navy = {
 		icon = mission_establish_high_seas_navy
@@ -237,10 +236,10 @@ THL_diplomatic_missions = {
 		provinces_to_highlight = {
 			OR={
 				area_for_scope_province={
-					province_id = 2274
+					province_id = 5666
 				}
 				area_for_scope_province={
-					province_id = 2275
+					province_id = 2271
 				}
 			}
 			NOT={country_or_non_sovereign_subject_holds = ROOT}
@@ -256,7 +255,7 @@ THL_diplomatic_missions = {
 			}
 		}
 		effect = {
-			thilmaren_1 = {
+			thilrana_11 = {
 				if = {
 					limit = {
 						NOT = { is_permanent_claim = root }
@@ -274,7 +273,16 @@ THL_diplomatic_missions = {
 					add_permanent_claim = root
 				}
 			}
-			bririon = {
+			thilrana_12= {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
+			}
+			thilrana_13= {
 				if = {
 					limit = {
 						NOT = { is_permanent_claim = root }
@@ -285,24 +293,6 @@ THL_diplomatic_missions = {
 			}
 		}
 	}
-	# THL_upholding_our_oath_to_elves = {
-		# icon = mission_alliances
-		# position = 3
-		# required_missions = { THL_return_celulil }
-		# trigger = {
-			# num_of_provinces_owned_or_owned_by_subjects_with = {
-				# value = 5
-				# culture = siniersi
-			# }
-			# every_owned_province={
-				# limit={
-					# culture = siniersi
-				# }
-				# unrest = 0
-			# }
-		# }
-		# effect = { }
-	# }
 }
 
 THL_administrative_missions = {
@@ -312,11 +302,10 @@ THL_administrative_missions = {
 	potential = {
 		TAG = THL
 	}
-	has_country_shield = yes
 
 	THL_high_income_mission = {
 		icon = mission_high_income
-		#position = 1
+		position = 1
 		required_missions = {  }
 		trigger = {
 			share_of_starting_income = 3
@@ -342,7 +331,6 @@ THL_administrative_missions = {
 				}
 				amount = 20
 			}
-			
 		}
 		effect = {
 			add_adm_power = 50
@@ -361,11 +349,10 @@ THL_growth_missions = {
 	potential = {
 		TAG = THL
 	}
-	has_country_shield = yes
 
 	THL_becoming_a_proper_kingdom = {
 		icon = mission_high_income
-		#position = 1
+		position = 1
 		required_missions = {  }
 		trigger = {
 			total_development = 200
