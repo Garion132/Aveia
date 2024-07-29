@@ -1,13 +1,11 @@
 #Gulba
-
 add_core = GUL
 owner = GUL
 controller = GUL
 culture = deresunite
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 6
 trade_goods = gold_knot
 capital = "Gul"

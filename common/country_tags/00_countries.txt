@@ -54,7 +54,6 @@ UNU = "countries/Unoeug.txt"
 ATN = "countries/Athanek.txt"
 AFY = "countries/Arafyr.txt"
 KAB = "countries/Kabuk.txt"
-
 DRE = "countries/Drelnora.txt"
 ONE = "countries/Onebelho.txt"
 DRG = "countries/Dreghei.txt"
@@ -729,3 +728,5 @@ ALI = "countries/Alilfu.txt"
 KAV = "countries/Kavar.txt"
 #Crashes if this doesn't exist
 PAP = "countries/Yulikivian.txt"
+KKH = "countries/Kakh.txt"
+VIN = "countries/Vinuea.txt"

@@ -3,26 +3,21 @@ add_government_reform = palace_economy
 primary_culture = siniersi
 religion = tlaunorist
 technology_group = lake_elves_group
-capital = 2275 # 
-#national_focus = DIP
-#historical_rival = HAB
-
-change_estate_land_share = {
+capital = 2270#historical_rival = HAB
+change_estate_land_share = { 
 	estate = estate_nobles
 	share = 10
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_church
 	share = -5
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_burghers
 	share = -5
 }
-
-
-1240.9.16 = {
-	monarch = {
+1240.9.16 = { 
+	monarch = { 
 		name = "Palor"
 		dynasty = "Sineria"
 		birth_date = 1240.12.3
@@ -31,3 +26,4 @@ change_estate_land_share = {
 		mil = 4
 	}
 }
+government_rank = 1

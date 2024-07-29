@@ -1,12 +1,8 @@
 #Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
-color = { 104 138 167}
-
+color = { 104 138 167 }
 revolutionary_colors = { 15 1 15 }
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	defensive_ideas
 	trade_ideas
 	religious_ideas
@@ -16,12 +12,10 @@ historical_idea_groups = {
 	offensive_ideas
 	spy_ideas
 }
-
-historical_units = {
+historical_units = { 
 	warrior_infantry
 }
-
-monarch_names = {
+monarch_names = { 
 	"Jean #0" = 40
 	"Charles #0" = 40
 	"François #0" = 20
@@ -31,7 +25,7 @@ monarch_names = {
 	"Hughes #0" = 5
 	"Robert #0" = 5
 	"Henri #0" = 5
-	"Abel #0" = 0	
+	"Abel #0" = 0
 	"Adrien #0" = 0
 	"Alexandre #0" = 0
 	"Christian #0" = 0
@@ -60,49 +54,31 @@ monarch_names = {
 	"Tristan #0" = 0
 	"Valentin #0" = 0
 	"Victor #0" = 0
-	
 	"Jeanne #0" = -15
 	"Margaret #0" = -1
 	"Marie #0" = -1
 }
-
-ship_names = {
-        Athis
-        Bel-Air Boultan Bouy
-        Chavenay Combert Courtaumont Court-sur-Couffy Cumières
-        Fontenelle
-        Gizaucourt
-        Isse
-        Jâlons Jippé Jonchery
-        "La Cheppe" "La Croisée" "Lagery" "La Grande Romanie" "La Presle" "La Salle" "Laval-sur-Tourbe" "La Grossemasse" "La Veuve" "Le Breuil" "Le Grand-Essart" "Le Moncet" "Les Cruzis" Livry-Louvercy Louvois
-        Minaucourt-le-Mesnil Montflambert Montigny Moussy
-        Neuville-en-Châlois
-        Passy-Grigny 
-        Raday
-        "Saint Hilaire" "Saint Imoges" "Saint Jean sur Tourbe" Seigneur-Klou Souain-Perthes Suippes
-        Tauxières-Mutry Toubiotte
-        Vadenay Valmy Vaudemange Vraux 
-        Wargemoulin
+ship_names = { 
+	Athis
+	Bel-Air Boultan Bouy Chavenay Combert Courtaumont Court-sur-Couffy Cumières Fontenelle
+	Gizaucourt
+	Isse
+	Jâlons Jippé Jonchery "La Cheppe" "La Croisée" "Lagery" "La Grande Romanie" "La Presle" "La Salle" "Laval-sur-Tourbe"
+	"La Grossemasse" "La Veuve" "Le Breuil" "Le Grand-Essart" "Le Moncet" "Les Cruzis" Livry-Louvercy Louvois Minaucourt-le-Mesnil Montflambert
+	Montigny Moussy Neuville-en-Châlois
+	Passy-Grigny
+	Raday
+	"Saint Hilaire" "Saint Imoges" "Saint Jean sur Tourbe" Seigneur-Klou Souain-Perthes Suippes Tauxières-Mutry Toubiotte Vadenay Valmy
+	Vaudemange Vraux Wargemoulin
 }
-
-leader_names = {
-        d'Alenduy d'Artigoity d'Arzillières
-        "de Balatier" "de Balayne" "de Baleine" "Beaufort de Pothemont" "de Beaurepaire" "Bellot de Ferreux" "de Brancourt" "de Brienne" "de Broye" "de Bruce"
-        "Cauchon de Vercinay" "de Charbogne" "de Chassy" "du Châtelet" "de Châtillon" Clausse "de Coucy" "de Courtenay" "de Crécy" "de Croy"
-        d'Espinoy
-        "de Failly"
-        "de Grandpré" "de Grignon"
-        "du Hamel" "de Houx"
-        "de Joigny" "de Joinville"
-        "de La Fontaine" "de Lalaing" "de Lantages" "de Lavisé" "de Lezines" "de Loménie"
-        Pérignon "de Plancy" "du Prat"
-        "de Rethel" "de Roucy" "de Rumigny"
-        "de Saint Belin" "de Saint Cheron" "de Sergine"
-        "de Vauclerois" "de Vergy" "de Verrières" "de Villeprouvée"
+leader_names = { 
+	d'Alenduy d'Artigoity d'Arzillières "de Balatier" "de Balayne" "de Baleine" "Beaufort de Pothemont" "de Beaurepaire" "Bellot de Ferreux" "de Brancourt"
+	"de Brienne" "de Broye" "de Bruce" "Cauchon de Vercinay" "de Charbogne" "de Chassy" "du Châtelet" "de Châtillon" Clausse "de Coucy"
+	"de Courtenay" "de Crécy" "de Croy" d'Espinoy
+	"de Failly" "de Grandpré" "de Grignon" "du Hamel" "de Houx" "de Joigny" "de Joinville" "de La Fontaine" "de Lalaing" "de Lantages"
+	"de Lavisé" "de Lezines" "de Loménie" Pérignon "de Plancy" "du Prat" "de Rethel" "de Roucy" "de Rumigny" "de Saint Belin"
+	"de Saint Cheron" "de Sergine" "de Vauclerois" "de Vergy" "de Verrières" "de Villeprouvée" 
 }
-
-army_names = {
-         "Armée du Pays d'Othe" "Armée de la Marne" "Armée de Châlons"
-         "Armée de Reims"       "Armée de Troyes"
-	 "Armée de $PROVINCE$" 
+army_names = { 
+	"Armée du Pays d'Othe" "Armée de la Marne" "Armée de Châlons" "Armée de Reims" "Armée de Troyes" "Armée de $PROVINCE$" 
 }

@@ -169,8 +169,8 @@ donamenz_region = {
 qirdud_region = { 
 	areas = { 
 		qirdud_1 qirdud_2 qirdud_3 qirdud_4 keril_1 keril_2 keril_3 keril_4 keril_5 keril_6
-		keril_7 keril_8 keril_9 keril_10 keril_11 keril_12 keril_13 keril_14 keril_15 keril_16
-		keril_17 keril_18 keril_19 keril_20 keril_21 keril_22 keril_23 keril_26 keril_29 keril_30
+		keril_7 keril_8 keril_9 keril_10 keril_12 keril_13 keril_15 keril_16
+		keril_17 keril_18 keril_19 keril_20 keril_22 keril_26 keril_29 keril_30
 		keril_31 
 	}
 }
@@ -191,7 +191,7 @@ rogosian_heights_region = {
 vortingrad_region = { 
 	areas = { 
 		vortingrad_1 vortingrad_2 vortingrad_3 vortingrad_4 vortingrad_5 vortingrad_6 keril_43 keril_58 keril_46 keril_45
-		keril_47 keril_53 keril_63 keril_54 keril_55 keril_56 keril_57 vortingrad_10 vortingrad_11 vortingrad_12
+		keril_47 keril_54 keril_55 keril_56 keril_57 vortingrad_10 vortingrad_11 vortingrad_12
 		vortingrad_13 vortingrad_14 borestia_13 
 	}
 }

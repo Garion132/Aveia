@@ -1,16 +1,13 @@
 #Boluroya
-latent_trade_goods = {
-    coal
+latent_trade_goods = { 
+	coal 
 }
-
-add_core = BOL
-owner = BOL
-controller = BOL
+owner = VIN
+controller = VIN
 culture = becyuan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 4
 trade_goods = wool
 capital = "Bol 3"
@@ -22,3 +19,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = VIN

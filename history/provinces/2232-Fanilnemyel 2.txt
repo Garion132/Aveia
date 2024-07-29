@@ -1,9 +1,7 @@
 #Yerina 
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
-
 add_core = VRI
 owner = VRI
 controller = VRI
@@ -11,7 +9,7 @@ culture = vulikivian
 religion = vulikivite
 hre = yes
 base_tax = 4
-base_production =5
+base_production = 5
 base_manpower = 4
 trade_goods = cloth
 capital = "Sal"
@@ -24,3 +22,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 2
+add_core = FLN

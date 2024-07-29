@@ -1,16 +1,14 @@
 #Gulba
-latent_trade_goods = {
-	iron
+latent_trade_goods = { 
+	iron 
 }
-
 add_core = GUL
 owner = GUL
 controller = GUL
 culture = morbinite
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =1
+base_production = 1
 base_manpower = 5
 trade_goods = wool
 capital = "Gul"

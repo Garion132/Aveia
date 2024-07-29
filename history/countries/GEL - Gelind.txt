@@ -1,29 +1,24 @@
 government = tribal
 add_government_reform = tribal_kingdom
 government_rank = 1
-primary_culture = thilrana
+primary_culture = thilranan
 religion = suhar
 technology_group = free_kolbolds_group
-capital = 2287 # 
-#national_focus = DIP
-#historical_rival = HAB
-
-change_estate_land_share = {
+capital = 2287#historical_rival = HAB
+change_estate_land_share = { 
 	estate = estate_nobles
 	share = 10
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_church
 	share = -5
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_burghers
 	share = -5
 }
-
-
-1221.7.26 = {
-	monarch = {
+1221.7.26 = { 
+	monarch = { 
 		name = "filler"
 		#dynasty = "filler"
 		birth_date = 1221.3.19

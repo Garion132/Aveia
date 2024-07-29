@@ -24,7 +24,7 @@ change_estate_land_share = {
 
 1268.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Tulidai"
 		dynasty = "Oage"
 		birth_date = 1258.12.3
 		adm = 1

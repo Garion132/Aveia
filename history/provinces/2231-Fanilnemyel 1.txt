@@ -1,5 +1,4 @@
 #Yerina 
-
 add_core = SHA
 owner = SHA
 controller = SHA
@@ -7,7 +6,7 @@ culture = liret
 religion = suhar
 hre = yes
 base_tax = 1
-base_production =2
+base_production = 2
 base_manpower = 7
 trade_goods = fish
 capital = "Sal"
@@ -19,3 +18,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = FLN

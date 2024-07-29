@@ -1,11 +1,8 @@
 #Boluroya
-
-add_core = BOL
-owner = BOL
-controller = BOL
+owner = KKH
+controller = KKH
 culture = becyuan
 religion = orionrahetia
-hre = no
 base_tax = 0
 base_production = 0
 base_manpower = 6
@@ -19,3 +16,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = KKH

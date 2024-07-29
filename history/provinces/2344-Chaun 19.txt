@@ -1,14 +1,12 @@
 #Chaun 
-
 add_core = CHA
 owner = CHA
 controller = CHA
 culture = chaunese
 religion = tlaunorist
-hre = no
 base_tax = 2
-base_production =2
-base_manpower = 2
+base_production = 1
+base_manpower = 4
 trade_goods = fish
 capital = "Sal"
 is_city = yes

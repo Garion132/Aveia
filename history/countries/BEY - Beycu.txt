@@ -3,27 +3,24 @@ add_government_reform = palace_economy
 primary_culture = becyuan
 religion = tlaunorist
 technology_group = dunirr_group
-capital = 1384 # 
+capital = 1386# 
 government_rank = 1
 #national_focus = DIP
 #historical_rival = HAB
-
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_nobles
 	share = 10
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_church
 	share = -5
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_burghers
 	share = -5
 }
-
-
-1235.2.3 = {
-	monarch = {
+1235.2.3 = { 
+	monarch = { 
 		name = "Treus V"
 		dynasty = "Bolrin"
 		birth_date = 1235.2.3

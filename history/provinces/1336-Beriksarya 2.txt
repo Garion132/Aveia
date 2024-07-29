@@ -1,11 +1,8 @@
 #Beriksarya
-
-add_core = BER
-owner = BER
-controller = BER
+owner = BOL
+controller = BOL
 culture = onebelan
 religion = orionrahetia
-hre = no
 base_tax = 0
 base_production = 2
 base_manpower = 7
@@ -19,3 +16,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = BOL

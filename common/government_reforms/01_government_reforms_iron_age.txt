@@ -475,7 +475,6 @@ ia_clergy_in_administration_reform = {
 		
 	}
 }
-
 ia_of_noble_bearing_reform = {
 	icon = "nobleman"
 	allow_normal_conversion = yes
@@ -495,7 +494,6 @@ ia_of_noble_bearing_reform = {
 		
 	}
 }
-
 ia_meritocratic_focus_reform = {
 	icon = "merchant"
 	allow_normal_conversion = yes

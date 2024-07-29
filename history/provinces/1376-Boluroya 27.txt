@@ -1,13 +1,10 @@
 #Boluroya
-
-add_core = BOL
-owner = BOL
-controller = BOL
+owner = KKH
+controller = KKH
 culture = becyuan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 5
 trade_goods = sunspot
 capital = "Bol 3"
@@ -20,4 +17,5 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 1
+add_core = KKH
 fort_14th = yes

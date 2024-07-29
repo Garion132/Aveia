@@ -1,13 +1,10 @@
 #Gulba
-
-add_core = GUL
-owner = GUL
-controller = GUL
+owner = KKH
+controller = KKH
 culture = deresunite
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =1
+base_production = 1
 base_manpower = 4
 trade_goods = livestock
 capital = "Gul"
@@ -19,3 +16,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = KKH

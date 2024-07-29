@@ -1,13 +1,10 @@
 #Beycu
-
-add_core = BEY
-owner = BEY
-controller = BEY
+owner = VIN
+controller = VIN
 culture = becyuan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 5
 trade_goods = wool
 capital = "Bey 3"
@@ -19,3 +16,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = VIN

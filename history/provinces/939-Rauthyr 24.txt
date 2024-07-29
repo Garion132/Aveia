@@ -1,15 +1,12 @@
 #Rauthyr
-latent_trade_goods = {
-	iron
+latent_trade_goods = { 
+	iron 
 }
-
-add_core = RAU
 add_core = YFA
-owner = RAU
-controller = RAU
+owner = BOL
+controller = BOL
 culture = bolur
 religion = tlaunorist
-hre = no
 base_tax = 0
 base_production = 0
 base_manpower = 16
@@ -23,5 +20,6 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-gravel_roads = yes
 set_variable = { which = arable_land value = 16 }
+add_core = BOL
+gravel_roads = yes

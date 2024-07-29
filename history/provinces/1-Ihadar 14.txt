@@ -1,5 +1,4 @@
 #Ihadar
-
 latent_trade_goods = {
 	coal
 }

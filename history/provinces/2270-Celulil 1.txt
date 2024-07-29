@@ -1,15 +1,13 @@
 #Yerina 
-
 add_core = SIN
 owner = SIN
 controller = SIN
 culture = siniersi
 religion = tlaunorist
-hre = no
 base_tax = 2
-base_production =3
-base_manpower = 6
-trade_goods = grain
+base_production = 4
+base_manpower = 7
+trade_goods = ceramics
 capital = "Sal"
 is_city = yes
 discovered_by = lake_elves_group
@@ -19,6 +17,6 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-port = yes
 center_of_trade = 1
+port = yes
 fort_14th = yes
