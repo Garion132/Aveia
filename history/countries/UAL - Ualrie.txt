@@ -10,13 +10,11 @@ capital = 561 #
 
 
 
-# 1240.9.16 = {
-	# monarch = {
-		# name = "Eltro III"
-		# dynasty = "Gugh"
-		# birth_date = 1240.12.3
-		# adm = 5
-		# dip = 4
-		# mil = 3
-	# }
-# }
+1271.3.27 = {
+	monarch = {
+		adm = 0
+		mil = 0
+		dip = 0
+		regent = yes
+	}
+}
