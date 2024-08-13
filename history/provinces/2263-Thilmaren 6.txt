@@ -1,14 +1,12 @@
 #Yerina 
-
 add_core = PLG
 owner = PLG
 controller = PLG
 culture = belfos
 religion = suhar
-hre = no
-base_tax = 2
-base_production =3
-base_manpower = 4
+base_tax = 1
+base_production = 3
+base_manpower = 6
 trade_goods = livestock
 capital = "Sal"
 is_city = yes

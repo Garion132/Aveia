@@ -1,5 +1,4 @@
 #Yerina 
-
 add_core = TRN
 owner = TRN
 controller = TRN
@@ -7,8 +6,8 @@ culture = nathioan
 religion = suhar
 hre = yes
 base_tax = 4
-base_production =4
-base_manpower = 5
+base_production = 4
+base_manpower = 9
 trade_goods = grain
 capital = "Sal"
 is_city = yes
@@ -19,5 +18,5 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-port = yes
 center_of_trade = 2
+port = yes

@@ -212,7 +212,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_colonial_ideas"
+		name = "GFX_idea_colonialism_ideas"
 		texturefile = "gfx//interface//ideas//idea_colonial_ideas.tga"
 		noOfFrames = 1
 		

@@ -112,6 +112,60 @@ merc_iumerium_striders = {
 	modifier = { }
 }
 
+merc_sanisaloe_warriors = {
+    regiments_per_development = 0.03
+    home_province = 2270
+	sprites = { dlc087_sco_sprite_pack dlc001_sco_sprite_pack sco_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			any_owned_province = {
+				region = thilrana_region
+			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+	modifier = {
+		
+	}
+}
+merc_ringscale_clan = {
+    regiments_per_development = 0.1
+    home_province = 2239
+	sprites = { dlc087_sco_sprite_pack dlc001_sco_sprite_pack sco_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			any_owned_province = {
+				region = thilrana_region
+			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+	modifier = {
+		land_morale_constant = 0.15
+	}
+}
+
+merc_blue_company = {
+    regiments_per_development = 0.03
+    home_province = 2059
+	sprites = { dlc049_ENG_sprite_pack dlc042_eng_sprite_pack dlc028_eng_sprite_pack eng_base_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			capital_scope = { region = vulkivia_region }
+			any_owned_province = { region = vulkivia_region }
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+		NOT={current_age = age_of_bronze}
+	}
+	modifier = { }
+}
+
 rnw_modifier_weights = {
 	shock_damage = {
 		min = 0.05

@@ -3,7 +3,6 @@ capital = "Accra"
 culture = sumjira
 religion = roresist
 trade_goods = unknown
-hre = no
 base_tax = 0
 base_production = 0
 base_manpower = 1
@@ -11,5 +10,6 @@ native_size = 0
 native_ferocity = 0
 native_hostileness = 0
 extra_cost = 8
-
 set_variable = { which = arable_land value = 5 }
+discovered_by = naga_group
+is_city = no

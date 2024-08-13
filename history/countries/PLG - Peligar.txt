@@ -24,8 +24,8 @@ change_estate_land_share = {
 
 1221.7.26 = {
 	monarch = {
-		name = "filler"
-		#dynasty = "filler"
+		name = "Longclaw"
+		dynasty = "Ravalyn"
 		birth_date = 1221.3.19
 		adm = 3
 		dip = 3

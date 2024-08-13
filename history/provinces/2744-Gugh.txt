@@ -1,6 +1,6 @@
 #Gugh
-latent_trade_goods = {
-	iron
+latent_trade_goods = { 
+	iron 
 }
 add_core = BUL
 owner = BUL
@@ -9,7 +9,6 @@ culture = gugh
 religion = forebearist
 capital = "Accra"
 trade_goods = slaves
-hre = no
 base_tax = 0
 base_production = 0
 base_manpower = 1
@@ -19,3 +18,5 @@ native_hostileness = 11
 discovered_by = western
 extra_cost = 8
 discovered_by = ork_group
+discovered_by = naga_group
+is_city = no

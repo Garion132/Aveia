@@ -1,14 +1,12 @@
 #Yerina 
-
 add_core = THI
 owner = THI
 controller = THI
 culture = thilranan
 religion = suhar
-hre = no
 base_tax = 2
-base_production =1
-base_manpower = 2
+base_production = 1
+base_manpower = 4
 trade_goods = wool
 capital = "Sal"
 is_city = yes

@@ -697,6 +697,10 @@
  merc_havervim:0 "Havervim"
  merc_actirvin_brothers:0 "Actirvin Brothers"
  merc_pink_arrows:0 "Pink Arrows"
+ merc_sanisaloe_warriors: "Sanisaloe Warriors"
+ merc_ringscale_clan: "Ringscale Clan"
+ merc_blue_company: "Blue Company"
+ merc_iumerium_striders: "Iumerium Striders"
  
  ruler_race_is_elven_tooltip:0 "Ruler is a Elf"
  obj_300_development: "Developed Country"
