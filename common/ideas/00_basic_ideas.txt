@@ -1606,9 +1606,8 @@
 			}
 		}
 		
-		noble_knights = {
-			cavalry_power = 0.10
-			cavalry_cost = -0.10
+		agricultural_idyll = {
+			
 		}
 		military_traditions = {
 			mil_tech_cost_modifier  = -0.1

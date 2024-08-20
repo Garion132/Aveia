@@ -406,6 +406,9 @@
  rest_and_recreation: "Rest and Recreation"
  maintenance_crews: "Maintenance Crews"
 
+ agricultural_idyll: "Agricultural Idyll"
+ agricultural_idyll_desc: "Lower Class Capacity Modifier: §G+10.0%§!"
+
  mercenary_ideas: "Mercenary Ideas"
  hired_leaders: "Hired Leaders"
  elite_mercenaries: "Elite Mercenaries"

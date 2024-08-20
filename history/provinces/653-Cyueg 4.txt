@@ -6,8 +6,8 @@ controller = CYU
 culture = cyuean
 religion = tlaunorist
 hre = no
-base_tax = 1
-base_production = 4
+base_tax = 2
+base_production = 6
 trade_goods = copper
 base_manpower = 11
 capital = "Cyu 4"
@@ -25,4 +25,6 @@ gravel_roads = yes
 taxman = yes
 town_square = yes
 mint = yes
+town_square = yes
+marketplace = yes
 set_variable = { which = arable_land value = 11 }

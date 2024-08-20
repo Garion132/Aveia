@@ -252,7 +252,7 @@ estate_church_build_temple_in_y = {
 		}
 		else = {
 			event_target:agenda_province = {
-				add_base_tax = 1
+				add_base_production = 1
 			}
 		}
     }
@@ -277,12 +277,12 @@ estate_church_build_temple_in_y = {
 
 estate_nobles_build_army_building_in_y = {
 	can_select = {
-		mil_tech = 6
+		mil_tech = 4
 		any_owned_province = {
 			is_state_core = root
 			OR = {
-				NOT = { has_building = training_fields }
-				NOT = { has_building = conscription_center }
+				NOT = { has_building = military_academy }
+				NOT = { has_building = mobilization_system }
 			}
 			OR = {
 				AND = {
@@ -290,23 +290,39 @@ estate_nobles_build_army_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { mil_tech = 8 }
+					ROOT = { mil_tech = 17 }
 					NOT = { has_building = regimental_camp }
 					num_free_building_slots = 1
 				}
 				AND = {
 					NOT = { has_building = training_fields }
-					ROOT = { mil_tech = 16 }
+					ROOT = { mil_tech = 22 }
 					OR = {
 						has_building = barracks
 						num_free_building_slots = 1
 					}
 				}
 				AND = {
+					NOT = { has_building = military_academy }
+					ROOT = { mil_tech = 32 }
+					OR = {
+						has_building = training_fields
+						num_free_building_slots = 1
+					}
+				}
+				AND = {
 					NOT = { has_building = conscription_center }
-					ROOT = { mil_tech = 22 }
+					ROOT = { mil_tech = 34 }
 					OR = {
 						has_building = regimental_camp
+						num_free_building_slots = 1
+					}
+				}
+				AND = {
+					NOT = { has_building = mobilization_system }
+					ROOT = { mil_tech = 43 }
+					OR = {
+						has_building = conscription_center
 						num_free_building_slots = 1
 					}
 				}
@@ -320,10 +336,10 @@ estate_nobles_build_army_building_in_y = {
 			NOT = {
 				any_owned_province = {
 					is_state_core = root
-					base_manpower = 3
+					development = 3
 					OR = {
-						NOT = { has_building = training_fields }
-						NOT = { has_building = conscription_center }
+						NOT = { has_building = military_academy }
+						NOT = { has_building = mobilization_system }
 					}
 					OR = {
 						AND = {
@@ -331,23 +347,39 @@ estate_nobles_build_army_building_in_y = {
 							num_free_building_slots = 1
 						}
 						AND = {
-							ROOT = { mil_tech = 8 }
+							ROOT = { mil_tech = 17 }
 							NOT = { has_building = regimental_camp }
 							num_free_building_slots = 1
 						}
 						AND = {
 							NOT = { has_building = training_fields }
-							ROOT = { mil_tech = 16 }
+							ROOT = { mil_tech = 22 }
 							OR = {
 								has_building = barracks
 								num_free_building_slots = 1
 							}
 						}
 						AND = {
+							NOT = { has_building = military_academy }
+							ROOT = { mil_tech = 32 }
+							OR = {
+								has_building = training_fields
+								num_free_building_slots = 1
+							}
+						}
+						AND = {
 							NOT = { has_building = conscription_center }
-							ROOT = { mil_tech = 22 }
+							ROOT = { mil_tech = 34 }
 							OR = {
 								has_building = regimental_camp
+								num_free_building_slots = 1
+							}
+						}
+						AND = {
+							NOT = { has_building = mobilization_system }
+							ROOT = { mil_tech = 43 }
+							OR = {
+								has_building = conscription_center
 								num_free_building_slots = 1
 							}
 						}
@@ -359,10 +391,10 @@ estate_nobles_build_army_building_in_y = {
 			factor = 1.2
 			any_owned_province = {
 				is_state_core = root
-				base_manpower = 6
+				development = 6
 				OR = {
-					NOT = { has_building = training_fields }
-					NOT = { has_building = conscription_center }
+					NOT = { has_building = military_academy }
+					NOT = { has_building = mobilization_system }
 				}
 				OR = {
 					AND = {
@@ -370,23 +402,39 @@ estate_nobles_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 8 }
+						ROOT = { mil_tech = 17 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 22 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
 						}
 					}
 					AND = {
+						NOT = { has_building = military_academy }
+						ROOT = { mil_tech = 32 }
+						OR = {
+							has_building = training_fields
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 22 }
+						ROOT = { mil_tech = 34 }
 						OR = {
 							has_building = regimental_camp
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
+						NOT = { has_building = mobilization_system }
+						ROOT = { mil_tech = 43 }
+						OR = {
+							has_building = conscription_center
 							num_free_building_slots = 1
 						}
 					}
@@ -409,8 +457,8 @@ estate_nobles_build_army_building_in_y = {
 			limit = {
 				is_state_core = root
 				OR = {
-					NOT = { has_building = training_fields }
-					NOT = { has_building = conscription_center }
+					NOT = { has_building = military_academy }
+					NOT = { has_building = mobilization_system }
 				}
 				OR = {
 					AND = {
@@ -418,23 +466,39 @@ estate_nobles_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 8 }
+						ROOT = { mil_tech = 17 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 22 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
 						}
 					}
 					AND = {
+						NOT = { has_building = military_academy }
+						ROOT = { mil_tech = 32 }
+						OR = {
+							has_building = training_fields
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 22 }
+						ROOT = { mil_tech = 34 }
 						OR = {
 							has_building = regimental_camp
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
+						NOT = { has_building = mobilization_system }
+						ROOT = { mil_tech = 43 }
+						OR = {
+							has_building = conscription_center
 							num_free_building_slots = 1
 						}
 					}
@@ -445,10 +509,10 @@ estate_nobles_build_army_building_in_y = {
 		random_owned_province = {
 			limit = {
 				is_state_core = root
-				base_manpower = 3
+				development = 3
 				OR = {
-					NOT = { has_building = training_fields }
-					NOT = { has_building = conscription_center }
+					NOT = { has_building = military_academy }
+					NOT = { has_building = mobilization_system }
 				}
 				OR = {
 					AND = {
@@ -456,23 +520,39 @@ estate_nobles_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 8 }
+						ROOT = { mil_tech = 17 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 22 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
 						}
 					}
 					AND = {
+						NOT = { has_building = military_academy }
+						ROOT = { mil_tech = 32 }
+						OR = {
+							has_building = training_fields
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 22 }
+						ROOT = { mil_tech = 34 }
 						OR = {
 							has_building = regimental_camp
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
+						NOT = { has_building = mobilization_system }
+						ROOT = { mil_tech = 43 }
+						OR = {
+							has_building = conscription_center
 							num_free_building_slots = 1
 						}
 					}
@@ -483,10 +563,10 @@ estate_nobles_build_army_building_in_y = {
 		random_owned_province = {
 			limit = {
 				is_state_core = root
-				base_manpower = 6
+				development = 6
 				OR = {
-					NOT = { has_building = training_fields }
-					NOT = { has_building = conscription_center }
+					NOT = { has_building = military_academy }
+					NOT = { has_building = mobilization_system }
 				}
 				OR = {
 					AND = {
@@ -494,23 +574,39 @@ estate_nobles_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 8 }
+						ROOT = { mil_tech = 17 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 22 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
 						}
 					}
 					AND = {
+						NOT = { has_building = military_academy }
+						ROOT = { mil_tech = 32 }
+						OR = {
+							has_building = training_fields
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 22 }
+						ROOT = { mil_tech = 34 }
 						OR = {
 							has_building = regimental_camp
+							num_free_building_slots = 1
+						}
+					}
+					AND = {
+						NOT = { has_building = mobilization_system }
+						ROOT = { mil_tech = 43 }
+						OR = {
+							has_building = conscription_center
 							num_free_building_slots = 1
 						}
 					}
@@ -521,12 +617,43 @@ estate_nobles_build_army_building_in_y = {
 		event_target:agenda_province = {
 			if = {
 				limit = {
+					NOT = { has_building = mobilization_system }
+					ROOT = { mil_tech = 43 }
+					OR = {
+						num_free_building_slots = 1
+						has_building = training_fields
+					}
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_army_building_in_y_var
+						value = 6
+					}
+				}
+			}
+			else_if = {
+				limit = {
 					NOT = { has_building = training_fields }
+					NOT = { has_building = mobilization_system }
 					ROOT = { mil_tech = 16 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = barracks
 					}
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_army_building_in_y_var
+						value = 5
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_building = barracks }
+					NOT = { has_building = training_fields }
+					NOT = { has_building = mobilization_system }
+					num_free_building_slots = 1
 				}
 				ROOT = {
 					set_variable = {
@@ -537,9 +664,7 @@ estate_nobles_build_army_building_in_y = {
 			}
 			else_if = {
 				limit = {
-					NOT = { has_building = barracks }
-					NOT = { has_building = training_fields }
-					num_free_building_slots = 1
+					has_building = conscription_center
 				}
 				ROOT = {
 					set_variable = {
@@ -582,11 +707,40 @@ estate_nobles_build_army_building_in_y = {
 			limit = {
 				check_variable = {
 					which = estate_nobles_build_army_building_in_y_var
+					value = 6
+				}
+			}
+			event_target:agenda_province = {
+				has_building = mobilization_system
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = estate_nobles_build_army_building_in_y_var
+					value = 5
+				}
+			}
+			event_target:agenda_province = {
+				OR = {
+					has_building = training_fields
+					has_building = mobilization_system
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = estate_nobles_build_army_building_in_y_var
 					value = 4
 				}
 			}
 			event_target:agenda_province = {
-				has_building = training_fields
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+					has_building = mobilization_system
+				}
 			}
 		}
 		else_if = {
@@ -597,10 +751,7 @@ estate_nobles_build_army_building_in_y = {
 				}
 			}
 			event_target:agenda_province = {
-				OR = {
-					has_building = barracks
-					has_building = training_fields
-				}
+				has_building = mobilization_system
 			}
 		}
 		else_if = {
@@ -611,7 +762,10 @@ estate_nobles_build_army_building_in_y = {
 				}
 			}
 			event_target:agenda_province = {
-				has_building = conscription_center
+				OR = {
+					has_building = conscription_center
+					has_building = mobilization_system
+				}
 			}
 		}
 		else = {
@@ -619,6 +773,7 @@ estate_nobles_build_army_building_in_y = {
 				OR = {
 					has_building = regimental_camp
 					has_building = conscription_center
+					has_building = mobilization_system
 				}
 			}
 		}
@@ -672,6 +827,7 @@ estate_nobles_build_fort_building_in_y = {
 					NOT = { has_building = fort_16th }
 					NOT = { has_building = fort_17th }
 					NOT = { has_building = fort_18th }
+					NOT = { has_building = fort_19th }
 					num_free_building_slots = 1
 					any_neighbor_province = {
 						owner = {
@@ -698,6 +854,7 @@ estate_nobles_build_fort_building_in_y = {
 								has_building = fort_16th
 								has_building = fort_17th
 								has_building = fort_18th
+								has_building = fort_19th
 							}
 						}
 					}
@@ -707,6 +864,7 @@ estate_nobles_build_fort_building_in_y = {
 					NOT = { has_building = fort_16th }
 					NOT = { has_building = fort_17th }
 					NOT = { has_building = fort_18th }
+					NOT = { has_building = fort_19th }
 					num_free_building_slots = 1
 					any_neighbor_province = {
 						owned_by = root
@@ -734,6 +892,7 @@ estate_nobles_build_fort_building_in_y = {
 										has_building = fort_16th
 										has_building = fort_17th
 										has_building = fort_18th
+										has_building = fort_19th
 									}
 								}
 							}
@@ -752,8 +911,12 @@ estate_nobles_build_fort_building_in_y = {
 					has_building = fort_17th
 					ROOT = { mil_tech = 24 }
 				}
+				AND = {
+					has_building = fort_18th
+					ROOT = { mil_tech = 41 }
+				}
 			}
-			NOT = { has_building = fort_18th }
+			NOT = { has_building = fort_19th }
 		}
 	}
 	selection_weight = {
@@ -782,6 +945,7 @@ estate_nobles_build_fort_building_in_y = {
 						NOT = { has_building = fort_16th }
 						NOT = { has_building = fort_17th }
 						NOT = { has_building = fort_18th }
+						NOT = { has_building = fort_19th }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owner = {
@@ -808,6 +972,7 @@ estate_nobles_build_fort_building_in_y = {
 									has_building = fort_16th
 									has_building = fort_17th
 									has_building = fort_18th
+									has_building = fort_19th
 								}
 							}
 						}
@@ -817,6 +982,7 @@ estate_nobles_build_fort_building_in_y = {
 						NOT = { has_building = fort_16th }
 						NOT = { has_building = fort_17th }
 						NOT = { has_building = fort_18th }
+						NOT = { has_building = fort_19th }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owned_by = root
@@ -844,6 +1010,7 @@ estate_nobles_build_fort_building_in_y = {
 											has_building = fort_16th
 											has_building = fort_17th
 											has_building = fort_18th
+											has_building = fort_19th
 										}
 									}
 								}
@@ -862,8 +1029,12 @@ estate_nobles_build_fort_building_in_y = {
 						has_building = fort_17th
 						ROOT = { mil_tech = 24 }
 					}
+					AND = {
+						has_building = fort_18th
+						ROOT = { mil_tech = 41 }
+					}
 				}
-				NOT = { has_building = fort_18th }
+				NOT = { has_building = fort_19th }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -875,6 +1046,7 @@ estate_nobles_build_fort_building_in_y = {
 						NOT = { has_building = fort_16th }
 						NOT = { has_building = fort_17th }
 						NOT = { has_building = fort_18th }
+						NOT = { has_building = fort_19th }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owner = {
@@ -901,6 +1073,7 @@ estate_nobles_build_fort_building_in_y = {
 									has_building = fort_16th
 									has_building = fort_17th
 									has_building = fort_18th
+									has_building = fort_19th
 								}
 							}
 						}
@@ -911,6 +1084,7 @@ estate_nobles_build_fort_building_in_y = {
 						NOT = { has_building = fort_16th }
 						NOT = { has_building = fort_17th }
 						NOT = { has_building = fort_18th }
+						NOT = { has_building = fort_19th }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owned_by = root
@@ -938,6 +1112,7 @@ estate_nobles_build_fort_building_in_y = {
 											has_building = fort_16th
 											has_building = fort_17th
 											has_building = fort_18th
+											has_building = fort_19th
 										}
 									}
 								}
@@ -957,8 +1132,12 @@ estate_nobles_build_fort_building_in_y = {
 						has_building = fort_17th
 						ROOT = { mil_tech = 24 }
 					}
+					AND = {
+						has_building = fort_18th
+						ROOT = { mil_tech = 41 }
+					}
 				}
-				NOT = { has_building = fort_18th }
+				NOT = { has_building = fort_19th }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -970,6 +1149,7 @@ estate_nobles_build_fort_building_in_y = {
 						NOT = { has_building = fort_16th }
 						NOT = { has_building = fort_17th }
 						NOT = { has_building = fort_18th }
+						NOT = { has_building = fort_19th }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owner = {
@@ -996,16 +1176,17 @@ estate_nobles_build_fort_building_in_y = {
 									has_building = fort_16th
 									has_building = fort_17th
 									has_building = fort_18th
+									has_building = fort_19th
 								}
 							}
 						}
-						has_terrain = highlands
 					}
 					AND = {
 						NOT = { has_building = fort_15th }
 						NOT = { has_building = fort_16th }
 						NOT = { has_building = fort_17th }
 						NOT = { has_building = fort_18th }
+						NOT = { has_building = fort_19th }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owned_by = root
@@ -1033,6 +1214,7 @@ estate_nobles_build_fort_building_in_y = {
 											has_building = fort_16th
 											has_building = fort_17th
 											has_building = fort_18th
+											has_building = fort_19th
 										}
 									}
 								}
@@ -1052,8 +1234,12 @@ estate_nobles_build_fort_building_in_y = {
 						has_building = fort_17th
 						ROOT = { mil_tech = 24 }
 					}
+					AND = {
+						has_building = fort_18th
+						ROOT = { mil_tech = 41 }
+					}
 				}
-				NOT = { has_building = fort_18th }
+				NOT = { has_building = fort_19th }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -1065,6 +1251,7 @@ estate_nobles_build_fort_building_in_y = {
 						NOT = { has_building = fort_16th }
 						NOT = { has_building = fort_17th }
 						NOT = { has_building = fort_18th }
+						NOT = { has_building = fort_19th }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owner = {
@@ -1091,6 +1278,7 @@ estate_nobles_build_fort_building_in_y = {
 									has_building = fort_16th
 									has_building = fort_17th
 									has_building = fort_18th
+									has_building = fort_19th
 								}
 							}
 						}
@@ -1101,6 +1289,7 @@ estate_nobles_build_fort_building_in_y = {
 						NOT = { has_building = fort_16th }
 						NOT = { has_building = fort_17th }
 						NOT = { has_building = fort_18th }
+						NOT = { has_building = fort_19th }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owned_by = root
@@ -1128,12 +1317,12 @@ estate_nobles_build_fort_building_in_y = {
 											has_building = fort_16th
 											has_building = fort_17th
 											has_building = fort_18th
+											has_building = fort_19th
 										}
 									}
 								}
 							}
 						}
-						has_terrain = mountain
 					}
 					AND = {
 						has_building = fort_15th
@@ -1147,13 +1336,28 @@ estate_nobles_build_fort_building_in_y = {
 						has_building = fort_17th
 						ROOT = { mil_tech = 24 }
 					}
+					AND = {
+						has_building = fort_18th
+						ROOT = { mil_tech = 41 }
+					}
 				}
-				NOT = { has_building = fort_18th }
+				NOT = { has_building = fort_19th }
 			}
 			save_event_target_as = agenda_province
 		}
 		event_target:agenda_province = {
 			if = {
+				limit = {
+					has_building = fort_18th
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_nobles_build_fort_building_in_y_var
+						value = 5
+					}
+				}
+			}
+			else_if = {
 				limit = {
 					has_building = fort_17th
 				}
@@ -1206,6 +1410,17 @@ estate_nobles_build_fort_building_in_y = {
 	}
     task_requirements = {
 		if = {
+			limit = {
+				check_variable = {
+					which = estate_nobles_build_fort_building_in_y_var
+					value = 5
+				}
+			}
+			event_target:agenda_province = {
+				has_building = fort_19th
+			}
+		}
+		else_if = {
 			limit = {
 				check_variable = {
 					which = estate_nobles_build_fort_building_in_y_var

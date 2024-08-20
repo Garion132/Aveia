@@ -431,6 +431,15 @@ lower_cap_calc = {
             }
         }
     }
+
+    if = {
+        limit = {
+            owner = {
+                has_idea = agricultural_idyll
+            }
+        }
+        change_variable = { which = lower_cap_modifier value = 0.1 }
+    }
     
     set_variable = { which = t_0 value = 100 }
     change_variable = { which = t_0 which = agri_eff }
@@ -821,112 +830,19 @@ pops_tick = {
 }
 pops_growth_calc = {
     # $food_balance_percentage$
-
     if = {
         limit = {
             check_variable = { which = $food_balance_percentage$ value = 0 }
         }
         #Growth
         set_variable = { which = middle_growth_rate which = middle_pop_total }
-        multiply_variable = { which = middle_growth_rate value = 0.008 } # 0.8% yearly growth rate
-
-        set_variable = { which = t_0 which = middle_cap_total }
-        subtract_variable = { which = t_0 which = middle_pop_total }
-        if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 0 } }
-            }
-            multiply_variable = { which = middle_growth_rate value = 0.25 }
-            if = {
-                limit = {
-                    NOT = { check_variable = { which = t_0 value = -1 } }
-                }
-                multiply_variable = { which = middle_growth_rate value = 0.4 }
-                if = {
-                    limit = {
-                        NOT = { check_variable = { which = t_0 value = -2 } }
-                    }
-                    multiply_variable = { which = middle_growth_rate value = 0.5 }
-                }
-            }
-        }
-        else_if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 1.0 } }
-            }
-            multiply_variable = { which = middle_growth_rate value = 0.5 }
-        }
-
+        multiply_variable = { which = middle_growth_rate value = 0.004 } # 0.4% yearly growth rate
+        
         set_variable = { which = working_growth_rate which = working_pop_total }
-        multiply_variable = { which = working_growth_rate value = 0.02 } # 2% yearly growth rate
-
-        set_variable = { which = t_0 which = working_cap_total }
-        subtract_variable = { which = t_0 which = working_pop_total }
-        if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 0 } }
-            }
-            multiply_variable = { which = working_growth_rate value = 0.1 }
-            if = {
-                limit = {
-                    NOT = { check_variable = { which = t_0 value = -1 } }
-                }
-                multiply_variable = { which = working_growth_rate value = 0.1 }
-            }
-        }
-        else_if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 1.0 } }
-            }
-            multiply_variable = { which = working_growth_rate value = 0.5 }
-        }
+        multiply_variable = { which = working_growth_rate value = 0.01 } # 1% yearly growth rate
         
         set_variable = { which = lower_growth_rate which = lower_pop_total }
-        multiply_variable = { which = lower_growth_rate value = 0.03 } # 3% yearly growth rate
-
-        set_variable = { which = t_0 which = lower_cap_total }
-        subtract_variable = { which = t_0 which = lower_pop_total }
-        if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 0 } }
-            }
-            multiply_variable = { which = lower_growth_rate value = 0.1 }
-            if = {
-                limit = {
-                    NOT = { check_variable = { which = t_0 value = -1 } }
-                }
-                multiply_variable = { which = lower_growth_rate value = 0.1 }
-            }
-        }
-        else_if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 1.0 } }
-            }
-            multiply_variable = { which = lower_growth_rate value = 0.5 }
-        }
-        else_if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 2.0 } }
-            }
-            multiply_variable = { which = lower_growth_rate value = 0.25 }
-        }
-        
-        if = {
-            limit = {
-                check_variable = { which = $food_balance_percentage$ value = 20 }
-            }
-            multiply_variable = { which = middle_growth_rate value = 1.25 } # Max: 1.0%
-            multiply_variable = { which = working_growth_rate value = 1.5 } # Max: 3.0%
-            multiply_variable = { which = lower_growth_rate value = 2.0 } # Max: 6.0%
-        }
-        else_if = {
-            limit = {
-                check_variable = { which = $food_balance_percentage$ value = 10 }
-            }
-            multiply_variable = { which = middle_growth_rate value = 1.125 }  # Max: 0.9%
-            multiply_variable = { which = working_growth_rate value = 1.25 }  # Max: 2.5%
-            multiply_variable = { which = lower_growth_rate value = 1.33 }  # Max: 4.0%
-        }
+        multiply_variable = { which = lower_growth_rate value = 0.02 } # 2% yearly growth rate
     }
     else_if = {
         limit = {
@@ -934,112 +850,136 @@ pops_growth_calc = {
         }
         #Stagnation
         set_variable = { which = middle_growth_rate value = 0 }
-        set_variable = { which = working_growth_rate which = 0 }
-
+        set_variable = { which = working_growth_rate value = 0 }
+        
         set_variable = { which = lower_growth_rate which = lower_pop_total }
-        multiply_variable = { which = lower_growth_rate value = 0.01 } # 1% yearly growth rate
-
-        set_variable = { which = t_0 which = lower_cap_total }
-        subtract_variable = { which = t_0 which = lower_pop_total }
-        if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 0 } }
-            }
-            multiply_variable = { which = lower_growth_rate value = 0.1 }
-            if = {
-                limit = {
-                    NOT = { check_variable = { which = t_0 value = -1 } }
-                }
-                multiply_variable = { which = lower_growth_rate value = 0.1 }
-            }
-        }
-        else_if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 1.0 } }
-            }
-            multiply_variable = { which = lower_growth_rate value = 0.5 }
-        }
-        else_if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 2.0 } }
-            }
-            multiply_variable = { which = lower_growth_rate value = 0.25 }
-        }
-
+        multiply_variable = { which = lower_growth_rate value = 0.005 } # 0.5% yearly growth rate
     }
     else = {
         #Starvation
         set_variable = { which = middle_growth_rate which = middle_pop_total }
-        multiply_variable = { which = middle_growth_rate value = -0.07 } # -7% yearly growth rate
-        set_variable = { which = t_0 which = middle_cap_total }
-        subtract_variable = { which = t_0 which = middle_pop_total }
-        if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 0 } }
-            }
-            subtract_variable = { which = middle_growth_rate value = 0.05 } #-12%
-            if = {
-                limit = {
-                    NOT = { check_variable = { which = t_0 value = -1 } }
-                }
-                subtract_variable = { which = middle_growth_rate value = 0.08 } #-20%
-            }
-        }
-
+        multiply_variable = { which = middle_growth_rate value = -0.1 } # -10% yearly growth rate
+        
         set_variable = { which = working_growth_rate which = working_pop_total }
         multiply_variable = { which = working_growth_rate value = -0.1 } # -10% yearly growth rate
-        set_variable = { which = t_0 which = working_cap_total }
-        subtract_variable = { which = t_0 which = working_pop_total }
-        if = {
-            limit = {
-                NOT = { check_variable = { which = t_0 value = 0 } }
-            }
-            subtract_variable = { which = working_growth_rate value = 0.05 } #-15%
-            if = {
-                limit = {
-                    NOT = { check_variable = { which = t_0 value = -1 } }
-                }
-                subtract_variable = { which = working_growth_rate value = 0.1 } #-25%
-            }
-        }
-
         
         set_variable = { which = lower_growth_rate which = lower_pop_total }
         multiply_variable = { which = lower_growth_rate value = -0.05 } # -5% yearly growth rate
-        set_variable = { which = t_0 which = lower_cap_total }
-        subtract_variable = { which = t_0 which = lower_pop_total }
+    }
+
+    # Middle Class Cap
+    set_variable = { which = t_0 which = middle_cap_total }
+    subtract_variable = { which = t_0 which = middle_pop_total }
+    set_variable = { which = t_2 which = t_0 }
+    if = {
+        limit = {
+            NOT = { check_variable = { which = t_0 value = 0 } }
+        }
+        multiply_variable = { which = middle_growth_rate value = 0.25 }
         if = {
             limit = {
-                NOT = { check_variable = { which = t_0 value = 0 } }
+                NOT = { check_variable = { which = t_0 value = -1 } }
             }
-            subtract_variable = { which = lower_growth_rate value = 0.05 } #-10%
+            multiply_variable = { which = middle_growth_rate value = 0.4 }
             if = {
                 limit = {
                     NOT = { check_variable = { which = t_0 value = -2 } }
                 }
-                subtract_variable = { which = lower_growth_rate value = 0.05 } #-15%
-            }
-        }
-
-        if = {
-            limit = {
-                NOT = { check_variable = { which = $food_balance_percentage$ value = -20 } }
-            }
-            #Double the rate
-            multiply_variable = { which = middle_growth_rate value = 2 }
-            multiply_variable = { which = working_growth_rate value = 2 }
-            multiply_variable = { which = lower_growth_rate value = 2 }
-            if = {
-                limit = {
-                    NOT = { check_variable = { which = $food_balance_percentage$ value = -30 } }
-                }
-                #Double the rate again
-                multiply_variable = { which = middle_growth_rate value = 2 }
-                multiply_variable = { which = working_growth_rate value = 2 }
-                multiply_variable = { which = lower_growth_rate value = 2 }
+                multiply_variable = { which = middle_growth_rate value = 0.5 }
             }
         }
     }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { which = t_0 value = 1.0 } }
+        }
+        multiply_variable = { which = middle_growth_rate value = 0.5 }
+    }
+
+    # Working Class Cap & Overflow
+    set_variable = { which = t_0 which = working_cap_total }
+    subtract_variable = { which = t_0 which = working_pop_total }
+    if = {
+        limit = {
+            NOT = { check_variable = { which = t_0 value = 0 } }
+        }
+        if = {
+            limit = {
+                check_variable = { which = working_growth_rate value = 0 }
+                check_variable = { which = t_2 value = 0.001 }
+            }
+            set_variable = { which = t_1 which = working_growth_rate }
+            multiply_variable = { which = t_1 value = 0.2 }
+            change_variable = { which = middle_growth_rate which = t_1 }
+        }
+
+        multiply_variable = { which = working_growth_rate value = 0.1 }
+        if = {
+            limit = {
+                NOT = { check_variable = { which = t_0 value = -1 } }
+            }
+            multiply_variable = { which = working_growth_rate value = 0.1 }
+        }
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { which = t_0 value = 1.0 } }
+        }
+        if = {
+            limit = {
+                check_variable = { which = working_growth_rate value = 0 }
+                check_variable = { which = t_2 value = 0.001 }
+            }
+            set_variable = { which = t_1 which = working_growth_rate }
+            multiply_variable = { which = t_1 value = 0.1 }
+            change_variable = { which = middle_growth_rate which = t_1 }
+        }
+
+        multiply_variable = { which = working_growth_rate value = 0.5 }
+    }
+    
+    # Lower Class Cap & Overflow
+    set_variable = { which = t_2 which = lower_cap_total }
+    subtract_variable = { which = t_2 which = lower_pop_total }
+    if = {
+        limit = {
+            NOT = { check_variable = { which = t_2 value = 0 } }
+        }
+        if = {
+            limit = {
+                check_variable = { which = lower_growth_rate value = 0 }
+                check_variable = { which = t_0 value = 0.001 }
+            }
+            set_variable = { which = t_1 which = lower_growth_rate }
+            multiply_variable = { which = t_1 value = 0.1 }
+            change_variable = { which = working_growth_rate which = t_1 }
+        }
+
+        multiply_variable = { which = lower_growth_rate value = 0.1 }
+        if = {
+            limit = {
+                NOT = { check_variable = { which = t_2 value = -1 } }
+            }
+            multiply_variable = { which = lower_growth_rate value = 0.1 }
+        }
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { which = t_2 value = 2.0 } }
+        }
+        if = {
+            limit = {
+                check_variable = { which = lower_growth_rate value = 0 }
+                check_variable = { which = t_0 value = 0.001 }
+            }
+            set_variable = { which = t_1 which = lower_growth_rate }
+            multiply_variable = { which = t_1 value = 0.05 }
+            change_variable = { which = working_growth_rate which = t_1 }
+        }
+
+        multiply_variable = { which = lower_growth_rate value = 0.5 }
+    }
+
     
     change_variable = { which = middle_growth which = middle_growth_rate }
     change_variable = { which = working_growth which = working_growth_rate }

@@ -419,6 +419,16 @@ shrine = {
 		hidden_effect = {
 			update_pops = yes	
 		}
+		if = {
+			limit = {
+				has_government_mechanic = monumentality_mechanic
+			}
+			add_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = 1
+			}
+		}
 	}
 	on_destroyed = {
 		hidden_effect = {
@@ -446,6 +456,16 @@ temple = {
 		hidden_effect = {
 			update_pops = yes	
 		}
+		if = {
+			limit = {
+				has_government_mechanic = monumentality_mechanic
+			}
+			add_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = 2
+			}
+		}
 	}
 	on_destroyed = {
 		hidden_effect = {
@@ -472,6 +492,16 @@ cathedral = {
 	on_built = {
 		hidden_effect = {
 			update_pops = yes	
+		}
+		if = {
+			limit = {
+				has_government_mechanic = monumentality_mechanic
+			}
+			add_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = 3
+			}
 		}
 	}
 	on_destroyed = {
@@ -1084,7 +1114,7 @@ barracks = {
 
 	modifier = {
 		local_manpower = 0.1
-		local_manpower_modifier = 0.5
+		local_manpower_modifier = 0.25
 	}
 	
 	on_built = {
@@ -1110,7 +1140,7 @@ training_fields = {
 
 	modifier = {
 		local_manpower = 0.2
-		local_manpower_modifier = 1.0
+		local_manpower_modifier = 0.5
 	}
 	
 	on_built = {
@@ -1144,7 +1174,7 @@ military_academy = {
 
 	modifier = {
 		local_manpower = 0.3
-		local_manpower_modifier = 2
+		local_manpower_modifier = 1
 	}
 	
 	on_built = {
@@ -1168,7 +1198,7 @@ regimental_camp = {
 	time = 18
 
 	modifier = {
-		land_forcelimit = 1
+		land_forcelimit = 0.5
 		regiment_recruit_speed = -0.1
 	}
 	
@@ -1203,7 +1233,7 @@ conscription_center = {
 	make_obsolete = regimental_camp
 
 	modifier = {
-		land_forcelimit = 2
+		land_forcelimit = 1
 		regiment_recruit_speed = -0.2
 	}
 	
@@ -1238,7 +1268,7 @@ mobilization_system = {
 	make_obsolete = conscription_center
 
 	modifier = {
-		land_forcelimit = 3
+		land_forcelimit = 2
 		regiment_recruit_speed = -0.3
 	}
 	

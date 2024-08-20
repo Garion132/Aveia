@@ -21,6 +21,9 @@ CYU_mid_colum_1 = {
 			}
 		}
 		effect = {
+			add_adm_power = 400
+			add_years_of_income = 1
+			add_prestige = 20
 			every_owned_province = {
 				if={
 					limit = {
@@ -29,7 +32,7 @@ CYU_mid_colum_1 = {
 					}
 					add_province_modifier  = {
 						name = CYU_coring_cost_ILR
-						duration = 365
+						duration = 720
 					}
 				}
 			}

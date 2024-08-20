@@ -453,6 +453,8 @@ technology = {
 	infantry_fire = 0.2
 	infantry_shock = 0.1
 	maneuver_value = 0.25
+
+	training_fields = yes
 	
 	enable = arquebusiers #Elves
 	enable = squirrel_ironwood_arquebow
@@ -545,8 +547,6 @@ technology = {
 
 	infantry_fire = 0.5
 	maneuver_value = 0.25
-
-	training_fields = yes
 
 	enable = mixed_ranged_infantry #Elves
 	enable = squirrel_guedinalock_hatchets
@@ -753,6 +753,8 @@ technology = {
 
 	combat_width = 4
 	fort_17th = yes
+
+	conscription_center = yes
 }
 
 technology = {
@@ -837,8 +839,6 @@ technology = {
 	military_tactics = 0.25
 	infantry_fire = 0.2
 	infantry_shock = 1.5
-
-	conscription_center = yes
 
 	enable = squirrel_ironwood_riflescur
 	enable = squirrel_gliding_scurians
