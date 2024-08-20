@@ -217,6 +217,7 @@
  estate_church_monopoly_of_bronze_desc:0 "Without bronze, our armies would be toothless. Only the [Root.GetClergyName] can be trusted with administering its production, for it is they who have the divine knowledge of its creation"
  estate_kethai_export_rights: "Kethai Export Rights"
  estate_church_temple_building_rights: "Temple Building Rights"
+ estate_church_temple_building_rights_desc: "Giving the [Root.GetClergyName] a budget to construct the required temples and shrines will help please the gods with less direct work from the state."
  estate_nobles_fedual_rights: "Feudal Rights of [Root.GetNobilityName]"
  estate_nobles_fedual_villeinage: "Villeinage"
  estate_burghers_guild_rights: "Grant Guild Rights"
