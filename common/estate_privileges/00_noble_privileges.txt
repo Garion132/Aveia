@@ -457,31 +457,6 @@ estate_nobles_veto_heir_apparent = {
 	}
 }
 
-estate_nobles_statutory_rights = {
-	icon = privilege_grant_autonomy
-	max_absolutism = -5
-	influence = 0.1
-	is_valid = {
-		has_estate_privilege = estate_nobles_statutory_rights
-	}
-	on_granted = {
-		change_estate_land_share = {
-			estate = all
-			share = -30
-		}
-	}
-	penalties = {
-		min_autonomy = 25
-	}
-	benefits = {
-	}
-	ai_will_do = {
-		factor = 0
-	}
-
-	cooldown_years = 20
-}
-
 estate_nobles_junker_primacy = {
 	icon = privilege_royal_authority
 	max_absolutism = -5
@@ -509,5 +484,223 @@ estate_nobles_junker_primacy = {
 			factor = 0.5
 			is_absolutism_active = yes
 		}
+	}
+}
+
+
+#Feudalism
+
+estate_nobles_fedual_rights = {
+	icon = privilege_land_rights
+	max_absolutism = -20
+	influence = 0.1
+	is_valid = {
+		OR={
+			has_estate_privilege = estate_nobles_fedual_rights
+			current_age = age_of_calamity
+		}
+	}
+	can_revoke = {
+		OR = {
+			crown_land_share = 40
+			AND = {
+				crown_land_share = 30
+				has_estate_privilege = estate_burghers_guild_rights
+			}
+		}
+		NOT={
+			has_estate_privilege = estate_nobles_fedual_villeinage
+			has_estate_privilege = estate_nobles_feudal_royal_court_tasks
+			has_estate_privilege = estate_nobles_fedual_noble_court
+			has_estate_privilege = estate_nobles_fedual_knightly_code
+		}
+		has_any_disaster = no
+	}
+	on_granted = {
+		
+	}
+	penalties = {
+		min_autonomy = 25
+	}
+	benefits = {
+		nobles_privilege_slots = 2
+	}
+	ai_will_do = {
+		factor = 0
+	}
+
+	cooldown_years = 20
+}
+
+estate_nobles_fedual_villeinage = {
+	icon = privilege_serf
+	loyalty = 0
+	influence = 0.1
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	is_valid = {
+		OR={
+			has_estate_privilege = estate_nobles_fedual_villeinage
+			has_estate_privilege = estate_nobles_fedual_rights
+		}
+	}
+	can_revoke = {
+		crown_land_share = 30
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	modifier_by_land_ownership = {
+		global_tax_modifier = -0.5
+	}
+	mechanics = {
+		exempt_from_seize_land
+		no_estate_crownland_loss_from_developing
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+estate_nobles_fedual_noble_court = {
+	icon = privilege_empty_throne
+	loyalty = 0.05
+	influence = 0.05
+	max_absolutism = -7.5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	is_valid = {
+		OR={
+			has_estate_privilege = estate_nobles_fedual_noble_court
+			has_estate_privilege = estate_nobles_fedual_rights
+		}
+	}
+	can_revoke = {
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	penalties = {
+		global_tax_modifier = -0.025
+		production_efficiency = -0.025
+	}
+	benefits = {
+		legitimacy = 0.5
+		republican_tradition = 0.25
+	}
+	modifier_by_land_ownership = {
+		
+	}
+	mechanics = {
+		
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+estate_nobles_fedual_knightly_code = {
+	icon = privilege_timurid_helmet
+	loyalty = 0.05
+	influence = 0.02
+	is_valid = {
+		OR={
+			has_estate_privilege = estate_nobles_fedual_knightly_code
+			has_estate_privilege = estate_nobles_fedual_rights
+		}
+	}
+	can_revoke = {
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	penalties = {
+		
+	}
+	benefits = {
+		stability_cost_modifier = -0.1
+		army_tradition_decay = -0.005
+	}
+	modifier_by_land_ownership = {
+		
+	}
+	mechanics = {
+		
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+estate_nobles_feudal_royal_court_tasks = {
+	icon = privilege_build_jain_temple
+	loyalty = 0.0
+	influence = 0.05
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	is_valid = {
+		OR={
+			has_estate_privilege = estate_nobles_feudal_royal_court_tasks
+			has_estate_privilege = estate_nobles_fedual_rights
+		}
+	}
+	can_select = {
+		has_estate_privilege = estate_nobles_fedual_noble_court
+	}
+	on_granted = {
+		scaling_with_influence_privilege_tooltip = {
+			estate_privilege = estate_nobles_royal_court_tasks
+		}
+	}
+	on_revoked = {
+		scaling_with_influence_privilege_tooltip = {
+			estate_privilege = estate_nobles_royal_court_tasks
+		}
+	}
+	influence_scaled_conditional_modifier = {	#Modifier that are applied if the specified conditions are true. At 100% Influence you gain 100% of the modifier.
+		trigger = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 30
+				}
+			}
+		}
+		modifier = {
+			prestige_decay = 0.01
+		}
+	}
+	influence_scaled_conditional_modifier = {	#Modifier that are applied if the specified conditions are true. At 100% Influence you gain 100% of the modifier.
+		trigger = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 30
+			}
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 60
+				}
+			}
+		}
+		modifier = {
+			prestige_decay = -0.005
+		}
+	}
+	influence_scaled_conditional_modifier = {	#Modifier that are applied if the specified conditions are true. At 100% Influence you gain 100% of the modifier.
+		trigger = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 60
+			}
+		}
+		modifier = {
+			prestige_decay = -0.01
+		}
+	}
+	ai_will_do = {
+		factor = 0
 	}
 }

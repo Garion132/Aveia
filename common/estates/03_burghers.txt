@@ -151,6 +151,8 @@ estate_burghers =
 		estate_burghers_private_trade_fleets
 		estate_burghers_enforced_interfaith_dialogue
 		estate_burghers_statutory_rights
+		estate_burghers_guild_rights
+		estate_burghers_armed_airship_rights
 	}
 
 	agendas = {
@@ -158,7 +160,7 @@ estate_burghers =
 		estate_burghers_build_port_building_in_y
 		estate_burghers_build_production_building_in_y
 		estate_burghers_build_university_in_y
-		estate_burghers_build_manufactory_in_y
+		#estate_burghers_build_manufactory_in_y
 		estate_burghers_pay_off_loans
 		estate_burghers_restore_republican_tradition
 		estate_burghers_restore_currency

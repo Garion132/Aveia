@@ -131,12 +131,13 @@ estate_church =
 		estate_church_statutory_rights
 		estate_church_monopoly_of_paper
 		estate_church_monopoly_of_bronze
+		estate_church_temple_building_rights
 	}
 
 	agendas = {
 		estate_church_build_temple_in_y
 		estate_church_build_university_in_y
-		estate_church_build_manufactory_in_y
+		#estate_church_build_manufactory_in_y
 		estate_church_convert_province_x
 		estate_church_reduce_war_exhaustion
 		estate_church_recover_stability

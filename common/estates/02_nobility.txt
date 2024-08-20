@@ -208,14 +208,18 @@ estate_nobles =
 		estate_nobles_veto_heir_apparent
 		estate_nobles_nieszawa_privileges
 		estate_nobles_pacta_conventa
-		estate_nobles_statutory_rights
+		estate_nobles_fedual_rights
+		estate_nobles_fedual_villeinage
+		estate_nobles_feudal_royal_court_tasks
+		estate_nobles_fedual_noble_court
+		estate_nobles_fedual_knightly_code
 	}
 
 	agendas = {
 		estate_nobles_build_army_building_in_y
 		estate_nobles_build_fort_building_in_y
 		estate_nobles_build_university_in_y
-		estate_nobles_build_manufactory_in_y
+		#estate_nobles_build_manufactory_in_y
 		estate_nobles_get_allies
 		estate_nobles_befriend_rival_of_rival
 		estate_nobles_restore_legitimacy
