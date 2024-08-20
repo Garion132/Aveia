@@ -112,9 +112,10 @@ estate_burghers_land_of_commerce = {
 	penalties = {
 	}
 	is_valid = {
-		NOT={ government = bronze_monarchy }
-		NOT={ government = bronze_league }
-		NOT={ government = iron_monarchy }
+		NOT={ has_reform = bronze_monarchy_mechanic }
+		NOT={ has_reform = bronze_league_mechanic }
+		NOT={ has_reform = iron_monarchy_mechanic }
+		NOT={ has_reform = iron_republic_mechanic }
 	}
 	benefits = {
 		country_diplomatic_power = 1
@@ -251,9 +252,10 @@ estate_burghers_indebted_to_burghers = {
 		}
 	}
 	is_valid = {
-		NOT={ government = bronze_monarchy }
-		NOT={ government = bronze_league }
-		NOT={ government = iron_monarchy }
+		NOT={ has_reform = bronze_monarchy_mechanic }
+		NOT={ has_reform = bronze_league_mechanic }
+		NOT={ has_reform = iron_monarchy_mechanic }
+		NOT={ has_reform = iron_republic_mechanic }
 	}
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip

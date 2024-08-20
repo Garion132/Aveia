@@ -86,9 +86,10 @@ estate_church_religious_state = {
 		country_admin_power = 1
 	}
 	is_valid = {
-		NOT={ government = bronze_monarchy }
-		NOT={ government = bronze_league }
-		NOT={ government = iron_monarchy }
+		NOT={ has_reform = bronze_monarchy_mechanic }
+		NOT={ has_reform = bronze_league_mechanic }
+		NOT={ has_reform = iron_monarchy_mechanic }
+		NOT={ has_reform = iron_republic_mechanic }
 	}
 	ai_will_do = {
 		factor = 10

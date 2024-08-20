@@ -537,16 +537,16 @@ human_homeland_defense = {
 behind_in_government = {
 	potential = {
 		has_institution = iron_working
-		OR = {
-			government = bronze_monarchy
-			government = bronze_league
+		OR={
+			has_reform = bronze_monarchy_mechanic
+			has_reform = bronze_league_mechanic
 		}
 	}
 	trigger = {
 		has_institution = iron_working
-		OR = {
-			government = bronze_monarchy
-			government = bronze_league
+		OR={
+			has_reform = bronze_monarchy_mechanic
+			has_reform = bronze_league_mechanic
 		}
 	}
 	monthly_reform_progress = 1

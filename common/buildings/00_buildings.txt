@@ -520,7 +520,7 @@ cathedral = {
 ################################################
 
 town_square = {
-	cost = 40
+	cost = 80
 	time = 6
 	modifier = {
 		#local_autonomy = -0.025
@@ -534,7 +534,7 @@ town_square = {
 }
 
 courthouse = {
-	cost = 80
+	cost = 150
 	time = 12
 
 	make_obsolete = town_square
@@ -562,7 +562,7 @@ courthouse = {
 }
 
 town_hall = {
-	cost = 150
+	cost = 250
 	time = 18
 
 	make_obsolete = courthouse
@@ -590,7 +590,7 @@ town_hall = {
 }
 
 post_office = {
-	cost = 225
+	cost = 400
 	time = 18
 
 	make_obsolete = town_hall
@@ -618,7 +618,7 @@ post_office = {
 }
 
 city_hall = {
-	cost = 300
+	cost = 600
 	time = 24
 
 	make_obsolete = post_office
