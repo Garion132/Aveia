@@ -35,7 +35,6 @@ iron_republic_mechanic = {
 
 	valid_for_nation_designer = no
 }
-
 ####
 #gov types
 ###
@@ -189,6 +188,69 @@ ia_dragonic_throne_reform = {
 	legacy_equivalent = dragonic_throne
 	allow_convert = no
 }
+
+ia_kyathian_council = {
+	# government mechanics flags go here
+	icon = "castle"
+	legacy_government = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	modifiers = {
+		global_manpower_modifier = 0.1
+		vassal_income = 0.5
+		diplomatic_annexation_cost = 0.25
+		nobles_influence_modifier = 0.05
+		burghers_influence_modifier = -0.05
+	}
+	government_abilities = {
+		nalean_contract_mechanic
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+ia_kyathian_council_reform = {
+	potential = {
+		tag = KYA
+	}
+
+	modifiers = {
+		global_manpower_modifier = 0.1
+		vassal_income = 0.5
+		diplomatic_annexation_cost = 0.25
+		nobles_influence_modifier = 0.05
+		burghers_influence_modifier = -0.05
+	}
+	government_abilities = {
+		nalean_contract_mechanic
+	}
+	monarchy = yes
+	valid_for_nation_designer = no
+	icon = "castle"
+	allow_normal_conversion = yes
+	legacy_equivalent = ia_kyathian_council
+	allow_convert = yes
+	lock_level_when_selected = yes
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
 
 #Republic
 ia_lumian_patricanate= {

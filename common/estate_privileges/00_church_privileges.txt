@@ -711,12 +711,12 @@ estate_church_temple_building_rights = {
 		
 	}
 	penalties = {
-		global_tax_modifier = -0.15
+		global_tax_modifier = -0.075
 	}
 	benefits = {
 		monthly_godly_favor = 0.05
 	}
-	cooldown_years = 20
+	cooldown_years = 10
 	on_cooldown_expires = {
 		
 	}

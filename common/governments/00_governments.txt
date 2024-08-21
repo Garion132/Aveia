@@ -900,6 +900,7 @@ iron_monarchy = {
 				ia_deligated_monarchy
 				ia_ghandian_horde
 				ia_god_king
+				ia_kyathian_council
 			}
 		}
 		iron_societal_ties = {
