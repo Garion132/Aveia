@@ -1295,6 +1295,10 @@ country_event = {
 			factor = 0.5
 			NOT = { is_year = 1370 }
 		}
+		modifier = {
+			factor = 2
+			is_year = 1385
+		}
 	}
 
 	option = {
