@@ -20,6 +20,7 @@ high_bronze_age_navy = {
 	naval_forcelimit_modifier = 0.5
 	naval_maintenance_modifier = 1
 	global_naval_barrage_cost = 1
+	range = 1.5
 }
 iron_age_navy = {
 	potential = {
@@ -37,6 +38,7 @@ iron_age_navy = {
 	naval_maintenance_modifier = 0.66
 	galley_power = 0.05
 	global_naval_barrage_cost = 1
+	range = 0.5
 }
 steam_age_navy = {
 	potential = {
