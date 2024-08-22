@@ -462,3 +462,135 @@ offer_contract_addition = {
 		}
 	}
 }
+call_feudal_dignitary_defence = {
+	category = alliance
+
+	alert_index = 40
+	alert_tooltip = demand_dummy_alert_tooltip
+
+	require_acceptance = yes # Whether the recipient gets an option to decline
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = feudal_dignitary
+		}
+		is_in_war = {
+			defenders = ROOT
+		}
+	}
+	is_allowed = {
+		FROM={
+			has_opinion = {
+				who = ROOT
+				value = 0
+			}
+			is_at_war = no
+			NOT={liberty_desire = 50}
+		}
+	}
+	on_accept = {
+		FROM={
+			join_all_defensive_wars_of = ROOT
+		}
+	}
+	on_decline ={
+		add_trust = {
+			who = FROM
+			value = -15
+			mutual = no
+		}
+	}
+
+	ai_acceptance = { # This works similarly to variable_arithmetic_trigger, but does not support triggers generally. Instead, "limit" will be evaluated first and the rest ignored if it isn't passed.
+		add_entry = {
+			name = TRUST
+			export_to_variable = {
+				variable_name = ai_value # Each "add_entry" must create one variable called "ai_value", the value of which will be extracted after executing all effects
+				value = trust
+				who = FROM
+				with = THIS
+			}
+			subtract_variable = { which = ai_value value = 50 }
+			multiply_variable = { which = ai_value value = 2 }
+		}
+		#vassalization acceptance reasons modifier
+		#ruler diplo skill
+		add_entry = {
+			name = NCRulerDip
+			limit = {dip = 3}
+			export_to_variable = {
+				which = ai_value
+				value = DIP
+				who = ROOT
+			}
+			multiply_variable = { which = ai_value value = 2 }
+
+		}
+		#diplomatic repuation
+		add_entry = {
+			name = NCdipRep
+			limit = {always = yes}
+			export_to_variable = {
+				which = ai_value
+				value = modifier:diplomatic_reputation
+				who = ROOT
+			}
+			multiply_variable = { which = ai_value value = 2 }
+
+		}
+		add_entry = {
+            name = DIPLO_OPPINION
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.125
+			}
+        }
+		add_entry = {
+			name = AI_TRUST_TOWARDS_ROOT
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+		#base -45
+		add_entry = {
+			name = NCBase
+			limit = {
+				always = yes
+			}
+			export_to_variable = {
+				which = ai_value
+				value = trigger_value:always
+			}
+			set_variable = {
+				ai_value = -45
+			}
+			
+		}
+	}
+
+	ai_will_do = { # this is a trigger
+		has_opinion_modifier = {
+			modifier = insulted
+			who = FROM
+		}
+	}
+}

@@ -401,6 +401,7 @@ feudal_dignitary = {
 	overlord_protects_external = yes
 	allows_taking_land_without_independence = yes
 	takes_diplo_slot = no
+	separatists_become_subjects = yes
 	
 	can_be_co_belligerented = yes 
 	joins_overlords_wars = no
@@ -409,6 +410,7 @@ feudal_dignitary = {
 	relative_power_class = 2
 
 	# Subject Interactions:
+	support_loyalists = yes
 	subsidize_armies = yes
 	seize_territory = no
 	
@@ -771,7 +773,7 @@ colony_elteria_start = {
 
 	# Properties:
 	dynamically_created_during_history = no
-	has_colonial_parent = no
+	has_colonial_parent = yes
 	
 	liberty_desire_development_ratio = 0.05
 

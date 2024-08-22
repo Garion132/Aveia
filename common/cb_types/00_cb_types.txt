@@ -529,10 +529,9 @@ cb_crusade = {
 		is_neighbor_of = FROM
 		NOT = { religion_group = FROM }
 		NOT = {	has_matching_religion = FROM }
-		OR = {
-			cb_on_religious_enemies = yes
-		}
+		cb_on_religious_enemies = yes
 		is_revolutionary = no
+		always = no
 	}
 
 	war_goal = superiority_crusade
