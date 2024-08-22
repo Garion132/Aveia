@@ -1,27 +1,24 @@
 #Oagemins
-
 culture = ientiran
 religion = tlaunorist
-hre = no
-base_tax = 3
-base_production =3
-base_manpower = 2
+base_tax = 0
+base_production = 3
+base_manpower = 5
 trade_goods = unknown
 capital = "Sal"
 native_size = 25
 native_ferocity = 2
 native_hostileness = 9
-
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group
 discovered_by = free_kolbolds_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
-
-1200.1.1={
+1200.1.1 = { 
 	add_core = OAG
 	owner = OAG
 	controller = OAG
-	is_city = yes
+	city = yes
 }
+is_city = no

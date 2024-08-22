@@ -1,17 +1,14 @@
 #Keathene
-
 culture = keatha
 religion = tlaunorist
-hre = no
-base_tax = 3
-base_production =7
-base_manpower = 3
+base_tax = 0
+base_production = 4
+base_manpower = 8
 trade_goods = grain
 capital = "Sal"
 native_size = 25
 native_ferocity = 2
 native_hostileness = 9
-
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group
 discovered_by = free_kolbolds_group
@@ -19,10 +16,10 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 discovered_by = free_fauns_group
-
-1200.1.1={
+1200.1.1 = { 
 	add_core = FYG
 	owner = FYG
 	controller = FYG
-	is_city = yes
+	city = yes
 }
+is_city = no

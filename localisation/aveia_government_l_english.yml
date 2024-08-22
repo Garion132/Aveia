@@ -75,6 +75,8 @@
  ia_god_king:0 "God King"
  ia_god_king_desc:0 "Our ruler is seen as divine being, being considered either a avatar of a god, a demi-god, or simply a god in their own right. no one in our country doubts our rulers ties to divinity."
  ia_lumian_patricanate: "Lumian Patricianate"
+ ia_kyathian_council_reform: "Kyathian Council"
+ ia_dragonic_throne_reform: "Dragonic Throne"
  donamenz_chiefdom_reform: "Donamenz Chiefdom"
  expansion_path: "Expansion Path"
  PATRICIATE: "Patriciate"

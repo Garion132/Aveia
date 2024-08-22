@@ -166,6 +166,36 @@ ia_ghandian_horde = {
 		locked_government_type = yes
 	}
 }
+ia_dragonic_throne = {
+	# government mechanics flags go here
+	icon = "parliament_hall"
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+	allow_convert = yes
+	monarchy = yes
+	modifiers = {
+    	governing_capacity = 85
+		global_autonomy = -0.05
+		num_accepted_cultures = 2
+	}
+	potential = {
+		primary_culture = rake
+	}
+	rulers_can_be_generals = no
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 3
+			has_idea_group = economic_ideas
+		}
+		modifier = {
+			factor = 3
+			has_idea_group = trade_ideas
+		}
+	}
+}
 ia_dragonic_throne_reform = {
 	potential = {
 		primary_culture = rake
@@ -185,12 +215,16 @@ ia_dragonic_throne_reform = {
 	valid_for_nation_designer = no
 	icon = "parliament_hall"
 	allow_normal_conversion = yes
-	legacy_equivalent = dragonic_throne
+	legacy_equivalent = ia_dragonic_throne
 	allow_convert = no
 }
 
 ia_kyathian_council = {
 	# government mechanics flags go here
+	potential = {
+		tag = KYA
+		have_had_reform = kyathian_council_reform
+	}
 	icon = "castle"
 	legacy_government = yes
 	valid_for_new_country = no
@@ -199,6 +233,7 @@ ia_kyathian_council = {
 	allow_convert = yes
 	monarchy = yes
 	modifiers = {
+		governing_capacity = 75#iron age gives a larger gov
 		global_manpower_modifier = 0.1
 		vassal_income = 0.5
 		diplomatic_annexation_cost = 0.25
@@ -226,9 +261,11 @@ ia_kyathian_council = {
 ia_kyathian_council_reform = {
 	potential = {
 		tag = KYA
+		have_had_reform = kyathian_council_reform
 	}
 
 	modifiers = {
+		governing_capacity = 75#iron age gives a larger gov
 		global_manpower_modifier = 0.1
 		vassal_income = 0.5
 		diplomatic_annexation_cost = 0.25

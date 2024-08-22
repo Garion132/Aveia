@@ -1,30 +1,27 @@
 #Silowbo
-
 culture = kaletian
-religion = shamanism #Fetishism
-hre = no
-base_tax = 5
-base_production =4
-base_manpower = 4
+religion = shamanism#Fetishism
+base_tax = 1
+base_production = 3
+base_manpower = 9
 trade_goods = salt
 capital = "Sal"
 native_size = 25
 native_ferocity = 2
 native_hostileness = 9
 center_of_trade = 1
-
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group
 discovered_by = free_kolbolds_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
-
-1200.1.1={
+1200.1.1 = { 
 	add_core = SIL
 	owner = SIL
 	controller = SIL
-	is_city = yes
-	religion = tlaunorist
+	city = yes
+	religion = Tlaunorist
 	culture = athanilan
 }
+is_city = no

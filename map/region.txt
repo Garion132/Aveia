@@ -154,7 +154,7 @@ vulkivian_region = {
 thilrana_region = { 
 	areas = { 
 		liretlet fanilnemyel_1 nathion_1 nathion_2 nathion_3 nathion_4
-		asfereth celulil sineri bririon thilrana_1 thilrana_2 thilrana_3 thilrana_4 thilrana_5 thilrana_6
+		asfereth celulil sineri thilrana_1 thilrana_2 thilrana_3 thilrana_4 thilrana_5 thilrana_6
 		thilrana_7 thilrana_8 thilrana_9 thilrana_10 thilrana_11 thilrana_12 thilrana_13 thilrana_14 thilrana_15 thilrana_16 
 	}
 }
@@ -403,7 +403,7 @@ rarlone_region = {
 salisia_region = { 
 	areas = { 
 		salisia_1 salisia_2 salisia_3 salisia_4 salisia_5 salisia_6 salisia_7 salisia_8 salisia_9 salisia_10
-		salisia_11 salisia_12 salisia_13 salisia_14 salisia_15 salisia_16 salisia_17 salisia_18 salisia_19 salisia_20
+		salisia_11 salisia_12 salisia_14 salisia_15 salisia_16 salisia_17 salisia_18 salisia_19 salisia_20
 		salisia_21 salisia_22 salisia_23 
 	}
 }

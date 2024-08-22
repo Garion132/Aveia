@@ -311,6 +311,9 @@ kyathian_council = {
 		monumentality_mechanic
 		nalean_contract_mechanic
 	}
+	potential = {
+		tag = KYA
+	}
 	ai = {
 		factor = 1
 		modifier = {
