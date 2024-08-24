@@ -123,10 +123,8 @@ annexationaction = {
 				is_subject_of_type = feudal_dignitary
 			}
 			ROOT={
-				OR={
-					has_reform = kyathian_council_reform
-					has_reform = ia_kyathian_council_reform
-				}
+				has_reform = kyathian_council_reform
+
 			}
 		}
 		allow = {
