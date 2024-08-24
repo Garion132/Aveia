@@ -529,7 +529,9 @@ cb_crusade = {
 		is_neighbor_of = FROM
 		NOT = { religion_group = FROM }
 		NOT = {	has_matching_religion = FROM }
-		cb_on_religious_enemies = yes
+		OR={
+			cb_on_religious_enemies = yes
+		}
 		is_revolutionary = no
 	}
 
