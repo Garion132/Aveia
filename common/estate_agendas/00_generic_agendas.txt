@@ -635,7 +635,7 @@ estate_nobles_build_army_building_in_y = {
 				limit = {
 					NOT = { has_building = training_fields }
 					NOT = { has_building = mobilization_system }
-					ROOT = { mil_tech = 22 }
+					ROOT = { mil_tech = 16 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = barracks
