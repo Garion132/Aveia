@@ -531,7 +531,6 @@ cb_crusade = {
 		NOT = {	has_matching_religion = FROM }
 		cb_on_religious_enemies = yes
 		is_revolutionary = no
-		always = no
 	}
 
 	war_goal = superiority_crusade
