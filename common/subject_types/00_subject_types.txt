@@ -773,7 +773,7 @@ colony_elteria_start = {
 
 	# Properties:
 	dynamically_created_during_history = no
-	has_colonial_parent = yes
+	#has_colonial_parent = yes
 	
 	liberty_desire_development_ratio = 0.05
 
