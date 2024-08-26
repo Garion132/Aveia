@@ -161,6 +161,7 @@ steam_age_administration = {
 	min_autonomy = 5
 	global_autonomy = 0.025
 	state_maintenance_modifier = -0.05
+	interest = -1
 }
 steel_age_administration = {
 	potential = {
@@ -176,6 +177,7 @@ steel_age_administration = {
 	national_focus_years = -3
 	yearly_corruption = -0.08
 	state_maintenance_modifier = 0.1
+	interest = -1
 }
 industrial_age_administration = {
 	potential = {
@@ -192,6 +194,7 @@ industrial_age_administration = {
 	yearly_corruption = -0.12
 	can_claim_states = yes
 	state_maintenance_modifier = 0.25
+	interest = -2
 }
 modern_age_administration = {
 	potential = {
@@ -207,6 +210,7 @@ modern_age_administration = {
 	state_maintenance_modifier = 0.5
 	can_claim_states = yes
 	no_claim_cost_increasement = yes
+	interest = -2
 }
 
 high_bronze_age_army = {
