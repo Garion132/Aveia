@@ -46,7 +46,7 @@ technology = {
 	#Bronze Weaponry
 	
 	infantry_shock		= 	0.15
-	military_tactics = 0.1
+	military_tactics = 0.2
 	
 	#TODO - new inf type
 	enable = heavy_infantry #All
@@ -66,7 +66,7 @@ technology = {
 	#Phalanx
 	
 	land_morale = 0.5
-	military_tactics = 0.15
+	military_tactics = 0.3
 	combat_width = 3
 
 	enable = elven_phalanx #Elves
@@ -140,7 +140,7 @@ technology = {
 	}
 	
 	#Deep-Rank Phalanx
-	military_tactics 	= 	0.15
+	military_tactics 	= 	0.3
 	combat_width = 3
 
 	enable = ork_verditap_infantry #Orks
@@ -239,7 +239,7 @@ technology = {
 	
 	#Castles	
 	fort_15th = yes
-	military_tactics = 0.15
+	military_tactics = 0.3
 }
 
 technology = {
@@ -294,7 +294,7 @@ technology = {
 	}
 	
 	#Triple Line
-	military_tactics = 0.15
+	military_tactics = 0.3
 	combat_width = 2
 	
 	enable = ork_triple_line_pikes #Orks
@@ -423,7 +423,7 @@ technology = {
 	}
 	
 	#Steel Working
-	military_tactics 	= 	0.1
+	military_tactics 	= 	0.2
 	infantry_shock 		=	0.2
 	cavalry_fire	 	= 	0.25
 	cavalry_shock 		= 	0.5
@@ -497,7 +497,7 @@ technology = {
 	}
 	
 	#Pike and Shot
-	military_tactics = 0.15
+	military_tactics = 0.3
 	infantry_fire = 0.45
 
 	#TODO New Inf
@@ -574,7 +574,7 @@ technology = {
 	}
 	
 	#Square Tactics
-	military_tactics = 0.25
+	military_tactics = 0.5
 	infantry_fire = 0.4	
 }
 
@@ -641,7 +641,7 @@ technology = {
 	}
 	
 	#Line Infantry
-	military_tactics = 0.25
+	military_tactics = 0.5
 
 	#TODO new inf for Humans/Elves/Orks (Pips line up at this point)
 	enable = ork_shock_infantry #Orks
@@ -800,7 +800,7 @@ technology = {
 	}
 	
 	#Ankon Armor
-	military_tactics = 1.0
+	military_tactics = 2.0
 	land_morale = 1
 	infantry_shock = 0.5
 
@@ -837,7 +837,7 @@ technology = {
 	}
 	
 	#Specialized Regiments
-	military_tactics = 0.25
+	military_tactics = 0.5
 	infantry_fire = 0.2
 	infantry_shock = 1.5
 
@@ -920,7 +920,7 @@ technology = {
 	}
 	
 	#Blastpowder
-	military_tactics = 0.25
+	military_tactics = 0.5
 	infantry_fire = 1.5
 	artillery_fire = 4.0
 	cavalry_fire = 8.0
@@ -958,7 +958,7 @@ technology = {
 	}
 	
 	#Covered Way
-	military_tactics = 0.25
+	military_tactics = 0.5
 	fort_18th = yes
 	supply_limit = 0.5
 }
@@ -1009,7 +1009,7 @@ technology = {
 	}
 	
 	#Mass Mobilization
-	military_tactics = 0.25
+	military_tactics = 0.5
 	land_morale = 1.0
 
 	mobilization_system = yes
@@ -1071,7 +1071,7 @@ technology = {
 	}
 	
 	#Rifled Artillery
-	military_tactics = 0.25
+	military_tactics = 0.5
 	artillery_fire = 4.0
 	artillery_shock = 0.15
 	cavalry_fire = 10.0
@@ -1099,8 +1099,7 @@ technology = {
 	}
 	
 	#Gatling Guns
-	military_tactics = 0.5
-	infantry_fire = 1.0
+	military_tactics = 2.0
 	cavalry_fire = 5.0
 	cavalry_shock = 2.0
 	
