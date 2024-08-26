@@ -65,7 +65,7 @@ technology = {
 	
 	#Phalanx
 	
-	land_morale = 0.25
+	land_morale = 0.5
 	military_tactics = 0.15
 	combat_width = 3
 
@@ -161,6 +161,7 @@ technology = {
 	#Logistics
 	supply_limit = 0.25
 	combat_width = 5
+	land_morale = 0.5
 }
 
 technology = {
@@ -377,7 +378,6 @@ technology = {
 	}
 	
 	#Crossbows
-	land_morale = 0.25
 	infantry_fire = 0.2
 	maneuver_value = 0.25
 
@@ -523,6 +523,7 @@ technology = {
 	#Military Organization
 	supply_limit = 0.25
 	combat_width = 4
+	land_morale = 1
 	
 	enable = spider_organised_infantry
 	enable = naga_blessed_infantry
@@ -617,7 +618,7 @@ technology = {
 	
 	#Volley Fire
 
-	land_morale = 0.5
+	land_morale = 1
 	infantry_fire = 0.4
 	combat_width = 5
 	
@@ -800,7 +801,7 @@ technology = {
 	
 	#Ankon Armor
 	military_tactics = 1.0
-	land_morale = 0.5
+	land_morale = 1
 	infantry_shock = 0.5
 
 	mechanized_mine = yes
