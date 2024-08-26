@@ -1319,7 +1319,7 @@ printing_press = {
 	trade_company_efficiency = 0.8
 
 	historical_start_date = 1550.1.1
-	historical_start_province = 1876 #Frankfurt
+	historical_start_province = 1876 #
 
 	history = {
 		always =  no
@@ -1331,12 +1331,17 @@ printing_press = {
 		is_island = no
 		is_state = yes
 		OR = {
-			development = 15
+			development = 30
 			is_capital = yes
 			trade_goods = paper
 		}
-		owner = { 
+		owner = {
 			has_institution = illuminare 
+			OR={
+				adm_tech = 26
+				innovativeness = 50
+				government_rank = 3
+			}
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
@@ -1409,10 +1414,10 @@ printing_press = {
 		modifier = {
 			factor = 1
 			custom_trigger_tooltip = {
-				tooltip = tooltip_dip_tech15_capital
+				tooltip = tooltip_adm_tech26_capital
 				is_capital = yes
 				owner = {
-					dip_tech = 15
+					adm_tech = 26
 				}
 			}
 		}
