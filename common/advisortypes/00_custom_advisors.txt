@@ -33,4 +33,34 @@ electromancer = {
 	ai_will_do = {
 		factor = 10 #AI should pick this advisor up no matter what
 	}
+}######################################################
+evader = {
+	monarch_power = MIL
+
+	# Bonus
+	movement_speed = 0.075
+	fire_damage_received = -0.05
+	shock_damage_received = -0.05
+	morale_damage_received = -0.2
+
+	skill_scaled_modifier = {
+		#infantry_power = 0.01
+		meritocracy = 0.25
+	}
+
+	chance = {
+		factor = 0.5
+		modifier = {
+			factor = 0
+			NOT = { culture_group = scurian }
+		}
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.2
+			is_at_war = yes
+		}
+	}
 }

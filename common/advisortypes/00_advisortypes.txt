@@ -918,7 +918,7 @@
 		}
 
 		chance = {
-			factor = 0.5
+			factor = 1
 			modifier = {
 				factor = 0
 				NOT = { has_idea_group = maritime_ideas }
@@ -948,7 +948,7 @@
 		}
 
 		chance = {
-			factor = 0.5
+			factor = 1
 		}
 
 		ai_will_do = {
@@ -1010,7 +1010,7 @@
 		}
 
 		chance = {
-			factor = 0.5
+			factor = 1
 			modifier = {
 				factor = 0
 				NOT = { government = republic }
@@ -1045,7 +1045,7 @@
 		}
 
 		chance = {
-			factor = 0.5
+			factor = 1
 			modifier = {
 				factor = 0
 				NOT = { has_idea_group = humanist_ideas }
@@ -1368,9 +1368,9 @@
 		}
 
 		chance = {
-			factor = 0.5
+			factor = 500
 			modifier = {
-				factor = 0
+				factor = 10
 				NOT = {
 					OR = {
 						has_idea_group = leadership_ideas
@@ -1404,7 +1404,7 @@
 		}
 
 		chance = {
-			factor = 0.5
+			factor = 1
 			modifier = {
 				factor = 0
 				NOT = { mil_tech = 33 }
@@ -1416,38 +1416,6 @@
 			modifier = {
 				factor = 1.2
 				is_at_war = no
-			}
-		}
-	}
-
-	######################################################
-	evader = {
-		monarch_power = MIL
-
-		# Bonus
-		movement_speed = 0.075
-		fire_damage_received = -0.05
-		shock_damage_received = -0.05
-		morale_damage_received = -0.2
-
-		skill_scaled_modifier = {
-			#infantry_power = 0.01
-			meritocracy = 0.25
-		}
-
-		chance = {
-			factor = 0.5
-			modifier = {
-				factor = 0
-				NOT = { culture_group = scurian }
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.2
-				is_at_war = yes
 			}
 		}
 	}
@@ -1465,7 +1433,7 @@
 		}
 
 		chance = {
-			factor = 0.5
+			factor = 1
 			modifier = {
 				factor = 0
 				NOT = {
@@ -1500,7 +1468,7 @@
 		}
 
 		chance = {
-			factor = 0.5
+			factor = 1
 			modifier = {
 				factor = 0
 				NOT = {

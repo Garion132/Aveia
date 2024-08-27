@@ -30,6 +30,11 @@ has_mil_advisor = {
 			advisor = recruitmaster
 			advisor = fortification_expert
 			advisor = quartermaster
+			advisor = army_professor
+			advisor = air_captain
+			advisor = evader
+			advisor = logistics_expert
+			advisor = enlistment_officer
 		}
 	}
 }
@@ -45,6 +50,11 @@ has_mil_advisor_2 = {
 			recruitmaster = 2
 			fortification_expert = 2
 			quartermaster = 2
+			army_professor = 2
+			air_captain = 2
+			evader = 2
+			logistics_expert = 2
+			enlistment_officer = 2
 		}
 	}
 }
@@ -60,6 +70,11 @@ has_mil_advisor_3 = {
 			recruitmaster = 3
 			fortification_expert = 3
 			quartermaster = 3
+			army_professor = 3
+			air_captain = 3
+			evader = 3
+			logistics_expert = 3
+			enlistment_officer = 3
 		}
 	}
 }
@@ -75,6 +90,12 @@ has_adm_advisor = {
 			advisor = master_of_mint
 			advisor = inquisitor
 			advisor = natural_scientist
+			advisor = economist
+			advisor = politician
+			advisor = industrialist
+			advisor = builder
+			advisor = bureaucrat
+			advisor = developer
 		}
 	}
 }
@@ -90,6 +111,12 @@ has_adm_advisor_2 = {
 			master_of_mint = 2
 			inquisitor = 2
 			natural_scientist = 2
+			economist = 2
+			politician = 2
+			industrialist = 2
+			builder = 2
+			bureaucrat = 2
+			developer = 2
 		}
 	}
 }
@@ -105,6 +132,12 @@ has_adm_advisor_3 = {
 			master_of_mint = 3
 			inquisitor = 3
 			natural_scientist = 3
+			economist = 3
+			politician = 3
+			industrialist = 3
+			builder = 3
+			bureaucrat = 3
+			developer = 3
 		}
 	}
 }
@@ -121,6 +154,11 @@ has_dip_advisor = {
 			advisor = colonial_governor
 			advisor = navigator
 			advisor = spymaster
+			advisor = navy_professor
+			advisor = ship_builder
+			advisor = impressment_officer
+			advisor = propagandist
+			advisor = assimilationist
 		}
 	}
 }
@@ -136,6 +174,11 @@ has_dip_advisor_2 = {
 			colonial_governor = 2
 			navigator = 2
 			spymaster = 2
+			navy_professor = 2
+			ship_builder = 2
+			impressment_officer = 2
+			propagandist = 2
+			assimilationist = 2
 		}
 	}
 }

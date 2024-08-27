@@ -629,6 +629,10 @@ pick_type_of_military_advisor = {
 		1 = { set_country_flag = generate_recruitmaster }
 		1 = { set_country_flag = generate_fortification_expert }
 		1 = { set_country_flag = generate_grand_captain }
+		1 = { set_country_flag = generate_army_professor }
+		1 = { set_country_flag = generate_air_captain }
+		1 = { set_country_flag = generate_logistics_expert }
+		1 = { set_country_flag = generate_enlistment_officer }
 	}
 }
 
@@ -640,6 +644,10 @@ clear_random_military_advisor_generation_flags = {
 	clr_country_flag = generate_recruitmaster
 	clr_country_flag = generate_fortification_expert
 	clr_country_flag = generate_grand_captain
+	clr_country_flag = generate_army_professor
+	clr_country_flag = generate_air_captain
+	clr_country_flag = generate_logistics_expert
+	clr_country_flag = generate_enlistment_officer
 }
 
 #Needs you to have executed pick_type_of_military_advisor
@@ -695,6 +703,41 @@ generate_scaled_military_advisor_of_religion_effect = {
 				discount = $discount$
 			}
 		}
+		generate_army_professor = {
+			generate_scaled_advisor_of_type_and_religion_effect = {
+				type = army_professor
+				religion = $religion$
+				discount = $discount$
+			}
+		}
+		generate_air_captain = {
+			generate_scaled_advisor_of_type_and_religion_effect = {
+				type = air_captain
+				religion = $religion$
+				discount = $discount$
+			}
+		}
+		generate_evader = {
+			generate_scaled_advisor_of_type_and_religion_effect = {
+				type = evader
+				religion = $religion$
+				discount = $discount$
+			}
+		}
+		generate_logistics_expert = {
+			generate_scaled_advisor_of_type_and_religion_effect = {
+				type = logistics_expert
+				religion = $religion$
+				discount = $discount$
+			}
+		}
+		generate_enlistment_officer = {
+			generate_scaled_advisor_of_type_and_religion_effect = {
+				type = enlistment_officer
+				religion = $religion$
+				discount = $discount$
+			}
+		}
 	}
 }
 
@@ -740,6 +783,24 @@ remove_advisor_adm_effect = {
 			advisor = treasurer
 		}
 		remove_advisor = treasurer
+	}
+	if = {
+		limit = { 
+			advisor = builder
+		}
+		remove_advisor = builder
+	}
+	if = {
+		limit = { 
+			advisor = bureaucrat
+		}
+		remove_advisor = bureaucrat
+	}
+	if = {
+		limit = { 
+			advisor = developer
+		}
+		remove_advisor = developer
 	}
 }
 
@@ -1018,6 +1079,12 @@ kill_advisor_by_category_effect = {
 			treasurer = { kill_advisor = treasurer }
 			theologian = { kill_advisor = theologian }
 			master_of_mint = { kill_advisor = master_of_mint }
+			economist = { kill_advisor = economist }
+			politician = { kill_advisor = politician }
+			industrialist = { kill_advisor = industrialist }
+			builder = { kill_advisor = builder }
+			bureaucrat = { kill_advisor = bureaucrat }
+			developer = { kill_advisor = developer }
 			inquisitor = { kill_advisor = inquisitor }
 		}
 	]
@@ -1031,6 +1098,11 @@ kill_advisor_by_category_effect = {
 			colonial_governor = { kill_advisor = colonial_governor }
 			diplomat = { kill_advisor = diplomat }
 			navigator = { kill_advisor = navigator }
+			navy_professor = { kill_advisor = navy_professor }
+			ship_builder = { kill_advisor = ship_builder }
+			impressment_officer = { kill_advisor = impressment_officer }
+			propagandist = { kill_advisor = propagandist }
+			assimilationist = { kill_advisor = assimilationist }
 		}
 	]
 	[[MIL]
@@ -1043,6 +1115,12 @@ kill_advisor_by_category_effect = {
 			recruitmaster = { kill_advisor = recruitmaster }
 			fortification_expert = { kill_advisor = fortification_expert }
 			grand_captain = { kill_advisor = grand_captain }
+			tactician = { kill_advisor = tactician }
+			army_professor = { kill_advisor = army_professor }
+			air_captain = { kill_advisor = air_captain }
+			evader = { kill_advisor = evader }
+			logistics_expert = { kill_advisor = logistics_expert }
+			enlistment_officer = { kill_advisor = enlistment_officer }
 		}
 	]
 }
