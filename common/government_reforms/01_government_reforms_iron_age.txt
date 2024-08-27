@@ -615,10 +615,11 @@ ia_meritocratic_focus_reform = {
 
 #bureaucracy
 ia_rural_assemblage_reform = {
-	icon = "divine_guidance_reform"
+	icon = "assembly_hall"
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
+			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
 		}
 	}
@@ -632,10 +633,11 @@ ia_rural_assemblage_reform = {
 	}
 }
 ia_urban_council_reform = {
-	icon = "divine_guidance_reform"
+	icon = "assembly_hall"
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
+			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
 		}
 	}
@@ -650,7 +652,7 @@ ia_urban_council_reform = {
 	}
 }
 ia_value_taxation_reform = {
-	icon = "divine_guidance_reform"
+	icon = "paper_with_seal"
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
@@ -669,7 +671,7 @@ ia_value_taxation_reform = {
 	}
 }
 ia_investment_economy_reform = {
-	icon = "divine_guidance_reform"
+	icon = "paper_money_map"
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
@@ -692,7 +694,7 @@ ia_investment_economy_reform = {
 #voting class:
 
 ia_landed_reform = {
-	icon = "monks"
+	icon = "crown"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -706,7 +708,7 @@ ia_landed_reform = {
 	}
 }
 ia_male_citizen_reform = {
-	icon = "monks"
+	icon = "constitution"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
