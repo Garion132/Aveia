@@ -1399,9 +1399,9 @@
 		}
 
 		chance = {
-			factor = 500
+			factor = 1
 			modifier = {
-				factor = 10
+				factor = 0
 				NOT = {
 					OR = {
 						has_idea_group = leadership_ideas

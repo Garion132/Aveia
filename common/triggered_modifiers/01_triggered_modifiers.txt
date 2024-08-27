@@ -357,16 +357,16 @@ tlaunorist_iwenlumy = {
 rake_group_vulkiv = {
 	potential = {
 		normal_or_historical_nations = yes
-		has_discovered = 94	# Vulkiva
+		has_discovered = 2040	# Vulkiva
 		religion_group = rake_group
 	}
 
 	trigger = {	
-		owns_or_vassal_of = 94 # Vulkiva
+		owns_or_vassal_of = 2040 # Vulkiva
 	}
 
-	imperial_authority_value = 0.01
-	legitimate_subject_elector = 50
+	imperial_authority_value = 0.03
+	legitimate_subject_elector = 25
 	prestige_decay = -0.01
 	diplomatic_reputation = 1
 	#icon = 9
@@ -521,12 +521,12 @@ gov_cap_200 = {
 ###########################################
 iron_smithing_modifier = {
 	potential = {
-		has_institution = iron_working
+		NOT={ has_institution = bronze_working }
+		culture_group = humans
 	}
 	trigger = {
 		has_institution = iron_working
-		NOT={has_institution = bronze_working}
-		culture_group = humans
+		NOT={ has_institution = bronze_working }
 	}
 	technology_cost = -0.5
 }
@@ -537,7 +537,6 @@ human_homeland_defense = {
 	}
 	trigger = {
 		NOT = { is_year = 1370 }
-		technology_group = northern_men_group
 		at_war_with_religious_enemy = yes
 	}
 	own_territory_dice_roll_bonus = 5
@@ -570,9 +569,6 @@ fix_colonial_ai_modifier = {
 	potential = {
 		num_of_colonists = 1
 		ai = yes
-	}
-	trigger = {
-		NOT = {total_development = 50}
 	}
 	global_tax_income = 12
 }

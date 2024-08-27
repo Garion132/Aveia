@@ -263,6 +263,7 @@ technology = { #Accounting
 	
 	tax_office = yes
 	production_efficiency = 0.02
+	administrative_efficiency = 0.05
 }
 
 technology = { #Guilds
@@ -398,7 +399,7 @@ technology = { #Early Modern Administration
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
 	governing_capacity = 100
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.10
 	state_house = yes
 	town_hall = yes
 }
