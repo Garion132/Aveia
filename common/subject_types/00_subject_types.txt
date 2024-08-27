@@ -47,6 +47,9 @@ colony_elteria_start={}
 strongholder_vassal = {}
 commercial_enterprise = {}
 trade_protectorate = {}
+cultural_sphere_of_influence_subject = {}
+incorporated_vassal = {}
+integrated_personal_union = {}
 
 default = {
 	# Graphics:
@@ -1336,6 +1339,144 @@ trade_protectorate = {
 			}
 		}
 	}
+}
+
+cultural_sphere_of_influence_subject = {
+	copy_from = default
+	can_have_great_projects_moved_by_overlord = no
+
+	# Triggers:
+	is_potential_overlord = {
+		OR={
+			has_active_policy = philosophical_influence
+			has_idea = full_leverage
+		}
+	}
+	
+	# Graphics:
+	sprite = GFX_icon_cultural_sphere_of_influence_subject
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_cultural_sphere_of_influence_subject
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_cultural_sphere_of_influence_subject
+
+	# Properties:
+	can_fight_independence_war = no
+	joins_overlords_wars = no
+	joins_colonial_wars = no
+	is_voluntary = yes
+	overlord_can_attack = yes
+	takes_diplo_slot = no
+	base_liberty_desire = -10
+	liberty_desire_negative_prestige = 2.0
+	relative_power_class = 1
+	should_quit_wars_on_activation = no
+	can_have_subjects_of_other_types = yes
+	uses_military_focus = no
+	overlord_protects_external = yes
+	counts_for_borders = no
+	can_use_claims = no
+	share_rebel_popup = no
+	can_transfer_in_peace = no
+	can_set_mil_focus = no
+	can_send_missionary_to_subject = yes
+	overlord_can_fabricate_for = no
+	does_overlord_size_count_for_warscore_cost = no
+	can_concentrate_development = no
+	extend_trading_range = yes
+	
+	liberty_desire_development_ratio = 0.1
+	trust_on_start = 0
+	pays_overlord = 0.25									# 1.0 represents the amount payed by vassals
+	
+	overlord_opinion_modifier = is_sphere_of_influence_overlord
+	subject_opinion_modifier = is_sphere_of_influence_subject
+	
+	can_fight = {
+		independent_nations = yes
+		same_overlord = cultural_sphere_of_influence_subject
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		same_overlord = cultural_sphere_of_influence_subject
+		other_overlord = all
+	}
+	can_ally = {
+		independent_nations = yes
+		same_overlord = cultural_sphere_of_influence_subject
+		other_overlord = all
+	}
+	can_marry = {
+		independent_nations = yes
+		same_overlord = cultural_sphere_of_influence_subject
+		other_overlord = all
+	}
+
+	# Subject Interactions:
+	# (continuous)
+	embargo_rivals = yes
+	support_loyalists = yes
+	subsidize_armies = yes
+	send_officers = yes
+	divert_trade= yes
+	# (immediate)
+	placate_rulers = no
+	place_relative_on_throne = no
+	grant_province = yes
+	enforce_religion = no	#A subject in your sphere which changes its religion will fall out of the sphere
+	enforce_culture = no	#Has a custom diplomatic action for it instead
+	grant_core_claim = no
+	takeondebt = yes
+	bestow_gifts = yes
+	send_additional_troops = yes
+	demand_artifacts = yes
+	demand_additional_tribute = yes
+	conscript_general = yes
+	knowledge_sharing = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+
+	# Modifiers:
+	modifier_subject = clear
+	modifier_overlord = {
+		trigger = {
+			overlord = { NOT = { primary_culture = prev } }
+		}
+		modifier = culturally_influencing_countries
+	}
+	modifier_overlord = {
+		trigger = {
+			overlord = { primary_culture = prev }
+		}
+		modifier = culturally_influencing_countries_same_culture
+	}
+	modifier_subject = {
+		modifier = culturally_influenced_country
+	}
+}
+incorporated_vassal = {
+	copy_from = vassal
+	count = vassal
+
+	annex_cost_per_development = 6.0
+	sprite = GFX_icon_incorporated_vassal_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_incorporated_vassal_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_incorporated_vassal_subject_type
+	modifier_overlord = {
+		trigger = {
+			NOT = {
+				has_country_flag = free_incorporated_vassal
+			}
+		}
+		modifier = base_incorporated_vassal_cost
+	}
+}
+integrated_personal_union = {
+	copy_from = personal_union
+	sprite = GFX_icon_integrated_personal_union_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_integrated_personal_union_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_integrated_personal_union_subject_type
+	annex_cost_per_development = 6.0
+	takes_diplo_slot = no
 }
 
 # Completely scripted subject type (no code used). Add any number of these. Check common/new_diplomatic_actions for how to make visible in game.
