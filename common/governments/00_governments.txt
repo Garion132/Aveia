@@ -926,7 +926,14 @@ iron_monarchy = {
 		}
 		iron_bureaucracy = {
 			reforms = {
-				
+				ia_rural_assemblage_reform
+				ia_urban_council_reform
+			}
+		}
+		iron_economic_philosophy = {
+			reforms = {
+				ia_value_taxation_reform
+				ia_investment_economy_reform
 			}
 		}
 	}
@@ -986,7 +993,14 @@ iron_republic = {
 		}
 		iron_bureaucracy = {
 			reforms = {
-				
+				ia_rural_assemblage_reform
+				ia_urban_council_reform
+			}
+		}
+		iron_economic_philosophy = {
+			reforms = {
+				ia_value_taxation_reform
+				ia_investment_economy_reform
 			}
 		}
 	}

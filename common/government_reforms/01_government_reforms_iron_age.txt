@@ -614,7 +614,79 @@ ia_meritocratic_focus_reform = {
 }
 
 #bureaucracy
-
+ia_rural_assemblage_reform = {
+	icon = "divine_guidance_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			NOT = { has_dlc = "Emperor" }
+		}
+	}
+	modifiers = {
+		territories_governing_cost = -0.1
+		administrative_efficiency = 0.025
+		expand_infrastructure_cost_modifier = -0.05
+	}
+	ai = {
+		factor = 1
+	}
+}
+ia_urban_council_reform = {
+	icon = "divine_guidance_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			NOT = { has_dlc = "Emperor" }
+		}
+	}
+	modifiers = {
+		state_governing_cost_increase = -0.05
+		governing_capacity = 75
+		centralize_state_cost = -0.05
+	}
+	ai = {
+		factor = 1
+		
+	}
+}
+ia_value_taxation_reform = {
+	icon = "divine_guidance_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			is_revolutionary = no
+			NOT = { has_dlc = "Emperor" }
+		}
+	}
+	modifiers = {
+		global_tax_modifier = 0.035
+		global_tariffs = 0.075
+		treasure_fleet_income = 0.1
+	}
+	ai = {
+		factor = 1
+		
+	}
+}
+ia_investment_economy_reform = {
+	icon = "divine_guidance_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			is_revolutionary = no
+			NOT = { has_dlc = "Emperor" }
+		}
+	}
+	modifiers = {
+		build_cost = -0.04
+		build_time = -0.15
+		great_project_upgrade_time = -0.1
+	}
+	ai = {
+		factor = 1
+		
+	}
+}
 
 
 #voting class:
