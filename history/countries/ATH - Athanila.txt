@@ -23,12 +23,12 @@ change_estate_land_share = {
 
 1241.9.16 = {
 	monarch = {
-		name = "Vedim I"
-		dynasty = "Athanas"
+		name = "Vedim II"
+		dynasty = "Ymnessea"
 		birth_date = 1240.12.3
 		adm = 2
 		dip = 6
-		mil = 1
+		mil = 2
 	}
 	add_ruler_personality = well_advised_personality
 }
@@ -36,7 +36,7 @@ change_estate_land_share = {
 	heir = {
 		name = "Gane"
 		monarch_name = "Gane I"
-		dynasty = "Athanas"
+		dynasty = "Ymnessea"
 		birth_date = 1267.5.5
 		death_date = 1320.5.4
 		claim = 90

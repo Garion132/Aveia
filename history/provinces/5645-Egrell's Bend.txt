@@ -3,7 +3,7 @@
 add_core = RYO
 owner = RYO
 controller = RYO
-culture = unolaan
+culture = unoeugr
 religion = tlaunorist
 hre = no
 

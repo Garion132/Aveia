@@ -1,19 +1,15 @@
 #Athanila
-latent_trade_goods = {
-	iron
-}
 
-add_core = ATH
-add_core = WLA
-owner = ATH
-controller = ATH
-culture = wlariquar
+add_core = RYO
+owner = RYO
+controller = RYO
+culture = unoeugr
 religion = tlaunorist
 hre = no
-base_tax = 5
+base_tax = 1
 base_production =2
-base_manpower = 5
-trade_goods = ceramics
+base_manpower = 4
+trade_goods = grain
 capital = "Ath 3"
 is_city = yes
 discovered_by = lake_elves_group
@@ -23,6 +19,3 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-center_of_trade = 1
-fort_14th = yes
-port = yes

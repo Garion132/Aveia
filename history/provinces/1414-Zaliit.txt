@@ -3,7 +3,7 @@
 add_core = RYG
 owner = RYG
 controller = RYG
-culture = unolaan
+culture = unoeugr
 religion = tlaunorist
 hre = no
 base_tax = 1

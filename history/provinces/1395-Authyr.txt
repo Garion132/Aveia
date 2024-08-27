@@ -1,16 +1,15 @@
 #Athanila
 
-add_core = ATH
 add_core = AUT
-owner = ATH
-controller = ATH
+owner = AUT
+controller = AUT
 culture = authyrian
 religion = tlaunorist
 hre = no
 base_tax = 0
-base_production =3
-base_manpower = 4
-trade_goods = cloth
+base_production =4
+base_manpower = 9
+trade_goods = livestock
 capital = "Ath 3"
 is_city = yes
 discovered_by = lake_elves_group
@@ -20,3 +19,5 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+center_of_trade = 1
+fort_14th = yes

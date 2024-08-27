@@ -3,13 +3,13 @@
 add_core = RYG
 owner = RYG
 controller = RYG
-culture = unolaan
+culture = unoeugr
 religion = tlaunorist
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 5
+base_manpower = 9
 trade_goods = cloth
 capital = "Ryneg"
 is_city = yes
@@ -21,3 +21,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 1
+fort_14th = yes

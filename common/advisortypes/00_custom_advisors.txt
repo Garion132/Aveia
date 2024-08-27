@@ -33,7 +33,9 @@ electromancer = {
 	ai_will_do = {
 		factor = 10 #AI should pick this advisor up no matter what
 	}
-}######################################################
+}
+
+######################################################
 evader = {
 	monarch_power = MIL
 

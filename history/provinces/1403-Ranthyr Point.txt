@@ -1,7 +1,4 @@
 #Athanila
-latent_trade_goods = {
-	iron
-}
 
 add_core = ATH
 add_core = WLA
@@ -11,9 +8,9 @@ culture = wlariquar
 religion = tlaunorist
 hre = no
 base_tax = 0
-base_production =2
-base_manpower = 5
-trade_goods = livestock
+base_production = 2
+base_manpower = 4
+trade_goods = fish
 capital = "Ath 3"
 is_city = yes
 discovered_by = lake_elves_group

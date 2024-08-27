@@ -1,16 +1,16 @@
 #Athanila
 
 add_core = ATH
-add_core = KAB
+add_core = RYO
 owner = ATH
 controller = ATH
-culture = athan
+culture = unoeugr
 religion = tlaunorist
 hre = no
 base_tax = 0
 base_production =2
 base_manpower = 5
-trade_goods = salt
+trade_goods = fruit
 capital = "Ath 3"
 is_city = yes
 discovered_by = lake_elves_group
