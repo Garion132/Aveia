@@ -520,7 +520,6 @@
 
 		# Bonus
 		state_governing_cost = -0.1
-		expand_administration_cost = -0.1
 
 		skill_scaled_modifier = {
 			#yearly_corruption = -0.01
@@ -545,8 +544,7 @@
 		monarch_power = ADM
 
 		# Bonus
-		expand_infrastructure_cost_modifier = -0.1
-		centralize_state_cost = -0.1
+		development_cost = -0.1
 
 		skill_scaled_modifier = {
 			#yearly_corruption = -0.01
@@ -909,7 +907,7 @@
 		monarch_power = DIP
 
 		# Bonus
-		navy_tradition_decay = -0.15
+		navy_tradition_decay = -0.015
 
 
 		skill_scaled_modifier = {
@@ -921,7 +919,20 @@
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { has_idea_group = maritime_ideas }
+				NOT = {
+					any_owned_province = {
+						has_port = yes
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						has_idea_group = maritime_ideas
+						has_idea_group = naval_ideas
+					}
+				}
 			}
 		}
 
@@ -940,7 +951,6 @@
 
 		# Bonus
 		global_ship_cost = -0.15
-		global_ship_repair = 0.025
 
 		skill_scaled_modifier = {
 			#infantry_power = 0.01
@@ -949,6 +959,23 @@
 
 		chance = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_province = {
+						has_port = yes
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						has_idea_group = maritime_ideas
+						has_idea_group = naval_ideas
+					}
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -985,6 +1012,10 @@
 			modifier = {
 				factor = 2
 				has_idea_group = maritime_ideas
+			}
+			modifier = {
+				factor = 2
+				has_idea_group = naval_ideas
 			}
 		}
 
@@ -1359,7 +1390,7 @@
 		monarch_power = MIL
 
 		# Bonus
-		army_tradition_decay = -0.15
+		army_tradition_decay = -0.015
 
 
 		skill_scaled_modifier = {
@@ -1420,47 +1451,11 @@
 		}
 	}
 	
-	logistics_expert = {
-		monarch_power = MIL
-
-		# Bonus
-		recover_army_morale_speed = 0.035
-		reinforce_speed = 0.035
-
-		skill_scaled_modifier = {
-			#infantry_power = 0.01
-			meritocracy = 0.25
-		}
-
-		chance = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					OR = {
-						has_idea_group = logistic_ideas
-						has_idea_group = quantity_ideas
-					}
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.2
-				is_at_war = yes
-			}
-		}
-	}
-	
 	enlistment_officer = {
 		monarch_power = MIL
 
 		# Bonus
-		infantry_cost = -0.15
-		cavalry_cost = -0.10
-		artillery_cost = -0.15
+		global_regiment_cost = -0.10
 
 		skill_scaled_modifier = {
 			#infantry_power = 0.01
@@ -1473,8 +1468,8 @@
 				factor = 0
 				NOT = {
 					OR = {
-						has_idea_group = offensive_ideas
-						has_idea_group = defensive_ideas
+						has_idea_group = procurement_ideas
+						has_idea_group = mass_production_ideas
 						has_idea_group = combined_arms_ideas
 					}
 				}
@@ -1482,11 +1477,7 @@
 		}
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 1.2
-				is_at_war = yes
-			}
+			factor = 1.2
 		}
 	}
 #
