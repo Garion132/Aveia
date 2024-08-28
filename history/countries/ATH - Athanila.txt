@@ -20,6 +20,9 @@ change_estate_land_share = {
 	estate = estate_burghers
 	share = -5
 }
+1272.8.5 = {
+	add_truce_with = AFY
+}
 
 1241.9.16 = {
 	monarch = {

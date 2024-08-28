@@ -440,6 +440,15 @@ lower_cap_calc = {
         }
         change_variable = { which = lower_cap_modifier value = 0.1 }
     }
+
+		if = {
+			limit = {
+					has_province_modifier = ath_establishment_of_athanila
+			}
+			change_variable = { which = lower_cap_base value = 2 }
+			change_variable = { which = working_cap_base value = 4 }
+			change_variable = { which = middle_cap_base value = 6 }
+	}
     
     set_variable = { which = t_0 value = 100 }
     change_variable = { which = t_0 which = agri_eff }

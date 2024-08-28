@@ -1,0 +1,7 @@
+ath_subjugation_of_the_unoegur = {
+	num_accepted_cultures = 1
+	governing_capacity = 25
+}
+ath_establishment_of_athanila = {
+	
+}

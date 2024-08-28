@@ -3,7 +3,7 @@ latent_trade_goods = {
 	iron
 }
 
-add_core = ATH
+add_claim = ATH
 add_core = AFY
 owner = ATH
 controller = ATH

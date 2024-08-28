@@ -215,7 +215,7 @@ MTN_ideas = {
 	}
 }
 
-ATH_ideas = {
+ath_national_ideas = {
 	trigger = {
 		tag = ATH
 	}
@@ -226,34 +226,36 @@ ATH_ideas = {
 	
 	free = yes		#will be added at load.
 
-	ATH_idea_1 = {
+	ath_privileges_of_the_gap = {
 		global_trade_power = 0.15
 		galley_power = 0.1
 		navy_tradition = 0.075
 	}
-	ATH_idea_2 = {
+	ath_dwarven_frontier = {
 		garrison_size = 0.20
 		fort_maintenance_modifier = -0.025
 		rival_border_fort_maintenance = -0.3
 	}
-	ATH_idea_3 = {
+	ath_chief_lekres_reforms = {
 		drill_gain_modifier = 0.05
 		land_morale = 0.05
 	}
-	ATH_ideas_4 = {
+	ath_esha_es_genve = {
 		blockade_efficiency = 0.05
 		allowed_marine_fraction = 0.075
 	}
-	ATH_ideas_5 = {
+	ath_ymnessea_burghurs = {
 		merchants = 1
 		center_of_trade_upgrade_cost = -0.15
+		burghurs_loyalty_modifier = 0.125
 	}
-	ATH_ideas_6 = {
+	ath_dynasty_of_sense = {
 		expel_minorities_cost = -0.25
 		years_of_nationalism = -5
 	}
-	ATH_ideas_7 = {
+	ath_mera_nuztruom = {
 		trade_steering = 0.20
+		trade_efficiency = 0.05
 	}
 
 	bonus = {
