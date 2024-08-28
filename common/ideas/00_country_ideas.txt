@@ -215,7 +215,7 @@ MTN_ideas = {
 	}
 }
 
-ath_national_ideas = {
+ATH_ideas = {
 	trigger = {
 		tag = ATH
 	}
