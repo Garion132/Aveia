@@ -750,7 +750,7 @@
  tilvenan_canal: "Tilvenan Canal"
  malicrieit: "Malicrieit"
  
- call_feudal_dignitary_defence_text: "Call Dignitary to Defend"
+ call_feudal_dignitary_defence_title: "Call Dignitary to Defend"
  call_feudal_dignitary_defence_tooltip: "Call on our Feudal Dignitary to Defend the Realm"
  
  tooltip_adm_tech26_capital: "Capital of a country with Early Modern Administration"
