@@ -1362,7 +1362,7 @@
 	}
 
 	#Combinations
-	geopolitical_ideas = { # 29
+	geopolitical_ideas = { # 31
 		category = DIP
 		#Meddling in other people's affairs more easily
 
@@ -1402,6 +1402,7 @@
 			global_ship_trade_power = 0.25 # +2
 		}
 		full_leverage = {
+			# Unlocks sphere of influence vassal type - +2
 			accept_vassalization_reasons = 50 # +2
 			diplomatic_annexation_cost = -0.2 # +2
 		}
@@ -1553,7 +1554,7 @@
 		}
 
 		supply_trains = {
-			reinforce_speed = 0.3
+			reinforce_speed = 0.5
 		}
 		improved_foraging = {
 			land_attrition = -0.20
@@ -1942,7 +1943,7 @@
 		}
 
 		integrate_trains = {
-			reinforce_speed = 0.33 # +3
+			reinforce_speed = 0.5 # +3
 		}
 		time_tables = {
 			global_regiment_recruit_speed = -0.10 # +1

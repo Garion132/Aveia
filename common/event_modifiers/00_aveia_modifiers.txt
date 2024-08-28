@@ -734,8 +734,8 @@ estate_church_monopoly_of_bronze_mod = {
 	}
 
 	remote_lands_of_juluia = { #Colonizing Juluia is difficult
-		local_colonial_growth = -75
-		local_colonist_placement_chance = -0.10
+		local_colonial_growth = -80
+		local_colonist_placement_chance = -0.15
 		local_colony_cost_modifier = 1
 	}
 
