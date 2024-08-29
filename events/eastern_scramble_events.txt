@@ -2438,7 +2438,7 @@ country_event = {#Vrur
 	
 	trigger={
 		has_global_flag = EASTERN_SCRAMBLE
-		culture_group = shireate_faun
+		culture_group = shireate_group
 	}
 	mean_time_to_happen = {
 		months = 18
@@ -3066,7 +3066,7 @@ country_event = {#force 1.33 ai to colonise, because they are not
 	trigger={
 		ai = yes
 		num_of_colonists = 1
-		NOT={development = 50}
+		NOT={total_development = 50}
 		NOT={num_of_colonies = 1}
 		OR={
 			capital_scope = {
