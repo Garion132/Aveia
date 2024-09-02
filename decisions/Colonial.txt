@@ -25,6 +25,9 @@ country_decisions = {
 					primary_culture = liret
 					primary_culture = nathioan
 					primary_culture = belfos
+					technology_group = great_spiders_group
+					technology_group = naga_group
+					technology_group = eastern_men_group
 				}
 			}
 			NOT={
@@ -45,13 +48,14 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 5
-            modifier = {
-                factor = 0.2
-                NOT = { current_income_balance = 5 }
-            }
+			modifier = {
+				factor = 0
+                NOT = { current_income_balance = 6 }
+				NOT = { has_global_flag = voyage_of_saltera }
+			}
             modifier = {
                 factor = 0
-                NOT = { current_income_balance = 3 }
+                NOT = { current_income_balance = 4 }
             }
             modifier = {
                 factor = 0
@@ -423,19 +427,6 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = {
-				OR = {
-					tag = KAF
-					tag = CYU
-					tag = SAL
-					tag = NYH
-					tag = LEL
-					tag = ATH
-					tag = KEA
-					tag = SOH
-					tag = INZ
-				}
-			}
-			NOT = {
 				capital_scope = {
 					continent = elteria
 				}
@@ -451,6 +442,61 @@ country_decisions = {
 					region = craine_islands
 					is_city = yes
 				}
+				has_country_modifier = following_wind_spirits
+				AND = {
+					is_year = 1300
+					total_development = 200
+				}
+				AND = {
+					is_year = 1310
+					total_development = 100
+				}
+				is_year = 1320
+			}
+			NOT = { has_country_flag = planned_colonial_expedition }
+			NOT = { has_country_flag = sent_colonial_expedition }
+		}
+		allow = {
+			adm_power = 50
+			dip_power = 25
+			mil_power = 50
+			treasury = 50
+		}
+		effect = {
+			country_event = { id = elteria_event.21 }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				monthly_income = 20
+				NOT = { treasury = 250 }
+			}
+			modifier = {
+				factor = 0
+				monthly_income = 12
+				NOT = { treasury = 150 }
+			}
+		}
+	}
+	plan_colonial_expedition = {
+		major = yes
+		potential = {
+			OR = {
+				has_country_flag = small_colonial_expedition
+				has_country_flag = medium_colonial_expedition
+				has_country_flag = large_colonial_expedition
+			}
+			has_country_modifier = scramble_for_elteria
+			navy_size = 1
+
+			OR = {
+				any_owned_province = {
+					region = craine_islands
+					is_city = yes
+				}
+				has_country_modifier = following_wind_spirits
 				AND = {
 					is_year = 1300
 					total_development = 200
@@ -466,73 +512,13 @@ country_decisions = {
 			NOT = { has_global_flag = palentai_full }
 			NOT = { has_global_flag = deerok_full }
 			NOT = { has_global_flag = morredh_full }
-			NOT = { has_global_flag = feltdon_full }
-			NOT = { has_global_flag = bulkir_full }
-		}
-		allow = {
-			adm_power = 100
-			dip_power = 50
-			mil_power = 100
-			treasury = 300
-		}
-		effect = {
-			country_event = { id = elteria_event.21 }
-		}
-
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				NOT = {
-					treasury = 700
-					monthly_income = 25
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT = {
-					treasury = 500
-					monthly_income = 15
-				}
-			}
-			modifier = {
-				factor = 0
-				NOT = {
-					adm_power = 150
-					dip_power = 75
-					mil_power = 150
-					treasury = 300
-				}
-			}
-		}
-	}
-	plan_colonial_expedition = {
-		major = yes
-		potential = {
-			OR = {
-				has_country_flag = small_colonial_expedition
-				has_country_flag = medium_colonial_expedition
-				has_country_flag = large_colonial_expedition
-			}
-			has_country_modifier = scramble_for_elteria
-			navy_size = 1
-
-			any_owned_province = {
-				region = craine_islands
-				is_city = yes
-			}
-			NOT = { has_country_flag = planned_colonial_expedition }
-			NOT = { has_country_flag = sent_colonial_expedition }
-			NOT = { has_global_flag = palentai_full }
-			NOT = { has_global_flag = deerok_full }
-			NOT = { has_global_flag = morredh_full }
 			NOT = { has_global_flag = bulkir_full }
 			NOT = { has_global_flag = feltdon_full }
 		}
 		allow = {
-			adm_power = 50
-			dip_power = 150
-			mil_power = 50
+			adm_power = 25
+			dip_power = 75
+			mil_power = 25
 		}
 		effect = {
 			country_event = { id = elteria_event.22 }
@@ -550,1144 +536,182 @@ country_decisions = {
 			has_country_modifier = scramble_for_elteria
 			navy_size = 1
 
-			any_owned_province = {
-				region = craine_islands
-				is_city = yes
+			OR = {
+				any_owned_province = {
+					region = craine_islands
+					is_city = yes
+				}
+				has_country_modifier = following_wind_spirits
+				AND = {
+					is_year = 1300
+					total_development = 200
+				}
+				AND = {
+					is_year = 1310
+					total_development = 100
+				}
+				is_year = 1320
 			}
 		}
 		allow = {
 			adm_power = 25
 			dip_power = 50
 			mil_power = 25
-			treasury = 100
+			treasury = 50
 		}
 		effect = {
 			add_adm_power = -25
 			add_dip_power = -50
 			add_mil_power = -25
-			add_treasury = -100
+			add_treasury = -50
 
 			custom_tooltip = colonize_elteria
 			hidden_effect = {
 				#Palentai
+				if = {
+					limit = {
+						has_country_flag = palentai_colonial_expedition
+					}
+					create_elteria_expedition = {
+						colonial_region = colonial_palental
+					}
+					
 					if = {
 						limit = {
-							has_country_flag = palentai_1_colonial_expedition
-						}
-						#Central Bay Part
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2497 = {
-										is_empty = yes
-									}
-								}
-								2497 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2498 = {
-										is_empty = yes
-									}
-								}
-								2498 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2499 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2498 = {
-										is_empty = yes
-									}
-								}
-								2498 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2496 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
+							OR = {
 								has_country_flag = large_colonial_expedition
+								has_country_flag = medium_colonial_expedition
 							}
-							if = {
-								limit = {
-									2499 = {
-										is_empty = yes
-									}
-								}
-								2499 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2496 = {
-									add_siberian_construction = 100
-								}
-							}
+						}
+						expand_elteria_expedition = {
+							colonial_region = colonial_palental
 						}
 					}
-					else_if = {
+					if = {
 						limit = {
-							has_country_flag = palentai_2_colonial_expedition
+							has_country_flag = large_colonial_expedition
 						}
-						#Northern Peninsula
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2484 = {
-										is_empty = yes
-									}
-								}
-								2484 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2486 = {
-										is_empty = yes
-									}
-								}
-								2486 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2485 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2485 = {
-										is_empty = yes
-									}
-								}
-								2485 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2482 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								has_country_flag = large_colonial_expedition
-							}
-							if = {
-								limit = {
-									2486 = {
-										is_empty = yes
-									}
-								}
-								2486 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2487 = {
-									add_siberian_construction = 100
-								}
-							}
+						expand_elteria_expedition = {
+							colonial_region = colonial_palental
 						}
 					}
-					else_if = {
-						limit = {
-							has_country_flag = palentai_3_colonial_expedition
-						}
-						#Southern Peninsula
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2512 = {
-										is_empty = yes
-									}
-								}
-								2512 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2511 = {
-										is_empty = yes
-									}
-								}
-								2511 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2508 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2511 = {
-										is_empty = yes
-									}
-								}
-								2511 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2508 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								has_country_flag = large_colonial_expedition
-							}
-							if = {
-								limit = {
-									2508 = {
-										is_empty = yes
-									}
-								}
-								2508 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2509 = {
-										is_empty = yes
-									}
-								}
-								2509 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2510 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-					}
-				#
+				}
 				#Morredh
+				if = {
+					limit = {
+						has_country_flag = morredh_colonial_expedition
+					}
+					create_elteria_expedition = {
+						colonial_region = colonial_morredh
+					}
+					
 					if = {
 						limit = {
-							has_country_flag = morredh_1_colonial_expedition
-						}
-						#Kharns Passage
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2935 = {
-										is_empty = yes
-									}
-								}
-								2935 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2937 = {
-										is_empty = yes
-									}
-								}
-								2937 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2933 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2937 = {
-										is_empty = yes
-									}
-								}
-								2937 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2936 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
+							OR = {
 								has_country_flag = large_colonial_expedition
+								has_country_flag = medium_colonial_expedition
 							}
-							if = {
-								limit = {
-									2933 = {
-										is_empty = yes
-									}
-								}
-								2933 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3705 = {
-									add_siberian_construction = 100
-								}
-							}
+						}
+						expand_elteria_expedition = {
+							colonial_region = colonial_morredh
 						}
 					}
-					else_if = {
+					if = {
 						limit = {
-							has_country_flag = morredh_2_colonial_expedition
+							has_country_flag = large_colonial_expedition
 						}
-						#Western Agaruz
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2949 = {
-										is_empty = yes
-									}
-								}
-								2949 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2947 = {
-										is_empty = yes
-									}
-								}
-								2947 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2946 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2947 = {
-										is_empty = yes
-									}
-								}
-								2947 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2946 = {
-										is_empty = yes
-									}
-								}
-								2946 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2948 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								has_country_flag = large_colonial_expedition
-							}
-							if = {
-								limit = {
-									2946 = {
-										is_empty = yes
-									}
-								}
-								2946 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2948 = {
-									add_siberian_construction = 100
-								}
-							}
+						expand_elteria_expedition = {
+							colonial_region = colonial_morredh
 						}
 					}
-				#
+				}
 				#Bulkir
+				if = {
+					limit = {
+						has_country_flag = bulkir_colonial_expedition
+					}
+					create_elteria_expedition = {
+						colonial_region = colonial_bulkir
+					}
+					
 					if = {
 						limit = {
-							has_country_flag = bulkir_1_colonial_expedition
-						}
-						#Bulkir Trade Node
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2914 = {
-										is_empty = yes
-									}
-								}
-								2914 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2913 = {
-										is_empty = yes
-									}
-								}
-								2913 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2904 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2913 = {
-										is_empty = yes
-									}
-								}
-								2913 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2912 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
+							OR = {
 								has_country_flag = large_colonial_expedition
+								has_country_flag = medium_colonial_expedition
 							}
-							if = {
-								limit = {
-									2904 = {
-										is_empty = yes
-									}
-								}
-								2904 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2901 = {
-									add_siberian_construction = 100
-								}
-							}
+						}
+						expand_elteria_expedition = {
+							colonial_region = colonial_bulkir
 						}
 					}
-					else_if = {
+					if = {
 						limit = {
-							has_country_flag = bulkir_2_colonial_expedition
+							has_country_flag = large_colonial_expedition
 						}
-						#Aragos Trade Node
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2895 = {
-										is_empty = yes
-									}
-								}
-								2895 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2894 = {
-										is_empty = yes
-									}
-								}
-								2894 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2897 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2896 = {
-										is_empty = yes
-									}
-								}
-								2896 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2893 = {
-										is_empty = yes
-									}
-								}
-								2893 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2905 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								has_country_flag = large_colonial_expedition
-							}
-							if = {
-								limit = {
-									2897 = {
-										is_empty = yes
-									}
-								}
-								2897 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2905 = {
-									add_siberian_construction = 100
-								}
-							}
+						expand_elteria_expedition = {
+							colonial_region = colonial_bulkir
 						}
 					}
-				#
+				}
 				#Feltdon
+				if = {
+					limit = {
+						has_country_flag = feltdon_colonial_expedition
+					}
+					create_elteria_expedition = {
+						colonial_region = colonial_feltdon
+					}
+					
 					if = {
 						limit = {
-							has_country_flag = feltdon_1_colonial_expedition
-						}
-						#Hatle Trade Node
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3723 = {
-										is_empty = yes
-									}
-								}
-								3723 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									3724 = {
-										is_empty = yes
-									}
-								}
-								3724 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3722 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3722 = {
-										is_empty = yes
-									}
-								}
-								3722 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3727 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
+							OR = {
 								has_country_flag = large_colonial_expedition
+								has_country_flag = medium_colonial_expedition
 							}
-							if = {
-								limit = {
-									3727 = {
-										is_empty = yes
-									}
-								}
-								3727 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3726 = {
-									add_siberian_construction = 100
-								}
-							}
+						}
+						expand_elteria_expedition = {
+							colonial_region = colonial_feltdon
 						}
 					}
-					else_if = {
+					if = {
 						limit = {
-							has_country_flag = feltdon_2_colonial_expedition
+							has_country_flag = large_colonial_expedition
 						}
-						#Just Outside Scuria
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3730 = {
-										is_empty = yes
-									}
-								}
-								3730 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									3731 = {
-										is_empty = yes
-									}
-								}
-								3731 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3781 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3733 = {
-										is_empty = yes
-									}
-								}
-								3733 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3780 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								has_country_flag = large_colonial_expedition
-							}
-							if = {
-								limit = {
-									3731 = {
-										is_empty = yes
-									}
-								}
-								3731 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3729 = {
-									add_siberian_construction = 100
-								}
-							}
+						expand_elteria_expedition = {
+							colonial_region = colonial_feltdon
 						}
 					}
-					else_if = {
-						limit = {
-							has_country_flag = feltdon_3_colonial_expedition
-						}
-						#Northeast Hatle
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3725 = {
-										is_empty = yes
-									}
-								}
-								3725 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									3718 = {
-										is_empty = yes
-									}
-								}
-								3718 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3716 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3718 = {
-										is_empty = yes
-									}
-								}
-								3718 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3717 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								has_country_flag = large_colonial_expedition
-							}
-							if = {
-								limit = {
-									3716 = {
-										is_empty = yes
-									}
-								}
-								3716 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3710 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-					}
-				#
+				}
 				#Deerok
+				if = {
+					limit = {
+						has_country_flag = deerok_colonial_expedition
+					}
+					create_elteria_expedition = {
+						colonial_region = colonial_deerok
+					}
+					
 					if = {
 						limit = {
-							has_country_flag = deerok_1_colonial_expedition
-						}
-						#Tip of Methan
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3758 = {
-										is_empty = yes
-									}
-								}
-								3758 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									3756 = {
-										is_empty = yes
-									}
-								}
-								3756 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3754 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3759 = {
-										is_empty = yes
-									}
-								}
-								3759 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3760 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
+							OR = {
 								has_country_flag = large_colonial_expedition
+								has_country_flag = medium_colonial_expedition
 							}
-							if = {
-								limit = {
-									3757 = {
-										is_empty = yes
-									}
-								}
-								3757 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3753 = {
-									add_siberian_construction = 100
-								}
-							}
+						}
+						expand_elteria_expedition = {
+							colonial_region = colonial_deerok
 						}
 					}
-					else_if = {
+					if = {
 						limit = {
-							has_country_flag = deerok_2_colonial_expedition
+							has_country_flag = large_colonial_expedition
 						}
-						#Ghosilent Trade Node
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3810 = {
-										is_empty = yes
-									}
-								}
-								3810 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									3809 = {
-										is_empty = yes
-									}
-								}
-								3809 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3812 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									3809 = {
-										is_empty = yes
-									}
-								}
-								3809 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3807 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								has_country_flag = large_colonial_expedition
-							}
-							if = {
-								limit = {
-									3811 = {
-										is_empty = yes
-									}
-								}
-								3811 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								3806 = {
-									add_siberian_construction = 100
-								}
-							}
+						expand_elteria_expedition = {
+							colonial_region = colonial_deerok
 						}
 					}
-					else_if = {
-						limit = {
-							has_country_flag = deerok_3_colonial_expedition
-						}
-						#Southwest Catercalde Trade Node (bit that juts out)
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-									has_country_flag = small_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2972 = {
-										is_empty = yes
-									}
-								}
-								37229725 = {
-									add_siberian_construction = 100
-								}
-							}
-							else_if = {
-								limit = {
-									2971 = {
-										is_empty = yes
-									}
-								}
-								2971 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2973 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								OR = {
-									has_country_flag = large_colonial_expedition
-									has_country_flag = medium_colonial_expedition
-								}
-							}
-							if = {
-								limit = {
-									2971 = {
-										is_empty = yes
-									}
-								}
-								2971 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2970 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-						if = {
-							limit = {
-								has_country_flag = large_colonial_expedition
-							}
-							if = {
-								limit = {
-									2973 = {
-										is_empty = yes
-									}
-								}
-								2973 = {
-									add_siberian_construction = 100
-								}
-							}
-							else = {
-								2969 = {
-									add_siberian_construction = 100
-								}
-							}
-						}
-					}
-				#
+				}
 			}
 			set_country_flag = sent_colonial_expedition
 			clr_country_flag = planned_colonial_expedition
@@ -1713,28 +737,28 @@ country_decisions = {
 				limit = {
 					has_country_flag = small_colonial_expedition
 				}
-				add_adm_power = 50
-				add_dip_power = 25
-				add_mil_power = 50
-				add_treasury = 150
+				add_adm_power = 25
+				add_dip_power = 10
+				add_mil_power = 25
+				add_treasury = 75
 			}
 			if = {
 				limit = {
 					has_country_flag = medium_colonial_expedition
 				}
-				add_adm_power = 75
-				add_dip_power = 37
-				add_mil_power = 75
-				add_treasury = 250
+				add_adm_power = 50
+				add_dip_power = 25
+				add_mil_power = 50
+				add_treasury = 125
 			}
 			if = {
 				limit = {
 					has_country_flag = large_colonial_expedition
 				}
-				add_adm_power = 100
-				add_dip_power = 50
-				add_mil_power = 100
-				add_treasury = 350
+				add_adm_power = 75
+				add_dip_power = 37
+				add_mil_power = 75
+				add_treasury = 175
 			}
 		}
 		ai_will_do = {
@@ -1751,6 +775,42 @@ country_decisions = {
 			}
 		}
 	}
+	# refresh_colonial_expedition = {
+	# 	potential = {
+	# 		has_country_modifier = scramble_for_elteria
+	# 		has_global_flag = voyage_of_saltera
+			
+	# 		has_country_flag = colonial_expedition_sent
+	# 		NOT = { has_country_flag = colonial_expedition_refreshed }
+	# 		OR = {
+	# 			has_country_flag = small_colonial_expedition
+	# 			has_country_flag = medium_colonial_expedition
+	# 			has_country_flag = large_colonial_expedition
+	# 		}
+	# 	}
+	# 	effect = {
+	# 		clr_country_flag = colonial_expedition_sent
+			
+	# 		clr_country_flag = small_colonial_expedition
+	# 		clr_country_flag = medium_colonial_expedition
+	# 		clr_country_flag = large_colonial_expedition
+
+	# 		clr_country_flag = planned_colonial_expedition
+
+	# 		clr_country_flag = palentai_colonial_expedition
+	# 		clr_country_flag = morredh_colonial_expedition
+	# 		clr_country_flag = bulkir_colonial_expedition
+	# 		clr_country_flag = feltdon_colonial_expedition
+	# 		clr_country_flag = deerock_colonial_expedition
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 10
+	# 		modifier = {
+	# 			factor = 0
+	# 			NOT = { monthly_income = 20 }
+	# 		}
+	# 	}
+	# }
 
 	open_colonial_office = {
 		potential = {
@@ -1793,6 +853,30 @@ country_decisions = {
                 factor = 0
                 NOT = { adm_power = 500 }
             }
+		}
+	}
+	follow_the_wind_spirits = {
+		major = yes
+		potential = {
+			# has_country_modifier = scramble_for_elteria
+			NOT = { has_country_modifier = following_wind_spirits }
+			navy_size = 1
+			dip_tech = 6
+			NOT = { is_subject = yes }
+			capital_scope = { continent = aveia }
+		}
+		allow = {
+			dip_power = 100
+		}
+		effect = {
+			add_dip_power = -100
+            add_country_modifier = { 
+                name = following_wind_spirits
+                duration = 18220
+            }
+		}
+		ai_will_do = {
+			factor = 10
 		}
 	}
 

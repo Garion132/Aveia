@@ -725,6 +725,7 @@ country_event ={
 			has_country_modifier = scramble_for_elteria
 			has_country_modifier = scramble_for_elteria_colony
 			has_country_modifier = elteria_colonial_office
+			has_country_modifier = following_wind_spirits
 		}
 	}
 	fire_only_once = yes
@@ -738,6 +739,7 @@ country_event ={
 		remove_country_modifier = scramble_for_elteria
 		remove_country_modifier = scramble_for_elteria_colony
 		remove_country_modifier = elteria_colonial_office
+		remove_country_modifier = following_wind_spirits
 		clr_global_flag = scramble_for_elteria
 	}
 }
@@ -1137,10 +1139,10 @@ country_event = {
 
 	option = {
 		name = elteria_event.21.a #Outfit a Small Expedition
-		add_adm_power = -100
-		add_dip_power = -50
-		add_mil_power = -100
-		add_treasury = -300
+		add_adm_power = -50
+		add_dip_power = -25
+		add_mil_power = -50
+		add_treasury = -50
 
 		set_country_flag = small_colonial_expedition
 		custom_tooltip = small_colonial_expedition_tt
@@ -1149,16 +1151,16 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0 
-				monthly_income = 25
+				monthly_income = 12
 			}
 		}
 	}
 	option = {
 		name = elteria_event.21.b #Prepare a Moderate Colony
-		add_adm_power = -150
-		add_dip_power = -75
-		add_mil_power = -150
-		add_treasury = -500
+		add_adm_power = -75
+		add_dip_power = -35
+		add_mil_power = -75
+		add_treasury = -150
 
 		set_country_flag = medium_colonial_expedition
 		custom_tooltip = medium_colonial_expedition_tt
@@ -1167,16 +1169,20 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 0 
-				monthly_income = 50
+				monthly_income = 20
+			}
+			modifier = {
+				factor = 0.2
+				NOT = { treasury = 150 }
 			}
 		}
 	}
 	option = {
 		name = elteria_event.21.c #Waste no effort!
-		add_adm_power = -200
-		add_dip_power = -100
-		add_mil_power = -200
-		add_treasury = -700
+		add_adm_power = -100
+		add_dip_power = -50
+		add_mil_power = -100
+		add_treasury = -250
 
 		set_country_flag = large_colonial_expedition
 		custom_tooltip = large_colonial_expedition_tt
@@ -1185,7 +1191,11 @@ country_event = {
 			factor = 30
 			modifier = {
 				factor = 0 
-				NOT = { monthly_income = 25 }
+				NOT = { monthly_income = 12 }
+			}
+			modifier = {
+				factor = 0.2
+				NOT = { treasury = 250 }
 			}
 		}
 	}
@@ -1211,102 +1221,67 @@ country_event = {
 	option = {
 		name = elteria_event.22.a #To the Palentai Bay!
 		trigger = {
-			NOT = { has_global_flag = palentai_full }
+			any_province = {
+				colonial_region = colonial_palental
+				has_port = yes
+				province_has_center_of_trade_of_level = 1
+				has_discovered = ROOT
+			}
+			NOT = { has_country_flag = colonial_expedition_refreshed }
 		}
-		add_adm_power = -50
-		add_dip_power = -150
-		add_mil_power = -50
+		add_adm_power = -25
+		add_dip_power = -75
+		add_mil_power = -25
 
 		custom_tooltip = palentai_colonization_tt
+		set_country_flag = palentai_colonial_expedition
 		set_country_flag = planned_colonial_expedition
-		if = { #Southern Peninsula
-			limit = {
-				has_global_flag = palentai_2
-			}
-			set_global_flag = palentai_full
-			clr_global_flag = palentai_2
-			set_country_flag = palentai_3_colonial_expedition
-		}
-		else_if = { #Northern Peninsula
-			limit = {
-				has_global_flag = palentai_1
-			}
-			set_global_flag = palentai_2
-			clr_global_flag = palentai_1
-			set_country_flag = palentai_2_colonial_expedition
-		}
-		else = { #Central Bay Part
-			set_global_flag = palentai_1
-			set_country_flag = palentai_1_colonial_expedition
-		}
 
 		ai_chance = { 
 			factor = 10
-			modifier = {
-				factor = 0.5
-				has_global_flag = palentai_1
-			}
-			modifier = {
-				factor = 0.25
-				has_global_flag = palentai_2
-			}
 		}
 	}
 	option = {
 		name = elteria_event.22.b #To Morredh!
 		trigger = {
-			NOT = { has_global_flag = morredh_full }
+			any_province = {
+				colonial_region = colonial_morredh
+				has_port = yes
+				province_has_center_of_trade_of_level = 1
+				has_discovered = ROOT
+			}
+			NOT = { has_country_flag = colonial_expedition_refreshed }
 		}
-		add_adm_power = -50
-		add_dip_power = -150
-		add_mil_power = -50
+		add_adm_power = -25
+		add_dip_power = -75
+		add_mil_power = -25
 
 		custom_tooltip = morredh_colonization_tt
+		set_country_flag = morredh_colonial_expedition
 		set_country_flag = planned_colonial_expedition
-		if = { #Western Agaruz
-			limit = {
-				has_global_flag = morredh_1
-			}
-			set_global_flag = morredh_full
-			clr_global_flag = morredh_1
-			set_country_flag = morredh_2_colonial_expedition
-		}
-		else = { #Kharns Passage
-			set_global_flag = morredh_1
-			set_country_flag = morredh_1_colonial_expedition
-		}
 
 		ai_chance = { 
 			factor = 5
-			modifier = {
-				factor = 0.5
-				has_global_flag = morredh_1
-			}
 		}
 	}
 	option = {
 		name = elteria_event.22.c #Down to Bulkir!
 		trigger = {
-			NOT = { has_global_flag = bulkir_full }
+			any_province = {
+				colonial_region = colonial_bulkir
+				has_port = yes
+				province_has_center_of_trade_of_level = 1
+				has_discovered = ROOT
+			}
+			NOT = { has_country_flag = colonial_expedition_refreshed }
 		}
-		add_adm_power = -50
-		add_dip_power = -150
-		add_mil_power = -50
+		add_adm_power = -25
+		add_dip_power = -75
+		add_mil_power = -25
 
 		custom_tooltip = bulkir_colonization_tt
+		set_country_flag = bulkir_colonial_expedition
 		set_country_flag = planned_colonial_expedition
-		if = { #Aragos Trade Node
-			limit = {
-				has_global_flag = bulkir_1
-			}
-			set_global_flag = bulkir_full
-			clr_global_flag = bulkir_1
-			set_country_flag = bulkir_2_colonial_expedition
-		}
-		else = { #Bulkir Trade Node
-			set_global_flag = bulkir_1
-			set_country_flag = bulkir_1_colonial_expedition
-		}
 
 		ai_chance = { 
 			factor = 5
@@ -1319,87 +1294,47 @@ country_event = {
 	option = {
 		name = elteria_event.22.e #All the way to Feltdon!
 		trigger = {
-			NOT = { has_global_flag = feltdon_full }
+			any_province = {
+				colonial_region = colonial_feltdon
+				has_port = yes
+				province_has_center_of_trade_of_level = 1
+				has_discovered = ROOT
+			}
 			has_global_flag = voyage_of_saltera
 		}
-		add_adm_power = -50
-		add_dip_power = -150
-		add_mil_power = -50
+		add_adm_power = -25
+		add_dip_power = -75
+		add_mil_power = -25
 
 		custom_tooltip = feltdon_colonization_tt
+		set_country_flag = feltdon_colonial_expedition
 		set_country_flag = planned_colonial_expedition
-		if = { #Northeast Hatle
-			limit = {
-				has_global_flag = feltdon_2
-			}
-			set_global_flag = feltdon_full
-			clr_global_flag = feltdon_2
-			set_country_flag = feltdon_3_colonial_expedition
-		}
-		else_if = { #Just Outside Scuria
-			limit = {
-				has_global_flag = feltdon_1
-			}
-			set_global_flag = feltdon_2
-			clr_global_flag = feltdon_1
-			set_country_flag = feltdon_2_colonial_expedition
-		}
-		else = { #Hatle Trade Node
-			set_global_flag = feltdon_1
-			set_country_flag = feltdon_1_colonial_expedition
-		}
 
 		ai_chance = { 
 			factor = 20
-			modifier = {
-				factor = 0.5
-				has_global_flag = feltdon_1
-			}
-			modifier = {
-				factor = 0.25
-				has_global_flag = feltdon_2
-			}
 		}
 	}
 	option = {
 		name = elteria_event.22.f #Perhaps to Western Elteria?
 		trigger = {
-			NOT = { has_global_flag = deerok_full }
+			any_province = {
+				colonial_region = colonial_deerok
+				has_port = yes
+				province_has_center_of_trade_of_level = 1
+				has_discovered = ROOT
+			}
 			has_global_flag = voyage_of_saltera
 		}
-		add_adm_power = -50
-		add_dip_power = -150
-		add_mil_power = -50
+		add_adm_power = -25
+		add_dip_power = -75
+		add_mil_power = -25
 
 		custom_tooltip = deerock_colonization_tt
+		set_country_flag = deerock_colonial_expedition
 		set_country_flag = planned_colonial_expedition
-		if = { #Southwest Catercalde Trade Node (bit that juts out)
-			limit = {
-				has_global_flag = deerok_2
-			}
-			set_global_flag = deerok_full
-			clr_global_flag = deerok_2
-			set_country_flag = deerok_3_colonial_expedition
-		}
-		else_if = { #Ghosilent Trade Node
-			limit = {
-				has_global_flag = deerok_1
-			}
-			set_global_flag = deerok_2
-			clr_global_flag = deerok_1
-			set_country_flag = deerok_2_colonial_expedition
-		}
-		else = { #Tip of Methan
-			set_global_flag = deerok_1
-			set_country_flag = deerok_1_colonial_expedition
-		}
 
 		ai_chance = { 
 			factor = 20
-			modifier = {
-				factor = 0.5
-				has_global_flag = deerok_2
-			}
 		}
 	}
 	option = {

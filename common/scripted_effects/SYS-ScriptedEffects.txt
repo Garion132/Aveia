@@ -153,3 +153,179 @@ change_agricultural_efficiency = {
         update_pop_total = yes   
     }
 }
+
+create_elteria_expedition = {
+    #   $colonial_region$
+
+    # This list of if/else chain checks the following:
+    # Province is center of trade, port, is discovered, and has empty neighbor
+    # Province is a port, discovered, and has empty neighbor
+    # Province is a port, and has empty neighbor
+    # Province is a port
+    # Else you're kinda screwed, but this should *rarely* happen as expeditions are capped per colonial_region
+
+    if = {
+        limit = {
+            any_province = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                province_has_center_of_trade_of_level = 1
+                has_discovered = ROOT
+                is_empty = yes
+                has_empty_adjacent_province = yes
+            }
+        }
+        random_province = {
+            limit = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                province_has_center_of_trade_of_level = 1
+                has_discovered = ROOT
+                is_empty = yes
+                has_empty_adjacent_province = yes
+            }
+			add_siberian_construction = 100
+        }
+    }
+    else_if = {
+        limit = {
+            any_province = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                has_discovered = ROOT
+                is_empty = yes
+                has_empty_adjacent_province = yes
+            }
+        }
+        random_province = {
+            limit = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                has_discovered = ROOT
+                is_empty = yes
+                has_empty_adjacent_province = yes
+            }
+			add_siberian_construction = 100
+        }
+    }
+    else_if = {
+        limit = {
+            any_province = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                is_empty = yes
+                has_empty_adjacent_province = yes
+            }
+        }
+        random_province = {
+            limit = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                is_empty = yes
+                has_empty_adjacent_province = yes
+            }
+			add_siberian_construction = 100
+        }
+    }
+    else_if = {
+        limit = {
+            any_province = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                is_empty = yes
+            }
+        }
+        random_province = {
+            limit = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                is_empty = yes
+            }
+			add_siberian_construction = 100
+        }
+    }
+}
+expand_elteria_expedition = {
+    #   $ region $
+    
+    # This list of if/else chain checks the following:
+    # Province neighbors a colony, is empty, is a port, and has been discovered
+    # Province neighbors a colony, is empty and is a port
+    # Province neighbors a colony and is empty
+
+    if = {
+        limit = {
+            any_province = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                has_discovered = ROOT
+                is_empty = yes
+                any_neighbor_province = {
+                    is_colony = yes
+                    owned_by = ROOT
+                }
+            }
+        }
+        random_province = {
+            limit = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                has_discovered = ROOT
+                is_empty = yes
+                any_neighbor_province = {
+                    is_colony = yes
+                    owned_by = ROOT
+                }
+            }
+			add_siberian_construction = 100
+        }
+    }
+    else_if = {
+        limit = {
+            any_province = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                is_empty = yes
+                any_neighbor_province = {
+                    is_colony = yes
+                    owned_by = ROOT
+                }
+            }
+        }
+        random_province = {
+            limit = {
+                colonial_region = $colonial_region$
+                has_port = yes
+                is_empty = yes
+                any_neighbor_province = {
+                    is_colony = yes
+                    owned_by = ROOT
+                }
+            }
+			add_siberian_construction = 100
+        }
+    }
+    else_if = {
+        limit = {
+            any_province = {
+                colonial_region = $colonial_region$
+                is_empty = yes
+                any_neighbor_province = {
+                    is_colony = yes
+                    owned_by = ROOT
+                }
+            }
+        }
+        random_province = {
+            limit = {
+                colonial_region = $colonial_region$
+                is_empty = yes
+                any_neighbor_province = {
+                    is_colony = yes
+                    owned_by = ROOT
+                }
+            }
+			add_siberian_construction = 100
+        }
+    }
+}

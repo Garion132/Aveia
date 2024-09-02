@@ -204,7 +204,7 @@ country_event = {
 		NOT = { has_global_flag = ecriamin_happened }
 		OR = {
 			AND = {
-				is_year = 1285
+				is_year = 1295
 				colony = 1
 				any_subject_country = {
 					is_colonial_nation = yes
@@ -215,7 +215,7 @@ country_event = {
 				}
 			}
 			AND = {
-				is_year = 1285
+				is_year = 1295
 				is_colonial_nation = no
 				capital_scope = { continent = elteria }
 				ecriamin = 5
@@ -238,7 +238,7 @@ country_event = {
 				ecriamin = 3
 			}
 			AND = {
-				is_year = 1315
+				is_year = 1310
 				colony = 1
 				any_subject_country = {
 					is_colonial_nation = yes
@@ -249,7 +249,7 @@ country_event = {
 				}
 			}
 			AND = {
-				is_year = 1315
+				is_year = 1310
 				is_colonial_nation = no
 				capital_scope = { continent = elteria }
 				ecriamin = 2

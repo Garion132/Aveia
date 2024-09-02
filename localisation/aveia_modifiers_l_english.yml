@@ -177,6 +177,8 @@
  desc_scramble_for_elteria_colony:0 "Everyone is rushing to Elteria for miracle herbs and rumors of silver."
  elteria_colonial_office:0 "Colonial Office"
  desc_elteria_colonial_office:0 "We have opened a colonial office to allow settlers in our homeland to more easily access funds for a voyage to Elteria/"
+ following_wind_spirits: "Following Wind Spirits"
+ desc_following_wind_spirits: "We are following magical wind spirits that end up leading our ships over open seas to Elteria."
  remote_lands_of_juluia:0 "Remote Lands of Juluia"
  desc_remote_lands_of_juluia:0 "Juluia's remoteness on the other side of the globe from civilization makes it remarkably difficult to colonize."
 
