@@ -6,8 +6,26 @@ objectTypes = {
 	############                    Light ships                 ###############
 	############												###############
 	###########################################################################
-	
-		
+	pdxmesh = {
+		name = "trade_ship"
+		file = "gfx\models\ships\barque.mesh"
+
+		animation = { id = "idle"	type = "barque_idle" }
+		animation = { id = "walk"	type = "barque_walk" }
+		animation = { id = "attack"	type = "barque_attack"}
+		scale = 1.5
+	}
+
+	pdxmesh = {
+		name = "lenee"
+		file = "gfx\models\ships\barque.mesh"
+
+		animation = { id = "idle"	type = "barque_idle" }
+		animation = { id = "walk"	type = "barque_walk" }
+		animation = { id = "attack"	type = "barque_attack"}
+		scale = 1.5
+	}
+
 	pdxmesh = {
 		name = "barque"
 		file = "gfx\models\ships\barque.mesh"
@@ -68,7 +86,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "galley"
-		file = "gfx\models\ships\galley.mesh"
+		file = "gfx\models\ships\Galley.mesh"
 
 		animation = { id = "idle"	type = "galley_idle" }
 		animation = { id = "walk"	type = "galley_walk" }
