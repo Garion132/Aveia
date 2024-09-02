@@ -4,7 +4,7 @@ religion = shamanism#Fetishism
 base_tax = 0
 base_production = 2
 base_manpower = 6
-trade_goods = unknown
+trade_goods = naval_supplies
 capital = "Sal"
 native_size = 25
 native_ferocity = 2
@@ -20,7 +20,6 @@ discovered_by = free_fauns_group
 	add_core = SIL
 	owner = SIL
 	controller = SIL
-	city = yes
 	religion = Tlaunorist
 	culture = athanilan
 }
