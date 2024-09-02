@@ -83,7 +83,16 @@ objectTypes = {
 	############												###############
 	###########################################################################
 
-	
+	pdxmesh = {
+		name = "trireme"
+		file = "gfx\models\ships\Galley.mesh"
+
+		animation = { id = "idle"	type = "galley_idle" }
+		animation = { id = "walk"	type = "galley_walk" }
+		animation = { id = "attack"	type = "galley_attack"}
+		scale = 1.6
+	}
+
 	pdxmesh = {
 		name = "galley"
 		file = "gfx\models\ships\Galley.mesh"
@@ -198,7 +207,27 @@ objectTypes = {
 	############                     Transports                 ###############
 	############												###############
 	###########################################################################
-	
+
+	pdxmesh = {
+		name = "bireme"
+		file = "gfx\models\ships\cog.mesh"
+
+		animation = { id = "idle"	type = "cog_idle" }
+		animation = { id = "walk"	type = "cog_walk" }
+		animation = { id = "attack"	type = "cog_attack" }
+		scale = 1.5
+	}		
+
+	pdxmesh = {
+		name = "hulk"
+		file = "gfx\models\ships\cog.mesh"
+
+		animation = { id = "idle"	type = "cog_idle" }
+		animation = { id = "walk"	type = "cog_walk" }
+		animation = { id = "attack"	type = "cog_attack" }
+		scale = 1.5
+	}		
+
 	pdxmesh = {
 		name = "cog"
 		file = "gfx\models\ships\cog.mesh"
