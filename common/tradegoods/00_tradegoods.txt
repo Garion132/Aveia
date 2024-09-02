@@ -667,13 +667,6 @@ iron = {
 
 	rnw_latent_chance = 25 # Kind of on average how many provinces we want to spawn with it
 	
-	chance = {
-		factor = 5
-		modifier = {
-			factor = 0
-			NOT={continent = juluia}
-		}
-	}
 	modifier = {
 		global_regiment_cost = -0.05
 	}
@@ -882,15 +875,6 @@ iron = {
 	}
 	chance = {
 		factor = 1
-		modifier = {
-			factor = 0
-			OR={
-				province_id = 3923
-				province_id = 4744
-				province_id = 4756
-				province_id = 4743
-			}
-		}
 	}
 }
 
