@@ -2021,7 +2021,7 @@ irrigated_fields = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 0.2
+		trade_goods_size = 0.4
 	}
 	
 	on_built = {
@@ -2057,7 +2057,7 @@ farm = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 0.5
+		trade_goods_size = 1
 	}
 	
 	on_built = {
@@ -2093,7 +2093,7 @@ mechanized_farm = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 1
+		trade_goods_size = 2
 	}
 	
 	on_built = {
@@ -2135,7 +2135,7 @@ gatherers_hut = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 0.33
+		trade_goods_size = 0.6
 	}
 	
 	on_built = {
@@ -2178,7 +2178,7 @@ plantation = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 0.66
+		trade_goods_size = 1.2
 	}
 	
 	on_built = {
@@ -2221,7 +2221,7 @@ trade_station = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 1
+		trade_goods_size = 2
 	}
 	
 	on_built = {
@@ -2255,7 +2255,7 @@ craftsman = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 0.2
+		trade_goods_size = 0.4
 	}
 	
 	on_built = {
@@ -2290,7 +2290,7 @@ early_factory = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 0.5
+		trade_goods_size = 1
 	}
 	
 	on_built = {
@@ -2326,7 +2326,7 @@ late_factory = {
 	}
 	modifier = {
 		trade_goods_size_modifier = 0.5
-		trade_goods_size = 1
+		trade_goods_size = 2
 	}
 	
 	on_built = {
@@ -2363,7 +2363,7 @@ mine = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 0.2
+		trade_goods_size = 0.4
 	}
 	
 	on_built = {
@@ -2401,7 +2401,7 @@ mining_complex = {
 		}
 	}
 	modifier = {
-		trade_goods_size = 0.5
+		trade_goods_size = 1
 	}
 	
 	on_built = {
@@ -2440,7 +2440,7 @@ mechanized_mine = {
 	}
 	modifier = {
 		trade_goods_size_modifier = 0.2
-		trade_goods_size = 1
+		trade_goods_size = 2
 	}
 	
 	on_built = {
@@ -2472,7 +2472,7 @@ refinery = {
 	}
 	modifier = {
 		trade_value_modifier = 0.25
-		trade_goods_size = 0.5
+		trade_goods_size = 1
 	}
 	
 	on_built = {
@@ -2505,7 +2505,7 @@ processing_plant = {
 	}
 	modifier = {
 		trade_value_modifier = 0.5
-		trade_goods_size = 1
+		trade_goods_size = 2
 	}
 	
 	on_built = {
