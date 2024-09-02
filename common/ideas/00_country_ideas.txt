@@ -1003,7 +1003,7 @@ SAL_ideas = {
 
 LEL_ideas = {
 	start = {
-		yearly_army_professionalism = 0.01
+		yearly_army_professionalism = 0.005
 		trade_steering = 0.15
 	}
 
