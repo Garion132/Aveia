@@ -1,2 +1,3 @@
 base_manpower = 1
 is_city = no
+trade_goods = unknown

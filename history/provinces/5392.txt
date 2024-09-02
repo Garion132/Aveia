@@ -1,5 +1,2 @@
 trade_goods = unknown
 is_city = no
-latent_trade_goods = { 
-	iron 
-}

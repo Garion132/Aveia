@@ -11,3 +11,6 @@ native_ferocity = 6
 native_hostileness = 4
 extra_cost = 8
 is_city = no
+latent_trade_goods = { 
+	coal 
+}

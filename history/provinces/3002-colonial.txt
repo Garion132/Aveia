@@ -1,9 +1,8 @@
 #Windsweaps
 culture = kaletian
-religion = shamanism #Fetishism
+religion = shamanism#Fetishism
 capital = "Accra"
 trade_goods = unknown
-hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 2
@@ -17,4 +16,7 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 8
-
+is_city = no
+latent_trade_goods = { 
+	coal 
+}

@@ -12,3 +12,6 @@ native_hostileness = 4
 extra_cost = 8
 discovered_by = scurian_group
 is_city = no
+latent_trade_goods = { 
+	coal 
+}

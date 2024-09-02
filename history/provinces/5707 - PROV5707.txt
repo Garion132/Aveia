@@ -4,7 +4,7 @@ controller = OCI
 culture = thilranan
 religion = suhar
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 2
 is_city = yes
 discovered_by = lake_elves_group
@@ -14,3 +14,7 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+trade_goods = fish
+latent_trade_goods = { 
+	iron 
+}
