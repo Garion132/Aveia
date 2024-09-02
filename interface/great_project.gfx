@@ -36,4 +36,8 @@ spriteTypes = {
 		name = "GFX_great_project_palace_lindor"	
 		texturefile = "gfx//interface//great_projects//great_project_palace_lindor.dds"
 	}
+	spriteType = {
+		name = "GFX_great_project_yhenil_bridge"	
+		texturefile = "gfx//interface//great_projects//great_project_yhenil_bridge.dds"
+	}
 }

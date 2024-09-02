@@ -520,7 +520,7 @@ daimyo_vassal = {
 }
 
 dominion_vassal = {
-	copy_from = default
+	copy_from = colony
 	count = colony
 	is_colony_subtype = yes
 	change_colonial_type = no
@@ -549,6 +549,9 @@ dominion_vassal = {
 	start_colonial_war = yes
 	block_settlement_growth = no
 	allow_settlement_growth = no
+	counts_for_borders = yes
+	dynamically_created_during_history = no
+	has_colonial_parent = no
 	
 	restoration_cb = cb_disloyal_vassal
 
