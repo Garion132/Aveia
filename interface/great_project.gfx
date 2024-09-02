@@ -40,4 +40,8 @@ spriteTypes = {
 		name = "GFX_great_project_yhenil_bridge"	
 		texturefile = "gfx//interface//great_projects//great_project_yhenil_bridge.dds"
 	}
+	spriteType = {
+		name = "GFX_great_project_eheilarut_dockyards"	
+		texturefile = "gfx//interface//great_projects//great_project_eheilarut_dockyards.dds"
+	}
 }

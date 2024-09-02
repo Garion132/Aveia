@@ -1026,7 +1026,7 @@ asemont_fortress_complex = {
 	}
 }
 
-eiheilaurt_grand_dockyards = {
+eheilarut_dockyards = {
 	start = 1188 #Eiheilaurt
 	date = 1000.01.01
 	time = { months = 0	}
