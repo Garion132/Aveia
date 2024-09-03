@@ -2,8 +2,6 @@ athanila_missions_1 = {
 	slot = 1
 	generic = no
 	ai = yes
-	potential_on_load = {
-	}
 	potential = {
 		tag = ATH
 		NOT = { map_setup = map_setup_random }
@@ -128,7 +126,7 @@ athanila_missions_1 = {
 	}
 	ath_establishment_of_athanila = {
 		icon = mission_conquer_50_development
-		required_missions = { ath_vanquish_bronzebeard }
+		required_missions = { ath_vanquish_bronzebeard ath_establish_the_fleet }
 		position = 1
 		trigger = {
 			grown_by_development = 75
@@ -147,9 +145,230 @@ athanila_missions_1 = {
 					}
 				}
 			}
+			inzedia_3 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			dreghei_7 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	ath_down_the_dregh = {
+		icon = mission_conquer_50_development
+		required_missions = { ath_establishment_of_athanila }
+		position = 1
+		trigger = {
+			dreghei_7 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			DRG = {
+				NOT = { total_development = 250 }
+			}
+		}
+
+		effect = {
+			1300 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 4
+			}
+			dreghei_7 = {
+				limit = { owned_by = ROOT }
+				add_province_modifier = {
+					name = "minority_prospers"
+					duration = 9125 #25 years
+				}
+			}
+			dreghei_8 = {
+				limit = { owned_by = ROOT }
+				add_province_modifier = {
+					name = "minority_prospers"
+					duration = 9125 #25 years
+				}
+			}
+			dreghei_9 = {
+				limit = { owned_by = ROOT }
+				add_province_modifier = {
+					name = "minority_prospers"
+					duration = 9125 #25 years
+				}
+			}
+			add_mil_power = 200
 		}
 	}
 }
+athanila_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ATH
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no
+	}
+	ath_administrate_the_country = {
+		icon = mission_early_game_buildings
+		trigger = {
+			town_square = 5
+		}
+		effect = {
+			add_adm_power = 100
+		}
+	}
+	ath_new_monuments = {
+		icon = mission_early_game_buildings
+		required_missions = { ath_administrate_the_country }
+		trigger = {
+			shrine = 5
+			has_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = 25
+			}
+		}
+		effect = {
+			add_legitimacy = 20
+			add_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = 25
+			}
+			add_country_modifier = {
+				name = "ath_monumental_morale"
+				duration = 12775
+			}
+		}
+	}
+	ath_establish_the_fleet = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { ath_new_monuments }
+		trigger = {
+			OR = {
+				num_of_light_ship = 20
+				num_of_galley = 10
+			}
+		}
+		effect = {
+			create_admiral = { tradition = 100 }
+			add_country_modifier = {
+				name = "naval_enthusiasm_mission"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	ath_dominate_elnorei_pass = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { ath_establish_the_fleet }
+		provinces_to_highlight = {
+			province_id = 217
+		}
+		trigger = {
+			home_trade_node = {
+				trade_share = {
+					country = ROOT
+					share = 75
+				}
+			}
+		}
+		effect = {
+			hidden_effect = {
+				home_trade_node_effect_scope = {
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							is_capital = yes
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 20
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 25
+						}
+						save_event_target_as = reward_province
+					}
+					random_trade_node_member_province = {
+						limit = {
+							owned_by = ROOT
+							development = CAPITAL
+							is_capital = no
+							development = 30
+						}
+						save_event_target_as = reward_province
+					}
+				}
+			}
+			if = {
+				limit = { has_saved_event_target = reward_province }
+				event_target:reward_province = {
+					add_province_modifier = {
+						name = "dominant_trade_hub"
+						duration = -1
+					}
+				}
+			}
+			else = {
+				custom_tooltip = dominant_home_node_reward_tooltip
+			}
+		}
+	}
+	ath_retake_the_homeland = {
+		icon = mission_cannons_firing
+		required_missions = { ath_establishment_of_athanila }
+		trigger = {
+			inzedia_3 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_casus_belli = {
+				type = cb_restore_personal_union
+				months = 120
+				target = INZ
+			}
+			add_country_modifier = {
+				name = "ath_returned_homeland"
+				duration = -1
+			}
+		}
+	}
+}
+
 athanila_missions_5 = {
 	slot = 5
 	generic = no

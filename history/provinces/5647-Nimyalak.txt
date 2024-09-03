@@ -7,9 +7,9 @@ culture = unoeugr
 religion = tlaunorist
 hre = no
 
-base_tax = 1
+base_tax = 0
 base_production = 1
-base_manpower = 1
+base_manpower = 8
 trade_goods = cloth
 capital = "Nimyalak"
 is_city = yes
