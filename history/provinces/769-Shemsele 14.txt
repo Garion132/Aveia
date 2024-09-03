@@ -7,7 +7,7 @@ culture = shemsele
 religion = tlaunorist
 hre = no
 base_tax = 0
-base_production = 0
+base_production = 3
 base_manpower = 14
 trade_goods = fish
 capital = "She 3"
@@ -21,4 +21,8 @@ discovered_by = dunirr_group
 extra_cost = 0
 port = yes
 gravel_roads = yes
+taxman = yes
+mint = yes
+town_square = yes
+shipwright = yes
 set_variable = { which = arable_land value = 13 }

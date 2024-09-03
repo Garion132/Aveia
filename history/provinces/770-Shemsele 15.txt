@@ -7,7 +7,7 @@ culture = shemsele
 religion = tlaunorist
 hre = no
 base_tax = 0
-base_production =0
+base_production =2
 base_manpower = 19
 trade_goods = wool
 capital = "She 3"
@@ -20,4 +20,7 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 gravel_roads = yes
+taxman = yes
+mint = yes
+town_square = yes
 set_variable = { which = arable_land value = 19 }
