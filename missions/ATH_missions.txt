@@ -77,7 +77,7 @@ athanila_missions_1 = {
 				add_permanent_claim = ROOT
 			}
 			add_country_modifier = {
-				name = ath_subjugation_of_the_unoegur
+				name = ath_subjugation_of_the_unoeugr
 				duration = -1
 			}
 		}
@@ -140,7 +140,7 @@ athanila_missions_1 = {
 				area = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
-						name = "ath_establishment_of_athanila"
+						name = "ath_athanila_established"
 						duration = 9125 #25 years
 					}
 				}

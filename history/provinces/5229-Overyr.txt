@@ -8,9 +8,9 @@ culture = wlariquar
 religion = tlaunorist
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 0
+base_production = 0
+base_manpower = 4
 trade_goods = grain
 capital = "Ove"
 is_city = yes

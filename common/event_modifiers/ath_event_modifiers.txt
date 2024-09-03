@@ -1,8 +1,8 @@
-ath_subjugation_of_the_unoegur = {
+ath_subjugation_of_the_unoeugr = {
 	num_accepted_cultures = 1
 	governing_capacity = 25
 }
-ath_establishment_of_athanila = {
+ath_athanila_established = {
 	local_build_cost = -0.25
 	local_prosperity_growth = 0.25
 	tax_income = 12
