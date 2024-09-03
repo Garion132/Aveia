@@ -17,7 +17,7 @@ Academy of Shining Lights (Lumia)
 Asemont Copper Mine ;Y
 Asemont Fortress Complex ;Y
 Rauthyr's Estate Houses
-Lindor Palace (Rauthyr) [Make it only apply if your capital is here & culture is Lindor]
+Lindor Palace (Rauthyr) [Make it only apply if your capital is here & culture is Lindor] ;Y
 Doninas City (Leleth) ;Y
 House of Learning (Kyath)
 Gungar's Air Ship Factory (Dreghei, moveable)

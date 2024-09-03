@@ -1,13 +1,11 @@
 #Chaun 
-
 add_core = CHA
 owner = CHA
 controller = CHA
 culture = xoilan
 religion = tlaunorist
-hre = no
 base_tax = 1
-base_production =1
+base_production = 1
 base_manpower = 2
 trade_goods = naval_supplies
 capital = "Sal"
@@ -19,3 +17,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = TAI

@@ -1,14 +1,11 @@
 #Shemsele
-
 add_core = SHE
-add_core = ENY
 owner = SHE
 controller = SHE
 culture = umanti
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 2
 trade_goods = fur
 capital = "She 3"
@@ -21,3 +18,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 set_variable = { which = arable_land value = 3 }
+add_core = DRY

@@ -33,7 +33,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_suez_canal.dds"
 	}
 	spriteType = {
-		name = "GFX_great_project_palace_lindor"	
+		name = "GFX_great_project_palace_lindor"
 		texturefile = "gfx//interface//great_projects//great_project_palace_lindor.dds"
 	}
 	spriteType = {
@@ -43,5 +43,29 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_great_project_eheilarut_dockyards"	
 		texturefile = "gfx//interface//great_projects//great_project_eheilarut_dockyards.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_doninas_city"	
+		texturefile = "gfx//interface//great_projects//great_project_doninas_city.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_kushedean_lighthouse"	
+		texturefile = "gfx//interface//great_projects//great_project_kushedean_lighthouse.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_asemont_fortress_complex"	
+		texturefile = "gfx//interface//great_projects//great_project_asemont_fortress_complex.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_temple_of_the_sea_god"	
+		texturefile = "gfx//interface//great_projects//great_project_temple_of_the_sea_god.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_aniliti_heart"	
+		texturefile = "gfx//interface//great_projects//great_project_aniliti_heart.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_malicrieit"	
+		texturefile = "gfx//interface//great_projects//great_project_malicrieit.dds"
 	}
 }

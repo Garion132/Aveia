@@ -1,13 +1,11 @@
 #Chaun 
-
 add_core = CHA
 owner = CHA
 controller = CHA
 culture = xoilan
 religion = drethalumia
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 1
 trade_goods = fur
 capital = "Sal"
@@ -19,5 +17,5 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-
 center_of_trade = 1
+add_core = TAI
