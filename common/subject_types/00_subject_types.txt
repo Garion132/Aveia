@@ -519,95 +519,6 @@ daimyo_vassal = {
 	}
 }
 
-dominion_vassal = {
-	copy_from = colony
-	count = colony
-	is_colony_subtype = yes
-	change_colonial_type = no
-	
-	# Graphics:
-	sprite = GFX_icon_dominion
-	diplomacy_overlord_sprite = GFX_icon_dominion_lead
-	diplomacy_subject_sprite = GFX_icon_dominion_follow
-	
-	# Properties:
-	has_power_projection = yes
-	transfer_trade_power = yes
-	takes_diplo_slot = no
-	gives_daimyo_bonuses = yes
-	gets_help_with_rebels = no
-	separatists_become_subjects = yes
-	allows_taking_land_without_independence = yes
-	can_use_claims = yes
-	can_be_annexed = no
-	can_have_subjects_of_other_types = yes
-	eats_overlords_colonies = yes
-	is_voluntary = yes
-	overlord_enforce_peace_attacking = yes
-	extend_trading_range = yes
-	replace_governor = yes
-	start_colonial_war = yes
-	block_settlement_growth = no
-	allow_settlement_growth = no
-	counts_for_borders = yes
-	dynamically_created_during_history = no
-	has_colonial_parent = no
-	
-	restoration_cb = cb_disloyal_vassal
-
-	trust_on_start = 0
-	
-	base_liberty_desire = 10.0
-	military_focus = 1.2
-
-	relative_power_class = 1
-
-	can_fight = {
-		other_overlord = colony
-		neighboring_primitives = yes
-		colonial_region_nations = yes
-	}
-	can_rival = {
-		other_overlord = colony
-		neighboring_primitives = yes
-		colonial_region_nations = yes
-	}
-	can_ally = {
-		neighboring_primitives = yes
-		colonial_region_nations = yes
-	}
-	can_marry = {
-		neighboring_primitives = yes
-	}
-	
-	# Subject Interactions
-	#(disable)
-	scutage = no
-	grant_core_claim = yes
-	grant_province = yes
-	place_relative_on_throne = no
-	enforce_religion = no
-	enforce_culture = no
-	seize_territory = no
-	#(enable)
-	contribute_to_capital = yes
-	conscript_general = yes
-	# Modifiers
-	
-	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
-	modifier_subject = clear #Ditto
-	
-	modifier_overlord = {
-		modifier = large_colonial_nation
-		trigger = {
-			num_of_cities = 10
-		}
-	}
-
-	overlord_opinion_modifier = colonial_relation
-	subject_opinion_modifier = colonial_relation
-}
-
 personal_union = {
 	copy_from = default
 
@@ -925,6 +836,96 @@ self_governing_colony = {
 		modifier = self_governing_colony_subject
 	}
 }
+
+dominion_vassal = {
+	copy_from = colony
+	count = colony
+	is_colony_subtype = yes
+	change_colonial_type = no
+	
+	# Graphics:
+	sprite = GFX_icon_dominion
+	diplomacy_overlord_sprite = GFX_icon_dominion_lead
+	diplomacy_subject_sprite = GFX_icon_dominion_follow
+	
+	# Properties:
+	has_power_projection = yes
+	transfer_trade_power = yes
+	takes_diplo_slot = no
+	gives_daimyo_bonuses = yes
+	gets_help_with_rebels = no
+	separatists_become_subjects = yes
+	allows_taking_land_without_independence = yes
+	can_use_claims = yes
+	can_be_annexed = no
+	can_have_subjects_of_other_types = yes
+	eats_overlords_colonies = yes
+	is_voluntary = yes
+	overlord_enforce_peace_attacking = yes
+	extend_trading_range = yes
+	replace_governor = no
+	start_colonial_war = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+	counts_for_borders = yes
+	dynamically_created_during_history = no
+	has_colonial_parent = no
+	
+	restoration_cb = cb_disloyal_vassal
+
+	trust_on_start = 0
+	
+	base_liberty_desire = 10.0
+	military_focus = 1.2
+
+	relative_power_class = 1
+
+	can_fight = {
+		other_overlord = colony
+		neighboring_primitives = yes
+		colonial_region_nations = yes
+	}
+	can_rival = {
+		other_overlord = colony
+		neighboring_primitives = yes
+		colonial_region_nations = yes
+	}
+	can_ally = {
+		neighboring_primitives = yes
+		colonial_region_nations = yes
+	}
+	can_marry = {
+		neighboring_primitives = yes
+	}
+	
+	# Subject Interactions
+	#(disable)
+	scutage = no
+	grant_core_claim = yes
+	grant_province = yes
+	place_relative_on_throne = no
+	enforce_religion = no
+	enforce_culture = no
+	seize_territory = no
+	#(enable)
+	contribute_to_capital = yes
+	conscript_general = yes
+	# Modifiers
+	
+	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+	modifier_subject = clear #Ditto
+	
+	modifier_overlord = {
+		modifier = large_colonial_nation
+		trigger = {
+			num_of_cities = 10
+		}
+	}
+
+	overlord_opinion_modifier = colonial_relation
+	subject_opinion_modifier = colonial_relation
+}
+
 tributary_state = {
 	#If similar subject added check if it needs to be added to these scripted triggers:
 	#is_subject_except_tributary_trigger

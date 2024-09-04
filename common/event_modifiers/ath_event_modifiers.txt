@@ -5,7 +5,6 @@ ath_subjugation_of_the_unoeugr = {
 ath_athanila_established = {
 	local_build_cost = -0.25
 	local_prosperity_growth = 0.25
-	tax_income = 12
 	trade_goods_size = 0.5
 }
 ath_monumental_morale = {

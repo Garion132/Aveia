@@ -747,32 +747,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_icon_incorporated_vassal_subject_type"
-		texturefile = "gfx/interface/icon_incorporated_vassal_subject_type.dds"
+		texturefile = "gfx/interface/subjects/icon_incorporated_vassal_subject_type.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_icon_diplomacy_lead_incorporated_vassal_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_lead_incorporated_vassal_subject_type.dds"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_incorporated_vassal_subject_type.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_icon_diplomacy_am_incorporated_vassal_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_am_incorporated_vassal_subject_type.dds"
-	}
-
-	spriteType = {
-		name = "GFX_icon_european_colony"
-		texturefile = "gfx/interface/icon_european_colony.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_lead_european_colony"
-		texturefile = "gfx/interface/icon_diplomacy_lead_european_colony.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_icon_diplomacy_am_european_colony"
-		texturefile = "gfx/interface/icon_diplomacy_am_european_colony.dds"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_incorporated_vassal_subject_type.dds"
 	}
 
 	spriteType = {
@@ -792,17 +777,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_icon_integrated_personal_union_subject_type"
-		texturefile = "gfx/interface/icon_integrated_personal_union_subject_type.dds"
+		texturefile = "gfx/interface/subjects/icon_integrated_personal_union_subject_type.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_icon_diplomacy_lead_integrated_personal_union_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_lead_integrated_personal_union_subject_type.dds"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_lead_integrated_personal_union_subject_type.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_icon_diplomacy_am_integrated_personal_union_subject_type"
-		texturefile = "gfx/interface/icon_diplomacy_am_integrated_personal_union_subject_type.dds"
+		texturefile = "gfx/interface/subjects/icon_diplomacy_am_integrated_personal_union_subject_type.dds"
 	}
 
 	spriteType = {
@@ -2088,7 +2073,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/macro_states_sort/sort_button_211.dds"
 	}	
 	
-		textSpriteType = {
+	textSpriteType = {
 		name = "GFX_sort_180"
 		texturefile = "gfx/interface/macro_states_sort/sort_button_180.dds"
 	}	

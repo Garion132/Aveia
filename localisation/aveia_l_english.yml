@@ -1,14 +1,14 @@
 ﻿l_english:
  elves_bookmark:0 "High Bronze Age"
- elves_bookmark_desc:0 "Vanadium plz do description."
+ elves_bookmark_desc:0 "Garion132 plz do description."
  enheasrion_basin_bookmark:0 "Riches of the Enheasrion Basin"
- enheasrion_basin_bookmark_desc:0 "The Enheasrion Basin, overflowing with wealth of both food and mineral is the homeland of most of the greatest states of the known world. in the south-west the Dunirr, masters of craft and forge populate the rich mountainous river valleys of southern enheasrion dominiated by the dreghei dominion which slowly streches its influence over all other dunirr states. In the center sits the preminate state of all the world, Rauthyr. The Hegemony sits on ....finish plz"
+ enheasrion_basin_bookmark_desc:0 "The Enheasrion Basin, overflowing with wealth of both food and mineral is the homeland of most of the greatest states of the known world. in the south-west the Dwarves, masters of craft and forge populate the rich mountainous river valleys of southern enheasrion dominiated by the dreghei dominion which slowly streches its influence over all other dunirr states. In the center sits the preminate state of all the world, Rauthyr. The Hegemony sits on ....finish plz"
  kirloi_bookmark:0 "Civilizations of Kirloi"
- kirloi_bookmark_desc:0 "Vanadium plz do description."
+ kirloi_bookmark_desc:0 "Garion132 plz do description."
  colonial_bookmark:0 "Mists of Elteria"
  colonial_bookmark_desc:0 "Elteria, a continent shrouded in the mists of the unknown that stirs a call to adventure in the souls of those across the Mallitors. along the coasts intrepid elves and dunirr build using the power of their faun servant race to carve new settlements from out of the trees. Meanwhile deep within those jungles stand the free fauns, ex-slaves that escaped from their masters to make a new shires deep within the safety that the great trees provide, for as long as that safety may last"
  rake_bookmark: "Dragon Lords of Vulkivia"
- rake_bookmark_desc: "Vanadium plz do description."
+ rake_bookmark_desc: "Garion132 plz do description."
 
  deepwoods:0 "Deepwoods"
  deepwoods_city:0 "Deepwoods City"
@@ -99,16 +99,16 @@
  sun_lightbringer_rifles:0 "(35) Lightbringer Rifles"
  sun_lightbringer_adventists:0 "(37) Lightbringer Adventists"
 
- #Orks
+ #Orcs
  ork_gulban_phalanx:0 "(6) Gulban Phalanx"
  ork_ziyalap_phalanx:0 "(6) Ziyalap Phalanx"
  ork_verditap_infantry:0 "(7) Verditap Infantry"
  ork_verditap_infantryDESCR:0 "Verditap Infantry were Phalanx formations armed with long-tipped spears. Uglukish strength allowed for such an arrangement, making them a fierce fighting force on the field."
  ork_desert_rangers:0 "(7) Desert Rangers"
- ork_desert_rangersDESCR:0 "Many Ugluks live in deserts or in desert like conditions. Thus, the light-weight desert rangers are perfect in such a climate. While relatively unarmored, they are able to move quickly on the battlefield, allowing for great flexibility."
+ ork_desert_rangersDESCR:0 "Many Orcs live in deserts or in desert like conditions. Thus, the light-weight desert rangers are perfect in such a climate. While relatively unarmored, they are able to move quickly on the battlefield, allowing for great flexibility."
  ork_late_verditap_infantry:0 "(9) Late Verditap Infantry"
  ork_triple_line_pikes:0 "(11) Triple Line Pikes"
- ork_triple_line_pikesDESCR:0 "The Ugluks adapted their military tactics to new forms of warfare. The Triple Line is an advanced form of phalanx where formations are based off of rank. This includes the adoption of new tactics with iron-age weapons."
+ ork_triple_line_pikesDESCR:0 "The Orcs adapted their military tactics to new forms of warfare. The Triple Line is an advanced form of phalanx where formations are based off of rank. This includes the adoption of new tactics with iron-age weapons."
  ork_expedetiors:0 "(11) Expedetiors"
  ork_western_pike_infantry:0 "(16) Western Pike Infantry"
  ork_eastern_pike_infantry:0 "(16) Eastern Pike Infantry"
@@ -642,7 +642,7 @@
 
  northern_men_group:0 "North Manish"
  lake_elves_group:0 "Lake Elves"
- ork_group:0 "Ugluk"
+ ork_group:0 "Orc"
  northern_drake_group:0 "Drake/Kobold"
  free_fauns_group:0 "Faun"
  great_spiders_group:0 "Great Spider"

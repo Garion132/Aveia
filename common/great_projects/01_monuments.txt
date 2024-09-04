@@ -94,6 +94,7 @@ aniliti_heart = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_gold_depletion_chance_modifier = -1.0
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -122,6 +123,7 @@ aniliti_heart = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_gold_depletion_chance_modifier = -1.0
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -130,8 +132,8 @@ aniliti_heart = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_heretic = 0.5
-			tolerance_heathen = 0.5	
+			legitimacy = 0.25
+			diplomatic_upkeep = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -152,6 +154,8 @@ aniliti_heart = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_gold_depletion_chance_modifier = -1.00
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -160,9 +164,8 @@ aniliti_heart = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_heretic = 0.5
-			tolerance_heathen = 0.5	
-			stability_cost_modifier = -0.1
+			legitimacy = 0.5
+			diplomatic_upkeep = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -183,7 +186,7 @@ aniliti_heart = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_gold_depletion_chance_modifier = -1.0 #add later
+			local_gold_depletion_chance_modifier = -1.0
 			local_development_cost = -0.1
 		}
 
@@ -476,8 +479,6 @@ kushedean_lighthouse= {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			province_trade_power_value = 25
-			local_institution_spread = 0.5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -486,8 +487,6 @@ kushedean_lighthouse= {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_trade_power = 0.05
-			naval_forcelimit = 3
 		}
 
 		#what effects happen when this tier is achieved
@@ -508,8 +507,8 @@ kushedean_lighthouse= {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			province_trade_power_value = 25
-			local_institution_spread = 0.5
+			province_trade_power_value = 15
+			local_institution_spread = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -518,8 +517,7 @@ kushedean_lighthouse= {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_trade_power = 0.05
-			naval_forcelimit = 3
+			naval_forcelimit = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -572,8 +570,8 @@ kushedean_lighthouse= {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			province_trade_power_value = 25
-			local_institution_spread = 0.5
+			province_trade_power_value = 40
+			local_institution_spread = 0.75
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -582,8 +580,8 @@ kushedean_lighthouse= {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_trade_power = 0.05
-			naval_forcelimit = 3
+			global_trade_power = 0.075
+			naval_forcelimit = 5
 		}
 
 		#what effects happen when this tier is achieved
@@ -991,12 +989,14 @@ asemont_fortress_complex = {
 			factor = 2500
 		}
 		province_modifiers = {
-			local_defensiveness = 0.5
+			local_defensiveness = 0.75
 			max_attrition = 1
 			local_hostile_attrition = 2
 			local_state_maintenance_modifier = 1.5
+			fort_level = 1
 		}
 		area_modifier = {
+			local_defensiveness = 0.1
 		}
 		country_modifiers = {
 		}
@@ -1012,12 +1012,14 @@ asemont_fortress_complex = {
 			factor = 5000
 		}
 		province_modifiers = {
-			local_defensiveness = 0.5
+			local_defensiveness = 1
 			max_attrition = 1
 			local_hostile_attrition = 2
-			local_state_maintenance_modifier = 1.5
+			local_state_maintenance_modifier = 1.75
+			fort_level = 2
 		}
 		area_modifier = {
+			local_defensiveness = 0.25
 		}
 		country_modifiers = {
 		}
@@ -1720,8 +1722,6 @@ lumian_patricianate = {
     }
     on_built = {
         add_republican_tradition = 20
-        administrative_efficiency = 0.2
-        development_cost = 0.1
         add_ruler_modifier = {
             name = lumian_monumentalist
             duration = -1
@@ -1748,18 +1748,12 @@ lumian_patricianate = {
             factor = 1500
         }
         province_modifiers = {
-            local_tax_modifier = 0.25
-            allowed_num_of_manufactories = 2
             allowed_num_of_buildings = 1
             province_trade_power_modifier = 0.1
         }
         #area_modifier = {}
         country_modifiers = {
-            global_tax_modifier = 0.1
             state_maintenance_modifier = -0.1
-            development_cost = -0.1
-            core_creation = -0.1
-            idea_cost = -0.1
         }
         #region_modifier = {}
         on_upgraded = {
@@ -1776,22 +1770,14 @@ lumian_patricianate = {
             factor = 1500
         }
         province_modifiers = {
-            local_tax_modifier = 0.3
-            allowed_num_of_manufactories = 2
             allowed_num_of_buildings = 1
             province_trade_power_modifier = 0.2
             institution_growth = 1
         }
         #area_modifier = {}
         country_modifiers = {
-            global_tax_modifier = 0.1
             state_maintenance_modifier = -0.1
-            development_cost = -0.1
-            core_creation = -0.1
-            idea_cost = -0.1
             republican_tradition = 0.25
-            governing_capacity_modifier = 0.1
-            governing_cost = -0.1
         }
         #region_modifier = {}
         on_upgraded = {
@@ -1808,23 +1794,14 @@ lumian_patricianate = {
             factor = 1500
         }
         province_modifiers = {
-            local_tax_modifier = 0.35
-            allowed_num_of_manufactories = 2
             allowed_num_of_buildings = 1
             province_trade_power_modifier = 0.3
             institution_growth = 2
-            tax_income = 5
         }
         #area_modifier = {}
         country_modifiers = {
-            global_tax_modifier = 0.2
             state_maintenance_modifier = -0.2
-            development_cost = -0.2
-            core_creation = -0.2
-            idea_cost = -0.25
             republican_tradition = 0.3
-            governing_capacity_modifier = 0.2
-            governing_cost = -0.25
         }
         #region_modifier = {}
         on_upgraded = {
@@ -1841,23 +1818,14 @@ lumian_patricianate = {
             factor = 1500
         }
         province_modifiers = {
-            local_tax_modifier = 0.4
-            allowed_num_of_manufactories = 2
             allowed_num_of_buildings = 1
             province_trade_power_modifier = 0.4
             institution_growth = 3
-            tax_income = 10
         }
         #area_modifier = {}
         country_modifiers = {
-            global_tax_modifier = 0.5
             state_maintenance_modifier = -0.25
-            development_cost = -0.25
-            core_creation = -0.25
-            idea_cost = -0.25
             republican_tradition = 0.3
-            governing_capacity_modifier = 0.25
-            governing_cost = -0.25
         }
         #region_modifier = {}
         on_upgraded = {
@@ -1879,21 +1847,16 @@ national_airship_laboratory = {
     }
     on_built = {
         add_republican_tradition = 50
-        add_ruler_modifier = {
-            name = lumian_monumentalist
-            duration = -1
-            desc = desc_lumian_monumetalist
-        }
     }
     on_destroyed = {
         add_republican_tradition = -50
         add_stability = -2
     }
     can_use_modifiers_trigger = {
-        tag = LUM
+        mil_tech = 33
     }
     can_upgrade_trigger = {
-        tag = LUM
+        mil_tech = 33
     }
     #keep_trigger = {}
     tier_0 = {
@@ -1904,17 +1867,11 @@ national_airship_laboratory = {
             factor = 1000
         }
         province_modifiers = {
-            supply_limit = 2
-            fort_level = 1
+		
         }
         #area_modifier = {}
         country_modifiers = {
-            mil_tech_cost_modifier = -0.1
-            global_supply_limit_modifier = 0.1
-            cavalry_cost = -0.1
-            cavalry_power = 0.1
-            cavalry_shock = 0.1
-            cavalry_flanking = 0.1
+
         }
         #region_modifier = {}
         on_upgraded = {
@@ -1932,19 +1889,12 @@ national_airship_laboratory = {
             factor = 1000
         }
         province_modifiers = {
-            supply_limit = 4
-            fort_level = 2
+            supply_limit = 1
         }
         #area_modifier = {}
         country_modifiers = {
-            mil_tech_cost_modifier = -0.15
-            global_supply_limit_modifier = 0.2
-            cavalry_cost = -0.15
-            cavalry_power = 0.15
-            cavalry_shock = 0.15
-            cavalry_flanking = 0.15
-            cav_to_inf_ratio = 0.10
-            land_forcelimit_modifier = 0.1
+            cavalry_power = 0.1
+            cavalry_shock = 0.1
         }
         #region_modifier = {}
         on_upgraded = {
@@ -1962,20 +1912,13 @@ national_airship_laboratory = {
             factor = 1000
         }
         province_modifiers = {
-            supply_limit = 6
-            fort_level = 3
+            supply_limit = 2
         }
         #area_modifier = {}
         country_modifiers = {
-            mil_tech_cost_modifier = -0.2
-            global_supply_limit_modifier = 0.3
-            cavalry_cost = -0.2
-            cavalry_power = 0.2
-            cavalry_shock = 0.2
-            cavalry_flanking = 0.2
-            cav_to_inf_ratio = 0.15
-            land_forcelimit_modifier = 0.15
-            movement_speed = 0.2
+            cavalry_power = 0.15
+            cavalry_shock = 0.15
+            cav_to_inf_ratio = 0.10
         }
         #region_modifier = {}
         on_upgraded = {
@@ -1993,20 +1936,14 @@ national_airship_laboratory = {
             factor = 2000
         }
         province_modifiers = {
-            supply_limit = 8
-            fort_level = 4
+            supply_limit = 3
         }
         #area_modifier = {}
         country_modifiers = {
-            mil_tech_cost_modifier = -0.25
-            global_supply_limit_modifier = 0.4
-            cavalry_cost = -0.25
-            cavalry_power = 0.25
-            cavalry_shock = 0.25
-            cavalry_flanking = 0.25
-            cav_to_inf_ratio = 0.2
-            land_forcelimit_modifier = 0.2
-            movement_speed = 0.3
+            cavalry_power = 0.2
+            cavalry_shock = 0.2
+            cav_to_inf_ratio = 0.15
+            movement_speed = 0.1
         }
         #region_modifier = {}
         on_upgraded = {

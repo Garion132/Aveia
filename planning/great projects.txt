@@ -3,13 +3,13 @@ Eliherit dockards ;Y
 temple of the sea god ;Y
 Palace of the divine,Kalree
 great lights:
-	Golden Sun ;Y
-	Antili Heart ;Y
-	Kusadean Lighthouse ;Y
+	Golden Sun ,1006 ;Y
+	Antili Heart ,3948 ;Y
+	Kusadean Lighthouse ,1480 ;Y
 	- ,4216
 	- ,4916
-	-
-	-
+	- ,5404
+	- ,2393
 Masridu Fort (himben order's fort) ;Y
 Yhenil Bridge ;Y
 Lumian Palace of the Patrican [Make it only apply if your capital is here & culture is Elterian elf.{also republic}]
