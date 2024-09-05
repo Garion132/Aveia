@@ -100,6 +100,13 @@
  FRS_ideas:0 "Free Shirers Ideas"
  FRS_ideas_start:0 "Free Shirers Traditions"
  FRS_ideas_bonus:0 "Free Shirers Ambitions"
+ FRS_layered_defence: "Layered Defence"
+ FRS_federation_of_the_free: "Federation of the Free"
+ FRS_faun_education: "Faun Education"
+ FRS_checks_and_balances: "Checks and Balances"
+ FRS_of_the_free_for_the_free: "Of the Free, For the Free"
+ FRS_legicy_of_the_skirmish: "Legacy of the Skirmish"
+ FRS_true_natives: "The True Natives"
  
  rake_imperium_ideas:0 "Vulikivite Minor Ideas"
  rake_imperium_ideas_start:0 "Vulikivite Minor Traditions"

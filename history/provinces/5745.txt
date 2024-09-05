@@ -1,0 +1,9 @@
+add_core = EGA
+owner = EGA
+culture = slovan
+religion = tradowite
+controller = EGA
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 2
+trade_goods = fruit

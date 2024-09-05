@@ -1,2 +1,9 @@
-trade_goods = unknown
-is_city = no
+trade_goods = naval_supplies
+is_city = yes
+add_core = KHV
+owner = KHV
+culture = eraitian
+religion = tradowite
+controller = KHV
+discovered_by = eastern_men_group
+base_manpower = 2

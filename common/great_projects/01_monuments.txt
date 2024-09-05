@@ -1955,6 +1955,138 @@ national_airship_laboratory = {
     }
 }
 
+the_first_tree = {
+	start = 5138 #
+	date = -2500.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		OR={
+			AND={
+				culture_group = scurian
+				province_is_or_accepts_culture = yes
+			}
+			AND={
+				religion_group = eochism_group
+				province_is_or_accepts_religion_group = {
+					religion_group = eochism_group
+				}
+			}
+		}
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		OR={
+			AND={
+				culture_group = scurian
+				province_is_or_accepts_culture = yes
+			}
+			AND={
+				religion_group = eochism_group
+				province_is_or_accepts_religion_group = {
+					religion_group = eochism_group
+				}
+			}
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			tolerance_own = 0.5
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_prosperity_growth = 0.02
+		}
+		area_modifier = {
+		}
+		country_modifiers = {		
+			tolerance_own = 1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_prosperity_growth = 0.05
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			tolerance_own = 1.5
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			
+		}
+		area_modifier = {
+			local_prosperity_growth = 0.05
+		}
+		country_modifiers = {
+			tolerance_own = 2
+		}
+		on_upgraded = {
+			#reveal him?
+		}
+	}
+}
+
 #Hasqili
 
 #Valator

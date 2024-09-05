@@ -1,0 +1,9 @@
+add_core = SAI
+owner = SAI
+culture = eraitian
+religion = tradowite
+controller = SAI
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 2
+trade_goods = fish

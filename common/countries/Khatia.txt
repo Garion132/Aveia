@@ -1,0 +1,4 @@
+graphical_culture = westerngfx
+color = { 
+	214 16 75 
+}

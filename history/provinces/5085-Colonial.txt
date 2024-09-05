@@ -1,7 +1,6 @@
 #juilia
 capital = "Accra"
-trade_goods = unknown
-hre = no
+trade_goods = naval_supplies
 base_tax = 0
 base_production = 1
 base_manpower = 0
@@ -9,3 +8,13 @@ native_size = 50
 native_ferocity = 6
 native_hostileness = 4
 extra_cost = 8
+add_core = HLA
+owner = HLA
+culture = tallian
+religion = tradowite
+controller = HLA
+is_city = yes
+discovered_by = eastern_men_group
+latent_trade_goods = { 
+	iron 
+}

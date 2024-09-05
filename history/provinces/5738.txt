@@ -1,0 +1,9 @@
+add_core = TUV
+owner = TUV
+culture = tallian
+religion = tradowite
+controller = TUV
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 2
+trade_goods = naval_supplies

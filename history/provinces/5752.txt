@@ -1,0 +1,9 @@
+add_core = GUI
+owner = GUI
+culture = eraitian
+religion = tradowite
+controller = GUI
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 1
+trade_goods = livestock

@@ -1,0 +1,9 @@
+add_core = TON
+owner = TON
+culture = tallian
+religion = tradowite
+controller = TON
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 2
+trade_goods = fruit

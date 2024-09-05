@@ -1,0 +1,9 @@
+add_core = ZAG
+owner = ZAG
+culture = eraitian
+religion = tradowite
+controller = ZAG
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 1
+trade_goods = jade

@@ -1,0 +1,7 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+government_rank = 1
+technology_group = eastern_men_group
+religion = falowi
+capital = 5121
+primary_culture = eraitian

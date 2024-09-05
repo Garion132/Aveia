@@ -1,0 +1,10 @@
+add_core = SHI
+owner = SHI
+culture = tallian
+religion = tradowite
+controller = SHI
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 5
+base_production = 1
+trade_goods = livestock

@@ -1,0 +1,9 @@
+add_core = KHS
+owner = KHS
+culture = eraitian
+religion = tradowite
+controller = KHS
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 2
+trade_goods = jade

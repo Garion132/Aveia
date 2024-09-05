@@ -1,0 +1,9 @@
+add_core = NOM
+owner = NOM
+culture = slovan
+religion = tradowite
+controller = NOM
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 2
+trade_goods = fruit

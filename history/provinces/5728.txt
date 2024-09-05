@@ -1,0 +1,9 @@
+add_core = KHT
+owner = KHT
+culture = slovan
+religion = tradowite
+controller = KHT
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 1
+trade_goods = naval_supplies

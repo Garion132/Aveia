@@ -1,6 +1,6 @@
 #juilia
 capital = "Accra"
-trade_goods = unknown
+trade_goods = fruit
 base_tax = 0
 base_production = 1
 base_manpower = 0
@@ -8,7 +8,13 @@ native_size = 50
 native_ferocity = 6
 native_hostileness = 4
 extra_cost = 8
-is_city = no
+is_city = yes
 latent_trade_goods = { 
 	iron 
 }
+add_core = SHI
+owner = SHI
+culture = slovan
+religion = tradowite
+controller = SHI
+discovered_by = eastern_men_group

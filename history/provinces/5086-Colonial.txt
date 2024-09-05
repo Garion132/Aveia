@@ -1,12 +1,18 @@
 #juilia
 capital = "Accra"
-trade_goods = unknown
-hre = no
+trade_goods = jade
 base_tax = 0
 base_production = 1
-base_manpower = 0
+base_manpower = 3
 native_size = 50
 native_ferocity = 6
 native_hostileness = 4
 extra_cost = 8
 center_of_trade = 1
+add_core = GRG
+owner = GRG
+culture = tallian
+religion = loswain
+controller = GRG
+is_city = yes
+discovered_by = eastern_men_group

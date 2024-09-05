@@ -1,0 +1,171 @@
+## Erulian Empire
+
+# 
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = ERG
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = TSA
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = SHY
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = CUI
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = MOS
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = BYN
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = SAI
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = KHI
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = KHS
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = KHV
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = KHR
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = DSA
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = JIN
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = TLG
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = GUI
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = ZAG
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = SHI
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = KHT
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = TSY
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = DAR
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = NOM
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = EGA
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = BAG
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "daimyo_vassal"
+	first = BTI
+	second = TUR
+	start_date = 1160.8.20
+	end_date = 1532.8.3
+}

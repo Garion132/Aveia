@@ -1,0 +1,9 @@
+add_core = JIN
+owner = JIN
+culture = slovan
+religion = tradowite
+controller = JIN
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 2
+trade_goods = naval_supplies

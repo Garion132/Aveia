@@ -1,0 +1,9 @@
+add_core = SRD
+owner = SRD
+culture = tallian
+religion = tradowite
+controller = SRD
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 4
+trade_goods = jade

@@ -1,0 +1,10 @@
+add_core = TUR
+owner = TUR
+culture = tallian
+religion = loswain
+controller = TUR
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 3
+base_production = 1
+trade_goods = fruit

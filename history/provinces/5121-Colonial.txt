@@ -1,7 +1,6 @@
 #juilia
 capital = "Accra"
-trade_goods = unknown
-hre = no
+trade_goods = ceramics
 base_tax = 0
 base_production = 1
 base_manpower = 0
@@ -10,3 +9,10 @@ native_ferocity = 6
 native_hostileness = 4
 extra_cost = 8
 center_of_trade = 1
+add_core = KHI
+owner = KHI
+culture = eraitian
+religion = falowi
+controller = KHI
+is_city = yes
+discovered_by = eastern_men_group

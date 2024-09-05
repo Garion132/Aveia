@@ -1,0 +1,9 @@
+add_core = LOS
+owner = LOS
+culture = tallian
+religion = loswain
+controller = LOS
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 1
+trade_goods = fish

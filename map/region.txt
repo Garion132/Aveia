@@ -4,13 +4,13 @@ kyathia_region = {
 	areas = { 
 		ylasemyva_area oruinyal_area lower_mytn_area upper_mytn_area old_kyath_area elraithe_area upper_indoranas_area lower_indoranas_area lesser_iwenlumy_area greater_iwenlumy_area
 		kyatlasia_area anores_area liren_area titar_area matnolu_area lurt_area ildahir_area landir_area iydraf drelnora
-		treivenia ihadar_area
+		treivenia ihadar_area 
 	}
 }
 lentira_region = { 
 	areas = { 
-		elesilon_area himlunelo_area north_doninas_area south_doninas_area sellalra_area iarion_area olores_area parian_area
-		kanzan_area eastern_srandor_area yransa_area
+		elesilon_area himlunelo_area north_doninas_area south_doninas_area sellalra_area iarion_area olores_area parian_area kanzan_area eastern_srandor_area
+		yransa_area 
 	}
 }
 greater_shires_region = { 
@@ -28,8 +28,8 @@ chaun_region = {
 krashyrvil_midlands_region = { 
 	areas = { 
 		ortvein_outlands krashyrvil tanhurzel lamnas_valley oayvein telsnien oflorhan lyllumana filsad insase
-		enaleanlume eritys upper_oramarnona_area western_srandor_area nilaur_area vulkivian_1 vulkivian_2 vulkivian_7 vulkivian_28
-		oramarnona_area vulkivian_30
+		enaleanlume eritys upper_oramarnona_area western_srandor_area nilaur_area vulkivian_1 vulkivian_2 vulkivian_7 vulkivian_28 oramarnona_area
+		vulkivian_30 
 	}
 }
 otrcyueg_region = { 
@@ -77,13 +77,10 @@ dreghei_region = {
 	areas = { 
 		nyhenat_1 nyhenat_2 nyhenat_3 nyhenat_4 olhoreireelu_1 olhoreireelu_2 keathene_1 keathene_2 keathene_3 unolad_1
 		unolad_2 unolad_3 onebelho_1 onebelho_2 onebelho_3 dreghei_1 dreghei_2 dreghei_3 dreghei_4 dreghei_5
-		dreghei_6 dreghei_7 dreghei_8 dreghei_9 dreghei_10 dreghei_11 ryamyueg_1 ryamyueg_2 ryamyueg_3 ryamyueg_4 ryamyueg_5
-		beriksarya_1 beriksarya_2 beriksarya_3 ertin_area boluroya_1 boluroya_2 boluroya_3 boluroya_4 boluroya_5 lower_beycu
-		upper_beycu 
-
-		athanek_area mrentale_area cinderbyr_bay_area cindervyr_coast_area wlariquaron_area abrolhos_area ryoth_area
-		nimyalak_area arafyr_area unoeug_area authyr_cliffs_area authyr_area authyr_marshes_area
-
+		dreghei_6 dreghei_7 dreghei_8 dreghei_9 dreghei_10 dreghei_11 ryamyueg_1 ryamyueg_2 ryamyueg_3 ryamyueg_4
+		ryamyueg_5 beriksarya_1 beriksarya_2 beriksarya_3 ertin_area boluroya_1 boluroya_2 boluroya_3 boluroya_4 boluroya_5
+		lower_beycu upper_beycu athanek_area mrentale_area cinderbyr_bay_area cindervyr_coast_area wlariquaron_area abrolhos_area ryoth_area nimyalak_area
+		arafyr_area unoeug_area authyr_cliffs_area authyr_area authyr_marshes_area 
 	}
 }
 craine_islands = {  #includes kafethyr
@@ -95,13 +92,11 @@ craine_islands = {  #includes kafethyr
 }
 chaunluma_region = { 
 	areas = { 
-		inzedia_2 inzedia_3 inzedia_4 lurlesy neanatha_1 neanatha_2 neanatha_3 neanatha_4 neanatha_5
-		neanatha_6 neanatha_7 neanatha_8 neanatha_9 neanatha_10 neanatha_11 neanatha_12 beshek reylanlya_1 reylanlya_2
-		reylanlya_3 reylanlya_4 reylanlya_5 reylanlya_6 sohoremyfa_1 sohoremyfa_2 sohoremyfa_3 sohoremyfa_4 sohoremyfa_5 umalesy_1
-		umalesy_2 umalesy_3 umalesy_4 matn_2 matn_3 rauma_1 rauma_2 isesiralne_1 isesiralne_2 isesiralne_3
-		elhera 
-
-		sahloresi_area dynlu_area
+		inzedia_2 inzedia_3 inzedia_4 lurlesy neanatha_1 neanatha_2 neanatha_3 neanatha_4 neanatha_5 neanatha_6
+		neanatha_7 neanatha_8 neanatha_9 neanatha_10 neanatha_11 neanatha_12 beshek reylanlya_1 reylanlya_2 reylanlya_3
+		reylanlya_4 reylanlya_5 reylanlya_6 sohoremyfa_1 sohoremyfa_2 sohoremyfa_3 sohoremyfa_4 sohoremyfa_5 umalesy_1 umalesy_2
+		umalesy_3 umalesy_4 matn_2 matn_3 rauma_1 rauma_2 isesiralne_1 isesiralne_2 isesiralne_3 elhera
+		sahloresi_area dynlu_area 
 	}
 }
 great_ziyalap_region = { 
@@ -147,15 +142,15 @@ vulkivian_region = {
 	areas = { 
 		vulkivian_3 vulkivian_4 vulkivian_5 vulkivian_6 vulkivian_8 vulkivian_9 vulkivian_10 vulkivian_11 vulkivian_12 vulkivian_13
 		vulkivian_14 vulkivian_15 vulkivian_16 vulkivian_17 vulkivian_18 vulkivian_19 vulkivian_20 vulkivian_21 vulkivian_22 vulkivian_23
-		vulkivian_25 vulkivian_26 vulkivian_27 vulkivian_29 vulkivian_31 vulkivian_32 vulkivian_33 vulkivian_34 vulkivian_35 
-		vulkivian_36 vulkivian_37 vulkivian_38 vulkivian_39 vulkivian_40 vulkivian_41 vulkivian_42
+		vulkivian_25 vulkivian_26 vulkivian_27 vulkivian_29 vulkivian_31 vulkivian_32 vulkivian_33 vulkivian_34 vulkivian_35 vulkivian_36
+		vulkivian_37 vulkivian_38 vulkivian_39 vulkivian_40 vulkivian_41 vulkivian_42 
 	}
 }
 thilrana_region = { 
 	areas = { 
-		liretlet fanilnemyel_1 nathion_1 nathion_2 nathion_3 nathion_4
-		asfereth celulil sineri thilrana_1 thilrana_2 thilrana_3 thilrana_4 thilrana_5 thilrana_6
-		thilrana_7 thilrana_8 thilrana_9 thilrana_10 thilrana_11 thilrana_12 thilrana_13 thilrana_14 thilrana_15 thilrana_16 
+		liretlet fanilnemyel_1 nathion_1 nathion_2 nathion_3 nathion_4 asfereth celulil sineri thilrana_1
+		thilrana_2 thilrana_3 thilrana_4 thilrana_5 thilrana_6 thilrana_7 thilrana_8 thilrana_9 thilrana_10 thilrana_11
+		thilrana_12 thilrana_13 thilrana_14 thilrana_15 thilrana_16 
 	}
 }
 donamenz_region = { 
@@ -169,9 +164,8 @@ donamenz_region = {
 qirdud_region = { 
 	areas = { 
 		qirdud_1 qirdud_2 qirdud_3 qirdud_4 keril_1 keril_2 keril_3 keril_4 keril_5 keril_6
-		keril_7 keril_8 keril_9 keril_10 keril_12 keril_13 keril_15 keril_16
-		keril_17 keril_18 keril_19 keril_20 keril_22 keril_26 keril_29 keril_30
-		keril_31 
+		keril_7 keril_8 keril_9 keril_10 keril_12 keril_13 keril_15 keril_16 keril_17 keril_18
+		keril_19 keril_20 keril_22 keril_26 keril_29 keril_30 keril_31 
 	}
 }
 anoric_region = { 
@@ -191,8 +185,8 @@ rogosian_heights_region = {
 vortingrad_region = { 
 	areas = { 
 		vortingrad_1 vortingrad_2 vortingrad_3 vortingrad_4 vortingrad_5 vortingrad_6 keril_43 keril_58 keril_46 keril_45
-		keril_47 keril_54 keril_55 keril_56 keril_57 vortingrad_10 vortingrad_11 vortingrad_12
-		vortingrad_13 vortingrad_14 borestia_13 
+		keril_47 keril_54 keril_55 keril_56 keril_57 vortingrad_10 vortingrad_11 vortingrad_12 vortingrad_13 vortingrad_14
+		borestia_13 
 	}
 }
 borestia_region = { 
@@ -403,8 +397,8 @@ rarlone_region = {
 salisia_region = { 
 	areas = { 
 		salisia_1 salisia_2 salisia_3 salisia_4 salisia_5 salisia_6 salisia_7 salisia_8 salisia_9 salisia_10
-		salisia_11 salisia_12 salisia_14 salisia_15 salisia_16 salisia_17 salisia_18 salisia_19 salisia_20
-		salisia_21 salisia_22 salisia_23 
+		salisia_11 salisia_12 salisia_14 salisia_15 salisia_16 salisia_17 salisia_18 salisia_19 salisia_20 salisia_21
+		salisia_22 salisia_23 
 	}
 }
 earh_region = { 
@@ -429,6 +423,7 @@ wuloric_region = {
 folyur_region = { 
 	areas = { 
 		folyur_1 folyur_2 folyur_3 folyur_4 folyur_5 folyur_6 folyur_7 folyur_8 folyur_9 folyur_10
+		folyur_12 folyur_13 folyur_15 folyur_11 folyur_14 
 	}
 }
 talkia_region = { 

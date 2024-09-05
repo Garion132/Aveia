@@ -1,0 +1,9 @@
+add_core = TSY
+owner = TSY
+culture = tallian
+religion = tradowite
+controller = TSY
+is_city = yes
+discovered_by = eastern_men_group
+base_manpower = 3
+trade_goods = livestock
