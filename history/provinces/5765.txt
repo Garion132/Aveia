@@ -1,0 +1,7 @@
+add_core = SUM
+owner = SUM
+culture = gurvan
+religion = tradowite
+controller = SUM
+is_city = no
+discovered_by = eastern_men_group

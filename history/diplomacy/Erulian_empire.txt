@@ -137,13 +137,6 @@ dependency = {
 dependency = {
 	subject_type = "daimyo_vassal"
 	first = BTI
-	second = DAR
-	start_date = 1160.8.20
-	end_date = 1532.8.3
-}
-dependency = {
-	subject_type = "daimyo_vassal"
-	first = BTI
 	second = NOM
 	start_date = 1160.8.20
 	end_date = 1532.8.3

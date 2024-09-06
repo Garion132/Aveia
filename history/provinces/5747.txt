@@ -7,3 +7,4 @@ is_city = yes
 discovered_by = eastern_men_group
 base_manpower = 1
 trade_goods = naval_supplies
+add_core = TON

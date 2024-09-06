@@ -1,7 +1,7 @@
 add_core = JAG
 owner = JAG
 culture = tallian
-religion = tradowite
+religion = loswain
 controller = JAG
 is_city = yes
 discovered_by = eastern_men_group

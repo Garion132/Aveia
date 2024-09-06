@@ -1,0 +1,7 @@
+add_core = DLG
+owner = DLG
+culture = crystalian
+religion = tradowite
+controller = DLG
+is_city = no
+discovered_by = eastern_men_group

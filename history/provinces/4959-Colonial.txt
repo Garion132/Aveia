@@ -15,3 +15,4 @@ owner = BTI
 controller = BTI
 is_city = yes
 discovered_by = eastern_men_group
+center_of_trade = 1

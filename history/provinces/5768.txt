@@ -1,0 +1,7 @@
+add_core = GRV
+owner = GRV
+culture = gurvan
+religion = tradowite
+controller = GRV
+is_city = yes
+discovered_by = eastern_men_group

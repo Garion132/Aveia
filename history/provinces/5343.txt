@@ -1,0 +1,7 @@
+discovered_by = GAZ
+discovered_by = DRO
+discovered_by = MTN
+discovered_by = KOG
+discovered_by = CHU
+discovered_by = ZRA
+is_city = no

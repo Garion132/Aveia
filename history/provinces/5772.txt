@@ -1,0 +1,3 @@
+culture = crystalian
+religion = tradowite
+is_city = no

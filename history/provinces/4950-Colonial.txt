@@ -13,3 +13,6 @@ extra_cost = 8
 center_of_trade = 1
 discovered_by = eastern_men_group
 is_city = no
+add_core = OUL
+owner = OUL
+controller = OUL

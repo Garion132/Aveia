@@ -1,0 +1,6 @@
+add_core = OUL
+owner = OUL
+culture = luarin
+religion = falowi
+controller = OUL
+is_city = no

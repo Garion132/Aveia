@@ -12,3 +12,6 @@ native_hostileness = 4
 extra_cost = 8
 is_city = no
 discovered_by = eastern_men_group
+add_core = SHL
+owner = SHL
+controller = SHL

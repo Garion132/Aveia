@@ -1,0 +1,7 @@
+add_core = DUU
+owner = DUU
+culture = crystalian
+religion = tradowite
+controller = DUU
+is_city = no
+discovered_by = eastern_men_group

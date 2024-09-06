@@ -12,3 +12,6 @@ native_hostileness = 4
 extra_cost = 8
 discovered_by = eastern_men_group
 is_city = no
+add_core = MYA
+owner = MYA
+controller = MYA
