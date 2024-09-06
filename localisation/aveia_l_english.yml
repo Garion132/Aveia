@@ -607,7 +607,7 @@
  acquire_craine_island_desc:0 "The Craine Islands offer extremely valuable positions for ports to extend not only extend our trading prospects but our colonial ones as well."
  open_colonial_office_title:0 "Open Colonial Office"
  open_colonial_office_desc:0 ""
- follow_the_wind_spirits: "Follow the Wind Spirits"
+ follow_the_wind_spirits_title: "Follow the Wind Spirits"
  follow_the_wind_spirits_desc: "The study of magical wind spirits has led to an intruiging discovery: They lead to Elteria. We can follow them to find fast routes to Elteria."
  colonize_craine_island:0 "§Y200§! colonists join a Frontier on an §YEmpty Craine Island§!"
  fund_colonial_expedition_title:0 "Fund a Colonial Expedition to Elteria"
