@@ -2,7 +2,7 @@
 capital = "Accra"
 culture = crystalian
 religion = tradowite
-trade_goods = unknown
+trade_goods = naval_supplies
 base_tax = 0
 base_production = 1
 base_manpower = 0

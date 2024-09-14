@@ -203,6 +203,9 @@
  athanila.2.a:0 "Crush this revolt!"
  
  eastern_scramble.1.t: "Passage of Ice and Ash"
+ eastern_scramble.1.d: "For years there have been wisphers of a passage to the east, filtering back to the civilised world from out of the barely civilised mannish states. That where there once was a great wall of ice between the Orbury ranges and the Silverspine there is now a traversable Pass. Today that rumor has been confirmed as representatives of the Hirdam order have confirmed that after years of efforts in secret to clear the Pass have borne fruit and now a vast untapped land is ripe for those how dare, and who pay the Order its toll."
+ eastern_scramble.1.a: "To the East!"
+ eastern_scramble.1.b: "Switch to Hirdam Order"
  
  eastern_scramble.4.t:0 "Citizens in [Root.GetName] leave to join the CTC"
  eastern_scramble.4.a:0 "Prevent them"

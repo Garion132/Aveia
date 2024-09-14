@@ -142,13 +142,6 @@ colonial_morredh = {
 	}
 	
 	# established colonies
-	#generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_MORREDH_Karnaiha"
-	}
 	names = {
 		trigger = {
 			OR = {
@@ -164,6 +157,13 @@ colonial_morredh = {
 			}
 		}
 		name = "COLONIAL_MORREDH_Ralorie"
+	}
+	#generic
+	names = {
+		name = "COLONIAL_MORREDH_Karnaiha"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 	
 }
@@ -296,6 +296,12 @@ colonial_icewatch = {
 	}
 	
 	# established colonies
+	names = {
+		trigger = {
+			tag = THL
+		}
+		name = "COLONIAL_ICEWATCH_Savithyr"
+	}
 	#generic
 	names = {
 		name = "COLONIAL_REGION_New_Root_GetName"

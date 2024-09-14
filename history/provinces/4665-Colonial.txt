@@ -6,7 +6,6 @@ controller = CLU
 culture = cloudlander
 religion = falowi
 trade_goods = fruit
-hre = no
 base_tax = 2
 base_production = 1
 base_manpower = 2
@@ -14,5 +13,8 @@ native_size = 50
 native_ferocity = 6
 native_hostileness = 4
 extra_cost = 8
-
 discovered_by = eastern_men_group
+is_city = no
+latent_trade_goods = { 
+	iron 
+}

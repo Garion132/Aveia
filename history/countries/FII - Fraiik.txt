@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = filler_east_culture #siniersi
+religion = rethese
+technology_group = free_kolbolds_group
+capital = 3303 # 
+#national_focus = DIP
+#historical_rival = HAB

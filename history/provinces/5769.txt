@@ -5,3 +5,4 @@ religion = tradowite
 controller = DLG
 is_city = no
 discovered_by = eastern_men_group
+trade_goods = naval_supplies

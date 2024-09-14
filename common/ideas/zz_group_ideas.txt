@@ -79,6 +79,25 @@ expiditionary_state_ideas = {
 			tag = KEL
 			tag = RAE
 			tag = TLA
+			tag = TLF
+			tag = OIA
+			tag = VLG
+			tag = JUA
+			tag = FII
+			tag = OLM
+			tag = GUC
+			tag = TDR
+			tag = CUL
+			tag = KOL
+			tag = SHP
+			tag = ETA
+			tag = YOL
+			tag = VOA
+			tag = SLI
+			tag = MNA
+			tag = CAE
+			tag = SMR
+			tag = KRD
 		}
 	}
 	free = yes		#will be added at load.

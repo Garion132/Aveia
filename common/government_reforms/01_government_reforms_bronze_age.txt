@@ -763,6 +763,18 @@ iron_age_monarchy_adv = {
 		change_government_reform_progress = -1000
 		change_government = iron_monarchy
 		#ia_deligated_monarchy
+		if={
+			limit={
+				have_had_reform = kyathian_council_reform
+			}
+			add_government_reform = ia_kyathian_council_reform
+		}
+		if={
+			limit={
+				have_had_reform = dragonic_throne_reform
+			}
+			add_government_reform = ia_dragonic_throne_reform
+		}
 	}
 	ai = {
 		factor = 2
@@ -794,6 +806,12 @@ iron_age_republic_adv = {
 		lose_reforms = 5
 		change_government_reform_progress = -1000
 		change_government = iron_republic
+		if={
+			limit={
+				have_had_reform = ba_pirate_republic_reform
+			}
+			add_government_reform = ia_pirate_republic_reform
+		}
 	}
 	ai = {
 		factor = 1

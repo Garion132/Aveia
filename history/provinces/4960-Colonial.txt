@@ -2,7 +2,7 @@
 capital = "Accra"
 culture = gurvan
 religion = tradowite
-trade_goods = unknown
+trade_goods = naval_supplies
 base_tax = 0
 base_production = 1
 base_manpower = 0
@@ -15,3 +15,6 @@ discovered_by = eastern_men_group
 add_core = SHL
 owner = SHL
 controller = SHL
+latent_trade_goods = { 
+	coal 
+}

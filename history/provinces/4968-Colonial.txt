@@ -2,7 +2,7 @@
 capital = "Accra"
 culture = gurvan
 religion = tradowite
-trade_goods = unknown
+trade_goods = fish
 base_tax = 0
 base_production = 1
 base_manpower = 0
@@ -14,3 +14,4 @@ is_city = no
 add_core = HOR
 owner = HOR
 controller = HOR
+discovered_by = eastern_men_group

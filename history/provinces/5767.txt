@@ -4,3 +4,5 @@ culture = luarin
 religion = falowi
 controller = OUL
 is_city = no
+discovered_by = eastern_men_group
+trade_goods = fish

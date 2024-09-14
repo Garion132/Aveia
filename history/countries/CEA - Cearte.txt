@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = filler_east_culture #siniersi
+religion = vyausali
+technology_group = lake_elves_group
+capital = 4728 # 
+#national_focus = DIP
+#historical_rival = HAB

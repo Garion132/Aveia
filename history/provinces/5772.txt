@@ -1,3 +1,4 @@
 culture = crystalian
 religion = tradowite
 is_city = no
+trade_goods = unknown

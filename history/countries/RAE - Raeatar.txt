@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 primary_culture = filler_east_culture
-religion = orionrathetia
+religion = orionrahetia
 government_rank = 1
 technology_group = lake_elves_group
 capital = 4692 # 

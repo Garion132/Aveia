@@ -4,59 +4,59 @@
  # Fry Mission 1
  #---------------------------------------------------------
 
-FRY_The_Grand_Dream_Title: "The Grand Dream"
-FRY_The_Grand_Dream_Desc: ""
-FRY_Enriching_The_People_Title: "Enriching The People"
-FRY_Enriching_The_People_Desc: ""
-FRY_Enriching_The_Cities_Title: "Enriching The Cities"
-FRY_Enriching_The_Cities_Desc: ""
-FRY_Enriching_The_Land_Title: "Enriching The Land"
-FRY_Enriching_The_Land_Desc: ""
-FRY_Enriching_The_Military_Title: "Enriching The Military"
-FRY_Enriching_The_Military_Desc: ""
+ FRY_The_Grand_Dream_Title: "The Grand Dream"
+ FRY_The_Grand_Dream_Desc: ""
+ FRY_Enriching_The_People_Title: "Enriching The People"
+ FRY_Enriching_The_People_Desc: ""
+ FRY_Enriching_The_Cities_Title: "Enriching The Cities"
+ FRY_Enriching_The_Cities_Desc: ""
+ FRY_Enriching_The_Land_Title: "Enriching The Land"
+ FRY_Enriching_The_Land_Desc: ""
+ FRY_Enriching_The_Military_Title: "Enriching The Military"
+ FRY_Enriching_The_Military_Desc: ""
 
  #---------------------------------------------------------
  # Fry Mission 2
  #---------------------------------------------------------
-
-FRY_The_Education_Of_The_Heir_Title: "The Education Of the Heir"
-FRY_The_Education_Of_The_Heir_Desc: ""
-FRY_Military_Education_Title: "Military Education"
-FRY_Military_Education_Desc: ""
-FRY_Diplomatic_Education_Title: "Diplomatic Education"
-FRY_Diplomatic_Education_Desc: ""
-FRY_The_Model_Heir_Title: "The Model Heir"
-FRY_The_Model_Heir_Desc: ""
+ 
+ FRY_The_Education_Of_The_Heir_Title: "The Education Of the Heir"
+ FRY_The_Education_Of_The_Heir_Desc: ""
+ FRY_Military_Education_Title: "Military Education"
+ FRY_Military_Education_Desc: ""
+ FRY_Diplomatic_Education_Title: "Diplomatic Education"
+ FRY_Diplomatic_Education_Desc: ""
+ FRY_The_Model_Heir_Title: "The Model Heir"
+ FRY_The_Model_Heir_Desc: ""
 
  #---------------------------------------------------------
  # Fry Mission 3
  #---------------------------------------------------------
-
-FRY_Promote_Colonialism_Title: "Promote Colonialism"
-FRY_Promote_Colonialism_Desc: ""
-FRY_Active_Colonial_Funding_Title: "Active Colonial Funding Title"
-FRY_Active_Colonial_Funding_Desc: ""
-FRY_The_Grand_Colonial_Bursary_Title: "The Grand Colonial Bursary"
-FRY_The_Grand_Colonial_Bursary_Desc: ""
-FRY_At_All_Costs_Title: "At All Costs"
-FRY_At_All_Costs_Desc: ""
+ 
+ FRY_Promote_Colonialism_Title: "Promote Colonialism"
+ FRY_Promote_Colonialism_Desc: ""
+ FRY_Active_Colonial_Funding_Title: "Active Colonial Funding Title"
+ FRY_Active_Colonial_Funding_Desc: ""
+ FRY_The_Grand_Colonial_Bursary_Title: "The Grand Colonial Bursary"
+ FRY_The_Grand_Colonial_Bursary_Desc: ""
+ FRY_At_All_Costs_Title: "At All Costs"
+ FRY_At_All_Costs_Desc: ""
 
  #---------------------------------------------------------
  # Fry Mission 4
  #---------------------------------------------------------
-
-FRY_Rotating_Crops_For_Dummies_Title: "Rotating Crops For Dummies"
-FRY_Rotating_Crops_For_Dummies_Desc: ""
-FRY_Advance_In_Thought_Title: "Advance In Thought"
-FRY_Advance_In_Thought_Desc: ""
-FRY_The_New_Civil_Service_Title: "The New Civil Service"
-FRY_The_New_Civil_Service_Desc: ""
-FRY_Remove_The_Clergy_Title: "Remove The Clergy"
-FRY_Remove_The_Clergy_Desc: ""
-FRY_Introduce_Standard_Banking_Title: "Introduce Standard Banking"
-FRY_Introduce_Standard_Banking_Desc: ""
-FRY_Enhance_Production_Title: "Enhance Production"
-FRY_Enhance_Production_Desc: ""
+ 
+ FRY_Rotating_Crops_For_Dummies_Title: "Rotating Crops For Dummies"
+ FRY_Rotating_Crops_For_Dummies_Desc: ""
+ FRY_Advance_In_Thought_Title: "Advance In Thought"
+ FRY_Advance_In_Thought_Desc: ""
+ FRY_The_New_Civil_Service_Title: "The New Civil Service"
+ FRY_The_New_Civil_Service_Desc: ""
+ FRY_Remove_The_Clergy_Title: "Remove The Clergy"
+ FRY_Remove_The_Clergy_Desc: ""
+ FRY_Introduce_Standard_Banking_Title: "Introduce Standard Banking"
+ FRY_Introduce_Standard_Banking_Desc: ""
+ FRY_Enhance_Production_Title: "Enhance Production"
+ FRY_Enhance_Production_Desc: ""
 
  #---------------------------------------------------------
  # Fry Mission 5

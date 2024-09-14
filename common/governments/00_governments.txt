@@ -1,4 +1,31 @@
 
+colonial_governate = {
+	reform_levels = {
+		feudalism_vs_autocracy = {
+			reforms = {
+				colonial_government
+				crown_colony_government
+				private_enterprise_colony_government
+				self_governing_colony_government
+			}
+		}
+	}
+
+	basic_reform = republic_mechanic
+
+	legacy_government = {
+		colonial_government_legacy
+	}
+
+	# Each group of exclusive reforms are mutually exclusive to each other
+
+	#for any reforms that should be exclusive
+	# exclusive_reforms = {
+	# }
+
+	color = { 173 173 173 }
+}
+
 monarchy = {
 	reform_levels = {
 		feudalism_vs_autocracy = {
@@ -207,7 +234,6 @@ republic = {
 		trading_city_legacy
 		ambrosian_republic_legacy
 		dutch_republic_legacy
-		colonial_government_legacy
 		american_republic_legacy
 		federal_republic_legacy
 		peasants_republic_legacy
@@ -235,11 +261,7 @@ republic = {
 				ambrosian_republic
 				veche_republic
 				american_republic
-				federal_republic
-				colonial_government
-				crown_colony_government
-				private_enterprise_colony_government
-				self_governing_colony_government
+				federal_republic			
 				dutch_republic
 				peasants_republic
 				revolutionary_republic_reform

@@ -1,9 +1,7 @@
 EAST - 53
 977 -  - Celolian,talunorist
-2133 - Fraiik -tmiik,rusite
 1793 -  -Deresunite,Tlaunorist
 1244 -  -unolaan,tlaunorist
-666 - Olmorus -omoran,tlaunorist
 
 =Ve'nara Company
 =Cradle Trade Company - 988,53,80,760,3913,3898,3905,896,885,771 - Indorran
@@ -32,7 +30,7 @@ Culinvale
 =Serar
 =Lrocra
 =Arkhonia -  - Grand republic #ormr's
-Shempeak
+=Shempeak
 =Selehei
 =Uleina
 Gruoala Company

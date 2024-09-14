@@ -1,0 +1,8 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+primary_culture = filler_east_culture #siniersi
+religion = forebearist
+technology_group = naga_group
+capital = 3192 # 
+#national_focus = DIP
+#historical_rival = HAB

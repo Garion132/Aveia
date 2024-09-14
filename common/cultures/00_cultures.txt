@@ -683,7 +683,6 @@ lake_elf = {
 		}
 	}
 
-
 }
 
 penisular_elf = {

@@ -2724,16 +2724,18 @@ province_event = {#unguarded mannish frontier
 		days = 3600
 		modifier = {
 			factor = 0.9
-			NOT = { stability = 0 }
+			owner={NOT = { stability = 0 }}
 		}
 		modifier = {
 			factor = 0.9
-			has_disaster = crisis_of_the_12th_century
+			owner={has_disaster = crisis_of_the_12th_century}
 		}
 		modifier = {
 			factor = 0.7
-			any_neighbor_country={
-				has_reform  = mannish_tribal_reform
+			owner={
+				any_neighbor_country={
+					has_reform  = mannish_tribal_reform
+				}
 			}
 		}
 	}

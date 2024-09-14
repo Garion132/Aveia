@@ -2,7 +2,7 @@
 capital = "Accra"
 culture = gurvan
 religion = shimmerian
-trade_goods = unknown
+trade_goods = salt
 base_tax = 0
 base_production = 1
 base_manpower = 0

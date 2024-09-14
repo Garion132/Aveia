@@ -1,5 +1,9 @@
 # A province can only belong to one region!
 # random_new_world_region is used for RNW. Must be first in this list.
+# random_new_world_region is used for RNW. Must be first in this list.
+random_new_world_region = {
+}
+
 kyathia_region = { 
 	areas = { 
 		ylasemyva_area oruinyal_area lower_mytn_area upper_mytn_area old_kyath_area elraithe_area upper_indoranas_area lower_indoranas_area lesser_iwenlumy_area greater_iwenlumy_area
