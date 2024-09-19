@@ -2,6 +2,7 @@ country_decisions = {
 
 	adraz_nation = {
 		major = yes
+		color = { 252 216 54 } #formable decision
 		potential = {
 			NOT = { has_country_flag = formed_adraz_flag }
 			NOT = { tag = ADZ }
@@ -102,6 +103,99 @@ country_decisions = {
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			set_country_flag = formed_adraz_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
+	gugh_nation = {
+		major = yes
+		color = { 252 216 54 } #formable decision
+		potential = {
+			NOT = { has_country_flag = formed_gugh_flag }
+			OR = {
+				ai = no
+				num_of_cities = 3 #Carnage
+			}
+			NOT={exists = GUG}
+			primary_culture = gugh
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR={
+				area = gugh_1
+				area = gugh_2
+				area = gugh_3
+				area = gugh_4
+				area = gugh_5
+				area = gugh_6
+				area = gugh_7
+				area = gugh_8
+				area = gugh_9
+				area = gugh_10
+				area = gugh_11
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_or_non_sovereign_subject_of = 2731
+			owns_or_non_sovereign_subject_of = 2736
+			owns_or_non_sovereign_subject_of = 2743
+			owns_or_non_sovereign_subject_of = 2752
+			num_of_owned_provinces_with = {
+				value = 20
+				has_owner_accepted_culture = yes
+				OR={
+					area = gugh_1
+					area = gugh_2
+					area = gugh_3
+					area = gugh_4
+					area = gugh_5
+					area = gugh_6
+					area = gugh_7
+					area = gugh_8
+					area = gugh_9
+					area = gugh_10
+					area = gugh_11
+				}
+				is_core = ROOT
+			}
+		}
+		effect = {
+			change_tag = GUG
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = GUG_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_gugh_flag
 		}
 		ai_will_do = {
 			factor = 1

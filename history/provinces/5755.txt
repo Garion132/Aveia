@@ -5,7 +5,7 @@ religion = uzvazism
 controller = ZAG
 is_city = yes
 discovered_by = eastern_men_group
-base_manpower = 1
+base_manpower = 3
 trade_goods = fruit
 latent_trade_goods = { 
 	coal 

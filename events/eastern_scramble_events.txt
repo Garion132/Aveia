@@ -276,9 +276,9 @@ country_event = {#ash and ice
 		name = eastern_scramble.1.b
 		trigger={
 			HIR={
-				is_ai = yes
+				ai = yes
 			}
-			is_ai = no
+			ai = no
 		}
 		switch_tag = HIR
 		hide_ambient_object = icesheet_entity

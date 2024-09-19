@@ -1,5 +1,5 @@
 religion = tradowite
 is_city = no
 discovered_by = eastern_men_group
-base_manpower = 1
+base_manpower = 3
 trade_goods = unknown

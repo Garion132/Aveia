@@ -2,6 +2,7 @@ country_decisions = {
 
 	scuria_nation = {
 		major = yes
+		color = { 252 216 54 } #formable decision
 		potential = {
 			NOT = { has_country_flag = formed_scuria_flag }
 			NOT = { tag = SCU }
@@ -89,6 +90,7 @@ country_decisions = {
 	
 	scuria_nation_onda = {
 		major = yes
+		color = { 252 216 54 } #formable decision
 		potential = {
 			NOT = { has_country_flag = formed_scuria_flag }
 			NOT = { tag = SCU }
@@ -174,6 +176,7 @@ country_decisions = {
 	}
 	scuria_nation_reformed = {
 		major = yes
+		color = { 252 216 54 } #formable decision
 		potential = {
 			NOT = { has_country_flag = formed_scuria_flag }
 			NOT = { tag = SCU }
@@ -260,6 +263,7 @@ country_decisions = {
 	
 	grecarola_nation = {
 		major = yes
+		color = { 252 216 54 } #formable decision
 		potential = {
 			NOT = { has_country_flag = formed_grecarola_flag }
 			NOT = { tag = SCU }

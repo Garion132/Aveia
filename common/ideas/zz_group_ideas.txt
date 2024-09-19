@@ -95,9 +95,10 @@ expiditionary_state_ideas = {
 			tag = VOA
 			tag = SLI
 			tag = MNA
-			tag = CAE
+			tag = CEA
 			tag = SMR
 			tag = KRD
+			tag = UJA
 		}
 	}
 	free = yes		#will be added at load.

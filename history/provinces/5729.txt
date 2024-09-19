@@ -5,5 +5,6 @@ religion = tradowite
 controller = SAI
 is_city = yes
 discovered_by = eastern_men_group
-base_manpower = 2
+base_manpower = 5
 trade_goods = fish
+base_production = 1

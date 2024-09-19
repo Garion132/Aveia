@@ -6,3 +6,4 @@ controller = SLA
 is_city = no
 discovered_by = eastern_men_group
 trade_goods = livestock
+base_manpower = 5

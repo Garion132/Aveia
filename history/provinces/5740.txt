@@ -5,5 +5,6 @@ religion = loswain
 controller = SRD
 is_city = yes
 discovered_by = eastern_men_group
-base_manpower = 3
+base_manpower = 4
 trade_goods = fruit
+base_production = 1

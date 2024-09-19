@@ -5,5 +5,5 @@ religion = tradowite
 controller = ERG
 is_city = yes
 discovered_by = eastern_men_group
-base_manpower = 1
+base_manpower = 2
 trade_goods = fish

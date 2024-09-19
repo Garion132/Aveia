@@ -6,15 +6,13 @@ controller = LOS
 culture = molisir
 religion = loswain
 trade_goods = jade
-hre = no
 base_tax = 0
 base_production = 1
-base_manpower = 0
+base_manpower = 4
 native_size = 50
 native_ferocity = 6
 native_hostileness = 4
 extra_cost = 8
-
 discovered_by = eastern_men_group
-
 add_province_triggered_modifier = religious_center
+is_city = no

@@ -11,7 +11,7 @@
 #######################################
 # organized_state.  
 # 
-# Most in the old world start with it.
+# Most start with it.
 #######################################
 
 organized_state = {
@@ -207,6 +207,11 @@ organized_state = {
 	}
 }
 
+#######################################
+# Bronze Working.  
+# 
+# The Civilised metalworking
+#######################################
 bronze_working = {
 	 
 
@@ -364,7 +369,11 @@ bronze_working = {
 		}
 	}
 }
-
+#######################################
+# Crop rotation.  
+# 
+# first new instituion, boosts food
+#######################################
 crop_rotation = {
 	 
 
@@ -567,6 +576,7 @@ crop_rotation = {
 		}
 	}
 }
+
 #######################################
 # iron_working
 # 
@@ -799,11 +809,6 @@ illuminare = {
 	
 	
 	on_start = institution_events.3
-	
-	
-	
-
-	
 	
 	can_embrace = {
 		owner = { 
@@ -1145,10 +1150,7 @@ guedinan_revolution = {
 		is_year = 1500
 		is_state = yes
 		is_island = no
-		OR={
-			bronze_working = 100
-			iron_working = 100
-		}
+		illuminare = 100
 		OR = {
 			development = 20
 			is_capital = yes
@@ -1171,10 +1173,6 @@ guedinan_revolution = {
 	on_start = institution_events.5
 	
 	
-	
-
-	
-	
 	can_embrace = {
 		owner = { 
 			OR={
@@ -1189,37 +1187,39 @@ guedinan_revolution = {
 	embracement_speed = {
 		modifier = {
 			scale = yes
-			factor = 0.4
-			trade_goods = grain
-			bronze_working = 100
-			development = 7
-		}
-		modifier = {
-			scale = yes
 			factor = 0.7
-			trade_goods = grain
-			bronze_working = 100
+			potential = {
+				trade_goods = guedina
+				owner = {
+					has_institution = illuminare
+				}
+				guedinan_revolution_origin = {
+					same_continent = PREV
+				}
+			}
 			development = 10
 		}
 		modifier = {
 			scale = yes
 			factor = 0.4
-			owner={
-				trading_part = {
-					trade_goods = grain
-					value = 0.10
+			potential = {
+				trade_goods = guedina
+				owner = {
+					has_institution = illuminare
+				}
+				guedinan_revolution_origin = {
+					same_continent = PREV
 				}
 			}
-			bronze_working = 100
 			development = 12
 		}
 		modifier = {
 			scale = yes
 			factor = 0.6
 			custom_trigger_tooltip = {
-				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_crop_rotation
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_guedinan_revolution
 				any_friendly_coast_border_province = {
-					crop_rotation = 100
+					guedinan_revolution = 100
 				}
 			}
 		}
@@ -1229,15 +1229,15 @@ guedinan_revolution = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						crop_rotation = 100
+						guedinan_revolution = 100
 					}
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_any_neighbor_has_embraced_crop_rotation
+				tooltip = tooltip_any_neighbor_has_embraced_guedinan_revolution
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					crop_rotation = 100
+					guedinan_revolution = 100
 				}
 			}
 		}
@@ -1250,14 +1250,14 @@ guedinan_revolution = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_crop_rotation
+				tooltip = tooltip_colonial_overlord_guedinan_revolution
 				OR = {
 					has_port = yes
 					is_capital = yes
 				}
 				owner = {
 					is_colonial_nation = yes
-					overlord = { has_institution = crop_rotation }
+					overlord = { has_institution = guedinan_revolution }
 				}
 			}
 		}
@@ -1266,15 +1266,15 @@ guedinan_revolution = {
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = crop_rotation
+					has_institution = guedinan_revolution
 				}
 			}
 			
 			custom_trigger_tooltip = {
-				tooltip = tooltip_crop_rotation_embraced
+				tooltip = tooltip_guedinan_revolution_embraced
 				is_owned_by_trade_company = no
 				owner = {
-					has_institution = crop_rotation
+					has_institution = guedinan_revolution
 				}
 			}
 		}
@@ -1562,18 +1562,38 @@ global_trade = {
 	
 		modifier = {
 			factor = 0.4 #Not scaled
+			potential={
+				global_trade_origin = {
+					same_continent = PREV
+				}
+			}
 			province_trade_power = 15
 		}
 		modifier = {
 			factor = 0.8 #Not Scaled
+			potential={
+				global_trade_origin = {
+					same_continent = PREV
+				}
+			}
 			province_trade_power = 25
 		}
 		modifier = {
 			factor = 1.2 #Not Scaled
+			potential={
+				global_trade_origin = {
+					same_continent = PREV
+				}
+			}
 			province_trade_power = 35
 		}
 		modifier = {
 			factor = 1.6 #Not Scaled
+			potential={
+				global_trade_origin = {
+					same_continent = PREV
+				}
+			}
 			province_trade_power = 45
 		}
 		modifier = {
@@ -1581,6 +1601,9 @@ global_trade = {
 			scale = yes
 			potential = {
 				province_has_center_of_trade_of_level = 1
+				global_trade_origin = {
+					same_continent = PREV
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_center_of_trade_3_spread
@@ -1592,6 +1615,9 @@ global_trade = {
 			scale = yes
 			potential = {
 				province_has_center_of_trade_of_level = 1
+				global_trade_origin = {
+					same_continent = PREV
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_center_of_trade_spread
@@ -1635,7 +1661,6 @@ global_trade = {
 				has_port = no
 				any_neighbor_province = {
 					global_trade = 100
-					
 				}
 			}
 		}
@@ -1651,7 +1676,6 @@ global_trade = {
 				has_port = yes
 				any_neighbor_province = {
 					global_trade = 100
-					
 				}
 			}
 		}
@@ -1675,11 +1699,6 @@ global_trade = {
 					overlord = { has_institution = global_trade }
 				}
 			}
-		}
-		
-		modifier = {
-			factor = 0.5
-			printing_press = 100
 		}
 		modifier = {
 			factor = 2
@@ -1782,12 +1801,7 @@ air_shipping = {
 			}
 		}
 		OR = {
-			has_building = wharf
-			has_building = weapons
-			has_building = textile
-			has_building = plantations
-			has_building = tradecompany
-			has_building = mills
+			has_building = airdock
 			production_leader = {
 				trade_goods = vitaite
 			}
@@ -1842,7 +1856,6 @@ air_shipping = {
 					trade_goods = fish
 					trade_goods = salt
 				}
-					
 				air_shipping_origin = {
 					same_continent = PREV
 				}
@@ -2217,6 +2230,7 @@ industrialization = {
 			has_building = late_factory
 			has_building = manufactory
 			has_building = furnace
+			has_building = industrial_zone
 		}
 		owner = {
 			OR = {

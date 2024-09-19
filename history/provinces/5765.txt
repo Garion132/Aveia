@@ -6,3 +6,5 @@ controller = SUM
 is_city = no
 discovered_by = eastern_men_group
 trade_goods = fish
+base_manpower = 4
+base_production = 1

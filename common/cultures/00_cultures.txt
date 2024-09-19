@@ -7353,6 +7353,10 @@ dulandir_human = {
 			
 		}
 	}
+	dynasty_names = {
+		Ushpia Ushpia Aulada Akhiban Nineel Ashur Awshali Begaya Shuli Khalil Auneir Bardisa Bibla Asor
+		Larsa Eilina Yayota Hanou Khannah
+	}
 }
 
 humans = {

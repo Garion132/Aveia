@@ -795,6 +795,7 @@ bronze_monarchy = {
 				kyathian_council_reform
 				rauosuan_hegemony_reform
 				oayvein_grand_dutchy_reform
+				ba_evalinta
 			}
 		}
 		temple_rights = {
@@ -924,6 +925,7 @@ iron_monarchy = {
 				ia_god_king
 				ia_kyathian_council
 				ia_dragonic_throne
+				ia_evalinta
 			}
 		}
 		iron_societal_ties = {
@@ -974,6 +976,7 @@ iron_monarchy = {
 		ia_deligated_monarchy
 		ia_co_ruling_monarchy
 		ia_god_king
+		ia_evalinta
 	}
 	exclusive_reforms = {
 		ia_god_king

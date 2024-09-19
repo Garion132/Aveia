@@ -492,6 +492,58 @@ faun_confederation_reform = {
 	}
 }
 
+ba_evalinta = {
+	icon = "shogunate"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_country_flag = formed_erulian_empire_flag }
+		OR = {
+			AND = {
+				capital_scope = {
+					province_id = 5093
+				}
+				culture_group = dulandir_human
+				NOT = { exists = ERU }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = ba_evalinta
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	nation_designer_trigger = {
+		culture_group = dulandir_human
+		technology_group = eastern_men_group
+		capital_scope = { region = folyur_region }
+		owns = 5093
+	}
+	#legacy_equivalent = shogunate_legacy
+	fixed_rank = 2
+	maintain_dynasty = yes
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	lock_level_when_selected = yes
+	can_change_primary_culture = no
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		government_abilities = {
+			shogunate_mechanic
+		}
+	}
+
+	modifiers = {
+		diplomats = 1
+		envoy_travel_time = -0.25
+		max_absolutism = 5
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
 #Temple Rights:
 
 holy_clerks_reform = {
@@ -774,6 +826,12 @@ iron_age_monarchy_adv = {
 				have_had_reform = dragonic_throne_reform
 			}
 			add_government_reform = ia_dragonic_throne_reform
+		}
+		if={
+			limit={
+				have_had_reform = ba_evalinta
+			}
+			add_government_reform = ia_evalinta
 		}
 	}
 	ai = {

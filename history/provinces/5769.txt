@@ -6,3 +6,6 @@ controller = DLG
 is_city = no
 discovered_by = eastern_men_group
 trade_goods = naval_supplies
+base_tax = 1
+base_manpower = 7
+base_production = 2

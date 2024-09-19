@@ -5,5 +5,5 @@ religion = tradowite
 controller = KHT
 is_city = yes
 discovered_by = eastern_men_group
-base_manpower = 1
+base_manpower = 6
 trade_goods = naval_supplies

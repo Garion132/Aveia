@@ -120,6 +120,7 @@ ia_god_king = {
 			have_had_reform = rauosuan_hegemony_reform
 		}
 		NOT={have_had_reform = dragonic_throne_reform}
+		NOT={has_country_flag = had_iron_age_calamity}
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -288,7 +289,62 @@ ia_kyathian_council_reform = {
 	}
 }
 
+ia_evalinta = {
+	icon = "shogunate"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_country_flag = formed_erulian_empire_flag }
+		OR = {
+			AND = {
+				capital_scope = {
+					province_id = 5093
+				}
+				culture_group = dulandir_human
+				NOT = { exists = ERU }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				OR={
+					have_had_reform = ba_evalinta
+					have_had_reform = ia_evalinta
+				}
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	nation_designer_trigger = {
+		culture_group = dulandir_human
+		technology_group = eastern_men_group
+		capital_scope = { region = folyur_region }
+		owns = 5093
+	}
+	#legacy_equivalent = shogunate_legacy
+	fixed_rank = 2
+	maintain_dynasty = yes
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	lock_level_when_selected = yes
+	can_change_primary_culture = no
 
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		government_abilities = {
+			shogunate_mechanic
+		}
+	}
+
+	modifiers = {
+		diplomats = 1
+		envoy_travel_time = -0.25
+		max_absolutism = 5
+		governing_capacity = 75#iron age gives a larger gov
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
 #Republic
 ia_lumian_patricanate= {
 	icon = "people_walking"
