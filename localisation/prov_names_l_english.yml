@@ -10,7 +10,7 @@
  PROV9: "Morb"
  PROV10: "Amatran"
  PROV11: "Amoeri Heights"
- PROV12: "Renchi"
+ PROV12: "Khovs"
  PROV13: "Hope of Oasia"
  PROV14: "Deepwoods"
  PROV15:1 "Solerm"
@@ -165,11 +165,11 @@
  PROV166: "Caumorn Tides"
  PROV167: "Noster Bay"
  PROV168: "East Talkian Coast"
- 
- 
+ PROV169: "Utaediui"
+ PROV170: "Sa Yyakù Ydoshtaey"
  PROV171: "Oliaruira"
- 
- 
+ PROV172: "Ygisele"
+ PROV173: "Reuiby"
  PROV174: "South Talkian Coast"
  PROV175: "Falirse Depths"
  PROV176: "Deepening Gulf"
@@ -225,6 +225,8 @@
  
  PROV253: "Kepjar Bay"
  PROV254: "Sassijrar"
+ PROV255: "Carensis"
+ PROV256: "Tyressa"
  
  PROV269: "Wuarioi"
 
@@ -716,7 +718,7 @@
  PROV922: "Raetarm"
  PROV923: "Ujase"
  PROV924: "Kolminar"
- PROV925: "Suliusä"
+ PROV925: "Suliusù"
  PROV926: "Kabjal"
  PROV927: "Vyurbial"
  PROV928: "Ljuasri"
@@ -725,7 +727,9 @@
  PROV931: "Hiutasa"
  PROV932: "Muliua"
  PROV933: "Celolaluna"
- 
+ PROV934: "Wulimar"
+ PROV935: "Vuilopai"
+ PROV936: "Naeminoa"
  PROV937: "Junili"
  PROV938: "Palisma"
  PROV939: "Limpase"
@@ -747,9 +751,15 @@
  PROV955: "Tarlim"
  PROV955: "Saleifar"
 
+ PROV958: "Vuyesir"
  PROV959: "Tveth"
-
+ PROV960: "Aberalki"
+ PROV961: "Tyonasei"
+ PROV962: "Faelinmar"
+ PROV963: "Timuria"
+ PROV964: "Cuiliasi"
  PROV965: "Hlyhanilmet"
+ PROV966: "Nuiklise"
 
  PROV978: "Nytrion"
  PROV979: "Eanorla"
@@ -784,9 +794,16 @@
  PROV1062: "Lelmetheas"
 
  PROV1065: "Kanserase"
+ PROV1066: "Buylinir"
+ PROV1067: "Selevamir"
 
+ PROV1088: "Parinuya"
+ PROV1089: "Nildari"
  PROV1090: "Elhenor"
+ PROV1091: "Reafinjur"
+ PROV1092: "Vulopasyu"
 
+ PROV1094: "Xarinta"
  PROV1095: "Himbendeela"
 
  PROV1100: "Syvela"
@@ -1233,6 +1250,7 @@
 
  PROV1652: "Terbi"
 
+ PROV1655: "Rarmun"
  PROV1656: "Lyllum"
  
  PROV1660: "Elhonyma"
@@ -1549,7 +1567,7 @@
  PROV2049: "Keauth"
  PROV2050: "Khuijasa"
  PROV2051: "Troraur"
-
+ PROV2052: "Bkurat"
  PROV2053: "Latumorth"
  PROV2054: "Viindararyn"
  PROV2055: "Bueurit"
@@ -1592,7 +1610,8 @@
  PROV2092: "Vcastuthulan"
  PROV2093: "Prarixe"
  PROV2094: "Tanthurajk"
- 
+ PROV2095: "Suliomak"
+ PROV2096: "Trawret"
  PROV2097: "Garthain"
  PROV2098: "Telleles"
  PROV2099: "Rurterve"
@@ -2243,6 +2262,14 @@
  PROV3683: "Savarina"
  PROV3684: "Dheub"
  PROV3685: "Imiustam"
+ PROV3686: "Rultilum"
+ PROV3687: "Vumola"
+ PROV3688: "C'olau"
+ PROV3689: "Iygase"
+ PROV3690: "Dolinua"
+ PROV3691: "Wadsa"
+ PROV3692: "Zutra"
+ PROV3693: "Caminlo"
  
  PROV3700: "Xitolia"
  PROV3701: "Zemferia"
@@ -2515,12 +2542,24 @@
  
  PROV4961: "Khondors"
 
+ PROV5106: "Ergonia"
+
+ PROV5112: "Shayania"
+
+ PROV5116: "Dasia"
+ PROV5117: "Renchi"
+ 
+ PROV5119: "Bayan"
+
+ PROV5121: "Kisia" 
  PROV5122: "Tiloi" 
  PROV5123: "Yoprol" 
-
+ PROV5124: "Ziniloae"
  PROV5125: "Khamil Gap"
  PROV5126: "Solingar"
  
+ PROV5131: "Trawent"
+ PROV5132: "Vulipu Ridge"
  PROV5133: "Garumori Ridge"
  PROV5134: "Maddok"
  
@@ -2547,6 +2586,13 @@
  
  PROV5179: "Koloair Ridge"
  
+ PROV5199: "Cilfisa"
+ PROV5200: "Wuyamin"
+ PROV5201: "Daltra"
+ PROV5202: "Vilinx Drift"
+ PROV5203: "Rartu"
+ PROV5204: "Melinmark"
+ PROV5205: "Selisda"
  PROV5206: "Velya"
  
  PROV5215: "Tuslor sea"
@@ -2766,7 +2812,8 @@
  PROV5632: "Nurhir"
  PROV5633: "Lereos"
  PROV5634: "Eorlyreon"
- 
+ PROV5635: "Reiaub"
+ PROV5636: "Kartaiut"
  PROV5637: "Teris"
  PROV5638: "Hounto"
  PROV5639: "Garther"
@@ -2797,14 +2844,36 @@
  PROV5664: "Touroae"
  PROV5665: "Nikuseyi"
  PROV5666: "Varenili"
+ PROV5667: "Teigrae"
+ PROV5668: "Vuloiloi"
+ PROV5669: "Tuilreau"
  PROV5670: "Aremina"
  PROV5674: "Rutea"
+ PROV5675: "Malilauu"
+ PROV5678: "Dultarn"
  PROV5680: "Rankark"
  PROV5691: "Saritan"
  PROV5692: "Parlenkar"
+ 
+ PROV5701: "Moldarc"
+ PROV5702: "Teareur"
+ 
+ PROV5712: "Kalirut"
  PROV5713: "Malintar Sea"
+ PROV5714: "Chalue"
  PROV5715: "Cinderbyle Cliffs"
  PROV5716: "Cinderbyle Cliffs"
+ 
+ PROV5726: "Turenia"
+ PROV5727: "Bagalia"
+ PROV5728: "Khatia"
+ PROV5729: "Saik"
+ 
+ PROV5734: "Nombia"
+ 
+ PROV5741: "Tsaya"
+ 
+ PROV5760: "Tulagia"
 
  test_province_name: "Test Province Name"
  other_province_name: "Other Province Name"
