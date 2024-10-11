@@ -235,6 +235,10 @@
  THL_ideas_start: "Thilranan Traditions"
  THL_ideas_bonus: "Thilranan Ambitions"
  
+ MTN_ideas: "Matan Ideas"
+ MTN_ideas_start: "Matan Traditions"
+ MTN_ideas_bonus: "Matan Ambitions"
+ 
  expiditionary_state_ideas: "Expeditionary Ideas"
  expiditionary_state_ideas_start: "Expeditionary Traditions"
  expiditionary_state_ideas_bonus: "Expeditionary Ambitions"
