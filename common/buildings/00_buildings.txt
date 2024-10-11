@@ -45,6 +45,12 @@
 # Bank, +20% Local Trade Power, +2.0 Yearly Tax, +1.0 Trade Value, -10% Dev Cost
 # Stock Exchange, +40% Local Trade Power, +4.0 Yearly Tax, +2.0 Trade Value, -20% Dev Cost
 
+### Taxation ###
+# Taxman, +1 Yearly Tax, +20% Tax, +10% Dev Cost
+# Tax Office, +2 Yearly Tax, +33% Tax, +20% Dev Cost
+# Tax Agency, +3 Yearly Tax, +50% Tax, +50% Dev Cost
+# Revenue Department, +4 Yearly Tax, +75% Tax, +100% Dev Cost
+
 ### Religion ###
 # Shrine, +5% Yearly Tax, -1.0 Local Unrest, +1.0% Local Missionary Strength, -5% Dev Cost
 # Temple, +10% Yearly Tax, -2.0 Local Unrest, +2.0% Local Missionary Strength, -10% Dev Cost
@@ -56,6 +62,15 @@
 # Town Hall, -0.075 Autonomy Change, -15% Governing Cost, -7.5% Dev Cost
 # Post Office, -0.1 Autonomy Change, -20% Governing Cost, -10% Dev Cost
 # City Hall, -0.15 Autonomy Change, -25% Governing Cost, -15% Dev Cost
+
+### Army ###
+# Barracks - +100 Manpower, +25% Manpower
+# Training Fields - +200 Manpower, +50% Manpower
+# Military Academy - +400 Manpower, +100% Manpower
+#
+# Regimental Camp - +1 Land Force Limit -10% Recruit Time
+# Conscription Center - +2 Land Force Limit, -20% Recruit Time
+# Mobilization System - +3 Land Force Limit, -30% Recruit Time
 
 ### Navy ###
 # Port, +0.5 Local Trade Power, +0.5 Naval Forcelimit, +33% Sailors, +20% Local Supply Limit, -2.5% Dev Cost
@@ -70,6 +85,7 @@
 #
 # Airdock, 2.5% Cav Combat Ability
 # Airship Maintenance Bay, -20% Local Regiment Cost, 5% Cav Combat Ability
+# Airship Terminal,
 
 ### Production ###
 # Workshop, +10% Production Efficiency, -5% Dev Cost
@@ -79,21 +95,6 @@
 #
 # Alchemist Shop, +10% Trade Value, -2.5% Dev Cost
 # Transfumatory, +33% Trade Value, -5% Dev Cost
-
-### Army ###
-# Barracks - +100 Manpower, +25% Manpower
-# Training Fields - +200 Manpower, +50% Manpower
-# Military Academy - +400 Manpower, +100% Manpower
-#
-# Regimental Camp - +1 Land Force Limit -10% Recruit Time
-# Conscription Center - +2 Land Force Limit, -20% Recruit Time
-# Mobilization System - +3 Land Force Limit, -30% Recruit Time
-
-### Taxation ###
-# Taxman, +1 Yearly Tax, +20% Tax, +10% Dev Cost
-# Tax Office, +2 Yearly Tax, +33% Tax, +20% Dev Cost
-# Tax Agency, +3 Yearly Tax, +50% Tax, +50% Dev Cost
-# Revenue Department, +4 Yearly Tax, +75% Tax, +100% Dev Cost
 
 ### Defense ###
 # Fortification - 13th, lvl 1
