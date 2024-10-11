@@ -2,8 +2,7 @@
 culture = solbon
 religion = forebearist
 capital = "Accra"
-trade_goods = gold_knot
-hre = no
+trade_goods = salt
 base_tax = 0
 base_production = 2
 base_manpower = 2
