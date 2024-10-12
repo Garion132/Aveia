@@ -23,13 +23,14 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+741.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Zirax"
 		dynasty = "Zirer"
-		birth_date = 1240.12.3
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 630.12.3
+		adm = 4
+		dip = 4
+		mil = 6
 	}
+	add_ruler_personality = immortal_personality
 }

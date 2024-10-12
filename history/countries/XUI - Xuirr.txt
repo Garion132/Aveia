@@ -10,13 +10,13 @@ capital = 5193 #
 
 
 
-# 1240.9.16 = {
-	# monarch = {
-		# name = "Filler"
-		# dynasty = "Sevid"
-		# birth_date = 1240.12.3
-		# adm = 3
-		# dip = 3
-		# mil = 3
-	# }
-# }
+1254.9.16 = {
+	monarch = {
+		name = "Karsu"
+		dynasty = "Sevid"
+		birth_date = 1237.12.3
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}

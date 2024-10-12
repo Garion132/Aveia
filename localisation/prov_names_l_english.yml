@@ -1356,8 +1356,22 @@
  
  PROV1624: "Kirhemish"
  
+ PROV1630: "Baghaer"
+ PROV1631: "Bulkiue"
+ PROV1632: "Balourak"
+ PROV1633: "Maenark"
+ PROV1634: "Vaugad"
+ PROV1635: "Xarnik"
+ PROV1636: "Vuarakja"
+ PROV1637: "Ryinkea"
+ PROV1638: "Pulina"
+ PROV1639: "Rolunai"
+ PROV1640: "Yoinuad"
  PROV1641: "Isherun"
- 
+ PROV1642: "Nukadsyr"
+ PROV1643: "Rytgad"
+ PROV1644: "Guhnast"
+ PROV1645: "Asdurfa"
  PROV1646: "Labash"
  PROV1647: "Beshek"
  PROV1648: "Nanuayr"
@@ -1471,6 +1485,9 @@
  PROV1794: "Tohueri"
  PROV1795: "Klijaso"
  PROV1796: "Dresltin Gultch"
+ 
+ PROV1799: "Onastrak"
+ PROV1800: "Muitydarc"
 
  PROV1805: "Guilok"
  PROV1806: "Ilureak"
@@ -1980,12 +1997,12 @@
  PROV2347: "Gasfa"
  PROV2348: "Jhytaea"
  PROV2349: "Yulia"
- PROV2350: "Yakù Dagy Shokùg"
+ PROV2350: "Yakù Dagy Shokùg"
  PROV2351: "Azhušo"
  PROV2352: "Rzhafzhallao"
  PROV2353: "Boulda"
  PROV2354: "Trašdu"
- PROV2355: "Yakùzhyl"
+ PROV2355: "Yakùzhyl"
  PROV2356: "Calitame"
  PROV2357: "Mulixamei"
  PROV2358: "Hausera"
@@ -2706,6 +2723,8 @@
  PROV4961: "Khondors"
  
  PROV4963: "Rashin"
+ 
+ PROV5089: "Marea"
 
  PROV5106: "Ergonia"
 
@@ -2903,7 +2922,9 @@
  PROV5379: "Fouinissa"
  
  PROV5381: "Annivmaa"
+ 
  PROV5455: "Lenseem"
+ 
  PROV5508: "Zelisele"
  
  PROV5549: "Enheasrion River"
@@ -3080,6 +3101,8 @@
  
  PROV5734: "Nombia"
  
+ PROV5739: "Bulkta"
+ PROV5740: "Solkuru"
  PROV5741: "Tsaya"
  
  PROV5760: "Tulagia"
