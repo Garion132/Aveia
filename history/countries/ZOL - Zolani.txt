@@ -5,18 +5,29 @@ religion = tlaunorist
 government_rank = 1
 technology_group = ork_group
 capital = 5290 # 
-#national_focus = DIP
 #historical_rival = HAB
 
+1209.3.21 = {
+	monarch = {
+		name = "Salutyi II"
+		dynasty = "Camuirt"
+		birth_date = 1197.9.4
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
 
-
-# 1240.9.16 = {
-	# monarch = {
-		# name = "Eltro III"
-		# dynasty = "Gugh"
-		# birth_date = 1240.12.3
-		# adm = 5
-		# dip = 4
-		# mil = 3
-	# }
-# }
+1234.9.13 = {
+	heir = {
+		name = "Salutyi"
+		monarch_name = "Salutyi III"
+		dynasty = "Camuirt"
+		birth_date = 1234.9.13
+		death_date = 1413.1.31
+		claim = 99
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
