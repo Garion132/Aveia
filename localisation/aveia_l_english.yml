@@ -10,6 +10,11 @@
  rake_bookmark: "Dragon Lords of Vulkivia"
  rake_bookmark_desc: "Garion132 plz do description."
 
+ EDUCATION: "Education"
+ AIR: "Air"
+ INFRASTRUCTURE: "Infrastructure"
+ MANUFACTORIES: "Manufactories"
+
  deepwoods:0 "Deepwoods"
  deepwoods_city:0 "Deepwoods City"
  glassy_plains:0 "Glassy Plains"
