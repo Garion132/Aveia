@@ -5,3 +5,14 @@ technology_group = eastern_men_group
 religion = tradowite
 capital = 4967
 primary_culture = crystalian
+
+1257.6.27 = {
+	monarch = {
+		name = "Reacad"
+		dynasty = "Duutgal"
+		birth_date = 1236.8.28
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}

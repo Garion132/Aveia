@@ -5,3 +5,15 @@ technology_group = eastern_men_group
 religion = tradowite
 capital = 5769
 primary_culture = crystalian
+
+
+1247.11.14 = {
+	monarch = {
+		name = "Rigassoc"
+		dynasty = "Delgan"
+		birth_date = 1239.4.30
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+}

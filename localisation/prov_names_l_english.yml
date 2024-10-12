@@ -1250,7 +1250,18 @@
  PROV1480: "Tundastan Island"
  PROV1481: "Emiliean"
  PROV1482: "Chorhaltu"
-
+ PROV1483: "Vulinae"
+ PROV1484: "Qunokol"
+ PROV1485: "Wolunk"
+ PROV1486: "Luykas"
+ PROV1487: "Milmina"
+ PROV1488: "Rutad"
+ PROV1489: "Ghrawa"
+ PROV1490: "Yahras"
+ PROV1491: "Haewrai"
+ PROV1492: "Luinla"
+ PROV1493: "Lhastou"
+ PROV1494: "Toloua"
  PROV1495: "Fiminak"
  PROV1496: "Narminhei"
  PROV1497: "Timonai"
@@ -1354,8 +1365,14 @@
 
  PROV1616: "Izgatvin"
  
+ PROV1622: "Selizari"
+ PROV1623: "Founak"
  PROV1624: "Kirhemish"
- 
+ PROV1625: "Karinshah"
+ PROV1626: "Luhnar"
+ PROV1627: "Malunia"
+ PROV1628: "Murminal"
+ PROV1629: "Lukase"
  PROV1630: "Baghaer"
  PROV1631: "Bulkiue"
  PROV1632: "Balourak"
@@ -1376,14 +1393,21 @@
  PROV1647: "Beshek"
  PROV1648: "Nanuayr"
  PROV1649: "Kiziltu"
-
+ PROV1650: "Tyurvak"
+ PROV1651: "Lubhuia"
  PROV1652: "Terbi"
-
+ PROV1653: "Barluka"
+ PROV1654: "Moinoaku"
  PROV1655: "Rarmun"
  PROV1656: "Lyllum"
- 
+ PROV1657: "Ibyunisa"
+ PROV1658: "Molinoac"
+ PROV1659: "Oubhiyka"
  PROV1660: "Elhonyma"
- 
+ PROV1661: "Joibriu"
+ PROV1662: "Luhlasa"
+ PROV1663: "Kibkal"
+ PROV1664: "Poylbak"
  PROV1665: "Houaseri"
  PROV1666: "Dalrieu"
  PROV1667: "Nasaepa"
@@ -2647,7 +2671,9 @@
  PROV4764: "Carlemia"
  PROV4765: "Sulos"
  PROV4766: "Velarvis"
- 
+ PROV4767: "Teltark"
+ PROV4768: "Holizat"
+ PROV4769: "Bulkrak"
  PROV4770: "Ternok"
  PROV4771: "Slutiarm"
  PROV4772: "Moggan"
@@ -2720,9 +2746,19 @@
  PROV4950: "Bayan"
  PROV4951: "Handun"
  
- PROV4961: "Khondors"
+ PROV4956: "Jarde"
  
+ PROV4959: "Lurui"
+ 
+ PROV4961: "Khondors"
+ PROV4962: "Ulion"
  PROV4963: "Rashin"
+ PROV4964: "Kosnod"
+ PROV4965: "Farnik"
+ PROV4966: "Ounoalia"
+ 
+ PROV4968: "Horia"
+ PROV4969: "Yrusrf"
  
  PROV5089: "Marea"
 
@@ -2776,13 +2812,18 @@
  PROV5183: "Kulpare"
  PROV5184: "Hulbane"
  PROV5185: "Coldirda"
+ PROV5186: "Hilic"
+ PROV5187: "Gradsra"
+ PROV5188: "Videar"
  
  PROV5191: "Salist"
  PROV5192: "Xolid"
  PROV5193: "Rulmid"
  PROV5194: "Curolva"
  PROV5195: "Veuxia"
- 
+ PROV5196: "Yhuasid"
+ PROV5197: "Dusigd"
+ PROV5198: "Hitdfa"
  PROV5199: "Cilfisa"
  PROV5200: "Wuyamin"
  PROV5201: "Daltra"
@@ -2791,7 +2832,14 @@
  PROV5204: "Melinmark"
  PROV5205: "Selisda"
  PROV5206: "Velya"
- 
+ PROV5207: "Keliyh"
+ PROV5208: "Injhuve"
+ PROV5209: "Nikhvot"
+ PROV5210: "Niulakii"
+ PROV5211: "Wufafpo"
+ PROV5212: "Guhrsa"
+ PROV5213: "Yuattaws"
+ PROV5214: "Grugasda"
  PROV5215: "Tuslor sea"
  PROV5216: "Cyoloai Ridge"
  PROV5217: "Chaunluman Mts."
@@ -3105,9 +3153,16 @@
  PROV5740: "Solkuru"
  PROV5741: "Tsaya"
  
+ PROV5751: "Rashin"
+ 
  PROV5760: "Tulagia"
  
+ PROV5764: "Vafrea"
+ PROV5765: "Taloiya"
+ PROV5766: "Monuoc"
  PROV5767: "Yuloia"
+ PROV5768: "Limklat"
+ PROV5769: "Delgan"
 
  test_province_name: "Test Province Name"
  other_province_name: "Other Province Name"

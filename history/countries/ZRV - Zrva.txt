@@ -28,9 +28,9 @@ change_estate_land_share = {
 		name = "Rakidor"
 		dynasty = "Zrva"
 		birth_date = 861.3.19
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 6
+		mil = 5
 	}
 	add_ruler_personality = immortal_personality
 }

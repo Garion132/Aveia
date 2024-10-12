@@ -5,3 +5,14 @@ technology_group = eastern_men_group
 religion = tradowite
 capital = 5089
 primary_culture = tallian
+
+1258.11.3 = {
+	monarch = {
+		name = "Sisesar"
+		dynasty = "Serdian"
+		birth_date = 1229.7.18
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

@@ -25,11 +25,12 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Boldarc"
 		dynasty = "Meuthil"
 		birth_date = 1240.12.3
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 2
+		mil = 4
 	}
+	add_ruler_personality = immortal_personality
 }
