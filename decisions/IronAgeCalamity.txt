@@ -164,7 +164,7 @@ country_decisions = {
             NOT = { has_country_modifier = iac_reduced_gov_cap }
             NOT = { has_country_flag = iac_reform_in_progress }
             has_country_flag = iac_commoner_clerks_reform
-            has_country_modifier = iac_simplified_legal_code
+            has_country_flag = iac_legal_reforms
             has_country_modifier = iac_simplified_tax_code
         }
 
@@ -535,6 +535,12 @@ country_decisions = {
             else = {
                 change_government_reform_progress = 50
             }
+            
+            add_disaster_progress = {
+                disaster = civilizational_collapse
+                value = -20
+            }
+
             hidden_effect = {
                 remove_country_modifier = iac_starved_administration
                 remove_country_modifier = iac_terrible_commoner_clerks
@@ -588,6 +594,11 @@ country_decisions = {
             }
             else = {
                 change_government_reform_progress = 100
+            }
+            
+            add_disaster_progress = {
+                disaster = civilizational_collapse
+                value = -20
             }
 
             add_country_modifier = {
@@ -688,6 +699,35 @@ country_decisions = {
 
         ai_will_do = {
             factor = 100
+        }
+    }
+    
+    iac_transmute_tin_to_silver = {
+        potential = {
+            has_disaster = iron_age_calamity
+        }
+
+        allow = {
+            NOT = { inflation = 100 }
+            NOT = { corruption = 90 }
+            NOT = {
+                has_disaster_progress = {
+                    disaster = civilizational_collapse
+                    value = 50
+                }
+            }
+            adm_power = 5
+        }
+
+        effect = {
+            add_inflation = 2
+            add_corruption = 1
+            add_adm_power = -5
+            add_years_of_income = 1
+            add_disaster_progress = {
+                disaster = civilizational_collapse
+                value = 2
+            }
         }
     }
 }

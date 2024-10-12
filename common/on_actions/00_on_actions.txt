@@ -47,7 +47,62 @@ on_startup = {
 				remove_idea_group = defensive_ideas
 				remove_idea_group = leadership_ideas
 				remove_idea_group = logistic_ideas
+					
+				if = {
+					limit = {
+						has_government_mechanic = monumentality_mechanic
+					}
+					set_variable = {
+						which = monuments
+						value = 2
+					}
+					if = {
+						limit = { tag = RAU }
+						set_variable = { which = monuments value = 10 }
+					}
+					if = {
+						limit = { tag = KYA }
+						set_variable = { which = monuments value = 7 }
+					}
+					if = {
+						limit = { tag = SHE }
+						set_variable = { which = monuments value = 8 }
+					}
+					if = {
+						limit = { tag = LEL }
+						set_variable = { which = monuments value = 5 }
+					}
+					if = {
+						limit = { tag = CYU }
+						set_variable = { which = monuments value = 4 }
+					}
+					if = {
+						limit = { tag = KAF }
+						set_variable = { which = monuments value = 4 }
+					}
+					if = {
+						limit = { tag = DRG }
+						set_variable = { which = monuments value = 8 }
+					}
+					if = {
+						limit = { tag = GUL }
+						set_variable = { which = monuments value = 7 }
+					}
+					if = {
+						limit = { tag = ATH }
+						set_variable = { which = monuments value = 5 }
+					}
+					if = {
+						limit = { tag = SOH }
+						set_variable = { which = monuments value = 3 }
+					}
+					if = {
+						limit = { tag = IWE }
+						set_variable = { which = monuments value = 5 }
+					}
+				}
 			}
+			
 		}
 	}
 	initialize_schools_effect = yes
@@ -852,7 +907,19 @@ on_integrate = {
 # Nation annexed.
 # FROM is the nation being annexed
 on_annexed = {
-	
+	if = {
+		limit = {
+			has_government_mechanic = monumentality_mechanic
+			FROM = {
+				has_government_mechanic = monumentality_mechanic
+			}
+		}
+		change_variable = {
+			which = monuments
+			which = FROM
+		}
+	}
+
 	on_annexed_estate_privileges_effect = yes
 }
 

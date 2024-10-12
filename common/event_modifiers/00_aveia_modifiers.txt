@@ -374,6 +374,19 @@ estate_church_monopoly_of_bronze_mod = {
 		innovativeness_gain = -1
 	}
 
+	iac_local_autonomy = {
+		local_autonomy = 0.1
+		local_unrest = -5
+	}
+	iac_treading_water = {
+		stability_cost_modifier = 0.5
+	}
+	iac_local_banditry = {
+		local_tax_modifier = -0.1
+		local_production_efficiency = -0.1
+		local_monthly_devastation = 0.25
+	}
+
 	#Great Depression
 	gd_new_roll_modifier = {
 		stability_cost_modifier = -0.1

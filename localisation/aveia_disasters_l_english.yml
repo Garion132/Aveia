@@ -1,6 +1,8 @@
 ﻿l_english:
  iron_age_calamity:0 "Iron Age Calamity"
  desc_iron_age_calamity:0 "Rocks are falling from the sky. Earthquakes tremble the earth. Ash blots out the sun. Plague. Famine. Starvation."
+ civilizational_collapse:0 "Civilizational Collapse"
+ desc_civilizational_collapse: "If we cannot sustain ourselves during the calamity, we will shatter into a dozen pieces. Unfortunately, for most, this is inevitable.\n\n§YNOTE:§! If you collapse, continue playing! This is intentional. If you manage to survive unscathed, then you're doing better than designed."
  
  disaster_active_for_50_years_tooltip:0 "Disaster active for 50 years."
  disaster_active_for_15_years_tooltip:0 "Disaster active for 15 years."
@@ -67,9 +69,9 @@
     29_devastation_tt:0 "  Add §R29§! Devastation"
     30_devastation_tt:0 "  Add §R30§! Devastation"
     40_devastation_tt:0 "  Add §R40§! Devastation"
-    dev_loss_devastation_tt:0 "Every province with over §R50§! Devastation loses §Y3§! Development"
+    dev_loss_devastation_tt:0 "Every province with over §R25§! Devastation loses §Y1§! Population"
  #
- orbury_volcano_damage_tt:0 "Provinces near the §YOrbury Supervolcano§! lose up to §R6§! Development."
+ orbury_volcano_damage_tt:0 "Provinces near the §YOrbury Supervolcano§! lose up to §R6§! Population."
  add_country_autonomy_10_tt:0 "Gain §R+10.00%§! Autonomy in every province"
  add_country_autonomy_10_tt:0 "Gain §R+5.00%§! Autonomy in every province"
  calamity_no_land_reform_tt:0 "\nYou will continue to recieve this recurring event.\nIn order to remove this recurring event, your §YNobility§! must have less than §Y20.00%§! land share and you must have at least §R-1§! Stability and you must choose the §YWide-Spread Land Reform§! option."
@@ -154,6 +156,13 @@
 
   iac_restricted_technology:0 "Restricted Technology"
   desc_iac_restricted_technology:0 "Technological progress has been restricted in favor of keeping the country together."
+
+  iac_local_autonomy: "Local Autonomy"
+  desc_iac_local_autonomy: "The locals have been given autonomy."
+  iac_treading_water: "Treading Water"
+  desc_iac_treading_water: "It's becoming more difficult day-by-day to stave off the ongoing crisis."
+  iac_local_banditry: "Local Banditry"
+  desc_iac_local_banditry: "Bandits have taken control of many functions of this province and are wrecking havoc on the locals."
  #
  
  #Events
@@ -183,6 +192,7 @@
   iron_age_calamity.103.t:0 "Nationalists Revolt!"
   iron_age_calamity.103.d:0 "Nationalists Revolt"
   iron_age_calamity.103.opt.a:0 "Crush them!"
+  iron_age_calamity.103.opt.b:0 "Reason with them"
  
   iron_age_calamity.104.t:0 "Famine"
   iron_age_calamity.104.d:0 "With the calamity, famine has become the norm across the country as peasants and cityfolk starve. However, much of the situation could be alleviated by taking much  of the nobility's land used for pleasure and hunting and instead using it as farmland. Much of our most fertile land rests within these pleasure-providers.\n\nWe can also lessen trade  restrictions and try to import food from where there is some amount of excess, yet this is a temporary solution as others kingdoms will do the same and dilute the global food supply. Siezing  land will greatly upset the nobility, yet it may prove to be the only way to permanently stop this downward spiral."
@@ -194,6 +204,7 @@
  
   iron_age_calamity.105.t:0 "People Desert Cities"
   iron_age_calamity.105.o1:0 "We didn't need them anyway"
+  iac_desert_cities_tt: "The following populations will be converted into §YLower Class Population§!:\n   Every province with at least §Y7§! Working Class population will have §Y2§! converted\n   Every province with §Y3 - 6§! Working Class population will have §Y1§! converted\n   Every province with at least §Y3§! Middle Class population will have §Y1§! converted"
  
   iron_age_calamity.106.t:0 "The Situation Gets Worse"
   iron_age_calamity.106.o1:0 "Didn't think that possible"
@@ -220,11 +231,107 @@
   iron_age_calamity.111.t:0 "Coup d'etat!"
   iron_age_calamity.111.d:0 "The rumors about an ambitious general have turned true! There is now a strong pretender for the throne!"
   iron_age_calamity.111.o1:0 "Death to the traitor!"
+  
+  iron_age_calamity.112.t:0 "Ghosts in the Shadows"
+  iron_age_calamity.112.o1:0 "Abandon the Slums"
+  iron_age_calamity.112.o2:0 "Send in the Guard"
+  
+  iron_age_calamity.113.t:0 "The Peasantry Begin Questioning our Rule"
+  iron_age_calamity.113.o1:0 "Put the ring-leaders to death"
+  iron_age_calamity.113.o2:0 "Scapegoat the Clergy"
+  iron_age_calamity.113.o3:0 "Say Nothing"
+  
+  iron_age_calamity.114.t:0 "Fall of the Merchant Class"
+  iron_age_calamity.114.o1:0 "Let them wither"
+  iron_age_calamity.114.o2:0 "Take advantage of the situation"
+  iron_age_calamity.114.o3:0 "Attempt to bolster the merchants"
+  
+  iron_age_calamity.115.t:0 "Doomsday Cults"
+  iron_age_calamity.115.o1:0 "Ignore them"
+  iron_age_calamity.115.o2:0 "Disperse the cults"
+  
+  iron_age_calamity.116.t:0 "Mannish Savages Pillage the Countryside"
+  iron_age_calamity.116.o1:0 "Rally the troops!"
+  iron_age_calamity.116.o2:0 "Bribe them to go away"
+  
+  iron_age_calamity.117.t:0 "Tomb Raiders Sack a Holy Monument"
+  iron_age_calamity.117.o1:0 "We have more important matters to attend to"
+  iron_age_calamity.117.o2:0 "Investigate the matter"
+  iron_age_calamity.117.o3:0 "Investigate and reinforce the tombs!"
+
+  iron_age_calamity.118.t:0 "Buildings Fall to Ruin"
+  iron_age_calamity.118.o1:0 "We weren't using them anyway"
+  iron_age_calamity.118.o2:0 "Attempt last-minute repairs"
+  iron_age_calamity.118.o3:0 "Mobilize the army to deal with it"
+  
+  iron_age_calamity.119.t:0 "Shephards Flee to Greener Pastures"
+  iron_age_calamity.119.o1:0 "Off they go"
+  iron_age_calamity.119.o2:0 "Persuade some to stay"
+  
+  iron_age_calamity.120.t:0 "Merchants Relocate their Businesses"
+  iron_age_calamity.120.o1:0 "Oh well"
+  iron_age_calamity.120.o2:0 "Relax trade standards"
+  
+  iron_age_calamity.121.t:0 "Slaves Break Free of their Masters"
+  iron_age_calamity.121.o1:0 "Let them have freedom"
+  iron_age_calamity.121.o2:0 "Put them back in their place"
+  
+  iron_age_calamity.122.t:0 "City Guards are Taking Bribes"
+  iron_age_calamity.122.o1:0 "We all need to eat"
+  iron_age_calamity.122.o2:0 "Crack down on the practice"
+  
+  iron_age_calamity.123.t:0 "Clergy Want More Control"
+  iron_age_calamity.123.o1:0 "Ignore their demands"
+  iron_age_calamity.123.o2:0 "We cannot risk antagonizing the Clergy"
+  
+  iron_age_calamity.124.t:0 "Outbreak of Illness"
+  iron_age_calamity.124.o1:0 "At least they aren't starving..."
+  iron_age_calamity.124.o2:0 "Seek the aide of the Clergy"
+  iron_age_calamity.124.o3:0 "Dig into the herbal supplies"
+  
+  iron_age_calamity.125.t:0 "Equipment Neglect"
+  iron_age_calamity.125.o1:0 "Let it go to ruin"
+  iron_age_calamity.125.o2:0 "Provide additional funding"
+  
+  iron_age_calamity.126.t:0 "City Refuses to Pay Taxes"
+  iron_age_calamity.126.o1:0 "It's not like they were giving us much anyway"
+  iron_age_calamity.126.o2:0 "Reinstate order"
+  
+  iron_age_calamity.127.t:0 "Paranoia In the Streets"
+  iron_age_calamity.127.o1:0 "What if they're right!?"
+  iron_age_calamity.127.o2:0 "Reassure the public"
+  
+  iron_age_calamity.128.t:0 "A Diplomat Goes Missing"
+  iron_age_calamity.128.o1:0 "Let us pray for his return"
+  
+  iron_age_calamity.129.t:0 "The Wealthy Relocate to Elteria"
+  iron_age_calamity.129.o1:0 "Off they go"
+  
+  iron_age_calamity.130.t:0 "Wealthy Families Come Ashore"
+  iron_age_calamity.130.o1:0 "Welcome to Elteria!"
+  
+  iron_age_calamity.131.t:0 "Piles of Bodies"
+  iron_age_calamity.131.o1:0 "Disgusting"
+  iron_age_calamity.131.o2:0 "Clean the streets"
+  iron_age_calamity.131.o3:0 "Alleviate the root cause"
+  
+  iron_age_calamity.132.t:0 "Disloyal Servants"
+  iron_age_calamity.132.o2:0 "We have more important matters to attend to"
+  iron_age_calamity.132.o1:0 "'Correct' the servants"
+  
+  iron_age_calamity.133.t:0 "Palace Coup"
+  iron_age_calamity.133.o1:0 "It succeeds"
+  iron_age_calamity.133.o2:0 "It fails"
+  
+  iron_age_calamity.134.t:0 "Bandits & Brigands"
+  iron_age_calamity.134.o1:0 "Let them prey on the poor if they want"
+  iron_age_calamity.134.o2:0 "Redouble Patrols"
 
   #What with the end-times apparently having arrived, some of the Clergy have gone mad. Now, with some of their power being threatened, the radicals have taken up arms and appear to be revolting, lest we give in to their demands
  
   iron_age_calamity.151.t:0 "Lives Uprooted"
   iron_age_calamity.151.o1:0 "Oh dear"
+  iron_age_calamity.151.o2:0 "Times aren't that bad!"
  
   iron_age_calamity.152.t:0 "Neighbors are Unstable"
   iron_age_calamity.152.o1:0 "If only our neighbors were more stable"
@@ -232,13 +339,90 @@
   iron_age_calamity.153.t:0 "The Administration Buckles"
   iron_age_calamity.153.d:0 "With the calamity in full swing, our administrators have found it much more difficult to do their duties. Administering far-off lands has become much more  difficult."
   iron_age_calamity.153.o1:0 "We need to get a handle on things"
+  iron_age_calamity.153.o2:0 "Pour Money into the Administrations"
  
   iron_age_calamity.154.t:0 "We are Overstretched!"
   iron_age_calamity.154.o1:0 "Our domain is too large..."
+  iron_age_calamity.154.o2:0 "Try to get a grip on things"
  
   iron_age_calamity.155.t:0 "Calamity Effects Weaken"
   iron_age_calamity.155.o1:0 "Nature is beginning to heal"
   temporary_calimity_tt:0 "All permanent §YCalamity Modifiers§! in your owned provinces decrease in severity and become set to last only §Yten§! years."
+  
+  iron_age_calamity.156.t:0 "Flood of Migrants"
+  iron_age_calamity.156.o1:0 "We can barely feed ourselves. Turn them away!"
+  iron_age_calamity.156.o2:0 "Enslave them and put them to work"
+  iron_age_calamity.156.o3:0 "Accept them with open arms"
+  
+  iron_age_calamity.157.t:0 "Treading Water Becomes More Difficult"
+  iron_age_calamity.157.o1:0 "This is bad"
+  
+  iron_age_calamity.158.t:0 "The Gods Demand Sacrifices"
+  iron_age_calamity.158.o1:0 "Now is not the time!"
+  iron_age_calamity.158.o2:0 "We will attend to our duties..."
+  
+  iron_age_calamity.159.t:0 "Coastal Flooding"
+  iron_age_calamity.159.o1:0 "Let the waters come and go"
+  iron_age_calamity.159.o2:0 "Evacuate the coastline"
+  iac_coastal_flooding_buildings_tt: "In every §Ycoastal province§! with at least §Ytwo buildings§!, a random non-fort non-manufactory §Ybuilding§! will be §Rdestroyed§!"
+  iac_coastal_flooding_pops_tt: "In every §Ycoastal province§!, either a §YMiddle Class§! or §YWorking Class§! population will be §Rkilled§!"
+  
+  iron_age_calamity.160.t:0 "Ash Causes Crop Failure"
+  iron_age_calamity.160.o1:0 "It will blow away"
+  iron_age_calamity.160.o2:0 "Provide monetary relief to farmers"
+  iron_age_calamity.160.o3:0 "Provide spiritual relief to farmers"
+  iac_crop_failure_tt: "Every province that produces §Ygrain§!, §Yfruit§!, §Ywine§!, §Yspices§!, or §Ygold knot§! with at least §Y4§! Lower Class Population will §Rlose§! §Y1§!, §Y2§!, or §Y3§! Lower Class Population depending on the §Yseverity§! of the calamity in that province."
+  EST_VAL_SPRITUAL_RELIEF: "Spiritual Relief: §Y+10.0%§!"
+  
+  iron_age_calamity.161.t:0 "Snowstorms"
+  iron_age_calamity.161.o1:0 "We can try again next year"
+  iron_age_calamity.161.o2:0 "Attempt to salvage as much as possible"
+  
+  iron_age_calamity.162.t:0 "Foreign Banditry"
+  iron_age_calamity.162.o1:0 "Let them roam"
+  iron_age_calamity.162.o2:0 "Crack down on criminal activity"
+  iron_age_calamity.162.o3:0 "Enlist some to fight the rest"
+  
+  iron_age_calamity.163.t:0 "Ports Freeze Over"
+  iron_age_calamity.163.o1:0 "Let the locals handle it"
+  iron_age_calamity.163.o2:0 "Salvage the situation"
+  
+  iron_age_calamity.164.t:0 "Rumors and Whispers"
+  iron_age_calamity.164.o1:0 "Perhaps even I believe it..."
+  iron_age_calamity.164.o2:0 "Attempt to dispell these myths"
+  
+  iron_age_calamity.165.t:0 "Foreigner Introduces Iron-Working"
+  iron_age_calamity.165.o1:0 "Stick to Bronze"
+  iron_age_calamity.165.o2:0 "Adopt Iron"
+  
+  iron_age_calamity.166.t:0 "The Clergy Demand Iron-Smithy Rights"
+  iron_age_calamity.166.o1:0 "Attempt to enforce the standard"
+  iron_age_calamity.166.o2:0 "The standard does not apply to iron"
+  iron_age_calamity.166.o3:0 "Revoke smithing rights altogether"
+  
+  iron_age_calamity.167.t:0 "The Clergy Oppose Reform"
+  iron_age_calamity.167.o1:0 "Delay our plans"
+  iron_age_calamity.167.o2:0 "We cannot be stuck in the past"
+  
+  iron_age_calamity.168.t:0 "Cross-Border Raids"
+  iron_age_calamity.168.o1:0 "See what we can get away with..."
+  iron_age_calamity.168.o2:0 "Take full advantage of this opportunity"
+  iron_age_calamity.168.o2:0 "Standing on their misfortune will lead to our fall"
+  
+  iron_age_calamity.169.t:0 "Our Neighbor Raids Us!"
+  iron_age_calamity.169.o1:0 "Bastards"
+  
+  iron_age_calamity.170.t:0 "Fear of the Age of Men"
+  iron_age_calamity.170.o1:0 "Are we helpless?"
+  
+  iron_age_calamity.171.t:0 "The Ground Quakes"
+  iron_age_calamity.171.o1:0 "Cities crumble"
+  
+  iron_age_calamity.172.t:0 "Others Admire Our Tenacity"
+  iron_age_calamity.172.o1:0 "Glory to ourselves"
+  
+  iron_age_calamity.173.t:0 "Forged in Fire and Ash"
+  iron_age_calamity.173.o1:0 "We stand strong"
  #
 
  #Decision Events

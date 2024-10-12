@@ -46,6 +46,114 @@ iac_add_calamity_modifiers = {
 		}
 	}
 }
+iac_decrease_stability_by_1 = {
+	if = {
+		limit = {
+			stability = -1
+		}
+		add_stability = -1
+	}
+	else = {
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 15
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 2
+			}
+		}
+	}
+}
+iac_decrease_stability_by_2 = {
+	if = {
+		limit = {
+			stability = 0
+		}
+		add_stability = -2
+	}
+	else_if = {
+		limit = {
+			stability = -1
+		}
+		add_stability = -1
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 15
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 2
+			}
+		}
+	}
+	else = {
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 30
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 3
+			}
+		}
+	}
+}
+iac_decrease_stability_by_3 = {
+	if = {
+		limit = {
+			stability = 1
+		}
+		add_stability = -3
+	}
+	else_if = {
+		limit = {
+			stability = 0
+		}
+		add_stability = -2
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 15
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 2
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			stability = -1
+		}
+		add_stability = -1
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 30
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 3
+			}
+		}
+	}
+	else = {
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 45
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 4
+			}
+		}
+	}
+}
 
 iac_add_country_devastation = {
 	# $all$, $min_dev$ $base_value$, $moderate_value$, $severe_value$
@@ -132,51 +240,107 @@ iac_add_devastation = {
 	# $value$
 	if = {
 		limit = {
-			devastation = 50
+			devastation = 25
 		}
-		add_devastation = -50
-		if = {
-			limit = {
-				base_manpower = 2
+		add_devastation = -25
+		random_list = {
+			35 = {
+				trigger = {
+					base_manpower = 2
+				}
+				add_base_manpower = -1
 			}
-			add_base_manpower = -1
-		}
-		if = {
-			limit = {
-				base_production = 2
+			10 = {
+				trigger = {
+					base_production = 1
+				}
+				add_base_production = -1
 			}
-			add_base_production = -1
-		}
-		if = {
-			limit = {
-				base_tax = 2
+			5 = {
+				trigger = {
+					base_tax = 1
+				}
+				add_base_tax = -1
 			}
-			add_base_tax = -1
 		}
 	}
 	add_devastation = $value$
 	if = {
 		limit = {
-			devastation = 50
+			devastation = 25
 		}
-		add_devastation = -50
-		if = {
-			limit = {
-				base_manpower = 2
+		add_devastation = -25
+		random_list = {
+			35 = {
+				trigger = {
+					base_manpower = 2
+				}
+				add_base_manpower = -1
 			}
-			add_base_manpower = -1
+			10 = {
+				trigger = {
+					base_production = 1
+				}
+				add_base_production = -1
+			}
+			5 = {
+				trigger = {
+					base_tax = 1
+				}
+				add_base_tax = -1
+			}
 		}
-		if = {
-			limit = {
-				base_production = 2
-			}
-			add_base_production = -1
+	}
+	if = {
+		limit = {
+			devastation = 25
 		}
-		if = {
-			limit = {
-				base_tax = 2
+		add_devastation = -25
+		random_list = {
+			30 = {
+				trigger = {
+					base_manpower = 2
+				}
+				add_base_manpower = -1
 			}
-			add_base_tax = -1
+			15 = {
+				trigger = {
+					base_production = 1
+				}
+				add_base_production = -1
+			}
+			5 = {
+				trigger = {
+					base_tax = 1
+				}
+				add_base_tax = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			devastation = 25
+		}
+		add_devastation = -25
+		random_list = {
+			25 = {
+				trigger = {
+					base_manpower = 2
+				}
+				add_base_manpower = -1
+			}
+			10 = {
+				trigger = {
+					base_production = 1
+				}
+				add_base_production = -1
+			}
+			10 = {
+				trigger = {
+					base_tax = 1
+				}
+				add_base_tax = -1
+			}
 		}
 	}
 }
