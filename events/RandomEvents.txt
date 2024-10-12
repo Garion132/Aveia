@@ -2634,7 +2634,9 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	trigger = {}
+	trigger = {
+		is_year = 1370
+	}
 
 	mean_time_to_happen = {
 		days = 1
@@ -10502,6 +10504,13 @@ country_event = {
 	
 	option = {
 		name = random_event.103.a
+		custom_tooltip = add_two_monuments_tt
+		hidden_effect = {
+			change_variable = {
+				which = monuments
+				value = 2
+			}
+		}
 		add_prestige = 10
 		add_legitimacy = 10
 		add_republican_tradition = 4

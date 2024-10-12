@@ -131,7 +131,7 @@ country_decisions = {
         }
 
         effect = {
-            add_years_of_income = 1.0
+            add_years_of_income = 2.0
             set_country_flag = iac_abolished_tax_exemptions
 
             add_estate_loyalty = {
