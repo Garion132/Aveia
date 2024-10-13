@@ -1,13 +1,11 @@
 #Sohoremyfa
-
 add_core = SOH
 owner = SOH
 controller = SOH
 culture = sohor
 religion = tlaunorist
-hre = no
 base_tax = 1
-base_production =3
+base_production = 3
 base_manpower = 7
 trade_goods = dyes
 capital = "Soh"
@@ -20,3 +18,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 1
+add_core = EHR

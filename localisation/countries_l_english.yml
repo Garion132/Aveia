@@ -1401,6 +1401,15 @@
  CUM_ADJ: "Cumar"
  SAS: "Salis"
  SAS_ADJ: "Salis"
+ EHR: "Elhera"
+ EHR_ADJ: "Elhera"
+ BLR: "Bularea"
+ BLR_ADJ: "Bularea"
+ GOU: "Gouaseir"
+ GOU_ADJ: "Gouaseir"
+ MUT: "Muthil"
+ MUT_ADJ: "Muthil"
+ 
  
  COLONIAL_KLAETIA_freygmia: "Freygmia"
  COLONIAL_KLAETIA_freygmia_ADJ: "Freygmian"
