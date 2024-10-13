@@ -140,7 +140,7 @@ civilizational_collapse = {
 	}	
 	
 	
-	on_start = iron_age_calamity.100 # Your country collapses
+	on_start = iron_age_calamity.99 # Your country collapses
 	# on_end = iron_age_calamity.101
 
 	on_monthly = {

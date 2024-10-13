@@ -110,6 +110,9 @@
   secularize_bureaucracy_unlock_tt:0 "Enacting this decision will eventually lead to §YSecularize the Bureaucracy§! which is a requirement to leave the §YIron Age Calamity!§!\n"
   iron_age_calamity_req_tt:0 "This is a requirement to leave the §YIron Age Calamity!§\n"
   #EST_VAL_CHURCH_COMMONER_CLERKS_LOYALTY:0 "Commoner Clerks: §R-10.0%§!"
+
+  iac_transmute_tin_to_silver_title: "Transmute Tin to Silver"
+  iac_transmute_tin_to_silver_desc: "While tin trasmutation to silver produces impurities, they can only be found by skilled alchemists. So, we could just... pass off transmuted tin as true silver to make up for lost tax revenue."
  #
 
  #Modifiers
@@ -256,8 +259,8 @@
   
   iron_age_calamity.117.t:0 "Tomb Raiders Sack a Holy Monument"
   iron_age_calamity.117.o1:0 "We have more important matters to attend to"
-  iron_age_calamity.117.o2:0 "Investigate the matter"
-  iron_age_calamity.117.o3:0 "Investigate and reinforce the tombs!"
+  iron_age_calamity.117.o2:0 "Grant powers to the Clergy to deal with it"
+  iron_age_calamity.117.o3:0 "Find the culprit ourselves and hang them"
 
   iron_age_calamity.118.t:0 "Buildings Fall to Ruin"
   iron_age_calamity.118.o1:0 "We weren't using them anyway"
@@ -326,6 +329,47 @@
   iron_age_calamity.134.t:0 "Bandits & Brigands"
   iron_age_calamity.134.o1:0 "Let them prey on the poor if they want"
   iron_age_calamity.134.o2:0 "Redouble Patrols"
+  
+  iron_age_calamity.135.t:0 "Corruption in the Temples"
+  iron_age_calamity.135.o1:0 "See if we can't get in on the action"
+  iron_age_calamity.135.o2:0 "Arrest the priests"
+  
+  iron_age_calamity.136.t:0 "Introduction of Feudalism"
+  iron_age_calamity.136.o1:0 "Feudalism will bring stability to the realm"
+  iron_age_calamity.136.o2:0 "Let's not rush things"
+  
+  iron_age_calamity.137.t:0 "Neighbors No Longer Trust Each Other"
+  iron_age_calamity.137.o1:0 "Uh oh"
+  
+  iron_age_calamity.138.t:0 "Temples Run out of Money"
+  iron_age_calamity.138.o1:0 "Lend them a hand"
+  iron_age_calamity.138.o1:0 "Seize the property"
+  iron_age_calamity.138.o1:0 "Tell them to sell it"
+  
+  iron_age_calamity.139.t:0 "Beggars at the Gates"
+  iron_age_calamity.139.o1:0 "Disperse them"
+  iron_age_calamity.139.o1:0 "Put them to work"
+  iron_age_calamity.139.o1:0 "Offer them aide"
+  
+  iron_age_calamity.140.t:0 "Are the Gods at Fault?"
+  iron_age_calamity.140.o1:0 "Absolutely"
+  iron_age_calamity.140.o2:0 "Absolutely NOT"
+  iron_age_calamity.140.o3:0 "Ignore the question"
+  
+  iron_age_calamity.141.t:0 "Peasants are Ignoring Authority"
+  iron_age_calamity.141.o1:0 "Remind them who we are"
+  iron_age_calamity.141.o2:0 "Let them be"
+  
+  iron_age_calamity.142.t:0 "The Rise of General Lawlessness"
+  iron_age_calamity.142.o1:0 "Great..."
+  iron_age_calamity.142.o2:0 "Shouldn't the guards be on the case?"
+  
+  iron_age_calamity.143.t:0 "The Coffers were Embezzeled"
+  iron_age_calamity.143.o1:0 "WHAT!?"
+  
+  iron_age_calamity.144.t:0 "Soldiers are Stealing from Locals"
+  iron_age_calamity.144.o1:0 "Good, we can pay them less"
+  iron_age_calamity.144.o2:0 "Offer better compensation"
 
   #What with the end-times apparently having arrived, some of the Clergy have gone mad. Now, with some of their power being threatened, the radicals have taken up arms and appear to be revolting, lest we give in to their demands
  
@@ -392,8 +436,8 @@
   iron_age_calamity.164.o2:0 "Attempt to dispell these myths"
   
   iron_age_calamity.165.t:0 "Foreigner Introduces Iron-Working"
-  iron_age_calamity.165.o1:0 "Stick to Bronze"
-  iron_age_calamity.165.o2:0 "Adopt Iron"
+  iron_age_calamity.165.o1:0 "Bronze already works fine enough"
+  iron_age_calamity.165.o2:0 "Investigate the new method"
   
   iron_age_calamity.166.t:0 "The Clergy Demand Iron-Smithy Rights"
   iron_age_calamity.166.o1:0 "Attempt to enforce the standard"

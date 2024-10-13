@@ -270,13 +270,9 @@ country_event = {
 
 	is_triggered_only = yes
 
-    immediate = {
-		iac_collapse_nation = yes
-	}
-
 	option = {
 		name = iron_age_calamity.99.opt.a #We had a good run
-		
+		iac_collapse_nation = yes
 	}
 }
 
@@ -1480,16 +1476,7 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			any_neighbor_country = {
-				has_country_modifier = iac_severe_calamity
-			}
-		}
-
-		modifier = {
-			factor = 2
-			NOT = {
-				any_neighbor_country = {
-					monthly_income = ROOT
-				}
+				NOT = { stability = 0 }
 			}
 		}
 	}
@@ -1542,7 +1529,7 @@ country_event = {
 		name = "iron_age_calamity.153.o2" #Pour Money into the Administration
 		add_legitimacy = -10
 		add_republican_tradition = -5
-		add_years_of_income = -2
+		add_years_of_income = -3
 		set_country_flag = iron_age_calamity_govt_buckles
 		
 		ai_chance = {
@@ -1724,6 +1711,7 @@ country_event = {
 
 	option = {
 		name = "iron_age_calamity.156.o1" #We can barely feed ourselves. Turn them away!
+		iac_decrease_stability_by_1 = yes
 
 		add_dip_power = -75
 		add_mil_power = -25
@@ -1741,6 +1729,7 @@ country_event = {
 		trigger = {
 			stability = 0
 		}
+		iac_decrease_stability_by_1 = yes
 
 		add_dip_power = -25
 		add_mil_power = -75
@@ -1805,7 +1794,7 @@ country_event = {
 		trigger = {
 			stability = 0
 		}
-		iac_decrease_stability_by_1 = yes
+		iac_decrease_stability_by_2 = yes
 		add_adm_power = -75
 		add_dip_power = -25
 		add_legitimacy = 5
@@ -1921,7 +1910,7 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.157.o1" #This is bad
 
-		add_legitimacy = -5
+		iac_decrease_stability_by_1 = yes
 		add_country_modifier = {
 			name = iac_treading_water
 			duration = 3650
@@ -2069,6 +2058,7 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.159.o1" #Let the waters come and go
 
+		add_legitimacy = -10
 		custom_tooltip = iac_coastal_flooding_buildings_tt
 		custom_tooltip = iac_coastal_flooding_pops_tt
 		hidden_effect = {
@@ -2177,7 +2167,8 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.159.o2" #Evacuate the coastline
 
-		add_adm_power = -100
+		iac_decrease_stability_by_1 = yes
+		add_adm_power = -50
 		add_dip_power = -50
 		
 		custom_tooltip = iac_coastal_flooding_buildings_tt
@@ -2295,13 +2286,13 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 60
 	}
 
 	option = {
 		name = "iron_age_calamity.160.o1" #It will blow away
 
-		iac_decrease_stability_by_1 = yes
+		iac_decrease_stability_by_2 = yes
 
 		custom_tooltip = iac_crop_failure_tt
 		hidden_effect = {
@@ -2321,11 +2312,11 @@ country_event = {
 					add_base_manpower = -1
 				}
 				else_if = {
-					limit = { has_province_modifier = iac_mild_calamity }
+					limit = { has_province_modifier = iac_moderate_calamity }
 					add_base_manpower = -2
 				}
 				else_if = {
-					limit = { has_province_modifier = iac_mild_calamity }
+					limit = { has_province_modifier = iac_severe_calamity }
 					add_base_manpower = -3
 				}
 			}
@@ -2343,6 +2334,7 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.160.o2" #Provide monetary relief to farmers
 
+		iac_decrease_stability_by_1 = yes
 		add_years_of_income = -1
 		
 		custom_tooltip = iac_crop_failure_tt
@@ -2363,11 +2355,11 @@ country_event = {
 					add_base_manpower = -1
 				}
 				else_if = {
-					limit = { has_province_modifier = iac_mild_calamity }
+					limit = { has_province_modifier = iac_moderate_calamity }
 					add_base_manpower = -2
 				}
 				else_if = {
-					limit = { has_province_modifier = iac_mild_calamity }
+					limit = { has_province_modifier = iac_severe_calamity }
 					add_base_manpower = -3
 				}
 			}
@@ -2411,11 +2403,11 @@ country_event = {
 					add_base_manpower = -1
 				}
 				else_if = {
-					limit = { has_province_modifier = iac_mild_calamity }
+					limit = { has_province_modifier = iac_moderate_calamity }
 					add_base_manpower = -2
 				}
 				else_if = {
-					limit = { has_province_modifier = iac_mild_calamity }
+					limit = { has_province_modifier = iac_severe_calamity }
 					add_base_manpower = -3
 				}
 			}
@@ -2458,7 +2450,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 60
 	}
 
 	option = {
@@ -2485,11 +2477,11 @@ country_event = {
 					add_base_manpower = -1
 				}
 				else_if = {
-					limit = { has_province_modifier = iac_mild_calamity }
+					limit = { has_province_modifier = iac_moderate_calamity }
 					add_base_manpower = -2
 				}
 				else_if = {
-					limit = { has_province_modifier = iac_mild_calamity }
+					limit = { has_province_modifier = iac_severe_calamity }
 					add_base_manpower = -3
 				}
 			}
@@ -2576,7 +2568,7 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.162.o1" #Let them roam
 
-		add_legitimacy = -10
+		iac_decrease_stability_by_1 = yes
 		event_target:banditry_province = {
 			add_devastation = 10
 			add_province_modifier = { 
@@ -2590,11 +2582,11 @@ country_event = {
 			factor = 25
 			modifier = {
 				factor = 0.5
-				NOT = { legitimacy_equivalent = 75 }
+				NOT = { stability = 1 }
 			}
 			modifier = {
 				factor = 0
-				NOT = { legitimacy_equivalent = 50 }
+				NOT = { stability = -1 }
 			}
 		}
 	}
@@ -2602,6 +2594,7 @@ country_event = {
 		name = "iron_age_calamity.162.o2" #Crack down on criminal activity
 
 		add_mil_power = -100
+		add_yearly_manpower = -0.5
 		
 		set_country_flag = iac_banditry
 		
@@ -2612,6 +2605,7 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.162.o3" #Enlist some to fight the rest
 
+		add_years_of_income = -0.5
 		add_corruption = 2
 		
 		set_country_flag = iac_banditry
@@ -2649,7 +2643,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 60
 	}
 
 	option = {
@@ -2733,9 +2727,12 @@ country_event = {
 	trigger = {
 		has_country_flag = iron_age_calamity_possible
 		has_global_flag = iron_age_calamity
-		NOT = { has_country_flag = iac_freezing_ports }
+		NOT = { has_country_flag = iac_rumors_and_whispers }
 		NOT = {
-			is_year = 1400
+			OR = {
+				has_country_flag = had_iron_age_calamity
+				is_year = 1400
+			}
 		}
 		capital_scope={
 			continent = aveia
@@ -4697,16 +4694,6 @@ country_event = {
 			is_triggered_only = yes
 
 			trigger = {
-				has_global_flag = morbir_rebellion
-				has_global_flag = deresunga_rebellion
-				has_global_flag = talb_rebellion
-				has_global_flag = himbe_rebellion
-				OR = {
-					exists = DER
-					exists = TAL
-				}
-				NOT = { war_with = DER }
-				NOT = { war_with = TAL }
 				tag = GUL
 			}
 			
@@ -4829,11 +4816,16 @@ country_event = {
 				end_disaster = iron_age_calamity
 				change_tag = UGR
 				
-				add_prestige = -50
-				add_stability = 1
-				add_adm_power = 100
-				add_dip_power = 100
-				add_mil_power = 100
+				if = {
+					limit = {
+						NOT = { has_country_flag = iac_collapsed_during_calamity }
+					}
+					add_prestige = -50
+					add_stability = 1
+					add_adm_power = 100
+					add_dip_power = 100
+					add_mil_power = 100
+				}
 
 				1749 = {
 					if = {
@@ -4895,6 +4887,7 @@ country_event = {
 				OR={
 					NOT={total_development = 600}
 					capital_scope = {controlled_by = GGD}
+					has_country_flag = iac_collapsed_during_calamity
 				}
 				defensive_war_with = GGD
 				tag = RAU
@@ -4969,11 +4962,16 @@ country_event = {
 				change_tag = LIN
 				set_government_rank = 2
 				
-				add_prestige = -50
-				add_stability = 1
-				add_adm_power = 100
-				add_dip_power = 100
-				add_mil_power = 100
+				if = {
+					limit = {
+						NOT = { has_country_flag = iac_collapsed_during_calamity }
+					}
+					add_prestige = -50
+					add_stability = 1
+					add_adm_power = 100
+					add_dip_power = 100
+					add_mil_power = 100
+				}
 
 				949 = {#cut lindoremy down to size
 					if = {
@@ -5000,10 +4998,14 @@ country_event = {
 			#is_triggered_only = yes
 
 			trigger = {
-				NOT={total_development = 800}
+				OR = {
+					has_country_flag = iac_collapsed_during_calamity
+					NOT={total_development = 800}
+				}
 				OR={
 					has_disaster = crisis_of_the_12th_century
 					NOT={stability = 2}
+					has_country_flag = iac_collapsed_during_calamity
 				}
 				NOT={defensive_war_with = GGD}
 				tag = RAU
@@ -5048,11 +5050,16 @@ country_event = {
 				change_tag = LIN
 				set_government_rank = 2
 				
-				add_prestige = -50
-				add_stability = 1
-				add_adm_power = 100
-				add_dip_power = 100
-				add_mil_power = 100
+				if = {
+					limit = {
+						NOT = { has_country_flag = iac_collapsed_during_calamity }
+					}
+					add_prestige = -50
+					add_stability = 1
+					add_adm_power = 100
+					add_dip_power = 100
+					add_mil_power = 100
+				}
 
 				949 = {#cut lindoremy down to size
 					if = {

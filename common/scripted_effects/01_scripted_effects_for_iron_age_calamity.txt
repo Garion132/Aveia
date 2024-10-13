@@ -438,6 +438,7 @@ iac_reset_reform = {
 
 
 iac_collapse_nation = {#will tag switch and hopefully clean up nations that collapse
+	set_country_flag = iac_collapsed_during_calamity
 	if={#Kyath becomes Mytn
 		limit={
 			tag = KYA
@@ -475,13 +476,14 @@ iac_collapse_nation = {#will tag switch and hopefully clean up nations that coll
 		limit={
 			tag = RAU
 		}
-		country_event = {id = iron_age_calamity.1006}
+		country_event = { id = iron_age_calamity.1005 }
+		country_event = { id = iron_age_calamity.1006 }
 	}
 	if={#Gulba becomes Ugra
 		limit={
 			tag = GUL
 		}
-		country_event = {id = iron_age_calamity.1004}
+		country_event = { id = iron_age_calamity.1004 }
 	}
 	if={#Kyath becomes Mytn
 		limit={

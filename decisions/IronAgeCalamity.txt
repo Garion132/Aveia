@@ -729,5 +729,40 @@ country_decisions = {
                 value = 2
             }
         }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                current_income_balance = 0
+            }
+            modifier = {
+                factor = 0
+                years_of_income = 10
+            }
+            modifier = {
+                factor = 5
+                NOT = { years_of_income = 1 }
+            }
+            modifier = {
+                factor = 5
+                num_of_loans = 2
+            }
+            modifier = {
+                factor = 10
+                num_of_loans = 5
+            }
+            modifier = {
+                factor = 0.25
+                inflation = 25
+            }
+            modifier = {
+                factor = 0.25
+                inflation = 50
+            }
+            modifier = {
+                factor = 0.25
+                inflation = 75
+            }
+        }
     }
 }

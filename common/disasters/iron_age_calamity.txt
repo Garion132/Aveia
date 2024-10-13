@@ -44,7 +44,10 @@ iron_age_calamity = {
 				is_in_deficit = yes
 			}
 		}
-		NOT = { legitimacy_equivalent = 75 }
+		OR = {
+			NOT = { legitimacy_equivalent = 75 }
+			NOT = { stability = 0 }
+		}
 		NOT = { stability = 3 }
 	}
 	
@@ -130,7 +133,6 @@ iron_age_calamity = {
 	
 
 	modifier = {
-		state_maintenance_modifier = -0.5
 		stability_cost_modifier = 0.3
         all_power_cost = 0.2
 		legitimacy = -0.5
@@ -225,7 +227,6 @@ iron_age_calamity = {
 			50 = iron_age_calamity.1001
 			50 = iron_age_calamity.1002
 			50 = iron_age_calamity.1003
-			50 = iron_age_calamity.1004
 			50 = iron_age_calamity.1007
 			50 = iron_age_calamity.1008
 			50 = iron_age_calamity.1009
