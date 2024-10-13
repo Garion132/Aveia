@@ -1,8 +1,8 @@
 ﻿l_english:
  elves_bookmark:0 "High Bronze Age"
- elves_bookmark_desc:0 "Garion132 plz do description."
+ elves_bookmark_desc:0 "The world is at the height of the Bronze age, The three Civilized races of Elf, Dwarf and Orc have spread across Aveia creating centrally planned Empires dominated by Clergy and Scribes. This has lead to the orignal Birthplace around the Great Lakes to only be populated by smaller Elvish States. The Region is dominated by Kyath, a near feudal state united by the Contract of Nalean, that unifed the smaller surrounding states into a much larger entity. It borders ihadar and the Great Bridge of Yhenil. The Bridge spans the 25 mile wide Anillelerien Gap that gives access to the Irrilanra and Iyfadirian Seas, Upon the bridge is the State of Elesilon, whose great merchant fleets conduct much of the trade across the Mallitors. To the south-west is Kingdom of Leleth and its control of the trade in Western Tin. Further west, the new state of Cyueg has rapidly expanded to nearly unite the Peninsular and contest with its new neighours, Kafethyr with its superior shipbuilding skills and the mountainous Nadara."
  enheasrion_basin_bookmark:0 "Riches of the Enheasrion Basin"
- enheasrion_basin_bookmark_desc:0 "The Enheasrion Basin, overflowing with wealth of both food and mineral is the homeland of most of the greatest states of the known world. in the south-west the Dwarves, masters of craft and forge populate the rich mountainous river valleys of southern enheasrion dominiated by the dreghei dominion which slowly streches its influence over all other dunirr states. In the center sits the preminate state of all the world, Rauthyr. The Hegemony sits on ....finish plz"
+ enheasrion_basin_bookmark_desc:0 "The Enheasrion Basin, overflowing with wealth of both food and mineral is the homeland of most of the greatest states of the known world. In the south-west the Dwarves, masters of craft and forge populate the rich mountainous river valleys of southern Enheasrion. Dominiated by the Dreghei Dominion, which slowly streches its influence over all other dwarvish states. In the center sits the preminate state of all the world, Rauthyr. The Hegemony sits across the upper tributaries of the Enheasrion River and is made up of the Six Great Houses that dominate the wealth the river creates. To the south-east the Orcs of Gulba use their control of the rich trade of Gold Knot and Sunspot through the desert to enrich itself. And to the North, Rauthyrs great rival of Shemsele sits perched to take advantage of any slip the Hegemony makes."
  kirloi_bookmark:0 "Civilizations of Kirloi"
  kirloi_bookmark_desc:0 "Garion132 plz do description."
  colonial_bookmark:0 "Mists of Elteria"
@@ -723,6 +723,8 @@
  yeltok_nation_title:0 "Form Yeltok"
  gugh_nation_title:0 "Form Gugh"
  erulian_nation_title:0 "Form Erulian Empire"
+ thilrana_nation_title: "Form Thilrana"
+ zexarlia_nation_title: "Unite Elterian Fauns"
  
  merc_bridge_guard:0 "Bridge Guard"
  merc_bronzeclad:0 "The Bronzeclad"
@@ -766,4 +768,6 @@
  
  birthplace_of_crop_rotation: "Birthplace of Crop Rotation"
  birthplace_of_iron_working: "Birthplace of Iron Working"
+ 
+ INCOMPAT_BIO: "§RBiologically Incompatable§!"
  

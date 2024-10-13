@@ -13,7 +13,6 @@ bookmark = {
 	country = CYU
 	country = LEL
 	country = KAF
-	country = SHE
 	country = IHA
 	country = ELE
 }

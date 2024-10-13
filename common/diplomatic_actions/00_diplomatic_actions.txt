@@ -97,6 +97,138 @@ royal_marriage = {
 			NOT = { war_with = FROM }
 		}
 	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_elven = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_spider = no
+				ruler_race_is_scurian = no
+				ruler_race_is_dragon = no
+				ruler_race_is_naga = no
+			}
+		}
+	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_dwarf = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_spider = no
+				ruler_race_is_scurian = no
+				ruler_race_is_dragon = no
+				ruler_race_is_faun = no
+				ruler_race_is_naga = no
+			}
+		}
+	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_ork = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_spider = no
+				ruler_race_is_scurian = no
+				ruler_race_is_dragon = no
+				ruler_race_is_faun = no
+			}
+		}
+	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_kolbold = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_spider = no
+				ruler_race_is_scurian = no
+			}
+		}
+	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_dragon = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_human = yes
+				ruler_race_is_kolbold = yes
+				ruler_race_is_dragon = yes
+			}
+		}
+	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_naga = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_spider = no
+				ruler_race_is_scurian = no
+				ruler_race_is_dragon = no
+				ruler_race_is_dwarf = no
+				ruler_race_is_faun = no
+				ruler_race_is_elven = no
+			}
+		}
+	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_spider = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_spider = yes
+			}
+		}
+	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_scurian = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_scurian = yes
+				ruler_race_is_human = yes
+				ruler_race_is_faun = yes
+			}
+		}
+	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_faun = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_spider = no
+				ruler_race_is_dragon = no
+				ruler_race_is_naga = no
+			}
+		}
+	}
+	condition = {
+		tooltip = INCOMPAT_BIO
+		potential = {
+			ruler_race_is_human = yes
+		}
+		allow = {
+			FROM={
+				ruler_race_is_spider = no
+			}
+		}
+	}
 }
 
 annexationaction = {

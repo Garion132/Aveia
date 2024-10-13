@@ -1,14 +1,12 @@
 #Nadara
-latent_trade_goods = {
-	iron
+latent_trade_goods = { 
+	iron 
 }
-
 add_core = NAD
 owner = NAD
 controller = NAD
 culture = nadarian
 religion = tlaunorist
-hre = no
 base_tax = 0
 base_production = 0
 trade_goods = fruit
@@ -22,5 +20,6 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-gravel_roads = yes
 set_variable = { which = arable_land value = 9 }
+add_core = NUM
+gravel_roads = yes

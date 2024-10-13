@@ -8,11 +8,15 @@ bookmark = {
 	easy_country = DRG
 	easy_country = RAU
 	easy_country = GUL
+	easy_country = SHE
 	country = DRG
 	country = RAU
 	country = GUL
+	country = SHE
 	country = BOL
 	country = ATH
 	country = NYH
 	country = SAL
+	country = GHD
+	
 }

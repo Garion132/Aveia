@@ -1,16 +1,14 @@
 #Nadara
-latent_trade_goods = {
-	iron
+latent_trade_goods = { 
+	iron 
 }
-
 add_core = NAD
 owner = NAD
 controller = NAD
 culture = cyoloai
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 trade_goods = livestock
 base_manpower = 4
 capital = "Nad 3"
@@ -23,3 +21,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 set_variable = { which = arable_land value = 4 }
+add_core = SAS

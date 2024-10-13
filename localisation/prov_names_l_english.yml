@@ -296,6 +296,7 @@
  PROV493: "Maless"
  PROV494: "Adrar Ridge"
  
+ PROV496: "Greatsands Edge"
  PROV497: "Glacial Wastes"
  PROV498: "Glacial Wastes"
  PROV499: "Orbury"
@@ -1354,14 +1355,31 @@
  PROV1584: "Turnas"
  PROV1585: "Eolinak"
  PROV1586: "Vlijna"
+ 
+ PROV1589: "Liuayuah"
 
  PROV1591:1 "Habinak"
  PROV1592:1 "Batnoshi"
  PROV1593:1 "Delehirlio"
  PROV1594:1 "Juokjor"
  PROV1595: "Ulangur"
-
+ PROV1596: "Malnukja"
+ PROV1597: "Huahjua"
+ PROV1598: "Lkiuhja"
+ PROV1599: "Douslia"
+ PROV1600: "Byhjyisa"
  PROV1601:1 "Boli"
+ PROV1602: "Ljunaoi"
+ PROV1603: "Tyluhalo"
+ PROV1604: "Nkalta"
+ PROV1605: "Iybanka"
+ PROV1606: "Kluihusa"
+ PROV1607: "Olnusa"
+ PROV1608: "Fakluhu"
+ PROV1609: "Huklura"
+ PROV1610: "Kakhidsa"
+ PROV1611: "Anilnua"
+ PROV1610: "Ritnaril"
 
  PROV1616: "Izgatvin"
  
@@ -2167,6 +2185,13 @@
  
  PROV2686: "Vuantrein Pass"
  
+ PROV2710: "Maoliisa"
+ PROV2711: "Liirysan"
+ PROV2712: "Dgaera"
+ PROV2713: "Usdagea"
+ PROV2714: "Gyarura"
+ PROV2715: "Numyutera"
+ PROV2716: "Gdaea"
  PROV2717: "Jluasir"
  PROV2718: "Fusklar"
  PROV2719: "Xarli"
@@ -2918,11 +2943,11 @@
  PROV5298: "Maluorik"
  PROV5299: "Karankai"
  PROV5300: "Sulfa"
- 
+ PROV5301: "Dimareak"
  PROV5302: "Gulkasra"
- 
+ PROV5303: "Maktilra Desert"
  PROV5304: "Maktui Dunes"
- 
+ PROV5305: "Maktilra Desert"
  PROV5306: "Bluegroves"
  PROV5307: "Bluegroves"
  

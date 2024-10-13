@@ -235,4 +235,78 @@ country_decisions = {
 		ai_importance = 400 #
 	}
 	
+	zexarlia_nation = {
+		major = yes
+		color = { 252 216 54 } #formable decision
+		potential = {
+			NOT = { has_country_flag = formed_zexarlia_flag }
+			NOT = { tag = ZEX }
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = ZEX }
+					num_of_cities = 3 #
+				}
+			}
+			primary_culture = kaletian
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			colonial_region = colonial_klaetia
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ZEX }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			num_of_owned_provinces_with = {
+				value = 24
+				OR={
+					is_core = ROOT
+					has_owner_accepted_culture = yes
+				}
+				culture_group = faun
+				colonial_region = colonial_klaetia
+			}
+		}
+		effect = {
+			change_tag = ZEX
+			remove_non_electors_emperors_from_empire_effect = yes
+			colonial_klaetia = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ZEX
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = ZEX_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_zexarlia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
 }

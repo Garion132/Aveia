@@ -25,11 +25,12 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Verdage"
 		dynasty = "Velit"
+		female = yes
 		birth_date = 1240.12.3
-		adm = 3
-		dip = 3
+		adm = 5
+		dip = 2
 		mil = 3
 	}
 }

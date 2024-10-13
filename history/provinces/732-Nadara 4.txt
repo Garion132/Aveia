@@ -1,11 +1,9 @@
 #Nadara
-
 add_core = NAD
 owner = NAD
 controller = NAD
 culture = cyoloai
 religion = tlaunorist
-hre = no
 base_tax = 1
 base_production = 4
 trade_goods = cloth
@@ -20,9 +18,10 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 2
+set_variable = { which = arable_land value = 7 }
+add_core = CUM
 fort_14th = yes
 town_square = yes
 gravel_roads = yes
 taxman = yes
 mint = yes
-set_variable = { which = arable_land value = 7 }

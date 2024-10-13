@@ -1,11 +1,9 @@
 #Nadara
-
 add_core = NAD
 owner = NAD
 controller = NAD
 culture = nadarian
 religion = tlaunorist
-hre = no
 base_tax = 0
 base_production = 2
 trade_goods = salt
@@ -19,7 +17,8 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+set_variable = { which = arable_land value = 9 }
+add_core = SNM
 port = yes
 town_square = yes
 gravel_roads = yes
-set_variable = { which = arable_land value = 9 }
