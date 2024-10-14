@@ -2776,6 +2776,96 @@ country_event = {
 	}
 }
 
+# Foreigner Introduces Iron-Working
+country_event = {
+	id = iron_age_calamity.165
+	title = "iron_age_calamity.165.t"
+	desc = "iron_age_calamity.165.d"
+	picture = INVENTION_eventPicture
+	
+	trigger = {
+		has_country_flag = iron_age_calamity_possible
+		has_global_flag = iron_age_calamity
+		NOT = { has_country_flag = iac_foreigner_introduces_iron_working }
+		NOT = {
+			is_year = 1400
+		}
+		NOT = { has_institution = iron_working }
+		NOT = {
+			capital_scope = {
+				iron_working = 25
+			}
+		}
+		any_known_country = {
+			has_institution = iron_working
+			has_matching_religion = ROOT
+		}
+		capital_scope={
+			continent = aveia
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = {
+		name = "iron_age_calamity.165.o1" # Bronze already works fine enough
+
+		add_legitimacy = 10
+		add_prestige = 10
+
+		set_country_flag = iac_foreigner_introduces_iron_working
+		
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.1
+				legitimacy_equivalent = 90
+			}
+			modifier = {
+				factor = 0.5
+				prestige = 90
+			}
+		}
+	}
+	option = {
+		name = "iron_age_calamity.165.o2" # Investigate the new method
+
+		iac_decrease_stability_by_1 = yes
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -10
+		}
+		
+		capital_scope = {
+			add_institution_embracement = {
+				which = iron_working
+				value = 100
+			}
+		}
+		set_country_flag = iac_foreigner_introduces_iron_working
+		
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0.5
+				NOT = { stability = 2 }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { stability = 0 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					current_institution_growth = 12
+				}
+			}
+		}
+	}
+}
+
 ######################
 
 #Human Horde Events
