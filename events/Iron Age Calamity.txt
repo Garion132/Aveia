@@ -2866,6 +2866,111 @@ country_event = {
 	}
 }
 
+# The Clergy Demand Iron-Smithy Rights
+country_event = {
+	id = iron_age_calamity.166
+	title = "iron_age_calamity.166.t"
+	desc = "iron_age_calamity.166.d"
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	trigger = {
+		has_country_flag = iron_age_calamity_possible
+		has_global_flag = iron_age_calamity
+		NOT = { has_country_flag = iac_clergy_demand_iron_rights }
+		NOT = {
+			is_year = 1400
+		}
+		has_institution = iron_working
+		estate_influence = {
+			estate = estate_church
+			influence = 40
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = {
+		name = "iron_age_calamity.166.o1" # Attempt to enforce the standard
+		add_legitimacy = -10
+		add_corruption = 2
+
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_church
+			desc = EST_VAL_IRON_SMITHY
+			influence = 10
+			duration = 7300
+		}
+
+		add_country_modifier = {
+			name = iac_iron_smithy_rights
+			duration = 7300
+		}
+
+		# set_estate_privilege = estate_church_monopoly_of_iron
+
+		set_country_flag = iac_clergy_demand_iron_rights
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "iron_age_calamity.166.o2" # The standard does not apply to iron
+
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -10
+		}
+		set_country_flag = iac_clergy_demand_iron_rights
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "iron_age_calamity.166.o3" # Revoke smithing rights altogether
+		iac_decrease_stability_by_1 = yes
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 10
+		}
+
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -20
+		}
+		add_estate_influence_modifier = {
+			estate = estate_church
+			desc = EST_VAL_RIGHTS_REVOKED
+			influence = -15
+			duration = 7300
+		}
+		change_estate_land_share = {
+			estate = estate_church
+			share = -5
+		}
+
+		if = {
+			limit = {
+				has_estate_privilege = estate_church_monopoly_of_bronze
+			}
+			remove_estate_privilege = estate_church_monopoly_of_bronze
+		}
+		
+		set_country_flag = iac_clergy_demand_iron_rights
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
 ######################
 
 #Human Horde Events

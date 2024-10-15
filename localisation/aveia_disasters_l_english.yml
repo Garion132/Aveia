@@ -166,6 +166,8 @@
   desc_iac_treading_water: "It's becoming more difficult day-by-day to stave off the ongoing crisis."
   iac_local_banditry: "Local Banditry"
   desc_iac_local_banditry: "Bandits have taken control of many functions of this province and are wrecking havoc on the locals."
+  iac_iron_smithy_rights: "Iron-Smithy Rights"
+  desc_iac_iron_smithy_rights: "We have elected to give Iron-Smithy rights to the Clergy, however this is not very popular with the populace."
  #
  
  #Events
@@ -443,6 +445,8 @@
   iron_age_calamity.166.o1:0 "Attempt to enforce the standard"
   iron_age_calamity.166.o2:0 "The standard does not apply to iron"
   iron_age_calamity.166.o3:0 "Revoke smithing rights altogether"
+  EST_VAL_IRON_SMITHY: "Iron-Smithy Rights: §Y+10.0%§!"
+  EST_VAL_RIGHTS_REVOKED: "Smithy Rights Revoked: §Y-15.0%§!"
   
   iron_age_calamity.167.t:0 "The Clergy Oppose Reform"
   iron_age_calamity.167.o1:0 "Delay our plans"
