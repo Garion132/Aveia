@@ -1,6 +1,10 @@
 #Silowbo
-culture = kaletian
-religion = shamanism#Fetishism
+culture = athanilan
+religion = tlaunorist
+add_core = SIL
+owner = SIL
+controller = SIL
+city = yes
 base_tax = 0
 base_production = 2
 base_manpower = 6
@@ -16,11 +20,3 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 discovered_by = free_fauns_group
-1200.1.1 = { 
-	add_core = SIL
-	owner = SIL
-	controller = SIL
-	religion = Tlaunorist
-	culture = athanilan
-}
-is_city = no

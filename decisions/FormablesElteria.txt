@@ -15,10 +15,8 @@ country_decisions = {
 				is_colonial_nation = yes
 				AND = {
 					NOT = {
-						OR = {
-							technology_group = scurian_group
-							technology_group = faun_group
-						}
+						technology_group = scurian_group
+						technology_group = free_fauns_group
 					}
 					capital_scope = {
 						colonial_region = colonial_klaetia
