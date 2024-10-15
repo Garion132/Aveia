@@ -390,6 +390,14 @@ estate_church_monopoly_of_bronze_mod = {
 		global_regiment_cost = 0.15
 		global_unrest = 2
 	}
+	iac_reform_opposition = {
+		global_unrest = -1
+		reform_progress_growth = -0.25
+		monthly_reform_progress_modifier = -0.5
+	}
+	iac_fear_of_men = {
+		land_morale = -0.1
+	}
 
 	#Great Depression
 	gd_new_roll_modifier = {

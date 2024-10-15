@@ -299,6 +299,7 @@ country_event = {
 		name = "iron_age_calamity.100.opt.a"
 		add_stability = -1
 		add_legitimacy = -10
+		add_republican_tradition = -5
 
 		add_disaster_modifier = {
 			name = iac_starved_administration
@@ -327,6 +328,7 @@ country_event = {
 
 		add_stability = -1
 		add_legitimacy = 10
+		add_republican_tradition = 5
 		
 		add_disaster_modifier = {
 			name = iac_starved_administration
@@ -1717,6 +1719,7 @@ country_event = {
 		add_mil_power = -25
 		add_prestige = 10
 		add_legitimacy = 10
+		add_republican_tradition = 5
 
 		set_country_flag = iac_flood_of_migrants
 		
@@ -1798,6 +1801,7 @@ country_event = {
 		add_adm_power = -75
 		add_dip_power = -25
 		add_legitimacy = 5
+		add_republican_tradition = 2.5
 		
 		if = {
 			limit = {
@@ -1951,6 +1955,7 @@ country_event = {
 			value = -5
 		}
 		add_legitimacy = -5
+		add_republican_tradition = -2.5
 		add_disaster_progress = {
 			disaster = civilizational_collapse
 			value = -5
@@ -2059,6 +2064,7 @@ country_event = {
 		name = "iron_age_calamity.159.o1" #Let the waters come and go
 
 		add_legitimacy = -10
+		add_republican_tradition = -5
 		custom_tooltip = iac_coastal_flooding_buildings_tt
 		custom_tooltip = iac_coastal_flooding_pops_tt
 		hidden_effect = {
@@ -2115,10 +2121,6 @@ country_event = {
 					10 = {
 						trigger = { has_building = taxman }
 						remove_building = taxman
-					}
-					10 = {
-						trigger = { has_building = fortification }
-						remove_building = fortification
 					}
 					10 = {
 						trigger = { has_building = gravel_roads }
@@ -2226,10 +2228,6 @@ country_event = {
 					10 = {
 						trigger = { has_building = taxman }
 						remove_building = taxman
-					}
-					10 = {
-						trigger = { has_building = fortification }
-						remove_building = fortification
 					}
 					10 = {
 						trigger = { has_building = gravel_roads }
@@ -2650,6 +2648,7 @@ country_event = {
 		name = "iron_age_calamity.163.o1" #Let the locals handle it
 
 		add_legitimacy = -10
+		add_republican_tradition = -5
 
 		if = {
 			limit = {
@@ -2813,6 +2812,7 @@ country_event = {
 		name = "iron_age_calamity.165.o1" # Bronze already works fine enough
 
 		add_legitimacy = 10
+		add_republican_tradition = 5
 		add_prestige = 10
 
 		set_country_flag = iac_foreigner_introduces_iron_working
@@ -2894,6 +2894,7 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.166.o1" # Attempt to enforce the standard
 		add_legitimacy = -10
+		add_republican_tradition = -5
 		add_corruption = 2
 
 		add_estate_loyalty = {
@@ -2968,6 +2969,272 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
+	}
+}
+
+# The Clergy Oppose Reform
+country_event = {
+	id = iron_age_calamity.167
+	title = "iron_age_calamity.167.t"
+	desc = "iron_age_calamity.167.d"
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	trigger = {
+		has_country_flag = iron_age_calamity_possible
+		has_global_flag = iron_age_calamity
+		NOT = { has_country_flag = iac_clergy_oppose_reform }
+		NOT = {
+			is_year = 1400
+		}
+		NOT = { government_reform_progress = 25 }
+		estate_influence = {
+			estate = estate_church
+			influence = 5
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = {
+		name = "iron_age_calamity.167.o1" # Delay our Plans
+		
+		add_legitimacy = -10
+		add_republican_tradition = -5
+		change_government_reform_progress = -25
+		add_country_modifier = {
+			name = iac_reform_opposition
+			duration = 7300
+		}
+
+		set_country_flag = iac_clergy_oppose_reform
+		
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0.5
+				NOT = { legitimacy_equivalent = 50 }
+			}
+			modifier = {
+				factor = 4
+				NOT = {
+					OR={
+						has_reform = bronze_monarchy_mechanic
+						has_reform = bronze_league_mechanic
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "iron_age_calamity.167.o2" # We cannot be stuck in the past
+
+		if = {
+			limit = {
+				estate_influence = {
+					estate = estate_church
+					influence = 60
+				}
+			}
+			iac_decrease_stability_by_3 = yes
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_church
+					influence = 30
+				}
+			}
+			iac_decrease_stability_by_2 = yes
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_church
+					influence = 5
+				}
+			}
+			iac_decrease_stability_by_1 = yes
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -20
+		}
+
+		set_country_flag = iac_clergy_oppose_reform
+		
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 4
+				NOT = {
+					estate_influence = {
+						estate = estate_church
+						influence = 30
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_church
+					influence = 60
+				}
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { stability = 2 }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { stability = 1 }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { stability = 0 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { stability = -1 }
+			}
+		}
+	}
+}
+
+# Fear of the Age of Men
+country_event = {
+	id = iron_age_calamity.170
+	title = "iron_age_calamity.170.t"
+	desc = "iron_age_calamity.170.d"
+	picture = IMPALED_SOLDIERS_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = iron_age_calamity_possible
+		has_global_flag = iron_age_calamity
+	}
+
+	mean_time_to_happen = {
+		months = 30
+	}
+
+	option = {
+		name = "iron_age_calamity.170.o1" # Are we helpless?
+		
+		iac_decrease_stability_by_1 = yes
+		add_legitimacy = -10
+		add_republican_tradition = -5
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 10
+		}
+		add_country_modifier = {
+			name = iac_fear_of_men
+			duration = 3650
+		}
+	}
+}
+
+# The Ground Quakes
+country_event = {
+	id = iron_age_calamity.171
+	title = "iron_age_calamity.171.t"
+	desc = "iron_age_calamity.171.d"
+	picture = INVENTION_eventPicture
+	
+	trigger = {
+		has_country_flag = iron_age_calamity_possible
+		has_global_flag = iron_age_calamity
+		NOT = { has_country_flag = iac_earthquakes }
+		NOT = {
+			is_year = 1400
+		}
+		capital_scope={
+			continent = aveia
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "iron_age_calamity.165.o1" # Cities crumble
+
+		add_legitimacy = -10
+		add_republican_tradition = -5
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 20
+		}
+		
+		custom_tooltip = iac_earthquakes_tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					num_of_buildings_in_province = 3
+				}
+				random_list = {
+					10 = {
+						trigger = { has_building = marketplace }
+						remove_building = marketplace
+					}
+					10 = {
+						trigger = { has_building = trade_depot }
+						remove_building = trade_depot
+					}
+					10 = {
+						trigger = { has_building = mint }
+						remove_building = mint
+					}
+					10 = {
+						trigger = { has_building = shrine }
+						remove_building = shrine
+					}
+					10 = {
+						trigger = { has_building = temple }
+						remove_building = temple
+					}
+					10 = {
+						trigger = { has_building = town_square }
+						remove_building = town_square
+					}
+					10 = {
+						trigger = { has_building = port }
+						remove_building = port
+					}
+					10 = {
+						trigger = { has_building = shipwright }
+						remove_building = shipwright
+					}
+					10 = {
+						trigger = { has_building = workshop }
+						remove_building = workshop
+					}
+					10 = {
+						trigger = { has_building = alchemist_shop }
+						remove_building = alchemist_shop
+					}
+					10 = {
+						trigger = { has_building = barracks }
+						remove_building = barracks
+					}
+					10 = {
+						trigger = { has_building = taxman }
+						remove_building = taxman
+					}
+					10 = {
+						trigger = { has_building = school }
+						remove_building = school
+					}
+				}
+			}
+		}
+
+		set_country_flag = iac_earthquakes
 	}
 }
 
@@ -3218,6 +3485,14 @@ country_event = {#sweaping south
 					who = SHE
 					casus_belli = cb_mannish_great_conquest
 				}
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					has_country_flag = iron_age_calamity_possible
+				}
+				country_event = { id = iron_age_calamity.170 days = 30 random = 30 }
 			}
 		}
 	}

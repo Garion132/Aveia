@@ -168,6 +168,10 @@
   desc_iac_local_banditry: "Bandits have taken control of many functions of this province and are wrecking havoc on the locals."
   iac_iron_smithy_rights: "Iron-Smithy Rights"
   desc_iac_iron_smithy_rights: "We have elected to give Iron-Smithy rights to the Clergy, however this is not very popular with the populace."
+  iac_reform_opposition: "Reform Opposition"
+  desc_iac_reform_opposition: "The priests and temples have gotten their way in opposing our reforms."
+  iac_fear_of_men: "Fear of Men"
+  desc_iac_fear_of_men: "The human barbarians have appointed themselves an illegitimate despot with limitless ambition. They are barreling down the mountainside. "
  #
  
  #Events
@@ -465,7 +469,8 @@
   
   iron_age_calamity.171.t:0 "The Ground Quakes"
   iron_age_calamity.171.o1:0 "Cities crumble"
-  
+  iac_earthquakes_tt: "In every §Yprovince§! with at least §Ythree buildings§!, a random non-fort non-manufactory non-road §Ybuilding§! will be §Rdestroyed§!"
+
   iron_age_calamity.172.t:0 "Others Admire Our Tenacity"
   iron_age_calamity.172.o1:0 "Glory to ourselves"
   
