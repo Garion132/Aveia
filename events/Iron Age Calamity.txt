@@ -3162,7 +3162,7 @@ country_event = {
 	}
 
 	option = {
-		name = "iron_age_calamity.165.o1" # Cities crumble
+		name = "iron_age_calamity.171.o1" # Cities crumble
 
 		add_legitimacy = -10
 		add_republican_tradition = -5
