@@ -24,9 +24,9 @@ change_estate_land_share = {
 
 1268.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Jeliri"
 		dynasty = "Wesla"
-		birth_date = 1258.12.3
+		birth_date = 1248.12.3
 		adm = 1
 		dip = 3
 		mil = 4

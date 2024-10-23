@@ -4479,7 +4479,7 @@ drakonic = {
 	rake = {
 		#primary = NYH
 		male_names = {
-			Ulguth Vadalor Damruc Shamoryc Tamurnock Tisloc Acere Teunop Futlen Hidra Canrrak Rinvarta Guldarc Telindok Timxer Garak Quetilli Saprest Timarlok Kralmac Teudei Vokanuir Malnoc Rakidor Samore Samrk Telrak 
+			Aibhas Ulguth Vadalor Damruc Shamoryc Tamurnock Tisloc Acere Teunop Futlen Hidra Canrrak Rinvarta Guldarc Telindok Timxer Garak Quetilli Saprest Timarlok Kralmac Teudei Vokanuir Malnoc Rakidor Samore Samrk Telrak Esmit Ulguth Tharthuk Timxer
 		}
 		female_names = {
 			Velyai
@@ -7381,11 +7381,11 @@ aj_snaga={#naga
 		}
 		male_names = {
 			"Shethar" "Ratsada" "Chairacha" "Mahin"  "Songtham" "Chettha" 
-			"Narai" "Phetracha" "Taksin" "Kaeo" "Ket" "Saikham" 
-			"Idjer" "Irjile" "Pana" "Sacu"
+			"Narai" "Phetracha" "Taksin" "Kaeo" "Kalssek" "Ket" "Saikham" 
+			"Idjer" "Irjile" "Pana" "Sacu" "Hwugaw" "Mahin" "Ssjaru" "Ratsada"
 		}
 		female_names = {
-			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa"
+			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa" "Ssarindra"
 		}
 	}
 	zsorji = {
@@ -7395,11 +7395,11 @@ aj_snaga={#naga
 		}
 		male_names = {
 			"Shethar" "Ratsada" "Chairacha" "Mahin"  "Songtham" "Chettha" 
-			"Narai" "Phetracha" "Taksin" "Kaeo" "Ket" "Saikham" 
-			"Idjer" "Irjile" "Pana" "Sacu"
+			"Narai" "Phetracha" "Taksin" "Kaeo" "Kalssek" "Ket" "Saikham" 
+			"Idjer" "Irjile" "Pana" "Sacu" "Hwugaw" "Mahin" "Ssjaru" "Ratsada"
 		}
 		female_names = {
-			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa"
+			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa" "Ssarindra"
 		}
 	}
 	pajeise = {
@@ -7409,11 +7409,11 @@ aj_snaga={#naga
 		}
 		male_names = {
 			"Shethar" "Ratsada" "Chairacha" "Mahin"  "Songtham" "Chettha" 
-			"Narai" "Phetracha" "Taksin" "Kaeo" "Ket" "Saikham" 
-			"Idjer" "Irjile" "Pana" "Sacu"
+			"Narai" "Phetracha" "Taksin" "Kaeo" "Kalssek" "Ket" "Saikham" 
+			"Idjer" "Irjile" "Pana" "Sacu" "Hwugaw" "Mahin" "Ssjaru" "Ratsada"
 		}
 		female_names = {
-			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa"
+			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa" "Ssarindra"
 		}
 	}
 	sasuri = {
@@ -7423,11 +7423,11 @@ aj_snaga={#naga
 		}
 		male_names = {
 			"Shethar" "Ratsada" "Chairacha" "Mahin"  "Songtham" "Chettha" 
-			"Narai" "Phetracha" "Taksin" "Kaeo" "Ket" "Saikham" 
-			"Idjer" "Irjile" "Pana" "Sacu"
+			"Narai" "Phetracha" "Taksin" "Kaeo" "Kalssek" "Ket" "Saikham" 
+			"Idjer" "Irjile" "Pana" "Sacu" "Hwugaw" "Mahin" "Ssjaru" "Ratsada"
 		}
 		female_names = {
-			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa"
+			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa" "Ssarindra"
 		}
 	}
 	athaju = {
@@ -7437,11 +7437,11 @@ aj_snaga={#naga
 		}
 		male_names = {
 			"Shethar" "Ratsada" "Chairacha" "Mahin"  "Songtham" "Chettha" 
-			"Narai" "Phetracha" "Taksin" "Kaeo" "Ket" "Saikham" 
-			"Idjer" "Irjile" "Pana" "Sacu"
+			"Narai" "Phetracha" "Taksin" "Kaeo" "Kalssek" "Ket" "Saikham" 
+			"Idjer" "Irjile" "Pana" "Sacu" "Hwugaw" "Mahin" "Ssjaru" "Ratsada"
 		}
 		female_names = {
-			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa"
+			"Amporn" "Sri" "Komol" "Dara" "Mya" "Yasa" "Ssarindra"
 		}
 	}
 

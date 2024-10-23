@@ -23,13 +23,14 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1087.6.31 = {
 	monarch = {
-		name = "Filler"
+		name = "Vaukal"
 		dynasty = "Isar"
-		birth_date = 1240.12.3
+		birth_date = 867.2.17
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 5
+		mil = 1
 	}
+	add_ruler_personality = immortal_personality
 }

@@ -23,13 +23,14 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+1140.2.2 = {
 	monarch = {
-		name = "Filler"
+		name = "Riundok"
 		dynasty = "Duresse"
-		birth_date = 1240.12.3
-		adm = 3
-		dip = 3
+		birth_date = 1041.6.17
+		adm = 4
+		dip = 4
 		mil = 3
 	}
+	add_ruler_personality = immortal_personality
 }

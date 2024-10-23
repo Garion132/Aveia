@@ -24,13 +24,13 @@ change_estate_land_share = {
 }
 
 
-1240.9.16 = {
+890.4.27 = {
 	monarch = {
-		name = "Filler"
+		name = "Wahildra"
 		dynasty = "Taulwa"
-		birth_date = 1240.12.3
-		adm = 3
-		dip = 3
+		birth_date = 1007.8.17
+		adm = 4
+		dip = 4
 		mil = 3
 	}
 	add_ruler_personality = immortal_personality

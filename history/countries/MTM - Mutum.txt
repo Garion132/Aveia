@@ -10,13 +10,13 @@ capital = 2854 #
 
 
 
-1240.9.16 = {
+1237.11.7 = {
 	monarch = {
-		name = "Filler"
+		name = "Kruldac"
 		dynasty = "Mutum"
-		birth_date = 1240.12.3
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1218.6.12
+		adm = 4
+		dip = 2
+		mil = 2
 	}
 }

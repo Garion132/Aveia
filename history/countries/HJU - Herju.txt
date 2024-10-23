@@ -11,13 +11,13 @@ capital = 2752 #
 
 
 
-# 1240.9.16 = {
-	# monarch = {
-		# name = "Eltro III"
-		# dynasty = "Gugh"
-		# birth_date = 1240.12.3
-		# adm = 5
-		# dip = 4
-		# mil = 3
-	# }
-# }
+1247.9.16 = {
+	monarch = {
+		name = "Balopu II"
+		dynasty = "Herju"
+		birth_date = 1221.8.17
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
