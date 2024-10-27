@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "AVEIA_CITY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_aveia/AVEIA_CITY_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}

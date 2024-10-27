@@ -241,10 +241,6 @@
   iron_age_calamity.111.d:0 "The rumors about an ambitious general have turned true! There is now a strong pretender for the throne!"
   iron_age_calamity.111.o1:0 "Death to the traitor!"
   
-  iron_age_calamity.112.t:0 "Ghosts in the Shadows"
-  iron_age_calamity.112.o1:0 "Abandon the Slums"
-  iron_age_calamity.112.o2:0 "Send in the Guard"
-  
   iron_age_calamity.113.t:0 "The Peasantry Begin Questioning our Rule"
   iron_age_calamity.113.o1:0 "Put the ring-leaders to death"
   iron_age_calamity.113.o2:0 "Scapegoat the Clergy"
@@ -325,8 +321,8 @@
   iron_age_calamity.131.o3:0 "Alleviate the root cause"
   
   iron_age_calamity.132.t:0 "Disloyal Servants"
-  iron_age_calamity.132.o2:0 "We have more important matters to attend to"
-  iron_age_calamity.132.o1:0 "'Correct' the servants"
+  iron_age_calamity.132.o1:0 "We have more important matters to attend to"
+  iron_age_calamity.132.o2:0 "'Correct' the servants"
   
   iron_age_calamity.133.t:0 "Palace Coup"
   iron_age_calamity.133.o1:0 "It succeeds"
@@ -334,7 +330,7 @@
   
   iron_age_calamity.134.t:0 "Bandits & Brigands"
   iron_age_calamity.134.o1:0 "Let them prey on the poor if they want"
-  iron_age_calamity.134.o2:0 "Redouble Patrols"
+  iron_age_calamity.134.o2:0 "Redouble patrols"
   
   iron_age_calamity.135.t:0 "Corruption in the Temples"
   iron_age_calamity.135.o1:0 "See if we can't get in on the action"
@@ -376,6 +372,10 @@
   iron_age_calamity.144.t:0 "Soldiers are Stealing from Locals"
   iron_age_calamity.144.o1:0 "Good, we can pay them less"
   iron_age_calamity.144.o2:0 "Offer better compensation"
+  
+  iron_age_calamity.145.t:0 "Ghosts in the Shadows"
+  iron_age_calamity.145.o1:0 "Abandon the slums"
+  iron_age_calamity.145.o2:0 "Send in the Guard"
 
   #What with the end-times apparently having arrived, some of the Clergy have gone mad. Now, with some of their power being threatened, the radicals have taken up arms and appear to be revolting, lest we give in to their demands
  

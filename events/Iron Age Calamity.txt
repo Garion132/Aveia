@@ -1380,6 +1380,913 @@ country_event = {
 	}
 }
 
+#The Peasantry Begin Questioning Our Rule
+country_event = {
+	id = iron_age_calamity.113
+	title = "iron_age_calamity.113.t"
+	desc = "iron_age_calamity.113.d"
+	picture = CITY_VIEW_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.113.o1" #Put the ring-leaders to death
+		
+	}
+	option = {
+		name = "iron_age_calamity.113.o2" #Scapegoat the Clergy
+		
+	}
+	option = {
+		name = "iron_age_calamity.113.o3" #Say Nothing
+		
+	}
+}
+
+#Fall of the Merchant Class
+country_event = {
+	id = iron_age_calamity.114
+	title = "iron_age_calamity.114.t"
+	desc = "iron_age_calamity.114.d"
+	picture = BURGHER_ESTATE_UPSET_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.114.o1" #Let them wither
+		
+	}
+	option = {
+		name = "iron_age_calamity.114.o2" #Take advantage of the situation
+		
+	}
+	option = {
+		name = "iron_age_calamity.114.o3" #Attempt to bolster the merchants
+		
+	}
+}
+
+#Doomsday Cults
+country_event = {
+	id = iron_age_calamity.115
+	title = "iron_age_calamity.115.t"
+	desc = "iron_age_calamity.115.d"
+	picture = STREET_SPEECH_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.115.o1" #Ignore them
+		
+	}
+	option = {
+		name = "iron_age_calamity.115.o2" #Disperse the cults
+		
+	}
+}
+
+#Mannish Savages Pillage the Countryside
+country_event = {
+	id = iron_age_calamity.116
+	title = "iron_age_calamity.116.t"
+	desc = "iron_age_calamity.116.d"
+	picture = COSSACK_ESTATE_UPSET_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.116.o1" #Rally the troops!
+		
+	}
+	option = {
+		name = "iron_age_calamity.116.o2" #Bribe them to go away
+		
+	}
+}
+
+#Tomb Raiders Sack a Holy Monument
+country_event = {
+	id = iron_age_calamity.117
+	title = "iron_age_calamity.117.t"
+	desc = "iron_age_calamity.117.d"
+	picture = GREAT_BUILDING_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.117.o1" #We have more important matters to attend to
+		
+	}
+	option = {
+		name = "iron_age_calamity.117.o2" #Grant powers to the Clergy to deal with it
+		
+	}
+	option = {
+		name = "iron_age_calamity.117.o3" #Find the culprit ourselves and hang them
+		
+	}
+}
+
+#Buildings Fall to Ruin
+country_event = {
+	id = iron_age_calamity.118
+	title = "iron_age_calamity.118.t"
+	desc = "iron_age_calamity.118.d"
+	picture = SIEGE_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.118.o1" #We weren't using them anyway
+		
+	}
+	option = {
+		name = "iron_age_calamity.118.o2" #Attempt last-minute repairs
+		
+	}
+	option = {
+		name = "iron_age_calamity.118.o3" #Mobilize the army to deal with it
+		
+	}
+}
+
+#Shephards Flee to Greener Pastures
+country_event = {
+	id = iron_age_calamity.119
+	title = "iron_age_calamity.119.t"
+	desc = "iron_age_calamity.119.d"
+	picture = REFUGEES_ESCAPING_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.119.o1" #Off they go
+		
+	}
+	option = {
+		name = "iron_age_calamity.119.o2" #Persuade some to stay
+		
+	}
+}
+
+#Merchants Relocate Their Businesses
+country_event = {
+	id = iron_age_calamity.120
+	title = "iron_age_calamity.120.t"
+	desc = "iron_age_calamity.120.d"
+	picture = EUROPEAN_REFUGEES_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.120.o1" #Oh well
+		
+	}
+	option = {
+		name = "iron_age_calamity.120.o2" #Relax trade standards
+		
+	}
+}
+
+#Slaves Break Free of Their Masters
+country_event = {
+	id = iron_age_calamity.121
+	title = "iron_age_calamity.121.t"
+	desc = "iron_age_calamity.121.d"
+	picture = ANGRY_MOB_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.121.o1" #Let them have freedom
+		
+	}
+	option = {
+		name = "iron_age_calamity.121.o2" #Put them back in their place
+		
+	}
+}
+
+#City Guards are Taking Bribes
+country_event = {
+	id = iron_age_calamity.122
+	title = "iron_age_calamity.122.t"
+	desc = "iron_age_calamity.122.d"
+	picture = CORRUPTION_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.122.o1" #We all need to eat
+		
+	}
+	option = {
+		name = "iron_age_calamity.122.o2" #Crack down on the practice
+		
+	}
+}
+
+#Clergy Want More Control
+country_event = {
+	id = iron_age_calamity.123
+	title = "iron_age_calamity.123.t"
+	desc = "iron_age_calamity.123.d"
+	picture = CHURCH_ESTATE_2_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.123.o1" #Ignore their demands
+		
+	}
+	option = {
+		name = "iron_age_calamity.123.o2" #We cannot risk antagonizing the Clergy
+		
+	}
+}
+
+#Outbreak of Illness
+country_event = {
+	id = iron_age_calamity.124
+	title = "iron_age_calamity.124.t"
+	desc = "iron_age_calamity.124.d"
+	picture = PLAGUE_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.124.o1" #At least they aren't starving...
+		
+	}
+	option = {
+		name = "iron_age_calamity.124.o2" #Seek the aide of the Clergy
+		
+	}
+	option = {
+		name = "iron_age_calamity.124.o3" #Dig into the herbal supplies
+		
+	}
+}
+
+#Equipment Neglect
+country_event = {
+	id = iron_age_calamity.125
+	title = "iron_age_calamity.125.t"
+	desc = "iron_age_calamity.125.d"
+	picture = NOT_DISCIPLINED_SOLDIERS_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.125.o1" #Let it go to ruin
+		
+	}
+	option = {
+		name = "iron_age_calamity.125.o2" #Provide additional funding
+		
+	}
+}
+
+#City Refuses to Pay Taxes
+country_event = {
+	id = iron_age_calamity.126
+	title = "iron_age_calamity.126.t"
+	desc = "iron_age_calamity.126.d"
+	picture = AVEIA_CITY_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.126.o1" #It's not like they were giving us much anyway
+		
+	}
+	option = {
+		name = "iron_age_calamity.126.o2" #Reinstate order
+		
+	}
+}
+
+#Paranoia In the Streets
+country_event = {
+	id = iron_age_calamity.127
+	title = "iron_age_calamity.127.t"
+	desc = "iron_age_calamity.127.d"
+	picture = PANIC_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.127.o1" #What if they're right!?
+		
+	}
+	option = {
+		name = "iron_age_calamity.127.o2" #Reassure the public
+		
+	}
+}
+
+#A Diplomat Goes Missing
+country_event = {
+	id = iron_age_calamity.128
+	title = "iron_age_calamity.128.t"
+	desc = "iron_age_calamity.128.d"
+	picture = DIPLOMACY_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.128.o1" #Let us pray for his return
+		
+	}
+}
+
+#The Wealthy Relocate to Elteria
+country_event = {
+	id = iron_age_calamity.129
+	title = "iron_age_calamity.129.t"
+	desc = "iron_age_calamity.129.d"
+	picture = TOLLS_SHIP_CARGO_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.129.o1" #Off they go
+		
+	}
+}
+
+#Wealthy Families Come Ashore
+country_event = {
+	id = iron_age_calamity.130
+	title = "iron_age_calamity.130.t"
+	desc = "iron_age_calamity.130.d"
+	picture = TOLLS_SHIP_CARGO_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.130.o1" #Welcome to Elteria!
+		
+	}
+}
+
+#Piles of Bodies
+country_event = {
+	id = iron_age_calamity.131
+	title = "iron_age_calamity.131.t"
+	desc = "iron_age_calamity.131.d"
+	picture = FAMINE_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.131.o1" #Disgusting
+		
+	}
+	option = {
+		name = "iron_age_calamity.131.o2" #Clean the streets
+		
+	}
+	option = {
+		name = "iron_age_calamity.131.o3" #Alleviate the root cause
+		
+	}
+}
+
+#Disloyal Servants
+country_event = {
+	id = iron_age_calamity.132
+	title = "iron_age_calamity.132.t"
+	desc = "iron_age_calamity.132.d"
+	picture = CONSORT_DOING_BADLY_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.132.o1" #We have more important matters to attend to
+		
+	}
+	option = {
+		name = "iron_age_calamity.132.o2" #'Correct' the servants
+		
+	}
+}
+
+#Palace Coup
+country_event = {
+	id = iron_age_calamity.133
+	title = "iron_age_calamity.133.t"
+	desc = "iron_age_calamity.133.d"
+	picture = KING_ASSASSINATION_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.133.o1" #It succeeds
+		
+	}
+	option = {
+		name = "iron_age_calamity.133.o2" #It fails
+		
+	}
+}
+
+#Bandits & Brigands
+country_event = {
+	id = iron_age_calamity.134
+	title = "iron_age_calamity.134.t"
+	desc = "iron_age_calamity.134.d"
+	picture = VILLAGE_RAIDED_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.134.o1" #Let them prey on the poor if they want
+		
+	}
+	option = {
+		name = "iron_age_calamity.134.o2" #Redouble patrols
+		
+	}
+}
+
+#Corruption in the Temples
+country_event = {
+	id = iron_age_calamity.135
+	title = "iron_age_calamity.135.t"
+	desc = "iron_age_calamity.135.d"
+	picture = CORRUPTION_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.135.o1" #See if we can't get in on the action
+		
+	}
+	option = {
+		name = "iron_age_calamity.135.o2" #Arrest the priests
+		
+	}
+}
+
+#Introduction of Feudalism
+country_event = {
+	id = iron_age_calamity.136
+	title = "iron_age_calamity.136.t"
+	desc = "iron_age_calamity.136.d"
+	picture = FEUDALISM_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.136.o1" #Feudalism will bring stability to the realm
+		
+	}
+	option = {
+		name = "iron_age_calamity.136.o2" #Let's not rush things
+		
+	}
+}
+
+#Neighbors No Longer Trust Each Other
+country_event = {
+	id = iron_age_calamity.137
+	title = "iron_age_calamity.137.t"
+	desc = "iron_age_calamity.137.d"
+	picture = ACCUSATION_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.137.o1" #Uh oh
+		
+	}
+}
+
+#Temples Run out of Money
+country_event = {
+	id = iron_age_calamity.138
+	title = "iron_age_calamity.138.t"
+	desc = "iron_age_calamity.138.d"
+	picture = CHURCH_ESTATE_2_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.138.o1" #Lend them a hand
+		
+	}
+	option = {
+		name = "iron_age_calamity.138.o2" #Seize the property
+		
+	}
+	option = {
+		name = "iron_age_calamity.138.o3" #Tell them to sell it
+		
+	}
+}
+
+#Beggars at the Gates
+country_event = {
+	id = iron_age_calamity.139
+	title = "iron_age_calamity.139.t"
+	desc = "iron_age_calamity.139.d"
+	picture = FAMINE_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.139.o1" #Disperse them
+		
+	}
+	option = {
+		name = "iron_age_calamity.139.o2" #Put them to work
+		
+	}
+	option = {
+		name = "iron_age_calamity.139.o3" #Offer them aide
+		
+	}
+}
+
+#Are the Gods at Fault?
+country_event = {
+	id = iron_age_calamity.140
+	title = "iron_age_calamity.140.t"
+	desc = "iron_age_calamity.140.d"
+	picture = MESOAMERICAN_GODS_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.140.o1" #Absolutely
+		
+	}
+	option = {
+		name = "iron_age_calamity.140.o2" #Absolutely NOT
+		
+	}
+	option = {
+		name = "iron_age_calamity.140.o3" #Ignore the question
+		
+	}
+}
+
+#Peasants are Ignoring Authority
+country_event = {
+	id = iron_age_calamity.141
+	title = "iron_age_calamity.141.t"
+	desc = "iron_age_calamity.141.d"
+	picture = TRIBUTE_TO_TATARS_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.141.o1" #Remind them who we are
+		
+	}
+	option = {
+		name = "iron_age_calamity.141.o2" #Let them be
+		
+	}
+}
+
+#The Rise of General Lawlessness
+country_event = {
+	id = iron_age_calamity.142
+	title = "iron_age_calamity.142.t"
+	desc = "iron_age_calamity.142.d"
+	picture = IMPALED_SOLDIERS_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.142.o1" #Great...
+		
+	}
+	option = {
+		name = "iron_age_calamity.142.o2" #Shouldn't the guards be on the case?
+		
+	}
+}
+
+#The Coffers were Embezzeled
+country_event = {
+	id = iron_age_calamity.143
+	title = "iron_age_calamity.143.t"
+	desc = "iron_age_calamity.143.d"
+	picture = CITY_VIEW_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.143.o1" #WHAT!?
+		
+	}
+}
+
+#Soldiers are Stealing from Locals
+country_event = {
+	id = iron_age_calamity.144
+	title = "iron_age_calamity.144.t"
+	desc = "iron_age_calamity.144.d"
+	picture = NOT_DISCIPLINED_SOLDIERS_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.144.o1" #Good, we can pay them less
+		
+	}
+	option = {
+		name = "iron_age_calamity.144.o2" #Offer better compensation
+		
+	}
+}
+
+#Ghosts in the Shadows
+country_event = {
+	id = iron_age_calamity.145
+	title = "iron_age_calamity.145.t"
+	desc = "iron_age_calamity.145.d"
+	picture = SYNTHETICS_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "iron_age_calamity.145.o1" #Abandon the slums
+		
+	}
+	option = {
+		name = "iron_age_calamity.145.o2" #Send in the guard
+		
+	}
+}
+
 ######################
 
 #Events for being out of calamity
