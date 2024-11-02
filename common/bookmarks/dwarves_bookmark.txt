@@ -17,6 +17,6 @@ bookmark = {
 	country = ATH
 	country = NYH
 	country = SAL
-	country = GHD
+	country = GHA
 	
 }

@@ -40,3 +40,151 @@ Rakes: Bureaucratic, Diplomatic
 Scurians: Naturalist, Isolationist
 Sun Elves: Religious, Empire Builders
 Kaltros Uglik: Materialist, Merchants eg. Americans
+
+racial modifiers:
+Elves
+	admin
+		+10% trade range
+		-1% prestige decay
+		+15% promote culture cost
+		+25% female advisor chance
+		can recruit female generals
+	mil
+		+5% discipline
+		+10% fire
+		-10% fire received
+		+2.5% shock received
+		+10% light ship combat
+		-50% manpower recovery
+		-25% salior recovery
+		-33% reniforce rate
+dwarves
+	admin
+		+10% production
+		-15% trade company investment cost
+		-10% trade company governing cost
+		-5% mil tech cost
+		-25% inflation from silver
+		+15% stability cost 
+		-1 true faith tolerance
+	mil
+		+5% discipline
+		+20% backrow artillery
+		+1 artillery lv vs forts
+		-10% shock recived
+		-50% manpower recovery
+		-33% salior recovery
+		-33% reneforce rate
+Orks
+	admin
+		+1 dip rep
+		+15% trade steering
+		-1% prestige decay
+		+10% ae impact
+	mil
+		+7.5% discipline
+		-5% morale damage recived
+		+1 fleet movement speed
+		-40% manpower recovery
+		-33% salior recovery
+		-33% reneforce rate
+Humans
+	admin
+		+20 global settler
+		-0.02 war exahusion
+		-2.5% all powers cost
+		-25% improve relations
+		-10% spy network construction
+	mil
+		+20% max manpower
+		+20% forcelimit
+		+15% manpower recovery
+		-5% discipline
+Rakes (admin only)
+	admin
+		+12 dpy
+		+15% national tax
+		+5% admin eff
+		+1 max promoted cultures
+		-50% innovative gain
+		-50% instution spread
+		+20% instituion embracement cost
+Kolbold
+	admin
+		+5% production
+		-10% national tax
+		-2.5% all powers cost
+		+20 global settler
+		+1 tolerance of heritics
+	mil
+		+20% manpower recovery
+		+15% max manpower
+		+10% land morale recovery
+		+5% morale damage recived
+		-5% morale
+Naga
+	admin
+		+10% construction cost
+		+10% colonial range
+		-75% leader cost
+		+5% gov cap
+		+5% trade efficancy
+	mil
+		+25% ship hull size
+		-1 naval landing penalty
+		+25% disembark speed
+		-15% shock recieved
+		+10% fire recieved
+		-15% movement speed
+		+50% garrison size
+		+1 max hostile attrition
+Scurians
+	admin
+		-10% constuction cost
+		+1 global building slots
+		-2.5% all powers cost
+		-100 governing copactity
+		+50% expand admin cost
+	mil
+		-10% ship hull size
+		-10% num of cannons
+		-15% ship cost
+		-10% unit combat ability
+		+20% shock damage received
+		-10% fire damage received
+		+25% force limit
+		+25% movement speed
+		+1 combat ability in capital terrain
+Aragosian(spiders)
+	admin
+		+0.1 global_trade_goods_size
+		-20% harsh treatment
+		+10% min autonomy
+		+10% stab cost
+		+10% max absolutism effect
+		+150% female advisor chance
+		can recruit female generals
+	mil
+		-15% damage received
+		+5% morale damage
+		+100% garrison damage
+		+10% ship capture chance
+		+100% recruitment speed
+		+10% unit cost
+		-33% naval force limit
+		+1 own coast combat
+faun
+	admin
+		+30 global settlers
+		-10% improve relations cost
+		+1 max relations
+		-2.5% all powers cost
+		+50% hostile core creation cost
+		+30% harsh treatment
+		-20 max absolutism
+	mil
+		-10% merc cost
+		+15% movement speed
+		+20% unit supply
+		+25% drill loss
+		-0.01 professionalism gain

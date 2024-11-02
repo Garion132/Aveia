@@ -731,16 +731,6 @@ colony_elteria_start = {
 	increase_tariffs = yes
 	decrease_tariffs = yes
 
-	# Modifiers:
-	modifier_overlord = {
-		modifier = large_colonial_nation
-		trigger = {
-			num_of_cities = 10
-		}
-	}
-
-	overlord_opinion_modifier = colonial_relation
-	subject_opinion_modifier = colonial_relation
 }
 
 crown_colony = {
