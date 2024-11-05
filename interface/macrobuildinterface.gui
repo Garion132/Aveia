@@ -878,9 +878,9 @@ guiTypes = {
 					text = "2000¤"
 				}
 			#
-			# training_field
+			# training_fields
 				checkboxType = {
-					name = "build_trainings_field"
+					name = "build_training_fields"
 					position = { x = 58 y = 332 }
 					quadTextureSprite = "GFX_courthouse_muslimgfx"
 				}
