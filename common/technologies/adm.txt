@@ -201,7 +201,7 @@ technology = { #Feudal Society
 	}
 	
 	bank = yes
-	governing_capacity = 50
+	governing_capacity = 75
 	feudal_monarchy = yes
 	administrative_efficiency = 0.05
 }
@@ -311,6 +311,7 @@ technology = { #National Identity
 	}
 	
 	allowed_idea_groups = 6
+	governing_capacity = 125
 
 	may_support_rebels = yes
 }
@@ -398,7 +399,7 @@ technology = { #Early Modern Administration
 	
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
-	governing_capacity = 100
+	governing_capacity = 150
 	administrative_efficiency = 0.10
 	state_house = yes
 	town_hall = yes
@@ -475,6 +476,7 @@ technology = { #National Sovereignty
 	}
 	
 	allowed_idea_groups = 9
+	governing_capacity = 175
 	canals = yes
 }
 
@@ -515,7 +517,7 @@ technology = { #University
 	
 	allowed_idea_groups = 10
 	university = yes	
-	governing_capacity = 250
+	governing_capacity = 200
 	administrative_efficiency = 0.1
 }
 
@@ -574,7 +576,7 @@ technology = { #New Thought
 	}
 	
 	republican_dictatorship = yes
-	governing_capacity = 250
+	governing_capacity = 225
 }
 
 technology = { #Land Clearance
@@ -685,6 +687,7 @@ technology = { #Empiricism
 	revenue_department = yes
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
+	governing_capacity = 225
 }
 
 technology = { #Measurements and Weights

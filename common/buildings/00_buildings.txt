@@ -1813,6 +1813,7 @@ canals = {
 	modifier = {
 		supply_limit = 0.25
 		allowed_num_of_buildings = 2
+		local_governing_cost_increase = -5
 	}
 	
 	on_built = {
@@ -1845,6 +1846,7 @@ railroads = {
 		province_trade_power_value = 1.0
 		province_trade_power_modifier = 0.1
 		allowed_num_of_buildings = 3
+		local_governing_cost_increase = -10
 	}
 	
 	on_built = {
@@ -1877,6 +1879,7 @@ railroad_network = {
 		province_trade_power_value = 2
 		province_trade_power_modifier = 0.2
 		allowed_num_of_buildings = 4
+		local_governing_cost_increase = -15
 	}
 	
 	on_built = {
@@ -1909,6 +1912,7 @@ school = {
 
 	modifier = {
 		local_institution_spread = 0.50
+		local_governing_cost_increase = -5
 	}
 	
 	on_built = {
@@ -1935,6 +1939,7 @@ university = {
 	modifier = {
 		local_institution_spread = 0.75
 		technology_cost = -0.01
+		local_governing_cost_increase = -8.75
 	}
 	
 	on_built = {
@@ -1961,6 +1966,7 @@ research_center = {
 	modifier = {
 		local_institution_spread = 1
 		technology_cost = -0.02
+		local_governing_cost_increase = -12.5
 	}
 	
 	on_built = {

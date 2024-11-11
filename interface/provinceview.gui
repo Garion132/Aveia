@@ -3229,7 +3229,7 @@ guiTypes = {
 					name = "list1"
 					position = { x = 14 y = 44 }
 					backGround=""
-					size = { x=348 y = 520}
+					size = { x=348 y = 720 }
 					Orientation = "UPPER_LEFT"
 					horizontal = 0
 					spacing = 2
@@ -3369,7 +3369,7 @@ guiTypes = {
 					name = "buildings"
 					position = { x = 12 y = 67 }
 					backGround=""
-					size = { x=365 y = 210}
+					size = { x=365 y = 1110}
 					Orientation = "UPPER_LEFT"
 					horizontal = 0
 					spacing = 0
@@ -3594,7 +3594,7 @@ guiTypes = {
 					name = "buildings"
 					position = { x = 12 y = 67 }
 					backGround=""
-					size = { x=365 y = 572}
+					size = { x=365 y = 1172}
 					Orientation = "UPPER_LEFT"
 					horizontal = 0
 					spacing = 0
@@ -6193,6 +6193,22 @@ guiTypes = {
 				instantTextBoxType={
 					name = "city_hall_cost"
 					position = {x = 208 y = 282 }
+					font = "vic_18"
+					borderSize = { x = 0 y = 0 }
+					maxWidth = 48
+					maxHeight = 18
+					text = "2000¤"
+				}
+			#
+			# city_hall
+				checkboxType = {
+					name = "build_state_house"
+					position = { x = 308 y = 232 }
+					quadTextureSprite = "GFX_courthouse_muslimgfx"
+				}
+				instantTextBoxType={
+					name = "state_house_cost"
+					position = { x = 308 y = 282 }
 					font = "vic_18"
 					borderSize = { x = 0 y = 0 }
 					maxWidth = 48
