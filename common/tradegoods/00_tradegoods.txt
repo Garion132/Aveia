@@ -903,6 +903,7 @@ plaulum = {
 				has_terrain = jungle
 				has_terrain = farmlands
 				has_terrain = woods
+				has_terrain = deepwoods
 			}
 		}
 		modifier = {
