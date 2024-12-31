@@ -25,6 +25,21 @@ Antili -green
 -
 
 
+Plantery system names
+Sun - Elei
+	1st planet - 
+	2nd planet - 
+	3rd planet - 
+	4th planet - Aveia
+		1st moon - Narent
+		2nd moon - Muyi
+	5th planet - 
+	1st gas Giant - 
+	2nd gas Giant - 
+	3rd gas Giant - 
+	4th gas Giant - 
+	the iceball - 
+
 Basic race "traits"
 Elves: Religious,Explorers eg. bronze age Egypt, Myceane
 Dunirr: Materialist,Craftsmen eg. NY,

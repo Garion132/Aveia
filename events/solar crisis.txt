@@ -324,6 +324,7 @@ country_event = {
 				religion = essarania
 				has_friendly_reformation_center = no
 			}
+			religion = uzvazism
 		}
 		is_defender_of_faith = no
 		# capital_scope = {#does not need to be in aveia

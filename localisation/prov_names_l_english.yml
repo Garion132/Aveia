@@ -150,7 +150,8 @@
  
  PROV151: "Malusele"
  PROV152: "Orbury"
- 
+ PROV153: "Raimyua"
+ PROV154: "Ranuita"
  PROV155: "Zentrax"
  PROV156: "Piceden"
  
@@ -220,6 +221,8 @@
  
  PROV239: "Tailwind Seas"
  
+ PROV245: "Fas'jrihar"
+ 
  PROV249: "Ximuar Bay"
  PROV250: "Yoatuae"
  
@@ -281,6 +284,7 @@
  PROV468: "Kruztax"
  PROV469: "Amalireu"
  PROV470: "Losnest"
+ PROV471: "Milanssa"
  
  PROV480: "Etonia"
  PROV481: "Amosier"
@@ -909,11 +913,16 @@
  PROV1133: "Lyara"
  PROV1134: "Ovaubniu"
  PROV1135: "Caldomir"
- 
+ PROV1136: "Tiuhia"
+ PROV1137: "Dyusai"
+ PROV1138: "Nuiali"
+ PROV1139: "Khuara"
  PROV1140: "Vonuias"
-
+ PROV1141: "Runiuas"
+ PROV1142: "Vuoniai"
  PROV1143: "Nurwinnosa"
- 
+ PROV1144: "Guinoali"
+ PROV1145: "Fuakrai"
  PROV1146: "Gobgasa"
  PROV1147: "Mkuida"
  PROV1148: "Nymelia"
@@ -1357,7 +1366,7 @@
  PROV1586: "Vlijna"
  
  PROV1589: "Liuayuah"
-
+ PROV1590: "Meniular"
  PROV1591:1 "Habinak"
  PROV1592:1 "Batnoshi"
  PROV1593:1 "Delehirlio"
@@ -1379,10 +1388,16 @@
  PROV1609: "Huklura"
  PROV1610: "Kakhidsa"
  PROV1611: "Anilnua"
- PROV1610: "Ritnaril"
-
+ PROV1612: "Ritnaril"
+ PROV1613: "Tyumocar"
+ PROV1614: "Huinalas"
+ PROV1615: "Tlacoamar"
  PROV1616: "Izgatvin"
- 
+ PROV1617: "Telioca"
+ PROV1618: "Varuimnaoc"
+ PROV1619: "Muiloacu"
+ PROV1620: "Wiunasiu"
+ PROV1621: "Buluitco"
  PROV1622: "Selizari"
  PROV1623: "Founak"
  PROV1624: "Kirhemish"
@@ -1509,7 +1524,17 @@
  PROV1764: "Deresunga"
  
  PROV1767: "Sarisadik"
- 
+ PROV1768: "Vurlavi"
+ PROV1769: "Lukhojsa"
+ PROV1770: "Jinbaswa"
+ PROV1771: "Hounaseo"
+ PROV1772: "Lubfasau"
+ PROV1773: "Rubnuta"
+ PROV1774: "Wusdasa"
+ PROV1775: "Parul"
+ PROV1776: "Tastean"
+ PROV1777: "Barlima"
+ PROV1778: "Reafsa"
  PROV1779: "Lulecik"
  PROV1780: "Roausawt"
  PROV1781: "Sisiaoit"
@@ -1519,7 +1544,8 @@
  PROV1785: "Milioye"
  PROV1786: "Iugherta"
  PROV1787: "Insaeki"
-
+ PROV1788: "Ajnikwa"
+ PROV1789: "Lonsa"
  PROV1790: "Hilruoc"
  PROV1791: "Istancan"
  PROV1792: "Reshyr"
@@ -1527,10 +1553,14 @@
  PROV1794: "Tohueri"
  PROV1795: "Klijaso"
  PROV1796: "Dresltin Gultch"
- 
+ PROV1797: "Jiunsat"
+ PROV1798: "Dastaek"
  PROV1799: "Onastrak"
  PROV1800: "Muitydarc"
-
+ PROV1801: "Sasloce"
+ PROV1802: "Ngutyaas"
+ PROV1803: "Faraenir"
+ PROV1804: "Nimabaar"
  PROV1805: "Guilok"
  PROV1806: "Ilureak"
  PROV1807: "Ehay"
@@ -2340,7 +2370,12 @@
  PROV2869: "Xuhusa"
  PROV2870: "Gazul"
  PROV2871: "Chugzag"
- 
+ PROV2872: "Palitar"
+ PROV2873: "Raimais"
+ PROV2874: "Otydifa"
+ PROV2875: "Jšedfa"
+ PROV2876: "Colikta"
+ PROV2877: "Riqasde"
  PROV2878: "Flaurye"
  PROV2879: "Juarlise"
  PROV2880: "Ruatapia"
@@ -2509,9 +2544,9 @@
  PROV3837: "Brihal"
  PROV3838: "Clihiel"
  
- PROV3897: "Selk"
+ PROV3897: "Selki"
  PROV3898: "Symant"
- PROV3899: "Elhart"
+ PROV3899: "Elharuth"
  PROV3900: "Willsrock"
  PROV3901: "Alehei"
  PROV3902: "Kameke"
@@ -2642,6 +2677,8 @@
  PROV4120: "Aupoeri"
  PROV4121: "Ilpoair"
  
+ PROV4485: "Sarrinac"
+ 
  PROV4256: "Trinari's Breach"
  
  PROV4382: "Grovenshield"
@@ -2770,6 +2807,7 @@
  
  PROV4950: "Bayan"
  PROV4951: "Handun"
+ PROV4952: "Luush"
  
  PROV4956: "Jarde"
  
@@ -2907,6 +2945,7 @@
  
  PROV5262: "Nidielle"
  
+ PROV5264: "Sslakaban"
  PROV5265: "Siminera Peaks"
  PROV5266: "Grurite Peaks"
  PROV5267: "Grurite Peaks"
@@ -2987,13 +3026,20 @@
  PROV5364: "Yeianak"
  PROV5365: "Guansart"
  PROV5366: "Vaipaq"
+ PROV5367: "Riksarmok"
+ PROV5368: "Toinolia"
+ PROV5369: "Hubinya"
  PROV5370: "Old Elnorei"
  PROV5371: "Vasvari Spur"
- 
+ PROV5372: "Talssia"
+ PROV5373: "Loarusal"
+ PROV5374: "Palinmar"
+ PROV5375: "Mikossa"
+ PROV5376: "Ujliar"
  PROV5377: "Vissnavaris"
  PROV5378: "Ssumac"
  PROV5379: "Fouinissa"
- 
+ PROV5380: "Jagged Bay"
  PROV5381: "Annivmaa"
  
  PROV5455: "Lenseem"

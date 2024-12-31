@@ -4,15 +4,14 @@ owner = MUY
 controller = MUY
 capital = "Vasvari"
 culture = athaju
-religion = roresist 
-trade_goods = unknown 
-hre = no
+religion = roresist
+trade_goods = unknown
 base_tax = 0
 base_production = 0
-base_manpower = 1
+base_manpower = 3
 native_size = 0
 native_ferocity = 0
 native_hostileness = 0
 extra_cost = 8
-
 set_variable = { which = arable_land value = 3 }
+is_city = yes
