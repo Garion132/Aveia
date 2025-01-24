@@ -96,7 +96,7 @@ country_event = {#uprising of Ssaolre Kepra
 		}
 	}
 }
-country_event = {
+country_event = {#northern temptation
 	id = kepjar_flavor.7
 	title = kepjar_flavor.7.t
 	desc = kepjar_flavor.7.d
@@ -141,7 +141,7 @@ country_event = {
 		set_country_flag = was_saserjial
 	}
 }
-country_event = {
+country_event = {#fratchering churches
 	id = kepjar_flavor.10
 	title = kepjar_flavor.10.t
 	desc = kepjar_flavor.10.d
@@ -153,7 +153,7 @@ country_event = {
 
 	}
 }
-country_event = {
+country_event = {#council of sajsaoer 
 	id = kepjar_flavor.11
 	title = kepjar_flavor.11.t
 	desc = kepjar_flavor.11.d

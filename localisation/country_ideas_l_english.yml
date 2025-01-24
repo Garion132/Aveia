@@ -239,6 +239,25 @@
  MTN_ideas_start: "Matan Traditions"
  MTN_ideas_bonus: "Matan Ambitions"
  
+ GRU_ideas: "Grur Ideas"
+ GRU_ideas_start: "Grurite Traditions"
+ GRU_ideas_bonus: "Grurite Ambitions"
+ 
+ kolbold_ideas: "Kolbold Ideas"
+ kolbold_ideas_start: "Kolbold Traditions"
+ kolbold_ideas_bonus: "Kolbold Ambitions"
+ 
  expiditionary_state_ideas: "Expeditionary Ideas"
  expiditionary_state_ideas_start: "Expeditionary Traditions"
  expiditionary_state_ideas_bonus: "Expeditionary Ambitions"
+ 
+ north_mannish_ideas: "Northern Mannish Ideas"
+ north_mannish_ideas_start: "North Mannish Traditions"
+ north_mannish_ideas_bonus: "North Mannish Ambitions"
+ nm_clan_loyalties: "Clan Loyalties"
+ war_for_wars_sake: "War for Wars Sake"
+ forge_masters: "Forge Masters"
+ basin_wars: "Basin Wars"
+ mother_of_invention: "Mother of Invention"
+ mannish_martial_ethos: "Mannish Martial Ethos"
+ mannish_trading_houses: "Mannish Trading Houses"

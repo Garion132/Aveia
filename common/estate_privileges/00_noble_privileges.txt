@@ -531,6 +531,7 @@ estate_nobles_fedual_rights = {
 	}
 	benefits = {
 		nobles_privilege_slots = 2
+		unrest = -2
 	}
 	ai_will_do = {
 		factor = 0
@@ -560,6 +561,9 @@ estate_nobles_fedual_villeinage = {
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.5
+	}
+	benefits = {
+		stability_cost_modifier = -0.1
 	}
 	mechanics = {
 		exempt_from_seize_land

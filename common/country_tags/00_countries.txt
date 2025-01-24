@@ -795,6 +795,7 @@ DUU = "countries/Duutgal.txt"
 SUM = "countries/Sumbol.txt"
 HOR = "countries/Horia.txt"
 DLG = "countries/Delgan.txt"
+KSV = "countries/Krashvil.txt"
 
 #Crashes if this doesn't exist
 PAP = "countries/Yulikivian.txt"

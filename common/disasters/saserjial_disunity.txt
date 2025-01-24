@@ -6,7 +6,6 @@ saserjial_disunity = {
 		}
 	}
 
-
 	can_start = {
 		NOT = { has_ruler = "Sasreja 'the Prophet'" }
 	}
@@ -14,7 +13,6 @@ saserjial_disunity = {
 	can_stop = {
         has_country_flag = KEP_religious_fervor
 	}
-	
 	
 	progress = {
 		modifier = {
@@ -53,13 +51,9 @@ saserjial_disunity = {
 		has_country_flag = KEP_solved_disunity
 	}
 	
-
-	
-
 	modifier = {
 		global_missionary_strength = -0.025
 	}
-	
 	
 	on_start = kepjar_flavor.1
 	on_end = kepjar_flavor.2

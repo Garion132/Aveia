@@ -35,6 +35,26 @@ iron_republic_mechanic = {
 
 	valid_for_nation_designer = no
 }
+iron_theocracy_mechanic = {
+	has_devotion = yes
+	rulers_can_be_generals = no
+	heirs_can_be_generals = no
+	royal_marriage = no
+	different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+	religion = yes
+	heir = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+
+	modifiers = {
+		church_loyalty_modifier = 0.1
+		church_influence_modifier = 0.05
+		country_admin_power = 1
+		country_diplomatic_power = 1
+		country_military_power = 1
+	}
+}
 ####
 #gov types
 ###

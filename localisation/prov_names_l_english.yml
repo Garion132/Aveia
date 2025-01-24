@@ -1510,19 +1510,39 @@
  PROV1731: "Gruiwe"
  PROV1732: "Symlar"
  PROV1733: "Hoauiha"
- 
+ PROV1734: "Hathock"
+ PROV1735: "Abiya"
+ PROV1736: "Raulan"
  PROV1737: "Aoduni"
-
+ PROV1738: "Maeloc"
+ PROV1739: "Gytuli"
+ PROV1740: "Minis"
+ PROV1741: "Fuamut"
  PROV1742: "Isimase"
  PROV1743: "Gurratu"
  PROV1744: "Sinsismae"
  PROV1745: "Tolat"
-
+ PROV1746: "Faetuar"
+ PROV1747: "Magnerfa"
+ PROV1748: "Kunlik"
  PROV1749: "Gulbas"
  PROV1750: "Tilmardi"
-
+ PROV1751: "Poltac"
+ PROV1752: "Duliofea"
+ PROV1753: "Bigaw"
+ PROV1754: "Jiaawe"
+ PROV1755: "Moildar"
+ PROV1756: "Vartil"
+ PROV1757: "Banritte"
+ PROV1758: "Guloac"
+ PROV1759: "Kasnesa"
+ PROV1760: "Olgotak"
+ PROV1761: "Jteya"
+ PROV1762: "Giynra"
+ PROV1763: "Katread"
  PROV1764: "Deresunga"
- 
+ PROV1765: "Cavgedar"
+ PROV1766: "Sarhartk"
  PROV1767: "Sarisadik"
  PROV1768: "Vurlavi"
  PROV1769: "Lukhojsa"
@@ -2177,6 +2197,8 @@
  
  PROV2498: "Timburn"
  
+ PROV2508: "Likar"
+ 
  PROV2511: "Whagons"
  PROV2512: "Migcairn"
 
@@ -2800,6 +2822,7 @@
  PROV4869: "Midside"
  
  PROV4879: "Bani"
+ PROV4880: "Haloc"
  
  PROV4888: "Greyclif"
  
@@ -3234,6 +3257,8 @@
  PROV5767: "Yuloia"
  PROV5768: "Limklat"
  PROV5769: "Delgan"
+ 
+ PROV5771: "Astera"
 
  test_province_name: "Test Province Name"
  other_province_name: "Other Province Name"

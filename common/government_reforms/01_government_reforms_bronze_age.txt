@@ -892,10 +892,9 @@ iron_age_theocracy_adv = {
 		NOT= {current_age = age_of_bronze}
 	}
 	effect = {
-		#set_country_flag = populists_in_government
-		#lose_reforms = 3
-		#change_government_reform_progress = -1000
-		#change_government = republic
+		lose_reforms = 5
+		change_government_reform_progress = -1000
+		change_government = iron_theocracy
 	}
 	ai = {
 		factor = 0

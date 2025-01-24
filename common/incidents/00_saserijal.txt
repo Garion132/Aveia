@@ -4,7 +4,6 @@ incident_death_of_prophet = {
 	variable_initial = 0
 
 	potential = {
-		has_dlc = "Mandate of Heaven"
 		religion = sharhial_adventists
 	}
 
@@ -41,7 +40,6 @@ incident_northern_temptation = {
 	variable_initial = 0
 
 	potential = {
-		has_dlc = "Mandate of Heaven"
 		religion = sharhial_adventists
 	}
 
@@ -72,7 +70,6 @@ incident_fracturing_churches = {
 	variable_initial = 0
 
 	potential = {
-		has_dlc = "Mandate of Heaven"
 		religion = sharhial_adventists
 	}
 
@@ -103,7 +100,6 @@ incident_council_of_sajsaoer = {
 	variable_initial = 0
 
 	potential = {
-		has_dlc = "Mandate of Heaven"
 		religion = sharhial_adventists
 	}
 

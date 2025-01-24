@@ -474,7 +474,6 @@ native = {
 	color = { 194 127 209 }
 }
 
-
 theocracy = {
 	color = { 75 170 75 }
 	basic_reform = theocracy_mechanic
@@ -960,6 +959,11 @@ iron_monarchy = {
 				ia_investment_economy_reform
 			}
 		}
+		advance_government_form = {
+			reforms = {
+
+			}
+		}
 	}
 
 	basic_reform = iron_monarchy_mechanic
@@ -1028,6 +1032,11 @@ iron_republic = {
 				ia_investment_economy_reform
 			}
 		}
+		advance_government_form = {
+			reforms = {
+
+			}
+		}
 	}
 
 	basic_reform = iron_republic_mechanic
@@ -1050,6 +1059,72 @@ iron_republic = {
 	}
 
 	color = { 55 130 183 }
+}
+iron_theocracy = {
+	reform_levels = {
+		theocratic_leadership = {
+			reforms = {
+				ia_god_king
+				theocratic_government
+			}
+		}
+		internal_vs_external_mission = {
+			reforms = {
+				internal_mission_reform
+				external_mission_reform
+				mission_to_civilize_reform
+				mission_to_kill_pirates_reform
+			}
+		}
+		divine_cause = {
+			reforms = {
+				safeguard_holy_sites_reform
+				combat_heresy_reform
+				expel_heathens_reform
+				kingdom_of_god_reform
+			}
+		}
+		iron_societal_ties = {
+			reforms = {
+				ia_polis_reform
+				ia_communial_reform
+				ia_judicial_reform
+			}
+		}
+		iron_bureaucracy = {
+			reforms = {
+				ia_rural_assemblage_reform
+				ia_urban_council_reform
+			}
+		}
+		iron_economic_philosophy = {
+			reforms = {
+				ia_value_taxation_reform
+				ia_investment_economy_reform
+			}
+		}
+		advance_government_form = {
+			reforms = {
+
+			}
+		}
+	}
+
+	basic_reform = iron_theocracy_mechanic
+
+	legacy_government = {
+		ia_co_ruling_monarchy
+		ia_deligated_monarchy
+	}
+
+	# Each group of exclusive reforms are mutually exclusive to each other
+
+	#for any reforms that should be exclusive
+	exclusive_reforms = {
+		
+	}
+
+	color = { 82 122 82 }
 }
 
 eximiu_colony = {

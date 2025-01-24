@@ -651,12 +651,6 @@
  northern_drake_group:0 "Drake/Kobold"
  free_fauns_group:0 "Faun"
  great_spiders_group:0 "Great Spider"
- red_scale_nationalist_rebels_name:0 "Red Scale Nationalists"
- red_scale_nationalist_rebels_army:0 "Red Scale Nationalists"
- incident_rise_thilmaren:0 "Rise of Thilmaren"
- thilrana_rises.2.a:0 "Reign them in"
- thilrana_rises.2.b:0 "Leave the island"
- thilrana_rises.2.c:0 "Invite them to join the empire"
  
  meanic_court:0 "Meanic Court"
  keldic_court:0 "Keldic Court"
@@ -703,10 +697,10 @@
  golden_sun_discovered_tooltip:0 "§YThe Golden Sun§! has been discovered."
  rosen_dawn_tooltip:0 "§YThe Rosen Dawn§! has begun."
  
- thilrana_rises.7.t:0 "Red Kolbolds flee to Thilrana"
- thilrana_rises.8.t:0 "Red Kolbolds refugees arrive in our country"
+ 
  grecarola_nation_title:0 "Reform Grecarola"
  windrame_nation_title:0 "Reform Windrame"
+ krashyrvil_nation_title: "Form Krashyrvil"
  forming_grecarola_diplomatically_tooltip:0 "[Root.GetName] is the overlord in a vassalage or union between Grisea and Scarolia."
  forming_windrame_diplomatically_tooltip:0 "[Root.GetName] is the overlord in a vassalage or union between Wargle and Wiscome."
  fall_of_great_ghand:0 "Fall of Great Ghand"
@@ -714,9 +708,6 @@
  rauthyr_estate_events.18.t:0 "Mannish raiders arrive in [Root.GetName]"
  rauthyr_estate_events.18.a:0 "Fight them back"
  rauthyr_estate_events.18.b:0 "Pay them off"
- 
- golden_sun_1:0 "The Golden Sun"
- golden_sun_1_desc:0 "A golden orb of light, the biggest Orb known, gives off enormous amount of light and heat. The surrounding area due to this is pratically untouched by seasons creating a ideal enviroment for growing crops and rasing animals."
  
  obj_every_state_prosperous_tooltip:0 "All States:\n  Are §YProsperous§!"
  

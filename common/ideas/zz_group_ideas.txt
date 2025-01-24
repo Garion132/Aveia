@@ -655,3 +655,42 @@ lake_elves_ideas = {
 		trade_efficiency = 0.15
 	}
 }
+kolbold_ideas = {
+	start = {
+		unjustified_demands = -0.15
+		enemy_core_creation = 0.2
+	}
+	
+	bonus = {
+		interest = -1
+	}
+	
+	trigger = {
+		technology_group = free_kolbolds_group
+	}
+	free = yes        #will be added at load.
+	
+	kolbold_scaled_fanatics = {
+		land_morale = 0.05
+		morale_damage_received = -0.025
+	}
+	kolbold_state_loyalty = {
+		same_culture_advisor_cost = -0.33
+	}
+	kolbolds_together_strong = {
+		manpower_in_culture_group_provinces = 0.2
+	}
+	kolbold_protected_markets = {
+		mercantilism_cost = -0.25
+	}
+	kolbold_natural_diplomats = {
+		improve_relation_modifier = 0.2
+	}
+	kolbold_acceptance_of_others = {
+		num_accepted_cultures = 1
+	}
+	kolbold_permafrost_builders = {
+		build_time = -0.25
+		great_project_upgrade_time = -0.1
+	}
+}

@@ -1012,11 +1012,24 @@
       <category>Athanila</category>
       <default_color>192,192,192</default_color>
     </event>
+    <event>
+      <start>1286-04-10 00:00:00</start>
+      <end>1286-04-10 00:00:00</end>
+      <text>Sasreja Dies</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>True</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Kepjar</category>
+      <default_color>192,192,192</default_color>
+    </event>
   </events>
   <view>
     <displayed_period>
-      <start>1214-11-30 04:22:27</start>
-      <end>1314-11-30 04:22:27</end>
+      <start>1220-11-20 23:27:38</start>
+      <end>1320-11-20 23:27:38</end>
     </displayed_period>
     <hidden_categories>
     </hidden_categories>
