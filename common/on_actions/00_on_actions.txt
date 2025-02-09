@@ -2807,6 +2807,7 @@ on_rebels_break_country = {
 	if={
 		limit={
 			has_country_flag = iron_age_calamity_possible
+			NOT = { is_year = 1400 }
 		}
 		iac_collapse_nation = yes
 	}

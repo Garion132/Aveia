@@ -20,6 +20,15 @@ civilizational_collapse = {
 	
 	progress = {
 		modifier = {
+			factor = 1
+			NOT = { 
+				custom_trigger_tooltip = {
+					tooltip = disaster_active_for_10_years_tooltip
+					had_country_flag = { flag = had_iron_age_calamity days = 3650 }
+				}
+			}
+		}
+		modifier = {
 			factor = -1
 			is_at_war = no
 		}

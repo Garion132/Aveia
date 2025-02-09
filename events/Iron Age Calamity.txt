@@ -397,6 +397,7 @@ country_event = {
 		
 	trigger = {
 		NOT = { has_country_flag = calamity_peasants_revolt }
+		has_country_flag = iac_peasants_begin_questioning_our_rule
 	}
 
 	is_triggered_only = yes
@@ -1385,10 +1386,10 @@ country_event = {
 	id = iron_age_calamity.113
 	title = "iron_age_calamity.113.t"
 	desc = "iron_age_calamity.113.d"
-	picture = CITY_VIEW_eventPicture
+	picture = ANGRY_MOB_eventPicture
 	
 	trigger = {
-		
+		NOT = { has_country_flag = iac_peasants_begin_questioning_our_rule }
 	}
 
 	is_triggered_only = yes
@@ -1399,15 +1400,45 @@ country_event = {
 
 	option = {
 		name = "iron_age_calamity.113.o1" #Put the ring-leaders to death
+		iac_decrease_stability_by_2 = yes
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = -15
+		}
 		
+		set_country_flag = iac_peasants_begin_questioning_our_rule
 	}
 	option = {
 		name = "iron_age_calamity.113.o2" #Scapegoat the Clergy
+		iac_decrease_stability_by_1 = yes
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = 10
+		}
+
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -20
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 3
+			}
+		}
 		
+		
+		set_country_flag = iac_peasants_begin_questioning_our_rule
 	}
 	option = {
 		name = "iron_age_calamity.113.o3" #Say Nothing
+		add_legitimacy = -20
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = 5
+		}
 		
+		set_country_flag = iac_peasants_begin_questioning_our_rule
 	}
 }
 
@@ -1419,7 +1450,16 @@ country_event = {
 	picture = BURGHER_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		
+		NOT = { has_country_flag = iac_fall_of_merchant_class }
+		has_estate = estate_burghers
+		estate_influence = {
+			estate = estate_burghers
+			influence = 5
+		}
+		estate_territory = {
+			estate = estate_burghers
+			territory = 5
+		}
 	}
 
 	is_triggered_only = yes
@@ -1430,15 +1470,63 @@ country_event = {
 
 	option = {
 		name = "iron_age_calamity.114.o1" #Let them wither
+		add_legitimacy = -10
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = 5
+		}
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = -5
+		}
+		add_disaster_modifier = {
+			disaster = iron_age_calamity
+			name = iac_fall_of_merchant_class
+			duration = 3650
+		}
 		
+		set_country_flag = iac_fall_of_merchant_class
 	}
 	option = {
 		name = "iron_age_calamity.114.o2" #Take advantage of the situation
+		add_years_of_income = 2
+		change_estate_land_share = {
+			estate = estate_burghers
+			share = -5
+		}
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = 20
+		}
+
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = -25
+		}
+		add_disaster_modifier = {
+			disaster = iron_age_calamity
+			name = iac_fall_of_merchant_class
+			duration = -1
+		}
 		
+		set_country_flag = iac_fall_of_merchant_class
 	}
 	option = {
 		name = "iron_age_calamity.114.o3" #Attempt to bolster the merchants
+
+		add_years_of_income = -1
+		add_dip_power = 50
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = -10
+		}
+
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 10
+		}
 		
+		set_country_flag = iac_fall_of_merchant_class
 	}
 }
 
@@ -1450,7 +1538,7 @@ country_event = {
 	picture = STREET_SPEECH_eventPicture
 	
 	trigger = {
-		
+		NOT = { has_country_flag = iac_doomsday_cults }
 	}
 
 	is_triggered_only = yes
@@ -1461,11 +1549,43 @@ country_event = {
 
 	option = {
 		name = "iron_age_calamity.115.o1" #Ignore them
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = 20
+		}
+		random_owned_province = {
+			add_province_modifier = {
+				name = iac_doomsday_cults
+				duration = 3650
+			}
+		}
+		if = {
+			limit = {
+				num_of_states = 4
+			}
+			random_owned_province = {
+				limit = {
+					NOT = { has_province_modifier = iac_doomsday_cults }
+				}
+				add_province_modifier = {
+					name = iac_doomsday_cults
+					duration = 3650
+				}
+			}
+		}
 		
+		set_country_flag = iac_doomsday_cults
 	}
 	option = {
 		name = "iron_age_calamity.115.o2" #Disperse the cults
+		add_mil_power = -50
+		iac_decrease_stability_by_1 = yes
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = -5
+		}
 		
+		set_country_flag = iac_doomsday_cults
 	}
 }
 
@@ -1477,7 +1597,27 @@ country_event = {
 	picture = COSSACK_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		
+		OR = {
+			any_neighbor_country = {
+				OR = {
+					has_country_flag = iac_mannish_raiders
+					has_reform = mannish_tribal_reform
+					has_reform = iron_crown_reform
+					culture = donamenz
+				}
+			}
+			capital_scope = {
+				OR = {
+					region = kyathia_region
+					region = great_gulba_region
+					region = shemsele_region
+					region = chaun_region
+					region = rauthyr_region
+					region = lildoresi_marches_region
+					region = nylka_region
+				}
+			}
+		}
 	}
 
 	is_triggered_only = yes
@@ -1488,11 +1628,37 @@ country_event = {
 
 	option = {
 		name = "iron_age_calamity.116.o1" #Rally the troops!
+		random_owned_province = {
+			limit = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+			mannish_raiders_rebels = 2
+		}
 		
+		set_country_flag = iac_mannish_raiders
 	}
 	option = {
 		name = "iron_age_calamity.116.o2" #Bribe them to go away
+		trigger = {
+			any_neighbor_country = {
+				NOT = { has_country_flag = iac_mannish_raiders }
+				has_country_flag = iron_age_calamity_possible
+			}
+		}
+		add_years_of_income = -1
+		add_corruption = 2
 		
+		set_country_flag = iac_mannish_raiders
+
+		random_neighbor_country = {
+			limit = {
+				NOT = { has_country_flag = iac_mannish_raiders }
+				has_country_flag = iron_age_calamity_possible
+			}
+			country_event = { id = iron_age_calamity.116 days = 30 }
+		}
 	}
 }
 
@@ -1519,7 +1685,7 @@ country_event = {
 	}
 	option = {
 		name = "iron_age_calamity.117.o2" #Grant powers to the Clergy to deal with it
-		
+
 	}
 	option = {
 		name = "iron_age_calamity.117.o3" #Find the culprit ourselves and hang them
@@ -3893,7 +4059,7 @@ country_event = {
 		NOT = {
 			is_year = 1400
 		}
-		NOT = { government_reform_progress = 25 }
+		government_reform_progress = 25
 		estate_influence = {
 			estate = estate_church
 			influence = 5

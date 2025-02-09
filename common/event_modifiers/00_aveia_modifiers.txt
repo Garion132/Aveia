@@ -373,6 +373,17 @@ estate_church_monopoly_of_bronze_mod = {
 		global_institution_spread = -0.25
 		innovativeness_gain = -1
 	}
+	
+	iac_fall_of_merchant_class = {
+		global_trade_power = -0.1
+		trade_efficiency = -0.1
+		burghers_influence_modifier = -0.15
+		burghers_loyalty_modifier = -0.1
+	}
+	iac_doomsday_cults = {
+		local_unrest = 5
+		local_religious_unity_contribution = -1
+	}
 
 	iac_local_autonomy = {
 		local_autonomy = 0.1

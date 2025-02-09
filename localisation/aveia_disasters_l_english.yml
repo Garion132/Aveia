@@ -160,6 +160,11 @@
   iac_restricted_technology:0 "Restricted Technology"
   desc_iac_restricted_technology:0 "Technological progress has been restricted in favor of keeping the country together."
 
+  iac_fall_of_merchant_class: "Fall of the Merchant Class"
+  desc_iac_fall_of_merchant_class: "Our merchants are failing and floundering"
+  iac_doomsday_cults: "Doomsday Cults"
+  desc_iac_doomsday_cults: "Gatherings have been happening here of street preachers declaring that the world is coming to an end."
+
   iac_local_autonomy: "Local Autonomy"
   desc_iac_local_autonomy: "The locals have been given autonomy."
   iac_treading_water: "Treading Water"
