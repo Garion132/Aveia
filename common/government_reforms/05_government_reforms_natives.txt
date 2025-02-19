@@ -124,6 +124,22 @@ iron_crown_reform = {
 		}
 	}
 }
+
+taking_donamenz_reform = {
+	icon = "clergyman"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		#idea_cost = -0.1
+		may_establish_frontier = yes
+	}
+	
+	ai = {
+		factor = 2 #generic
+	}
+}
+
 take_this_to_switch_reform = {
 	# government mechanics flags go here
 	icon = "paper_with_seal"

@@ -3,7 +3,6 @@
 #
 # if a modifier is scaled, its multiplied with development in the province.
 
-
 # any_friendly_coast_border_province is a special scope made for institution spread.
 # It checks for adjacent provinces or provinces one seazone away.
 # Friendly is defined as at positive relations or owned by the same country that owns the province.
@@ -13,7 +12,6 @@
 # 
 # Most start with it.
 #######################################
-
 organized_state = {
 	 
 	bonus = {
@@ -369,6 +367,7 @@ bronze_working = {
 		}
 	}
 }
+
 #######################################
 # Crop rotation.  
 # 
@@ -578,11 +577,10 @@ crop_rotation = {
 }
 
 #######################################
-# iron_working
+# Iron Working
 # 
 # Flows from the humans
 #######################################
-
 iron_working = {
 	 
 
@@ -769,10 +767,11 @@ iron_working = {
 	}
 }
 
-
+#######################################
+# Illuminare
+#######################################
 illuminare = {
 	 
-
 	bonus = {
 		development_cost = -0.05
 		build_cost = -0.05
@@ -1108,7 +1107,11 @@ new_world_i = {
 	}
 }
 
-
+#######################################
+# Guedian Revolution
+# 
+# Exploding metal has a suprising number of uses
+#######################################
 guedinan_revolution = {
 	 
 
@@ -2197,7 +2200,6 @@ air_shipping = {
 	}
 }
 
-
 #######################################
 # Industrialisation
 #######################################
@@ -2832,7 +2834,6 @@ industrialization = {
 	}
 }
 
-
 #######################################
 # Byrinifacation
 #######################################
@@ -3163,6 +3164,3 @@ enlightenment = {
 		}
 	}
 }
-
-
-

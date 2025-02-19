@@ -1698,7 +1698,7 @@ malicrieit = {
 			factor = 5000
 		}
 		province_modifiers = {
-			trade_goods_size = 3.0
+			trade_goods_size = 2.0
 			local_development_cost = -0.2
 		}
 		area_modifier = {

@@ -663,21 +663,6 @@ eximiu_mechanic = {
 	}
 }
 
-taking_donamenz_reform = {
-	icon = "clergyman"
-	allow_normal_conversion = yes
-	valid_for_nation_designer = yes
-	nation_designer_cost = 0
-	modifiers = {
-		#idea_cost = -0.1
-		may_establish_frontier = yes
-	}
-	
-	ai = {
-		factor = 2 #generic
-	}
-}
-
 #trade practices
 
 ba_caravaneers_reform = {

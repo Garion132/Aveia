@@ -5,3 +5,4 @@ discovered_by = free_kolbolds_group
 discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
+discovered_by = free_fauns_group

@@ -1,5 +1,5 @@
-government = bronze_monarchy
-add_government_reform = palace_economy
+government = bronze_league
+add_government_reform = league_of_cities_reform
 primary_culture = nadarian
 religion = tlaunorist
 technology_group = lake_elves_group
@@ -8,16 +8,12 @@ capital = 734 #
 #historical_rival = HAB
 
 change_estate_land_share = {
-	estate = estate_nobles
-	share = 10
-}
-change_estate_land_share = {
 	estate = estate_church
 	share = -5
 }
 change_estate_land_share = {
 	estate = estate_burghers
-	share = -5
+	share = 5
 }
 
 
@@ -29,18 +25,5 @@ change_estate_land_share = {
 		adm = 1
 		dip = 1
 		mil = 6
-	}
-}
-1254.11.14 = {
-	heir = {
-		name = "Kaolir"
-		monarch_name = "Kaolir II"
-		dynasty = "Nadari"
-		birth_date = 1254.11.14
-		death_date = 1311.3.29
-		claim = 92
-		adm = 2
-		dip = 2
-		mil = 5
 	}
 }
