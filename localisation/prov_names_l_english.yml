@@ -44,6 +44,7 @@
  PROV43: "Mistworm Lake"
  PROV44: "Aniliti Lake"
  PROV44: "Sumoer's Stones"
+ PROV45: "Sumoer's Stones"
  PROV46: "Kalhyrhei"
  PROV47: "Unilo"
  PROV48: "Fuloa"
@@ -263,11 +264,12 @@
 
  PROV444: "Palurt Opening"
 
+ PROV448: "Desert's Miracle"
  PROV449: "Jarinnu Ridge"
  PROV450: "Grurite Peaks"
 
  PROV452: "Faungrave Lake"
- 
+ PROV453: "Mulugrave"
  PROV454: "Anoam"
 
  PROV456: "Kolais"
@@ -290,6 +292,7 @@
  PROV481: "Amosier"
  PROV482: "Orbury"
  PROV483: "Toludia"
+ PROV484: "Rauohù"
  
  PROV487: "Nemiora"
  PROV488: "Bluegroves"
@@ -1364,7 +1367,8 @@
  PROV1584: "Turnas"
  PROV1585: "Eolinak"
  PROV1586: "Vlijna"
- 
+ PROV1587: "Tyrewsa"
+ PROV1588: "Varinum"
  PROV1589: "Liuayuah"
  PROV1590: "Meniular"
  PROV1591:1 "Habinak"
@@ -1735,16 +1739,22 @@
  PROV1966: "Runaix"
  PROV1967: "Sisafax"
  PROV1968: "Ulimnac"
-
+ PROV1969: "Gufasa"
+ PROV1970: "Paklira"
+ PROV1971: "Greasa"
  PROV1972: "Narkud"
-
+ PROV1973: "Ljisna"
  PROV1974: "Vilora"
  PROV1975: "Haava"
  
  PROV1977: "Harhozava"
  PROV1978: "Jalkora"
- PROV1978: "Galtoch"
+ PROV1979: "Galtoch"
+ PROV1980: "Bharania"
  
+ PROV1982: "Rwaasila"
+ PROV1983: "Kakidla"
+ PROV1984: "Wumlise"
  PROV1985: "Octrol Point"
  PROV1986: "Eliar"
  PROV1987: "Nabanwe"
@@ -1754,6 +1764,8 @@
  PROV1991: "Eunut"
  PROV1992: "Sansisor"
  PROV1993: "Lepijasir"
+ 
+ PROV2002: "Banusda"
  
  PROV2016: "Paarhan"
  PROV2017: "Brazzhae"
@@ -2193,6 +2205,8 @@
  
  PROV2482: "Shimberme"
  
+ PROV2484: "Daloira"
+ 
  PROV2494: "Sleetlepeak"
  
  PROV2498: "Timburn"
@@ -2201,6 +2215,7 @@
  
  PROV2511: "Whagons"
  PROV2512: "Migcairn"
+ PROV2513: "Hufhadiu"
 
  PROV2527: "Thelfaren"
  
@@ -2211,6 +2226,8 @@
  PROV2542: "Sekofmel"
  PROV2543: "Orsakran"
  
+ PROV2553: "Linualsa"
+ PROV2554: "Cotulima"
  PROV2555: "Gagrin"
  PROV2556: "Ghand"
  
@@ -2234,6 +2251,10 @@
  PROV2622: "Llauggaust"
  
  PROV2661: "Raliors Folly"
+ 
+ PROV2681: "Refraso"
+ 
+ PROV2683: "Fulatreu"
  
  PROV2686: "Vuantrein Pass"
  
@@ -2556,6 +2577,8 @@
  PROV3700: "Xitolia"
  PROV3701: "Zemferia"
  PROV3702: "Umilina"
+ PROV3703: "Ylhasei"
+ PROV3704: "Parina"
  
  PROV3795: "Olreach"
  
@@ -2699,9 +2722,16 @@
  PROV4120: "Aupoeri"
  PROV4121: "Ilpoair"
  
+ PROV4433: "Hywrati"
+ PROV4434: "Yakùsauba"
+ 
  PROV4485: "Sarrinac"
  
  PROV4256: "Trinari's Breach"
+ 
+ PROV4316: "Fozhaade"
+ 
+ PROV4324: "Tmeaonas"
  
  PROV4382: "Grovenshield"
  
@@ -2769,9 +2799,15 @@
  PROV4778: "Fordge"
  PROV4779: "Arcinmol"
  PROV4780: "Felinmok"
- 
+ PROV4781: "Armouan"
+ PROV4782: "Gtasg"
+ PROV4783: "Kiresa"
+ PROV4784: "Hatsigd"
  PROV4785: "Hesxea"
- 
+ PROV4786: "Tumarsa"
+ PROV4787: "Hitrasda"
+ PROV4788: "Gualsoi"
+ PROV4789: "Kyegsa"
  PROV4790: "Torkburgh"
  PROV4791: "Frostkiln"
  PROV4792: "Yoinawi"
@@ -2847,6 +2883,8 @@
  PROV4969: "Yrusrf"
  
  PROV5089: "Marea"
+ 
+ PROV5093: "Kavabu"
 
  PROV5106: "Ergonia"
 
@@ -2895,13 +2933,16 @@
  
  PROV5179: "Koloair Ridge"
  
+ PROV5181: "Brasud"
+ PROV5182: "Katogh"
  PROV5183: "Kulpare"
  PROV5184: "Hulbane"
  PROV5185: "Coldirda"
  PROV5186: "Hilic"
  PROV5187: "Gradsra"
  PROV5188: "Videar"
- 
+ PROV5189: "Hsuhea"
+ PROV5190: "Grugart"
  PROV5191: "Salist"
  PROV5192: "Xolid"
  PROV5193: "Rulmid"
@@ -2965,7 +3006,7 @@
  PROV5258: "Slyard Lake"
  PROV5259: "Kilgulf Lake"
  PROV5260: "Sandside Lake"
- 
+ PROV5261: "Alagri Lake"
  PROV5262: "Nidielle"
  
  PROV5264: "Sslakaban"
@@ -3067,6 +3108,7 @@
  
  PROV5455: "Lenseem"
  
+ PROV5507: "Solia"
  PROV5508: "Zelisele"
  
  PROV5549: "Enheasrion River"
@@ -3196,6 +3238,7 @@
  PROV5673: "Treaslu"
  PROV5674: "Rutea"
  PROV5675: "Malilauu"
+ PROV5676: "Kyariu"
  PROV5677: "Toltar"
  PROV5678: "Dultarn"
  PROV5679: "Soulta"
@@ -3203,6 +3246,7 @@
  PROV5681: "Flainsmorth"
  PROV5682: "Sultulimar"
  PROV5683: "Malinkor"
+ PROV5684: "Juysja"
  PROV5685: "Baliminton"
  PROV5686: "Varinoler"
  PROV5687: "Ruintua"
@@ -3235,6 +3279,8 @@
  PROV5714: "Chalue"
  PROV5715: "Cinderbyle Cliffs"
  PROV5716: "Cinderbyle Cliffs"
+ PROV5717: "Isle Gasadro"
+ PROV5718: "Vailurae"
  
  PROV5726: "Turenia"
  PROV5727: "Bagalia"

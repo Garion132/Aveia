@@ -2,6 +2,7 @@ add_core = SLA
 owner = SLA
 culture = crystalian
 religion = shimmerian
+capital = "Astera"
 controller = SLA
 is_city = no
 discovered_by = eastern_men_group

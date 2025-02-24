@@ -1483,7 +1483,6 @@ palace_lindor = {
 	}
 }
 
-
 #Kaltros
 masridu_fort = {
 	start = 2686 #Vuantrein Pass

@@ -1,5 +1,5 @@
 #juilia
-capital = "Accra"
+capital = "Hywrati"
 trade_goods = unknown
 hre = no
 base_tax = 0

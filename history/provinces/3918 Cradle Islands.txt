@@ -1,5 +1,5 @@
 #tradewind_islands
-capital = "Accra"
+capital = "Illwind"
 trade_goods = unknown
 hre = no
 add_core = SYM

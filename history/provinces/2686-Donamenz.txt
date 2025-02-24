@@ -1,7 +1,7 @@
 #Windsweaps
 culture = donamenz
 religion = uzvazism
-capital = "Accra"
+capital = "Vuantrei"
 trade_goods = unknown
 base_tax = 0
 base_production = 0

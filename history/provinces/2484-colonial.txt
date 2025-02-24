@@ -1,7 +1,7 @@
 #Windsweaps
 culture = kaletian
 religion = shamanism#Fetishism
-capital = "Accra"
+capital = "Daloira"
 trade_goods = unknown
 base_tax = 0
 base_production = 2

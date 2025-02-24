@@ -1,5 +1,5 @@
 #tradewind_islands
-capital = "Accra"
+capital = "Symant"
 hre = no
 add_core = SYM
 owner = SYM

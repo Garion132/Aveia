@@ -1,5 +1,5 @@
 #juilia
-capital = "Accra"
+capital = "Kavabu"
 trade_goods = marble
 base_tax = 1
 base_production = 2
