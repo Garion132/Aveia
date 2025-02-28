@@ -89,6 +89,12 @@
  KAF_ideas:0 "Kafethyrian Ideas"
  KAF_ideas_start:0 "Kafethyrian Traditions"
  KAF_ideas_bonus:0 "Kafethyrian Ambitions"
+ kaf_act_of_representation: "Act of Representation"
+ kaf_sails_of_silver: "Sails of Silver"
+ kaf_sails_of_silver_desc: "Kafethyrs sails are woven by the people of Kafethyr out of the unique fibers found upon the island making them light and the color of silver. This process imbues the sails with a kind of magic increasing their durability and ability to catch the wind."
+ kafethyr_merchant_navy: "Merchant Navy of Kafethyr"
+ kafethyr_industrialization: "Heart of Industrialization"
+ kafethyr_rules_the_waves: "Kafethyr Rules the Waves"
  
  DRG_ideas:0 "Dregheian Ideas"
  DRG_ideas_start:0 "Dregheian Traditions"
@@ -301,4 +307,14 @@
  mannish_martial_ethos: "Mannish Martial Ethos"
  mannish_trading_houses: "Mannish Trading Houses"
  
- 
+ orc_ideas: "Orcish Ideas"
+ orc_ideas_start: "Orcish Traditions"
+ orc_ideas_bonus: "Orchish Ambitions"
+ orc_merchant_caravaning: "Merchant Caravaning"
+ orc_peace_through_barter: "Peace Through Barter"
+ orc_war_in_the_blood: "War in the Blood"
+ orc_art_of_battle: "Art of Battle"
+ orc_blanoula_tax: "The Blanoula Tax"
+ orc_blanoula_tax_desc: "The Blanoula Tax is a Orcish tax on those who have not served in the military. Providing an Orcish state with not only more tax income but also an incentive for more orcs to sign up for the military."
+ orc_lifeblood_of_trade: "Lifeblood of Trade"
+ orc_desert_warriors: "Desert Warriors"

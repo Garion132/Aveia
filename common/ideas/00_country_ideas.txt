@@ -50,8 +50,8 @@ SOH_ideas = {
 KAF_ideas = {
 	start = {
 		naval_morale = 0.20
-		global_colonial_growth = 30
 		sea_repair = yes
+		global_colonial_growth = 10
 	}
 
 	bonus = {
@@ -66,7 +66,7 @@ KAF_ideas = {
 	kaf_act_of_representation = {
 		reduced_liberty_desire_on_other_continent = 12.5
 	}
-	city_upon_a_hill = {
+	kaf_sails_of_silver = {
 		heavy_ship_power = 0.15
 		global_ship_trade_power = 0.1
 	}
@@ -77,8 +77,8 @@ KAF_ideas = {
 	kaf_the_royal_society = {
 		technology_cost = -0.05
 	}
-	reform_of_comission_buying = {
-		discipline = 0.05
+	city_upon_a_hill = {
+		global_colonial_growth = 20
 	}
 	kafethyr_industrialization = {
 		global_trade_goods_size_modifier = 0.2

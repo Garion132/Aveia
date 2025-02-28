@@ -1,6 +1,6 @@
 #Brightcoast
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
 add_core = THL
 owner = THL
@@ -9,7 +9,6 @@ culture = thilranan
 religion = suhar
 capital = "colonial"
 trade_goods = silver
-hre = no
 base_tax = 0
 base_production = 0
 base_manpower = 4
@@ -23,3 +22,5 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 8
+add_core = GEL
+is_city = yes

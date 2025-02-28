@@ -190,14 +190,18 @@
 
  PROV195: "Alimune"
  PROV196: "Sevilor Straits"
+ 
+ PROV201: "Bufgasu Winds"
+ 
+ PROV205: "Felton Coast"
 
  PROV206: "Wiskryu"
  PROV207: "Kushedean Bay"
  PROV208: "Borazed Gulf"
  PROV209: "Karduar"
- 
+ PROV210: "Kybkera"
  PROV211: "Baltalif"
- 
+ PROV212: "Hartuli Bay"
  PROV213: "Sudierot"
  
  PROV215: "Oliprua"
@@ -236,19 +240,23 @@
 
  PROV282: "Symania Sea"
  PROV283: "Vanafold Passage"
-
+ PROV284: "Strivian Bay"
  PROV285: "Yhenil Sea"
  PROV286: "Sartuumi"
  
  PROV288: "Toiuart"
+ 
+ PROV298: "Bausda"
 
  PROV308: "Sonhud Bay"
  PROV309: "Samoisu"
  
  PROV342: "Agaruz Coast"
  PROV343: "Suvarin Bay"
- 
+ PROV344: "Actraea Gulf"
  PROV345: "Tilvena"
+ 
+ PROV353: "Kalevan Coast"
  
  PROV361: "Starsweaps"
  PROV362: "Palitai"
@@ -261,6 +269,10 @@
  PROV389: "Crimson Tides"
  
  PROV404: "Unfound Seas"
+ 
+ PROV438: "Hutgasa Coast"
+
+ PROV442: "Satefrea"
 
  PROV444: "Palurt Opening"
 
@@ -809,7 +821,9 @@
  
  PROV1021: "Grandfell Desert"
  PROV1022: "Grandfell Desert"
-
+ 
+ PROV1030: "Grutasdi"
+ PROV1031: "Fearusdo"
  PROV1032: "Mulikoar"
  PROV1033: "Himben"
  PROV1034: "Kafgihsadsio"
@@ -1692,6 +1706,8 @@
  
  PROV1912: "Victuran Entrance"
  
+ PROV1914: "Maltrine"
+ 
  PROV1921: "Samanin Sea"
  
  PROV1924: "Ecal"
@@ -2203,16 +2219,35 @@
  
  PROV2471: "Grater"
  
+ PROV2478: "Altirath"
+ PROV2479: "Otunasda"
+ PROV2480: "Fadfusa"
+ PROV2481: "Zhtua"
  PROV2482: "Shimberme"
- 
+ PROV2483: "Hugafgua"
  PROV2484: "Daloira"
+ PROV2485: "Jydasa"
+ PROV2486: "Ktùjfai"
+ PROV2487: "Ascuzhau"
+ PROV2488: "Fujgua"
+ PROV2489: "Dyfasda"
  
+ PROV2492: "Hrada"
+ PROV2493: "Jtajuda"
  PROV2494: "Sleetlepeak"
- 
+ PROV2495: "Radgasi"
+ PROV2496: "Kujka"
+ PROV2497: "Jafdanu"
  PROV2498: "Timburn"
+ PROV2499: "Uragat"
  
+ PROV2501: "Brewafar"
+ PROV2502: "Rtujrau"
+ 
+ PROV2507: "Jyheayt"
  PROV2508: "Likar"
- 
+ PROV2509: "Artuga"
+ PROV2510: "Vadar"
  PROV2511: "Whagons"
  PROV2512: "Migcairn"
  PROV2513: "Hufhadiu"
@@ -2482,6 +2517,10 @@
  
  PROV3000: "Nemond"
  
+ PROV3008: "Hyuadse"
+ 
+ PROV3010: "Kuknasak"
+ 
  PROV3013: "Dawd"
  
  PROV3017: "Catecalde"
@@ -2719,11 +2758,13 @@
  PROV4024: "Dorhanor Lake"
  PROV4025: "Charaydis Lake"
  
+ PROV4085: "Rakithon"
+ 
  PROV4120: "Aupoeri"
  PROV4121: "Ilpoair"
  
  PROV4433: "Hywrati"
- PROV4434: "Yakùsauba"
+ PROV4434: "Yakùsauba"
  
  PROV4485: "Sarrinac"
  
