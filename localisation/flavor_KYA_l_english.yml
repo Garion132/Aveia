@@ -93,3 +93,5 @@
  KYA_dominate_council_tt:0 "Has succeeded in overpowering the Kyathian Council"
  KYA_centralize_the_kingdom_title:0 "Centralize the Kingdom"
  KYA_centralize_the_kingdom_desc:0 "The decentralized nature of the Kingdom of Kyath has exposed many weaknesses within. In order to brave the coming storm, we must centralize."
+ 
+ extend_contract: "Extend the Contract"
