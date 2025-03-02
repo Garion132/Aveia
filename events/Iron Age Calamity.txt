@@ -1401,10 +1401,6 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.113.o1" #Put the ring-leaders to death
 		iac_decrease_stability_by_2 = yes
-		add_disaster_modifier = {
-			disaster = civilizational_collapse
-			value = -15
-		}
 		
 		set_country_flag = iac_peasants_begin_questioning_our_rule
 	}
@@ -1413,7 +1409,7 @@ country_event = {
 		iac_decrease_stability_by_1 = yes
 		add_disaster_modifier = {
 			disaster = civilizational_collapse
-			value = 10
+			value = 20
 		}
 
 		add_estate_loyalty = {
@@ -1433,9 +1429,10 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.113.o3" #Say Nothing
 		add_legitimacy = -20
+		add_republican_tradition = -15
 		add_disaster_modifier = {
 			disaster = civilizational_collapse
-			value = 5
+			value = 10
 		}
 		
 		set_country_flag = iac_peasants_begin_questioning_our_rule
@@ -1459,6 +1456,10 @@ country_event = {
 		estate_territory = {
 			estate = estate_burghers
 			territory = 5
+		}
+		has_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 30
 		}
 	}
 
@@ -1489,6 +1490,7 @@ country_event = {
 	}
 	option = {
 		name = "iron_age_calamity.114.o2" #Take advantage of the situation
+		add_corruption = 4
 		add_years_of_income = 2
 		change_estate_land_share = {
 			estate = estate_burghers
@@ -1539,6 +1541,10 @@ country_event = {
 	
 	trigger = {
 		NOT = { has_country_flag = iac_doomsday_cults }
+		has_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 20
+		}
 	}
 
 	is_triggered_only = yes
@@ -1597,6 +1603,7 @@ country_event = {
 	picture = COSSACK_ESTATE_UPSET_eventPicture
 	
 	trigger = {
+		NOT = { has_country_flag = iac_mannish_raiders }
 		OR = {
 			any_neighbor_country = {
 				OR = {
@@ -1626,6 +1633,10 @@ country_event = {
 		days = 1
 	}
 
+	immediate = {
+		set_country_flag = iac_mannish_raiders
+	}
+
 	option = {
 		name = "iron_age_calamity.116.o1" #Rally the troops!
 		random_owned_province = {
@@ -1637,7 +1648,6 @@ country_event = {
 			mannish_raiders_rebels = 2
 		}
 		
-		set_country_flag = iac_mannish_raiders
 	}
 	option = {
 		name = "iron_age_calamity.116.o2" #Bribe them to go away
@@ -1650,8 +1660,6 @@ country_event = {
 		add_years_of_income = -1
 		add_corruption = 2
 		
-		set_country_flag = iac_mannish_raiders
-
 		random_neighbor_country = {
 			limit = {
 				NOT = { has_country_flag = iac_mannish_raiders }
@@ -1670,7 +1678,18 @@ country_event = {
 	picture = GREAT_BUILDING_eventPicture
 	
 	trigger = {
-		
+		has_government_mechanic = monumentality_mechanic
+		has_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 40
+		}
+		check_variable = {
+			which = monuments
+			value = 1
+		}	
+		NOT = {
+			has_country_flag = defiled_monuments
+		}
 	}
 
 	is_triggered_only = yes
@@ -1681,15 +1700,63 @@ country_event = {
 
 	option = {
 		name = "iron_age_calamity.117.o1" #We have more important matters to attend to
+		add_legitimacy = -10
+		add_republican_tradition = -5
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -10
+		}
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = 10
+		}
 		
+		custom_tooltip = remove_one_monument_tt
+		hidden_effect = {
+			set_country_flag = defiled_monuments
+			subtract_variable = {
+				which = monuments
+				value = 1
+			}	
+		}
 	}
 	option = {
 		name = "iron_age_calamity.117.o2" #Grant powers to the Clergy to deal with it
+		add_estate_influence_modifier = {
+			estate = estate_church
+			desc = EST_VAL_INVESTIGATION_POWERS
+			influence = 10
+			duration = 7300
+		}
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 5
+		}
 
+		add_corruption = 2
+		
+		custom_tooltip = remove_one_monument_tt
+		hidden_effect = {
+			set_country_flag = defiled_monuments
+			subtract_variable = {
+				which = monuments
+				value = 1
+			}	
+		}
 	}
 	option = {
 		name = "iron_age_calamity.117.o3" #Find the culprit ourselves and hang them
 		
+		add_adm_power = -100
+		
+		custom_tooltip = remove_one_monument_tt
+		hidden_effect = {
+			set_country_flag = defiled_monuments
+			subtract_variable = {
+				which = monuments
+				value = 1
+			}	
+		}
 	}
 }
 
@@ -1701,7 +1768,13 @@ country_event = {
 	picture = SIEGE_eventPicture
 	
 	trigger = {
-		
+		has_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 60
+		}
+		NOT = {
+			has_country_flag = iac_buildings_fall_to_ruin
+		}
 	}
 
 	is_triggered_only = yes
@@ -1712,15 +1785,301 @@ country_event = {
 
 	option = {
 		name = "iron_age_calamity.118.o1" #We weren't using them anyway
+
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = -60
+		}
+
+		set_country_flag = iac_buildings_fall_to_ruin
 		
+		custom_tooltip = iac_ruined_buildings_tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_port = yes
+					num_of_buildings_in_province = 2
+				}
+				random_list = {
+					10 = {
+						trigger = { has_building = marketplace }
+						remove_building = marketplace
+					}
+					10 = {
+						trigger = { has_building = trade_depot }
+						remove_building = trade_depot
+					}
+					10 = {
+						trigger = { has_building = mint }
+						remove_building = mint
+					}
+					10 = {
+						trigger = { has_building = shrine }
+						remove_building = shrine
+					}
+					10 = {
+						trigger = { has_building = temple }
+						remove_building = temple
+					}
+					10 = {
+						trigger = { has_building = town_square }
+						remove_building = town_square
+					}
+					10 = {
+						trigger = { has_building = port }
+						remove_building = port
+					}
+					10 = {
+						trigger = { has_building = shipwright }
+						remove_building = shipwright
+					}
+					10 = {
+						trigger = { has_building = workshop }
+						remove_building = workshop
+					}
+					10 = {
+						trigger = { has_building = alchemist_shop }
+						remove_building = alchemist_shop
+					}
+					10 = {
+						trigger = { has_building = barracks }
+						remove_building = barracks
+					}
+					10 = {
+						trigger = { has_building = taxman }
+						remove_building = taxman
+					}
+					10 = {
+						trigger = { has_building = gravel_roads }
+						remove_building = gravel_roads
+					}
+					10 = {
+						trigger = { has_building = school }
+						remove_building = school
+					}
+				}
+			}
+			every_owned_province = {
+				limit = {
+					num_of_buildings_in_province = 3
+				}
+				random_list = {
+					10 = {
+						trigger = { has_building = marketplace }
+						remove_building = marketplace
+					}
+					10 = {
+						trigger = { has_building = trade_depot }
+						remove_building = trade_depot
+					}
+					10 = {
+						trigger = { has_building = mint }
+						remove_building = mint
+					}
+					10 = {
+						trigger = { has_building = shrine }
+						remove_building = shrine
+					}
+					10 = {
+						trigger = { has_building = temple }
+						remove_building = temple
+					}
+					10 = {
+						trigger = { has_building = town_square }
+						remove_building = town_square
+					}
+					10 = {
+						trigger = { has_building = port }
+						remove_building = port
+					}
+					10 = {
+						trigger = { has_building = shipwright }
+						remove_building = shipwright
+					}
+					10 = {
+						trigger = { has_building = workshop }
+						remove_building = workshop
+					}
+					10 = {
+						trigger = { has_building = alchemist_shop }
+						remove_building = alchemist_shop
+					}
+					10 = {
+						trigger = { has_building = barracks }
+						remove_building = barracks
+					}
+					10 = {
+						trigger = { has_building = taxman }
+						remove_building = taxman
+					}
+					10 = {
+						trigger = { has_building = gravel_roads }
+						remove_building = gravel_roads
+					}
+					10 = {
+						trigger = { has_building = school }
+						remove_building = school
+					}
+				}
+			}
+		}
 	}
 	option = {
 		name = "iron_age_calamity.118.o2" #Attempt last-minute repairs
-		
+
+		add_years_of_income = -2
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = -60
+		}
+		set_country_flag = iac_buildings_fall_to_ruin
+
+		custom_tooltip = iac_ruined_buildings_2_tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					num_of_buildings_in_province = 3
+				}
+				random_list = {
+					10 = {
+						trigger = { has_building = marketplace }
+						remove_building = marketplace
+					}
+					10 = {
+						trigger = { has_building = trade_depot }
+						remove_building = trade_depot
+					}
+					10 = {
+						trigger = { has_building = mint }
+						remove_building = mint
+					}
+					10 = {
+						trigger = { has_building = shrine }
+						remove_building = shrine
+					}
+					10 = {
+						trigger = { has_building = temple }
+						remove_building = temple
+					}
+					10 = {
+						trigger = { has_building = town_square }
+						remove_building = town_square
+					}
+					10 = {
+						trigger = { has_building = port }
+						remove_building = port
+					}
+					10 = {
+						trigger = { has_building = shipwright }
+						remove_building = shipwright
+					}
+					10 = {
+						trigger = { has_building = workshop }
+						remove_building = workshop
+					}
+					10 = {
+						trigger = { has_building = alchemist_shop }
+						remove_building = alchemist_shop
+					}
+					10 = {
+						trigger = { has_building = barracks }
+						remove_building = barracks
+					}
+					10 = {
+						trigger = { has_building = taxman }
+						remove_building = taxman
+					}
+					10 = {
+						trigger = { has_building = gravel_roads }
+						remove_building = gravel_roads
+					}
+					10 = {
+						trigger = { has_building = school }
+						remove_building = school
+					}
+				}
+			}
+		}
 	}
 	option = {
 		name = "iron_age_calamity.118.o3" #Mobilize the army to deal with it
+		trigger = {
+			years_of_manpower = 1
+		}
 		
+		add_yearly_manpower = -1
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = -60
+		}
+		set_country_flag = iac_buildings_fall_to_ruin
+
+		custom_tooltip = iac_ruined_buildings_2_tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					num_of_buildings_in_province = 3
+				}
+				random_list = {
+					10 = {
+						trigger = { has_building = marketplace }
+						remove_building = marketplace
+					}
+					10 = {
+						trigger = { has_building = trade_depot }
+						remove_building = trade_depot
+					}
+					10 = {
+						trigger = { has_building = mint }
+						remove_building = mint
+					}
+					10 = {
+						trigger = { has_building = shrine }
+						remove_building = shrine
+					}
+					10 = {
+						trigger = { has_building = temple }
+						remove_building = temple
+					}
+					10 = {
+						trigger = { has_building = town_square }
+						remove_building = town_square
+					}
+					10 = {
+						trigger = { has_building = port }
+						remove_building = port
+					}
+					10 = {
+						trigger = { has_building = shipwright }
+						remove_building = shipwright
+					}
+					10 = {
+						trigger = { has_building = workshop }
+						remove_building = workshop
+					}
+					10 = {
+						trigger = { has_building = alchemist_shop }
+						remove_building = alchemist_shop
+					}
+					10 = {
+						trigger = { has_building = barracks }
+						remove_building = barracks
+					}
+					10 = {
+						trigger = { has_building = taxman }
+						remove_building = taxman
+					}
+					10 = {
+						trigger = { has_building = gravel_roads }
+						remove_building = gravel_roads
+					}
+					10 = {
+						trigger = { has_building = school }
+						remove_building = school
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -1732,7 +2091,17 @@ country_event = {
 	picture = REFUGEES_ESCAPING_eventPicture
 	
 	trigger = {
-		
+		OR = {
+			livestock = 1
+			wool = 1
+		}
+		has_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 20
+		}
+		NOT = {
+			has_country_flag = iac_shephards_flee
+		}
 	}
 
 	is_triggered_only = yes
@@ -1744,10 +2113,72 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.119.o1" #Off they go
 		
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = -20
+		}
+
+		set_country_flag = iac_shephards_flee
+
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = livestock
+						trade_goods = wool
+					}
+					base_manpower = 4
+				}
+				if = {
+					limit = {
+						base_manpower = 12
+					}
+					add_base_manpower = -3
+				}
+				else_if = {
+					limit = {
+						base_manpower = 8
+					}
+					add_base_manpower = -2
+				}
+				else = {
+					add_base_manpower = -1
+				}
+			}
+		}
 	}
 	option = {
 		name = "iron_age_calamity.119.o2" #Persuade some to stay
 		
+		add_dip_power = -100
+		set_country_flag = iac_shephards_flee
+
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = livestock
+						trade_goods = wool
+					}
+					base_manpower = 6
+				}
+				if = {
+					limit = {
+						base_manpower = 18
+					}
+					add_base_manpower = -3
+				}
+				else_if = {
+					limit = {
+						base_manpower = 12
+					}
+					add_base_manpower = -2
+				}
+				else = {
+					add_base_manpower = -1
+				}
+			}
+		}
 	}
 }
 

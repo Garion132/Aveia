@@ -686,6 +686,46 @@ estate_church_monopoly_of_bronze_mod = {
 		local_tax_modifier = 0.05
 	}
 #
+#Flavor
+	ELE_first_professional_army = {
+		yearly_army_professionalism = 0.005
+		discipline = 0.1
+
+		land_forcelimit_modifier = -0.1
+		global_regiment_cost = 0.25
+		general_cost = 0.50
+	}
+	ELE_expensive_professionalism = {
+		yearly_army_professionalism = 0.002
+		discipline = 0.05
+
+		land_forcelimit_modifier = -0.2
+		global_regiment_cost = 0.5
+		general_cost = 1
+	}
+	ELE_reforms_traditional_army = {
+		discipline = 0.1
+
+		mil_tech_cost_modifier  = 0.1
+		land_forcelimit_modifier = -0.1
+		global_regiment_cost = 0.25
+		general_cost = 0.50
+	}
+	ELE_reforms_professional_army = {
+		yearly_army_professionalism = 0.01
+		discipline = 0.05
+
+		infantry_power = 0.10
+		drill_gain_modifier = 1.0
+	}
+	ELE_reforms_mercenary_army = {
+		discipline = 0.05
+		mercenary_discipline = 0.05
+		
+		merc_independent_from_trade_range = yes
+		allow_mercenary_drill = yes
+	}
+#
 #Important Locations
 	asemont_copper_mines = { #Asemont Copper Mines (in the Cradle)
 		# working_cap_base = 0.5

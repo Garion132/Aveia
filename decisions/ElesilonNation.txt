@@ -1,0 +1,29 @@
+country_decisions = {
+
+	ELE_restructure_the_military = {
+		major = yes
+		potential = {
+			#is_year = 1400
+			tag = ELE
+			has_country_modifier = ELE_expensive_professionalism
+		}
+		allow = {
+			if = {
+				limit = {
+					has_dlc = "Cradle of Civilization"
+				}
+				army_professionalism = 0.9
+			}
+			else = {
+				army_tradition = 90
+			}
+			mil_power = 200
+		}
+		effect = {
+		    country_event = { id = elesilon_flavor.3 }
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

@@ -221,6 +221,13 @@ iron_age_calamity = {
 			100 = iron_age_calamity.107 #Army Desertion
 			75 = iron_age_calamity.108 #Technology Question
 			150 = iron_age_calamity.109 #Outdated Military
+			100 = iron_age_calamity.113 #Peasantry Question Rule
+			50 = iron_age_calamity.114 #Fall of Merchant Class
+			100 = iron_age_calamity.115 #Doomsday Cults
+			75 = iron_age_calamity.116 #Mannish Raiders
+			50 = iron_age_calamity.117 #Tomb Raiders
+			500 = iron_age_calamity.118 # Buildings fall to ruin
+			100 = iron_age_calamity.119 # Shephards flee
 
 			#Breakaways
 			50 = iron_age_calamity.1000
