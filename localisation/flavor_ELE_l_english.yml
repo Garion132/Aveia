@@ -1,0 +1,28 @@
+﻿l_english:
+ ELE_first_professional_army: "First Professional Army"
+ ELE_first_professional_army_desc: "Elesilon is the first state in the entire history of the world to employ a professional military. Its troops are regularly trained and fully paid, at the expense of the vast coffers of Yhenil's treasury."
+ ELE_expensive_professionalism: "Withering Professional Army"
+ ELE_expensive_professionalism_desc: "Complacency and neglect have impacted Elesilon's professional army. The recent disaster has meant that Elesilon has had to divert its attention elsewhere."
+ ELE_reforms_traditional_army: "Reformed Traditional Army"
+ ELE_reforms_traditional_army_desc: "Why invent something knew when you had something that already worked so well? Many of the newer impediments that were added to the Elesilon military have been removed and discipline has been re-established under the traditional system."
+ ELE_reforms_professional_army: "Reformed Professional Army"
+ ELE_reforms_professional_army_desc: "A great set of reforms have been impacted on Elesilon's guard, and have resulted in a force which is more professional than before. While the high-tide of glories of earlier years may be gone, this force represents a long-term dedication toward a modern army."
+ ELE_reforms_mercenary_army: "Reformed Mercenary Army"
+ ELE_reforms_mercenary_army_desc: "The great rulers of Elesilon have decided to do away with the professional military of the past. While elements are still in play, a much greater emphasis has been put on privately hired mercenary armies, so called 'Contract Soldiers' who can do the bidding of the state."
+
+ ELE_restructure_the_military_title: "Restructure the Military"
+ ELE_restructure_the_military_desc: "The decay of our professional military must be addressed. We need to make structural reforms that go beyond ameliorating surface-level problems."
+
+ elesilon_flavor.1.t: "The First Professional Army"
+ elesilon_flavor.1.d: "In the early days of Elesilon, a decision was made to use the vast funds of the treasury to establish a full-time guard. Those who served lived, breathed, and died as a guard. This provided the foundations for the later establishment of a professional military, one where the equipment is provided for by the coin of the state.\n\nWhile such a program is expensive, it has paid its dividends. Many of the world's military innovations have occured in Elesilon in the past simply because our captains and generals have sought to make such a system as efficient as possible. With its expense, it is difficult to replicate, so Elesilon manages to stay far ahead of those who might eye the city of the world's desire."
+ elesilon_flavor.1.o1: "Our armies stand strong"
+ 
+ elesilon_flavor.2.t: "An Ever More Expensive Force"
+ elesilon_flavor.2.d: "The recent calamity has exposed some less than savory truths about the Elesilon military. Notably, our professionalism has been slipping to unacceptable levels. Not only that, but attempting to maintain it has been getting more and more expensive over time as our generals attempt to remedy these lapses with higher standards, more training, and even more costly equipment."
+ elesilon_flavor.2.o1: "The military may need reform"
+ 
+ elesilon_flavor.3.t: "Restructuring the Military"
+ elesilon_flavor.3.d: "The time has come to take a hard look at the state of the military. There are three different schools of thought.\n\nThe Traditionalists want a return to the older traditions of the past, before the calamity, when our military fought off foes numerous times its own size. They argue that the old practices that worked need not be changed, but rather to get rid of much of the newer bloat that is dragging down our military's performance.\n\nThe Modernists want to fully embrace some of the more radical ideas produced in the time of the calamity of a strictly regimented force, however throwing away some of the older traditions.\n\nThe last school of thought is the Heterodox, who wish to rid ourselves of the professional military entirely and instead rely upon mercenary forces. However, they wish to not throw it all away, but rather insist that these mercenary companies adopt Elesilon's training regimen and high standards.\n\nWhich school of thought ought we follow?"
+ elesilon_flavor.3.o1: "Return to the traditions of old"
+ elesilon_flavor.3.o2: "Modernize our forces"
+ elesilon_flavor.3.o3: "Embrace a mercenary military"

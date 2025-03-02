@@ -1,0 +1,156 @@
+namespace = elesilon_flavor
+
+
+# The First Professional Army
+country_event = {
+	id = elesilon_flavor.1
+	title = "elesilon_flavor.1.t"
+	desc = "elesilon_flavor.1.d"
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		tag = ELE
+		NOT = { is_year = 1300 }
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = { # Our Armies Stand Strong
+		name = "elesilon_flavor.1.o1"
+
+		add_prestige = 20
+
+        add_army_tradition = 20
+
+        if = {
+            limit = {
+                has_dlc = "Cradle of Civilization"
+            }
+            add_army_professionalism = 0.5
+        }
+
+        add_country_modifier = {
+            name = ELE_first_professional_army
+            duration = -1
+        }
+        
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# An Ever More Expensive Force
+country_event = {
+	id = elesilon_flavor.2
+	title = "elesilon_flavor.2.t"
+	desc = "elesilon_flavor.2.d"
+	picture = MILITARY_CAMP_eventPicture
+	
+	trigger = {
+		tag = ELE
+        OR = {
+            is_year = 1400
+		    has_disaster = iron_age_calamity
+        }
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = { # The military may need reform
+		name = "elesilon_flavor.2.o1"
+
+        remove_country_modifier = ELE_first_professional_army
+        add_country_modifier = {
+            name = ELE_expensive_professionalism
+            duration = -1
+        }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# Restructuring the Military
+country_event = {
+	id = elesilon_flavor.3
+	title = "elesilon_flavor.3.t"
+	desc = "elesilon_flavor.3.d"
+	picture = MILITARY_CAMP_eventPicture
+	
+	trigger = {
+		tag = ELE
+	}
+
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = { # Return to the traditions of old
+		name = "elesilon_flavor.3.o1"
+
+        add_mil_power = -200
+        if = {
+            limit = {
+                has_dlc = "Cradle of Civilization"
+            }
+            add_army_professionalism = -0.2
+        }
+        else = {
+            add_army_tradition = -20
+        }
+
+        remove_country_modifier = ELE_expensive_professionalism
+        add_country_modifier = {
+            name = ELE_reforms_traditional_army
+            duration = -1
+        }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { # Modernize the concept
+		name = "elesilon_flavor.3.o2"
+
+        add_mil_power = -200
+
+        remove_country_modifier = ELE_expensive_professionalism
+        add_country_modifier = {
+            name = ELE_reforms_professional_army
+            duration = -1
+        }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = { # Embrace a mercenary military
+		name = "elesilon_flavor.3.o3"
+
+        add_mil_power = -200
+
+        remove_country_modifier = ELE_expensive_professionalism
+        add_country_modifier = {
+            name = ELE_reforms_mercenary_army
+            duration = -1
+        }
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

@@ -268,15 +268,20 @@
   iron_age_calamity.117.o1:0 "We have more important matters to attend to"
   iron_age_calamity.117.o2:0 "Grant powers to the Clergy to deal with it"
   iron_age_calamity.117.o3:0 "Find the culprit ourselves and hang them"
+  EST_VAL_INVESTIGATION_POWERS: "Investigation Powers: §Y+10.0%§!"
 
   iron_age_calamity.118.t:0 "Buildings Fall to Ruin"
   iron_age_calamity.118.o1:0 "We weren't using them anyway"
   iron_age_calamity.118.o2:0 "Attempt last-minute repairs"
   iron_age_calamity.118.o3:0 "Mobilize the army to deal with it"
+  iac_ruined_buildings_tt: "In every §Yprovince§! with a §Ybuilding§!, a random non-fort non-manufactory §Ybuilding§! will be §Rdestroyed§!\nAn additional §Ybuilding§! will be §Rdestroyed§! in provinces with at least §Ythree buildings§!."
+  iac_ruined_buildings_2_tt: "In every §Yprovince§! with at least §Ythree buildings§!, a random non-fort non-manufactory §Ybuilding§! will be §Rdestroyed§!"
   
   iron_age_calamity.119.t:0 "Shephards Flee to Greener Pastures"
   iron_age_calamity.119.o1:0 "Off they go"
   iron_age_calamity.119.o2:0 "Persuade some to stay"
+  iac_shephards_flee_tt: "In every §Yprovince§! that produces either §Ywool§! or §Ylivestock§! with at least §Y4§! Lower Class Population will §Rlose§! §Y1§!, §Y2§!, or §Y3§! Lower Class Population depending on the §Ypopulation§! of the province."
+  iac_shephards_convinced_tt: "In every §Yprovince§! that produces either §Ywool§! or §Ylivestock§! with at least §Y6§! Lower Class Population will §Rlose§! §Y1§!, §Y2§!, or §Y3§! Lower Class Population depending on the §Ypopulation§! of the province."
   
   iron_age_calamity.120.t:0 "Merchants Relocate their Businesses"
   iron_age_calamity.120.o1:0 "Oh well"
