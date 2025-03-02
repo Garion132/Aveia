@@ -1450,7 +1450,9 @@
  KSV: "Krashyrvil"
  KSV_ADJ: "Krashyrvil"
  SFD: "Shire Federation"
- SFD_ADJ: "Shirate" 
+ SFD_ADJ: "Shirate"
+ VOH: "Vohenia"
+ VOH_ADJ: "Vohenian" 
  
  
  COLONIAL_KLAETIA_freygmia: "Freygmia"

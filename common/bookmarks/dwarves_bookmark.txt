@@ -5,16 +5,16 @@ bookmark = {
 	
 	center = 1267
 	
-	easy_country = DRG
 	easy_country = RAU
 	easy_country = GUL
 	easy_country = SHE
-	country = DRG
+	easy_country = ATH
 	country = RAU
 	country = GUL
 	country = SHE
-	country = BOL
 	country = ATH
+	country = DRG
+	#country = BOL
 	country = NYH
 	country = SAL
 	country = GHA

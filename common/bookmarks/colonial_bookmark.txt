@@ -6,12 +6,18 @@ bookmark = {
 	center = 3378
 	
 	easy_country = KAF
+	easy_country = SOH
+	easy_country = ATH
+	easy_country = FRY
+	easy_country = LEL
 	country = KAF
 	country = SOH
 	country = ATH
-	country = KEA
+	country = FRY
 	country = LEL
-	country = NYH
+	country = KEA
+	country = JAL
 	country = SAL
 	country = FRS
+	
 }

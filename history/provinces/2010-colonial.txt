@@ -1,6 +1,6 @@
 #Brightcoast
 culture = noxivate
-religion = shamanism#Fetishism
+religion = drethalumia#Fetishism
 capital = "colonial"
 trade_goods = unknown
 base_tax = 0

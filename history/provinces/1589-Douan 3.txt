@@ -1,13 +1,11 @@
 #Douan
-
 add_core = DOU
 owner = DOU
 controller = DOU
 culture = douan
-religion = tlaunorist
-hre = no
+religion = forebearist
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 4
 trade_goods = naval_supplies
 capital = "Dou"

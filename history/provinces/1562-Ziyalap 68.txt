@@ -1,13 +1,11 @@
 #Ziyalap
-
 add_core = BAY
 owner = BAY
 controller = BAY
 culture = topika
-religion = tlaunorist
-hre = no
+religion = forebearist
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 5
 trade_goods = livestock
 capital = "Ziy"

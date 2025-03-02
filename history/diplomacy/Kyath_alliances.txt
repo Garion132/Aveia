@@ -367,6 +367,15 @@ alliance = {
 	end_date = 1381.1.1
 }
 
+#Elesilon
+alliance = {
+	first = ELE
+	second = ZLS
+	trade_league = 1
+	start_date = 1180.1.1
+	end_date = 1381.1.1
+}
+
 dependency = {
 	subject_type = "tributary_state"
 	first = CYU

@@ -1,6 +1,6 @@
 #juilia
 culture = kaletian
-religion = shamanism#Fetishism
+religion = drethalumia#Fetishism
 capital = "Accra"
 trade_goods = unknown
 base_tax = 0

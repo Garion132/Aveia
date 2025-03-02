@@ -1,16 +1,13 @@
 #Unolad
-latent_trade_goods = {
-	iron
+latent_trade_goods = { 
+	iron 
 }
-
-add_core = UNO
 owner = UNO
 controller = UNO
 culture = unolaan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 10
 trade_goods = fruit
 capital = "Uno 3"
@@ -22,5 +19,6 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-port = yes
 set_variable = { which = arable_land value = 9 }
+add_core = UNO
+port = yes

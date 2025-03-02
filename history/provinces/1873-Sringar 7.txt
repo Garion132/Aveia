@@ -1,6 +1,6 @@
 #Sringar
 culture = kaletian
-religion = shamanism#Fetishism
+religion = drethalumia#Fetishism
 base_tax = 0
 base_production = 2
 base_manpower = 3

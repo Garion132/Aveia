@@ -1,11 +1,8 @@
 #Nyhenat
-
-add_core = NYH
-owner = NYH
-controller = NYH
+owner = ELE
+controller = ELE
 culture = nyhenat
 religion = tlaunorist
-hre = no
 base_tax = 0
 base_production = 0
 base_manpower = 11
@@ -19,5 +16,6 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-gravel_roads = yes
 set_variable = { which = arable_land value = 11 }
+add_core = ELE
+gravel_roads = yes

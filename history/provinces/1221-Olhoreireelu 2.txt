@@ -1,14 +1,11 @@
 #Olhoreireelu
-latent_trade_goods = {
-	iron
+latent_trade_goods = { 
+	iron 
 }
-
-add_core = OLH
-owner = OLH
-controller = OLH
+owner = KEA
+controller = KEA
 culture = keatha
 religion = tlaunorist
-hre = no
 base_tax = 0
 base_production = 3
 base_manpower = 13
@@ -22,9 +19,10 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+set_variable = { which = arable_land value = 12 }
+add_core = KEA
 port = yes
 shipwright = yes
 town_square = yes
 taxman = yes
 gravel_roads = yes
-set_variable = { which = arable_land value = 12 }

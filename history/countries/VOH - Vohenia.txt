@@ -1,0 +1,14 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+government_rank = 1
+primary_culture = unolaan
+religion = tlaunorist
+technology_group = dunirr_group
+capital = 1236 # 
+#national_focus = DIP
+#historical_rival = HAB
+
+
+1221.7.26 = {
+	
+}

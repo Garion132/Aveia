@@ -1,0 +1,18 @@
+alliance = {
+	first = KAK
+	second = KRL
+	start_date = 1180.1.1
+	end_date = 1381.1.1
+}
+alliance = {
+	first = KAK
+	second = BTY
+	start_date = 1180.1.1
+	end_date = 1381.1.1
+}
+alliance = {
+	first = KRL
+	second = BTY
+	start_date = 1180.1.1
+	end_date = 1381.1.1
+}

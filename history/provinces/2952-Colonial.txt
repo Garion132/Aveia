@@ -1,6 +1,6 @@
 #Agaruz
 culture = aragate
-religion = shamanism
+religion = drethalumia
 capital = "Accra"
 trade_goods = unknown
 base_tax = 0

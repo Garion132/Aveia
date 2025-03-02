@@ -1,14 +1,12 @@
 #Nfanatha
-
 add_core = NFA
 add_core = CHE
 owner = NFA
 controller = NFA
 culture = neanathan
-religion = tlaunorist
-hre = no
+religion = roresist
 base_tax = 0
-base_production =2
+base_production = 2
 base_manpower = 6
 trade_goods = fish
 capital = "Nfa"

@@ -22,6 +22,7 @@
  vitaite_hills:0 "Vitaite Hills"
  redmarsh:0 "Redmarsh"
  great_bridge:0 "Great Bridge"
+ great_bridge_desc:0 "A Bridge that is a City, or a City that is a Bridge. This terrain represents that concept made manifest."
  great_mountain_pass:0 "Great Mountain Pass"
 
  economist:0 "Economist"

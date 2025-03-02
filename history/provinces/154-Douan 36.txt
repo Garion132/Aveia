@@ -1,11 +1,9 @@
 #Douan
-
 add_core = DOU
 owner = DOU
 controller = DOU
 culture = muthil
-religion = tlaunorist
-hre = no
+religion = roresist
 base_tax = 0
 base_production = 0
 base_manpower = 7
@@ -19,5 +17,5 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-gravel_roads = yes
 set_variable = { which = arable_land value = 7 }
+gravel_roads = yes

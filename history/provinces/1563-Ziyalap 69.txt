@@ -1,13 +1,11 @@
 #Ziyalap
-
 add_core = TOP
 owner = TOP
 controller = TOP
 culture = topika
-religion = tlaunorist
-hre = no
+religion = forebearist
 base_tax = 0
-base_production =1
+base_production = 1
 base_manpower = 4
 trade_goods = silver
 capital = "Ziy"

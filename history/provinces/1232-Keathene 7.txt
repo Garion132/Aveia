@@ -1,9 +1,9 @@
 #Keathene
 
-add_core = KEA
-owner = KEA
-controller = KEA
-culture = keatha
+add_core = VOH
+owner = VOH
+controller = VOH
+culture = unolaan
 religion = tlaunorist
 hre = no
 base_tax = 0

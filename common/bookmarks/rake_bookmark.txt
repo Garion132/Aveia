@@ -6,10 +6,14 @@ bookmark = {
 	center = 2040
 	
 	easy_country = VUL
+	easy_country = THL
 	country = VUL
+	country = THL
 	country = VYL
 	country = VEN
 	country = GAR
 	country = VII
 	country = OAY
+	country = SIN
+	country = SEM
 }

@@ -9,9 +9,10 @@ bookmark = {
 	easy_country = SOH
 	country = ZIY
 	country = SOH
-	country = BAY
+	country = KEP
 	country = NFA
 	country = YER
 	country = INZ
 	country = MTN
+	country = MUY
 }

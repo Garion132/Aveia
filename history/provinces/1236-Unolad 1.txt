@@ -1,8 +1,8 @@
 #Unolad
 
-add_core = UNO
-owner = UNO
-controller = UNO
+add_core = VOH
+owner = VOH
+controller = VOH
 culture = unolaan
 religion = tlaunorist
 hre = no
