@@ -12,7 +12,6 @@ bookmark = {
 	country = VYL
 	country = VEN
 	country = GAR
-	country = VII
 	country = OAY
 	country = SIN
 	country = SEM

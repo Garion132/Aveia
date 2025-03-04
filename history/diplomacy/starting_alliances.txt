@@ -1,3 +1,4 @@
+#east mountian kolbolds
 alliance = {
 	first = KAK
 	second = KRL

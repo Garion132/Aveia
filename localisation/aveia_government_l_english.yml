@@ -46,6 +46,8 @@
  ba_free_trade_reform:0 "Free Trade"
  ba_mass_conscription_reform:0 "Mass Conscription"
  ba_aristocratic_military_reform:0 "Aristocractic Military"
+ ba_local_rights_reform: "LOcal Rights"
+ ba_random_draw_reform: "Random Draws"
  oayvein_grand_dutchy_reform:0 "Oayvein Duchy"
  league_of_cities:0 "League of Cities"
  LEAGUE:0 "League"
@@ -164,4 +166,6 @@
  ability_nalean_contract_mechanic: "Contract of Nalean"
  ba_evalinta: "Evalinta"
  ia_evalinta: "Evalinta"
+ city_rights: "City Rights"
+ advance_government_form: "Advance Government"
  

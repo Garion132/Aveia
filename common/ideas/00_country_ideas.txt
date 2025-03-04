@@ -1055,16 +1055,16 @@ GUL_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	GUL_tin_lands = {
+	GUL_caravan_financers = {
 		interest = -1.0
 	}
-	GUL_ship_cycling= {
+	GUL_orkish_phalanx = {
 		shock_damage_received = -0.15
 	}
 	GUL_temple_education = {
 		production_efficiency = 0.1
 	}
-	GUL_guards_of_doninas = {
+	GUL_sunspot_road = {
 		trade_steering = 0.15
 	}
 	GUL_crop_singers = {

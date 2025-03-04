@@ -61,6 +61,10 @@ league_of_cities = {
 		land_morale = 0.1
 		max_absolutism = -40
 	}
+	
+	government_abilities = {
+		monumentality_mechanic
+	}
 
 	ai = {
 		factor = 0
