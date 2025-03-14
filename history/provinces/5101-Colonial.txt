@@ -14,3 +14,4 @@ latent_trade_goods = {
 }
 religion = tradowite
 discovered_by = eastern_men_group
+culture = aranoc

@@ -203,7 +203,7 @@
  PROV211: "Baltalif"
  PROV212: "Hartuli Bay"
  PROV213: "Sudierot"
- 
+ PROV214: "Ashartursa Coast"
  PROV215: "Oliprua"
  PROV216: "Oagemin Coast"
  PROV217: "Elnorei Pass"
@@ -217,17 +217,27 @@
  PROV225: "Blight of Hyreno"
  PROV226: "Faefear Blight"
  PROV227: "Uma Coast"
- 
+ PROV228: "Nhadsar"
+ PROV229: "Garanwe"
  PROV230: "Teusmd Rift"
  PROV231: "Lilraqra"
- 
+ PROV232: "Floundering Waves"
+ PROV233: "North Oihnasa"
+ PROV234: "South Oihnasa"
+ PROV235: "Voinalla"
  PROV236: "Xeeknor"
  PROV237: "Yiqas Sea"
- 
+ PROV238: "Bydusa"
  PROV239: "Tailwind Seas"
- 
+ PROV240: "Deeptrawls"
+ PROV241: "Jiutyjherfa"
+ PROV242: "Costrie Coast"
+ PROV243: "Xarsolin's Crossing"
+ PROV244: "Thyefrae"
  PROV245: "Fas'jrihar"
- 
+ PROV246: "Mlujbenua"
+ PROV247: "Sarrinac Coast"
+ PROV248: "Varixar"
  PROV249: "Ximuar Bay"
  PROV250: "Yoatuae"
  
@@ -246,6 +256,10 @@
  
  PROV288: "Toiuart"
  
+ PROV294: "Jars'sja"
+ PROV295: "Karid'ssadar"
+ PROV296: "Yra'tarda'ia"
+ PROV297: "Vamirar Sea"
  PROV298: "Bausda"
 
  PROV308: "Sonhud Bay"
@@ -255,6 +269,7 @@
  PROV343: "Suvarin Bay"
  PROV344: "Actraea Gulf"
  PROV345: "Tilvena"
+ PROV346: "Baetimo Channel"
  
  PROV353: "Kalevan Coast"
  
@@ -263,6 +278,9 @@
  
  PROV364: "Yolris"
  
+ PROV370: "Kavimlo Coast"
+ 
+ PROV376: "Kamind Bay"
  PROV377: "Wester Bay"
  PROV378: "Goldbay"
  
@@ -275,6 +293,8 @@
  PROV442: "Satefrea"
 
  PROV444: "Palurt Opening"
+ 
+ PROV446: "Senusix"
 
  PROV448: "Desert's Miracle"
  PROV449: "Jarinnu Ridge"
@@ -2775,6 +2795,8 @@
  PROV4324: "Tmeaonas"
  
  PROV4382: "Grovenshield"
+ 
+ PROV4486: "Ashartursa"
  
  PROV4533: "Anaivans Wake"
  

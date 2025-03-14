@@ -16,6 +16,7 @@
  freyglen_rights_bill_desc:0 ""
  center_of_lights:0 "Center Of Lights"
  center_of_lights_desc:0 ""
+ 
  LUM_ideas:0 "Lumian Ideas"
  LUM_ideas_start:0 "Lumian Traditions"
  LUM_ideas_bonus:0 "The Crescedo"
@@ -28,12 +29,14 @@
  LUM_idea_6:0 "Intelligent Urban Design"
  LUM_idea_6_desc:0 "Lumia sees cities as an opportunity to express creativity with the land as a canvas, and thus urban areas are developed with a personal touch and with the population's behavior in mind, instead of being allowed to sprawl. While this structured approach takes longer in planning, it ultimately pays off."
  LUM_idea_7:0 ""
+ 
  scurian_ideas:0 "Scurian Ideas"
  scurian_ideas_start:0 "Scurian Traditions"
  scurian_ideas_bonus:0 "Scurian Ambition"
  PET_ideas:0 "Petaur Ideas"
  PET_ideas_start:0 "Petaur Traditions"
  PET_ideas_bonus:0 "Petaur Ambition"
+ 
  north_mannish_ideas:0 "Mannish Tribal Ideas"
  
  SOH_ideas:0 "Sohoremyfan Ideas"
@@ -112,7 +115,7 @@
  NYH_ideas_start:0 "Nyhenat Traditions"
  NYH_ideas_bonus:0 "Nyhenat Ambitions"
  NYH_quitamarines: "Quitamarines"
- NYUH_debate_college: "Debate Collage"
+ NYH_debate_college: "Debate Collage"
  NYH_loyalty_programs: "Loyalty Programs"
  NYH_meritocratic_captains: "Meritocratic Captains"
  NYH_educated_court: "Educated Court"
@@ -284,7 +287,7 @@
  THL_mixed_race_regiments_desc: "Our military uses the strengths of each race under Thilranan rule to fill out our Regiments and offset the normal weaknesses of other pure race Armies"
  THL_thilranan_shipbuilding: "Thilranan Shipbuilding"
  THL_thilranan_shipbuilding_desc: "Thilrana is a country of a thousand bays and we can use the small shipyards scattered therin to bolster our shipbuilding and create new naval innovations."
- THL_defense_of_the_islands: Defense of the Islands"
+ THL_defense_of_the_islands: "Defense of the Islands"
  THL_defense_of_the_islands_desc: ""
  THL_technologic_advancement: "Technological Advancement"
  THL_frontier_settlements: "Frontier Settlements"

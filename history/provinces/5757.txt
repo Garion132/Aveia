@@ -3,3 +3,4 @@ is_city = no
 discovered_by = eastern_men_group
 base_manpower = 3
 trade_goods = unknown
+culture = aranoc
