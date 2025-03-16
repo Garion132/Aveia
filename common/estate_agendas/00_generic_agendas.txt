@@ -2,12 +2,13 @@
 #Triggers: any province has the basic conditions, country has adm tech 4
 estate_church_build_temple_in_y = {
 	can_select = {
-		adm_tech = 4
+		adm_tech = 7
 		any_owned_province = {
 			is_state_core = root
 			OR = {
 				AND = {
 					ROOT = { adm_tech = 7 }
+					NOT = { has_building = shrine }
 					NOT = { has_building = temple }
 					NOT = { has_building = cathedral }
 					num_free_building_slots = 1
@@ -35,6 +36,7 @@ estate_church_build_temple_in_y = {
 					OR = {
 						AND = {
 							ROOT = { adm_tech = 7 }
+							NOT = { has_building = shrine }
 							NOT = { has_building = cathedral }
 							NOT = { has_building = temple }
 							num_free_building_slots = 1
@@ -60,6 +62,7 @@ estate_church_build_temple_in_y = {
 				OR = {
 					AND = {
 						ROOT = { adm_tech = 7 }
+						NOT = { has_building = shrine }
 						NOT = { has_building = cathedral }
 						NOT = { has_building = temple }
 						num_free_building_slots = 1
@@ -94,6 +97,7 @@ estate_church_build_temple_in_y = {
 				OR = {
 					AND = {
 						ROOT = { adm_tech = 7 }
+						NOT = { has_building = shrine }
 						NOT = { has_building = temple }
 						NOT = { has_building = cathedral }
 						num_free_building_slots = 1
@@ -118,6 +122,7 @@ estate_church_build_temple_in_y = {
 				OR = {
 					AND = {
 						ROOT = { adm_tech = 7 }
+						NOT = { has_building = shrine }
 						NOT = { has_building = temple }
 						NOT = { has_building = cathedral }
 						num_free_building_slots = 1
@@ -142,6 +147,7 @@ estate_church_build_temple_in_y = {
 				OR = {
 					AND = {
 						ROOT = { adm_tech = 7 }
+						NOT = { has_building = shrine }
 						NOT = { has_building = temple }
 						NOT = { has_building = cathedral }
 						num_free_building_slots = 1

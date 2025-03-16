@@ -420,14 +420,16 @@ shrine = {
 		hidden_effect = {
 			update_pops = yes	
 		}
-		if = {
-			limit = {
-				has_government_mechanic = monumentality_mechanic
-			}
-			add_government_power = {
-				mechanic_type = monumentality_mechanic
-				power_type = godly_favor
-				value = 1
+		ROOT = {
+			if = {
+				limit = {
+					has_government_mechanic = monumentality_mechanic
+				}
+				add_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 1
+				}
 			}
 		}
 	}
@@ -457,14 +459,16 @@ temple = {
 		hidden_effect = {
 			update_pops = yes	
 		}
-		if = {
-			limit = {
-				has_government_mechanic = monumentality_mechanic
-			}
-			add_government_power = {
-				mechanic_type = monumentality_mechanic
-				power_type = godly_favor
-				value = 2
+		ROOT = {
+			if = {
+				limit = {
+					has_government_mechanic = monumentality_mechanic
+				}
+				add_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 2
+				}
 			}
 		}
 	}
@@ -494,14 +498,16 @@ cathedral = {
 		hidden_effect = {
 			update_pops = yes	
 		}
-		if = {
-			limit = {
-				has_government_mechanic = monumentality_mechanic
-			}
-			add_government_power = {
-				mechanic_type = monumentality_mechanic
-				power_type = godly_favor
-				value = 3
+		ROOT = {
+			if = {
+				limit = {
+					has_government_mechanic = monumentality_mechanic
+				}
+				add_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 3
+				}
 			}
 		}
 	}
