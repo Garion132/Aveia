@@ -1,16 +1,16 @@
 #Vulikiv 
 
-add_core = VUL
-owner = VUL
-controller = VUL
+add_core = TRN
+owner = TRN
+controller = TRN
 culture = terismao
 religion = vulikivite
 hre = yes
-base_tax = 4
-base_production =2
-base_manpower = 3
+base_tax = 1
+base_production =1
+base_manpower = 7
 trade_goods = slaves
-capital = "Sal"
+capital = "Kidastihr"
 is_city = yes
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group

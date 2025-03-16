@@ -21,6 +21,12 @@ THL_military_missions = {
 			thilrana_7={
 				add_permanent_claim = ROOT
 			}
+			thilrana_5={
+				add_permanent_claim = ROOT
+			}
+			thilrana_3={
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	THL_expand_country_mission = {
@@ -28,11 +34,25 @@ THL_military_missions = {
 		position = 2
 		required_missions = { THL_build_army_mission }
 		provinces_to_highlight = {
+			OR={
 			area = thilrana_7
-			NOT = { owned_by = ROOT }
+			area = thilrana_5
+			area = thilrana_3
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
 		}
 		trigger = {
 			thilrana_7={
+				type = all
+				owned_by = ROOT
+				is_city = yes
+			}
+			thilrana_5={
+				type = all
+				owned_by = ROOT
+				is_city = yes
+			}
+			thilrana_3={
 				type = all
 				owned_by = ROOT
 				is_city = yes
@@ -48,6 +68,12 @@ THL_military_missions = {
 						duration = 9125
 					}
 				}
+			}
+			thilrana_1={
+				add_permanent_claim = ROOT
+			}
+			thilrana_14={
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -72,121 +98,78 @@ THL_unifaction = {
 		tag = THL
 	}
 
-	THL_relclaim_west = {
+	THL_taking_northern_isles = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { THL_establish_high_seas_navy }
+		provinces_to_highlight = {
+			OR={
+			area = thilrana_4 
+			area = thilrana_8
+			area = nathion_4
+			area = nathion_3
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
+		trigger = {
+			thilrana_4={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			thilrana_8={
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			nathion_4={
+				type = all
+			OR={
+				country_or_non_sovereign_subject_holds = ROOT
+				is_part_of_hre = yes
+			}
+			}
+			nathion_3={
+				type = all
+				OR={
+			country_or_non_sovereign_subject_holds = ROOT
+				is_part_of_hre = yes
+			}
+			}
+		}
+		effect = {
+			thilrana_2={
+				add_permanent_claim = ROOT
+			}
+			nathion_2={
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	THL_dominating_north = {
 		icon = mission_build_up_to_force_limit
 		position = 3
-		required_missions = { THL_expand_country_mission THL_return_celulil }
-		provinces_to_highlight = {
-			OR={
-				area_for_scope_province={
-					province_id = 2266
-				}
-				area_for_scope_province={
-					province_id = 2265
-				}
-				area_for_scope_province={
-					province_id = 2259
-				}
-			}
-			NOT={country_or_non_sovereign_subject_holds = ROOT}
-		}
+		required_missions = { THL_expand_country_mission THL_taking_northern_isles }
 		trigger = {
-			thilrana_11={
-				country_or_non_sovereign_subject_holds = ROOT
+			thilrana_14={
 				type = all
-			}
-			asfereth={
 				country_or_non_sovereign_subject_holds = ROOT
-				type = all
 			}
-			thilrana_12={
+			thilrana_1={
+				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				type = all
 			}
-			thilrana_13={
+			thilrana_2={
+				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				type = all
 			}
-		}
-		effect = {
-			country_event = {id = thilrana_rises.5}
-		}
-	}
-	THL_relclaim_east = {
-		icon = mission_build_up_to_force_limit
-		position = 4
-		required_missions = { THL_relclaim_west }
-		provinces_to_highlight = {
+			nathion_2={
+				type = all
 			OR={
-				area_for_scope_province={
-					province_id = 2229
-				}
-				area_for_scope_province={
-					province_id = 2235
-				}
-				area_for_scope_province={
-					province_id = 2233
-				}
-				area_for_scope_province={
-					province_id = 2238
-				}
-				area_for_scope_province={
-					province_id = 2242
-				}
-				area_for_scope_province={
-					province_id = 2244
-				}
-				area_for_scope_province={
-					province_id = 2250
-				}
-				area_for_scope_province={
-					province_id = 2253
-				}
-				area_for_scope_province={
-					province_id = 2257
-				}
+				country_or_non_sovereign_subject_holds = ROOT
+				is_part_of_hre = yes
 			}
-			NOT={country_or_non_sovereign_subject_holds = ROOT}
-		}
-		trigger = {
-			army_size_percentage = 1
+			}
 		}
 		effect = { }
-	}
-	unite_THL_island = {
-		icon = mission_invade_island
-		position = 5
-		required_missions = { THL_relclaim_east }
-		provinces_to_highlight = {
-			OR={
-				region_for_scope_province={
-					province_id = 2297
-				}
-			}
-			NOT={country_or_non_sovereign_subject_holds = ROOT}
-		}
-		trigger = {
-			2297={
-				region_for_scope_province={
-					OR={
-						country_or_non_sovereign_subject_holds = ROOT
-						province_id = 4888
-						province_id = 454
-					}
-					type = all
-				}
-			}
-		}
-		effect = {
-			add_dip_power = 50
-			add_adm_power = 50
-			add_mil_power = 50
-			add_country_modifier = {
-				name = "hegemonic_ambition"
-				duration = 9125
-			}
-			remove_country_modifier = THL_liberating_thilrana
-		}
 	}
 }
 
@@ -219,6 +202,42 @@ THL_diplomatic_missions = {
 				}
 			}
 			sineri = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
+			}
+			thilrana_4 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
+			}
+			thilrana_8= {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
+			}
+			nathion_4= {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
+			}
+			nathion_3= {
 				if = {
 					limit = {
 						NOT = { is_permanent_claim = root }
@@ -291,6 +310,99 @@ THL_diplomatic_missions = {
 					add_permanent_claim = root
 				}
 			}
+		}
+	}
+	THL_taking_siniersi_coast = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { THL_return_celulil }
+		trigger = {
+			thilrana_11 ={
+			country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			thilrana_13 ={
+			country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			asfereth ={
+			country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			thilrana_12 ={
+			country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			thilrana_9 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
+			}
+			thilrana_10 = {
+				if = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
+			}
+		}
+	}
+	THL_dealing_with_vulkivia = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { THL_dominating_north THL_taking_siniersi_coast }
+		trigger = {
+			num_of_owned_provinces_with = {
+							value = 30
+							region = thilrana_region
+						}
+		}
+		effect = {
+			country_event = {id = thilrana_rises.5}
+		}
+	}
+	unite_THL_island = {
+		icon = mission_invade_island
+		position = 5
+		required_missions = { THL_dealing_with_vulkivia }
+		provinces_to_highlight = {
+			OR={
+				region_for_scope_province={
+					province_id = 2297
+				}
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
+		trigger = {
+			2297={
+				region_for_scope_province={
+					OR={
+						country_or_non_sovereign_subject_holds = ROOT
+						province_id = 4888
+						province_id = 454
+			province_id = 5710
+					}
+					type = all
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+			add_country_modifier = {
+				name = "hegemonic_ambition"
+				duration = 9125
+			}
+			remove_country_modifier = THL_liberating_thilrana
 		}
 	}
 }
