@@ -44,17 +44,17 @@ THL_military_missions = {
 		trigger = {
 			thilrana_7={
 				type = all
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 				is_city = yes
 			}
 			thilrana_5={
 				type = all
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 				is_city = yes
 			}
 			thilrana_3={
 				type = all
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 				is_city = yes
 			}
 		}
@@ -318,19 +318,19 @@ THL_diplomatic_missions = {
 		required_missions = { THL_return_celulil }
 		trigger = {
 			thilrana_11 ={
-			country_or_non_sovereign_subject_holds = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 				type = all
 			}
 			thilrana_13 ={
-			country_or_non_sovereign_subject_holds = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 				type = all
 			}
 			asfereth ={
-			country_or_non_sovereign_subject_holds = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 				type = all
 			}
 			thilrana_12 ={
-			country_or_non_sovereign_subject_holds = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 				type = all
 			}
 		}
@@ -361,9 +361,9 @@ THL_diplomatic_missions = {
 		required_missions = { THL_dominating_north THL_taking_siniersi_coast }
 		trigger = {
 			num_of_owned_provinces_with = {
-							value = 30
-							region = thilrana_region
-						}
+				value = 30
+				region = thilrana_region
+			}
 		}
 		effect = {
 			country_event = {id = thilrana_rises.5}
@@ -388,7 +388,7 @@ THL_diplomatic_missions = {
 						country_or_non_sovereign_subject_holds = ROOT
 						province_id = 4888
 						province_id = 454
-			province_id = 5710
+						province_id = 5710
 					}
 					type = all
 				}
