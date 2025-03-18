@@ -25,11 +25,12 @@ change_estate_land_share = {
 
 1240.9.16 = {
 	monarch = {
-		name = "Filler"
+		name = "Artyra"
 		dynasty = "Acyrtha"
-		birth_date = 1240.12.3
+		birth_date = 1174.12.3
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 2
+		mil = 2
 	}
+	add_ruler_personality = immortal_personality
 }

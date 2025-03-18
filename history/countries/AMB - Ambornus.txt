@@ -27,9 +27,10 @@ change_estate_land_share = {
 	monarch = {
 		name = "Filler"
 		dynasty = "Amborne"
-		birth_date = 1240.12.3
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1109.12.3
+		adm = 4
+		dip = 4
+		mil = 1
 	}
+	add_ruler_personality = immortal_personality
 }

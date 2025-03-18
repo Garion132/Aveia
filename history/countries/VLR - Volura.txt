@@ -11,14 +11,14 @@ capital = 2080 #
 #historical_rival = HAB
 
 
-
-# 1240.9.16 = {
-	# monarch = {
-		# name = "Filler"
-		# dynasty = "Sevid"
-		# birth_date = 1240.12.3
-		# adm = 3
-		# dip = 3
-		# mil = 3
-	# }
-# }
+1097.1.5 = {
+	monarch = {
+		name = "Voloys"
+		dynasty = "Volura"
+		birth_date = 1240.12.3
+		adm = 4
+		dip = 1
+		mil = 5
+	}
+	add_ruler_personality = immortal_personality
+}
