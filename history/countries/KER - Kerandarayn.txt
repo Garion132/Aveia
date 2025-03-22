@@ -6,6 +6,7 @@ add_accepted_culture = kerandarayn
 religion = vulikivite
 technology_group = northern_drake_group
 capital = 2100 # 
+elector = yes
 #national_focus = DIP
 #historical_rival = HAB
 

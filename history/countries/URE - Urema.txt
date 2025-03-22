@@ -8,5 +8,6 @@ technology_group = northern_drake_group
 add_accepted_culture = wisma
 add_accepted_culture = karilos
 capital = 2118 # 
+elector = yes
 #national_focus = DIP
 #historical_rival = HAB

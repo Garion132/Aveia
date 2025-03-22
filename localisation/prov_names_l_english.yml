@@ -1782,12 +1782,12 @@
  PROV1973: "Ljisna"
  PROV1974: "Vilora"
  PROV1975: "Haava"
- 
+ PROV1976: "Huratfau"
  PROV1977: "Harhozava"
  PROV1978: "Jalkora"
  PROV1979: "Galtoch"
  PROV1980: "Bharania"
- 
+ PROV1981: "Kulaumai"
  PROV1982: "Rwaasila"
  PROV1983: "Kakidla"
  PROV1984: "Wumlise"
@@ -1799,9 +1799,17 @@
  PROV1990: "Julban"
  PROV1991: "Eunut"
  PROV1992: "Sansisor"
- PROV1993: "Lepijasir"
  
+ PROV1994: "Rafdaw"
+ PROV1995: "Feufraw"
+ 
+ PROV1997: "Vaanilo"
+ 
+ PROV2001: "Dunair"
  PROV2002: "Banusda"
+ PROV2003: "Ibunyar"
+ 
+ PROV2005: "Selimnath"
  
  PROV2016: "Paarhan"
  PROV2017: "Brazzhae"
@@ -2233,12 +2241,24 @@
  
  PROV2450: "Gurguard"
  
+ PROV2457: "Trauwale"
+ PROV2458: "Avaandel"
+ PROV2459: "Saymoila"
+ PROV2460: "Tšulo"
+ PROV2461: "Readusar"
+ PROV2462: "Jyùlo"
  PROV2463: "Scorc"
  
  PROV2467: "Salkeeple"
  
+ PROV2469: "Taemika"
+ PROV2470: "Hsura"
  PROV2471: "Grater"
  
+ PROV2474: "Lanudhake"
+ PROV2475: "Reatae"
+ 
+ PROV2477: "Lajseda"
  PROV2478: "Altirath"
  PROV2479: "Otunasda"
  PROV2480: "Fadfusa"
@@ -2251,7 +2271,8 @@
  PROV2487: "Ascuzhau"
  PROV2488: "Fujgua"
  PROV2489: "Dyfasda"
- 
+ PROV2490: "Bufasda"
+ PROV2491: "Rutate"
  PROV2492: "Hrada"
  PROV2493: "Jtajuda"
  PROV2494: "Sleetlepeak"
@@ -2264,6 +2285,7 @@
  PROV2501: "Brewafar"
  PROV2502: "Rtujrau"
  
+ PROV2506: "Raniman"
  PROV2507: "Jyheayt"
  PROV2508: "Likar"
  PROV2509: "Artuga"
@@ -2521,15 +2543,39 @@
  
  PROV2924: "Karkiuar"
  
- PROV2939: "Agaruz"
+ PROV2929: "Mabufgahe"
  
+ PROV2933: "Ellionia"
+ 
+ PROV2935: "Laudase"
+ 
+ PROV2937: "Hjumkaa"
+ 
+ PROV2939: "Agaruz"
+ PROV2940: "Epsanou"
+ 
+ PROV2947: "Hyinya"
+ 
+ PROV2949: "Wrurea"
+ 
+ PROV2953: "Vuilopra"
+ PROV2954: "Gratrea"
+ PROV2955: "Vouna"
+ 
+ PROV2960: "Grutse"
  PROV2961: "Oadowbay"
  
+ PROV2964: "Safaet"
+ PROV2965: "Onduar"
+ PROV2966: "Tyubvar"
  PROV2967: "Shaven"
  
  PROV2969: "Grimburn"
  
  PROV2974: "Clirost"
+ 
+ PROV2979: "Manuira Clilost"
+ PROV2980: "Seudasa"
  
  PROV2983: "Kilder"
  
@@ -2540,7 +2586,8 @@
  PROV3008: "Hyuadse"
  
  PROV3010: "Kuknasak"
- 
+ PROV3011: "Gudrawa"
+ PROV3012: "Mlunsa"
  PROV3013: "Dawd"
  
  PROV3017: "Catecalde"
@@ -3369,6 +3416,8 @@
  PROV5769: "Delgan"
  
  PROV5771: "Astera"
+ 
+ PROV5774: "Zuanhamk"
 
  test_province_name: "Test Province Name"
  other_province_name: "Other Province Name"

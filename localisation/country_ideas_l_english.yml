@@ -292,6 +292,14 @@
  OAY_ideas:0 "Oayvein Ideas"
  OAY_ideas_start:0 "Oayvein Traditions"
  OAY_ideas_bonus:0 "Oayvein Ambitions"
+ OAY_cost_of_freedom: "Cost of Freedom"
+ OAY_fortified_dutchy: "Fortified Dutchy"
+ OAY_expansion_pathways: "Expansion Pathways"
+ OAY_krashyrvil_production: "Krashyrvil Production"
+ OAY_tlaunors_blessing: "Tlaunors Blessing"
+ OAY_tlaunors_blessing_desc: "The Cyanscales won their independance with the divine aid of Tlaunor and now rever him directly unlike most others."
+ OAY_grand_ducual_legacy: "Grand Ducal Legacy"
+ OAY_land_of_free_kolbolds: "Land of Free Kolbolds"
  
  THL_ideas: "Thilranan Ideas"
  THL_ideas_start: "Thilranan Traditions"
@@ -308,6 +316,7 @@
  THL_merchant_envoys: "Merchant Envoys"
  THL_merchant_envoys_desc: "If we double our merchants as diplomats we will be more effecient at making deals with other countries."
  THL_discipline_on_land_and_sea: "Discipline on Land and Sea"
+ THL_discipline_on_land_and_sea_desc: "Our joint histories of Sea Elf and Kolbold contain a long tradition of order mantianed amongst the troops, whether fighting on land or upon the sea."
  
  MTN_ideas: "Matan Ideas"
  MTN_ideas_start: "Matan Traditions"

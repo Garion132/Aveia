@@ -148,6 +148,15 @@ THL_unifaction = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { THL_expand_country_mission THL_taking_northern_isles }
+		provinces_to_highlight = {
+			OR={
+				area = thilrana_14 
+				area = thilrana_1
+				area = thilrana_2
+				area = nathion_2
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
 		trigger = {
 			thilrana_14={
 				type = all
@@ -163,10 +172,10 @@ THL_unifaction = {
 			}
 			nathion_2={
 				type = all
-			OR={
-				country_or_non_sovereign_subject_holds = ROOT
-				is_part_of_hre = yes
-			}
+				OR={
+					country_or_non_sovereign_subject_holds = ROOT
+					is_part_of_hre = yes
+				}
 			}
 		}
 		effect = { }
@@ -316,6 +325,15 @@ THL_diplomatic_missions = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { THL_return_celulil }
+		provinces_to_highlight = {
+			OR={
+				area = thilrana_11 
+				area = thilrana_13
+				area = asfereth
+				area = thilrana_12
+			}
+			NOT={country_or_non_sovereign_subject_holds = ROOT}
+		}
 		trigger = {
 			thilrana_11 ={
 				country_or_non_sovereign_subject_holds = ROOT

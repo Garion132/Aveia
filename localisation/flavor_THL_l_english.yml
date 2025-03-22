@@ -3,6 +3,7 @@
  red_scale_nationalist_rebels_title:0 "Red Scale Nationalists"
  red_scale_nationalist_rebels_army:0 "Red Scale Nationalists"
  incident_rise_thilmaren:0 "Rise of Thilrana"
+ incident_rise_thilmaren_emperor_alert: "With the Rise of the Kingdom of Thilrana the Red Kolbolds there have become restless and unruly. many voices have begun to call for the Empire to withdraw from Thilrana and leave it to its fate. However many other Dragon Lords have holdings there and want to remain or even expand to leverage the fighting strength of Aviean Reds. The Raktheron [Emperor.Monarch.GetHerselfHimself] however may have a workable comprimise that could be implemented."
  thilrana_rises.2.d: "With the Rise of the Kingdom of Thilrana the Red Kolbolds there have become restless and unruly. many voices have begun to call for the Empire to withdraw from Thilrana and leave it to its fate. However many other Dragon Lords have holdings there and want to remain or even expand to leverage the fighting strength of Aviean Reds. The Raktheron [Emperor.Monarch.GetHerselfHimself] however may have a workable comprimise that could be implemented."
  thilrana_rises.2.a:0 "Reign them in"
  thilrana_rises.2.b:0 "Leave the island"

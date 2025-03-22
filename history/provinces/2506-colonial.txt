@@ -17,3 +17,7 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 8
 is_city = no
+add_permanent_province_modifier = { 
+	name = raniman_estuary_modifier
+	duration = -1
+}

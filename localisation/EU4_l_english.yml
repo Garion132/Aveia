@@ -1176,7 +1176,7 @@
  HRE_FOREIGN_CONTROL_IMPACT:0 "There are currently §Y$NUM$§! provinces in the Empire under the control of non-member states or subjects of non-member states. This reduces Imperial Authority by $VAL$ every month."
  IA_CHANGE_TOTAL:0 "Imperial Authority changes by $VAL$ every month."
  HRE_HERETIC_IMPACT:0 "There are currently §Y$NUM$§! Heretic princes in the Empire. This reduces Imperial Authority by $VAL$ every month."
- FREE_CITIES_IA:0 "The §Y$NUM$§! Free Cities in the Empire increase Imperial Authority by $VAL$ every month."
+ FREE_CITIES_IA:0 "The §Y$NUM$§! Protectorates in the Empire increase Imperial Authority by $VAL$ every month."
  HRE_NUM_PRINCES_IMPACT:0 "There are currently §Y$CURR$§! member states in the Empire out of the §Y$NEED$§! needed to maintain legitimacy. This changes Imperial Authority by $VAL$ every month."
  LACK_OF_ELECTORS:0 "There are only §Y$CURR$§! electors in the empire, and there needs to be §Y$NEED$§! for it to function properly. Therefore the Imperial Authority is decreased by §R$VAL$§! every month."
  VASSALIZED_ELECTORS:0 "§Y$CURR$§! of the electors in the empire are subject states. Therefore the Imperial Authority is decreased by §R$VAL$§! every month."

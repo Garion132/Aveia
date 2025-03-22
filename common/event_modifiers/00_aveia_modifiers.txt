@@ -1069,6 +1069,10 @@ estate_church_monopoly_of_bronze_mod = {
 		province_trade_power_value = 10
 		picture = "estuary_icon"
 	}
+	raniman_estuary_modifier = {
+		province_trade_power_value = 10
+		picture = "estuary_icon"
+	}
 
 
 	calendor_island_modifier = {

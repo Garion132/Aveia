@@ -20,7 +20,59 @@ change_estate_land_share = {
 	estate = estate_burghers
 	share = -5
 }
+994.7.21 = {
+	monarch = {
+		name = "Krean"
+		dynasty = "Oayvein"
+		birth_date = 951.9.7
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+1034.11.4 = {
+	monarch = {
+		name = "Krean II"
+		dynasty = "Oayvein"
+		birth_date = 997.3.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 
+1055.11.4 = {
+	monarch = {
+		name = "Savoer"
+		dynasty = "Oayvein"
+		birth_date = 1021.3.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1063.11.4 = {
+	monarch = {
+		name = "Krean III"
+		dynasty = "Oayvein"
+		birth_date = 1043.3.1
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}
+
+1100.7.6 = {
+	monarch = {
+		name = "Krean IV"
+		dynasty = "Oayvein"
+		birth_date = 997.3.1
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
 
 1270.9.16 = {
 	monarch = {
