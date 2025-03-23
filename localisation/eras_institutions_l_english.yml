@@ -99,5 +99,7 @@
  obj_slave_holdings_desc: "Have access to at least §Y10%§! of the worlds slave market"
  obj_steam_airships: "Steam Airships"
  obj_steam_airships_desc: "Have at least §Y10%§! of your army be Airships"
+ ab_measures_against_corruption: "Measures Against Corruption"
+ ab_established_castles: "Established Castles"
  
  

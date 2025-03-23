@@ -2,11 +2,11 @@
 add_core = KTS
 owner = KTS
 controller = KTS
-culture = tmiik
+culture = garumok
 religion = vulikivite
 hre = yes
 base_tax = 2
-base_production =1
+base_production = 1
 base_manpower = 1
 trade_goods = wool
 capital = "Sal"

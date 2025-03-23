@@ -1,15 +1,13 @@
 #Cyueg
-
 add_core = CYU
 add_core = OMO
 owner = CYU
 controller = CYU
 culture = omoran
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
-trade_goods = livestock
+base_production = 0
+trade_goods = udezer_wood
 base_manpower = 5
 capital = "Cyu 9"
 is_city = yes

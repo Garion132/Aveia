@@ -1,13 +1,12 @@
 #Garumor 
-
 add_core = DEM
 owner = DEM
 controller = DEM
-culture = garumok
+culture = canian
 religion = vulikivite
 hre = yes
 base_tax = 3
-base_production =3
+base_production = 3
 base_manpower = 3
 trade_goods = fish
 capital = "Sal"
@@ -20,3 +19,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 1
+add_core = CAN

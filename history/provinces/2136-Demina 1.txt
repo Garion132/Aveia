@@ -1,13 +1,12 @@
 #Demina 
-
 add_core = LAY
 owner = LAY
 controller = LAY
-culture = tesmon
+culture = canian
 religion = vulikivite
 hre = yes
 base_tax = 2
-base_production =2
+base_production = 2
 base_manpower = 2
 trade_goods = fur
 capital = "Sal"
@@ -19,3 +18,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = CAN

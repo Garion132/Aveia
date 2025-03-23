@@ -2,29 +2,24 @@ government = bronze_monarchy
 add_government_reform = dragonic_throne_reform
 government_rank = 1
 primary_culture = rake
-add_accepted_culture = tesmon
+add_accepted_culture = garumok
 religion = vulikivite
 technology_group = northern_drake_group
-capital = 2140 # 
-#national_focus = DIP
-#historical_rival = HAB
-
-change_estate_land_share = {
+capital = 2142#historical_rival = HAB
+change_estate_land_share = { 
 	estate = estate_nobles
 	share = 10
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_church
 	share = -5
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_burghers
 	share = -5
 }
-
-
-1240.9.16 = {
-	monarch = {
+1240.9.16 = { 
+	monarch = { 
 		name = "Demarn"
 		dynasty = "Demin"
 		birth_date = 961.12.3

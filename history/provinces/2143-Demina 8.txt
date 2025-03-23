@@ -1,13 +1,12 @@
 #Demina 
-
 add_core = DEM
 owner = DEM
 controller = DEM
-culture = garumok
-religion = vulikivite
+culture = canian
+religion = drethalumia
 hre = yes
 base_tax = 1
-base_production =4
+base_production = 4
 base_manpower = 2
 trade_goods = slaves
 capital = "Sal"
@@ -19,3 +18,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = CAN

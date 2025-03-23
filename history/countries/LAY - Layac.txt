@@ -22,7 +22,6 @@ change_estate_land_share = {
 	share = -5
 }
 
-
 1240.9.16 = {
 	monarch = {
 		name = "Kralmac"

@@ -544,6 +544,9 @@ age_of_golden_sun = {
 				production_leader = {
 					trade_goods = guedina
 				}
+				production_leader = {
+					trade_goods = icorine
+				}
 			}
 		}
 

@@ -1,13 +1,12 @@
 #Susmemero
-
 add_core = SUS
 owner = SUS
 controller = SUS
-culture = tmiik
+culture = garumok
 religion = vulikivite
 hre = yes
 base_tax = 2
-base_production =2
+base_production = 2
 base_manpower = 2
 trade_goods = livestock
 capital = "Sal"

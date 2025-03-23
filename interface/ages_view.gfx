@@ -327,6 +327,18 @@ spriteTypes = {
 		name = "GFX_obj_large_forcelimit_300"		
 		texturefile = "gfx/interface/ages/obj_large_forcelimit.dds"
 	}
+	spriteType = {
+		name = "GFX_obj_sactified_monuments"		
+		texturefile = "gfx/interface/ages/obj_sactified_monuments.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_steam_airships"		
+		texturefile = "gfx/interface/ages/obj_steam_airships.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_take_a_side"		
+		texturefile = "gfx/interface/ages/obj_take_a_side.dds"
+	}
 	
 
 
@@ -773,5 +785,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ab_napoleonic_warfare"
 		texturefile = "gfx/interface/ages/ab_napoleonic_warfare.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ab_estates_relationships"
+		texturefile = "gfx/interface/ages/ab_estates_relationships.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_supply_chains"
+		texturefile = "gfx/interface/ages/ab_supply_chains.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_measures_against_corruption"
+		texturefile = "gfx/interface/ages/ab_measures_against_corruption.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_decentralized_fleets"
+		texturefile = "gfx/interface/ages/ab_decentralized_fleets.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_enforced_migration"
+		texturefile = "gfx/interface/ages/ab_enforced_migration.dds"
 	}
 }
