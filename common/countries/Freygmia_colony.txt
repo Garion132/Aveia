@@ -3,6 +3,7 @@
 graphical_culture = westerngfx
 
 color = { 209 131 99 }
+colonial_parent = KEA
 
 revolutionary_colors = { 5 8 13 }
 

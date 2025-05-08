@@ -18,7 +18,9 @@
  
  # Government Reforms
  palace_economy:0 "Palace Economy"
+ palace_economy_desc: "A Palace Economy represents the priamary government structure of the Bronze Age State. Based around a centralised economy that uses the palace as the main collection and distribution center for the production of the country."
  bronze_monarchy_name:0 "Bronze-age Monarchy"
+ bronze_monarchy_desc: "A Monarchy during the Bronze Age, dominated by Scribes and the centralised Army requiring interconnected trade routes to supply the Bronze weapons of the Era."
  ba_pirate_republic_reform: "Pirate Republic"
  bronze_league_name:0 "Bronze-age League"
  holy_clerks_reform:0 "Divine Clerks"
@@ -168,4 +170,10 @@
  ia_evalinta: "Evalinta"
  city_rights: "City Rights"
  advance_government_form: "Advance Government"
+ iron_republic_mechanic: "Iron-age Republic"
+ iron_republic_name: "Iron-age Republic"
+ iron_age_theocracy_adv: "Advance to a Iron Age Theocracy"
+ iron_theocracy_name: "Iron-age Theocracy"
+ iron_theocracy_mechanic: "Iron-age Theocracy"
+ become_a_mod_kingdom_reform: "Advance to a Modern Kingdom"
  

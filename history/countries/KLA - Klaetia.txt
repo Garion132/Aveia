@@ -4,7 +4,7 @@ add_government_reform = palace_economy
 #religion = tlaunorist
 #government_rank = 1
 #technology_group = lake_elves_group
-capital = 63 # 
+capital = 3389 # 
 #national_focus = DIP
 #historical_rival = HAB
 

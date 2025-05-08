@@ -33,3 +33,17 @@ change_estate_land_share = {
 	}
 	add_ruler_personality = immortal_personality
 }
+1057.7.7 = {
+	heir = {
+		name = "Vartena"
+		monarch_name = "Vartena"
+		dynasty = "Vulikiv"
+		birth_date = 1057.7.7
+		death_date = 2000.7.10
+		claim = 100
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	add_heir_personality = immortal_personality
+}

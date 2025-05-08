@@ -1,0 +1,2 @@
+discovered_by = free_kolbolds_group
+is_city = no

@@ -1,14 +1,13 @@
 #Tsenla
-
 add_core = TSE
 owner = TSE
 controller = TSE
 culture = krasolik
 religion = vulikivite
 hre = yes
-base_tax = 5
-base_production =5
-base_manpower = 3
+base_tax = 1
+base_production = 4
+base_manpower = 8
 trade_goods = cloth
 capital = "Sal"
 is_city = yes

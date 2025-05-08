@@ -3,6 +3,7 @@
 graphical_culture = westerngfx
 
 color = { 137 159 217 }
+colonial_parent = KAF
 
 revolutionary_colors = { 5 8 13 }
 

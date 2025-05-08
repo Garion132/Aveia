@@ -3,6 +3,7 @@
 graphical_culture = westerngfx
 
 color = { 219 139 134 }
+colonial_parent = SAL
 
 revolutionary_colors = { 5 8 13 }
 

@@ -3,6 +3,7 @@
 graphical_culture = westerngfx
 
 color = { 191 233 85 }
+colonial_parent = LEL
 
 revolutionary_colors = { 5 8 13 }
 

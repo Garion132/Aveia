@@ -184,9 +184,13 @@
  PROV183: "Ilrazin Tides"
  PROV184: "Hounfair"
  PROV185: "Floxens Lake"
- 
+ PROV186: "Eastern Divide"
+ PROV187: "Aleinade Sea"
+ PROV188: "Malievoa Coast"
  PROV189: "Simlasard"
  PROV190: "Starlight Coast"
+ PROV191: "Catercalde Bay"
+ PROV192: "Greenstain Coast"
 
  PROV195: "Alimune"
  PROV196: "Sevilor Straits"
@@ -240,7 +244,8 @@
  PROV248: "Varixar"
  PROV249: "Ximuar Bay"
  PROV250: "Yoatuae"
- 
+ PROV251: "Nusar"
+ PROV252: "Kalicar"
  PROV253: "Kepjar Bay"
  PROV254: "Sassijrar"
  PROV255: "Carensis"
@@ -256,14 +261,35 @@
  
  PROV288: "Toiuart"
  
+ PROV292: "Hratqa Coast"
+ PROV293: "S'satru"
  PROV294: "Jars'sja"
  PROV295: "Karid'ssadar"
  PROV296: "Yra'tarda'ia"
  PROV297: "Vamirar Sea"
  PROV298: "Bausda"
-
+ PROV299: "Mowinda Bay"
+ PROV300: "West Borestia Coast"
+ PROV301: "East Borestia Coast"
+ PROV302: "Salisramia"
+ PROV303: "Reasatya Waves"
+ PROV304: "Salisramia"
+ PROV305: "Bugeran"
+ PROV306: "Ichorine Tides"
+ PROV307: "Loswathan Coast"
  PROV308: "Sonhud Bay"
  PROV309: "Samoisu"
+ PROV310: "Tylaro Strait"
+ PROV311: "Sarluia Inlet"
+ 
+ PROV313: "South Fingers Coast"
+ PROV314: "North Fingers Coast"
+ PROV315: "Bergdrifts"
+ 
+ PROV320: "Maleiciar Exspanse"
+ 
+ PROV334: "Litrama Breach"
+ PROV335: "Parinkar"
  
  PROV342: "Agaruz Coast"
  PROV343: "Suvarin Bay"
@@ -271,11 +297,15 @@
  PROV345: "Tilvena"
  PROV346: "Baetimo Channel"
  
+ PROV350: "Aferani"
+ 
+ PROV351: "Western Divide"
+ 
  PROV353: "Kalevan Coast"
  
  PROV361: "Starsweaps"
  PROV362: "Palitai"
- 
+ PROV363: "Senajia Coast"
  PROV364: "Yolris"
  
  PROV370: "Kavimlo Coast"
@@ -295,7 +325,7 @@
  PROV444: "Palurt Opening"
  
  PROV446: "Senusix"
-
+ PROV447: "Malievoa"
  PROV448: "Desert's Miracle"
  PROV449: "Jarinnu Ridge"
  PROV450: "Grurite Peaks"
@@ -303,9 +333,10 @@
  PROV452: "Faungrave Lake"
  PROV453: "Mulugrave"
  PROV454: "Anoam"
-
+ PROV455: "Manoua"
  PROV456: "Kolais"
  PROV457: "Ventoral"
+ PROV458: "Bafusda"
  
  PROV460: "Vyuar"
  PROV461: "Eastern Cryspimes"
@@ -1728,6 +1759,8 @@
  
  PROV1914: "Maltrine"
  
+ PROV1918: "Balteere Bay"
+ 
  PROV1921: "Samanin Sea"
  
  PROV1924: "Ecal"
@@ -2335,6 +2368,12 @@
  
  PROV2686: "Vuantrein Pass"
  
+ PROV2700: "Kbuhhasbada"
+ PROV2701: "Junasa"
+ 
+ PROV2707: "Madlemar"
+ PROV2708: "Onic'an"
+ PROV2709: "Cilea"
  PROV2710: "Maoliisa"
  PROV2711: "Liirysan"
  PROV2712: "Dgaera"
@@ -2820,7 +2859,7 @@
  PROV4019: "Eoib"
  PROV4020: "Nakeese"
  PROV4021: "Haqs"
- 
+ PROV4022: "Veeśanar"
  PROV4023: "Jalorkan Bay"
  PROV4024: "Dorhanor Lake"
  PROV4025: "Charaydis Lake"
@@ -2970,6 +3009,7 @@
  PROV4879: "Bani"
  PROV4880: "Haloc"
  
+ PROV4887: "Vardufae"
  PROV4888: "Greyclif"
  
  PROV4916: "Silicsas Hope"

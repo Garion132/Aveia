@@ -879,3 +879,79 @@ ia_touched_by_talunor_reform = {
 		factor = 0.5 #generic
 	}
 }
+
+#advance Gov.
+become_a_mod_kingdom_reform = {
+	icon = "parliament_highlighted"
+	allow_normal_conversion = yes
+	potential = {
+		is_revolutionary = no
+	}
+	trigger = {
+		OR={
+			has_reform = iron_monarchy_mechanic
+			NOT = { has_government_attribute_short_desc = locked_government_type }
+		}
+	}
+	effect = {
+		if = {
+			limit = { has_government_attribute = states_general_mechanic }
+			set_country_flag = had_states_general_mechanic
+		}
+		lose_reforms = 5
+		change_government = monarchy
+		if = {
+			limit = { has_country_flag = had_states_general_mechanic }
+			country_event = { id = dutch_republic.33 }
+			clr_country_flag = had_states_general_mechanic
+		}
+	}
+	ai = {
+		factor = 0
+	}
+}
+become_a_mod_republic_reform = {
+	icon = "parliament_highlighted"
+	allow_normal_conversion = yes
+	potential = {
+		is_revolutionary = no
+	}
+	trigger = {
+		OR={
+			has_reform = iron_republic_mechanic
+			NOT = { has_government_attribute_short_desc = locked_government_type }
+		}
+		is_emperor = no
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		lose_reforms = 5
+		change_government = republic
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+become_a_mod_theocracy_reform = {
+	icon = "pope_highlighted"
+	allow_normal_conversion = yes
+	potential = {
+		is_revolutionary = no
+	}
+	trigger = {
+		OR={
+			has_reform = iron_theocracy_mechanic
+			NOT = { has_government_attribute_short_desc = locked_government_type }
+		}
+		is_emperor = no
+		NOT = { is_lesser_in_union = yes }
+	}
+	effect = {
+		lose_reforms = 5
+		change_government = theocracy
+	}
+	ai = {
+		factor = 0
+	}
+}

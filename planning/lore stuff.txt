@@ -31,10 +31,10 @@ Sun - Elei
 	2nd planet - 
 	3rd planet - 
 	4th planet - Aveia
-		1st moon - Narent
-		2nd moon - Muyi
+		1st moon (V)- Narent
+		2nd moon (V)- Muyi
 	5th planet - 
-	1st gas Giant - 
+	1st gas Giant (V)- 
 	2nd gas Giant - 
 	3rd gas Giant - 
 	4th gas Giant - 

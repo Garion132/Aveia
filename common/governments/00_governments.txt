@@ -33,29 +33,12 @@ monarchy = {
 				feudalism_reform
 				autocracy_reform
 				plutocratic_reform
-				indian_sultanate_reform
-				nayankara_reform
-				misl_confederacy_reform
-				rajput_kingdom
 				#Specific:
 				grand_duchy_reform
-				daimyo
-				indep_daimyo
 				elective_monarchy
-				iqta
-				ottoman_government
-				prussian_monarchy
-				austrian_dual_monarchy
 				principality
-				tsardom
-				mamluk_government
 				feudal_theocracy
-				celestial_empire
-				shogunate
-				english_monarchy
-				mandala_reform
 				revolutionary_empire_reform
-				austrian_archduchy_reform
 			}
 		}
 		hereditary_vs_nobility = {
@@ -63,14 +46,6 @@ monarchy = {
 				enforce_privileges_reform
 				quash_noble_power_reform
 				enforce_trader_privileges_reform
-				bengali_reform
-				sufi_syncretism_reform
-				poligar_reform
-				khalsa_reform
-				deccani_society_reform
-				mughal_government
-				black_army_reform
-				legion_of_honor_reform
 				imperial_nobility_reform
 			}
 		}
@@ -78,8 +53,6 @@ monarchy = {
 			reforms = {
 				centralize_reform				
 				decentralize_reform
-				sidhi_recruitment
-				mansabdari_reform
 				council_of_the_indies_reform
 				penal_colonies_reform
 				liberte_reform
@@ -91,10 +64,6 @@ monarchy = {
 				clergy_in_administration_reform
 				of_noble_bearing_reform
 				meritocratic_focus_reform
-				dakhni_culture_reform
-				zabt_reform
-				permanent_marathas_council_reform
-				governmental_purbias_register_reform
 				revolutionary_principle_reform
 				equality_principle_reform
 				imperial_principle_reform
@@ -107,9 +76,6 @@ monarchy = {
 				aristocratic_court_reform
 				general_estates_reform
 				states_general_reform
-				legislative_sejm
-				integrated_sejmiks
-				feuillant_reform
 				two_chamber_reform
 				imperial_decree_reform
 			}
@@ -961,7 +927,9 @@ iron_monarchy = {
 		}
 		advance_government_form = {
 			reforms = {
-
+				become_a_mod_kingdom_reform
+				become_a_mod_republic_reform
+				become_a_mod_theocracy_reform
 			}
 		}
 	}
@@ -1034,7 +1002,9 @@ iron_republic = {
 		}
 		advance_government_form = {
 			reforms = {
-
+				become_a_mod_kingdom_reform
+				become_a_mod_republic_reform
+				become_a_mod_theocracy_reform
 			}
 		}
 	}
@@ -1105,7 +1075,9 @@ iron_theocracy = {
 		}
 		advance_government_form = {
 			reforms = {
-
+				become_a_mod_kingdom_reform
+				become_a_mod_republic_reform
+				become_a_mod_theocracy_reform
 			}
 		}
 	}

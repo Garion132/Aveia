@@ -288,9 +288,9 @@ golden_sun = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			tax_income = 12
-			province_trade_power_value = 25
-			local_institution_spread = 0.5
+			tax_income = 6
+			province_trade_power_value = 10
+			local_institution_spread = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -299,8 +299,6 @@ golden_sun = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			land_forcelimit = 5
-			idea_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -354,6 +352,9 @@ golden_sun = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			tax_income = 12
+			province_trade_power_value = 35
+			local_institution_spread = 0.5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -362,9 +363,8 @@ golden_sun = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_heretic = 0.5
-			tolerance_heathen = 0.5	
-			stability_cost_modifier = -0.1
+			land_forcelimit = 10
+			idea_cost = -0.075
 		}
 
 		#what effects happen when this tier is achieved
@@ -385,6 +385,9 @@ golden_sun = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			tax_income = 12
+			province_trade_power_value = 50
+			local_institution_spread = 0.5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -393,10 +396,8 @@ golden_sun = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			tolerance_heretic = 1
-			tolerance_heathen = 1						
-			stability_cost_modifier = -0.25
-			global_missionary_strength = 0.01
+			land_forcelimit = 15
+			idea_cost = -0.1
 		}
 
 		#what effects happen when this tier is achieved

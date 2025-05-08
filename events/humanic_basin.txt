@@ -1395,6 +1395,7 @@ country_event = {
 				set_country_flag = GGD_successor
 				change_government = iron_monarchy
 				change_government_via_reform = ia_ghandian_horde
+				change_government = iron_monarchy
 				set_ruler = ghand_transfer
 				change_government_reform_progress = -2000
 				add_treasury = 500

@@ -6,3 +6,14 @@ technology_group = free_fauns_group
 capital = 2709 # 
 #national_focus = DIP
 historical_friend = XAR
+
+1260.10.17 = {
+	monarch = {
+		name = "Dalc'a"
+		dynasty = "Cilea"
+		birth_date = 1239.3.19
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

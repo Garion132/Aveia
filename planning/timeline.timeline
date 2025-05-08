@@ -1025,11 +1025,50 @@
       <category>Kepjar</category>
       <default_color>192,192,192</default_color>
     </event>
+    <event>
+      <start>994-07-21 00:00:00</start>
+      <end>994-07-21 00:00:00</end>
+      <text>Krean Victory over Valador, founding Oayvein</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Vulikiv</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>362-09-16 00:00:00</start>
+      <end>362-09-16 00:00:00</end>
+      <text>Valador Becomes Raktheron</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>False</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Vulikiv</category>
+      <default_color>192,192,192</default_color>
+    </event>
+    <event>
+      <start>1368-06-01 00:00:00</start>
+      <end>1400-01-01 00:00:00</end>
+      <text>Bronze Age Collapse</text>
+      <progress>0</progress>
+      <fuzzy>False</fuzzy>
+      <fuzzy_start>True</fuzzy_start>
+      <fuzzy_end>False</fuzzy_end>
+      <locked>False</locked>
+      <ends_today>False</ends_today>
+      <category>Calamity</category>
+      <default_color>192,192,192</default_color>
+    </event>
   </events>
   <view>
     <displayed_period>
-      <start>1201-07-16 21:47:02</start>
-      <end>1301-07-16 21:47:02</end>
+      <start>1365-09-06 14:59:20</start>
+      <end>1375-09-07 14:59:20</end>
     </displayed_period>
     <hidden_categories>
     </hidden_categories>

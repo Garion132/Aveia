@@ -533,7 +533,7 @@ ELE_ideas = {
 	gateway_to_the_world = {
 		global_prov_trade_power_modifier = 0.3
 	}
-	nelsedar_guard = {
+	nelsedar_guard_idea = {
 		infantry_shock = 0.3
 	}
 	bridgedocks = {
@@ -1155,6 +1155,128 @@ OAY_ideas = {
 	}
 	OAY_land_of_free_kolbolds = {
 		num_accepted_cultures = 1
+	}
+	
+}
+
+NAD_ideas = {
+	start = {
+		galley_power = 0.2
+		defensiveness = 0.15
+	}
+
+	bonus = {
+		ae_impact = -0.1
+	}
+	
+	trigger = {
+		tag = NAD
+	}
+	free = yes		#will be added at load.
+	
+	NAD_idea_1 = {
+		merchants = 1
+	}
+	NAD_city_state_mercenaries= {
+		merc_maintenance_modifier = -0.15
+	}
+	NAD_idea_3 = {
+		global_sailors_modifier = 0.2
+	}
+	NAD_idea_4 = {
+		naval_tradition_from_trade = 0.1
+		global_prov_trade_power_modifier = 0.1
+	}
+	NAD_idea_5 = {
+		land_morale = 0.10
+	}
+	NAD_idea_6 = {
+		diplomatic_reputation = 1.5
+	}
+	NAD_idea_7 = {
+		global_trade_goods_size_modifier = 0.05
+	}
+	
+}
+
+PAR_ideas = {
+	start = {
+		ae_impact = -0.05
+		global_unrest = -2
+	}
+
+	bonus = {
+		siege_blockade_progress = 1
+	}
+	
+	trigger = {
+		tag = PAR
+	}
+	free = yes		#will be added at load.
+	
+	PAR_frontline_of_faith = {
+		cb_on_religious_enemies = yes
+	}
+	PAR_sword_of_rauthalor= {
+		morale_damage = 0.075
+	}
+	PAR_shirite_moneylenders = {
+		interest = -0.5
+	}
+	PAR_stability_of_the_shires = {
+		stability_cost_modifier = -0.15
+	}
+	PAR_idea_5 = {
+		min_autonomy_in_territories = -0.1
+	}
+	PAR_idea_6 = {
+		yearly_innovativeness = 0.02
+	}
+	PAR_idea_7 = {
+		cavalry_flanking = 0.25
+		cavalry_cost = -0.05
+	}
+	
+}
+
+KEA_ideas = {
+	start = {
+		global_colonial_growth = 15
+		global_foreign_trade_power = 0.1
+	}
+
+	bonus = {
+		artillery_fire = 0.5
+	}
+	
+	trigger = {
+		tag = KEA
+	}
+	free = yes		#will be added at load.
+	
+	KEA_grand_dromons = {
+		galley_hull_size_modifier = 0.25
+		galley_cost = 0.10
+	}
+	KEA_keathan_militas= {
+		manpower_in_own_culture_provinces = 0.25
+	}
+	KEA_minting_regulations = {
+		may_not_reduce_inflation = yes
+		inflation_reduction = 0.15
+	}
+	KEA_bayou_marines = {
+		landing_penalty = -1
+		transport_attrition = -0.25
+	}
+	KEA_shining_riverstones = {
+		administrative_efficiency = 0.05
+	}
+	KEA_idea_6 = {
+		defensiveness = 0.10
+	}
+	KEA_idea_7 = {
+		light_ship_cost = -0.15
 	}
 	
 }

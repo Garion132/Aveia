@@ -2,7 +2,7 @@
 
 add_core = NIY
 owner = NIY
-controller = ZIY
+controller = NIY
 culture = nidyati
 religion = tlaunorist
 hre = no
@@ -10,7 +10,7 @@ base_tax = 0
 base_production =4
 base_manpower = 13
 trade_goods = paper
-capital = "Ziy"
+capital = "Nidyat"
 is_city = yes
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group

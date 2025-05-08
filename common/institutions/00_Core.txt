@@ -1794,19 +1794,13 @@ air_shipping = {
 		is_state = yes
 		development = 20
 		global_trade = 100
-		custom_trigger_tooltip = {
-			tooltip = two_neighbor_dev_15_provinces
-			calc_true_if = {
-				amount = 2
-				all_neighbor_province = {
-					development = 15
-				}
-			}
-		}
 		OR = {
 			has_building = airdock
-			production_leader = {
-				trade_goods = vitaite
+			owner={
+				trading_part = {
+					trade_goods = vitaite
+					value = 0.05
+				}
 			}
 		}
 	}

@@ -3,6 +3,7 @@
 graphical_culture = westerngfx
 
 color = { 210 82 146 }
+colonial_parent = ATH
 
 revolutionary_colors = { 5 8 13 }
 

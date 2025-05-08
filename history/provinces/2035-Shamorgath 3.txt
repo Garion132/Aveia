@@ -1,14 +1,13 @@
 #Shamorgath
-
 add_core = SHA
 owner = SHA
 controller = SHA
 culture = krasolik
 religion = vulikivite
 hre = yes
-base_tax = 6
-base_production =3
-base_manpower = 3
+base_tax = 0
+base_production = 3
+base_manpower = 9
 trade_goods = cloth
 capital = "Sal"
 is_city = yes

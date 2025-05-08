@@ -3,7 +3,7 @@ add_government_reform = palace_economy
 primary_culture = onebelan
 religion = tlaunorist
 technology_group = dunirr_group
-capital = 1260 # 
+capital = 1261 # 
 #national_focus = DIP
 #historical_rival = HAB
 

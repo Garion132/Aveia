@@ -873,9 +873,16 @@ country_event = {#a divine discovery
 			change_culture = ROOT
 			change_religion = ROOT
 			add_core = GSC
-			add_permanent_province_modifier = { 
-				name = golden_sun_1
-				duration = -1  
+			if={
+				limit={
+					NOT={
+						has_dlc = "Leviathan"
+					}
+				}
+				add_permanent_province_modifier = { 
+					name = golden_sun_1
+					duration = -1  
+				}
 			}
 		}
 		GSC={
@@ -892,7 +899,7 @@ country_event = {#a divine discovery
 			cede_province = GSC
 		}
 		create_subject = {
-			subject_type = dominion_vassal
+			subject_type = self_governing_colony
 			subject = GSC
 		}
 	}
@@ -902,7 +909,7 @@ country_event = {#a divine discovery
 			cede_province = GSC
 		}
 		create_subject = {
-			subject_type = dominion_vassal
+			subject_type = self_governing_colony
 			subject = GSC
 		}
 		switch_tag = GSC

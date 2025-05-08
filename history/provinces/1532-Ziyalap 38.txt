@@ -5,7 +5,7 @@ latent_trade_goods = {
 
 add_core = NIY
 owner = NIY
-controller = ZIY
+controller = NIY
 culture = nidyati
 religion = tlaunorist
 hre = no
@@ -13,7 +13,7 @@ base_tax = 0
 base_production =3
 base_manpower = 7
 trade_goods = fruit
-capital = "Ziy"
+capital = "Niminkor"
 is_city = yes
 discovered_by = lake_elves_group
 discovered_by = northern_drake_group
