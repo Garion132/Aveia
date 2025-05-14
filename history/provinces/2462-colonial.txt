@@ -1,5 +1,5 @@
 #Windsweaps
-culture = kaletian
+culture = xulinate
 religion = shamanism#Fetishism
 capital = "Accra"
 trade_goods = unknown

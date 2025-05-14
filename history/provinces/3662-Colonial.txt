@@ -1,5 +1,5 @@
 #juilia
-culture = noxivate
+culture = bluegrover
 religion = shamanism#Fetishism
 capital = "Accra"
 trade_goods = unknown

@@ -2873,6 +2873,104 @@ faun = {#kaletian Faun
 			"Faedove" "Edea" "Shakas" "Phisys" "Trisralei"
 		}
 	}
+	bluegrover = {
+		#primary = NYH
+		male_names = {
+			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
+			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
+			Bathron Bregedaer Bragoldor Beremben Beinor Bregon Boldor Beinalph Bruion Biron Badhroc Bathrion Belthon Barahon
+			Cumna Cidinnanc Celegon Celebren Caewon Crabramen Caeldir Cottion Cophen Castor Celairdir Cairdor Callon Cothor
+			Dagnir Daenor Daenir Delebor Deleban Dornion Dagor Dringor Dolcholn Dinemben Dunir Dogon Donir Duvain Duvaon
+			Edwethor Eddie Ellion Estaro Eithoron Estelben Emlimben Eregnir Erdaer Estennion Ephelion Ename Essereg Erinco 
+			Fenben Fimon Filignil Fuinor Fangnir Forto Feruihil Fondaer Filechon Fuinion Fineo Finwo Fardor Forben Falasdil
+			Gwachenir Glanir Grotophen Gorotphen Gellind Glasdir Guldir Guldukat Gul Galadon Glindaer Gemmon Gollon Gaear Garth
+			Halvon Helvon Helco Herenya Helchanar Hyarna Halion Heleth Haenaer Hundil Hwinioron Helcphen Himelben Halcyon Hank
+			Iarchanar Ithildil Isaac Idhron Iannon Ioristor Iaben Iaedor Inuaer Iothor Iotar Iota Iador Io Ingemmion Iochin Ivo
+			Lamaenion Lungon Luger Lex Lhindir Laica Lelya Limmion Ladion Lhindaer Lavandir Lahtar Laitaro Letho Lehto Liher Lonir
+			Minion Miniador Mulher Mellonion Moron Minianir Molion Maito Mellondil Malunaer Macron Morfin Morphin Meldo Mornion Mako
+			Nirdor Neldaer Neithor Nasar Netyar Nordir Nindaer Norrion Nirdaer Nwalca Nasarion Nidor Nurdor Nindo Nethanar Norm
+			Onodil Ordaer Oldaer Orcondil Oronngo Orange Orelon Ornion Onion Oldor Oialeo Orhallion Onision Orphin Orphen Orphan 
+			Penyo Parcion Peldor Padion Patphen Parcphen Puignir Pannor Pelilas Peldir Pandor Pandoro Paben Pigendir Parven Paranion
+			Quetindo Quilda Quildo Quanto Quentaro Quantion Quingatan Quacendur Quildolos Quildion Quildosse Quildil Quentar Quelindo
+			Rochon Ruinedur Ranyaro Rirosdir Randy Randaer Redhrion Raitaro Regon Rivalchan Ruinion Rindion Roben Rirosson Roino Reinor
+			Sorondil Saewion Silindo Sammy Sulher Suldil Salaman Salabon Sercecet Senya Sidhon Saindaer Sanwendil Sarnie Sarndir Solchon
+			Tronango Tornango Tathardor Taurion Toriadoormat Tauca Taura Tuvindo Telioron Tiuyar Thiaben Tinnunir Tecindo Tonto Tulca 
+			Ulunion Ungoldil Uthaesben Uirebion Uidir Urcoyar Urgonomics Uialion Urchin Uamen Ulunnor Ulund Ululion Ululu Uamben Uilospen
+			Valda Vistar Vista Vindows Vanyo Vinya Vony Vercion Vahtaro Vat Vanwion Vilindo Vildo Valyarion Valerian Voreo Voronwo Vercian 
+			Wenion Wandil Waldo Wanwo Wiryaro Walda Wenyo Walyarion Winima Winzip Wahtar Winya Wanwion Wenya Wailimo Winyaro Wilwa Wistandir
+		}
+		female_names = {
+	
+			Amath Aewien Amathior Amathlos Agorel Ariel Aegel Aereth Alamdir Abladien Alphear Amdirand Aerthel Amben Amber Amdir Allie April
+			Berenil Barien Beryl Bianca Berylla Belil Balch Bretta Beril Belakane Branwen Brisa Thasinia Nuovis Rina Faylen Lamentora Fildarae
+			Alesia Ena Mylaela Tanelia Ahshala Riniya Lorva Saida Aenwyn Sionia Galeria Valeria Liluth Celaena Chalia Melarue Tiriana Ayla 
+			Thalia Mariona Kaylim Iarsys Marionetta Lalari Gomari Nektari Patrari Gantari Tiltari Misho Isiash Aris Areth Areta Eca Teriath 
+			Ritrei Ripan Enem Simbo Ehia Osash Cerien Nipha Eni Tephias Shephea Iheith Nambea Irreane Imane Hudione Otionne Ellelle Etrene Karata
+			Anna Ida Matilda Berit Hanna Asta Niuna Halda Hilda Lorea Lorelai Hildelith Camilla Karina Gilda Dashie Zofianne Anette Rimilda Editha
+			Malina Lina Pabla Mamato Onono Ono Yoko Vhaenera Saelasa Asenera Saenera Sonora Lorana Loriana Loka Misrae Kylie Loreal Arianna Areanne 
+			Paula Delaella Hera Rhysa Henla Saena Insaena Seanna Karianna Krystae Lorae Monae Norae Dorianna Philae Phobos Phoebe Isis Unita Evitae
+			Evian Evianna Corinna Breastia Bestia Alysa Daerys Amebo Amiibo Cyrica Loretta Pauletta Karika Tomika Torri Lorri Torriana Danielle Daniela
+			Jenrey Herritte Fasha Hilena Asnel Hilne Rowena Rownora Kawa Letrun Syer Pazia Krithe Frarma Myrnel Myrtette Elisten Elistin Nostin
+			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
+			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
+		}
+		dynasty_names = {
+			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
+			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
+			"Enxisys" "Leopeiros" "Ravalynn" "Oladi" "Neristina" "Elisen" "Perhorn"
+			"Roshia" "Dasyria" "Quilar" "Cithrel" "Beilamin" "Yesric" "Xilfaren" "Dazumin" 
+			"Faedove" "Edea" "Shakas" "Phisys" "Trisralei"
+		}
+	}
+	xulinate = {
+		#primary = NYH
+		male_names = {
+			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
+			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
+			Bathron Bregedaer Bragoldor Beremben Beinor Bregon Boldor Beinalph Bruion Biron Badhroc Bathrion Belthon Barahon
+			Cumna Cidinnanc Celegon Celebren Caewon Crabramen Caeldir Cottion Cophen Castor Celairdir Cairdor Callon Cothor
+			Dagnir Daenor Daenir Delebor Deleban Dornion Dagor Dringor Dolcholn Dinemben Dunir Dogon Donir Duvain Duvaon
+			Edwethor Eddie Ellion Estaro Eithoron Estelben Emlimben Eregnir Erdaer Estennion Ephelion Ename Essereg Erinco 
+			Fenben Fimon Filignil Fuinor Fangnir Forto Feruihil Fondaer Filechon Fuinion Fineo Finwo Fardor Forben Falasdil
+			Gwachenir Glanir Grotophen Gorotphen Gellind Glasdir Guldir Guldukat Gul Galadon Glindaer Gemmon Gollon Gaear Garth
+			Halvon Helvon Helco Herenya Helchanar Hyarna Halion Heleth Haenaer Hundil Hwinioron Helcphen Himelben Halcyon Hank
+			Iarchanar Ithildil Isaac Idhron Iannon Ioristor Iaben Iaedor Inuaer Iothor Iotar Iota Iador Io Ingemmion Iochin Ivo
+			Lamaenion Lungon Luger Lex Lhindir Laica Lelya Limmion Ladion Lhindaer Lavandir Lahtar Laitaro Letho Lehto Liher Lonir
+			Minion Miniador Mulher Mellonion Moron Minianir Molion Maito Mellondil Malunaer Macron Morfin Morphin Meldo Mornion Mako
+			Nirdor Neldaer Neithor Nasar Netyar Nordir Nindaer Norrion Nirdaer Nwalca Nasarion Nidor Nurdor Nindo Nethanar Norm
+			Onodil Ordaer Oldaer Orcondil Oronngo Orange Orelon Ornion Onion Oldor Oialeo Orhallion Onision Orphin Orphen Orphan 
+			Penyo Parcion Peldor Padion Patphen Parcphen Puignir Pannor Pelilas Peldir Pandor Pandoro Paben Pigendir Parven Paranion
+			Quetindo Quilda Quildo Quanto Quentaro Quantion Quingatan Quacendur Quildolos Quildion Quildosse Quildil Quentar Quelindo
+			Rochon Ruinedur Ranyaro Rirosdir Randy Randaer Redhrion Raitaro Regon Rivalchan Ruinion Rindion Roben Rirosson Roino Reinor
+			Sorondil Saewion Silindo Sammy Sulher Suldil Salaman Salabon Sercecet Senya Sidhon Saindaer Sanwendil Sarnie Sarndir Solchon
+			Tronango Tornango Tathardor Taurion Toriadoormat Tauca Taura Tuvindo Telioron Tiuyar Thiaben Tinnunir Tecindo Tonto Tulca 
+			Ulunion Ungoldil Uthaesben Uirebion Uidir Urcoyar Urgonomics Uialion Urchin Uamen Ulunnor Ulund Ululion Ululu Uamben Uilospen
+			Valda Vistar Vista Vindows Vanyo Vinya Vony Vercion Vahtaro Vat Vanwion Vilindo Vildo Valyarion Valerian Voreo Voronwo Vercian 
+			Wenion Wandil Waldo Wanwo Wiryaro Walda Wenyo Walyarion Winima Winzip Wahtar Winya Wanwion Wenya Wailimo Winyaro Wilwa Wistandir
+		}
+		female_names = {
+	
+			Amath Aewien Amathior Amathlos Agorel Ariel Aegel Aereth Alamdir Abladien Alphear Amdirand Aerthel Amben Amber Amdir Allie April
+			Berenil Barien Beryl Bianca Berylla Belil Balch Bretta Beril Belakane Branwen Brisa Thasinia Nuovis Rina Faylen Lamentora Fildarae
+			Alesia Ena Mylaela Tanelia Ahshala Riniya Lorva Saida Aenwyn Sionia Galeria Valeria Liluth Celaena Chalia Melarue Tiriana Ayla 
+			Thalia Mariona Kaylim Iarsys Marionetta Lalari Gomari Nektari Patrari Gantari Tiltari Misho Isiash Aris Areth Areta Eca Teriath 
+			Ritrei Ripan Enem Simbo Ehia Osash Cerien Nipha Eni Tephias Shephea Iheith Nambea Irreane Imane Hudione Otionne Ellelle Etrene Karata
+			Anna Ida Matilda Berit Hanna Asta Niuna Halda Hilda Lorea Lorelai Hildelith Camilla Karina Gilda Dashie Zofianne Anette Rimilda Editha
+			Malina Lina Pabla Mamato Onono Ono Yoko Vhaenera Saelasa Asenera Saenera Sonora Lorana Loriana Loka Misrae Kylie Loreal Arianna Areanne 
+			Paula Delaella Hera Rhysa Henla Saena Insaena Seanna Karianna Krystae Lorae Monae Norae Dorianna Philae Phobos Phoebe Isis Unita Evitae
+			Evian Evianna Corinna Breastia Bestia Alysa Daerys Amebo Amiibo Cyrica Loretta Pauletta Karika Tomika Torri Lorri Torriana Danielle Daniela
+			Jenrey Herritte Fasha Hilena Asnel Hilne Rowena Rownora Kawa Letrun Syer Pazia Krithe Frarma Myrnel Myrtette Elisten Elistin Nostin
+			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
+			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
+		}
+		dynasty_names = {
+			"Lidori" "Celola" "Draumi" "Nyletmi" "Etailia" "Kethai"#main six dynasties
+			"Amine" "Omys" "vi Carmi" "Klirsi" "Daerel" "Zinyra" "Arnarra" "Nyana" "Fakalyn"
+			"Enxisys" "Leopeiros" "Ravalynn" "Oladi" "Neristina" "Elisen" "Perhorn"
+			"Roshia" "Dasyria" "Quilar" "Cithrel" "Beilamin" "Yesric" "Xilfaren" "Dazumin" 
+			"Faedove" "Edea" "Shakas" "Phisys" "Trisralei"
+		}
+	}
 }
 shireate_group = {#Aveian Faun
 	graphical_culture = westerngfx
@@ -8574,6 +8672,48 @@ scurian = {
 		}
 		dynasty_names = {
 			"Scurryfoot" "Wistlin" "Bowyer" "Twitchclaw" "Leafpaw" "Redbark" "Twisttooth" "Highbranch" "Scrufftail"
+		}
+	}
+	tamian = {
+		#primary = NYH
+		male_names = {
+			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
+			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
+			Bathron Bregedaer Bragoldor Beremben Beinor Bregon Boldor Beinalph Bruion Biron Badhroc Bathrion Belthon Barahon
+			Cumna Cidinnanc Celegon Celebren Caewon Crabramen Caeldir Cottion Cophen Castor Celairdir Cairdor Callon Cothor
+			Dagnir Daenor Daenir Delebor Deleban Dornion Dagor Dringor Dolcholn Dinemben Dunir Dogon Donir Duvain Duvaon
+			Edwethor Eddie Ellion Estaro Eithoron Estelben Emlimben Eregnir Erdaer Estennion Ephelion Ename Essereg Erinco 
+			Fenben Fimon Filignil Fuinor Fangnir Forto Feruihil Fondaer Filechon Fuinion Fineo Finwo Fardor Forben Falasdil
+			Gwachenir Glanir Grotophen Gorotphen Gellind Glasdir Guldir Guldukat Gul Galadon Glindaer Gemmon Gollon Gaear Garth
+			Halvon Helvon Helco Herenya Helchanar Hyarna Halion Heleth Haenaer Hundil Hwinioron Helcphen Himelben Halcyon Hank
+			Iarchanar Ithildil Isaac Idhron Iannon Ioristor Iaben Iaedor Inuaer Iothor Iotar Iota Iador Io Ingemmion Iochin Ivo
+			Lamaenion Lungon Luger Lex Lhindir Laica Lelya Limmion Ladion Lhindaer Lavandir Lahtar Laitaro Letho Lehto Liher Lonir
+			Minion Miniador Mulher Mellonion Moron Minianir Molion Maito Mellondil Malunaer Macron Morfin Morphin Meldo Mornion Mako
+			Nirdor Neldaer Neithor Nasar Netyar Nordir Nindaer Norrion Nirdaer Nwalca Nasarion Nidor Nurdor Nindo Nethanar Norm
+			Onodil Ordaer Oldaer Orcondil Oronngo Orange Orelon Ornion Onion Oldor Oialeo Orhallion Onision Orphin Orphen Orphan 
+			Penyo Parcion Peldor Padion Patphen Parcphen Puignir Pannor Pelilas Peldir Pandor Pandoro Paben Pigendir Parven Paranion
+			Quetindo Quilda Quildo Quanto Quentaro Quantion Quingatan Quacendur Quildolos Quildion Quildosse Quildil Quentar Quelindo
+			Rochon Ruinedur Ranyaro Rirosdir Randy Randaer Redhrion Raitaro Regon Rivalchan Ruinion Rindion Roben Rirosson Roino Reinor
+			Sorondil Saewion Silindo Sammy Sulher Suldil Salaman Salabon Sercecet Senya Sidhon Saindaer Sanwendil Sarnie Sarndir Solchon
+			Tronango Tornango Tathardor Taurion Toriadoormat Tauca Taura Tuvindo Telioron Tiuyar Thiaben Tinnunir Tecindo Tonto Tulca 
+			Ulunion Ungoldil Uthaesben Uirebion Uidir Urcoyar Urgonomics Uialion Urchin Uamen Ulunnor Ulund Ululion Ululu Uamben Uilospen
+			Valda Vistar Vista Vindows Vanyo Vinya Vony Vercion Vahtaro Vat Vanwion Vilindo Vildo Valyarion Valerian Voreo Voronwo Vercian 
+			Wenion Wandil Waldo Wanwo Wiryaro Walda Wenyo Walyarion Winima Winzip Wahtar Winya Wanwion Wenya Wailimo Winyaro Wilwa Wistandir
+		}
+		female_names = {
+	
+			Amath Aewien Amathior Amathlos Agorel Ariel Aegel Aereth Alamdir Abladien Alphear Amdirand Aerthel Amben Amber Amdir Allie April
+			Berenil Barien Beryl Bianca Berylla Belil Balch Bretta Beril Belakane Branwen Brisa Thasinia Nuovis Rina Faylen Lamentora Fildarae
+			Alesia Ena Mylaela Tanelia Ahshala Riniya Lorva Saida Aenwyn Sionia Galeria Valeria Liluth Celaena Chalia Melarue Tiriana Ayla 
+			Thalia Mariona Kaylim Iarsys Marionetta Lalari Gomari Nektari Patrari Gantari Tiltari Misho Isiash Aris Areth Areta Eca Teriath 
+			Ritrei Ripan Enem Simbo Ehia Osash Cerien Nipha Eni Tephias Shephea Iheith Nambea Irreane Imane Hudione Otionne Ellelle Etrene Karata
+			Anna Ida Matilda Berit Hanna Asta Niuna Halda Hilda Lorea Lorelai Hildelith Camilla Karina Gilda Dashie Zofianne Anette Rimilda Editha
+			Malina Lina Pabla Mamato Onono Ono Yoko Vhaenera Saelasa Asenera Saenera Sonora Lorana Loriana Loka Misrae Kylie Loreal Arianna Areanne 
+			Paula Delaella Hera Rhysa Henla Saena Insaena Seanna Karianna Krystae Lorae Monae Norae Dorianna Philae Phobos Phoebe Isis Unita Evitae
+			Evian Evianna Corinna Breastia Bestia Alysa Daerys Amebo Amiibo Cyrica Loretta Pauletta Karika Tomika Torri Lorri Torriana Danielle Daniela
+			Jenrey Herritte Fasha Hilena Asnel Hilne Rowena Rownora Kawa Letrun Syer Pazia Krithe Frarma Myrnel Myrtette Elisten Elistin Nostin
+			Coachella Madison Squarella Gardenia Cesa Alsir Telod Ceerihi Thura Thuran Can Mave Mauve Brinadi Thish Alla Perri Perianna Skylar Shay 
+			Jackie Steff Noelle Brynn Eva Isla Mya Skye Krystal Lexi Gwen Saeth Mati Lyn Delwen Gwennan Gweneth Glynnis
 		}
 	}
 

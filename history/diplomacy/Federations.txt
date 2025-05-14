@@ -1,0 +1,30 @@
+# Tolcor Fed.
+dependency = {
+	subject_type = "tolcar_federate"
+	first = TLC
+	second = ZEM
+	start_date = 1272.1.1
+	end_date = 1532.4.22
+}
+dependency = {
+	subject_type = "tolcar_federate"
+	first = TLC
+	second = IRL
+	start_date = 1272.1.1
+	end_date = 1532.4.22
+}
+# Ohil Fed.
+dependency = {
+	subject_type = "tolcar_federate"
+	first = OHI
+	second = TRE
+	start_date = 1272.1.1
+	end_date = 1532.4.22
+}
+dependency = {
+	subject_type = "tolcar_federate"
+	first = OHI
+	second = VAN
+	start_date = 1272.1.1
+	end_date = 1532.4.22
+}

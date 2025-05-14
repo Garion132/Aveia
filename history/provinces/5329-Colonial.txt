@@ -1,5 +1,5 @@
 #Elteria
-culture = kaletian
+culture = tamian
 religion = shamanism#Fetishism
 capital = "Accra"
 trade_goods = unknown

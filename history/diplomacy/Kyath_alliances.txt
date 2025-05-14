@@ -80,36 +80,6 @@ vassal = {
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
-# Tolcor Fed.
-dependency = {
-	subject_type = "tolcar_federate"
-	first = TLC
-	second = ZEM
-	start_date = 1272.1.1
-	end_date = 1532.4.22
-}
-dependency = {
-	subject_type = "tolcar_federate"
-	first = TLC
-	second = IRL
-	start_date = 1272.1.1
-	end_date = 1532.4.22
-}
-# Ohil Fed.
-dependency = {
-	subject_type = "tolcar_federate"
-	first = OHI
-	second = TRE
-	start_date = 1272.1.1
-	end_date = 1532.4.22
-}
-dependency = {
-	subject_type = "tolcar_federate"
-	first = OHI
-	second = VAN
-	start_date = 1272.1.1
-	end_date = 1532.4.22
-}
 
 #semiol union over Uremia
 union = {
@@ -132,83 +102,6 @@ dependency = {
 	second = MLF
 	start_date = 1257.1.1
 	end_date = 1370.4.22
-}
-
-dependency = {
-	subject_type = "dominion_vassal"
-	first = KAF
-	second = JAL
-	start_date = 1257.1.1
-	end_date = 1370.4.22
-}
-
-####colonies workaround
-dependency = {
-	subject_type = "colony"
-	first = ATH
-	second = SIL
-	start_date = 1257.1.1
-	end_date = 1370.4.22
-}
-dependency = {
-	subject_type = "colony"
-	first = LEL
-	second = OAG
-	start_date = 1257.1.1
-	end_date = 1370.4.22
-}
-dependency = {
-	subject_type = "colony"
-	first = KAF
-	second = CLO
-	start_date = 1257.1.1
-	end_date = 1370.4.22
-}
-dependency = {
-	subject_type = "colony"
-	first = KEA
-	second = FYG
-	start_date = 1257.1.1
-	end_date = 1370.4.22
-}
-dependency = {
-	subject_type = "colony"
-	first = SAL
-	second = SRI
-	start_date = 1257.1.1
-	end_date = 1370.4.22
-}
-# grand estates of jalorkan
-vassal = {
-	first = JAL
-	second = HAZ
-	start_date = 1272.1.1
-	end_date = 1532.8.3
-}
-vassal = {
-	first = JAL
-	second = ELI
-	start_date = 1272.1.1
-	end_date = 1532.8.3
-}
-vassal = {
-	first = JAL
-	second = VLK
-	start_date = 1272.1.1
-	end_date = 1532.8.3
-}
-vassal = {
-	first = JAL
-	second = SEV
-	start_date = 1272.1.1
-	end_date = 1532.8.3
-}
-dependency = {
-	subject_type = "trade_protectorate"
-	first = KAF
-	second = SFX
-	start_date = 1272.1.1
-	end_date = 1532.8.3
 }
 
 vassal = {
@@ -508,6 +401,14 @@ dependency = {
 	subject_type = "tributary_state"
 	first = LOS
 	second = TUV
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = RAU
+	second = MAR
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }

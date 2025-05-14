@@ -272,6 +272,7 @@ estate_kethai_enforced_oath_loyalty = {
 	can_select = {
 	}
 	penalties = {
+		
 	}
 	ai_will_do = {
 		factor = 0
