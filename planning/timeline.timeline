@@ -85,8 +85,8 @@
   </categories>
   <events>
     <event>
-      <start>1670-01-01 00:00:00</start>
-      <end>1686-03-19 00:00:00</end>
+      <start>1642-01-01 00:00:00</start>
+      <end>1658-03-19 00:00:00</end>
       <text>[12]Solar Crisis</text>
       <fuzzy>False</fuzzy>
       <fuzzy_start>False</fuzzy_start>
@@ -119,8 +119,8 @@
       <milestone>True</milestone>
     </event>
     <event>
-      <start>1670-01-01 00:00:00</start>
-      <end>1670-01-01 00:00:00</end>
+      <start>1642-01-01 00:00:00</start>
+      <end>1642-01-01 00:00:00</end>
       <text>(12)Tlaulunor Found Dead</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -132,8 +132,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1673-04-08 00:00:00</start>
-      <end>1673-04-08 00:00:00</end>
+      <start>1645-04-08 00:00:00</start>
+      <end>1645-04-08 00:00:00</end>
       <text>(12)Sifon Declears as Pretender</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -144,8 +144,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1673-11-09 00:00:00</start>
-      <end>1673-11-09 00:00:00</end>
+      <start>1645-11-09 00:00:00</start>
+      <end>1645-11-09 00:00:00</end>
       <text>(12)Gualorhei Delcares as Pretender</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -156,8 +156,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1680-01-01 00:00:00</start>
-      <end>1680-01-01 00:00:00</end>
+      <start>1652-01-01 00:00:00</start>
+      <end>1652-01-01 00:00:00</end>
       <text>(12)Umesedilism Returns</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -168,8 +168,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1685-08-08 00:00:00</start>
-      <end>1685-08-08 00:00:00</end>
+      <start>1657-08-08 00:00:00</start>
+      <end>1657-08-08 00:00:00</end>
       <text>(12)Cult Of Progress is Founded</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -181,8 +181,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1685-12-07 00:00:00</start>
-      <end>1685-12-07 00:00:00</end>
+      <start>1657-12-07 00:00:00</start>
+      <end>1657-12-07 00:00:00</end>
       <text>(12)Cult of Progress apears in Elesilion</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -194,8 +194,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1686-03-19 00:00:00</start>
-      <end>1686-03-19 00:00:00</end>
+      <start>1658-03-19 00:00:00</start>
+      <end>1658-03-19 00:00:00</end>
       <text>(12)CoP appears in Gulba</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -207,8 +207,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1677-07-12 00:00:00</start>
-      <end>1677-07-12 00:00:00</end>
+      <start>1649-07-12 00:00:00</start>
+      <end>1649-07-12 00:00:00</end>
       <text>(12)Plea of the Sea God to Sohoremyfa</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -219,8 +219,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1674-09-22 00:00:00</start>
-      <end>1674-09-22 00:00:00</end>
+      <start>1646-09-22 00:00:00</start>
+      <end>1646-09-22 00:00:00</end>
       <text>(12)Golden Sun is Worshipped over the gods in Julilia</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -231,8 +231,8 @@
       <default_color>192,192,192</default_color>
     </event>
     <event>
-      <start>1670-01-17 00:00:00</start>
-      <end>1670-01-17 00:00:00</end>
+      <start>1642-01-17 00:00:00</start>
+      <end>1642-01-17 00:00:00</end>
       <text>(12)Rauthalor Declears herself pretender</text>
       <progress>0</progress>
       <fuzzy>False</fuzzy>
@@ -1067,8 +1067,8 @@
   </events>
   <view>
     <displayed_period>
-      <start>1105-10-24 13:49:23</start>
-      <end>1115-10-25 13:49:23</end>
+      <start>1372-11-12 09:27:35</start>
+      <end>1472-11-12 09:27:35</end>
     </displayed_period>
     <hidden_categories>
     </hidden_categories>

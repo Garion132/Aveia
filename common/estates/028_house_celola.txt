@@ -105,6 +105,7 @@ estate_house_celola ={
 		estate_nobles_officer_corp
 		estate_rauthyr_right_of_counsel
 		estate_celola_enforced_oath_loyalty
+		estate_rauthyr_levies
 	}
 
 	agendas = {

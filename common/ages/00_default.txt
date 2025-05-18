@@ -570,6 +570,50 @@ age_of_golden_sun = {
 				factor = 10
 			}
 		}
+		ab_colonies_around_the_world = {
+			modifier = {
+				range = 0.5
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_diplomatic_corps = {
+			modifier = {
+				diplomats = 1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_raising_heirs = {
+			modifier = {
+				monarch_admin_power = 1
+				heir_chance = 0.1
+				monthly_heir_claim_increase = 0.05
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_prize_ships = {
+			modifier = {
+				disengagement_chance = 0.05
+				prestige_from_naval = 0.1
+				capture_ship_chance = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		ab_new_world_excitement = {
+			modifier = {
+				global_colonial_growth = 25
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
 
 	}
 
@@ -799,7 +843,7 @@ age_of_progress = {
 				}
 			}
 		}
-		ab_cavalry_armies = {
+		ab_airship_armies = {
 			modifier = {
 				cav_to_inf_ratio = 0.1
 			}

@@ -760,4 +760,8 @@
  birthplace_of_iron_working: "Birthplace of Iron Working"
  
  INCOMPAT_BIO: "§RBiologically Incompatable§!"
+ tooltip_illuminare_prov_prosperous: "Development at least 15 in a Prospering State"
+ aveia: "Aveia"
+ elteria: "Elteria"
+ juluia: "Juluia"
  

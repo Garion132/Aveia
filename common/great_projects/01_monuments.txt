@@ -1708,10 +1708,10 @@ lumian_patricianate = {
     date = 
     build_cost = 1000
     can_be_moved = no
-    starting_tier = 0
+    #starting_tier = 0
     type = monument
     build_trigger = {
-
+		tag = LUM
     }
     on_built = {
         add_republican_tradition = 20

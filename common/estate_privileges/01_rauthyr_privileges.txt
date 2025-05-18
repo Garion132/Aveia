@@ -92,8 +92,106 @@ estate_rauthyr_land_rights = {
 	}
 }
 
+estate_rauthyr_levies = {
+	icon = privilege_demand_more_troops
+	max_absolutism = -5
+	influence = 0.1
+	modifier_by_land_ownership = {
+		global_tax_modifier = -0.15
+		global_manpower_modifier = 0.5
+	}
+	is_valid = {
+		has_reform = rauosuan_hegemony_reform
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 1.5
+			any_rival_country = {
+				army_strength = {
+					who = root
+					value = 1.5
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_idea_group = quantity_ideas
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { max_manpower = 40 }
+		}
+		modifier = {
+			factor = 0.5
+			max_manpower = 200
+		}
+		modifier = {
+			factor = 2
+			estate_territory = {
+				estate = estate_nobles
+				territory = 50
+			}
+		}
+		modifier = {
+			factor = 1.5
+			estate_territory = {
+				estate = estate_nobles
+				territory = 40
+			}
+		}
+		modifier = {
+			factor = 1.5
+			estate_territory = {
+				estate = estate_nobles
+				territory = 30
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_territory = {
+					estate = estate_nobles
+					territory = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_territory = {
+					estate = estate_nobles
+					territory = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_territory = {
+					estate = estate_nobles
+					territory = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { current_income_balance = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { current_income_balance = 0 }
+		}
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+	}
+}
 
-#Etailia Spesific
+#Etailia Spesific 2/6
 estate_etailia_monopoly_of_scribes = {
 	icon = privilege_monopoly_of_goods_paper
 	max_absolutism = -10
@@ -148,7 +246,7 @@ estate_etailia_enforced_oath_loyalty = {
 		}
 	}
 }
-#Nyletmi Spesific
+#Nyletmi Spesific 1/6
 estate_nyletmi_enforced_oath_loyalty = {
 	icon = privilege_royal_authority
 	max_absolutism = 5
@@ -174,7 +272,7 @@ estate_nyletmi_enforced_oath_loyalty = {
 		}
 	}
 }
-#Draumi Spesific
+#Draumi Spesific 2/6
 estate_draumi_grant_principlaity_rights = {
 	icon = privilege_grant_autonomy
 	max_absolutism = -10
@@ -239,7 +337,7 @@ estate_draumi_enforced_oath_loyalty = {
 		}
 	}
 }
-#Kethai Spesific
+#Kethai Spesific 2/6
 estate_kethai_export_rights = {
 	icon = privilege_goods_produced
 	max_absolutism = -10
@@ -290,7 +388,7 @@ estate_kethai_enforced_oath_loyalty = {
 		}
 	}
 }
-#Lidori Spesific
+#Lidori Spesific 2/6
 estate_lidori_monopoly_of_paper = {
 	icon = privilege_monopoly_of_goods_paper
 	max_absolutism = -10
@@ -414,7 +512,7 @@ estate_lidori_enforced_oath_loyalty = {
 		}
 	}
 }
-#Celola Spesific
+#Celola Spesific 1/6
 estate_celola_enforced_oath_loyalty = {
 	icon = privilege_royal_authority
 	max_absolutism = 5

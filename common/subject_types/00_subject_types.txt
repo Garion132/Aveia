@@ -828,9 +828,9 @@ self_governing_colony = {
 }
 
 dominion_vassal = {
-	copy_from = colony
-	count = colony
-	is_colony_subtype = yes
+	copy_from = vassal
+	#count = colony
+	#is_colony_subtype = yes
 	change_colonial_type = no
 	
 	# Graphics:
@@ -850,16 +850,16 @@ dominion_vassal = {
 	can_be_annexed = no
 	can_have_subjects_of_other_types = yes
 	eats_overlords_colonies = yes
-	is_voluntary = yes
+	is_voluntary = no
 	overlord_enforce_peace_attacking = yes
 	extend_trading_range = yes
 	replace_governor = no
-	start_colonial_war = yes
+	#start_colonial_war = yes
 	block_settlement_growth = no
 	allow_settlement_growth = no
 	counts_for_borders = yes
-	dynamically_created_during_history = no
-	has_colonial_parent = no
+	#dynamically_created_during_history = no
+	#has_colonial_parent = no
 	
 	restoration_cb = cb_disloyal_vassal
 

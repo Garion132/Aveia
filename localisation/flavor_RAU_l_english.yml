@@ -47,6 +47,8 @@
  estate_celola_enforced_oath_loyalty_desc: "Enforcing more Oaths from the house of Celola will keep them loyal for ten years, however once they laspe the House will become far less loyal for a time."
  estate_etailia_monopoly_of_scribes: "Monopoly of Scribes"
  estate_etailia_monopoly_of_scribes_desc: "House Etailia is the preminant source of scribes for the Hegemony, if we grant this house a full Monoloply on our scribe posistions we will receive the best Advisors for far cheaper"
+ estate_rauthyr_levies: "Increased Levies"
+ estate_rauthyr_levies_desc: "Levies from the Noble Houses provide the majority of the Hegemonies armies. An arrangement can be made for this house to provide us with more men in return for other compensation"
  
  rauthyr_estate_events.1.a:0 "Leave them be"
  rauthyr_estate_events.1.b:0 "Force them to accept imperial authority"

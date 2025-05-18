@@ -118,6 +118,7 @@ estate_house_draumi ={
 	#Alternative naming of estates
 	
 	privileges = {
+		estate_rauthyr_levies
 		estate_rauthyr_land_rights
 		estate_rauthyr_right_of_counsel
 		estate_draumi_grant_principlaity_rights

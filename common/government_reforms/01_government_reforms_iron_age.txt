@@ -377,7 +377,6 @@ ia_lumian_patricanate= {
 		tag = LUM
 	}
 	modifiers = {
-		
 		max_absolutism = -50
 		merchants = 1
 	}
@@ -932,7 +931,6 @@ become_a_mod_republic_reform = {
 		factor = 0
 	}
 }
-
 become_a_mod_theocracy_reform = {
 	icon = "pope_highlighted"
 	allow_normal_conversion = yes

@@ -104,6 +104,7 @@ estate_house_lidori ={
 		estate_rauthyr_right_of_counsel
 		estate_lidori_monopoly_of_paper
 		estate_lidori_enforced_oath_loyalty
+		estate_rauthyr_levies
 	}
 
 	agendas = {

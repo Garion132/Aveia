@@ -16,6 +16,10 @@ High Bronze Age (start-1367)
 		Breadbaskets (development_cost = -0.1)
 		Expert Artisans (production_efficiency = 0.1)
 		Bronze-age Drill (army_tradition_from_battle = 0.5)
+		RAU -
+		-
+		-
+		-
 Iron Calamity (1367-1440)
 	obj:
 		feudal society
@@ -32,8 +36,11 @@ Iron Calamity (1367-1440)
 		mercenary dicipline
 		protecting forts
 		delegated diplomacy
-		--
-		
+		Mesures against corruption
+		-
+		-
+		-
+		-
 Eastern Exodus (1440-1540)
 	obj:
 		(have your primary culture in the east)
@@ -47,11 +54,14 @@ Eastern Exodus (1440-1540)
 		higher developed colonies 2.0
 		floating batteries
 		powerful tradeships
-		--
-		--
-		--
-		--
-		
+		Supply Chains
+		Decentralised Fleets
+		Enforced Migration
+		Estate Relationships
+		-
+		-
+		-
+		-
 The Golden Sun (1540 - 1638)
 	obj:
 		present on two continents
@@ -64,12 +74,16 @@ The Golden Sun (1540 - 1638)
 	boni:
 		Harsher Treatment
 		Efficient Autonomy
-		--
-		--
-		--
-		--
-		--
-Solar Strife (1670-1712)
+		Colonies Around the World
+		Diplomatic Corps
+		Rasing Heirs
+		Prize Ships
+		New World Excitement
+		-
+		-
+		-
+		-
+Solar Strife (1642-1712)
 	obj:
 		convert prov
 		convert nation
@@ -86,6 +100,10 @@ Solar Strife (1670-1712)
 		Naval Engagement
 		great fleet
 		divine guidence (religious unity)
+		-
+		-
+		-
+		-
 Age of Progress (1712-)
 	obj:
 		parliment
@@ -100,10 +118,13 @@ Age of Progress (1712-)
 		Improved Force March
 		Anti-Revolutionary Zeal
 		Loyal Subjects
-		-- (+1 max general fire)
+		Fire by Rank (+1 max general fire)
 		--
 		--
-		
+		-
+		-
+		-
+		-
 #Institutions:
 1200/start - Organized State (start)
 1250/start - Bronze Working (west only)

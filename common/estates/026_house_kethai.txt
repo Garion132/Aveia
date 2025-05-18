@@ -103,6 +103,7 @@ estate_house_kethai ={
 	privileges = {
 		estate_rauthyr_land_rights
 		estate_rauthyr_right_of_counsel
+		estate_nobles_levies
 		estate_kethai_export_rights
 		estate_kethai_enforced_oath_loyalty
 	}
