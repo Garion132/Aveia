@@ -354,7 +354,7 @@ age_of_exodus = {
 	 		}
 		}
 		obj_grand_state = {
-	 		num_of_provinces_in_states = 250
+	 		num_of_provinces_in_states = 300
 		}
 		obj_slave_holdings = {
 	 		trading_part = {

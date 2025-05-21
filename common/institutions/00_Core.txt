@@ -2224,7 +2224,7 @@ industrialization = {
 		OR={
 			has_building = early_factory
 			has_building = late_factory
-			has_building = manufactory
+			#has_building = manufactory
 			has_building = furnace
 			has_building = industrial_zone
 		}

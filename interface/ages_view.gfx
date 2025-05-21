@@ -469,8 +469,8 @@ spriteTypes = {
 
 	# NEW Abilities	
 	spriteType = {
-		name = "GFX_ab_cavalry_armies"
-		texturefile = "gfx/interface/ages/ab_cavalry_armies.dds"
+		name = "GFX_ab_airship_armies"
+		texturefile = "gfx/interface/ab_cavalry_armies.dds"
 	}
 	
 	spriteType = {
@@ -806,5 +806,25 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ab_enforced_migration"
 		texturefile = "gfx/interface/ages/ab_enforced_migration.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_colonies_around_the_world"
+		texturefile = "gfx/interface/ages/ab_colonies_around_the_world.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_diplomatic_corps"
+		texturefile = "gfx/interface/ages/ab_diplomatic_corps.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_raising_heirs"
+		texturefile = "gfx/interface/ages/ab_raising_heirs.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_prize_ships"
+		texturefile = "gfx/interface/ages/ab_prize_ships.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_new_world_excitement"
+		texturefile = "gfx/interface/ages/ab_new_world_excitement.dds"
 	}
 }

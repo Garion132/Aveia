@@ -1448,6 +1448,24 @@ dyes = {
 		modifier = {
 			factor = 0
 			NOT = { has_terrain = jungle }
+			NOT={
+				OR={
+					province_id = 4320
+					province_id = 4321
+					province_id = 4318
+					province_id = 4316
+					province_id = 4313
+					province_id = 4312
+					province_id = 4311
+					province_id = 4306
+					province_id = 4307
+					province_id = 4309
+					province_id = 4323
+					province_id = 4324
+					province_id = 4326
+					province_id = 4327
+				}
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1457,6 +1475,24 @@ dyes = {
 				has_winter = mild_winter
 				has_winter = normal_winter
 				has_winter = severe_winter
+			}
+			NOT={
+				OR={
+					province_id = 4320
+					province_id = 4321
+					province_id = 4318
+					province_id = 4316
+					province_id = 4313
+					province_id = 4312
+					province_id = 4311
+					province_id = 4306
+					province_id = 4307
+					province_id = 4309
+					province_id = 4323
+					province_id = 4324
+					province_id = 4326
+					province_id = 4327
+				}
 			}
 		}
 		modifier = {
@@ -1468,6 +1504,25 @@ dyes = {
 				province_id = 4743
 			}
 		}
+		# modifier = {
+			# factor = 40
+			# OR={
+				# province_id = 4320
+				# province_id = 4321
+				# province_id = 4318
+				# province_id = 4316
+				# province_id = 4313
+				# province_id = 4312
+				# province_id = 4311
+				# province_id = 4306
+				# province_id = 4307
+				# province_id = 4309
+				# province_id = 4323
+				# province_id = 4324
+				# province_id = 4326
+				# province_id = 4327
+			# }
+		# }
 	}
 }
 
@@ -1666,6 +1721,20 @@ gems = {
 				has_terrain = coastal_desert
 				has_terrain = marsh
 			}
+		}
+		modifier = {
+			factor = 0
+			is_random_new_world = no
+			NOT = { region = feltdon_region }
+			NOT = { region = vitaite_hills_region }
+			NOT = { region = valkmora_region }
+			NOT = { region = markford_plains_region }
+			NOT = { region = alromita_region }
+			NOT = { region = bulkir_region }
+			NOT = { region = donamenz_region }
+			NOT = { region = carenil_region }
+			NOT = { region = strivian_region }
+			NOT = { area = juluia_5 }
 		}
 		modifier = {
 			factor = 1.5

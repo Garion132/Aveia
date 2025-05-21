@@ -206,6 +206,8 @@
  clearow_estuary_modifier:0 "Clearow Estuary"
  alatar_estuary_modifier:0 "Alatar Estuary"
  raniman_estuary_modifier:0 "Raniman Estuary"
+ eolipor_estuary_modifier: "Eolipor Estuary"
+ vanafold_estuary_modifier: "Vanafold Estuary"
 
  calendor_island_modifier:0 "Calendor Island"
  desc_calendor_island_modifier:0 "The Calendor Islands are all stations for incredibly important trade through the Mallitors Sea"
