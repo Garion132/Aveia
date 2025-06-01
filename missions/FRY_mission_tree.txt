@@ -1,461 +1,357 @@
 FRY_mission_1 = {
-    slot = 3
-    generic = no
-    ai = yes
-    potential = {
-        tag = FRY
-    }
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRY
+	}
 
-    FRY_The_Grand_Dream = {
-		icon = FRY_The_Grand_Dream
+	FRY_mission_2 = {
+		icon = FRY_mission_2_GFX
 		position = 1
 		required_missions = {  }
 		trigger = {
-			is_year = 1273
+			mil_power = 50
+			treasury = 50
 		}
 		effect = {
-
+			add_mil_power = -50
+			add_treasury = -50
+			add_country_modifier = {
+			name = growing_military_1
+			duration = -1
+			desc = GROWING_MILITARY_1_DESC_TOOLTIP
+			hidden = no
+			}
 		}
 	}
-    FRY_Enriching_The_People = {
-        icon = FRY_Enriching_The_People
-        position = 2
-        required_missions = { FRY_The_Grand_Dream }
-        trigger = {
-            dip_power = 300
-        }
-        effect = {
-            add_country_modifier = { 
-                name = enriched_people
-                duration = -1  
-                hidden = yes
-            }
-            add_dip_power = -300
-        }
-    }
-    FRY_Enriching_The_Cities = {
-        icon = FRY_Enriching_The_Cities
-        position = 3
-        required_missions = { FRY_Enriching_The_People}
-        trigger = {
-
-        }
-        effect = {
-            add_country_modifier = { 
-                name = enriched_cities
-                duration = -1  
-                hidden = yes
-            }
-        }
-    }
-    FRY_Enriching_The_Land = {
-        icon = FRY_Enriching_The_Land
-        position = 4
-        required_missions = { FRY_Enriching_The_Cities}
-        trigger = {
-            num_of_provinces_in_states = 5
-        }
-        effect = {
-            add_country_modifier = { 
-                name = enriched_land
-                duration = -1  
-                hidden = yes
-            }
-        }
-    }
-    FRY_Enriching_The_Military = {
-        icon = FRY_Enriching_The_Military
-        position = 5
-        required_missions = { FRY_Enriching_The_Land}
-        trigger = {
-
-        }
-        effect = {
-            add_country_modifier = { 
-                name = enriched_military
-                duration = -1  
-                hidden = yes
-            }
-        }
-    }
+	FRY_mission_6 = {
+		icon = FRY_mission_6_GFX
+		position = 2
+		required_missions = { FRY_mission_2 }
+		trigger = {
+			treasury = 50
+			mil_power = 100
+		}
+		effect = {
+			add_treasury = -50
+			add_mil_power = -100
+			country_event = { 
+			    id = FRY_mission_events.1
+			    days = 30
+			    random = 15
+			}
+		}
+	}
+	FRY_mission_11 = {
+		icon = FRY_mission_11_GFX
+		position = 3
+		required_missions = { FRY_mission_6 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_16 = {
+		icon = FRY_mission_16_GFX
+		position = 4
+		required_missions = { FRY_mission_11 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_20 = {
+		icon = FRY_mission_20_GFX
+		position = 5
+		required_missions = { FRY_mission_16 FRY_mission_17 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_23 = {
+		icon = FRY_mission_23_GFX
+		position = 6
+		required_missions = { FRY_mission_20 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_26 = {
+		icon = FRY_mission_26_GFX
+		position = 7
+		required_missions = { FRY_mission_23 }
+		trigger = { }
+		effect = { }
+	}
 }
+
 FRY_mission_2 = {
-    slot = 2
-    generic = no
-    ai = yes
-    potential = {
-        tag = FRY
-    }
-    FRY_The_Education_Of_The_Heir = {
-        icon = FRY_The_Education_Of_The_Heir
-        position = 2
-        required_missions = { FRY_The_Grand_Dream }
-        trigger = {
-            is_year = 1275
-        }
-        effect = {
-            change_heir_mil = 1
-            change_heir_dip = 1
-        }
-    }
-    FRY_Military_Education = {
-        icon = FRY_Military_Education
-        position = 3
-        required_missions = {FRY_The_Education_Of_The_Heir}
-        trigger = {
-            is_year = 1277
-        }
-        effect = {
-            change_heir_mil = 1
-        }
-    }
-    FRY_Diplomatic_Education = {
-        icon = FRY_Diplomatic_Education
-        position = 4
-        required_missions = {FRY_Military_Education}
-        trigger = {
-            is_year = 1279
-        }
-        effect = {
-            change_heir_mil = 1
-            change_heir_dip = 1
-        }
-    }
-    FRY_The_Model_Heir = {
-        icon = FRY_The_Model_Heir
-        position = 5
-        required_missions = {FRY_Diplomatic_Education}
-        trigger = {
-            is_year = 1281
-        }
-        effect = {
-            change_heir_mil = 1
-            change_heir_dip = 1
-            kill_ruler = yes
-        }
-    }
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRY
+	}
+
+	FRY_mission_32 = {
+		icon = FRY_mission_32_GFX
+		position = 10
+		required_missions = { FRY_mission_30 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_7 = {
+		icon = FRY_mission_7_GFX
+		position = 2
+		required_missions = { FRY_mission_2 }
+		trigger = {
+			treasury = 25
+			dip_power = 150
+		}
+		effect = {
+			add_treasury = -25
+			add_dip_power = -150
+			add_country_modifier = { 
+			    name = shipbuilding_1_modifier
+			    duration = -1  
+			    desc = SHIPBUILDING_1_DESC_TOOLTIP
+			    hidden = yes
+			}
+		}
+	}
+	FRY_mission_12 = {
+		icon = FRY_mission_12_GFX
+		position = 3
+		required_missions = { FRY_mission_7 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_17 = {
+		icon = FRY_mission_17_GFX
+		position = 4
+		required_missions = { FRY_mission_12 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_27 = {
+		icon = FRY_mission_27_GFX
+		position = 7
+		required_missions = { FRY_mission_24 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_29 = {
+		icon = FRY_mission_29_GFX
+		position = 8
+		required_missions = { FRY_mission_27 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_30 = {
+		icon = FRY_mission_30_GFX
+		position = 9
+		required_missions = { FRY_mission_29 }
+		trigger = { }
+		effect = { }
+	}
 }
-FRY_mission_3 ={
-    slot = 1
-    generic = no
-    ai = yes
-    potential = {
-        tag = FRY
-    }
-    FRY_Promote_Colonialism = {
-        icon = FRY_Promote_Colonialism
-        position = 2
-        required_missions = {FRY_The_Grand_Dream}
-        trigger = {
 
-        }
-        effect = {
-            add_country_modifier = { 
-                name = colonial_promotion
-                duration = -1  
-                hidden = yes
-            }
-        }
-    }
-    FRY_Active_Colonial_Funding = {
-        icon = FRY_Active_Colonial_Funding
-        position = 3
-        required_missions = {FRY_Promote_Colonialism}
-        trigger = {
+FRY_mission_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRY
+	}
 
-        }
-        effect = {
-            remove_country_modifier = colonial_promotion
-            add_country_modifier = { 
-                name = colonial_enthusiasm
-                duration = -1  
-                hidden = yes
-            }
-        }
-    }
-    FRY_The_Grand_Colonial_Bursary = {
-        icon = FRY_The_Grand_Colonial_Bursary
-        position = 4
-        required_missions = {FRY_Active_Colonial_Funding}
-        trigger = {
-
-        }
-        effect = {
-            remove_country_modifier = colonial_enthusiasm
-            add_country_modifier = { 
-                name = colonial_frenzy
-                duration = -1  
-                hidden = yes
-            }
-        }
-    }
-    FRY_At_All_Costs = {
-        icon = FRY_At_All_Costs
-        position = 5
-        required_missions = {FRY_The_Grand_Colonial_Bursary}
-        trigger = {
-
-        }
-        effect = {
-            remove_country_modifier = colonial_frenzy
-            add_country_modifier = { 
-                name = taente
-                duration = -1  
-                hidden = yes
-            }
-        }
-    }
+	FRY_mission_3 = {
+		icon = FRY_mission_3_GFX
+		position = 1
+		required_missions = {  }
+		trigger = {
+			treasury = 200
+			adm_power = 50
+		}
+		effect = {
+			add_treasury = -200
+			add_adm_power = -50
+			add_country_modifier = { 
+			    name = semi_effective_taxation
+			    duration = -1  
+			    desc = SEMI_EFFECTIVE_TAXATION_DESC_TOOLTIP
+			    hidden = no
+			}
+		}
+	}
+	FRY_mission_34 = {
+		icon = FRY_mission_34_GFX
+		position = 11
+		required_missions = { FRY_mission_32 FRY_mission_33 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_8 = {
+		icon = FRY_mission_8_GFX
+		position = 2
+		required_missions = { FRY_mission_3 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_13 = {
+		icon = FRY_mission_13_GFX
+		position = 3
+		required_missions = { FRY_mission_8 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_21 = {
+		icon = FRY_mission_21_GFX
+		position = 5
+		required_missions = { FRY_mission_13 FRY_mission_18 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_24 = {
+		icon = FRY_mission_24_GFX
+		position = 6
+		required_missions = { FRY_mission_21 }
+		trigger = { }
+		effect = { }
+	}
 }
+
 FRY_mission_4 = {
-    slot = 3
-    generic = no
-    ai = yes
-    potential = {
-        tag = FRY
-    }
-    FRY_Rotating_Crops_For_Dummies = {
-        icon = FRY_Rotating_Crops_For_Dummies
-        position = 6
-        required_missions = {FRY_At_All_Costs FRY_Enriching_The_Military FRY_The_Model_Heir}
-        trigger = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRY
+	}
 
-        }
-        effect = {
-            2406 = {
-                change_trade_goods = grain
-            }
-            2417 = {
-                change_trade_goods = grain
-            }
-            2408 = {
-                change_trade_goods = grain
-            }
-            add_institution_embracement = { which = crop_rotation value = 1 }
-        }
-    }
-    FRY_Advance_In_Thought = {
-        icon = FRY_Advance_In_Thought
-        position = 7
-        required_missions = {FRY_Rotating_Crops_For_Dummies}
-        trigger = {
-
-        }
-        effect = {
-            add_country_modifier = { 
-                name = advance_in_thought
-                duration = -1  
-                hidden = yes
-            }
-        }
-    }
-    FRY_The_New_Civil_Service = {
-        icon = FRY_The_New_Civil_Service
-        position = 8
-        required_missions = {FRY_Advance_In_Thought}
-        trigger = {
-
-        }
-        effect = {
-
-        }
-    }
-    FRY_Remove_The_Clergy = {
-        icon = FRY_Remove_The_Clergy
-        position = 9
-        required_missions = {FRY_The_New_Civil_Service}
-        trigger = {
-
-        }
-        effect = {
-            add_country_modifier = { 
-                name = unhappy_clergy
-                duration = 180  
-                hidden = no
-            }
-        }
-    }
-    FRY_Introduce_Standard_Banking = {
-        icon = FRY_Introduce_Standard_Banking
-        position = 10
-        required_missions = {FRY_Remove_The_Clergy}
-        trigger = {
-
-        }
-        effect = {
-
-        }
-    }
-    FRY_Enhance_Production = {
-        icon = FRY_Enhance_Production
-        position = 11
-        required_missions = {FRY_Introduce_Standard_Banking}
-        trigger = {
-
-        }
-        effect = {
-
-        }
-    }
+	FRY_mission_4 = {
+		icon = FRY_mission_4_GFX
+		position = 1
+		required_missions = {  }
+		trigger = {
+			treasury = 25
+			adm_power = 150
+		}
+		effect = {
+			add_treasury = -25
+			add_adm_power = -150
+			change_heir_adm = 1
+		}
+	}
+	FRY_mission_33 = {
+		icon = FRY_mission_33_GFX
+		position = 10
+		required_missions = { FRY_mission_31 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_9 = {
+		icon = FRY_mission_9_GFX
+		position = 2
+		required_missions = { FRY_mission_4 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_14 = {
+		icon = FRY_mission_14_GFX
+		position = 3
+		required_missions = { FRY_mission_9 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_18 = {
+		icon = FRY_mission_18_GFX
+		position = 4
+		required_missions = { FRY_mission_14 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_28 = {
+		icon = FRY_mission_28_GFX
+		position = 7
+		required_missions = { FRY_mission_24 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_31 = {
+		icon = FRY_mission_31_GFX
+		position = 9
+		required_missions = { FRY_mission_28 }
+		trigger = { }
+		effect = { }
+	}
 }
+
 FRY_mission_5 = {
-    slot = 2
-    generic = no
-    ai = yes
-    potential = {
-        tag = FRY
-    }
-    FRY_Advance_In_Will = {
-        icon = FRY_Advance_In_Will
-        position = 7
-        required_missions = {FRY_Rotating_Crops_For_Dummies}
-        trigger = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRY
+	}
 
-        }
-        effect = {
-            add_country_modifier = { 
-                name = advance_in_will
-                duration = -1  
-                hidden = no
-            }
-        }
-    }
-    FRY_Build_A_Strong_Army {
-        icon = FRY_Build_A_Strong_Army
-        position = 8
-        required_missions = {FRY_Advance_In_Will}
-        trigger = {
-            army_professionalism = 0.10
-        }
-        effect = {
-            add_country_modifier = { 
-                name = strong_army
-                duration = -1  
-                hidden = no
-            }
-        }
-    }
-    FRY_Recruit_Van_De_Brasse = {
-        icon = FRY_Recruit_Van_De_Brasse
-        position = 9
-        required_missions = {FRY_Build_A_Strong_Army}
-        trigger = {
-
-        }
-        effect = {
-            create_general = {
-                name = "Dirk Van De Brasse"
-                tradition = 50
-                add_fire = 5
-                add_shock = 4
-                add_manuever = 4
-                add_siege = 4
-                culture = villwinder
-            }
-            add_mil_power = -200
-            add_adm_power = -50
-        }
-    }
-    FRY_Build_A_Strong_Navy = {
-        icon = FRY_Build_A_Strong_Navy
-        position = 10
-        required_missions = {FRY_Recruit_Van_De_Brasse}
-        trigger = {
-
-        }
-        effect = {
-            add_country_modifier = { 
-                name = strong_navy
-                duration = -1  
-                hidden = no
-            }
-        }
-    }
-    FRY_For_The_Coming_Storm = {
-        icon = FRY_For_The_Coming_Storm
-        position = 11
-        required_missions = {FRY_For_The_Coming_Storm}
-        trigger = {
-
-        }
-        effect = {
-
-        }
-    }
+	FRY_mission_5 = {
+		icon = FRY_mission_5_GFX
+		position = 1
+		required_missions = {  }
+		trigger = {
+			dip_power = 250
+			treasury = 100
+		}
+		effect = {
+			add_dip_power = -250
+			add_treasury = -100
+			add_country_modifier = { 
+			    name = colonial_effort_1
+			    duration = -1  
+			    desc = COLONIAL_EFFORT_1_DESC_TOOLTIP
+			    hidden = yes
+			}
+		}
+	}
+	FRY_mission_10 = {
+		icon = FRY_mission_10_GFX
+		position = 2
+		required_missions = { FRY_mission_5 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_15 = {
+		icon = FRY_mission_15_GFX
+		position = 3
+		required_missions = { FRY_mission_10 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_19 = {
+		icon = FRY_mission_19_GFX
+		position = 4
+		required_missions = { FRY_mission_15 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_22 = {
+		icon = FRY_mission_22_GFX
+		position = 5
+		required_missions = { FRY_mission_19 }
+		trigger = { }
+		effect = { }
+	}
+	FRY_mission_25 = {
+		icon = FRY_mission_25_GFX
+		position = 6
+		required_missions = { FRY_mission_22 }
+		trigger = { }
+		effect = { }
+	}
 }
+
 FRY_mission_6 = {
-    slot = 1
-    generic = no
-    ai = yes
-    potential = {
-        tag = FRY
-    }
-    FRY_Advance_In_Speech = {
-        icon = FRY_Advance_In_Speech
-        position = 7
-        required_missions = {FRY_Rotating_Crops_For_Dummies}
-        trigger = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRY
+	}
 
-        }
-        effect = {
-            add_country_modifier = { 
-                name = advance_in_speech
-                duration = -1  
-                hidden = no
-            }
-        }
-    }
-    FRY_Purpose_Made_Diplomats {
-        icon = FRY_Purpose_Made_Diplomats
-        position = 8
-        required_missions = {FRY_Advance_In_Speech}
-        trigger = {
-
-        }
-        effect = {
-
-        }
-    }
-    FRY_Collusion_With_The_Merchants = {
-        icon = FRY_Collusion_With_The_Merchants
-        position = 9
-        required_missions = {FRY_Purpose_Made_Diplomats}
-        trigger = {
-
-        }
-        effect = {
-            add_country_modifier = { 
-                name = merchant_collusion
-                duration = 240 
-                hidden = no
-            }
-        }
-    }
-    FRY_Promote_Unified_Culture = {
-        icon = FRY_Promote_Unified_Culture
-        position = 10
-        required_missions = {FRY_Collusion_With_The_Merchants}
-        trigger = {
-
-        }
-        effect = {
-            add_country_modifier = { 
-                name = unified_culture
-                duration = 240 
-                hidden = no
-            }
-        }
-    }
-    FRY_Establish_The_Merchant_Bank = {
-        icon = FRY_Establish_The_Merchant_Bank
-        position = 11
-        required_missions = {FRY_Promote_Unified_Culture}
-        trigger = {
-
-        }
-        effect = {
-
-        }
-    }
 }
-
 
