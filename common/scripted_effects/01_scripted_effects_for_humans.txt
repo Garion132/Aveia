@@ -1,0 +1,5 @@
+#Scripted effects relating to Humans.
+
+collapse_ghandian_succesor_effect = {
+	
+}
