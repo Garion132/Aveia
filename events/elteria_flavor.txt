@@ -449,7 +449,7 @@ country_event = {
 				add_base_production = 1
 				add_base_manpower = 1
 				change_religion = drethalumia
-				change_culture = kaletian
+				change_culture = bluegrover
 			}
 			3834={
 				cede_province = LAW
@@ -462,7 +462,7 @@ country_event = {
 				add_base_production = 1
 				add_base_manpower = 1
 				change_religion = drethalumia
-				change_culture = kaletian
+				change_culture = bluegrover
 			}
 			3832={
 				cede_province = LAW
@@ -475,7 +475,7 @@ country_event = {
 				add_base_production = 1
 				add_base_manpower = 1
 				change_religion = drethalumia
-				change_culture = kaletian
+				change_culture = bluegrover
 			}
 			LAW={
 				add_treasury = 300
@@ -527,7 +527,7 @@ country_event = {
 				add_base_production = 1
 				add_base_manpower = 1
 				change_religion = drethalumia
-				change_culture = kaletian
+				change_culture = bluegrover
 			}
 			3838={
 				cede_province = BIH
@@ -540,7 +540,7 @@ country_event = {
 				add_base_production = 1
 				add_base_manpower = 1
 				change_religion = drethalumia
-				change_culture = kaletian
+				change_culture = bluegrover
 			}
 			3836={
 				cede_province = BIH
@@ -553,7 +553,7 @@ country_event = {
 				add_base_production = 1
 				add_base_manpower = 1
 				change_religion = drethalumia
-				change_culture = kaletian
+				change_culture = bluegrover
 			}
 			3835={
 				cede_province = BIH
@@ -566,7 +566,7 @@ country_event = {
 				add_base_production = 1
 				add_base_manpower = 1
 				change_religion = drethalumia
-				change_culture = kaletian
+				change_culture = bluegrover
 			}
 			BIH={
 				add_treasury = 300
