@@ -67,15 +67,6 @@ monumentality_mechanic = {
 					meritocracy = -1.0
 				}
 			}
-			on_min_reached = {
-				add_stability = -1
-				set_government_power = { # sets the power to the specified amount
-					mechanic_type = monumentality_mechanic
-					power_type = godly_favor
-					value = 10
-				}
-
-			}
 			is_good = yes
 		}
 	}

@@ -86,6 +86,12 @@ nationalist_rebels = {
 			}
 		}
 		modifier = {
+			factor = 0.001
+			owner = {
+				has_disaster = crisis_of_the_12th_century
+			}
+		}
+		modifier = {
 			factor = 3
 			owner = {
 				NOT = { primary_culture = ROOT }

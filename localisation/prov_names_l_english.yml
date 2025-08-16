@@ -1517,8 +1517,8 @@
  PROV1669: "Dashea"
  PROV1670: "Oaerta"
  PROV1671: "Irtaeo"
- PROV1672: "Maytn"
- PROV1673: "Haraet"
+ PROV1672: "Haraet"
+ PROV1673: "Maytn"
  PROV1674: "Reateau"
  PROV1675: "Yateai"
  PROV1676: "Guareau"
@@ -3067,19 +3067,26 @@
  PROV4968: "Horia"
  PROV4969: "Yrusrf"
  
+ PROV5085: "Hulaan"
+ 
+ PROV5087: "Ahman"
+ PROV5088: "Tuvash"
  PROV5089: "Marea"
  
  PROV5093: "Kavabu"
 
  PROV5106: "Ergonia"
+ 
+ PROV5109: "Jinst"
 
  PROV5112: "Shayania"
 
+ PROV5115: "Ergaltk"
  PROV5116: "Dasia"
  PROV5117: "Renchi"
  
  PROV5119: "Bayan"
-
+ PROV5120: "Khashar"
  PROV5121: "Kisia" 
  PROV5122: "Tiloi" 
  PROV5123: "Yoprol" 
@@ -3472,13 +3479,22 @@
  PROV5728: "Khatia"
  PROV5729: "Saik"
  
+ PROV5731: "Khuren"
+ 
  PROV5734: "Nombia"
+ PROV5735: "Ulania"
+ PROV5736: "Daria"
+ PROV5737: "Tonkhan"
  
  PROV5739: "Bulkta"
  PROV5740: "Solkuru"
  PROV5741: "Tsaya"
  
+ PROV5748: "Jagania"
+ 
  PROV5751: "Rashin"
+ 
+ PROV5758: "Zagia"
  
  PROV5760: "Tulagia"
  PROV5761: "Varleia"

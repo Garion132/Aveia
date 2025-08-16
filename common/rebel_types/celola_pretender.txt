@@ -38,7 +38,14 @@ celola_pretender_rebels = {
 		modifier = {
 			factor = 0
 			owner = {
-				NOT={tag = RAU}
+				NOT={has_disaster = crisis_of_the_12th_century}
+			}
+		}
+		modifier = {
+			factor = 20
+			culture = celolian
+			owner = {
+				has_disaster = crisis_of_the_12th_century
 			}
 		}
 	}

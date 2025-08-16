@@ -166,6 +166,132 @@ merc_blue_company = {
 	modifier = { }
 }
 
+# Rauthyr Family Levies
+merc_kethai_house_levy = {
+    regiments_per_development = 0.03
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 1105
+	sprites = { westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			tag = RAU
+			dynasty = "Kethai"
+		}
+	}
+    cost_modifier = 0.33
+	modifier = {
+
+	}
+}
+merc_etailia_house_levy = {
+    regiments_per_development = 0.03
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 932
+	sprites = { westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			tag = RAU
+			dynasty = "Etailia"
+		}
+	}
+    cost_modifier = 0.33
+	modifier = {
+
+	}
+}
+merc_nyleymi_house_levy = {
+    regiments_per_development = 0.03
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 1166
+	sprites = { westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			tag = RAU
+			dynasty = "Nyleymi"
+		}
+	}
+    cost_modifier = 0.33
+	modifier = {
+
+	}
+}
+merc_draumi_house_levy = {
+    regiments_per_development = 0.03
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 1038
+	sprites = { westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			tag = RAU
+			dynasty = "Draumi"
+		}
+	}
+    cost_modifier = 0.33
+	modifier = {
+
+	}
+}
+merc_lidori_house_levy = {
+    regiments_per_development = 0.03
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 949
+	sprites = { westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			tag = RAU
+			dynasty = "Lidori"
+		}
+	}
+    cost_modifier = 0.33
+	modifier = {
+
+	}
+}
+merc_celola_house_levy = {
+    regiments_per_development = 0.03
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 977
+	sprites = { westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		OR = {
+			tag = RAU
+			dynasty = "Celola"
+		}
+	}
+    cost_modifier = 0.33
+	modifier = {
+
+	}
+}
+# Hirdam Knights
+merc_hirdam_knights = {
+    regiments_per_development = 0.07
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	home_province = 2686
+	sprites = { westerngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes 
+		tag = HIR
+		# custom_trigger_tooltip = {
+			# tooltip = swiss_guard_activated
+			# has_country_flag = enable_swiss_guard
+		# }
+	}
+	counts_towards_force_limit = no
+	min_size = 5
+    cost_modifier = 0.5
+	modifier = {
+		fire_damage = 0.2
+		discipline = 0.05
+	}
+}
+
 rnw_modifier_weights = {
 	shock_damage = {
 		min = 0.05

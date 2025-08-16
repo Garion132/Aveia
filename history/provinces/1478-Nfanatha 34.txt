@@ -1,13 +1,11 @@
 #Nfanatha
-
 add_core = AKM
 owner = AKM
 controller = AKM
-culture = akama
+culture = neanathan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =1
+base_production = 1
 base_manpower = 5
 trade_goods = spices
 capital = "Nfa"

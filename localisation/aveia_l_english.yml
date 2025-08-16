@@ -723,6 +723,14 @@
  merc_ringscale_clan: "Ringscale Clan"
  merc_blue_company: "Blue Company"
  merc_iumerium_striders: "Iumerium Striders"
+ merc_ardaran_guard: "Ardaran Guard"
+ merc_kethai_house_levy: "House Kethai Levy"
+ merc_etailia_house_levy: "House Etailia Levy"
+ merc_nyleymi_house_levy: "House Nyleymi Levy"
+ merc_draumi_house_levy: "House Draumi Levy"
+ merc_lidori_house_levy: "House Lidori Levy"
+ merc_celola_house_levy: "House Celola Levy"
+ merc_hirdam_knights: "Hirdam Knights"
  
  ruler_race_is_elven_tooltip:0 "Ruler is a Elf"
  obj_300_development: "Developed Country"
@@ -750,6 +758,7 @@
  malicrieit: "Malicrieit"
  the_first_tree: "The First Tree"
  palace_lindor: "Palace of Lindor"
+ masridu_fort: "Masridu Fort"
  
  call_feudal_dignitary_defence_title: "Call Dignitary to Defend"
  call_feudal_dignitary_defence_tooltip: "Call on our Feudal Dignitary to Defend the Realm"

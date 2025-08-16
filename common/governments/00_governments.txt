@@ -1036,6 +1036,8 @@ iron_theocracy = {
 			reforms = {
 				ia_god_king
 				theocratic_government
+				monastic_order_reform
+				hirdam_order_reform
 			}
 		}
 		internal_vs_external_mission = {

@@ -1,13 +1,11 @@
 #Ramua
-
 add_core = RAM
 owner = RAM
 controller = RAM
-culture = matn
+culture = jluathan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 base_manpower = 4
 trade_goods = livestock
 capital = "Ram"

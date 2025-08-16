@@ -1,13 +1,11 @@
 #Matn
-
 add_core = MTN
 owner = MTN
 controller = MTN
-culture = matn
+culture = jluathan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =1
+base_production = 1
 base_manpower = 4
 trade_goods = wool
 capital = "Mtn"

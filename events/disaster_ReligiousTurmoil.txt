@@ -20,9 +20,10 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA2031"				# Eradicate the heretics to bring peace
+		add_stability = -1
 		random_owned_province = {
 			limit = {
-				religion_group = christian
+				religion_group = tlaunorist
 				has_owner_religion = no
 			}
 			spawn_rebels = {
@@ -33,7 +34,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_disaster = religious_turmoil
+				has_disaster = divine_excomunication
 			}
 			add_country_modifier = {
 				name = "intolerant_society"
@@ -44,9 +45,10 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB2031"				# We should strive for a tolerant society
+		add_stability = -1
 		if = {
 			limit = {
-				has_disaster = religious_turmoil
+				has_disaster = divine_excomunication
 			}
 			add_country_modifier = {
 				name = "tolerant_society"

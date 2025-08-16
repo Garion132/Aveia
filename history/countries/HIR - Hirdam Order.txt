@@ -1,5 +1,5 @@
-government = bronze_monarchy
-add_government_reform = palace_economy
+government = iron_theocracy
+add_government_reform = hirdam_order_reform
 primary_culture = filler_east_culture #deresunite
 religion = tlaunorist
 technology_group = lake_elves_group

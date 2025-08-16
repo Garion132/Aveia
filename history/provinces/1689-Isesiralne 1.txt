@@ -1,13 +1,11 @@
 #Isesiralne
-
 add_core = ISE
 owner = ISE
 controller = ISE
-culture = matn
+culture = jluathan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =1
+base_production = 1
 base_manpower = 4
 trade_goods = naval_supplies
 capital = "Ise"

@@ -1779,7 +1779,12 @@ is_allowed_to_recruit_mercenaries = {
 is_not_free_merc_company = {
 	ROOT = {
 		NOT = { mercenary_company = merc_bridge_guard }
-		
+		NOT = { mercenary_company = merc_kethai_house_levy }
+		NOT = { mercenary_company = merc_etailia_house_levy }
+		NOT = { mercenary_company = merc_nyleymi_house_levy }
+		NOT = { mercenary_company = merc_draumi_house_levy }
+		NOT = { mercenary_company = merc_lidori_house_levy }
+		NOT = { mercenary_company = merc_celola_house_levy }
 	}
 }
 

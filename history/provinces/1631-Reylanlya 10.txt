@@ -1,13 +1,11 @@
 #Reylanlya
-
 add_core = AKM
 owner = AKM
 controller = AKM
-culture = beskhin
+culture = neanathan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =1
+base_production = 1
 base_manpower = 4
 trade_goods = marble
 capital = "Rey"

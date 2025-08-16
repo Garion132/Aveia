@@ -46,6 +46,7 @@ divine_excomunication = {
 		tolerance_own = -3
 		tolerance_heretic = -2
 		religious_unity = -0.33
+		stability_cost_modifier = 0.50
 	}	
 
 	

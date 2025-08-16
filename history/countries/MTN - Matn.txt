@@ -3,7 +3,7 @@ add_government_reform = league_of_cities_reform
 primary_culture = matn
 religion = tlaunorist
 technology_group = lake_elves_group
-capital = 1672 # 
+capital = 1673 # 
 #national_focus = DIP
 #historical_rival = HAB
 

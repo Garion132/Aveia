@@ -1320,6 +1320,7 @@ cb_mannish_raid = {
 
 	prerequisites = {
 		culture_group = humans
+		government = mannish_tribal
 		is_neighbor_of = FROM
 		FROM={
 			NOT={religion = uzvazism}
@@ -1328,7 +1329,17 @@ cb_mannish_raid = {
 		NOT = {	has_matching_religion = FROM }
 		is_revolutionary = no
 	}
-
+	attacker_disabled_po = {
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+	}
+	defender_disabled_po = {
+		po_demand_provinces
+	}
+	
 	war_goal = mannish_raids
 }
 

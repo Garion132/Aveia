@@ -34,7 +34,20 @@ nyletmi_pretender_rebels = {
 	handle_action_send_missionary = yes		
 	
 	spawn_chance = {
-		factor = 0
+		factor = 1
+		modifier = {
+			factor = 0
+			owner = {
+				NOT={has_disaster = crisis_of_the_12th_century}
+			}
+		}
+		modifier = {
+			factor = 20
+			culture = nylnan
+			owner = {
+				has_disaster = crisis_of_the_12th_century
+			}
+		}
 	}
  
  	# This is checked for EACH province in the Area of Operations

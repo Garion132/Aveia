@@ -16,7 +16,6 @@ bookmark = {
 	country = FRY
 	country = LEL
 	country = KEA
-	country = JAL
 	country = SAL
 	country = FRS
 	
