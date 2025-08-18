@@ -61,5 +61,5 @@ leader_names = {
 
 army_names = {
          "Army of Lidori" "Army of Draumyuer" "Army of Kethia"
-	 "Army de $PROVINCE$" 
+	 "Army of $PROVINCE$" 
 }
