@@ -10,4 +10,5 @@ native_hostileness = 4
 extra_cost = 8
 set_variable = { which = arable_land value = 4 }
 culture = xulinate
+religion = shamanism#Fetishism
 is_city = no

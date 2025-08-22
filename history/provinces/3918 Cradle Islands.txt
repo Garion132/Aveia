@@ -1,6 +1,5 @@
 #tradewind_islands
 capital = "Illwind"
-trade_goods = unknown
 hre = no
 add_core = SYM
 owner = SYM

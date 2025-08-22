@@ -6,5 +6,6 @@ culture = eraitian
 religion = tradowite
 controller = KHV
 discovered_by = eastern_men_group
+base_tax = 0
 base_manpower = 5
 base_production = 1

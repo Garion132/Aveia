@@ -283,6 +283,7 @@ tribe_becomes_monarchy_reform = {
 		set_country_flag = populists_in_government
 		lose_reforms = 4
 		change_government = monarchy
+		has_institution = organized_state
 	}
 	ai = {
 		factor = 1
@@ -299,6 +300,7 @@ tribe_becomes_republic_reform = {
 		set_country_flag = populists_in_government
 		lose_reforms = 4
 		change_government = republic
+		has_institution = organized_state
 	}
 	ai = {
 		factor = 1
@@ -330,6 +332,7 @@ tribe_becomes_theocracy_reform = {
 		set_country_flag = populists_in_government
 		lose_reforms = 4
 		change_government = theocracy
+		has_institution = organized_state
 	}
 	ai = {
 		factor = 1

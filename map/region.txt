@@ -57,7 +57,7 @@ nylka_region = {
 lildoresi_marches_region = { 
 	areas = { 
 		menatheas ilfamenat gafdorethe naleenyafet mythenaset boraloris y_mahilne rauthyr_1 rauthyr_2 rauthyr_3
-		rauthyr_4 rauthyr_11 rauthyr_13 rauthyr_14 
+		rauthyr_4 rauthyr_11 rauthyr_13 rauthyr_14 direthe
 	}
 }
 rauthyr_region = { 

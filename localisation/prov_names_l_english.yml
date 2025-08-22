@@ -252,6 +252,9 @@
  PROV256: "Tyressa"
  
  PROV269: "Wuarioi"
+ 
+ PROV278: "Linjuda Gap"
+ PROV279: "Jyasra Sea"
 
  PROV282: "Symania Sea"
  PROV283: "Vanafold Passage"
@@ -374,7 +377,7 @@
  PROV501: "Satanai"
  PROV502: "Dolkirae"
  PROV503: "Oušar"
- PROV504: "Ihadar"
+ PROV504: "Tuiseiiye"
  PROV505: "Liyhasur"
  PROV506: "Bouitryi"
  PROV507: "Jjaluth"
@@ -382,7 +385,7 @@
  PROV509: "Julkioa"
  PROV510: "Ouaretu"
  PROV511: "Ewivue"
- PROV512: "Tuiseiiye"
+ PROV512: "Ihadar"
  PROV513: "Hopura"
  PROV514: "Villos"
  PROV515: "Fortivzins"
@@ -1756,7 +1759,7 @@
  PROV1908: "Akmakan Passage"
  
  PROV1912: "Victuran Entrance"
- 
+ PROV1913: "Saluea"
  PROV1914: "Maltrine"
  
  PROV1918: "Balteere Bay"
@@ -2082,7 +2085,7 @@
  PROV2251: "Asrerae"
  PROV2252: "Rouiatu"
  PROV2253: "Rauilahat"
- PROV2254: "Umalian"
+ PROV2254: "Umalia"
  PROV2255: "Buasnir"
  PROV2256: "Molangaili"
  PROV2257: "Umilao"
@@ -2677,11 +2680,16 @@
  PROV3030: "Dolair"
  PROV3031: "Cunvoar"
  PROV3032: "Joliarru"
- PROV3033: "Shielded Sea"
+ PROV3033: "North Shielded Sea"
+ PROV3034: "South Shielded Sea"
  
  PROV3036: "Koliaur"
  
  PROV3060: "Guoliarut"
+ 
+ PROV3110: "Vuoklar"
+ PROV3111: "Yarasdo"
+ PROV3112: "Hyra"
  
  PROV3204: "Tealgrass"
  
@@ -2730,6 +2738,8 @@
  PROV3536: "Soltira"
  
  PROV3538: "Vorack"
+ 
+ PROV3548: "Roasdae"
  
  PROV3655: "Fearow"
  
@@ -3068,7 +3078,7 @@
  PROV4969: "Yrusrf"
  
  PROV5085: "Hulaan"
- 
+ PROV5086: "Gurganoth"
  PROV5087: "Ahman"
  PROV5088: "Tuvash"
  PROV5089: "Marea"

@@ -797,6 +797,7 @@ iron_age_monarchy_adv = {
 			NOT = { has_government_attribute_short_desc = locked_government_type }
 		}
 		NOT= {current_age = age_of_bronze}
+		has_institution = iron_working
 	}
 	effect = {
 		#set_country_flag = populists_in_government
@@ -847,6 +848,7 @@ iron_age_republic_adv = {
 		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
 		NOT= {current_age = age_of_bronze}
+		has_institution = iron_working
 	}
 	effect = {
 		#set_country_flag = populists_in_government
@@ -879,6 +881,7 @@ iron_age_theocracy_adv = {
 		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
 		NOT= {current_age = age_of_bronze}
+		has_institution = iron_working
 	}
 	effect = {
 		lose_reforms = 5
