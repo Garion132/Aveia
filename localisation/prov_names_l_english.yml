@@ -288,8 +288,13 @@
  PROV313: "South Fingers Coast"
  PROV314: "North Fingers Coast"
  PROV315: "Bergdrifts"
+ PROV316: "Eurlian Coast"
  
  PROV320: "Maleiciar Exspanse"
+ 
+ PROV326: "North-East Eurlian Coast"
+ 
+ PROV330: "Rainal Tides"
  
  PROV334: "Litrama Breach"
  PROV335: "Parinkar"
@@ -1855,7 +1860,7 @@
  PROV2021: "Khamar"
  PROV2022: "Vrohni"
  PROV2023: "Raught"
- 
+ PROV2024: "Waiuta"
  PROV2025: "Kamor"
  PROV2026: "Vulvek"
  PROV2027: "Pranax"
@@ -2374,7 +2379,7 @@
  PROV2606: "Elijchtsieit"
  PROV2607: "Aufeieitsie"
  PROV2608: "Enngeallsta"
- 
+ PROV2609: "Zonatarner"
  PROV2610: "Ietlenenorabeaus"
  PROV2611: "Llemenderund"
  PROV2612: "Getaunelausver"
@@ -3082,19 +3087,30 @@
  PROV5087: "Ahman"
  PROV5088: "Tuvash"
  PROV5089: "Marea"
- 
+ PROV5090: "Vanumi"
+ PROV5091: "Altiu"
+ PROV5092: "Dufeu"
  PROV5093: "Kavabu"
+ PROV5094: "Kyuaw"
+ PROV5095: "Batia"
+ PROV5096: "Grewa"
+ 
+ PROV5098: "Ywea"
+ PROV5099: "Rasurt"
 
  PROV5106: "Ergonia"
+ PROV5107: "Guria"
  
  PROV5109: "Jinst"
-
+ PROV5110: "Tsagal"
+ PROV5111: "Asdeau"
  PROV5112: "Shayania"
-
+ PROV5113: "Oltaai"
+ PROV5114: "Chuia"
  PROV5115: "Ergaltk"
  PROV5116: "Dasia"
  PROV5117: "Renchi"
- 
+ PROV5118: "Tartiu"
  PROV5119: "Bayan"
  PROV5120: "Khashar"
  PROV5121: "Kisia" 
@@ -3488,27 +3504,39 @@
  PROV5727: "Bagalia"
  PROV5728: "Khatia"
  PROV5729: "Saik"
- 
+ PROV5730: "Chimi"
  PROV5731: "Khuren"
+ PROV5732: "Jurga"
  
  PROV5734: "Nombia"
  PROV5735: "Ulania"
  PROV5736: "Daria"
  PROV5737: "Tonkhan"
- 
+ PROV5738: "Kjurta"
  PROV5739: "Bulkta"
  PROV5740: "Solkuru"
  PROV5741: "Tsaya"
- 
+ PROV5742: "Reanan"
+ PROV5743: "Aduwae"
+ PROV5744: "Yadu"
+ PROV5745: "Teraca"
+ PROV5746: "Dartarim"
+ PROV5747: "Hulaar"
  PROV5748: "Jagania"
- 
+ PROV5749: "Fudua"
+ PROV5750: "Shirag"
  PROV5751: "Rashin"
+ PROV5752: "Gidao"
+ PROV5753: "Rundai"
+ 
+ PROV5755: "Rauic"
  
  PROV5758: "Zagia"
- 
+ PROV5759: "Varit"
  PROV5760: "Tulagia"
  PROV5761: "Varleia"
- 
+ PROV5762: "Fesa"
+ PROV5763: "Tenu"
  PROV5764: "Vafrea"
  PROV5765: "Taloiya"
  PROV5766: "Monuoc"

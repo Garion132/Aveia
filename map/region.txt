@@ -1,6 +1,5 @@
 # A province can only belong to one region!
-# random_new_world_region is used for RNW. Must be first in this list.
-# random_new_world_region is used for RNW. Must be first in this list.
+# random_new_world_region is used for RNW. Must be first in this list.t.
 random_new_world_region = {
 }
 
@@ -209,14 +208,14 @@ karnaiha_region = {
 brightcoast_region = { 
 	areas = { 
 		freygmia silowbo lower_oagemins upper_oagemins weslif cloudham sringar grahear ligwell eagburya
-		chilton brightcoast_1 brightcoast_2 brightcoast_3 brightcoast_4 brightcoast_5 brightcoast_6 brightcoast_7 karnaiha_25 karnaiha_26
+		chilton brightcoast_1 brightcoast_3 brightcoast_4 brightcoast_5 brightcoast_6 brightcoast_7 karnaiha_25 karnaiha_26
 		karnaiha_27 
 	}
 }
 greater_jalhorkan_region = { 
 	areas = { 
 		laslesia miwal jalhorkan_1 jalhorkan_2 jalhorkan_3 jalhorkan_4 jalhorkan_5 jalhorkan_6 jalhorkan_7 jalhorkan_8
-		jalhorkan_9 jalhorkan_10 jalhorkan_11 brightcoast_8 brightcoast_9 brightcoast_10 brightcoast_11 brightcoast_12 ventoral_islands brightcoast_13
+		jalhorkan_9 jalhorkan_10 jalhorkan_11 brightcoast_9 brightcoast_10 brightcoast_11 brightcoast_12 ventoral_islands brightcoast_13
 		brightcoast_14 brightcoast_15 brightcoast_16 brightcoast_17 windsweaps_1 deepgroves_1 
 	}
 }
@@ -259,7 +258,7 @@ scuria_region = {
 }
 deerok_region = { 
 	areas = { 
-		deerok_2 deerok_3 deerok_4 deerok_5 deerok_6 deerok_7 deerok_8 deerok_10 deerok_11 deerok_12
+		deerok_2 deerok_3 deerok_4 deerok_5 deerok_6 deerok_7 deerok_8 deerok_10 deerok_11
 		feltdon_9 feltdon_10 feltdon_11 feltdon_12 feltdon_17 
 	}
 }

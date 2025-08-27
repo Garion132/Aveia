@@ -1,15 +1,14 @@
-#Khamar
+#
 
-add_core = KHA
-owner = KHA
-controller = KHA
-culture = tmiik
-religion = vulikivite
-hre = yes
-base_tax = 2
-base_production =3
-base_manpower = 2
-trade_goods = grain
+add_core = VYL
+owner = VYL
+controller = VYL
+culture = silric
+religion = veliti
+base_tax = 0
+base_production =0
+base_manpower = 5
+trade_goods = livestock
 capital = "Sal"
 is_city = yes
 discovered_by = lake_elves_group

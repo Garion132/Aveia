@@ -111,7 +111,7 @@ default = {
 	can_concentrate_development = yes
 	can_have_great_projects_moved_by_overlord = yes
 	extend_trading_range = no
-	can_gain_favors = yes
+	can_gain_favors = no
 
 	max_government_rank = 0								# 0 means no limit
 	cities_required_for_bonuses = 0						# How many cities the subject needs before giving bonuses to overlord
@@ -187,6 +187,7 @@ default = {
 	request_extra_levies = no
 	grant_administrative_autonomy = no
 
+	# disable_inheritance = yes # Use this for Personal Union types of subjects to disallow the inheriting mechanic
 	# (special)
 	sword_hunt = no
 	sankin_kotai = no
@@ -637,7 +638,7 @@ colony = {
 	transfer_trade_power = yes
 	can_concentrate_development = no
 	extend_trading_range = yes
-	liberty_desire_development_ratio = 0.05
+	liberty_desire_development_ratio = 0.1
 
 	opinion_on_subject_integration = 0
 	max_government_rank = 1
@@ -679,6 +680,14 @@ colony = {
 			num_of_cities = 10
 		}
 	}
+	modifier_subject = {
+		modifier = new_world_exploitation_modifier
+		trigger = {
+			overlord = { has_government_attribute = extra_trade_goods_for_colonial_subjects }
+		}
+	}
+	
+
 
 	overlord_opinion_modifier = colonial_relation
 	subject_opinion_modifier = colonial_relation
@@ -735,6 +744,9 @@ colony_elteria_start = {
 
 crown_colony = {
 	copy_from = colony
+    sprite = GFX_icon_crown_colony
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_crown_colony
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_crown_colony
 
 	change_colonial_type = yes
 	upgrade_subject_type = yes
@@ -770,6 +782,9 @@ crown_colony = {
 
 private_enterprise = {
 	copy_from = colony
+    sprite = GFX_icon_private_enterprise
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_private_enterprise
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_private_enterprise
 
 	change_colonial_type = yes
 	upgrade_subject_type = yes
@@ -799,6 +814,9 @@ private_enterprise = {
 
 self_governing_colony = {
 	copy_from = colony
+    sprite = GFX_icon_self_governing_colony
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_self_governing_colony
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_self_governing_colony
 
 	change_colonial_type = yes
 	upgrade_subject_type = yes
@@ -1275,6 +1293,7 @@ trade_protectorate = {
 	uses_military_focus = no
 	overlord_protects_external = yes
 	counts_for_borders = no
+	counts_as_overlord_holding = yes
 	can_use_claims = no
 	share_rebel_popup = no
 	can_transfer_in_peace = no
