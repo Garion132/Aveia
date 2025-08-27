@@ -663,7 +663,7 @@ negative_stability = {
 	devotion = 1
 	caravan_power = 0.05
 	yearly_harmony = 0.25
-	monthly_godly_favor = 0.05
+	monthly_godly_favor = -0.03
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate

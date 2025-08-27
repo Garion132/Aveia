@@ -716,17 +716,17 @@ country_decisions = {
                     value = 50
                 }
             }
-            adm_power = 5
+            adm_power = 20
         }
 
         effect = {
-            add_inflation = 2
-            add_corruption = 1
-            add_adm_power = -5
-            add_years_of_income = 1
+            add_inflation = 4
+            add_corruption = 2
+            add_adm_power = -20
+            add_years_of_income = 2
             add_disaster_progress = {
                 disaster = civilizational_collapse
-                value = 2
+                value = 5
             }
         }
         ai_will_do = {

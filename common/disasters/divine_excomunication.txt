@@ -39,7 +39,7 @@ divine_excomunication = {
 		has_government_power = {
 			mechanic_type = monumentality_mechanic
 			power_type = godly_favor
-			value = 50
+			value = 30
 		}
 	}
 	modifier = {

@@ -186,15 +186,21 @@
   iron_age_calamity.1.opt.b:0 "The Economy, Fools!"
   iron_age_calamity.1.opt.c:0 "We can weather any storm."
   #iron_age_calamity.2 doesn't have loc as it uses the same loc as 1
-  iron_age_calamity.3.t:0 "THE END TIMES"
+  iron_age_calamity.3.t:0 "§RTHE END TIMES§!"
   iron_age_calamity.3.d:0 "The streak in the sky disappeared like any other comet that has disturbed our realm into the horizon. Worries subsided and it seemed like reason triumphed over  baseless superstition. Until the ground shook and rocks started falling from the skies." #TODO - finish
-  iron_age_calamity.3.opt.a:0 "Aveia Trembles"
-  iron_age_calamity.3.opt.b:0 "The Heavens are Falling"
+  iron_age_calamity.3.opt.a:0 "§RThe Gods have abandoned us!§!"
+  iron_age_calamity.3.opt.b:0 "§RThe Heavens are Falling!§!"
+  iron_age_calamity_unlock_tt:0 "\n§RIron Age Calamity Disaster Unlocked!§!\n - To avoid the disaster, keep your stability at 2 or higher and maintain high legitimacy until 1400.\n - Large nations will find it very difficult to stay out of the disaster."
+
+  iron_age_calamity.50.t:0 "Iron Age Calamity Tutorial"
+  iron_age_calamity.50.d:0 "The Iron Age Calamity is an early-game disaster that intends to 'reset' the world to a more diverse state. Therefore, §Rdo not have the expecation to continue as your current nation§!. It is intended to break up most realms, so do not feel bad about tag-switching to a new country or losing significant amounts of territory. It is expected.\n\nThere are three key values to pay attention to: §GStability§!, §GLegitimacy/Equivalent§!, and the progress to the '§RCivilizational Collapse§!' disaster. Your objective with the first two is simple: keep them high, preferably above §G+1§! and §G90§! respectively.\n\nThe '§RCivilizational Collapse§!' disaster will immediately start progressing upon entering the §RIron Age Calmity§! disaster. It is §Rvery difficult§! to make it tick down over time, however there are many §Gevent options§! and §Greforms§! via decisions that you can take to decrease it. §RIf it reaches 100, your country will shatter§! - larger countries breaking into more pieces than smaller countries.\n\nTo exit the disaster, you must either wait for the year 1400, or complete a series of costly reforms whilst avoiding Civilizational Collapse. The reforms can be initiated via decisions. In addition to that, there are a series of §Gemergency decisions§! that will §Rcause long-term problems§! to avoid bankruptcy and collapse.\n\nShould your country collapse and be reduced to a smaller state, your legitimacy, stability, corruption, and more will be reset, so you will not be plagued with the problems you accrued trying to avoid it."
+  iron_age_calamity.50.opt.a:0 "Good to know"
  
   iron_age_calamity.100.t:0 "Beginning of an End"
-  iron_age_calamity.100.d:0 "We have created a great civilization. It may not be perfect, but it is well and above better than any other. Yet now, circumstances beyond our explanation are now  testing us more than any other time in history. We shall persevere or perish."
+  iron_age_calamity.100.d:0 "Our people have forged a great civilization. Over a thousand years of history back our realm. Yet now, circumstances beyond our explanation are now testing us more than any other time in history. The skies darken, the fields whither, and whispers spread of unrest and ultimate doom. Whether we shall persevere or perish will be decided in the years to come."
   iron_age_calamity.100.opt.a:0 "O Gods, what have we done to suffer such a fate?"
-  iron_age_calamity.100.opt.b:0 "Ye mighty and faithful... Follow me! Through the darkness and into the light!"
+  iron_age_calamity.100.opt.b:0 "O Gods, what in the world is this disaster?"
+  
   iron_age_calamity.101.t:0 "End of a New Beginning"
   iron_age_calamity.101.d:0 "The time of trial is over. We are victorious, yet are severely weakened. Some say we merely survived. Whatever it may be, we can finally look towards future  affairs."
   iron_age_calamity.101.opt.a:0 "Huzzah!"
@@ -239,35 +245,41 @@
   iac_iron_supply_need_tt:0 "To remove this modifier, you need to either §YEstablish Iron Mining§! or §YImport Iron§! then §YIntroduce Iron Weaponry§! through your decisions.\n"
   
   iron_age_calamity.110.t:0 "Rumors of an Ambitious Commander"
-  iron_age_calamity.110.d:0 "There have been rumors that an ambitious military leader is seeking to claim the rulership of our realm. We do not know who this is, or what rank they hold, but  they are apparently charismatic and are known for numerous exploits."
+  iron_age_calamity.110.d:0 "There have been rumors that an ambitious military leader is seeking to claim the rulership of our realm. We do not know of whom they speak, or what rank they hold, but they are apparently charismatic and are known for numerous exploits. Regardless of its truthfulness, such talk grows louder with each passing day."
   iron_age_calamity.110.o1:0 "Worrying"
   
   iron_age_calamity.111.t:0 "Coup d'etat!"
-  iron_age_calamity.111.d:0 "The rumors about an ambitious general have turned true! There is now a strong pretender for the throne!"
+  iron_age_calamity.111.d:0 "The rumors prove true. An ambitious general, backed by soldiers weary of famine and unrest have raised banners against our rule. They are hailed as a savior by some, a traitor by others. Regardless, there is now a strong pretender for the throne! And he marches on the palace as we speak."
   iron_age_calamity.111.o1:0 "Death to the traitor!"
+  iron_age_calamity.111.o2:0 "Maybe a change in leadership is what we need..."
   
   iron_age_calamity.113.t:0 "The Peasantry Begin Questioning our Rule"
+  iron_age_calamity.113.d:0 "Word spreads among the villages that our right to rule has been broken by famine and ruin. Peasant gatherings grow bold, with opportunistic mobsters openly questioning our authority and asking why they should starve while the preisthood still feast. Such occurances are dangerous in the long-term, especially to our continued rule, however acting against them may risk destabilizing our realm to ruin."
   iron_age_calamity.113.o1:0 "Put the ring-leaders to death"
   iron_age_calamity.113.o2:0 "Scapegoat the Clergy"
   iron_age_calamity.113.o3:0 "Say Nothing"
   
   iron_age_calamity.114.t:0 "Fall of the Merchant Class"
+  iron_age_calamity.114.d:0 "The caravans no longer come, the river barges lie still, and market stalls stand empty. The merchants, once envied for their silver tongues and distant ventures across dangerous seas just to acquire rare cargoes to sell at home now face desolation. Some have lost all they had, others hold on selling at heavily discounted prices, and others have been reduced to become beggars. However no one wants their rare spices or fine glass anymore. Most cannot afford protection against the heightened robbers and brigands in the countryside. It is a dire situation."
   iron_age_calamity.114.o1:0 "Let them wither"
   iron_age_calamity.114.o2:0 "Take advantage of the situation"
-  iron_age_calamity.114.o3:0 "Attempt to bolster the merchants"
+  iron_age_calamity.114.o3:0 "Attempt to keep them afloat"
   
   iron_age_calamity.115.t:0 "Doomsday Cults"
+  iron_age_calamity.115.d:0 "The temples can no longer quiet the despair of the people. In the place of ancient rites, new prophets rise in the streets, declaring the gods have forsaken us and that the end is nigh. Their cults gather followers by the hundreds, some even the thousands, urging them to forsake the old order and await the world's end. Some demand sacrifice, others call for relenting of all desires. All, however, are a mockery to the gods."
   iron_age_calamity.115.o1:0 "Ignore them"
   iron_age_calamity.115.o2:0 "Disperse the cults"
   
   iron_age_calamity.116.t:0 "Mannish Savages Pillage the Countryside"
+  iron_age_calamity.116.d:0 "Originating from the ash-stained north, ragged bands of Men have descended upon our lands. Once dismissed as far away scattered tribes of little consequence, they now strike like wolves, plundering villages, torching fields, and vanishing before our soldiers can respond. Some say hunger drives them south and westward, others claim they can scent weakness, others remark upon their barbarity and the upturning of the whole world has led them here. Whatever the cause, these raiders grow bolder with each foray and their numbers seem without end."
   iron_age_calamity.116.o1:0 "Rally the troops!"
   iron_age_calamity.116.o2:0 "Bribe them to go away"
   
   iron_age_calamity.117.t:0 "Tomb Raiders Sack a Holy Monument"
-  iron_age_calamity.117.o1:0 "We have more important matters to attend to"
-  iron_age_calamity.117.o2:0 "Grant powers to the Clergy to deal with it"
-  iron_age_calamity.117.o3:0 "Find the culprit ourselves and hang them"
+  iron_age_calamity.117.d:0 "Word has reached the court of a dreadful violation: One of our sacred monuments has been plundered. Tomb-seals broken, offersing scattered, holy relics gone. Nameless thieves have preyed upon the chaos of these times. Should the gods find out, they will surely be angered at our inability to protect these holy sites. Granted, in our desperation, we may have to simply let them go."
+  iron_age_calamity.117.o1:0 "We have more pressing matters than graves"
+  iron_age_calamity.117.o2:0 "Grant powers to the Clergy to root out the desecrators"
+  iron_age_calamity.117.o3:0 "Find the culprit ourselves and hang them high"
   EST_VAL_INVESTIGATION_POWERS: "Investigation Powers: §Y+10.0%§!"
 
   iron_age_calamity.118.t:0 "Buildings Fall to Ruin"

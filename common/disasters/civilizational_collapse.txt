@@ -22,10 +22,13 @@ civilizational_collapse = {
 		modifier = {
 			factor = 1
 			NOT = { 
-				custom_trigger_tooltip = {
-					tooltip = disaster_active_for_10_years_tooltip
-					had_country_flag = { flag = had_iron_age_calamity days = 3650 }
-				}
+				is_year = 1385
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = { 
+				is_year = 1375
 			}
 		}
 		modifier = {
@@ -34,23 +37,19 @@ civilizational_collapse = {
 		}
 		modifier = {
 			factor = -0.5
-			adm = 2
+			adm = 5
 		}
 		modifier = {
 			factor = -0.5
-			adm = 5
+			mil = 5
 		}
 		modifier = {
 			factor = -1
 			stability = 3
 		}
 		modifier = {
-			factor = -0.5
+			factor = -1
 			stability = 2
-		}
-		modifier = {
-			factor = -0.5
-			stability = 1
 		}
 		modifier = {
 			factor = 1
@@ -61,12 +60,8 @@ civilizational_collapse = {
 			NOT = { stability = -1 }
 		}
 		modifier = {
-			factor = -0.5
+			factor = -1
 			legitimacy_equivalent = 90
-		}
-		modifier = {
-			factor = -0.5
-			legitimacy_equivalent = 75
 		}
 		modifier = {
 			factor = 1
@@ -93,24 +88,8 @@ civilizational_collapse = {
 			governing_capacity_percentage = 2
 		}
 		modifier = {
-			factor = 2
+			factor = 5
 			is_bankrupt = yes
-		}
-		modifier = {
-			factor = -0.5
-			NOT = { corruption = 10 }
-		}
-		modifier = {
-			factor = 1
-			corruption = 30
-		}
-		modifier = {
-			factor = 1
-			corruption = 50
-		} 
-		modifier = {
-			factor = -1
-			NOT = { num_of_rebel_armies = 1 }
 		}
 		modifier = {
 			factor = 1

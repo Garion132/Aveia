@@ -521,7 +521,7 @@ country_event = {
 	}
 }
 
-#Recovering from the Calamity (1410), +25% Grain, Livestock, Fish, Fruit, Wine (100 Yrs)
+#Recovering from the Calamity (1410), +25% Grain, Livestock, Fish, Fruit, Wine, +25% Slaves (100 Yrs)
 country_event = {
 	id = prices.105
 	title = prices.105.t
@@ -578,6 +578,12 @@ country_event = {
 		}
 		change_price = {
 			trade_goods = wine
+			key = CALAMITY_RECOVERY
+			value = 0.25
+			duration = 36500
+		}
+		change_price = {
+			trade_goods = slaves
 			key = CALAMITY_RECOVERY
 			value = 0.25
 			duration = 36500
@@ -887,7 +893,7 @@ country_event = {
 	}
 }
 
-#Mechanized Production (1716): +25% Machinery, +25% Cloth
+#Mechanized Production (1716): +25% Machinery, +25% Cloth, -25% Slaves
 country_event = {
 	id = prices.111
 	title = prices.111.t
@@ -963,6 +969,13 @@ country_event = {
 			value = 0.25
 			duration = -1
 		}
+		change_price = {
+			trade_goods = slaves
+			key = MECHANIZED_PRODUCTION
+			value = -0.25
+			duration = -1
+		}
+
 
 		set_global_flag = industrialization_factories
 	}
@@ -1049,7 +1062,7 @@ country_event = {
 	}
 }
 
-#Mass Production (1716+): -25% Machinery, +10% Coal, -25% Cloth, +25% Wool
+#Mass Production (1716+): -25% Machinery, +10% Coal, -25% Cloth, +25% Wool, -25% Slaves
 country_event = {
 	id = prices.113
 	title = prices.113.t
@@ -1067,6 +1080,7 @@ country_event = {
 			base_production = 15
 			trade_goods = machinery
 		}
+		has_global_flag = industrialization_factories
 	}
 	mean_time_to_happen = {
 		months = 24
@@ -1105,6 +1119,12 @@ country_event = {
 			trade_goods = coal
 			key = MASS_PRODUCTION
 			value = 0.10
+			duration = -1
+		}
+		change_price = {
+			trade_goods = slaves
+			key = MASS_PRODUCTION
+			value = -0.25
 			duration = -1
 		}
 
@@ -1751,6 +1771,12 @@ country_event = {
 			value = 0.2
 			duration = -1
 		}
+		change_price = {
+			trade_goods = slaves
+			key = IRRIGATION
+			value = 0.25
+			duration = -1
+		}
 	}
 }
 
@@ -1762,15 +1788,15 @@ country_event = {
 
 #124: Ice Boxes (1780s), +40% Fruit, +40% Vercroth Fruit, +25% Livestock, -25% Salt
 
-#125: Mechanized Agriculture (1820), -50% Grain, -50% Livestock, -25% Fish, -25% Fruit, -25% Vercroth Fruit, +20% Machinery
+#125: Mechanized Agriculture (1820), -50% Grain, -50% Livestock, -25% Fish, -25% Fruit, -25% Vercroth Fruit, -50% Slaves, +20% Machinery
 
-#126: Colonization of Elteria (1350), -25% Slaves, -25% Ecriamin, -25% Udezer Wood
+#126: Colonization of Elteria (1350), -25% Slaves, -25% Ecriamin, +25% Udezer Wood
 
 #127: Colonization of Julia (1700), +50% Slaves, -25% Guedina, -25% Ankon, -25% Vitaite
 
 #128: Colonization of Kaltros (1600), +25% Slaves, ...
 
-#129: Abolitionism (1703-1800), -75% Slaves
+#129: Global Slave Trade (1600s), +50% Slaves
 
 #130: Cork Bottle Stoppers (1661), +25% Wine, +15% Glass
 
@@ -1789,8 +1815,7 @@ country_event = {
 
 #137: Iron Cannons (1586), -35% Copper, +25% Iron
 
-#138: Speltering (1573), +25% Copper
-	#1657, discovered you can allow zinc and copper
+#138: Ironwood Cannons (1573), +25% Ironwood
 
 #139: Discovery of Hasqili (1450s), -25% Spirl
 
@@ -1798,12 +1823,12 @@ country_event = {
 
 #141: Development of Veneering (1557), +50% Udezer Wood, +25% Kurrak
 
-#142: Explosion of Early Modern Printing, +25% Paper
+#142: Codices & Formatting, +25% Paper
 
-#143: Dunirr Presses, -50% Paper
+#143: Explosion of Early Modern Printing, +25% Paper
+
+#144: Dunirr Presses, -50% Paper
 	#Same as the Dutch event
-
-#144: Administering an Empire, +25% Paper
 
 #145: Lending Libraries and Book Clubs, +35% Paper
 
@@ -1898,6 +1923,71 @@ country_event = {
 #169: A New Source of Plaulum Found (1600s), -20% Plaulum
 
 #170: Reinforced Concrete (1807), +10% Iron
+
+#171: Steel Axes (1495), +50% Ironwood
+country_event = {
+	id = prices.171
+	title = prices.171.t
+	desc = prices.171.d
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = {
+		mil_tech = 22
+		ironwood = 1
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = { #We can now actually cut these trees down
+		name = prices.152.a
+		add_adm_power = 100
+		change_price = {
+			trade_goods = ironwood
+			key = STEEL_AXES
+			value = 0.5
+			duration = -1
+		}
+	}
+		adm_tech = 38
+}
+
+#172: Depletion of Ironwood ()
+country_event = {
+	id = prices.172
+	title = prices.172.t
+	desc = prices.172.d
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+	
+	major = yes
+	
+	trigger = {
+		adm_tech = 38
+		ironwood = 1
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = { #We can now actually cut these trees down
+		name = prices.152.a
+		add_adm_power = 100
+		change_price = {
+			trade_goods = ironwood
+			key = IRONWOOD_DEPLETION
+			value = -0.75
+			duration = -1
+		}
+	}
+}
+
+#173: 
 
 ## Coffee Boom
 #country_event = {

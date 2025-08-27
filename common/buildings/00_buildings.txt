@@ -428,7 +428,7 @@ shrine = {
 				add_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
-					value = 1
+					value = 5
 				}
 			}
 		}
@@ -467,7 +467,7 @@ temple = {
 				add_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
-					value = 2
+					value = 10
 				}
 			}
 		}
@@ -506,7 +506,7 @@ cathedral = {
 				add_government_power = {
 					mechanic_type = monumentality_mechanic
 					power_type = godly_favor
-					value = 3
+					value = 15
 				}
 			}
 		}

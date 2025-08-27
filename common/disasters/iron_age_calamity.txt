@@ -46,7 +46,7 @@ iron_age_calamity = {
 		}
 		OR = {
 			NOT = { legitimacy_equivalent = 75 }
-			NOT = { stability = 0 }
+			NOT = { stability = 2 }
 		}
 		NOT = { stability = 3 }
 	}

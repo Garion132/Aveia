@@ -118,7 +118,7 @@ country_event = {
 	}
 
 	option = {
-		name = iron_age_calamity.3.opt.a #Aveia Trembles
+		name = iron_age_calamity.3.opt.a #The Gods have abandoned us!
 		trigger = {
 			capital_scope = { NOT = { superregion = aveia_superregion } }
 		}
@@ -149,6 +149,7 @@ country_event = {
 		}
 
 		custom_tooltip = orbury_volcano_damage_tt
+		custom_tooltip = iron_age_calamity_unlock_tt
 	}
 	option = {
 		name = iron_age_calamity.3.opt.b #The Heavens are Falling
@@ -182,6 +183,7 @@ country_event = {
 		}
 
 		custom_tooltip = orbury_volcano_damage_tt
+		custom_tooltip = iron_age_calamity_unlock_tt
 		if = {
 			limit ={
 				NOT = { has_global_flag = orbury_volcano_damage }
@@ -261,6 +263,20 @@ country_event = {
 
 # Beginning/Ending Events
 
+# IAC Tutorial Events
+country_event = {
+	id = iron_age_calamity.50
+	title = iron_age_calamity.50.t
+	desc = iron_age_calamity.50.d
+	picture = COMET_SIGHTED_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = iron_age_calamity.50.opt.a # Good to know
+	}
+}
+
 # Civilizational Collapse
 country_event = {
 	id = iron_age_calamity.99
@@ -308,36 +324,24 @@ country_event = {
 
 		ai_chance = {
 			factor = 100
-
-			modifier = {
-				factor = 0
-				adm = 5
-				dip = 5
-				mil = 5
-			}
 		}
 	}
-	option = {	# Ye mighty and faithful... Follow me! Through the darkness and into the light!
+	
+	option = {	# O Gods, what in the world is this disaster?
 		name = "iron_age_calamity.100.opt.b"
-		highlight = yes
-		trigger = {
-			adm = 5
-			dip = 5
-			mil = 5
-		}
-
 		add_stability = -1
-		add_legitimacy = 10
-		add_republican_tradition = 5
-		
+		add_legitimacy = -10
+		add_republican_tradition = -5
+
 		add_disaster_modifier = {
 			name = iac_starved_administration
 			duration = -1
 		}
 
+		country_event = { id = iron_age_calamity.50 }
 
 		ai_chance = {
-			factor = 100
+			factor = 0
 		}
 	}
 }
@@ -1273,8 +1277,13 @@ country_event = {
 	trigger = {
 		NOT = { has_country_flag = iac_ambitious_commander }
 		NOT = { stability = 0 }
-		army_tradition = 20
-		army_size = 15
+		has_leaders = {
+			value = 1
+			type = general
+			include_monarch = no
+			include_heir = no
+		}
+		army_size = 10
 	}
 
 	immediate = {
@@ -1304,12 +1313,28 @@ country_event = {
 	title = "iron_age_calamity.111.t"
 	desc = "iron_age_calamity.111.d"
 	picture = SIEGE_eventPicture
+
+	immediate = {
+		hidden_effect = {
+			set_saved_name = {
+				key = rebel_general
+				type = leader
+				scope = ROOT
+			}
+		}
+	}
 	
 	trigger = {
 		has_country_flag = iac_ambitious_commander
+		NOT = { has_country_flag = iac_rebel_commander }
 		NOT = { stability = 1 }
-		army_tradition = 15
-		army_size = 15
+		has_leaders = {
+			value = 1
+			type = general
+			include_monarch = no
+			include_heir = no
+		}
+		army_size = 10
 	}
 
 	is_triggered_only = yes
@@ -1320,16 +1345,8 @@ country_event = {
 
 	option = {
 		name = "iron_age_calamity.111.o1" #Death to the traitor!
-
-		hidden_effect = {
-			set_saved_name = {
-				key = rebel_general
-				type = leader
-				scope = ROOT
-			}
-		}
 		
-		clr_country_flag = iac_ambitious_commander
+		set_country_flag = iac_rebel_commander
 		capital_scope = {
 			spawn_rebels = {
 				type = pretender_rebels
@@ -1342,11 +1359,82 @@ country_event = {
 		
 		add_disaster_progress = {
 			disaster = civilizational_collapse
-			value = 10
+			value = 5
 		}
 		
 		ai_chance = {
 			factor = 100
+		}
+	}
+
+	option = {
+		name = "iron_age_calamity.111.o2" #Maybe a change in leadership is what we need...
+		
+		set_country_flag = iac_rebel_commander
+		kill_heir = { allow_new_heir = no }
+		if = {
+			limit = {
+				government = bronze_league
+			}
+			change_government = bronze_age_monarchy
+		}
+		if = {
+			limit = {
+				government = iron_republic
+			}
+			change_government = iron_monarchy
+		}
+		define_ruler = {
+			adm = 3
+			dip = 2
+			mil = 5
+			fixed = yes
+			male = yes
+			claim = 25
+		}
+		add_stability = -1
+
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 20
+		}
+		
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 10
+				NOT = { legitimacy_equivalent = 25 }
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					adm = 6
+					dip = 6
+					mil = 6
+				}
+			}
+			modifier = {
+				factor = 0
+				adm = 3
+				dip = 2
+				mil = 5
+			}
+			modifier = {
+				factor = 2
+				NOT = { adm = 3 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { dip = 2 }
+			}
+			modifier = {
+				factor = 2
+				NOT = { mil = 5 }
+			}
 		}
 	}
 	after = {
@@ -1557,9 +1645,13 @@ country_event = {
 		name = "iron_age_calamity.115.o1" #Ignore them
 		add_disaster_modifier = {
 			disaster = civilizational_collapse
-			value = 20
+			value = 10
 		}
+		add_prestige = -20
 		random_owned_province = {
+			limit = {
+				NOT = { has_province_modifier = iac_doomsday_cults }
+			}
 			add_province_modifier = {
 				name = iac_doomsday_cults
 				duration = 3650
@@ -1567,7 +1659,30 @@ country_event = {
 		}
 		if = {
 			limit = {
+				num_of_states = 2
+			}
+			random_owned_province = {
+				limit = {
+					NOT = { has_province_modifier = iac_doomsday_cults }
+				}
+				add_province_modifier = {
+					name = iac_doomsday_cults
+					duration = 3650
+				}
+			}
+		}
+		if = {
+			limit = {
 				num_of_states = 4
+			}
+			random_owned_province = {
+				limit = {
+					NOT = { has_province_modifier = iac_doomsday_cults }
+				}
+				add_province_modifier = {
+					name = iac_doomsday_cults
+					duration = 3650
+				}
 			}
 			random_owned_province = {
 				limit = {
@@ -1603,7 +1718,7 @@ country_event = {
 	picture = COSSACK_ESTATE_UPSET_eventPicture
 	
 	trigger = {
-		NOT = { has_country_flag = iac_mannish_raiders }
+		NOT = { has_country_flag = iac_mannish_raiders_two }
 		OR = {
 			any_neighbor_country = {
 				OR = {
@@ -1634,11 +1749,33 @@ country_event = {
 	}
 
 	immediate = {
+		if = {
+			limit = {
+				had_country_flag = iac_mannish_raiders
+			}
+			set_country_flag = iac_mannish_raiders_two
+		}
 		set_country_flag = iac_mannish_raiders
 	}
 
 	option = {
 		name = "iron_age_calamity.116.o1" #Rally the troops!
+		random_owned_province = {
+			limit = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+			mannish_raiders_rebels = 2
+		}
+		random_owned_province = {
+			limit = {
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+				}
+			}
+			mannish_raiders_rebels = 2
+		}
 		random_owned_province = {
 			limit = {
 				any_neighbor_province = {
@@ -1653,7 +1790,7 @@ country_event = {
 		name = "iron_age_calamity.116.o2" #Bribe them to go away
 		trigger = {
 			any_neighbor_country = {
-				NOT = { has_country_flag = iac_mannish_raiders }
+				NOT = { has_country_flag = iac_mannish_raiders_two }
 				has_country_flag = iron_age_calamity_possible
 			}
 		}
@@ -1662,7 +1799,7 @@ country_event = {
 		
 		random_neighbor_country = {
 			limit = {
-				NOT = { has_country_flag = iac_mannish_raiders }
+				NOT = { has_country_flag = iac_mannish_raiders_two }
 				has_country_flag = iron_age_calamity_possible
 			}
 			country_event = { id = iron_age_calamity.116 days = 30 }
