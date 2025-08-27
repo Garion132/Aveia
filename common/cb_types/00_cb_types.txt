@@ -39,13 +39,11 @@ cb_restore_personal_union = {
 	prerequisites = {
 		OR = {
 			government = monarchy
-			has_reform = dutch_republic
 		}
 		is_revolutionary = no
 		FROM = {
 			OR = {
 				government = monarchy
-				has_reform = ambrosian_republic
 				# has_reform = military_dictatorship_reform
 				has_country_flag = neapolitan_republic
 			}
@@ -606,40 +604,6 @@ cb_heretic = {
 	war_goal = superiority_heretic
 }
 
-# Excommunication War
-cb_excommunication = {
-	valid_for_subject = no
-
-	prerequisites = {
-		FROM = {
-			is_excommunicated = yes
-			religion = catholic
-		}
-		religion = catholic
-		is_excommunicated = no
-		FROM = {
-			is_neighbor_of = ROOT
-			any_owned_province = {
-				OR = {
-					is_core = ROOT
-					is_claim = ROOT
-					any_neighbor_province = {
-						owned_by = ROOT
-					}
-				}
-			}
-		}
-		OR = {
-			hre_religion_treaty = no
-			capital_scope = { is_part_of_hre = no }
-			FROM = { capital_scope = { is_part_of_hre = no } }
-		}
-		is_revolutionary = no
-	}
-
-	war_goal = take_province_excommunication
-}
-
 # Trade War
 cb_trade_war = {
 
@@ -991,23 +955,6 @@ cb_humiliate_rotw = {
 	war_goal = humiliate_rotw
 }
 
-# Take the Mandate of Heaven
-cb_take_mandate = {
-	valid_for_subject = no
-
-	prerequisites = {
-		has_dlc = "Mandate of Heaven"
-		is_subject = no
-		is_neighbor_of = FROM
-		FROM = { is_emperor_of_china = yes }
-		always = no
-		NOT = { truce_with = FROM }
-		is_revolutionary = no
-	}
-
-	war_goal = take_capital_take_mandate
-}
-
 # Force migration
 cb_force_migration = {
 
@@ -1059,21 +1006,6 @@ cb_force_tributary_mission = {
 	war_goal = take_capital_force_tributary
 }
 
-cb_hundred_years_union = {
-	valid_for_subject = no
-
-	is_triggered_only = yes
-	months = 360
-	
-	prerequisites = {
-		OR = {
-			tag = ENG
-			tag = GBR
-		}
-	}
-
-	war_goal = take_capital_personal_union
-}
 cb_force_join_hre = {
 	valid_for_subject = no
 
@@ -1298,22 +1230,6 @@ cb_enforce_electorate_right = {
 #cb_grand_crusade: "Grand Crusade"
 #cb_grand_crusade_desc: "They are accursed yet powerful infidels, and a threat to the Christian world!\n�YCatholic and the enemy's brethren of faith can join their respected side mid this war.�!\n�RCannot declare other wars while using this casus belli.�!"
 
-# Unite the Balkans cb - dangerously close to fantasy here
-cb_unite_balkans = {
-	valid_for_subject = no
-
-	prerequisites = {
-		has_country_flag = enable_unite_balkans_cb_flag
-		FROM = {
-			any_owned_province = {
-				region = balkan_region
-			}
-		}
-		is_revolutionary = no
-	}
-
-	war_goal = take_province_balkans
-}
 # humans raiding elves pre collapse
 cb_mannish_raid = {
 	valid_for_subject = no

@@ -410,13 +410,6 @@ estate_lidori_monopoly_of_paper = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
