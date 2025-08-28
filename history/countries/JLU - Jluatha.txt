@@ -1,0 +1,9 @@
+government = bronze_monarchy
+add_government_reform = palace_economy
+government_rank = 1
+primary_culture = jluathan
+religion = tlaunorist
+technology_group = ork_group
+capital = 1685 # 
+#national_focus = DIP
+#historical_rival = HAB

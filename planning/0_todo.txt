@@ -1,0 +1,59 @@
+the generals of ghand
+
+collapse tags:
+	Nfanatha
+	Douan
+	Baypara
+	Parhama
+	Yerina
+	Grur
+
+HUMAN SUCCESSOR STATES
+
+split the human culture group up
+strongholders estate and flavor
+Ork flavour
+
+national ideas:
+    ziyalap
+    Kepjar
+    chaun
+    dunirr group
+    siniersi group
+    anorian group
+    adrar
+    gugh
+    boluroya
+    bayparya
+    nfanatha
+    inzedia
+    Muyetha
+    sun elf group
+    moon elf group
+	
+Mechanics:
+    Monumentality
+        Events
+    
+    Pop System
+        Province Building UI
+        Food System
+        Complete Province map
+    
+Iron Age Calamity
+    Reforms
+        Moral Reform?
+
+    Random Events
+
+Kyath
+    Finish Mission Tree
+    Inter-Duchy Events
+    Iwenlumy Events
+
+    Events for if Kyath gets too strong
+
+Age Specific Random Events
+
+Idea Groups
+    Random Events (Engineering & Philosophical both done)
