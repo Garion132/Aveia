@@ -1,3 +1,4 @@
 trade_goods = unknown
 is_city = no
 culture = bluegrover
+religion = shamanism

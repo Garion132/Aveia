@@ -344,28 +344,28 @@ rapid_collapse_of_society = {
 ######################################
 # Italian - Submission to Emperor
 ######################################
-submission_to_emperor = {
-	potential = {
-		has_global_flag = italians_leave_hre
-		NOT = { has_country_flag = reined_in_for_shadow_kingdom }
-		is_part_of_hre = yes
-		culture_group = latin
-	}
+# submission_to_emperor = {
+	# potential = {
+		# has_global_flag = italians_leave_hre
+		# NOT = { has_country_flag = reined_in_for_shadow_kingdom }
+		# is_part_of_hre = yes
+		# culture_group = latin
+	# }
 
-	trigger = {
-		is_emperor = no
-		NOT = { tag = ITA }
-		capital_scope = {
-			is_part_of_hre = yes
-		}
-		NOT = { is_year = 1550 }
-		NOT = { emperor = { alliance_with = ROOT } }
-	}
+	# trigger = {
+		# is_emperor = no
+		# NOT = { tag = ITA }
+		# capital_scope = {
+			# is_part_of_hre = yes
+		# }
+		# NOT = { is_year = 1550 }
+		# NOT = { emperor = { alliance_with = ROOT } }
+	# }
 
-	global_unrest = 3
-	stability_cost_modifier = 0.1
-	prestige = -1
-}
+	# global_unrest = 3
+	# stability_cost_modifier = 0.1
+	# prestige = -1
+# }
 
 
 

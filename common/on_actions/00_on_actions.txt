@@ -27,6 +27,41 @@ on_startup = {
 		set_global_flag = setup_done
 
         Pops_Setup = yes
+		
+		KAF={
+			create_subject = {
+				subject_type = dominion_vassal
+				subject = JAL
+			}
+			create_subject = {
+				subject_type = dominion_vassal
+				subject = CLO
+			}
+		}
+		ATH={
+			create_subject = {
+				subject_type = self_governing_colony
+				subject = SIL
+			}
+		}
+		LEL={
+			create_subject = {
+				subject_type = self_governing_colony
+				subject = OAG
+			}
+		}
+		KEA={
+			create_subject = {
+				subject_type = self_governing_colony
+				subject = FYG
+			}
+		}
+		SAL={
+			create_subject = {
+				subject_type = self_governing_colony
+				subject = SRI
+			}
+		}
 
 		if = {
 			limit = {

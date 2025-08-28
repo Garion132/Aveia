@@ -694,11 +694,11 @@ colony = {
 }
 
 colony_elteria_start = {
-	copy_from = colony
-	count = colony
+	copy_from = vassal
+	#count = colony
 	#is_colony_subtype = yes
-	change_colonial_type = yes
-	upgrade_subject_type = yes
+	#change_colonial_type = yes
+	#upgrade_subject_type = yes
 	
 	# Graphics:
 	sprite = GFX_subject_colony_icon
@@ -735,7 +735,7 @@ colony_elteria_start = {
 
 	# Subject Interactions:
 	customize_subject = no
-	replace_governor = yes
+	#replace_governor = yes
 	start_colonial_war = yes
 	increase_tariffs = yes
 	decrease_tariffs = yes

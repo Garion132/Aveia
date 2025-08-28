@@ -1,10 +1,10 @@
-dependency = {
-	subject_type = "dominion_vassal"
-	first = KAF
-	second = JAL
-	start_date = 1257.1.1
-	end_date = 1370.4.22
-}
+# dependency = {
+	# subject_type = "dominion_vassal"
+	# first = KAF
+	# second = JAL
+	# start_date = 1257.1.1
+	# end_date = 1370.4.22
+# }
 dependency = {
 	subject_type = "trade_protectorate"
 	first = KAF
