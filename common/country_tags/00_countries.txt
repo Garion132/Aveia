@@ -800,6 +800,8 @@ SFD = "countries/Shire Federation.txt"
 VOH = "countries/Vohenia.txt"
 JLU = "countries/Jluatha.txt"
 TRB = "countries/Terbia.txt"
+KRB = "countries/Krabuk.txt"
+ELO = "countries/Elnorei.txt"
 
 #Crashes if this doesn't exist
 PAP = "countries/Yulikivian.txt"

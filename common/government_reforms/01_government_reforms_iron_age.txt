@@ -956,7 +956,7 @@ become_a_mod_republic_reform = {
 	}
 	effect = {
 		lose_reforms = 5
-		change_government = republic
+		change_government = mod_republic
 	}
 	ai = {
 		factor = 0

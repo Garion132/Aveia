@@ -1,13 +1,9 @@
 #Athanila
-
 add_core = ATH
-add_core = ELN
 owner = ATH
 controller = ATH
 culture = elnoreian
 religion = tlaunorist
-hre = no
-
 base_tax = 0
 base_production = 0
 base_manpower = 5
@@ -21,3 +17,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = ELO

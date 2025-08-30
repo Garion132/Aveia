@@ -1,11 +1,8 @@
-
 add_core = ATH
-add_core = ELN
 owner = ATH
 controller = ATH
 culture = elnoreian
 religion = tlaunorist
-hre = no
 base_tax = 2
 base_production = 6
 base_manpower = 2
@@ -20,4 +17,5 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 1
+add_core = ELO
 port = yes

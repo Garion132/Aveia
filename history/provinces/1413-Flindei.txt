@@ -1,14 +1,11 @@
 #Athanila
-
 add_core = ATH
-add_core = KAB
 owner = ATH
 controller = ATH
 culture = athan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production = 1 
+base_production = 1
 base_manpower = 4
 trade_goods = salt
 capital = "Ath 3"
@@ -20,3 +17,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = KRB

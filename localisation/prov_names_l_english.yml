@@ -1799,7 +1799,7 @@
  PROV1949: "Nyntare"
  PROV1950: "Winpass"
  PROV1951: "Muljunasr"
- 
+ PROV1952: "Raukia"
  PROV1953: "Miwal"
  PROV1954: "Cuoria"
  PROV1955: "Kafearesi"
@@ -1840,16 +1840,16 @@
  PROV1990: "Julban"
  PROV1991: "Eunut"
  PROV1992: "Sansisor"
- 
+ PROV1993: "Wuaihia"
  PROV1994: "Rafdaw"
  PROV1995: "Feufraw"
- 
+ PROV1996: "Trearyu"
  PROV1997: "Vaanilo"
  
  PROV2001: "Dunair"
  PROV2002: "Banusda"
  PROV2003: "Ibunyar"
- 
+ PROV2004: "Ulsati"
  PROV2005: "Selimnath"
  
  PROV2016: "Paarhan"

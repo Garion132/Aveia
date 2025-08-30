@@ -1,0 +1,101 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 244 186 105 }
+
+historical_idea_groups = {
+	
+}
+
+historical_units = {
+	human_basin_guards
+}
+
+monarch_names = {
+	"Friedrich #0" = 100
+	"Ludwig #2" = 80
+	"Ruprecht #2" = 20
+	"Johann Wilhelm #0" = 20
+	"Karl #0" = 20
+	"Karl #0 Ludwig" = 20
+	"Karl #0 Philipp" = 20
+	"Karl #0 Theodor" = 20
+	"Otto Heinrich #0" = 20
+	"Philipp #0" = 20
+	"Philipp Wilhelm #0" = 20
+	"Heinrich #6 Friedrich" = 15
+	"Alexander Siegmund #0" = 15
+	"Friedrich #0 Philipp" = 15
+	"Johann Friedrich #0" = 15
+	"Ludwig Anton #0" = 15
+	"Ludwig Philipp #0" = 15
+	"Hermann #3 Ludwig" = 10
+	"Wilhelm #1" = 10
+	"Albrecht #0" = 10
+	"Christoph #0" = 10
+	"Eduard #0" = 10
+	"Franz Ludwig #0" = 10
+	"Friedrich #0 Wilhelm" = 10
+	"Georg #0" = 10
+	"Gustav Adolf #0" = 10
+	"Johann Kasimir #0" = 10
+	"Ludwig Wilhelm #0" = 10
+	"Moritz #0" = 10
+	"Moritz Christian #0" = 10
+	"Richard #0" = 10
+	"Wolfgang Georg #0" = 10
+	"Gottfried #1" = 5
+	"Bruno #0" = 0
+	"Gottschalk #0" = 0
+	"Hieronymus #0" = 0
+	"Ignatz #0" = 0
+	"Markus #0" = 0
+	"Raphael #0" = 0
+	"Rüdiger #0" = 0
+	
+	"Aleida #0" = -1
+	"Cordula #0" = -1
+	"Gundula #0" = -1
+}
+
+ship_names = {
+        Athis
+        Bel-Air Boultan Bouy
+        Chavenay Combert Courtaumont Court-sur-Couffy Cumiares
+        Fontenelle
+        Gizaucourt
+        Isse
+        Jalons Jippa Jonchery
+        "La Cheppe" "La Croisae" "Lagery" "La Grande Romanie" "La Presle" "La Salle" "Laval-sur-Tourbe" "La Grossemasse" "La Veuve" "Le Breuil" "Le Grand-Essart" "Le Moncet" "Les Cruzis" Livry-Louvercy Louvois
+        Minaucourt-le-Mesnil Montflambert Montigny Moussy
+        Neuville-en-Chalois
+        Passy-Grigny 
+        Raday
+        "Saint Hilaire" "Saint Imoges" "Saint Jean sur Tourbe" Seigneur-Klou Souain-Perthes Suippes
+        Tauxiares-Mutry Toubiotte
+        Vadenay Valmy Vaudemange Vraux 
+        Wargemoulin
+}
+
+leader_names = {
+        d'Alenduy d'Artigoity d'Arzilliares
+        "de Balatier" "de Balayne" "de Baleine" "Beaufort de Pothemont" "de Beaurepaire" "Bellot de Ferreux" "de Brancourt" "de Brienne" "de Broye" "de Bruce"
+        "Cauchon de Vercinay" "de Charbogne" "de Chassy" "du Chatelet" "de Chatillon" Clausse "de Coucy" "de Courtenay" "de Cracy" "de Croy"
+        d'Espinoy
+        "de Failly"
+        "de Grandpra" "de Grignon"
+        "du Hamel" "de Houx"
+        "de Joigny" "de Joinville"
+        "de La Fontaine" "de Lalaing" "de Lantages" "de Lavisa" "de Lezines" "de Lomanie"
+        Parignon "de Plancy" "du Prat"
+        "de Rethel" "de Roucy" "de Rumigny"
+        "de Saint Belin" "de Saint Cheron" "de Sergine"
+        "de Vauclerois" "de Vergy" "de Verriares" "de Villeprouvae"
+}
+
+army_names = {
+         "Armee du Pays d'Othe" "Armee de la Marne" "Armee de Chalons"
+         "Armee de Reims"       "Armee de Troyes"
+	 "Armee de $PROVINCE$" 
+}

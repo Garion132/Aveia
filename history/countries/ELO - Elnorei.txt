@@ -1,8 +1,9 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
-primary_culture = athan
+government_rank = 1
+primary_culture = elnoreian
 religion = tlaunorist
 technology_group = dunirr_group
-capital = 1424 # 
+capital = 5370 # 
 #national_focus = DIP
 #historical_rival = HAB

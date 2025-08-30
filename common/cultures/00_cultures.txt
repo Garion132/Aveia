@@ -5142,7 +5142,7 @@ dunirr = {
 		}
 	}
 	elnoreian= {
-		#primary = ATH
+		primary = ELO
 		male_names = {
 			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
 			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
@@ -5190,7 +5190,7 @@ dunirr = {
 		}
 	}
 	athan= {
-		#primary = ATH
+		primary = ATN
 		male_names = {
 			Ralior Veinir Taliros Ulimr Oliras Krasir Ralira
 			Acharndir Arossereg Aerhereg Annúndir Achassion Annuiven Aicanasse Anuven Aewendir Angoldor Arnion Amdirhael 
