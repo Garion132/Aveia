@@ -1,5 +1,4 @@
-
-colonial_governate = {
+republic = {
 	reform_levels = {
 		feudalism_vs_autocracy = {
 			reforms = {
@@ -26,162 +25,7 @@ colonial_governate = {
 	color = { 173 173 173 }
 }
 
-monarchy = {
-	reform_levels = {
-		feudalism_vs_autocracy = {
-			reforms = {
-				feudalism_reform
-				autocracy_reform
-				plutocratic_reform
-				#Specific:
-				grand_duchy_reform
-				elective_monarchy
-				principality
-				feudal_theocracy
-				revolutionary_empire_reform
-			}
-		}
-		hereditary_vs_nobility = {
-			reforms = {
-				enforce_privileges_reform
-				quash_noble_power_reform
-				enforce_trader_privileges_reform
-				imperial_nobility_reform
-			}
-		}
-		bureaucracy = {
-			reforms = {
-				centralize_reform				
-				decentralize_reform
-				council_of_the_indies_reform
-				penal_colonies_reform
-				liberte_reform
-				fraternite_reform
-			}
-		}
-		growth_of_administration = {
-			reforms = {
-				clergy_in_administration_reform
-				of_noble_bearing_reform
-				meritocratic_focus_reform
-				revolutionary_principle_reform
-				equality_principle_reform
-				imperial_principle_reform
-			}
-		}
-		deliberative_assembly = {
-			reforms = {
-				parliamentary_reform
-				royal_decree_reform
-				aristocratic_court_reform
-				general_estates_reform
-				states_general_reform
-				two_chamber_reform
-				imperial_decree_reform
-			}
-		}
-		absolute_rule_vs_constitutional = {
-			reforms = {
-				letat_cest_moi_reform
-				regional_representation_reform
-				consulate_reform
-				military_electorate_reform
-			}
-		}
-		separation_of_power = {
-			reforms = {
-				political_absolutism_reform
-				legislative_houses_reform
-				become_a_republic_reform
-				install_theocratic_government_reform
-				emperor_of_the_revolution_reform
-				enlightened_monarchy_reform
-				become_rev_republic_reform
-			}
-		}
-	}
-
-	basic_reform = monarchy_mechanic
-
-	legacy_government = {
-		despotic_monarchy
-		feudal_monarchy
-		administrative_monarchy
-		constitutional_monarchy
-		enlightened_despotism
-		revolutionary_empire
-		english_monarchy_legacy
-		mamluk_government_legacy
-		feudal_theocracy_legacy
-		elective_monarchy_legacy
-		celestial_empire_legacy
-		ottoman_government_legacy
-		prussian_monarchy_legacy
-		iqta_legacy
-		daimyo_legacy
-		shogunate_legacy
-		indep_daimyo_legacy
-		principality_legacy
-		tsardom_legacy
-	}
-
-	# Each group of exclusive reforms are mutually exclusive to each other
-
-	#Flavor
-	exclusive_reforms = {
-		iqta
-		indian_sultanate_reform
-		mamluk_government
-		tsardom
-		principality
-		parliamentary_reform
-		english_monarchy
-		states_general_reform
-	}
-	
-	# Dictatorships etc
-	exclusive_reforms = {
-		military_dictatorship_reform
-		protectorate_parliament_reform
-		prussian_republic_reform
-		admiralty_reform
-		nepotism_reform
-		lottery_reform
-		dutch_republic
-	}
-
-	#States General works with few others
-	exclusive_reforms = {
-		mamluk_government
-		feudal_theocracy
-		states_general_reform
-		mughal_government
-		ottoman_government
-		revolutionary_empire_reform
-		prussian_monarchy
-		elective_monarchy
-		celestial_empire
-	}
-
-	#Flavor
-	exclusive_reforms = {
-		daimyo
-		shogunate
-		indep_daimyo
-		states_general_reform
-		parliamentary_reform
-	}
-
-	#Effects conflict with each other
-	exclusive_reforms = {
-		mughal_government
-		decentralize_reform
-	}
-
-	color = { 179 25 25 }
-}
-
-republic = {
+mod_republic = {
 	basic_reform = republic_mechanic
 
 	color = { 65 155 220 }
@@ -371,6 +215,161 @@ republic = {
 		feuillant_reform
 		military_electorate_reform
 	}
+}
+
+monarchy = {
+	reform_levels = {
+		feudalism_vs_autocracy = {
+			reforms = {
+				feudalism_reform
+				autocracy_reform
+				plutocratic_reform
+				#Specific:
+				grand_duchy_reform
+				elective_monarchy
+				principality
+				feudal_theocracy
+				revolutionary_empire_reform
+			}
+		}
+		hereditary_vs_nobility = {
+			reforms = {
+				enforce_privileges_reform
+				quash_noble_power_reform
+				enforce_trader_privileges_reform
+				imperial_nobility_reform
+			}
+		}
+		bureaucracy = {
+			reforms = {
+				centralize_reform				
+				decentralize_reform
+				council_of_the_indies_reform
+				penal_colonies_reform
+				liberte_reform
+				fraternite_reform
+			}
+		}
+		growth_of_administration = {
+			reforms = {
+				clergy_in_administration_reform
+				of_noble_bearing_reform
+				meritocratic_focus_reform
+				revolutionary_principle_reform
+				equality_principle_reform
+				imperial_principle_reform
+			}
+		}
+		deliberative_assembly = {
+			reforms = {
+				parliamentary_reform
+				royal_decree_reform
+				aristocratic_court_reform
+				general_estates_reform
+				states_general_reform
+				two_chamber_reform
+				imperial_decree_reform
+			}
+		}
+		absolute_rule_vs_constitutional = {
+			reforms = {
+				letat_cest_moi_reform
+				regional_representation_reform
+				consulate_reform
+				military_electorate_reform
+			}
+		}
+		separation_of_power = {
+			reforms = {
+				political_absolutism_reform
+				legislative_houses_reform
+				become_a_republic_reform
+				install_theocratic_government_reform
+				emperor_of_the_revolution_reform
+				enlightened_monarchy_reform
+				become_rev_republic_reform
+			}
+		}
+	}
+
+	basic_reform = monarchy_mechanic
+
+	legacy_government = {
+		despotic_monarchy
+		feudal_monarchy
+		administrative_monarchy
+		constitutional_monarchy
+		enlightened_despotism
+		revolutionary_empire
+		english_monarchy_legacy
+		mamluk_government_legacy
+		feudal_theocracy_legacy
+		elective_monarchy_legacy
+		celestial_empire_legacy
+		ottoman_government_legacy
+		prussian_monarchy_legacy
+		iqta_legacy
+		daimyo_legacy
+		shogunate_legacy
+		indep_daimyo_legacy
+		principality_legacy
+		tsardom_legacy
+	}
+
+	# Each group of exclusive reforms are mutually exclusive to each other
+
+	#Flavor
+	exclusive_reforms = {
+		iqta
+		indian_sultanate_reform
+		mamluk_government
+		tsardom
+		principality
+		parliamentary_reform
+		english_monarchy
+		states_general_reform
+	}
+	
+	# Dictatorships etc
+	exclusive_reforms = {
+		military_dictatorship_reform
+		protectorate_parliament_reform
+		prussian_republic_reform
+		admiralty_reform
+		nepotism_reform
+		lottery_reform
+		dutch_republic
+	}
+
+	#States General works with few others
+	exclusive_reforms = {
+		mamluk_government
+		feudal_theocracy
+		states_general_reform
+		mughal_government
+		ottoman_government
+		revolutionary_empire_reform
+		prussian_monarchy
+		elective_monarchy
+		celestial_empire
+	}
+
+	#Flavor
+	exclusive_reforms = {
+		daimyo
+		shogunate
+		indep_daimyo
+		states_general_reform
+		parliamentary_reform
+	}
+
+	#Effects conflict with each other
+	exclusive_reforms = {
+		mughal_government
+		decentralize_reform
+	}
+
+	color = { 179 25 25 }
 }
 
 tribal = {

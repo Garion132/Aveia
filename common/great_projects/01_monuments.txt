@@ -1705,13 +1705,13 @@ malicrieit = {
 }
 lumian_patricianate = {
     start = 2416
-    date = 
+    date = 1400.01.01
     build_cost = 1000
     can_be_moved = no
     #starting_tier = 0
     type = monument
     build_trigger = {
-		tag = LUM
+		owner={tag = LUM}
     }
     on_built = {
         add_republican_tradition = 20
@@ -1727,10 +1727,10 @@ lumian_patricianate = {
         kill_ruler = yes
     }
     can_use_modifiers_trigger = {
-        tag = LUM
+        owner={tag = LUM}
     }
     can_upgrade_trigger = {
-        tag = LUM
+        owner={tag = LUM}
     }
     #keep_trigger = {}
     tier_0 = {
@@ -1750,8 +1750,6 @@ lumian_patricianate = {
         }
         #region_modifier = {}
         on_upgraded = {
-            add_republican_tradition = 25
-            add_prestige = 25
         }
         #conditional_modifier = {}
     }
@@ -1830,7 +1828,7 @@ lumian_patricianate = {
 }
 national_airship_laboratory = {
     start = 2407
-    #date = 
+    date = 1600.01.01
     build_cost = 1000
     can_be_moved = no
     starting_tier = 0
@@ -1839,17 +1837,21 @@ national_airship_laboratory = {
 
     }
     on_built = {
-        add_republican_tradition = 50
+		owner={ 
+			add_republican_tradition = 50
+		}
     }
     on_destroyed = {
-        add_republican_tradition = -50
-        add_stability = -2
+        owner={ 
+			add_republican_tradition = -50
+			add_stability = -2
+		}
     }
     can_use_modifiers_trigger = {
-        mil_tech = 33
+		owner={ mil_tech = 33 }
     }
     can_upgrade_trigger = {
-        mil_tech = 33
+        owner={ mil_tech = 33 }
     }
     #keep_trigger = {}
     tier_0 = {

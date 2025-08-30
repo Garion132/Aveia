@@ -76,7 +76,7 @@ ia_deligated_monarchy = {
 		state_maintenance_modifier = -0.1
 	}
 	ai = {
-		factor = 1
+		factor = 5
 		modifier = {
 			factor = 3
 			has_idea_group = economic_ideas
@@ -105,14 +105,6 @@ ia_co_ruling_monarchy = {
 	}
 	ai = {
 		factor = 1
-		modifier = {
-			factor = 3
-			has_idea_group = economic_ideas
-		}
-		modifier = {
-			factor = 3
-			has_idea_group = trade_ideas
-		}
 	}
 }
 ia_god_king = {
