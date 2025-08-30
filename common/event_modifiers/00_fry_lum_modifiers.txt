@@ -7,17 +7,111 @@ spectre_of_menor = {
 }
 
 #Colonialism mission
-colonial_promotion = {
+colonial_effort_1_modifier = {
+    colonist_placement_chance = 0.05
+    colony_cost_modifier = -0.05
+}
+colonial_effort_2_modifier = {
+    colonist_placement_chance = 0.05
+    colony_cost_modifier = -0.05
+    global_colonial_growth = 5
+}
+colonial_effort_3_modifier = {
+    colonist_placement_chance = 0.05
+    colony_cost_modifier = -0.1
     global_colonial_growth = 10
 }
-colonial_enthusiasm = {
-    global_colonial_growth = 15
+colonial_effort_4_modifier = {
+    colonist_placement_chance = 0.1
+    global_colonial_growth = 10
 }
-colonial_frenzy = {
+colonial_effort_5_modifier = {
+    colonist_placement_chance = 0.15
+    global_colonial_growth = 10
+}
+colonial_machine_modifier = {
+    colonists = 1
     global_colonial_growth = 20
+    colony_cost_modifier = -0.1
+    native_uprising_chance = 0.10
+    colony_development_boost = 2
 }
-taente = {
-    global_colonial_growth = 25
+
+#Military missions
+growing_military_1_modifier = {
+    drill_gain_modifier = 0.01
+    drill_decay_modifier = -0.01
+    manpower_recovery_speed = 0.05
+}
+growing_military_2_modifier = {
+    manpower_recovery_speed = 0.05
+    land_morale = 0.05
+    discipline = 0.05
+}
+growing_military_3_modifier = {
+    shock_damage = 0.05
+    infantry_power = 0.05
+    infantry_cost = 0.05
+}
+growing_military_4_modifier = {
+    morale_damage = 0.025
+    morale_damage_received = -0.025
+    recover_army_morale_speed = 0.10
+}
+FRY_female_military_leaders = {
+    may_recruit_female_generals = yes
+}
+the_new_miltary_modifier = {
+    land_morale_constant = 0.1
+    land_attrition = -0.10
+    global_manpower_modifier = 0.10
+    land_forcelimit = 5
+    land_maintenance_modifier = -0.10
+    movement_speed = 0.10
+}
+
+shipbuilding_1_modifier = {
+    global_sailors_modifier = 0.1
+    light_ship_cost = -0.1
+}
+shipbuilding_2_modifier = {
+    global_ship_repair = 0.1
+    light_ship_cost = -0.05
+    galley_cost = -0.05
+    heavy_ship_cost = -0.05
+}
+shipbuilding_3_modifier = {
+    naval_forcelimit_modifier = 0.2
+    sailors_recovery_speed = 0.1
+    naval_attrition = -0.1
+    heavy_ship_cost = -0.1
+}
+
+#Economic missions
+semi_effective_taxation_modifier = {
+    global_tax_modifier = 0.05
+    state_maintenance_modifier = -0.25
+}
+botanical_experiments_modifier = {
+    production_efficiency = 0.1
+    development_cost = -0.1
+}
+
+civil_service_1_modifier = {
+    adm_advisor_cost = -0.05
+    dip_advisor_cost = -0.05
+    mil_advisor_cost = -0.05
+    female_advisor_chance = 0.5
+}
+civil_service_2_modifier = {
+    prestige = 0.5
+    prestige_decay = 0.01
+    yearly_corruption = 0.01
+    idea_cost = -0.1
+}
+civil_service_3_modifier = {
+    yearly_corruption = -0.1
+    all_power_cost = -0.05
 }
 
 #Development mission

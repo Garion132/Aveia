@@ -12,24 +12,128 @@ spriteTypes = {
 
 	###FRY MISSION TREE
 	spriteType = {
+		name = "FRY_mission_3_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_3_gfx.dds"
+	}
+	spriteType = {
 		name = "FRY_mission_4_gfx"
 		texturefile = "gfx//interface//missions//FRY_mission_4_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_5_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_5_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_6_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_6_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_7_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_7_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_8_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_8_gfx.dds"
 	}
 	spriteType = {
 		name = "FRY_mission_9_gfx"
 		texturefile = "gfx//interface//missions//FRY_mission_9_gfx.dds"
 	}
 	spriteType = {
+		name = "FRY_mission_10_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_10_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_11_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_11_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_12_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_12_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_13_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_13_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_14_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_14_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_15_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_15_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_16_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_16_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_17_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_17_gfx.dds"
+	}
+	spriteType = {
 		name = "FRY_mission_18_gfx"
 		texturefile = "gfx//interface//missions//FRY_mission_18_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_19_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_19_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_20_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_20_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_21_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_21_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_22_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_22_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_23_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_23_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_24_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_24_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_25_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_25_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_26_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_26_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_27_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_27_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_28_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_28_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_29_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_29_gfx.dds"
 	}
 	spriteType = {
 		name = "FRY_mission_30_gfx"
 		texturefile = "gfx//interface//missions//FRY_mission_30_gfx.dds"
 	}
 	spriteType = {
+		name = "FRY_mission_31_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_31_gfx.dds"
+	}
+	spriteType = {
 		name = "FRY_mission_32_gfx"
 		texturefile = "gfx//interface//missions//FRY_mission_32_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_33_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_33_gfx.dds"
 	}
 
 	#Kyath
