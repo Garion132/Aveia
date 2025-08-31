@@ -1,4 +1,4 @@
-FRY_mission_1 = {
+FRY_mission_series_1 = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -137,7 +137,7 @@ FRY_mission_1 = {
 	}
 }
 
-FRY_mission_2 = {
+FRY_mission_series_2 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -235,7 +235,7 @@ FRY_mission_2 = {
 	
 }
 
-FRY_mission_3 = {
+FRY_mission_series_3 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -305,7 +305,7 @@ FRY_mission_3 = {
 			#lol. lmao even
 		}
 		effect = {
-			kill_ruler
+			kill_ruler = yes
 		}
 	}
 	FRY_mission_24 = {
@@ -315,16 +315,9 @@ FRY_mission_3 = {
 		trigger = { }
 		effect = { }
 	}
-	FRY_mission_34 = {
-		icon = FRY_mission_34_GFX
-		position = 11
-		required_missions = { FRY_mission_32 FRY_mission_33 }
-		trigger = { }
-		effect = { }
-	}
 }
 
-FRY_mission_4 = {
+FRY_mission_series_4 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -449,7 +442,7 @@ FRY_mission_4 = {
 	}
 }
 
-FRY_mission_5 = {
+FRY_mission_series_5 = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -574,14 +567,20 @@ FRY_mission_5 = {
 		}
 	}
 }
-
-FRY_mission_6 = {
-	slot = 1
+FRY_mission_series_3_2 = {
+	slot = 3
 	generic = no
 	ai = yes
 	potential = {
 		tag = FRY
 	}
-
+	
+	FRY_mission_34 = {
+		icon = FRY_mission_34_GFX
+		position = 11
+		required_missions = { FRY_mission_32 FRY_mission_33 }
+		trigger = { }
+		effect = { }
+	}
 }
 
