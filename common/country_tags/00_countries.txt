@@ -802,6 +802,9 @@ JLU = "countries/Jluatha.txt"
 TRB = "countries/Terbia.txt"
 KRB = "countries/Krabuk.txt"
 ELO = "countries/Elnorei.txt"
+ALT = "countries/Altra.txt"
+AVA = "countries/Avaliae.txt"
+ERY = "countries/Eryr.txt"
 
 #Crashes if this doesn't exist
 PAP = "countries/Yulikivian.txt"

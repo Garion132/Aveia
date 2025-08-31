@@ -472,6 +472,13 @@ iac_collapse_nation = {#will tag switch and hopefully clean up nations that coll
 		inherit = LIO
 		change_tag = LIO
 	}
+	if={#Sohoremyfa becomes Avaliae
+		limit={
+			tag = SOH
+		}
+		inherit = AVA
+		change_tag = AVA
+	}
 	if={#Rauthyr becomes Lindor
 		limit={
 			tag = RAU
