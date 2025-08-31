@@ -18,10 +18,10 @@ FRY_mission_1 = {
 			add_mil_power = -50
 			add_treasury = -50
 			add_country_modifier = {
-			name = growing_military_1_modifier
-			duration = -1
-			desc = GROWING_MILITARY_1_DESC_TOOLTIP
-			hidden = no
+				name = growing_military_1_modifier
+				duration = -1
+				desc = GROWING_MILITARY_1_DESC_TOOLTIP
+				hidden = no
 			}
 		}
 	}
@@ -145,15 +145,6 @@ FRY_mission_2 = {
 		tag = FRY
 	}
 
-	FRY_mission_32 = {
-		icon = FRY_mission_32_GFX
-		position = 10
-		required_missions = { FRY_mission_30 }
-		trigger = {
-
-		}
-		effect = { }
-	}
 	FRY_mission_7 = {
 		icon = FRY_mission_7_GFX
 		position = 2
@@ -232,6 +223,16 @@ FRY_mission_2 = {
 		trigger = { }
 		effect = { }
 	}
+	FRY_mission_32 = {
+		icon = FRY_mission_32_GFX
+		position = 10
+		required_missions = { FRY_mission_30 }
+		trigger = {
+
+		}
+		effect = { }
+	}
+	
 }
 
 FRY_mission_3 = {
@@ -260,13 +261,6 @@ FRY_mission_3 = {
 			    hidden = no
 			}
 		}
-	}
-	FRY_mission_34 = {
-		icon = FRY_mission_34_GFX
-		position = 11
-		required_missions = { FRY_mission_32 FRY_mission_33 }
-		trigger = { }
-		effect = { }
 	}
 	FRY_mission_8 = {
 		icon = FRY_mission_8_GFX
@@ -321,6 +315,13 @@ FRY_mission_3 = {
 		trigger = { }
 		effect = { }
 	}
+	FRY_mission_34 = {
+		icon = FRY_mission_34_GFX
+		position = 11
+		required_missions = { FRY_mission_32 FRY_mission_33 }
+		trigger = { }
+		effect = { }
+	}
 }
 
 FRY_mission_4 = {
@@ -343,25 +344,6 @@ FRY_mission_4 = {
 			add_treasury = -50
 			add_adm_power = -150
 			change_heir_adm = 1
-		}
-	}
-	FRY_mission_33 = {
-		icon = FRY_mission_33_GFX
-		position = 10
-		required_missions = { FRY_mission_31 }
-		trigger = {
-			adm_power = 100
-			treasury = 50
-		}
-		effect = {
-			add_adm_power = -100
-			add_treasury = -50
-			add_country_modifier = { 
-			    name = civil_service_3_modifier
-			    duration = -1  
-			    desc = CIVIL_SERVICE_3_DESC_TOOLTIP
-			    hidden = yes
-			}
 		}
 	}
 	FRY_mission_9 = {
@@ -442,6 +424,25 @@ FRY_mission_4 = {
 			    name = civil_service_2_modifier
 			    duration = -1  
 			    desc = CIVIL_SERVICE_2_DESC_TOOLTIP
+			    hidden = yes
+			}
+		}
+	}
+	FRY_mission_33 = {
+		icon = FRY_mission_33_GFX
+		position = 10
+		required_missions = { FRY_mission_31 }
+		trigger = {
+			adm_power = 100
+			treasury = 50
+		}
+		effect = {
+			add_adm_power = -100
+			add_treasury = -50
+			add_country_modifier = { 
+			    name = civil_service_3_modifier
+			    duration = -1  
+			    desc = CIVIL_SERVICE_3_DESC_TOOLTIP
 			    hidden = yes
 			}
 		}
