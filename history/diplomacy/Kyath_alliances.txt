@@ -58,10 +58,25 @@ march = {
 	end_date = 1532.8.3
 }
 
-# Cyueg-Eshyr
-vassal = {
+## Cyueg
+dependency = {
+	subject_type = "tributary_state"
 	first = CYU
 	second = ESH
+	start_date = 1263.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = CYU
+	second = ADR
+	start_date = 1272.1.1
+	end_date = 1532.8.3
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = CYU
+	second = MEN
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
@@ -269,20 +284,6 @@ alliance = {
 	end_date = 1381.1.1
 }
 
-dependency = {
-	subject_type = "tributary_state"
-	first = CYU
-	second = ADR
-	start_date = 1272.1.1
-	end_date = 1532.8.3
-}
-dependency = {
-	subject_type = "tributary_state"
-	first = CYU
-	second = MEN
-	start_date = 1272.1.1
-	end_date = 1532.8.3
-}
 dependency = {
 	subject_type = "tributary_state"
 	first = ZIY
