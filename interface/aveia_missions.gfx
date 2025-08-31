@@ -12,6 +12,10 @@ spriteTypes = {
 
 	###FRY MISSION TREE
 	spriteType = {
+		name = "FRY_mission_2_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_2_gfx.dds"
+	}
+	spriteType = {
 		name = "FRY_mission_3_gfx"
 		texturefile = "gfx//interface//missions//FRY_mission_3_gfx.dds"
 	}
@@ -134,6 +138,10 @@ spriteTypes = {
 	spriteType = {
 		name = "FRY_mission_33_gfx"
 		texturefile = "gfx//interface//missions//FRY_mission_33_gfx.dds"
+	}
+	spriteType = {
+		name = "FRY_mission_34_gfx"
+		texturefile = "gfx//interface//missions//FRY_mission_34_gfx.dds"
 	}
 
 	#Kyath
