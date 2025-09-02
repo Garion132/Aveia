@@ -1,18 +1,26 @@
 #Scripted effects relating to the iac.
 
 iac_add_calamity_modifiers = {
-	every_owned_province = {
+	every_province = {
+		limit = {
+			OR = {
+				continent = aveia
+				region = talkia_region
+			}
+			NOT = { has_province_flag = iac_modifiers }
+		}
 		if = {
 			limit = {
 				OR = {
-					region = nylka_region
-					region = lildoresi_marches_region
+					superregion = aveia_superregion
 					region = rauthyr_region
-					region = nilenor_region
 					region = krorri_region
 					region = shemsele_region
+					region = chaun_region
+					region = talkia_region
 					region = great_gulba_region
 					region = cradle_islands
+					region = suirx_cresant_region
 				}
 			
 			}
@@ -24,13 +32,11 @@ iac_add_calamity_modifiers = {
 		else_if = {
 			limit = {
 				OR = {
-					superregion = aveia_superregion
-					superregion = kirloi_superregion
+					superregion = great_lakes_superregion
 					superregion = enheasrion_basin_superregion
-					region = greater_shires_region
-					region = lentira_region
-					region = kyathia_region
-					region = suirx_cresant_region
+					region = morbin_region
+					region = vulkivian_region
+					region = krashyrvil_midlands_region
 				}
 			}
 			add_permanent_province_modifier = {
@@ -44,6 +50,7 @@ iac_add_calamity_modifiers = {
 				duration = -1
 			}
 		}
+		set_province_flag = iac_modifiers
 	}
 }
 iac_decrease_stability_by_1 = {
@@ -59,6 +66,9 @@ iac_decrease_stability_by_1 = {
 			value = 15
 		}
 		random_owned_province = { 
+			limit = {
+				is_state = yes
+			}
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 2
@@ -83,6 +93,9 @@ iac_decrease_stability_by_2 = {
 			value = 15
 		}
 		random_owned_province = { 
+			limit = {
+				is_state = yes
+			}
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 2
@@ -95,6 +108,9 @@ iac_decrease_stability_by_2 = {
 			value = 30
 		}
 		random_owned_province = { 
+			limit = {
+				is_state = yes
+			}
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 3
@@ -119,6 +135,9 @@ iac_decrease_stability_by_3 = {
 			value = 15
 		}
 		random_owned_province = { 
+			limit = {
+				is_state = yes
+			}
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 2
@@ -135,6 +154,9 @@ iac_decrease_stability_by_3 = {
 			value = 30
 		}
 		random_owned_province = { 
+			limit = {
+				is_state = yes
+			}
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 3
@@ -147,6 +169,9 @@ iac_decrease_stability_by_3 = {
 			value = 45
 		}
 		random_owned_province = { 
+			limit = {
+				is_state = yes
+			}
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 4

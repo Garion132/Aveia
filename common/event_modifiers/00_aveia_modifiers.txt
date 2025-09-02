@@ -409,6 +409,22 @@ estate_church_monopoly_of_bronze_mod = {
 	iac_fear_of_men = {
 		land_morale = -0.1
 	}
+	iac_merchants_relocate = {
+		merchants = -1
+		global_foreign_trade_power = -0.25
+	}
+	iac_trade_standards_relaxed = {
+		trade_efficiency = -0.1
+	}
+	iac_guard_bribes = {
+		yearly_corruption = 0.5
+		state_maintenance_modifier = -0.25
+		global_rebel_suppression_efficiency = -0.5
+	}
+	iac_bribe_crackdown = {
+		yearly_corruption = -0.2
+		state_maintenance_modifier = 0.1
+	}
 
 	#Great Depression
 	gd_new_roll_modifier = {

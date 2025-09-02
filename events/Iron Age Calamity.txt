@@ -97,30 +97,27 @@ country_event = {
 		set_global_flag = iron_age_calamity_eruption
 		if = {
 			limit = {
+				capital_scope = {
+					continent = aveia
+				}
 				NOT = {
 					OR = {
 						technology_group = northern_men_group
 						technology_group = free_fauns_group
-						capital_scope = {
-							OR={
-								continent = elteria
-								continent = haqsili
-							}
-						}
 					}
 				}
 			}
 			set_country_flag = iron_age_calamity_possible
-			hidden_effect = {
-				iac_add_calamity_modifiers = yes
-			}
+		}
+		hidden_effect = {
+			iac_add_calamity_modifiers = yes
 		}
 	}
 
 	option = {
 		name = iron_age_calamity.3.opt.a #The Gods have abandoned us!
 		trigger = {
-			capital_scope = { NOT = { superregion = aveia_superregion } }
+			capital_scope = { continent = aveia }
 		}
 		add_stability = -1
 		add_legitimacy = -20
@@ -152,109 +149,22 @@ country_event = {
 		custom_tooltip = iron_age_calamity_unlock_tt
 	}
 	option = {
-		name = iron_age_calamity.3.opt.b #The Heavens are Falling
+		name = iron_age_calamity.3.opt.b # Disturbing
 		trigger = {
-			capital_scope = { superregion = aveia_superregion }
+			NOT = { capital_scope = { continent = aveia } }
 		}
-		add_stability = -2
-		add_legitimacy = -30
-		add_republican_tradition = -15
-		add_war_exhaustion = 5
-
+		add_legitimacy = -10
+		add_republican_tradition = -5
+		add_war_exhaustion = 1
+		
 		if = {
 			limit = {
-				total_development = 20
-				NOT = { total_development = 50 }
-			}
-			iac_add_country_devastation = { all = yes base_value = 10 }
-		}
-		if = {
-			limit = {
-				total_development = 50
-				NOT = { total_development = 200 }
-			}
-			iac_add_country_devastation = { all = yes base_value = 15 }
-		}
-		if = {
-			limit = {
-				total_development = 200
-			}
-			iac_add_country_devastation = { all = yes base_value = 20 }
-		}
-
-		custom_tooltip = orbury_volcano_damage_tt
-		custom_tooltip = iron_age_calamity_unlock_tt
-		if = {
-			limit ={
-				NOT = { has_global_flag = orbury_volcano_damage }
-			}
-			set_global_flag = orbury_volcano_damage
-			hidden_effect = {
-				rauthyr_region = {
-					if = {
-						limit = {
-							base_tax = 2
-						}
-						add_base_tax = -1
-					}
-					if = {
-						limit = {
-							base_production = 2
-							base_tax = 2
-						}
-						add_base_production = -1
-					}
-					if = {
-						limit = {
-							base_manpower = 2
-							base_production = 2
-						}
-						add_base_manpower = -1
-					}
-				}
-				shemsele_region = {
-					if = {
-						limit = {
-							base_tax = 2
-						}
-						add_base_tax = -1
-					}
-					if = {
-						limit = {
-							base_production = 2
-							base_tax = 2
-						}
-						add_base_production = -1
-					}
-					if = {
-						limit = {
-							base_manpower = 2
-							base_production = 2
-						}
-						add_base_manpower = -1
-					}
-				}
-				aveia_superregion = {
-					if = {
-						limit = {
-							base_tax = 5
-						}
-						add_base_tax = -1
-					}
-					if = {
-						limit = {
-							base_production = 5
-						}
-						add_base_production = -1
-					}
-					if = {
-						limit = {
-							base_manpower = 5
-						}
-						add_base_manpower = -1
-					}
+				OR = {
+					has_discovered = 949
+					has_discovered = 2556
 				}
 			}
+			custom_tooltip = orbury_volcano_damage_tt
 		}
 	}
 }
@@ -1105,12 +1015,14 @@ country_event = {
 			value = 15
 		}
 		random_owned_province = { 
+			limit = {
+				is_state = yes
+			}
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 2
 			}
 		}
-		iac_add_country_devastation = { all = yes base_value = 20 moderate_value = 30 severe_value = 40 }
 		
 		ai_chance = {
 			factor = 100
@@ -1751,7 +1663,7 @@ country_event = {
 	immediate = {
 		if = {
 			limit = {
-				had_country_flag = iac_mannish_raiders
+				has_country_flag = iac_mannish_raiders
 			}
 			set_country_flag = iac_mannish_raiders_two
 		}
@@ -2327,7 +2239,13 @@ country_event = {
 	picture = EUROPEAN_REFUGEES_eventPicture
 	
 	trigger = {
-		
+		has_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 30
+		}
+		NOT = {
+			has_country_flag = iac_merchants_relocate
+		}
 	}
 
 	is_triggered_only = yes
@@ -2339,10 +2257,37 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.120.o1" #Oh well
 		
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 5
+		}
+		add_disaster_modifier = {
+			name = iac_merchants_relocate
+			duration = 7300
+			disaster = iron_age_calamity
+		}
+		set_country_flag = iac_merchants_relocate
 	}
 	option = {
 		name = "iron_age_calamity.120.o2" #Relax trade standards
 		
+		add_mercantilism = -4
+		add_disaster_modifier = {
+			name = iac_trade_standards_relaxed
+			duration = 7300
+			disaster = iron_age_calamity
+		}
+		set_country_flag = iac_merchants_relocate
+	}
+	option = {
+		name = "iron_age_calamity.120.o3" #Subsidize trade
+		
+		add_disaster_progress = {
+			disaster = civilizational_collapse
+			value = -15
+		}
+		add_years_of_income = -1
+		set_country_flag = iac_merchants_relocate
 	}
 }
 
@@ -2354,7 +2299,11 @@ country_event = {
 	picture = ANGRY_MOB_eventPicture
 	
 	trigger = {
-		
+		has_estate = estate_church
+		has_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 30
+		}
 	}
 
 	is_triggered_only = yes
@@ -2366,10 +2315,78 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.121.o1" #Let them have freedom
 		
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -10
+		}
+		add_legitimacy = -10
+		add_republican_tradition = -5
+		if = {
+			limit = {
+				has_estate = estate_church
+				NOT = {
+					estate_loyalty = {
+						estate = estate_church
+						loyalty = 30
+					}
+				}
+				estate_influence = {
+					estate = estate_church
+					influence = 30
+				}
+			}
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_church
+						influence = 60
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_state = yes
+					}
+					spawn_rebels = {
+						type = noble_rebels
+						size = 4
+						estate = estate_church
+						as_if_faction = yes
+					}
+				}
+			}
+			else = {
+				random_owned_province = {
+					limit = {
+						is_state = yes
+					}
+					spawn_rebels = {
+						type = noble_rebels
+						size = 3
+						estate = estate_church
+						as_if_faction = yes
+					}
+				}
+			}
+		}
 	}
 	option = {
 		name = "iron_age_calamity.121.o2" #Put them back in their place
 		
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = -10
+		}
+		random_owned_province = {
+			limit = {
+				is_state = yes
+			}
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 4
+			}
+		}
+		add_adm_power = -25
+		add_mil_power = -50
 	}
 }
 
@@ -2381,7 +2398,11 @@ country_event = {
 	picture = CORRUPTION_eventPicture
 	
 	trigger = {
-		
+		corruption = 10
+		has_disaster_progress = {
+			disaster = civilizational_collapse
+			value = 10
+		}
 	}
 
 	is_triggered_only = yes
@@ -2393,10 +2414,25 @@ country_event = {
 	option = {
 		name = "iron_age_calamity.122.o1" #We all need to eat
 		
+		add_disaster_modifier = {
+			name = iac_guard_bribes
+			duration = 3650
+			disaster = iron_age_calamity
+		}
 	}
 	option = {
 		name = "iron_age_calamity.122.o2" #Crack down on the practice
 		
+		add_disaster_modifier = {
+			disaster = civilizational_collapse
+			value = -5
+		}
+		add_disaster_modifier = {
+			name = iac_bribe_crackdown
+			duration = 3650
+			disaster = iron_age_calamity
+		}
+		iac_decrease_stability_by_1 = yes
 	}
 }
 
@@ -4876,6 +4912,94 @@ country_event = {
 		}
 
 		set_country_flag = iac_earthquakes
+	}
+}
+
+# The Decade with no Summer
+country_event = {
+	id = iron_age_calamity.174
+	title = "iron_age_calamity.174.t"
+	desc = "iron_age_calamity.174.d"
+	picture = COMET_SIGHTED_eventPicture
+	
+	trigger = {
+		has_global_flag = iron_age_calamity
+		NOT = { has_country_flag = iac_decade_with_no_summer }
+		is_year = 1370
+		NOT = {
+			is_year = 1380
+		}
+		capital_scope={
+			continent = aveia
+		}
+		any_owned_province = {
+			OR = {
+				has_province_modifier = iac_mild_calamity
+				has_province_modifier = iac_moderate_calamity
+				has_province_modifier = iac_severe_calamity
+			}
+			NOT = { has_province_flag = iac_population_drop }
+		}
+		is_month = 4
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		set_country_flag = iac_decade_with_no_summer
+	}
+
+	option = {
+		name = "iron_age_calamity.174.o1" #We are utterly hopeless
+
+		add_legitimacy = -20
+		add_republican_tradition = -10
+		iac_decrease_stability_by_2 = yes
+		custom_tooltip = iac_population_drop_tt
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = iac_mild_calamity
+						has_province_modifier = iac_moderate_calamity
+						has_province_modifier = iac_severe_calamity
+					}
+					NOT = { has_province_flag = iac_population_drop }
+				}
+				if = {
+					limit = {
+						has_province_modifier = iac_mild_calamity
+					}
+					set_variable = { which = pop_change_tmp value = -0.2 }
+				}
+				if = {
+					limit = {
+						has_province_modifier = iac_moderate_calamity
+					}
+					set_variable = { which = pop_change_tmp value = -0.4 }
+				}
+				if = {
+					limit = {
+						has_province_modifier = iac_severe_calamity
+					}
+					set_variable = { which = pop_change_tmp value = -0.6 }
+				}
+
+				set_variable = { which = middle_growth which = middle_pop_total }
+				multiply_variable = { which = middle_growth which = pop_change_tmp }
+
+				set_variable = { which = working_growth which = working_pop_total }
+				multiply_variable = { which = working_growth which = pop_change_tmp }
+
+				set_variable = { which = lower_growth which = lower_pop_total }
+				multiply_variable = { which = lower_growth which = pop_change_tmp }
+        		update_pops = yes
+
+				set_province_flag = iac_population_drop
+			}
+		}
 	}
 }
 

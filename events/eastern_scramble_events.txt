@@ -10,7 +10,7 @@ country_event = {#ash and ice
 	fire_only_once = yes
 	
 	trigger={
-		has_global_flag = iron_age_calamity
+		has_global_flag = iron_age_calamity_eruption
 		is_year = 1440
 		owns = 1060
 	}

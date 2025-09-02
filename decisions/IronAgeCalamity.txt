@@ -660,6 +660,9 @@ country_decisions = {
             set_country_flag = iac_declared_martial_law
             
 			random_owned_province = { 
+                limit = {
+                    is_overseas = no
+                }
 				spawn_rebels = {
 					type = anti_tax_rebels
 					size = 4

@@ -164,6 +164,12 @@
   desc_iac_fall_of_merchant_class: "Our merchants are failing and floundering"
   iac_doomsday_cults: "Doomsday Cults"
   desc_iac_doomsday_cults: "Gatherings have been happening here of street preachers declaring that the world is coming to an end."
+  iac_merchants_relocate: "Merchants Relocated"
+  desc_iac_merchants_relocate: "Many of our merchants are no longer doing business in our country, but instead are going elsewhere."
+  iac_trade_standards_relaxed: "Relaxed Trade Standards"
+  desc_iac_trade_standards_relaxed: "Standards of trade have been relaxed, and there are a few taking advantage of the situation."
+  iac_guard_bribes: "Guard Bribes"
+  desc_iac_guard_bribes: "The city guards are taking bribes to look away from lawlessness."
 
   iac_local_autonomy: "Local Autonomy"
   desc_iac_local_autonomy: "The locals have been given autonomy."
@@ -189,8 +195,8 @@
   iron_age_calamity.3.t:0 "§RTHE END TIMES§!"
   iron_age_calamity.3.d:0 "The streak in the sky disappeared like any other comet that has disturbed our realm into the horizon. Worries subsided and it seemed like reason triumphed over  baseless superstition. Until the ground shook and rocks started falling from the skies." #TODO - finish
   iron_age_calamity.3.opt.a:0 "§RThe Gods have abandoned us!§!"
-  iron_age_calamity.3.opt.b:0 "§RThe Heavens are Falling!§!"
-  iron_age_calamity_unlock_tt:0 "\n§RIron Age Calamity Disaster Unlocked!§!\n - To avoid the disaster, keep your stability at 2 or higher and maintain high legitimacy until 1400.\n - Large nations will find it very difficult to stay out of the disaster."
+  iron_age_calamity.3.opt.b:0 "Disturbing"
+  iron_age_calamity_unlock_tt:0 "\n§RIron Age Calamity Disaster Unlocked!§!\n - To §Yavoid the disaster§!, keep your stability at §G+2§! or higher and maintain §Ghigh legitimacy§! until §Y1400§!.\n - §YLarge nations§! will find it §Rvery difficult§! to stay out of the disaster."
 
   iron_age_calamity.50.t:0 "Iron Age Calamity Tutorial"
   iron_age_calamity.50.d:0 "The Iron Age Calamity is an early-game disaster that intends to 'reset' the world to a more diverse state. Therefore, §Rdo not have the expecation to continue as your current nation§!. It is intended to break up most realms, so do not feel bad about tag-switching to a new country or losing significant amounts of territory. It is expected.\n\nThere are three key values to pay attention to: §GStability§!, §GLegitimacy/Equivalent§!, and the progress to the '§RCivilizational Collapse§!' disaster. Your objective with the first two is simple: keep them high, preferably above §G+1§! and §G90§! respectively.\n\nThe '§RCivilizational Collapse§!' disaster will immediately start progressing upon entering the §RIron Age Calmity§! disaster. It is §Rvery difficult§! to make it tick down over time, however there are many §Gevent options§! and §Greforms§! via decisions that you can take to decrease it. §RIf it reaches 100, your country will shatter§! - larger countries breaking into more pieces than smaller countries.\n\nTo exit the disaster, you must either wait for the year 1400, or complete a series of costly reforms whilst avoiding Civilizational Collapse. The reforms can be initiated via decisions. In addition to that, there are a series of §Gemergency decisions§! that will §Rcause long-term problems§! to avoid bankruptcy and collapse.\n\nShould your country collapse and be reduced to a smaller state, your legitimacy, stability, corruption, and more will be reset, so you will not be plagued with the problems you accrued trying to avoid it."
@@ -283,6 +289,7 @@
   EST_VAL_INVESTIGATION_POWERS: "Investigation Powers: §Y+10.0%§!"
 
   iron_age_calamity.118.t:0 "Buildings Fall to Ruin"
+  iron_age_calamity.118.d:0 "The proud works of past generations are now left fallow. With craftsmen gone, coffers empty, and laborers starving, even our finest structures have begun showing cracks, cobwebs, and dust. Roofs collapse, walls split, and once-bustling halls lie abandoned. Buildings built to last are crumbling before our very eyes to neglect and disrepair. What are we to do with this crumbling infrastructure?"
   iron_age_calamity.118.o1:0 "We weren't using them anyway"
   iron_age_calamity.118.o2:0 "Attempt last-minute repairs"
   iron_age_calamity.118.o3:0 "Mobilize the army to deal with it"
@@ -290,33 +297,43 @@
   iac_ruined_buildings_2_tt: "In every §Yprovince§! with at least §Ythree buildings§!, a random non-fort non-manufactory §Ybuilding§! will be §Rdestroyed§!"
   
   iron_age_calamity.119.t:0 "Shephards Flee to Greener Pastures"
+  iron_age_calamity.119.d:0 "Shephards have begun to abandon their flocks. The grazing lands have been covered in ash and brigands and bandits have scoured even the rural countryside in search for anything to steal. Villages once alive have emptied, with people searching for food and safety. Each family that leaves hollows out the countryside further and further, and the wool and livestock that once flowed into our markets dwindle with them."
   iron_age_calamity.119.o1:0 "Off they go"
   iron_age_calamity.119.o2:0 "Persuade some to stay"
   iac_shephards_flee_tt: "In every §Yprovince§! that produces either §Ywool§! or §Ylivestock§! with at least §Y4§! Lower Class Population will §Rlose§! §Y1§!, §Y2§!, or §Y3§! Lower Class Population depending on the §Ypopulation§! of the province."
   iac_shephards_convinced_tt: "In every §Yprovince§! that produces either §Ywool§! or §Ylivestock§! with at least §Y6§! Lower Class Population will §Rlose§! §Y1§!, §Y2§!, or §Y3§! Lower Class Population depending on the §Ypopulation§! of the province."
   
-  iron_age_calamity.120.t:0 "Merchants Relocate their Businesses"
+  iron_age_calamity.120.t:0 "Merchants Relocate their Businesses" # Triggers Merchants flee to Elterian nation -> gives large amounts of income
+  iron_age_calamity.120.d:0 "The markets grow emptier by the day. Many merchants, seeing no profit in famine and destitution, have begun moving their ventures elsewhere, where the calamity has been less severe. They often abandon our cities entirely, seeking warmer waters and more predictable conditions. Their departure only makes our own situation worse."
   iron_age_calamity.120.o1:0 "Oh well"
   iron_age_calamity.120.o2:0 "Relax trade standards"
+  iron_age_calamity.120.o3:0 "Subsidize Trade"
   
   iron_age_calamity.121.t:0 "Slaves Break Free of their Masters"
+  iron_age_calamity.121.d:0 "In the midst of the chaos of the Calamity, the order of the world is turning upside down. Slaves in estates and temples across the realm have seized the moment and are running off into the wilderness, stealing food and materials, and joining opportunistic rebels and brigands. The clerics and elites demand action to restore the rightful place of the slave. However, it may be more practical to let them go."
   iron_age_calamity.121.o1:0 "Let them have freedom"
   iron_age_calamity.121.o2:0 "Put them back in their place"
   
   iron_age_calamity.122.t:0 "City Guards are Taking Bribes"
+  iron_age_calamity.122.d:0 "The city watches now line their pockets with coin. Guards turn a blind eye to smugglers, theives, and even raiders so long as they are paid. Upon being caught and questioned, they justify it as survival, but each bribe chips away at the authority of the state."
   iron_age_calamity.122.o1:0 "We all need to eat"
   iron_age_calamity.122.o2:0 "Crack down on the practice"
   
   iron_age_calamity.123.t:0 "Clergy Want More Control"
+  iron_age_calamity.123.d:0 "The priestly order has grown ever more insistent as the Calamity deepens. They argue that only placing more authority in their hands can the gods' favor be restored. Their influence already touches every corner of the realm, and granting them more power would weaken the crown's power. Not only that, but it may make reform far more difficult. Yet, ignoring them risks turning a dominant entrenched interest against us."
   iron_age_calamity.123.o1:0 "Ignore their demands"
   iron_age_calamity.123.o2:0 "We cannot risk antagonizing the Clergy"
+  iron_age_calamity.123.o3:0 "Offer symbolic concessions"
   
   iron_age_calamity.124.t:0 "Outbreak of Illness"
+  iron_age_calamity.124.d:0 "Famine breeds more than hunger. Disease has started to spread amonst the weakened population, cutting down the weak and weary. Some struggling villages, barely able to survive in the already terrible conditions, have been completely wiped out. What is to be done?"
   iron_age_calamity.124.o1:0 "At least they aren't starving..."
   iron_age_calamity.124.o2:0 "Seek the aide of the Clergy"
   iron_age_calamity.124.o3:0 "Dig into the herbal supplies"
+  iron_age_calamity.124.o4:0 "Quarantine the sick"
   
   iron_age_calamity.125.t:0 "Equipment Neglect"
+  iron_age_calamity.125.d:0 "The tools of our soldiers and laborers alike grow dull and broken. Smithies short of fuel and metal and wages unpaid struggle to be filled with craftsmen willing to work in such dire conditions. Especially with the newly harsh winters, "
   iron_age_calamity.125.o1:0 "Let it go to ruin"
   iron_age_calamity.125.o2:0 "Provide additional funding"
   
@@ -498,6 +515,28 @@
   
   iron_age_calamity.173.t:0 "Forged in Fire and Ash"
   iron_age_calamity.173.o1:0 "We stand strong"
+  
+  iron_age_calamity.174.t:0 "§RThe Decade with no Summer§!"
+  iron_age_calamity.174.d:0 "The skies remain dim, the air chill. For years now, the seasons have brought no warmth. Winter extends far into where spring used to lie. Summer often carries bouts of snow. Fields lie barren, orchards yield nothing, and even the hardiest herds wither for lack of fodder.\n\nFamine is no longer a crisis of this province or that kingdom... it is everywhere. Even in the wealthiest cities, in merchant districts and well-endowed men, the sights of starvation are there. Children starving in the arms of their mothers. Elders wasting away in silence. Once bustling towns reduced to nothing.\n\nIn the lands nearest Mount Orbury, the toll is beyond description. Whole lands have been emptied of people, many are fleeing or have fled. Those who didn't have died. Yet even in the more fortunate areas many still scour snow-ridden plains eating rotten grain and fruit.\n\nThe world itself seems to groan beneath a weight it cannot bear. Proud empires have been brought to their knees. What remains of our own civilization will be carved from this cold and uncaring graveyard."
+  iron_age_calamity.174.o1:0 "We are utterly hopeless"
+  iac_population_drop_tt: "§YIn every owned province:§!\nPopulation will die by the following percentage amount depending on the severity of the calamity in the province:\nSevere: §R-60.0%§!\nModerate: §R-40.0%§!\nMild: §R-20.0%§!"
+  
+  iron_age_calamity.175.t:0 "Fleeing Elves from Aveia"
+  iron_age_calamity.175.d:0 "Bands of weary elves have arrived from Aveia, struggling with hunger and ragged from the journey. They tell of famine, disease, and societal collapse in their homeland, and beg us for safety. Our lands, spared the worst of the Calamity, are seen as a refuge. But, to take them in may strain our own people, and our resources. Yet, refusing them could doom them to wander or starve."
+  iron_age_calamity.175.o1:0 "Welcome them in!"
+  iron_age_calamity.175.o2:0 "Let them settle in the frontier"
+  iron_age_calamity.175.o3:0 "Turn them away" # Sends 176 to another country. If no valid target, gives you 177
+  
+  iron_age_calamity.176.t:0 "Desperate Elves from Aveia" # After being turned away once, now desperate
+  iron_age_calamity.175.d:0 "Starving and exhausted, a host of Aveian elves have arrived at our borders. They say they sought shelter elsewhere but were denied, and now they turn to us in desperation. Their numbers are great and their plight is severe, so their presence cannot be ignored. Whether welcomed or refused again, their fate now lies in our hands."
+  iron_age_calamity.176.o1:0 "Welcome them in!"
+  iron_age_calamity.176.o2:0 "Let them settle in the frontier"
+  iron_age_calamity.176.o3:0 "Force them away"
+  
+  iron_age_calamity.177.t:0 "Refugees to Invaders"
+  iron_age_calamity.177.d:0 "Twice refused, the starving Aveian elves have abandoned pleas for mercy. Starvation and despair have driven them to arms. No longer mere refugees, they now raid our fields and villages, taking by force what was denied to them in peace. They are now an invading host, and we must decide whether to crush them or bend to necessity."
+  iron_age_calamity.177.o1:0 "Fine, let them in on strict conditions"
+  iron_age_calamity.177.o2:0 "Fight these rebel invaders!"
  #
 
  #Decision Events
