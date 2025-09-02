@@ -1,13 +1,11 @@
 #Yerina 
-
 add_core = GRU
 owner = GRU
 controller = GRU
 culture = grur
 religion = forebearist
-hre = no
 base_tax = 0
-base_production =1
+base_production = 1
 base_manpower = 3
 trade_goods = wool
 capital = "Sal"
@@ -19,3 +17,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
+add_core = DHZ

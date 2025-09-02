@@ -49,8 +49,8 @@ shemsele_region = {
 }
 nylka_region = { 
 	areas = { 
-		enyalasha umantien ollumien draumyesi nylka temidal_temple donamenz_13 donamenz_18 donamenz_19 donamenz_20
-		donamenz_21 donamenz_33 donamenz_44 donamenz_45 chaun_3 chaun_4 yulorie 
+		enyalasha umantien ollumien draumyesi nylka temidal_temple donamenz_13 donamenz_19 donamenz_20
+		donamenz_21 donamenz_33 donamenz_44 donamenz_45 chaun_4 yulorie 
 	}
 }
 lildoresi_marches_region = { 

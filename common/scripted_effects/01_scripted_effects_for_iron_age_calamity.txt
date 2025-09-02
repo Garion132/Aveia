@@ -550,4 +550,11 @@ iac_collapse_nation = {#will tag switch and hopefully clean up nations that coll
 		release = ORL
 		release = DON
 	}
+	if={#Cyueg becomes Tlihel
+		limit={
+			tag = GRU
+		}
+		inherit = LOI
+		change_tag = LOI
+	}
 }

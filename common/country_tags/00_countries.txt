@@ -805,6 +805,8 @@ ELO = "countries/Elnorei.txt"
 ALT = "countries/Altra.txt"
 AVA = "countries/Avaliae.txt"
 ERY = "countries/Eryr.txt"
+DHZ = "countries/Dhizd.txt"
+LOI = "countries/Loiaub.txt"
 
 #Crashes if this doesn't exist
 PAP = "countries/Yulikivian.txt"
