@@ -983,6 +983,38 @@ country_event = {
 					add_base_manpower = 1
 				}
 			}
+
+			random_list = {
+				40 = {}
+				30 = {
+					if = {
+						limit = {
+							total_development = 200
+						}
+						random_country = {
+							limit = {
+								capital_scope = {
+									continent = elteria
+								}
+								num_of_ports = 1
+								total_development = 100
+							}
+							country_event = { id = iron_age_calamity.175 days = 60 }
+						}
+					}
+				}
+				30 = {
+					random_country = {
+						limit = {
+							capital_scope = {
+								continent = elteria
+							}
+							num_of_ports = 1
+						}
+						country_event = { id = iron_age_calamity.175 days = 60 }
+					}
+				}
+			}
 		}
 	}
 }
@@ -2168,6 +2200,7 @@ country_event = {
 		}
 
 		set_country_flag = iac_shephards_flee
+		custom_tooltip = iac_shephards_flee_tt
 
 		hidden_effect = {
 			every_owned_province = {
@@ -2194,6 +2227,37 @@ country_event = {
 					add_base_manpower = -1
 				}
 			}
+			random_list = {
+				50 = {}
+				25 = {
+					if = {
+						limit = {
+							total_development = 200
+						}
+						random_country = {
+							limit = {
+								capital_scope = {
+									continent = elteria
+								}
+								num_of_ports = 1
+								total_development = 100
+							}
+							country_event = { id = iron_age_calamity.175 days = 60 }
+						}
+					}
+				}
+				25 = {
+					random_country = {
+						limit = {
+							capital_scope = {
+								continent = elteria
+							}
+							num_of_ports = 1
+						}
+						country_event = { id = iron_age_calamity.175 days = 60 }
+					}
+				}
+			}
 		}
 	}
 	option = {
@@ -2201,6 +2265,7 @@ country_event = {
 		
 		add_dip_power = -100
 		set_country_flag = iac_shephards_flee
+		custom_tooltip = iac_shephards_convinced_tt
 
 		hidden_effect = {
 			every_owned_province = {
@@ -2225,6 +2290,36 @@ country_event = {
 				}
 				else = {
 					add_base_manpower = -1
+				}
+			}
+			random_list = {
+				80 = {}
+				10 = {
+					if = {
+						limit = {
+							total_development = 200
+						}
+						random_country = {
+							limit = {
+								capital_scope = {
+									continent = elteria
+								}
+								num_of_ports = 1
+								total_development = 100
+							}
+							country_event = { id = iron_age_calamity.175 days = 60 }
+						}
+					}
+				}
+				10 = {
+					random_country = {
+						limit = {
+							capital_scope = {
+								continent = elteria
+							}
+						}
+						country_event = { id = iron_age_calamity.175 days = 60 }
+					}
 				}
 			}
 		}
@@ -2267,6 +2362,40 @@ country_event = {
 			disaster = iron_age_calamity
 		}
 		set_country_flag = iac_merchants_relocate
+
+		hidden_effect = {
+			random_list = {
+				70 = {}
+				15 = {
+					if = {
+						limit = {
+							total_development = 200
+						}
+						random_country = {
+							limit = {
+								capital_scope = {
+									continent = elteria
+								}
+								num_of_ports = 1
+								total_development = 100
+							}
+							country_event = { id = iron_age_calamity.175 days = 60 }
+						}
+					}
+				}
+				15 = {
+					random_country = {
+						limit = {
+							capital_scope = {
+								continent = elteria
+							}
+							num_of_ports = 1
+						}
+						country_event = { id = iron_age_calamity.175 days = 60 }
+					}
+				}
+			}
+		}
 	}
 	option = {
 		name = "iron_age_calamity.120.o2" #Relax trade standards
@@ -3097,6 +3226,40 @@ country_event = {
 		iac_add_country_devastation = { all = yes base_value = 5 }
 
 		set_country_flag = iac_lives_uprooted
+
+		hidden_effect = {
+			random_list = {
+				70 = {}
+				15 = {
+					if = {
+						limit = {
+							total_development = 200
+						}
+						random_country = {
+							limit = {
+								capital_scope = {
+									continent = elteria
+								}
+								num_of_ports = 1
+								total_development = 100
+							}
+							country_event = { id = iron_age_calamity.175 days = 60 }
+						}
+					}
+				}
+				15 = {
+					random_country = {
+						limit = {
+							capital_scope = {
+								continent = elteria
+							}
+							num_of_ports = 1
+						}
+						country_event = { id = iron_age_calamity.175 days = 60 }
+					}
+				}
+			}
+		}
 		
 		ai_chance = {
 			factor = 10
@@ -3112,6 +3275,40 @@ country_event = {
 		iac_add_country_devastation = { all = yes base_value = 5 }
 
 		set_country_flag = iac_lives_uprooted
+
+		hidden_effect = {
+			random_list = {
+				70 = {}
+				15 = {
+					if = {
+						limit = {
+							total_development = 200
+						}
+						random_country = {
+							limit = {
+								capital_scope = {
+									continent = elteria
+								}
+								num_of_ports = 1
+								total_development = 100
+							}
+							country_event = { id = iron_age_calamity.175 days = 60 }
+						}
+					}
+				}
+				15 = {
+					random_country = {
+						limit = {
+							capital_scope = {
+								continent = elteria
+							}
+							num_of_ports = 1
+						}
+						country_event = { id = iron_age_calamity.175 days = 60 }
+					}
+				}
+			}
+		}
 
 		ai_chance = {
 			factor = 10
@@ -3399,6 +3596,40 @@ country_event = {
 		add_republican_tradition = 5
 
 		set_country_flag = iac_flood_of_migrants
+
+		hidden_effect = {
+			random_list = {
+				80 = {}
+				10 = {
+					if = {
+						limit = {
+							total_development = 200
+						}
+						random_country = {
+							limit = {
+								capital_scope = {
+									continent = elteria
+								}
+								num_of_ports = 1
+								total_development = 100
+							}
+							country_event = { id = iron_age_calamity.175 days = 60 }
+						}
+					}
+				}
+				10 = {
+					random_country = {
+						limit = {
+							capital_scope = {
+								continent = elteria
+							}
+							num_of_ports = 1
+						}
+						country_event = { id = iron_age_calamity.175 days = 60 }
+					}
+				}
+			}
+		}
 		
 		ai_chance = {
 			factor = 10
@@ -5000,6 +5231,125 @@ country_event = {
 				set_province_flag = iac_population_drop
 			}
 		}
+	}
+}
+
+# Fleeing Refugees from Aveia
+country_event = {
+	id = iron_age_calamity.175
+	title = "iron_age_calamity.175.t"
+	desc = "iron_age_calamity.175.d"
+	picture = REFUGEES_ESCAPING_eventPicture
+	
+	trigger = {
+		
+	}
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		# Source of refugees (Province)
+		random_country = {
+			limit = {
+				has_disaster = iron_age_calamity
+			}
+			if = {
+				limit = { any_owned_province = { development = 10 } }
+				random_owned_province = {
+					limit = { development = 10 }
+
+					save_event_target_as = refugee_source
+				}
+			}
+			else = {
+				random_owned_province = {
+					save_event_target_as = refugee_source
+				}
+			}
+		}
+
+		# Destination of refugees (interior)
+		if = {
+			limit = {
+				any_owned_province = { NOT = { development = 7 } is_city = yes } 
+			}
+			random_owned_province = {
+				limit = { NOT = { development = 7 } is_city = yes }
+
+				save_event_target_as = refugee_interior_dest
+			}
+		}
+		else = {
+			random_owned_province = {
+				limit = { is_city = yes }
+				save_event_target_as = refugee_interior_dest
+			}
+		}
+
+		# Destination of refugees (frontier)
+		random_province = {
+			limit = {
+				is_empty = yes
+				any_neighbor_province = {
+					is_city = yes
+					owned_by = ROOT
+				}
+			}
+			save_event_target_as = refugee_frontier_dest
+		}
+	}
+
+	option = {
+		name = "iron_age_calamity.175.o1" # Welcome them in!
+		goto = refugee_interior_dest
+		
+		# Settle in a random province, preferably low pop. Changes culture (& religion) of province if low pop.
+		event_target:refugee_interior_dest = {
+			if = {
+				limit = { base_production = 1 }
+				add_base_production = 1
+				add_base_manpower = 2
+			}
+			else = {
+				add_base_manpower = 3
+			}
+
+			if = {
+				limit = { NOT = { development = 7 } }
+				change_culture = event_target:refugee_source
+				change_religion = event_target:refugee_source
+			}
+		}
+	}
+	option = {
+		name = "iron_age_calamity.175.o2" # Let them settle in the frontier
+		goto = refugee_frontier_dest
+
+		trigger = {
+			any_owned_province = {
+				is_city = yes
+				has_empty_adjacent_province = yes
+			}
+		}
+		# Settle in new uncolonized adjacent land. Changes culture of province.
+		event_target:refugee_frontier_dest = {
+			cede_province = PREV
+			add_territorial_core = PREV
+
+			add_base_manpower = 3
+			change_culture = event_target:refugee_source
+			change_religion = event_target:refugee_source
+		}
+		
+	}
+	option = {
+		name = "iron_age_calamity.175.o3" # Turn them away
+		
+		# Trigger 176 for adjacent Elterian country if possible, otherwise chance to trigger 177
 	}
 }
 
