@@ -37,7 +37,7 @@ difficulty_very_easy_player = {
 difficulty_easy_player = {
 	manpower_recovery_speed = 0.50
 	global_unrest = -5
-	interest = -2
+	interest = -1
 	ae_impact = -0.33
 	yearly_corruption = -1.0
 }
@@ -100,7 +100,7 @@ difficulty_very_hard_ai = {
 ##########################################################################
 
 city = {
-	local_tax_modifier = 0.25
+	local_tax_modifier = 0.3
 	allowed_num_of_buildings = 3
 	local_sailors_modifier = 0.5
 	garrison_growth = 0.05
@@ -347,7 +347,7 @@ native_aggressiveness = {
 }
 
 core = {
-	local_tax_modifier = 0.25				#90% more in a core
+	local_tax_modifier = 0.3				#90% more in a core
 	local_manpower_modifier = 0.5			#75% more in a core
 	local_sailors_modifier = 0.5
 	trade_goods_size_modifier = 0.1
@@ -360,7 +360,7 @@ non_core = {
 }
 
 colonial_core = {
-	local_tax_modifier = 0.25				#90% more in a core
+	local_tax_modifier = 0.3				#90% more in a core
 	local_manpower_modifier = 0.5			#75% more in a core
 	local_sailors_modifier = 0.5
 	local_missionary_strength = -0.02
@@ -368,7 +368,7 @@ colonial_core = {
 	local_governing_cost = -0.5
 }
 territory_core = {
-	local_tax_modifier = 0.25				#90% more in a core
+	local_tax_modifier = 0.3				#90% more in a core
 	local_manpower_modifier = 0.5			#75% more in a core
 	local_sailors_modifier = 0.5
 	local_missionary_strength = -0.02
@@ -648,7 +648,7 @@ positive_stability = {
 	yearly_corruption = -0.02
 	global_institution_spread = 0.05
 	yearly_harmony = 0.25
-	monthly_godly_favor = 0.03
+	monthly_godly_favor = 0.02
 }
 
 privateering = {
@@ -663,7 +663,6 @@ negative_stability = {
 	devotion = 1
 	caravan_power = 0.05
 	yearly_harmony = 0.25
-	monthly_godly_favor = -0.03
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate

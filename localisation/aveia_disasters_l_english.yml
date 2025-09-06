@@ -110,7 +110,9 @@
   secularize_bureaucracy_unlock_tt:0 "Enacting this decision will eventually lead to §YSecularize the Bureaucracy§! which is a requirement to leave the §YIron Age Calamity!§!\n"
   iron_age_calamity_req_tt:0 "This is a requirement to leave the §YIron Age Calamity!§\n"
   #EST_VAL_CHURCH_COMMONER_CLERKS_LOYALTY:0 "Commoner Clerks: §R-10.0%§!"
-
+  
+  transmute_tin_to_silver_title: "Transmute Tin to Silver"
+  transmute_tin_to_silver_desc: "While tin trasmutation to silver produces impurities, they can only be found by skilled alchemists. So, we could just... pass off transmuted tin as true silver to avoid spiraling into debt."
   iac_transmute_tin_to_silver_title: "Transmute Tin to Silver"
   iac_transmute_tin_to_silver_desc: "While tin trasmutation to silver produces impurities, they can only be found by skilled alchemists. So, we could just... pass off transmuted tin as true silver to make up for lost tax revenue."
  #

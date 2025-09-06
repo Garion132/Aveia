@@ -45,4 +45,35 @@ country_decisions = {
 		}
 	}
 
+    transmute_tin_to_silver = {
+        potential = {
+            NOT = { has_disaster = iron_age_calamity }
+			is_bankrupt = yes
+			adm_tech = 6
+        }
+
+        allow = {
+            NOT = { inflation = 100 }
+            NOT = { corruption = 90 }
+            adm_power = -50
+        }
+
+        effect = {
+            add_inflation = 2
+            add_corruption = 1
+            add_adm_power = -50
+            add_years_of_income = 2
+        }
+        ai_will_do = {
+            factor = 100
+            modifier = {
+                factor = 0
+                NOT = { num_of_loans = 1 }
+            }
+            modifier = {
+                factor = 0
+                years_of_income = 3
+            }
+        }
+    }
 }

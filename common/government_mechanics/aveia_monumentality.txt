@@ -15,6 +15,22 @@ monumentality_mechanic = {
 			base_monthly_growth = -0.2
 			scaled_modifier = {
 				trigger = {
+					monthly_income = 100
+				}
+				modifier = {
+					monthly_godly_favor = -0.15
+				}
+			}
+			scaled_modifier = {
+				trigger = {
+					monthly_income = 75
+				}
+				modifier = {
+					monthly_godly_favor = -0.1
+				}
+			}
+			scaled_modifier = {
+				trigger = {
 					monthly_income = 50
 				}
 				modifier = {
@@ -26,7 +42,7 @@ monumentality_mechanic = {
 					monthly_income = 30
 				}
 				modifier = {
-					monthly_godly_favor = -0.1
+					monthly_godly_favor = -0.05
 				}
 			}
 			scaled_modifier = {
@@ -34,7 +50,7 @@ monumentality_mechanic = {
 					monthly_income = 20
 				}
 				modifier = {
-					monthly_godly_favor = -0.1
+					monthly_godly_favor = -0.05
 				}
 			}
 			scaled_modifier = {
@@ -42,7 +58,7 @@ monumentality_mechanic = {
 					monthly_income = 10
 				}
 				modifier = {
-					monthly_godly_favor = -0.1
+					monthly_godly_favor = -0.05
 				}
 			}
 			scaled_modifier = {
@@ -65,6 +81,7 @@ monumentality_mechanic = {
 					devotion = -1.0
 					horde_unity = -1.0
 					meritocracy = -1.0
+					monthly_godly_favor = 0.1
 				}
 			}
 			is_good = yes
@@ -90,11 +107,6 @@ monumentality_mechanic = {
 				if = {
 					limit = {
 						ai = yes
-					}
-					NOT = {
-						any_neighbor_country = {
-							tech_difference = 4
-						}
 					}
 					if = {
 						limit = {
@@ -128,9 +140,9 @@ monumentality_mechanic = {
 								value = 25
 							}
 						}
-						adm_power = 200
-						dip_power = 200
-						mil_power = 200
+						adm_power = 100
+						dip_power = 100
+						mil_power = 100
 					}
 				}
 			}
@@ -227,7 +239,7 @@ monumentality_mechanic = {
 								has_government_power = {
 									mechanic_type = monumentality_mechanic
 									power_type = godly_favor
-									value = 55
+									value = 50
 								}
 							}
 						}
@@ -237,7 +249,7 @@ monumentality_mechanic = {
 								has_government_power = {
 									mechanic_type = monumentality_mechanic
 									power_type = godly_favor
-									value = 40
+									value = 20
 								}
 							}
 						}
@@ -247,7 +259,7 @@ monumentality_mechanic = {
 							has_government_power = {
 								mechanic_type = monumentality_mechanic
 								power_type = godly_favor
-								value = 85
+								value = 80
 							}
 						}
 						if = {
@@ -256,7 +268,7 @@ monumentality_mechanic = {
 								has_government_power = {
 									mechanic_type = monumentality_mechanic
 									power_type = godly_favor
-									value = 75
+									value = 50
 								}
 							}
 						}
@@ -266,7 +278,7 @@ monumentality_mechanic = {
 								has_government_power = {
 									mechanic_type = monumentality_mechanic
 									power_type = godly_favor
-									value = 65
+									value = 30
 								}
 							}
 						}
@@ -327,7 +339,7 @@ monumentality_mechanic = {
 						has_government_power = {
 							mechanic_type = monumentality_mechanic
 							power_type = godly_favor
-							value = 0
+							value = 30
 						}
 					}
 				}
@@ -350,31 +362,36 @@ monumentality_mechanic = {
 					limit = {
 						ai = yes
 					}
-					monthly_income = 10
-					NOT = {
-						has_government_power = {
-							mechanic_type = monumentality_mechanic
-							power_type = godly_favor
-							value = 75
-						}
-					}
 					if = {
-						limit = { num_of_loans = 1 }
+						limit = { monthly_income = 25 }
+						if = {
+							limit = { num_of_loans = 1 }
+								NOT = {
+									has_government_power = {
+										mechanic_type = monumentality_mechanic
+										power_type = godly_favor
+										value = 60
+									}
+								}
+						}
+						if = {
+							limit = { num_of_loans = 5 }
 							NOT = {
 								has_government_power = {
 									mechanic_type = monumentality_mechanic
 									power_type = godly_favor
-									value = 60
+									value = 45
 								}
 							}
+						}
 					}
-					if = {
-						limit = { num_of_loans = 5 }
+					else = {
+						monthly_income = 10
 						NOT = {
 							has_government_power = {
 								mechanic_type = monumentality_mechanic
 								power_type = godly_favor
-								value = 45
+								value = 20
 							}
 						}
 					}
@@ -627,7 +644,35 @@ monumentality_mechanic = {
 			}
 			cooldown_years = 5
 			ai_chance = {
-				factor = 0
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = {
+						has_government_power = {
+							mechanic_type = monumentality_mechanic
+							power_type = godly_favor
+							value = 40
+						}
+					}
+				}
+				modifier = {
+					factor = 2
+					NOT = {
+						has_government_power = {
+							mechanic_type = monumentality_mechanic
+							power_type = godly_favor
+							value = 80
+						}
+					}
+				}
+				modifier = {
+					factor = 0
+					legitimacy_equivalent = 80
+				}
+				modifier = {
+					factor = 10
+					NOT = { legitimacy_equivalent = 60 }
+				}
 			}
 		}
 	}

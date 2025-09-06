@@ -128,6 +128,7 @@ high_bronze_age_administration = {
 	global_autonomy = 0.05
 	state_maintenance_modifier = -0.33
 	colony_cost_modifier  = -0.4
+	interest = 2
 }
 iron_age_administration = {
 	potential = {
@@ -144,6 +145,7 @@ iron_age_administration = {
 	global_autonomy = 0.05
 	state_maintenance_modifier = -0.2
 	colony_cost_modifier  = -0.2
+	interest = 1
 }
 steam_age_administration = {
 	potential = {
@@ -161,7 +163,6 @@ steam_age_administration = {
 	min_autonomy = 5
 	global_autonomy = 0.025
 	state_maintenance_modifier = -0.05
-	interest = -1
 }
 steel_age_administration = {
 	potential = {
@@ -177,7 +178,6 @@ steel_age_administration = {
 	national_focus_years = -3
 	yearly_corruption = -0.08
 	state_maintenance_modifier = 0.1
-	interest = -1
 }
 industrial_age_administration = {
 	potential = {
@@ -194,7 +194,6 @@ industrial_age_administration = {
 	yearly_corruption = -0.12
 	can_claim_states = yes
 	state_maintenance_modifier = 0.25
-	interest = -2
 }
 modern_age_administration = {
 	potential = {
@@ -210,7 +209,6 @@ modern_age_administration = {
 	state_maintenance_modifier = 0.5
 	can_claim_states = yes
 	no_claim_cost_increasement = yes
-	interest = -2
 }
 
 high_bronze_age_army = {
@@ -332,6 +330,32 @@ modern_age_army = {
 	land_forcelimit_modifier = 0.25
 	yearly_army_professionalism = 0.002
 	reinforce_speed = 1
+}
+
+high_bronze_age_administration_ai = {
+	potential = {
+		NOT = { adm_tech = 13 }
+		ai = yes
+	}
+	
+	trigger = {
+		NOT = { adm_tech = 13 }
+	}
+
+	interest = -2 # AI decs bankruptcy very often at 8% interest, so they get a bit of cheats to counteract that
+}
+iron_age_administration_ai = {
+	potential = {
+		NOT = { adm_tech = 24 }
+		ai = yes
+	}
+	
+	trigger = {
+		adm_tech = 13
+		NOT = { adm_tech = 24 }
+	}
+
+	interest = -1
 }
 
 ###########################################

@@ -697,16 +697,52 @@ estate_church_temple_building_rights = {
 		
 	}
 	penalties = {
-		global_tax_modifier = -0.075
+		global_tax_modifier = -0.05
 	}
 	benefits = {
-		monthly_godly_favor = 0.05
+		monthly_godly_favor = 0.1
 	}
 	cooldown_years = 10
 	on_cooldown_expires = {
 		
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 5
+		modifier = {
+			factor = 2.5
+			NOT = {
+				has_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 50
+				}
+			}
+		}
+		modifier = {
+			factor = 10
+			NOT = {
+				has_government_power = {
+					mechanic_type = monumentality_mechanic
+					power_type = godly_favor
+					value = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_government_power = {
+				mechanic_type = monumentality_mechanic
+				power_type = godly_favor
+				value = 90
+			}
+		}
+		modifier = {
+			factor = 0.1
+			has_idea = devoutness
+		}
+		modifier = {
+			factor = 0
+			has_disaster = iron_age_calamity
+		}
 	}
 }
