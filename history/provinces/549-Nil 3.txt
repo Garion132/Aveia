@@ -1,12 +1,9 @@
 #Nil 3
-
 add_core = RYN
-add_core = NIL
-owner = NIL
-controller = NIL
+owner = PAR
+controller = PAR
 culture = ryndoan
 religion = tlaunorist
-hre = no
 base_tax = 0
 base_production = 0
 trade_goods = tin
@@ -21,3 +18,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 set_variable = { which = arable_land value = 7 }
+add_core = PAR

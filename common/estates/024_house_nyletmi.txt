@@ -97,6 +97,13 @@ estate_house_nyletmi ={
 		}
 		loyalty = -25
 	}
+	loyalty_modifier = {
+		desc = EST_IMPERIAL_LOYALTY
+		trigger = {
+			government_rank = 2
+		}
+		loyalty = 10
+	}
 	
 	#Alternative naming of estates
 	

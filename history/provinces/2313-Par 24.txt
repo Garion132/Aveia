@@ -1,14 +1,11 @@
 #Shires 
-
-add_core = PAR
 add_core = CAN
-owner = PAR
-controller = PAR
+owner = CAN
+controller = CAN
 culture = canian
 religion = drethalumia
-hre = no
 base_tax = 1
-base_production =3
+base_production = 3
 base_manpower = 1
 trade_goods = slaves
 capital = "Sal"

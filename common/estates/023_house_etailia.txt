@@ -83,6 +83,13 @@ estate_house_etailia ={
 		loyalty = -10
 	}
 	loyalty_modifier = {
+		desc = EST_IMPERIAL_LOYALTY
+		trigger = {
+			government_rank = 2
+		}
+		loyalty = 10
+	}
+	loyalty_modifier = {
 		desc = EST_ETA_UNNOBLE_THRONE
 		trigger = {
 			NOT={

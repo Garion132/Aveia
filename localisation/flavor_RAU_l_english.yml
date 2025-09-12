@@ -23,6 +23,7 @@
  EST_ETA_THRONE_PU:0 "The Emperor is under a Foreign House: "
  EST_ETA_UNNOBLE_THRONE:0 "Unnoble Emperor: "
  EST_ETA_IND_DRA:0 "House is Independant: "
+ EST_IMPERIAL_LOYALTY:0 "Hegemony Loyalty: "
  estate_rauthyr_right_of_counsel:0 "Right of Imperial Counsel"
  estate_rauthyr_right_of_counsel_desc:0 "The Right of this house to speak openly to the Imperial Court without fear, only one house may be granted this privilege at a time"
  estate_rauthyr_land_rights:0 "$ESTATE_NAME$ Land Rights"

@@ -1,7 +1,7 @@
 government = bronze_monarchy
 add_government_reform = palace_economy
 government_rank = 1
-primary_culture = cenanian
+primary_culture = xuari
 religion = tlaunorist
 technology_group = lake_elves_group
 capital = 2320 # 

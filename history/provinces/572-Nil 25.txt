@@ -1,11 +1,8 @@
 #Nil 25
-
-add_core = NIL
-owner = NIL
-controller = NIL
+owner = PAR
+controller = PAR
 culture = tealclaw
 religion = godly_sect
-hre = no
 base_tax = 1
 base_production = 4
 trade_goods = paper
@@ -20,9 +17,10 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 2
+set_variable = { which = arable_land value = 13 }
+add_core = PAR
 fort_14th = yes
 gravel_roads = yes
 taxman = yes
 town_square = yes
 mint = yes
-set_variable = { which = arable_land value = 13 }

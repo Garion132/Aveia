@@ -1,11 +1,8 @@
 #Nil 24
-
-add_core = NIL
-owner = NIL
-controller = NIL
+owner = PAR
+controller = PAR
 culture = ellorhasian
 religion = godly_sect
-hre = no
 base_tax = 1
 base_production = 4
 trade_goods = cloth
@@ -20,8 +17,9 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 center_of_trade = 2
+set_variable = { which = arable_land value = 10 }
+add_core = PAR
 gravel_roads = yes
 taxman = yes
 town_square = yes
 mint = yes
-set_variable = { which = arable_land value = 10 }

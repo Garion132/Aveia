@@ -2,11 +2,10 @@
 add_core = RAN
 owner = RAN
 controller = RAN
-culture = canian
+culture = cenanian
 religion = tlaunorist
 capital = "colonial"
 trade_goods = livestock
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -21,3 +20,4 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 8
+is_city = no

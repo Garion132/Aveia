@@ -593,7 +593,7 @@ iron_working = {
 
 
 	historical_start_date = 1350.1.1
-	historical_start_province = 2556 # Florence
+	historical_start_province = 2556 # Ghand
 
 	history = {
 		is_year = 1780

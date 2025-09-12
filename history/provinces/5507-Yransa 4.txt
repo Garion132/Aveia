@@ -1,11 +1,9 @@
 #Yransa 3
-
 add_core = NIL
-owner = NIL
-controller = NIL
+owner = PAR
+controller = PAR
 culture = edailian
 religion = tlaunorist
-hre = no
 base_tax = 0
 base_production = 1
 trade_goods = fish
@@ -19,5 +17,6 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-gravel_roads = yes
 set_variable = { which = arable_land value = 10 }
+add_core = PAR
+gravel_roads = yes

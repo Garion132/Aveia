@@ -1,14 +1,11 @@
 #Shires 
-
-add_core = PAR
 add_core = CEN
-owner = PAR
-controller = PAR
+owner = CEN
+controller = CEN
 culture = cenanian
 religion = drethalumia
-hre = no
 base_tax = 2
-base_production =2
+base_production = 2
 base_manpower = 2
 trade_goods = fur
 capital = "Sal"

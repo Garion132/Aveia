@@ -1,11 +1,8 @@
 #Nil 22
-
-add_core = NIL
-owner = NIL
-controller = NIL
+owner = PAR
+controller = PAR
 culture = sradoan
 religion = tlaunorist
-hre = no
 base_tax = 0
 base_production = 0
 trade_goods = grain
@@ -19,5 +16,6 @@ discovered_by = sea_elves_group
 discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
-fort_14th = yes
 set_variable = { which = arable_land value = 11 }
+add_core = PAR
+fort_14th = yes

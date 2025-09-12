@@ -1,14 +1,12 @@
 #Shires 
-
 add_core = PAR
 add_core = ZHI
 owner = PAR
 controller = PAR
-culture = cenanian
+culture = xuari
 religion = drethalumia
-hre = no
 base_tax = 2
-base_production =3
+base_production = 3
 base_manpower = 2
 trade_goods = slaves
 capital = "Sal"

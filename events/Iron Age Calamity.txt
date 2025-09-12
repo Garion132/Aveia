@@ -7585,7 +7585,7 @@ country_event = {
 			trigger = {
 				OR = {
 					has_country_flag = iac_collapsed_during_calamity
-					NOT={total_development = 800}
+					is_great_power = no
 				}
 				OR={
 					has_disaster = crisis_of_the_12th_century

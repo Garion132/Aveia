@@ -178,55 +178,55 @@ dependency = {
 #nilaurhalin rework
 dependency = {
 	subject_type = "tributary_state"
-	first = NIL
+	first = PAR
 	second = ATE
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
 dependency = {
 	subject_type = "tributary_state"
-	first = NIL
+	first = PAR
 	second = UAL
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
 union = {
-	first = NIL
+	first = PAR
 	second = LYA
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
 dependency = {
 	subject_type = "tributary_state"
-	first = NIL
+	first = PAR
 	second = RYN
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
 dependency = {
 	subject_type = "tributary_state"
-	first = NIL
+	first = PAR
 	second = SRA
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
 dependency = {
 	subject_type = "tributary_state"
-	first = NIL
+	first = PAR
 	second = TEE
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
 dependency = {
 	subject_type = "tributary_state"
-	first = NIL
+	first = PAR
 	second = YRA
 	start_date = 1272.1.1
 	end_date = 1532.8.3
 }
 dependency = {
 	subject_type = "tributary_state"
-	first = NIL
+	first = PAR
 	second = ZLS
 	start_date = 1272.1.1
 	end_date = 1532.8.3

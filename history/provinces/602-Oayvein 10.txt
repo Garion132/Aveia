@@ -1,14 +1,11 @@
 #Oayvein 10
-
 add_core = OAY
-add_core = NIL
-owner = NIL
-controller = NIL
-culture = soilseeders
+owner = SRA
+controller = SRA
+culture = sradoan
 religion = tlaunorist
-hre = no
 base_tax = 0
-base_production =0
+base_production = 0
 trade_goods = wool
 base_manpower = 5
 capital = "Oay 10"
@@ -21,3 +18,4 @@ discovered_by = ork_group
 discovered_by = dunirr_group
 extra_cost = 0
 set_variable = { which = arable_land value = 5 }
+add_core = SRA
