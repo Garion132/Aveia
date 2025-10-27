@@ -80,7 +80,7 @@ monarch_names = {
 ship_names = {
         Athis
         Bel-Air Boultan Bouy
-        Chavenay Combert Courtaumont Court-sur-Couffy Cumi�res
+        Chavenay Combert Courtaumont Court-sur-Couffy Cumires
         Fontenelle
         Gizaucourt
         Isse
