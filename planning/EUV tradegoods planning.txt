@@ -1,0 +1,189 @@
+
+# Raw Goods
+    # Mining
+    Alum
+    Coal
+    Iron
+    Lead
+    Saltpeter
+    Stone
+    Tin
+    Gold
+    
+    Marble
+    Gems
+    Copper
+    Silver
+    Mercury
+
+    # Gathering
+    Amber
+    Clay
+    Pearls
+    Salt
+    Sand
+
+    # Farming
+    Dyes
+    Incense
+    Tea
+
+    # Hunting
+    Ivory
+    
+    # Logging
+    Lumber
+    
+    # REDONE/NEW
+    # Mining
+    Plaulum
+    Guedina
+    Viatite
+    Jade
+
+    # Gathering
+    Medicaments
+    Ecriamin
+    Sunspot
+    Icorine
+
+    # Hunting
+
+    # Logging
+    Udezer Wood
+    Ironwood
+        # Spices
+    Kurrak          - Valkator
+
+    # Farming
+    Spirl
+    Sugar
+    Wine
+    Fiber Crops
+    Cotton
+    Chiming Pearls
+    Iresta
+        # Spices
+    Pepper          - South Aveia + Southwest Kaltros (Kirloi)
+    Miktal          - West Valkator + Bulkir + South Elteria
+    Black Eliph     - Shield Islands
+    Akakarin        - East Kaltros
+        Comes from Witch's Seeds. Won't grow well next to Chiming Pearls
+
+# Food
+    
+    #Gathering
+    Fish
+    
+    # Hunting
+    Wild Game
+
+    # Farming
+    Wheat
+    Beeswax
+
+    # REDONE/NEW
+    # Hunting
+    Fur
+
+    # Farming
+    Livestock
+    Legumes
+    Sturdy Grains
+    Wool
+    Fruit
+
+    Vercroth Fruit
+    Theiss
+    Erysim
+    Atyle Sap
+
+# Produced Goods
+    
+    # Consumer
+    Beer
+    Books
+    Cloth
+    Fine Cloth
+    Furniture
+    Jewelry
+    Liquor
+    Porcelain
+    Pottery
+
+    # Industrial
+    Leather
+    Masonry
+    Naval Supplies
+    Slaves
+    Tar
+    Tools
+    Weaponry
+
+    # Late
+    Glass
+    Steel
+    Cannon
+    Firearms
+
+    # REDONE/NEW
+    Writing Materials
+    Machinery
+
+#Basic, 9
+grain
+fruit
+fish
+livestock
+naval supples
+salt
+Pademi fur (This animal has dark green furred skin and a body shaped like a deer's.  Its face resembles that of a hamster and its eyes remind you of a goat's.  It has a frill around its neck.)
+Komule wool(This animal has mid-length vivid yellow fur and has a body shaped like a horse's.  Its face resembles that of a crane and its eyes remind you of a rat's.  It has a mid-length mane around its neck, and a pair of mid-length horns.)
+cloth
+
+#Metals, 5
+copper
+tin
+iron
+silver
+Plaulum (gold-like This metal is a light purplish-gray in color and does not oxidate.  It is quite soft when solid and melts at 3722 degrees Kelvin.  It is an excellent conductor of electricity and a good conductor of heat.  It is toxic in moderate quantities.)
+
+#Magical Mystical Materials, 4
+Guedina	(cesimum-like metal/ iridescent pale orange in color and produces royal purple oxide)
+Ankon (mythril-like/ pale rose in color)
+Vitaite	(transparent lilac bouyant crysal, increase bouyancy with extreme heat)
+Bryrine ( electric blue in color and produces indigo oxide, magic superconductor)
+Icorine (Ichor, the Blood of the gods; enchances the potancy of anything added to)
+
+#Luxuries, 11
+slaves
+gems
+glass
+dyes
+paper
+Wine (made from a light-blue berry)
+Udezer Wood (magical blue wood) lux
+Gold Knot (golden leaves, white five-petaled flowers. tobacco-like product)
+spirl (giant spider silk-like product)
+Coal
+Machinery
+Manufactured Goods
+
+#Elteria (South-Western Continent), 5
+Ecriamin (Blue five leaf clover, Magical Healing Herbs)
+Theiss (Root vegatable)
+Erysim (fruit)
+Atyle Sap (Yellow maple syrup)
+Ironwood ()
+
+#Eastern Aveia, 4
+Quedarma Horn (megafauna, giant, greenish-gray, snake with horns and a frill)
+Spices
+Kurrak (Tall Tree, bright red leaves and seeds, bone white bark. each part of the tree can be used for something, seeds act similar like sweetpowder, bark like cinamon, wood is often used akin to Udezer Wood)
+Chiming tree (Purple bell flowers that act like jingle bells in the wind, has a mast year every 3 years where the flowers and seeds are increased in size making the sound much louder, the interal "clapper" is a seed covered in mother of pearl, highly prized for its luster and rumored to extend life, in acually it, when crushed it weakens magic near to it for a time)
+
+#New World, 4
+Iresta (coffee-like, )
+Black Eliph (cocoa-like, crushed flowers, cluster of dark red six-petaled flowers)
+Sweetpowder (sugar)
+Vecroth Fruit (Blackish Purple Fruit, spikey leaves, Staple food like Potatoes or Maize)
